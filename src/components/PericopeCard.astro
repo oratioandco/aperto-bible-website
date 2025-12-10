@@ -44,7 +44,7 @@ const { id, title, subtitle, verses, image, verseData, media, exegesis, lang, is
 
 // Parse practice content from markdown to HTML
 const practiceContentHtml = media.practice?.content ? marked.parse(media.practice.content) : '';
-const base = '/aperto-bible-website';
+const base = '';
 
 const songs: Song[] = media.songs || (media.song ? [{ ...media.song, genre: '' }] : []);
 const hasMedia = media.practice || songs.length > 0 || media.podcast || exegesis || media.audioBible;

@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://oratioandco.github.io",
-  base: "/aperto-bible-website",
+  site: "https://apertobible.com",
+  base: "/",
   trailingSlash: "ignore",
   vite: {
     plugins: [tailwindcss()],

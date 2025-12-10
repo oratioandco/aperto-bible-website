@@ -3,7 +3,7 @@
 /* Font Declarations */
 @font-face {
     font-family: "Softcore";
-    src: url("/aperto-bible-website/fonts/SoftcoreVar.woff2") format("woff2");
+    src: url("/fonts/SoftcoreVar.woff2") format("woff2");
     font-weight: 100 900;
     font-display: swap;
     font-style: normal;
@@ -11,8 +11,7 @@
 
 @font-face {
     font-family: "Softcore";
-    src: url("/aperto-bible-website/fonts/SoftcoreVarItalic.woff2")
-        format("woff2");
+    src: url("/fonts/SoftcoreVarItalic.woff2") format("woff2");
     font-weight: 100 900;
     font-display: swap;
     font-style: italic;
@@ -20,8 +19,7 @@
 
 @font-face {
     font-family: "Switzer";
-    src: url("/aperto-bible-website/fonts/Switzer-Regular.woff2")
-        format("woff2");
+    src: url("/fonts/Switzer-Regular.woff2") format("woff2");
     font-weight: 150;
     font-display: swap;
     font-style: normal;
@@ -29,7 +27,7 @@
 
 @font-face {
     font-family: "Switzer";
-    src: url("/aperto-bible-website/fonts/Switzer-Medium.woff2") format("woff2");
+    src: url("/fonts/Switzer-Medium.woff2") format("woff2");
     font-weight: 500;
     font-display: swap;
     font-style: normal;
@@ -37,8 +35,7 @@
 
 @font-face {
     font-family: "Stoned Youth";
-    src: url("/aperto-bible-website/fonts/StonedYouthRegular.woff2")
-        format("woff2");
+    src: url("/fonts/StonedYouthRegular.woff2") format("woff2");
     font-weight: normal;
     font-display: swap;
     font-style: normal;
@@ -46,7 +43,7 @@
 
 @font-face {
     font-family: "Silvera";
-    src: url("/aperto-bible-website/fonts/SilveraRegular.woff2") format("woff2");
+    src: url("/fonts/SilveraRegular.woff2") format("woff2");
     font-weight: normal;
     font-display: swap;
     font-style: normal;
@@ -54,7 +51,7 @@
 
 @font-face {
     font-family: "Raygun";
-    src: url("/aperto-bible-website/fonts/RaygunRegular.woff2") format("woff2");
+    src: url("/fonts/RaygunRegular.woff2") format("woff2");
     font-weight: normal;
     font-display: swap;
     font-style: normal;
