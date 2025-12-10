@@ -42,3 +42,4 @@ Content is parsed from the main `aperto-bible` repository:
 ## License
 
 CC BY-SA 4.0
+
