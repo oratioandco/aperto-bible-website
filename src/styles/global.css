@@ -1,0 +1,329 @@
+@import "tailwindcss";
+
+/* Font Declarations */
+@font-face {
+    font-family: "Softcore";
+    src: url("/aperto-bible-website/fonts/SoftcoreVar.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Softcore";
+    src: url("/aperto-bible-website/fonts/SoftcoreVarItalic.woff2")
+        format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("/aperto-bible-website/fonts/Switzer-Regular.woff2")
+        format("woff2");
+    font-weight: 150;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("/aperto-bible-website/fonts/Switzer-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stoned Youth";
+    src: url("/aperto-bible-website/fonts/StonedYouthRegular.woff2")
+        format("woff2");
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Silvera";
+    src: url("/aperto-bible-website/fonts/SilveraRegular.woff2") format("woff2");
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raygun";
+    src: url("/aperto-bible-website/fonts/RaygunRegular.woff2") format("woff2");
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@theme {
+    /* Unified Color Palette */
+    --color-cream: #fffbf5;
+    --color-paper: #faf7f2;
+    --color-beige: #f0ebe3;
+    --color-sand: #e5dfd5;
+
+    /* Primary accent - warm terracotta */
+    --color-accent: #8b7355;
+    --color-accent-light: #a89070;
+    --color-accent-muted: #c4b49a;
+
+    /* Text colors */
+    --color-charcoal: #2c2c2c;
+    --color-text: #3d3d3d;
+    --color-text-muted: #6a6a6a;
+    --color-warm-gray: #9a8f85;
+
+    /* Amplification - distinct but subtle */
+    --color-amplification: #a08060;
+    --color-amplification-bg: transparent;
+
+    /* Headlines */
+    --color-headline: #5a4a3a;
+    --color-headline-caps: #8a7a6a;
+
+    /* UI accents */
+    --color-border: rgba(139, 115, 85, 0.15);
+    --color-border-strong: rgba(139, 115, 85, 0.3);
+
+    /* Fonts */
+    --font-bible: "Softcore", Georgia, serif;
+    --font-ui: "Switzer", system-ui, sans-serif;
+    --font-headline-lower: "Stoned Youth", serif;
+    --font-headline-caps: "Silvera", serif;
+    --font-logo: "Raygun", sans-serif;
+}
+
+html {
+    font-family: var(--font-ui);
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+}
+
+body {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Default headings use Softcore (for website UI) */
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-bible);
+    font-weight: 150;
+    letter-spacing: -0.01em;
+    color: var(--color-charcoal);
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+h3 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+}
+
+/* Bible passage headlines use Stoned Youth / Silvera mix */
+.bible-headline {
+    font-family: var(--font-headline-lower);
+    font-weight: 150;
+    letter-spacing: 0.5px;
+    color: var(--color-headline);
+}
+
+.bible-headline .cap {
+    font-family: var(--font-headline-caps);
+    text-transform: uppercase;
+    font-size: 1.15em;
+    line-height: 0.9;
+    color: var(--color-headline-caps);
+}
+
+.headline-mixed {
+    font-family: var(--font-headline-lower);
+    color: var(--color-headline);
+}
+
+.headline-mixed .cap {
+    font-family: var(--font-headline-caps);
+    text-transform: uppercase;
+    font-size: 1.08em;
+    line-height: 0.9;
+    color: var(--color-headline-caps);
+}
+
+.verse-text {
+    font-family: var(--font-bible);
+    font-size: 1.25rem;
+    line-height: 1.9;
+    font-weight: 200;
+    color: var(--color-text);
+}
+
+.passage-reference {
+    font-family: var(--font-ui);
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    opacity: 0.6;
+}
+
+/* Amplification styling - distinct green-gray tone */
+.amplification {
+    font-family: var(--font-ui);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.88em;
+    color: var(--color-amplification);
+}
+
+.section-title {
+    font-family: var(--font-bible);
+    font-size: 1.5rem;
+    font-weight: 150;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-charcoal);
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+a:hover {
+    color: var(--color-accent-light);
+}
+
+.sidenote {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--color-warm-gray);
+}
+
+/* Poetry formatting */
+.verse-poetry-block {
+    display: block;
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--color-border-strong);
+    font-style: italic;
+}
+
+.poetry-line-1 {
+    display: block;
+    padding-left: 0;
+    margin: 0.15em 0;
+}
+
+.poetry-line-2 {
+    display: block;
+    padding-left: 2em;
+    margin: 0.15em 0;
+}
+
+.poetry-container {
+    font-style: italic;
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--color-border-strong);
+}
+
+.paragraph-break {
+    display: block;
+    height: 1em;
+}
+
+/* Footnote categories */
+.footnote-category {
+    display: inline-block;
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-right: 6px;
+    font-weight: 500;
+    font-family: var(--font-ui);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.footnote-category-text {
+    background: #e8f0e8;
+    color: #4a6b4a;
+}
+.footnote-category-kultur,
+.footnote-category-culture {
+    background: #f4ebe0;
+    color: #8b6914;
+}
+.footnote-category-leben,
+.footnote-category-life {
+    background: #f8e8e8;
+    color: #9b4a4a;
+}
+.footnote-category-kontext,
+.footnote-category-context {
+    background: #e8ebf4;
+    color: #5a5a8b;
+}
+.footnote-category-unglaublich,
+.footnote-category-hard {
+    background: #f0e8f4;
+    color: #7b5a8b;
+}
+
+.verse-number {
+    font-family: var(--font-ui);
+    color: var(--color-accent);
+    margin-right: 0.35em;
+    font-size: 0.75em;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+/* Media/UI elements */
+.media-button {
+    transition: all 0.2s ease;
+}
+.media-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.media-card {
+    background: var(--color-beige);
+    border: 1px solid var(--color-border);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+.media-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Audio player consistent styling */
+audio {
+    border-radius: 8px;
+}
+audio::-webkit-media-controls-panel {
+    background: var(--color-beige);
+}
+
+.logo {
+    font-family: var(--font-logo);
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+}

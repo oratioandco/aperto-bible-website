@@ -1,0 +1,28 @@
+
+> aperto-website@0.0.1 dev
+> astro dev
+
+17:48:31 [types] Generated 1ms
+
+Auto-generating collections for folders in "src/content/" that are not defined as collections.
+This is deprecated, so you should define these collections yourself in "src/content.config.ts".
+The following collections have been auto-generated: images, podcasts
+
+17:48:31 [content] Syncing content
+17:48:31 [WARN] [glob-loader] No files found matching "**/*.md,!**/_*/**/*.md,!**/_*.md" in directory "src/content/images"
+17:48:31 [WARN] [glob-loader] No files found matching "**/*.md,!**/_*/**/*.md,!**/_*.md" in directory "src/content/podcasts"
+17:48:31 [content] Synced content
+
+ astro  v5.16.4 ready in 1286 ms
+
+┃ Local    http://localhost:4321/aperto-website
+┃ Network  use --host to expose
+
+17:48:31 watching for file changes...
+17:48:38 [200] /en/luke/1 557ms
+17:56:12 [200] /en/luke/1 262ms
+17:58:08 [200] /en/luke/1 14ms
+18:09:26 [200] /en/luke/1 13ms
+18:11:47 [200] /en/luke/1 213ms
+18:27:54 [200] /en/luke/1 25ms
+18:28:13 [200] /de/luke/1 13ms

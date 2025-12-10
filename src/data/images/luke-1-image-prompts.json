@@ -1,0 +1,80 @@
+{
+  "book": "Luke",
+  "chapter": 1,
+  "style_notes": "Austurbane aesthetic - minimalist Mediterranean biblical style with dramatic natural lighting, plant shadows, earth tones, and sacred simplicity. Top-down or elevated 45-degree compositions. Professional editorial photography.",
+  "color_palette": "Sand beige, warm cream, weathered terracotta, raw umber, burnt sienna, dusty clay, copper, bronze, aged gold, muted olive green, dusty sage, warm stone gray, natural limestone white",
+  "images": [
+    {
+      "id": "prologue",
+      "title": "Why I'm Writing This",
+      "verses": "1-4",
+      "filename": "luke_01_prologue.png",
+      "prompt": "Minimalist biblical product photography, ancient papyrus scrolls partially unrolled on weathered limestone surface beside terracotta inkwell and bronze stylus, Mediterranean austere aesthetic, dramatic morning sunlight creating sharp olive branch shadows diagonally across composition, top-down isometric view, small clay oil lamp as supporting element, prismatic light through ancient glass vessel in background, color palette of warm sand beige, weathered terracotta, oxidized bronze and raw umber, massive negative space on right third of frame, professional editorial photography, sacred minimalist composition, natural film grain",
+      "negative_prompt": "text, letters, writing visible, people, faces, modern elements, bright colors, clutter",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "zechariah-elizabeth",
+      "title": "An Old Priest, an Empty Nursery",
+      "verses": "5-25",
+      "filename": "luke_01_zechariah_temple.png",
+      "prompt": "Austere minimalist biblical photography, ancient brass censer with rising incense smoke on weathered Jerusalem limestone altar, Mediterranean temple aesthetic, dramatic shaft of golden light creating sacred atmosphere, sharp shadows from olive branches across ancient stone, elevated 45-degree angle composition, aged bronze lamp and linen priest's cloth as supporting elements, color palette of warm stone gray, aged gold, dusty sage and burnt sienna, massive negative space suggesting temple void, organic shadows, professional editorial photography, sacred silence",
+      "negative_prompt": "people, faces, modern elements, bright colors, clutter, busy patterns",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "annunciation",
+      "title": "Mary Says Yes",
+      "verses": "26-38",
+      "filename": "luke_01_annunciation.png",
+      "prompt": "Tranquil minimalist biblical photography, simple clay water jar and rough-woven linen cloth on aged olive wood surface in humble dwelling, Mediterranean domestic aesthetic, soft dawn light streaming through small window creating gentle plant shadows of rosemary across composition, intimate 45-degree angle, wooden bowl with grain and small terracotta lamp as supporting elements, color palette of warm cream, natural linen white, dusty sage and weathered terracotta, peaceful horizontal composition with massive negative space suggesting ordinary made sacred, professional editorial photography, tender atmosphere",
+      "negative_prompt": "angels, wings, halos, people, faces, religious symbols, modern elements, bright colors",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "visitation",
+      "title": "Two Women, Two Miracles",
+      "verses": "39-45",
+      "filename": "luke_01_visitation.png",
+      "prompt": "Minimalist biblical landscape photography, ancient dusty path winding through Judean hill country with olive groves and terraced hillsides, Mediterranean journey aesthetic, golden hour sunlight creating long shadows from fig trees and wild herbs, elevated wide-angle composition, weathered sandstone and dried wildflowers as foreground elements, color palette of raw umber, dusty olive green, warm terracotta and sun-bleached cream, vast negative space of sky suggesting distance traveled, professional editorial landscape photography, sacred pilgrimage atmosphere",
+      "negative_prompt": "people, faces, vehicles, modern elements, bright harsh colors",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "magnificat",
+      "title": "Mary's Song",
+      "verses": "46-56",
+      "filename": "luke_01_magnificat.png",
+      "prompt": "Revolutionary minimalist biblical still life, terracotta bowl with fresh figs and pomegranates tipped dramatically beside overturned bronze vessel on ancient stone surface, Mediterranean prophetic aesthetic, dynamic diagonal sunlight creating bold plant shadows from grape vine leaves, slightly tilted composition suggesting upheaval, scattered grain and broken pottery shards as supporting elements, color palette of rich terracotta, deep fig purple, aged gold and warm honey tones, dramatic movement in shadows, professional editorial photography, sacred abundance meets revolutionary spirit",
+      "negative_prompt": "people, faces, modern elements, static composition, muted colors",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "john-birth",
+      "title": "The Birth of John",
+      "verses": "57-66",
+      "filename": "luke_01_john_birth.png",
+      "prompt": "Intimate minimalist biblical photography, simple wooden cradle with natural linen blanket beside small bronze oil lamp casting warm glow on limestone surface, Mediterranean newborn aesthetic, tender candlelight creating soft organic shadows of olive branches, low-angle intimate composition, clay water basin and dried lavender bundle as supporting elements, color palette of warm cream linen, aged bronze, soft honey gold and dusty sage, gentle horizontal composition with massive negative space suggesting quiet miracle, professional editorial photography, sacred tenderness",
+      "negative_prompt": "baby visible, people, faces, modern elements, harsh lighting",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "benedictus",
+      "title": "Zechariah's Song",
+      "verses": "67-79",
+      "filename": "luke_01_benedictus.png",
+      "prompt": "Dawn minimalist biblical landscape photography, first light breaking over Judean hills with morning mist in valleys below, Mediterranean prophetic aesthetic, tender sunrise rays creating golden warmth on ancient stone village rooftops, elevated panoramic composition, wild rosemary and weathered olive branches as foreground elements, color palette of soft rose gold, morning mist blue-gray, warm honey and dusty sage, vast horizontal composition suggesting voice returning after silence, professional editorial photography, sacred dawn of new era",
+      "negative_prompt": "people, faces, modern elements, harsh shadows, midday lighting",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "john-childhood",
+      "title": "Into the Wilderness",
+      "verses": "80",
+      "filename": "luke_01_wilderness.png",
+      "prompt": "Austere minimalist biblical landscape photography, Judean desert wilderness with rocky terrain and wild hyssop plants, Mediterranean solitude aesthetic, dramatic late afternoon light creating long shadows from scattered boulders, elevated wide composition, dried wildflowers and weathered sandstone as foreground elements, color palette of raw sienna, dusty ochre, warm stone gray and pale cream, vast negative space of desert suggesting formation in solitude, professional editorial landscape photography, sacred wilderness mystique, contemplative atmosphere",
+      "negative_prompt": "people, faces, modern elements, lush vegetation, water",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

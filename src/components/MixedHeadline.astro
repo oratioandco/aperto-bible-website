@@ -1,0 +1,39 @@
+---
+interface Props {
+  text: string;
+  tag?: 'h1' | 'h2' | 'h3' | 'h4';
+  class?: string;
+}
+
+const { text, tag = 'h1', class: className = '' } = Astro.props;
+const Tag = tag;
+
+// Split text into characters and wrap capitals in spans
+function formatMixedText(text: string): string {
+  return text.split('').map(char => {
+    if (/[A-Z]/.test(char)) {
+      return '<span class="cap">' + char + '</span>';
+    }
+    return char;
+  }).join('');
+}
+
+const formattedText = formatMixedText(text);
+---
+
+<Tag class:list={['headline-mixed', className]} set:html={formattedText} />
+
+<style>
+  .headline-mixed {
+    font-family: 'Stoned Youth', serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  
+  .headline-mixed :global(.cap) {
+    font-family: 'Silvera', serif;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    line-height: 0.9;
+  }
+</style>

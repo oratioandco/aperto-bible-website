@@ -1,0 +1,70 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  hasAudio?: boolean;
+  audioSrc?: string;
+}
+
+const { id, title, hasAudio = false, audioSrc } = Astro.props;
+---
+
+<div id={id} class="modal-overlay hidden fixed inset-0 bg-charcoal/50 z-50 flex items-center justify-center p-4">
+  <div class="modal-content bg-cream rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl">
+    <div class="flex justify-between items-center p-6 border-b border-beige">
+      <h3 class="font-serif text-xl">{title}</h3>
+      <button class="modal-close text-warm-gray hover:text-charcoal text-2xl" aria-label="Close">&times;</button>
+    </div>
+    
+    {hasAudio && (
+      <div class="p-6 border-b border-beige bg-beige/30">
+        {audioSrc ? (
+          <audio controls class="w-full">
+            <source src={audioSrc} type="audio/mpeg" />
+            Your browser does not support audio.
+          </audio>
+        ) : (
+          <div class="flex items-center gap-3 text-warm-gray">
+            <button disabled class="px-4 py-2 bg-beige rounded cursor-not-allowed opacity-50">
+              ▶ Play Audio
+            </button>
+            <span class="text-sm italic">Audio coming soon</span>
+          </div>
+        )}
+      </div>
+    )}
+    
+    <div class="p-6 overflow-y-auto max-h-[50vh] prose prose-lg">
+      <slot />
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Close on overlay click
+    document.querySelectorAll('.modal-overlay').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+        }
+      });
+    });
+    
+    // Close button
+    document.querySelectorAll('.modal-close').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.closest('.modal-overlay')?.classList.add('hidden');
+      });
+    });
+    
+    // Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay').forEach(modal => {
+          modal.classList.add('hidden');
+        });
+      }
+    });
+  });
+</script>

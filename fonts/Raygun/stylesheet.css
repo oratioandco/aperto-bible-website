@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Raygun';
+    src: url('RaygunRegular.woff2') format('woff2'),
+        url('RaygunRegular.woff') format('woff'),
+        url('RaygunRegular.ttf') format('truetype'),
+        url('RaygunRegular.svg#RaygunRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

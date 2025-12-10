@@ -1,0 +1,30 @@
+---
+interface Props {
+  id: string;
+  category?: string;
+  categoryEmoji?: string;
+}
+
+const { id, category, categoryEmoji } = Astro.props;
+
+const categoryClass = category ? `footnote-category-${category.toLowerCase()}` : '';
+---
+
+<span class="sidenote-wrapper">
+  <label for={`sidenote-${id}`} class="sidenote-trigger">{id}</label>
+  <input type="checkbox" id={`sidenote-${id}`} class="sidenote-toggle" />
+  <span class="sidenote">
+    {category && (
+      <span class={`footnote-category ${categoryClass}`}>
+        {categoryEmoji} {category}
+      </span>
+    )}
+    <slot />
+  </span>
+</span>
+
+<style>
+  .sidenote-wrapper {
+    position: relative;
+  }
+</style>

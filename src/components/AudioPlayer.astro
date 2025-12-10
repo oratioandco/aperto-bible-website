@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+  src: string;
+  subtitle?: string;
+}
+
+const { title, src, subtitle } = Astro.props;
+---
+
+<div class="audio-player bg-beige/50 rounded-lg p-4 mb-4">
+  <div class="flex items-center gap-4">
+    <div class="flex-1">
+      <h4 class="font-medium text-charcoal">{title}</h4>
+      {subtitle && <p class="text-sm text-warm-gray">{subtitle}</p>}
+    </div>
+  </div>
+  <audio controls class="w-full mt-3">
+    <source src={src} type="audio/mpeg" />
+    Your browser does not support audio.
+  </audio>
+</div>
+
+<style>
+  audio {
+    height: 40px;
+  }
+  audio::-webkit-media-controls-panel {
+    background-color: var(--color-cream);
+  }
+</style>
