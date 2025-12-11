@@ -1,15 +1,27 @@
 ---
 import '../styles/global.css';
+import { useTranslations, getAllLanguages, getLocalizedPath, type Lang, defaultLang } from '../i18n/utils';
 
 interface Props {
   title: string;
   description?: string;
-  lang?: string;
+  lang?: Lang;
 }
 
-const { title, description = "Aperto - An accessible Bible translation", lang = "en" } = Astro.props;
+const { title, description, lang = defaultLang } = Astro.props;
+const t = useTranslations(lang);
+const languages = getAllLanguages();
+const currentPath = Astro.url.pathname;
+
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Determine current page type for language switcher
+const pathWithoutLang = currentPath.replace(/^\/(en|de|fr|pl|tr)/, '').replace(/^\//, '');
+const pageType = pathWithoutLang.startsWith('about') ? 'about'
+  : pathWithoutLang.startsWith('process') ? 'process'
+  : pathWithoutLang.match(/^(luke|luc|lukas|lukasz)\//) ? 'reader'
+  : 'home';
 ---
 
 <!DOCTYPE html>
@@ -17,7 +29,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
+    <meta name="description" content={description || t('home.tagline')} />
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,21 +39,48 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
   <body class="min-h-screen" style="background-color: #FFFBF5;">
     <header class="px-4 md:px-16 lg:px-24 py-4 md:py-8" style="border-bottom: 1px solid #F5E6DC;">
       <nav class="max-w-6xl mx-auto flex justify-between items-center">
-        <a href={base} class="logo text-xl md:text-2xl" style="color: #2C2C2C;">
+        <a href={`${base}${lang}/`} class="logo text-xl md:text-2xl" style="color: #2C2C2C;">
           aperto
         </a>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex gap-6 items-center">
-          <a href={`${base}about`} class="transition-colors hover:opacity-70" style="color: #9A8F85;">About</a>
-          <a href={`${base}process`} class="transition-colors hover:opacity-70" style="color: #9A8F85;">Our Process</a>
-          <div class="flex gap-1 text-sm">
-            <a href={`${base}en/luke/1`} class="px-2 py-1 rounded transition-all hover:bg-gray-100" style="border: 1px solid #F5E6DC; color: #2C2C2C;">EN</a>
-            <a href={`${base}de/luke/1`} class="px-2 py-1 rounded transition-all hover:bg-gray-100" style="border: 1px solid #F5E6DC; color: #2C2C2C;">DE</a>
-            <a href={`${base}fr/luke/1`} class="px-2 py-1 rounded transition-all hover:bg-gray-100" style="border: 1px solid #F5E6DC; color: #2C2C2C;">FR</a>
-            <a href={`${base}pl/luke/1`} class="px-2 py-1 rounded transition-all hover:bg-gray-100" style="border: 1px solid #F5E6DC; color: #2C2C2C;">PL</a>
-            <a href={`${base}tr/luke/1`} class="px-2 py-1 rounded transition-all hover:bg-gray-100" style="border: 1px solid #F5E6DC; color: #2C2C2C;">TR</a>
+          <a href={`${base}${lang}/about`} class="transition-colors hover:opacity-70" style="color: #9A8F85;">{t('nav.about')}</a>
+          <a href={`${base}${lang}/process`} class="transition-colors hover:opacity-70" style="color: #9A8F85;">{t('nav.process')}</a>
+
+          <!-- Language Switcher Dropdown -->
+          <div class="relative" id="lang-dropdown">
+            <button
+              class="flex items-center gap-1 px-2 py-1 rounded transition-all hover:bg-gray-100"
+              style="border: 1px solid #F5E6DC; color: #2C2C2C;"
+              aria-label="Select language"
+            >
+              <span class="text-sm font-medium">{lang.toUpperCase()}</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div class="absolute right-0 mt-2 py-2 w-40 rounded-lg shadow-lg hidden" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;" id="lang-menu">
+              {languages.map(({ code, name }) => (
+                <a
+                  href={pageType === 'reader' ? `${base}${code}/luke/1` : `${base}${code}/${pageType === 'home' ? '' : pageType}`}
+                  class={`block px-4 py-2 text-sm transition-colors hover:bg-gray-100 ${code === lang ? 'font-medium' : ''}`}
+                  style={code === lang ? 'color: #2C2C2C;' : 'color: #9A8F85;'}
+                >
+                  {name}
+                </a>
+              ))}
+            </div>
           </div>
+
+          <!-- Read button -->
+          <a
+            href={`${base}${lang}/luke/1`}
+            class="px-4 py-2 rounded-lg transition-all hover:opacity-90"
+            style="background-color: #2C2C2C; color: #FFFBF5;"
+          >
+            {t('nav.read')}
+          </a>
         </div>
 
         <!-- Mobile Menu Button -->
@@ -56,7 +95,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       <div id="mobile-menu" class="fixed inset-0 z-50 hidden" style="background-color: rgba(0,0,0,0.5);">
         <div class="absolute right-0 top-0 h-full w-72 p-6" style="background-color: #FFFBF5;">
           <div class="flex justify-between items-center mb-8">
-            <span class="text-xl font-medium">Menu</span>
+            <span class="text-xl font-medium">{t('nav.menu')}</span>
             <button id="mobile-menu-close" class="p-2 rounded-lg hover:bg-gray-100" aria-label="Close menu">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -66,29 +105,36 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
           <div class="space-y-6">
             <div class="space-y-4">
-              <a href={base} class="block text-lg" style="color: #2C2C2C;">Home</a>
-              <a href={`${base}about`} class="block text-lg" style="color: #2C2C2C;">About</a>
-              <a href={`${base}process`} class="block text-lg" style="color: #2C2C2C;">Our Process</a>
+              <a href={`${base}${lang}/`} class="block text-lg" style="color: #2C2C2C;">{t('nav.home')}</a>
+              <a href={`${base}${lang}/about`} class="block text-lg" style="color: #2C2C2C;">{t('nav.about')}</a>
+              <a href={`${base}${lang}/process`} class="block text-lg" style="color: #2C2C2C;">{t('nav.process')}</a>
             </div>
 
             <div class="pt-4" style="border-top: 1px solid #F5E6DC;">
-              <p class="text-sm mb-3" style="color: #9A8F85;">Read Luke 1</p>
+              <p class="text-sm mb-3" style="color: #9A8F85;">{t('nav.readLuke')}</p>
+              <a
+                href={`${base}${lang}/luke/1`}
+                class="block px-4 py-3 rounded-lg text-center transition-all mb-4"
+                style="background-color: #2C2C2C; color: #FFFBF5;"
+              >
+                {t('nav.read')}
+              </a>
+            </div>
+
+            <div class="pt-4" style="border-top: 1px solid #F5E6DC;">
+              <p class="text-sm mb-3" style="color: #9A8F85;">{t('nav.language')}</p>
               <div class="grid grid-cols-2 gap-2">
-                <a href={`${base}en/luke/1`} class="px-4 py-3 rounded-lg text-center transition-all" style="background-color: #F5E6DC; color: #2C2C2C;">
-                  <span class="block font-medium">English</span>
-                </a>
-                <a href={`${base}de/luke/1`} class="px-4 py-3 rounded-lg text-center transition-all" style="background-color: #F5E6DC; color: #2C2C2C;">
-                  <span class="block font-medium">Deutsch</span>
-                </a>
-                <a href={`${base}fr/luke/1`} class="px-4 py-3 rounded-lg text-center transition-all" style="background-color: #F5E6DC; color: #2C2C2C;">
-                  <span class="block font-medium">Français</span>
-                </a>
-                <a href={`${base}pl/luke/1`} class="px-4 py-3 rounded-lg text-center transition-all" style="background-color: #F5E6DC; color: #2C2C2C;">
-                  <span class="block font-medium">Polski</span>
-                </a>
-                <a href={`${base}tr/luke/1`} class="px-4 py-3 rounded-lg text-center transition-all col-span-2" style="background-color: #F5E6DC; color: #2C2C2C;">
-                  <span class="block font-medium">Türkçe</span>
-                </a>
+                {languages.map(({ code, name }) => (
+                  <a
+                    href={pageType === 'reader' ? `${base}${code}/luke/1` : `${base}${code}/${pageType === 'home' ? '' : pageType}`}
+                    class={`px-4 py-3 rounded-lg text-center transition-all ${code === lang ? 'col-span-2' : ''}`}
+                    style={code === lang
+                      ? 'background-color: #2C2C2C; color: #FFFBF5;'
+                      : 'background-color: #F5E6DC; color: #2C2C2C;'}
+                  >
+                    <span class="block font-medium">{name}</span>
+                  </a>
+                ))}
               </div>
             </div>
           </div>
@@ -97,6 +143,20 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     </header>
 
     <script is:inline>
+      // Language dropdown
+      const dropdown = document.getElementById('lang-dropdown');
+      const menu = document.getElementById('lang-menu');
+      if (dropdown && menu) {
+        dropdown.addEventListener('click', function(e) {
+          e.stopPropagation();
+          menu.classList.toggle('hidden');
+        });
+        document.addEventListener('click', function() {
+          menu.classList.add('hidden');
+        });
+      }
+
+      // Mobile menu
       document.getElementById('mobile-menu-btn').addEventListener('click', function() {
         document.getElementById('mobile-menu').classList.remove('hidden');
         document.body.style.overflow = 'hidden';
@@ -123,35 +183,32 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
           <div>
             <h4 class="text-xl mb-4">Aperto</h4>
             <p class="text-sm leading-relaxed" style="color: #9A8F85;">
-              A fresh translation that welcomes everyone to the conversation.
+              {t('footer.tagline')}
             </p>
           </div>
           <div>
-            <h4 class="text-xl mb-4">Navigate</h4>
+            <h4 class="text-xl mb-4">{t('footer.navigate')}</h4>
             <ul class="space-y-2 text-sm">
-              <li><a href={base} style="color: #9A8F85;">Home</a></li>
-              <li><a href={`${base}about`} style="color: #9A8F85;">About</a></li>
-              <li><a href={`${base}process`} style="color: #9A8F85;">Our Process</a></li>
+              <li><a href={`${base}${lang}/`} style="color: #9A8F85;">{t('nav.home')}</a></li>
+              <li><a href={`${base}${lang}/about`} style="color: #9A8F85;">{t('nav.about')}</a></li>
+              <li><a href={`${base}${lang}/process`} style="color: #9A8F85;">{t('nav.process')}</a></li>
             </ul>
-            <h4 class="text-lg mt-6 mb-3">Luke 1</h4>
+            <h4 class="text-lg mt-6 mb-3">{t('footer.readLuke')}</h4>
             <ul class="space-y-2 text-sm">
-              <li><a href={`${base}en/luke/1`} style="color: #9A8F85;">English</a></li>
-              <li><a href={`${base}de/luke/1`} style="color: #9A8F85;">Deutsch</a></li>
-              <li><a href={`${base}fr/luke/1`} style="color: #9A8F85;">Français</a></li>
-              <li><a href={`${base}pl/luke/1`} style="color: #9A8F85;">Polski</a></li>
-              <li><a href={`${base}tr/luke/1`} style="color: #9A8F85;">Türkçe</a></li>
+              {languages.map(({ code, name }) => (
+                <li><a href={`${base}${code}/luke/1`} style="color: #9A8F85;">{name}</a></li>
+              ))}
             </ul>
           </div>
           <div>
-            <h4 class="text-xl mb-4">License</h4>
+            <h4 class="text-xl mb-4">{t('footer.license')}</h4>
             <p class="text-sm leading-relaxed" style="color: #9A8F85;">
-              CC BY-SA 4.0<br>
-              Free to share and adapt with attribution.
+              {t('footer.licenseText')}
             </p>
           </div>
         </div>
         <div class="mt-12 pt-8 text-center text-sm" style="border-top: 1px solid #F5E6DC; color: #9A8F85;">
-          2025 Aperto Bible Project
+          {t('footer.copyright')}
         </div>
       </div>
     </footer>

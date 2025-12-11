@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "process": "Our Process",
+    "readLuke1": "Read Luke 1"
+  },
+  "footer": {
+    "tagline": "An open-source Bible translation for modern readers",
+    "navigation": "Navigation",
+    "languages": "Languages",
+    "license": "Released under CC BY-SA 4.0",
+    "copyright": "Aperto Bible Project"
+  },
+  "home": {
+    "title": "aperto",
+    "subtitle": "Scripture, opened",
+    "description": "An open-source Bible translation for modern readers. Literary quality. No insider vocabulary. Free to share.",
+    "cta": "Read Luke 1",
+    "languages": {
+      "heading": "Available in 5 languages",
+      "en": "English",
+      "de": "German",
+      "fr": "French",
+      "pl": "Polish",
+      "tr": "Turkish"
+    },
+    "features": {
+      "open": {
+        "title": "Open",
+        "description": "CC BY-SA 4.0. Free to read, share, adapt, and build upon."
+      },
+      "literary": {
+        "title": "Literary",
+        "description": "Written like contemporary fiction. No archaic language."
+      },
+      "honest": {
+        "title": "Honest",
+        "description": "Footnotes that engage with real questions. No apologetic spin."
+      }
+    }
+  },
+  "about": {
+    "title": "About Aperto",
+    "meta_description": "About the Aperto Bible translation project",
+    "intro": "<strong>Aperto</strong> (from Latin <em>apertus</em>: open, accessible) is an open-source Bible translation project based in Berlin. We're writing for believers who want fresh eyes on familiar texts—and skeptics who are curious what all the fuss is about. Whether you're deeply rooted in faith, exploring from the outside, or somewhere in between, you're welcome here.",
+    "european_project": {
+      "title": "A European Project",
+      "p1": "Most accessible Bible translations come from American evangelical contexts. They work well for their intended audiences but can feel culturally foreign to European readers—particularly those outside church communities.",
+      "p2": "Aperto is shaped by the European context: post-Christian, pluralistic, and culturally diverse. Our approach is ecumenical—drawing on Catholic, Orthodox, Protestant, and Pentecostal perspectives—and intersectional, aware of how translations have historically been used to both liberate and harm. We engage with contemporary biblical scholarship—including feminist, postcolonial, and social-historical readings—not as ideological positions but because readers deserve intellectual honesty about how interpretation works."
+    },
+    "why_another": {
+      "title": "Why Another Translation?",
+      "p1": "Most Bible translations fall into two camps: scholarly accuracy (hard to read) or evangelical accessibility (loaded with insider language). Aperto takes a third path: literary quality that welcomes everyone.",
+      "p2": "We write for the person who reads contemporary fiction, watches quality documentaries, and is curious about ancient texts—whether they're lifelong believers wanting fresh perspective or skeptics wondering what these texts actually say."
+    },
+    "philosophy": {
+      "title": "Translation Philosophy",
+      "intro": "Our approach balances accessibility, scholarly depth, and ecumenical breadth:",
+      "no_insider": "<strong>No insider vocabulary:</strong> Everyday words that don't require religious background.",
+      "literary": "<strong>Literary quality:</strong> Written to match contemporary fiction standards.",
+      "footnotes": "<strong>Honest footnotes:</strong> Cultural context, Greek word studies, multiple interpretive options, and acknowledgment of difficult passages.",
+      "ecumenical": "<strong>Ecumenical foundations:</strong> Catholic, Orthodox, Protestant, and Pentecostal scholarship represented fairly—not flattened into one tradition.",
+      "diverse": "<strong>Diverse scholarship:</strong> Drawing on feminist, liberationist, and historical-critical readings alongside traditional commentaries.",
+      "multimedia": "<strong>Multimedia first:</strong> Audio Bible, podcasts, songs, and contemplative practices—meeting people where they are."
+    },
+    "name": {
+      "title": "The Name",
+      "text": "Aperto comes from Latin <em>apertus</em>: open, accessible, unconcealed. It's inspired by Luke 24:32, where the disciples say their hearts burned within them as Jesus \"opened\" the Scriptures to them."
+    },
+    "languages": {
+      "title": "Languages",
+      "text": "Currently available in English, German, French, Polish, and Turkish. Each translation is culturally adapted for its context—not just linguistically translated but reimagined for how people in Berlin, Paris, Warsaw, or Istanbul might encounter these texts."
+    },
+    "license": {
+      "title": "License",
+      "text": "Aperto is released under <strong>CC BY-SA 4.0</strong>. Everything—translation, exegesis, songs, podcasts—is free to share, adapt, and build upon. The only requirement: share your adaptations under the same open license."
+    },
+    "get_involved": {
+      "title": "Get Involved",
+      "text": "This is an open-source project. Contributions welcome—translation help, cultural consultation, audio production, or technical development."
+    }
+  },
+  "process": {
+    "title": "The Stones Are Crying Out",
+    "meta_description": "How AI-assisted translation is making Scripture accessible to everyone",
+    "header_label": "HOW WE WORK",
+    "subtitle": "An AI-first approach to Bible translation—and why we believe it's not just acceptable, but necessary.",
+    "gap": {
+      "title": "The Gap We're Trying to Close",
+      "p1": "Biblical scholarship has never been richer. We have access to papyri, Dead Sea Scrolls, Greco-Roman literature, ancient Near Eastern texts, and centuries of careful exegesis. The gap between what scholars know and what reaches ordinary readers has never been wider.",
+      "p2": "Traditional Bible translation requires teams of scholars working for decades. The ESV took 10 years. The NIV took 15. These are massive undertakings requiring institutional backing, funding, and infrastructure that simply doesn't exist in most cultural contexts.",
+      "p3": "Meanwhile, the people who might benefit most from fresh, accessible Scripture—those outside traditional church structures, those in smaller language communities, those who've been burned by religious institutions—are left with translations that feel foreign, archaic, or loaded with insider vocabulary."
+    },
+    "theological": {
+      "title": "A Theological Justification",
+      "quote": "\"I tell you, if these were silent, the very stones would cry out.\"",
+      "quote_source": "— Luke 19:40",
+      "p1": "When Jesus said this, he was responding to religious leaders who wanted to silence the proclamation of who he was. His point: if the expected voices fall silent, God will use unexpected means.",
+      "p2": "We don't claim AI is the \"stones crying out\" in any literal sense. But we do believe that when traditional gatekeepers can't or won't make Scripture accessible to everyone, God's message will find other ways through.",
+      "p3": "There's a certain poetry to it: silicon chips are, after all, rocks we taught to think. Sand refined, etched with circuits, trained on humanity's collected wisdom. If God can speak through a burning bush, a donkey, or bread and wine—perhaps silicon isn't so strange a medium.",
+      "p4": "The printing press was once viewed with suspicion by religious authorities. So was translating the Bible into vernacular languages. Every technological shift that democratized access to Scripture was initially resisted—and eventually embraced.",
+      "p5": "AI is a tool. Like any tool, it can be used well or poorly. We're trying to use it well."
+    },
+    "how_it_works": {
+      "title": "How Our Process Works",
+      "step1_title": "Deep Exegesis",
+      "step1_text": "We start with comprehensive scholarly research: Greek text analysis, major commentaries (Anchor Bible, Hermeneia, Baker, N.T. Wright), lexicons (BDAG, Louw-Nida), cultural studies, and patristic sources. AI helps us synthesize vast amounts of scholarship that no single human could process.",
+      "step2_title": "Translation Philosophy",
+      "step2_text": "We aim for a translation that is accessible to unchurched readers without losing theological depth. No religious jargon. Contemporary language that reads like modern literary prose. Every verse is filtered through this lens.",
+      "step3_title": "Footnotes as Bridge",
+      "step3_text": "We don't hide complexity—we make it accessible. Footnotes explain cultural context, Greek word choices, scholarly debates, and \"hard to believe\" passages that deserve honest acknowledgment rather than apologetic smoothing.",
+      "step4_title": "Multimedia First",
+      "step4_text": "Media is the expected format now. Long-form reading has become the exception, not the norm—people listen to podcasts on their commute, discover ideas through songs, and engage with content in short bursts throughout the day. Audio Bible readings, discussion podcasts, original songs, and contemplative practices aren't supplements to the text. They're primary ways people will encounter it.",
+      "step5_title": "Human Review",
+      "step5_text": "Every translation passes through human review. AI generates drafts; humans refine, correct, and approve. The goal isn't to remove humans from the process—it's to amplify what humans can accomplish."
+    },
+    "audience": {
+      "title": "Who This Is For",
+      "p1": "We're writing for young urban professionals in cities like Berlin, London, Paris, Warsaw, and Istanbul—people navigating questions of meaning and identity in secular contexts. Our translation balances ecumenical breadth, scholarly depth, and genuine accessibility for believers and non-believers alike.",
+      "p2": "Traditional Bible translations often assume readers are already part of a church community, with familiarity of religious vocabulary and theological concepts. We're writing for people who:",
+      "list": [
+        "Are curious about the Bible but feel alienated by church culture",
+        "Read contemporary fiction and want Scripture that reads with similar quality",
+        "Have left organized religion but haven't lost interest in meaning",
+        "Come from cultural contexts where Christianity feels foreign or colonial",
+        "Prefer podcasts and playlists to traditional Bible study",
+        "Want intellectual honesty about difficult passages, not apologetic spin"
+      ],
+      "p3": "But we're also writing for lifelong believers who want to encounter familiar texts with fresh eyes—without the interpretive layers that can accumulate over years of church attendance."
+    },
+    "freely": {
+      "title": "Freely Received, Freely Give",
+      "p1": "There are excellent modern Bible translations. Some are even accessible and well-written. But most are locked behind licensing restrictions that limit how they can be used, shared, adapted, and built upon. We believe Scripture should be as free as the message it carries.",
+      "p2": "Reading patterns are changing in the digital age. Deep study is becoming rarer while consumptive engagement—podcasts, short-form content, audio—is on the rise. A Bible engagement project for a new generation needs to take this seriously. We want to experiment and explore what's possible with today's \"printing presses\": AI, multimedia, open-source collaboration.",
+      "p3": "This isn't about replacing traditional Bible study. It's about creating multiple entry points—songs that stick in your head, podcasts for your commute, practices you can do in five minutes. Some will go deeper. Many won't. Both are okay.",
+      "p4": "CC BY-SA 4.0 means anyone can take what we create and build on it. Remix the songs. Adapt the translation for your dialect. Create an app, a curriculum, a theatrical production. The only requirement: share your adaptations under the same open license."
+    },
+    "open": {
+      "title": "Radically Open",
+      "p1": "Aperto is released under CC BY-SA 4.0. Everything—the translation, the exegesis, the songs, the process documentation—is free to use, adapt, and build upon.",
+      "p2": "Why? Because Scripture belongs to everyone. The early church didn't copyright their manuscripts. The Reformers didn't paywall their translations. We believe the message of the Bible should be as accessible as possible.",
+      "p3": "If you want to take our German translation and adapt it for Austrian dialect—go ahead. If you want to use our exegesis to create a children's version—please do. If you want to remix our songs for your local context—that's what they're for."
+    },
+    "limitations": {
+      "title": "What We Get Wrong",
+      "p1": "We're not claiming this is perfect. AI makes mistakes. So do humans. Every translation involves interpretation, and every interpretation can be contested.",
+      "p2": "Some things AI still struggles with:",
+      "list": [
+        "Nuanced theological distinctions that require deep domain expertise",
+        "Cultural adaptations that require lived experience in a community",
+        "Poetic rhythm and wordplay that require native speaker intuition",
+        "Knowing when to be literal vs. dynamic in specific contexts"
+      ],
+      "p3": "We try to compensate for these limitations through human review, community feedback, and ongoing revision. But we'd rather ship something imperfect and useful than wait for something perfect that never arrives."
+    },
+    "join": {
+      "title": "Join the Conversation",
+      "text": "This is an open project. We welcome contributions—whether you're a Greek scholar, a native speaker of a target language, a musician, a designer, or simply someone who wants to read Scripture with fresh eyes.",
+      "cta_read": "Start Reading",
+      "cta_about": "About the Project"
+    }
+  }
+}

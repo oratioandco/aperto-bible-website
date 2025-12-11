@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations, type Lang } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'en' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'pl' } },
+    { params: { lang: 'tr' } },
+  ];
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = useTranslations(lang);
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+
+<BaseLayout title={t('nav.about')} lang={lang}>
+  <article class="py-16 md:py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl mb-12 headline-mixed">{t('about.title')}</h1>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.whatIs.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.whatIs.p1')}
+        </p>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('about.whatIs.p2')}
+        </p>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.philosophy.title')}</h2>
+        <div class="space-y-8">
+          <div>
+            <h3 class="text-xl mb-3">{t('about.philosophy.believerSkeptic')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.philosophy.believerSkepticDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-3">{t('about.philosophy.ecumenical')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.philosophy.ecumenicalDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-3">{t('about.philosophy.accessible')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.philosophy.accessibleDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-3">{t('about.philosophy.multimedia')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.philosophy.multimediaDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-3">{t('about.philosophy.openSource')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.philosophy.openSourceDesc')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.languages.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.languages.intro')}
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <a href={`${base}en/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
+            <span class="block text-lg">English</span>
+          </a>
+          <a href={`${base}de/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
+            <span class="block text-lg">Deutsch</span>
+          </a>
+          <a href={`${base}fr/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
+            <span class="block text-lg">Français</span>
+          </a>
+          <a href={`${base}pl/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
+            <span class="block text-lg">Polski</span>
+          </a>
+          <a href={`${base}tr/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
+            <span class="block text-lg">Türkçe</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.license.title')}</h2>
+        <p class="text-lg leading-relaxed mb-4" style="color: #5A5A5A;">
+          {t('about.license.p1')}
+        </p>
+        <ul class="list-disc list-inside space-y-2 text-lg" style="color: #5A5A5A;">
+          <li>{t('about.license.share')}</li>
+          <li>{t('about.license.adapt')}</li>
+          <li>{t('about.license.attribution')}</li>
+          <li>{t('about.license.shareAlike')}</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.team.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('about.team.description')}
+        </p>
+      </section>
+    </div>
+  </article>
+</BaseLayout>

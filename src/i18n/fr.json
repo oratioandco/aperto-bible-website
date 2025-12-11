@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "process": "Notre processus",
+    "readLuke1": "Lire Luc 1"
+  },
+  "footer": {
+    "tagline": "Une traduction biblique open source pour les lecteurs modernes",
+    "navigation": "Navigation",
+    "languages": "Langues",
+    "license": "Publié sous CC BY-SA 4.0",
+    "copyright": "Projet Bible Aperto"
+  },
+  "home": {
+    "title": "aperto",
+    "subtitle": "L'Écriture, ouverte",
+    "description": "Une traduction biblique open source pour les lecteurs modernes. Qualité littéraire. Pas de vocabulaire d'initiés. Libre de partager.",
+    "cta": "Lire Luc 1",
+    "languages": {
+      "heading": "Disponible en 5 langues",
+      "en": "Anglais",
+      "de": "Allemand",
+      "fr": "Français",
+      "pl": "Polonais",
+      "tr": "Turc"
+    },
+    "features": {
+      "open": {
+        "title": "Ouvert",
+        "description": "CC BY-SA 4.0. Libre de lire, partager, adapter et développer."
+      },
+      "literary": {
+        "title": "Littéraire",
+        "description": "Écrit comme la fiction contemporaine. Pas de langage archaïque."
+      },
+      "honest": {
+        "title": "Honnête",
+        "description": "Des notes qui abordent les vraies questions. Pas de spin apologétique."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos d'Aperto",
+    "meta_description": "À propos du projet de traduction Bible Aperto",
+    "intro": "<strong>Aperto</strong> (du latin <em>apertus</em> : ouvert, accessible) est un projet de traduction biblique open source basé à Berlin. Nous écrivons pour les croyants qui veulent poser un regard neuf sur des textes familiers — et pour les sceptiques curieux de savoir ce que racontent vraiment ces textes. Que vous soyez profondément enraciné dans la foi, en exploration depuis l'extérieur, ou quelque part entre les deux : vous êtes les bienvenus ici.",
+    "european_project": {
+      "title": "Un projet européen",
+      "p1": "La plupart des traductions bibliques accessibles proviennent de contextes évangéliques américains. Elles fonctionnent bien pour leur public cible, mais peuvent sembler culturellement étrangères aux lecteurs européens — particulièrement ceux en dehors des communautés ecclésiales.",
+      "p2": "Aperto est façonné par le contexte européen : post-chrétien, pluraliste et culturellement divers. Notre approche est œcuménique — s'appuyant sur les perspectives catholiques, orthodoxes, protestantes et pentecôtistes — et intersectionnelle, consciente de la façon dont les traductions ont historiquement été utilisées pour libérer comme pour blesser. Nous travaillons avec l'exégèse biblique contemporaine — y compris les lectures féministes, postcoloniales et socio-historiques — non comme des positions idéologiques, mais parce que les lecteurs méritent l'honnêteté intellectuelle sur le fonctionnement de l'interprétation."
+    },
+    "why_another": {
+      "title": "Pourquoi une autre traduction ?",
+      "p1": "La plupart des traductions bibliques se divisent en deux camps : précision académique (difficile à lire) ou accessibilité évangélique (chargée de jargon d'initiés). Aperto emprunte une troisième voie : une qualité littéraire qui accueille tout le monde.",
+      "p2": "Nous écrivons pour ceux qui lisent de la littérature contemporaine, regardent des documentaires de qualité et sont curieux des textes anciens — qu'ils soient croyants de longue date cherchant une perspective nouvelle, ou sceptiques voulant savoir ce que disent vraiment ces textes."
+    },
+    "philosophy": {
+      "title": "Philosophie de traduction",
+      "intro": "Notre approche équilibre accessibilité, profondeur académique et largeur œcuménique :",
+      "no_insider": "<strong>Pas de vocabulaire d'initiés :</strong> Des mots du quotidien qui ne nécessitent pas de bagage religieux.",
+      "literary": "<strong>Qualité littéraire :</strong> Écrit pour correspondre aux standards de la fiction contemporaine.",
+      "footnotes": "<strong>Notes honnêtes :</strong> Contexte culturel, études des mots grecs, options d'interprétation multiples, et reconnaissance des passages difficiles.",
+      "ecumenical": "<strong>Fondations œcuméniques :</strong> Les traditions catholique, orthodoxe, protestante et pentecôtiste représentées équitablement — sans être aplaties en une seule.",
+      "diverse": "<strong>Scholarship diversifié :</strong> Lectures féministes, libérationnistes et historico-critiques aux côtés des commentaires traditionnels.",
+      "multimedia": "<strong>Multimédia d'abord :</strong> Bible audio, podcasts, chansons et pratiques contemplatives — nous rencontrons les gens là où ils sont."
+    },
+    "name": {
+      "title": "Le nom",
+      "text": "Aperto vient du latin <em>apertus</em> : ouvert, accessible, dévoilé. Il est inspiré de Luc 24,32, où les disciples disent que leur cœur brûlait tandis que Jésus leur « ouvrait » les Écritures."
+    },
+    "languages": {
+      "title": "Langues",
+      "text": "Actuellement disponible en anglais, allemand, français, polonais et turc. Chaque traduction est culturellement adaptée à son contexte — pas seulement traduite linguistiquement, mais repensée pour la façon dont les gens à Berlin, Paris, Varsovie ou Istanbul pourraient rencontrer ces textes."
+    },
+    "license": {
+      "title": "Licence",
+      "text": "Aperto est publié sous <strong>CC BY-SA 4.0</strong>. Tout — traduction, exégèse, chansons, podcasts — peut être librement partagé, adapté et développé. La seule condition : partagez vos adaptations sous la même licence ouverte."
+    },
+    "get_involved": {
+      "title": "Participer",
+      "text": "C'est un projet open source. Les contributions sont bienvenues — aide à la traduction, consultation culturelle, production audio ou développement technique."
+    }
+  },
+  "process": {
+    "title": "Les pierres crient",
+    "meta_description": "Comment la traduction assistée par IA rend les Écritures accessibles à tous",
+    "header_label": "COMMENT NOUS TRAVAILLONS",
+    "subtitle": "Une approche IA-first de la traduction biblique — et pourquoi nous croyons qu'elle est non seulement acceptable, mais nécessaire.",
+    "gap": {
+      "title": "L'écart que nous essayons de combler",
+      "p1": "L'étude biblique n'a jamais été aussi riche. Nous avons accès aux papyrus, aux manuscrits de la mer Morte, à la littérature gréco-romaine, aux textes du Proche-Orient ancien et à des siècles d'exégèse minutieuse. L'écart entre ce que les chercheurs savent et ce qui atteint les lecteurs ordinaires n'a jamais été aussi large.",
+      "p2": "La traduction biblique traditionnelle nécessite des équipes de chercheurs travaillant pendant des décennies. L'ESV a pris 10 ans. La NIV en a pris 15. Ce sont des entreprises massives nécessitant un soutien institutionnel, des financements et une infrastructure qui n'existent tout simplement pas dans la plupart des contextes culturels.",
+      "p3": "Pendant ce temps, les personnes qui pourraient le plus bénéficier d'Écritures fraîches et accessibles — celles en dehors des structures ecclésiales traditionnelles, celles dans des communautés linguistiques plus petites, celles qui ont été blessées par les institutions religieuses — se retrouvent avec des traductions qui semblent étrangères, archaïques ou chargées de vocabulaire d'initiés."
+    },
+    "theological": {
+      "title": "Une justification théologique",
+      "quote": "« Je vous le dis, si eux se taisent, les pierres crieront. »",
+      "quote_source": "— Luc 19,40",
+      "p1": "Quand Jésus a dit cela, il répondait aux chefs religieux qui voulaient faire taire la proclamation de qui il était. Son propos : si les voix attendues se taisent, Dieu utilisera des moyens inattendus.",
+      "p2": "Nous ne prétendons pas que l'IA est littéralement « les pierres qui crient ». Mais nous croyons que lorsque les gardiens traditionnels ne peuvent pas ou ne veulent pas rendre les Écritures accessibles à tous, le message de Dieu trouvera d'autres chemins.",
+      "p3": "Il y a une certaine poésie : les puces en silicium sont, après tout, des pierres que nous avons appris à penser. Du sable raffiné, gravé de circuits, entraîné sur la sagesse collective de l'humanité. Si Dieu peut parler à travers un buisson ardent, un âne, ou le pain et le vin — peut-être que le silicium n'est pas un médium si étrange.",
+      "p4": "L'imprimerie était autrefois vue avec suspicion par les autorités religieuses. Tout comme la traduction de la Bible en langues vernaculaires. Chaque changement technologique qui a démocratisé l'accès aux Écritures a d'abord été résisté — puis finalement adopté.",
+      "p5": "L'IA est un outil. Comme tout outil, il peut être bien ou mal utilisé. Nous essayons de bien l'utiliser."
+    },
+    "how_it_works": {
+      "title": "Comment fonctionne notre processus",
+      "step1_title": "Exégèse approfondie",
+      "step1_text": "Nous commençons par une recherche académique complète : analyse du texte grec, commentaires majeurs (Anchor Bible, Hermeneia, Baker, N.T. Wright), lexiques (BDAG, Louw-Nida), études culturelles et sources patristiques. L'IA nous aide à synthétiser de vastes quantités de travaux académiques qu'aucun humain seul ne pourrait traiter.",
+      "step2_title": "Philosophie de traduction",
+      "step2_text": "Nous visons une traduction accessible aux lecteurs non pratiquants sans perdre la profondeur théologique. Pas de jargon religieux. Un langage contemporain qui se lit comme de la prose littéraire moderne. Chaque verset est filtré à travers cette optique.",
+      "step3_title": "Les notes comme pont",
+      "step3_text": "Nous ne cachons pas la complexité — nous la rendons accessible. Les notes expliquent le contexte culturel, les choix de mots grecs, les débats académiques et les passages « difficiles à croire » qui méritent une reconnaissance honnête plutôt qu'un lissage apologétique.",
+      "step4_title": "Multimédia d'abord",
+      "step4_text": "Les médias sont le format attendu maintenant. La lecture longue est devenue l'exception, pas la norme — les gens écoutent des podcasts pendant leurs trajets, découvrent des idées à travers des chansons et s'engagent avec le contenu par courtes périodes tout au long de la journée. Les lectures audio de la Bible, les podcasts de discussion, les chansons originales et les pratiques contemplatives ne sont pas des suppléments au texte. Ce sont les principales façons dont les gens le rencontreront.",
+      "step5_title": "Révision humaine",
+      "step5_text": "Chaque traduction passe par une révision humaine. L'IA génère des brouillons ; les humains affinent, corrigent et approuvent. L'objectif n'est pas de retirer les humains du processus — c'est d'amplifier ce que les humains peuvent accomplir."
+    },
+    "audience": {
+      "title": "Pour qui c'est",
+      "p1": "Nous écrivons pour les jeunes professionnels urbains dans des villes comme Berlin, Londres, Paris, Varsovie et Istanbul — des personnes naviguant des questions de sens et d'identité dans des contextes séculiers. Notre traduction équilibre largeur œcuménique, profondeur académique et accessibilité réelle pour croyants et non-croyants.",
+      "p2": "Les traductions bibliques traditionnelles supposent souvent que les lecteurs font déjà partie d'une communauté ecclésiale, avec une familiarité du vocabulaire religieux et des concepts théologiques. Nous écrivons pour des personnes qui :",
+      "list": [
+        "Sont curieuses de la Bible mais se sentent aliénées par la culture ecclésiale",
+        "Lisent de la fiction contemporaine et veulent des Écritures de qualité littéraire similaire",
+        "Ont quitté la religion organisée mais n'ont pas perdu l'intérêt pour le sens",
+        "Viennent de contextes culturels où le christianisme semble étranger ou colonial",
+        "Préfèrent les podcasts et les playlists à l'étude biblique traditionnelle",
+        "Veulent l'honnêteté intellectuelle sur les passages difficiles, pas du spin apologétique"
+      ],
+      "p3": "Mais nous écrivons aussi pour les croyants de longue date qui veulent rencontrer des textes familiers avec un regard neuf — sans les couches interprétatives qui peuvent s'accumuler au fil des années de pratique religieuse."
+    },
+    "freely": {
+      "title": "Reçu gratuitement, donné gratuitement",
+      "p1": "Il existe d'excellentes traductions bibliques modernes. Certaines sont même accessibles et bien écrites. Mais la plupart sont verrouillées derrière des restrictions de licence qui limitent comment elles peuvent être utilisées, partagées, adaptées et développées. Nous croyons que les Écritures devraient être aussi libres que le message qu'elles portent.",
+      "p2": "Les habitudes de lecture changent à l'ère numérique. L'étude approfondie devient plus rare tandis que l'engagement consommatif — podcasts, contenu court, audio — augmente. Un projet d'engagement biblique pour une nouvelle génération doit prendre cela au sérieux. Nous voulons expérimenter et explorer ce qui est possible avec les « presses à imprimer » d'aujourd'hui : IA, multimédia, collaboration open source.",
+      "p3": "Il ne s'agit pas de remplacer l'étude biblique traditionnelle. Il s'agit de créer plusieurs points d'entrée — des chansons qui restent en tête, des podcasts pour vos trajets, des pratiques réalisables en cinq minutes. Certains iront plus loin. Beaucoup non. Les deux sont acceptables.",
+      "p4": "CC BY-SA 4.0 signifie que n'importe qui peut prendre ce que nous créons et construire dessus. Remixer les chansons. Adapter la traduction pour votre dialecte. Créer une application, un curriculum, une production théâtrale. La seule exigence : partager vos adaptations sous la même licence ouverte."
+    },
+    "open": {
+      "title": "Radicalement ouvert",
+      "p1": "Aperto est publié sous CC BY-SA 4.0. Tout — la traduction, l'exégèse, les chansons, la documentation du processus — est libre d'utilisation, d'adaptation et de développement.",
+      "p2": "Pourquoi ? Parce que les Écritures appartiennent à tous. L'Église primitive n'a pas protégé ses manuscrits par le droit d'auteur. Les Réformateurs n'ont pas mis leurs traductions derrière un paywall. Nous croyons que le message de la Bible devrait être aussi accessible que possible.",
+      "p3": "Si vous voulez prendre notre traduction allemande et l'adapter pour le dialecte autrichien — allez-y. Si vous voulez utiliser notre exégèse pour créer une version pour enfants — faites-le. Si vous voulez remixer nos chansons pour votre contexte local — c'est pour cela qu'elles existent."
+    },
+    "limitations": {
+      "title": "Ce que nous faisons mal",
+      "p1": "Nous ne prétendons pas que c'est parfait. L'IA fait des erreurs. Les humains aussi. Chaque traduction implique une interprétation, et chaque interprétation peut être contestée.",
+      "p2": "Certaines choses avec lesquelles l'IA a encore du mal :",
+      "list": [
+        "Les distinctions théologiques nuancées qui nécessitent une expertise approfondie",
+        "Les adaptations culturelles qui nécessitent une expérience vécue dans une communauté",
+        "Le rythme poétique et les jeux de mots qui nécessitent l'intuition d'un locuteur natif",
+        "Savoir quand être littéral vs. dynamique dans des contextes spécifiques"
+      ],
+      "p3": "Nous essayons de compenser ces limitations par la révision humaine, les retours de la communauté et la révision continue. Mais nous préférons publier quelque chose d'imparfait et utile plutôt que d'attendre quelque chose de parfait qui n'arrive jamais."
+    },
+    "join": {
+      "title": "Rejoignez la conversation",
+      "text": "C'est un projet ouvert. Nous accueillons les contributions — que vous soyez spécialiste du grec, locuteur natif d'une langue cible, musicien, designer, ou simplement quelqu'un qui veut lire les Écritures avec un regard neuf.",
+      "cta_read": "Commencer la lecture",
+      "cta_about": "À propos du projet"
+    }
+  }
+}

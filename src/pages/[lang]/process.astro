@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations, type Lang } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'en' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'pl' } },
+    { params: { lang: 'tr' } },
+  ];
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = useTranslations(lang);
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+
+<BaseLayout title={t('nav.process')} lang={lang}>
+  <article class="py-16 md:py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl mb-12 headline-mixed">{t('process.title')}</h1>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('process.overview.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('process.overview.p1')}
+        </p>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('process.overview.p2')}
+        </p>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('process.theological.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('process.theological.p1')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('process.theological.p2')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('process.theological.p3')}
+        </p>
+        <blockquote class="border-l-4 pl-6 py-2 my-8 italic" style="border-color: #8B7355; color: #6A6A6A;">
+          {t('process.theological.poetry')}
+        </blockquote>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('process.theological.p4')}
+        </p>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('process.steps.title')}</h2>
+        <div class="space-y-8">
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-medium" style="background-color: #8B7355; color: #FFFBF5;">1</div>
+            <div>
+              <h3 class="text-xl mb-2">{t('process.steps.step1.title')}</h3>
+              <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.steps.step1.desc')}</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-medium" style="background-color: #8B7355; color: #FFFBF5;">2</div>
+            <div>
+              <h3 class="text-xl mb-2">{t('process.steps.step2.title')}</h3>
+              <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.steps.step2.desc')}</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-medium" style="background-color: #8B7355; color: #FFFBF5;">3</div>
+            <div>
+              <h3 class="text-xl mb-2">{t('process.steps.step3.title')}</h3>
+              <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.steps.step3.desc')}</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-medium" style="background-color: #8B7355; color: #FFFBF5;">4</div>
+            <div>
+              <h3 class="text-xl mb-2">{t('process.steps.step4.title')}</h3>
+              <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.steps.step4.desc')}</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-medium" style="background-color: #8B7355; color: #FFFBF5;">5</div>
+            <div>
+              <h3 class="text-xl mb-2">{t('process.steps.step5.title')}</h3>
+              <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.steps.step5.desc')}</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-medium" style="background-color: #8B7355; color: #FFFBF5;">6</div>
+            <div>
+              <h3 class="text-xl mb-2">{t('process.steps.step6.title')}</h3>
+              <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.steps.step6.desc')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('process.principles.title')}</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl mb-2">{t('process.principles.clarity.title')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.principles.clarity.desc')}</p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-2">{t('process.principles.faithfulness.title')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.principles.faithfulness.desc')}</p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-2">{t('process.principles.beauty.title')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.principles.beauty.desc')}</p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-2">{t('process.principles.humility.title')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">{t('process.principles.humility.desc')}</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('process.invitation.title')}</h2>
+        <p class="text-lg leading-relaxed mb-8" style="color: #5A5A5A;">
+          {t('process.invitation.desc')}
+        </p>
+        <a href={`${base}${lang}/luke/1`} class="inline-block px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
+          {t('process.invitation.cta')}
+        </a>
+      </section>
+    </div>
+  </article>
+</BaseLayout>

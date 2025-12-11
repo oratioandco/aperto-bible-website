@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations, type Lang } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'en' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'pl' } },
+    { params: { lang: 'tr' } },
+  ];
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = useTranslations(lang);
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Language-specific book names for Luke
+const lukeNames: Record<Lang, string> = {
+  en: 'Luke',
+  de: 'Lukas',
+  fr: 'Luc',
+  pl: 'Łukasz',
+  tr: 'Luka',
+};
+---
+
+<BaseLayout title={t('nav.home')} lang={lang}>
+  <section class="hero min-h-[70vh] flex items-center justify-center px-8 md:px-16 lg:px-24">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-5xl md:text-7xl lg:text-8xl mb-8 tracking-tight logo" style="color: var(--color-headline);">aperto</h1>
+      <p class="text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-12" style="color: #5A5A5A;">
+        {t('home.tagline')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
+        <a href={`${base}${lang}/luke/1`} class="px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
+          {t('home.readLuke')} ({lukeNames[lang]})
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: rgba(245, 230, 220, 0.3);">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl md:text-4xl mb-12 text-center headline-mixed">{t('home.differentBible')}</h2>
+      <div class="grid md:grid-cols-3 gap-12">
+        <div class="text-center">
+          <h3 class="text-xl mb-3">{t('home.accessible')}</h3>
+          <p class="leading-relaxed" style="color: #6A6A6A;">
+            {t('home.accessibleDesc')}
+          </p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-xl mb-3">{t('home.multimedia')}</h3>
+          <p class="leading-relaxed" style="color: #6A6A6A;">
+            {t('home.multimediaDesc')}
+          </p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-xl mb-3">{t('home.openSource')}</h3>
+          <p class="leading-relaxed" style="color: #6A6A6A;">
+            {t('home.openSourceDesc')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl mb-8 headline-mixed">{t('home.startReading')}</h2>
+      <p class="text-lg leading-relaxed mb-12" style="color: #6A6A6A;">
+        {t('home.startReadingDesc')}
+      </p>
+      <a
+        href={`${base}${lang}/luke/1`}
+        class="inline-block px-8 py-4 rounded font-medium transition-all hover:opacity-90"
+        style="background-color: #8B7355; color: #FFFBF5;"
+      >
+        {lukeNames[lang]} 1
+      </a>
+    </div>
+  </section>
+</BaseLayout>

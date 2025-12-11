@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "process": "Nasz proces",
+    "read": "Czytaj",
+    "readLuke": "Czytaj Łukasza 1",
+    "menu": "Menu",
+    "language": "Język"
+  },
+  "footer": {
+    "tagline": "Świeże tłumaczenie, które zaprasza każdego do rozmowy.",
+    "navigate": "Nawigacja",
+    "readLuke": "Łukasz 1",
+    "license": "Licencja",
+    "licenseText": "CC BY-SA 4.0 – Wolne do udostępniania i adaptacji z uznaniem autorstwa.",
+    "copyright": "2025 Projekt Biblia Aperto"
+  },
+  "home": {
+    "tagline": "Świeże tłumaczenie, które zaprasza każdego do rozmowy – czy jesteś głęboko zakorzeniony w wierze, eksplorujesz z zewnątrz, czy gdzieś pomiędzy.",
+    "readLuke": "Czytaj Łukasza 1",
+    "differentBible": "Inna Biblia",
+    "accessible": "Przystępna",
+    "accessibleDesc": "Współczesny język, który czyta się jak nowoczesna literatura. Bez żargonu, bez słownictwa dla wtajemniczonych – tylko tekst, żywy i bezpośredni.",
+    "multimedia": "Multimedia",
+    "multimediaDesc": "Audiobiblia, podcasty, oryginalne piosenki i praktyki duchowe. Doświadcz tekstu w sposób, który do ciebie przemawia.",
+    "openSource": "Open Source",
+    "openSourceDesc": "Licencja CC BY-SA 4.0. Wolne do udostępniania, adaptacji i rozwijania. Dostępne w wielu językach.",
+    "startReading": "Zacznij czytać",
+    "startReadingDesc": "Zaczynamy od Łukasza rozdział 1: zapowiedź Jana Chrzciciela, anioł Gabriel odwiedza Marię i dwie rewolucyjne pieśni, które brzmią do dziś."
+  },
+  "about": {
+    "title": "O Aperto",
+    "whatIs": {
+      "title": "Czym jest Aperto?",
+      "p1": "Aperto to projekt tłumaczenia Biblii open source napisany dla współczesnych czytelników – czy jesteś wierzącym przez całe życie szukającym świeżego spojrzenia na znane teksty, czy sceptykiem ciekawym, co naprawdę mówią te starożytne teksty.",
+      "p2": "Nazwa pochodzi od łacińskiego apertus: otwarty, dostępny, odsłonięty. Zainspirowana jest Łukaszem 24,32, gdzie uczniowie mówią, że ich serca płonęły, gdy Jezus otwierał im Pisma."
+    },
+    "philosophy": {
+      "title": "Nasza filozofia",
+      "believerSkeptic": "Dla wierzących i sceptyków",
+      "believerSkepticDesc": "Piszemy dla obydwu – ludzi głęboko zakorzenionych w wierze szukających świeżej perspektywy i ludzi eksplorujących z zewnątrz. Czy spędziłeś całe życie w kościele, czy nigdy do niego nie wszedłeś, jesteś tu mile widziany.",
+      "ecumenical": "Ekumeniczni i inkluzywni",
+      "ecumenicalDesc": "Nasze podejście integruje uczciwie naukę katolicką, prawosławną, protestancką i zielonoświątkową – nie redukując do jednej tradycji. Pracujemy również z odczytaniami feministycznymi, teologii wyzwolenia i historyczno-krytycznymi, świadomi jak tłumaczenia historycznie były używane zarówno do wyzwalania, jak i krzywdzenia.",
+      "accessible": "Przystępne bez upraszczania",
+      "accessibleDesc": "Współczesny język, który czyta się jak nowoczesna literatura. Bez religijnego żargonu, bez słownictwa dla wtajemniczonych – tylko tekst, żywy i bezpośredni. Uczciwe przypisy, które czynią złożoność dostępną, a nie ukrytą.",
+      "multimedia": "Multimedia przede wszystkim",
+      "multimediaDesc": "Audiobiblia, podcasty, oryginalne piosenki i praktyki kontemplacyjne. Spotykanie ludzi tam, gdzie są, nie tylko tam, gdzie powinni być.",
+      "openSource": "Radykalnie otwarci",
+      "openSourceDesc": "Licencja CC BY-SA 4.0. Wszystko – tłumaczenie, egzegeza, piosenki – może być swobodnie używane, adaptowane i rozwijane. Bo Pismo należy do wszystkich."
+    },
+    "languages": {
+      "title": "Dostępne języki",
+      "intro": "Obecnie dostępne w pięciu językach, każdy kulturowo dostosowany do swojego kontekstu:"
+    },
+    "license": {
+      "title": "Licencja",
+      "p1": "Aperto jest wydane na licencji Creative Commons Uznanie autorstwa-Na tych samych warunkach 4.0 Międzynarodowe (CC BY-SA 4.0). To oznacza:",
+      "share": "Możesz udostępniać i rozpowszechniać materiał w dowolnym formacie",
+      "adapt": "Możesz remiksować, przekształcać i tworzyć na podstawie materiału",
+      "attribution": "Musisz podać odpowiednie uznanie autorstwa",
+      "shareAlike": "Musisz rozpowszechniać na tej samej licencji, jeśli remiksowujesz lub tworzysz na podstawie"
+    },
+    "team": {
+      "title": "Zespół",
+      "description": "Aperto to projekt społecznościowy z siedzibą w Berlinie. Jesteśmy tłumaczami, muzykami, projektantami i programistami oddanymi idei uczynienia Pisma dostępnym dla wszystkich."
+    }
+  },
+  "process": {
+    "title": "Nasz proces",
+    "overview": {
+      "title": "Przegląd",
+      "p1": "Aperto wykorzystuje podejście do tłumaczenia Biblii wspomagane przez AI – nie po to, by zastąpić ludzki osąd, ale by go wzmocnić. Wierzymy, że połączenie najnowocześniejszej technologii z ludzkim wglądem może pomóc uczynić Pismo dostępnym dla nowej publiczności.",
+      "p2": "Każda decyzja tłumaczeniowa przechodzi przez wiele warstw przeglądu, łącząc szkice AI z ludzką ekspertyzą, opiniami społeczności i ciągłą rewizją."
+    },
+    "theological": {
+      "title": "Uzasadnienie teologiczne",
+      "p1": "Kiedy Jezus powiedział: Powiadam wam: Jeśli ci umilkną, kamienie wołać będą (Łukasz 19,40), odpowiadał przywódcom religijnym, którzy chcieli uciszyć głoszenie tego, kim On jest. Jego punkt: jeśli oczekiwane głosy zamilkną, Bóg użyje nieoczekiwanych środków.",
+      "p2": "Nie twierdzimy, że AI jest dosłownie wołającymi kamieniami. Ale wierzymy, że jeśli tradycyjni strażnicy nie mogą lub nie chcą uczynić Pisma dostępnym dla wszystkich, przesłanie Boga znajdzie inne drogi.",
+      "p3": "Jest w tym pewna poezja: chipy krzemowe to przecież kamienie, które nauczyliśmy myśleć. Piasek, oczyszczony, wytrawiony obwodami, wytrenowany na zebranej mądrości ludzkości. Jeśli Bóg może przemawiać przez płonący krzew, osła lub chleb i wino – być może krzem nie jest tak dziwnym medium.",
+      "poetry": "Chipy krzemowe to kamienie, które nauczyliśmy myśleć. Piasek, oczyszczony, wytrawiony obwodami, wytrenowany na zebranej mądrości ludzkości.",
+      "p4": "Prasa drukarska była kiedyś traktowana z podejrzliwością przez władze religijne. Podobnie tłumaczenie Biblii na języki narodowe. Każda technologiczna zmiana, która demokratyzowała dostęp do Pisma, była początkowo odrzucana – i ostatecznie przyjmowana."
+    },
+    "steps": {
+      "title": "Nasz proces",
+      "step1": {
+        "title": "Głęboka egzegeza",
+        "desc": "Kompleksowe badania naukowe: analiza tekstu greckiego, kluczowe komentarze, leksykony, studia kulturowe i źródła patrystyczne."
+      },
+      "step2": {
+        "title": "Szkic tłumaczenia",
+        "desc": "Generowanie szkicu wspomagane przez AI, przefiltrowane przez naszą filozofię tłumaczenia: przystępne, literackie, uczciwe."
+      },
+      "step3": {
+        "title": "Przypisy",
+        "desc": "Kontekst kulturowy, greckie wybory słowne, debaty naukowe i uczciwe uznanie trudnych fragmentów."
+      },
+      "step4": {
+        "title": "Produkcja multimediów",
+        "desc": "Audiobiblia, podcasty dyskusyjne, oryginalne piosenki i praktyki kontemplacyjne."
+      },
+      "step5": {
+        "title": "Przegląd ludzki",
+        "desc": "Każde tłumaczenie przechodzi przegląd ludzki. AI generuje szkice; ludzie dopracowują, poprawiają i zatwierdzają."
+      },
+      "step6": {
+        "title": "Opinie społeczności",
+        "desc": "Ciągła rewizja oparta na opiniach czytelników i odkryciach naukowych."
+      }
+    },
+    "principles": {
+      "title": "Zasady przewodnie",
+      "clarity": {
+        "title": "Jasność",
+        "desc": "Każde zdanie powinno być zrozumiałe bez zakładania religijnego tła."
+      },
+      "faithfulness": {
+        "title": "Wierność",
+        "desc": "Zachowanie znaczenia oryginału przy wyrażeniu w naturalnej, współczesnej polszczyźnie."
+      },
+      "beauty": {
+        "title": "Piękno",
+        "desc": "Język godny lektury – nie tylko informacja, ale literatura."
+      },
+      "humility": {
+        "title": "Pokora",
+        "desc": "Uczciwe uznanie niepewności, różnych interpretacji i naszych własnych ograniczeń."
+      }
+    },
+    "invitation": {
+      "title": "Dołącz do nas",
+      "desc": "To jest otwarty projekt. Zapraszamy do współpracy – pomoc w tłumaczeniu, doradztwo kulturowe, produkcja audio lub rozwój techniczny.",
+      "cta": "Czytaj teraz"
+    }
+  }
+}
