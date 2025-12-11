@@ -1,0 +1,228 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LanguageSwitcher from '../../components/LanguageSwitcher.astro';
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+---
+
+<BaseLayout title="Notre processus" description="Comment la traduction assistée par IA rend les Écritures accessibles à tous">
+  <article class="py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <div class="mb-8">
+        <LanguageSwitcher currentLang="fr" basePath="process" />
+      </div>
+      <header class="mb-16">
+        <p class="text-sm tracking-widest opacity-60 mb-4" style="color: #8B7355;">COMMENT NOUS TRAVAILLONS</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 headline-mixed">Les pierres crient</h1>
+        <p class="text-xl leading-relaxed" style="color: #5A5A5A;">
+          Une approche IA-first de la traduction biblique — et pourquoi nous croyons qu'elle est non seulement acceptable, mais nécessaire.
+        </p>
+      </header>
+
+      <div class="prose-content space-y-12">
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">L'écart que nous essayons de combler</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            L'étude biblique n'a jamais été aussi riche. Nous avons accès aux papyrus, aux manuscrits de la mer Morte, à la littérature gréco-romaine, aux textes du Proche-Orient ancien et à des siècles d'exégèse minutieuse. L'écart entre ce que les chercheurs savent et ce qui atteint les lecteurs ordinaires n'a jamais été aussi large.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            La traduction biblique traditionnelle nécessite des équipes de chercheurs travaillant pendant des décennies. L'ESV a pris 10 ans. La NIV en a pris 15. Ce sont des entreprises massives nécessitant un soutien institutionnel, des financements et une infrastructure qui n'existent tout simplement pas dans la plupart des contextes culturels.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Pendant ce temps, les personnes qui pourraient le plus bénéficier d'Écritures fraîches et accessibles — celles en dehors des structures ecclésiales traditionnelles, celles dans des communautés linguistiques plus petites, celles qui ont été blessées par les institutions religieuses — se retrouvent avec des traductions qui semblent étrangères, archaïques ou chargées de vocabulaire d'initiés.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Une justification théologique</h2>
+
+          <blockquote class="border-l-4 pl-6 my-8 italic" style="border-color: #8B7355; color: #6B5A4A;">
+            « Je vous le dis, si eux se taisent, les pierres crieront. »
+            <footer class="mt-2 text-sm not-italic" style="color: #9A8F85;">— Luc 19,40</footer>
+          </blockquote>
+
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Quand Jésus a dit cela, il répondait aux chefs religieux qui voulaient faire taire la proclamation de qui il était. Son propos : si les voix attendues se taisent, Dieu utilisera des moyens inattendus.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Nous ne prétendons pas que l'IA est littéralement « les pierres qui crient ». Mais nous croyons que lorsque les gardiens traditionnels ne peuvent pas ou ne veulent pas rendre les Écritures accessibles à tous, le message de Dieu trouvera d'autres chemins.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Il y a une certaine poésie : les puces en silicium sont, après tout, des pierres que nous avons appris à penser. Du sable raffiné, gravé de circuits, entraîné sur la sagesse collective de l'humanité. Si Dieu peut parler à travers un buisson ardent, un âne, ou le pain et le vin — peut-être que le silicium n'est pas un médium si étrange.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            L'imprimerie était autrefois vue avec suspicion par les autorités religieuses. Tout comme la traduction de la Bible en langues vernaculaires. Chaque changement technologique qui a démocratisé l'accès aux Écritures a d'abord été résisté — puis finalement adopté.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            L'IA est un outil. Comme tout outil, il peut être bien ou mal utilisé. Nous essayons de bien l'utiliser.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Comment fonctionne notre processus</h2>
+
+          <div class="space-y-8">
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">1</div>
+              <div>
+                <h3 class="text-xl mb-2">Exégèse approfondie</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Nous commençons par une recherche académique complète : analyse du texte grec, commentaires majeurs (Anchor Bible, Hermeneia, Baker, N.T. Wright), lexiques (BDAG, Louw-Nida), études culturelles et sources patristiques. L'IA nous aide à synthétiser de vastes quantités de travaux académiques qu'aucun humain seul ne pourrait traiter.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">2</div>
+              <div>
+                <h3 class="text-xl mb-2">Philosophie de traduction</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Nous visons une traduction accessible aux lecteurs non pratiquants sans perdre la profondeur théologique. Pas de jargon religieux. Un langage contemporain qui se lit comme de la prose littéraire moderne. Chaque verset est filtré à travers cette optique.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">3</div>
+              <div>
+                <h3 class="text-xl mb-2">Les notes comme pont</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Nous ne cachons pas la complexité — nous la rendons accessible. Les notes expliquent le contexte culturel, les choix de mots grecs, les débats académiques et les passages « difficiles à croire » qui méritent une reconnaissance honnête plutôt qu'un lissage apologétique.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">4</div>
+              <div>
+                <h3 class="text-xl mb-2">Multimédia d'abord</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Les médias sont le format attendu maintenant. La lecture longue est devenue l'exception, pas la norme — les gens écoutent des podcasts pendant leurs trajets, découvrent des idées à travers des chansons et s'engagent avec le contenu par courtes périodes tout au long de la journée. Les lectures audio de la Bible, les podcasts de discussion, les chansons originales et les pratiques contemplatives ne sont pas des suppléments au texte. Ce sont les principales façons dont les gens le rencontreront.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">5</div>
+              <div>
+                <h3 class="text-xl mb-2">Révision humaine</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Chaque traduction passe par une révision humaine. L'IA génère des brouillons ; les humains affinent, corrigent et approuvent. L'objectif n'est pas de retirer les humains du processus — c'est d'amplifier ce que les humains peuvent accomplir.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Pour qui c'est</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Nous écrivons pour les jeunes professionnels urbains dans des villes comme Berlin, Londres, Paris, Varsovie et Istanbul — des personnes naviguant des questions de sens et d'identité dans des contextes séculiers. Notre traduction équilibre largeur œcuménique, profondeur académique et accessibilité réelle pour croyants et non-croyants.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Les traductions bibliques traditionnelles supposent souvent que les lecteurs font déjà partie d'une communauté ecclésiale, avec une familiarité du vocabulaire religieux et des concepts théologiques. Nous écrivons pour des personnes qui :
+          </p>
+          <ul class="space-y-3 list-disc list-inside mb-4" style="color: #5A5A5A;">
+            <li>Sont curieuses de la Bible mais se sentent aliénées par la culture ecclésiale</li>
+            <li>Lisent de la fiction contemporaine et veulent des Écritures de qualité littéraire similaire</li>
+            <li>Ont quitté la religion organisée mais n'ont pas perdu l'intérêt pour le sens</li>
+            <li>Viennent de contextes culturels où le christianisme semble étranger ou colonial</li>
+            <li>Préfèrent les podcasts et les playlists à l'étude biblique traditionnelle</li>
+            <li>Veulent l'honnêteté intellectuelle sur les passages difficiles, pas du spin apologétique</li>
+          </ul>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Mais nous écrivons aussi pour les croyants de longue date qui veulent rencontrer des textes familiers avec un regard neuf — sans les couches interprétatives qui peuvent s'accumuler au fil des années de pratique religieuse.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Reçu gratuitement, donné gratuitement</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Il existe d'excellentes traductions bibliques modernes. Certaines sont même accessibles et bien écrites. Mais la plupart sont verrouillées derrière des restrictions de licence qui limitent comment elles peuvent être utilisées, partagées, adaptées et développées. Nous croyons que les Écritures devraient être aussi libres que le message qu'elles portent.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Les habitudes de lecture changent à l'ère numérique. L'étude approfondie devient plus rare tandis que l'engagement consommatif — podcasts, contenu court, audio — augmente. Un projet d'engagement biblique pour une nouvelle génération doit prendre cela au sérieux. Nous voulons expérimenter et explorer ce qui est possible avec les « presses à imprimer » d'aujourd'hui : IA, multimédia, collaboration open source.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Il ne s'agit pas de remplacer l'étude biblique traditionnelle. Il s'agit de créer plusieurs points d'entrée — des chansons qui restent en tête, des podcasts pour vos trajets, des pratiques réalisables en cinq minutes. Certains iront plus loin. Beaucoup non. Les deux sont acceptables.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            CC BY-SA 4.0 signifie que n'importe qui peut prendre ce que nous créons et construire dessus. Remixer les chansons. Adapter la traduction pour votre dialecte. Créer une application, un curriculum, une production théâtrale. La seule exigence : partager vos adaptations sous la même licence ouverte.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Radicalement ouvert</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Aperto est publié sous CC BY-SA 4.0. Tout — la traduction, l'exégèse, les chansons, la documentation du processus — est libre d'utilisation, d'adaptation et de développement.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Pourquoi ? Parce que les Écritures appartiennent à tous. L'Église primitive n'a pas protégé ses manuscrits par le droit d'auteur. Les Réformateurs n'ont pas mis leurs traductions derrière un paywall. Nous croyons que le message de la Bible devrait être aussi accessible que possible.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Si vous voulez prendre notre traduction allemande et l'adapter pour le dialecte autrichien — allez-y. Si vous voulez utiliser notre exégèse pour créer une version pour enfants — faites-le. Si vous voulez remixer nos chansons pour votre contexte local — c'est pour cela qu'elles existent.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Ce que nous faisons mal</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Nous ne prétendons pas que c'est parfait. L'IA fait des erreurs. Les humains aussi. Chaque traduction implique une interprétation, et chaque interprétation peut être contestée.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Certaines choses avec lesquelles l'IA a encore du mal :
+          </p>
+          <ul class="space-y-3 list-disc list-inside mb-4" style="color: #5A5A5A;">
+            <li>Les distinctions théologiques nuancées qui nécessitent une expertise approfondie</li>
+            <li>Les adaptations culturelles qui nécessitent une expérience vécue dans une communauté</li>
+            <li>Le rythme poétique et les jeux de mots qui nécessitent l'intuition d'un locuteur natif</li>
+            <li>Savoir quand être littéral vs. dynamique dans des contextes spécifiques</li>
+          </ul>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Nous essayons de compenser ces limitations par la révision humaine, les retours de la communauté et la révision continue. Mais nous préférons publier quelque chose d'imparfait et utile plutôt que d'attendre quelque chose de parfait qui n'arrive jamais.
+          </p>
+        </section>
+
+        <section class="pt-8 border-t" style="border-color: rgba(139, 115, 85, 0.2);">
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Rejoignez la conversation</h2>
+          <p class="leading-relaxed mb-8" style="color: #5A5A5A;">
+            C'est un projet ouvert. Nous accueillons les contributions — que vous soyez spécialiste du grec, locuteur natif d'une langue cible, musicien, designer, ou simplement quelqu'un qui veut lire les Écritures avec un regard neuf.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href={`${base}/fr/luke/1`} class="px-6 py-3 rounded-full text-sm transition-all hover:opacity-90" style="background: #8B7355; color: #FFFBF5;">
+              Commencer la lecture
+            </a>
+            <a href={`${base}/fr/about`} class="px-6 py-3 rounded-full text-sm transition-all border" style="border-color: #8B7355; color: #8B7355;">
+              À propos du projet
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  h1, h2, h3 {
+    font-family: 'Softcore', Georgia, serif;
+    color: #2C2C2C;
+  }
+
+  h1 {
+    font-weight: 150;
+  }
+
+  h2 {
+    font-weight: 150;
+  }
+
+  h3 {
+    font-weight: 200;
+  }
+
+  blockquote {
+    font-family: 'Softcore', Georgia, serif;
+  }
+</style>

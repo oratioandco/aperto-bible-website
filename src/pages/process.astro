@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import LanguageSwitcher from '../components/LanguageSwitcher.astro';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
 ---
@@ -7,6 +8,9 @@ const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
 <BaseLayout title="Our Process" description="How AI-assisted translation is making Scripture accessible to everyone">
   <article class="py-24 px-8 md:px-16 lg:px-24">
     <div class="max-w-3xl mx-auto">
+      <div class="mb-8">
+        <LanguageSwitcher currentLang="en" basePath="process" />
+      </div>
       <header class="mb-16">
         <p class="text-sm tracking-widest opacity-60 mb-4" style="color: #8B7355;">HOW WE WORK</p>
         <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 headline-mixed">The Stones Are Crying Out</h1>

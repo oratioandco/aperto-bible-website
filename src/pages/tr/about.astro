@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LanguageSwitcher from '../../components/LanguageSwitcher.astro';
+---
+
+<BaseLayout title="Hakkında" description="Aperto İncil çeviri projesi hakkında">
+  <article class="py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <div class="mb-8">
+        <LanguageSwitcher currentLang="tr" basePath="about" />
+      </div>
+      <h1 class="text-4xl md:text-5xl mb-8 headline-mixed">Aperto Hakkında</h1>
+
+      <div class="space-y-6">
+        <p class="text-xl leading-relaxed" style="color: #5A5A5A;">
+          <strong style="color: #2C2C2C;">Aperto</strong> (Latince <em>apertus</em>'tan: açık, erişilebilir) Berlin merkezli açık kaynaklı bir Kutsal Kitap çeviri projesidir. Tanıdık metinlere taze gözlerle bakmak isteyen inananlar için — ve tüm bu gürültünün ne hakkında olduğunu merak eden şüpheciler için yazıyoruz. İster inançta derinlere kök salmış olun, ister dışarıdan keşfediyor olun, ister ikisinin arasında bir yerde olun: burada hoş geldiniz.
+        </p>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">Bir Avrupa Projesi</h2>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Erişilebilir Kutsal Kitap çevirilerinin çoğu Amerikan evanjelik bağlamlarından geliyor. Hedef kitleleri için iyi çalışıyorlar, ancak Avrupalı okuyuculara — özellikle kilise cemaatlerinin dışındakilere — kültürel olarak yabancı gelebiliyorlar.
+        </p>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Aperto Avrupa bağlamı tarafından şekillendirilmiştir: Hristiyan-sonrası, çoğulcu ve kültürel olarak çeşitli. Yaklaşımımız ekümenik — Katolik, Ortodoks, Protestan ve Pentekostal perspektiflerden yararlanıyor — ve kesişimsel, çevirilerin tarihsel olarak hem özgürleştirmek hem de zarar vermek için nasıl kullanıldığının farkında. Çağdaş Kutsal Kitap araştırmalarıyla çalışıyoruz — feminist, postkolonyal ve sosyo-tarihsel okumalar dahil — ideolojik pozisyonlar olarak değil, okuyucular yorumlamanın nasıl işlediği konusunda entelektüel dürüstlüğü hak ettikleri için.
+        </p>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">Neden Başka Bir Çeviri?</h2>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Kutsal Kitap çevirilerinin çoğu iki kampa ayrılır: akademik doğruluk (okunması zor) veya evanjelik erişilebilirlik (içeriden jargonla dolu). Aperto üçüncü bir yol izliyor: herkesi karşılayan edebi kalite.
+        </p>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Çağdaş edebiyat okuyan, kaliteli belgeseller izleyen ve kadim metinlere meraklı insanlar için yazıyoruz — ister taze bir bakış açısı arayan ömür boyu inananlar olsunlar, ister bu metinlerin gerçekte ne söylediğini merak eden şüpheciler.
+        </p>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">Çeviri Felsefesi</h2>
+        <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+          Yaklaşımımız erişilebilirlik, akademik derinlik ve ekümenik genişliği dengeler:
+        </p>
+        <ul class="space-y-3 list-disc list-inside" style="color: #5A5A5A;">
+          <li><strong style="color: #2C2C2C;">İçeriden jargon yok:</strong> Dini arka plan gerektirmeyen günlük kelimeler.</li>
+          <li><strong style="color: #2C2C2C;">Edebi kalite:</strong> Çağdaş kurgu standartlarına uygun yazılmış.</li>
+          <li><strong style="color: #2C2C2C;">Dürüst dipnotlar:</strong> Kültürel bağlam, Yunanca kelime çalışmaları, çoklu yorum seçenekleri ve zor pasajların kabulü.</li>
+          <li><strong style="color: #2C2C2C;">Ekümenik temeller:</strong> Katolik, Ortodoks, Protestan ve Pentekostal gelenek adil bir şekilde temsil edilir — tek bir geleneğe düzleştirilmez.</li>
+          <li><strong style="color: #2C2C2C;">Çeşitli akademik çalışmalar:</strong> Geleneksel yorumların yanı sıra feminist, kurtuluşçu ve tarihsel-eleştirel okumalar.</li>
+          <li><strong style="color: #2C2C2C;">Önce multimedya:</strong> Sesli Kutsal Kitap, podcast'ler, ilahiler ve tefekkür pratikleri — insanlarla oldukları yerde buluşuyoruz.</li>
+        </ul>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">İsim</h2>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Aperto Latince <em>apertus</em>'tan gelir: açık, erişilebilir, örtüsüz. Luka 24:32'den ilham almıştır; burada öğrenciler, İsa Kutsal Yazıları kendilerine "açarken" yüreklerinin yandığını söylerler.
+        </p>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">Diller</h2>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Şu anda İngilizce, Almanca, Fransızca, Lehçe ve Türkçe olarak mevcut. Her çeviri kendi bağlamına kültürel olarak uyarlanmıştır — sadece dilsel olarak çevrilmemiş, Berlin, Paris, Varşova veya İstanbul'daki insanların bu metinlerle nasıl karşılaşabileceği için yeniden düşünülmüştür.
+        </p>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">Lisans</h2>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Aperto <strong style="color: #2C2C2C;">CC BY-SA 4.0</strong> altında yayınlanmaktadır. Her şey — çeviri, tefsir, ilahiler, podcast'ler — özgürce paylaşılabilir, uyarlanabilir ve geliştirilebilir. Tek koşul: uyarlamalarınızı aynı açık lisans altında paylaşın.
+        </p>
+
+        <h2 class="text-2xl mt-12 mb-6 headline-mixed">Katılın</h2>
+        <p class="leading-relaxed" style="color: #5A5A5A;">
+          Bu açık kaynaklı bir projedir. Katkılar memnuniyetle karşılanır — çeviri yardımı, kültürel danışmanlık, ses prodüksiyonu veya teknik geliştirme.
+        </p>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

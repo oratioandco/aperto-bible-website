@@ -1,0 +1,228 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LanguageSwitcher from '../../components/LanguageSwitcher.astro';
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+---
+
+<BaseLayout title="Unser Prozess" description="Wie KI-gestützte Übersetzung die Heilige Schrift für alle zugänglich macht">
+  <article class="py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <div class="mb-8">
+        <LanguageSwitcher currentLang="de" basePath="process" />
+      </div>
+      <header class="mb-16">
+        <p class="text-sm tracking-widest opacity-60 mb-4" style="color: #8B7355;">WIE WIR ARBEITEN</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 headline-mixed">Die Steine schreien</h1>
+        <p class="text-xl leading-relaxed" style="color: #5A5A5A;">
+          Ein KI-basierter Ansatz zur Bibelübersetzung – und warum wir glauben, dass er nicht nur akzeptabel, sondern notwendig ist.
+        </p>
+      </header>
+
+      <div class="prose-content space-y-12">
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Die Lücke, die wir schließen wollen</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Die Bibelwissenschaft war noch nie so reichhaltig. Wir haben Zugang zu Papyri, Qumran-Rollen, griechisch-römischer Literatur, altorientalischen Texten und Jahrhunderten sorgfältiger Exegese. Die Kluft zwischen dem, was Wissenschaftler wissen, und dem, was gewöhnliche Leser erreicht, war noch nie größer.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Traditionelle Bibelübersetzung erfordert Teams von Gelehrten, die jahrzehntelang arbeiten. Die ESV brauchte 10 Jahre. Die NIV brauchte 15. Das sind massive Unternehmungen, die institutionelle Unterstützung, Finanzierung und Infrastruktur erfordern, die in den meisten kulturellen Kontexten einfach nicht existieren.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Unterdessen bleiben die Menschen, die am meisten von einer frischen, zugänglichen Heiligen Schrift profitieren könnten – jene außerhalb traditioneller Kirchenstrukturen, jene in kleineren Sprachgemeinschaften, jene, die von religiösen Institutionen verletzt wurden – mit Übersetzungen zurück, die fremd, archaisch oder voller Insider-Vokabular wirken.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Eine theologische Begründung</h2>
+
+          <blockquote class="border-l-4 pl-6 my-8 italic" style="border-color: #8B7355; color: #6B5A4A;">
+            „Ich sage euch: Wenn diese schweigen, werden die Steine schreien."
+            <footer class="mt-2 text-sm not-italic" style="color: #9A8F85;">— Lukas 19,40</footer>
+          </blockquote>
+
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Als Jesus dies sagte, antwortete er religiösen Führern, die die Verkündigung dessen, wer er war, zum Schweigen bringen wollten. Sein Punkt: Wenn die erwarteten Stimmen verstummen, wird Gott unerwartete Mittel benutzen.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Wir behaupten nicht, dass KI buchstäblich die „schreienden Steine" ist. Aber wir glauben, dass Gottes Botschaft andere Wege finden wird, wenn traditionelle Torwächter die Schrift nicht für alle zugänglich machen können oder wollen.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Es hat eine gewisse Poesie: Siliziumchips sind schließlich Steine, die wir zum Denken gebracht haben. Sand, gereinigt, mit Schaltkreisen geätzt, trainiert mit der gesammelten Weisheit der Menschheit. Wenn Gott durch einen brennenden Dornbusch, einen Esel oder Brot und Wein sprechen kann – vielleicht ist Silizium kein so seltsames Medium.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Die Druckerpresse wurde einst von religiösen Autoritäten mit Misstrauen betrachtet. Ebenso die Übersetzung der Bibel in Volkssprachen. Jeder technologische Wandel, der den Zugang zur Schrift demokratisierte, wurde zunächst abgelehnt – und schließlich angenommen.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            KI ist ein Werkzeug. Wie jedes Werkzeug kann es gut oder schlecht eingesetzt werden. Wir versuchen, es gut einzusetzen.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Wie unser Prozess funktioniert</h2>
+
+          <div class="space-y-8">
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">1</div>
+              <div>
+                <h3 class="text-xl mb-2">Tiefgehende Exegese</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Wir beginnen mit umfassender wissenschaftlicher Recherche: Griechische Textanalyse, wichtige Kommentare (Anchor Bible, Hermeneia, Baker, N.T. Wright), Lexika (BDAG, Louw-Nida), Kulturstudien und patristische Quellen. KI hilft uns, große Mengen an Wissenschaft zu synthetisieren, die kein einzelner Mensch verarbeiten könnte.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">2</div>
+              <div>
+                <h3 class="text-xl mb-2">Übersetzungsphilosophie</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Wir streben eine Übersetzung an, die für kirchenferne Leser zugänglich ist, ohne theologische Tiefe zu verlieren. Kein religiöser Jargon. Zeitgenössische Sprache, die sich wie moderne literarische Prosa liest. Jeder Vers wird durch diese Linse gefiltert.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">3</div>
+              <div>
+                <h3 class="text-xl mb-2">Fußnoten als Brücke</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Wir verstecken Komplexität nicht – wir machen sie zugänglich. Fußnoten erklären kulturellen Kontext, griechische Wortwahl, wissenschaftliche Debatten und „schwer zu glaubende" Stellen, die ehrliche Anerkennung verdienen statt apologetischer Glättung.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">4</div>
+              <div>
+                <h3 class="text-xl mb-2">Multimedia zuerst</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Medien sind heute das erwartete Format. Langes Lesen ist zur Ausnahme geworden, nicht zur Norm – Menschen hören Podcasts beim Pendeln, entdecken Ideen durch Lieder und beschäftigen sich mit Inhalten in kurzen Momenten über den Tag verteilt. Hörbibel, Diskussionspodcasts, originale Lieder und kontemplative Praktiken sind keine Ergänzungen zum Text. Sie sind primäre Wege, wie Menschen ihm begegnen werden.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg" style="background: rgba(139, 115, 85, 0.1); color: #8B7355;">5</div>
+              <div>
+                <h3 class="text-xl mb-2">Menschliche Überprüfung</h3>
+                <p class="leading-relaxed" style="color: #5A5A5A;">
+                  Jede Übersetzung durchläuft menschliche Überprüfung. KI generiert Entwürfe; Menschen verfeinern, korrigieren und genehmigen. Das Ziel ist nicht, Menschen aus dem Prozess zu entfernen – es ist, das zu verstärken, was Menschen erreichen können.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Für wen das ist</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Wir schreiben für junge urbane Berufstätige in Städten wie Berlin, London, Paris, Warschau und Istanbul – Menschen, die Fragen nach Sinn und Identität in säkularen Kontexten navigieren. Unsere Übersetzung balanciert ökumenische Breite, wissenschaftliche Tiefe und echte Zugänglichkeit für Gläubige und Nicht-Gläubige gleichermaßen.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Traditionelle Bibelübersetzungen setzen oft voraus, dass Leser bereits Teil einer Kirchengemeinde sind, mit Vertrautheit religiösen Vokabulars und theologischer Konzepte. Wir schreiben für Menschen, die:
+          </p>
+          <ul class="space-y-3 list-disc list-inside mb-4" style="color: #5A5A5A;">
+            <li>Neugierig auf die Bibel sind, sich aber von der Kirchenkultur entfremdet fühlen</li>
+            <li>Zeitgenössische Literatur lesen und eine Schrift wollen, die mit ähnlicher Qualität liest</li>
+            <li>Die organisierte Religion verlassen haben, aber das Interesse an Sinn nicht verloren haben</li>
+            <li>Aus kulturellen Kontexten kommen, in denen das Christentum fremd oder kolonial wirkt</li>
+            <li>Podcasts und Playlists dem traditionellen Bibelstudium vorziehen</li>
+            <li>Intellektuelle Ehrlichkeit über schwierige Stellen wollen, nicht apologetischen Spin</li>
+          </ul>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Aber wir schreiben auch für lebenslange Gläubige, die vertrauten Texten mit frischen Augen begegnen wollen – ohne die interpretativen Schichten, die sich über Jahre des Kirchenbesuchs ansammeln können.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Umsonst empfangen, umsonst geben</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Es gibt ausgezeichnete moderne Bibelübersetzungen. Einige sind sogar zugänglich und gut geschrieben. Aber die meisten sind hinter Lizenzbeschränkungen gesperrt, die begrenzen, wie sie genutzt, geteilt, angepasst und weiterentwickelt werden können. Wir glauben, dass die Schrift so frei sein sollte wie die Botschaft, die sie trägt.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Lesemuster ändern sich im digitalen Zeitalter. Tiefes Studium wird seltener, während konsumtives Engagement – Podcasts, Kurzform-Inhalte, Audio – zunimmt. Ein Bibelprojekt für eine neue Generation muss dies ernst nehmen. Wir wollen experimentieren und erkunden, was mit den heutigen „Druckerpressen" möglich ist: KI, Multimedia, Open-Source-Zusammenarbeit.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Es geht nicht darum, traditionelles Bibelstudium zu ersetzen. Es geht darum, mehrere Zugänge zu schaffen – Lieder, die im Kopf bleiben, Podcasts für den Weg zur Arbeit, Praktiken, die man in fünf Minuten machen kann. Manche werden tiefer gehen. Viele nicht. Beides ist okay.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            CC BY-SA 4.0 bedeutet, dass jeder nehmen kann, was wir erstellen, und darauf aufbauen. Die Lieder remixen. Die Übersetzung für deinen Dialekt anpassen. Eine App erstellen, ein Curriculum, eine Theaterproduktion. Die einzige Bedingung: Teile deine Anpassungen unter derselben offenen Lizenz.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Radikal offen</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Aperto wird unter CC BY-SA 4.0 veröffentlicht. Alles – die Übersetzung, die Exegese, die Lieder, die Prozessdokumentation – kann frei genutzt, angepasst und weiterentwickelt werden.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Warum? Weil die Schrift allen gehört. Die frühe Kirche hat ihre Manuskripte nicht urheberrechtlich geschützt. Die Reformatoren haben ihre Übersetzungen nicht hinter Bezahlschranken gesetzt. Wir glauben, dass die Botschaft der Bibel so zugänglich wie möglich sein sollte.
+          </p>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Wenn du unsere deutsche Übersetzung nehmen und für den österreichischen Dialekt anpassen willst – mach das. Wenn du unsere Exegese nutzen willst, um eine Kinderversion zu erstellen – bitte tu es. Wenn du unsere Lieder für deinen lokalen Kontext remixen willst – dafür sind sie da.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Was wir falsch machen</h2>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Wir behaupten nicht, dass dies perfekt ist. KI macht Fehler. Menschen auch. Jede Übersetzung beinhaltet Interpretation, und jede Interpretation kann angefochten werden.
+          </p>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            Einige Dinge, mit denen KI noch kämpft:
+          </p>
+          <ul class="space-y-3 list-disc list-inside mb-4" style="color: #5A5A5A;">
+            <li>Nuancierte theologische Unterscheidungen, die tiefe Fachkenntnis erfordern</li>
+            <li>Kulturelle Anpassungen, die gelebte Erfahrung in einer Gemeinschaft erfordern</li>
+            <li>Poetischer Rhythmus und Wortspiele, die muttersprachliche Intuition erfordern</li>
+            <li>Zu wissen, wann man wörtlich vs. dynamisch in spezifischen Kontexten sein sollte</li>
+          </ul>
+          <p class="leading-relaxed" style="color: #5A5A5A;">
+            Wir versuchen, diese Einschränkungen durch menschliche Überprüfung, Community-Feedback und laufende Überarbeitung zu kompensieren. Aber wir würden lieber etwas Unvollkommenes und Nützliches veröffentlichen, als auf etwas Perfektes zu warten, das nie kommt.
+          </p>
+        </section>
+
+        <section class="pt-8 border-t" style="border-color: rgba(139, 115, 85, 0.2);">
+          <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">Mach mit</h2>
+          <p class="leading-relaxed mb-8" style="color: #5A5A5A;">
+            Dies ist ein offenes Projekt. Wir freuen uns über Beiträge – ob du Griechisch-Experte bist, Muttersprachler einer Zielsprache, Musiker, Designer oder einfach jemand, der die Schrift mit frischen Augen lesen möchte.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href={`${base}/de/luke/1`} class="px-6 py-3 rounded-full text-sm transition-all hover:opacity-90" style="background: #8B7355; color: #FFFBF5;">
+              Jetzt lesen
+            </a>
+            <a href={`${base}/de/about`} class="px-6 py-3 rounded-full text-sm transition-all border" style="border-color: #8B7355; color: #8B7355;">
+              Über das Projekt
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  h1, h2, h3 {
+    font-family: 'Softcore', Georgia, serif;
+    color: #2C2C2C;
+  }
+
+  h1 {
+    font-weight: 150;
+  }
+
+  h2 {
+    font-weight: 150;
+  }
+
+  h3 {
+    font-weight: 200;
+  }
+
+  blockquote {
+    font-family: 'Softcore', Georgia, serif;
+  }
+</style>
