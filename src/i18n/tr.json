@@ -9,6 +9,12 @@
     "tagline": "Modern okuyucular için açık kaynaklı Kutsal Kitap çevirisi",
     "navigation": "Navigasyon",
     "languages": "Diller",
+    "contact": "İletişim",
+    "contactEmail": "info@apertobible.com",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "accessibility": "Erişilebilirlik",
+    "imprint": "Künye",
     "license": "CC BY-SA 4.0 altında yayınlandı",
     "copyright": "Aperto İncil Projesi"
   },
@@ -16,6 +22,8 @@
     "title": "aperto",
     "subtitle": "Kutsal Yazılar, açıldı",
     "description": "Modern okuyucular için açık kaynaklı Kutsal Kitap çevirisi. Edebi kalite. İçeriden jargon yok. Paylaşmak özgür.",
+    "alphaNotice": "Erken Alfa",
+    "alphaText": "Bu erken bir alfa sürümüdür. Şu anda sadece Luka Bölüm 1 mevcut. Bölüm bölüm, kitap kitap inşa ediyoruz.",
     "cta": "Luka 1'i Oku",
     "languages": {
       "heading": "5 dilde mevcut",
@@ -159,6 +167,75 @@
       "text": "Bu açık bir proje. Katkıları memnuniyetle karşılıyoruz — ister Yunanca uzmanı, hedef dilin anadil konuşucusu, müzisyen, tasarımcı olun, ister sadece Kutsal Yazıları taze gözlerle okumak isteyen biri.",
       "cta_read": "Okumaya Başla",
       "cta_about": "Proje Hakkında"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "intro": "Aperto İncil Projesi gizliliğinizi korumaya kararlıdır. Bu politika verilerinizi nasıl ele aldığımızı açıklar.",
+      "dataCollection": {
+        "title": "Veri Toplama",
+        "text": "Bu web sitesi kişisel veri toplamaz. İzleme çerezleri kullanmıyoruz ve bireysel kullanıcıları izleyen analiz hizmetleri kullanmıyoruz."
+      },
+      "hosting": {
+        "title": "Barındırma",
+        "text": "Bu web sitesi GitHub Pages'te barındırılmaktadır. GitHub, güvenlik ve operasyonel amaçlar için IP adresleri gibi teknik bilgiler toplayabilir. Ayrıntılar için lütfen GitHub'ın gizlilik politikasına bakın."
+      },
+      "contact": {
+        "title": "İletişim",
+        "text": "Gizlilikle ilgili sorularınız için lütfen info@apertobible.com adresinden bize ulaşın."
+      },
+      "rights": {
+        "title": "Haklarınız",
+        "text": "GDPR kapsamında, hakkınızda tutabileceğimiz kişisel verilere erişme, düzeltme veya silme hakkınız vardır. Kişisel veri toplamadığımız için bu pek olası değildir, ancak tüm sorulara yanıt vermekten mutluluk duyarız."
+      },
+      "lastUpdated": "Son güncelleme: Aralık 2024"
+    },
+    "accessibility": {
+      "title": "Erişilebilirlik Bildirimi",
+      "intro": "Aperto İncil Projesi, içeriğimizi engelli bireyler dahil herkes için erişilebilir kılmaya kararlıdır.",
+      "standards": {
+        "title": "Erişilebilirlik Standartları",
+        "text": "WCAG 2.1 Düzey AA yönergelerine uymayı hedefliyoruz. Web sitemiz semantik HTML, klavye navigasyon desteği ve uygun renk kontrastı ile tasarlanmıştır."
+      },
+      "features": {
+        "title": "Erişilebilirlik Özellikleri",
+        "list": [
+          "Ekran okuyucu uyumluluğu için semantik HTML yapısı",
+          "Site genelinde klavye navigasyon desteği",
+          "Okunabilirlik için yeterli renk kontrastı",
+          "Tüm cihazlarda çalışan duyarlı tasarım",
+          "Metin dışı içerik için metin alternatifleri",
+          "Net, okunabilir tipografi"
+        ]
+      },
+      "feedback": {
+        "title": "Geri Bildirim",
+        "text": "Erişilebilirlik hakkında geri bildirimleri memnuniyetle karşılıyoruz. Engellerle karşılaşırsanız veya iyileştirme önerileriniz varsa, lütfen info@apertobible.com adresinden bize ulaşın."
+      },
+      "ongoing": {
+        "title": "Süregelen Çabalar",
+        "text": "Erişilebilirlik süregelen bir süreçtir. Sitemizi sürekli olarak iyileştirmek ve ortaya çıkan sorunları gidermek için çalışıyoruz."
+      }
+    },
+    "imprint": {
+      "title": "Künye",
+      "responsible": {
+        "title": "İçerikten Sorumlu",
+        "text": "Aperto İncil Projesi"
+      },
+      "contact": {
+        "title": "İletişim",
+        "text": "E-posta: info@apertobible.com"
+      },
+      "disclaimer": {
+        "title": "Sorumluluk Reddi",
+        "text": "Bu web sitesinin içeriği bilgi amaçlı sunulmaktadır. Doğruluk için her türlü çabayı gösteriyoruz ancak tüm bilgilerin eksiksiz veya güncel olduğunu garanti edemiyoruz. Harici bağlantılar kolaylık için sağlanmaktadır; bağlantılı sitelerin içeriğinden sorumlu değiliz."
+      },
+      "license": {
+        "title": "İçerik Lisansı",
+        "text": "Aksi belirtilmedikçe, bu web sitesindeki tüm içerik Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası Lisansı (CC BY-SA 4.0) altında yayınlanmaktadır."
+      }
     }
   }
 }

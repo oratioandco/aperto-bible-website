@@ -9,6 +9,12 @@
     "tagline": "An open-source Bible translation for modern readers",
     "navigation": "Navigation",
     "languages": "Languages",
+    "contact": "Contact",
+    "contactEmail": "info@apertobible.com",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "accessibility": "Accessibility",
+    "imprint": "Imprint",
     "license": "Released under CC BY-SA 4.0",
     "copyright": "Aperto Bible Project"
   },
@@ -16,6 +22,8 @@
     "title": "aperto",
     "subtitle": "Scripture, opened",
     "description": "An open-source Bible translation for modern readers. Literary quality. No insider vocabulary. Free to share.",
+    "alphaNotice": "Early Alpha",
+    "alphaText": "This is an early alpha release. Currently only Luke Chapter 1 is available. We're building one chapter at a time, one book at a time.",
     "cta": "Read Luke 1",
     "languages": {
       "heading": "Available in 5 languages",
@@ -159,6 +167,75 @@
       "text": "This is an open project. We welcome contributions—whether you're a Greek scholar, a native speaker of a target language, a musician, a designer, or simply someone who wants to read Scripture with fresh eyes.",
       "cta_read": "Start Reading",
       "cta_about": "About the Project"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "The Aperto Bible Project is committed to protecting your privacy. This policy explains how we handle your data.",
+      "dataCollection": {
+        "title": "Data Collection",
+        "text": "This website does not collect personal data. We do not use cookies for tracking, and we do not use analytics services that track individual users."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "text": "This website is hosted on GitHub Pages. GitHub may collect technical information such as IP addresses for security and operational purposes. Please refer to GitHub's privacy policy for details."
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "For privacy-related questions, please contact us at info@apertobible.com."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "text": "Under GDPR, you have the right to access, rectify, or delete any personal data we may hold about you. Since we don't collect personal data, this is unlikely to apply, but we're happy to respond to any inquiries."
+      },
+      "lastUpdated": "Last updated: December 2024"
+    },
+    "accessibility": {
+      "title": "Accessibility Statement",
+      "intro": "The Aperto Bible Project is committed to making our content accessible to everyone, including people with disabilities.",
+      "standards": {
+        "title": "Accessibility Standards",
+        "text": "We aim to conform to WCAG 2.1 Level AA guidelines. Our website is designed with semantic HTML, keyboard navigation support, and appropriate color contrast."
+      },
+      "features": {
+        "title": "Accessibility Features",
+        "list": [
+          "Semantic HTML structure for screen reader compatibility",
+          "Keyboard navigation support throughout the site",
+          "Sufficient color contrast for readability",
+          "Responsive design that works across devices",
+          "Text alternatives for non-text content",
+          "Clear, readable typography"
+        ]
+      },
+      "feedback": {
+        "title": "Feedback",
+        "text": "We welcome feedback on accessibility. If you encounter barriers or have suggestions for improvement, please contact us at info@apertobible.com."
+      },
+      "ongoing": {
+        "title": "Ongoing Efforts",
+        "text": "Accessibility is an ongoing process. We continuously work to improve our site and address any issues that arise."
+      }
+    },
+    "imprint": {
+      "title": "Imprint",
+      "responsible": {
+        "title": "Responsible for Content",
+        "text": "Aperto Bible Project"
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "Email: info@apertobible.com"
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "text": "The content of this website is provided for informational purposes. We make every effort to ensure accuracy but cannot guarantee that all information is complete or current. External links are provided for convenience; we are not responsible for the content of linked sites."
+      },
+      "license": {
+        "title": "Content License",
+        "text": "Unless otherwise noted, all content on this website is released under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)."
+      }
     }
   }
 }

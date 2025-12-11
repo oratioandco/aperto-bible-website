@@ -12,12 +12,20 @@
     "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt.",
     "navigate": "Navigation",
     "readLuke": "Lukas 1",
+    "contact": "Kontakt",
+    "contactEmail": "info@apertobible.com",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "accessibility": "Barrierefreiheit",
+    "imprint": "Impressum",
     "license": "Lizenz",
     "licenseText": "CC BY-SA 4.0 – Frei zu teilen und anzupassen mit Namensnennung.",
     "copyright": "2025 Aperto Bibel-Projekt"
   },
   "home": {
     "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt – ob du tief im Glauben verwurzelt bist, von außen erkundest oder irgendwo dazwischen stehst.",
+    "alphaNotice": "Frühe Alpha-Version",
+    "alphaText": "Dies ist eine frühe Alpha-Version. Derzeit ist nur Lukas Kapitel 1 verfügbar. Wir bauen Kapitel für Kapitel, Buch für Buch.",
     "readLuke": "Lukas 1 lesen",
     "differentBible": "Eine andere Art von Bibel",
     "accessible": "Zugänglich",
@@ -131,6 +139,75 @@
       "title": "Mitmachen",
       "desc": "Dies ist ein offenes Projekt. Wir freuen uns über Beiträge – Übersetzungshilfe, kulturelle Beratung, Audioproduktion oder technische Entwicklung.",
       "cta": "Jetzt lesen"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "intro": "Das Aperto Bibel-Projekt ist dem Schutz Ihrer Privatsphäre verpflichtet. Diese Richtlinie erklärt, wie wir mit Ihren Daten umgehen.",
+      "dataCollection": {
+        "title": "Datenerfassung",
+        "text": "Diese Website erfasst keine personenbezogenen Daten. Wir verwenden keine Tracking-Cookies und keine Analysedienste, die einzelne Nutzer verfolgen."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "text": "Diese Website wird auf GitHub Pages gehostet. GitHub kann technische Informationen wie IP-Adressen für Sicherheits- und Betriebszwecke erfassen. Bitte beachten Sie die Datenschutzrichtlinie von GitHub für Details."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Bei datenschutzbezogenen Fragen kontaktieren Sie uns bitte unter info@apertobible.com."
+      },
+      "rights": {
+        "title": "Ihre Rechte",
+        "text": "Nach der DSGVO haben Sie das Recht auf Zugang, Berichtigung oder Löschung personenbezogener Daten, die wir möglicherweise über Sie speichern. Da wir keine personenbezogenen Daten erfassen, ist dies unwahrscheinlich, aber wir beantworten gerne alle Anfragen."
+      },
+      "lastUpdated": "Letzte Aktualisierung: Dezember 2024"
+    },
+    "accessibility": {
+      "title": "Erklärung zur Barrierefreiheit",
+      "intro": "Das Aperto Bibel-Projekt ist bestrebt, unsere Inhalte für alle zugänglich zu machen, einschließlich Menschen mit Behinderungen.",
+      "standards": {
+        "title": "Barrierefreiheitsstandards",
+        "text": "Wir streben die Einhaltung der WCAG 2.1 Level AA Richtlinien an. Unsere Website wurde mit semantischem HTML, Tastaturnavigation und angemessenem Farbkontrast gestaltet."
+      },
+      "features": {
+        "title": "Barrierefreiheitsfunktionen",
+        "list": [
+          "Semantische HTML-Struktur für Screenreader-Kompatibilität",
+          "Tastaturnavigation auf der gesamten Website",
+          "Ausreichender Farbkontrast für Lesbarkeit",
+          "Responsives Design für alle Geräte",
+          "Textalternativen für nicht-textliche Inhalte",
+          "Klare, lesbare Typografie"
+        ]
+      },
+      "feedback": {
+        "title": "Feedback",
+        "text": "Wir freuen uns über Feedback zur Barrierefreiheit. Wenn Sie auf Barrieren stoßen oder Verbesserungsvorschläge haben, kontaktieren Sie uns bitte unter info@apertobible.com."
+      },
+      "ongoing": {
+        "title": "Laufende Bemühungen",
+        "text": "Barrierefreiheit ist ein fortlaufender Prozess. Wir arbeiten kontinuierlich daran, unsere Website zu verbessern und auftretende Probleme zu beheben."
+      }
+    },
+    "imprint": {
+      "title": "Impressum",
+      "responsible": {
+        "title": "Verantwortlich für den Inhalt",
+        "text": "Aperto Bibel-Projekt"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "E-Mail: info@apertobible.com"
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "text": "Der Inhalt dieser Website dient Informationszwecken. Wir bemühen uns um Genauigkeit, können aber nicht garantieren, dass alle Informationen vollständig oder aktuell sind. Externe Links werden der Bequemlichkeit halber bereitgestellt; wir sind nicht verantwortlich für den Inhalt verlinkter Websites."
+      },
+      "license": {
+        "title": "Inhaltslizenz",
+        "text": "Sofern nicht anders angegeben, werden alle Inhalte dieser Website unter der Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 4.0 International Lizenz (CC BY-SA 4.0) veröffentlicht."
+      }
     }
   }
 }

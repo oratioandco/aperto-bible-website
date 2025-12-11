@@ -29,6 +29,13 @@ const lukeNames: Record<Lang, string> = {
 ---
 
 <BaseLayout title={t('nav.home')} lang={lang}>
+  <!-- Alpha Notice Banner -->
+  <div class="px-4 py-3 text-center" style="background-color: #F5E6DC;">
+    <p class="text-sm" style="color: #5A5A5A;">
+      <span class="font-medium" style="color: #8B7355;">{t('home.alphaNotice')}</span> — {t('home.alphaText')}
+    </p>
+  </div>
+
   <section class="hero min-h-[70vh] flex items-center justify-center px-8 md:px-16 lg:px-24">
     <div class="max-w-4xl mx-auto text-center">
       <h1 class="text-5xl md:text-7xl lg:text-8xl mb-8 tracking-tight logo" style="color: var(--color-headline);">aperto</h1>

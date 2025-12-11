@@ -179,25 +179,36 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
 
     <footer class="px-8 md:px-16 lg:px-24 py-16 mt-24" style="border-top: 1px solid #F5E6DC; background-color: rgba(245, 230, 220, 0.3);">
       <div class="max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-3 gap-12">
+        <div class="grid md:grid-cols-4 gap-12">
           <div>
             <h4 class="text-xl mb-4">Aperto</h4>
-            <p class="text-sm leading-relaxed" style="color: #9A8F85;">
+            <p class="text-sm leading-relaxed mb-4" style="color: #9A8F85;">
               {t('footer.tagline')}
+            </p>
+            <p class="text-sm" style="color: #9A8F85;">
+              <a href="mailto:info@apertobible.com" class="hover:underline">info@apertobible.com</a>
             </p>
           </div>
           <div>
             <h4 class="text-xl mb-4">{t('footer.navigate')}</h4>
             <ul class="space-y-2 text-sm">
-              <li><a href={`${base}${lang}/`} style="color: #9A8F85;">{t('nav.home')}</a></li>
-              <li><a href={`${base}${lang}/about`} style="color: #9A8F85;">{t('nav.about')}</a></li>
-              <li><a href={`${base}${lang}/process`} style="color: #9A8F85;">{t('nav.process')}</a></li>
+              <li><a href={`${base}${lang}/`} style="color: #9A8F85;" class="hover:underline">{t('nav.home')}</a></li>
+              <li><a href={`${base}${lang}/about`} style="color: #9A8F85;" class="hover:underline">{t('nav.about')}</a></li>
+              <li><a href={`${base}${lang}/process`} style="color: #9A8F85;" class="hover:underline">{t('nav.process')}</a></li>
             </ul>
             <h4 class="text-lg mt-6 mb-3">{t('footer.readLuke')}</h4>
             <ul class="space-y-2 text-sm">
               {languages.map(({ code, name }) => (
-                <li><a href={`${base}${code}/luke/1`} style="color: #9A8F85;">{name}</a></li>
+                <li><a href={`${base}${code}/luke/1`} style="color: #9A8F85;" class="hover:underline">{name}</a></li>
               ))}
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl mb-4">{t('footer.legal')}</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href={`${base}${lang}/privacy`} style="color: #9A8F85;" class="hover:underline">{t('footer.privacy')}</a></li>
+              <li><a href={`${base}${lang}/accessibility`} style="color: #9A8F85;" class="hover:underline">{t('footer.accessibility')}</a></li>
+              <li><a href={`${base}${lang}/imprint`} style="color: #9A8F85;" class="hover:underline">{t('footer.imprint')}</a></li>
             </ul>
           </div>
           <div>

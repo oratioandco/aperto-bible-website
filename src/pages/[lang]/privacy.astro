@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations, type Lang } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'en' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'pl' } },
+    { params: { lang: 'tr' } },
+  ];
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = useTranslations(lang);
+---
+
+<BaseLayout title={t('legal.privacy.title')} lang={lang}>
+  <article class="py-16 md:py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl mb-12 headline-mixed">{t('legal.privacy.title')}</h1>
+
+      <p class="text-lg leading-relaxed mb-8" style="color: #5A5A5A;">
+        {t('legal.privacy.intro')}
+      </p>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.privacy.dataCollection.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('legal.privacy.dataCollection.text')}
+        </p>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.privacy.hosting.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('legal.privacy.hosting.text')}
+        </p>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.privacy.contact.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('legal.privacy.contact.text')}
+        </p>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.privacy.rights.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('legal.privacy.rights.text')}
+        </p>
+      </section>
+
+      <p class="text-sm mt-12" style="color: #9A8F85;">
+        {t('legal.privacy.lastUpdated')}
+      </p>
+    </div>
+  </article>
+</BaseLayout>
