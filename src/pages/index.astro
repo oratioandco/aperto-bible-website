@@ -11,12 +11,21 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       <p class="text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-12" style="color: #5A5A5A;">
         A fresh translation that welcomes everyone to the conversation—whether you're deeply rooted in faith, exploring from the outside, or somewhere in between.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
         <a href={`${base}en/luke/1`} class="px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
           Read Luke 1 (English)
         </a>
         <a href={`${base}de/luke/1`} class="px-8 py-4 rounded font-medium transition-all border-2 hover:opacity-80" style="border-color: #8B7355; color: #8B7355;">
-          Lukas 1 lesen (Deutsch)
+          Lukas 1 (Deutsch)
+        </a>
+        <a href={`${base}fr/luke/1`} class="px-8 py-4 rounded font-medium transition-all border-2 hover:opacity-80" style="border-color: #8B7355; color: #8B7355;">
+          Luc 1 (Français)
+        </a>
+        <a href={`${base}pl/luke/1`} class="px-8 py-4 rounded font-medium transition-all border-2 hover:opacity-80" style="border-color: #8B7355; color: #8B7355;">
+          Łukasz 1 (Polski)
+        </a>
+        <a href={`${base}tr/luke/1`} class="px-8 py-4 rounded font-medium transition-all border-2 hover:opacity-80" style="border-color: #8B7355; color: #8B7355;">
+          Luka 1 (Türkçe)
         </a>
       </div>
     </div>
@@ -54,7 +63,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       <p class="text-lg leading-relaxed mb-12" style="color: #6A6A6A;">
         We begin with Luke Chapter 1: the announcement of John the Baptist, the angel Gabriel visiting Mary, and two revolutionary songs that still echo today.
       </p>
-      <div class="grid sm:grid-cols-2 gap-6 max-w-lg mx-auto">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
         <a href={`${base}en/luke/1`} class="p-6 rounded-lg transition-all hover:shadow-lg group" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;">
           <span class="text-xl">Luke 1</span>
           <span class="block text-sm mt-1" style="color: #9A8F85;">English</span>
@@ -62,6 +71,18 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         <a href={`${base}de/luke/1`} class="p-6 rounded-lg transition-all hover:shadow-lg group" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;">
           <span class="text-xl">Lukas 1</span>
           <span class="block text-sm mt-1" style="color: #9A8F85;">Deutsch</span>
+        </a>
+        <a href={`${base}fr/luke/1`} class="p-6 rounded-lg transition-all hover:shadow-lg group" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;">
+          <span class="text-xl">Luc 1</span>
+          <span class="block text-sm mt-1" style="color: #9A8F85;">Français</span>
+        </a>
+        <a href={`${base}pl/luke/1`} class="p-6 rounded-lg transition-all hover:shadow-lg group" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;">
+          <span class="text-xl">Łukasz 1</span>
+          <span class="block text-sm mt-1" style="color: #9A8F85;">Polski</span>
+        </a>
+        <a href={`${base}tr/luke/1`} class="p-6 rounded-lg transition-all hover:shadow-lg group" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;">
+          <span class="text-xl">Luka 1</span>
+          <span class="block text-sm mt-1" style="color: #9A8F85;">Türkçe</span>
         </a>
       </div>
     </div>

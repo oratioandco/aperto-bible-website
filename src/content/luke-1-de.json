@@ -1,37 +1,39 @@
 {
   "book": "Lukas",
-  "title": "Das Evangelium nach Lukas",
+  "title": "Lukas",
   "chapter": 1,
   "sections": [
     {
-      "heading": "Prolog: Warum ich das hier schreibe",
+      "heading": "Prolog",
       "verses": [
         {
-          "number": "1-2",
-          "text": "Viele haben schon versucht aufzuschreiben, was bei uns geschehen ist – so wie es uns die überliefert haben, die von Anfang an dabei waren: Augenzeugen, die später selbst zu Verkündern dieser Botschaft wurden.",
-          "footnotes": [
-            {
-              "ref": "1:1-2",
-              "category": "text",
-              "keyword": "Augenzeugen",
-              "content": "Das griechische Wort αὐτόπται (autoptai) ist ein Fachbegriff für Ersthandbeobachter – die Wurzel unseres Wortes „Autopsie\" (selbst sehen). Lukas betont: Seine Quellen waren Menschen, die dabei waren."
-            }
-          ],
+          "number": "1",
+          "text": "Schon viele haben versucht, aufzuschreiben, was unter uns geschehen ist — Ereignisse, die sich erfüllt haben.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "3-4",
-          "text": "Auch ich habe beschlossen, allem von Grund auf sorgfältig nachzugehen und es für dich, verehrter Theophilus, der Reihe nach aufzuschreiben. Du sollst sicher sein können, dass das stimmt, was man dir erzählt hat.",
-          "footnotes": [
-            {
-              "ref": "1:3",
-              "category": "kultur",
-              "keyword": "Theophilus",
-              "content": "Entweder ein echter Name (griechisch: „Gottesfreund\") oder ein symbolischer Titel für alle Leser. „Verehrter\" (κράτιστε) war eine Anrede für römische Beamte. Antike Bücher brauchten wohlhabende Gönner für Vervielfältigung und Verbreitung."
-            }
-          ],
+          "number": "2",
+          "text": "Sie haben sich auf Augenzeugen gestützt, Menschen, die von Anfang an dabei waren und dann zu Boten dieser Geschichte wurden.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "3",
+          "text": "Auch ich habe mich entschlossen, allem sorgfältig nachzugehen — von Grund auf, der Reihe nach — und es für dich aufzuschreiben, verehrter Theophilos.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "4",
+          "text": "Du sollst sicher sein können: Was man dir erzählt hat, stimmt.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -43,28 +45,15 @@
       "verses": [
         {
           "number": "5",
-          "text": "Als Herodes König von Judäa war, lebte dort ein Priester namens Zacharias. Er gehörte zur Priesterabteilung Abija<span class=\"amplification\">– einer von 24 Gruppen, die abwechselnd im Tempel dienten</span>. Seine Frau Elisabeth stammte von Aaron ab, dem ersten Hohepriester Israels.",
-          "footnotes": [
-            {
-              "ref": "1:5",
-              "category": "kultur",
-              "keyword": "Herodes",
-              "content": "Herodes der Große (regierte ca. 37–4 v. Chr.) war ein von Rom eingesetzter König, bekannt für monumentale Bauprojekte (Tempelausbau) und brutale Grausamkeit. Seine Erwähnung ist auch theologische Ironie: Die Tage dieses Tyrannen sind gezählt, denn der wahre König kommt."
-            },
-            {
-              "ref": "1:5",
-              "category": "kultur",
-              "keyword": "Priesterabteilungen",
-              "content": "Es gab etwa 18.000 Priester, eingeteilt in 24 Abteilungen, die jeweils zwei Wochen pro Jahr dienten (1. Chronik 24,7-18). Abija war die achte Abteilung."
-            }
-          ],
+          "text": "Als Herodes König von Judäa war, lebte dort ein Priester namens Zacharias aus der Priesterabteilung Abija. Seine Frau Elisabet stammte ebenfalls aus einer Priesterfamilie — eine Nachfahrin Aarons.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "6",
-          "text": "Beide lebten so, wie Gott es sich wünscht – sie hielten sich an alle Gebote und Vorschriften. Niemand konnte ihnen etwas vorwerfen.",
+          "text": "Beide lebten so, wie Gott es wollte. Sie hielten sich an alle Gebote und Vorschriften — niemand konnte ihnen etwas vorwerfen.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -72,37 +61,31 @@
         },
         {
           "number": "7",
-          "text": "Aber sie hatten keine Kinder. Elisabeth konnte nicht schwanger werden, und inzwischen waren beide alt.<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:7",
-              "category": "kultur",
-              "keyword": "Kinderlosigkeit",
-              "content": "In der antiken Welt war Kinderlosigkeit nicht nur ein privater Schmerz, sondern eine gesellschaftliche Katastrophe: keine Versorgung im Alter, kein Erbe, und viele vermuteten göttliche Strafe. Dass Zacharias bei Elisabeth blieb (Scheidung wäre erlaubt gewesen), zeigt tiefe Liebe. Lukas stellt sofort klar: Sie waren „gerecht vor Gott\" – ihre Kinderlosigkeit war KEINE Strafe."
-            }
-          ],
+          "text": "Aber sie hatten keine Kinder. Elisabet war unfruchtbar<span class=\"amplification\">— und in ihrer Welt bedeutete das: die Nachbarn flüsterten, Gott habe sie vergessen</span>. Inzwischen waren beide alt. Zu alt für Hoffnung.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "8-9",
-          "text": "Eines Tages war Zacharias' Abteilung an der Reihe, und er tat Dienst im Tempel. Das Los fiel auf ihn, das Räucheropfer darzubringen<span class=\"amplification\">– eine Ehre, die ein Priester vielleicht nur einmal im Leben erhielt</span>. Er betrat das Heiligtum.",
-          "footnotes": [
-            {
-              "ref": "1:9",
-              "category": "kultur",
-              "keyword": "Räucheropfer",
-              "content": "Das Räucheropfer fand zweimal täglich statt (zum Morgen- und Abendopfer) auf einem speziellen Altar im Heiligtum (dem heiligen Raum vor dem Allerheiligsten). Bei 18.000 Priestern konnte ein einzelner diese Ehre nur einmal im Leben erhalten – wenn überhaupt. Zacharias betritt den Raum allein."
-            }
-          ],
+          "number": "8",
+          "text": "Eines Tages war Zacharias im Tempel im Dienst — seine Abteilung war an der Reihe.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "9",
+          "text": "Wie es bei den Priestern üblich war, wurde ausgelost, wer das Räucheropfer im Heiligtum darbringen durfte. Das Los fiel auf Zacharias<span class=\"amplification\">— eine Ehre, die einem Priester nur einmal im Leben zuteil wurde</span>.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "10",
-          "text": "Draußen wartete das Volk und betete.<p class=\"paragraph-break\"></p>",
+          "text": "Draußen betete die ganze Versammlung, während das Räucheropfer dargebracht wurde.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -110,103 +93,111 @@
         },
         {
           "number": "11",
-          "text": "Da erschien ihm ein Engel Gottes. Er stand rechts vom Räucheraltar<span class=\"amplification\">– der Ehrenposition</span>.<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:11",
-              "category": "kultur",
-              "keyword": "Rechte Seite",
-              "content": "In der antiken Kultur war die rechte Seite die Seite der Ehre und des Segens. Der Engel erscheint an der Position höchster Würde."
-            }
-          ],
+          "text": "Und dann — da stand er: ein Engel Gottes. Rechts vom Räucheraltar<span class=\"amplification\">— dort, wo der Segen steht</span>.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "12",
-          "text": "Zacharias erschrak zutiefst. Angst überkam ihn.<p class=\"paragraph-break\"></p>",
+          "text": "Als Zacharias ihn sah, erschrak er zutiefst. <span class=\"amplification\">Furcht fiel auf ihn.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "13-14",
-          "text": "Aber der Engel sagte: „Hab keine Angst, Zacharias! Gott hat dein Gebet gehört. Deine Frau Elisabeth wird einen Sohn bekommen, und du sollst ihn Johannes nennen. Du wirst dich unbändig freuen – und viele andere mit dir.",
-          "footnotes": [
-            {
-              "ref": "1:13",
-              "category": "leben",
-              "keyword": "„Hab keine Angst\"",
-              "content": "Die häufigste Anweisung in der Bibel. Angst ist eine universelle menschliche Erfahrung – ob vor dem Unbekannten, vor Veränderung oder vor dem Heiligen. Die biblische Einladung ist nicht: „Unterdrücke deine Angst\", sondern: „Die Angst muss nicht das letzte Wort haben.\" Psychologisch entspricht das der Unterscheidung zwischen dem Gefühl (normal) und der Reaktion darauf (gestaltbar)."
-            },
-            {
-              "ref": "1:13",
-              "category": "text",
-              "keyword": "Johannes",
-              "content": "Griechisch Ἰωάννης (Iōannēs), vom hebräischen יוֹחָנָן (Jochanan): „JHWH hat Gnade erwiesen.\" Der Name selbst verkündet Gottes gnädiges Handeln."
-            }
-          ],
+          "number": "13",
+          "text": "Der Engel sagte: „Hab keine Angst, Zacharias. Dein Gebet ist angekommen. Deine Frau Elisabet wird einen Sohn bekommen. Du sollst ihn Johannes nennen.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "15-17",
-          "text": "Denn dein Sohn wird groß sein vor Gott. Wein und starke Getränke wird er nicht anrühren. Schon im Mutterleib wird er von Gottes Geist erfüllt sein. Viele Menschen in Israel wird er zu Gott zurückführen. Er wird vor Gott hergehen – mit derselben Kraft und Leidenschaft wie einst der Prophet Elia. Er wird Väter mit ihren Kindern versöhnen und Ungehorsame zur Besinnung bringen. So wird er ein Volk vorbereiten, das bereit ist für Gott.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:15",
-              "category": "kontext",
-              "keyword": "Nasiräer",
-              "content": "Das Verzichten auf Wein erinnert an das Nasiräer-Gelübde (4. Mose 6) und an den Richter Simson. Johannes wird von Geburt an für besondere Aufgaben geweiht sein."
-            },
-            {
-              "ref": "1:17",
-              "category": "kontext",
-              "keyword": "Geist des Elia",
-              "content": "Der Prophet Maleachi (3,23-24) verheißt, dass Elia vor dem „Tag des Herrn\" zurückkehren wird, um Familien zu versöhnen. Johannes erfüllt diese Rolle als Wegbereiter."
-            }
-          ],
+          "number": "14",
+          "text": "Du wirst dich freuen, überwältigt vor Glück. Und viele werden sich mit dir freuen, wenn er geboren wird.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "15",
+          "text": "Er wird groß sein vor Gott. Er wird weder Wein noch andere berauschende Getränke trinken<span class=\"amplification\">— wie die Nasiräer, die sich Gott ganz weihen</span>. Schon im Mutterleib wird er mit dem Heiligen Geist erfüllt sein.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "16",
+          "text": "Er wird viele aus Israel zu ihrem Gott zurückbringen.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "17",
+          "text": "Er wird vor ihm hergehen — mit dem Geist und der Kraft des Elia. Er wird die Herzen der Väter zu den Kindern wenden und die Ungehorsamen zur Einsicht der Gerechten führen — um ein Volk vorzubereiten, das bereit ist für den Herrn.\"<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "18",
-          "text": "Zacharias fragte: „Wie kann ich sicher sein, dass das stimmt? Ich bin ein alter Mann, und meine Frau ist auch nicht mehr jung.\"<p class=\"paragraph-break\"></p>",
+          "text": "Zacharias fragte: „Wie kann ich sicher sein, dass das stimmt? Ich bin alt, und meine Frau auch.\"<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "19-20",
-          "text": "Der Engel antwortete: „Ich bin Gabriel. Ich stehe unmittelbar vor Gott. Er selbst hat mich geschickt, um dir diese gute Nachricht zu bringen. Aber weil du meinen Worten nicht geglaubt hast, wirst du stumm sein – unfähig zu sprechen, bis es so weit ist. Alles wird geschehen, wenn die Zeit gekommen ist.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:19",
-              "category": "kontext",
-              "keyword": "Gabriel",
-              "content": "Einer von nur zwei namentlich genannten Engeln in der hebräischen Bibel (neben Michael). Gabriel erscheint bereits in Daniel 8-9 als Überbringer göttlicher Botschaften. „Ich stehe vor Gott\" bedeutet höchsten Rang in der himmlischen Hierarchie."
-            }
-          ],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "21-22",
-          "text": "Draußen wartete das Volk auf Zacharias. Sie wunderten sich, dass er so lange im Heiligtum blieb. Als er endlich herauskam, konnte er nicht sprechen. Er machte nur Zeichen. Da begriffen sie: Er hat im Tempel eine Vision gehabt.<p class=\"paragraph-break\"></p>",
+          "number": "19",
+          "text": "Der Engel antwortete: „Ich bin Gabriel. Ich stehe vor Gott selbst. Er hat mich geschickt, um dir diese gute Nachricht zu bringen.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "23-24",
-          "text": "Nachdem sein Dienst zu Ende war, ging Zacharias nach Hause. Bald darauf wurde Elisabeth schwanger. Fünf Monate lang zog sie sich zurück.",
+          "number": "20",
+          "text": "Aber weil du meinen Worten nicht geglaubt hast — Worten, die sich erfüllen werden, wenn ihre Zeit gekommen ist — wirst du schweigen müssen. Du wirst nicht mehr reden können, bis alles geschehen ist.\"<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "21",
+          "text": "Draußen wartete das Volk auf Zacharias. Sie wunderten sich, dass er so lange im Heiligtum blieb.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "22",
+          "text": "Als er schließlich herauskam, konnte er nicht mit ihnen sprechen. Da wurde ihnen klar: Er hat eine Vision gehabt. Er machte ihnen Zeichen, blieb aber stumm.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "23",
+          "text": "Als seine Dienstzeit vorbei war, ging er nach Hause.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "24",
+          "text": "Bald darauf wurde Elisabet schwanger. Fünf Monate lang zeigte sie sich nicht in der Öffentlichkeit.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -214,15 +205,8 @@
         },
         {
           "number": "25",
-          "text": "Sie sagte: „Gott hat das für mich getan. Er hat auf mich geschaut und mich von meiner Schande befreit, kinderlos zu sein.\"",
-          "footnotes": [
-            {
-              "ref": "1:25",
-              "category": "leben",
-              "keyword": "Schande und Befreiung",
-              "content": "Elisabeth nennt offen, was die Kultur annahm: Kinderlosigkeit als „Schande\". Ihre Worte sind kein Zeichen von Selbstmitleid, sondern Zeugnis der Befreiung. Gott sieht Menschen, die von der Gesellschaft übersehen oder abgewertet werden – und handelt."
-            }
-          ],
+          "text": "Sie sagte: „Das hat Gott für mich getan. Er hat auf mich geschaut. Er hat mir die Schande genommen, die ich vor den Menschen getragen habe.\"",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -233,73 +217,72 @@
       "heading": "Maria sagt Ja",
       "verses": [
         {
-          "number": "26-27",
-          "text": "Im sechsten Monat der Schwangerschaft Elisabeths schickte Gott den Engel Gabriel nach Galiläa, in ein Dorf namens Nazareth<span class=\"amplification\">– ein unbedeutender Ort, den niemand kannte</span>. Dort lebte eine junge Frau namens Maria. Sie war Jungfrau und mit einem Mann namens Josef verlobt, einem Nachkommen von König David.<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:26",
-              "category": "kultur",
-              "keyword": "Nazareth",
-              "content": "Ein winziges Dorf (500-2000 Einwohner) ohne jede Bedeutung – nicht erwähnt in der hebräischen Bibel, bei Josephus oder im Talmud. Archäologische Funde zeigen einfache Landarbeiter. Der Kontrast zu den königlichen Verheißungen ist gewollte Ironie."
-            },
-            {
-              "ref": "1:27",
-              "category": "kultur",
-              "keyword": "Verlobung",
-              "content": "Die jüdische Verlobung (אירוסין/erusin) war ein rechtlich bindender Vertrag, meist von den Familien arrangiert. Sie dauerte etwa ein Jahr. Sexuelle Beziehungen waren verboten; eine Schwangerschaft während der Verlobung galt als Ehebruch – im schlimmsten Fall ein Kapitalverbrechen (5. Mose 22,23-24). Maria geht ein enormes Risiko ein."
-            }
-          ],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "28",
-          "text": "Der Engel trat bei ihr ein und sagte: „Ich grüße dich, Maria! Gott hat dich mit Gnade beschenkt. Er ist an deiner Seite.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:28",
-              "category": "text",
-              "keyword": "„mit Gnade beschenkt\"",
-              "content": "Griechisch κεχαριτωμένη (kecharitōmenē) – ein Partizip Perfekt Passiv: „die, der Gnade erwiesen wurde\". Nicht „voll der Gnade\" (wie die lateinische Vulgata: gratia plena), sondern: Gott hat gehandelt, Maria hat empfangen. Der Fokus liegt auf Gottes Initiative, nicht auf Marias Eigenschaft."
-            }
-          ],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "29",
-          "text": "Maria war verwirrt. Sie fragte sich, was dieser Gruß bedeuten sollte.<p class=\"paragraph-break\"></p>",
+          "number": "26",
+          "text": "Im sechsten Monat sandte Gott den Engel Gabriel erneut. Diesmal nicht in den prächtigen Tempel von Jerusalem. Diesmal nach Nazareth<span class=\"amplification\">— ein unbedeutendes Dorf in Galiläa, das auf keiner Karte erschien</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "30-33",
-          "text": "Der Engel sagte: „Hab keine Angst, Maria. Gott hat dich auserwählt. Du wirst schwanger werden und einen Sohn zur Welt bringen. Du sollst ihn Jesus nennen. Er wird groß sein – man wird ihn Sohn des Höchsten nennen. Gott wird ihm den Thron seines Vorfahren David geben. Er wird für immer über das Volk Israel herrschen. Seine Herrschaft wird kein Ende haben.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:31",
-              "category": "text",
-              "keyword": "Jesus",
-              "content": "Griechisch Ἰησοῦς (Iēsous), vom hebräischen יְהוֹשֻׁעַ (Jeschua/Josua): „JHWH rettet\" oder „JHWH ist Rettung\". Der Name ist Programm."
-            },
-            {
-              "ref": "1:32",
-              "category": "kontext",
-              "keyword": "Thron Davids",
-              "content": "Anspielung auf die Nathan-Verheißung (2. Samuel 7,12-16): Gott versprach David einen Nachkommen, dessen Königtum „für immer\" bestehen würde. Diese messianische Hoffnung prägte Jahrhunderte jüdischer Erwartung."
-            }
-          ],
+          "number": "27",
+          "text": "Dort lebte eine junge Frau namens Maria. Sie war verlobt mit einem Mann namens Josef, einem Nachkommen von König David.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "28",
+          "text": "Der Engel kam zu ihr und sagte: „Ich grüße dich! Du bist die, die Gott beschenkt hat. Gott ist an deiner Seite.\"",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "29",
+          "text": "Die Worte erschütterten sie zutiefst. Sie fragte sich, was dieser Gruß bedeuten sollte.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "30",
+          "text": "Der Engel sagte: „Hab keine Angst, Maria. Gott hat dich auserwählt.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "31",
+          "text": "Du wirst schwanger werden und einen Sohn bekommen. Du sollst ihn Jesus nennen.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "32",
+          "text": "Er wird groß sein — man wird ihn Sohn des Höchsten nennen. Gott wird ihm den Thron seines Vorfahren David geben.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "33",
+          "text": "Er wird über das Haus Jakob herrschen — für immer. Sein Reich wird kein Ende haben.\"<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "34",
-          "text": "Maria fragte: „Wie soll das geschehen? Ich habe mit keinem Mann geschlafen.\"<p class=\"paragraph-break\"></p>",
+          "text": "Maria fragte: „Wie soll das geschehen? Ich habe nie mit einem Mann geschlafen.\"<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -307,28 +290,23 @@
         },
         {
           "number": "35",
-          "text": "Der Engel antwortete: „Gottes Geist wird über dich kommen. Die Kraft des Höchsten wird dich umhüllen<span class=\"amplification\">– wie einst Gottes Gegenwart das heilige Zelt in der Wüste erfüllte</span>. Deshalb wird das Kind, das du zur Welt bringst, heilig sein. Man wird es Sohn Gottes nennen.<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:35",
-              "category": "text",
-              "keyword": "„umhüllen\"",
-              "content": "Griechisch ἐπισκιάσει (episkiasei) – dasselbe Verb beschreibt in Exodus 40,35, wie Gottes Herrlichkeit die Stiftshütte „überschattete\". Die Sprache evoziert göttliche Gegenwart und Schutz, NICHT physische Zeugung (wie in griechischen Mythen von Zeus und sterblichen Frauen). Maria wird zu einem neuen „Zelt der Begegnung\", in dem Gott wohnt."
-            },
-            {
-              "ref": "1:35",
-              "category": "unglaublich",
-              "keyword": "Jungfrauengeburt",
-              "content": "Die Jungfrauengeburt ist ein Glaubensgeheimnis, das Christen unterschiedlich verstehen. Für manche ist sie buchstäblich historisch; für andere symbolisch (Betonung göttlicher Initiative). Alle Christen stimmen überein: Jesus kommt von Gott. Lukas betont bewusst: Dies ist keine göttliche Zeugung wie in heidnischen Mythen, sondern schöpferisches Handeln des Geistes."
-            }
-          ],
+          "text": "Der Engel antwortete: „Der Heilige Geist wird über dich kommen. Die Kraft des Höchsten wird dich überschatten. Deshalb wird das Kind, das geboren wird, heilig sein — man wird es Sohn Gottes nennen.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "36-37",
-          "text": "Übrigens: Deine Verwandte Elisabeth ist auch schwanger – mit einem Sohn, obwohl sie schon alt ist. Sie, von der es hieß, sie könne keine Kinder bekommen, ist jetzt im sechsten Monat. Denn für Gott ist nichts unmöglich.\"<p class=\"paragraph-break\"></p>",
+          "number": "36",
+          "text": "Und noch etwas: Deine Verwandte Elisabet — die, von der alle sagten, sie könne keine Kinder bekommen — sie ist jetzt im sechsten Monat schwanger. In ihrem Alter!",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "37",
+          "text": "Denn für Gott ist nichts unmöglich.\"<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -336,21 +314,8 @@
         },
         {
           "number": "38",
-          "text": "Maria sagte: „Ich bin bereit, Gott zu dienen – ich stelle mein Leben ganz zur Verfügung. Was du gesagt hast, soll sich an mir erfüllen.\"<p class=\"paragraph-break\"></p>Dann verließ der Engel sie.",
-          "footnotes": [
-            {
-              "ref": "1:38",
-              "category": "text",
-              "keyword": "„Ich bin bereit zu dienen\"",
-              "content": "Griechisch δούλη κυρίου (doulē kyriou) – wörtlich „Sklavin des Herrn\". Maria verwendet den stärksten Begriff der Unterordnung. Doch in der biblischen Tradition ist „Diener/Dienerin Gottes\" ein Ehrentitel: Abraham, Mose, David, die Propheten werden so genannt. Maria reiht sich ein in diese Linie. Ihr „Ja\" ist aktive Zustimmung, nicht passive Resignation."
-            },
-            {
-              "ref": "1:38",
-              "category": "leben",
-              "keyword": "Marias Fiat",
-              "content": "„Was du gesagt hast, soll sich an mir erfüllen\" – diese Worte wurden in der christlichen Tradition als „Fiat\" (lat. „es geschehe\") bekannt. Sie beschreiben eine Haltung radikaler Offenheit gegenüber dem Unerwarteten. Psychologisch ist das Gegenteil von Kontrolle nicht Passivität, sondern aktive Hingabe – die Entscheidung, sich auf etwas Größeres einzulassen, das man nicht vollständig versteht. In vielen Lebenssituationen steht man vor ähnlichen Momenten: Ein unerwartetes Angebot, eine Diagnose, eine neue Beziehung. Die Frage ist nicht, ob das Leben Überraschungen bringt, sondern wie man ihnen begegnet."
-            }
-          ],
+          "text": "Maria sagte: „Ich gehöre Gott. Ich bin bereit. Was du gesagt hast, soll sich an mir erfüllen.\"<p class=\"paragraph-break\"></p>Dann ging der Engel.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -361,46 +326,57 @@
       "heading": "Zwei Frauen, zwei Wunder",
       "verses": [
         {
-          "number": "39-40",
-          "text": "Kurz darauf machte sich Maria auf den Weg. Sie eilte ins Bergland von Judäa<span class=\"amplification\">– drei bis fünf Tagesmärsche</span>, in die Stadt, wo Zacharias wohnte. Sie betrat das Haus und begrüßte Elisabeth.<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:39",
-              "category": "kultur",
-              "keyword": "Marias Reise",
-              "content": "Von Nazareth ins judäische Bergland sind etwa 80-100 Kilometer. Eine junge Frau, die allein reist, war ungewöhnlich und riskant (Räuber, Anstandsregeln). Maria reiste wahrscheinlich mit einer Karawane oder Familiengruppe."
-            }
-          ],
+          "number": "39",
+          "text": "In diesen Tagen machte sich Maria auf den Weg — so schnell sie konnte. Sie reiste ins Bergland von Judäa, in eine Stadt dort.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "41-42",
-          "text": "In dem Moment, als Elisabeth Marias Gruß hörte, hüpfte das Kind in ihrem Bauch. Elisabeth wurde von Gottes Geist erfüllt und rief laut:<p class=\"paragraph-break\"></p>„Gesegnet bist du – mehr als alle anderen Frauen! Und gesegnet ist das Kind in deinem Bauch! 43-44 Was für eine Ehre, dass die Mutter meines Herrn zu mir kommt! Denn schau: Kaum hörte ich deinen Gruß, da hüpfte das Kind in meinem Bauch vor Freude!<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:43",
-              "category": "kontext",
-              "keyword": "„Mutter meines Herrn\"",
-              "content": "Elisabeth nennt Maria die Mutter ihres κύριος (kyrios) – „Herrn\". In der griechischen Übersetzung des Alten Testaments (Septuaginta) übersetzt κύριος den Gottesnamen JHWH. Elisabeth erkennt damit implizit den göttlichen Status von Marias ungeborenem Kind. Dies ist das erste menschliche Bekenntnis zu Jesus – und es kommt von einer Frau."
-            }
-          ],
+          "number": "40",
+          "text": "Sie ging in das Haus von Zacharias und begrüßte Elisabet.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "41",
+          "text": "Als Elisabet Marias Gruß hörte, hüpfte das Kind in ihrem Bauch. Elisabet wurde vom Heiligen Geist erfüllt.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "42",
+          "text": "Mit lauter Stimme rief sie: „Gesegnet bist du — mehr als alle anderen Frauen! Und gesegnet ist das Kind in deinem Bauch!",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "43",
+          "text": "Wie kommt es, dass die Mutter meines Herrn zu mir kommt?",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "44",
+          "text": "Als ich deinen Gruß hörte, hüpfte das Kind in meinem Bauch vor Freude!",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "45",
-          "text": "Freuen darf sich, wer glaubt, dass Gottes Versprechen in Erfüllung gehen.\"",
-          "footnotes": [
-            {
-              "ref": "1:45",
-              "category": "text",
-              "keyword": "„Freuen darf sich\"",
-              "content": "Griechisch μακαρία (makaria) – oft als „selig\" übersetzt, aber das klingt heute religiös-antiquiert. Es meint: glücklich zu preisen, beneidenswert, in einer günstigen Situation. Elisabeth kontrastiert Marias Glauben mit Zacharias' Zweifel: Maria glaubte – und das macht sie beneidenswert."
-            }
-          ],
+          "text": "Glücklich bist du, die du geglaubt hast. Denn was Gott dir gesagt hat, wird sich erfüllen.\"",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -408,56 +384,70 @@
       ]
     },
     {
-      "heading": "Marias Lied (Magnificat)",
+      "heading": "Marias Lied",
       "verses": [
         {
-          "number": "46-47",
-          "text": "<span class=\"poetry-line-1\">Da sagte Maria:</span><span class=\"poetry-line-1\">„Alles in mir jubelt: Wie groß ist Gott!</span><span class=\"poetry-line-1\">Mein Herz tanzt vor Freude über Gott, meinen Retter.</span>",
+          "number": "46",
+          "text": "<span class=\"poetry-line-1\">Maria sagte:</span><span class=\"poetry-line-1\">„Alles in mir feiert Gott.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Da sagte Maria:",
+              "text": "Maria sagte:",
               "level": 1
             },
             {
-              "text": "„Alles in mir jubelt: Wie groß ist Gott!",
+              "text": "„Alles in mir feiert Gott.",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "number": "47",
+          "text": "<span class=\"poetry-line-1\">Mein ganzer Geist jubelt</span><span class=\"poetry-line-2\">über Gott, meinen Retter.</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "Mein ganzer Geist jubelt",
               "level": 1
             },
             {
-              "text": "Mein Herz tanzt vor Freude über Gott, meinen Retter.",
-              "level": 1
+              "text": "über Gott, meinen Retter.",
+              "level": 2
             }
           ]
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Er hat auf meine niedrige Stellung geschaut<span class=\"amplification\">– ich war jung, arm, unbedeutend</span>.</span><span class=\"poetry-line-1\">Und jetzt? Von jetzt an werden alle Generationen sagen: Sie ist zu beneiden!</span>",
-          "footnotes": [
-            {
-              "ref": "1:48",
-              "category": "text",
-              "keyword": "„niedrige Stellung\"",
-              "content": "Griechisch ταπείνωσις (tapeinōsis) bedeutet niedrigen sozialen Status, NICHT Demut als Tugend (das wäre ταπεινοφροσύνη). Maria beschreibt ihre gesellschaftliche Position: jung, weiblich, arm, aus einem Dorf, das niemand kennt. Gott schaut auf die, die von der Welt übersehen werden."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">Er hat auf mich geschaut —</span><span class=\"poetry-line-2\">auf mich Unbedeutende, seine Dienerin.</span><span class=\"poetry-line-1\">Von jetzt an werden alle Generationen sagen:</span><span class=\"poetry-line-2\">Sie wurde reich beschenkt.</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Er hat auf meine niedrige Stellung geschaut<span class=\"amplification\">– ich war jung, arm, unbedeutend</span>.",
+              "text": "Er hat auf mich geschaut —",
               "level": 1
             },
             {
-              "text": "Und jetzt? Von jetzt an werden alle Generationen sagen: Sie ist zu beneiden!",
+              "text": "auf mich Unbedeutende, seine Dienerin.",
+              "level": 2
+            },
+            {
+              "text": "Von jetzt an werden alle Generationen sagen:",
               "level": 1
+            },
+            {
+              "text": "Sie wurde reich beschenkt.",
+              "level": 2
             }
           ]
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">Denn der Mächtige hat Großes an mir getan.</span><span class=\"poetry-line-1\">Heilig ist sein Name.</span>",
+          "text": "<span class=\"poetry-line-1\">Denn der Mächtige hat Großes an mir getan.</span><span class=\"poetry-line-2\">Heilig ist sein Name.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -468,119 +458,119 @@
             },
             {
               "text": "Heilig ist sein Name.",
-              "level": 1
+              "level": 2
             }
           ]
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Seine Barmherzigkeit reicht von Generation zu Generation –</span><span class=\"poetry-line-1\">für alle, die Ehrfurcht vor ihm haben.</span>",
+          "text": "<span class=\"poetry-line-1\">Sein Erbarmen gilt denen, die ihn ehren —</span><span class=\"poetry-line-2\">von Generation zu Generation.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Seine Barmherzigkeit reicht von Generation zu Generation –",
+              "text": "Sein Erbarmen gilt denen, die ihn ehren —",
               "level": 1
             },
             {
-              "text": "für alle, die Ehrfurcht vor ihm haben.",
-              "level": 1
+              "text": "von Generation zu Generation.",
+              "level": 2
             }
           ]
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Mit starkem Arm greift er ein:</span><span class=\"poetry-line-2\">Er zerstreut die Arroganten mit all ihren Plänen.</span>",
+          "text": "<span class=\"poetry-line-1\">Mit starkem Arm hat er gehandelt.</span><span class=\"poetry-line-2\">Die Arroganten hat er zerstreut,</span><span class=\"poetry-line-2\">auseinandergetrieben in ihrem Hochmut.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Mit starkem Arm greift er ein:",
+              "text": "Mit starkem Arm hat er gehandelt.",
               "level": 1
             },
             {
-              "text": "Er zerstreut die Arroganten mit all ihren Plänen.",
+              "text": "Die Arroganten hat er zerstreut,",
+              "level": 2
+            },
+            {
+              "text": "auseinandergetrieben in ihrem Hochmut.",
               "level": 2
             }
           ]
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Machthaber stürzt er vom Thron,</span><span class=\"poetry-line-2\">und die Unbedeutenden macht er groß.</span>",
+          "text": "<span class=\"poetry-line-1\">Machthaber hat er von Thronen gestürzt</span><span class=\"poetry-line-2\">und die Unbedeutenden groß gemacht.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Machthaber stürzt er vom Thron,",
+              "text": "Machthaber hat er von Thronen gestürzt",
               "level": 1
             },
             {
-              "text": "und die Unbedeutenden macht er groß.",
+              "text": "und die Unbedeutenden groß gemacht.",
               "level": 2
             }
           ]
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">Die Hungrigen beschenkt er mit allem, was gut ist,</span><span class=\"poetry-line-2\">und die Reichen schickt er mit leeren Händen weg.</span>",
-          "footnotes": [
-            {
-              "ref": "1:51-53",
-              "category": "kontext",
-              "keyword": "Die große Umkehrung",
-              "content": "Das Magnificat ist eines der revolutionärsten Dokumente der Weltliteratur. Eine Bauernjugendliche verkündet den Sturz der Mächtigen und die Erhöhung der Machtlosen. Diese „große Umkehrung\" zieht sich durch das gesamte Lukasevangelium (6,20-26; 14,11; 16,19-31). In den 1980er Jahren verboten lateinamerikanische Militärregierungen das öffentliche Vorlesen des Magnificat."
-            },
-            {
-              "ref": "1:51-53",
-              "category": "leben",
-              "keyword": "Befreiungstheologie",
-              "content": "Das Magnificat inspiriert bis heute die Befreiungstheologie: Gott steht auf der Seite der Armen und Unterdrückten. Zugleich warnt es vor Spiritualisierung: Lukas meint nicht nur innere Haltungen, sondern konkrete soziale und wirtschaftliche Umwälzung. Was bedeutet das für unsere Haltung zu Reichtum und Macht?"
-            }
-          ],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Die Hungrigen beschenkt er mit allem, was gut ist,",
-              "level": 1
-            },
-            {
-              "text": "und die Reichen schickt er mit leeren Händen weg.",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "number": "54-55",
-          "text": "<span class=\"poetry-line-1\">Er nimmt sich seines Volkes Israel an,</span><span class=\"poetry-line-2\">so wie er es versprochen hat.</span><span class=\"poetry-line-1\">Er erinnert sich an seine Barmherzigkeit –</span><span class=\"poetry-line-2\">das Versprechen an Abraham und seine Nachkommen, für immer.\"</span><p class=\"paragraph-break\"></p>",
+          "text": "<span class=\"poetry-line-1\">Die Hungernden hat er mit Gutem gefüllt —</span><span class=\"poetry-line-2\">die Reichen mit leeren Händen weggeschickt.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Er nimmt sich seines Volkes Israel an,",
+              "text": "Die Hungernden hat er mit Gutem gefüllt —",
               "level": 1
             },
             {
-              "text": "so wie er es versprochen hat.",
+              "text": "die Reichen mit leeren Händen weggeschickt.",
               "level": 2
-            },
+            }
+          ]
+        },
+        {
+          "number": "54",
+          "text": "<span class=\"poetry-line-1\">Er hat sich Israels angenommen, seines Dieners,</span><span class=\"poetry-line-2\">und an sein Erbarmen gedacht —</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
             {
-              "text": "Er erinnert sich an seine Barmherzigkeit –",
+              "text": "Er hat sich Israels angenommen, seines Dieners,",
               "level": 1
             },
             {
-              "text": "das Versprechen an Abraham und seine Nachkommen, für immer.\"",
+              "text": "und an sein Erbarmen gedacht —",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "number": "55",
+          "text": "<span class=\"poetry-line-1\">so wie er es unseren Vorfahren versprochen hat:</span><span class=\"poetry-line-2\">Abraham und seinen Nachkommen, für immer.\"</span><p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "so wie er es unseren Vorfahren versprochen hat:",
+              "level": 1
+            },
+            {
+              "text": "Abraham und seinen Nachkommen, für immer.\"",
               "level": 2
             }
           ]
         },
         {
           "number": "56",
-          "text": "Maria blieb etwa drei Monate bei Elisabeth. Dann kehrte sie nach Hause zurück.",
+          "text": "Maria blieb etwa drei Monate bei Elisabet. Dann kehrte sie nach Hause zurück.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -592,8 +582,16 @@
       "heading": "Sein Name ist Johannes",
       "verses": [
         {
-          "number": "57-58",
-          "text": "Für Elisabeth kam die Zeit der Geburt, und sie brachte einen Sohn zur Welt. Ihre Nachbarn und Verwandten hörten davon – dass Gott so gut zu ihr gewesen war – und freuten sich mit ihr.<p class=\"paragraph-break\"></p>",
+          "number": "57",
+          "text": "Für Elisabet kam die Zeit, und sie brachte einen Sohn zur Welt.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "58",
+          "text": "Ihre Nachbarn und Verwandten hörten, dass Gott ihr so großes Erbarmen geschenkt hatte. Sie freuten sich mit ihr.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -601,22 +599,15 @@
         },
         {
           "number": "59",
-          "text": "Am achten Tag kamen sie zur Beschneidung<span class=\"amplification\">– dem Zeichen des Bundes zwischen Gott und Israel, verbunden mit der Namensgebung</span>. Sie wollten das Kind Zacharias nennen, nach seinem Vater.<p class=\"paragraph-break\"></p>",
-          "footnotes": [
-            {
-              "ref": "1:59",
-              "category": "kultur",
-              "keyword": "Beschneidung",
-              "content": "Die Beschneidung am achten Tag (3. Mose 12,3) war das Bundeszeichen, das Abraham und seinen Nachkommen gegeben wurde (1. Mose 17). Es markierte die Zugehörigkeit zu Israel. Die Namensgebung war ein gesellschaftliches Ereignis: Nachbarn und Verwandte versammelten sich."
-            }
-          ],
+          "text": "Am achten Tag kamen sie, um das Kind beschneiden zu lassen. Sie wollten es Zacharias nennen, nach seinem Vater.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "60",
-          "text": "Aber seine Mutter sagte: „Nein! Er soll Johannes heißen.\"<p class=\"paragraph-break\"></p>",
+          "text": "Aber die Mutter sagte: „Nein. Johannes soll er heißen.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -624,23 +615,39 @@
         },
         {
           "number": "61",
-          "text": "Sie wandten ein: „Aber in deiner Familie heißt doch niemand so!\"<p class=\"paragraph-break\"></p>",
+          "text": "Sie wandten ein: „Aber niemand in deiner Familie heißt so!\"<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "62-63",
-          "text": "Da fragten sie seinen Vater mit Handzeichen, wie das Kind heißen solle. Zacharias ließ sich eine Schreibtafel geben und schrieb: „Sein Name ist Johannes.\"<p class=\"paragraph-break\"></p>Alle staunten.<p class=\"paragraph-break\"></p>",
+          "number": "62",
+          "text": "Mit Handzeichen fragten sie seinen Vater, wie er das Kind nennen wollte.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "64-65",
-          "text": "Im selben Moment öffnete sich sein Mund, und er konnte wieder sprechen. Er lobte Gott. Ehrfurcht ergriff alle in der Nachbarschaft. Im ganzen Bergland von Judäa sprach man über diese Ereignisse.",
+          "number": "63",
+          "text": "Er bat um eine Schreibtafel und schrieb: „Johannes ist sein Name.\"<p class=\"paragraph-break\"></p>Alle staunten.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "64",
+          "text": "Im selben Moment öffnete sich sein Mund, seine Zunge löste sich. Er begann zu sprechen und Gott zu loben.<p class=\"paragraph-break\"></p>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "65",
+          "text": "Ehrfurcht überkam alle in der Nachbarschaft. Im ganzen Bergland von Judäa sprach man über diese Ereignisse.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -648,7 +655,7 @@
         },
         {
           "number": "66",
-          "text": "Alle, die davon hörten, nahmen es sich zu Herzen. Sie fragten sich: „Was wird aus diesem Kind werden?\"<p class=\"paragraph-break\"></p>Denn es war offensichtlich: Gottes Hand war mit ihm.",
+          "text": "Alle, die davon hörten, fragten sich: „Was wird wohl aus diesem Kind werden?\"<p class=\"paragraph-break\"></p>Denn es war offensichtlich: Gottes Hand war über ihm.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -657,11 +664,11 @@
       ]
     },
     {
-      "heading": "Zacharias' Prophetie (Benedictus)",
+      "heading": "Zacharias' Prophetie",
       "verses": [
         {
           "number": "67",
-          "text": "Sein Vater Zacharias wurde von Gottes Geist erfüllt und sprach prophetisch:",
+          "text": "Sein Vater Zacharias wurde vom Heiligen Geist erfüllt und begann zu prophezeien:",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -669,44 +676,34 @@
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">„Gepriesen sei Gott, der Gott Israels!</span><span class=\"poetry-line-1\">Er hat sein Volk besucht und befreit.</span>",
-          "footnotes": [
-            {
-              "ref": "1:68",
-              "category": "text",
-              "keyword": "„Gepriesen sei Gott\"",
-              "content": "Hebräisch בָּרוּךְ (baruch), griechisch Εὐλογητός (Eulogētos) – die klassische Eröffnung jüdischer Lobgebete (Berachot). Nicht: „Gott soll gesegnet werden\", sondern: „Gott ist würdig, gepriesen zu werden.\""
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">„Gepriesen sei der Herr, der Gott Israels.</span><span class=\"poetry-line-1\">Er hat sich seinem Volk zugewandt</span><span class=\"poetry-line-2\">und es befreit.</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "„Gepriesen sei Gott, der Gott Israels!",
+              "text": "„Gepriesen sei der Herr, der Gott Israels.",
               "level": 1
             },
             {
-              "text": "Er hat sein Volk besucht und befreit.",
+              "text": "Er hat sich seinem Volk zugewandt",
               "level": 1
+            },
+            {
+              "text": "und es befreit.",
+              "level": 2
             }
           ]
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Einen mächtigen Retter hat er uns geschickt –</span><span class=\"poetry-line-2\">aus der Familie seines Dieners David.</span>",
-          "footnotes": [
-            {
-              "ref": "1:69",
-              "category": "text",
-              "keyword": "„mächtiger Retter\"",
-              "content": "Wörtlich: κέρας σωτηρίας (keras sōtērias) – „Horn der Rettung\". Das Tierhorn war Symbol für Kraft und Macht (vgl. Psalm 18,3). Die Metapher ist im Deutschen unverständlich, daher die sinngemäße Übersetzung."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">Einen mächtigen Retter hat er uns geschenkt</span><span class=\"poetry-line-2\">aus der Familie seines Dieners David.</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Einen mächtigen Retter hat er uns geschickt –",
+              "text": "Einen mächtigen Retter hat er uns geschenkt",
               "level": 1
             },
             {
@@ -716,22 +713,27 @@
           ]
         },
         {
-          "number": "70-71",
-          "text": "<span class=\"poetry-line-1\">So hatte er es längst versprochen,</span><span class=\"poetry-line-2\">durch seine heiligen Propheten:</span><span class=\"poetry-line-1\">Rettung vor unseren Feinden,</span><span class=\"poetry-line-2\">aus der Hand aller, die uns hassen.</span>",
+          "number": "70",
+          "text": "<span class=\"poetry-line-1\">So hat er es längst durch seine heiligen Propheten angekündigt:</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "So hatte er es längst versprochen,",
+              "text": "So hat er es längst durch seine heiligen Propheten angekündigt:",
               "level": 1
-            },
+            }
+          ]
+        },
+        {
+          "number": "71",
+          "text": "<span class=\"poetry-line-1\">Rettung von unseren Feinden,</span><span class=\"poetry-line-2\">aus der Hand aller, die uns hassen.</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
             {
-              "text": "durch seine heiligen Propheten:",
-              "level": 2
-            },
-            {
-              "text": "Rettung vor unseren Feinden,",
+              "text": "Rettung von unseren Feinden,",
               "level": 1
             },
             {
@@ -741,50 +743,61 @@
           ]
         },
         {
-          "number": "72-73",
-          "text": "<span class=\"poetry-line-1\">Er erweist unseren Vorfahren Barmherzigkeit</span><span class=\"poetry-line-2\">und erinnert sich an seinen heiligen Bund –</span><span class=\"poetry-line-1\">an den Eid, den er Abraham geschworen hat:</span>",
-          "footnotes": [
-            {
-              "ref": "1:72-73",
-              "category": "kontext",
-              "keyword": "Der Bund",
-              "content": "Griechisch διαθήκη (diathēkē) – Gottes bindende Zusage. Der Eid an Abraham (1. Mose 22,16-18) versprach: Nachkommen, Land, Segen für alle Völker. Zacharias sieht diese uralten Verheißungen jetzt in Erfüllung gehen."
-            }
-          ],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Er erweist unseren Vorfahren Barmherzigkeit",
-              "level": 1
-            },
-            {
-              "text": "und erinnert sich an seinen heiligen Bund –",
-              "level": 2
-            },
-            {
-              "text": "an den Eid, den er Abraham geschworen hat:",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "74-75",
-          "text": "<span class=\"poetry-line-1\">dass wir, befreit von Feinden,</span><span class=\"poetry-line-2\">ihm dienen können ohne Angst,</span><span class=\"poetry-line-1\">heilig und gerecht vor ihm,</span><span class=\"poetry-line-2\">unser Leben lang.</span>",
+          "number": "72",
+          "text": "<span class=\"poetry-line-1\">So erweist er unseren Vorfahren Erbarmen</span><span class=\"poetry-line-2\">und gedenkt seines heiligen Bundes —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "dass wir, befreit von Feinden,",
+              "text": "So erweist er unseren Vorfahren Erbarmen",
               "level": 1
             },
             {
-              "text": "ihm dienen können ohne Angst,",
+              "text": "und gedenkt seines heiligen Bundes —",
               "level": 2
+            }
+          ]
+        },
+        {
+          "number": "73",
+          "text": "<span class=\"poetry-line-1\">des Schwurs, den er unserem Vater Abraham geschworen hat:</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "des Schwurs, den er unserem Vater Abraham geschworen hat:",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "number": "74",
+          "text": "<span class=\"poetry-line-1\">uns zu befreien aus der Hand unserer Feinde,</span><span class=\"poetry-line-2\">damit wir ihm dienen können ohne Angst,</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "uns zu befreien aus der Hand unserer Feinde,",
+              "level": 1
             },
             {
-              "text": "heilig und gerecht vor ihm,",
+              "text": "damit wir ihm dienen können ohne Angst,",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "number": "75",
+          "text": "<span class=\"poetry-line-1\">in Heiligkeit und Gerechtigkeit vor seinen Augen,</span><span class=\"poetry-line-2\">unser Leben lang.</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "in Heiligkeit und Gerechtigkeit vor seinen Augen,",
               "level": 1
             },
             {
@@ -795,110 +808,88 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Und du, mein Kind, wirst Prophet des Höchsten genannt werden.</span><span class=\"poetry-line-2\">Du wirst vor dem Herrn hergehen</span><span class=\"poetry-line-2\">und ihm den Weg bereiten.</span>",
-          "footnotes": [
-            {
-              "ref": "1:76",
-              "category": "kontext",
-              "keyword": "Wegbereiter",
-              "content": "Anspielung auf Jesaja 40,3: „Eine Stimme ruft: Bereitet in der Wüste den Weg des HERRN!\" Johannes wird diese Rolle erfüllen – die Stimme in der Wüste."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">Und du, Kind —</span><span class=\"poetry-line-2\">du wirst Prophet des Höchsten genannt werden.</span><span class=\"poetry-line-1\">Du wirst vor dem Herrn hergehen,</span><span class=\"poetry-line-2\">um ihm den Weg zu bereiten,</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Und du, mein Kind, wirst Prophet des Höchsten genannt werden.",
+              "text": "Und du, Kind —",
               "level": 1
             },
             {
-              "text": "Du wirst vor dem Herrn hergehen",
+              "text": "du wirst Prophet des Höchsten genannt werden.",
               "level": 2
             },
             {
-              "text": "und ihm den Weg bereiten.",
+              "text": "Du wirst vor dem Herrn hergehen,",
+              "level": 1
+            },
+            {
+              "text": "um ihm den Weg zu bereiten,",
               "level": 2
             }
           ]
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Du wirst seinem Volk zeigen,</span><span class=\"poetry-line-2\">dass Rettung durch Vergebung kommt.</span>",
-          "footnotes": [
-            {
-              "ref": "1:77",
-              "category": "leben",
-              "keyword": "Rettung durch Vergebung",
-              "content": "Das Wort „Rettung\" (σωτηρία, sōtēria) bedeutet im biblischen Kontext umfassende Befreiung – nicht nur im religiösen Sinn, sondern auch von allem, was das Leben einschränkt. Die Bibel verwendet verschiedene Bilder: Befreiung aus Sklaverei (Exodus), Wiederherstellung von Ehre und Würde (besonders wichtig in Scham-Kulturen), Heilung von Krankheit, Sieg über feindliche Mächte. Im westlichen Christentum wurde oft nur das juristische Bild betont („Schuld bezahlt\"). Die Vergebung, von der Zacharias spricht, ist breiter: Sie ermöglicht einen Neuanfang in allen Dimensionen des Lebens."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">um seinem Volk zu zeigen, dass Rettung kommt —</span><span class=\"poetry-line-2\">durch die Vergebung ihrer Schuld.</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Du wirst seinem Volk zeigen,",
+              "text": "um seinem Volk zu zeigen, dass Rettung kommt —",
               "level": 1
             },
             {
-              "text": "dass Rettung durch Vergebung kommt.",
+              "text": "durch die Vergebung ihrer Schuld.",
               "level": 2
             }
           ]
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\">Denn unser Gott ist barmherzig – zutiefst, aus dem Innersten heraus.</span><span class=\"poetry-line-1\">Das Morgenlicht aus dem Himmel wird uns besuchen,</span>",
-          "footnotes": [
-            {
-              "ref": "1:78",
-              "category": "text",
-              "keyword": "„aus dem Innersten heraus\"",
-              "content": "Griechisch σπλάγχνα ἐλέους (splanchna eleous) – wörtlich „Eingeweide der Barmherzigkeit\". Die Antike lokalisierte tiefe Emotionen in den inneren Organen. Gottes Barmherzigkeit ist nicht abstrakt, sondern „aus dem Bauch heraus\" – visceral, leiblich."
-            },
-            {
-              "ref": "1:78",
-              "category": "text",
-              "keyword": "„Morgenlicht aus dem Himmel\"",
-              "content": "Griechisch ἀνατολὴ ἐξ ὕψους (anatolē ex hypsous) hat Doppelbedeutung: (1) Sonnenaufgang/Morgenröte und (2) der messianische „Spross\" (Jeremia 23,5; Sacharja 3,8; 6,12 verwenden ähnliche Begriffe). Zacharias spielt bewusst mit beiden Bedeutungen."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">Das alles geschieht,</span><span class=\"poetry-line-2\">weil das Erbarmen unseres Gottes so tief ist.</span><span class=\"poetry-line-1\">Durch dieses Erbarmen</span><span class=\"poetry-line-2\">wird uns die Morgendämmerung aus der Höhe besuchen —</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Denn unser Gott ist barmherzig – zutiefst, aus dem Innersten heraus.",
+              "text": "Das alles geschieht,",
               "level": 1
             },
             {
-              "text": "Das Morgenlicht aus dem Himmel wird uns besuchen,",
+              "text": "weil das Erbarmen unseres Gottes so tief ist.",
+              "level": 2
+            },
+            {
+              "text": "Durch dieses Erbarmen",
               "level": 1
+            },
+            {
+              "text": "wird uns die Morgendämmerung aus der Höhe besuchen —",
+              "level": 2
             }
           ]
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">um denen zu leuchten, die in Dunkelheit sitzen</span><span class=\"poetry-line-2\">und im Schatten des Todes.</span><span class=\"poetry-line-1\">Es wird unsere Füße auf den Weg des Friedens führen.\"</span>",
-          "footnotes": [
-            {
-              "ref": "1:79",
-              "category": "kontext",
-              "keyword": "Schatten des Todes",
-              "content": "Echo von Psalm 23,4 („Tal des Todesschattens\") und Jesaja 9,1 („Das Volk, das im Dunkel lebt, sieht ein großes Licht\"). Die Bildsprache von Dunkelheit und Licht durchzieht die ganze Bibel."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">um denen zu leuchten, die im Dunkel sitzen,</span><span class=\"poetry-line-2\">im Schatten des Todes,</span><span class=\"poetry-line-1\">und unsere Füße auf den Weg des Friedens zu führen.\"</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "um denen zu leuchten, die in Dunkelheit sitzen",
+              "text": "um denen zu leuchten, die im Dunkel sitzen,",
               "level": 1
             },
             {
-              "text": "und im Schatten des Todes.",
+              "text": "im Schatten des Todes,",
               "level": 2
             },
             {
-              "text": "Es wird unsere Füße auf den Weg des Friedens führen.\"",
+              "text": "und unsere Füße auf den Weg des Friedens zu führen.\"",
               "level": 1
             }
           ]
@@ -906,19 +897,12 @@
       ]
     },
     {
-      "heading": "In der Wüste",
+      "heading": "Aufwachsen in der Wüste",
       "verses": [
         {
           "number": "80",
-          "text": "Das Kind wuchs heran und wurde stark im Geist. Es lebte in der Wüste, bis es an der Zeit war, öffentlich vor Israel aufzutreten.",
-          "footnotes": [
-            {
-              "ref": "1:80",
-              "category": "kultur",
-              "keyword": "Wüste",
-              "content": "Die judäische Wüste zwischen Jerusalem und dem Toten Meer war Heimat verschiedener Gruppen, die Reinheit suchten – darunter möglicherweise die Essener (Qumran-Gemeinschaft). Ob Johannes Kontakt zu ihnen hatte, ist umstritten. Theologisch ist die Wüste Ort der Vorbereitung, der Prüfung und des Neuanfangs."
-            }
-          ],
+          "text": "Das Kind wuchs heran und wurde stark im Geist. Es lebte in der Wüste — bis zu dem Tag, an dem es vor Israel auftrat.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []

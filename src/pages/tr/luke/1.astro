@@ -1,0 +1,201 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PericopeCard from '../../../components/PericopeCard.astro';
+import chapterData from '../../../content/luke-1-tr.json';
+import pericopes from '../../../content/luke-1-pericopes-tr.json';
+
+// Helper to get verses for a pericope
+function getVersesForPericope(verseRange: string, sections: any[]) {
+  const allVerses: any[] = [];
+  sections.forEach(section => {
+    section.verses.forEach((v: any) => allVerses.push(v));
+  });
+
+  const [start, end] = verseRange.split('-').map(Number);
+  const endNum = end || start;
+
+  return allVerses.filter(v => {
+    const vNum = v.number.includes('-') ? parseInt(v.number.split('-')[0]) : parseInt(v.number);
+    return vNum >= start && vNum <= endNum;
+  });
+}
+
+const base = '';
+---
+
+<BaseLayout title="Luka 1" lang="tr" description="Luka İncili Bölüm 1 - Perikoplar arasında bir yolculuk">
+  <!-- Chapter Header -->
+  <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
+    <p class="passage-reference mb-6">Luka'ya Göre İncil</p>
+    <h1 class="headline-mixed text-5xl md:text-7xl lg:text-8xl mb-6">
+      <span class="cap">B</span>ölüm 1
+    </h1>
+    <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
+      İki imkânsız hamilelik. İki devrimci şarkı. Hikâye başlıyor.
+    </p>
+
+    <!-- Table of Contents with Headlines -->
+    <nav class="toc max-w-2xl w-full">
+      <ul class="space-y-2">
+        {pericopes.pericopes.map((p) => (
+          <li>
+            <a
+              href={`#${p.id}`}
+              class="toc-item flex items-center justify-between py-3 px-4 rounded-lg transition-all hover:bg-white/50"
+            >
+              <span class="toc-title text-left">{p.title}</span>
+              <span class="toc-verses text-sm">{p.verses}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator mt-16 opacity-40">
+      <svg class="w-6 h-6 text-warm-gray animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </div>
+  </header>
+
+  <!-- Pericopes -->
+  <div class="pericopes-container">
+    {pericopes.pericopes.map((pericope, index) => (
+      <PericopeCard
+        id={pericope.id}
+        title={pericope.title}
+        subtitle={pericope.subtitle}
+        verses={pericope.verses}
+        color={pericope.color}
+        accentColor={pericope.accentColor}
+        verseData={getVersesForPericope(pericope.verses, chapterData.sections)}
+        image={pericope.image}
+        media={pericope.media}
+        exegesis={pericope.exegesis}
+        lang="tr"
+        isFirst={index === 0} layoutIndex={index}
+      />
+    ))}
+  </div>
+
+  <!-- Chapter Footer -->
+  <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
+    <p class="text-warm-gray mb-8">Okumaya devam et</p>
+    <a href={`${base}/tr/luke/2`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
+      Luka 2 <span>→</span>
+    </a>
+    <p class="mt-12 text-sm text-warm-gray">
+      Çeviri: Aperto İncil (AB-TR) | Lisans: CC BY-SA 4.0
+    </p>
+  </footer>
+</BaseLayout>
+
+<style>
+  .headline-mixed {
+    font-family: 'Softcore', Georgia, serif;
+    color: #6B5A4A;
+  }
+
+  .headline-mixed .cap {
+    font-family: 'Silvera', serif;
+    color: #9A8570;
+    font-size: 1.1em;
+  }
+
+  .toc-item {
+    border: 1px solid transparent;
+  }
+
+  .toc-item:hover {
+    border-color: rgba(139, 115, 85, 0.2);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .toc-title {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-charcoal);
+  }
+
+  .toc-verses {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    color: var(--color-warm-gray);
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+  }
+
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+</style>
+
+<script is:inline>
+(function() {
+  function initFootnotePopovers() {
+    document.querySelectorAll('.fn-btn').forEach(function(btn) {
+      btn.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var targetId = btn.getAttribute('data-fn-id');
+        var popover = document.getElementById(targetId);
+        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) {
+          if (p.id !== targetId) p.classList.add('hidden');
+        });
+        if (popover && popover.classList.contains('hidden')) {
+          var rect = btn.getBoundingClientRect();
+          var scrollY = window.scrollY;
+          var top = rect.bottom + scrollY + 8;
+          var left = rect.left;
+          if (left + 320 > window.innerWidth) left = window.innerWidth - 340;
+          if (left < 20) left = 20;
+          popover.style.top = top + 'px';
+          popover.style.left = left + 'px';
+          popover.classList.remove('hidden');
+        } else if (popover) {
+          popover.classList.add('hidden');
+        }
+      };
+    });
+    document.querySelectorAll('.mobile-fn-btn').forEach(function(btn) {
+      btn.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var targetId = btn.getAttribute('data-fn-id');
+        var popover = document.getElementById(targetId);
+        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) {
+          if (p.id !== targetId) p.classList.add('hidden');
+        });
+        if (popover) popover.classList.toggle('hidden');
+      };
+    });
+    document.querySelectorAll('.fn-close').forEach(function(btn) {
+      btn.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var popover = btn.closest('.fn-popover, .fn-popover-mobile');
+        if (popover) popover.classList.add('hidden');
+      };
+    });
+  }
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.fn-popover') && !e.target.closest('.fn-popover-mobile') && !e.target.closest('.fn-btn') && !e.target.closest('.mobile-fn-btn')) {
+      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) { p.classList.add('hidden'); });
+    }
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) { p.classList.add('hidden'); });
+    }
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFootnotePopovers);
+  } else {
+    initFootnotePopovers();
+  }
+})();
+</script>

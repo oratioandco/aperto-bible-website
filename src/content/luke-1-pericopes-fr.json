@@ -1,0 +1,118 @@
+{
+  "book": "Luc",
+  "chapter": 1,
+  "pericopes": [
+    {
+      "id": "prologue",
+      "title": "Prologue",
+      "subtitle": "Pourquoi Luc écrit",
+      "verses": "1-4",
+      "color": "#E8E4DC",
+      "accentColor": "#8B7355",
+      "image": "luke_01_prologue.jpeg",
+      "exegesis": {
+        "section": "pericope-1-prologue-11-4",
+        "label": "Approfondir : texte grec, commentaires, contexte culturel"
+      },
+      "media": {}
+    },
+    {
+      "id": "zacharie-elisabeth",
+      "title": "Un vieux prêtre, une chambre d'enfant vide",
+      "subtitle": "L'histoire de Zacharie et Élisabeth",
+      "verses": "5-25",
+      "color": "#E4E8E4",
+      "accentColor": "#6B8E7F",
+      "image": "luke_01_zechariah_temple.jpeg",
+      "exegesis": {
+        "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
+        "label": "Approfondir : ordres sacerdotaux, stérilité en Israël, annonces de naissance"
+      },
+      "media": {}
+    },
+    {
+      "id": "annonciation",
+      "title": "Marie dit oui",
+      "subtitle": "L'ange Gabriel visite Marie",
+      "verses": "26-38",
+      "color": "#F0E8E4",
+      "accentColor": "#D4A574",
+      "image": "luke_01_annunciation.jpeg",
+      "exegesis": {
+        "section": "pericope-3-mary-says-yes-126-38",
+        "label": "Approfondir : Gabriel, l'âge de Marie, l'ombre divine"
+      },
+      "media": {}
+    },
+    {
+      "id": "visitation",
+      "title": "Deux femmes, deux miracles",
+      "subtitle": "Marie rend visite à Élisabeth",
+      "verses": "39-45",
+      "color": "#E8E4F0",
+      "accentColor": "#8B7399",
+      "image": "luke_01_visitation.jpeg",
+      "exegesis": {
+        "section": "pericope-4-two-women-two-miracles-139-45",
+        "label": "Approfondir : le voyage en Judée, la bénédiction d'Élisabeth"
+      },
+      "media": {}
+    },
+    {
+      "id": "magnificat",
+      "title": "Le Magnificat",
+      "subtitle": "Le cantique de Marie",
+      "verses": "46-56",
+      "color": "#E4E8F0",
+      "accentColor": "#4A7C9E",
+      "image": "luke_01_magnificat.jpeg",
+      "exegesis": {
+        "section": "pericope-5-marys-song-magnificat-146-56",
+        "label": "Approfondir : le cantique d'Anne, théologie du renversement"
+      },
+      "media": {}
+    },
+    {
+      "id": "naissance-jean",
+      "title": "Son nom est Jean",
+      "subtitle": "La naissance de Jean-Baptiste",
+      "verses": "57-66",
+      "color": "#F0F0E4",
+      "accentColor": "#9B8B4A",
+      "image": "luke_01_john_birth.jpeg",
+      "exegesis": {
+        "section": "pericope-6-his-name-is-john-157-66",
+        "label": "Approfondir : rituels de nomination, circoncision"
+      },
+      "media": {}
+    },
+    {
+      "id": "benedictus",
+      "title": "Le Benedictus",
+      "subtitle": "La prophétie de Zacharie",
+      "verses": "67-79",
+      "color": "#E4F0E8",
+      "accentColor": "#4A9B7C",
+      "image": "luke_01_benedictus.jpeg",
+      "exegesis": {
+        "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
+        "label": "Approfondir : inspiration prophétique, alliance davidique"
+      },
+      "media": {}
+    },
+    {
+      "id": "enfance-jean",
+      "title": "Grandir dans le désert",
+      "subtitle": "Jean grandit",
+      "verses": "80",
+      "color": "#F0E4E8",
+      "accentColor": "#9B4A6B",
+      "image": "luke_01_wilderness.jpeg",
+      "exegesis": {
+        "section": "pericope-8-growing-up-in-the-wilderness-180",
+        "label": "Approfondir : motif du désert, traditions naziréennes"
+      },
+      "media": {}
+    }
+  ]
+}
