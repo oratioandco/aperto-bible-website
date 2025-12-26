@@ -6,14 +6,14 @@ const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
 
 const pericopes = [
   { id: 'overview', title: 'Overview', verses: '' },
-  { id: 'pericope-1', title: 'Prologue', verses: '1:1-4' },
-  { id: 'pericope-2', title: 'An Old Priest, an Empty Nursery', verses: '1:5-25' },
+  { id: 'pericope-1', title: 'Why I\'m Writing This', verses: '1:1-4' },
+  { id: 'pericope-2', title: 'An Old Priest and an Impossible Promise', verses: '1:5-25' },
   { id: 'pericope-3', title: 'Mary Says Yes', verses: '1:26-38' },
   { id: 'pericope-4', title: 'Two Women, Two Miracles', verses: '1:39-45' },
   { id: 'pericope-5', title: "Mary's Song (Magnificat)", verses: '1:46-56' },
   { id: 'pericope-6', title: 'His Name Is John', verses: '1:57-66' },
   { id: 'pericope-7', title: "Zechariah's Prophecy (Benedictus)", verses: '1:67-79' },
-  { id: 'pericope-8', title: 'Into the Wilderness', verses: '1:80' },
+  { id: 'pericope-8', title: 'Growing Up in the Wilderness', verses: '1:80' },
   { id: 'cross-themes', title: 'Cross-Pericope Themes', verses: '' },
   { id: 'terms-glossary', title: 'Terms Glossary', verses: '' },
   { id: 'emotional-journey', title: 'Emotional Journey', verses: '' },
@@ -43,18 +43,20 @@ const pericopes = [
           <p class="meta">Comprehensive Scholarly Commentary</p>
           <h1>Luke Chapter 1</h1>
           <p class="subtitle">Greek text analysis, major commentaries, cultural context, and translation notes</p>
-          <p class="sources-intro">Drawing on Anchor Bible (Fitzmyer), Hermeneia (Bovon), Baker (Bock), BDAG, Louw-Nida, and feminist/liberation scholarship.</p>
+          <p class="sources-intro">Drawing on NA28 Greek Text, Anchor Bible (Fitzmyer), Hermeneia (Bovon), Baker (Bock), BDAG, Louw-Nida, Keener (IVP Background), Eisele (German), Ancient Christian Commentary (Patristic), and Stronstad (Charismatic).</p>
         </header>
 
         <!-- OVERVIEW -->
         <section id="overview" class="exegesis-section">
           <h2>Overview</h2>
-          <p class="lead">Luke chapter 1 forms the theological and literary overture to Luke's two-volume work (Luke-Acts). Written in a sophisticated literary style that shifts from classical Greek prologue to Septuagintal Hebrew poetry, this chapter introduces the major themes that will unfold throughout the narrative: God's faithfulness to his promises, the reversal of social hierarchies, the role of the Spirit, and salvation reaching the margins of society.</p>
-          
+          <p class="lead">Luke 1 opens the Third Gospel with a sophisticated literary prologue followed by interwoven birth narratives of John the Baptist and Jesus. The chapter establishes Luke's distinctive theological emphases: God's faithfulness to Israel's promises, the reversal of social hierarchies, the agency of marginal figures (elderly priests, barren women, young peasant girls), and the Spirit's role in inaugurating the new era of salvation. The two great hymns (Magnificat and Benedictus) anchor the narrative in Jewish liturgical tradition while pointing forward to themes that will develop throughout Luke-Acts.</p>
+
+          <p><strong>Key Themes:</strong> Divine faithfulness, reversal/exaltation of the lowly, Spirit-empowerment, fulfillment of prophecy, female agency, covenant renewal</p>
+
           <p>The chapter divides into eight pericopes:</p>
           <ol class="pericope-list">
-            <li><strong>1:1-4</strong> — Prologue: Why I'm Writing This</li>
-            <li><strong>1:5-25</strong> — An Old Priest, an Empty Nursery</li>
+            <li><strong>1:1-4</strong> — Why I'm Writing This (Prologue)</li>
+            <li><strong>1:5-25</strong> — An Old Priest and an Impossible Promise</li>
             <li><strong>1:26-38</strong> — Mary Says Yes</li>
             <li><strong>1:39-45</strong> — Two Women, Two Miracles</li>
             <li><strong>1:46-56</strong> — Mary's Song (Magnificat)</li>
@@ -68,7 +70,7 @@ const pericopes = [
         <section id="pericope-1" class="exegesis-section">
           <div class="section-header">
             <span class="section-tag">Pericope 1</span>
-            <h2>Prologue</h2>
+            <h2>Why I'm Writing This</h2>
             <p class="verse-ref">Luke 1:1-4</p>
           </div>
 
@@ -87,17 +89,26 @@ const pericopes = [
           <div class="terms-section">
             <h3>Key Greek Terms</h3>
             <dl class="term-list">
+              <dt>διήγησις <em>(diēgēsis)</em></dt>
+              <dd>Narrative, orderly account — literary term for connected prose narrative; formal, not casual storytelling.</dd>
+
               <dt>πεπληροφορημένων <em>(peplērophorēmenōn)</em></dt>
-              <dd>"Fulfilled" or "accomplished" — events that have reached their intended completion. Not just "things that happened" but things that complete a larger purpose.</dd>
-              
+              <dd>"Fulfilled" or "accomplished" — perfect passive: events brought to fullness by divine action. Not just "things that happened" but things that complete a larger purpose.</dd>
+
               <dt>αὐτόπται <em>(autoptai)</em></dt>
-              <dd>"Eyewitnesses" — technical term for firsthand observers; the root of our word "autopsy" (seeing for oneself).</dd>
-              
+              <dd>"Eyewitnesses" — technical term for firsthand observers; the root of our word "autopsy" (seeing for oneself). Legal/historiographical precision.</dd>
+
+              <dt>ἀκριβῶς <em>(akribōs)</em></dt>
+              <dd>"Accurately, carefully" — denotes precision in investigation and reporting.</dd>
+
+              <dt>καθεξῆς <em>(kathexēs)</em></dt>
+              <dd>"In orderly sequence" — suggests logical or thematic (not necessarily chronological) arrangement.</dd>
+
+              <dt>ἀσφάλεια <em>(asphaleia)</em></dt>
+              <dd>"Certainty, reliability, stability" — BDAG: "stability of idea or statement, certainty, truth." Not blind faith, but well-grounded confidence based on evidence.</dd>
+
               <dt>κατηχήθης <em>(katēchēthēs)</em></dt>
-              <dd>"Instructed" — oral teaching passed down; root of "catechism." Theophilus has received prior teaching that Luke now confirms in writing.</dd>
-              
-              <dt>ἀσφάλειαν <em>(asphaleian)</em></dt>
-              <dd>"Certainty/reliability" — not blind faith, but well-grounded confidence based on evidence.</dd>
+              <dd>"Instructed, taught orally" — root of "catechism." Theophilus has received prior teaching that Luke now confirms in writing.</dd>
             </dl>
           </div>
 
@@ -105,15 +116,23 @@ const pericopes = [
             <h3>Commentary Synthesis</h3>
             <div class="source">
               <h4>Fitzmyer (Anchor Bible)</h4>
-              <p>The prologue is one sentence in Greek, following conventions of Hellenistic historiography (cf. Josephus, Philo). Luke positions himself among other writers about Jesus but claims superiority through his method: careful investigation (παρηκολουθηκότι) from the beginning (ἄνωθεν), systematic arrangement (καθεξῆς), and precision (ἀκριβῶς).</p>
+              <p>The prologue is one sentence in Greek, following conventions of Hellenistic historiography (cf. Josephus, Philo). Luke positions himself among other writers about Jesus but claims superiority through his method: careful investigation (παρηκολουθηκότι) from the beginning (ἄνωθεν), systematic arrangement (καθεξῆς), and precision (ἀκριβῶς). Parallels with Greek historians (Herodotus, Thucydides) and medical writers (Hippocrates) establish credibility.</p>
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>The prologue functions as a literary contract with readers. By using classical Greek (the only such passage in Luke-Acts), Luke signals he's writing serious history, not popular legend. The transition to Septuagintal style in v.5 is deliberately jarring—Luke can write like a Greek historian but chooses to tell this story in the language of Israel's scriptures.</p>
+              <p>The prologue functions as a literary contract with readers. By using classical Greek (the only such passage in Luke-Acts), Luke signals he's writing serious history, not popular legend. The transition to Septuagintal style in v.5 is deliberately jarring—Luke can write like a Greek historian but chooses to tell this story in the language of Israel's scriptures. The purpose (ἀσφάλεια) suggests Theophilus has received instruction but needs confirmation—perhaps facing competing narratives or doubts.</p>
             </div>
             <div class="source">
               <h4>Bock (Baker)</h4>
-              <p>The term "eyewitnesses and servants of the word" (αὐτόπται καὶ ὑπηρέται τοῦ λόγου) is crucial—these are two descriptions of the same people, not two groups. The apostolic generation both saw the events and became ministers of the message.</p>
+              <p>The prologue establishes Luke's method: eyewitness tradition → careful investigation → orderly writing → reader certainty. "Theophilus" ("lover of God") may be a patron or representative reader. The perfect participle πεπληροφορημένων emphasizes divine completion of events, not mere historical occurrence. The term "eyewitnesses and servants of the word" (αὐτόπται καὶ ὑπηρέται τοῦ λόγου) is crucial—these are two descriptions of the same people, not two groups.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Der Verfasser dieser Zeilen bleibt für uns anonym... Für den Autor selbst ist etwas anderes entscheidend: Er formuliert sein Selbstverständnis als antiker Historiker, der sich auf Überlieferung beruft und sich zugleich in ein kritisches Verhältnis dazu setzt." Luke positions himself not as naive faith but as one seeking "klare Erkenntnis" (clear knowledge) through critical examination of tradition. His term "Diener des Wortes" (servants of the word) for eyewitnesses emphasizes their ministerial role. Further: "Christlicher Unterricht ist keine Indoktrination, sondern zielt auf begründete Einsicht, die Unterweisung braucht und Freiheit lässt"—Christian instruction aims at "reasoned insight," not blind faith.</p>
+            </div>
+            <div class="source">
+              <h4>Stronstad (Charismatic)</h4>
+              <p>"The literary unity of Luke-Acts has remained without serious challenge... interpreters often assume that Luke-Acts reflects a theological discontinuity between its two parts, rather than a theological continuity or homogeneity." This challenges artificial divisions between Gospel and Acts pneumatology. Spirit-language in Luke 1 must be read in continuity with Acts.</p>
             </div>
           </div>
 
@@ -128,14 +147,16 @@ const pericopes = [
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>Establishes <strong>intellectual confidence</strong>—this is not myth or legend but carefully investigated history that can be trusted.</p>
+            <p>Movement from collective effort (many have written) → personal investment (it seemed good to me also) → direct address (to you, Theophilus) → ultimate purpose (that you may know). Builds from general to intimate. Establishes <strong>intellectual confidence</strong>—this is not myth or legend but carefully investigated history that can be trusted.</p>
           </div>
 
           <div class="translation-notes">
             <h3>Translation Notes</h3>
             <ul>
+              <li><strong>ἀσφάλεια:</strong> Not "proof" or "absolute certainty" but "reliability, solid grounding"—something you can stand on</li>
+              <li><strong>καθεξῆς:</strong> "Orderly" not "chronological"—Luke arranges thematically in places</li>
+              <li><strong>κράτιστε:</strong> Honorific requiring cultural equivalent (German "Hochverehrter"? English "Your Excellency"?)</li>
               <li>Avoid "Gospel" in translation—Luke calls it a διήγησις (narrative/account)</li>
-              <li>"Certainty" is better than "truth" for ἀσφάλεια—emphasizes reliability of the account</li>
               <li>The formal Greek should feel slightly elevated in translation, then shift to warmer, more biblical tone at v.5</li>
             </ul>
           </div>
@@ -145,7 +166,7 @@ const pericopes = [
         <section id="pericope-2" class="exegesis-section">
           <div class="section-header">
             <span class="section-tag">Pericope 2</span>
-            <h2>An Old Priest, an Empty Nursery</h2>
+            <h2>An Old Priest and an Impossible Promise</h2>
             <p class="verse-ref">Luke 1:5-25</p>
           </div>
 
@@ -154,7 +175,8 @@ const pericopes = [
             <blockquote class="greek-text">
               v.5: Ἐγένετο ἐν ταῖς ἡμέραις Ἡρῴδου βασιλέως τῆς Ἰουδαίας ἱερεύς τις ὀνόματι Ζαχαρίας ἐξ ἐφημερίας Ἀβιά...<br/><br/>
               v.7: καὶ οὐκ ἦν αὐτοῖς τέκνον, καθότι ἦν ἡ Ἐλισάβετ στεῖρα, καὶ ἀμφότεροι προβεβηκότες ἐν ταῖς ἡμέραις αὐτῶν ἦσαν.<br/><br/>
-              v.13: εἶπεν δὲ πρὸς αὐτὸν ὁ ἄγγελος· Μὴ φοβοῦ, Ζαχαρία, διότι εἰσηκούσθη ἡ δέησίς σου...
+              v.13: Μὴ φοβοῦ, Ζαχαρία, διότι εἰσηκούσθη ἡ δέησίς σου...<br/><br/>
+              v.18: Κατὰ τί γνώσομαι τοῦτο; ἐγὼ γάρ εἰμι πρεσβύτης...
             </blockquote>
           </div>
 
@@ -168,15 +190,24 @@ const pericopes = [
             <dl class="term-list">
               <dt>ἐφημερία <em>(ephēmeria)</em></dt>
               <dd>Priestly "division" or "rotation" — one of 24 groups that took turns serving in the temple (1 Chronicles 24:7-18). Abijah was the eighth division.</dd>
-              
+
               <dt>στεῖρα <em>(steira)</em></dt>
-              <dd>"Barren" — more than medical infertility; in this culture, a social catastrophe that implied divine disfavor (though Luke immediately counters this: they were "righteous before God").</dd>
-              
+              <dd>"Barren" — loaded term recalling Sarah, Rebekah, Rachel, Hannah. More than medical infertility; in this culture, a social catastrophe that implied divine disfavor.</dd>
+
+              <dt>δίκαιοι <em>(dikaioi)</em></dt>
+              <dd>"Righteous" — covenantal faithfulness, not moral perfection.</dd>
+
+              <dt>ἄμεμπτοι <em>(amemptoi)</em></dt>
+              <dd>"Blameless" — without reproach in observance of Torah.</dd>
+
+              <dt>θυμιᾶσαι <em>(thymiasai)</em></dt>
+              <dd>"To burn incense" — once-in-a-lifetime honor; lots determined who entered the Holy Place.</dd>
+
               <dt>δέησις <em>(deēsis)</em></dt>
               <dd>"Prayer/petition" — specifically a prayer of request, implying Zechariah had been praying for a child despite his age.</dd>
-              
-              <dt>θυμίαμα <em>(thymiama)</em></dt>
-              <dd>"Incense" — burned on a special altar inside the sanctuary, a once-in-a-lifetime privilege for most priests.</dd>
+
+              <dt>ὀπτασία <em>(optasia)</em></dt>
+              <dd>"Vision, supernatural appearance" — distinguished from ὅραμα; emphasizes the seeing.</dd>
             </dl>
           </div>
 
@@ -184,19 +215,30 @@ const pericopes = [
             <h3>Commentary Synthesis</h3>
             <div class="source">
               <h4>Fitzmyer (Anchor Bible)</h4>
-              <p>The sudden shift to Septuagintal Greek in v.5 signals we're entering the world of Israel's scriptures. "In the days of Herod" is both historical marker and theological irony—this tyrant's days are numbered, for the true king is coming. Elizabeth's priestly lineage ("daughters of Aaron") makes John's pedigree impeccable on both sides.</p>
+              <p>The sudden shift to Septuagintal Greek in v.5 signals we're entering the world of Israel's scriptures. "In the days of Herod" is both historical marker and theological irony—this tyrant's days are numbered, for the true king is coming. Elizabeth's priestly lineage ("daughters of Aaron") makes John's pedigree impeccable on both sides. Historical anchoring ("in the days of Herod") locates the narrative in political reality.</p>
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>The annunciation follows a five-part pattern from Hebrew Bible: (1) appearance of angel, (2) fear, (3) message with name and destiny, (4) objection, (5) sign. Zechariah's doubt differs from Abraham's or Gideon's only in context—this revelation surpasses all previous ones, so a harsher sign is given.</p>
+              <p>The narrative shifts dramatically from Greek historiographical prologue to Septuagintal style ("Ἐγένετο ἐν ταῖς ἡμέραις..."). This is intentional literary signaling—we enter the world of Israel's sacred history. The annunciation follows a five-part pattern from Hebrew Bible: (1) appearance of angel, (2) fear, (3) message with name and destiny, (4) objection, (5) sign. Zechariah's doubt parallels Abraham (Gen 15:8) but receives stronger rebuke, perhaps because revelation is now more advanced.</p>
             </div>
             <div class="source">
               <h4>Bock (Baker)</h4>
-              <p>The detail that Zechariah was "righteous before God" (v.6) is crucial—their childlessness is NOT divine punishment. Luke demolishes prosperity-gospel thinking from the start. Sometimes the most faithful people suffer the most painful circumstances.</p>
+              <p>The detail that Zechariah was "righteous before God" (v.6) is crucial—their childlessness is NOT divine punishment. Luke demolishes prosperity-gospel thinking from the start. Sometimes the most faithful people suffer the most painful circumstances. Zechariah and Elizabeth are introduced as paragons of Jewish piety—righteous in both tables of the law (toward God and neighbor).</p>
             </div>
             <div class="source">
-              <h4>Feminist Studies (Meyers)</h4>
-              <p>Elizabeth's barrenness evokes Sarah, Rebekah, Rachel, Hannah, and Samson's mother—a lineage of "impossible" mothers through whom God worked. Her five-month seclusion (v.24) may reflect both ritual purity concerns and simple prudence for an elderly first pregnancy.</p>
+              <h4>Eisele (German)</h4>
+              <p>"Lukas macht einen doppelten Anfang, indem er Verheißung und Geburt nicht nur von Jesus, sondern auch von Johannes dem Täufer erzählt." Luke's "double beginning" (doppelter Anfang) intentionally parallels John and Jesus. This has anti-Marcionite significance: the Jewish heritage of Jesus through priestly connections counters any attempt to strip Jesus of Jewish identity. "Jesus war wirklich Mensch mit einer menschlichen Familie und ihrer jüdischen Geschichte"—Jesus was truly human with a human family and Jewish history.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Origen:</strong> "Consider why many holy women in the Scriptures are said to have been barren, as Sarah herself, and now Rebecca. Also Rachel... Hannah also, the mother of Samuel... Also in the Gospels, Elizabeth is said to have been barren. In all these instances this term is used, for after sterility they all gave birth to a holy person." (Homilies on Genesis 12.1)</p>
+              <p><strong>Bede:</strong> "The angel bore witness to the grace about which he had come to give the good news—not only by the power of the words which he brought forward but also by the point in time and the location of the place in which he appeared." (Homilies on the Gospels 1.2)</p>
+              <p><strong>Ephrem the Syrian:</strong> "John, herald of the Lord of the right, was announced from the right of the altar. It was at the time of worship that he was announced to show he was the end of the former worship." (Commentary on Tatian's Diatessaron 1.10)</p>
+              <p><strong>Chrysostom:</strong> "This man Zechariah came into the Holy of Holies, to the innermost sanctuary, upon which he alone of all men had the right to look. Consider how he was equal in importance to all the people." (On the Incomprehensible Nature of God 2.9-10)</p>
+            </div>
+            <div class="source">
+              <h4>Stronstad (Charismatic)</h4>
+              <p>The gift of the Spirit follows OT pattern of charismatic transfer. Note: John will be "filled with the Holy Spirit even from his mother's womb" (v.15)—a permanent charismatic endowment.</p>
             </div>
           </div>
 
@@ -227,21 +269,24 @@ const pericopes = [
                 <li>One of only two angels named in Hebrew Bible (Daniel 8:16, 9:21; Michael is the other)</li>
                 <li>Associated with interpreting divine mysteries and announcing future events</li>
                 <li>"Standing in God's presence" indicates highest angelic rank</li>
+                <li>Position "at the right side of the altar" indicates favor and power</li>
               </ul>
             </div>
           </div>
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>The pericope moves from <strong>quiet grief</strong> (an elderly couple's private sorrow) through <strong>terror</strong> (the supernatural intrusion) to <strong>silenced hope</strong> (Zechariah struck dumb but carrying a promise). The emotional weight is on the long years of prayer finally answered—but in a way that exceeds all expectation.</p>
+            <p>Pious faithfulness (vv.5-7) → Unexpected encounter (vv.8-12) → Overwhelming promise (vv.13-17) → Human doubt (v.18) → Divine discipline (vv.19-20) → Community wonder (vv.21-22) → Quiet joy (vv.23-25). The pericope moves from <strong>quiet grief</strong> (an elderly couple's private sorrow) through <strong>terror</strong> (the supernatural intrusion) to <strong>silenced hope</strong> (Zechariah struck dumb but carrying a promise). Elizabeth's final words transform shame to praise.</p>
           </div>
 
           <div class="translation-notes">
             <h3>Translation Notes</h3>
             <ul>
+              <li><strong>Ἐγένετο:</strong> Septuagintal opening; consider whether to preserve the archaic feel or naturalize</li>
+              <li><strong>στεῖρα:</strong> "Barren" carries biblical echoes but may need sensitivity in modern contexts</li>
               <li>"Blameless" (v.6) should not suggest sinless perfection—"They lived their lives in a way God approved" captures the sense</li>
-              <li>The temple vocabulary needs brief explanation for secular readers who have no frame of reference</li>
-              <li>Zechariah's muteness is both punishment and sign—his silence protects the secret until the proper time</li>
+              <li><strong>εὐαγγελίσασθαι</strong> (v.19): "Bring good news"—note the Gospel vocabulary already appearing</li>
+              <li><strong>κωφός</strong> (v.22): "Mute" or "unable to speak" (not necessarily "deaf")</li>
               <li>Elizabeth's statement (v.25) about "disgrace among people" makes explicit what the culture assumed about barrenness</li>
             </ul>
           </div>
@@ -258,9 +303,9 @@ const pericopes = [
           <div class="greek-block">
             <h3>Greek Text (selected)</h3>
             <blockquote class="greek-text">
-              v.28: καὶ εἰσελθὼν πρὸς αὐτὴν εἶπεν· Χαῖρε, κεχαριτωμένη, ὁ κύριος μετὰ σοῦ.<br/><br/>
-              v.35: Πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται υἱὸς θεοῦ.<br/><br/>
-              v.38: εἶπεν δὲ Μαριάμ· Ἰδοὺ ἡ δούλη κυρίου· γένοιτό μοι κατὰ τὸ ῥῆμά σου.
+              v.28: Χαῖρε, κεχαριτωμένη, ὁ κύριος μετὰ σοῦ.<br/><br/>
+              v.35: Πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις Ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται, υἱὸς θεοῦ.<br/><br/>
+              v.38: Ἰδοὺ ἡ δούλη κυρίου· γένοιτό μοι κατὰ τὸ ῥῆμά σου.
             </blockquote>
           </div>
 
@@ -273,14 +318,23 @@ const pericopes = [
             <h3>Key Greek Terms</h3>
             <dl class="term-list">
               <dt>κεχαριτωμένη <em>(kecharitōmenē)</em></dt>
-              <dd>"Favored one" or "graced one" — perfect passive participle indicating completed action with ongoing effects. NOT "full of grace" (Vulgate's <em>gratia plena</em>) but "one whom God has favored." BDAG: "one who has been favored (by God)"</dd>
-              
+              <dd>"Favored one" or "graced one" — perfect passive participle: "one who has been graced/favored." NOT "full of grace" (Vulgate's <em>gratia plena</em>) but "one whom God has favored." BDAG: "one who has been favored (by God)"</dd>
+
+              <dt>παρθένος <em>(parthenos)</em></dt>
+              <dd>"Virgin, young woman" — unmarried woman of marriageable age; virginity emphasized in context.</dd>
+
               <dt>ἐπισκιάσει <em>(episkiasei)</em></dt>
-              <dd>"Will overshadow" — the verb evokes God's presence "overshadowing" the tabernacle (Exodus 40:35) and the cloud on the mount of transfiguration. NOT sexual imagery. Louw-Nida: "A strictly literal rendering could be interpreted in some languages as being a rather crude reference to sexual intercourse, and this interpretation should be avoided."</dd>
-              
+              <dd>"Will overshadow" — BDAG: divine activity; echoes God's presence "overshadowing" the tabernacle (Exodus 40:35) and the cloud on the mount of transfiguration. NOT sexual imagery. Louw-Nida: "A strictly literal rendering could be interpreted in some languages as being a rather crude reference to sexual intercourse, and this interpretation should be avoided."</dd>
+
+              <dt>Ὕψιστος <em>(Hypsistos)</em></dt>
+              <dd>"Most High" — Jewish title for God; used in contexts of divine transcendence.</dd>
+
               <dt>δούλη <em>(doulē)</em></dt>
-              <dd>"Female slave/servant" — Mary uses the strongest term of submission. In OT tradition, being God's "servant" is an honor (Abraham, Moses, David, prophets).</dd>
-              
+              <dd>"Female slave/servant" — Mary uses the strongest term of submission. In OT tradition, being God's "servant" is an honor (Abraham, Moses, David, prophets). Self-designation of radical availability.</dd>
+
+              <dt>ῥῆμα <em>(rhēma)</em></dt>
+              <dd>"Word, thing, matter" — both spoken word and the reality it effects (v.37: "nothing is impossible with God").</dd>
+
               <dt>γένοιτό μοι <em>(genoito moi)</em></dt>
               <dd>"Let it be to me" — optative mood expressing wish/consent. Mary's response is active consent, not passive resignation.</dd>
             </dl>
@@ -290,19 +344,33 @@ const pericopes = [
             <h3>Commentary Synthesis</h3>
             <div class="source">
               <h4>Fitzmyer (Anchor Bible)</h4>
-              <p>The annunciation to Mary deliberately parallels and surpasses the annunciation to Zechariah. Both receive angelic visitors, both are troubled, both receive "do not fear," both ask questions. But Mary's question ("How can this be?") differs from Zechariah's doubt ("How shall I know?")—she seeks understanding, not proof. Her response echoes the prophetic call pattern: she is commissioned for a task.</p>
+              <p>The annunciation to Mary deliberately parallels and surpasses the annunciation to Zechariah. Both receive angelic visitors, both are troubled, both receive "do not fear," both ask questions. But Mary's question ("How can this be?") differs from Zechariah's doubt ("How shall I know?")—she seeks understanding, not proof. Her response echoes the prophetic call pattern: she is commissioned for a task. Nazareth was an insignificant village of perhaps 200-400 people.</p>
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>The christological titles accumulate: "great," "Son of the Most High," "throne of David," "king over Jacob forever," "holy," "Son of God." Luke front-loads his highest christology into this pre-birth announcement. The "eternal kingdom" echoes Daniel 7:14 and 2 Samuel 7:12-16.</p>
+              <p>The annunciation follows the same genre pattern as Zechariah's but with crucial differences. Mary receives a greater promise with less social standing. Her question (v.34) is inquiry, not doubt—she asks "how?" not "how can I be sure?" The overshadowing language (ἐπισκιάζω) connects to Exodus 40:35 where the cloud covers the tabernacle. Mary becomes the new locus of divine presence. The christological titles accumulate: "great," "Son of the Most High," "throne of David," "king over Jacob forever," "holy," "Son of God."</p>
             </div>
             <div class="source">
               <h4>Bock (Baker)</h4>
-              <p>Mary's question (v.34) is not doubt but practical inquiry—she's asking about mechanism, not possibility. The angel's response (v.35) is the most explicit statement of Jesus' divine origin in the Synoptics.</p>
+              <p>Mary's question (v.34) is not doubt but practical inquiry—she's asking about mechanism, not possibility. The angel's response (v.35) is the most explicit statement of Jesus' divine origin in the Synoptics. The christological content is dense: Son of the Most High, throne of David, eternal kingdom, Son of God. The conception is by Holy Spirit, not human agency—the passive γεννώμενον emphasizes divine action.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Während Matthäus jedoch aus der Perspektive Josefs erzählt... steht bei Lukas Maria im Mittelpunkt, die als weibliche Hauptfigur die Kindheitserzählung prägt." While Matthew tells from Joseph's perspective, Luke deliberately centers Mary as protagonist—a significant choice for intersectional reading.</p>
             </div>
             <div class="source">
               <h4>Feminist Studies (D'Angelo, Meyers)</h4>
               <p>Mary's age: likely 12-14, the typical betrothal age for Jewish girls. Her social status: essentially nil (young, female, from insignificant Nazareth). Her agency: Luke emphasizes Mary's consent—this is not divine rape (contrast Greek mythology). Her "yes" is theologically essential. "Slave of the Lord" (δούλη κυρίου): paradoxically both humble submission and prophetic dignity.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Origen:</strong> "The angel greeted Mary with a new address, which I could not find anywhere else in Scripture... 'Hail, full of grace' is not addressed to a male. This greeting was reserved for Mary alone." (Homilies on Luke 6.7)</p>
+              <p><strong>Bede:</strong> "Truly full of grace was she, upon whom it was conferred by divine favor that, first among women, she should offer God the most glorious gift of her virginity." (Homilies on the Gospels 1.3)</p>
+              <p><strong>Peter Chrysologus:</strong> "'The Lord is with you.' Why is the Lord with you? Because he is coming to you not merely to pay a visit, but he is coming down into you in a new mystery, that of being born." (Sermon 140)</p>
+            </div>
+            <div class="source">
+              <h4>Stronstad (Charismatic)</h4>
+              <p>The Spirit's "overshadowing" (v.35) connects to the broader pneumatology of Luke-Acts. "Filled with the Holy Spirit" should be translated consistently across both books.</p>
             </div>
           </div>
 
@@ -340,7 +408,7 @@ const pericopes = [
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>The pericope moves from <strong>ordinary life</strong> (a village girl, betrothed) through <strong>overwhelming intrusion</strong> (an angel with impossible news) to <strong>courageous surrender</strong> ("let it be to me"). Mary's final words are not passive acceptance but active embrace of a dangerous vocation.</p>
+            <p>Startling greeting (v.28) → Deep perplexity (v.29) → Reassurance (v.30) → Overwhelming promise (vv.31-33) → Honest question (v.34) → Divine mystery (v.35) → Confirming sign (vv.36-37) → Resolute consent (v.38). The pericope moves from <strong>ordinary life</strong> (a village girl, betrothed) through <strong>overwhelming intrusion</strong> (an angel with impossible news) to <strong>courageous surrender</strong> ("let it be to me"). Mary's final words are not passive acceptance but active embrace of a dangerous vocation.</p>
           </div>
 
           <div class="translation-notes">
@@ -350,6 +418,7 @@ const pericopes = [
               <li>"Overshadow" needs careful handling—evokes presence, protection, power, not sexuality</li>
               <li>Mary's consent should feel active and brave, not meek resignation</li>
               <li>The Davidic promises (throne, kingdom forever) connect to Jewish messianic hope—unfamiliar to secular readers</li>
+              <li><strong>δούλη:</strong> "Servant" vs. "slave" vs. "handmaid"—each has baggage. Context matters: this is Mary's self-identification before God, not a social status.</li>
             </ul>
           </div>
         </section>
@@ -363,10 +432,10 @@ const pericopes = [
           </div>
 
           <div class="greek-block">
-            <h3>Greek Text (selected)</h3>
+            <h3>Greek Text</h3>
             <blockquote class="greek-text">
-              v.41: καὶ ἐγένετο ὡς ἤκουσεν τὸν ἀσπασμὸν τῆς Μαρίας ἡ Ἐλισάβετ, ἐσκίρτησεν τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς...<br/><br/>
-              v.42: καὶ ἀνεφώνησεν κραυγῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξὶν καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.<br/><br/>
+              v.41: καὶ ἐγένετο ὡς ἤκουσεν τὸν ἀσπασμὸν τῆς Μαρίας ἡ Ἐλισάβετ, ἐσκίρτησεν τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς, καὶ ἐπλήσθη πνεύματος ἁγίου ἡ Ἐλισάβετ,<br/><br/>
+              v.42: καὶ ἀνεφώνησεν κραυγῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξίν, καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.<br/><br/>
               v.45: καὶ μακαρία ἡ πιστεύσασα ὅτι ἔσται τελείωσις τοῖς λελαλημένοις αὐτῇ παρὰ κυρίου.
             </blockquote>
           </div>
@@ -380,19 +449,25 @@ const pericopes = [
             <h3>Key Greek Terms</h3>
             <dl class="term-list">
               <dt>ἐσκίρτησεν <em>(eskirtēsen)</em></dt>
-              <dd>"Leaped" — strong physical movement, associated with joy and dancing (cf. Malachi 4:2 LXX). The fetus recognizes what the adults cannot yet see.</dd>
-              
+              <dd>"Leaped, jumped" — strong physical movement; used of lambs leaping, or fetal movement. Associated with joy and dancing (cf. Malachi 4:2 LXX). The fetus recognizes what the adults cannot yet see.</dd>
+
+              <dt>βρέφος <em>(brephos)</em></dt>
+              <dd>"Baby, infant, unborn child" — can refer to fetus or newborn; here emphasizes personhood before birth.</dd>
+
               <dt>ἀνεφώνησεν κραυγῇ μεγάλῃ <em>(anephōnēsen kraugē megalē)</em></dt>
               <dd>"Cried out with a loud shout" — not a whisper but a prophetic declaration. Elizabeth becomes the first human to proclaim Jesus' significance.</dd>
-              
+
               <dt>εὐλογημένη <em>(eulogēmenē)</em></dt>
               <dd>"Blessed" — passive, indicating God's action: "you whom God has blessed." Different from μακαρία in v.45.</dd>
-              
+
               <dt>μακαρία <em>(makaria)</em></dt>
-              <dd>"Blessed/happy/fortunate" — describes the result of right action or right relation to God. Deeper than mere happiness.</dd>
-              
+              <dd>"Blessed/happy/fortunate" — beatitude language: one on whom divine favor rests. Describes the result of right action or right relation to God. Deeper than mere happiness.</dd>
+
+              <dt>πιστεύσασα <em>(pisteusasa)</em></dt>
+              <dd>"Having believed" — aorist participle: the decisive act of faith.</dd>
+
               <dt>τελείωσις <em>(teleiōsis)</em></dt>
-              <dd>"Fulfillment/completion" — the promises will reach their intended goal.</dd>
+              <dd>"Fulfillment, completion" — not just occurrence but perfection of what was promised. The promises will reach their intended goal.</dd>
             </dl>
           </div>
 
@@ -400,15 +475,23 @@ const pericopes = [
             <h3>Commentary Synthesis</h3>
             <div class="source">
               <h4>Fitzmyer (Anchor Bible)</h4>
-              <p>Elizabeth's blessing has two parts: Mary is blessed among women (human perspective) and the fruit of her womb is blessed (divine perspective). The phrase "mother of my Lord" (v.43) is remarkable—Elizabeth recognizes Mary's child as her own Lord, even before birth. This is the highest christological confession in the infancy narrative.</p>
+              <p>Elizabeth's blessing has two parts: Mary is blessed among women (human perspective) and the fruit of her womb is blessed (divine perspective). The phrase "mother of my Lord" (v.43) is remarkable—Elizabeth recognizes Mary's child as her own Lord, even before birth. This is the highest christological confession in the infancy narrative. The "hill country of Judah" was a journey of several days from Nazareth.</p>
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>The scene depicts two marginal women—one too old, one too young—becoming the first prophets of the new age. John's movement in the womb is not mere fetal activity but prophetic recognition: the forerunner acknowledges the Messiah. Elizabeth's filling with the Spirit parallels Zechariah's (v.67) and anticipates Pentecost.</p>
+              <p>The scene depicts two marginal women—one too old, one too young—becoming the first prophets of the new age. John's movement in the womb is not mere fetal activity but prophetic recognition: the forerunner acknowledges the Messiah. Elizabeth's filling with the Spirit parallels Zechariah's (v.67) and anticipates Pentecost. Elizabeth is filled with the Spirit and prophesies—the first prophetic utterance in the Gospel proper.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Die Begegnung der Verwandten Maria und Elisabet bezeichnet einen Knotenpunkt in der Kindheitserzählung des Lukas. Hier treffen sich nicht nur die beiden Mütter, sondern zum ersten Mal auch ihre noch ungeborenen Kinder." This is a "Knotenpunkt" (nodal point)—the meeting of mothers and their unborn children. Elizabeth's blessing echoes blessings on Judith and Jael (Jdt 13:18), placing Mary in the line of heroic women who deliver God's people.</p>
             </div>
             <div class="source">
               <h4>Feminist Studies</h4>
               <p>This is a scene of female solidarity and prophetic recognition. Two pregnant women, alone together, share revelations that the men in their lives cannot yet understand. Elizabeth validates Mary's impossible story—crucial social support for a young woman in a dangerous situation.</p>
+            </div>
+            <div class="source">
+              <h4>Stronstad (Charismatic)</h4>
+              <p>Elizabeth is filled with the Spirit and prophesies—the first prophetic utterance in the Gospel proper. Her Spirit-filling enables prophetic recognition of Mary and the unborn Jesus. This establishes the pattern: Spirit → prophetic speech.</p>
             </div>
           </div>
 
@@ -421,6 +504,7 @@ const pericopes = [
                 <li>Travel time: 3-5 days, depending on pace and route</li>
                 <li>A young woman traveling alone was unusual and risky</li>
                 <li>Mary likely traveled with others (caravan, family group)</li>
+                <li>Mary's haste (μετὰ σπουδῆς) suggests urgency, possibly to confirm the sign given her</li>
               </ul>
             </div>
             <div class="context-box">
@@ -436,7 +520,16 @@ const pericopes = [
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>The pericope moves from <strong>urgency</strong> (Mary's hasty journey) through <strong>explosive recognition</strong> (John leaps, Elizabeth shouts) to <strong>profound validation</strong> ("Blessed are you... blessed is she who believed"). For Mary, alone with her secret, this is the first human confirmation that she has not imagined everything.</p>
+            <p>Hasty journey (v.39) → Joyful greeting (v.40) → Prenatal recognition (v.41) → Spirit-filled prophecy (vv.42-44) → Beatitude of faith (v.45). The pericope moves from <strong>urgency</strong> (Mary's hasty journey) through <strong>explosive recognition</strong> (John leaps, Elizabeth shouts) to <strong>profound validation</strong> ("Blessed are you... blessed is she who believed"). For Mary, alone with her secret, this is the first human confirmation that she has not imagined everything. Movement from physical to spiritual, from private to prophetic.</p>
+          </div>
+
+          <div class="translation-notes">
+            <h3>Translation Notes</h3>
+            <ul>
+              <li><strong>κραυγῇ μεγάλῃ:</strong> "Loud cry," "great shout"—Elizabeth is not demure; this is prophetic proclamation</li>
+              <li><strong>μήτηρ τοῦ κυρίου μου:</strong> "Mother of my Lord"—κύριος carries both messianic and divine connotations</li>
+              <li><strong>μακαρία ἡ πιστεύσασα:</strong> The beatitude structure should be preserved—"Blessed is she who believed"</li>
+            </ul>
           </div>
         </section>
 
@@ -467,13 +560,13 @@ const pericopes = [
             <dl class="term-list">
               <dt>Μεγαλύνει <em>(megalynei)</em></dt>
               <dd>"Magnifies/declares great" — not making God bigger but proclaiming God's greatness. BDAG: "to praise a person in terms of that individual's greatness"</dd>
-              
+
               <dt>ταπείνωσιν <em>(tapeinōsin)</em></dt>
-              <dd>"Lowliness/humble state" — not humility as virtue but low social status. BDAG: "look upon someone's humble station i.e. show concern for someone in humble circumstances"</dd>
-              
+              <dd>"Lowliness, humble state" — not humility as virtue but low social status. BDAG: "look upon someone's humble station i.e. show concern for someone in humble circumstances"</dd>
+
               <dt>δυνάστας <em>(dynastas)</em></dt>
-              <dd>"Rulers/powerful ones" — those who hold power over others. BDAG: "dethrone rulers"</dd>
-              
+              <dd>"Rulers, powerful ones" — those who hold power over others. BDAG: "dethrone rulers"</dd>
+
               <dt>διεσκόρπισεν <em>(dieskorpisen)</em></dt>
               <dd>"Scattered" — military term for routing an army.</dd>
             </dl>
@@ -561,12 +654,18 @@ const pericopes = [
             <dl class="term-list">
               <dt>περιτεμεῖν <em>(peritamein)</em></dt>
               <dd>"To circumcise" — the covenant sign given to Abraham (Genesis 17), performed on the eighth day. For Jewish families, this was both religious obligation and identity marker.</dd>
-              
+
               <dt>πινακίδιον <em>(pinakidion)</em></dt>
               <dd>"Writing tablet" — a small wooden board covered with wax; one would scratch letters with a stylus. Indicates Zechariah's literacy (priests were educated).</dd>
-              
+
               <dt>Ἰωάννης <em>(Iōannēs)</em></dt>
-              <dd>"John" — from Hebrew יוֹחָנָן (Yochanan), meaning "YHWH has been gracious." The name itself proclaims God's grace.</dd>
+              <dd>"John" — from Hebrew יוֹחָנָן (Yochanan), meaning "YHWH has been gracious." The name itself proclaims God's grace and encapsulates the story.</dd>
+
+              <dt>παραχρῆμα <em>(parachrēma)</em></dt>
+              <dd>"Immediately, at once" — Luke's characteristic term for sudden divine action.</dd>
+
+              <dt>χεὶρ κυρίου <em>(cheir kyriou)</em></dt>
+              <dd>"Hand of the Lord" — OT idiom for divine power and favor.</dd>
             </dl>
           </div>
 
@@ -574,11 +673,23 @@ const pericopes = [
             <h3>Commentary Synthesis</h3>
             <div class="source">
               <h4>Fitzmyer (Anchor Bible)</h4>
-              <p>The naming scene creates dramatic tension. The neighbors assume the child will be named for his father or grandfather—standard practice. Elizabeth's insistence on "John" creates social friction: "None of your relatives has this name!" When the mute Zechariah writes the same name, the confirmation is supernatural.</p>
+              <p>The naming scene creates dramatic tension. The neighbors assume the child will be named for his father or grandfather—standard practice. Elizabeth's insistence on "John" creates social friction: "None of your relatives has this name!" When the mute Zechariah writes the same name, the confirmation is supernatural. The neighbors' fear (v.65) and the spreading report prepare for John's future public role.</p>
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>Zechariah's first words after nine months of silence are praise (εὐλογῶν τὸν θεόν). His enforced silence has transformed him; when he speaks, he speaks blessing. The pattern of silence-then-prophetic-speech echoes Ezekiel (3:26-27; 24:27; 33:22).</p>
+              <p>Zechariah's first words after nine months of silence are praise (εὐλογῶν τὸν θεόν). His enforced silence has transformed him; when he speaks, he speaks blessing. The pattern of silence-then-prophetic-speech echoes Ezekiel (3:26-27; 24:27; 33:22). Elizabeth's insistence on "John" shows she knows the angelic message—either through Zechariah's written communication or prophetic insight.</p>
+            </div>
+            <div class="source">
+              <h4>Bock (Baker)</h4>
+              <p>The eighth-day circumcision follows Torah (Lev 12:3). The naming dispute creates dramatic tension: will the family override Elizabeth? Zechariah's written confirmation ("His name IS John"—not "will be") breaks his silence immediately. His first words are blessing, not complaint—his faith has matured through silence.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"'Johannes' (Ἰωάννης from יוֹחָנָן, Yohanan) bedeutet 'JHWH hat Gnade erwiesen.' Der Name fasst die ganze Geschichte zusammen." The name theology is central—John = "YHWH has shown grace" encapsulates the entire narrative.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Bede:</strong> "Whenever in the Scriptures a name is imposed or changed... by God, it is indicative of great praise and virtue. It was good that our Redeemer's precursor was ordered to be called John. The name John means 'the grace of the Lord' or 'in whom there is grace.'" (Homilies on the Gospels 2.19)</p>
             </div>
           </div>
 
@@ -587,21 +698,30 @@ const pericopes = [
             <div class="context-box">
               <h4>Naming Customs</h4>
               <ul>
-                <li>Children were typically named at birth</li>
+                <li>Children were typically named at birth or circumcision</li>
                 <li>Names often honored fathers or grandfathers</li>
                 <li>The community expected to participate in naming—it was a social event</li>
                 <li>Elizabeth's insistence on "John" was socially bold for a woman</li>
+                <li>Naming a child after a stranger broke family tradition</li>
               </ul>
             </div>
             <div class="context-box">
               <h4>The Question</h4>
-              <p>"What then will this child be?" (τί ἄρα τὸ παιδίον τοῦτο ἔσται) — The community senses something extraordinary. The combination of miraculous birth, unusual name, and father's sudden speech creates awe. "The hand of the Lord was with him" (v.66b) confirms divine involvement.</p>
+              <p>"What then will this child be?" (τί ἄρα τὸ παιδίον τοῦτο ἔσται) — The community senses something extraordinary. The combination of miraculous birth, unusual name, and father's sudden speech creates awe. "The hand of the Lord was with him" (v.66b) confirms divine involvement and creates narrative anticipation.</p>
             </div>
           </div>
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>The pericope moves from <strong>communal joy</strong> (neighbors celebrating the birth) through <strong>social tension</strong> (dispute over the name) to <strong>astonished wonder</strong> (Zechariah speaks, fear falls on all). The question in v.66 leaves readers in <strong>suspense</strong>—who will this child become?</p>
+            <p>Neighborhood rejoicing (vv.57-58) → Naming dispute (vv.59-62) → Zechariah's dramatic confirmation (v.63) → Immediate restoration (v.64) → Community awe and spreading wonder (vv.65-66). The pericope moves from <strong>communal joy</strong> (neighbors celebrating the birth) through <strong>social tension</strong> (dispute over the name) to <strong>astonished wonder</strong> (Zechariah speaks, fear falls on all). The question in v.66 leaves readers in <strong>suspense</strong>—who will this child become?</p>
+          </div>
+
+          <div class="translation-notes">
+            <h3>Translation Notes</h3>
+            <ul>
+              <li><strong>Ἰωάννης ἐστὶν:</strong> "His name IS John"—present tense emphasizes the established fact, not a decision being made</li>
+              <li>Consider explanatory footnotes on Hebrew name meanings for readers unfamiliar with this tradition</li>
+            </ul>
           </div>
         </section>
 
@@ -617,6 +737,7 @@ const pericopes = [
             <h3>Greek Text (selected)</h3>
             <blockquote class="greek-text">
               v.68: Εὐλογητὸς κύριος ὁ θεὸς τοῦ Ἰσραήλ, ὅτι ἐπεσκέψατο καὶ ἐποίησεν λύτρωσιν τῷ λαῷ αὐτοῦ,<br/><br/>
+              v.69: καὶ ἤγειρεν κέρας σωτηρίας ἡμῖν ἐν οἴκῳ Δαυὶδ παιδὸς αὐτοῦ...<br/><br/>
               v.78-79: διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ἐπισκέψεται ἡμᾶς ἀνατολὴ ἐξ ὕψους, ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ἡμῶν εἰς ὁδὸν εἰρήνης.
             </blockquote>
           </div>
@@ -631,24 +752,27 @@ const pericopes = [
             <dl class="term-list">
               <dt>Εὐλογητός <em>(eulogētos)</em></dt>
               <dd>"Blessed be" — standard opening for Jewish blessings (berakot). Not asking God to bless but declaring that God is worthy of blessing/praise.</dd>
-              
+
               <dt>ἐπεσκέψατο <em>(epeskepsato)</em></dt>
               <dd>"Visited" — in biblical idiom, a divine "visitation" means God acting decisively in history, for salvation or judgment.</dd>
-              
-              <dt>λύτρωσιν <em>(lytrōsin)</em></dt>
-              <dd>"Redemption" — originally the price paid to free a slave or prisoner. The exodus was Israel's paradigmatic redemption.</dd>
-              
+
+              <dt>λύτρωσις <em>(lytrōsis)</em></dt>
+              <dd>"Redemption" — release through ransom payment; exodus/ransom imagery. Originally the price paid to free a slave or prisoner.</dd>
+
               <dt>κέρας σωτηρίας <em>(keras sōtērias)</em></dt>
-              <dd>"Horn of salvation" — animal horn as symbol of strength and power. A "horn of salvation" is a powerful deliverer (cf. Psalm 18:2).</dd>
-              
-              <dt>διαθήκης <em>(diathēkēs)</em></dt>
+              <dd>"Horn of salvation" — symbol of strength and power; cf. anointing horn. A "horn of salvation" is a powerful deliverer (cf. Psalm 18:2, 2 Samuel 22:3).</dd>
+
+              <dt>διαθήκη <em>(diathēkē)</em></dt>
               <dd>"Covenant" — God's binding commitment to his people, especially the promises to Abraham.</dd>
-              
-              <dt>ἀνατολὴ ἐξ ὕψους <em>(anatolē ex hypsous)</em></dt>
-              <dd>"Rising/dawn from on high" — Could mean (1) sunrise/dayspring (messianic light), (2) the "Branch" (messianic title from Jeremiah 23:5, Zechariah 3:8, 6:12). Probably a deliberate double meaning.</dd>
-              
+
               <dt>σπλάγχνα ἐλέους <em>(splanchna eleous)</em></dt>
-              <dd>"Bowels/guts of mercy" — visceral compassion. Ancients located emotions in the internal organs. God's mercy is not abstract but gut-level.</dd>
+              <dd>"Bowels/guts of mercy" — lit. "tender mercy"; deep visceral compassion. Ancients located emotions in the internal organs. God's mercy is not abstract but gut-level.</dd>
+
+              <dt>ἀνατολὴ ἐξ ὕψους <em>(anatolē ex hypsous)</em></dt>
+              <dd>"Rising/dawn from on high" — Could mean (1) sunrise/dayspring (messianic light), (2) the "Branch" (messianic title from Jeremiah 23:5, Zechariah 3:8, 6:12). Probably a deliberate double meaning. May allude to Malachi 4:2, "sun of righteousness."</dd>
+
+              <dt>εἰρήνη <em>(eirēnē)</em></dt>
+              <dd>"Peace" — Hebrew שָׁלוֹם—comprehensive well-being, not mere absence of conflict.</dd>
             </dl>
           </div>
 
@@ -660,11 +784,23 @@ const pericopes = [
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>The Benedictus presents salvation in political terms (enemies, those who hate us) that the Gospel will reinterpret. Israel expected military deliverance; Jesus will offer a different kind of rescue. John's role is to prepare the way—he gives "knowledge of salvation" through forgiveness of sins, not through military victory.</p>
+              <p>The Benedictus (Latin for "Blessed") may be a pre-Lukan Jewish hymn adapted for this context. It presents salvation in political terms (enemies, those who hate us) that the Gospel will reinterpret. Israel expected military deliverance; Jesus will offer a different kind of rescue. John's role is to prepare the way—he gives "knowledge of salvation" through forgiveness of sins, not through military victory.</p>
             </div>
             <div class="source">
               <h4>Keener (IVP Background)</h4>
               <p>"Blessed be God" opens Jewish prayers (cf. Psalm 41:13, 72:18). "Horn of salvation" echoes David's own words (Psalm 18:2). "Sunrise from on high" may allude to Malachi 4:2, the "sun of righteousness" in the context of Elijah's return.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Aus der größten Not des Menschen, seiner Verstrickung in die Sünde, kann keine weltliche Macht ihn befreien... Gottes Barmherzigkeit ist stärker als Sünde und Tod"—no worldly power can free from sin; only God's mercy is stronger than sin and death. The "horn of salvation" (v.69) represents divine power, not political.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Ambrose:</strong> "John would be great—not through bodily virtue but through magnanimity. He did not enlarge the boundaries of an empire. He did not prefer triumphs of military contest to honors. Rather, what is more, he disparaged human pleasures and lewdness of body, preaching in the desert with great virtue of spirit." (Exposition of Luke 1.31-33) John's greatness is moral/spiritual, not political.</p>
+            </div>
+            <div class="source">
+              <h4>Stronstad (Charismatic)</h4>
+              <p>Zechariah's prophecy is explicitly Spirit-inspired (v.67: "filled with the Holy Spirit and prophesied"). This shows the direct connection: Spirit-filling → prophetic speech.</p>
             </div>
           </div>
 
@@ -677,13 +813,14 @@ const pericopes = [
                 <li>"Enemies" and "those who hate us" (v.71) would naturally mean political oppressors</li>
                 <li>The Benedictus affirms this hope but Luke's Gospel will redefine what "salvation" means</li>
                 <li>Note the shift in vv.77-79: salvation comes through forgiveness, light, and peace</li>
+                <li>Jewish morning prayers included blessings (berakot) praising God for covenant faithfulness</li>
               </ul>
             </div>
           </div>
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>The Benedictus moves from <strong>erupting praise</strong> (Zechariah's first words after nine months) through <strong>covenant memory</strong> (God has been faithful across centuries) to <strong>tender hope</strong> (addressing his newborn son). The final image—light dawning on those in darkness, feet guided to peace—is both cosmic and intimate.</p>
+            <p>Blessing and praise (v.68a) → National redemption (vv.68b-75) → Direct address to infant John (vv.76-77) → Tender mercy and light (vv.78-79). The Benedictus moves from <strong>erupting praise</strong> (Zechariah's first words after nine months) through <strong>covenant memory</strong> (God has been faithful across centuries) to <strong>tender hope</strong> (addressing his newborn son). The final image—light dawning on those in darkness, feet guided to peace—is both cosmic and intimate.</p>
           </div>
 
           <div class="translation-notes">
@@ -694,6 +831,7 @@ const pericopes = [
               <li>"Visited" needs context—God showing up to act</li>
               <li>"Sunrise from on high" is beautiful and should stay poetic—perhaps "the dawn from heaven"</li>
               <li>"Shadow of death" (σκιᾷ θανάτου) echoes Psalm 23:4</li>
+              <li><strong>σπλάγχνα ἐλέους:</strong> "Tender mercy," "heartfelt compassion"—the visceral depth matters</li>
             </ul>
           </div>
         </section>
@@ -702,7 +840,7 @@ const pericopes = [
         <section id="pericope-8" class="exegesis-section">
           <div class="section-header">
             <span class="section-tag">Pericope 8</span>
-            <h2>Into the Wilderness</h2>
+            <h2>Growing Up in the Wilderness</h2>
             <p class="verse-ref">Luke 1:80</p>
           </div>
 
@@ -722,16 +860,16 @@ const pericopes = [
             <h3>Key Greek Terms</h3>
             <dl class="term-list">
               <dt>ηὔξανεν καὶ ἐκραταιοῦτο <em>(ēuxanen kai ekrataiouto)</em></dt>
-              <dd>"Grew and became strong" — standard formula for childhood development (cf. 2:40 for Jesus; 1 Samuel 2:26 for Samuel).</dd>
-              
+              <dd>"Grew and became strong" — imperfect tenses: continuous growth over time. Standard formula for childhood development (cf. 2:40 for Jesus; 1 Samuel 2:26 for Samuel). Passive: strengthened by divine action.</dd>
+
               <dt>πνεύματι <em>(pneumati)</em></dt>
               <dd>"In spirit" — could mean human spirit (inner strength) or Holy Spirit (divinely empowered). Given 1:15 (filled with Spirit from womb), probably both.</dd>
-              
+
               <dt>ἐρήμοις <em>(erēmois)</em></dt>
-              <dd>"Wilderness/desert regions" — not barren wasteland but sparsely populated areas. The Judean wilderness between Jerusalem and the Dead Sea was inhabited by various groups.</dd>
-              
-              <dt>ἀναδείξεως <em>(anadeixeōs)</em></dt>
-              <dd>"Manifestation/public appearance" — the moment John steps onto the public stage (Luke 3:1-6).</dd>
+              <dd>"Wilderness/desert regions" — plural: not a single location. Not barren wasteland but sparsely populated, uninhabited areas. The Judean wilderness between Jerusalem and the Dead Sea was inhabited by various groups.</dd>
+
+              <dt>ἀνάδειξις <em>(anadeixis)</em></dt>
+              <dd>"Manifestation, public appearance" — technical term for public commissioning or revelation. The moment John steps onto the public stage (Luke 3:1-6).</dd>
             </dl>
           </div>
 
@@ -743,11 +881,15 @@ const pericopes = [
             </div>
             <div class="source">
               <h4>Bovon (Hermeneia)</h4>
-              <p>The wilderness evokes exodus typology—Israel was formed in the wilderness, and prophetic renewal movements often emerged from desert regions. John's withdrawal suggests preparation and separation from corrupted religious institutions.</p>
+              <p>The wilderness evokes exodus typology—Israel was formed in the wilderness, and prophetic renewal movements often emerged from desert regions. John's withdrawal suggests preparation and separation from corrupted religious institutions. This summary bridges John's birth to his adult ministry (3:1ff).</p>
             </div>
             <div class="source">
               <h4>Keener (IVP Background)</h4>
-              <p>The Essene community at Qumran (Dead Sea Scrolls) lived in this wilderness, preparing for God's coming through ritual purity and study. John's aged parents may have died before he reached adulthood—the Essenes reportedly adopted orphans. Whether John had Essene connections is debated.</p>
+              <p>The Essene community at Qumran (Dead Sea Scrolls) lived in this wilderness, preparing for God's coming through ritual purity and study. John's aged parents may have died before he reached adulthood—the Essenes reportedly adopted orphans. Whether John had Essene connections is debated, but Luke shows no interest in this connection.</p>
+            </div>
+            <div class="source">
+              <h4>Bock (Baker)</h4>
+              <p>"Strong in spirit" indicates spiritual rather than merely physical maturation. The wilderness setting anticipates John's prophetic ministry (3:2-4). "Until the day of his public appearance" creates narrative suspense.</p>
             </div>
           </div>
 
@@ -760,13 +902,23 @@ const pericopes = [
                 <li>Rocky, mountainous terrain with some seasonal vegetation</li>
                 <li>Home to various communities seeking purity (Essenes) or escape (bandits)</li>
                 <li>Theologically significant: place of testing (Jesus' temptation), revelation (Moses), and new beginnings</li>
+                <li>The wilderness is the place of prophetic formation and divine encounter in Israel's memory</li>
               </ul>
             </div>
           </div>
 
           <div class="arc-section">
             <h3>Emotional Arc</h3>
-            <p>This single verse creates <strong>expectant pause</strong>. We've heard extraordinary prophecies about John; now we wait. He grows in obscurity, hidden in the wilderness, until "the day of his manifestation." The reader is left in anticipation.</p>
+            <p>Quiet growth (v.80a) → Hidden preparation (v.80b) → Anticipation of future revelation (v.80c). This single verse creates <strong>expectant pause</strong>. We've heard extraordinary prophecies about John; now we wait. He grows in obscurity, hidden in the wilderness, until "the day of his manifestation." The reader is left in anticipation. The chapter ends in waiting.</p>
+          </div>
+
+          <div class="translation-notes">
+            <h3>Translation Notes</h3>
+            <ul>
+              <li><strong>ἐν ταῖς ἐρήμοις:</strong> "In the wilderness places" (plural)—not a single location</li>
+              <li><strong>ἀνάδειξις:</strong> "Public appearance," "commissioning," "manifestation"—the formal beginning of public ministry</li>
+              <li>This is a transitional summary—keep it brief; it should feel like a closing chord, not a new movement</li>
+            </ul>
           </div>
         </section>
 
@@ -798,7 +950,7 @@ const pericopes = [
               <li>Mary delivers prophetic poetry about divine revolution (1:46-55)</li>
               <li>Both women recognize Jesus' significance before any man does</li>
             </ul>
-            <p>This challenges both ancient patriarchy and modern assumptions about biblical texts.</p>
+            <p>This challenges both ancient patriarchy and modern assumptions about biblical texts. The chapter's theology is spoken primarily through female voices.</p>
           </div>
 
           <div class="theme-block">
@@ -810,7 +962,7 @@ const pericopes = [
               <li>Mary overshadowed by Spirit (1:35)</li>
               <li>Zechariah filled with Spirit to prophesy (1:67)</li>
             </ul>
-            <p>Luke presents the Spirit as the agent of prophetic revelation and new creation.</p>
+            <p>Luke presents the Spirit as the agent of prophetic revelation and new creation. This is a Spirit-drenched narrative that establishes the pattern: Spirit-filling → prophetic speech.</p>
           </div>
 
           <div class="theme-block">
@@ -822,7 +974,7 @@ const pericopes = [
               <li>Abrahamic covenant (Genesis 22) is remembered</li>
               <li>Prophetic hopes (Isaiah 40, Malachi 3-4) are realized</li>
             </ul>
-            <p>The new events don't replace Israel's story but fulfill it.</p>
+            <p>The new events don't replace Israel's story but fulfill it. Events fulfill what was spoken (v.45, 55, 70) while creating expectation for what is coming.</p>
           </div>
 
           <div class="theme-block">
@@ -958,7 +1110,7 @@ const pericopes = [
         </section>
 
         <footer class="exegesis-footer">
-          <p class="sources">Sources: Anchor Bible (Fitzmyer), Hermeneia (Bovon), Baker (Bock), BDAG, Louw-Nida, Keener (IVP Background), feminist and liberation scholarship (D'Angelo, Meyers)</p>
+          <p class="sources">Sources: NA28 Greek Text, Anchor Bible (Fitzmyer), Hermeneia (Bovon), Baker (Bock), BDAG, Louw-Nida, Keener (IVP Background), Eisele (German), Ancient Christian Commentary (Patristic: Origen, Ambrose, Augustine, Chrysostom, Bede, Jerome, Ephrem the Syrian, Maximus of Turin, Peter Chrysologus), Stronstad (Charismatic), feminist and liberation scholarship (D'Angelo, Meyers)</p>
           <p class="license">CC BY-SA 4.0 | Aperto Bible Project</p>
           <a href={`${base}/en/luke/1`} class="back-btn">&larr; Return to Luke 1</a>
         </footer>
@@ -977,7 +1129,7 @@ const pericopes = [
     .exegesis-layout { grid-template-columns: 1fr; }
     .exegesis-sidebar { display: none; }
   }
-  
+
   .exegesis-sidebar {
     position: sticky;
     top: 0;
@@ -987,253 +1139,244 @@ const pericopes = [
     border-right: 1px solid var(--color-border);
     padding: 2rem 1.25rem;
   }
-  
+
   .back-link {
     font-size: 0.8rem;
     color: var(--color-accent);
     text-decoration: none;
   }
-  
+
   .sidebar-header h2 {
     font-family: var(--font-bible);
     font-size: 1.25rem;
+    margin-top: 0.5rem;
     color: var(--color-charcoal);
-    margin: 0.75rem 0 1.5rem;
-    font-weight: 200;
   }
-  
-  .pericope-nav { display: flex; flex-direction: column; gap: 0.25rem; }
-  
+
+  .pericope-nav {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
   .nav-item {
     display: flex;
     flex-direction: column;
-    padding: 0.6rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.15s;
   }
-  .nav-item:hover { background: rgba(139,115,85,0.1); }
-  .nav-title { font-size: 0.85rem; color: var(--color-charcoal); }
-  .nav-verses { font-size: 0.7rem; color: var(--color-warm-gray); margin-top: 2px; }
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+  .nav-title {
+    font-size: 0.85rem;
+    color: var(--color-charcoal);
+  }
+  .nav-verses {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+  }
 
   .exegesis-content {
-    padding: 3rem 4rem;
+    padding: 3rem;
     max-width: 900px;
   }
-  @media (max-width: 768px) { .exegesis-content { padding: 2rem 1.5rem; } }
+  @media (max-width: 768px) {
+    .exegesis-content { padding: 1.5rem; }
+  }
 
   .exegesis-header {
     margin-bottom: 3rem;
+    border-bottom: 1px solid var(--color-border);
     padding-bottom: 2rem;
-    border-bottom: 2px solid var(--color-border);
   }
   .exegesis-header .meta {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--color-accent);
+    margin-bottom: 0.5rem;
   }
   .exegesis-header h1 {
     font-family: var(--font-bible);
     font-size: 2.5rem;
-    color: var(--color-charcoal);
-    margin: 0.5rem 0;
-    font-weight: 200;
+    margin-bottom: 0.5rem;
   }
   .exegesis-header .subtitle {
+    font-size: 1.1rem;
     color: var(--color-text-muted);
-    font-size: 1.05rem;
   }
-  .sources-intro {
+  .exegesis-header .sources-intro {
     font-size: 0.85rem;
-    color: var(--color-warm-gray);
-    margin-top: 0.75rem;
+    color: var(--color-text-muted);
     font-style: italic;
+    margin-top: 1rem;
   }
 
   .exegesis-section {
-    margin-bottom: 3rem;
-    padding-bottom: 2.5rem;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
     border-bottom: 1px solid var(--color-border);
   }
-  
-  .section-header { margin-bottom: 1.5rem; }
+
+  .section-header {
+    margin-bottom: 1.5rem;
+  }
   .section-tag {
     display: inline-block;
     font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--color-accent);
-    background: rgba(139,115,85,0.1);
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
+    letter-spacing: 0.1em;
+    background: var(--color-accent);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
     margin-bottom: 0.5rem;
   }
   .section-header h2 {
     font-family: var(--font-bible);
     font-size: 1.75rem;
-    color: var(--color-charcoal);
-    margin: 0;
-    font-weight: 200;
+    margin-bottom: 0.25rem;
   }
-  .verse-ref { color: var(--color-accent); margin: 0.25rem 0 0; font-size: 0.95rem; }
-
-  .lead { font-size: 1.1rem; color: var(--color-text-muted); line-height: 1.7; }
-  
-  .pericope-list {
-    margin: 1.5rem 0;
-    padding-left: 1.5rem;
-  }
-  .pericope-list li {
-    margin-bottom: 0.5rem;
-    color: var(--color-text);
+  .verse-ref {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
   }
 
-  .greek-block { margin: 1.5rem 0; }
-  .greek-block h3 { 
-    font-size: 0.85rem; 
-    color: var(--color-text-muted); 
-    text-transform: uppercase; 
-    letter-spacing: 0.05em; 
-    margin-bottom: 0.75rem; 
-    font-weight: 500;
+  .greek-block {
+    background: var(--color-beige);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  .greek-block h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
   }
   .greek-text {
-    font-family: 'Noto Serif', Georgia, serif;
-    font-size: 1rem;
+    font-family: 'Gentium Plus', 'Times New Roman', serif;
+    font-size: 1.1rem;
     line-height: 1.8;
-    color: var(--color-text);
-    background: var(--color-paper);
-    padding: 1.25rem 1.5rem;
-    border-left: 3px solid var(--color-accent);
     margin: 0;
-    border-radius: 0 6px 6px 0;
+    padding: 0;
+    border: none;
   }
 
   .form-tag {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
+    background: var(--color-paper);
+    border: 1px solid var(--color-border);
     padding: 0.75rem 1rem;
-    background: var(--color-beige);
     border-radius: 6px;
-    margin: 1.5rem 0;
+    margin-bottom: 1.5rem;
     font-size: 0.9rem;
   }
-  .form-tag .label { color: var(--color-accent); font-weight: 600; }
-  .form-tag .value { color: var(--color-text); font-style: italic; }
+  .form-tag .label {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+  .form-tag .value {
+    color: var(--color-text);
+  }
 
-  .terms-section, .commentary-section, .context-section, .arc-section, .translation-notes { margin: 2rem 0; }
+  .terms-section, .commentary-section, .context-section, .arc-section, .translation-notes {
+    margin-bottom: 2rem;
+  }
+
   .terms-section h3, .commentary-section h3, .context-section h3, .arc-section h3, .translation-notes h3 {
     font-size: 1rem;
-    color: var(--color-charcoal);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
     margin-bottom: 1rem;
-    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-accent);
   }
 
-  .term-list { margin: 0; }
   .term-list dt {
-    font-family: 'Noto Serif', Georgia, serif;
-    font-size: 1rem;
-    color: var(--color-charcoal);
     font-weight: 600;
+    color: var(--color-charcoal);
     margin-top: 1rem;
   }
-  .term-list dt:first-child { margin-top: 0; }
   .term-list dt em {
-    font-weight: normal;
+    font-weight: 400;
     color: var(--color-text-muted);
-    font-size: 0.9em;
   }
   .term-list dd {
-    margin: 0.25rem 0 0 0;
+    margin-left: 0;
+    margin-top: 0.25rem;
     color: var(--color-text);
     line-height: 1.6;
   }
 
   .source {
     margin-bottom: 1.5rem;
-    padding-left: 1rem;
-    border-left: 2px solid var(--color-beige);
   }
   .source h4 {
     font-size: 0.9rem;
     color: var(--color-accent);
-    margin: 0 0 0.5rem;
-    font-weight: 600;
+    margin-bottom: 0.5rem;
   }
   .source p {
-    margin: 0;
-    color: var(--color-text);
     line-height: 1.7;
+    color: var(--color-text);
   }
 
   .context-box {
     background: var(--color-paper);
-    padding: 1.25rem;
+    border: 1px solid var(--color-border);
     border-radius: 8px;
+    padding: 1.25rem;
     margin-bottom: 1rem;
   }
   .context-box h4 {
     font-size: 0.9rem;
     color: var(--color-charcoal);
-    margin: 0 0 0.75rem;
-    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .context-box ul, .context-box p {
+    margin: 0;
+    line-height: 1.6;
   }
   .context-box ul {
-    margin: 0;
     padding-left: 1.25rem;
   }
   .context-box li {
-    margin-bottom: 0.35rem;
-    color: var(--color-text);
-    line-height: 1.5;
-  }
-  .context-box p {
-    margin: 0;
-    color: var(--color-text);
-    line-height: 1.6;
+    margin-bottom: 0.5rem;
   }
 
-  .arc-section p {
-    color: var(--color-text);
+  .arc-section p, .translation-notes ul {
     line-height: 1.7;
   }
-
   .translation-notes ul {
-    margin: 0;
     padding-left: 1.25rem;
   }
   .translation-notes li {
     margin-bottom: 0.5rem;
-    color: var(--color-text);
-    line-height: 1.6;
   }
 
-  /* Themes section */
   .themes-section .theme-block {
     margin-bottom: 2rem;
   }
-  .themes-section h3 {
+  .theme-block h3 {
     font-size: 1.1rem;
     color: var(--color-charcoal);
     margin-bottom: 0.75rem;
   }
-  .themes-section p {
-    color: var(--color-text);
-    line-height: 1.7;
+  .theme-block ul {
+    padding-left: 1.25rem;
     margin-bottom: 0.75rem;
   }
-  .themes-section ul {
-    margin: 0 0 1rem;
-    padding-left: 1.25rem;
-  }
-  .themes-section li {
-    margin-bottom: 0.35rem;
-    color: var(--color-text);
+  .theme-block li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
   }
 
-  /* Glossary table */
   .glossary-table-wrapper {
     overflow-x: auto;
   }
@@ -1242,91 +1385,97 @@ const pericopes = [
     border-collapse: collapse;
     font-size: 0.9rem;
   }
-  .glossary-table th {
-    text-align: left;
+  .glossary-table th, .glossary-table td {
     padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .glossary-table th {
     background: var(--color-beige);
-    color: var(--color-charcoal);
     font-weight: 600;
-    border-bottom: 2px solid var(--color-border);
+    color: var(--color-charcoal);
   }
   .glossary-table td {
-    padding: 0.75rem;
-    border-bottom: 1px solid var(--color-border);
     color: var(--color-text);
-    vertical-align: top;
-  }
-  .glossary-table tr:hover {
-    background: var(--color-paper);
   }
 
-  /* Journey section */
   .journey-list {
     list-style: none;
     padding: 0;
-    margin: 1.5rem 0;
+    counter-reset: journey;
   }
   .journey-list li {
     position: relative;
-    padding: 1rem 1rem 1rem 3rem;
-    margin-bottom: 0.5rem;
-    background: var(--color-paper);
-    border-radius: 8px;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
     counter-increment: journey;
   }
   .journey-list li::before {
     content: counter(journey);
     position: absolute;
-    left: 1rem;
-    top: 1rem;
-    width: 1.5rem;
-    height: 1.5rem;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
     background: var(--color-accent);
     color: white;
     border-radius: 50%;
-    font-size: 0.8rem;
-    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 600;
   }
   .journey-list strong {
+    display: block;
     color: var(--color-charcoal);
   }
   .journey-desc {
-    display: block;
     color: var(--color-text-muted);
-    font-size: 0.9rem;
-    margin-top: 0.25rem;
+    font-style: italic;
+  }
+
+  .pericope-list {
+    padding-left: 1.5rem;
+  }
+  .pericope-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
   }
 
   .exegesis-footer {
     margin-top: 3rem;
     padding-top: 2rem;
-    border-top: 2px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
     text-align: center;
   }
   .exegesis-footer .sources {
-    font-size: 0.85rem;
-    color: var(--color-warm-gray);
-    font-style: italic;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
   }
   .exegesis-footer .license {
-    font-size: 0.8rem;
-    color: var(--color-warm-gray);
-    margin: 0.5rem 0 1.5rem;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
   }
   .back-btn {
     display: inline-block;
+    margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
     background: var(--color-accent);
     color: white;
-    border-radius: 6px;
     text-decoration: none;
+    border-radius: 6px;
     font-size: 0.9rem;
+    transition: background 0.15s;
   }
   .back-btn:hover {
-    background: var(--color-accent-light);
-    color: white;
+    background: var(--color-charcoal);
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--color-text);
   }
 </style>
