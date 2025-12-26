@@ -23,8 +23,15 @@
         },
         {
           "number": "2",
-          "text": "Diese erste Zählung passierte, als Quirinius römischer Machthaber in Syrien war.\\f + \\fr 2,2 \\fk UNGLAUBLICH \\fq Quirinius \\ft Die Datierung dieser Volkszählung ist das berühmteste chronologische Problem der Evangelien. Quirinius wurde erst 6 n.Chr. Statthalter von Syrien und führte eine gut dokumentierte Zählung durch (Josephus, Antiquitates 18,1,1), während Herodes bereits 4 v.Chr. starb.",
-          "footnotes": [],
+          "text": "Diese erste Zählung passierte, als Quirinius römischer Machthaber in Syrien war.",
+          "footnotes": [
+            {
+              "ref": "2,2",
+              "category": "unglaublich",
+              "keyword": "Quirinius",
+              "content": "Die Datierung dieser Volkszählung ist das berühmteste chronologische Problem der Evangelien. Quirinius wurde erst 6 n.Chr. Statthalter von Syrien und führte eine gut dokumentierte Zählung durch (Josephus, Antiquitates 18,1,1), während Herodes bereits 4 v.Chr. starb. Skeptiker sehen hier einen historischen Fehler. Mögliche Lösungsansätze: (1) Quirinius hatte ein früheres militärisches Kommando in der Region, (2) das griechische πρώτη kann „vor\" statt „erste\" bedeuten: „Diese Zählung geschah vor jener unter Quirinius\", (3) Lukas komprimiert zeitlich getrennte Ereignisse literarisch. Die Spannungen sind real und ehrliche Auslegung muss sie anerkennen, statt sie wegzuerklären. Antike Historiker (auch Josephus) enthalten chronologische Unstimmigkeiten, ohne dass ihre Grundzuverlässigkeit bestritten wird. Unabhängig von der Lösung bleibt Lukas' theologische Botschaft: Gott handelt in echter Geschichte, nicht im Mythos."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -39,13 +46,19 @@
         },
         {
           "number": "4",
-          "text": "<p class=\"paragraph-break\"></p>Auch Josef machte sich auf. Von Galiläa aus, aus Nazareth, den langen Weg hinauf nach Judäa. Nach Bethlehem, Davids Stadt\\f + \\fr 2,4 \\fk KONTEXT \\fq Davids Stadt \\ft Bethlehem war der Geburtsort König Davids (1 Samuel 16,1-13), wo der Prophet Samuel den jungen Hirten zum König salbte. Die Propheten hatten angekündigt, dass der Messias aus Bethlehem kommen würde (Micha 5,1).",
+          "text": "<p class=\"paragraph-break\"></p>Auch Josef machte sich auf. Von Galiläa aus, aus Nazareth, den langen Weg hinauf nach Judäa. Nach Bethlehem, Davids Stadt<span class=\"amplification\">— wo der große König einst Schafe gehütet hatte</span>. Josef kam aus Davids Familie.",
           "footnotes": [
             {
               "ref": "2,4",
               "category": "text",
               "keyword": "Bethlehem",
               "content": "Hebräisch בֵּית לֶחֶם, „Haus des Brotes\". In der Stadt, deren Name Nahrung verheißt, wird der geboren, der später sagen wird: „Ich bin das Brot des Lebens.\" Ein Name wie ein Versprechen."
+            },
+            {
+              "ref": "2,4",
+              "category": "kontext",
+              "keyword": "Davids Stadt",
+              "content": "Bethlehem war der Geburtsort König Davids (1 Samuel 16,1-13), wo der Prophet Samuel den jungen Hirten zum König salbte. Die Propheten hatten angekündigt, dass der Messias aus Bethlehem kommen würde (Micha 5,1). Josef musste dorthin, weil er aus dem „Haus David\" stammte – der königlichen Linie, die trotz des Verlusts der Krone über Jahrhunderte fortbestand. Jesus wird nicht zufällig in Bethlehem geboren; die Volkszählung des Augustus wird zum Werkzeug der Prophetenerfüllung. Römische Bürokratie dient Gottes Plan."
             }
           ],
           "isPoetry": false,
@@ -109,21 +122,34 @@
       "verses": [
         {
           "number": "8",
-          "text": "In der gleichen Gegend lebten Hirten auf dem Feld. Sie hüteten ihre Herden durch die Nacht<span class=\"amplification\">— diese Männer am Rand, denen niemand vertraute</span>.\\f + \\fr 2,8 \\fk KULTUR \\fq Hirten \\ft Hirten standen am Rand der antiken Gesellschaft – nötig für die Wirtschaft, aber gesellschaftlich stigmatisiert. Sie galten oft als Diebe (Zugang zu fremdem Eigentum), waren rituell unrein durch ständigen Tierkontakt, lebten außerhalb normaler sozialer Strukturen und konnten nicht vor Gericht aussagen. Frommen Juden galten sie als „Sünder\".",
-          "footnotes": [],
+          "text": "In der gleichen Gegend lebten Hirten auf dem Feld. Sie hüteten ihre Herden durch die Nacht<span class=\"amplification\">— diese Männer am Rand, denen niemand vertraute</span>.",
+          "footnotes": [
+            {
+              "ref": "2,8",
+              "category": "kultur",
+              "keyword": "Hirten",
+              "content": "Hirten standen am Rand der antiken Gesellschaft – nötig für die Wirtschaft, aber gesellschaftlich stigmatisiert. Sie galten oft als Diebe (Zugang zu fremdem Eigentum), waren rituell unrein durch ständigen Tierkontakt, lebten außerhalb normaler sozialer Strukturen und konnten nicht vor Gericht aussagen. Frommen Juden galten sie als „Sünder\". Dass sie die erste messianische Verkündigung erhielten, war revolutionär – Gott wählt die Verworfenen als erste Zeugen. Hirten waren auch Symbol für Führung (David, der Hirte-König; Psalm 23; Ezechiel 34). Die Ironie ist gewollt: Wahre „Hirten\" erfahren die Geburt des wahren Hirten zuerst. Gott kehrt gesellschaftliche Hierarchien um."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "9",
-          "text": "<p class=\"paragraph-break\"></p>Da! Ein Engel Gottes steht vor ihnen. Gottes Glanz umhüllt sie\\f + \\fr 2,9 \\fk UNGLAUBLICH \\fq Engel \\ft Engelserscheinungen gehören zu den am schwierigsten nachvollziehbaren Elementen für moderne Leser. Das griechische ἄγγελος bedeutet schlicht „Bote\".",
+          "text": "<p class=\"paragraph-break\"></p>Da! Ein Engel Gottes steht vor ihnen. Gottes Glanz umhüllt sie<span class=\"amplification\">— kein römischer Prunk, sondern himmlisches Licht</span>. Furcht packt sie. Hart.",
           "footnotes": [
             {
               "ref": "2,9",
               "category": "kultur",
               "keyword": "Gottes Glanz",
               "content": "Die „Herrlichkeit Gottes\" (δόξα κυρίου) – sichtbare Manifestation der göttlichen Gegenwart, die in der jüdischen Tradition den Tempel erfüllte (1 Könige 8,10-11; Ezechiel 43,4-5). Sie war das Zeichen der Schechina, Gottes wohnender Gegenwart bei seinem Volk. Nach der babylonischen Zerstörung war sie vom Tempel gewichen (Ezechiel 10). Hier erscheint sie wieder – aber nicht im rekonstruierten Tempel bei den Priestern, sondern draußen bei den verachteten Hirten. Ein revolutionäres Zeichen: Gott geht neue Wege und wählt andere Orte."
+            },
+            {
+              "ref": "2,9",
+              "category": "unglaublich",
+              "keyword": "Engel",
+              "content": "Engelserscheinungen gehören zu den am schwierigsten nachvollziehbaren Elementen für moderne Leser. Das griechische ἄγγελος bedeutet schlicht „Bote\". Interpretationen: Kritische Exegeten sehen darin oft eine literarische Technik zur Betonung göttlicher Kommunikation (Bultmann). Manche deuten die Erfahrung psychologisch – als Vision oder inneres Erlebnis. Gläubige Ausleger verstehen es als reale Begegnung mit geistlichen Wesen (Wright, 2003). Der Text beschreibt die Hirten-Erfahrung mit konkreten Details (Furcht, Licht, Botschaft, Lobgesang), ohne den „Mechanismus\" zu erklären. Jesus selbst sprach von Engeln als real (Matthäus 18,10)."
             }
           ],
           "isPoetry": false,
@@ -233,8 +259,14 @@
         },
         {
           "number": "14",
-          "text": "<p class=\"paragraph-break\"></p>„Ehre sei Gott in der Höhe!<span class=\"poetry-line-1\">Friede\\f + \\fr 2,14 \\fk KONTEXT \\fq Friede auf Erden \\ft Der „Friede\" (εἰρήνη) der Engel steht im direkten Kontrast zur „Pax Romana\" – dem römischen Frieden, der durch militärische Unterdrückung erzwungen wurde. Augustus ließ sich als Friedensbringer feiern; der Ara Pacis (Friedensaltar) in Rom verherrlichte seinen Sieg.</span><span class=\"poetry-line-2\">Für Menschen seiner Gnade!\"</span>",
+          "text": "<p class=\"paragraph-break\"></p>„Ehre sei Gott in der Höhe!<span class=\"poetry-line-1\">Friede auf Erden!</span><span class=\"poetry-line-2\">Für Menschen seiner Gnade!\"</span>",
           "footnotes": [
+            {
+              "ref": "2,14",
+              "category": "kontext",
+              "keyword": "Friede auf Erden",
+              "content": "Der „Friede\" (εἰρήνη) der Engel steht im direkten Kontrast zur „Pax Romana\" – dem römischen Frieden, der durch militärische Unterdrückung erzwungen wurde. Augustus ließ sich als Friedensbringer feiern; der Ara Pacis (Friedensaltar) in Rom verherrlichte seinen Sieg. Aber dieser Friede kam durch Gewalt: Kreuzigungen, Massaker, Tributforderungen. Der himmlische Friede kommt durch Gnade, nicht durch Gewalt. Eine radikale Alternative zum imperialen Frieden. Das hebräische Äquivalent שָׁלוֹם (shalom) bedeutet mehr als Abwesenheit von Krieg: Ganzheit, Wohlergehen, rechte Beziehungen. Der Engelsgesang kündigt einen Frieden an, der von innen nach außen wirkt – nicht durch Waffen, sondern durch Versöhnung mit Gott."
+            },
             {
               "ref": "2,14",
               "category": "text",
@@ -246,7 +278,7 @@
           "poetryLevel": 0,
           "lines": [
             {
-              "text": "Friede\\f + \\fr 2,14 \\fk KONTEXT \\fq Friede auf Erden \\ft Der „Friede\" (εἰρήνη) der Engel steht im direkten Kontrast zur „Pax Romana\" – dem römischen Frieden, der durch militärische Unterdrückung erzwungen wurde. Augustus ließ sich als Friedensbringer feiern; der Ara Pacis (Friedensaltar) in Rom verherrlichte seinen Sieg.",
+              "text": "Friede auf Erden!",
               "level": 1
             },
             {
@@ -373,8 +405,15 @@
         },
         {
           "number": "24",
-          "text": "Zugleich brachten sie das vorgeschriebene Opfer dar: ein Paar Turteltauben oder zwei junge Tauben\\f + \\fr 2,24 \\fk KULTUR \\fq zwei Tauben \\ft Das normale Reinigungsopfer war ein Lamm und eine Taube (Levitikus 12,6-8). Die zwei Tauben waren die gesetzlich vorgesehene Alternative für arme Familien, die sich kein Lamm leisten konnten.",
-          "footnotes": [],
+          "text": "Zugleich brachten sie das vorgeschriebene Opfer dar: ein Paar Turteltauben oder zwei junge Tauben<span class=\"amplification\">. Das Opfer der Armen — sie hatten kein Lamm</span>.",
+          "footnotes": [
+            {
+              "ref": "2,24",
+              "category": "kultur",
+              "keyword": "zwei Tauben",
+              "content": "Das normale Reinigungsopfer war ein Lamm und eine Taube (Levitikus 12,6-8). Die zwei Tauben waren die gesetzlich vorgesehene Alternative für arme Familien, die sich kein Lamm leisten konnten. Diese Details sind theologisch bedeutsam: Der Messias kam aus ärmlichsten Verhältnissen. Gott identifiziert sich mit den Besitzlosen. Die königliche Abstammung Josefs (Haus David) bedeutete keinen wirtschaftlichen Wohlstand – ein Zimmermann in Galiläa gehörte zur arbeitenden Unterschicht. Die Armut der heiligen Familie durchzieht die gesamte Kindheitsgeschichte: kein Platz in der Unterkunft, der Futtertrog als Krippe, das Armen-Opfer im Tempel."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -407,8 +446,15 @@
         },
         {
           "number": "26",
-          "text": "Der Heilige Geist ruhte auf ihm. Und der Geist hatte ihm etwas versprochen: Er würde nicht sterben, bevor er den Messias mit eigenen Augen gesehen hatte\\f + \\fr 2,26 \\fk UNGLAUBLICH \\fq Heiliger Geist (τὸ πνεῦμα τὸ ἅγιον) \\ft Eine persönliche Offenbarung: Simeon wusste, dass er den Messias sehen würde, bevor er starb. Für moderne Leser wirft dies Fragen auf: Wie erhält ein Mensch solche Gewissheit? War es eine innere Überzeugung, eine prophetische Vision, oder beides?",
-          "footnotes": [],
+          "text": "Der Heilige Geist ruhte auf ihm. Und der Geist hatte ihm etwas versprochen: Er würde nicht sterben, bevor er den Messias mit eigenen Augen gesehen hatte. <span class=\"amplification\">Stellen Sie sich vor: Jeden Tag aufwachen mit diesem Versprechen. Jeden Tag warten. Jahre. Jahrzehnte vielleicht.</span>",
+          "footnotes": [
+            {
+              "ref": "2,26",
+              "category": "unglaublich",
+              "keyword": "Heiliger Geist (τὸ πνεῦμα τὸ ἅγιον)",
+              "content": "Eine persönliche Offenbarung: Simeon wusste, dass er den Messias sehen würde, bevor er starb. Für moderne Leser wirft dies Fragen auf: Wie erhält ein Mensch solche Gewissheit? War es eine innere Überzeugung, eine prophetische Vision, oder beides? Der Text beschreibt den Heiligen Geist als aktiv handelnde Kraft: Er „ruhte auf\" Simeon (v.25), „offenbarte\" ihm die Verheißung (v.26), und „führte\" ihn in den Tempel (v.27). Kritische Leser mögen dies als religiöse Deutung innerer Erfahrungen verstehen. Der Text selbst präsentiert es als reale göttliche Kommunikation — und Simeons sofortige Erkennung Jesu unter allen Tempelbesuchern bestätigt für Lukas die Echtheit dieser Führung."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -431,13 +477,20 @@
         },
         {
           "number": "29",
-          "text": "<p class=\"paragraph-break\"></p>„Jetzt, Herr<span class=\"amplification\">. Jetzt endlich</span>.<span class=\"poetry-line-1\">Du entlässt deinen Diener in Frieden\\f + \\fr 2,29-32 \\fk LEBEN \\fq entlässt du deinen Diener \\ft Simeons Gebet (lateinisch „Nunc Dimittis\") wird seit Jahrhunderten bei Abendgebeten und Beerdigungen verwendet. Der alte Mann ist bereit zu sterben, weil er den Sinn seines Lebens erfüllt gesehen hat.</span><span class=\"poetry-line-2\">so wie du es versprochen hast.</span>",
-          "footnotes": [],
+          "text": "<p class=\"paragraph-break\"></p>„Jetzt, Herr<span class=\"amplification\">. Jetzt endlich</span>.<span class=\"poetry-line-1\">Du entlässt deinen Diener in Frieden —</span><span class=\"poetry-line-2\">so wie du es versprochen hast.</span>",
+          "footnotes": [
+            {
+              "ref": "2,29-32",
+              "category": "leben",
+              "keyword": "entlässt du deinen Diener",
+              "content": "Simeons Gebet (lateinisch „Nunc Dimittis\") wird seit Jahrhunderten bei Abendgebeten und Beerdigungen verwendet. Der alte Mann ist bereit zu sterben, weil er den Sinn seines Lebens erfüllt gesehen hat. Ein Modell für den Umgang mit der eigenen Sterblichkeit: Wer Gottes Wirken erkannt hat, kann loslassen. Simeon klammert sich nicht an das Leben, sondern empfängt den Tod als „Entlassung\" — wie ein Diener, der nach getaner Arbeit nach Hause gehen darf. Diese Gelassenheit angesichts der Vergänglichkeit entspringt nicht Resignation, sondern Erfüllung."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 0,
           "lines": [
             {
-              "text": "Du entlässt deinen Diener in Frieden\\f + \\fr 2,29-32 \\fk LEBEN \\fq entlässt du deinen Diener \\ft Simeons Gebet (lateinisch „Nunc Dimittis\") wird seit Jahrhunderten bei Abendgebeten und Beerdigungen verwendet. Der alte Mann ist bereit zu sterben, weil er den Sinn seines Lebens erfüllt gesehen hat.",
+              "text": "Du entlässt deinen Diener in Frieden —",
               "level": 1
             },
             {
@@ -473,8 +526,15 @@
         },
         {
           "number": "32",
-          "text": "Ein Licht, das die Nationen erhellt\\f + \\fr 2,32 \\fk KONTEXT \\fq Licht für die Nationen \\ft Simeons Worte greifen Jesaja 42,6 und 49,6 auf — Texte über den „Gottesknecht\", der „Licht für die Völker\" sein wird. Dies war eine revolutionäre Aussage: Der jüdische Messias ist nicht nur für Israel da, sondern bringt Erleuchtung für alle Nationen.<span class=\"poetry-line-2\">und Glanz für dein Volk Israel.\"</span>",
-          "footnotes": [],
+          "text": "Ein Licht, das die Nationen erhellt —<span class=\"poetry-line-2\">und Glanz für dein Volk Israel.\"</span>",
+          "footnotes": [
+            {
+              "ref": "2,32",
+              "category": "kontext",
+              "keyword": "Licht für die Nationen",
+              "content": "Simeons Worte greifen Jesaja 42,6 und 49,6 auf — Texte über den „Gottesknecht\", der „Licht für die Völker\" sein wird. Dies war eine revolutionäre Aussage: Der jüdische Messias ist nicht nur für Israel da, sondern bringt Erleuchtung für alle Nationen. Für Lukas, der an griechische Leser schreibt, ist dies zentral: Jesus gehört nicht nur den Juden. Die Botschaft hat universale Reichweite. Dieser Text rechtfertigte später die Heidenmission des Paulus. Bemerkenswert: Simeon nennt zuerst das Licht für die Völker, dann den Glanz für Israel — eine Reihenfolge, die jüdische Erwartungen auf den Kopf stellt."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 0,
           "lines": [
@@ -502,8 +562,15 @@
         },
         {
           "number": "35",
-          "text": "<p class=\"paragraph-break\"></p>Auch durch deine eigene Seele wird ein Schwert dringen\\f + \\fr 2,35 \\fk LEBEN \\fq Schwert wird dringen \\ft Simeons Prophezeiung an Maria war düster: Mitten in der Freude über das Kind kündigt er Schmerz an. Das „Schwert\" (ῥομφαία — ein großes Schlachtschwert) symbolisiert durchdringenden emotionalen Schmerz.",
-          "footnotes": [],
+          "text": "<p class=\"paragraph-break\"></p>Auch durch deine eigene Seele wird ein Schwert dringen.\"",
+          "footnotes": [
+            {
+              "ref": "2,35",
+              "category": "leben",
+              "keyword": "Schwert wird dringen",
+              "content": "Simeons Prophezeiung an Maria war düster: Mitten in der Freude über das Kind kündigt er Schmerz an. Das „Schwert\" (ῥομφαία — ein großes Schlachtschwert) symbolisiert durchdringenden emotionalen Schmerz. Traditionell wird dies auf Marias Schmerzen bei der Kreuzigung bezogen, wo sie zusehen muss, wie ihr Sohn stirbt. Aber das Schwert begleitete sie wohl ihr ganzes Leben: die Flucht nach Ägypten, das Unverständnis der Verwandten, die Ablehnung in Nazareth, die Anfeindungen der religiösen Führung. Für Eltern heute: Kinder zu lieben bedeutet, verwundbar zu werden. Wer sich auf tiefe Beziehungen einlässt, riskiert tiefe Verletzungen. Maria zeigt, dass Glaube nicht vor Leid schützt — aber durch das Leid trägt."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
