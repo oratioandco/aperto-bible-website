@@ -1,0 +1,861 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  { id: 'overview', title: 'Overview', verses: '' },
+  { id: 'pericope-1', title: 'Census and Birth', verses: '2:1-7' },
+  { id: 'pericope-2', title: 'Shepherds and Angels', verses: '2:8-20' },
+  { id: 'pericope-3', title: 'Circumcision and Naming', verses: '2:21' },
+  { id: 'pericope-4', title: 'Presentation at Temple', verses: '2:22-40' },
+  { id: 'pericope-5', title: 'Boy Jesus in Temple', verses: '2:41-52' },
+  { id: 'cross-themes', title: 'Cross-Pericope Themes', verses: '' },
+  { id: 'terms-glossary', title: 'Terms Glossary', verses: '' },
+];
+---
+
+<BaseLayout title="Luke 2 Exegesis" lang="en" description="Comprehensive scholarly exegesis of Luke Chapter 2">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/de/luke/2`} class="back-link">&larr; Back to Luke 2</a>
+        <h2>Exegesis</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Comprehensive Scholarly Commentary</p>
+          <h1>Luke Chapter 2</h1>
+          <p class="subtitle">Greek text analysis, major commentaries, cultural context, and translation notes</p>
+          <p class="sources-intro">Drawing on NA28 Greek Text, Anchor Bible (Fitzmyer), Hermeneia (Bovon), Baker (Bock), BDAG, Louw-Nida, Keener (IVP Background), Eisele (German), Ancient Christian Commentary (Patristic), and Stronstad (Charismatic).</p>
+        </header>
+
+        <!-- OVERVIEW -->
+        <section id="overview" class="exegesis-section">
+          <h2>Overview</h2>
+          <p class="lead">Luke 2 presents the nativity narrative of Jesus Christ, strategically positioned within the broader context of Roman imperial power while simultaneously subverting that power through the humble birth of the true Savior and Lord. The chapter demonstrates Luke's theological program of salvation history, Davidic fulfillment, and the inauguration of God's kingdom through unexpected means.</p>
+
+          <p><strong>Key Themes:</strong> Divine sovereignty over imperial power, incarnation through humiliation, universal salvation, fulfillment of prophecy, Spirit-empowered recognition</p>
+
+          <p>The chapter divides into five pericopes:</p>
+          <ol class="pericope-list">
+            <li><strong>2:1-7</strong> — Census and Birth</li>
+            <li><strong>2:8-20</strong> — Shepherds and Angels</li>
+            <li><strong>2:21</strong> — Circumcision and Naming</li>
+            <li><strong>2:22-40</strong> — Presentation at Temple (Simeon and Anna)</li>
+            <li><strong>2:41-52</strong> — Boy Jesus in Temple</li>
+          </ol>
+        </section>
+
+        <!-- PERICOPE 1 -->
+        <section id="pericope-1" class="exegesis-section">
+          <div class="section-header">
+            <span class="section-tag">Pericope 1</span>
+            <h2>Census and Birth</h2>
+            <p class="verse-ref">Luke 2:1-7</p>
+          </div>
+
+          <div class="greek-block">
+            <h3>Greek Text (selected)</h3>
+            <blockquote class="greek-text">
+              v.1: Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην<br/><br/>
+              v.7: καὶ ἔτεκεν τὸν υἱὸν αὐτῆς τὸν πρωτότοκον, καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν φάτνῃ
+            </blockquote>
+          </div>
+
+          <div class="form-tag">
+            <span class="label">Literary Form:</span>
+            <span class="value">Historical narrative with counter-imperial themes</span>
+          </div>
+
+          <div class="terms-section">
+            <h3>Key Greek Terms</h3>
+            <dl class="term-list">
+              <dt>δόγμα <em>(dogma)</em></dt>
+              <dd>Decree, edict — imperial authority; divine decree. Caesar's word shapes the world, but God's purposes are being accomplished through it.</dd>
+
+              <dt>οἰκουμένην <em>(oikoumenēn)</em></dt>
+              <dd>"Inhabited world" — the universal scope of Roman power. Luke ironically shows that while Augustus counts the world, the true Lord of the world is being born unnoticed.</dd>
+
+              <dt>ἀπογράφεσθαι <em>(apographesthai)</em></dt>
+              <dd>"To register" — administrative control for taxation. Census-taking was a tool of subjugation.</dd>
+
+              <dt>πρωτότοκον <em>(prōtotokon)</em></dt>
+              <dd>"Firstborn" — legal and theological status with OT allusions (Exodus 13:2). The firstborn belonged to God and required redemption.</dd>
+
+              <dt>φάτνῃ <em>(phatnē)</em></dt>
+              <dd>"Manger, feeding trough" — humble circumstances, pastoral imagery. A stone or wooden trough where animals fed. The King of Kings at the lowest possible place.</dd>
+
+              <dt>κατάλυμα <em>(katalyma)</em></dt>
+              <dd>"Guest room" (not "inn") — the same word used for the upper room at the Last Supper (Luke 22:11). Joseph likely had relatives in Bethlehem whose guest room was already full.</dd>
+            </dl>
+          </div>
+
+          <div class="commentary-section">
+            <h3>Commentary Synthesis</h3>
+            <div class="source">
+              <h4>Bovon (Hermeneia)</h4>
+              <p>Luke achieves a "careful coherence" in bringing together the census episode (vv. 1-5) with the birth narrative (vv. 6-7). The census serves multiple functions: it enables the journey to Bethlehem, creates a striking juxtaposition between the emperor and the hidden Messiah, and provides historical anchoring while demonstrating God's sovereignty over imperial power. The birth itself is described with remarkable realism — no divine intervention spares Mary the labor pains, emphasizing the true incarnation.</p>
+            </div>
+            <div class="source">
+              <h4>Bock (Baker)</h4>
+              <p>This unit places Jesus in world history while emphasizing his Davidic heritage. The historical setting through the census demonstrates God's control over events, using even Roman administrative machinery to fulfill Davidic prophecy. The humble birth (no room, birth in a manger) contrasts dramatically with the cosmic significance of the event that will follow in the shepherds' story.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Das Lukasevangelium... ist das biblische Evangelium, ohne das wir Weihnachten anders feiern würden (Lk 2,1-20)." Luke 2 shapes how Christmas is celebrated — the narrative is foundational for the Christian liturgical calendar. Translation should be suitable for Christmas liturgy and proclamation.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Chrysostom:</strong> "A feast day is about to arrive, and it is the most holy and awesome of all feasts. It would be no mistake to call it the chief and mother of all holy days." Christmas as "mother of all holy days" — source of entire liturgical calendar.</p>
+              <p><strong>Cassia:</strong> "When Augustus reigned alone upon earth, the many kingdoms of humankind came to end; and when you were made man of the pure Virgin, the many gods of idolatry were destroyed." Augustus's Pax Romana prefigures Christ's universal reign — counter-imperial theme.</p>
+              <p><strong>Bede:</strong> "He chose a time of utmost peace as the time when he would be born because this was the reason for his being born in the world, that he might lead the human race back to the gifts of heavenly peace." Birth during Pax Romana is theologically significant.</p>
+              <p><strong>Cyril of Alexandria:</strong> "He found humanity reduced to the level of the beasts. Therefore he is placed like feed in a manger, that we, having left behind our carnal desires, might rise up to that degree of intelligence which befits human nature." Manger theology — Jesus as "bread" placed in feeding trough for humanity.</p>
+              <p><strong>Jerome:</strong> "He found no room in the Holy of Holies that shone with gold, precious stones, pure silk and silver. He is not born in the midst of gold and riches, but in the midst of dung, in a stable." Stable realism emphasizes incarnation's depth.</p>
+            </div>
+          </div>
+
+          <div class="context-section">
+            <h3>Cultural Context</h3>
+            <ul>
+              <li><strong>The Census Problem:</strong> The dating of Quirinius's census is the most famous chronological problem in the Gospels. Quirinius became governor of Syria in 6 CE, but Herod died in 4 BCE. Possible solutions include an earlier military command for Quirinius, reading πρώτη as "before" rather than "first," or understanding Luke as compressing events literarily.</li>
+              <li><strong>Bethlehem:</strong> Hebrew בֵּית לֶחֶם means "House of Bread." David's birthplace (1 Samuel 16), prophesied as Messiah's origin (Micah 5:2).</li>
+              <li><strong>The Manger:</strong> A φάτνη was a feeding trough for animals. Archaeological evidence shows houses often had stable areas. The message is clear: God comes not to the powerful but to the marginal.</li>
+            </ul>
+          </div>
+
+          <div class="arc-section">
+            <h3>Emotional Arc</h3>
+            <p>Movement from imperial decree (power, control) → difficult journey → humble circumstances → simple birth. The contrast between Caesar's world-spanning census and a baby in a feeding trough creates profound irony. The reader feels both the weight of political oppression and the quiet subversion happening in obscurity.</p>
+          </div>
+        </section>
+
+        <!-- PERICOPE 2 -->
+        <section id="pericope-2" class="exegesis-section">
+          <div class="section-header">
+            <span class="section-tag">Pericope 2</span>
+            <h2>Shepherds and Angels</h2>
+            <p class="verse-ref">Luke 2:8-20</p>
+          </div>
+
+          <div class="greek-block">
+            <h3>Greek Text (selected)</h3>
+            <blockquote class="greek-text">
+              v.10-11: καὶ εἶπεν αὐτοῖς ὁ ἄγγελος· Μὴ φοβεῖσθε, ἰδοὺ γὰρ εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην... ὅτι ἐτέχθη ὑμῖν σήμερον σωτὴρ ὅς ἐστιν χριστὸς κύριος<br/><br/>
+              v.14: Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας
+            </blockquote>
+          </div>
+
+          <div class="form-tag">
+            <span class="label">Literary Form:</span>
+            <span class="value">Angelic announcement with hymnic response (Gloria in Excelsis)</span>
+          </div>
+
+          <div class="terms-section">
+            <h3>Key Greek Terms</h3>
+            <dl class="term-list">
+              <dt>εὐαγγελίζομαι <em>(euangelizomai)</em></dt>
+              <dd>"I proclaim good news" — Gospel announcement. This verb was used in imperial propaganda for announcing Caesar's victories and benefactions. Here it announces a rival kingdom.</dd>
+
+              <dt>σωτήρ <em>(sōtēr)</em></dt>
+              <dd>"Savior, deliverer" — highly political term. Augustus was officially titled "Savior of the World" (σωτὴρ τῆς οἰκουμένης). The angels announce a different Savior born in a stable.</dd>
+
+              <dt>χριστὸς κύριος <em>(christos kyrios)</em></dt>
+              <dd>"Christ Lord" — combined messianic titles. κύριος was Caesar's title; here it belongs to the infant in the manger.</dd>
+
+              <dt>εἰρήνη <em>(eirēnē)</em></dt>
+              <dd>"Peace" — Hebrew shalom. Contrasts with Pax Romana, which was peace through military domination. This peace comes through grace.</dd>
+
+              <dt>εὐδοκίας <em>(eudokias)</em></dt>
+              <dd>"Of [divine] good pleasure/favor" — genitive of quality. Peace comes to those whom God favors, not through human merit or effort.</dd>
+
+              <dt>δόξα <em>(doxa)</em></dt>
+              <dd>"Glory" — the visible manifestation of God's presence. The δόξα κυρίου (glory of the Lord) that once filled the Temple now appears to shepherds in a field.</dd>
+            </dl>
+          </div>
+
+          <div class="commentary-section">
+            <h3>Commentary Synthesis</h3>
+            <div class="source">
+              <h4>Bovon (Hermeneia)</h4>
+              <p>The shepherds' story functions as "a proclamation, not a birth narrative" — it's about heaven's response to the birth rather than the birth itself. The angels' message contains deliberate counter-imperial language: σωτήρ and κύριος were titles claimed by Caesar Augustus. The Gloria in Excelsis presents a two-part structure: glory to God in highest, peace on earth among people of divine favor — not human goodwill.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Die Hirten gehören zu Weihnachten wie die Engel und das Christkind selbst." Shepherds are inseparable from Christmas celebration. More significantly: "In seiner Weihnachtserzählung stehen die Hirten für das Volk Israel als Ganzes, das als Erstes von der Geburt Jesu erfahren muss, weil er als ihr legitimer König aus dem Haus Davids erscheint." The shepherds represent Israel as a whole — first recipients because Jesus is their Davidic king. "Wie David in Betlehem die Schafe seines Vaters Isai hütete, als er von Gott zum Hirten Israels erwählt wurde." As David tended sheep in Bethlehem when chosen, so these Bethlehem shepherds witness the new David.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Origen:</strong> "Listen, shepherds of the churches! Listen, God's shepherds! His angel always comes down from heaven and proclaims to you, 'Today a Savior is born for you, who is Christ the Lord.' For, unless that Shepherd comes, the shepherds of the churches will be unable to guard the flock well." Pastoral/ecclesial application — church leaders as shepherds needing Christ's presence.</p>
+              <p><strong>Bede:</strong> "It is good that the angel said 'has been born today' and did not say 'this night.' He appeared with heavenly light to those who were conducting the watch by night and brought the good news that day was born... the night of ancient blindness is past and the day of eternal salvation has arrived." σήμερον ("today") signals eschatological dawn.</p>
+              <p><strong>Gregory the Great:</strong> "Before the Redeemer was born in the flesh, there was discord between us and the angels, from whose brightness and holy perfection we were separated... Now they are at peace with us." Incarnation bridges heaven and earth — angel-human reconciliation.</p>
+              <p><strong>Ephrem the Syrian:</strong> "As peace began to be established, the angels proclaimed: 'Glory in the highest and peace on earth.' When lower beings received peace from superior beings, 'they cried, Glory on earth and peace in the heavens.'" Reciprocal peace — heaven gives peace to earth; earth returns glory to heaven.</p>
+            </div>
+          </div>
+
+          <div class="context-section">
+            <h3>Cultural Context</h3>
+            <ul>
+              <li><strong>Shepherds' Social Status:</strong> Shepherds were marginal figures — necessary for the economy but viewed with suspicion as potentially dishonest, ritually unclean, and operating outside normal social structures. They couldn't testify in court. That heaven's announcement goes to them first is revolutionary.</li>
+              <li><strong>Davidic Connection:</strong> David was a shepherd in Bethlehem when Samuel anointed him (1 Samuel 16). These Bethlehem shepherds witness the birth of the new David.</li>
+              <li><strong>Glory of the Lord:</strong> The δόξα κυρίου that once filled the Temple (1 Kings 8:10-11) and departed before the exile (Ezekiel 10) now appears — not in the rebuilt Temple to priests, but in a field to shepherds. God is taking new paths.</li>
+            </ul>
+          </div>
+
+          <div class="arc-section">
+            <h3>Emotional Arc</h3>
+            <p>Movement from ordinary night watch → terror at divine appearance → reassurance ("fear not") → joy at the message → awe at the heavenly host → eager seeking → wonder at finding → joyful proclamation → praise on return. The shepherds model proper faith response: they go, see, proclaim, and return glorifying God.</p>
+          </div>
+        </section>
+
+        <!-- PERICOPE 3 -->
+        <section id="pericope-3" class="exegesis-section">
+          <div class="section-header">
+            <span class="section-tag">Pericope 3</span>
+            <h2>Circumcision and Naming</h2>
+            <p class="verse-ref">Luke 2:21</p>
+          </div>
+
+          <div class="greek-block">
+            <h3>Greek Text</h3>
+            <blockquote class="greek-text">
+              Καὶ ὅτε ἐπλήσθησαν ἡμέραι ὀκτὼ τοῦ περιτεμεῖν αὐτόν, καὶ ἐκλήθη τὸ ὄνομα αὐτοῦ Ἰησοῦς, τὸ κληθὲν ὑπὸ τοῦ ἀγγέλου πρὸ τοῦ συλλημφθῆναι αὐτὸν ἐν τῇ κοιλίᾳ
+            </blockquote>
+          </div>
+
+          <div class="form-tag">
+            <span class="label">Literary Form:</span>
+            <span class="value">Legal/covenantal observance notice</span>
+          </div>
+
+          <div class="terms-section">
+            <h3>Key Greek Terms</h3>
+            <dl class="term-list">
+              <dt>περιτεμεῖν <em>(peritemnein)</em></dt>
+              <dd>"To circumcise" — the covenant sign given to Abraham (Genesis 17). Jesus is enrolled in the people of God's promise.</dd>
+
+              <dt>Ἰησοῦς <em>(Iēsous)</em></dt>
+              <dd>"Jesus" — Greek form of Hebrew יֵשׁוּעַ (Yeshua), meaning "YHWH saves" or "YHWH is salvation." The name is the program: this child will be what his name declares.</dd>
+            </dl>
+          </div>
+
+          <div class="commentary-section">
+            <h3>Commentary Synthesis</h3>
+            <div class="source">
+              <h4>Bovon (Hermeneia)</h4>
+              <p>This verse stands isolated, connecting only to the annunciation (1:26-38) through the angel's naming of Jesus. It represents Jesus' enrollment in the people of divine promise through the covenant sign.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Cyril of Alexandria:</strong> "The spiritual circumcision takes place chiefly in holy baptism, when Christ makes us partakers of the Holy Spirit too... circumcision achieved three distinct ends: it separated the descendants of Abraham by a sort of sign and seal; it prefigured the grace and efficacy of divine baptism; it is the symbol of the faithful when they cut away carnal pleasures by the sharp surgery of faith."</p>
+              <p><strong>Bede:</strong> "He received in the flesh the circumcision decreed by the law, although he appeared in the last days as the one who would bestow the remedy... on the eighth day Christ rose from the dead and gave us the spiritual circumcision." Eighth-day circumcision points forward to eighth-day resurrection.</p>
+            </div>
+          </div>
+
+          <div class="arc-section">
+            <h3>Emotional Arc</h3>
+            <p>A brief but significant moment: the universal Savior submits to particular Jewish identity. The name given before conception now becomes official. Jesus is fully enrolled in Israel's covenant — he comes not to abolish but to fulfill.</p>
+          </div>
+        </section>
+
+        <!-- PERICOPE 4 -->
+        <section id="pericope-4" class="exegesis-section">
+          <div class="section-header">
+            <span class="section-tag">Pericope 4</span>
+            <h2>Presentation at Temple</h2>
+            <p class="verse-ref">Luke 2:22-40</p>
+          </div>
+
+          <div class="greek-block">
+            <h3>Greek Text (selected)</h3>
+            <blockquote class="greek-text">
+              v.25: καὶ ἰδοὺ ἄνθρωπος ἦν ἐν Ἰερουσαλὴμ ᾧ ὄνομα Συμεών, καὶ ὁ ἄνθρωπος οὗτος δίκαιος καὶ εὐλαβής, προσδεχόμενος παράκλησιν τοῦ Ἰσραήλ<br/><br/>
+              v.29-30: Νῦν ἀπολύεις τὸν δοῦλόν σου, δέσποτα, κατὰ τὸ ῥῆμά σου ἐν εἰρήνῃ· ὅτι εἶδον οἱ ὀφθαλμοί μου τὸ σωτήριόν σου<br/><br/>
+              v.34-35: ἰδοὺ οὗτος κεῖται εἰς πτῶσιν καὶ ἀνάστασιν πολλῶν ἐν τῷ Ἰσραὴλ καὶ εἰς σημεῖον ἀντιλεγόμενον — καὶ σοῦ δὲ αὐτῆς τὴν ψυχὴν διελεύσεται ῥομφαία
+            </blockquote>
+          </div>
+
+          <div class="form-tag">
+            <span class="label">Literary Form:</span>
+            <span class="value">Temple encounter with prophetic oracles (Nunc Dimittis)</span>
+          </div>
+
+          <div class="terms-section">
+            <h3>Key Greek Terms</h3>
+            <dl class="term-list">
+              <dt>παράκλησιν <em>(paraklēsin)</em></dt>
+              <dd>"Consolation, comfort" — the messianic hope of Israel. Simeon waited for God's intervention to comfort his oppressed people.</dd>
+
+              <dt>σωτήριον <em>(sōtērion)</em></dt>
+              <dd>"Salvation" — not just rescue but wholeness, deliverance, restoration. Simeon sees God's salvation embodied in this infant.</dd>
+
+              <dt>φῶς εἰς ἀποκάλυψιν ἐθνῶν <em>(phōs eis apokalypsin ethnōn)</em></dt>
+              <dd>"Light for revelation to the nations" — echoing Isaiah 42:6, 49:6. The Messiah is not for Israel alone but for all peoples.</dd>
+
+              <dt>ῥομφαία <em>(rhomphaia)</em></dt>
+              <dd>"Sword" — a large, two-edged sword. Simeon prophesies that a sword will pierce Mary's soul. Traditionally understood as her grief at the crucifixion.</dd>
+
+              <dt>λύτρωσιν <em>(lytrōsin)</em></dt>
+              <dd>"Redemption" — liberation, deliverance. Anna speaks to those waiting for the redemption of Jerusalem (v.38).</dd>
+            </dl>
+          </div>
+
+          <div class="commentary-section">
+            <h3>Commentary Synthesis</h3>
+            <div class="source">
+              <h4>Bovon (Hermeneia)</h4>
+              <p>The pericope demonstrates Luke's technique of placing extraordinary prophecy within the frame of legal observance. Simeon represents "righteous and devout" Israel waiting for divine consolation, while Anna embodies faithful persistence in worship and witness.</p>
+            </div>
+            <div class="source">
+              <h4>Eisele (German)</h4>
+              <p>"Gesetz und Geist bilden nach Lukas – anders als bei Paulus – keinen Gegensatz, sondern wirken so zusammen, dass Israel seiner Ermutigung begegnet, indem Simeon mit Jesus zusammentrifft." Law and Spirit cooperate in Luke (unlike Pauline tension) — Torah leads parents, Spirit leads Simeon, both converge at Jesus.</p>
+              <p>On Anna: "Lukas stellt gerne weibliche Hauptfiguren neben die männlichen... Eine herausragende Rolle spielen bei Lukas die Witwen... Für Lukas kommt es auf die Freiheit an, die ehelose Witwen wie Judit und Hanna haben, um sich und ihr Vermögen ganz in den Dienst Gottes und seiner Gemeinde zu stellen." Luke deliberately pairs male and female figures. Widow freedom enables prophetic ministry.</p>
+            </div>
+            <div class="source">
+              <h4>Stronstad (Charismatic)</h4>
+              <p>Simeon "in the Spirit" (v.27) continues the OT pattern of charismatic succession. The Spirit rests on him, reveals to him, and leads him — three distinct Spirit-activities that parallel prophetic experiences throughout Scripture.</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Origen:</strong> "The sacrifice of Mary was not the first offering, that is, 'a lamb a year old,' but the second, since 'she could not afford' the first... this shows that Jesus Christ 'although he was rich, became a poor man.'" The turtledoves reveal the Holy Family's poverty.</p>
+              <p><strong>Augustine:</strong> "The just Simeon saw him with his heart, because he recognized the infant. He saw him with his eyes, because he took the infant in his arms. Seeing him in both ways, recognizing the Son of God, and cuddling the one begotten of the Virgin, he said, 'Now, Lord, you are letting your servant go in peace.'" Dual seeing — heart-sight and eye-sight united.</p>
+              <p><strong>Ephrem the Syrian:</strong> "The Son came to the servant not to be presented by the servant, but so that, through the Son, the servant might present to his Lord the priesthood and prophecy that had been entrusted to his keeping." Transfer of offices — Simeon hands priesthood and prophecy to Jesus.</p>
+              <p><strong>Ambrose:</strong> "A sword will pass through the soul of Mary... the sword is the word of God... the word which is sharper than any two-edged sword." Sword = Word — Mary pierced by God's revealing word throughout Jesus' ministry.</p>
+            </div>
+          </div>
+
+          <div class="context-section">
+            <h3>Cultural Context</h3>
+            <ul>
+              <li><strong>Purification:</strong> After childbirth, a woman was ritually unclean for 40 days (Leviticus 12). The sacrifice of two turtledoves was the offering permitted for those who couldn't afford a lamb — evidence of the family's poverty.</li>
+              <li><strong>Presentation of Firstborn:</strong> Every firstborn male belonged to God and had to be "redeemed" (Exodus 13:2, 13). This recalled God's protection of Israel's firstborn in Egypt.</li>
+              <li><strong>Simeon and Anna:</strong> Two prophetic figures — male and female, in Luke's characteristic pairing. Both are elderly, devoted, and Spirit-led. They represent faithful Israel recognizing its Messiah.</li>
+            </ul>
+          </div>
+
+          <div class="arc-section">
+            <h3>Emotional Arc</h3>
+            <p>Movement from legal obligation → prophetic recognition → cosmic joy (Nunc Dimittis) → sobering warning (sword through Mary's soul) → widowed devotion (Anna) → spreading testimony. The section moves from institutional observance to prophetic insight to universal proclamation, but includes the shadow of future suffering.</p>
+          </div>
+        </section>
+
+        <!-- PERICOPE 5 -->
+        <section id="pericope-5" class="exegesis-section">
+          <div class="section-header">
+            <span class="section-tag">Pericope 5</span>
+            <h2>Boy Jesus in Temple</h2>
+            <p class="verse-ref">Luke 2:41-52</p>
+          </div>
+
+          <div class="greek-block">
+            <h3>Greek Text (selected)</h3>
+            <blockquote class="greek-text">
+              v.49: καὶ εἶπεν πρὸς αὐτούς· Τί ὅτι ἐζητεῖτέ με; οὐκ ᾔδειτε ὅτι ἐν τοῖς τοῦ πατρός μου δεῖ εἶναί με;<br/><br/>
+              v.52: Καὶ Ἰησοῦς προέκοπτεν ἐν τῇ σοφίᾳ καὶ ἡλικίᾳ καὶ χάριτι παρὰ θεῷ καὶ ἀνθρώποις
+            </blockquote>
+          </div>
+
+          <div class="form-tag">
+            <span class="label">Literary Form:</span>
+            <span class="value">Childhood wisdom narrative</span>
+          </div>
+
+          <div class="terms-section">
+            <h3>Key Greek Terms</h3>
+            <dl class="term-list">
+              <dt>ἐν τοῖς τοῦ πατρός μου <em>(en tois tou patros mou)</em></dt>
+              <dd>"In my Father's [house/affairs]" — ambiguous Greek. Can mean "in my Father's house" (the Temple) or "about my Father's business/affairs." Both meanings work: Jesus belongs in the Temple because he belongs to the Father's work.</dd>
+
+              <dt>δεῖ <em>(dei)</em></dt>
+              <dd>"It is necessary" — divine necessity. This word appears throughout Luke-Acts for things that must happen according to God's plan.</dd>
+
+              <dt>προέκοπτεν <em>(proekopten)</em></dt>
+              <dd>"Advanced, grew, made progress" — Jesus developed in wisdom, stature, and favor. The incarnation involved genuine human growth.</dd>
+
+              <dt>διετήρει <em>(dietērei)</em></dt>
+              <dd>"Kept, treasured carefully" — Mary "treasured all these things in her heart" (v.51). The same pattern as 2:19. She doesn't fully understand but faithfully preserves.</dd>
+            </dl>
+          </div>
+
+          <div class="commentary-section">
+            <h3>Commentary Synthesis</h3>
+            <div class="source">
+              <h4>Bovon (Hermeneia)</h4>
+              <p>This episode demonstrates Jesus' wisdom and his attachment to his Father, serving as an example of growth in both divine and human favor. The twelve-year mark represents the approach to Jewish legal adulthood (Bar Mitzvah at 13).</p>
+            </div>
+            <div class="source">
+              <h4>Ancient Christian Commentary (Patristic)</h4>
+              <p><strong>Origen:</strong> "Jesus is filled with wisdom, even from the time he was an infant." Wisdom as divine attribute present from birth.</p>
+              <p><strong>Cyril of Alexandria:</strong> "His increase is according to his human nature, which remains for us a mystery." The tension: how can omniscient God "grow in wisdom"? This anticipates Chalcedonian two-natures Christology.</p>
+            </div>
+          </div>
+
+          <div class="context-section">
+            <h3>Cultural Context</h3>
+            <ul>
+              <li><strong>Age Twelve:</strong> The year before Bar Mitzvah, when a Jewish boy becomes religiously adult. Jesus is on the threshold of religious responsibility.</li>
+              <li><strong>Passover Pilgrimage:</strong> Jewish males were required to attend three annual festivals in Jerusalem. Women could accompany but weren't required.</li>
+              <li><strong>Travel in Groups:</strong> Extended families traveled together for safety. Children moved freely among relatives, which explains why Jesus wasn't immediately missed.</li>
+              <li><strong>"My Father":</strong> Jesus' first recorded words reveal his unique relationship with God. He calls God "my Father" — not "our Father" — indicating a special sonship.</li>
+            </ul>
+          </div>
+
+          <div class="arc-section">
+            <h3>Emotional Arc</h3>
+            <p>Movement from annual routine → parental assumption → growing alarm (one day's journey, then search) → three days of anguish → discovery → parental rebuke → Jesus' mysterious answer → incomprehension → obedient return → treasuring in heart. The tension between Jesus' divine calling and his human family is introduced but not resolved. Mary models faithful patience with what she doesn't understand.</p>
+          </div>
+        </section>
+
+        <!-- CROSS-THEMES -->
+        <section id="cross-themes" class="exegesis-section">
+          <h2>Cross-Pericope Themes</h2>
+
+          <div class="theme-block">
+            <h3>1. Divine Sovereignty and Imperial Power</h3>
+            <p>Luke demonstrates how God works through and over imperial structures to accomplish divine purposes. Caesar's census becomes the mechanism for fulfilling Davidic prophecy. The titles claimed by Augustus (Savior, Lord, bringer of peace) are transferred to a baby in a manger. Rome thinks it controls the world; God is doing something unnoticed that will outlast every empire.</p>
+          </div>
+
+          <div class="theme-block">
+            <h3>2. Incarnation Through Humiliation</h3>
+            <p>True divine glory manifests through humble circumstances — manger birth, marginal witnesses (shepherds), ordinary observance of religious law, the poor family's offering of turtledoves. The King of Kings comes not to palaces but to stables, not to priests first but to shepherds.</p>
+          </div>
+
+          <div class="theme-block">
+            <h3>3. Universal Salvation</h3>
+            <p>From Augustus's "all the world" census to Simeon's "light for the Gentiles," the narrative emphasizes salvation's global scope. The Jewish Messiah is not for Israel alone but for all nations — a theme that will develop through Luke-Acts.</p>
+          </div>
+
+          <div class="theme-block">
+            <h3>4. Spirit-Empowered Recognition</h3>
+            <p>Simeon "in the Spirit" recognizes what others miss. The Holy Spirit rests on him, reveals to him, and leads him to the Temple at the right moment. This continues the pattern from Luke 1 and points forward to Pentecost in Acts 2.</p>
+          </div>
+
+          <div class="theme-block">
+            <h3>5. Law and Spirit Together</h3>
+            <p>Unlike Paul's contrast between Law and Spirit, Luke presents them working in harmony. Torah brings the family to the Temple; Spirit brings Simeon at the same moment. Legal observance and prophetic insight converge on Jesus.</p>
+          </div>
+
+          <div class="theme-block">
+            <h3>6. Mary as Model</h3>
+            <p>Twice Luke notes that Mary "treasured these things in her heart" (2:19, 51). She doesn't understand everything, but she preserves and ponders. A model for faith that holds mystery without demanding immediate answers.</p>
+          </div>
+        </section>
+
+        <!-- TERMS GLOSSARY -->
+        <section id="terms-glossary" class="exegesis-section">
+          <h2>Terms Glossary</h2>
+
+          <dl class="glossary-list">
+            <dt>Augustus (Αὔγουστος)</dt>
+            <dd>Title meaning "the revered one." Octavian took this title after consolidating power. He was celebrated as savior and bringer of peace — titles Luke transfers to Jesus.</dd>
+
+            <dt>Bethlehem (Βηθλέεμ)</dt>
+            <dd>Hebrew "House of Bread." David's birthplace, prophesied as Messiah's origin (Micah 5:2). The "house of bread" receives the one who will call himself "bread of life."</dd>
+
+            <dt>Christ/Messiah (Χριστός)</dt>
+            <dd>"Anointed one." The long-awaited king from David's line who would restore Israel and reign forever.</dd>
+
+            <dt>Glory (δόξα)</dt>
+            <dd>The visible manifestation of God's presence. In the OT, God's glory filled the Tabernacle and Temple. Here it appears to shepherds in a field.</dd>
+
+            <dt>Katalyma (κατάλυμα)</dt>
+            <dd>Guest room, not commercial inn. The same word describes the upper room of the Last Supper. Joseph's relatives' guest room was full.</dd>
+
+            <dt>Lord (κύριος)</dt>
+            <dd>Title of authority. Used for God in the Septuagint (translating YHWH) and for Caesar in the empire. Applied to the infant Jesus.</dd>
+
+            <dt>Manger (φάτνη)</dt>
+            <dd>Feeding trough for animals. The sign given to the shepherds — the Savior will be found at the lowest place.</dd>
+
+            <dt>Nunc Dimittis</dt>
+            <dd>Latin for "Now you dismiss" — the opening words of Simeon's song (2:29-32). Used in evening prayer liturgies for centuries.</dd>
+
+            <dt>Pax Romana</dt>
+            <dd>"Roman Peace" — the period of relative stability under Augustus, maintained through military dominance. The angels announce a different kind of peace.</dd>
+
+            <dt>Savior (σωτήρ)</dt>
+            <dd>Deliverer, rescuer. Augustus claimed this title. The angels announce the true Savior born in poverty.</dd>
+
+            <dt>Swaddling Cloths (σπάργανα)</dt>
+            <dd>Strips of cloth wrapped around newborns. Sign of normal, humble birth — and part of the sign given to the shepherds.</dd>
+          </dl>
+        </section>
+
+        <footer class="exegesis-footer">
+          <p class="sources">
+            <strong>Sources consulted:</strong> NA28 Greek Text, BDAG Lexicon, Louw-Nida Lexicon, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor Bible), Keener (IVP Background), Eisele (German), Ancient Christian Commentary on Scripture (Patristic), Stronstad (Charismatic Theology of St. Luke)
+          </p>
+          <p class="nav-links">
+            <a href={`${base}/exegesis/luke/1`}>&larr; Luke 1 Exegesis</a>
+            <a href={`${base}/de/luke/2`}>Read Luke 2 &rarr;</a>
+          </p>
+        </footer>
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+  }
+
+  @media (max-width: 1024px) {
+    .exegesis-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .exegesis-sidebar {
+    background: var(--color-paper, #FAF7F2);
+    border-right: 1px solid var(--color-border, #E8E4DC);
+    padding: 2rem 1.5rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  @media (max-width: 1024px) {
+    .exegesis-sidebar {
+      position: relative;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border, #E8E4DC);
+    }
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent, #8B7355);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 1.5rem;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0;
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.15s;
+  }
+
+  .nav-item:hover {
+    background: rgba(139, 115, 85, 0.1);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    color: var(--color-charcoal, #2C2C2C);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-warm-gray, #8B8B8B);
+  }
+
+  .exegesis-content {
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border, #E8E4DC);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent, #8B7355);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 2.5rem;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1.125rem;
+    color: var(--color-warm-gray, #8B8B8B);
+    margin-bottom: 1rem;
+  }
+
+  .exegesis-header .sources-intro {
+    font-size: 0.875rem;
+    color: var(--color-warm-gray, #8B8B8B);
+    font-style: italic;
+  }
+
+  .exegesis-section {
+    margin-bottom: 4rem;
+    scroll-margin-top: 2rem;
+  }
+
+  .exegesis-section h2 {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 1.75rem;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0 0 1.5rem 0;
+  }
+
+  .section-header {
+    margin-bottom: 2rem;
+  }
+
+  .section-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent, #8B7355);
+    background: rgba(139, 115, 85, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-header h2 {
+    margin-bottom: 0.25rem;
+  }
+
+  .verse-ref {
+    font-size: 1rem;
+    color: var(--color-warm-gray, #8B8B8B);
+    margin: 0;
+  }
+
+  .lead {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--color-charcoal, #2C2C2C);
+  }
+
+  .pericope-list {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+  }
+
+  .pericope-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+
+  .greek-block {
+    background: var(--color-beige, #F5F0E8);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .greek-block h3 {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-accent, #8B7355);
+    margin: 0 0 1rem 0;
+  }
+
+  .greek-text {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  .form-tag {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.875rem;
+  }
+
+  .form-tag .label {
+    font-weight: 600;
+    color: var(--color-charcoal, #2C2C2C);
+  }
+
+  .form-tag .value {
+    color: var(--color-warm-gray, #8B8B8B);
+  }
+
+  .terms-section, .commentary-section, .context-section, .arc-section, .translation-notes {
+    margin-bottom: 2rem;
+  }
+
+  .terms-section h3, .commentary-section h3, .context-section h3, .arc-section h3, .translation-notes h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border, #E8E4DC);
+  }
+
+  .term-list {
+    margin: 0;
+  }
+
+  .term-list dt {
+    font-weight: 600;
+    color: var(--color-charcoal, #2C2C2C);
+    margin-top: 1rem;
+  }
+
+  .term-list dt:first-child {
+    margin-top: 0;
+  }
+
+  .term-list dt em {
+    font-weight: 400;
+    color: var(--color-warm-gray, #8B8B8B);
+  }
+
+  .term-list dd {
+    margin: 0.25rem 0 0 0;
+    color: var(--color-charcoal, #2C2C2C);
+    line-height: 1.6;
+  }
+
+  .source {
+    margin-bottom: 1.5rem;
+  }
+
+  .source h4 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-accent, #8B7355);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .source p {
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  .context-section ul, .translation-notes ul {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .context-section li, .translation-notes li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+  }
+
+  .arc-section p {
+    line-height: 1.7;
+  }
+
+  .theme-block {
+    margin-bottom: 2rem;
+  }
+
+  .theme-block h3 {
+    font-size: 1.125rem;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0 0 0.75rem 0;
+  }
+
+  .theme-block p {
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  .glossary-list {
+    margin: 0;
+  }
+
+  .glossary-list dt {
+    font-weight: 600;
+    color: var(--color-charcoal, #2C2C2C);
+    margin-top: 1.5rem;
+  }
+
+  .glossary-list dt:first-child {
+    margin-top: 0;
+  }
+
+  .glossary-list dd {
+    margin: 0.25rem 0 0 0;
+    line-height: 1.6;
+  }
+
+  .exegesis-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border, #E8E4DC);
+  }
+
+  .exegesis-footer .sources {
+    font-size: 0.875rem;
+    color: var(--color-warm-gray, #8B8B8B);
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links a {
+    color: var(--color-accent, #8B7355);
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+</style>
