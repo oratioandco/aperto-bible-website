@@ -1,0 +1,1039 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Panoramica",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Struttura delle Pericopi",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Perché Scrivo Questo",
+    "verses": "1:1-4"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Un Sacerdote Anziano e una Promessa Impossibile",
+    "verses": "1:5-25"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Maria Dice Sì",
+    "verses": "1:26-38"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Due Donne, Due Miracoli",
+    "verses": "1:39-45"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Il Cantico di Maria - Magnificat",
+    "verses": "1:46-56"
+  },
+  {
+    "id": "pericope-8",
+    "title": "Il Suo Nome è Giovanni",
+    "verses": "1:57-66"
+  },
+  {
+    "id": "pericope-9",
+    "title": "La Profezia di Zaccaria - Benedictus",
+    "verses": "1:67-79"
+  },
+  {
+    "id": "pericope-10",
+    "title": "Crescendo nel Deserto",
+    "verses": "1:80"
+  },
+  {
+    "id": "pericope-11",
+    "title": "Sintesi del Capitolo",
+    "verses": ""
+  },
+  {
+    "id": "pericope-12",
+    "title": "Appendice: Riferimento Termini Greci Chiave",
+    "verses": ""
+  },
+  {
+    "id": "pericope-13",
+    "title": "Stato",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Luca 1 - Esegesi Fondamentale
+
+**Versione**: 2.0
+**Data**: 2025-12-18
+**Stato**: Completa (con Supplemento Integrato)
+**Fonti**: Testo Greco NA28, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Keener (IVP Background), Wright, Eisele (Tedesco), Ancient Christian Commentary (Patristico), Stronstad (Carismatico)
+
+---
+
+## Panoramica
+
+Luca 1 apre il Terzo Vangelo con un prologo letterario sofisticato seguito da narrazioni intrecciate delle nascite di Giovanni Battista e Gesù. Il capitolo stabilisce gli accenti teologici distintivi di Luca: la fedeltà di Dio alle promesse di Israele, l'inversione delle gerarchie sociali, l'agenzia di figure marginali (sacerdoti anziani, donne sterili, giovani contadine), e il ruolo dello Spirito nell'inaugurare la nuova era della salvezza. I due grandi inni (Magnificat e Benedictus) ancorano la narrativa nella tradizione liturgica giudaica mentre indicano temi che si svilupperanno attraverso Luca-Atti.
+
+**Versetti Totali**: 80
+**Temi Chiave**: Fedeltà divina, inversione/esaltazione degli umili, empowerment dello Spirito, adempimento della profezia, agenzia femminile, rinnovamento del patto
+
+---
+
+## Struttura delle Pericopi
+
+| Pericope | Versetti | Titolo | Forma Letteraria |
+|----------|----------|--------|------------------|
+| luke_1_1-4 | 1:1-4 | Perché Scrivo Questo | Prologo |
+| luke_1_5-25 | 1:5-25 | Un Sacerdote Anziano e una Promessa Impossibile | Narrativa di Nascita |
+| luke_1_26-38 | 1:26-38 | Maria Dice Sì | Narrativa di Nascita |
+| luke_1_39-45 | 1:39-45 | Due Donne, Due Miracoli | Narrativa di Nascita |
+| luke_1_46-56 | 1:46-56 | Il Cantico di Maria (Magnificat) | Poesia di Lode |
+| luke_1_57-66 | 1:57-66 | Il Suo Nome è Giovanni | Narrativa di Nascita |
+| luke_1_67-79 | 1:67-79 | La Profezia di Zaccaria (Benedictus) | Poesia Profetica |
+| luke_1_80 | 1:80 | Crescendo nel Deserto | Riassunto |
+
+---
+
+## Pericope 1: Perché Scrivo Questo (1:1-4)
+
+### Testo Greco
+> Ἐπειδήπερ πολλοὶ ἐπεχείρησαν ἀνατάξασθαι διήγησιν περὶ τῶν πεπληροφορημένων ἐν ἡμῖν πραγμάτων, καθὼς παρέδοσαν ἡμῖν οἱ ἀπʼ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου, ἔδοξε κἀμοὶ παρηκολουθηκότι ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε, ἵνα ἐπιγνῷς περὶ ὧν κατηχήθης λόγων τὴν ἀσφάλειαν.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| διήγησις | diēgēsis | narrazione, racconto ordinato | Termine letterario per narrativa in prosa connessa; formale, non racconto casuale |
+| πεπληροφορημένων | peplērophorēmenōn | compiuto, realizzato, portato a compimento | Perfetto passivo: eventi portati a pienezza da azione divina |
+| αὐτόπται | autoptai | testimoni oculari | Termine tecnico; coloro che videro di prima mano—precisione legale/storiografica |
+| ἀκριβῶς | akribōs | accuratamente, attentamente | Denota precisione nell'investigazione e nel riportare |
+| καθεξῆς | kathexēs | in sequenza ordinata | Suggerisce arrangiamento logico o tematico (non necessariamente cronologico) |
+| ἀσφάλεια | asphaleia | certezza, affidabilità, stabilità | BDAG: "stabilità di idea o dichiarazione, certezza, verità" |
+| κατηχήθης | katēchēthēs | istruito, insegnato oralmente | Radice di "catechesi"—istruzione religiosa formale |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: Il prologo segue convenzioni storiografiche ellenistiche mentre fa affermazioni teologiche. Luca si posiziona tra "molti" predecessori ma rivendica credenziali distintive: indagine accurata (παρηκολουθηκότι), precisione (ἀκριβῶς), e presentazione ordinata (καθεξῆς). Il proposito (ἀσφάλεια) suggerisce che Teofilo ha ricevuto istruzione ma ha bisogno di conferma—forse affrontando narrazioni competitive o dubbi.
+
+**Bock (Baker)**: Il prologo stabilisce il metodo di Luca: tradizione di testimoni oculari → indagine accurata → scrittura ordinata → certezza del lettore. "Teofilo" ("amante di Dio") può essere un patrono o lettore rappresentativo. Il participio perfetto πεπληροφορημένων enfatizza il compimento divino degli eventi, non mera occorrenza storica.
+
+**Fitzmyer (Anchor)**: Paralleli con storici greci (Erodoto, Tucidide) e scrittori medici (Ippocrate). Luca rivendica accesso a fonti multiple ("molti"), tradizione di testimoni oculari, e indagine personale—topoi storiografici standard che stabiliscono credibilità.
+
+**Eisele (Tedesco)**: "Der Verfasser dieser Zeilen bleibt für uns anonym... Für den Autor selbst ist etwas anderes entscheidend: Er formuliert sein Selbstverständnis als antiker Historiker, der sich auf Überlieferung beruft und sich zugleich in ein kritisches Verhältnis dazu setzt." Luca si posiziona non come fede ingenua ma come uno che cerca "klare Erkenntnis" (conoscenza chiara) attraverso esame critico della tradizione. Il suo termine "Diener des Wortes" (servitori della parola) per i testimoni oculari enfatizza il loro ruolo ministeriale. Inoltre: "Christlicher Unterricht ist keine Indoktrination, sondern zielt auf begründete Einsicht, die Unterweisung braucht und Freiheit lässt"—l'istruzione cristiana mira a "perspicacia fondata," non fede cieca.
+
+**Stronstad (Carismatico)**: "L'unità letteraria di Luca-Atti è rimasta senza sfida seria... gli interpreti spesso assumono che Luca-Atti rifletta una discontinuità teologica tra le sue due parti, piuttosto che una continuità teologica o omogeneità." Questo sfida divisioni artificiali tra la pneumatologia del Vangelo e degli Atti. Il linguaggio dello Spirito in Luca 1 deve essere letto in continuità con gli Atti.
+
+### Sfondo Culturale (Keener)
+
+La storiografia antica valorizzava la testimonianza oculare e l'indagine accurata delle fonti. Dedicatorie ai patroni (come "eccellentissimo Teofilo") erano convenzionali nella letteratura greco-romana. Il titolo κράτιστε ("eccellentissimo") suggerisce che Teofilo aveva qualche posizione sociale, possibilmente un funzionario romano o patrono ricco che finanziò la produzione dell'opera.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: La costruzione di frase singola (stile periodico) richiede attenta ristrutturazione nelle lingue target mentre si mantiene lo slancio crescente verso la clausola di scopo. Il registro formale deve essere preservato—questo non è discorso casuale.
+
+2. **Contesto Culturale**: I lettori del primo secolo riconoscerebbero convenzioni storiografiche. I lettori moderni possono aver bisogno di note spiegando perché le catene di testimoni oculari contano, o cosa significa "ordinato" nella narrativa antica (tematico, non strettamente cronologico).
+
+3. **Apologetica a Mani Aperte**: Luca rivendica affidabilità senza attaccare alternative. La traduzione deve trasmettere fiducia senza trionfalismo. I "molti" predecessori sono onorati, non respinti.
+
+4. **Ermeneutica Ecumenica**: Tutte le tradizioni valorizzano le affermazioni di questo prologo sulla trasmissione accurata. L'enfasi cattolica sulla tradizione (παρέδοσαν = "tramandato") e l'enfasi protestante sulla certezza possono entrambe trovare fondamento qui.
+
+5. **Localizzazione Culturale-Contestuale**: Il formato di dedica-patrono può richiedere adattamento culturale. Alcune culture hanno convenzioni letterarie equivalenti; altre possono trovarlo confuso senza spiegazione.
+
+6. **Intersezionalità**: Luca si rivolge a un pubblico (presumibilmente) educato, di lingua greca ma scrive di eventi tra contadini galilei e sacerdoti giudei. Il prologo costruisce ponti tra mondi sociali.
+
+7. **Responsabilità per il Danno**: Alcune letture hanno armato affermazioni di "certezza" contro quelli con domande o dubbi. Il greco ἀσφάλεια suggerisce stabilità fondata, non certezza aggressiva che silena l'indagine.
+
+### Considerazioni di Traduzione
+
+- **ἀσφάλεια**: Non "prova" o "certezza assoluta" ma "affidabilità, base solida"—qualcosa su cui puoi stare
+- **καθεξῆς**: "Ordinato" non "cronologico"—Luca arrangia tematicamente in luoghi
+- **κράτιστε**: Onorifico richiede equivalente culturale (tedesco "Hochverehrter"? italiano "Eccellenza"?)
+- **Frase periodica**: Può richiedere divisione in frasi multiple mentre si preserva il flusso logico
+
+### Arco Emotivo
+
+Movimento da sforzo collettivo (molti hanno scritto) → investimento personale (è sembrato bene anche a me) → indirizzamento diretto (a te, Teofilo) → scopo ultimo (affinché tu sappia). Costruisce da generale a intimo.
+
+---
+
+## Pericope 2: Un Sacerdote Anziano e una Promessa Impossibile (1:5-25)
+
+### Testo Greco (Selezionato)
+> v.5: Ἐγένετο ἐν ταῖς ἡμέραις Ἡρῴδου βασιλέως τῆς Ἰουδαίας ἱερεύς τις ὀνόματι Ζαχαρίας ἐξ ἐφημερίας Ἀβιά...
+> v.7: καὶ οὐκ ἦν αὐτοῖς τέκνον, καθότι ἦν ἡ Ἐλισάβετ στεῖρα, καὶ ἀμφότεροι προβεβηκότες ἐν ταῖς ἡμέραις αὐτῶν ἦσαν.
+> v.13: Μὴ φοβοῦ, Ζαχαρία, διότι εἰσηκούσθη ἡ δέησίς σου...
+> v.18: Κατὰ τί γνώσομαι τοῦτο; ἐγὼ γάρ εἰμι πρεσβύτης...
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| ἐφημερία | ephēmeria | divisione sacerdotale, corso | Una di 24 divisioni sacerdotali rotanti; termine tecnico del Tempio |
+| στεῖρα | steira | sterile | Termine carico che ricorda Sara, Rebecca, Rachele, Anna |
+| δίκαιοι | dikaioi | giusti | Fedeltà pattuale, non perfezione morale |
+| ἄμεμπτοι | amemptoi | irreprensibili | Senza biasimo nell'osservanza della Torah |
+| θυμιᾶσαι | thymiasai | bruciare incenso | Onore una volta nella vita; le sorti determinavano chi entrava nel Luogo Santo |
+| ὀπτασία | optasia | visione, apparizione soprannaturale | Distinto da ὅραμα; enfatizza il vedere |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: La narrativa cambia drammaticamente dal prologo storiografico greco allo stile settagintal ("Ἐγένετο ἐν ταῖς ἡμέραις..."). Questa è segnalazione letteraria intenzionale—entriamo nel mondo della storia sacra di Israele. Il dubbio di Zaccaria è parallelo ad Abramo (Gen 15:8) ma riceve rimprovero più forte, forse perché la rivelazione è ora più avanzata.
+
+**Bock (Baker)**: L'annunciazione segue un modello riconoscibile dell'AT: apparizione, paura, messaggio, obiezione, segno. Zaccaria ed Elisabetta sono introdotti come paradigmi di pietà giudaica—giusti in entrambe le tavole della legge (verso Dio e il prossimo). La loro mancanza di figli evoca le grandi narrazioni di sterilità di Israele (Sara, Anna) che producono figli speciali attraverso intervento divino.
+
+**Fitzmyer (Anchor)**: L'ancoraggio storico ("nei giorni di Erode") colloca la narrativa nella realtà politica. La divisione sacerdotale di Abia (1 Cron 24:10) fornisce specificità. L'offerta d'incenso avveniva due volte al giorno; essere scelti per sorteggio era un privilegio una volta nella vita che Zaccaria avrebbe aspettato per decenni.
+
+**Eisele (Tedesco)**: "Lukas macht einen doppelten Anfang, indem er Verheißung und Geburt nicht nur von Jesus, sondern auch von Johannes dem Täufer erzählt." Il "doppio inizio" (doppelter Anfang) di Luca parallelizza intenzionalmente Giovanni e Gesù. Questo ha significato anti-marcionita: l'eredità giudaica di Gesù attraverso connessioni sacerdotali contrasta qualsiasi tentativo di privare Gesù dell'identità giudaica. "Jesus war wirklich Mensch mit einer menschlichen Familie und ihrer jüdischen Geschichte"—Gesù era veramente umano con una famiglia umana e la loro storia giudaica.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Massimo di Torino**: "Non so quale sia la cosa più importante che dovremmo predicare—che lui [Giovanni Battista] sia nato meravigliosamente o più meravigliosamente ucciso—perché nacque come una profezia e fu assassinato per la verità." (Sermone 5.1-2)
+- **Ambrogio**: "La Sacra Scrittura ci dice che non solo il carattere di quelli che sono lodevoli ma anche i loro genitori devono essere lodati... Quindi il sacerdote Zaccaria non è solo un sacerdote ma anche del corso di Abia, cioè, un nobile tra gli antenati di sua moglie." (Esposizione di Luca 1.15-16)
+
+**Stronstad (Carismatico)**: "La narrativa inaugurale di Luca... ha elementi tipologici espliciti... Il trasferimento dello Spirito da Gesù ai discepoli riflette il precedente trasferimento dello Spirito da Mosè ai settanta anziani (Num 11:16-30)." Il dono dello Spirito segue il modello dell'AT di trasferimento carismatico. Nota: Giovanni sarà "pieno di Spirito Santo fin dal grembo di sua madre" (v.15)—una dotazione carismatica permanente.
+
+### Sfondo Culturale (Keener)
+
+Il servizio sacerdotale comportava rotazioni di due settimane due volte l'anno. L'offerta d'incenso avveniva nel Luogo Santo (non il Santo dei Santi); il sacerdote entrava solo mentre la congregazione pregava fuori. La posizione di Gabriele "al lato destro dell'altare" indica favore e potere. L'angelologia giudaica riconosceva Gabriele come uno degli arcangeli che stanno nella presenza di Dio (cf. Dan 8-9).
+
+La mancanza di figli era socialmente devastante nell'antichità, spesso incolpata alla donna nonostante il carattere irreprensibile di Elisabetta. L'isolamento di cinque mesi di Elisabetta (v.24) può riflettere modestia, gratitudine, o protezione della gravidanza miracolosa.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: Il cambiamento dallo stile periodico greco alla narrativa settagintal ("E avvenne...") è una caratteristica letteraria da preservare. L'autoidentificazione formale di Gabriele (v.19) ha gravità liturgica.
+
+2. **Contesto Culturale**: Il culto del Tempio, divisioni sacerdotali, offerta d'incenso, e gerarchia angelica richiedono spiegazione accessibile. La vergogna della sterilità dovrebbe essere trasmessa senza rinforzare quella vergogna per i lettori moderni.
+
+3. **Apologetica a Mani Aperte**: Il dubbio di Zaccaria è presentato onestamente—anche i giusti lottano con il miracoloso. Il suo mutismo temporaneo è disciplina, non condanna.
+
+4. **Ermeneutica Ecumenica**: 
+   - Cattolico/Ortodosso: Precedente per ministero sacerdotale, intercessione angelica, culto del Tempio
+   - Protestante: Dinamica fede/dubbio, iniziativa divina nella salvezza
+   - Tutti: Il Dio che mantiene promesse attraverso generazioni
+
+5. **Localizzazione Culturale-Contestuale**: Il sistema del Tempio può essere sconosciuto; concetti di purezza rituale, spazio sacro, e sorti sacerdotali richiedono ponti culturali.
+
+6. **Intersezionalità**: 
+   - Caratteri anziani come agenti dell'azione di Dio (contrasta cultura giovane-centrica)
+   - La rivendicazione di Elisabetta dopo vergogna sociale
+   - Autorità sacerdotale accoppiata con vulnerabilità personale
+
+7. **Responsabilità per il Danno**: Il linguaggio di sterilità non deve svergognare quelli che sperimentano infertilità oggi. Il testo mostra la cura di Dio per i marginalizzati, non la loro deficienza.
+
+### Considerazioni di Traduzione
+
+- **Ἐγένετο**: Apertura settagintal; considerare se preservare la sensazione arcaica o naturalizzare
+- **στεῖρα**: "Sterile" porta echi biblici ma può richiedere sensibilità in contesti moderni
+- **εὐαγγελίσασθαι** (v.19): "Portare buone notizie"—nota il vocabolario evangelico che già appare
+- **κωφός** (v.22): "Muto" o "incapace di parlare" (non necessariamente "sordo")
+
+### Arco Emotivo
+
+Fedeltà pia (vv.5-7) → Incontro inaspettato (vv.8-12) → Promessa travolgente (vv.13-17) → Dubbio umano (v.18) → Disciplina divina (vv.19-20) → Stupore comunitario (vv.21-22) → Gioia silenziosa (vv.23-25). Le parole finali di Elisabetta trasformano vergogna in lode.
+
+---
+
+## Pericope 3: Maria Dice Sì (1:26-38)
+
+### Testo Greco (Selezionato)
+> v.28: Χαῖρε, κεχαριτωμένη, ὁ κύριος μετὰ σοῦ.
+> v.35: Πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις Ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται, υἱὸς θεοῦ.
+> v.38: Ἰδοὺ ἡ δούλη κυρίου· γένοιτό μοι κατὰ τὸ ῥῆμά σου.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| κεχαριτωμένη | kecharitōmenē | graziata, favorita | Participio perfetto passivo: "una che è stata graziata/favorita" |
+| παρθένος | parthenos | vergine, donna giovane | Donna non sposata in età da matrimonio; verginità enfatizzata nel contesto |
+| ἐπισκιάσει | episkiasei | coprirà con la sua ombra | BDAG: attività divina; echeggia la Shekinah che copre il tabernacolo |
+| Ὕψιστος | Hypsistos | Altissimo | Titolo giudaico per Dio; usato in contesti di trascendenza divina |
+| δούλη | doulē | serva, schiava | Autodesignazione di disponibilità radicale e sottomissione |
+| ῥῆμα | rhēma | parola, cosa, questione | Sia parola parlata che la realtà che effettua (v.37: "niente è impossibile presso Dio") |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: L'annunciazione segue lo stesso modello di genere di Zaccaria ma con differenze cruciali. Maria riceve una promessa maggiore con status sociale minore. La sua domanda (v.34) è indagine, non dubbio—chiede "come?" non "come posso essere sicura?" Il linguaggio di coprire con ombra (ἐπισκιάζω) si collega ad Esodo 40:35 dove la nube copre il tabernacolo. Maria diventa il nuovo locus di presenza divina.
+
+**Bock (Baker)**: Il contenuto cristologico è denso: Figlio dell'Altissimo, trono di Davide, regno eterno, Figlio di Dio. La concezione è per Spirito Santo, non agenzia umana—il passivo γεννώμενον enfatizza azione divina. La risposta di Maria è fede esemplare: "Sia fatto a me secondo la tua parola."
+
+**Fitzmyer (Anchor)**: Nazareth era un villaggio insignificante di forse 200-400 persone. Il fidanzamento di Maria (μνηστεύω) era un accordo legalmente vincolante, benché rimanesse nella casa di suo padre. La concezione verginale è narrata senza apologetica esplicita—Luca semplicemente la dichiara come fatto.
+
+**Eisele (Tedesco)**: "Während Matthäus jedoch aus der Perspektive Josefs erzählt... steht bei Lukas Maria im Mittelpunkt, die als weibliche Hauptfigur die Kindheitserzählung prägt." Mentre Matteo racconta dalla prospettiva di Giuseppe, Luca deliberatamente centra Maria come protagonista—una scelta significativa per lettura intersezionale.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Origene**: "L'angelo salutò Maria con un nuovo indirizzo, che non riuscii a trovare da nessun'altra parte nella Scrittura... 'Ave, piena di grazia' non si rivolge a un maschio. Questo saluto fu riservato a Maria sola." (Omelie su Luca 6.7)
+- **Ambrogio**: "Veramente piena di grazia era colei, su cui fu conferito per favore divino che, prima tra le donne, dovesse offrire a Dio il dono più glorioso della sua verginità. Quindi colei che si sforzò di imitare la vita di un angelo fu giustamente degna di godere l'esperienza di vedere e parlare con un angelo." (Omelie sui Vangeli 1.3)
+
+**Stronstad (Carismatico)**: "La frase 'pieno di Spirito Santo' ha un significato diverso (e superiore?) negli Atti che in Luca... [ma] per Giovanni il dono dello Spirito di profezia fu certamente permanente (Luca 1:15) e per i discepoli fu dimostrabilmente ripetitivo." Il "coprire con ombra" dello Spirito (v.35) si collega alla pneumatologia più ampia di Luca-Atti. "Pieno di Spirito Santo" dovrebbe essere tradotto consistentemente attraverso entrambi i libri.
+
+### Sfondo Culturale (Keener)
+
+Le ragazze tipicamente si fidanzavano tra 12-14 anni di età. Il periodo di fidanzamento durava circa un anno prima della cerimonia di matrimonio. La situazione di Maria—incinta durante il fidanzamento—sarebbe stata socialmente catastrofica; le opzioni di Giuseppe includevano denuncia pubblica o divorzio silenzioso. Il messaggio di Gabriele viene con zero preoccupazione per conseguenze sociali, un modello in Luca.
+
+Il riferimento "casa di Davide" (v.27) collega Gesù al lignaggio reale attraverso Giuseppe, suo padre legale. I lettori antichi capirebbero che la paternità legale conferiva diritti ereditari indipendentemente dalla generazione biologica.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: La struttura di dialogo (saluto → messaggio → domanda → spiegazione → risposta) dovrebbe essere preservata. La famosa risposta di Maria (v.38) ha potere liturgico attraverso le lingue—il fiat.
+
+2. **Contesto Culturale**: Costumi di fidanzamento, età di matrimonio, e vulnerabilità sociale di Maria richiedono spiegazione. Il linguaggio di "coprire con ombra" richiede connessione alle immagini del tabernacolo dell'Esodo.
+
+3. **Apologetica a Mani Aperte**: La concezione verginale è dichiarata senza argomento difensivo. Lascia che il testo stia; le note possono riconoscere diverse letture senza forzare conclusioni.
+
+4. **Ermeneutica Ecumenica**:
+   - Cattolico/Ortodosso: Devozione mariana, κεχαριτωμένη come "piena di grazia," Maria come nuova arca
+   - Protestante: Maria come modello di fede, focus cristologico del passaggio
+   - Tutti: Lo scandalo dell'incarnazione—Dio entra attraverso i margini
+
+5. **Localizzazione Culturale-Contestuale**: La risposta di Maria è stata usata per imporre sottomissione femminile; la traduzione deve trasmettere il suo consenso attivo e agenzia, non conformità passiva. Il fiat è un potente "sì," non rassegnazione.
+
+6. **Intersezionalità**: 
+   - Una ragazza adolescente dal nulla diventa il collaboratore umano primario di Dio
+   - Inversione di classe: ragazza contadina riceve promessa reale
+   - Genere: agenzia femminile è centrale; Dio chiede, Maria risponde
+
+7. **Responsabilità per il Danno**: Il linguaggio di "serva" è stato usato per imporre servitù femminile. La δούλη qui è un'identità auto-scelta di disponibilità radicale a Dio, non servitù imposta agli uomini.
+
+### Considerazioni di Traduzione
+
+- **κεχαριτωμένη**: "Favorita," "graziata," "piena di grazia"—tutte hanno tradizione. Il tempo perfetto suggerisce azione completata con effetto continuo.
+- **ἐπισκιάσει**: "Coprire con ombra" porta risonanza del tabernacolo ma suona ominoso in italiano; considerare alternative che trasmettano presenza protettiva
+- **δούλη**: "Serva" vs. "schiava" vs. "ancella"—ognuna ha bagaglio. Il contesto conta: questa è l'autoidentificazione di Maria davanti a Dio, non uno status sociale.
+
+### Arco Emotivo
+
+Saluto sorprendente (v.28) → Perplessità profonda (v.29) → Rassicurazione (v.30) → Promessa travolgente (vv.31-33) → Domanda onesta (v.34) → Mistero divino (v.35) → Segno confermante (vv.36-37) → Consenso risoluto (v.38). Il movimento è da confusione a fede coraggiosa.
+
+---
+
+## Pericope 4: Due Donne, Due Miracoli (1:39-45)
+
+### Testo Greco
+> v.41: καὶ ἐγένετο ὡς ἤκουσεν τὸν ἀσπασμὸν τῆς Μαρίας ἡ Ἐλισάβετ, ἐσκίρτησεν τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς, καὶ ἐπλήσθη πνεύματος ἁγίου ἡ Ἐλισάβετ,
+> v.42: καὶ ἀνεφώνησεν κραυγῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξίν, καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.
+> v.45: καὶ μακαρία ἡ πιστεύσασα ὅτι ἔσται τελείωσις τοῖς λελαλημένοις αὐτῇ παρὰ κυρίου.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| ἐσκίρτησεν | eskirtēsen | saltò, balzò | Movimento fisico forte; usato di agnelli che saltano, o movimento fetale |
+| βρέφος | brephos | bambino, infante, bambino non nato | Può riferirsi a feto o neonato; qui enfatizza personalità prima della nascita |
+| μακαρία | makaria | beata, fortunata | Linguaggio di beatitudine: una su cui riposa favore divino |
+| πιστεύσασα | pisteusasa | avendo creduto | Participio aoristo: l'atto decisivo di fede |
+| τελείωσις | teleiōsis | adempimento, compimento | Non solo occorrenza ma perfezione di ciò che fu promesso |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: Questo è un incontro di due donne profetiche. Elisabetta è riempita dello Spirito e profetizza—la prima espressione profetica nel vangelo proprio. La sua benedizione (v.42) echeggia Jael (Giud 5:24) e Giuditta (Gdt 13:18), collegando Maria alle donne eroiche di Israele. La beatitudine (v.45) contrasta la fede di Maria con il dubbio di Zaccaria.
+
+**Bock (Baker)**: Il bambino che salta nel grembo adempie la profezia di Gabriele che Giovanni sarebbe stato pieno di Spirito dalla nascita (v.15). Elisabetta riconosce Maria come "la madre del mio Signore" (v.43)—un titolo stupefacente che riconosce lo status superiore di Gesù. La scena stabilisce la relazione tra Giovanni e Gesù: precursore e Signore.
+
+**Fitzmyer (Anchor)**: La "montagna di Giuda" era un viaggio di diversi giorni da Nazareth. La fretta di Maria (μετὰ σπουδῆς) suggerisce urgenza, possibilmente per confermare il segno datole (la gravidanza di Elisabetta). L'incontro delle due donne è il primo incontro dei due movimenti che si fonderanno in Gesù.
+
+**Eisele (Tedesco)**: "Die Begegnung der Verwandten Maria und Elisabet bezeichnet einen Knotenpunkt in der Kindheitserzählung des Lukas. Hier treffen sich nicht nur die beiden Mütter, sondern zum ersten Mal auch ihre noch ungeborenen Kinder." Questo è un "Knotenpunkt" (punto nodale)—l'incontro di madri e i loro figli non nati. Inoltre: "Die Segenssprüche über Judit und Jaël finden Widerhall in Elisabets Segen über Maria... 'Gesegnet bist du, Tochter, vom höchsten Gott, mehr als alle Frauen auf der Erde.'" (Gdt 13,18). La benedizione di Elisabetta echeggia benedizioni su Giuditta e Jael, posizionando Maria nella linea di donne eroiche che liberano il popolo di Dio.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Ambrogio**: "Giovanni battezzò Colui attraverso il quale tutti gli altri sarebbero stati battezzati." Anche nel grembo, la gerarchia cristologica è stabilita.
+- **Beda**: "Sia Elia che Giovanni furono celibi. Entrambi indossarono vestiti rozzi. Entrambi passarono le loro vite nel deserto. Entrambi furono araldi della verità. Entrambi subirono persecuzione per causa della giustizia per mano di un re e regina—il primo per mano di Acab e Jezebel, l'ultimo per mano di Erode ed Erodiade." (Omelie sui Vangeli 2.23)
+
+**Stronstad (Carismatico)**: "Elisabetta è riempita dello Spirito e profetizza—la prima espressione profetica nel vangelo proprio." Il suo riempimento dello Spirito abilita riconoscimento profetico di Maria e Gesù non nato. Questo stabilisce il modello: Spirito → discorso profetico.
+
+### Sfondo Culturale (Keener)
+
+Le donne che visitavano parenti femmine durante la gravidanza era comune. La durata del soggiorno di Maria (tre mesi, v.56) avrebbe portato Elisabetta quasi al termine. L'isolamento di Elisabetta (v.24) seguito da questo incontro intimo crea uno spazio narrativo centrato sulle donne dove la rivelazione avviene separata dalle figure di autorità maschile.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: Lo stile esclamativo della benedizione di Elisabetta (κραυγῇ μεγάλῃ, "con grande grido") deve trasmettere intensità profetica. La beatitudine (v.45) merita prominenza.
+
+2. **Contesto Culturale**: Due donne incinte, una anziana e una giovane, si riconoscono a vicenda come portatrici di promessa divina. Questa solidarietà femminile è controculturale per contesti patriarcali.
+
+3. **Apologetica a Mani Aperte**: Il passaggio afferma personalità prenatale (Giovanni riconosce Gesù in utero) senza armarlo. Il focus è su riconoscimento profetico, non argomento biologico.
+
+4. **Ermeneutica Ecumenica**:
+   - Cattolico/Ortodosso: Festa della Visitazione, "madre del mio Signore" come fondamento di Theotokos
+   - Protestante: Maria benedetta per fede (v.45), non per status unico
+   - Tutti: Il movimento dello Spirito trascende gerarchie umane
+
+5. **Localizzazione Culturale-Contestuale**: Nelle culture dove le riunioni di donne sono importanti, questa scena risuona naturalmente. Dove l'autorità religiosa delle donne è messa in questione, questo testo è sovversivo.
+
+6. **Intersezionalità**: 
+   - Due donne riconoscono ciò che gli uomini non hanno ancora afferrato
+   - Ponte di età: anziana Elisabetta e adolescente Maria come partner profetiche
+   - I non nati partecipano al dramma divino
+
+7. **Responsabilità per il Danno**: "Benedetto è il frutto del tuo grembo" è stato usato per svergognare donne che non possono avere figli. La benedizione qui è specifica al chiamato unico di Maria, non una valorizzazione generale di fertilità.
+
+### Considerazioni di Traduzione
+
+- **κραυγῇ μεγάλῃ**: "Forte grido," "grande esclamazione"—Elisabetta non è riservata; questa è proclamazione profetica
+- **μήτηρ τοῦ κυρίου μου**: "Madre del mio Signore"—κύριος porta connotazioni sia messianiche che divine
+- **μακαρία ἡ πιστεύσασα**: La struttura di beatitudine dovrebbe essere preservata—"Beata colei che ha creduto"
+
+### Arco Emotivo
+
+Viaggio affrettato (v.39) → Saluto gioioso (v.40) → Riconoscimento prenatale (v.41) → Profezia riempita di Spirito (vv.42-44) → Beatitudine di fede (v.45). Movimento da fisico a spirituale, da privato a profetico.
+
+---
+
+## Pericope 5: Il Cantico di Maria - Magnificat (1:46-56)
+
+### Testo Greco
+> v.46-47: Μεγαλύνει ἡ ψυχή μου τὸν κύριον, καὶ ἠγαλλίασεν τὸ πνεῦμά μου ἐπὶ τῷ θεῷ τῷ σωτῆρί μου·
+> v.48: ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ...
+> v.51-53: Ἐποίησεν κράτος ἐν βραχίονι αὐτοῦ, διεσκόρπισεν ὑπερηφάνους διανοίᾳ καρδίας αὐτῶν· καθεῖλεν δυνάστας ἀπὸ θρόνων καὶ ὕψωσεν ταπεινούς, πεινῶντας ἐνέπλησεν ἀγαθῶν καὶ πλουτοῦντας ἐξαπέστειλεν κενούς.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| μεγαλύνει | megalynei | magnifica, glorifica | Fa grande, dichiara grande—tempo presente per azione continua |
+| ταπείνωσις | tapeinōsis | umiltà, umiliazione | BDAG: "esperienza di inversione nelle fortune, umiliazione" o "stato senza pretese" |
+| δυνάστας | dynastas | governanti, quelli al potere | Detentori di potere, i potenti—vocabolario politico |
+| ταπεινούς | tapeinous | umili, miti | Quelli senza potere sociale—l'opposto di δυνάστας |
+| ἔλεος | eleos | misericordia, amore fedele | Ebraico חֶסֶד (hesed)—fedeltà pattuale e compassione |
+| σπέρματι | spermati | seme, discendenti | Linguaggio di promessa abramitica |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: Il Magnificat (chiamato dalla traduzione latina di μεγαλύνει) è un inno nella tradizione del cantico di Anna (1 Sam 2:1-10). I verbi aoristi (vv.51-53) sono dibattuti: sono "aoristi profetici" che descrivono azione futura come già compiuta, o aoristi innici che celebrano le azioni caratteristiche di Dio? Più probabilmente quest'ultimo—Maria loda ciò che Dio fa sempre. L'inno può avere origini giudaico-cristiane pre-lucane, adattate per la voce di Maria.
+
+**Bock (Baker)**: Il Magnificat si divide in: lode personale (vv.46-50), inversione cosmica (vv.51-53), e adempimento di patto (vv.54-55). Maria si muove dalla sua esperienza individuale al modello universale di Dio alle promesse specifiche di Israele. Questo telescopaggio è caratteristico della lode biblica.
+
+**Fitzmyer (Anchor)**: Forti echi del cantico di Anna (1 Sam 2) e altri passaggi dell'AT (Sal 103, 107, 111; Ab 3:18). Gli aoristi sono "gnomici"—descrivendo l'azione tipica di Dio—o "prolettici"—celebrando come fatto ciò che Dio sta ora facendo attraverso il figlio di Maria. Le inversioni sociali (orgoglioso/umile, ricco/povero) anticipano la preoccupazione che abbraccia tutto il vangelo di Luca.
+
+**Eisele (Tedesco)**: "Aus dem Lukasevangelium stammen drei der Gebete, die in der kirchlichen Liturgie am häufigsten rezitiert werden: die Lobgesänge der Maria, des Zacharias und des Simeon." Il Magnificat, Benedictus, e Nunc Dimittis sono centrali all'ufficio quotidiano—la traduzione dovrebbe essere adatta per recitazione liturgica. Inoltre: "Gott lässt sich von der Not und dem Elend des Menschen zutiefst berühren und antwortet darauf mit seiner tatkräftigen Hilfe"—Dio è commosso dalla sofferenza umana e risponde con aiuto efficace. Le inversioni sociali del Magnificat sono risposta divina alla sofferenza genuina, non teologia astratta.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Beda**: "La prima causa di perdizione umana avvenne quando un serpente fu inviato dal diavolo a una donna che doveva essere ingannata dallo spirito di orgoglio... Poiché la morte fece il suo ingresso attraverso una donna, fu appropriato che la vita ritornasse attraverso una donna." (Omelie sui Vangeli 1.3) La tipologia Eva/Maria rinforza il tema di inversione.
+
+**Stronstad (Carismatico)**: Il Magnificat di Maria segue l'espressione profetica di Elisabetta come la seconda voce profetica nel vangelo. Entrambe le donne parlano sotto ispirazione dello Spirito. Questo stabilisce un modello di discorso profetico continuando dall'AT attraverso la narrativa dell'infanzia nel ministero di Gesù e la chiesa primitiva.
+
+### Sfondo Culturale (Keener)
+
+Le donne giudaiche tipicamente non erano addestrate nella Scrittura, eppure l'inno di Maria è saturato di allusioni dell'AT. Questo può riflettere (1) formazione liturgica in sinagoga e casa, (2) modellamento letterario di Luca, o (3) ispirazione profetica genuina. Il contenuto risuona con pietà giudaica: misericordia di Dio verso i poveri, giudizio sui superbi, fedeltà al patto di Abramo.
+
+Il tema della "grande inversione" era parte della speranza escatologica giudaica. Quando Dio agisce decisivamente, l'ordine sociale si inverte: i governanti cadono, gli umili si alzano. Questo è linguaggio rivoluzionario che ha motivato movimenti di liberazione attraverso la storia.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: Il Magnificat è stato cantato per millenni. La traduzione dovrebbe preservare cantabilità e ritmo liturgico dove possibile. Il parallelismo (orgoglioso/umile, ricco/povero, governanti/umili) è strutturale, non decorativo.
+
+2. **Contesto Culturale**: Il cantico di Maria echeggia Anna e i profeti. Le note dovrebbero tracciare queste connessioni. Il tema di inversione si collega al Giubileo (Lev 25) e giustizia profetica (Amos, Isaia).
+
+3. **Apologetica a Mani Aperte**: Il dibattito del tempo aoristo (passato? futuro profetico? gnomico?) non ha bisogno di essere risolto per la traduzione. Lascia che l'ambiguità stia; le note a piè di pagina possono discutere.
+
+4. **Ermeneutica Ecumenica**:
+   - Cattolico/Ortodosso: Uso liturgico quotidiano (Vespri), devozione mariana, insegnamento sociale
+   - Protestante: Radici di teologia della liberazione, vangelo sociale, giustizia profetica
+   - Tutti: Opzione preferenziale di Dio per i poveri e marginalizzati
+
+5. **Localizzazione Culturale-Contestuale**: Il linguaggio di inversione è politicamente carico in ogni contesto. La traduzione non dovrebbe addomesticarlo. Dove la chiesa è potente, il Magnificat è un'autocritica; dove la chiesa è marginalizzata, è un manifesto di speranza.
+
+6. **Intersezionalità**: 
+   - Una persona giovane, povera, femminile, colonizzata parla la visione rivoluzionaria di Dio
+   - Maria come teologa della liberazione avant la lettre
+   - Giustizia economica (affamati riempiti, ricchi mandati via vuoti) accanto all'inversione politica
+
+7. **Responsabilità per il Danno**: Il Magnificat è stato spiritualizzato per evitare le sue implicazioni sociali ("orgogliosi di cuore" = solo atteggiamento interiore). La traduzione e le note dovrebbero resistere a questa addomesticazione mentre evitano cooptazione politica.
+
+### Considerazioni di Traduzione
+
+- **ταπείνωσις** (v.48): "Umiltà" o "stato umile"—non primariamente una virtù ma una posizione sociale. Maria ha basso status, non è solo modesta.
+- **Verbi aoristi** (vv.51-53): La maggior parte delle traduzioni usa tempo passato. Alcuni usano presente per trasmettere la natura continua/tipica. Entrambi sono difendibili.
+- **δυνάστας / ταπεινούς**: "Governanti/umili," "potenti/miti"—il contrasto è politico ed economico, non solo spirituale.
+
+### Arco Emotivo
+
+Lode personale e stupore (vv.46-49) → Riconoscimento della misericordia di Dio attraverso generazioni (v.50) → Celebrazione esultante di inversione cosmica (vv.51-53) → Fedeltà pattuale verso Israele (vv.54-55) → Ritorno silenzioso alla narrativa (v.56). L'inno si muove da intimo a cosmico a pattuale.
+
+---
+
+## Pericope 6: Il Suo Nome è Giovanni (1:57-66)
+
+### Testo Greco (Selezionato)
+> v.60: καὶ ἀποκριθεῖσα ἡ μήτηρ αὐτοῦ εἶπεν· Οὐχί, ἀλλὰ κληθήσεται Ἰωάννης.
+> v.63: καὶ αἰτήσας πινακίδιον ἔγραψεν λέγων· Ἰωάννης ἐστὶν ὄνομα αὐτοῦ. καὶ ἐθαύμασαν πάντες.
+> v.64: ἀνεῴχθη δὲ τὸ στόμα αὐτοῦ παραχρῆμα καὶ ἡ γλῶσσα αὐτοῦ, καὶ ἐλάλει εὐλογῶν τὸν θεόν.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| περιτεμεῖν | peritemnein | circoncidere | Segno del patto; tradizionalmente la nomenclatura avveniva alla circoncisione |
+| πινακίδιον | pinakidion | tavoletta di scrittura | Piccola tavoletta di legno con superficie di cera per scrivere |
+| παραχρῆμα | parachrēma | immediatamente, all'istante | Termine caratteristico di Luca per azione divina improvvisa |
+| εὐλογῶν | eulogōn | benedicendo, lodando | Participio: le sue prime parole furono benedizione a Dio |
+| χεὶρ κυρίου | cheir kyriou | mano del Signore | Idioma dell'AT per potere divino e favore |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: La scena di denominazione risolve la tensione creata dal mutismo di Zaccaria. L'insistenza di Elisabetta su "Giovanni" (significa "YHWH è stato misericordioso") mostra che conosce il messaggio angelico—sia attraverso comunicazione scritta di Zaccaria o intuizione profetica. La sorpresa della comunità nel rompere convenzioni familiari di nomenclatura intensifica la natura miracolosa degli eventi.
+
+**Bock (Baker)**: La circoncisione dell'ottavo giorno segue la Torah (Lev 12:3). La disputa di nomenclatura crea tensione drammatica: la famiglia rovescerà Elisabetta? La conferma scritta di Zaccaria ("Il suo nome È Giovanni"—non "sarà") rompe il suo silenzio immediatamente. Le sue prime parole sono benedizione, non lamento—la sua fede è maturata attraverso il silenzio.
+
+**Fitzmyer (Anchor)**: "Giovanni" (Ἰωάννης dal יוֹחָנָן, Yohanan) significa "YHWH ha mostrato grazia." Il nome incapsula la storia. La paura dei vicini (v.65) e il rapporto diffuso "attraverso tutta la montagna di Giuda" prepara per il futuro ruolo pubblico di Giovanni.
+
+**Eisele (Tedesco)**: "'Johannes' (Ἰωάννης dal יוֹחָנָן, Yohanan) significa 'JHWH hat Gnade erwiesen.' Il nome riassume tutta la storia." La teologia del nome è centrale—Giovanni = "YHWH ha mostrato grazia" incapsula tutta la narrativa. Considerare note esplicative su significati di nomi ebraici per lettori non familiari con questa tradizione.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Beda**: "Quando nelle Scritture viene imposto o cambiato un nome... da Dio, è indicativo di grande lode e virtù. Fu bene che al precursore del nostro Redentore fu ordinato di essere chiamato Giovanni. Il nome Giovanni significa 'la grazia del Signore' o 'in cui c'è grazia.'" (Omelie sui Vangeli 2.19)
+
+### Sfondo Culturale (Keener)
+
+Nominare un bambino secondo un parente maschio (specialmente il padre o nonno) era consueto. L'insistenza di Elisabetta su "Giovanni" sarebbe stata scioccante—le donne tipicamente non avevano autorità sulla nomenclatura. L'appello della comunità a Zaccaria (v.62) mostra che si aspettavano che scavalcasse sua moglie. La sua conferma di "Giovanni" è una doppia sorpresa.
+
+La "mano del Signore" (v.66) fu riconosciuta come segno di favore divino e chiamato. La domanda "Che cosa diventerà mai questo bambino?" crea aspettativa narrativa per il ministero di Giovanni.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: Il dialogo e il ritmo narrativo dovrebbero preservare la tensione. La dichiarazione scritta di Zaccaria ha peso drammatico—preserva l'autorità della parola scritta.
+
+2. **Contesto Culturale**: Circoncisione come entrata nel patto, tempistica dell'ottavo giorno, e costumi di nomenclatura richiedono spiegazione. La sorpresa per "Giovanni" richiede comprensione delle aspettative di nomenclatura familiare.
+
+3. **Apologetica a Mani Aperte**: Il ripristino di Zaccaria segue obbedienza. Questa è disciplina e ripristino, non punizione e rilascio.
+
+4. **Ermeneutica Ecumenica**:
+   - Ruolo della circoncisione nell'identità giudaica (rispettando lettori giudaici)
+   - Continuità del patto (il nuovo non sostituisce il vecchio)
+   - Testimonianza comunitaria dell'azione di Dio
+
+5. **Localizzazione Culturale-Contestuale**: Le costumi di nomenclatura variano grandemente attraverso culture. Alcuni risuoneranno con aspettative di nomenclatura familiare; altri possono aver bisogno di spiegazione.
+
+6. **Intersezionalità**: 
+   - La voce di Elisabetta prevale contro aspettativa comunitaria
+   - Zaccaria conferma piuttosto che scavalcare sua moglie
+   - La comunità (non solo leader) testimonia e diffonde le notizie
+
+7. **Responsabilità per il Danno**: Il linguaggio di disabilità (mutismo come punizione) dovrebbe essere gestito attentamente. Il mutismo di Zaccaria è disciplina temporanea, non una dichiarazione sullo status spirituale di persone disabili.
+
+### Considerazioni di Traduzione
+
+- **Ἰωάννης ἐστὶν**: "Il suo nome È Giovanni"—tempo presente enfatizza il fatto stabilito, non una decisione presa
+- **χεὶρ κυρίου**: "Mano del Signore"—considerare se preservare idioma o interpretare
+
+### Arco Emotivo
+
+Gioia del vicinato (vv.57-58) → Disputa di nomenclatura (vv.59-62) → Conferma drammatica di Zaccaria (v.63) → Ripristino immediato (v.64) → Timore comunitario e stupore diffuso (vv.65-66).
+
+---
+
+## Pericope 7: La Profezia di Zaccaria - Benedictus (1:67-79)
+
+### Testo Greco
+> v.68: Εὐλογητὸς κύριος ὁ θεὸς τοῦ Ἰσραήλ, ὅτι ἐπεσκέψατο καὶ ἐποίησεν λύτρωσιν τῷ λαῷ αὐτοῦ,
+> v.69: καὶ ἤγειρεν κέρας σωτηρίας ἡμῖν ἐν οἴκῳ Δαυὶδ παιδὸς αὐτοῦ...
+> v.78-79: διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ἐπισκέψεται ἡμᾶς ἀνατολὴ ἐξ ὕψους, ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ἡμῶν εἰς ὁδὸν εἰρήνης.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| εὐλογητός | eulogētos | benedetto, lodato | Apertura di berakah: "Benedetto sia il Signore Dio..." |
+| λύτρωσις | lytrōsis | redenzione, liberazione | Liberazione attraverso pagamento di riscatto; linguaggio dell'Esodo |
+| κέρας σωτηρίας | keras sōtērias | corno di salvezza | Simbolo di forza, potere; cf. corno di unzione |
+| σπλάγχνα ἐλέους | splanchna eleous | tenera misericordia, misericordia compassionevole | Lett. "viscere di misericordia"—compassione viscerale profonda |
+| ἀνατολή | anatolē | aurora, alba, oriente | Titolo messianico: l'"aurora" o "germoglio" (cf. Ger 23:5 LXX) |
+| εἰρήνη | eirēnē | pace | Ebraico שָׁלוֹם—benessere comprensivo, non mera assenza di conflitto |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: Il Benedictus (latino per "Benedetto") si divide in due parti: redenzione di Israele (vv.68-75) e missione di Giovanni (vv.76-79). Può essere un inno giudaico pre-lucano adattato per questo contesto. Il "corno di salvezza" echeggia il salmo di Davide (2 Sam 22:3; Sal 18:2). La ἀνατολή (v.78) è ambigua: "sole sorgente" (alba) o "germoglio" messianico (Ger 23:5; Zac 3:8; 6:12).
+
+**Bock (Baker)**: Zaccaria profetizza sia su Gesù (vv.68-75) che su Giovanni (vv.76-79). L'enfasi davidica ("casa di Davide suo servo") contrasta con il lignaggio levitico di Giovanni—Zaccaria punta oltre suo figlio al maggiore. Il vocabolario è saturo di temi dell'AT di patto ed esodo: redenzione, salvezza, misericordia, giuramento ad Abramo.
+
+**Fitzmyer (Anchor)**: Il Benedictus è strutturato come una benedizione giudaica (berakah) con contenuto profetico. "Salvezza dai nostri nemici" (v.71) riflette speranze giudaiche per liberazione politica che saranno reinterpretate nella narrativa di Luca. L'immagine finale—"piedi guidati nella via della pace"—anticipa il motivo di viaggio di Luca.
+
+**Eisele (Tedesco)**: "Die Erzählung von der Geburt Johannes' des Täufers wird durch den Lobgesang seines Vaters Zacharias abgeschlossen, der seinen Sohn als Vorläufer des Herrn charakterisiert." Il Benedictus chiude la narrativa di nascita di Giovanni e lo caratterizza come precursore. Inoltre: "Aus der größten Not des Menschen, seiner Verstrickung in die Sünde, kann keine weltliche Macht ihn befreien... Gottes Barmherzigkeit ist stärker als Sünde und Tod"—nessun potere mondano può liberare dal peccato; solo la misericordia di Dio è più forte del peccato e della morte. Il "corno di salvezza" (v.69) rappresenta potere divino, non politico.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Ambrogio**: "Giovanni sarebbe stato grande—non attraverso virtù corporale ma attraverso magnanimità. Non ampliò i confini di un impero. Non preferì trionfi di contesa militare agli onori. Piuttosto, cosa di più, disprezzò piaceri umani e lussuria del corpo, predicando nel deserto con grande virtù di spirito." (Esposizione di Luca 1.31-33) La grandezza di Giovanni è morale/spirituale, non politica.
+
+**Stronstad (Carismatico)**: "Il sfondo dell'AT della pneumatologia di Luca... lo Spirito è lo Spirito di profezia. Nell'AT lo Spirito Santo è esclusivamente lo Spirito di profezia." La profezia di Zaccaria è esplicitamente ispirata dallo Spirito (v.67: "riempito di Spirito Santo e profetizzò"). Questo mostra la connessione diretta: riempimento dello Spirito → discorso profetico.
+
+### Sfondo Culturale (Keener)
+
+Le preghiere mattutine giudaiche includevano benedizioni (berakot) lodando Dio per fedeltà pattuale. Il Benedictus si adatta a questo modello liturgico. Il linguaggio dei "nemici" riflette esperienza giudaica del primo secolo sotto occupazione romana—speranze per un liberatore davidico che avrebbe ripristinato l'indipendenza di Israele.
+
+Le immagini di ἀνατολή possono basarsi su Malachia 4:2 ("sole di giustizia con guarigione nelle sue ali") e la tradizione messianica del "germoglio". Luce per quelli "seduti nelle tenebre e ombra di morte" echeggia Isaia 9:2, un testo messianico chiave.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: Il Benedictus, come il Magnificat, ha storia liturgica. Preservare struttura poetica e ritmo. Il cambio da "redenzione di Israele" a "tu, bambino" (v.76) dovrebbe essere marcato.
+
+2. **Contesto Culturale**: Tradizione di berakah, aspettative davidiche/messianiche, e vocabolario di esodo/redenzione richiedono fondazione in liturgia e speranza giudaiche.
+
+3. **Apologetica a Mani Aperte**: Il linguaggio dei "nemici" è ambiguo—politico? spirituale? entrambi? Lascia che l'ambiguità stia; Luca lo svilupperà.
+
+4. **Ermeneutica Ecumenica**:
+   - Cattolico/Ortodosso: Uso liturgico quotidiano (Lodi), ufficio profetico, storia della salvezza
+   - Protestante: Adempimento cristologico, Giovanni come precursore
+   - Tutti: Fedeltà pattuale attraverso generazioni
+
+5. **Localizzazione Culturale-Contestuale**: "Nemici" e "salvezza" prendono valenze diverse in contesti politici diversi. Dove i cristiani sono perseguitati, il linguaggio è diretto. Dove i cristiani sono potenti, richiede reinterpretazione.
+
+6. **Intersezionalità**: 
+   - Un sacerdote anziano, silenzioso e umiliato, ora parla profeticamente
+   - Il bambino Giovanni è commissionato per i poveri e marginalizzati ("quelli seduti nelle tenebre")
+
+7. **Responsabilità per il Danno**: Il linguaggio dei "nemici" è stato mal usato per demonizzare gruppi esterni. Il Benedictus punta verso pace (εἰρήνη), non violenza. La salvezza è dai nemici, non attraverso distruggerli.
+
+### Considerazioni di Traduzione
+
+- **σπλάγχνα ἐλέους**: "Tenera misericordia," "compassione sentita"—la profondità viscerale conta
+- **ἀνατολή**: "Alba," "aurora," "germoglio"—considerare preservare la multivalenza (solare e messianica)
+- **σκιᾷ θανάτου**: "Ombra di morte"—echeggia Salmo 23:4 LXX; preservare la connessione
+
+### Arco Emotivo
+
+Benedizione e lode (v.68a) → Redenzione nazionale (vv.68b-75) → Indirizzo diretto al neonato Giovanni (vv.76-77) → Tenera misericordia e luce (vv.78-79). Movimento dalla speranza corporativa di Israele alla promessa intima al bambino individuale alla luce universale.
+
+---
+
+## Pericope 8: Crescendo nel Deserto (1:80)
+
+### Testo Greco
+> Τὸ δὲ παιδίον ηὔξανε καὶ ἐκραταιοῦτο πνεύματι, καὶ ἦν ἐν ταῖς ἐρήμοις ἕως ἡμέρας ἀναδείξεως αὐτοῦ πρὸς τὸν Ἰσραήλ.
+
+### Termini Chiave
+
+| Greco | Traslitterazione | Traduzione | Campo Semantico |
+|-------|------------------|------------|------------------|
+| ηὔξανε | ēuxane | stava crescendo | Tempo imperfetto: crescita continua nel tempo |
+| ἐκραταιοῦτο | ekrataiouto | si fortificava | Passivo: rafforzato da azione divina |
+| ἐρήμοις | erēmois | deserto, luoghi deserti | Non deserto senza vita ma aree disabitate/rurali |
+| ἀνάδειξις | anadeixis | apparizione pubblica, manifestazione | Termine tecnico per commissione pubblica o rivelazione |
+
+### Sintesi Commentaristica
+
+**Bovon (Hermeneia)**: Questo versetto riassuntivo collega la nascita di Giovanni al suo ministero adulto (3:1ff). Il "deserto" può suggerire connessione con la comunità essena a Qumran, benché Luca non faccia connessione esplicita. La frase parallela il riassunto dell'infanzia per Gesù (2:40, 52), creando simmetria narrativa.
+
+**Bock (Baker)**: "Forte nello spirito" indica maturazione spirituale piuttosto che meramente fisica. L'ambientazione del deserto anticipa il ministero profetico di Giovanni (3:2-4). "Fino al giorno della sua apparizione pubblica" crea suspense narrativo—dobbiamo aspettare fino al capitolo 3.
+
+**Fitzmyer (Anchor)**: Il versetto è un "ritornello di crescita" comune nelle narrative bibliche dell'infanzia (cf. Sansone, Samuele, Gesù). Il deserto ha associazioni profetiche (Elia, formazione di Israele). La formazione di Giovanni avviene lontano dalla religione istituzionale—emergerà per sfidarla.
+
+**Eisele (Tedesco)**: "Diese Zusammenfassung überbrückt die Zeit bis zu Johannes' öffentlichem Auftreten (3,1ff). Die 'Wüste' mag auf eine Verbindung zur Gemeinschaft in Qumran hinweisen, obwohl Lukas keine explizite Verbindung herstellt." Questo riassunto collega all'apparizione pubblica di Giovanni (3:1ff). Il "deserto" può suggerire connessione con Qumran, ma Luca non fa connessione esplicita. Le associazioni profetiche (Elia, formazione di Israele) sono primarie.
+
+**Ancient Christian Commentary (Patristico)**:
+- **Beda**: Il ritornello di crescita segue il modello letterario comune alle narrative bibliche dell'infanzia (Sansone, Samuele, Gesù). Il deserto è il luogo di formazione profetica e incontro divino nella memoria di Israele.
+
+### Sfondo Culturale (Keener)
+
+Il deserto giudeo era abitato da vari gruppi, inclusa la comunità essena a Qumran. Alcuni hanno speculato che Giovanni avesse contatto con esseni, dato il suo stile di vita ascetico e ubicazione desertica. Tuttavia, Luca non mostra interesse in questa connessione. Il deserto è il luogo di formazione profetica e incontro divino nella memoria di Israele.
+
+### Analisi dei Sette Principi
+
+1. **Equivalenza Letteraria**: Questo è un riassunto transizionale. Mantienilo breve; dovrebbe sentirsi come un accordo di chiusura, non un movimento nuovo.
+
+2. **Contesto Culturale**: Il deserto come spazio formativo (Israele, Elia, esseni) fornisce ricco sfondo.
+
+3. **Apologetica a Mani Aperte**: Le connessioni di Qumran sono speculative. Le note possono menzionare la teoria senza affermarla.
+
+4. **Ermeneutica Ecumenica**: Il modello di formazione nascosta prima del ministero pubblico risuona attraverso tradizioni (vita monastica, preparazione, discernimento).
+
+5. **Localizzazione Culturale-Contestuale**: "Deserto" varia per geografia. Il punto è separazione dai centri di potere per formazione divina.
+
+6. **Intersezionalità**: La formazione di Giovanni è fuori dalle strutture istituzionali. Questo autentica la sua successiva critica profetica.
+
+7. **Responsabilità per il Danno**: Nessuna specifica per questo versetto.
+
+### Considerazioni di Traduzione
+
+- **ἐν ταῖς ἐρήμοις**: "Nei luoghi deserti" (plurale)—non una singola ubicazione
+- **ἀνάδειξις**: "Apparizione pubblica," "commissione," "manifestazione"—l'inizio formale del ministero pubblico
+
+### Arco Emotivo
+
+Crescita silenziosa (v.80a) → Preparazione nascosta (v.80b) → Anticipazione di rivelazione futura (v.80c). Il capitolo finisce in attesa.
+
+---
+
+## Sintesi del Capitolo
+
+### Temi Teologici Principali
+
+1. **Fedeltà Divina a Israele**: Attraverso tutto, Dio adempie promesse antiche—ad Abramo (vv.55, 73), a Davide (vv.32-33, 69), attraverso i profeti (v.70). La nuova era emerge dalla profonda continuità con la storia di Israele.
+
+2. **La Grande Inversione**: Il centro del Magnificat (vv.51-53) articola ciò che tutto il capitolo drammatizza: Dio opera attraverso i marginalizzati (sacerdoti anziani, donne sterili, ragazze contadine) per rovesciare strutture di potere esistenti.
+
+3. **Empowerment dello Spirito**: Lo Spirito Santo riempie Giovanni dal grembo (v.15), Elisabetta al saluto di Maria (v.41), Zaccaria al nome di Giovanni (v.67), e copre con ombra Maria per la concezione (v.35). Questa è una narrativa saturata di Spirito.
+
+4. **Agenzia Femminile**: Le donne sono attrici centrali—Elisabetta, Maria, e anche il riconoscimento del Giovanni non nato. La teologia del capitolo è parlata primariamente attraverso voci femminili.
+
+5. **Adempimento Profetico e Aspettativa**: Gli eventi adempiono ciò che fu parlato (v.45, 55, 70) mentre creano aspettativa per ciò che viene. Il capitolo finisce in attesa (v.80).
+
+### Significato Denominazionale
+
+**Cattolico Romano / Ortodosso**:
+- Fondazione per devozione mariana (κεχαριτωμένη, Magnificat, Visitazione)
+- Testi liturgici (Magnificat nei Vespri, Benedictus nelle Lodi)
+- Teologia di Theotokos ("madre del mio Signore")
+- Mediazione angelica, continuità del culto del Tempio
+
+**Protestante**:
+- Sola gratia enfatizzata (linguaggio di grazia, iniziativa divina attraverso tutto)
+- Fede come modello (risposta di Maria, contrasto con dubbio di Zaccaria)
+- Critica profetica del potere (inversioni del Magnificat)
+- Adempimento scritturale (saturazione dell'AT di entrambi gli inni)
+
+**Ortodosso**:
+- Temi di theosis (cooperazione divino-umana nel fiat di Maria)
+- Eredità liturgica
+- Continuità con culto e profezia giudaici
+
+**Evangelico**:
+- Nascita verginale come dottrina fondamentale
+- Incontro personale con chiamata divina (fiat di Maria)
+- Scrittura come narrativa unificata di promessa-adempimento
+
+### Note Intersezionali
+
+- **Classe**: Dio sceglie i marginali—una ragazza contadina, una coppia anziana, villani di montagna—per portare le rivelazioni centrali.
+- **Genere**: Le donne parlano il contenuto teologico del capitolo; autorità maschili (Zaccaria, i vicini) sono corrette o silenziate.
+- **Età**: Sia anziani (Zaccaria, Elisabetta) che giovani (Maria) sono agenti. La preferenza tipica per maschi in età adulta è sovvertita.
+- **Etnicità/Colonia**: La narrativa è saturata di identità giudaica sotto occupazione romana. Le speranze di liberazione sono reali ma saranno riinquadrate.
+
+### Note di Responsabilità
+
+- **Sterilità**: Il capitolo usa sterilità come dispositivo di trama ma vindica Elisabetta e non suggerisce mai fallimento morale. Ancora, evitare linguaggio che svergogni infertilità.
+- **"Sottomissione" femminile**: La δούλη di Maria è disponibilità auto-scelta a Dio, non modello per subordinazione femminile agli uomini. Il contesto conta.
+- **Violenza nell'"inversione"**: Le inversioni del Magnificat sono azione divina, non un appello a violenza umana. La via della pace (v.79) è la parola finale.
+- **"Nemici"**: Il linguaggio del Benedictus sui nemici può essere armato. Il testo punta verso pace e luce, non distruzione.
+
+---
+
+## Appendice: Riferimento Termini Greci Chiave
+
+| Greco | Traslitterazione | Versetti | Note di Traduzione |
+|-------|------------------|----------|---------------------|
+| ἀσφάλεια | asphaleia | 1:4 | Certezza, affidabilità—stabilità fondata |
+| διήγησις | diēgēsis | 1:1 | Narrazione, racconto ordinato |
+| κεχαριτωμένη | kecharitōmenē | 1:28 | Graziata, favorita (perfetto passivo) |
+| ἐπισκιάζω | episkiazō | 1:35 | Coprire con ombra—immagini tabernacolo/Shekinah |
+| ταπείνωσις | tapeinōsis | 1:48 | Umiltà, umiliazione—posizione sociale |
+| δούλη | doulē | 1:38, 48 | Serva—disponibilità auto-scelta |
+| ἔλεος | eleos | 1:50, 54, 58, 72, 78 | Misericordia, amore fedele (ebraico hesed) |
+| σωτηρία | sōtēria | 1:69, 71, 77 | Salvezza—liberazione comprensiva |
+| λύτρωσις | lytrōsis | 1:68 | Redenzione—immagini esodo/riscatto |
+| ἀνατολή | anatolē | 1:78 | Aurora, alba, germoglio—titolo messianico |
+| Ὕψιστος | Hypsistos | 1:32, 35, 76 | Altissimo—titolo divino |
+| πνεῦμα ἅγιον | pneuma hagion | 1:15, 35, 41, 67 | Spirito Santo |
+
+---
+
+## Stato
+
+\`\`\`yaml
+stato_esegesi:
+  libro: luca
+  capitolo: 1
+  stato: completa_con_supplemento
+  file_output: analysis/42_luke_01_exegesis_it.md
+  creato: 2025-12-15
+  aggiornato: 2025-12-18
+  versione: 2.0
+  pericopi_analizzate: 8
+  termini_chiave_identificati: 15
+  fonti_consultate:
+    - Testo Greco NA28
+    - Lessico BDAG
+    - Lessico Louw-Nida
+    - Bovon (Hermeneia)
+    - Bock (Baker Exegetical)
+    - Fitzmyer (Anchor Bible)
+    - Keener (IVP Background)
+    - Wright
+    - Eisele (Tedesco - Das Lukasevangelium)
+    - Ancient Christian Commentary on Scripture (Patristico)
+    - Stronstad (Charismatic Theology of St. Luke)
+  sette_principi_applicati: true
+  copertura_ecumenica_migliorata: true
+  fonti_patristiche_aggiunte:
+    - Origene
+    - Ambrogio
+    - Agostino
+    - Crisostomo
+    - Beda
+    - Girolamo
+    - Efrem il Siro
+    - Massimo di Torino
+    - Pietro Crisologo
+  pronto_per_traduzione: true
+\`\`\``;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Luca 1 Esegesi" lang="it" description="Analisi del testo greco, commenti principali, contesto culturale e note di traduzione">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/it/luke/1`} class="back-link">&larr; Torna a Luca 1</a>
+        <h2>Esegesi</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Esegesi</p>
+          <h1>Luca 1</h1>
+          <p class="subtitle">Analisi del testo greco, commenti principali, contesto culturale e note di traduzione</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

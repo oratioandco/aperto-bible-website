@@ -1,0 +1,1009 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Hvorfor Jeg Skriver Dette",
+    "verses": "1:1-4"
+  },
+  {
+    "id": "pericope-1",
+    "title": "En Gammel Præst og et Umuligt Løfte",
+    "verses": "1:5-25"
+  },
+  {
+    "id": "pericope-2",
+    "title": "Maria Siger Ja",
+    "verses": "1:26-38"
+  },
+  {
+    "id": "pericope-3",
+    "title": "To Kvinder, To Mirakler",
+    "verses": "1:39-45"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Marias Sang (Magnificat)",
+    "verses": "1:46-56"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Hans Navn er Johannes",
+    "verses": "1:57-66"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Zakarias' Profeti (Benedictus)",
+    "verses": "1:67-79"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Opvækst i Ørkenen",
+    "verses": "1:80"
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Lukas 1 - Grundlæggende Eksegese
+
+**Version**: 2.0
+**Dato**: 2025-12-18
+**Status**: Komplet (med Supplement Integreret)
+**Kilder**: NA28 Græsk Tekst, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Keener (IVP Background), Wright, Eisele (Tysk), Ancient Christian Commentary (Patristisk), Stronstad (Karismatisk)
+
+---
+
+## Oversigt
+
+Lukas 1 åbner Det Tredje Evangelium med et sofistikeret litterært forord efterfulgt af sammenvævede fødselsfortællinger om Johannes Døberen og Jesus. Kapitlet etablerer Lukas' særlige teologiske vægtlægninger: Guds troskab mod Israels løfter, omvendingen af sociale hierarkier, marginale figurers handlekraft (ældre præster, golde kvinder, unge bondepiger), og Åndens rolle i indvielsen af frelsens nye æra. De to store hymner (Magnificat og Benedictus) forankrer fortællingen i jødisk liturgisk tradition samtidig med at de peger frem mod temaer, der vil udvikle sig gennem hele Lukas-Apostlenes Gerninger.
+
+**Antal vers**: 80
+**Nøgletemaer**: Gudfrygtighed trohed, omvendelse/ophøjelse af de ringe, Åndens bemyndigelse, profetiens opfyldelse, kvindelig handlekraft, pagtens fornyelse
+
+---
+
+## Perikope-struktur
+
+| Perikope | Vers | Titel | Litterær Form |
+|----------|------|-------|---------------|
+| luke_1_1-4 | 1:1-4 | Hvorfor Jeg Skriver Dette | Forord |
+| luke_1_5-25 | 1:5-25 | En Gammel Præst og et Umuligt Løfte | Fødselsfortælling |
+| luke_1_26-38 | 1:26-38 | Maria Siger Ja | Fødselsfortælling |
+| luke_1_39-45 | 1:39-45 | To Kvinder, To Mirakler | Fødselsfortælling |
+| luke_1_46-56 | 1:46-56 | Marias Sang (Magnificat) | Lovprisningspoesi |
+| luke_1_57-66 | 1:57-66 | Hans Navn er Johannes | Fødselsfortælling |
+| luke_1_67-79 | 1:67-79 | Zakarias' Profeti (Benedictus) | Profetisk Poesi |
+| luke_1_80 | 1:80 | Opvækst i Ørkenen | Sammenfatning |
+
+---
+
+## Perikope 1: Hvorfor Jeg Skriver Dette (1:1-4)
+
+### Græsk Tekst
+> Ἐπειδήπερ πολλοὶ ἐπεχείρησαν ἀνατάξασθαι διήγησιν περὶ τῶν πεπληροφορημένων ἐν ἡμῖν πραγμάτων, καθὼς παρέδοσαν ἡμῖν οἱ ἀπʼ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου, ἔδοξε κἀμοὶ παρηκολουθηκότι ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε, ἵνα ἐπιγνῷς περὶ ὧν κατηχήθης λόγων τὴν ἀσφάλειαν.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| διήγησις | diēgēsis | fortælling, ordnet beretning | Litterært begreb for sammenhængende prosafortælling; formel, ikke tilfældig historiefortælling |
+| πεπληροφορημένων | peplērophorēmenōn | opfyldt, fuldbragt, ført til fuldendelse | Perfektum passiv: begivenheder ført til fuldhed ved guddommelig handling |
+| αὐτόπται | autoptai | øjenvidner | Teknisk term; dem der så førstehånds—juridisk/historiografisk præcision |
+| ἀκριβῶς | akribōs | nøjagtigt, omhyggeligt | Betegner præcision i undersøgelse og rapportering |
+| καθεξῆς | kathexēs | i ordnet rækkefølge | Foreslår logisk eller tematisk (ikke nødvendigvis kronologisk) arrangement |
+| ἀσφάλεια | asphaleia | sikkerhed, pålidelighed, stabilitet | BDAG: "stabilitet af idé eller udsagn, sikkerhed, sandhed" |
+| κατηχήθης | katēchēthēs | undervist, belært mundtligt | Rod til "katekese"—formel religiøs undervisning |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Forordet følger hellenistiske historiografiske konventioner mens det fremsætter teologiske påstande. Lukas positionerer sig blandt "mange" forgængere men påberåber sig særlige akkreditiver: grundig undersøgelse (παρηκολουθηκότι), nøjagtighed (ἀκριβῶς), og ordnet præsentation (καθεξῆς). Formålet (ἀσφάλεια) antyder at Theofilus har modtaget undervisning men har brug for bekræftelse—måske stående over for konkurrerende fortællinger eller tvivl.
+
+**Bock (Baker)**: Forordet etablerer Lukas' metode: øjenvidnetradition → omhyggelig undersøgelse → ordnet skrivning → læsersikkerhed. "Theofilus" ("Guds ven") kan være en protektor eller repræsentativ læser. Det perfekte participium πεπληροφορημένων understreger guddommelig fuldendelse af begivenheder, ikke blot historisk forekomst.
+
+**Fitzmyer (Anchor)**: Paralleller med græske historikere (Herodot, Thukydid) og medicinske forfattere (Hippokrates). Lukas hævder adgang til flere kilder ("mange"), øjenvidnetradition, og personlig undersøgelse—standard historiografiske topoi der etablerer troværdighed.
+
+**Eisele (Tysk)**: "Der Verfasser dieser Zeilen bleibt für uns anonym... Für den Autor selbst ist etwas anderes entscheidend: Er formuliert sein Selbstverständnis als antiker Historiker, der sich auf Überlieferung beruft und sich zugleich in ein kritisches Verhältnis dazu setzt." Lukas positionerer sig ikke som naiv tro men som en der søger "klare Erkenntnis" (klar viden) gennem kritisk undersøgelse af traditionen. Hans term "Diener des Wortes" (ordets tjenere) for øjenvidner understreger deres ministerielle rolle. Yderligere: "Christlicher Unterricht ist keine Indoktrination, sondern zielt auf begründete Einsicht, die Unterweisung braucht und Freiheit lässt"—kristen undervisning sigter mod "begrundet indsigt," ikke blind tro.
+
+**Stronstad (Karismatisk)**: "Den litterære enhed af Lukas-Apostlenes Gerninger har forblevet uden alvorlig udfordring... fortolkere antager ofte at Lukas-Apostlenes Gerninger afspejler en teologisk diskontinuitet mellem dets to dele, snarere end en teologisk kontinuitet eller homogenitet." Dette udfordrer kunstige opdelinger mellem Evangeliets og Apostlenes Gerningers pneumatologi. Åndssprog i Lukas 1 må læses i kontinuitet med Apostlenes Gerninger.
+
+### Kulturel Baggrund (Keener)
+
+Antik historiografi værdsatte øjenvidneudsagn og omhyggelig kildeundersøgelse. Dedikationer til protektorer (som "den ædle Theofilus") var konventionelle i græsk-romersk litteratur. Titlen κράτιστε ("mest ædle") antyder at Theofilus havde en vis social standing, muligvis en romersk embedsmand eller velhavende protektor der finansierede værkets produktion.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Den enkeltsætningskonstruktion (periodisk stil) kræver omhyggelig omstrukturering på målsprogene samtidig med at bygge momentum mod formålsbestemmelsen bevares. Det formelle register må bevares—dette er ikke tilfældig tale.
+
+2. **Kulturel Kontekst**: Førsteårshundredets læsere ville genkende historiografiske konventioner. Moderne læsere kan have behov for noter der forklarer hvorfor øjenvidnekæder betyder noget, eller hvad "ordnet" betyder i antik fortælling (tematisk, ikke strengt kronologisk).
+
+3. **Åbenhåndet Apologetik**: Lukas hævder pålidelighed uden at angribe alternativer. Oversættelsen skal formidle tillid uden triumfalisme. De "mange" forgængere æres, afvises ikke.
+
+4. **Økumenisk Hermeneutik**: Alle traditioner værdsætter dette forords påstande om omhyggelig transmission. Katolsk vægtlægning på tradition (παρέδοσαν = "overleveret") og protestantisk vægtlægning på sikkerhed kan begge finde grundlag her.
+
+5. **Kulturel-kontekstuel Lokalisering**: Protektor-dedikationsformatet kan have behov for kulturel tilpasning. Nogle kulturer har tilsvarende litterære konventioner; andre kan finde det forvirrende uden forklaring.
+
+6. **Intersektionalitet**: Lukas henvender sig til et (formodentlig) uddannet, græskttalende publikum men skriver om begivenheder blandt galilæiske bønder og judæiske præster. Forordet bygger bro mellem sociale verdener.
+
+7. **Ansvarlighed for Skade**: Nogle læsninger har våbnet "sikkerhedspaastande" mod dem med spørgsmål eller tvivl. Det græske ἀσφάλεια antyder jordet stabilitet, ikke aggressiv sikkerhed der stilner undersøgelser.
+
+### Oversættelsesovervejelser
+
+- **ἀσφάλεια**: Ikke "bevis" eller "absolut sikkerhed" men "pålidelighed, solidt grundlag"—noget man kan stå på
+- **καθεξῆς**: "Ordnet" ikke "kronologisk"—Lukas arrangerer tematisk visse steder
+- **κράτιστε**: Ærende titel kræver kulturel ækvivalent (tysk "Hochverehrter"? dansk "Deres Excellence"?)
+- **Periodisk sætning**: Kan have behov for opdeling i flere sætninger samtidig med at det logiske flow bevares
+
+### Følelsesmæssig Bue
+
+Bevægelse fra kollektiv indsats (mange har skrevet) → personlig investering (det forekom også mig godt) → direkte henvendelse (til dig, Theofilus) → ultimativ formål (så du kan vide). Bygger fra generelt til intimt.
+
+---
+
+## Perikope 2: En Gammel Præst og et Umuligt Løfte (1:5-25)
+
+### Græsk Tekst (Udvalgt)
+> v.5: Ἐγένετο ἐν ταῖς ἡμέραις Ἡρῴδου βασιλέως τῆς Ἰουδαίας ἱερεύς τις ὀνόματι Ζαχαρίας ἐξ ἐφημερίας Ἀβιά...
+> v.7: καὶ οὐκ ἦν αὐτοῖς τέκνον, καθότι ἦν ἡ Ἐλισάβετ στεῖρα, καὶ ἀμφότεροι προβεβηκότες ἐν ταῖς ἡμέραις αὐτῶν ἦσαν.
+> v.13: Μὴ φοβοῦ, Ζαχαρία, διότι εἰσηκούσθη ἡ δέησίς σου...
+> v.18: Κατὰ τί γνώσομαι τοῦτο; ἐγὼ γάρ εἰμι πρεσβύτης...
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| ἐφημερία | ephēmeria | præsteafdeling, skift | En af 24 roterende præsteafdelinger; teknisk tempelbegreb |
+| στεῖρα | steira | gold | Belastet begreb der minder om Sara, Rebekka, Rakel, Hanna |
+| δίκαιοι | dikaioi | retfærdige | Pagtslig troskab, ikke moralsk perfektion |
+| ἄμεμπτοι | amemptoi | dadelfri | Uden bebrejdelse i overholdelse af Torah |
+| θυμιᾶσαι | thymiasai | at brænde røgelse | En-gang-i-livet ære; lodtrækning bestemte hvem der gik ind i det Hellige |
+| ὀπτασία | optasia | syn, overnaturlig åbenbaring | Adskilt fra ὅραμα; understreger seeraspektet |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Fortællingen skifter dramatisk fra græsk historiografisk forord til Septuaginta-stil ("Ἐγένετο ἐν ταῖς ἡμέραις..."). Dette er intentionel litterær signalering—vi indtræder i Israels hellige historie. Zakarias' tvivl er parallel til Abraham (1 Mos 15:8) men modtager stærkere irettesættelse, måske fordi åbenbaringen nu er mere fremskredent.
+
+**Bock (Baker)**: Bebudelsen følger et genkendeligt GT-mønster: fremtoning, frygt, budskab, indvending, tegn. Zakarias og Elisabeth introduceres som eksempler på jødisk fromhed—retfærdige i begge lovtavler (overfor Gud og næste). Deres barnløshed fremkalder Israels store goldheds-fortællinger (Sara, Hanna) der frembringer særlige børn gennem guddommelig indgriben.
+
+**Fitzmyer (Anchor)**: Historisk forankring ("i Herodes' dage") placerer fortællingen i politisk virkelighed. Præsteafdelingen Abia (1 Krøn 24:10) giver specificitet. Røgelseoffer skete to gange dagligt; at blive valgt ved lodtrækning var en en-gang-i-livet privilegie som Zakarias ville have ventet på i årtier.
+
+**Eisele (Tysk)**: "Lukas macht einen doppelten Anfang, indem er Verheißung und Geburt nicht nur von Jesus, sondern auch von Johannes dem Täufer erzählt." Lukas' "dobbelte begyndelse" (doppelter Anfang) parallelliserer intentionelt Johannes og Jesus. Dette har anti-markionitisk betydning: Jesus' jødiske arv gennem præstelige forbindelser modvirker ethvert forsøg på at fratage Jesus jødisk identitet. "Jesus war wirklich Mensch mit einer menschlichen Familie und ihrer jüdischen Geschichte"—Jesus var virkelig menneske med en menneskelig familie og deres jødiske historie.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Maximus af Turin**: "Jeg ved ikke hvad der er det vigtigste vi skal prædike—at han [Johannes Døberen] blev vidunderligt født eller mere vidunderligt dræbt—for han blev født som en profeti og myrdet for sandheden." (Prædiken 5.1-2)
+- **Ambrosius**: "Den Hellige Skrift fortæller os at ikke blot karakteren af dem der er prisværdige men også deres forældre skal prises... Derfor er præsten Zakarias ikke blot en præst men også af Abias skift, det vil sige, en ædel blandt hans hustrus forfædre." (Exposition af Lukas 1.15-16)
+
+**Stronstad (Karismatisk)**: "Lukas' indvielsesfortælling... har eksplicitte typologiske elementer... Åndens overførsel fra Jesus til disciplene afspejler den tidligere overførsel af Ånden fra Moses til de halvfjerds ældste (4 Mos 11:16-30)." Åndens gave følger GT-mønster af karismatisk overførsel. Bemærk: Johannes vil være "fyldt med Helligånden selv fra sin moders liv" (v.15)—en permanent karismatisk begavelse.
+
+### Kulturel Baggrund (Keener)
+
+Præstetjeneste involverede to-ugers rotationer to gange årligt. Røgelseofferet skete i det Hellige (ikke det Allerhelligste); præsten gik ind alene mens menigheden bad udenfor. Gabriels position "ved højre side af alteret" indikerer gunst og magt. Jødisk angelologi anerkendte Gabriel som en af ærkenenglene der står i Guds nærhed (jf. Dan 8-9).
+
+Barnløshed var socialt ødelæggende i antikken, ofte bebrejdet kvinden trods Elisabeths dadelfri karakter. Elisabeths fem måneders afsondring (v.24) kan afspejle beskedenhed, taknemmelighed eller beskyttelse af det mirakuløse svangerskab.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Skiftet fra græsk periodisk stil til Septuaginta-fortælling ("Og det begav sig...") er et litterært træk at bevare. Gabriels formelle selvidentifikation (v.19) har liturgisk vægt.
+
+2. **Kulturel Kontekst**: Tempeltilbedelse, præsteafdelinger, røgelseoffer og englehierarki har behov for tilgængelig forklaring. Goldheds skam bør formidles uden at forstærke den skam for moderne læsere.
+
+3. **Åbenhåndet Apologetik**: Zakarias' tvivl præsenteres ærligt—selv de retfærdige kæmper med det mirakuløse. Hans midlertidige stumhed er disciplin, ikke fordømmelse.
+
+4. **Økumenisk Hermeneutik**: 
+   - Katolsk/Ortodoks: Præcedent for præstetjeneste, engle-forbøn, tempeltilbedelse
+   - Protestant: Tro/tvivl dynamik, guddommelig initiativ i frelse
+   - Alle: Den Gud der holder løfter på tværs af generationer
+
+5. **Kulturel-kontekstuel Lokalisering**: Tempelsystemet kan være ukendt; begreber om ritual renhed, helligt rum og præstelodder har behov for kulturel brobyggning.
+
+6. **Intersektionalitet**: 
+   - Ældre karakterer som Guds handlingens agenter (modvirker ungdomscentreret kultur)
+   - Elisabeths retfærdiggørelse efter social skam
+   - Præstelig autoritet parret med personlig sårbarhed
+
+7. **Ansvarlighed for Skade**: Goldheds-sprog må ikke skamme dem der oplever ufrugtbarhed i dag. Teksten viser Guds omsorg for de marginaliserede, ikke deres mangel.
+
+### Oversættelsesovervejelser
+
+- **Ἐγένετο**: Septuaginta-åbning; overvej om der skal bevares arkaiserende følelse eller naturaliseres
+- **στεῖρα**: "Gold" bærer bibelske genklange men kan have behov for sensitivitet i moderne sammenhænge
+- **εὐαγγελίσασθαι** (v.19): "Bringe gode nyheder"—bemærk evangelievokabularet der allerede optræder
+- **κωφός** (v.22): "Stum" eller "ude af stand til at tale" (ikke nødvendigvis "døv")
+
+### Følelsesmæssig Bue
+
+Fromt troskab (vv.5-7) → Uventet møde (vv.8-12) → Overvældende løfte (vv.13-17) → Menneskelig tvivl (v.18) → Guddommelig disciplin (vv.19-20) → Fællesskabets undren (vv.21-22) → Stille glæde (vv.23-25). Elisabeths sidste ord transformerer skam til lovprisning.
+
+---
+
+## Perikope 3: Maria Siger Ja (1:26-38)
+
+### Græsk Tekst (Udvalgt)
+> v.28: Χαῖρε, κεχαριτωμένη, ὁ κύριος μετὰ σοῦ.
+> v.35: Πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις Ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται, υἱὸς θεοῦ.
+> v.38: Ἰδοὺ ἡ δούλη κυρίου· γένοιτό μοι κατὰ τὸ ῥῆμά σου.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| κεχαριτωμένη | kecharitōmenē | den benaadede, den yndede | Perfektum passiv participium: "den som er blevet naadet/yndet" |
+| παρθένος | parthenos | jomfru, ung kvinde | Ugift kvinde i ægteparat alder; jomfruelighed understreget i konteksten |
+| ἐπισκιάσει | episkiasei | vil overskygge | BDAG: guddommelig aktivitet; genlyder Shekinah der overskygger tabernaklet |
+| Ὕψιστος | Hypsistos | Den Højeste | Jødisk titel for Gud; brugt i kontekster af guddommelig transcendens |
+| δούλη | doulē | kvindelig tjener, slave | Selvbetegnelse af radikal tilgængelighed og underkastelse |
+| ῥῆμα | rhēma | ord, ting, sag | Både talt ord og den virkelighed det frembringer (v.37: "intet er umuligt hos Gud") |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Bebudelsen følger samme genremønster som Zakarias' men med afgørende forskelle. Maria modtager et større løfte med mindre social status. Hendes spørgsmål (v.34) er forespørgsel, ikke tvivl—hun spørger "hvordan?" ikke "hvordan kan jeg være sikker?" Overskyggelsessprog (ἐπισκιάζω) forbinder til 2 Mos 40:35 hvor skyen dækker tabernaklet. Maria bliver det nye locus for guddommelig nærvær.
+
+**Bock (Baker)**: Det kristologiske indhold er tæt: Den Højestes søn, Davids trone, evigt kongedømme, Guds søn. Undfangelsen er ved Helligånden, ikke menneskelig handling—det passive γεννώμενον understreger guddommelig handling. Marias svar er eksemplarisk tro: "Ske mig efter dit ord."
+
+**Fitzmyer (Anchor)**: Nazaret var en ubetydelig landsby på måske 200-400 mennesker. Marias forlovelse (μνηστεύω) var en juridisk bindende ordning, selvom hun forblev i sin fars hus. Jomfruundfangelsen fortælles uden eksplicit apologetik—Lukas fremstiller det simpelt som kendsgerning.
+
+**Eisele (Tysk)**: "Während Matthäus jedoch aus der Perspektive Josefs erzählt... steht bei Lukas Maria im Mittelpunkt, die als weibliche Hauptfigur die Kindheitserzählung prägt." Mens Matthæus fortæller fra Josefs perspektiv, centrerer Lukas bevidst Maria som protagonist—et betydningsfuldt valg for intersektionel læsning.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Origenes**: "Englen hilste Maria med en ny tiltale, som jeg ikke kunne finde nogen andre steder i Skriften... 'Hil dig, fuld af naade' tiltales ikke en mand. Denne hilsen var reserveret Maria alene." (Homilier om Lukas 6.7)
+- **Ambrosius**: "Virkelig fuld af naade var hun, på hvem det blev skænket ved guddommelig gunst at hun, først blandt kvinder, skulle tilbyde Gud den mest herlige gave af sin jomfruelighed. Derfor var hun der stræbte efter at efterligne et engleliv værdig til at nyde oplevelsen af at se og tale med en engel." (Homilier om Evangelierne 1.3)
+
+**Stronstad (Karismatisk)**: "Udtrykket 'fyldt med Helligånden' har en anden (og overlegen?) betydning i Apostlenes Gerninger end det har i Lukas... [men] for Johannes var Åndens profetiske gave bestemt permanent (Luk 1:15) og for disciplene var den demonstrerbart gentagen." Åndens "overskygning" (v.35) forbinder til den bredere pneumatologi i Lukas-Apostlenes Gerninger. "Fyldt med Helligånden" bør oversættes konsekvent på tværs af begge bøger.
+
+### Kulturel Baggrund (Keener)
+
+Piger var typisk forlovet mellem 12-14 år gamle. Forlovelsesperioden varede omkring et år før vielsesceremonien. Marias situation—gravid under forlovelsen—ville have været socialt katastrofal; Josefs muligheder inkluderede offentlig fordømmelse eller stille skilsmisse. Gabriels budskab kommer med nul bekymring for sociale konsekvenser, et mønster hos Lukas.
+
+"Davids hus"-referencen (v.27) forbinder Jesus til kongelig slægt gennem Josef, hans juridiske far. Antikke læsere ville forstå at juridisk faderskab overførte arverettigheder uanset biologisk fødsel.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Dialog-strukturen (hilsen → budskab → spørgsmål → forklaring → svar) bør bevares. Marias berømte svar (v.38) har liturgisk kraft på tværs af sprog—fiat.
+
+2. **Kulturel Kontekst**: Forlovelseskikke, ægteskabsalder og Marias sociale sårbarhed kræver forklaring. "Overskyggelses"-sproget kræver forbindelse til 2 Mos tabernakel-billedsprog.
+
+3. **Åbenhåndet Apologetik**: Jomfruundfangelsen fremstilles uden defensiv argumentation. Lad teksten stå; noter kan anerkende forskellige læsninger uden at tvinge konklusioner.
+
+4. **Økumenisk Hermeneutik**:
+   - Katolsk/Ortodoks: Mariafromhed, κεχαριτωμένη som "fuld af nåde," Maria som ny ark
+   - Protestant: Maria som model for tro, kristologisk fokus af passagen
+   - Alle: Inkarnationens skandale—Gud indtræder gennem marginen
+
+5. **Kulturel-kontekstuel Lokalisering**: Marias svar er blevet brugt til at håndhæve kvindelig underkastelse; oversættelsen skal formidle hendes aktive samtykke og handlekraft, ikke passiv eftergivenhed. Fiat'et er et kraftfuldt "ja," ikke resignation.
+
+6. **Intersektionalitet**: 
+   - En teenage pige fra ingenting bliver Guds primære menneskelige medarbejder
+   - Klasse-omvendelse: bondepige modtager kongeligt løfte
+   - Køn: kvindelig handlekraft er central; Gud spørger, Maria svarer
+
+7. **Ansvarlighed for Skade**: "Tjenerinde"-sprog er blevet brugt til at håndhæve kvindelig underkastelse. δούλη her er en selv-valgt identitet af radikal tilgængelighed for Gud, ikke påtvungen trældom til mænd.
+
+### Oversættelsesovervejelser
+
+- **κεχαριτωμένη**: "Yndede," "nådede," "fuld af nåde"—alle har tradition. Perfektum tempus antyder afsluttet handling med vedvarende effekt.
+- **ἐπισκιάσει**: "Overskygge" bærer tabernakel-resonans men lyder uhyggeligt på dansk; overvej alternativer der formidler beskyttende nærvær
+- **δούλη**: "Tjenerinde" vs. "slave" vs. "tjenestepige"—hver har baggage. Kontekst betyder: dette er Marias selvidentifikation overfor Gud, ikke en social status.
+
+### Følelsesmæssig Bue
+
+Forbavsende hilsen (v.28) → Dyb forvirring (v.29) → Beroligelse (v.30) → Overvældende løfte (vv.31-33) → Ærligt spørgsmål (v.34) → Guddommelig mysterium (v.35) → Bekræftende tegn (vv.36-37) → Beslutsommere samtykke (v.38). Bevægelsen er fra forvirring til modig tro.
+
+---
+
+## Perikope 4: To Kvinder, To Mirakler (1:39-45)
+
+### Græsk Tekst
+> v.41: καὶ ἐγένετο ὡς ἤκουσεν τὸν ἀσπασμὸν τῆς Μαρίας ἡ Ἐλισάβετ, ἐσκίρτησεν τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς, καὶ ἐπλήσθη πνεύματος ἁγίου ἡ Ἐλισάβετ,
+> v.42: καὶ ἀνεφώνησεν κραυγῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξίν, καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.
+> v.45: καὶ μακαρία ἡ πιστεύσασα ὅτι ἔσται τελείωσις τοῖς λελαλημένοις αὐτῇ παρὰ κυρίου.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| ἐσκίρτησεν | eskirtēsen | sprang, hoppede | Stærk fysisk bevægelse; brugt om lam der springer, eller fosterbevægelse |
+| βρέφος | brephos | baby, spædbarn, ufødt barn | Kan referere til foster eller nyfødt; her understreges personlighed før fødsel |
+| μακαρία | makaria | velsignet, lykkelig | Saligprisningssprog: en på hvem guddommelig gunst hviler |
+| πιστεύσασα | pisteusasa | havende troet | Aorist participium: den afgørende troens handling |
+| τελείωσις | teleiōsis | opfyldelse, fuldendelse | Ikke blot forekomst men perfektion af det som var lovet |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Dette er et møde mellem to profetiske kvinder. Elisabeth fyldes med Ånden og profeterer—den første profetiske udtalelse i selve evangeliet. Hendes velsignelse (v.42) genlyder Jael (Dom 5:24) og Judit (Jdt 13:18), der forbinder Maria til Israels heroiske kvinder. Saligprisningen (v.45) kontrasterer Marias tro med Zakarias' tvivl.
+
+**Bock (Baker)**: Barnet der springer i livmoderen opfylder Gabriels profeti om at Johannes ville være Ånds-fyldt fra fødslen (v.15). Elisabeth anerkender Maria som "min Herres moder" (v.43)—en forbløffende titel der anerkender Jesus' overlegne status. Scenen etablerer forholdet mellem Johannes og Jesus: forløber og Herre.
+
+**Fitzmyer (Anchor)**: "Judas bjerge" var en rejse på flere dage fra Nazaret. Marias hastighed (μετὰ σπουδῆς) antyder urgency, muligvis for at bekræfte det tegn hun blev givet (Elisabeths svangerskab). Mødet mellem de to kvinder er det første møde mellem de to bevægelser der vil forenes i Jesus.
+
+**Eisele (Tysk)**: "Die Begegnung der Verwandten Maria und Elisabet bezeichnet einen Knotenpunkt in der Kindheitserzählung des Lukas. Hier treffen sich nicht nur die beiden Mütter, sondern zum ersten Mal auch ihre noch ungeborenen Kinder." Dette er et "Knotenpunkt" (knudepunkt)—mødet mellem mødre og deres ufødte børn. Yderligere: "Die Segenssprüche über Judit und Jaël finden Widerhall in Elisabets Segen über Maria... 'Gesegnet bist du, Tochter, vom höchsten Gott, mehr als alle Frauen auf der Erde.'" (Jdt 13,18). Elisabeths velsignelse genlyder velsignelser på Judit og Jael, der placerer Maria i rækken af heroiske kvinder der befrier Guds folk.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Ambrosius**: "Johannes døbte Ham gennem hvem alle andre skulle døbes." Selv i livmoderen etableres det kristologiske hierarki.
+- **Beda**: "Både Elias og Johannes var celibatære. Begge bar ru dragt. Begge tilbragte deres liv i ørkenen. Begge var sandhedens herolder. Begge undergik forfølgelse for retfærdigheds skyld af en konge og dronning—den første af Akab og Jezebel, den sidste af Herodes og Herodias." (Homilier om Evangelierne 2.23)
+
+**Stronstad (Karismatisk)**: "Elisabeth fyldes med Ånden og profeterer—den første profetiske udtalelse i selve evangeliet." Hendes Ånds-fyldelse muliggør profetisk genkendelse af Maria og den ufødte Jesus. Dette etablerer mønsteret: Ånd → profetisk tale.
+
+### Kulturel Baggrund (Keener)
+
+Kvinder der besøgte kvindelige slægtninge under svangerskab var almindeligt. Varigheden af Marias ophold (tre måneder, v.56) ville have taget Elisabeth næsten til termin. Elisabeths afsondring (v.24) efterfulgt af dette intime møde skaber et kvinde-centreret fortællerrum hvor åbenbaring forekommer adskilt fra mandlig autoritet.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Den udråbende stil af Elisabeths velsignelse (κραυγῇ μεγάλῃ, "med stort råb") skal formidle profetisk intensitet. Saligprisningen (v.45) fortjener fremtrædende plads.
+
+2. **Kulturel Kontekst**: To gravide kvinder, en ældre og en ung, genkender hinanden som bærere af guddommelig løfte. Denne kvindelige solidaritet er modkulturel for patriarkalske sammenhænge.
+
+3. **Åbenhåndet Apologetik**: Passagen bekræfter præfødsel-personlighed (Johannes genkender Jesus in utero) uden at våbne det. Fokus er på profetisk genkendelse, ikke biologisk argument.
+
+4. **Økumenisk Hermeneutik**:
+   - Katolsk/Ortodoks: Visitationsfest, "min Herres moder" som Theotokos-grundlag
+   - Protestant: Maria velsignet for tro (v.45), ikke for unik status
+   - Alle: Åndens bevægelse transcenderer menneskelige hierarkier
+
+5. **Kulturel-kontekstuel Lokalisering**: I kulturer hvor kvinders forsamlinger er vigtige, resonerer denne scene naturligt. Hvor kvinders religiøse autoritet stilles spørgsmålstegn ved, er denne tekst subversiv.
+
+6. **Intersektionalitet**: 
+   - To kvinder genkender hvad mændene endnu ikke har fattet
+   - Alders-brobyggning: ældre Elisabeth og teenage Maria som profetiske partnere
+   - De ufødte deltager i det guddommelige drama
+
+7. **Ansvarlighed for Skade**: "Velsignet er din livs frugt" er blevet brugt til at skamme kvinder der ikke kan føde børn. Velsignelsen her er specifik for Marias unikke kald, ikke en generel valorisering af fertilitet.
+
+### Oversættelsesovervejelser
+
+- **κραυγῇ μεγάλῃ**: "Højt råb," "stort skrig"—Elisabeth er ikke beskeden; dette er profetisk proklamation
+- **μήτηρ τοῦ κυρίου μου**: "Min Herres moder"—κύριος bærer både messianiske og guddommelige konnotationer
+- **μακαρία ἡ πιστεύσασα**: Saligprisningsstrukturen bør bevares—"Salig er hun som troede"
+
+### Følelsesmæssig Bue
+
+Hastig rejse (v.39) → Frydefuld hilsen (v.40) → Præfødsel-genkendelse (v.41) → Ånds-fyldt profeti (vv.42-44) → Troens saligprisning (v.45). Bevægelse fra fysisk til åndelig, fra privat til profetisk.
+
+---
+
+## Perikope 5: Marias Sang - Magnificat (1:46-56)
+
+### Græsk Tekst
+> v.46-47: Μεγαλύνει ἡ ψυχή μου τὸν κύριον, καὶ ἠγαλλίασεν τὸ πνεῦμά μου ἐπὶ τῷ θεῷ τῷ σωτῆρί μου·
+> v.48: ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ...
+> v.51-53: Ἐποίησεν κράτος ἐν βραχίονι αὐτοῦ, διεσκόρπισεν ὑπερηφάνους διανοίᾳ καρδίας αὐτῶν· καθεῖλεν δυνάστας ἀπὸ θρόνων καὶ ὕψωσεν ταπεινούς, πεινῶντας ἐνέπλησεν ἀγαθῶν καὶ πλουτοῦντας ἐξαπέστειλεν κενούς.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| μεγαλύνει | megalynei | forstørrer, forherlige | Gør stor, erklærer stor—præsens tempus for vedvarende handling |
+| ταπείνωσις | tapeinōsis | ringhed, ydmygelse | BDAG: "oplevelse af skæbnens omvendelse, ydmygelse" eller "beskeden tilstand" |
+| δυνάστας | dynastas | herskere, magthavere | Magthavere, de mægtige—politisk vokabular |
+| ταπεινούς | tapeinous | ringe, ydmyge | Dem uden social magt—det modsatte af δυνάστας |
+| ἔλεος | eleos | barmhjertighed, trofasthed | Hebræisk חֶסֶד (hesed)—pagtens troskab og medfølelse |
+| σπέρματι | spermati | sæd, efterkommere | Abrahamisk løfte-sprog |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Magnificat (opkaldt efter den latinske oversættelse af μεγαλύνει) er en hymne i traditionen fra Hannas sang (1 Sam 2:1-10). Aorist verberne (vv.51-53) er debatteret: er de "profetiske aorister" der beskriver fremtidig handling som allerede fuldbragt, eller hymniske aorister der fejrer Guds karakteristiske handlinger? Sandsynligvis det sidste—Maria lovpriser hvad Gud altid gør. Hymnen kan have præ-lukansk jødisk-kristen oprindelse, tilpasset Marias stemme.
+
+**Bock (Baker)**: Magnificat deles i: personlig lovprisning (vv.46-50), kosmisk omvendelse (vv.51-53), og pagtens opfyldelse (vv.54-55). Maria bevæger sig fra sin individuelle oplevelse til Guds universelle mønster til Israels specifikke løfter. Dette teleskopering er karakteristisk for bibelsk lovprisning.
+
+**Fitzmyer (Anchor)**: Stærke genklange af Hannas sang (1 Sam 2) og andre GT-passager (Sl 103, 107, 111; Hab 3:18). Aoristerne er "gnomiske"—beskriver Guds typiske handling—eller "proleptiske"—fejrer som gjort hvad Gud nu gør gennem Marias barn. De sociale omvendelser (stolte/ydmyge, rige/fattige) forudgriber Lukas' evangelie-omfattende bekymring.
+
+**Eisele (Tysk)**: "Aus dem Lukasevangelium stammen drei der Gebete, die in der kirchlichen Liturgie am häufigsten rezitiert werden: die Lobgesänge der Maria, des Zacharias und des Simeon." Magnificat, Benedictus og Nunc Dimittis er centrale for den daglige tjeneste—oversættelsen bør være egnet til liturgisk recitation. Yderligere: "Gott lässt sich von der Not und dem Elend des Menschen zutiefst berühren und antwortet darauf mit seiner tatkräftigen Hilfe"—Gud er rørt af menneskelig lidelse og svarer med effektiv hjælp. Magnificats sociale omvendelser er guddommelig respons på ægte lidelse, ikke abstrakt teologi.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Beda**: "Den første årsag til menneskelig fordærvelse indtraf da en slange blev sendt af djævelen til en kvinde der skulle bedrages af hovmodets ånd... Fordi døden gjorde sin indgang gennem en kvinde, var det passende at livet vendte tilbage gennem en kvinde." (Homilier om Evangelierne 1.3) Eva/Maria-typologien forstærker omvendelses-temaet.
+
+**Stronstad (Karismatisk)**: Marias Magnificat følger Elisabeths profetiske udtalelse som den anden profetiske stemme i evangeliet. Begge kvinder taler under Åndens inspiration. Dette etablerer et mønster af profetisk tale der fortsætter fra GT gennem barndoms-fortællingen ind i Jesus' tjeneste og den tidlige kirke.
+
+### Kulturel Baggrund (Keener)
+
+Jødiske kvinder var typisk ikke trænet i Skriften, alligevel er Marias hymne mættet med GT-hentydninger. Dette kan afspejle (1) liturgisk formning i synagoge og hjem, (2) Lukas' litterære formning, eller (3) ægte profetisk inspiration. Indholdet resonerer med jødisk fromhed: Guds barmhjertighed mod de fattige, dom over de hovmodige, troskab mod Abrahams pagt.
+
+"Den store omvendelses"-temaet var del af jødisk eskatologisk håb. Når Gud handler afgørende, inverterer den sociale orden: herskere falder, de ydmyge rejses. Dette er revolutionært sprog der har motiveret befrielsesbevægelser gennem historien.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Magnificat er blevet sunget i årtusinder. Oversættelse bør bevare singbarhed og liturgisk rytme hvor muligt. Parallelismen (stolte/ydmyge, rige/fattige, herskere/ringe) er strukturel, ikke dekorativ.
+
+2. **Kulturel Kontekst**: Marias sang genlyder Hanna og profeterne. Noter bør spore disse forbindelser. Omvendelses-temaet forbinder til Jubelår (3 Mos 25) og profetisk retfærdighed (Amos, Esajas).
+
+3. **Åbenhåndet Apologetik**: Aorist tempus-debatten (fortid? profetisk fremtid? gnomisk?) behøver ikke løses for oversættelse. Lad tvetydigheden stå; fodnoter kan diskutere.
+
+4. **Økumenisk Hermeneutik**:
+   - Katolsk/Ortodoks: Daglig liturgisk brug (Vesper), Mariafromhed, social lære
+   - Protestant: Befrielsestologi-rødder, social evangelium, profetisk retfærdighed
+   - Alle: Guds foretrukne option for de fattige og marginaliserede
+
+5. **Kulturel-kontekstuel Lokalisering**: Omvendelses-sproget er politisk ladet i enhver sammenhæng. Oversættelsen bør ikke domesticere det. Hvor kirken er magtfuld, er Magnificat en selvkritik; hvor kirken er marginaliseret, er det et håbsmanifest.
+
+6. **Intersektionalitet**: 
+   - En ung, fattig, kvindelig, koloniseret person taler Guds revolutionære vision
+   - Maria som befrielsestolog avant la lettre
+   - Økonomisk retfærdighed (sultne fyldt, rige sendt tomme væk) ved siden af politisk omvendelse
+
+7. **Ansvarlighed for Skade**: Magnificat er blevet spiritualiseret for at undgå dets sociale implikationer ("hovmodige i hjertet" = kun indre attitude). Oversættelse og noter bør modstå denne domesticering samtidig med at de undgår politisk medrivning.
+
+### Oversættelsesovervejelser
+
+- **ταπείνωσις** (v.48): "Ringhed" eller "ydmyg tilstand"—ikke primært en dyd men en social placering. Maria er lavstatuseret, ikke blot beskeden.
+- **Aorist verber** (vv.51-53): De fleste oversættelser bruger datid. Nogle bruger nutid for at formidle den igangværende/typiske natur. Begge er forsvarlige.
+- **δυνάστας / ταπεινούς**: "Herskere/ringe," "mægtige/ydmyge"—kontrasten er politisk og økonomisk, ikke blot åndelig.
+
+### Følelsesmæssig Bue
+
+Personlig lovprisning og undren (vv.46-49) → Genkendelse af Guds barmhjertighed på tværs af generationer (v.50) → Jublende fejring af kosmisk omvendelse (vv.51-53) → Pagts-troskab mod Israel (vv.54-55) → Stille tilbagevenden til fortælling (v.56). Hymnen bevæger sig fra intimt til kosmisk til pagtsmæssigt.
+
+---
+
+## Perikope 6: Hans Navn er Johannes (1:57-66)
+
+### Græsk Tekst (Udvalgt)
+> v.60: καὶ ἀποκριθεῖσα ἡ μήτηρ αὐτοῦ εἶπεν· Οὐχί, ἀλλὰ κληθήσεται Ἰωάννης.
+> v.63: καὶ αἰτήσας πινακίδιον ἔγραψεν λέγων· Ἰωάννης ἐστὶν ὄνομα αὐτοῦ. καὶ ἐθαύμασαν πάντες.
+> v.64: ἀνεῴχθη δὲ τὸ στόμα αὐτοῦ παραχρῆμα καὶ ἡ γλῶσσα αὐτοῦ, καὶ ἐλάλει εὐλογῶν τὸν θεόν.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| περιτεμεῖν | peritemnein | at omskære | Pagtens tegn; navngivning skete traditionelt ved omskærelse |
+| πινακίδιον | pinakidion | skrivetavle | Lille træ tavle med voks overflade til skrivning |
+| παραχρῆμα | parachrēma | straks, på én gang | Lukas' karakteristiske begreb for pludselig guddommelig handling |
+| εὐλογῶν | eulogōn | velsignende, lovprisende | Participium: hans første tale var velsignelse af Gud |
+| χεὶρ κυρίου | cheir kyriou | Herrens hånd | GT-idiom for guddommelig magt og gunst |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Navngivningsscenen løser spændingen skabt af Zakarias' stumhed. Elisabeths insisteren på "Johannes" (betyder "HERREN har været nådig") viser hun kender det englelige budskab—enten gennem Zakarias' skriftlige kommunikation eller profetisk indsigt. Fællesskabets overraskelse over brud med familie-navngivningskonventioner øger de mirakuløse begivenheder.
+
+**Bock (Baker)**: Ottendedags-omskærelsen følger Torah (3 Mos 12:3). Navngivningsstriden skaber dramatisk spænding: vil familien tilsidesætte Elisabeth? Zakarias' skriftlige bekræftelse ("Hans navn ER Johannes"—ikke "vil blive") bryder hans tavshed straks. Hans første ord er velsignelse, ikke klage—hans tro er modnet gennem tavshed.
+
+**Fitzmyer (Anchor)**: "Johannes" (Ἰωάννης fra יוֹחָנָן, Yohanan) betyder "HERREN har vist nåde." Navnet opsummerer historien. Naboernes frygt (v.65) og den udbredte rapport "gennem hele Judas bjerge" forbereder til Johannes' fremtidige offentlige rolle.
+
+**Eisele (Tysk)**: "'Johannes' (Ἰωάννης fra יוֹחָנָן, Yohanan) betyder 'JHWH hat Gnade erwiesen.' Navnet opsummer hele historien." Navne-teologien er central—Johannes = "HERREN har vist nåde" opsummerer hele fortællingen. Overvej forklarende fodnoter om hebraiske navnebetydninger for læsere ukendte med denne tradition.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Beda**: "Når der i Skriften gives eller ændres et navn... af Gud, er det angivelse af stor ros og dyd. Det var godt at vor Forløsers forløber blev beordret kaldt Johannes. Navnet Johannes betyder 'Herrens nåde' eller 'i hvem der er nåde.'" (Homilier om Evangelierne 2.19)
+
+### Kulturel Baggrund (Keener)
+
+At navngive et barn efter en mandlig slægtning (især faderen eller bedstefaderen) var sædvanligt. Elisabeths insisteren på "Johannes" ville have været chokerende—kvinder havde typisk ikke autoritet over navngivning. Fællesskabets appel til Zakarias (v.62) viser de forventede han ville tilsidesætte sin hustru. Hans bekræftelse af "Johannes" er en dobbelt overraskelse.
+
+"Herrens hånd" (v.66) blev anerkendt som tegn på guddommelig gunst og kaldelse. Spørgsmålet "Hvad vil så dette barn blive?" skaber fortælling forventning for Johannes' tjeneste.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Dialog- og fortællingstempo bør bevare spændingen. Zakarias' skriftlige erklæring har dramatisk vægt—bevar det skrevne ords autoritet.
+
+2. **Kulturel Kontekst**: Omskærelse som pagtens indgang, ottendedags-timing, og navngivningskikke kræver forklaring. Overraskelsen over "Johannes" kræver forståelse af familie-navngivningsforventninger.
+
+3. **Åbenhåndet Apologetik**: Zakarias' genoprettelse følger lydighed. Dette er disciplin og genoprettelse, ikke straf og løsladelse.
+
+4. **Økumenisk Hermeneutik**:
+   - Omskærelsens rolle i jødisk identitet (respekterende jødiske læsere)
+   - Pagts-kontinuitet (det nye erstatter ikke det gamle)
+   - Fællesskabsvidnesbyrd om Guds handling
+
+5. **Kulturel-kontekstuel Lokalisering**: Navngivningskikke varierer meget på tværs af kulturer. Nogle vil resonere med familienavngivningsforventninger; andre kan have behov for forklaring.
+
+6. **Intersektionalitet**: 
+   - Elisabeths stemme sejrer mod fællesskabsforventning
+   - Zakarias bekræfter snarere end tilsidesætter sin hustru
+   - Fællesskabet (ikke kun ledere) vidner og spreder nyheden
+
+7. **Ansvarlighed for Skade**: Handicap-sprog (stumhed som straf) bør håndteres forsigtigt. Zakarias' stumhed er midlertidig disciplin, ikke et udsagn om handicappede personers åndelige status.
+
+### Oversættelsesovervejelser
+
+- **Ἰωάννης ἐστὶν**: "Hans navn ER Johannes"—præsens tempus understreger den etablerede kendsgerning, ikke en beslutning der træffes
+- **χεὶρ κυρίου**: "Herrens hånd"—overvej om idiom skal bevares eller fortolkes
+
+### Følelsesmæssig Bue
+
+Nabolags jubel (vv.57-58) → Navngivningsstrid (vv.59-62) → Zakarias' dramatiske bekræftelse (v.63) → Øjeblikkelig genoprettelse (v.64) → Fællesskabsærefrygt og udbredt undren (vv.65-66).
+
+---
+
+## Perikope 7: Zakarias' Profeti - Benedictus (1:67-79)
+
+### Græsk Tekst
+> v.68: Εὐλογητὸς κύριος ὁ θεὸς τοῦ Ἰσραήλ, ὅτι ἐπεσκέψατο καὶ ἐποίησεν λύτρωσιν τῷ λαῷ αὐτοῦ,
+> v.69: καὶ ἤγειρεν κέρας σωτηρίας ἡμῖν ἐν οἴκῳ Δαυὶδ παιδὸς αὐτοῦ...
+> v.78-79: διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ἐπισκέψεται ἡμᾶς ἀνατολὴ ἐξ ὕψους, ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ἡμῶν εἰς ὁδὸν εἰρήνης.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| εὐλογητός | eulogētos | velsignet, lovprist | Berakah-åbning: "Velsignet være Herren Gud..." |
+| λύτρωσις | lytrōsis | forløsning, befrielse | Befrielse gennem løsesum; Exodus-sprog |
+| κέρας σωτηρίας | keras sōtērias | frelsens horn | Symbol på styrke, magt; jf. salvingshorn |
+| σπλάγχνα ἐλέους | splanchna eleous | øm barmhjertighed, medfølende barmhjertighed | Ordret "barmhjertighedens indvolde"—dyb visceral medfølelse |
+| ἀνατολή | anatolē | opgang, daggry, øst | Messianisk titel: "opgangen" eller "grenen" (jf. Jer 23:5 LXX) |
+| εἰρήνη | eirēnē | fred | Hebræisk שָׁלוֹם—omfattende velbefindende, ikke blot fravær af konflikt |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Benedictus (latin for "Velsignet") deles i to dele: Israels forløsning (vv.68-75) og Johannes' mission (vv.76-79). Det kan være en præ-lukansk jødisk hymne tilpasset denne sammenhæng. "Frelsens horn" genlyder Davids psalm (2 Sam 22:3; Sl 18:2). ἀνατολή (v.78) er tvetydig: "opgående sol" (daggry) eller messianisk "gren" (Jer 23:5; Zak 3:8; 6:12).
+
+**Bock (Baker)**: Zakarias profeterer om både Jesus (vv.68-75) og Johannes (vv.76-79). Den davidiske vægtlægning ("Davids hus hans tjener") kontrasterer Johannes' levitiske slægt—Zakarias peger beyond sin egen søn til den større. Vokabularet er mættet med GT-pagts og exodus-temaer: forløsning, frelse, barmhjertighed, ed til Abraham.
+
+**Fitzmyer (Anchor)**: Benedictus er struktureret som en jødisk velsignelse (berakah) med profetisk indhold. "Frelse fra vore fjender" (v.71) afspejler jødiske håb for politisk befrielse der vil blive refortolket i Lukas' fortælling. Det finale billede—"fødder guidet ind i fredens vej"—forudgriber Lukas' rejsemotiv.
+
+**Eisele (Tysk)**: "Die Erzählung von der Geburt Johannes' des Täufers wird durch den Lobgesang seines Vaters Zacharias abgeschlossen, der seinen Sohn als Vorläufer des Herrn charakterisiert." Benedictus afslutter Johannes' fødselsfortælling og karakteriserer ham som forløber. Yderligere: "Aus der größten Not des Menschen, seiner Verstrickung in die Sünde, kann keine weltliche Macht ihn befreien... Gottes Barmherzigkeit ist stärker als Sünde und Tod"—ingen verdslig magt kan befri fra synd; kun Guds barmhjertighed er stærkere end synd og død. "Frelsens horn" (v.69) repræsenterer guddommelig magt, ikke politisk.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Ambrosius**: "Johannes ville være stor—ikke gennem legemlig dyd men gennem storsind. Han udvidede ikke grænser for et imperium. Han foretrak ikke triumfer af militær kamp til ære. Snarere, hvad mere er, han foragtede menneskelige fornøjelser og kroppens uterlighed, prædikende i ørkenen med stor åndens dyd." (Exposition af Lukas 1.31-33) Johannes' storhed er moralsk/åndelig, ikke politisk.
+
+**Stronstad (Karismatisk)**: "GT-baggrunden for Lukas' pneumatologi... Ånden er profetiens Ånd. I GT er Helligånden udelukkende profetiens Ånd." Zakarias' profeti er eksplicit Ånds-inspireret (v.67: "fyldt med Helligånden og profeterede"). Dette viser den direkte forbindelse: Ånds-fyldelse → profetisk tale.
+
+### Kulturel Baggrund (Keener)
+
+Jødiske morgenbønner inkluderede velsignelser (berakot) der priste Gud for pagts-troskab. Benedictus passer dette liturgiske mønster. "Fjende"-sproget afspejler førsteårshundredes jødiske oplevelse under romersk besættelse—håb for en davidisk befrier der ville genoprette Israels uafhængighed.
+
+ἀνατολή-billedsprog kan trække på Mal 4:2 ("retfærdighedens sol med helbredelse i sine vinger") og den messianiske "gren"-tradition. Lys til dem der "sidder i mørke og dødens skygge" genlyder Es 9:2, en nøgle messianisk tekst.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Benedictus, som Magnificat, har liturgisk historie. Bevar poetisk struktur og rytme. Skiftet fra "Israels forløsning" til "du, barn" (v.76) bør markeres.
+
+2. **Kulturel Kontekst**: Berakah-tradition, davidiske/messianiske forventninger, og exodus/forløsnings-vokabular kræver jordet i jødisk liturgi og håb.
+
+3. **Åbenhåndet Apologetik**: "Fjende"-sproget er tvetydigt—politisk? åndelig? begge? Lad tvetydigheden stå; Lukas vil udvikle det.
+
+4. **Økumenisk Hermeneutik**:
+   - Katolsk/Ortodoks: Daglig liturgisk brug (Laudes), profetisk embede, frelseshistorie
+   - Protestant: Kristologisk opfyldelse, Johannes som forløber
+   - Alle: Pagts-troskab på tværs af generationer
+
+5. **Kulturel-kontekstuel Lokalisering**: "Fjender" og "frelse" tager forskellige valenser i forskellige politiske sammenhænge. Hvor kristne forfølges, er sproget direkte. Hvor kristne er magtfulde, kræver det refortolkning.
+
+6. **Intersektionalitet**: 
+   - En ældre præst, tiet og ydmyget, taler nu profetisk
+   - Barnet Johannes får mission til de fattige og marginaliserede ("dem der sidder i mørke")
+
+7. **Ansvarlighed for Skade**: "Fjende"-sprog er blevet misbrugt til at dæmonisere udgrupper. Benedictus peger mod fred (εἰρήνη), ikke vold. Frelse er fra fjender, ikke gennem at ødelægge dem.
+
+### Oversættelsesovervejelser
+
+- **σπλάγχνα ἐλέους**: "Øm barmhjertighed," "hjertefølte medfølelse"—den viscerale dybde betyder noget
+- **ἀνατολή**: "Daggry," "opgangen," "grenen"—overvej at bevare flertydighedet (sol- og messianisk)
+- **σκιᾷ θανάτου**: "Dødens skygge"—genlyder Sl 23:4 LXX; bevar forbindelsen
+
+### Følelsesmæssig Bue
+
+Velsignelse og lovprisning (v.68a) → National forløsning (vv.68b-75) → Direkte henvendelse til spædbarn Johannes (vv.76-77) → Øm barmhjertighed og lys (vv.78-79). Bevægelse fra Israels kollektive håb til intimt løfte til individuelle barn til universelt lys.
+
+---
+
+## Perikope 8: Opvækst i Ørkenen (1:80)
+
+### Græsk Tekst
+> Τὸ δὲ παιδίον ηὔξανε καὶ ἐκραταιοῦτο πνεύματι, καὶ ἦν ἐν ταῖς ἐρήμοις ἕως ἡμέρας ἀναδείξεως αὐτοῦ πρὸς τὸν Ἰσραήλ.
+
+### Nøgletermer
+
+| Græsk | Translitteration | Oversættelse | Semantisk Omfang |
+|-------|------------------|--------------|-------------------|
+| ηὔξανε | ēuxane | voksede | Imperfektum tempus: kontinuerlig vækst over tid |
+| ἐκραταιοῦτο | ekrataiouto | blev stærk | Passiv: styrket ved guddommelig handling |
+| ἐρήμοις | erēmois | ørken, ørkenområder | Ikke livløs ørken men ubeboede/rurale områder |
+| ἀνάδειξις | anadeixis | offentlig fremtoning, manifestation | Teknisk begreb for offentlig kommission eller åbenbaring |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Dette sammendragvers bygger bro mellem Johannes' fødsel til hans voksen tjeneste (3:1ff). "Ørkenen" kan antyde forbindelse med Essener-fællesskabet i Qumran, selvom Lukas ikke gør nogen eksplicit forbindelse. Sætningen parallelliserer barndoms-sammendrag for Jesus (2:40, 52), skabende fortællingsymmetri.
+
+**Bock (Baker)**: "Stærk i ånden" indikerer åndelig snarere end blot fysisk modning. Ørken-settingen forudgriber Johannes' profetisk tjeneste (3:2-4). "Indtil dagen for hans offentlige fremtoning" skaber fortællingsspænding—vi må vente til kapitel 3.
+
+**Fitzmyer (Anchor)**: Verset er et "vækst-refræn" almindeligt i bibelske barndoms-fortællinger (jf. Samson, Samuel, Jesus). Ørkenen har profetiske associationer (Elias, Israels dannelse). Johannes' dannelse sker væk fra institutionel religion—han vil fremkomme for at udfordre det.
+
+**Eisele (Tysk)**: "Diese Zusammenfassung überbrückt die Zeit bis zu Johannes' öffentlichem Auftreten (3,1ff). Die 'Wüste' mag auf eine Verbindung zur Gemeinschaft in Qumran hinweisen, obwohl Lukas keine explizite Verbindung herstellt." Dette sammendrag bygger bro til Johannes' offentlige fremtoning (3:1ff). "Ørkenen" kan antyde Qumran-forbindelse, men Lukas gør ingen eksplicit forbindelse. De profetiske associationer (Elias, Israels dannelse) er primære.
+
+**Ancient Christian Commentary (Patristisk)**:
+- **Beda**: Vækst-refrænet følger det litterære mønster almindeligt for bibelske barndoms-fortællinger (Samson, Samuel, Jesus). Ørkenen er stedet for profetisk dannelse og guddommelig møde i Israels hukommelse.
+
+### Kulturel Baggrund (Keener)
+
+Den judæiske ørken var beboet af forskellige grupper, inkluderende Essener-fællesskabet i Qumran. Nogle har spekuleret Johannes havde kontakt med Essenere, givet hans asketiske livsstil og ørken-lokation. Dog viser Lukas ingen interesse i denne forbindelse. Ørkenen er stedet for profetisk dannelse og guddommelig møde i Israels hukommelse.
+
+### De Syv Principper Analyse
+
+1. **Litterær Ækvivalens**: Dette er et overgangsammendrag. Hold det kort; det skal føles som en afsluttende akkord, ikke en ny bevægelse.
+
+2. **Kulturel Kontekst**: Ørkenen som dannelsesrum (Israel, Elias, Essenere) giver rig baggrund.
+
+3. **Åbenhåndet Apologetik**: Qumran-forbindelser er spekulative. Noter kan nævne teorien uden at hævde den.
+
+4. **Økumenisk Hermeneutik**: Mønsteret af skjult dannelse før offentlig tjeneste resonerer på tværs af traditioner (munkeliv, forberedelse, skelnen).
+
+5. **Kulturel-kontekstuel Lokalisering**: "Ørken" varierer efter geografi. Pointen er adskillelse fra magtcentre for guddommelig dannelse.
+
+6. **Intersektionalitet**: Johannes' dannelse er udenfor institutionelle strukturer. Dette autentificerer hans senere profetiske kritik.
+
+7. **Ansvarlighed for Skade**: Ingen specifikke for dette vers.
+
+### Oversættelsesovervejelser
+
+- **ἐν ταῖς ἐρήμοις**: "I ørkenområderne" (flertal)—ikke en enkelt lokation
+- **ἀνάδειξις**: "Offentlig fremtoning," "kommission," "manifestation"—den formelle begyndelse af offentlig tjeneste
+
+### Følelsesmæssig Bue
+
+Stille vækst (v.80a) → Skjult forberedelse (v.80b) → Forventning om fremtidig åbenbaring (v.80c). Kapitlet slutter i venting.
+
+---
+
+## Kapitelsyntese
+
+### Større Teologiske Temaer
+
+1. **Gudfrygtighed Troskab til Israel**: Gennemgående opfylder Gud gamle løfter—til Abraham (vv.55, 73), til David (vv.32-33, 69), gennem profeterne (v.70). Den nye æra fremkommer fra dyb kontinuitet med Israels historie.
+
+2. **Den Store Omvendelse**: Magnificats centrum (vv.51-53) artikulerer hvad hele kapitlet dramatiserer: Gud arbejder gennem de marginaliserede (ældre præster, golde kvinder, bondepiger) for at vælte eksisterende magtstrukturer.
+
+3. **Åndens Bemyndigelse**: Helligånden fylder Johannes fra livmoderen (v.15), Elisabeth ved Marias hilsen (v.41), Zakarias ved Johannes' navngivning (v.67), og overskygger Maria til undfangelsen (v.35). Dette er en Ånds-gennemvædet fortælling.
+
+4. **Kvindelig Handlekraft**: Kvinder er centrale aktører—Elisabeth, Maria, og selv den ufødte Johannes' genkendelse. Kapitlets teologi tales primært gennem kvindelige stemmer.
+
+5. **Profetisk Opfyldelse og Forventning**: Begivenheder opfylder hvad der blev talt (v.45, 55, 70) samtidig med at de skaber forventning til hvad der kommer. Kapitlet slutter i venting (v.80).
+
+### Denominationel Betydning
+
+**Romersk Katolsk / Ortodoks**:
+- Grundlag for Mariafromhed (κεχαριτωμένη, Magnificat, Visitation)
+- Liturgiske tekster (Magnificat i Vesper, Benedictus i Laudes)
+- Theotokos-teologi ("min Herres moder")
+- Engleforbøn, tempeltilbedelses kontinuitet
+
+**Protestant**:
+- Sola gratia understreget (nådes-sprog, guddommelig initiativ gennemgående)
+- Tro som model (Marias svar, kontrast med Zakarias' tvivl)
+- Profetisk kritik af magt (Magnificats omvendelser)
+- Skrift-opfyldelse (GT-mætning af begge hymner)
+
+**Ortodoks**:
+- Theosis-temaer (guddommeligt-menneskelig samarbejde i Marias fiat)
+- Liturgisk arv
+- Kontinuitet med jødisk tilbedelse og profeti
+
+**Evangelisk**:
+- Jomfrufødsel som grundlæggende doktrin
+- Personligt møde med guddommelig kald (Marias fiat)
+- Skriften som samlet fortælling af løfte-opfyldelse
+
+### Intersektionelle Noter
+
+- **Klasse**: Gud vælger de marginale—en bondepige, et ældrepar, bjerglandsbybeboere—til at bære de centrale åbenbaringer.
+- **Køn**: Kvinder taler kapitlets teologiske indhold; mandlige autoriteter (Zakarias, naboerne) korrigeres eller stilnes.
+- **Alder**: Både ældre (Zakarias, Elisabeth) og unge (Maria) er agenter. Den typiske præference for prime-aldrede mænd subverteres.
+- **Etnicitet/Koloni**: Fortællingen er mættet med jødisk identitet under romersk besættelse. Håb for befrielse er reelt men vil blive reformet.
+
+### Ansvarligheds-noter
+
+- **Goldheds**: Kapitlet bruger goldhed som plot-device men retfærdiggør Elisabeth og antyder aldrig moralsk svigt. Undgå stadig sprog der skammer ufrugtbarhed.
+- **Kvindelig "underkastelse"**: Marias δούλη er selv-valgt tilgængelighed for Gud, ikke model for kvindelig underordning til mænd. Kontekst betyder.
+- **Vold i "omvendelse"**: Magnificats omvendelser er guddommelig handling, ikke et kald til menneskelig vold. Fredens vej (v.79) er det finale ord.
+- **"Fjender"**: Benedictus-sprog om fjender kan våbnes. Teksten peger mod fred og lys, ikke ødelæggelse.
+
+---
+
+## Appendiks: Nøgle Græske Termer Reference
+
+| Græsk | Translitteration | Vers | Oversættelsesnoter |
+|-------|------------------|------|---------------------|
+| ἀσφάλεια | asphaleia | 1:4 | Sikkerhed, pålidelighed—jordet stabilitet |
+| διήγησις | diēgēsis | 1:1 | Fortælling, ordnet beretning |
+| κεχαριτωμένη | kecharitōmenē | 1:28 | Nådede, yndede (perfektum passiv) |
+| ἐπισκιάζω | episkiazō | 1:35 | Overskygge—tabernakel/Shekinah-billede |
+| ταπείνωσις | tapeinōsis | 1:48 | Ringhed, ydmygelse—social placering |
+| δούλη | doulē | 1:38, 48 | Kvindelig tjener—selv-valgt tilgængelighed |
+| ἔλεος | eleos | 1:50, 54, 58, 72, 78 | Barmhjertighed, trofast kærlighed (hebræisk hesed) |
+| σωτηρία | sōtēria | 1:69, 71, 77 | Frelse—omfattende befrielse |
+| λύτρωσις | lytrōsis | 1:68 | Forløsning—exodus/løsesum-billeder |
+| ἀνατολή | anatolē | 1:78 | Opgang, daggry, gren—messianisk titel |
+| Ὕψιστος | Hypsistos | 1:32, 35, 76 | Den Højeste—guddommelig titel |
+| πνεῦμα ἅγιον | pneuma hagion | 1:15, 35, 41, 67 | Helligånden |
+
+---
+
+## Status
+
+\`\`\`yaml
+eksegese_status:
+  bog: lukas
+  kapitel: 1
+  status: komplet_med_supplement
+  output_fil: analysis/42_luke_01_exegesis_da.md
+  oprettet: 2025-12-15
+  opdateret: 2025-12-18
+  version: 2.0
+  perikoper_analyseret: 8
+  nøgletermer_identificeret: 15
+  kilder_konsulteret:
+    - NA28 Græsk Tekst
+    - BDAG Leksikon
+    - Louw-Nida Leksikon
+    - Bovon (Hermeneia)
+    - Bock (Baker Exegetical)
+    - Fitzmyer (Anchor Bible)
+    - Keener (IVP Background)
+    - Wright
+    - Eisele (Tysk - Das Lukasevangelium)
+    - Ancient Christian Commentary on Scripture (Patristisk)
+    - Stronstad (Charismatic Theology of St. Luke)
+  syv_principper_anvendt: true
+  økumenisk_dækning_forbedret: true
+  patristiske_kilder_tilføjet:
+    - Origenes
+    - Ambrosius
+    - Augustinus
+    - Chrysostom
+    - Beda
+    - Hieronymus
+    - Efrem Syreren
+    - Maximus af Turin
+    - Peter Chrysologus
+  klar_til_oversættelse: true
+\`\`\``;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Lukas 1 Eksegese" lang="da" description="Græsk tekstanalyse, større kommentarer, kulturel kontekst og oversættelsesnoter">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/da/luke/1`} class="back-link">&larr; Tilbage til Lukas 1</a>
+        <h2>Eksegese</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Eksegese</p>
+          <h1>Lukas 1</h1>
+          <p class="subtitle">Græsk tekstanalyse, større kommentarer, kulturel kontekst og oversættelsesnoter</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

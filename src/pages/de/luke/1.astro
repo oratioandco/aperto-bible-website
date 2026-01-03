@@ -23,7 +23,7 @@ function getVersesForPericope(verseRange: string, sections: any[]) {
 const base = '';
 ---
 
-<BaseLayout title="Lukas 1" lang="de" description="Lukas Kapitel 1 - Eine Reise durch die Perikopen">
+<BaseLayout title="Lukas 1" lang="de" description="Lukas Kapitel 1">
   <!-- Chapter Header -->
   <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
     <p class="passage-reference mb-6">Das Evangelium nach Lukas</p>
@@ -74,6 +74,7 @@ const base = '';
         media={pericope.media}
         exegesis={pericope.exegesis}
         lang="de"
+        chapter={1}
         isFirst={index === 0} layoutIndex={index}
       />
     ))}

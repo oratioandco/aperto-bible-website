@@ -1,0 +1,517 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Översikt",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Perikop-struktur",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Perikop 1: Folkräkning och födelse",
+    "verses": "2:1-7"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Perikop 2: Herdar och änglar",
+    "verses": "2:8-20"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Perikop 3: Omskärelse och namngivning",
+    "verses": "2:21"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Perikop 4: Framställning i templet",
+    "verses": "2:22-40"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Perikop 5: Den unge Jesus i templet",
+    "verses": "2:41-52"
+  },
+  {
+    "id": "pericope-8",
+    "title": "Kapitelsyntes",
+    "verses": ""
+  },
+  {
+    "id": "pericope-9",
+    "title": "Status",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Lukas 2 - Omfattande Exeges
+
+**Bok**: Lukas
+**Kapitel**: 2
+**Datum**: 31 december 2025
+**Version**: 3.0 (med supplement integrerat)
+**Källor**: NA28 grekisk text, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Keener (IVP Background), Eisele (tysk), Ancient Christian Commentary (patristisk), Stronstad (karismatisk)
+
+---
+
+## Översikt
+
+Lukas 2 presenterar berättelsen om Jesu Kristi födelse, strategiskt placerad inom den bredare kontexten av romersk kejsarlig makt medan den samtidigt underminerar denna makt genom den ödmjuke Frälsarens och Herrens ödmjuka födelse. Kapitlet består av fyra distinkta men sammankopplade perikoper: folkräkningen och födelsen (2:1-7), ängelns förkunnelse till herdarna (2:8-20), omskärelsen och namngivningen (2:21), framställningen i templet med Simeon och Anna (2:22-40), och den unge Jesus i templet (2:41-52). Denna berättelse visar Lukas teologiska program för frälsningshistoria, davidisk uppfyllelse, och invigningen av Guds rike genom oväntade medel.
+
+## Perikop-struktur
+
+| # | Verser | Titel | Undergenre | Innehållsnivå |
+|---|--------|-------|------------|---------------|
+| 1 | 2:1-7 | Folkräkning och födelse | Historisk berättelse | HÖG |
+| 2 | 2:8-20 | Herdar och änglar | Ängelförkunnelse | HÖG |
+| 3 | 2:21 | Omskärelse och namngivning | Juridisk efterlevnad | GRUNDLÄGGANDE |
+| 4 | 2:22-40 | Framställning i templet | Profetiskt möte | HÖG |
+| 5 | 2:41-52 | Den unge Jesus i templet | Visdomsberättelse | HÖG |
+
+---
+
+## Perikop 1: Folkräkning och födelse (2:1-7)
+
+### Grekisk text
+- 2:1: Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην
+- 2:7: καὶ ἔτεκεν τὸν υἱὸν αὐτῆς τὸν πρωτότοκον, καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν φάτνῃ
+
+### Nyckeltermer
+| Term | Morfologi | BDAG | Louw-Nida | Betydelse |
+|------|-----------|------|-----------|-----------|
+| δόγμα | Substantiv, n. | dekret/edikt | 33.335 | Kejserlig auktoritet, gudomligt dekret |
+| οἰκουμένην | Substantiv, f. ack. | bebodda världen | 1.39 | Universell räckvidd av romersk makt |
+| ἀπογράφεσθαι | Verb, inf. med. | registrera | 33.38 | Administrativ kontroll/beskattning |
+| πρωτότοκον | Adj., m. ack. | förstfödd | 10.42 | Juridisk/teologisk status, GT-allusioner |
+| φάτνῃ | Substantiv, f. dat. | krubba | 6.8 | Ödmjuka omständigheter, pastorala bilder |
+
+### Kommentarsyntes
+
+**Bovon (Hermeneia)**: Lukas uppnår en "omsorgsfull sammanhang" genom att föra samman folkräkningsepisoden (v. 1-5) med födelseberättelsen (v. 6-7). Folkräkningen tjänar flera funktioner: den möjliggör resan till Betlehem, skapar en slående juxtaposition mellan kejsaren och den dolda Messias, och ger historisk förankring medan den visar Guds suveränitet över kejsarlig makt. Själva födelsen beskrivs med anmärkningsvärd realism - ingen gudomlig intervention skonar Maria från förlossningssmärtor eller rädsla för födelsen, vilket betonar den sanna inkarnationen.
+
+**Bock (Baker)**: Denna enhet placerar Jesus i världshistorien medan den betonar hans davidiska arv. Den historiska miljön genom folkräkningen visar Guds kontroll över händelser, genom att använda till och med romerska administrativa maskineriet för att uppfylla davidisk profetia. Den ödmjuka födelsen (ingen plats i härbärget, födelse i en krubba) kontrasterar dramatiskt med den kosmiska betydelsen av händelsen som kommer att följa i herdehistorien.
+
+**Eisele (tysk)**: "Das Lukasevangelium... ist das biblische Evangelium, ohne das wir Weihnachten anders feiern würden (Lk 2,1-20)." Lukas 2 formar hur jul firas - berättelsen är grundläggande för den kristna liturgiska kalendern. Översättningen bör vara lämplig för julliturgi och förkunnelse.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Chrysostomos**: "En festdag är på väg att komma, och det är den heligaste och mest vördnadsfulla av alla fester. Det skulle inte vara fel att kalla den huvudfesten och modern till alla helgdagar. Vilken fest är det? Det är dagen för Kristi födelse i köttet." (Om Guds obegripliga natur 6.23-24) Jul som "moder till alla helgdagar" - källan till hela den liturgiska kalendern.
+- **Cassia**: "När Augustus regerade ensam över jorden, kom människlighetens många riken till sitt slut; och när du blev människa av den rena Jungfrun, förstördes avgudadyrkans många gudar. Världens städer kom under en enda härskaremakt; och nationerna kom att tro på en suverän Gudadom." (Stichera av Nativiteten) Augustus Pax Romana föregripar Kristi universella herravälde - mot-kejserligt tema.
+- **Beda**: "Han valde en tid av största fred som tiden när han skulle födas eftersom detta var anledningen till att han föddes i världen, att han kunde leda människosläktet tillbaka till den himmelska fredens gåvor... 'Ty han är vår fred, som har gjort oss båda till ett.'" (Homilier över evangelierna 1.6) Födelse under Pax Romana är teologiskt betydelsefull; εἰρήνη (fred) som centralt tema.
+
+### Kulturell kontext
+
+Folkräkningen representerar mer än administrativ bekvämlighet - den förkroppsligar romersk kejserlig kontroll över underkuvade folk. Folkräkning var ett verktyg för underkuvelse, som bekräftade Roms makt över erövrade territorier medan det möjliggjorde beskattning och militär värvning.
+
+### Analys av sju principer
+
+1. **Litterär ekvivalens**: Lukas använder omsorgsfullt historiskt narrativt stil som påminner om hellenistisk historiografi, dock med distinkt judiska teologiska övertoner.
+
+2. **Kulturell kontext**: Ära-skam-dynamiken är avgörande här. Marias graviditet medan hon var trolovad och reste skulle ha varit skandalöst i en kultur där kvinnors ära var paramount.
+
+3. **Öppenhänt apologetik**: Folkräkningen skapar ett historiskt problem (tidpunkten för Quirinius) som skeptiker länge har ifrågasatt.
+
+4. **Ekumenisk hermeneutik**:
+   - Katolsk tradition betonar Marias eviga jungfrudom (πρωτότοκον)
+   - Protestantisk läsning fokuserar på Jesus som förstfödd av den nya skapelsen
+   - Ortodox tradition ser kosmisk betydelse i inkarnationen
+   - Pingstväckelse-läsning betonar övernaturlig gudomlig intervention
+
+---
+
+## Perikop 2: Herdar och änglar (2:8-20)
+
+### Grekisk text
+- 2:10-11: καὶ εἶπεν αὐτοῖς ὁ ἄγγελος· Μὴ φοβεῖσθε, ἰδοὺ γὰρ εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην... ὅτι ἐτέχθη ὑμῖν σήμερον σωτὴρ ὅς ἐστιν χριστὸς κύριος
+- 2:14: Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας
+
+### Nyckeltermer
+| Term | Morfologi | BDAG | Louw-Nida | Betydelse |
+|------|-----------|------|-----------|-----------|
+| εὐαγγελίζομαι | Verb, 1:a p.s. | förkunna goda nyheter | 33.215 | Evangelieförkunnelse, mot-kejserlig |
+| σωτήρ | Substantiv, m. nom. | frälsare, befriare | 21.31 | Kristologisk titel, vs. Caesar |
+| χριστὸς κύριος | Substantivfras | Kristus Herre | Kombinerade titlar | Messiansk auktoritet |
+| εὐδοκίας | Substantiv, f. gen. | välvilja | 25.85 | Gudomlig gunst, inte mänsklig förtjänst |
+
+### Kommentarsyntes
+
+**Bovon (Hermeneia)**: Herdehistorien fungerar som "en förkunnelse, inte en födelseberättelse" - det handlar om himmelens svar på födelsen snarare än födelsen själv. Änglarnas budskap innehåller avsiktligt mot-kejserligt språk: σωτήρ (frälsare) och κύριος (herre) var titlar som anspråkades av Caesar Augustus.
+
+**Eisele (tysk)**: "Die Hirten gehören zu Weihnachten wie die Engel und das Christkind selbst." Herdar är oskiljaktiga från julfirande. Mer betydelsefullt: "In seiner Weihnachtserzählung stehen die Hirten für das Volk Israel als Ganzes." Herdarna representerar Israel som helhet - första mottagare eftersom Jesus är deras davidiska kung.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Ambrosius**: "Se hur gudomlig omsorg tillfogar tro. En ängel berättar för Maria, en ängel berättar för Josef, en ängel berättar för herdarna. Det räcker inte att ett budskap skickas en gång. Ty varje ord står med två eller tre vittnen." (Exposition av Lukas 2.51) Flera ängliska vittnen följer Torahs "två eller tre vittnen"-princip.
+- **Origenes**: "Lyssna, herdar över kyrkorna! Lyssna, Guds herdar! Hans ängel kommer alltid ner från himlen och förkunnar för er: 'I dag är en Frälsare född för er, som är Kristus Herren.'" (Homilier över Lukas 12.2) Pastoral/kyrklig tillämpning - kyrkoledare som herdar som behöver Kristi närvaro.
+
+### Analys av sju principer
+
+1. **Litterär ekvivalens**: Den ängliska förkunnelsen följer klassiska angelofani-mönster (uppträdande, rädsla, tröst, budskap, tecken) medan herdarnas svar visar lämpligt trossvar.
+
+2. **Kulturell kontext**: Ära-skam-vändningen är dramatisk - himmelens viktigaste förkunnelse går till samhällets mest vanärade medlemmar.
+
+---
+
+## Perikop 3: Omskärelse och namngivning (2:21)
+
+### Grekisk text
+2:21: Καὶ ὅτε ἐπλήσθησαν ἡμέραι ὀκτὼ τοῦ περιτεμεῖν αὐτόν, καὶ ἐκλήθη τὸ ὄνομα αὐτοῦ Ἰησοῦς
+
+### Kommentarsyntes
+
+**Bovon (Hermeneia)**: Denna vers står isolerad och ansluter endast till bebådelsen (1:26-38) genom ängelns namngivning av Jesus. Den representerar Jesu inskrivning i det gudomliga löftets folk genom förbundstecknet.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Kyrillos av Alexandria**: "Den andliga omskärelsen äger rum huvudsakligen i det heliga dopet, när Kristus gör oss också delaktiga av den Helige Ande... omskärelsen uppnådde tre olika mål. För det första skilde den Abrahams ättlingar genom en sorts tecken och sigill... För det andra föregripde den i sig själv nåden och verkan av det gudomliga dopet... För det tredje är omskärelsen symbolen för de troende när de etableras i nåd." (Kommentar över Lukas, Homili 4) Trefaldig betydelse: tecken/sigill, dop-föregripande och moralisk tillämpning.
+
+---
+
+## Perikop 4: Framställning i templet (2:22-40)
+
+### Grekisk text
+- 2:25: καὶ ὁ ἄνθρωπος οὗτος δίκαιος καὶ εὐλαβής, προσδεχόμενος παράκλησιν τοῦ Ἰσραήλ
+- 2:29-30: Νῦν ἀπολύεις τὸν δοῦλόν σου, δέσποτα... ὅτι εἶδον οἱ ὀφθαλμοί μου τὸ σωτήριόν σου
+
+### Kommentarsyntes
+
+**Bovon (Hermeneia)**: Perikopen visar Lukas teknik att placera extraordinär profetia inom ramen för juridisk efterlevnad. Simeon representerar "rättfärdigt och fromt" Israel som väntar på gudomlig tröst, medan Anna förkroppsligar trofast uthållighet i tillbedjan och vittnesbörd.
+
+**Eisele (tysk)**: "Gesetz und Geist bilden nach Lukas – anders als bei Paulus – keinen Gegensatz, sondern wirken so zusammen." Lag och Ande samarbetar i Lukas (till skillnad från paulinsk spänning) - Torah leder föräldrar, Anden leder Simeon, båda konvergerar vid Jesus.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Beda**: "Sjuttio veckor efter förkunnelsen av Johannes födelse till Sakarias av ängeln Gabriel och fyrtio dagar efter hans födelse, kommer Jesus till sitt tempel för att uppfylla Torah för andra gången." (Homilier över evangelierna 1.18) Omskärelse → Framställning parallell Dop → Nattvard.
+- **Hieronymus**: "Uttalandet 'han som öppnar livmodern skall kallas helig åt Herren' är mer tillämpligt på Frälsarens särskilda födelse än på alla människors." (Mot pelagianerna 2.4) Tempelbilder - Hesekiels stängda östra port (Hes 44:2).
+
+---
+
+## Perikop 5: Den unge Jesus i templet (2:41-52)
+
+### Grekisk text
+2:49: καὶ εἶπεν πρὸς αὐτούς· Τί ὅτι ἐζητεῖτέ με; οὐκ ᾔδειτε ὅτι ἐν τοῖς τοῦ πατρός μου δεῖ εἶναί με;
+
+### Kommentarsyntes
+
+**Bovon (Hermeneia)**: Denna episod visar Jesu visdom och hans anknytning till sin Fader, och tjänar som exempel på tillväxt i både gudomlig och mänsklig gunst. Tolvårsmarkeringen representerar närmandet till judisk juridisk myndighetsålder.
+
+---
+
+## Kapitelsyntes
+
+### Teologiska teman
+
+1. **Gudomlig suveränitet och kejserlig makt**: Lukas visar hur Gud verkar genom och över kejserliga strukturer för att fullborda gudomliga syften.
+
+2. **Inkarnation och förödmjukelse**: Sant gudomligt härlighet manifesterar sig genom ödmjuka omständigheter - krubbfödelse, marginella vittnen, vanlig efterlevnad av religiös lag.
+
+3. **Universal frälsning**: Från Augustus "hela världens" folkräkning till Simeons "ljus för hedningarna" betonar berättelsen frälsningens globala räckvidd.
+
+4. **Uppfyllelse och profetia**: Davidiska förväntningar, tempelprofetior och ängliska förkunnelser konvergerar i Jesu födelse och tidiga liv.
+
+### Konfessionell betydelse
+
+- **Katolsk**: Betoning på Maria som Theotokos, evig jungfrudom och samarbete med gudomlig nåd
+- **Ortodox**: Fokus på inkarnationens kosmiska betydelse och gudomligt ljus som träder in i skapelsen
+- **Protestantisk**: Stress på nåd till de ovärdiga och frälsning genom gudomlig handling enbart
+- **Pingstväckelse**: Firande av övernaturliga manifestationer och profetisk aktivitet
+
+---
+
+## Status
+
+\`\`\`yaml
+exeges_status:
+  bok: lukas
+  kapitel: 2
+  status: komplett_med_supplement
+  utdatafil: analysis/42_luke_02_exegesis_sv.md
+  skapad: 31 december 2025
+  version: 3.0_svenska
+  perikoper_analyserade: 5
+  källor_konsulterade:
+    - NA28 grekisk text
+    - BDAG lexikon
+    - Louw-Nida lexikon
+    - Bovon (Hermeneia)
+    - Bock (Baker Exegetisk)
+    - Fitzmyer (Anchor Bible)
+    - Keener (IVP Background)
+    - Eisele (tysk - Das Lukasevangelium)
+    - Ancient Christian Commentary on Scripture (patristisk)
+    - Stronstad (Karismatisk teologi av St. Lukas)
+  sju_principer_tillämpade: true
+  ekumenisk_täckning_förbättrad: true
+  redo_för_översättning: true
+\`\`\`
+
+**Nästa steg**: Denna exeges tjänar som grund för allt översättningsarbete i Lukas 2 över målspråk.`;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Lukas 2 Exeges" lang="sv" description="Grekisk textanalys, större kommentarer, kulturell kontext och översättningsnoter">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/sv/luke/2`} class="back-link">&larr; Tillbaka till Lukas 2</a>
+        <h2>Exeges</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Exeges</p>
+          <h1>Lukas 2</h1>
+          <p class="subtitle">Grekisk textanalys, större kommentarer, kulturell kontext och översättningsnoter</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

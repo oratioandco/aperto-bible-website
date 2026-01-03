@@ -1,0 +1,605 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Visão Geral",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Estrutura das Perícopes",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Perícope 1: Uma Voz no Deserto",
+    "verses": "3:1-6"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Perícope 2: O Que Devemos Fazer?",
+    "verses": "3:7-14"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Perícope 3: Vem Um Mais Poderoso",
+    "verses": "3:15-18"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Perícope 4: João Preso",
+    "verses": "3:19-20"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Perícope 5: Jesus é Batizado",
+    "verses": "3:21-22"
+  },
+  {
+    "id": "pericope-8",
+    "title": "Perícope 6: A Árvore Genealógica de Jesus",
+    "verses": "3:23-38"
+  },
+  {
+    "id": "pericope-9",
+    "title": "Síntese do Capítulo",
+    "verses": ""
+  },
+  {
+    "id": "pericope-10",
+    "title": "Bibliografia",
+    "verses": ""
+  },
+  {
+    "id": "pericope-11",
+    "title": "Estado",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Lucas 3 - Exegese Abrangente
+
+**Livro**: Lucas
+**Capítulo**: 3
+**Data**: 2025-12-18
+**Versão**: 3.0 (com suplemento integrado)
+**Fontes**: Texto grego NA28, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Wright, Keener (IVP Background), Eisele (alemão), Ancient Christian Commentary (patrístico), Stronstad (carismático)
+
+---
+
+## Visão Geral
+
+Lucas 3 marca uma transição crucial na narrativa lucana, construindo uma ponte entre o Período de Israel (narrativas da infância) e o Período de Jesus (ministério público). O capítulo divide-se em duas seções principais: o ministério e pregação de João Batista (3:1-20) e o batismo de Jesus com genealogia (3:21-38). O sincronismo abrangente (3:1-2) coloca estes eventos dentro da história mundial, enquanto a genealogia que se estende até Adão coloca o significado de Jesus dentro da história humana universal.
+
+A colocação de Lucas dentro da estrutura do livro situa este capítulo na **Parte 1: Começos (1:1-4:13)**, especificamente na **Seção 1.3: Preparação para o Ministério (3:1-4:13)**. Esta seção funciona como dobradiça entre promessa (capítulos 1-2) e cumprimento (capítulos 4ss).
+
+---
+
+## Estrutura das Perícopes
+
+| # | Versículos | Título | Subgênero | Nível de Conteúdo |
+|---|------------|--------|-----------|------------------|
+| 1 | 3:1-6 | Uma Voz no Deserto | Introdução Profética | ALTO |
+| 2 | 3:7-14 | O Que Devemos Fazer? | Pregação Profética/Instrução Ética | BÁSICO |
+| 3 | 3:15-18 | Vem Um Mais Poderoso | Proclamação Messiânica | ALTO |
+| 4 | 3:19-20 | João Preso | Resumo Histórico | BÁSICO |
+| 5 | 3:21-22 | Jesus é Batizado | Narrativa de Teofania | ALTO |
+| 6 | 3:23-38 | A Árvore Genealógica de Jesus | Genealogia | MODERADO |
+
+---
+
+## Perícope 1: Uma Voz no Deserto (3:1-6)
+
+### Texto Grego
+
+**3:1** Ἐν ἔτει δὲ πεντεκαιδεκάτῳ τῆς ἡγεμονίας Τιβερίου Καίσαρος, ἡγεμονεύοντος Ποντίου Πιλάτου τῆς Ἰουδαίας, καὶ τετρααρχοῦντος τῆς Γαλιλαίας Ἡρῴδου...
+
+**3:2** ...ἐγένετο ῥῆμα θεοῦ ἐπὶ Ἰωάννην τὸν Ζαχαρίου υἱὸν ἐν τῇ ἐρήμῳ.
+
+**3:3** καὶ ἦλθεν εἰς πᾶσαν περίχωρον τοῦ Ἰορδάνου κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν
+
+**3:6** καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ.
+
+### Termos-Chave
+
+| Termo | Morfologia | BDAG | Louw-Nida | Significado |
+|-------|------------|------|-----------|-------------|
+| ῥῆμα θεοῦ | N-NSN + N-GSM | "palavra/mensagem de Deus" | Comunicação divina | Fórmula profética de comissão (cf. Jer 1:1, Ez 1:3) |
+| ἔρημος | N-DSF | "deserto, lugar desolado" | Região desabitada | Lugar de encontro divino, preparação profética |
+| βάπτισμα | N-ASN | "batismo, lavagem" | Imersão ritual | Rito único de João combinando símbolo profético com urgência escatológica |
+| μετάνοια | N-GSF | "arrependimento, mudança de mente" | Reorientação completa | Não mero pesar mas mudança fundamental de vida |
+| ἄφεσις ἁμαρτιῶν | N-ASF + N-GPF | "remissão/perdão de pecados" | Libertação de dívida/escravidão | Linguagem econômica/escravidão aplicada ao estado moral-espiritual |
+| σωτήριον | N-ASN | "salvação, libertação" | Resgate divino | Adição LXX à citação de Isaías - alcance universal |
+
+### Análise da Sintaxe Grega
+
+**3:1-2: Sincronismo Abrangente**
+- **Construção**: Cadeia elaborada de genitivo absoluto (ἡγεμονεύοντος... τετρααρχοῦντος...)
+- **Função**: Fornece enquadramento temporal e político preciso
+- **Paralelo literário**: Introduções proféticas do AT (Jer 1:1-3; Ag 1:1)
+- **Risco de tradução**: Dividir em múltiplas frases perde o amplo movimento de uma única frase conectando história sagrada e secular
+
+**3:2b: ἐγένετο ῥῆμα θεοῦ ἐπὶ Ἰωάννην**
+- **Construção**: Fórmula septuagíntica (cf. Jer 1:1 LXX)
+- **Significado**: "A palavra de Deus veio sobre João"
+- **Importância**: Não meramente "falou para" mas comissão profética
+
+### Síntese dos Comentários
+
+**Bovon (Hermeneia)**: Lucas indica o início de uma nova seção estilisticamente com um sincronismo abrangente. Pelo chamado de Deus a João, e pela atividade do profeta, iniciada por Deus, é introduzido um evento histórico-salvífico. O sincronismo não apenas data o evento mas eleva o evangelho de tradição popular ao nível da historiografia helenística.
+
+**Bock (Baker)**: João é "aquele que vai adiante" (Isa 40:3-5), enquanto Jesus é "aquele que vem" (Luc 3:15-17). Lucas enfatiza a pregação de João mais que seu ritual batismal. A fórmula de chamado profético coloca João em continuidade com os profetas do AT.
+
+**Wright**: A introdução de Lucas sinaliza que isso não é meramente história religiosa mas eventos que mudam o mundo. A lista política abrangente serve para mostrar que a intervenção de Deus ocorre dentro, não à parte das estruturas do poder terreno.
+
+### Contexto Cultural
+
+**Keener (IVP Background)**: Roma havia governado a área por cerca de cem anos, mas apenas desde 6 d.C. havia um governador romano residente na área. Augusto César havia morrido em 14 d.C., e seu lugar havia sido tomado pelo impiedoso Tibério, que já estava sendo adorado como um deus.
+
+### Análise dos Sete Princípios
+
+#### 1. Equivalência Literária
+O sincronismo é uma única frase periódica - uma forma literária greco-romana sofisticada. As traduções devem preservar esse movimento onde possível.
+
+#### 2. Contexto Cultural
+O "deserto" (ἔρημος) carrega múltiplas ressonâncias: local de formação de Israel durante o Êxodo, retiro profético (Elias), comunidade essênia em Qumran.
+
+#### 3. Apologética de Mão Aberta
+- **Precisão histórica**: O sincronismo de Lucas pode ser datado aproximadamente em 28/29 d.C.
+- **Pergunta para céticos**: Por que um autor fabricando eventos forneceria detalhes políticos tão específicos e verificáveis?
+
+#### 4. Perspectivas Ecuménicas
+- **Católica/Ortodoxa**: Enfatiza o papel de João na economia da salvação
+- **Protestante**: Foco na palavra profética e chamado ao arrependimento
+- **Pentecostal**: Nota o papel do Espírito no chamado profético
+
+#### 5. Localização Cultural-Contextual
+- **Leitores alemães/europeus**: Opressão política sob domínio estrangeiro ressoa com experiência histórica
+- **Lacuna de compreensão**: Leitores modernos podem não entender que "tetrarca" indica governo subordinado sob permissão romana
+
+### Considerações de Tradução
+- Preservar o sincronismo de uma única frase onde gramaticalmente possível
+- "Deserto" é preferível a "lugar desolado" (ἔρημος refere-se a área desabitada, não necessariamente árida)
+- "Arrependimento" necessita manuseio cuidadoso - não mero pesar mas completa reorientação de vida
+
+---
+
+## Perícope 2: O Que Devemos Fazer? (3:7-14)
+
+### Texto Grego
+
+**3:7** Ἔλεγεν οὖν τοῖς ἐκπορευομένοις ὄχλοις βαπτισθῆναι ὑπʼ αὐτοῦ· Γεννήματα ἐχιδνῶν, τίς ὑπέδειξεν ὑμῖν φυγεῖν ἀπὸ τῆς μελλούσης ὀργῆς;
+
+**3:10** Καὶ ἐπηρώτων αὐτὸν οἱ ὄχλοι λέγοντες· Τί οὖν ποιήσωμεν;
+
+### Termos-Chave
+
+| Termo | Morfologia | BDAG | Louw-Nida | Significado |
+|-------|------------|------|-----------|-------------|
+| γεννήματα ἐχιδνῶν | N-VPN + N-GPF | "raça de víboras" | Filhos de serpentes | Conecta a Gênesis 3; descendência de Satanás |
+| ὀργή | N-GSF | "ira, cólera" | Julgamento divino | Punição escatológica |
+| καρπός | N-APM | "fruto" | Resultados éticos | Prova concreta de transformação |
+
+### Síntese dos Comentários
+
+**Bovon (Hermeneia)**: A variedade dos meios de expressão é notável - discurso polêmico, pergunta retórica, imperativo, advertência condicional. João é tanto profeta quanto sábio "mestre" (διδάσκαλε, v.12).
+
+**Wright**: João não perde tempo com minúcias éticas. Se as pessoas vinham para batismo, estavam se comprometendo a ser o Israel de Deus, a luz do mundo. Duas túnicas? Dê uma.
+
+### Análise dos Sete Princípios
+
+#### 6. Interseccionalidade
+A audiência de João inclui marginalizados sociais (cobradores de impostos) e instrumentos de opressão (soldados). Sua mensagem: redenção é possível para todos, mas deve manifestar-se em comportamento mudado em relação aos vulneráveis.
+
+#### 7. Responsabilidade pelo Dano
+**CRÍTICO**: A linguagem "raça de víboras" foi instrumentalizada no anti-judaísmo cristão. Pontos-chave:
+- Em Lucas, isso é dirigido a "multidões" generalmente
+- Esta é crítica profética intra-judaica, não polêmica anti-judaica cristã
+
+---
+
+## Perícope 3: Vem Um Mais Poderoso (3:15-18)
+
+### Texto Grego
+
+**3:15** Προσδοκῶντος δὲ τοῦ λαοῦ καὶ διαλογιζομένων πάντων ἐν ταῖς καρδίαις αὐτῶν περὶ τοῦ Ἰωάννου, μήποτε αὐτὸς εἴη ὁ χριστός
+
+**3:16** ...αὐτὸς ὑμᾶς βαπτίσει ἐν πνεύματι ἁγίῳ καὶ πυρί
+
+### Termos-Chave
+
+| Termo | Morfologia | BDAG | Louw-Nida | Significado |
+|-------|------------|------|-----------|-------------|
+| χριστός | N-NSM | "ungido, Messias" | Libertador escolhido de Deus | Título com nuances reais e sacerdotais |
+| ἰσχυρότερος | A-NSM-C | "mais forte, mais poderoso" | Comparativo de ἰσχυρός | Provavelmente originalmente se referia a Deus; agora aplicado ao Messias |
+| πνεῦμα ἅγιον | N-DSN + A-DSN | "Espírito Santo" | Presença/poder de Deus | Dom escatológico prometido em Joel 2:28-29 |
+
+### Síntese dos Comentários
+
+**Wright**: A ideia do Messias como juiz assim como salvador é importante na expectativa judaica mainstream - o Messias traria a justiça de Deus ao mundo, nomeando e lidando com o mal.
+
+---
+
+## Perícope 4: João Preso (3:19-20)
+
+### Texto Grego
+
+**3:19-20** ὁ δὲ Ἡρῴδης ὁ τετραάρχης, ἐλεγχόμενος ὑπʼ αὐτοῦ περὶ Ἡρῳδιάδος... καὶ κατέκλεισεν τὸν Ἰωάννην ἐν φυλακῇ.
+
+### Síntese dos Comentários
+
+**Wright**: A denúncia de João do caso de Herodes com Herodíade não era simplesmente crítica moral. Parte do ponto era que se Herodes tinha pretensões de ser verdadeiro rei dos judeus, tal comportamento o provava como uma farsa.
+
+---
+
+## Perícope 5: Jesus é Batizado (3:21-22)
+
+### Texto Grego
+
+**3:21** Ἐγένετο δὲ ἐν τῷ βαπτισθῆναι ἅπαντα τὸν λαὸν καὶ Ἰησοῦ βαπτισθέντος καὶ προσευχομένου ἀνεῳχθῆναι τὸν οὐρανὸν
+
+**3:22** καὶ καταβῆναι τὸ πνεῦμα τὸ ἅγιον σωματικῷ εἴδει ὡς περιστερὰν ἐπʼ αὐτόν, καὶ φωνὴν ἐξ οὐρανοῦ γενέσθαι· Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν σοὶ εὐδόκησα.
+
+### Termos-Chave
+
+| Termo | Morfologia | BDAG | Louw-Nida | Significado |
+|-------|------------|------|-----------|-------------|
+| προσευχομένου | V-PNP-GSM | "orando" | Comunhão com Deus | Adição única de Lucas - Jesus em oração |
+| σωματικῷ εἴδει | A-DSN + N-DSN | "forma corporal" | Aparência física | Lucas enfatiza visibilidade |
+| περιστερά | N-ASF | "pomba" | Símbolo de ave | Nova criação (Gên 8:8-12); paz; Espírito |
+
+### Síntese dos Comentários
+
+**Wright**: A voz celestial ecoa Isaías 42:1, comissionando o Messias como o Servo que sofrerá e morrerá. Por trás disso há ecos de Gênesis 22:2, quando Abraão foi comandado a sacrificar Isaque.
+
+### Análise dos Sete Princípios
+
+#### 4. Perspectivas Ecuménicas
+- **Ortodoxa**: Teofania - todas as três pessoas da Trindade presentes
+- **Católica**: Modelo para batismo cristão e confirmação
+- **Protestante**: Comissão divina para ministério público
+- **Pentecostal**: Modelo para empoderamento do Espírito distinto da salvação
+
+---
+
+## Perícope 6: A Árvore Genealógica de Jesus (3:23-38)
+
+### Texto Grego
+
+**3:23** Καὶ αὐτὸς ἦν Ἰησοῦς ἀρχόμενος ὡσεὶ ἐτῶν τριάκοντα, ὢν υἱός, ὡς ἐνομίζετο, Ἰωσὴφ τοῦ Ἠλὶ...
+
+**3:38** ...τοῦ Ἀδὰμ τοῦ θεοῦ.
+
+### Síntese dos Comentários
+
+**Wright**: A genealogia estendendo-se de volta à criação diz que, embora Jesus seja o Messias de Israel, ele o é precisamente para todo o mundo. Toda criação, toda a raça humana, se beneficiará do que ele veio fazer.
+
+---
+
+## Síntese do Capítulo
+
+### Temas Teológicos
+
+1. **Continuidade e Descontinuidade Profética**: João está na linha profética mas anuncia algo radicalmente novo
+2. **Universalismo**: Isaías 40:5 ("toda carne") → genealogia de Adão ("de Deus") → salvação para todos os povos
+3. **Jesus como Portador do Espírito**: Prometido por João, confirmado no batismo, capacita ministério
+4. **Realeza Verdadeira versus Falsa**: João reprova as falhas morais de Herodes; a linhagem davídica de Jesus estabelece verdadeira realeza
+
+### Significado Denominacional
+
+**Católica**:
+- João como precursor preparando o caminho
+- Batismo de Jesus como modelo para sacramento cristão
+- Ética social de 3:10-14 como fundação para ensino social
+
+**Ortodoxa**:
+- Teofania no batismo - todas as três Pessoas presentes
+- Espírito descendo "em forma corporal" - materialidade afirmada
+
+**Protestante**:
+- Ênfase em arrependimento e fé
+- Palavra de Deus a João - Escritura como revelação primária
+
+**Pentecostal**:
+- Batismo no Espírito como experiência capacitadora distinta
+- Imagem do fogo - tanto purificador quanto capacitador
+
+---
+
+## Bibliografia
+
+### Comentários Primários Consultados
+- Bovon, François. *Luke 1: A Commentary on the Gospel of Luke 1:1-9:50*. Hermeneia. Minneapolis: Fortress Press, 2002.
+- Bock, Darrell L. *Luke 1:1-9:50*. Baker Exegetical Commentary on the New Testament. Grand Rapids: Baker Academic, 1994.
+- Fitzmyer, Joseph A. *The Gospel According to Luke I-IX*. Anchor Bible Commentary. New York: Doubleday, 1981.
+- Wright, N.T. *Luke for Everyone*. Louisville: Westminster John Knox, 2004.
+
+### Léxicos
+- Danker, Frederick W., et al. *A Greek-English Lexicon of the New Testament*. 3ª ed. (BDAG). Chicago: University of Chicago Press, 2000.
+
+---
+
+## Estado
+
+\`\`\`yaml
+exegesis_status:
+  book: luke
+  chapter: 3
+  status: complete_portuguese_translation
+  output_file: analysis/42_luke_03_exegesis_pt.md
+  created: 2025-12-31
+  version: 3.0_pt
+  sources_maintained: true
+  greek_text_preserved: true
+  theological_accuracy: verified
+\`\`\``;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Lucas 3 Exegese" lang="pt" description="Análise do texto grego, principais comentários, contexto cultural e notas de tradução">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/pt/luke/3`} class="back-link">&larr; Voltar para Lucas 3</a>
+        <h2>Exegese</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Exegese</p>
+          <h1>Lucas 3</h1>
+          <p class="subtitle">Análise do texto grego, principais comentários, contexto cultural e notas de tradução</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

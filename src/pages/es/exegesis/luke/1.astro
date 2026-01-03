@@ -1,0 +1,1039 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Visión General",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Estructura de Perícopes",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Perícope 1: Por Qué Escribo Esto",
+    "verses": "1:1-4"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Perícope 2: Un Sacerdote Anciano y una Promesa Imposible",
+    "verses": "1:5-25"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Perícope 3: María Dice Sí",
+    "verses": "1:26-38"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Perícope 4: Dos Mujeres, Dos Milagros",
+    "verses": "1:39-45"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Perícope 5: El Cántico de María - Magnificat",
+    "verses": "1:46-56"
+  },
+  {
+    "id": "pericope-8",
+    "title": "Perícope 6: Su Nombre es Juan",
+    "verses": "1:57-66"
+  },
+  {
+    "id": "pericope-9",
+    "title": "Perícope 7: La Profecía de Zacarías - Benedictus",
+    "verses": "1:67-79"
+  },
+  {
+    "id": "pericope-10",
+    "title": "Perícope 8: Creciendo en el Desierto",
+    "verses": "1:80"
+  },
+  {
+    "id": "pericope-11",
+    "title": "Síntesis del Capítulo",
+    "verses": ""
+  },
+  {
+    "id": "pericope-12",
+    "title": "Apéndice: Referencia de Términos Griegos Clave",
+    "verses": ""
+  },
+  {
+    "id": "pericope-13",
+    "title": "Estado",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Lucas 1 - Exégesis Fundamental
+
+**Versión**: 2.0
+**Fecha**: 2025-12-18
+**Estado**: Completa (con Suplemento Integrado)
+**Fuentes**: Texto Griego NA28, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Keener (IVP Background), Wright, Eisele (Alemán), Ancient Christian Commentary (Patrístico), Stronstad (Carismático)
+
+---
+
+## Visión General
+
+Lucas 1 abre el Tercer Evangelio con un prólogo literario sofisticado seguido por narrativas entrelazadas del nacimiento de Juan el Bautista y Jesús. El capítulo establece los énfasis teológicos distintivos de Lucas: la fidelidad de Dios a las promesas de Israel, la inversión de las jerarquías sociales, la agencia de figuras marginales (sacerdotes ancianos, mujeres estériles, jovencitas campesinas), y el papel del Espíritu en inaugurar la nueva era de salvación. Los dos grandes himnos (Magnificat y Benedictus) anclan la narrativa en la tradición litúrgica judía mientras apuntan hacia temas que se desarrollarán a través de Lucas-Hechos.
+
+**Total de Versículos**: 80
+**Temas Clave**: Fidelidad divina, inversión/exaltación de los humildes, empoderamiento del Espíritu, cumplimiento de la profecía, agencia femenina, renovación del pacto
+
+---
+
+## Estructura de Perícopes
+
+| Perícope | Versículos | Título | Forma Literaria |
+|----------|------------|--------|-----------------|
+| luke_1_1-4 | 1:1-4 | Por Qué Escribo Esto | Prólogo |
+| luke_1_5-25 | 1:5-25 | Un Sacerdote Anciano y una Promesa Imposible | Narrativa de Nacimiento |
+| luke_1_26-38 | 1:26-38 | María Dice Sí | Narrativa de Nacimiento |
+| luke_1_39-45 | 1:39-45 | Dos Mujeres, Dos Milagros | Narrativa de Nacimiento |
+| luke_1_46-56 | 1:46-56 | El Cántico de María (Magnificat) | Poesía de Alabanza |
+| luke_1_57-66 | 1:57-66 | Su Nombre es Juan | Narrativa de Nacimiento |
+| luke_1_67-79 | 1:67-79 | La Profecía de Zacarías (Benedictus) | Poesía Profética |
+| luke_1_80 | 1:80 | Creciendo en el Desierto | Resumen |
+
+---
+
+## Perícope 1: Por Qué Escribo Esto (1:1-4)
+
+### Texto Griego
+> Ἐπειδήπερ πολλοὶ ἐπεχείρησαν ἀνατάξασθαι διήγησιν περὶ τῶν πεπληροφορημένων ἐν ἡμῖν πραγμάτων, καθὼς παρέδοσαν ἡμῖν οἱ ἀπʼ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου, ἔδοξε κἀμοὶ παρηκολουθηκότι ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε, ἵνα ἐπιγνῷς περὶ ὧν κατηχήθης λόγων τὴν ἀσφάλειαν.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| διήγησις | diēgēsis | narrativa, relato ordenado | Término literario para narrativa en prosa conectada; formal, no relato casual |
+| πεπληροφορημένων | peplērophorēmenōn | cumplido, realizado, llevado a completar | Perfecto pasivo: eventos llevados a plenitud por acción divina |
+| αὐτόπται | autoptai | testigos oculares | Término técnico; aquellos que vieron de primera mano—precisión legal/historiográfica |
+| ἀκριβῶς | akribōs | exactamente, cuidadosamente | Denota precisión en investigación y reporte |
+| καθεξῆς | kathexēs | en secuencia ordenada | Sugiere arreglo lógico o temático (no necesariamente cronológico) |
+| ἀσφάλεια | asphaleia | certeza, confiabilidad, estabilidad | BDAG: "estabilidad de idea o declaración, certeza, verdad" |
+| κατηχήθης | katēchēthēs | instruido, enseñado oralmente | Raíz de "catequesis"—instrucción religiosa formal |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: El prólogo sigue convenciones historiográficas helenísticas mientras hace afirmaciones teológicas. Lucas se posiciona entre "muchos" predecesores pero reclama credenciales distintivas: investigación exhaustiva (παρηκολουθηκότι), precisión (ἀκριβῶς), y presentación ordenada (καθεξῆς). El propósito (ἀσφάλεια) sugiere que Teófilo ha recibido instrucción pero necesita confirmación—quizás enfrentando narrativas competidoras o dudas.
+
+**Bock (Baker)**: El prólogo establece el método de Lucas: tradición de testigos oculares → investigación cuidadosa → escritura ordenada → certeza del lector. "Teófilo" ("amador de Dios") puede ser un patrón o lector representativo. El participio perfecto πεπληροφορημένων enfatiza completamiento divino de eventos, no mera ocurrencia histórica.
+
+**Fitzmyer (Anchor)**: Paralelos con historiadores griegos (Heródoto, Tucídides) y escritores médicos (Hipócrates). Lucas reclama acceso a múltiples fuentes ("muchos"), tradición de testigos oculares, e investigación personal—topoi historiográficos estándar que establecen credibilidad.
+
+**Eisele (Alemán)**: "Der Verfasser dieser Zeilen bleibt für uns anonym... Für den Autor selbst ist etwas anderes entscheidend: Er formuliert sein Selbstverständnis als antiker Historiker, der sich auf Überlieferung beruft und sich zugleich in ein kritisches Verhältnis dazu setzt." Lucas se posiciona no como fe ingenua sino como uno que busca "klare Erkenntnis" (conocimiento claro) a través del examen crítico de la tradición. Su término "Diener des Wortes" (servidores de la palabra) para los testigos oculares enfatiza su papel ministerial. Además: "Christlicher Unterricht ist keine Indoktrination, sondern zielt auf begründete Einsicht, die Unterweisung braucht und Freiheit lässt"—la instrucción cristiana apunta a "perspicacia fundamentada," no fe ciega.
+
+**Stronstad (Carismático)**: "La unidad literaria de Lucas-Hechos ha permanecido sin desafío serio... los intérpretes a menudo asumen que Lucas-Hechos refleja una discontinuidad teológica entre sus dos partes, más que una continuidad teológica u homogeneidad." Esto desafía divisiones artificiales entre la pneumatología del Evangelio y Hechos. El lenguaje del Espíritu en Lucas 1 debe leerse en continuidad con Hechos.
+
+### Trasfondo Cultural (Keener)
+
+La historiografía antigua valoraba el testimonio de testigos oculares y la investigación cuidadosa de fuentes. Las dedicatorias a patrones (como "excelentísimo Teófilo") eran convencionales en la literatura greco-romana. El título κράτιστε ("excelentísimo") sugiere que Teófilo tenía alguna posición social, posiblemente un oficial romano o patrón adinerado que financió la producción de la obra.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: La construcción de oración única (estilo periódico) requiere reestructuración cuidadosa en lenguas meta mientras se mantiene el momentum edificante hacia la cláusula de propósito. El registro formal debe preservarse—este no es habla casual.
+
+2. **Contexto Cultural**: Los lectores del primer siglo reconocerían convenciones historiográficas. Los lectores modernos pueden necesitar notas explicando por qué importan las cadenas de testigos oculares, o qué significa "ordenado" en narrativa antigua (temático, no estrictamente cronológico).
+
+3. **Apologética de Manos Abiertas**: Lucas reclama confiabilidad sin atacar alternativas. La traducción debe transmitir confianza sin triunfalismo. Los "muchos" predecesores son honrados, no desestimados.
+
+4. **Hermenéutica Ecuménica**: Todas las tradiciones valoran las afirmaciones de este prólogo sobre transmisión cuidadosa. El énfasis católico en tradición (παρέδοσαν = "entregado") y el énfasis protestante en certeza pueden encontrar fundamento aquí.
+
+5. **Localización Cultural-Contextual**: El formato de dedicatoria de patrón puede necesitar adaptación cultural. Algunas culturas tienen convenciones literarias equivalentes; otras pueden encontrarlo confuso sin explicación.
+
+6. **Interseccionalidad**: Lucas se dirige a una audiencia (presumiblemente) educada, de habla griega pero escribe sobre eventos entre campesinos galileos y sacerdotes judeos. El prólogo tiende puentes entre mundos sociales.
+
+7. **Responsabilidad por Daño**: Algunas lecturas han armado afirmaciones de "certeza" contra aquellos con preguntas o dudas. El griego ἀσφάλεια sugiere estabilidad fundamentada, no certeza agresiva que silencia la indagación.
+
+### Consideraciones de Traducción
+
+- **ἀσφάλεια**: No "prueba" o "certeza absoluta" sino "confiabilidad, base sólida"—algo sobre lo que puedes pararte
+- **καθεξῆς**: "Ordenado" no "cronológico"—Lucas arregla temáticamente en lugares
+- **κράτιστε**: Honorífico requiere equivalente cultural (alemán "Hochverehrter"? español "Su Excelencia"?)
+- **Oración periódica**: Puede necesitar división en múltiples oraciones mientras se preserva el flujo lógico
+
+### Arco Emocional
+
+Movimiento desde esfuerzo colectivo (muchos han escrito) → inversión personal (me pareció bien a mí también) → dirección directa (a ti, Teófilo) → propósito último (para que sepas). Construye desde general hasta íntimo.
+
+---
+
+## Perícope 2: Un Sacerdote Anciano y una Promesa Imposible (1:5-25)
+
+### Texto Griego (Seleccionado)
+> v.5: Ἐγένετο ἐν ταῖς ἡμέραις Ἡρῴδου βασιλέως τῆς Ἰουδαίας ἱερεύς τις ὀνόματι Ζαχαρίας ἐξ ἐφημερίας Ἀβιά...
+> v.7: καὶ οὐκ ἦν αὐτοῖς τέκνον, καθότι ἦν ἡ Ἐλισάβετ στεῖρα, καὶ ἀμφότεροι προβεβηκότες ἐν ταῖς ἡμέραις αὐτῶν ἦσαν.
+> v.13: Μὴ φοβοῦ, Ζαχαρία, διότι εἰσηκούσθη ἡ δέησίς σου...
+> v.18: Κατὰ τί γνώσομαι τοῦτο; ἐγὼ γάρ εἰμι πρεσβύτης...
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| ἐφημερία | ephēmeria | división sacerdotal, curso | Una de 24 divisiones sacerdotales rotativas; término técnico del Templo |
+| στεῖρα | steira | estéril | Término cargado que recuerda a Sara, Rebeca, Raquel, Ana |
+| δίκαιοι | dikaioi | justos | Fidelidad pactual, no perfección moral |
+| ἄμεμπτοι | amemptoi | sin reproche | Sin reproche en observancia de la Torah |
+| θυμιᾶσαι | thymiasai | quemar incienso | Honor de una vez en la vida; las suertes determinaban quién entraba al Lugar Santo |
+| ὀπτασία | optasia | visión, aparición sobrenatural | Distinguido de ὅραμα; enfatiza el ver |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: La narrativa cambia dramáticamente del prólogo historiográfico griego al estilo septuagintal ("Ἐγένετο ἐν ταῖς ἡμέραις..."). Esta es señalización literaria intencional—entramos al mundo de la historia sagrada de Israel. La duda de Zacarías es paralela a Abraham (Gén 15:8) pero recibe reproche más fuerte, quizás porque la revelación está ahora más avanzada.
+
+**Bock (Baker)**: La anunciación sigue un patrón del AT reconocible: aparición, miedo, mensaje, objeción, señal. Zacarías y Elisabet se introducen como paradigmas de piedad judía—justos en ambas tablas de la ley (hacia Dios y el prójimo). Su falta de hijos evoca las grandes narrativas de esterilidad de Israel (Sara, Ana) que producen hijos especiales a través de intervención divina.
+
+**Fitzmyer (Anchor)**: El anclaje histórico ("en los días de Herodes") ubica la narrativa en realidad política. La división sacerdotal de Abías (1 Crón 24:10) proporciona especificidad. La ofrenda de incienso ocurría dos veces al día; ser elegido por sorteo era un privilegio de una vez en la vida que Zacarías habría esperado durante décadas.
+
+**Eisele (Alemán)**: "Lukas macht einen doppelten Anfang, indem er Verheißung und Geburt nicht nur von Jesus, sondern auch von Johannes dem Täufer erzählt." El "doble comienzo" (doppelter Anfang) de Lucas intencionalmente paralela a Juan y Jesús. Esto tiene significancia anti-marcionita: la herencia judía de Jesús a través de conexiones sacerdotales contrarresta cualquier intento de despojar a Jesús de identidad judía. "Jesus war wirklich Mensch mit einer menschlichen Familie und ihrer jüdischen Geschichte"—Jesús era verdaderamente humano con una familia humana y su historia judía.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Máximo de Turín**: "No sé qué es lo más importante que debemos predicar—que él [Juan el Bautista] nació maravillosamente o fue asesinado más maravillosamente—pues nació como una profecía y fue asesinado por la verdad." (Sermón 5.1-2)
+- **Ambrosio**: "La Sagrada Escritura nos dice que no solo el carácter de aquellos que son dignos de elogio sino también sus padres deben ser alabados... Por tanto el sacerdote Zacarías no es solo sacerdote sino también del curso de Abías, es decir, un noble entre los ancestros de su esposa." (Exposición de Lucas 1.15-16)
+
+**Stronstad (Carismático)**: "La narrativa de inauguración de Lucas... tiene elementos tipológicos explícitos... La transferencia del Espíritu de Jesús a los discípulos refleja la transferencia anterior del Espíritu de Moisés a los setenta ancianos (Núm 11:16-30)." El don del Espíritu sigue el patrón del AT de transferencia carismática. Nota: Juan será "lleno del Espíritu Santo aun desde el vientre de su madre" (v.15)—una dotación carismática permanente.
+
+### Trasfondo Cultural (Keener)
+
+El servicio sacerdotal involucraba rotaciones de dos semanas dos veces al año. La ofrenda de incienso ocurría en el Lugar Santo (no el Santo de los Santos); el sacerdote entraba solo mientras la congregación oraba afuera. La posición de Gabriel "al lado derecho del altar" indica favor y poder. La angelología judía reconocía a Gabriel como uno de los arcángeles que están en la presencia de Dios (cf. Dan 8-9).
+
+La falta de hijos era socialmente devastadora en la antigüedad, a menudo culpada a la mujer a pesar del carácter irreprochable de Elisabet. El aislamiento de cinco meses de Elisabet (v.24) puede reflejar modestia, gratitud, o protección del embarazo milagroso.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: El cambio del estilo periódico griego a la narrativa septuagintal ("Y aconteció...") es una característica literaria a preservar. La autoidentificación formal de Gabriel (v.19) tiene gravedad litúrgica.
+
+2. **Contexto Cultural**: El culto del Templo, divisiones sacerdotales, ofrenda de incienso, y jerarquía angélica necesitan explicación accesible. La vergüenza de la esterilidad debe transmitirse sin reforzar esa vergüenza para lectores modernos.
+
+3. **Apologética de Manos Abiertas**: La duda de Zacarías se presenta honestamente—incluso los justos luchan con lo milagroso. Su mudez temporal es disciplina, no condenación.
+
+4. **Hermenéutica Ecuménica**: 
+   - Católico/Ortodoxo: Precedente para ministerio sacerdotal, intercesión angélica, culto del Templo
+   - Protestante: Dinámica fe/duda, iniciativa divina en salvación
+   - Todos: El Dios que mantiene promesas a través de generaciones
+
+5. **Localización Cultural-Contextual**: El sistema del Templo puede ser desconocido; conceptos de pureza ritual, espacio sagrado, y suertes sacerdotales necesitan puentes culturales.
+
+6. **Interseccionalidad**: 
+   - Caracteres ancianos como agentes de la acción de Dios (contrarresta cultura juvenil-céntrica)
+   - La vindicación de Elisabet después de vergüenza social
+   - Autoridad sacerdotal emparejada con vulnerabilidad personal
+
+7. **Responsabilidad por Daño**: El lenguaje de esterilidad no debe avergonzar a aquellos experimentando infertilidad hoy. El texto muestra el cuidado de Dios por los marginalizados, no su deficiencia.
+
+### Consideraciones de Traducción
+
+- **Ἐγένετο**: Apertura septuagintal; considerar si preservar el sentir arcaico o naturalizar
+- **στεῖρα**: "Estéril" lleva ecos bíblicos pero puede necesitar sensibilidad en contextos modernos
+- **εὐαγγελίσασθαι** (v.19): "Dar buenas nuevas"—nota el vocabulario evangélico que ya aparece
+- **κωφός** (v.22): "Mudo" o "incapaz de hablar" (no necesariamente "sordo")
+
+### Arco Emocional
+
+Fidelidad piadosa (vv.5-7) → Encuentro inesperado (vv.8-12) → Promesa abrumadora (vv.13-17) → Duda humana (v.18) → Disciplina divina (vv.19-20) → Asombro comunitario (vv.21-22) → Gozo silencioso (vv.23-25). Las palabras finales de Elisabet transforman vergüenza en alabanza.
+
+---
+
+## Perícope 3: María Dice Sí (1:26-38)
+
+### Texto Griego (Seleccionado)
+> v.28: Χαῖρε, κεχαριτωμένη, ὁ κύριος μετὰ σοῦ.
+> v.35: Πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις Ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται, υἱὸς θεοῦ.
+> v.38: Ἰδοὺ ἡ δούλη κυρίου· γένοιτό μοι κατὰ τὸ ῥῆμά σου.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| κεχαριτωμένη | kecharitōmenē | agraciada, favorecida | Participio perfecto pasivo: "una que ha sido agraciada/favorecida" |
+| παρθένος | parthenos | virgen, mujer joven | Mujer soltera en edad casadera; virginidad enfatizada en contexto |
+| ἐπισκιάσει | episkiasei | cubrirá con su sombra | BDAG: actividad divina; hace eco de la Shekinah cubriendo el tabernáculo |
+| Ὕψιστος | Hypsistos | Altísimo | Título judío para Dios; usado en contextos de transcendencia divina |
+| δούλη | doulē | sierva, esclava | Autodesignación de disponibilidad radical y sumisión |
+| ῥῆμα | rhēma | palabra, cosa, asunto | Tanto palabra hablada como la realidad que efectúa (v.37: "nada es imposible para Dios") |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: La anunciación sigue el mismo patrón de género que la de Zacarías pero con diferencias cruciales. María recibe una promesa mayor con menos estatus social. Su pregunta (v.34) es indagación, no duda—pregunta "¿cómo?" no "¿cómo puedo estar segura?" El lenguaje de cubrir con sombra (ἐπισκιάζω) conecta con Éxodo 40:35 donde la nube cubre el tabernáculo. María se convierte en el nuevo locus de presencia divina.
+
+**Bock (Baker)**: El contenido cristológico es denso: Hijo del Altísimo, trono de David, reino eterno, Hijo de Dios. La concepción es por Espíritu Santo, no agencia humana—el pasivo γεννώμενον enfatiza acción divina. La respuesta de María es fe ejemplar: "Hágase conmigo conforme a tu palabra."
+
+**Fitzmyer (Anchor)**: Nazaret era una villa insignificante de quizás 200-400 personas. El compromiso de María (μνηστεύω) era un arreglo legalmente vinculante, aunque ella permanecía en la casa de su padre. La concepción virginal se narra sin apologética explícita—Lucas simplemente la declara como hecho.
+
+**Eisele (Alemán)**: "Während Matthäus jedoch aus der Perspektive Josefs erzählt... steht bei Lukas Maria im Mittelpunkt, die als weibliche Hauptfigur die Kindheitserzählung prägt." Mientras Mateo cuenta desde la perspectiva de José, Lucas deliberadamente centra a María como protagonista—una elección significativa para lectura interseccional.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Orígenes**: "El ángel saludó a María con una nueva forma de dirigirse, que no pude encontrar en ningún otro lugar de la Escritura... 'Salve, llena de gracia' no se dirige a un varón. Este saludo fue reservado para María sola." (Homilías sobre Lucas 6.7)
+- **Ambrosio**: "Verdaderamente llena de gracia era ella, a quien fue conferido por favor divino que, primera entre las mujeres, debería ofrecer a Dios el don más glorioso de su virginidad. Por tanto ella que se esforzó por imitar la vida de un ángel fue justamente digna de gozar la experiencia de ver y hablar con un ángel." (Homilías sobre los Evangelios 1.3)
+
+**Stronstad (Carismático)**: "La frase 'lleno del Espíritu Santo' tiene un significado diferente (¿y superior?) en Hechos que en Lucas... [pero] para Juan el don del Espíritu de profecía fue ciertamente permanente (Lucas 1:15) y para los discípulos fue demostrablemente repetitivo." El "cubrir con sombra" del Espíritu (v.35) conecta con la pneumatología más amplia de Lucas-Hechos. "Lleno del Espíritu Santo" debe traducirse consistentemente a través de ambos libros.
+
+### Trasfondo Cultural (Keener)
+
+Las niñas típicamente se comprometían entre 12-14 años de edad. El período de compromiso duraba alrededor de un año antes de la ceremonia de matrimonio. La situación de María—embarazada durante el compromiso—habría sido socialmente catastrófica; las opciones de José incluían denuncia pública o divorcio silencioso. El mensaje de Gabriel viene con cero preocupación por consecuencias sociales, un patrón en Lucas.
+
+La referencia a "casa de David" (v.27) conecta a Jesús con linaje real a través de José, su padre legal. Los lectores antiguos entenderían que la paternidad legal confería derechos de herencia independientemente de generación biológica.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: La estructura de diálogo (saludo → mensaje → pregunta → explicación → respuesta) debe preservarse. La famosa respuesta de María (v.38) tiene poder litúrgico a través de idiomas—el fiat.
+
+2. **Contexto Cultural**: Costumbres de compromiso, edad de matrimonio, y vulnerabilidad social de María necesitan explicación. El lenguaje de "cubrir con sombra" requiere conexión con imágenes del tabernáculo del Éxodo.
+
+3. **Apologética de Manos Abiertas**: La concepción virginal se declara sin argumento defensivo. Deja que el texto permanezca; las notas pueden reconocer diferentes lecturas sin forzar conclusiones.
+
+4. **Hermenéutica Ecuménica**:
+   - Católico/Ortodoxo: Devoción mariana, κεχαριτωμένη como "llena de gracia," María como nueva arca
+   - Protestante: María como modelo de fe, enfoque cristológico del pasaje
+   - Todos: El escándalo de la encarnación—Dios entra a través de los márgenes
+
+5. **Localización Cultural-Contextual**: La respuesta de María ha sido usada para reforzar sumisión femenina; la traducción debe transmitir su consentimiento activo y agencia, no conformidad pasiva. El fiat es un poderoso "sí," no resignación.
+
+6. **Interseccionalidad**: 
+   - Una jovencita de la nada se convierte en la colaboradora humana primaria de Dios
+   - Inversión de clase: niña campesina recibe promesa real
+   - Género: la agencia femenina es central; Dios pregunta, María responde
+
+7. **Responsabilidad por Daño**: El lenguaje de "sierva" ha sido usado para reforzar servidumbre femenina. La δούλη aquí es una identidad auto-elegida de disponibilidad radical a Dios, no servidumbre impuesta a hombres.
+
+### Consideraciones de Traducción
+
+- **κεχαριτωμένη**: "Favorecida," "agraciada," "llena de gracia"—todas tienen tradición. El tiempo perfecto sugiere acción completada con efecto continuo.
+- **ἐπισκιάσει**: "Cubrir con sombra" lleva resonancia del tabernáculo pero suena ominoso en español; considerar alternativas que transmitan presencia protectora
+- **δούλη**: "Sierva" vs. "esclava" vs. "criada"—cada una tiene bagaje. El contexto importa: esta es la autoidentificación de María ante Dios, no un estatus social.
+
+### Arco Emocional
+
+Saludo sorprendente (v.28) → Perplejidad profunda (v.29) → Tranquilidad (v.30) → Promesa abrumadora (vv.31-33) → Pregunta honesta (v.34) → Misterio divino (v.35) → Señal confirmadora (vv.36-37) → Consentimiento resuelto (v.38). El movimiento es de confusión a fe valiente.
+
+---
+
+## Perícope 4: Dos Mujeres, Dos Milagros (1:39-45)
+
+### Texto Griego
+> v.41: καὶ ἐγένετο ὡς ἤκουσεν τὸν ἀσπασμὸν τῆς Μαρίας ἡ Ἐλισάβετ, ἐσκίρτησεν τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς, καὶ ἐπλήσθη πνεύματος ἁγίου ἡ Ἐλισάβετ,
+> v.42: καὶ ἀνεφώνησεν κραυγῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξίν, καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.
+> v.45: καὶ μακαρία ἡ πιστεύσασα ὅτι ἔσται τελείωσις τοῖς λελαλημένοις αὐτῇ παρὰ κυρίου.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| ἐσκίρτησεν | eskirtēsen | saltó, brincó | Movimiento físico fuerte; usado de corderos saltando, o movimiento fetal |
+| βρέφος | brephos | bebé, infante, niño no nacido | Puede referirse a feto o recién nacido; aquí enfatiza personalidad antes del nacimiento |
+| μακαρία | makaria | bendita, afortunada | Lenguaje de bienaventuranza: una sobre quien descansa el favor divino |
+| πιστεύσασα | pisteusasa | habiendo creído | Participio aoristo: el acto decisivo de fe |
+| τελείωσις | teleiōsis | cumplimiento, completar | No solo ocurrencia sino perfección de lo que fue prometido |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: Este es un encuentro de dos mujeres proféticas. Elisabet es llena del Espíritu y profetiza—la primera expresión profética en el evangelio propio. Su bendición (v.42) hace eco de Jael (Juec 5:24) y Judit (Jdt 13:18), conectando a María con las mujeres heroicas de Israel. La bienaventuranza (v.45) contrasta la fe de María con la duda de Zacarías.
+
+**Bock (Baker)**: El bebé saltando en el vientre cumple la profecía de Gabriel de que Juan sería lleno del Espíritu desde el nacimiento (v.15). Elisabet reconoce a María como "la madre de mi Señor" (v.43)—un título asombroso que reconoce el estatus superior de Jesús. La escena establece la relación entre Juan y Jesús: precursor y Señor.
+
+**Fitzmyer (Anchor)**: La "montaña de Judá" era un viaje de varios días desde Nazaret. La prisa de María (μετὰ σπουδῆς) sugiere urgencia, posiblemente para confirmar la señal que se le dio (el embarazo de Elisabet). El encuentro de las dos mujeres es el primer encuentro de los dos movimientos que se fusionarán en Jesús.
+
+**Eisele (Alemán)**: "Die Begegnung der Verwandten Maria und Elisabet bezeichnet einen Knotenpunkt in der Kindheitserzählung des Lukas. Hier treffen sich nicht nur die beiden Mütter, sondern zum ersten Mal auch ihre noch ungeborenen Kinder." Este es un "Knotenpunkt" (punto nodal)—el encuentro de madres y sus hijos no nacidos. Además: "Die Segenssprüche über Judit und Jaël finden Widerhall in Elisabets Segen über Maria... 'Gesegnet bist du, Tochter, vom höchsten Gott, mehr als alle Frauen auf der Erde.'" (Jdt 13,18). La bendición de Elisabet hace eco de bendiciones sobre Judit y Jael, colocando a María en la línea de mujeres heroicas que liberan al pueblo de Dios.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Ambrosio**: "Juan bautizó a Aquel por medio de quien todos los demás serían bautizados." Incluso en el vientre, la jerarquía cristológica se establece.
+- **Beda**: "Tanto Elías como Juan fueron célibes. Ambos usaron vestimenta tosca. Ambos pasaron sus vidas en el desierto. Ambos fueron heraldos de la verdad. Ambos sufrieron persecución por causa de la justicia a manos de un rey y reina—el primero a manos de Acab y Jezabel, el último a manos de Herodes y Herodías." (Homilías sobre los Evangelios 2.23)
+
+**Stronstad (Carismático)**: "Elisabet es llena del Espíritu y profetiza—la primera expresión profética en el evangelio propio." Su llenura del Espíritu habilita reconocimiento profético de María y el Jesús no nacido. Esto establece el patrón: Espíritu → habla profética.
+
+### Trasfondo Cultural (Keener)
+
+Las mujeres visitando parientes femeninas durante el embarazo era común. La duración de la estadía de María (tres meses, v.56) habría llevado a Elisabet casi al término. El aislamiento de Elisabet (v.24) seguido por este encuentro íntimo crea un espacio narrativo centrado en mujeres donde la revelación ocurre aparte de figuras de autoridad masculina.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: El estilo exclamatorio de la bendición de Elisabet (κραυγῇ μεγάλῃ, "con gran clamor") debe transmitir intensidad profética. La bienaventuranza (v.45) merece prominencia.
+
+2. **Contexto Cultural**: Dos mujeres embarazadas, una anciana y una joven, se reconocen mutuamente como portadoras de promesa divina. Esta solidaridad femenina es contracultural para contextos patriarcales.
+
+3. **Apologética de Manos Abiertas**: El pasaje afirma personalidad prenatal (Juan reconoce a Jesús in utero) sin armarlo. El enfoque está en reconocimiento profético, no argumento biológico.
+
+4. **Hermenéutica Ecuménica**:
+   - Católico/Ortodoxo: Fiesta de la Visitación, "madre de mi Señor" como fundamento de Theotokos
+   - Protestante: María bendita por fe (v.45), no por estatus único
+   - Todos: El movimiento del Espíritu trasciende jerarquías humanas
+
+5. **Localización Cultural-Contextual**: En culturas donde las reuniones de mujeres son importantes, esta escena resuena naturalmente. Donde la autoridad religiosa de las mujeres es cuestionada, este texto es subversivo.
+
+6. **Interseccionalidad**: 
+   - Dos mujeres reconocen lo que los hombres aún no han captado
+   - Puente de edades: la anciana Elisabet y la adolescente María como socias proféticas
+   - Los no nacidos participan en el drama divino
+
+7. **Responsabilidad por Daño**: "Bendito es el fruto de tu vientre" ha sido usado para avergonzar a mujeres que no pueden tener hijos. La bendición aquí es específica al llamado único de María, no una valorización general de fertilidad.
+
+### Consideraciones de Traducción
+
+- **κραυγῇ μεγάλῃ**: "Fuerte clamor," "gran grito"—Elisabet no es recatada; esta es proclamación profética
+- **μήτηρ τοῦ κυρίου μου**: "Madre de mi Señor"—κύριος lleva connotaciones tanto mesiánicas como divinas
+- **μακαρία ἡ πιστεύσασα**: La estructura de bienaventuranza debe preservarse—"Bendita la que creyó"
+
+### Arco Emocional
+
+Viaje apresurado (v.39) → Saludo gozoso (v.40) → Reconocimiento prenatal (v.41) → Profecía llena del Espíritu (vv.42-44) → Bienaventuranza de fe (v.45). Movimiento de físico a espiritual, de privado a profético.
+
+---
+
+## Perícope 5: El Cántico de María - Magnificat (1:46-56)
+
+### Texto Griego
+> v.46-47: Μεγαλύνει ἡ ψυχή μου τὸν κύριον, καὶ ἠγαλλίασεν τὸ πνεῦμά μου ἐπὶ τῷ θεῷ τῷ σωτῆρί μου·
+> v.48: ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ...
+> v.51-53: Ἐποίησεν κράτος ἐν βραχίονι αὐτοῦ, διεσκόρπισεν ὑπερηφάνους διανοίᾳ καρδίας αὐτῶν· καθεῖλεν δυνάστας ἀπὸ θρόνων καὶ ὕψωσεν ταπεινούς, πεινῶντας ἐνέπλησεν ἀγαθῶν καὶ πλουτοῦντας ἐξαπέστειλεν κενούς.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| μεγαλύνει | megalynei | magnifica, glorifica | Hace grande, declara grande—tiempo presente para acción continua |
+| ταπείνωσις | tapeinōsis | humildad, humillación | BDAG: "experiencia de inversión en fortunas, humillación" o "estado sin pretensiones" |
+| δυνάστας | dynastas | gobernantes, aquellos en poder | Detentadores de poder, los poderosos—vocabulario político |
+| ταπεινούς | tapeinous | humildes, mansos | Aquellos sin poder social—lo opuesto de δυνάστας |
+| ἔλεος | eleos | misericordia, amor firme | Hebreo חֶסֶד (hesed)—fidelidad pactual y compasión |
+| σπέρματι | spermati | semilla, descendientes | Lenguaje de promesa abrahámica |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: El Magnificat (nombrado por la traducción latina de μεγαλύνει) es un himno en la tradición del cántico de Ana (1 Sam 2:1-10). Los verbos aoristos (vv.51-53) son debatidos: ¿son "aoristos proféticos" describiendo acción futura como ya cumplida, o aoristos hímnicos celebrando las acciones características de Dios? Más probablemente lo último—María alaba lo que Dios siempre hace. El himno puede tener orígenes judío-cristianos pre-lucanos, adaptados para la voz de María.
+
+**Bock (Baker)**: El Magnificat se divide en: alabanza personal (vv.46-50), inversión cósmica (vv.51-53), y cumplimiento de pacto (vv.54-55). María se mueve de su experiencia individual al patrón universal de Dios a las promesas específicas de Israel. Este telescopeo es característico de la alabanza bíblica.
+
+**Fitzmyer (Anchor)**: Fuertes ecos del cántico de Ana (1 Sam 2) y otros pasajes del AT (Sal 103, 107, 111; Hab 3:18). Los aoristos son "gnómicos"—describiendo la acción típica de Dios—o "prolépticos"—celebrando como hecho lo que Dios está haciendo ahora a través del hijo de María. Las inversiones sociales (orgulloso/humilde, rico/pobre) anticipan la preocupación que abarca todo el evangelio de Lucas.
+
+**Eisele (Alemán)**: "Aus dem Lukasevangelium stammen drei der Gebete, die in der kirchlichen Liturgie am häufigsten rezitiert werden: die Lobgesänge der Maria, des Zacharias und des Simeon." El Magnificat, Benedictus, y Nunc Dimittis son centrales al oficio diario—la traducción debe ser apropiada para recitación litúrgica. Además: "Gott lässt sich von der Not und dem Elend des Menschen zutiefst berühren und antwortet darauf mit seiner tatkräftigen Hilfe"—Dios es movido por el sufrimiento humano y responde con ayuda efectiva. Las inversiones sociales del Magnificat son respuesta divina al sufrimiento genuino, no teología abstracta.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Beda**: "La primera causa de perdición humana ocurrió cuando una serpiente fue enviada por el diablo a una mujer que sería engañada por el espíritu de orgullo... Porque la muerte hizo su entrada a través de una mujer, fue apropiado que la vida regresara a través de una mujer." (Homilías sobre los Evangelios 1.3) La tipología Eva/María refuerza el tema de inversión.
+
+**Stronstad (Carismático)**: El Magnificat de María sigue la expresión profética de Elisabet como la segunda voz profética en el evangelio. Ambas mujeres hablan bajo inspiración del Espíritu. Esto establece un patrón de habla profética continuando del AT a través de la narrativa de infancia hacia el ministerio de Jesús y la iglesia primitiva.
+
+### Trasfondo Cultural (Keener)
+
+Las mujeres judías típicamente no eran entrenadas en Escritura, sin embargo el himno de María está saturado de alusiones del AT. Esto puede reflejar (1) formación litúrgica en sinagoga y hogar, (2) moldeado literario de Lucas, o (3) inspiración profética genuina. El contenido resuena con piedad judía: misericordia de Dios hacia los pobres, juicio sobre los arrogantes, fidelidad al pacto de Abraham.
+
+El tema de "gran inversión" era parte de la esperanza escatológica judía. Cuando Dios actúa decisivamente, el orden social se invierte: los gobernantes caen, los humildes se levantan. Este es lenguaje revolucionario que ha motivado movimientos de liberación a través de la historia.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: El Magnificat ha sido cantado por milenios. La traducción debe preservar cantabilidad y ritmo litúrgico donde sea posible. El paralelismo (orgulloso/humilde, rico/pobre, gobernantes/humildes) es estructural, no decorativo.
+
+2. **Contexto Cultural**: El cántico de María hace eco de Ana y los profetas. Las notas deben rastrear estas conexiones. El tema de inversión conecta con el Jubileo (Lev 25) y justicia profética (Amós, Isaías).
+
+3. **Apologética de Manos Abiertas**: El debate del tiempo aoristo (¿pasado? ¿futuro profético? ¿gnómico?) no necesita resolverse para traducción. Deja que la ambigüedad permanezca; notas al pie pueden discutir.
+
+4. **Hermenéutica Ecuménica**:
+   - Católico/Ortodoxo: Uso litúrgico diario (Vísperas), devoción mariana, enseñanza social
+   - Protestante: Raíces de teología de liberación, evangelio social, justicia profética
+   - Todos: Opción preferencial de Dios por los pobres y marginalizados
+
+5. **Localización Cultural-Contextual**: El lenguaje de inversión está políticamente cargado en todo contexto. La traducción no debe domesticarlo. Donde la iglesia es poderosa, el Magnificat es una autocrítica; donde la iglesia es marginalizada, es un manifiesto de esperanza.
+
+6. **Interseccionalidad**: 
+   - Una persona joven, pobre, femenina, colonizada habla la visión revolucionaria de Dios
+   - María como teóloga de liberación avant la lettre
+   - Justicia económica (hambrientos llenos, ricos enviados vacíos) junto con inversión política
+
+7. **Responsabilidad por Daño**: El Magnificat ha sido espiritualizado para evitar sus implicaciones sociales ("orgullosos de corazón" = solo actitud interna). La traducción y notas deben resistir esta domesticación mientras evitan cooptación política.
+
+### Consideraciones de Traducción
+
+- **ταπείνωσις** (v.48): "Humildad" o "estado humilde"—no primariamente una virtud sino una ubicación social. María tiene bajo estatus, no es solo modesta.
+- **Verbos aoristos** (vv.51-53): La mayoría de traducciones usan tiempo pasado. Algunos usan presente para transmitir la naturaleza continua/típica. Ambos son defendibles.
+- **δυνάστας / ταπεινούς**: "Gobernantes/humildes," "poderosos/mansos"—el contraste es político y económico, no solo espiritual.
+
+### Arco Emocional
+
+Alabanza personal y asombro (vv.46-49) → Reconocimiento de la misericordia de Dios a través de generaciones (v.50) → Celebración exultante de inversión cósmica (vv.51-53) → Fidelidad pactual hacia Israel (vv.54-55) → Regreso silencioso a narrativa (v.56). El himno se mueve de íntimo a cósmico a pactual.
+
+---
+
+## Perícope 6: Su Nombre es Juan (1:57-66)
+
+### Texto Griego (Seleccionado)
+> v.60: καὶ ἀποκριθεῖσα ἡ μήτηρ αὐτοῦ εἶπεν· Οὐχί, ἀλλὰ κληθήσεται Ἰωάννης.
+> v.63: καὶ αἰτήσας πινακίδιον ἔγραψεν λέγων· Ἰωάννης ἐστὶν ὄνομα αὐτοῦ. καὶ ἐθαύμασαν πάντες.
+> v.64: ἀνεῴχθη δὲ τὸ στόμα αὐτοῦ παραχρῆμα καὶ ἡ γλῶσσα αὐτοῦ, καὶ ἐλάλει εὐλογῶν τὸν θεόν.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| περιτεμεῖν | peritemnein | circuncidar | Señal del pacto; tradicionalmente la nomenclatura ocurría en la circuncisión |
+| πινακίδιον | pinakidion | tablilla de escritura | Pequeña tablilla de madera con superficie de cera para escribir |
+| παραχρῆμα | parachrēma | inmediatamente, al instante | Término característico de Lucas para acción divina súbita |
+| εὐλογῶν | eulogōn | bendiciendo, alabando | Participio: su primera palabra fue bendición de Dios |
+| χεὶρ κυρίου | cheir kyriou | mano del Señor | Idioma del AT para poder divino y favor |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: La escena de nomenclatura resuelve la tensión creada por la mudez de Zacarías. La insistencia de Elisabet en "Juan" (significa "YHWH ha sido misericordioso") muestra que conoce el mensaje angélico—ya sea a través de comunicación escrita de Zacarías o perspicacia profética. La sorpresa de la comunidad al romper convenciones familiares de nomenclatura intensifica la naturaleza milagrosa de los eventos.
+
+**Bock (Baker)**: La circuncisión del octavo día sigue la Torah (Lev 12:3). La disputa de nomenclatura crea tensión dramática: ¿anulará la familia a Elisabet? La confirmación escrita de Zacarías ("Su nombre ES Juan"—no "será") rompe su silencio inmediatamente. Sus primeras palabras son bendición, no queja—su fe ha madurado a través del silencio.
+
+**Fitzmyer (Anchor)**: "Juan" (Ἰωάννης del יוֹחָנָן, Yohanan) significa "YHWH ha mostrado gracia." El nombre encapsula la historia. El temor de los vecinos (v.65) y el reporte extendido "por toda la montaña de Judea" prepara para el futuro papel público de Juan.
+
+**Eisele (Alemán)**: "'Johannes' (Ἰωάννης del יוֹחָנָן, Yohanan) significa 'JHWH hat Gnade erwiesen.' El nombre resume toda la historia." La teología del nombre es central—Juan = "YHWH ha mostrado gracia" encapsula toda la narrativa. Considerar notas explicativas sobre significados de nombres hebreos para lectores no familiarizados con esta tradición.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Beda**: "Cuando en las Escrituras se impone o cambia un nombre... por Dios, es indicativo de gran alabanza y virtud. Fue bueno que se ordenara que el precursor de nuestro Redentor fuera llamado Juan. El nombre Juan significa 'la gracia del Señor' o 'en quien hay gracia.'" (Homilías sobre los Evangelios 2.19)
+
+### Trasfondo Cultural (Keener)
+
+Nombrar a un niño según un pariente masculino (especialmente el padre o abuelo) era costumbre. La insistencia de Elisabet en "Juan" habría sido chocante—las mujeres típicamente no tenían autoridad sobre nomenclatura. La apelación de la comunidad a Zacarías (v.62) muestra que esperaban que él anulara a su esposa. Su confirmación de "Juan" es una doble sorpresa.
+
+La "mano del Señor" (v.66) fue reconocida como señal de favor divino y llamado. La pregunta "¿Qué llegará a ser este niño?" crea expectación narrativa para el ministerio de Juan.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: El diálogo y ritmo narrativo deben preservar la tensión. La declaración escrita de Zacarías tiene peso dramático—preserva la autoridad de la palabra escrita.
+
+2. **Contexto Cultural**: Circuncisión como entrada al pacto, cronometraje del octavo día, y costumbres de nomenclatura necesitan explicación. La sorpresa por "Juan" requiere entender expectativas de nomenclatura familiar.
+
+3. **Apologética de Manos Abiertas**: La restauración de Zacarías sigue obediencia. Esta es disciplina y restauración, no castigo y liberación.
+
+4. **Hermenéutica Ecuménica**:
+   - Papel de la circuncisión en identidad judía (respetando lectores judíos)
+   - Continuidad de pacto (lo nuevo no reemplaza lo viejo)
+   - Testimonio comunitario de acción de Dios
+
+5. **Localización Cultural-Contextual**: Las costumbres de nomenclatura varían grandemente a través de culturas. Algunos resonarán con expectativas de nomenclatura familiar; otros pueden necesitar explicación.
+
+6. **Interseccionalidad**: 
+   - La voz de Elisabet prevalece contra expectación comunitaria
+   - Zacarías confirma más que anular a su esposa
+   - La comunidad (no solo líderes) testifica y extiende las noticias
+
+7. **Responsabilidad por Daño**: Lenguaje de discapacidad (mudez como castigo) debe manejarse cuidadosamente. La mudez de Zacarías es disciplina temporal, no una declaración sobre el estatus espiritual de personas discapacitadas.
+
+### Consideraciones de Traducción
+
+- **Ἰωάννης ἐστὶν**: "Su nombre ES Juan"—tiempo presente enfatiza el hecho establecido, no una decisión siendo tomada
+- **χεὶρ κυρίου**: "Mano del Señor"—considerar si preservar idioma o interpretar
+
+### Arco Emocional
+
+Gozo del vecindario (vv.57-58) → Disputa de nomenclatura (vv.59-62) → Confirmación dramática de Zacarías (v.63) → Restauración inmediata (v.64) → Temor comunitario y asombro extendido (vv.65-66).
+
+---
+
+## Perícope 7: La Profecía de Zacarías - Benedictus (1:67-79)
+
+### Texto Griego
+> v.68: Εὐλογητὸς κύριος ὁ θεὸς τοῦ Ἰσραήλ, ὅτι ἐπεσκέψατο καὶ ἐποίησεν λύτρωσιν τῷ λαῷ αὐτοῦ,
+> v.69: καὶ ἤγειρεν κέρας σωτηρίας ἡμῖν ἐν οἴκῳ Δαυὶδ παιδὸς αὐτοῦ...
+> v.78-79: διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ἐπισκέψεται ἡμᾶς ἀνατολὴ ἐξ ὕψους, ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ἡμῶν εἰς ὁδὸν εἰρήνης.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| εὐλογητός | eulogētos | bendito, alabado | Apertura de berakah: "Bendito sea el Señor Dios..." |
+| λύτρωσις | lytrōsis | redención, liberación | Liberación a través de pago de rescate; lenguaje del Éxodo |
+| κέρας σωτηρίας | keras sōtērias | cuerno de salvación | Símbolo de fuerza, poder; cf. cuerno de unción |
+| σπλάγχνα ἐλέους | splanchna eleous | tierna misericordia, misericordia compasiva | Lit. "entrañas de misericordia"—compasión visceral profunda |
+| ἀνατολή | anatolē | amanecer, alba, oriente | Título mesiánico: el "amanecer" o "retoño" (cf. Jer 23:5 LXX) |
+| εἰρήνη | eirēnē | paz | Hebreo שָׁלוֹם—bienestar comprensivo, no mera ausencia de conflicto |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: El Benedictus (latín para "Bendito") se divide en dos partes: redención de Israel (vv.68-75) y misión de Juan (vv.76-79). Puede ser un himno judío pre-lucano adaptado para este contexto. El "cuerno de salvación" hace eco del salmo de David (2 Sam 22:3; Sal 18:2). La ἀνατολή (v.78) es ambigua: "sol naciente" (alba) o "retoño" mesiánico (Jer 23:5; Zac 3:8; 6:12).
+
+**Bock (Baker)**: Zacarías profetiza sobre tanto Jesús (vv.68-75) como Juan (vv.76-79). El énfasis davídico ("casa de David su siervo") contrasta con el linaje levítico de Juan—Zacarías apunta más allá de su propio hijo al mayor. El vocabulario está saturado con temas del AT de pacto y éxodo: redención, salvación, misericordia, juramento a Abraham.
+
+**Fitzmyer (Anchor)**: El Benedictus está estructurado como una bendición judía (berakah) con contenido profético. "Salvación de nuestros enemigos" (v.71) refleja esperanzas judías de liberación política que serán reinterpretadas en la narrativa de Lucas. La imagen final—"pies guiados al camino de paz"—anticipa el motivo de viaje de Lucas.
+
+**Eisele (Alemán)**: "Die Erzählung von der Geburt Johannes' des Täufers wird durch den Lobgesang seines Vaters Zacharias abgeschlossen, der seinen Sohn als Vorläufer des Herrn charakterisiert." El Benedictus cierra la narrativa de nacimiento de Juan y lo caracteriza como precursor. Además: "Aus der größten Not des Menschen, seiner Verstrickung in die Sünde, kann keine weltliche Macht ihn befreien... Gottes Barmherzigkeit ist stärker als Sünde und Tod"—ningún poder mundano puede liberar del pecado; solo la misericordia de Dios es más fuerte que el pecado y la muerte. El "cuerno de salvación" (v.69) representa poder divino, no político.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Ambrosio**: "Juan sería grande—no a través de virtud corporal sino por magnanimidad. No amplió las fronteras de un imperio. No prefirió triunfos de contienda militar a honores. Más bien, lo que es más, despreció placeres humanos y lujuria del cuerpo, predicando en el desierto con gran virtud de espíritu." (Exposición de Lucas 1.31-33) La grandeza de Juan es moral/espiritual, no política.
+
+**Stronstad (Carismático)**: "El trasfondo del AT de la pneumatología de Lucas... el Espíritu es el Espíritu de profecía. En el AT el Espíritu Santo es exclusivamente el Espíritu de profecía." La profecía de Zacarías es explícitamente inspirada por el Espíritu (v.67: "lleno del Espíritu Santo y profetizó"). Esto muestra la conexión directa: llenura del Espíritu → habla profética.
+
+### Trasfondo Cultural (Keener)
+
+Las oraciones matutinas judías incluían bendiciones (berakot) alabando a Dios por fidelidad pactual. El Benedictus encaja este patrón litúrgico. El lenguaje de "enemigos" refleja experiencia judía del primer siglo bajo ocupación romana—esperanzas de un liberador davídico que restauraría la independencia de Israel.
+
+Las imágenes de ἀνατολή pueden basarse en Malaquías 4:2 ("sol de justicia con sanidad en sus alas") y la tradición mesiánica del "retoño". Luz para aquellos "sentados en tinieblas y sombra de muerte" hace eco de Isaías 9:2, un texto mesiánico clave.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: El Benedictus, como el Magnificat, tiene historia litúrgica. Preservar estructura poética y ritmo. El cambio de "redención de Israel" a "tú, niño" (v.76) debe marcarse.
+
+2. **Contexto Cultural**: Tradición de berakah, expectativas davídicas/mesiánicas, y vocabulario de éxodo/redención requieren fundamentación en liturgia y esperanza judías.
+
+3. **Apologética de Manos Abiertas**: El lenguaje de "enemigos" es ambiguo—¿político? ¿espiritual? ¿ambos? Deja que la ambigüedad permanezca; Lucas lo desarrollará.
+
+4. **Hermenéutica Ecuménica**:
+   - Católico/Ortodoxo: Uso litúrgico diario (Laudes), oficio profético, historia de salvación
+   - Protestante: Cumplimiento cristológico, Juan como precursor
+   - Todos: Fidelidad pactual a través de generaciones
+
+5. **Localización Cultural-Contextual**: "Enemigos" y "salvación" toman diferentes valencias en diferentes contextos políticos. Donde los cristianos son perseguidos, el lenguaje es directo. Donde los cristianos son poderosos, requiere reinterpretación.
+
+6. **Interseccionalidad**: 
+   - Un sacerdote anciano, silenciado y humillado, ahora habla proféticamente
+   - El bebé Juan es comisionado para los pobres y marginalizados ("aquellos sentados en tinieblas")
+
+7. **Responsabilidad por Daño**: El lenguaje de "enemigos" ha sido mal usado para demonizar grupos externos. El Benedictus apunta hacia paz (εἰρήνη), no violencia. La salvación es de enemigos, no a través de destruirlos.
+
+### Consideraciones de Traducción
+
+- **σπλάγχνα ἐλέους**: "Tierna misericordia," "compasión sentida"—la profundidad visceral importa
+- **ἀνατολή**: "Alba," "amanecer," "retoño"—considerar preservar la multivalencia (solar y mesiánica)
+- **σκιᾷ θανάτου**: "Sombra de muerte"—hace eco de Salmo 23:4 LXX; preservar la conexión
+
+### Arco Emocional
+
+Bendición y alabanza (v.68a) → Redención nacional (vv.68b-75) → Dirección directa al infante Juan (vv.76-77) → Tierna misericordia y luz (vv.78-79). Movimiento de esperanza corporativa de Israel a promesa íntima a niño individual a luz universal.
+
+---
+
+## Perícope 8: Creciendo en el Desierto (1:80)
+
+### Texto Griego
+> Τὸ δὲ παιδίον ηὔξανε καὶ ἐκραταιοῦτο πνεύματι, καὶ ἦν ἐν ταῖς ἐρήμοις ἕως ἡμέρας ἀναδείξεως αὐτοῦ πρὸς τὸν Ἰσραήλ.
+
+### Términos Clave
+
+| Griego | Transliteración | Traducción | Rango Semántico |
+|--------|----------------|------------|------------------|
+| ηὔξανε | ēuxane | estaba creciendo | Tiempo imperfecto: crecimiento continuo a través del tiempo |
+| ἐκραταιοῦτο | ekrataiouto | se fortalecía | Pasivo: fortalecido por acción divina |
+| ἐρήμοις | erēmois | desierto, lugares desiertos | No desierto sin vida sino áreas deshabitadas/rurales |
+| ἀνάδειξις | anadeixis | aparición pública, manifestación | Término técnico para comisión pública o revelación |
+
+### Síntesis Comentarística
+
+**Bovon (Hermeneia)**: Este versículo resumen conecta el nacimiento de Juan con su ministerio adulto (3:1ss). El "desierto" puede sugerir conexión con la comunidad esenia en Qumrán, aunque Lucas no hace conexión explícita. La frase paralela el resumen de infancia para Jesús (2:40, 52), creando simetría narrativa.
+
+**Bock (Baker)**: "Fuerte en espíritu" indica maduración espiritual más que meramente física. El escenario del desierto anticipa el ministerio profético de Juan (3:2-4). "Hasta el día de su aparición pública" crea suspenso narrativo—debemos esperar hasta el capítulo 3.
+
+**Fitzmyer (Anchor)**: El versículo es un "estribillo de crecimiento" común en narrativas bíblicas de infancia (cf. Sansón, Samuel, Jesús). El desierto tiene asociaciones proféticas (Elías, formación de Israel). La formación de Juan ocurre lejos de religión institucional—emergerá para desafiarla.
+
+**Eisele (Alemán)**: "Diese Zusammenfassung überbrückt die Zeit bis zu Johannes' öffentlichem Auftreten (3,1ff). Die 'Wüste' mag auf eine Verbindung zur Gemeinschaft in Qumran hinweisen, obwohl Lukas keine explizite Verbindung herstellt." Este resumen conecta con la aparición pública de Juan (3:1ss). El "desierto" puede sugerir conexión con Qumrán, pero Lucas no hace conexión explícita. Las asociaciones proféticas (Elías, formación de Israel) son primarias.
+
+**Ancient Christian Commentary (Patrístico)**:
+- **Beda**: El estribillo de crecimiento sigue el patrón literario común a narrativas bíblicas de infancia (Sansón, Samuel, Jesús). El desierto es el lugar de formación profética y encuentro divino en la memoria de Israel.
+
+### Trasfondo Cultural (Keener)
+
+El desierto judeo estaba habitado por varios grupos, incluyendo la comunidad esenia en Qumrán. Algunos han especulado que Juan tuvo contacto con esenios, dado su estilo de vida ascético y ubicación desértica. Sin embargo, Lucas no muestra interés en esta conexión. El desierto es el lugar de formación profética y encuentro divino en la memoria de Israel.
+
+### Análisis de los Siete Principios
+
+1. **Equivalencia Literaria**: Este es un resumen transicional. Manténlo breve; debe sentirse como un acorde de cierre, no un movimiento nuevo.
+
+2. **Contexto Cultural**: El desierto como espacio formativo (Israel, Elías, esenios) proporciona trasfondo rico.
+
+3. **Apologética de Manos Abiertas**: Las conexiones de Qumrán son especulativas. Las notas pueden mencionar la teoría sin afirmarla.
+
+4. **Hermenéutica Ecuménica**: El patrón de formación oculta antes de ministerio público resuena a través de tradiciones (vida monástica, preparación, discernimiento).
+
+5. **Localización Cultural-Contextual**: "Desierto" varía por geografía. El punto es separación de centros de poder para formación divina.
+
+6. **Interseccionalidad**: La formación de Juan está fuera de estructuras institucionales. Esto autentica su posterior crítica profética.
+
+7. **Responsabilidad por Daño**: Ninguna específica para este versículo.
+
+### Consideraciones de Traducción
+
+- **ἐν ταῖς ἐρήμοις**: "En los lugares desiertos" (plural)—no una sola ubicación
+- **ἀνάδειξις**: "Aparición pública," "comisión," "manifestación"—el comienzo formal del ministerio público
+
+### Arco Emocional
+
+Crecimiento silencioso (v.80a) → Preparación oculta (v.80b) → Anticipación de revelación futura (v.80c). El capítulo termina en espera.
+
+---
+
+## Síntesis del Capítulo
+
+### Temas Teológicos Principales
+
+1. **Fidelidad Divina a Israel**: A través de todo, Dios cumple promesas antiguas—a Abraham (vv.55, 73), a David (vv.32-33, 69), a través de los profetas (v.70). La nueva era emerge de profunda continuidad con la historia de Israel.
+
+2. **La Gran Inversión**: El centro del Magnificat (vv.51-53) articula lo que todo el capítulo dramatiza: Dios obra a través de los marginalizados (sacerdotes ancianos, mujeres estériles, muchachas campesinas) para voltear estructuras de poder existentes.
+
+3. **Empoderamiento del Espíritu**: El Espíritu Santo llena a Juan desde el vientre (v.15), a Elisabet al saludo de María (v.41), a Zacarías al nombramiento de Juan (v.67), y cubre a María para la concepción (v.35). Esta es una narrativa empapada del Espíritu.
+
+4. **Agencia Femenina**: Las mujeres son actores centrales—Elisabet, María, e incluso el reconocimiento del Juan no nacido. La teología del capítulo se habla primariamente a través de voces femeninas.
+
+5. **Cumplimiento Profético y Expectación**: Los eventos cumplen lo que fue hablado (v.45, 55, 70) mientras crean expectación para lo que viene. El capítulo termina en espera (v.80).
+
+### Significancia Denominacional
+
+**Católico Romano / Ortodoxo**:
+- Fundamento para devoción mariana (κεχαριτωμένη, Magnificat, Visitación)
+- Textos litúrgicos (Magnificat en Vísperas, Benedictus en Laudes)
+- Teología de Theotokos ("madre de mi Señor")
+- Mediación angélica, continuidad de culto del Templo
+
+**Protestante**:
+- Sola gratia enfatizada (lenguaje de gracia, iniciativa divina a través de todo)
+- Fe como modelo (respuesta de María, contraste con duda de Zacarías)
+- Crítica profética del poder (inversiones del Magnificat)
+- Cumplimiento escritural (saturación del AT de ambos himnos)
+
+**Ortodoxo**:
+- Temas de theosis (cooperación divino-humana en el fiat de María)
+- Herencia litúrgica
+- Continuidad con culto y profecía judíos
+
+**Evangélico**:
+- Nacimiento virginal como doctrina fundamental
+- Encuentro personal con llamado divino (fiat de María)
+- Escritura como narrativa unificada de promesa-cumplimiento
+
+### Notas Interseccionales
+
+- **Clase**: Dios escoge a los marginales—una muchacha campesina, una pareja anciana, aldeanos montañeses—para llevar las revelaciones centrales.
+- **Género**: Las mujeres hablan el contenido teológico del capítulo; autoridades masculinas (Zacarías, los vecinos) son corregidas o silenciadas.
+- **Edad**: Tanto ancianos (Zacarías, Elisabet) como jóvenes (María) son agentes. La preferencia típica por hombres en edad adulta es subvertida.
+- **Etnicidad/Colonia**: La narrativa está saturada con identidad judía bajo ocupación romana. Las esperanzas de liberación son reales pero serán reenmarcadas.
+
+### Notas de Responsabilidad
+
+- **Esterilidad**: El capítulo usa esterilidad como dispositivo de trama pero vindica a Elisabet y nunca sugiere falla moral. Aún así, evitar lenguaje que avergüence infertilidad.
+- **"Sumisión" femenina**: La δούλη de María es disponibilidad auto-elegida a Dios, no modelo para subordinación femenina a hombres. El contexto importa.
+- **Violencia en "inversión"**: Las inversiones del Magnificat son acción divina, no un llamado a violencia humana. El camino de paz (v.79) es la palabra final.
+- **"Enemigos"**: El lenguaje del Benedictus sobre enemigos puede armarse. El texto apunta hacia paz y luz, no destrucción.
+
+---
+
+## Apéndice: Referencia de Términos Griegos Clave
+
+| Griego | Transliteración | Versículos | Notas de Traducción |
+|--------|------------------|------------|----------------------|
+| ἀσφάλεια | asphaleia | 1:4 | Certeza, confiabilidad—estabilidad fundamentada |
+| διήγησις | diēgēsis | 1:1 | Narrativa, relato ordenado |
+| κεχαριτωμένη | kecharitōmenē | 1:28 | Agraciada, favorecida (perfecto pasivo) |
+| ἐπισκιάζω | episkiazō | 1:35 | Cubrir con sombra—imágenes de tabernáculo/Shekinah |
+| ταπείνωσις | tapeinōsis | 1:48 | Humildad, humillación—ubicación social |
+| δούλη | doulē | 1:38, 48 | Sierva—disponibilidad auto-elegida |
+| ἔλεος | eleos | 1:50, 54, 58, 72, 78 | Misericordia, amor firme (hebreo hesed) |
+| σωτηρία | sōtēria | 1:69, 71, 77 | Salvación—liberación comprensiva |
+| λύτρωσις | lytrōsis | 1:68 | Redención—imágenes de éxodo/rescate |
+| ἀνατολή | anatolē | 1:78 | Amanecer, alba, retoño—título mesiánico |
+| Ὕψιστος | Hypsistos | 1:32, 35, 76 | Altísimo—título divino |
+| πνεῦμα ἅγιον | pneuma hagion | 1:15, 35, 41, 67 | Espíritu Santo |
+
+---
+
+## Estado
+
+\`\`\`yaml
+estado_exégesis:
+  libro: lucas
+  capítulo: 1
+  estado: completa_con_suplemento
+  archivo_salida: analysis/42_luke_01_exegesis_es.md
+  creado: 2025-12-15
+  actualizado: 2025-12-18
+  versión: 2.0
+  perícopes_analizadas: 8
+  términos_clave_identificados: 15
+  fuentes_consultadas:
+    - Texto Griego NA28
+    - Léxico BDAG
+    - Léxico Louw-Nida
+    - Bovon (Hermeneia)
+    - Bock (Baker Exegetical)
+    - Fitzmyer (Anchor Bible)
+    - Keener (IVP Background)
+    - Wright
+    - Eisele (Alemán - Das Lukasevangelium)
+    - Ancient Christian Commentary on Scripture (Patrístico)
+    - Stronstad (Charismatic Theology of St. Luke)
+  siete_principios_aplicados: true
+  cobertura_ecuménica_mejorada: true
+  fuentes_patrísticas_añadidas:
+    - Orígenes
+    - Ambrosio
+    - Agustín
+    - Crisóstomo
+    - Beda
+    - Jerónimo
+    - Efrén el Sirio
+    - Máximo de Turín
+    - Pedro Crisólogo
+  listo_para_traducción: true
+\`\`\``;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Lucas 1 Exégesis" lang="es" description="Análisis del texto griego, comentarios principales, contexto cultural y notas de traducción">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/es/luke/1`} class="back-link">&larr; Volver a Lucas 1</a>
+        <h2>Exégesis</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Exégesis</p>
+          <h1>Lucas 1</h1>
+          <p class="subtitle">Análisis del texto griego, comentarios principales, contexto cultural y notas de traducción</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

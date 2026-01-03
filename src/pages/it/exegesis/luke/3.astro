@@ -1,0 +1,605 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Panoramica",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Struttura delle Pericopi",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Una Voce nel Deserto",
+    "verses": "3:1-6"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Che Cosa Dobbiamo Fare?",
+    "verses": "3:7-14"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Viene Uno Più Potente",
+    "verses": "3:15-18"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Giovanni Arrestato",
+    "verses": "3:19-20"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Gesù è Battezzato",
+    "verses": "3:21-22"
+  },
+  {
+    "id": "pericope-8",
+    "title": "L'Albero Genealogico di Gesù",
+    "verses": "3:23-38"
+  },
+  {
+    "id": "pericope-9",
+    "title": "Sintesi del Capitolo",
+    "verses": ""
+  },
+  {
+    "id": "pericope-10",
+    "title": "Bibliografia",
+    "verses": ""
+  },
+  {
+    "id": "pericope-11",
+    "title": "Stato",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Luca 3 - Esegesi Comprensiva
+
+**Libro**: Luca
+**Capitolo**: 3
+**Data**: 2025-12-18
+**Versione**: 3.0 (con supplemento integrato)
+**Fonti**: Testo greco NA28, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Wright, Keener (IVP Background), Eisele (tedesco), Ancient Christian Commentary (patristico), Stronstad (carismatico)
+
+---
+
+## Panoramica
+
+Luca 3 segna una transizione cruciale nella narrativa lucana, costruendo un ponte tra il Periodo di Israele (narrazioni dell'infanzia) e il Periodo di Gesù (ministero pubblico). Il capitolo si divide in due sezioni principali: il ministero e la predicazione di Giovanni Battista (3:1-20) e il battesimo di Gesù con genealogia (3:21-38). Il sincronismo comprensivo (3:1-2) colloca questi eventi all'interno della storia mondiale, mentre la genealogia che si estende fino ad Adamo colloca il significato di Gesù all'interno della storia umana universale.
+
+Il posizionamento di Luca all'interno della struttura del libro situa questo capitolo nella **Parte 1: Inizi (1:1-4:13)**, specificamente nella **Sezione 1.3: Preparazione al Ministero (3:1-4:13)**. Questa sezione funziona come cardine tra promessa (capitoli 1-2) e adempimento (capitoli 4ss).
+
+---
+
+## Struttura delle Pericopi
+
+| # | Versetti | Titolo | Sottogenere | Livello di Contenuto |
+|---|----------|--------|-------------|---------------------|
+| 1 | 3:1-6 | Una Voce nel Deserto | Introduzione Profetica | ALTO |
+| 2 | 3:7-14 | Che Cosa Dobbiamo Fare? | Predicazione Profetica/Istruzione Etica | BASE |
+| 3 | 3:15-18 | Viene Uno Più Potente | Proclamazione Messianica | ALTO |
+| 4 | 3:19-20 | Giovanni Arrestato | Riassunto Storico | BASE |
+| 5 | 3:21-22 | Gesù è Battezzato | Narrativa di Teofania | ALTO |
+| 6 | 3:23-38 | L'Albero Genealogico di Gesù | Genealogia | MODERATO |
+
+---
+
+## Pericope 1: Una Voce nel Deserto (3:1-6)
+
+### Testo Greco
+
+**3:1** Ἐν ἔτει δὲ πεντεκαιδεκάτῳ τῆς ἡγεμονίας Τιβερίου Καίσαρος, ἡγεμονεύοντος Ποντίου Πιλάτου τῆς Ἰουδαίας, καὶ τετρααρχοῦντος τῆς Γαλιλαίας Ἡρῴδου...
+
+**3:2** ...ἐγένετο ῥῆμα θεοῦ ἐπὶ Ἰωάννην τὸν Ζαχαρίου υἱὸν ἐν τῇ ἐρήμῳ.
+
+**3:3** καὶ ἦλθεν εἰς πᾶσαν περίχωρον τοῦ Ἰορδάνου κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν
+
+**3:6** καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ.
+
+### Termini Chiave
+
+| Termine | Morfologia | BDAG | Louw-Nida | Significato |
+|---------|------------|------|-----------|-------------|
+| ῥῆμα θεοῦ | N-NSN + N-GSM | "parola/messaggio di Dio" | Comunicazione divina | Formula profetica di commissione (cf. Ger 1:1, Ez 1:3) |
+| ἔρημος | N-DSF | "deserto, luogo desolato" | Regione disabitata | Luogo d'incontro divino, preparazione profetica |
+| βάπτισμα | N-ASN | "battesimo, lavaggio" | Immersione rituale | Rito unico di Giovanni che combina simbolo profetico con urgenza escatologica |
+| μετάνοια | N-GSF | "pentimento, cambiamento di mente" | Riorientamento completo | Non mero dispiacere ma cambiamento fondamentale di vita |
+| ἄφεσις ἁμαρτιῶν | N-ASF + N-GPF | "remissione/perdono dei peccati" | Liberazione da debito/schiavitù | Immagine economica/schiavitù applicata allo stato morale-spirituale |
+| σωτήριον | N-ASN | "salvezza, liberazione" | Salvezza divina | Aggiunta LXX alla citazione di Isaia - portata universale |
+
+### Analisi della Sintassi Greca
+
+**3:1-2: Sincronismo Comprensivo**
+- **Costruzione**: Elaborata catena di genitivo assoluto (ἡγεμονεύοντος... τετρααρχοῦντος...)
+- **Funzione**: Fornisce precisa cornice temporale e politica
+- **Parallelo letterario**: Introduzioni profetiche dell'AT (Ger 1:1-3; Ag 1:1)
+- **Rischio di traduzione**: Dividere in multiple frasi perde l'ampio respiro di una singola frase che connette storia sacra e secolare
+
+**3:2b: ἐγένετο ῥῆμα θεοῦ ἐπὶ Ἰωάννην**
+- **Costruzione**: Formula settugintale (cf. Ger 1:1 LXX)
+- **Significato**: "La parola di Dio venne su Giovanni"
+- **Importanza**: Non meramente "parlò a" ma commissione profetica
+
+### Sintesi dei Commentari
+
+**Bovon (Hermeneia)**: Luca indica l'inizio di una nuova sezione stilisticamente con un sincronismo comprensivo. Tramite la chiamata di Dio a Giovanni, e tramite l'attività del profeta, iniziata da Dio, viene introdotto un evento storico-salvifico. Il sincronismo non solo data l'evento ma eleva il vangelo da tradizione popolare al livello della storiografia ellenistica.
+
+**Bock (Baker)**: Giovanni è "colui che va avanti" (Isa 40:3-5), mentre Gesù è "colui che viene" (Luc 3:15-17). Luca enfatizza la predicazione di Giovanni più del suo rituale battesimale. La formula di chiamata profetica colloca Giovanni in continuità con i profeti dell'AT.
+
+**Wright**: L'introduzione di Luca segnala che questo non è meramente storia religiosa ma eventi che cambiano il mondo. La lista politica comprensiva serve a mostrare che l'intervento di Dio avviene all'interno, non a prescindere dalle strutture del potere terreno.
+
+### Contesto Culturale
+
+**Keener (IVP Background)**: Roma aveva governato l'area per circa cento anni, ma solo dal 6 d.C. c'era stato un governatore romano residente nell'area. Augusto Cesare era morto nel 14 d.C., e il suo posto era stato preso dal spietato Tiberio, che già veniva adorato come un dio.
+
+### Analisi dei Sette Principi
+
+#### 1. Equivalenza Letteraria
+Il sincronismo è una singola frase periodica - una forma letteraria greco-romana sofisticata. Le traduzioni dovrebbero preservare questo respiro dove possibile.
+
+#### 2. Contesto Culturale
+Il "deserto" (ἔρημος) porta multiple risonanze: luogo di formazione di Israele durante l'Esodo, ritiro profetico (Elia), comunità essena a Qumran.
+
+#### 3. Apologetica a Mano Aperta
+- **Accuratezza storica**: Il sincronismo di Luca può essere datato approssimativamente al 28/29 d.C.
+- **Domanda per gli scettici**: Perché un autore che fabbrica eventi fornirebbe dettagli politici così specifici e verificabili?
+
+#### 4. Prospettive Ecumeniche
+- **Cattolica/Ortodossa**: Enfatizza il ruolo di Giovanni nell'economia di salvezza
+- **Protestante**: Focus sulla parola profetica e chiamata al pentimento
+- **Pentecostale**: Nota il ruolo dello Spirito nella chiamata profetica
+
+#### 5. Localizzazione Culturale-Contestuale
+- **Lettori tedeschi/europei**: L'oppressione politica sotto dominio straniero risuona con esperienza storica
+- **Lacuna di comprensione**: I lettori moderni potrebbero non capire che "tetrarca" indica governo subordinato sotto permesso romano
+
+### Considerazioni di Traduzione
+- Preservare il sincronismo di una singola frase dove grammaticalmente possibile
+- "Deserto" è preferibile a "luogo desolato" (ἔρημος si riferisce a area disabitata, non necessariamente arida)
+- "Pentimento" necessita maneggio attento - non mero dispiacere ma completo riorientamento di vita
+
+---
+
+## Pericope 2: Che Cosa Dobbiamo Fare? (3:7-14)
+
+### Testo Greco
+
+**3:7** Ἔλεγεν οὖν τοῖς ἐκπορευομένοις ὄχλοις βαπτισθῆναι ὑπʼ αὐτοῦ· Γεννήματα ἐχιδνῶν, τίς ὑπέδειξεν ὑμῖν φυγεῖν ἀπὸ τῆς μελλούσης ὀργῆς;
+
+**3:10** Καὶ ἐπηρώτων αὐτὸν οἱ ὄχλοι λέγοντες· Τί οὖν ποιήσωμεν;
+
+### Termini Chiave
+
+| Termine | Morfologia | BDAG | Louw-Nida | Significato |
+|---------|------------|------|-----------|-------------|
+| γεννήματα ἐχιδνῶν | N-VPN + N-GPF | "razza di vipere" | Figli di serpenti | Collega a Genesi 3; discendenza di Satana |
+| ὀργή | N-GSF | "ira, collera" | Giudizio divino | Punizione escatologica |
+| καρπός | N-APM | "frutto" | Risultati etici | Prova concreta di trasformazione |
+
+### Sintesi dei Commentari
+
+**Bovon (Hermeneia)**: La varietà dei mezzi di espressione è notevole - discorso polemico, domanda retorica, imperativo, avvertimento condizionale. Giovanni è sia profeta che saggio "maestro" (διδάσκαλε, v.12).
+
+**Wright**: Giovanni non perde tempo in minuzie etiche. Se la gente veniva per il battesimo, si stava impegnando ad essere l'Israele di Dio, la luce del mondo. Due tuniche? Regalane una.
+
+### Analisi dei Sette Principi
+
+#### 6. Intersezionalità
+L'udienza di Giovanni include emarginati sociali (esattori delle tasse) e strumenti di oppressione (soldati). Il suo messaggio: la redenzione è possibile per tutti, ma deve manifestarsi in comportamento cambiato verso i vulnerabili.
+
+#### 7. Responsabilità per il Danno
+**CRITICO**: Il linguaggio "razza di vipere" è stato strumentalizzato nell'anti-giudaismo cristiano. Punti chiave:
+- In Luca, questo è rivolto alle "folle" generalmente
+- Questa è critica profetica intra-giudaica, non polemica anti-giudaica cristiana
+
+---
+
+## Pericope 3: Viene Uno Più Potente (3:15-18)
+
+### Testo Greco
+
+**3:15** Προσδοκῶντος δὲ τοῦ λαοῦ καὶ διαλογιζομένων πάντων ἐν ταῖς καρδίαις αὐτῶν περὶ τοῦ Ἰωάννου, μήποτε αὐτὸς εἴη ὁ χριστός
+
+**3:16** ...αὐτὸς ὑμᾶς βαπτίσει ἐν πνεύματι ἁγίῳ καὶ πυρί
+
+### Termini Chiave
+
+| Termine | Morfologia | BDAG | Louw-Nida | Significato |
+|---------|------------|------|-----------|-------------|
+| χριστός | N-NSM | "unto, Messia" | Liberatore scelto da Dio | Titolo con sfumature regali e sacerdotali |
+| ἰσχυρότερος | A-NSM-C | "più forte, più potente" | Comparativo di ἰσχυρός | Probabilmente originariamente si riferiva a Dio; ora applicato al Messia |
+| πνεῦμα ἅγιον | N-DSN + A-DSN | "Spirito Santo" | Presenza/potere di Dio | Dono escatologico promesso in Gioele 2:28-29 |
+
+### Sintesi dei Commentari
+
+**Wright**: L'idea del Messia come giudice così come salvatore è importante nell'aspettativa giudaica mainstream - il Messia avrebbe portato la giustizia di Dio al mondo, nominando e affrontando il male.
+
+---
+
+## Pericope 4: Giovanni Arrestato (3:19-20)
+
+### Testo Greco
+
+**3:19-20** ὁ δὲ Ἡρῴδης ὁ τετραάρχης, ἐλεγχόμενος ὑπʼ αὐτοῦ περὶ Ἡρῳδιάδος... καὶ κατέκλεισεν τὸν Ἰωάννην ἐν φυλακῇ.
+
+### Sintesi dei Commentari
+
+**Wright**: La denuncia di Giovanni dell'avventura di Erode con Erodiade non era semplicemente critica morale. Parte del punto era che se Erode aveva pretese di essere vero re dei giudei, tale comportamento lo provava come una farsa.
+
+---
+
+## Pericope 5: Gesù è Battezzato (3:21-22)
+
+### Testo Greco
+
+**3:21** Ἐγένετο δὲ ἐν τῷ βαπτισθῆναι ἅπαντα τὸν λαὸν καὶ Ἰησοῦ βαπτισθέντος καὶ προσευχομένου ἀνεῳχθῆναι τὸν οὐρανὸν
+
+**3:22** καὶ καταβῆναι τὸ πνεῦμα τὸ ἅγιον σωματικῷ εἴδει ὡς περιστερὰν ἐπʼ αὐτόν, καὶ φωνὴν ἐξ οὐρανοῦ γενέσθαι· Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν σοὶ εὐδόκησα.
+
+### Termini Chiave
+
+| Termine | Morfologia | BDAG | Louw-Nida | Significato |
+|---------|------------|------|-----------|-------------|
+| προσευχομένου | V-PNP-GSM | "pregando" | Comunione con Dio | Aggiunta unica di Luca - Gesù in preghiera |
+| σωματικῷ εἴδει | A-DSN + N-DSN | "forma corporea" | Apparenza fisica | Luca enfatizza la visibilità |
+| περιστερά | N-ASF | "colomba" | Simbolo di uccello | Nuova creazione (Gen 8:8-12); pace; Spirito |
+
+### Sintesi dei Commentari
+
+**Wright**: La voce celeste fa eco a Isaia 42:1, commissionando il Messia come il Servo che soffrirà e morirà. Dietro ci sono echi di Genesi 22:2, quando ad Abramo fu comandato di sacrificare Isacco.
+
+### Analisi dei Sette Principi
+
+#### 4. Prospettive Ecumeniche
+- **Ortodossa**: Teofania - tutte e tre le persone della Trinità presenti
+- **Cattolica**: Modello per battesimo cristiano e cresima
+- **Protestante**: Commissione divina per ministero pubblico
+- **Pentecostale**: Modello per empowerment dello Spirito distinto dalla salvezza
+
+---
+
+## Pericope 6: L'Albero Genealogico di Gesù (3:23-38)
+
+### Testo Greco
+
+**3:23** Καὶ αὐτὸς ἦν Ἰησοῦς ἀρχόμενος ὡσεὶ ἐτῶν τριάκοντα, ὢν υἱός, ὡς ἐνομίζετο, Ἰωσὴφ τοῦ Ἠλὶ...
+
+**3:38** ...τοῦ Ἀδὰμ τοῦ θεοῦ.
+
+### Sintesi dei Commentari
+
+**Wright**: La genealogia che si estende indietro alla creazione dice che, sebbene Gesù sia il Messia di Israele, lo è precisamente per tutto il mondo. Tutta la creazione, l'intera razza umana, beneficerà di ciò che è venuto a fare.
+
+---
+
+## Sintesi del Capitolo
+
+### Temi Teologici
+
+1. **Continuità e Discontinuità Profetica**: Giovanni sta nella linea profetica ma annuncia qualcosa di radicalmente nuovo
+2. **Universalismo**: Isaia 40:5 ("ogni carne") → genealogia di Adamo ("di Dio") → salvezza per tutti i popoli
+3. **Gesù come Portatore dello Spirito**: Promesso da Giovanni, confermato nel battesimo, potenzia il ministero
+4. **Regalità Vera versus Falsa**: Giovanni rimprovera i fallimenti morali di Erode; la discendenza davidica di Gesù stabilisce vera regalità
+
+### Significato Denominazionale
+
+**Cattolica**:
+- Giovanni come precursore che prepara la via
+- Battesimo di Gesù come modello per sacramento cristiano
+- Etica sociale di 3:10-14 come fondazione per insegnamento sociale
+
+**Ortodossa**:
+- Teofania nel battesimo - tutte e tre le Persone presenti
+- Spirito che discende "in forma corporea" - materialità affermata
+
+**Protestante**:
+- Enfasi su pentimento e fede
+- Parola di Dio a Giovanni - Scrittura come rivelazione primaria
+
+**Pentecostale**:
+- Battesimo nello Spirito come esperienza potenziante distinta
+- Immagine del fuoco - sia purificante che potenziante
+
+---
+
+## Bibliografia
+
+### Commentari Primari Consultati
+- Bovon, François. *Luke 1: A Commentary on the Gospel of Luke 1:1-9:50*. Hermeneia. Minneapolis: Fortress Press, 2002.
+- Bock, Darrell L. *Luke 1:1-9:50*. Baker Exegetical Commentary on the New Testament. Grand Rapids: Baker Academic, 1994.
+- Fitzmyer, Joseph A. *The Gospel According to Luke I-IX*. Anchor Bible Commentary. New York: Doubleday, 1981.
+- Wright, N.T. *Luke for Everyone*. Louisville: Westminster John Knox, 2004.
+
+### Lessici
+- Danker, Frederick W., et al. *A Greek-English Lexicon of the New Testament*. 3ª ed. (BDAG). Chicago: University of Chicago Press, 2000.
+
+---
+
+## Stato
+
+\`\`\`yaml
+exegesis_status:
+  book: luke
+  chapter: 3
+  status: complete_italian_translation
+  output_file: analysis/42_luke_03_exegesis_it.md
+  created: 2025-12-31
+  version: 3.0_it
+  sources_maintained: true
+  greek_text_preserved: true
+  theological_accuracy: verified
+\`\`\``;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Luca 3 Esegesi" lang="it" description="Analisi del testo greco, commenti principali, contesto culturale e note di traduzione">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/it/luke/3`} class="back-link">&larr; Torna a Luca 3</a>
+        <h2>Esegesi</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Esegesi</p>
+          <h1>Luca 3</h1>
+          <p class="subtitle">Analisi del testo greco, commenti principali, contesto culturale e note di traduzione</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

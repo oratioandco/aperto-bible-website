@@ -23,7 +23,7 @@ function getVersesForPericope(verseRange: string, sections: any[]) {
 const base = '';
 ---
 
-<BaseLayout title="Lukas 2" lang="de" description="Lukas Kapitel 2 - Jesu Geburt und Kindheit">
+<BaseLayout title="Lukas 2" lang="de" description="Lukas Kapitel 2">
   <!-- Chapter Header -->
   <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
     <p class="passage-reference mb-6">Das Evangelium nach Lukas</p>
@@ -31,7 +31,7 @@ const base = '';
       <span class="cap">K</span>apitel 2
     </h1>
     <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
-      Ein Kind in einem Futtertrog. Hirten als erste Zeugen. Alte Menschen, die endlich sehen. Die Welt wird auf den Kopf gestellt.
+      Geburt in einem Stall. Hirten als Zeugen. Ein alter Mann sieht das Heil.
     </p>
 
     <!-- Table of Contents with Headlines -->
@@ -70,9 +70,11 @@ const base = '';
         color={pericope.color}
         accentColor={pericope.accentColor}
         verseData={getVersesForPericope(pericope.verses, chapterData.sections)}
+        image={pericope.image}
         media={pericope.media}
         exegesis={pericope.exegesis}
         lang="de"
+        chapter={2}
         isFirst={index === 0} layoutIndex={index}
       />
     ))}
@@ -80,15 +82,10 @@ const base = '';
 
   <!-- Chapter Footer -->
   <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
-    <p class="text-warm-gray mb-8">Navigation</p>
-    <div class="flex gap-4 justify-center flex-wrap">
-      <a href={`${base}/de/luke/1`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-        <span>←</span> Lukas 1
-      </a>
-      <a href={`${base}/de/luke/3`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-        Lukas 3 <span>→</span>
-      </a>
-    </div>
+    <p class="text-warm-gray mb-8">Weiterlesen</p>
+    <a href={`${base}/de/luke/3`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
+      Lukas 3 <span>→</span>
+    </a>
     <p class="mt-12 text-sm text-warm-gray">
       Übersetzung: Aperto Bibel (AB-DE) | Lizenz: CC BY-SA 4.0
     </p>

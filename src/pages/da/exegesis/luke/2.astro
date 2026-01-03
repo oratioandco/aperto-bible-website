@@ -1,0 +1,517 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Overblik",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Perikope-struktur",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Folketælling og fødsel",
+    "verses": "2:1-7"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Hyrder og engle",
+    "verses": "2:8-20"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Omskærelse og navngivning",
+    "verses": "2:21"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Fremstilling i templet",
+    "verses": "2:22-40"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Den unge Jesus i templet",
+    "verses": "2:41-52"
+  },
+  {
+    "id": "pericope-8",
+    "title": "Kapitelsyntese",
+    "verses": ""
+  },
+  {
+    "id": "pericope-9",
+    "title": "Status",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Lukas 2 - Omfattende Eksegese
+
+**Bog**: Lukas
+**Kapitel**: 2
+**Dato**: 31. december 2025
+**Version**: 3.0 (med tillæg integreret)
+**Kilder**: NA28 græsk tekst, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Keener (IVP Background), Eisele (tysk), Ancient Christian Commentary (patristisk), Stronstad (karismatisk)
+
+---
+
+## Overblik
+
+Lukas 2 præsenterer fødselsfortællingen om Jesus Kristus, strategisk placeret inden for den bredere kontekst af romersk kejserlig magt, mens den samtidig underminerer denne magt gennem den ydmyge fødsel af den sande Frelser og Herre. Kapitlet består af fire distinkte, men indbyrdes forbundne perikoper: folketællingen og fødslen (2:1-7), englenes forkyndelse til hyrderne (2:8-20), omskærelsen og navngivelsen (2:21), fremstillingen i templet med Simeon og Anna (2:22-40), og den unge Jesus i templet (2:41-52). Denne fortælling demonstrerer Lukas' teologiske program for frelseshistorie, davidisk opfyldelse, og indvielsen af Guds rige gennem uventede midler.
+
+## Perikope-struktur
+
+| # | Vers | Titel | Undergenre | Indhold niveau |
+|---|------|-------|------------|----------------|
+| 1 | 2:1-7 | Folketælling og fødsel | Historisk fortælling | HØJ |
+| 2 | 2:8-20 | Hyrder og engle | Englisk forkyndelse | HØJ |
+| 3 | 2:21 | Omskærelse og navngivning | Juridisk overholdelse | GRUNDLÆGGENDE |
+| 4 | 2:22-40 | Fremstilling i templet | Profetisk møde | HØJ |
+| 5 | 2:41-52 | Den unge Jesus i templet | Visdomsfortælling | HØJ |
+
+---
+
+## Perikope 1: Folketælling og fødsel (2:1-7)
+
+### Græsk tekst
+- 2:1: Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην
+- 2:7: καὶ ἔτεκεν τὸν υἱὸν αὐτῆς τὸν πρωτότοκον, καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν φάτνῃ
+
+### Nøgletermer
+| Term | Morfologi | BDAG | Louw-Nida | Betydning |
+|------|-----------|------|-----------|-----------|
+| δόγμα | Substantiv, n. | dekret/edikt | 33.335 | Kejserlig autoritet, guddommelig dekret |
+| οἰκουμένην | Substantiv, f. akk. | beboede verden | 1.39 | Universelt omfang af romersk magt |
+| ἀπογράφεσθαι | Verbum, inf. mid. | at registrere | 33.38 | Administrativ kontrol/beskatning |
+| πρωτότοκον | Adj., m. akk. | førstefødt | 10.42 | Juridisk/teologisk status, GT-allusioner |
+| φάτνῃ | Substantiv, f. dat. | krybbe | 6.8 | Ydmyge omstændigheder, pastorale billeder |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Lukas opnår en "omhyggelig sammenhæng" ved at bringe folketællingsepisoden (v. 1-5) sammen med fødselsfortællingen (v. 6-7). Folketællingen tjener flere funktioner: den muliggør rejsen til Betlehem, skaber en slående juxtaposition mellem kejseren og den skjulte Messias, og giver historisk forankring, mens den demonstrerer Guds suverænitet over kejserlig magt. Selve fødslen beskrives med bemærkelsesværdig realisme - ingen guddommelig intervention sparer Maria for fødselssmerterne eller frygt for fødslen, hvilket understreger den sande inkarnation.
+
+**Bock (Baker)**: Denne enhed placerer Jesus i verdenshistorien, mens den fremhæver hans davidiske arv. Den historiske ramme gennem folketællingen demonstrerer Guds kontrol over begivenheder, idet han bruger selv romerske administrative maskineriet til at opfylde davidiske profetier. Den ydmyge fødsel (ingen plads i herberget, fødsel i en krybbe) står i dramatisk kontrast til den kosmiske betydning af begivenheden, der vil følge i hyrdehistorien.
+
+**Eisele (tysk)**: "Das Lukasevangelium... ist das biblische Evangelium, ohne das wir Weihnachten anders feiern würden (Lk 2,1-20)." Lukas 2 former, hvordan jul fejres - fortællingen er grundlæggende for den kristne liturgiske kalender. Oversættelsen bør være egnet til juleliturgi og forkyndelse.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Chrysostomos**: "En festdag er ved at ankomme, og det er den mest hellige og frygtindgydende af alle fester. Det ville ikke være en fejl at kalde den hovedfesten og moderen til alle helligdage. Hvilken fest er det? Det er dagen for Kristi fødsel i kødet." (Om Guds ufattelige natur 6.23-24) Jul som "moder til alle helligdage" - kilden til hele den liturgiske kalender.
+- **Cassia**: "Da Augustus regerede alene på jorden, kom menneskehedens mange riger til ophør; og da du blev menneske af den rene jomfru, blev afgudsdyrkelsens mange guder ødelagt. Verdens byer kom under én enkelt hersker; og nationerne kom til at tro på én suveræn guddom." (Stichera fra fødslen) Augustus' Pax Romana foregriber Kristi universelle herredømme - mod-kejserligt tema.
+- **Bede**: "Han valgte en tid med den største fred som den tid, hvor han ville blive født, fordi dette var grunden til, at han blev født i verden, at han kunne føre menneskeligheden tilbage til den himmelske freds gaver... 'For han er vor fred, som har gjort os begge til ét.'" (Homilier over evangelierne 1.6) Fødsel under Pax Romana er teologisk betydningsfuld; εἰρήνη (fred) som centralt tema.
+
+### Kulturel kontekst
+
+Folketællingen repræsenterer mere end administrativ bekvemmelighed - den legemliggør romersk kejserlig kontrol over underkastede folk. Folketælling var et redskab til underkastelse, der bekræftede Roms magt over erobrede territorier og muliggjorde beskatning og militær udskrivning.
+
+### Syv principper-analyse
+
+1. **Litterær ækvivalens**: Lukas anvender omhyggelig historisk narrativ stil, der minder om hellenistisk historiografi, dog med distinkt jødiske teologiske overtoner.
+
+2. **Kulturel kontekst**: Ære-skam-dynamikken er afgørende her. Marias graviditet, mens hun var forlovet og på rejse, ville have været skandaløs i en kultur, hvor kvinders ære var altafgørende.
+
+3. **Åbenhåndet apologetik**: Folketællingen skaber et historisk problem (timingen for Quirinius), som skeptikere længe har betvivlet.
+
+4. **Økumenisk hermeneutik**:
+   - Katolsk tradition fremhæver Marias evige jomfrudom (πρωτότοκον)
+   - Protestantisk læsning fokuserer på Jesus som den førstefødte af den nye skabelse
+   - Ortodoks tradition ser kosmisk betydning i inkarnationen
+   - Pinsebevægelsens læsning fremhæver overnaturlig guddommelig intervention
+
+---
+
+## Perikope 2: Hyrder og engle (2:8-20)
+
+### Græsk tekst
+- 2:10-11: καὶ εἶπεν αὐτοῖς ὁ ἄγγελος· Μὴ φοβεῖσθε, ἰδοὺ γὰρ εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην... ὅτι ἐτέχθη ὑμῖν σήμερον σωτὴρ ὅς ἐστιν χριστὸς κύριος
+- 2:14: Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας
+
+### Nøgletermer
+| Term | Morfologi | BDAG | Louw-Nida | Betydning |
+|------|-----------|------|-----------|-----------|
+| εὐαγγελίζομαι | Verbum, 1. p.s. | forkynde godt nyt | 33.215 | Evangeliumsforkyndelse, mod-kejserligt |
+| σωτήρ | Substantiv, m. nom. | frelser, befrier | 21.31 | Kristologisk titel, vs. Cæsar |
+| χριστὸς κύριος | Substantivfrase | Kristi Herre | Kombinerede titler | Messiansk autoritet |
+| εὐδοκίας | Substantiv, f. gen. | velvilje | 25.85 | Guddommelig gunst, ikke menneskelig fortjeneste |
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Hyrdehistorien fungerer som "en forkyndelse, ikke en fødselsfortælling" - det handler om himmelens respons på fødslen snarere end selve fødslen. Englenes budskab indeholder bevidst mod-kejserligt sprog: σωτήρ (frelser) og κύριος (herre) var titler, som kejser Augustus krævede.
+
+**Eisele (tysk)**: "Die Hirten gehören zu Weihnachten wie die Engel und das Christkind selbst." Hyrder er uadskillelige fra julefejring. Mere betydningsfuldt: "In seiner Weihnachtserzählung stehen die Hirten für das Volk Israel als Ganzes." Hyrderne repræsenterer Israel som helhed - første modtagere, fordi Jesus er deres davidiske konge.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Ambrosius**: "Se, hvordan guddommelig omsorg tilføjer tro. En engel fortæller Maria, en engel fortæller Josef, en engel fortæller hyrderne. Det er ikke nok, at et budskab sendes én gang. For hvert ord står med to eller tre vidner." (Eksposition af Lukas 2.51) Flere engliske vidner følger Toraens "to eller tre vidner"-princip.
+- **Origenes**: "Lyt, I kirkers hyrder! Lyt, Guds hyrder! Hans engel kommer altid ned fra himlen og forkynder for jer: 'I dag er der født en Frelser for jer, som er Kristus Herren.'" (Homilier over Lukas 12.2) Pastoral/kirkelig anvendelse - kirkelige ledere som hyrder, der har brug for Kristi tilstedeværelse.
+
+### Syv principper-analyse
+
+1. **Litterær ækvivalens**: Den engliske forkyndelse følger klassiske angelofani-mønstre (fremtræden, frygt, trøst, budskab, tegn), mens hyrdernes respons demonstrerer passende trorespons.
+
+2. **Kulturel kontekst**: Ære-skam-vendingen er dramatisk - himmelens vigtigste forkyndelse går til samfundets mest vanærede medlemmer.
+
+---
+
+## Perikope 3: Omskærelse og navngivning (2:21)
+
+### Græsk tekst
+2:21: Καὶ ὅτε ἐπλήσθησαν ἡμέραι ὀκτὼ τοῦ περιτεμεῖν αὐτόν, καὶ ἐκλήθη τὸ ὄνομα αὐτοῦ Ἰησοῦς
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Dette vers står isoleret og forbinder kun til bebudelsen (1:26-38) gennem englens navngivning af Jesus. Det repræsenterer Jesu indskrivning i det guddommelige løftes folk gennem pagtstegnet.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Kyrillos af Alexandria**: "Den åndelige omskærelse finder primært sted i den hellige dåb, når Kristus gør os deltagere i Helligånden også... omskærelse opnåede tre forskellige mål. For det første adskilte den Abrahams efterkommere ved en slags tegn og segl... For det andet foregreb den i sig selv den hellige dåbs nåde og virksomhed... For det tredje er omskærelse symbolet på de trofaste, når de etableres i nåden." (Kommentar til Lukas, homilie 4) Trefoldig betydning: tegn/segl, dåbsforegribelse og moralsk anvendelse.
+
+---
+
+## Perikope 4: Fremstilling i templet (2:22-40)
+
+### Græsk tekst
+- 2:25: καὶ ὁ ἄνθρωπος οὗτος δίκαιος καὶ εὐλαβής, προσδεχόμενος παράκλησιν τοῦ Ἰσραήλ
+- 2:29-30: Νῦν ἀπολύεις τὸν δοῦλόν σου, δέσποτα... ὅτι εἶδον οἱ ὀφθαλμοί μου τὸ σωτήριόν σου
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Perikopen demonstrerer Lukas' teknik med at placere ekstraordinære profetier inden for rammerne af juridisk overholdelse. Simeon repræsenterer "retfærdigt og fromt" Israel, der venter på guddommelig trøst, mens Anna legemliggør trofast vedholdenhed i tilbedelse og vidnesbyrd.
+
+**Eisele (tysk)**: "Gesetz und Geist bilden nach Lukas – anders als bei Paulus – keinen Gegensatz, sondern wirken so zusammen." Lov og Ånd samarbejder hos Lukas (i modsætning til paulinsk spænding) - Torah fører forældre, Ånden fører Simeon, begge konvergerer ved Jesus.
+
+**Ancient Christian Commentary (patristisk)**:
+- **Bede**: "Halvfjerds uger efter forkyndelsen af Johannes' fødsel til Zakarias af englen Gabriel og fyrre dage efter hans fødsel kommer Jesus til sit tempel for at opfylde Torah for anden gang." (Homilier over evangelierne 1.18) Omskærelse → Fremstilling paralleller Dåb → Nadver.
+- **Hieronymus**: "Udsagnet 'han, der åbner livmoderen, skal kaldes hellig for Herren' er mere anvendelig på Frelserens særlige fødsel end på alle menneskers." (Mod pelagianerne 2.4) Tempelimagerier - Ezekiels lukkede østlige port (Ez 44:2).
+
+---
+
+## Perikope 5: Den unge Jesus i templet (2:41-52)
+
+### Græsk tekst
+2:49: καὶ εἶπεν πρὸς αὐτούς· Τί ὅτι ἐζητεῖτέ με; οὐκ ᾔδειτε ὅτι ἐν τοῖς τοῦ πατρός μου δεῖ εἶναί με;
+
+### Kommentarsyntese
+
+**Bovon (Hermeneia)**: Denne episode demonstrerer Jesu visdom og hans tilknytning til sin Fader, der tjener som et eksempel på vækst i både guddommelig og menneskelig gunst. Den tolvårige mark repræsenterer tilgangen til jødisk juridisk myndighed.
+
+---
+
+## Kapitelsyntese
+
+### Teologiske temaer
+
+1. **Guddommelig suverænitet og kejserlig magt**: Lukas demonstrerer, hvordan Gud arbejder gennem og over kejserlige strukturer for at opnå guddommelige formål.
+
+2. **Inkarnation og ydmygelse**: Sand guddommelig herlighed manifesterer sig gennem ydmyge omstændigheder - krybbefødsel, marginale vidner, almindelig overholdelse af religiøs lov.
+
+3. **Universal frelse**: Fra Augustus' "hele verdens" folketælling til Simeons "lys for hedningerne" fremhæver fortællingen frelsens globale omfang.
+
+4. **Opfyldelse og profeti**: Davidiske forventninger, tempelprofetier og engliske forkyndelser konvergerer i Jesu fødsel og tidlige liv.
+
+### Konfessionel betydning
+
+- **Katolsk**: Vægt på Maria som Theotokos, evig jomfrudom og samarbejde med guddommelig nåde
+- **Ortodoks**: Fokus på inkarnationens kosmiske betydning og guddommelig lys, der træder ind i skabelsen
+- **Protestantisk**: Stress på nåde til de uværdige og frelse ved guddommelig handling alene
+- **Pinsebevægelse**: Fejring af overnaturlige manifestationer og profetisk aktivitet
+
+---
+
+## Status
+
+\`\`\`yaml
+eksegese_status:
+  bog: lukas
+  kapitel: 2
+  status: komplet_med_tillæg
+  output_fil: analysis/42_luke_02_exegesis_da.md
+  oprettet: 31. december 2025
+  version: 3.0_dansk
+  perikoper_analyseret: 5
+  kilder_konsulteret:
+    - NA28 græsk tekst
+    - BDAG leksikon
+    - Louw-Nida leksikon
+    - Bovon (Hermeneia)
+    - Bock (Baker eksegetisk)
+    - Fitzmyer (Anchor Bible)
+    - Keener (IVP baggrund)
+    - Eisele (tysk - Das Lukasevangelium)
+    - Ancient Christian Commentary on Scripture (patristisk)
+    - Stronstad (karismatisk teologi om St. Lukas)
+  syv_principper_anvendt: true
+  økumenisk_dækning_forbedret: true
+  klar_til_oversættelse: true
+\`\`\`
+
+**Næste skridt**: Denne eksegese tjener som grundlag for alt oversættelsesarbejde i Lukas 2 på tværs af målsprog.`;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Lukas 2 Eksegese" lang="da" description="Græsk tekstanalyse, større kommentarer, kulturel kontekst og oversættelsesnoter">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/da/luke/2`} class="back-link">&larr; Tilbage til Lukas 2</a>
+        <h2>Eksegese</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Eksegese</p>
+          <h1>Lukas 2</h1>
+          <p class="subtitle">Græsk tekstanalyse, større kommentarer, kulturel kontekst og oversættelsesnoter</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

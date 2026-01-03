@@ -1,0 +1,517 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+
+const pericopes = [
+  {
+    "id": "overview",
+    "title": "Overview",
+    "verses": ""
+  },
+  {
+    "id": "pericope-1",
+    "title": "Panorama geral",
+    "verses": ""
+  },
+  {
+    "id": "pericope-2",
+    "title": "Estrutura das perícopes",
+    "verses": ""
+  },
+  {
+    "id": "pericope-3",
+    "title": "Perícope 1: Censo e nascimento",
+    "verses": "2:1-7"
+  },
+  {
+    "id": "pericope-4",
+    "title": "Perícope 2: Pastores e anjos",
+    "verses": "2:8-20"
+  },
+  {
+    "id": "pericope-5",
+    "title": "Perícope 3: Circuncisão e nomeação",
+    "verses": "2:21"
+  },
+  {
+    "id": "pericope-6",
+    "title": "Perícope 4: Apresentação no Templo",
+    "verses": "2:22-40"
+  },
+  {
+    "id": "pericope-7",
+    "title": "Perícope 5: O menino Jesus no Templo",
+    "verses": "2:41-52"
+  },
+  {
+    "id": "pericope-8",
+    "title": "Síntese do capítulo",
+    "verses": ""
+  },
+  {
+    "id": "pericope-9",
+    "title": "Estado",
+    "verses": ""
+  }
+];
+
+// Import and parse the markdown content
+const markdownContent = `# Lucas 2 - Exegese Abrangente
+
+**Livro**: Lucas
+**Capítulo**: 2
+**Data**: 31 de dezembro de 2025
+**Versão**: 3.0 (com suplemento integrado)
+**Fontes**: Texto grego NA28, BDAG, Louw-Nida, Bovon (Hermeneia), Bock (Baker), Fitzmyer (Anchor), Keener (IVP Background), Eisele (alemão), Ancient Christian Commentary (patrístico), Stronstad (carismático)
+
+---
+
+## Panorama geral
+
+Lucas 2 apresenta a narrativa da natividade de Jesus Cristo, estrategicamente posicionada dentro do contexto mais amplo do poder imperial romano enquanto simultaneamente subverte esse poder através do nascimento humilde do verdadeiro Salvador e Senhor. O capítulo consiste de quatro perícopes distintas mas interconectadas: o censo e nascimento (2:1-7), o anúncio angelical aos pastores (2:8-20), a circuncisão e nomeação (2:21), a apresentação no Templo com Simeão e Ana (2:22-40), e o menino Jesus no Templo (2:41-52). Esta narrativa demonstra o programa teológico de Lucas da história da salvação, cumprimento davídico, e a inauguração do reino de Deus através de meios inesperados.
+
+## Estrutura das perícopes
+
+| # | Versículos | Título | Subgênero | Nível de conteúdo |
+|---|------------|--------|-----------|-------------------|
+| 1 | 2:1-7 | Censo e nascimento | Narrativa histórica | ALTO |
+| 2 | 2:8-20 | Pastores e anjos | Anúncio angelical | ALTO |
+| 3 | 2:21 | Circuncisão e nomeação | Observância legal | BÁSICO |
+| 4 | 2:22-40 | Apresentação no Templo | Encontro profético | ALTO |
+| 5 | 2:41-52 | Menino Jesus no Templo | Narrativa de sabedoria | ALTO |
+
+---
+
+## Perícope 1: Censo e nascimento (2:1-7)
+
+### Texto grego
+- 2:1: Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην
+- 2:7: καὶ ἔτεκεν τὸν υἱὸν αὐτῆς τὸν πρωτότοκον, καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν φάτνῃ
+
+### Termos-chave
+| Termo | Morfologia | BDAG | Louw-Nida | Significado |
+|-------|------------|------|-----------|-------------|
+| δόγμα | Subst., n. | decreto/édito | 33.335 | Autoridade imperial, decreto divino |
+| οἰκουμένην | Subst., f. acus. | mundo habitado | 1.39 | Escopo universal do poder romano |
+| ἀπογράφεσθαι | Verbo, inf. méd. | registrar | 33.38 | Controle administrativo/tributação |
+| πρωτότοκον | Adj., m. acus. | primogênito | 10.42 | Status legal/teológico, alusões AT |
+| φάτνῃ | Subst., f. dat. | manjedoura | 6.8 | Circunstâncias humildes, imagens pastorais |
+
+### Síntese do comentário
+
+**Bovon (Hermeneia)**: Lucas alcança uma "coerência cuidadosa" ao unir o episódio do censo (vv. 1-5) com a narrativa do nascimento (vv. 6-7). O censo serve múltiplas funções: permite a viagem a Belém, cria uma justaposição marcante entre o imperador e o Messias oculto, e fornece ancoragem histórica enquanto demonstra a soberania de Deus sobre o poder imperial. O nascimento em si é descrito com realismo notável - nenhuma intervenção divina poupa Maria das dores do parto ou do medo do nascimento, enfatizando a verdadeira encarnação.
+
+**Bock (Baker)**: Esta unidade coloca Jesus na história mundial enquanto enfatiza sua herança davídica. O cenário histórico através do censo demonstra o controle de Deus sobre os eventos, usando até mesmo a maquinaria administrativa romana para cumprir a profecia davídica. O nascimento humilde (sem lugar na pousada, nascimento numa manjedoura) contrasta dramaticamente com o significado cósmico do evento que seguirá na história dos pastores.
+
+**Eisele (alemão)**: "Das Lukasevangelium... ist das biblische Evangelium, ohne das wir Weihnachten anders feiern würden (Lk 2,1-20)." Lucas 2 molda como o Natal é celebrado - a narrativa é fundamental para o calendário litúrgico cristão. A tradução deve ser adequada para liturgia e proclamação natalina.
+
+**Ancient Christian Commentary (patrístico)**:
+- **Crisóstomo**: "Um dia festivo está para chegar, e é o mais santo e grandioso de todas as festas. Não seria erro chamá-lo de principal e mãe de todos os dias santos. Que festa é essa? É o dia do nascimento de Cristo na carne." (Sobre a natureza incompreensível de Deus 6.23-24) Natal como "mãe de todos os dias santos" - fonte de todo o calendário litúrgico.
+- **Cássia**: "Quando Augusto reinou sozinho sobre a terra, os muitos reinos da humanidade chegaram ao fim; e quando te fizeste homem da Virgem pura, os muitos deuses da idolatria foram destruídos. As cidades do mundo passaram sob um único governo; e as nações chegaram a crer numa única divindade soberana." (Stichera da Natividade) A Pax Romana de Augusto prefigura o reino universal de Cristo - tema contra-imperial.
+- **Beda**: "Ele escolheu um tempo de máxima paz como o tempo em que nasceria porque esta era a razão para nascer no mundo, para que pudesse levar a raça humana de volta aos dons da paz celestial... 'Pois ele é nossa paz, que fez de ambos um.'" (Homilias sobre os Evangelhos 1.6) O nascimento durante a Pax Romana é teologicamente significativo; εἰρήνη (paz) como tema central.
+
+### Contexto cultural
+
+O censo representa mais que conveniência administrativa - encarna o controle imperial romano sobre povos subjugados. O fazer censos era uma ferramenta de subjugação, confirmando o poder de Roma sobre territórios conquistados enquanto permitia tributação e recrutamento militar.
+
+### Análise dos sete princípios
+
+1. **Equivalência literária**: Lucas emprega estilo narrativo histórico cuidadoso reminiscente da historiografia helenística, porém com tons teológicos distintamente judaicos.
+
+2. **Contexto cultural**: As dinâmicas de honra-vergonha são cruciais aqui. A gravidez de Maria enquanto noiva e viajando teria sido escandalosa numa cultura onde a honra das mulheres era primordial.
+
+3. **Apologética de mãos abertas**: O censo cria um problema histórico (o tempo de Quirino) que céticos têm questionado há muito tempo.
+
+4. **Hermenêutica ecumênica**:
+   - A tradição católica enfatiza a virgindade perpétua de Maria (πρωτότοκον)
+   - A leitura protestante foca em Jesus como primogênito da nova criação
+   - A tradição ortodoxa vê significado cósmico na encarnação
+   - A leitura pentecostal enfatiza intervenção divina sobrenatural
+
+---
+
+## Perícope 2: Pastores e anjos (2:8-20)
+
+### Texto grego
+- 2:10-11: καὶ εἶπεν αὐτοῖς ὁ ἄγγελος· Μὴ φοβεῖσθε, ἰδοὺ γὰρ εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην... ὅτι ἐτέχθη ὑμῖν σήμερον σωτὴρ ὅς ἐστιν χριστὸς κύριος
+- 2:14: Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας
+
+### Termos-chave
+| Termo | Morfologia | BDAG | Louw-Nida | Significado |
+|-------|------------|------|-----------|-------------|
+| εὐαγγελίζομαι | Verbo, 1ª p.s. | proclamar boas novas | 33.215 | Anúncio evangélico, contra-imperial |
+| σωτήρ | Subst., m. nom. | salvador, libertador | 21.31 | Título cristológico, vs. César |
+| χριστὸς κύριος | Frase nominal | Cristo Senhor | Títulos combinados | Autoridade messiânica |
+| εὐδοκίας | Subst., f. gen. | boa vontade | 25.85 | Favor divino, não mérito humano |
+
+### Síntese do comentário
+
+**Bovon (Hermeneia)**: A história dos pastores funciona como "uma proclamação, não uma narrativa de nascimento" - trata-se da resposta do céu ao nascimento em vez do nascimento em si. A mensagem dos anjos contém linguagem deliberadamente contra-imperial: σωτήρ (salvador) e κύριος (senhor) eram títulos reivindicados por César Augusto.
+
+**Eisele (alemão)**: "Die Hirten gehören zu Weihnachten wie die Engel und das Christkind selbst." Os pastores são inseparáveis da celebração natalina. Mais significativamente: "In seiner Weihnachtserzählung stehen die Hirten für das Volk Israel als Ganzes." Os pastores representam Israel como um todo - primeiros receptores porque Jesus é seu rei davídico.
+
+**Ancient Christian Commentary (patrístico)**:
+- **Ambrósio**: "Veja como o cuidado divino adiciona fé. Um anjo conta a Maria, um anjo conta a José, um anjo conta aos pastores. Não basta que um mensageiro seja enviado uma vez. Pois toda palavra permanece com duas ou três testemunhas." (Exposição de Lucas 2.51) Múltiplas testemunhas angelicais seguem o princípio da Torá de "duas ou três testemunhas".
+- **Orígenes**: "Escutem, pastores das igrejas! Escutem, pastores de Deus! Seu anjo sempre desce do céu e proclama a vocês: 'Hoje nasceu para vocês um Salvador, que é Cristo o Senhor.'" (Homilias sobre Lucas 12.2) Aplicação pastoral/eclesiástica - líderes da igreja como pastores necessitando da presença de Cristo.
+
+### Análise dos sete princípios
+
+1. **Equivalência literária**: O anúncio angelical segue padrões clássicos de angelofania (aparição, medo, tranquilização, mensagem, sinal) enquanto a resposta dos pastores demonstra resposta de fé apropriada.
+
+2. **Contexto cultural**: A inversão honra-vergonha é dramática - o anúncio mais importante do céu vai aos membros mais desonrados da sociedade.
+
+---
+
+## Perícope 3: Circuncisão e nomeação (2:21)
+
+### Texto grego
+2:21: Καὶ ὅτε ἐπλήσθησαν ἡμέραι ὀκτὼ τοῦ περιτεμεῖν αὐτόν, καὶ ἐκλήθη τὸ ὄνομα αὐτοῦ Ἰησοῦς
+
+### Síntese do comentário
+
+**Bovon (Hermeneia)**: Este versículo permanece isolado, conectando-se apenas à anunciação (1:26-38) através da nomeação do anjo de Jesus. Representa a inscrição de Jesus no povo da promessa divina através do sinal da aliança.
+
+**Ancient Christian Commentary (patrístico)**:
+- **Cirilo de Alexandria**: "A circuncisão espiritual acontece principalmente no santo batismo, quando Cristo nos torna participantes também do Espírito Santo... a circuncisão alcançou três fins distintos. Primeiro, separou os descendentes de Abraão por uma espécie de sinal e selo... Segundo, prefigurou em si mesma a graça e eficácia do batismo divino... Terceiro, a circuncisão é o símbolo dos fiéis quando são estabelecidos na graça." (Comentário sobre Lucas, Homilia 4) Significado tríplice: sinal/selo, prefiguração batismal e aplicação moral.
+
+---
+
+## Perícope 4: Apresentação no Templo (2:22-40)
+
+### Texto grego
+- 2:25: καὶ ὁ ἄνθρωπος οὗτος δίκαιος καὶ εὐλαβής, προσδεχόμενος παράκλησιν τοῦ Ἰσραήλ
+- 2:29-30: Νῦν ἀπολύεις τὸν δοῦλόν σου, δέσποτα... ὅτι εἶδον οἱ ὀφθαλμοί μου τὸ σωτήριόν σου
+
+### Síntese do comentário
+
+**Bovon (Hermeneia)**: A perícope demonstra a técnica de Lucas de colocar profecia extraordinária dentro da moldura de observância legal. Simeão representa Israel "justo e piedoso" aguardando consolação divina, enquanto Ana encarna persistência fiel na adoração e testemunho.
+
+**Eisele (alemão)**: "Gesetz und Geist bilden nach Lukas – anders als bei Paulus – keinen Gegensatz, sondern wirken so zusammen." Lei e Espírito cooperam em Lucas (diferentemente da tensão paulina) - a Torá guia os pais, o Espírito guia Simeão, ambos convergem em Jesus.
+
+**Ancient Christian Commentary (patrístico)**:
+- **Beda**: "Setenta semanas após o anúncio do nascimento de João a Zacarias pelo anjo Gabriel e quarenta dias após seu nascimento, Jesus vem ao seu templo para cumprir a Torá pela segunda vez." (Homilias sobre os Evangelhos 1.18) Circuncisão → Apresentação paralela Batismo → Eucaristia.
+- **Jerônimo**: "A declaração 'aquele que abre o ventre será chamado santo ao Senhor' é mais aplicável à natividade especial do Salvador que à de todos os homens." (Contra os pelagianos 2.4) Imagens do templo - a porta oriental fechada de Ezequiel (Ez 44:2).
+
+---
+
+## Perícope 5: O menino Jesus no Templo (2:41-52)
+
+### Texto grego
+2:49: καὶ εἶπεν πρὸς αὐτούς· Τί ὅτι ἐζητεῖτέ με; οὐκ ᾔδειτε ὅτι ἐν τοῖς τοῦ πατρός μου δεῖ εἶναί με;
+
+### Síntese do comentário
+
+**Bovon (Hermeneia)**: Este episódio demonstra a sabedoria de Jesus e seu apego ao Pai, servindo como exemplo de crescimento tanto no favor divino quanto humano. A marca dos doze anos representa a aproximação da maioridade legal judaica.
+
+---
+
+## Síntese do capítulo
+
+### Temas teológicos
+
+1. **Soberania divina e poder imperial**: Lucas demonstra como Deus opera através e sobre estruturas imperiais para cumprir propósitos divinos.
+
+2. **Encarnação e humilhação**: A verdadeira glória divina manifesta-se através de circunstâncias humildes - nascimento na manjedoura, testemunhas marginais, observância ordinária da lei religiosa.
+
+3. **Salvação universal**: Do censo de "todo o mundo" de Augusto à "luz para os gentios" de Simeão, a narrativa enfatiza o escopo global da salvação.
+
+4. **Cumprimento e profecia**: Expectativas davídicas, profecias do templo e anúncios angelicais convergem no nascimento e vida inicial de Jesus.
+
+### Significado denominacional
+
+- **Católico**: Ênfase em Maria como Theotokos, virgindade perpétua e cooperação com a graça divina
+- **Ortodoxo**: Foco no significado cósmico da Encarnação e luz divina entrando na criação
+- **Protestante**: Stress na graça aos não merecedores e salvação por ação divina somente
+- **Pentecostal**: Celebração de manifestações sobrenaturais e atividade profética
+
+---
+
+## Estado
+
+\`\`\`yaml
+estado_exegese:
+  livro: lucas
+  capitulo: 2
+  estado: completo_com_suplemento
+  arquivo_saida: analysis/42_luke_02_exegesis_pt.md
+  criado: 31 de dezembro de 2025
+  versao: 3.0_portugues
+  pericopas_analisadas: 5
+  fontes_consultadas:
+    - Texto grego NA28
+    - Léxico BDAG
+    - Léxico Louw-Nida
+    - Bovon (Hermeneia)
+    - Bock (Baker Exegético)
+    - Fitzmyer (Anchor Bible)
+    - Keener (IVP Background)
+    - Eisele (alemão - Das Lukasevangelium)
+    - Ancient Christian Commentary on Scripture (patrístico)
+    - Stronstad (Teologia carismática de São Lucas)
+  sete_principios_aplicados: true
+  cobertura_ecumenica_melhorada: true
+  pronto_para_traducao: true
+\`\`\`
+
+**Próximos passos**: Esta exegese serve como fundamento para todo trabalho de tradução em Lucas 2 através das línguas-alvo.`;
+
+// Configure marked for better output
+marked.setOptions({
+  gfm: true,
+  breaks: false
+});
+
+const htmlContent = marked.parse(markdownContent);
+---
+
+<BaseLayout title="Lucas 2 Exegese" lang="pt" description="Análise do texto grego, principais comentários, contexto cultural e notas de tradução">
+  <div class="exegesis-layout">
+    <aside class="exegesis-sidebar">
+      <div class="sidebar-header">
+        <a href={`${base}/pt/luke/2`} class="back-link">&larr; Voltar para Lucas 2</a>
+        <h2>Exegese</h2>
+      </div>
+      <nav class="pericope-nav">
+        {pericopes.map((p) => (
+          <a href={`#${p.id}`} class="nav-item">
+            <span class="nav-title">{p.title}</span>
+            {p.verses && <span class="nav-verses">{p.verses}</span>}
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="exegesis-content">
+      <article>
+        <header class="exegesis-header">
+          <p class="meta">Exegese</p>
+          <h1>Lucas 2</h1>
+          <p class="subtitle">Análise do texto grego, principais comentários, contexto cultural e notas de tradução</p>
+        </header>
+
+        <div class="markdown-content" set:html={htmlContent} />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .exegesis-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .exegesis-sidebar {
+    width: 280px;
+    padding: 2rem;
+    background: var(--color-paper);
+    border-right: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .pericope-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .nav-item:hover {
+    background: var(--color-beige);
+  }
+
+  .nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-charcoal);
+  }
+
+  .nav-verses {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .exegesis-content {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 900px;
+  }
+
+  .exegesis-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .exegesis-header .meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .exegesis-header .subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .markdown-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .markdown-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(h4) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .markdown-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .markdown-content :global(blockquote) {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    background: var(--color-beige);
+    border-left: 3px solid var(--color-accent);
+    margin: 1.5rem 0;
+  }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+  }
+
+  .markdown-content :global(th),
+  .markdown-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+
+  .markdown-content :global(th) {
+    background: var(--color-beige);
+    font-weight: 600;
+  }
+
+  .markdown-content :global(code) {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    background: var(--color-beige);
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+  }
+
+  .markdown-content :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  .markdown-content :global(strong) {
+    font-weight: 600;
+    color: var(--color-charcoal);
+  }
+
+  .markdown-content :global(em) {
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .exegesis-layout {
+      flex-direction: column;
+    }
+
+    .exegesis-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exegesis-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>

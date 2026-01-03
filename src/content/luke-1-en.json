@@ -4,19 +4,32 @@
   "chapter": 1,
   "sections": [
     {
-      "heading": "Prologue",
+      "heading": "Why I'm Writing This",
       "verses": [
         {
           "number": "1",
-          "text": "Many have already tried to put together an account of the events that have been fulfilled among us —",
-          "footnotes": [],
+          "text": "Many have already tried to put together an account of the things that have been fulfilled among us.",
+          "footnotes": [
+            {
+              "ref": "1:1-4",
+              "category": "text",
+              "keyword": "Luke's Method",
+              "content": "Luke writes like an ancient historian: gathering eyewitness reports, investigating thoroughly, presenting in orderly fashion. This matches the standards of Greek historiography."
+            },
+            {
+              "ref": "1:1-4",
+              "category": "apologetics",
+              "keyword": "Historical reliability",
+              "content": "Luke's claims about careful investigation raise questions about historical accuracy versus theological interpretation. Ancient historians (unlike modern ones) combined factual reporting with rhetorical shaping and theological meaning. Archaeological evidence supports many Lukan details (crucifixion practices, political situations, cultural customs). However, some chronological issues exist (census timing, Herod's death). Scholars range from viewing Luke as highly reliable (conservative evangelicals) to seeing him as theologically creative (critical scholars). Most historical Jesus scholars treat Luke as a valuable but interpreted source—neither pure history nor pure fiction, but ancient historiography that combines eyewitness tradition with interpretive framework."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "2",
-          "text": "just as they were handed down to us by those who were eyewitnesses from the beginning and became servants of this message.<p class=\"paragraph-break\"></p>",
+          "text": "They relied on what the eyewitnesses passed down to us—people who were there from the beginning and became proclaimers of this story.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -24,15 +37,155 @@
         },
         {
           "number": "3",
-          "text": "So I too decided, after carefully investigating everything from the start, to write an orderly account for you, most excellent Theophilus —",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">So</span> I decided to investigate everything carefully, from the very start. Thoroughly. <span class=\"amplification\">Step by step.</span> For you, most honored Theophilus—",
+          "footnotes": [
+            {
+              "ref": "1:3",
+              "category": "text",
+              "keyword": "Theophilus (Θεόφιλος)",
+              "content": "Greek for \"God-lover.\" The title \"most excellent\" was used for Roman officials and people of rank."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "4",
-          "text": "so you can be certain about the things you've been taught.",
+          "text": "so you can know for certain: What you've been taught stands on solid ground.",
+          "footnotes": [
+            {
+              "ref": "1:4",
+              "category": "text",
+              "keyword": "solid ground (ἀσφάλεια)",
+              "content": "Certainty, reliability. Luke wants to enable grounded confidence."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        }
+      ]
+    },
+    {
+      "heading": "An Old Priest and an Impossible Promise",
+      "verses": [
+        {
+          "number": "5",
+          "text": "In the days of King Herod there lived in Judea a priest named Zechariah. He belonged to the priestly division of Abijah<span class=\"amplification\">—one of twenty-four groups that took turns serving in the Temple</span>. His wife Elizabeth came from the family of Aaron. <span class=\"amplification\">A priestly couple, both from ancient lineage. If ever a family deserved God's blessing, it was this one.</span>",
+          "footnotes": [
+            {
+              "ref": "1:5",
+              "category": "kontext",
+              "keyword": "Herod",
+              "content": "Herod the Great (reigned 37–4 BCE), Rome's appointed king, notorious for his cruelty."
+            },
+            {
+              "ref": "1:5",
+              "category": "kultur",
+              "keyword": "Division of Abijah",
+              "content": "One of 24 priestly divisions that took turns serving in the Temple (1 Chr 24:10)."
+            },
+            {
+              "ref": "1:5",
+              "category": "kultur",
+              "keyword": "Aaron's family",
+              "content": "Both partners from priestly families—religious nobility. If ever a family deserved God's blessing, it was this one."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "6",
+          "text": "<span class=\"amplification\">And indeed:</span> They both lived in a way no one could fault. <span class=\"amplification\">No one could say a word against them.</span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "7",
+          "text": "<span class=\"amplification\">But their life didn't feel blessed.</span> Elizabeth had remained childless. <span class=\"amplification\">Childlessness—in their world, this wasn't a private sorrow. It was shame. It was the question no one asked aloud but everyone thought: What did they do wrong for God to punish them like this? They had done nothing wrong.</span> And both were <span class=\"amplification\">already</span> old.",
+          "footnotes": [
+            {
+              "ref": "1:7",
+              "category": "kultur",
+              "keyword": "Childlessness",
+              "content": "In the honor-shame culture, childlessness meant public disgrace. People wondered what the couple had done wrong to deserve God's punishment."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        }
+      ]
+    },
+    {
+      "heading": "In the Temple",
+      "verses": [
+        {
+          "number": "8",
+          "text": "Then came the day when <span class=\"amplification\">Zechariah's</span> division was on duty. He was serving before God,",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "9",
+          "text": "and the lot fell to him: he would offer the incense. <span class=\"amplification\">The privilege a priest waited his whole life for. Some never got it.</span>",
+          "footnotes": [
+            {
+              "ref": "1:9",
+              "category": "kultur",
+              "keyword": "The lot",
+              "content": "Casting lots was a means of divine guidance (Prov 16:33). God chose Zechariah—not chance."
+            },
+            {
+              "ref": "1:9",
+              "category": "kultur",
+              "keyword": "Incense offering",
+              "content": "The highest privilege for a priest. With thousands of priests, a man could wait his whole life without ever being chosen."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "10",
+          "text": "He entered the sanctuary. <span class=\"amplification\">Alone.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Before him stood the golden incense altar. The seven-branched lampstand cast flickering light on the walls. Behind him hung the heavy curtain, and beyond it the Most Holy Place—the place where God himself dwelt.</span> Outside<span class=\"amplification\">, out of earshot,</span> the people stood praying.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "11",
+          "text": "<span class=\"amplification\">Then</span> an angel stood there. At the right of the altar<span class=\"amplification\">—where blessing comes from</span>.",
+          "footnotes": [
+            {
+              "ref": "1:11",
+              "category": "unglaublich",
+              "keyword": "Angel",
+              "content": "For modern readers, this raises questions: Angels? Really? The text assumes a worldview where God acts through messengers—not as metaphor, but as real encounter. Some understand angels as inner experience or literary device. Others—as the text presents it—as objective appearance. The Greek ἄγγελος simply means \"messenger.\" Luke presents Gabriel as a concrete messenger with a concrete message."
+            },
+            {
+              "ref": "1:11",
+              "category": "kultur",
+              "keyword": "Right side",
+              "content": "The right side was the position of blessing and favor (Ps 110:1)."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "12",
+          "text": "Zechariah saw him. And fear seized him.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -41,75 +194,11 @@
       ]
     },
     {
-      "heading": "An Old Priest, an Empty Nursery",
+      "heading": "The Promise",
       "verses": [
         {
-          "number": "5",
-          "text": "In the days when Herod was king of Judea, there was a priest named Zechariah who belonged to the priestly division of Abijah. His wife Elizabeth was also from a priestly family — a descendant of Aaron.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "6",
-          "text": "Both of them lived in a way that pleased God. They followed all the Lord's commands and regulations — no one could find fault with them.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "7",
-          "text": "But they had no children. Elizabeth was barren<span class=\"amplification\">— and in their world, that word fell like a verdict. The neighbors whispered that God had forgotten her</span>. Both were old now. Too old for hope.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "8",
-          "text": "One day Zechariah was serving as priest before God — his division was on duty.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "9",
-          "text": "According to custom, he was chosen by lot to enter the sanctuary and burn incense<span class=\"amplification\">— an honor that came to most priests only once in a lifetime</span>.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "10",
-          "text": "Outside, the whole crowd was praying.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "11",
-          "text": "And there he was — an angel of the Lord. Standing at the right side of the incense altar<span class=\"amplification\">— the place of blessing</span>.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "12",
-          "text": "When Zechariah saw him, he was shaken to his core. <span class=\"amplification\">Fear fell on him.</span><p class=\"paragraph-break\"></p>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
           "number": "13",
-          "text": "The angel said: \"Don't be afraid, Zechariah. Your prayer has been heard. Your wife Elizabeth will bear you a son. You are to name him John.",
+          "text": "The angel said: \"Don't be afraid, Zechariah. Your prayer has been heard. <span class=\"amplification\">Elizabeth,</span> your wife, will give you a son. <span class=\"amplification\">Name</span> him John.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -117,7 +206,7 @@
         },
         {
           "number": "14",
-          "text": "You will have joy and gladness — overwhelming happiness. Many will rejoice at his birth.",
+          "text": "He will bring you joy<span class=\"amplification\">—great joy</span>. And many will rejoice at his birth.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -125,15 +214,22 @@
         },
         {
           "number": "15",
-          "text": "He will be great in God's sight. He must never drink wine or strong drink. Even before he's born, he will be filled with the Holy Spirit.",
-          "footnotes": [],
+          "text": "He will be great <span class=\"amplification\">in God's eyes</span>. He will never touch wine or beer—the Holy Spirit will fill him, even in his mother's womb.",
+          "footnotes": [
+            {
+              "ref": "1:15",
+              "category": "kontext",
+              "keyword": "Wine and beer",
+              "content": "Echoes the Nazirite vow (Num 6:3). Like Samson and Samuel, John was consecrated to God from birth."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "16",
-          "text": "He will turn many of Israel's people back to the Lord their God.",
+          "text": "He will turn many <span class=\"amplification\">in Israel</span> back to the Lord their God.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -141,15 +237,27 @@
         },
         {
           "number": "17",
-          "text": "He will go before him in the spirit and power of Elijah — to turn the hearts of parents to their children and the disobedient to the wisdom of the righteous, to prepare a people ready for the Lord.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "He will go before him with <span class=\"amplification\">the power of</span> Elijah. He will reconcile fathers and children, bring the disobedient back to wisdom. He will prepare a people—ready for the Lord.\"",
+          "footnotes": [
+            {
+              "ref": "1:17",
+              "category": "kontext",
+              "keyword": "Elijah",
+              "content": "Malachi had announced that Elijah would return before the great day of the Lord (Mal 3:23-24). John fulfills this role."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Zechariah Doubts",
+      "verses": [
         {
           "number": "18",
-          "text": "Zechariah asked: \"How can I be sure of this? I'm an old man, and my wife is getting on in years too.\"<p class=\"paragraph-break\"></p>",
+          "text": "Zechariah asked: \"How can I know this is true? I'm old. My wife is too.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -157,23 +265,35 @@
         },
         {
           "number": "19",
-          "text": "The angel answered: \"I am Gabriel. I stand in the very presence of God. He sent me to bring you this good news.",
-          "footnotes": [],
+          "text": "The angel answered: \"I am Gabriel. I stand before God's throne. He sent me to bring you this good news.",
+          "footnotes": [
+            {
+              "ref": "1:19",
+              "category": "text",
+              "keyword": "Gabriel (Γαβριήλ)",
+              "content": "Hebrew for \"strength of God.\" One of the archangels, who \"stands before God.\" The same angel appeared to Daniel (Dan 8:16; 9:21)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "20",
-          "text": "But because you didn't believe my words — which will come true at their proper time — you will be silent. You won't be able to speak until all this happens.\"<p class=\"paragraph-break\"></p>",
+          "text": "But because you didn't believe my words—words that will come true at the right time—you will be silent. You won't be able to speak until it happens.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "The Silence Begins",
+      "verses": [
         {
           "number": "21",
-          "text": "Meanwhile, the people were waiting for Zechariah, wondering why he was taking so long.",
+          "text": "Outside, the people were waiting for Zechariah. <span class=\"amplification\">Unusually long. The priestly blessing usually took only moments.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -181,7 +301,7 @@
         },
         {
           "number": "22",
-          "text": "When he came out, he couldn't speak to them. They realized he had seen a vision. He kept making signs but remained unable to speak.<p class=\"paragraph-break\"></p>",
+          "text": "When he finally came out, he couldn't speak. He made signs with his hands. Then they understood: He had seen a vision<span class=\"amplification\">. In the sanctuary, where God dwells</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -189,7 +309,7 @@
         },
         {
           "number": "23",
-          "text": "When his time of service was completed, he went home.<p class=\"paragraph-break\"></p>",
+          "text": "After his time of service ended, he went home. <span class=\"amplification\">Silent. Unable to speak the blessing the people expected.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -197,7 +317,7 @@
         },
         {
           "number": "24",
-          "text": "Soon after, Elizabeth became pregnant. For five months she stayed in seclusion.",
+          "text": "Soon afterward, Elizabeth became pregnant. For five months she stayed hidden.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -205,8 +325,15 @@
         },
         {
           "number": "25",
-          "text": "She said: \"This is what the Lord has done for me. He has looked on me and taken away my disgrace among the people.\"",
-          "footnotes": [],
+          "text": "She said: \"This is what the Lord has done for me. He has looked on me. He has taken away my disgrace<span class=\"amplification\">—the disgrace of the childless, whom everyone saw as punished by God</span>.\"",
+          "footnotes": [
+            {
+              "ref": "1:25",
+              "category": "leben",
+              "keyword": "God's timing vs. human shame",
+              "content": "Elizabeth's vindication after decades of social humiliation speaks to anyone whose life doesn't follow expected timelines. Career changes, marriage, children, success—each culture has its \"normal\" schedule. Elizabeth's story suggests that divine timing often contradicts social expectations. Many find comfort in her patient endurance: continuing to live faithfully while enduring whispers and assumptions. Her joy comes not just from pregnancy but from the revelation that her apparent \"failure\" was actually divine preparation for something greater."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -218,7 +345,7 @@
       "verses": [
         {
           "number": "26",
-          "text": "In the sixth month, God sent the angel Gabriel again. This time not to the magnificent temple in Jerusalem, but to Nazareth<span class=\"amplification\">— an insignificant village in Galilee that didn't appear on any map</span>.",
+          "text": "<span class=\"amplification\">Six months later</span> God sent the angel Gabriel <span class=\"amplification\">again. This time not to the Temple. Not to Jerusalem.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">To</span> Galilee. To a village called Nazareth<span class=\"amplification\">. A place no one had ever heard of</span>.<p class=\"paragraph-break\"></p><span class=\"amplification\">No Temple. No incense. No people praying outside. Just a girl.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -226,15 +353,22 @@
         },
         {
           "number": "27",
-          "text": "He went to a young woman named Mary. She was pledged to be married to a man named Joseph, a descendant of King David.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Her name was Mary. She was</span> engaged to a man named Joseph, who came from the house of David. <span class=\"amplification\">Engaged—that meant she already belonged to him, legally speaking. But she still lived with her father. The wedding was still ahead.</span>",
+          "footnotes": [
+            {
+              "ref": "1:27",
+              "category": "kultur",
+              "keyword": "Engagement",
+              "content": "Engagement was legally binding—breaking it required formal divorce. Mary still lived with her father; the wedding was yet to come."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "28",
-          "text": "The angel came to her and said: \"Greetings, you whom God has graced! The Lord is with you.\"",
+          "text": "The angel came to her and said: \"Greetings, favored one! The Lord is with you.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -242,7 +376,7 @@
         },
         {
           "number": "29",
-          "text": "The words shook her. She wondered what kind of greeting this could be.<p class=\"paragraph-break\"></p>",
+          "text": "The words shook her. She wondered what this greeting could mean.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -250,7 +384,7 @@
         },
         {
           "number": "30",
-          "text": "The angel said: \"Don't be afraid, Mary. God has chosen you.",
+          "text": "The angel said: \"Don't be afraid, Mary. <span class=\"amplification\">God has chosen you.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -258,7 +392,7 @@
         },
         {
           "number": "31",
-          "text": "You will conceive and give birth to a son. You are to name him Jesus.",
+          "text": "You will become pregnant and give birth to a son. <span class=\"amplification\">Name</span> him Jesus.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -266,15 +400,22 @@
         },
         {
           "number": "32",
-          "text": "He will be great — he will be called Son of the Most High. The Lord God will give him the throne of his ancestor David.",
-          "footnotes": [],
+          "text": "He will be great. He will be called Son of the Most High. God<span class=\"amplification\">, the Lord,</span> will give him the throne of his ancestor David.",
+          "footnotes": [
+            {
+              "ref": "1:32-33",
+              "category": "kontext",
+              "keyword": "David's throne",
+              "content": "The promise to David (2 Sam 7:12-16) shaped Jewish messianic expectation. God had promised David an eternal throne—but the kingdom had long since fallen."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "33",
-          "text": "He will reign over the house of Jacob forever. His kingdom will never end.\"<p class=\"paragraph-break\"></p>",
+          "text": "He will reign over <span class=\"amplification\">Israel</span> forever. His kingdom will have no end.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -282,7 +423,7 @@
         },
         {
           "number": "34",
-          "text": "Mary asked: \"How can this happen? I've never been with a man.\"<p class=\"paragraph-break\"></p>",
+          "text": "Mary asked: \"How can this happen? I've never been with a man.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -290,15 +431,22 @@
         },
         {
           "number": "35",
-          "text": "The angel answered: \"The Holy Spirit will come upon you. The power of the Most High will overshadow you. So the holy one to be born will be called the Son of God.",
-          "footnotes": [],
+          "text": "The angel answered: \"The Holy Spirit will come upon you. The power of the Most High will overshadow you<span class=\"amplification\">—just as the cloud once filled the sanctuary</span>. That's why <span class=\"amplification\">the child you will bear</span> will be called holy: the Son of God.",
+          "footnotes": [
+            {
+              "ref": "1:34-35",
+              "category": "unglaublich",
+              "keyword": "Virgin birth",
+              "content": "The idea of conception without a man is hard for modern readers to believe. The text doesn't claim biological parthenogenesis, but divine action: God's Spirit accomplishes what is naturally impossible. Some understand this symbolically—as an expression of Jesus' unique relationship with God. Others, like the historic churches, understand it literally as miracle. The Greek ἐπισκιάζω (\"overshadow\") echoes the cloud that filled the sanctuary (Ex 40:35)—Mary becomes the place of divine presence."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "36",
-          "text": "And here's more: Your relative Elizabeth — the one everyone said couldn't have children — she is six months pregnant. At her age!",
+          "text": "<span class=\"amplification\">By the way—</span>your relative Elizabeth is also pregnant, she who was called barren. She's <span class=\"amplification\">already</span> in her sixth month.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -306,16 +454,36 @@
         },
         {
           "number": "37",
-          "text": "For nothing is impossible with God.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">With</span> God, nothing is impossible.\"<p class=\"paragraph-break\"></p>",
+          "footnotes": [
+            {
+              "ref": "1:37",
+              "category": "kontext",
+              "keyword": "Nothing impossible",
+              "content": "Echoes Genesis 18:14, where God promises a son to aged Sarah."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "38",
-          "text": "Mary said: \"I belong to God. I'm ready. Let what you've said happen to me.\"<p class=\"paragraph-break\"></p>Then the angel left.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Mary knew what this meant. Pregnant before the wedding—that wasn't embarrassing. It was dangerous. Joseph could reject her. The law permitted worse. Her reputation, her future, her family's honor—everything was at stake. And the child? It would be seen as illegitimate for life.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">And</span> she said: \"I belong to the Lord. What you've said—let it be so.\"<p class=\"paragraph-break\"></p>Then the angel left<span class=\"amplification\">her</span>.",
+          "footnotes": [
+            {
+              "ref": "1:38",
+              "category": "kultur",
+              "keyword": "The risk",
+              "content": "An engaged woman who became pregnant risked public shame. Deuteronomy 22:23-24 prescribed stoning for adultery by a betrothed woman. Mary's \"yes\" was courage, not pious reflex."
+            },
+            {
+              "ref": "1:38",
+              "category": "leben",
+              "keyword": "Courage in uncertainty",
+              "content": "Mary's response offers a model for facing overwhelming life changes. When circumstances seem impossible or frightening, her pattern emerges: acknowledge the cost honestly, then choose trust over fear. This isn't naive optimism but courageous faith—seeing the bigger picture while accepting the immediate risk. Different faith traditions have developed various practices for cultivating this kind of courage: contemplative prayer, community discernment, spiritual direction, or simply sitting with uncertainty until clarity comes."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -327,7 +495,7 @@
       "verses": [
         {
           "number": "39",
-          "text": "In those days Mary set out and hurried to a town in the hill country of Judea.",
+          "text": "Mary set out <span class=\"amplification\">right away</span>. She hurried <span class=\"amplification\">through days of travel</span> across the hill country<span class=\"amplification\">, alone,</span> to a town in Judea.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -335,7 +503,7 @@
         },
         {
           "number": "40",
-          "text": "She entered Zechariah's home and greeted Elizabeth.<p class=\"paragraph-break\"></p>",
+          "text": "She entered Zechariah's house and called out a greeting to Elizabeth.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -343,15 +511,22 @@
         },
         {
           "number": "41",
-          "text": "When Elizabeth heard Mary's greeting, the baby leaped inside her. Elizabeth was filled with the Holy Spirit.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">What happened next was more than a reunion.</span> When Elizabeth heard Mary's voice, the baby leaped in her womb. The Holy Spirit filled Elizabeth.",
+          "footnotes": [
+            {
+              "ref": "1:41",
+              "category": "unglaublich",
+              "keyword": "The baby leaped",
+              "content": "Can an unborn child respond prophetically? The text uses the same word as for Jacob and Esau in Rebekah's womb (Gen 25:22). Luke presents this as more than normal kicking—as recognition before birth. Skeptics see literary embellishment; believers see God's Spirit already at work in the womb."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "42",
-          "text": "She shouted: \"Blessed are you among women! And blessed is the child you carry!",
+          "text": "She cried out loudly<span class=\"amplification\">—like a prophet</span>:<p class=\"paragraph-break\"></p>\"Blessed are you<span class=\"amplification\">, more than any other woman</span>! Blessed is <span class=\"amplification\">the child in</span> your womb!",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -359,7 +534,7 @@
         },
         {
           "number": "43",
-          "text": "Why am I so honored, that the mother of my Lord should come to me?",
+          "text": "<span class=\"amplification\">But how is it that</span> the mother of my Lord comes to me? <span class=\"amplification\">Me—to me?</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -367,7 +542,7 @@
         },
         {
           "number": "44",
-          "text": "The moment I heard your greeting, the baby in my womb leaped for joy!",
+          "text": "When your voice reached my ears, my baby jumped for joy!",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -375,8 +550,15 @@
         },
         {
           "number": "45",
-          "text": "Blessed is she who believed. What the Lord has spoken to her will be fulfilled.\"",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">You believed. That's why</span> you are blessed. What <span class=\"amplification\">God</span> promised you will come true.\"",
+          "footnotes": [
+            {
+              "ref": "1:45",
+              "category": "kontext",
+              "keyword": "You believed",
+              "content": "Elizabeth praises Mary for her faith—in contrast to Zechariah, who doubted."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -384,72 +566,75 @@
       ]
     },
     {
-      "heading": "Mary's Song",
+      "heading": "What God Does — The Magnificat",
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"poetry-line-1\">Mary said:</span><span class=\"poetry-line-1\">\"Everything in me celebrates God.</span>",
-          "footnotes": [],
+          "text": "Mary said:<span class=\"poetry-line-1\">Everything in me—everything!—celebrates God.</span>",
+          "footnotes": [
+            {
+              "ref": "1:46-55",
+              "category": "kontext",
+              "keyword": "Magnificat",
+              "content": "Mary's song follows the pattern of Hannah's song (1 Sam 2:1-10). Both women praise God for reversing the order of things."
+            }
+          ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 0,
           "lines": [
             {
-              "text": "Mary said:",
-              "level": 1
-            },
-            {
-              "text": "\"Everything in me celebrates God.",
+              "text": "Everything in me—everything!—celebrates God.",
               "level": 1
             }
           ]
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">My spirit bursts with joy</span><span class=\"poetry-line-2\">over God my Savior.</span>",
+          "text": "<span class=\"poetry-line-1\">My spirit bursts with joy over my Savior.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "My spirit bursts with joy",
+              "text": "My spirit bursts with joy over my Savior.",
               "level": 1
-            },
-            {
-              "text": "over God my Savior.",
-              "level": 2
             }
           ]
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">He has looked on me —</span><span class=\"poetry-line-2\">me, the insignificant one, his servant.</span><span class=\"poetry-line-1\">From now on, every generation will call me blessed.</span>",
+          "text": "<span class=\"poetry-line-1\">He saw me.</span><span class=\"poetry-line-2\">Me, the small one.</span><span class=\"poetry-line-2\">The nobody.</span><span class=\"poetry-line-1\">From now on every generation will call me blessed.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has looked on me —",
+              "text": "He saw me.",
               "level": 1
             },
             {
-              "text": "me, the insignificant one, his servant.",
+              "text": "Me, the small one.",
               "level": 2
             },
             {
-              "text": "From now on, every generation will call me blessed.",
+              "text": "The nobody.",
+              "level": 2
+            },
+            {
+              "text": "From now on every generation will call me blessed.",
               "level": 1
             }
           ]
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">The Mighty One has done great things for me.</span><span class=\"poetry-line-2\">Holy is his name.</span>",
+          "text": "<span class=\"poetry-line-1\">Because the Mighty One has done great things for me.</span><span class=\"poetry-line-2\">Holy is his name.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "The Mighty One has done great things for me.",
+              "text": "Because the Mighty One has done great things for me.",
               "level": 1
             },
             {
@@ -460,13 +645,13 @@
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">His mercy extends to those who honor him,</span><span class=\"poetry-line-2\">from generation to generation.</span>",
+          "text": "<span class=\"poetry-line-1\">His mercy extends to those who take him seriously—</span><span class=\"poetry-line-2\">from generation to generation.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "His mercy extends to those who honor him,",
+              "text": "His mercy extends to those who take him seriously—",
               "level": 1
             },
             {
@@ -477,79 +662,75 @@
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">He has shown the strength of his arm.</span><span class=\"poetry-line-2\">He has scattered the arrogant,</span><span class=\"poetry-line-2\">driven them apart in the pride of their hearts.</span>",
+          "text": "<span class=\"poetry-line-1\">His arm is strong.</span><span class=\"poetry-line-1\">The proud? Scattered<span class=\"amplification\">, along with all their grand plans</span>.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has shown the strength of his arm.",
+              "text": "His arm is strong.",
               "level": 1
             },
             {
-              "text": "He has scattered the arrogant,",
-              "level": 2
-            },
-            {
-              "text": "driven them apart in the pride of their hearts.",
-              "level": 2
+              "text": "The proud? Scattered<span class=\"amplification\">, along with all their grand plans</span>.",
+              "level": 1
             }
           ]
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">He has pulled the powerful from their thrones</span><span class=\"poetry-line-2\">and lifted up the lowly.</span>",
+          "text": "<span class=\"poetry-line-1\">Rulers? Thrown from their thrones.</span><span class=\"poetry-line-1\">The lowly? Lifted up.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has pulled the powerful from their thrones",
+              "text": "Rulers? Thrown from their thrones.",
               "level": 1
             },
             {
-              "text": "and lifted up the lowly.",
-              "level": 2
+              "text": "The lowly? Lifted up.",
+              "level": 1
             }
           ]
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">He has filled the hungry with good things</span><span class=\"poetry-line-2\">and sent the rich away empty.</span>",
+          "text": "<span class=\"poetry-line-1\">The hungry? Filled with good things.</span><span class=\"poetry-line-1\">The rich? Sent away. Empty-handed.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has filled the hungry with good things",
+              "text": "The hungry? Filled with good things.",
               "level": 1
             },
             {
-              "text": "and sent the rich away empty.",
-              "level": 2
+              "text": "The rich? Sent away. Empty-handed.",
+              "level": 1
             }
           ]
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">He has helped his servant Israel,</span><span class=\"poetry-line-2\">remembering his mercy —</span>",
+          "text": "<span class=\"poetry-line-1\">He has helped Israel, his servant.</span><span class=\"poetry-line-2\">He has remembered his mercy—</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has helped his servant Israel,",
+              "text": "He has helped Israel, his servant.",
               "level": 1
             },
             {
-              "text": "remembering his mercy —",
+              "text": "He has remembered his mercy—",
               "level": 2
             }
           ]
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">just as he promised our ancestors:</span><span class=\"poetry-line-2\">to Abraham and his descendants forever.\"</span><p class=\"paragraph-break\"></p>",
+          "text": "<span class=\"poetry-line-1\">just as he promised our ancestors:</span><span class=\"poetry-line-2\">Abraham and his descendants.</span><span class=\"poetry-line-2\">Forever.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -559,7 +740,11 @@
               "level": 1
             },
             {
-              "text": "to Abraham and his descendants forever.\"",
+              "text": "Abraham and his descendants.",
+              "level": 2
+            },
+            {
+              "text": "Forever.",
               "level": 2
             }
           ]
@@ -579,7 +764,7 @@
       "verses": [
         {
           "number": "57",
-          "text": "The time came for Elizabeth to have her baby, and she gave birth to a son.<p class=\"paragraph-break\"></p>",
+          "text": "The time came for Elizabeth. She gave birth to a son.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -587,7 +772,7 @@
         },
         {
           "number": "58",
-          "text": "Her neighbors and relatives heard that the Lord had shown her great mercy. They celebrated with her.<p class=\"paragraph-break\"></p>",
+          "text": "The neighbors and relatives heard <span class=\"amplification\">what had happened:</span> The Lord had shown her great mercy. They celebrated with her.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -595,7 +780,7 @@
         },
         {
           "number": "59",
-          "text": "On the eighth day they came to circumcise the child. They were going to name him Zechariah, after his father.",
+          "text": "On the eighth day they came for the circumcision<span class=\"amplification\">—the ancient covenant sign, when the child received its name</span>. They wanted to name him Zechariah, after his father.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -603,7 +788,7 @@
         },
         {
           "number": "60",
-          "text": "But his mother said: \"No. He is to be called John.\"",
+          "text": "But his mother said: \"No. His name is John.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -611,7 +796,7 @@
         },
         {
           "number": "61",
-          "text": "They objected: \"But no one in your family has that name!\"<p class=\"paragraph-break\"></p>",
+          "text": "They objected: \"No one in your family has that name!\" <span class=\"amplification\">Name a child after a stranger? That wasn't done.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -619,7 +804,7 @@
         },
         {
           "number": "62",
-          "text": "They made signs to his father, asking what he wanted to name the child.",
+          "text": "They asked the father by signs<span class=\"amplification\">—they must have thought he'd gone deaf too</span>. What should the child be called?",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -635,15 +820,28 @@
         },
         {
           "number": "64",
-          "text": "Immediately his mouth was opened, his tongue was freed. He began to speak, praising God.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "At that very moment his mouth opened. His tongue was freed. He spoke—<span class=\"amplification\">and his first words after nine months of silence were</span> praise for God.<p class=\"paragraph-break\"></p>",
+          "footnotes": [
+            {
+              "ref": "1:64",
+              "category": "unglaublich",
+              "keyword": "Mouth opened",
+              "content": "Nine months of silence—and then, in the moment of obedience, instant healing. Was it psychosomatic? A miracle? The text presents it as God's direct intervention: the discipline ends when Zechariah obeys the angel. His first words after months of silence are praise."
+            },
+            {
+              "ref": "1:64",
+              "category": "leben",
+              "keyword": "Waiting and trusting",
+              "content": "Zechariah's nine months of enforced silence offers insight for anyone enduring waiting periods—unemployment, illness, relationship difficulties, unanswered prayers. His silence wasn't punishment but preparation: time to process an overwhelming promise and learn trust. Many spiritual traditions recognize such seasons: the \"dark night of the soul,\" wilderness periods, fallow times. The key insight isn't that waiting is easy, but that it can be formative. When the waiting ends, Zechariah's first words are gratitude, not complaint."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "65",
-          "text": "Awe came over everyone in the neighborhood. Throughout the hill country of Judea, people talked about these events.",
+          "text": "Awe fell on all the neighbors. Throughout the hill country of Judea, people talked about these things.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -651,7 +849,7 @@
         },
         {
           "number": "66",
-          "text": "Everyone who heard wondered: \"What will this child become?\"<p class=\"paragraph-break\"></p>For it was clear: the Lord's hand was with him.",
+          "text": "Everyone who heard it stored it in their hearts<span class=\"amplification\">:</span> \"What will this child become?\" For the Lord's hand was clearly upon him.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -660,141 +858,163 @@
       ]
     },
     {
-      "heading": "Zechariah's Prophecy",
+      "heading": "What Zechariah Saw — The Benedictus",
       "verses": [
         {
           "number": "67",
-          "text": "His father Zechariah was filled with the Holy Spirit and prophesied:",
-          "footnotes": [],
+          "text": "Zechariah, his father, was filled with the Holy Spirit. He began to prophesy:",
+          "footnotes": [
+            {
+              "ref": "1:67-79",
+              "category": "kontext",
+              "keyword": "Benedictus",
+              "content": "The Benedictus has two parts: praise for God's redemption of Israel (68-75) and prophecy about John's mission (76-79)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">\"Praise the Lord, the God of Israel!</span><span class=\"poetry-line-1\">He has come to his people</span><span class=\"poetry-line-2\">and set them free.</span>",
+          "text": "<span class=\"poetry-line-1\">Praise the Lord, the God of Israel!</span><span class=\"poetry-line-1\">He has visited his people. He has set them free.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "\"Praise the Lord, the God of Israel!",
+              "text": "Praise the Lord, the God of Israel!",
               "level": 1
             },
             {
-              "text": "He has come to his people",
+              "text": "He has visited his people. He has set them free.",
               "level": 1
-            },
-            {
-              "text": "and set them free.",
-              "level": 2
             }
           ]
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">He has raised up a mighty savior for us</span><span class=\"poetry-line-2\">from the house of his servant David.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">He has raised up a mighty savior for us—</span><span class=\"poetry-line-2\">from the house of David, his servant.</span>",
+          "footnotes": [
+            {
+              "ref": "1:69",
+              "category": "text",
+              "keyword": "Mighty savior (κέρας σωτηρίας)",
+              "content": "Literally \"horn of salvation\"—an image of strength and power (Ps 18:2)."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has raised up a mighty savior for us",
+              "text": "He has raised up a mighty savior for us—",
               "level": 1
             },
             {
-              "text": "from the house of his servant David.",
+              "text": "from the house of David, his servant.",
               "level": 2
             }
           ]
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">This is what he promised long ago through his holy prophets:</span>",
+          "text": "<span class=\"poetry-line-1\">Just as he promised,</span><span class=\"poetry-line-2\">long ago,</span><span class=\"poetry-line-2\">through his prophets:</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "This is what he promised long ago through his holy prophets:",
+              "text": "Just as he promised,",
               "level": 1
+            },
+            {
+              "text": "long ago,",
+              "level": 2
+            },
+            {
+              "text": "through his prophets:",
+              "level": 2
             }
           ]
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">salvation from our enemies,</span><span class=\"poetry-line-2\">from the hand of all who hate us.</span>",
+          "text": "<span class=\"poetry-line-1\">Rescue from our enemies.</span><span class=\"poetry-line-2\">Rescue from everyone who hates us.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "salvation from our enemies,",
+              "text": "Rescue from our enemies.",
               "level": 1
             },
             {
-              "text": "from the hand of all who hate us.",
+              "text": "Rescue from everyone who hates us.",
               "level": 2
             }
           ]
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">He has shown mercy to our ancestors</span><span class=\"poetry-line-2\">and remembered his holy covenant —</span>",
+          "text": "<span class=\"poetry-line-1\">He has shown mercy to our ancestors.</span><span class=\"poetry-line-2\">He has remembered his holy covenant—</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "He has shown mercy to our ancestors",
+              "text": "He has shown mercy to our ancestors.",
               "level": 1
             },
             {
-              "text": "and remembered his holy covenant —",
+              "text": "He has remembered his holy covenant—",
               "level": 2
             }
           ]
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">the oath he swore to our father Abraham:</span>",
+          "text": "<span class=\"poetry-line-1\">the oath he swore to Abraham, our father:</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "the oath he swore to our father Abraham:",
+              "text": "the oath he swore to Abraham, our father:",
               "level": 1
             }
           ]
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-1\">to rescue us from the hand of our enemies</span><span class=\"poetry-line-2\">so we can serve him without fear,</span>",
+          "text": "<span class=\"poetry-line-1\">Rescued from our enemies,</span><span class=\"poetry-line-2\">we can serve him</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "to rescue us from the hand of our enemies",
+              "text": "Rescued from our enemies,",
               "level": 1
             },
             {
-              "text": "so we can serve him without fear,",
+              "text": "we can serve him",
               "level": 2
             }
           ]
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">in holiness and righteousness before him</span><span class=\"poetry-line-2\">all our days.</span>",
+          "text": "<span class=\"poetry-line-1\">without fear,</span><span class=\"poetry-line-2\">holy and righteous before him,</span><span class=\"poetry-line-2\">all our days.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "in holiness and righteousness before him",
+              "text": "without fear,",
               "level": 1
+            },
+            {
+              "text": "holy and righteous before him,",
+              "level": 2
             },
             {
               "text": "all our days.",
@@ -804,17 +1024,17 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">And you, child —</span><span class=\"poetry-line-2\">you will be called a prophet of the Most High.</span><span class=\"poetry-line-1\">You will go before the Lord</span><span class=\"poetry-line-2\">to prepare his way,</span>",
+          "text": "<span class=\"poetry-line-1\">And you, my child—</span><span class=\"poetry-line-2\">you will be called prophet of the Most High.</span><span class=\"poetry-line-1\">You will go before the Lord</span><span class=\"poetry-line-2\">and prepare his way.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "And you, child —",
+              "text": "And you, my child—",
               "level": 1
             },
             {
-              "text": "you will be called a prophet of the Most High.",
+              "text": "you will be called prophet of the Most High.",
               "level": 2
             },
             {
@@ -822,62 +1042,86 @@
               "level": 1
             },
             {
-              "text": "to prepare his way,",
+              "text": "and prepare his way.",
               "level": 2
             }
           ]
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">to give his people knowledge of salvation</span><span class=\"poetry-line-2\">through the forgiveness of their sins.</span>",
+          "text": "<span class=\"poetry-line-1\">You will show his people what salvation means:</span><span class=\"poetry-line-2\">forgiveness of sins.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "to give his people knowledge of salvation",
+              "text": "You will show his people what salvation means:",
               "level": 1
             },
             {
-              "text": "through the forgiveness of their sins.",
+              "text": "forgiveness of sins.",
               "level": 2
             }
           ]
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\">All this because of the deep mercy of our God,</span><span class=\"poetry-line-2\">by which the dawn from heaven will visit us —</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">All this happens</span> because our God is full of mercy.</span><span class=\"poetry-line-1\">The dawn from on high will visit us,</span>",
+          "footnotes": [
+            {
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "Full of mercy (σπλάγχνα ἐλέους)",
+              "content": "Literally \"bowels of mercy.\" The ancient world located deep emotions in the gut, not the heart. Meaning: deepest, viscerally felt compassion."
+            },
+            {
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "Dawn from on high (ἀνατολή)",
+              "content": "Can mean \"rising\" (sunrise) or \"branch\" (messianic title)."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "All this because of the deep mercy of our God,",
+              "text": "<span class=\"amplification\">All this happens</span> because our God is full of mercy.",
               "level": 1
             },
             {
-              "text": "by which the dawn from heaven will visit us —",
-              "level": 2
+              "text": "The dawn from on high will visit us,",
+              "level": 1
             }
           ]
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">to shine on those sitting in darkness,</span><span class=\"poetry-line-2\">in the shadow of death,</span><span class=\"poetry-line-1\">and to guide our feet into the way of peace.\"</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">to shine on all</span><span class=\"poetry-line-2\">who sit in darkness,</span><span class=\"poetry-line-2\">in the shadow of death—</span><span class=\"poetry-line-1\">and to guide our feet onto the path of peace.</span>",
+          "footnotes": [
+            {
+              "ref": "1:79",
+              "category": "kontext",
+              "keyword": "In darkness, shadow of death",
+              "content": "Echoes Isaiah 9:2—light for the oppressed people."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "to shine on those sitting in darkness,",
+              "text": "to shine on all",
               "level": 1
             },
             {
-              "text": "in the shadow of death,",
+              "text": "who sit in darkness,",
               "level": 2
             },
             {
-              "text": "and to guide our feet into the way of peace.\"",
+              "text": "in the shadow of death—",
+              "level": 2
+            },
+            {
+              "text": "and to guide our feet onto the path of peace.",
               "level": 1
             }
           ]
@@ -889,7 +1133,7 @@
       "verses": [
         {
           "number": "80",
-          "text": "The child grew and became strong in spirit. He lived in the wilderness until the day he appeared publicly to Israel.",
+          "text": "The child grew. He became strong in spirit. He lived in the wilderness<span class=\"amplification\">—far from everything</span>—until the day he appeared publicly before Israel.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,

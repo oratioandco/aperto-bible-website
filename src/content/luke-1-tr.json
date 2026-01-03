@@ -4,19 +4,26 @@
   "chapter": 1,
   "sections": [
     {
-      "heading": "Prolog",
+      "heading": "Bunu neden yazıyorum",
       "verses": [
         {
           "number": "1",
-          "text": "Aramızda gerçekleşen olayları birçok kişi yazmaya girişti.",
-          "footnotes": [],
+          "text": "Birçok kişi aramızda gerçekleşenleri yazmaya girişti.",
+          "footnotes": [
+            {
+              "ref": "1:1-4",
+              "category": "dl",
+              "keyword": "Luka'nın yöntemi",
+              "content": "Luka antik bir tarihçi gibi yazar: görgü tanıklarından bilgi toplar, titizlikle araştırır, düzenli bir şekilde sunar. Bu, Yunan tarih yazıcılığının standartlarına uygundur."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "2",
-          "text": "Bu olayları başından beri kendi gözleriyle görenler ve sonra sözün hizmetkârları olanlar bize aktardı.",
+          "text": "Olayları başından beri bizzat görmüş ve sonra bu haberi yaymaya adanmış kişilerden aldıklarına dayanıyorlardı.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -24,16 +31,30 @@
         },
         {
           "number": "3",
-          "text": "Sayın Teofilos, ben de her şeyi en başından dikkatle araştırdım. Şimdi sana bunları sırasıyla yazıyorum.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Ben de</span> her şeyi en başından itibaren dikkatle araştırdım. Gördüm ki senin için de <span class=\"amplification\">adım adım,</span> düzenli bir şekilde yazmalıyım, sayın Teofilos —",
+          "footnotes": [
+            {
+              "ref": "1:3",
+              "category": "dl",
+              "keyword": "Teofilos (Θεόφιλος)",
+              "content": "Yunanca \"Allah'ı seven\" anlamına gelir. κράτιστε (kratiste) unvanı Roma memurlarına ve yüksek mevkili kişilere hitap için kullanılırdı."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "4",
-          "text": "Böylece sana öğretilenlerin ne kadar güvenilir olduğunu kendin anlayacaksın.",
-          "footnotes": [],
+          "text": "böylece sana öğretilenlerin sağlam temellere dayandığını kendin göreceksin.",
+          "footnotes": [
+            {
+              "ref": "1:4",
+              "category": "dl",
+              "keyword": "Sağlam temel (ἀσφάλεια)",
+              "content": "Güvenilirlik, kesinlik. Luka bilinçli bir güven oluşturmak istiyor."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -41,19 +62,32 @@
       ]
     },
     {
-      "heading": "Yaşlı Bir Kâhin, Boş Bir Beşik",
+      "heading": "Yaşlı bir kâhin ve imkânsız bir vaat",
       "verses": [
         {
           "number": "5",
-          "text": "Hirodes'in dönemiydi. Zekeriya adında bir kâhin vardı, Aviya bölüğündendi. Karısı Elisabet de Harun soyundandı.",
-          "footnotes": [],
+          "text": "Yahudiye Kralı Hirodes'in zamanında yaşayan bir kâhin vardı; adı Zekeriya. Aviya bölüğündendi. Karısı Elisabet de Harun soyundandı<span class=\"amplification\">— yani ikisi de kâhin ailesindendi. En saygın ailelerden, Allah'ın özellikle bereketlediği insanlar, öyle sanırsınız</span>.",
+          "footnotes": [
+            {
+              "ref": "1:5",
+              "category": "kültür",
+              "keyword": "Hirodes",
+              "content": "Roma'nın atadığı \"kral\" — aslında Roma'nın kuklası. Yahudi halkı tarafından sevilmiyordu."
+            },
+            {
+              "ref": "1:5",
+              "category": "kültür",
+              "keyword": "Aviya bölüğü",
+              "content": "Kâhinler 24 gruba ayrılmıştı (1. Tarihler 24). Her grup yılda iki hafta tapınakta hizmet ederdi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "6",
-          "text": "İkisi de Allah'ın önünde doğru insanlardı. Rab'bin tüm buyruklarına kusursuzca uyuyorlardı.",
+          "text": "<span class=\"amplification\">Gerçekten de öyleydiler:</span> İkisi de Allah'ın gözünde doğru kişilerdi. Rab'bin tüm buyruk ve kurallarına kusursuzca uyarlardı. <span class=\"amplification\">Kimse onlara bir şey söyleyemezdi.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -61,15 +95,27 @@
         },
         {
           "number": "7",
-          "text": "Ama çocukları yoktu. Elisabet kısırdı. Ve ikisi de yaşlanmıştı.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "Ama çocukları yoktu<span class=\"amplification\">. Çocuksuzluk — o dönemde bu özel bir acı değildi. Utançtı. Kimsenin yüksek sesle sormadığı ama herkesin gözlerinde okunan bir soru vardı: Ne yaptılar da Allah onları böyle cezalandırıyor?</span> Elisabet kısırdı<span class=\"amplification\">— öyle deniyordu</span>. Üstelik ikisi de artık çok yaşlıydı.",
+          "footnotes": [
+            {
+              "ref": "1:7",
+              "category": "yaam",
+              "keyword": "Kısırlık ve utanç",
+              "content": "O kültürde çocuksuzluk, Allah'ın cezası olarak görülürdü. Elisabet ve Zekeriya'nın acısı sadece kişisel değil, toplumsal bir yüktü — sürekli bakışlar, fısıltılar altında yaşamak."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Tapınakta",
+      "verses": [
         {
           "number": "8",
-          "text": "Zekeriya'nın bölüğü hizmet sırasındayken o da Allah'ın önünde kâhinlik yapıyordu.",
+          "text": "Günlerden bir gün, Zekeriya'nın bölüğü tapınakta görev sırasındaydı. Zekeriya Allah'ın huzurunda hizmet ediyordu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -77,15 +123,28 @@
         },
         {
           "number": "9",
-          "text": "Kâhinlik geleneğine göre kura çekildi. Buhur sunma görevi<span class=\"amplification\">— bir kâhinin hayatında belki bir kez aldığı onur —</span> ona düştü. Rab'bin tapınağına girdi.",
-          "footnotes": [],
+          "text": "Kura ona düştü: Buhur sunacaktı. <span class=\"amplification\">Bu, bir kâhinin ömür boyu beklediği ayrıcalıktı. Bazıları hiç yaşayamadan öldü.</span>",
+          "footnotes": [
+            {
+              "ref": "1:9",
+              "category": "kültür",
+              "keyword": "Kura",
+              "content": "Kura çekmek ilahi yönlendirmenin bir aracı olarak görülürdü (Süleyman'ın Özdeyişleri 16:33). Zekeriya'yı tesadüf değil, Allah seçmişti."
+            },
+            {
+              "ref": "1:9",
+              "category": "kültür",
+              "keyword": "Buhur sunmak",
+              "content": "Bir kâhinin alabileceği en büyük onurdu. Binlerce kâhin arasında bir adam, bu görevi hiç alamadan ömrünü tamamlayabilirdi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "10",
-          "text": "Buhur saatinde halk dışarıda dua ediyordu.<p class=\"paragraph-break\"></p>",
+          "text": "Kutsal Mekân'a girdi. <span class=\"amplification\">Yalnız.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Önünde altın buhur sunağı. Yedi kollu şamdanın titrek ışığı duvarlarda dans ediyordu. Arkasında ağır perde — perdenin ardında Kutsalların Kutsalı, Allah'ın bizzat bulunduğuna inanılan yer.</span> Dışarıda<span class=\"amplification\">, sessizce,</span> halk dua ediyordu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -93,31 +152,50 @@
         },
         {
           "number": "11",
-          "text": "O sırada — sunağın sağ tarafında,<span class=\"amplification\">bereketin durduğu yerde</span> — Rab'bin bir meleği göründü.",
-          "footnotes": [],
+          "text": "Ve ansızın — buhur sunağının sağ tarafında<span class=\"amplification\">, bereketin geldiği yerde</span> — Rab'bin bir meleği<span class=\"amplification\">belirdi</span>.",
+          "footnotes": [
+            {
+              "ref": "1:11",
+              "category": "kültür",
+              "keyword": "Sağ taraf",
+              "content": "Antik dünyada sağ taraf onur ve bereket konumuydu (Mezmur 110:1). Melek daha konuşmadan, mesajın iyi haber olduğu belliydi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "12",
-          "text": "Zekeriya onu görünce sarsıldı. Korku sardı onu.<p class=\"paragraph-break\"></p>",
+          "text": "Zekeriya onu gördü. Ve korku onu sardı<span class=\"amplification\">, ağır bir yük gibi üzerine çöktü</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Vaat",
+      "verses": [
         {
           "number": "13",
-          "text": "Melek dedi: \"Korkma, Zekeriya. Duan kabul edildi. Karın Elisabet sana bir oğul doğuracak. Adını Yahya koyacaksın.",
-          "footnotes": [],
+          "text": "Melek dedi: \"Korkma, Zekeriya. Duan kabul edildi. <span class=\"amplification\">Elisabet,</span> karın, sana bir oğul doğuracak. Adını Yahya koy.",
+          "footnotes": [
+            {
+              "ref": "1:13",
+              "category": "köprü",
+              "keyword": "Yahya (Yuhanna/Yohannes)",
+              "content": "Yahya hem Kur'an'da (Meryem 19:7) hem İncil'de geçen bir peygamberdir. İbranice Yohanan, \"Rab lütfetti\" anlamına gelir."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "14",
-          "text": "Sevinç ve mutluluk kaynağı olacak senin için. Doğumuna birçok kişi sevinecek.",
+          "text": "Sana sevinç getirecek<span class=\"amplification\">, büyük sevinç</span>. Ve doğduğunda birçok kişi sevinecek.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -125,15 +203,22 @@
         },
         {
           "number": "15",
-          "text": "Rab'bin gözünde büyük olacak. Şarap ve içki içmeyecek. Daha annesinin karnındayken Kutsal Ruh'la dolacak.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Allah'ın gözünde</span> büyük olacak. Şarap ve içki hiç içmeyecek — Kutsal Ruh onu dolduracak, daha ana rahmindeyken.",
+          "footnotes": [
+            {
+              "ref": "1:15",
+              "category": "kültür",
+              "keyword": "Şarap ve içki",
+              "content": "Nazir adağına gönderme (Sayılar 6:3). Şimşon ve Samuel gibi, Yahya da doğuştan Allah'a adanmış olacaktı."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "16",
-          "text": "İsrailoğullarından birçoğunu Rab Allah'larına döndürecek.",
+          "text": "İsrailoğullarından birçoğunu Rableri Allah'a döndürecek.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -141,15 +226,27 @@
         },
         {
           "number": "17",
-          "text": "İlyas'ın ruhu ve gücüyle Rab'bin önünden gidecek. Babaların yüreklerini çocuklarına döndürecek, söz dinlemeyenleri doğruların bilgeliğine döndürecek. Rab için hazır bir halk oluşturacak.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "İlyas'ın ruhu ve gücüyle <span class=\"amplification\">Rab'bin</span> önünden gidecek. Babaların yüreklerini çocuklara, isyankârları doğru düşünceye çevirecek. Böylece Rab için hazır bir halk oluşturacak.\"",
+          "footnotes": [
+            {
+              "ref": "1:17",
+              "category": "kültür",
+              "keyword": "İlyas",
+              "content": "Malaki, Rab'bin büyük gününden önce İlyas'ın geri döneceğini bildirmişti (Malaki 4:5-6). Yahya bu rolü üstlenir."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Zekeriya'nın kuşkusu",
+      "verses": [
         {
           "number": "18",
-          "text": "Zekeriya sordu: \"Bunu nasıl bileceğim? Ben yaşlıyım, karım da yaşlı.\"<p class=\"paragraph-break\"></p>",
+          "text": "Zekeriya sordu: \"Bunu nereden bileceğim? Ben yaşlıyım. Karım da öyle.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -157,23 +254,35 @@
         },
         {
           "number": "19",
-          "text": "Melek cevap verdi: \"Ben Cebrail'im. Allah'ın huzurunda dururum. Bu müjdeyi vermek için gönderildim.",
-          "footnotes": [],
+          "text": "Melek yanıtladı: \"Ben Cebrail'im. Allah'ın huzurunda dururum. O beni gönderdi — sana bu müjdeyi iletmem için.",
+          "footnotes": [
+            {
+              "ref": "1:19",
+              "category": "köprü",
+              "keyword": "Cebrail (Γαβριήλ)",
+              "content": "İbranice \"Allah'ın gücü\" demektir. Allah'ın huzurunda duran başmeleklerden biridir. Aynı melek Daniel'e de görünmüştü (Daniel 8:16; 9:21). Müslümanlar Cebrail'i Kur'an'ı Hz. Muhammed'e getiren melek olarak tanırlar — İncil'de de aynı melek kritik anlarda Allah'ın mesajını getirir."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "20",
-          "text": "Ama dinle: Bunlar oluncaya kadar konuşamayacaksın, dilsiz kalacaksın. Çünkü zamanı gelince gerçekleşecek sözlerime inanmadın.\"<p class=\"paragraph-break\"></p>",
+          "text": "Ama sözlerime inanmadığın için — ki zamanı gelince gerçekleşecek sözlerdir bunlar — dilsiz kalacaksın. Her şey olana dek konuşamayacaksın.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Sessizlik başlıyor",
+      "verses": [
         {
           "number": "21",
-          "text": "Halk Zekeriya'yı bekliyordu. Tapınakta bu kadar uzun kalmasına şaşırıyorlardı.",
+          "text": "Dışarıda halk Zekeriya'yı bekliyordu. <span class=\"amplification\">Bekledikçe beklediler. Normalde kâhinler çabucak çıkardı.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -181,7 +290,7 @@
         },
         {
           "number": "22",
-          "text": "Dışarı çıktığında konuşamadı. Tapınakta bir görüm gördüğünü anladılar. Onlara işaretler yapıyor, dilsiz kalıyordu.<p class=\"paragraph-break\"></p>",
+          "text": "Sonunda çıktığında konuşamıyordu. Elleriyle işaretler yapıyordu. O zaman anladılar: Kutsal Mekân'da bir görüm görmüştü<span class=\"amplification\">— Allah'ın bulunduğu yerde bir şeyler olmuştu</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -189,7 +298,7 @@
         },
         {
           "number": "23",
-          "text": "Görev günleri dolunca evine döndü.",
+          "text": "Görev süresi dolunca evine döndü. <span class=\"amplification\">Sessiz. Halkın beklediği bereketi söyleyemeden.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -197,7 +306,7 @@
         },
         {
           "number": "24",
-          "text": "Bir süre sonra karısı Elisabet hamile kaldı. Beş ay boyunca evden çıkmadı.",
+          "text": "Kısa süre sonra karısı Elisabet hamile kaldı. Beş ay boyunca kendini gizli tuttu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -205,7 +314,7 @@
         },
         {
           "number": "25",
-          "text": "\"Rab bunu benim için yaptı\" dedi. \"İnsanlar arasındaki utancımı kaldırdı.\"",
+          "text": "\"Rab bunu benim için yaptı,\" dedi. \"Bana baktı. Utancımı üzerimden aldı<span class=\"amplification\">— çocuksuzların utancını. Herkesin gözünde Allah tarafından cezalandırılmış sayılanların utancını</span>.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -214,35 +323,56 @@
       ]
     },
     {
-      "heading": "Meryem Evet Diyor",
+      "heading": "Meryem evet diyor",
       "verses": [
         {
           "number": "26",
-          "text": "Elisabet'in hamileliğinin altıncı ayında Allah, Cebrail'i Celile'de Nasıra denen bir köye gönderdi<span class=\"amplification\">— haritaların çoğunda bile görünmeyen bir yer</span>.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Altı ay sonra</span> Allah, Cebrail meleğini <span class=\"amplification\">bir kez daha gönderdi. Bu sefer tapınağa değil. Kudüs'e değil.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Celile'ye.</span> Nasıra denen bir köye<span class=\"amplification\">. Kimsenin duymadığı bir yer</span>.<p class=\"paragraph-break\"></p><span class=\"amplification\">Tapınak yok. Buhur yok. Dışarıda dua eden kalabalık yok. Sadece bir kız.</span>",
+          "footnotes": [
+            {
+              "ref": "1:26",
+              "category": "kültür",
+              "keyword": "Nasıra",
+              "content": "Celile'de 200-400 kişilik küçük bir köy. Hiçbir önemi yoktu. Allah'ın kendi Oğlu'nu ilan etmek için seçtiği yer işte burasıydı."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "27",
-          "text": "Orada Meryem adında genç bir kız yaşıyordu. Davut soyundan Yusuf'la nişanlıydı.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Adı Meryem.</span> Davut soyundan Yusuf adında bir adamla nişanlıydı. <span class=\"amplification\">Nişanlı — yani hukuken ona aitti. Ama hâlâ babasının evindeydi. Düğün henüz yapılmamıştı.</span>",
+          "footnotes": [
+            {
+              "ref": "1:27",
+              "category": "kültür",
+              "keyword": "Nişanlılık",
+              "content": "Yahudi geleneğinde nişanlılık hukuken bağlayıcıydı — bozmak için resmi boşanma gerekiyordu. Meryem hâlâ babasının evinde yaşıyordu; düğün henüz olmamıştı."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "28",
-          "text": "Cebrail içeri girdi. \"Selam sana, Meryem\" dedi. \"Allah seni seçti. Allah seninle.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "Melek ona geldi ve dedi: \"Selam sana, ey lütfa ermiş olan! Rab seninle.\"",
+          "footnotes": [
+            {
+              "ref": "1:28",
+              "category": "dl",
+              "keyword": "Lütfa ermiş (κεχαριτωμένη)",
+              "content": "Yunanca'da tamamlanmış edilgen bir sıfat-fiil. \"Üzerine lütuf dökülmüş olan\" anlamında. Allah'ın özel lütfuyla donatılmış kişi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "29",
-          "text": "Bu sözler Meryem'i sarstı. Bu nasıl bir selamlama, diye düşündü.<p class=\"paragraph-break\"></p>",
+          "text": "Bu sözler onu derinden sarstı. Bu selamın ne anlama geldiğini düşünüp durdu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -250,7 +380,7 @@
         },
         {
           "number": "30",
-          "text": "Melek dedi: \"Korkma, Meryem. Allah'ın lütfunu buldun.",
+          "text": "Melek dedi: \"Korkma, Meryem. <span class=\"amplification\">Allah seni seçti.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -258,23 +388,43 @@
         },
         {
           "number": "31",
-          "text": "Bak, hamile kalacak ve bir oğul doğuracaksın. Adını İsa koyacaksın.",
-          "footnotes": [],
+          "text": "Hamile kalacak ve bir oğul doğuracaksın. Adını İsa koyacaksın.",
+          "footnotes": [
+            {
+              "ref": "1:31",
+              "category": "köprü",
+              "keyword": "İsa",
+              "content": "İsa, hem Kur'an'da hem İncil'de \"Mesih\" unvanıyla anılır. İbranice Yeşua (kurtuluş) adından gelir. Kur'an'da İsa'nın bakire Meryem'den doğuşu anlatılır (Meryem 19:16-35); İncil aynı olayı daha ayrıntılı verir."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "32",
-          "text": "O büyük olacak. Yüceler Yücesi'nin Oğlu diye çağrılacak. Rab Allah ona atası Davut'un tahtını verecek.",
-          "footnotes": [],
+          "text": "O büyük olacak. Yüceler Yücesi'nin Oğlu denecek. Rab Allah ona atası Davut'un tahtını verecek.",
+          "footnotes": [
+            {
+              "ref": "1:32",
+              "category": "fark",
+              "keyword": "Allah'ın Oğlu",
+              "content": "Bu ifade Hristiyan inancında merkezi bir yer tutar. Fiziksel anlamda değil — İsa'nın Allah ile benzersiz ve ebedi ilişkisini tanımlar. Allah'ın kendisini insanlığa en tam şekilde gösterdiği kişi olarak."
+            },
+            {
+              "ref": "1:32-33",
+              "category": "kültür",
+              "keyword": "Davut'un tahtı",
+              "content": "Davut'a verilen vaat (2 Samuel 7:12-16) Yahudi Mesih beklentisini şekillendirmişti. Allah, Davut'a ebedi bir taht vaat etmişti — ama krallık çoktan yıkılmıştı."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "33",
-          "text": "Yakup soyu üzerinde sonsuza dek krallık yapacak. Krallığının sonu olmayacak.\"<p class=\"paragraph-break\"></p>",
+          "text": "Yakup'un soyu üzerinde sonsuza dek hükmedecek. Krallığının sonu olmayacak.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -282,7 +432,7 @@
         },
         {
           "number": "34",
-          "text": "Meryem sordu: \"Bu nasıl olabilir? Bir erkekle birlikte olmadım.\"<p class=\"paragraph-break\"></p>",
+          "text": "Meryem sordu: \"Bu nasıl olabilir? Ben bir erkekle birlikte olmadım.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -290,15 +440,22 @@
         },
         {
           "number": "35",
-          "text": "Melek cevap verdi: \"Kutsal Ruh senin üzerine gelecek. Yüceler Yücesi'nin gücü seni gölgeleyecek. Bu yüzden doğacak olan kutsal Çocuk, Allah'ın Oğlu diye çağrılacak.",
-          "footnotes": [],
+          "text": "Melek yanıtladı: \"Kutsal Ruh senin üzerine gelecek. Yüceler Yücesi'nin gücü seni gölgesi altına alacak. Bu yüzden doğacak olan kutsal çocuğa Allah'ın Oğlu denecek.",
+          "footnotes": [
+            {
+              "ref": "1:35",
+              "category": "dl",
+              "keyword": "Gölgesi altına almak (ἐπισκιάσει)",
+              "content": "Bu sözcük, Allah'ın bulutunun Buluşma Çadırı'nı kapladığı Mısır'dan Çıkış 40:35'i hatırlatır. Meryem, Allah'ın varlığının yeni mekânı oluyor."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "36",
-          "text": "Bak, akraban Elisabet de yaşlılığında hamile. Kısır denilen kadın altıncı ayında.",
+          "text": "<span class=\"amplification\">Üstelik —</span> akraban Elisabet de hamile, o kısır denen kadın. Altıncı ayında.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -306,15 +463,22 @@
         },
         {
           "number": "37",
-          "text": "Çünkü Allah için imkânsız olan hiçbir şey yok.\"<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "Çünkü Allah için imkânsız hiçbir şey yoktur.\"<p class=\"paragraph-break\"></p>",
+          "footnotes": [
+            {
+              "ref": "1:37",
+              "category": "kültür",
+              "keyword": "İmkânsız yoktur",
+              "content": "Yaratılış 18:14'ün yankısı — Allah'ın yaşlı Sara'ya oğul vaat ettiği yer."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "38",
-          "text": "Meryem dedi: \"Ben Allah'ın hizmetçisiyim. Dediğin gibi olsun.\" Ve melek yanından ayrıldı.",
+          "text": "Meryem bir an durdu<span class=\"amplification\">. Önünde iki yol vardı. Kabul etse — nişanlıyken hamile. Ailesinin onuru, kendi geleceği, her şey tehlikede. Ya da reddedebilirdi.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Ama</span> dedi ki: \"Ben Rab'bin kuluyum. Dediğin gibi olsun.\"<p class=\"paragraph-break\"></p>Sonra melek <span class=\"amplification\">onun yanından</span> ayrıldı.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -323,11 +487,11 @@
       ]
     },
     {
-      "heading": "İki Kadın, İki Mucize",
+      "heading": "İki kadın, iki mucize",
       "verses": [
         {
           "number": "39",
-          "text": "O günlerde Meryem aceleyle yola çıktı. Yahuda'nın dağlık bölgesindeki bir kente gitti.",
+          "text": "Meryem yola çıktı. <span class=\"amplification\">Hemen.</span> Aceleyle <span class=\"amplification\">gitti — günlerce</span> dağlık bölgeden geçerek<span class=\"amplification\">, tek başına,</span> Yahuda'da bir kente.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -335,7 +499,7 @@
         },
         {
           "number": "40",
-          "text": "Zekeriya'nın evine girdi ve Elisabet'i selamladı.<p class=\"paragraph-break\"></p>",
+          "text": "Zekeriya'nın evine girdi ve Elisabet'e selam verdi.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -343,7 +507,7 @@
         },
         {
           "number": "41",
-          "text": "Elisabet Meryem'in selamını duyunca karnındaki bebek sıçradı. Elisabet Kutsal Ruh'la doldu",
+          "text": "Elisabet Meryem'in selamını duyunca, rahmindeki bebek hopladı. Elisabet Kutsal Ruh'la doldu<span class=\"amplification\">— ve ansızın biliyordu, her şeyi biliyordu</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -351,232 +515,226 @@
         },
         {
           "number": "42",
-          "text": "ve yüksek sesle haykırdı:<span class=\"poetry-line-1\">\"Kadınlar arasında kutsanmış olan sensin!</span><span class=\"poetry-line-1\">Rahmindeki çocuk da kutsanmış!</span>",
+          "text": "Yüksek sesle haykırdı<span class=\"amplification\">— bir peygamber gibi</span>:<p class=\"paragraph-break\"></p>\"Kadınlar arasında kutsanmış olan sensin! Ve rahmindeki <span class=\"amplification\">çocuk</span> kutsanmıştır!",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
-          "lines": [
-            {
-              "text": "\"Kadınlar arasında kutsanmış olan sensin!",
-              "level": 1
-            },
-            {
-              "text": "Rahmindeki çocuk da kutsanmış!",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "43",
-          "text": "<span class=\"poetry-line-1\">Rabbimin annesi bana gelsin diye bu onur bana nasıl verildi?</span>",
+          "text": "<span class=\"amplification\">Ama nasıl olur da</span> Rabbimin annesi bana gelir? <span class=\"amplification\">Ben — bana mı?</span>",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Rabbimin annesi bana gelsin diye bu onur bana nasıl verildi?",
-              "level": 1
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "44",
-          "text": "<span class=\"poetry-line-1\">Bak, selamın kulaklarıma ulaştığı an karnımdaki bebek sevinçle sıçradı.</span>",
+          "text": "Selamın kulağıma ulaştığı an, bebek karnımda sevinçle hopladı!",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Bak, selamın kulaklarıma ulaştığı an karnımdaki bebek sevinçle sıçradı.",
-              "level": 1
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "45",
-          "text": "<span class=\"poetry-line-1\">İman eden ne mutlu! Çünkü Rab'bin ona söyledikleri gerçekleşecek.\"</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "<span class=\"amplification\">İnandın. Bu yüzden</span> ne mutlu sana! Rab'bin sana söyledikleri gerçekleşecek.\"",
+          "footnotes": [
             {
-              "text": "İman eden ne mutlu! Çünkü Rab'bin ona söyledikleri gerçekleşecek.\"",
-              "level": 1
+              "ref": "1:45",
+              "category": "yaam",
+              "keyword": "İnandın",
+              "content": "Elisabet, Meryem'i imanı için kutluyor — kuşku duyan Zekeriya'nın aksine. İman her zaman kolay değildir; Meryem'in \"evet\" demesi büyük bir risk içeriyordu."
             }
-          ]
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         }
       ]
     },
     {
-      "heading": "Meryem'in İlahisi",
+      "heading": "Allah'ın yaptıkları — Magnificat",
       "verses": [
         {
           "number": "46",
-          "text": "Meryem dedi:<span class=\"poetry-line-1\">\"İçimdeki her şey Allah'ı yüceltiyor!</span>",
-          "footnotes": [],
-          "isPoetry": false,
+          "text": "Meryem dedi:<span class=\"poetry-line-1\">Yüreğimin derinlikleri Allah'ı yüceltiyor!</span>",
+          "footnotes": [
+            {
+              "ref": "1:46-55",
+              "category": "köprü",
+              "keyword": "Magnificat",
+              "content": "Meryem'in ilahisi, Hanna'nın şükran şarkısını (1 Samuel 2:1-10) model alır. İki kadın da Allah'ın düzeni tersine çevirişini över. Bu şarkı Hristiyan ibadetinde yüzyıllardır söylenir. Meryem Kur'an'da da özel bir yere sahiptir — 19. sure onun adını taşır."
+            }
+          ],
+          "isPoetry": true,
           "poetryLevel": 0,
           "lines": [
             {
-              "text": "\"İçimdeki her şey Allah'ı yüceltiyor!",
+              "text": "Yüreğimin derinlikleri Allah'ı yüceltiyor!",
               "level": 1
             }
           ]
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Ruhum sevinçle doluyor,</span><span class=\"poetry-line-1\">Kurtarıcım Allah yüzünden.</span>",
+          "text": "<span class=\"poetry-line-1\">Ruhum Kurtarıcım'da coşuyor.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Ruhum sevinçle doluyor,",
-              "level": 1
-            },
-            {
-              "text": "Kurtarıcım Allah yüzünden.",
+              "text": "Ruhum Kurtarıcım'da coşuyor.",
               "level": 1
             }
           ]
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Çünkü hizmetçisinin düşkünlüğüne baktı.</span><span class=\"poetry-line-1\">Bundan böyle bütün kuşaklar</span><span class=\"poetry-line-1\">beni mutlu sayacak.</span>",
+          "text": "<span class=\"poetry-line-1\">Çünkü O beni gördü.</span><span class=\"poetry-line-2\">Beni, önemsizi.</span><span class=\"poetry-line-2\">Sıradan olanı.</span><span class=\"poetry-line-1\">Bundan böyle bütün nesiller bana \"kutsanmış\" diyecek.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Çünkü hizmetçisinin düşkünlüğüne baktı.",
+              "text": "Çünkü O beni gördü.",
               "level": 1
             },
             {
-              "text": "Bundan böyle bütün kuşaklar",
-              "level": 1
+              "text": "Beni, önemsizi.",
+              "level": 2
             },
             {
-              "text": "beni mutlu sayacak.",
+              "text": "Sıradan olanı.",
+              "level": 2
+            },
+            {
+              "text": "Bundan böyle bütün nesiller bana \"kutsanmış\" diyecek.",
               "level": 1
             }
           ]
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">Güçlü Olan büyük işler yaptı benim için —</span><span class=\"poetry-line-1\">Adı kutsaldır!</span>",
+          "text": "<span class=\"poetry-line-1\">Çünkü Kudretli Olan benim için büyük işler yaptı.</span><span class=\"poetry-line-2\">O'nun adı kutsaldır.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Güçlü Olan büyük işler yaptı benim için —",
+              "text": "Çünkü Kudretli Olan benim için büyük işler yaptı.",
               "level": 1
             },
             {
-              "text": "Adı kutsaldır!",
-              "level": 1
+              "text": "O'nun adı kutsaldır.",
+              "level": 2
             }
           ]
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Merhameti kuşaktan kuşağa,</span><span class=\"poetry-line-1\">ondan korkanların üzerinde.</span>",
+          "text": "<span class=\"poetry-line-1\">Merhameti kuşaktan kuşağa uzanır —</span><span class=\"poetry-line-2\">O'ndan korkanlar için.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Merhameti kuşaktan kuşağa,",
+              "text": "Merhameti kuşaktan kuşağa uzanır —",
               "level": 1
             },
             {
-              "text": "ondan korkanların üzerinde.",
-              "level": 1
+              "text": "O'ndan korkanlar için.",
+              "level": 2
             }
           ]
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Gücünü koluyla gösterdi,</span><span class=\"poetry-line-1\">gururluları dağıttı — kalplerinin planlarıyla birlikte.</span>",
+          "text": "<span class=\"poetry-line-1\">Gücünü gösterdi koluyla.</span><span class=\"poetry-line-1\">Kibirliler mi? Darmadağın etti<span class=\"amplification\">, bütün büyük planlarıyla birlikte</span>.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Gücünü koluyla gösterdi,",
+              "text": "Gücünü gösterdi koluyla.",
               "level": 1
             },
             {
-              "text": "gururluları dağıttı — kalplerinin planlarıyla birlikte.",
+              "text": "Kibirliler mi? Darmadağın etti<span class=\"amplification\">, bütün büyük planlarıyla birlikte</span>.",
               "level": 1
             }
           ]
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Güçlüleri tahtlarından indirdi,</span><span class=\"poetry-line-1\">düşkünleri yükseltti.</span>",
+          "text": "<span class=\"poetry-line-1\">Hükümdarlar mı? Tahtlarından indirdi.</span><span class=\"poetry-line-1\">Alçakgönüllüler mi? Yükseltti.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Güçlüleri tahtlarından indirdi,",
+              "text": "Hükümdarlar mı? Tahtlarından indirdi.",
               "level": 1
             },
             {
-              "text": "düşkünleri yükseltti.",
+              "text": "Alçakgönüllüler mi? Yükseltti.",
               "level": 1
             }
           ]
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">Açları iyiliklerle doyurdu,</span><span class=\"poetry-line-1\">zenginleri elleri boş gönderdi.</span>",
+          "text": "<span class=\"poetry-line-1\">Açları mı? İyiliklerle doyurdu.</span><span class=\"poetry-line-1\">Zenginler mi? Elleri boş gönderdi.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Açları iyiliklerle doyurdu,",
+              "text": "Açları mı? İyiliklerle doyurdu.",
               "level": 1
             },
             {
-              "text": "zenginleri elleri boş gönderdi.",
+              "text": "Zenginler mi? Elleri boş gönderdi.",
               "level": 1
             }
           ]
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Kulu İsrail'e yardım etti,</span><span class=\"poetry-line-1\">merhametini anarak —</span>",
+          "text": "<span class=\"poetry-line-1\">Kulu İsrail'e yardım etti.</span><span class=\"poetry-line-2\">Merhametini hatırladı —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Kulu İsrail'e yardım etti,",
+              "text": "Kulu İsrail'e yardım etti.",
               "level": 1
             },
             {
-              "text": "merhametini anarak —",
-              "level": 1
+              "text": "Merhametini hatırladı —",
+              "level": 2
             }
           ]
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">İbrahim'e ve soyuna sonsuza dek</span><span class=\"poetry-line-1\">söz verdiği gibi, atalarımıza.\"</span><p class=\"paragraph-break\"></p>",
+          "text": "<span class=\"poetry-line-1\">atalarımıza vaat ettiği gibi:</span><span class=\"poetry-line-2\">İbrahim'e ve onun soyuna.</span><span class=\"poetry-line-2\">Sonsuza dek.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "İbrahim'e ve soyuna sonsuza dek",
+              "text": "atalarımıza vaat ettiği gibi:",
               "level": 1
             },
             {
-              "text": "söz verdiği gibi, atalarımıza.\"",
-              "level": 1
+              "text": "İbrahim'e ve onun soyuna.",
+              "level": 2
+            },
+            {
+              "text": "Sonsuza dek.",
+              "level": 2
             }
           ]
         },
@@ -591,11 +749,11 @@
       ]
     },
     {
-      "heading": "Yahya'nın Doğumu",
+      "heading": "Adı Yahya",
       "verses": [
         {
           "number": "57",
-          "text": "Elisabet'in doğum zamanı geldi ve bir oğul doğurdu.",
+          "text": "Elisabet'in zamanı geldi. Bir oğlan doğurdu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -603,7 +761,7 @@
         },
         {
           "number": "58",
-          "text": "Komşuları ve akrabaları Rab'bin ona büyük merhamet gösterdiğini duydular. Onunla birlikte sevindiler.<p class=\"paragraph-break\"></p>",
+          "text": "Komşuları ve akrabaları <span class=\"amplification\">olanları</span> duydu: Rab ona büyük merhamet göstermişti. Onunla birlikte sevindiler.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -611,15 +769,22 @@
         },
         {
           "number": "59",
-          "text": "Sekizinci gün çocuğu sünnet etmeye geldiler. Ona babası Zekeriya'nın adını vermek istediler.",
-          "footnotes": [],
+          "text": "Sekizinci gün sünnet için geldiler. <span class=\"amplification\">Sünnet — o kadim ahit işareti, çocuğa isim verildiği an.</span> Çocuğa babası Zekeriya'nın adını vermek istediler.",
+          "footnotes": [
+            {
+              "ref": "1:59",
+              "category": "köprü",
+              "keyword": "Sünnet",
+              "content": "İbrahim'den beri süregelen ahit işareti. Yahudi geleneğinde sekizinci günde yapılır ve çocuğa isim verilirdi. Sünnet Müslüman Türkler için de tanıdık bir gelenektir."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "60",
-          "text": "Ama annesi karşı çıktı: \"Hayır! Adı Yahya olacak.\"<p class=\"paragraph-break\"></p>",
+          "text": "Ama annesi dedi: \"Hayır. Adı Yahya olacak.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -627,7 +792,7 @@
         },
         {
           "number": "61",
-          "text": "\"Akrabalarından bu adı taşıyan kimse yok ki!\" dediler.<p class=\"paragraph-break\"></p>",
+          "text": "İtiraz ettiler: \"Ailenizde bu isimde kimse yok!\" <span class=\"amplification\">Yabancı bir isim mi? Bu yapılmazdı.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -635,7 +800,7 @@
         },
         {
           "number": "62",
-          "text": "Babasına işaretlerle sordular, çocuğa ne ad vermek istediğini.",
+          "text": "Babaya işaretlerle sordular<span class=\"amplification\">— galiba sağır da olduğunu düşündüler</span>. Çocuğun adı ne olmalı?",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -643,7 +808,7 @@
         },
         {
           "number": "63",
-          "text": "Zekeriya bir yazı tahtası istedi ve şunu yazdı: \"Adı Yahya'dır.\"<p class=\"paragraph-break\"></p>Herkes şaşırdı.<p class=\"paragraph-break\"></p>",
+          "text": "Zekeriya bir yazı tahtası istedi ve yazdı: \"Adı Yahya.\"<p class=\"paragraph-break\"></p>Herkes şaştı.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -651,7 +816,7 @@
         },
         {
           "number": "64",
-          "text": "O anda ağzı açıldı, dili çözüldü. Konuşmaya ve Allah'ı övmeye başladı.",
+          "text": "Ve o anda — ağzı açıldı, dili çözüldü. Konuşmaya başladı, Allah'a hamdetti.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -659,7 +824,7 @@
         },
         {
           "number": "65",
-          "text": "Çevredeki herkesin üzerine korku çöktü. Yahuda'nın dağlık bölgesinin her yerinde bu olaylar konuşuldu.",
+          "text": "Bütün komşuları bir ürperti sardı. Yahuda'nın dağlık bölgesinin her yerinde bunlar konuşuldu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -667,8 +832,15 @@
         },
         {
           "number": "66",
-          "text": "Duyan herkes bunu yüreğine koydu: \"Bu çocuk ne olacak acaba?\" Çünkü Rab'bin eli onun üzerindeydi.",
-          "footnotes": [],
+          "text": "Duyan herkes yüreğinde sakladı<span class=\"amplification\">:</span> \"Bu çocuk ne olacak?\" Çünkü Rab'bin eli açıkça onun üzerindeydi.",
+          "footnotes": [
+            {
+              "ref": "1:66",
+              "category": "dl",
+              "keyword": "Rab'bin eli",
+              "content": "İbranice bir deyim — Allah'ın gücü ve lütfu anlamında. Yahya'nın özel bir kaderi olduğu baştan belliydi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -676,224 +848,262 @@
       ]
     },
     {
-      "heading": "Zekeriya'nın Peygamberliği",
+      "heading": "Zekeriya'nın görümü — Benedictus",
       "verses": [
         {
           "number": "67",
-          "text": "Babası Zekeriya Kutsal Ruh'la doldu ve peygamberlik etti:",
-          "footnotes": [],
+          "text": "Babası Zekeriya Kutsal Ruh'la doldu. Peygamberlik etti:",
+          "footnotes": [
+            {
+              "ref": "1:67-79",
+              "category": "kültür",
+              "keyword": "Benedictus",
+              "content": "Zekeriya'nın ilahisi iki bölümden oluşur: Allah'ın İsrail'i kurtarışı için övgü (68-75) ve Yahya'nın görevi hakkında peygamberlik (76-79)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">\"İsrail'in Allah'ı Rab'be övgüler olsun!</span><span class=\"poetry-line-1\">Çünkü halkını ziyaret etti ve kurtardı.</span>",
+          "text": "<span class=\"poetry-line-1\">İsrail'in Rabbi Allah'a övgüler olsun!</span><span class=\"poetry-line-1\">Halkını ziyaret etti. Onları özgür kıldı.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "\"İsrail'in Allah'ı Rab'be övgüler olsun!",
+              "text": "İsrail'in Rabbi Allah'a övgüler olsun!",
               "level": 1
             },
             {
-              "text": "Çünkü halkını ziyaret etti ve kurtardı.",
+              "text": "Halkını ziyaret etti. Onları özgür kıldı.",
               "level": 1
             }
           ]
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Kulu Davut'un soyundan</span><span class=\"poetry-line-1\">bizim için güçlü bir Kurtarıcı çıkardı —</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Bize güçlü bir Kurtarıcı çıkardı —</span><span class=\"poetry-line-2\">kulu Davut'un soyundan.</span>",
+          "footnotes": [
+            {
+              "ref": "1:69",
+              "category": "dl",
+              "keyword": "Güçlü Kurtarıcı (κέρας σωτηρίας)",
+              "content": "Sözcüğü sözcüğüne \"kurtuluş boynuzu\" — güç ve kudret sembolü (Mezmur 18:2)."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Kulu Davut'un soyundan",
+              "text": "Bize güçlü bir Kurtarıcı çıkardı —",
               "level": 1
             },
             {
-              "text": "bizim için güçlü bir Kurtarıcı çıkardı —",
-              "level": 1
+              "text": "kulu Davut'un soyundan.",
+              "level": 2
             }
           ]
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Eski çağlardan beri</span><span class=\"poetry-line-1\">kutsal peygamberlerinin ağzından söylediği gibi:</span>",
+          "text": "<span class=\"poetry-line-1\">Eskiden beri vaat ettiği gibi,</span><span class=\"poetry-line-2\">kutsal peygamberleri aracılığıyla:</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Eski çağlardan beri",
+              "text": "Eskiden beri vaat ettiği gibi,",
               "level": 1
             },
             {
-              "text": "kutsal peygamberlerinin ağzından söylediği gibi:",
-              "level": 1
+              "text": "kutsal peygamberleri aracılığıyla:",
+              "level": 2
             }
           ]
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">Düşmanlarımızdan kurtuluş,</span><span class=\"poetry-line-1\">bizden nefret edenlerin elinden.</span>",
+          "text": "<span class=\"poetry-line-1\">Düşmanlarımızdan kurtuluş.</span><span class=\"poetry-line-2\">Bizden nefret edenlerden kurtuluş.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Düşmanlarımızdan kurtuluş,",
+              "text": "Düşmanlarımızdan kurtuluş.",
               "level": 1
             },
             {
-              "text": "bizden nefret edenlerin elinden.",
-              "level": 1
+              "text": "Bizden nefret edenlerden kurtuluş.",
+              "level": 2
             }
           ]
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">Atalarımıza merhamet göstermek</span><span class=\"poetry-line-1\">ve kutsal antlaşmasını anmak için —</span>",
+          "text": "<span class=\"poetry-line-1\">Atalarımıza merhamet gösterdi.</span><span class=\"poetry-line-2\">Kutsal antlaşmasını hatırladı —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Atalarımıza merhamet göstermek",
+              "text": "Atalarımıza merhamet gösterdi.",
               "level": 1
             },
             {
-              "text": "ve kutsal antlaşmasını anmak için —",
-              "level": 1
+              "text": "Kutsal antlaşmasını hatırladı —",
+              "level": 2
             }
           ]
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">atamız İbrahim'e içtiği ant budur:</span>",
+          "text": "<span class=\"poetry-line-1\">atamız İbrahim'e ettiği yemini:</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "atamız İbrahim'e içtiği ant budur:",
+              "text": "atamız İbrahim'e ettiği yemini:",
               "level": 1
             }
           ]
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-1\">Düşmanlarımızın elinden kurtarılarak</span>",
+          "text": "<span class=\"poetry-line-1\">Düşmanlarımızın elinden kurtulup</span><span class=\"poetry-line-2\">O'na hizmet edebilmemiz için,</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Düşmanlarımızın elinden kurtarılarak",
+              "text": "Düşmanlarımızın elinden kurtulup",
               "level": 1
+            },
+            {
+              "text": "O'na hizmet edebilmemiz için,",
+              "level": 2
             }
           ]
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">ömrümüz boyunca onun önünde</span><span class=\"poetry-line-1\">kutsallık ve doğrulukla</span><span class=\"poetry-line-1\">korkusuzca hizmet edelim.</span>",
+          "text": "<span class=\"poetry-line-1\">korkusuzca,</span><span class=\"poetry-line-2\">kutsallık ve doğruluk içinde,</span><span class=\"poetry-line-2\">ömrümüz boyunca.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "ömrümüz boyunca onun önünde",
+              "text": "korkusuzca,",
               "level": 1
             },
             {
-              "text": "kutsallık ve doğrulukla",
-              "level": 1
+              "text": "kutsallık ve doğruluk içinde,",
+              "level": 2
             },
             {
-              "text": "korkusuzca hizmet edelim.",
-              "level": 1
+              "text": "ömrümüz boyunca.",
+              "level": 2
             }
           ]
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Sen de, çocuğum,</span><span class=\"poetry-line-1\">Yüceler Yücesi'nin peygamberi diye çağrılacaksın.</span><span class=\"poetry-line-1\">Yollarını hazırlamak için</span><span class=\"poetry-line-1\">Rab'bin önünden gideceksin —</span>",
+          "text": "<span class=\"poetry-line-1\">Ve sen, yavrum —</span><span class=\"poetry-line-2\">Yüceler Yücesi'nin peygamberi diye anılacaksın.</span><span class=\"poetry-line-1\">Rab'bin önünden gidecek,</span><span class=\"poetry-line-2\">yolunu hazırlayacaksın.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Sen de, çocuğum,",
+              "text": "Ve sen, yavrum —",
               "level": 1
             },
             {
-              "text": "Yüceler Yücesi'nin peygamberi diye çağrılacaksın.",
+              "text": "Yüceler Yücesi'nin peygamberi diye anılacaksın.",
+              "level": 2
+            },
+            {
+              "text": "Rab'bin önünden gidecek,",
               "level": 1
             },
             {
-              "text": "Yollarını hazırlamak için",
-              "level": 1
-            },
-            {
-              "text": "Rab'bin önünden gideceksin —",
-              "level": 1
+              "text": "yolunu hazırlayacaksın.",
+              "level": 2
             }
           ]
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">günahlarının bağışlanmasıyla</span><span class=\"poetry-line-1\">halkına kurtuluş bilgisini vereceksin.</span>",
+          "text": "<span class=\"poetry-line-1\">Halkına kurtuluşun ne demek olduğunu göstereceksin:</span><span class=\"poetry-line-2\">Günahların bağışlanması.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "günahlarının bağışlanmasıyla",
+              "text": "Halkına kurtuluşun ne demek olduğunu göstereceksin:",
               "level": 1
             },
             {
-              "text": "halkına kurtuluş bilgisini vereceksin.",
-              "level": 1
+              "text": "Günahların bağışlanması.",
+              "level": 2
             }
           ]
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\">Allah'ımızın derin merhameti sayesinde</span><span class=\"poetry-line-1\">yukarıdan gelen şafak bizi ziyaret edecek —</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">Bütün bunlar</span> Allah'ımızın derin merhametinden kaynaklanıyor.</span><span class=\"poetry-line-1\">Yükseklerden gelen ışık bizi ziyaret edecek,</span>",
+          "footnotes": [
+            {
+              "ref": "1:78",
+              "category": "dl",
+              "keyword": "Derin merhamet (σπλάγχνα ἐλέους)",
+              "content": "Sözcüğü sözcüğüne \"bağırsaklardan gelen merhamet\". Antik dünyada derin duygular kalp değil, karın bölgesinde hissedilirdi. En derin, bedensel şefkat anlamında."
+            },
+            {
+              "ref": "1:78",
+              "category": "dl",
+              "keyword": "Yükseklerden gelen ışık (ἀνατολή)",
+              "content": "\"Doğuş\" (güneşin doğuşu) veya \"Filiz\" (Mesih'e verilen bir unvan) anlamına gelebilir."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Allah'ımızın derin merhameti sayesinde",
+              "text": "<span class=\"amplification\">Bütün bunlar</span> Allah'ımızın derin merhametinden kaynaklanıyor.",
               "level": 1
             },
             {
-              "text": "yukarıdan gelen şafak bizi ziyaret edecek —",
+              "text": "Yükseklerden gelen ışık bizi ziyaret edecek,",
               "level": 1
             }
           ]
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">karanlıkta ve ölüm gölgesinde oturanlara</span><span class=\"poetry-line-1\">ışık tutmak</span><span class=\"poetry-line-1\">ve ayaklarımızı esenlik yoluna yöneltmek için.\"</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">karanlıkta oturanlara,</span><span class=\"poetry-line-2\">ölümün gölgesinde kalanlara aydınlık saçmak</span><span class=\"poetry-line-1\">ve ayaklarımızı esenlik yoluna yöneltmek için.</span>",
+          "footnotes": [
+            {
+              "ref": "1:79",
+              "category": "kültür",
+              "keyword": "Karanlık, ölümün gölgesi",
+              "content": "Yeşaya 9:2'ye gönderme — ezilen halka gelen ışık."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "karanlıkta ve ölüm gölgesinde oturanlara",
+              "text": "karanlıkta oturanlara,",
               "level": 1
             },
             {
-              "text": "ışık tutmak",
-              "level": 1
+              "text": "ölümün gölgesinde kalanlara aydınlık saçmak",
+              "level": 2
             },
             {
-              "text": "ve ayaklarımızı esenlik yoluna yöneltmek için.\"",
+              "text": "ve ayaklarımızı esenlik yoluna yöneltmek için.",
               "level": 1
             }
           ]
@@ -901,12 +1111,19 @@
       ]
     },
     {
-      "heading": "Yahya'nın Çocukluğu",
+      "heading": "Çölde büyümek",
       "verses": [
         {
           "number": "80",
-          "text": "Çocuk büyüdü ve ruhça güçlendi. İsrail'e açıkça görüneceği güne kadar çöllerde yaşadı.",
-          "footnotes": [],
+          "text": "Çocuk büyüdü. Ruhça güçlendi. Çöllerde<span class=\"amplification\">— her şeyden uzakta</span> yaşadı — İsrail'in karşısına çıkacağı güne dek.",
+          "footnotes": [
+            {
+              "ref": "1:80",
+              "category": "yaam",
+              "keyword": "Çölde yaşamak",
+              "content": "Çöl, İsrail tarihinde peygamberlerin yetiştiği yerdir — İlyas, Musa. Yahya kurumsal dinin dışında, sessizlikte şekillendi. Bazen Allah'ın işi sessizlikte, geri çekilmede hazırlanır."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []

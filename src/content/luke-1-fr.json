@@ -4,19 +4,32 @@
   "chapter": 1,
   "sections": [
     {
-      "heading": "Prologue",
+      "heading": "Pourquoi j'écris ceci",
       "verses": [
         {
           "number": "1",
-          "text": "D'autres ont écrit avant moi. Ils ont recueilli ce que les premiers témoins — ceux qui ont vu et qui ont ensuite transmis — leur ont raconté.",
-          "footnotes": [],
+          "text": "Beaucoup ont déjà tenté de raconter ce qui s'est passé parmi nous.",
+          "footnotes": [
+            {
+              "ref": "1,1-4",
+              "category": "text",
+              "keyword": "La méthode de Luc",
+              "content": "Luc écrit en historien de son époque : il rassemble les témoignages, vérifie ses sources, ordonne son récit. C'était le standard de l'historiographie grecque."
+            },
+            {
+              "ref": "1,1-4",
+              "category": "apologetics",
+              "keyword": "soigneusement enquêté",
+              "content": "Luc met l'accent sur sa méthodologie : témoins interrogés, sources vérifiées, présentation ordonnée. Cela correspond à l'historiographie antique (cf. Thucydide). Les plus de 5 800 manuscrits grecs du NT dépassent largement toute autre source antique (Homère : ~1 900). Les méthodes de critique textuelle montrent une fidélité de transmission élevée. L'affirmation de fiabilité historique de Luc repose sur des bases méthodiques solides."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "2",
-          "text": "",
+          "text": "Ils se sont appuyés sur ce que les témoins oculaires nous ont transmis — ceux qui étaient là depuis le début et qui sont devenus serviteurs de cette parole.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -24,15 +37,155 @@
         },
         {
           "number": "3",
-          "text": "J'ai voulu faire de même. J'ai tout repris depuis le début. Avec méthode. Avec précision. Théophile<span class=\"amplification\">, dont le nom signifie « ami de Dieu »</span>, ce récit est pour toi.",
-          "footnotes": [],
+          "text": "J'ai décidé, moi aussi, de tout reprendre depuis l'origine. Avec soin. <span class=\"amplification\">Méthodiquement.</span> Pour toi, très cher Théophile —",
+          "footnotes": [
+            {
+              "ref": "1,3",
+              "category": "text",
+              "keyword": "Théophile (Θεόφιλος)",
+              "content": "En grec, « celui qui aime Dieu ». Le titre κράτιστε s'adressait aux fonctionnaires romains et aux personnes de rang."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "4",
-          "text": "Pour que tu saches que ce qu'on t'a enseigné tient debout.",
+          "text": "afin que tu saches : ce qu'on t'a enseigné repose sur du solide.",
+          "footnotes": [
+            {
+              "ref": "1,4",
+              "category": "text",
+              "keyword": "Du solide (ἀσφάλεια)",
+              "content": "Certitude, fiabilité. Luc veut permettre une confiance fondée."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        }
+      ]
+    },
+    {
+      "heading": "Un vieux prêtre et une promesse impossible",
+      "verses": [
+        {
+          "number": "5",
+          "text": "À l'époque d'Hérode, roi de Judée, vivait un prêtre nommé Zacharie. Il appartenait à la classe d'Abia<span class=\"amplification\">— l'un des vingt-quatre groupes qui assuraient le service au Temple à tour de rôle</span>. Sa femme, Élisabeth, descendait d'Aaron<span class=\"amplification\">. Un couple de prêtres, donc, tous deux issus des meilleures familles, tous deux bénis de Dieu — du moins, c'est ce qu'on aurait dû penser</span>.",
+          "footnotes": [
+            {
+              "ref": "1,5",
+              "category": "kontext",
+              "keyword": "Hérode",
+              "content": "Hérode le Grand (37-4 av. J.-C.), roi installé par Rome. Célèbre pour ses constructions monumentales et sa brutalité."
+            },
+            {
+              "ref": "1,5",
+              "category": "kultur",
+              "keyword": "Classe d'Abia",
+              "content": "L'une des vingt-quatre divisions sacerdotales qui assuraient le service au Temple à tour de rôle (1 Ch 24,10). Système organisé depuis l'époque de David."
+            },
+            {
+              "ref": "1,5",
+              "category": "kultur",
+              "keyword": "Famille d'Aaron",
+              "content": "Tous deux issus de familles sacerdotales — l'élite religieuse. Si jamais une famille méritait la bénédiction divine, c'était celle-ci."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "6",
+          "text": "<span class=\"amplification\">Et de fait :</span> ils vivaient de manière irréprochable<span class=\"amplification\">, observant chaque commandement</span>.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "7",
+          "text": "<span class=\"amplification\">Mais ça ne se sentait pas comme ça.</span> Élisabeth était restée sans enfant. <span class=\"amplification\">Dans leur monde, la stérilité n'était pas un malheur privé. C'était une honte. C'était la question que personne ne posait à voix haute : Qu'ont-ils fait pour que Dieu les punisse ainsi ? Or ils n'avaient rien fait.</span> Et maintenant, tous deux étaient vieux.",
+          "footnotes": [
+            {
+              "ref": "1,7",
+              "category": "kultur",
+              "keyword": "Sans enfant",
+              "content": "Dans la culture méditerranéenne de l'honneur et de la honte, la stérilité était perçue comme un signe de défaveur divine. L'anthropologue Bruce Malina décrit cette société où l'opinion publique déterminait la valeur d'une personne. Zacharie et Élisabeth subissaient une pression sociale constante."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        }
+      ]
+    },
+    {
+      "heading": "Au Temple",
+      "verses": [
+        {
+          "number": "8",
+          "text": "Un jour, le groupe de Zacharie était de service. Il officiait devant Dieu.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "9",
+          "text": "Le sort tomba sur lui : il devait offrir l'encens. <span class=\"amplification\">Ce privilège qu'un prêtre pouvait attendre toute sa vie. Certains ne l'obtenaient jamais.</span>",
+          "footnotes": [
+            {
+              "ref": "1,9",
+              "category": "kultur",
+              "keyword": "Le sort",
+              "content": "Le tirage au sort était un moyen de discerner la volonté divine (Pr 16,33). Dieu a choisi Zacharie — ce n'était pas le hasard."
+            },
+            {
+              "ref": "1,9",
+              "category": "kultur",
+              "keyword": "L'encens",
+              "content": "Le privilège suprême d'un prêtre. Parmi des milliers de prêtres, un homme pouvait attendre toute sa vie sans jamais être désigné."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "10",
+          "text": "Il est entré dans le sanctuaire. <span class=\"amplification\">Seul.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Devant lui, l'autel d'or des parfums. Le chandelier à sept branches projetait des ombres tremblantes sur les murs. Derrière lui, le lourd rideau, et derrière ce rideau : le Lieu très saint — là où Dieu lui-même habitait.</span> Dehors<span class=\"amplification\">, en silence,</span> le peuple priait.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "11",
+          "text": "Alors un ange lui est apparu. Debout à droite de l'autel de l'encens<span class=\"amplification\">— le côté de la bénédiction</span>.",
+          "footnotes": [
+            {
+              "ref": "1,11",
+              "category": "unglaublich",
+              "keyword": "Ange",
+              "content": "Les apparitions d'anges posent des questions aux lecteurs modernes : Anges ? Vraiment ? Le texte présuppose un univers où Dieu communique par des messagers — non comme métaphore, mais comme rencontre réelle. Certains comprennent les anges comme expérience intérieure ou procédé littéraire. D'autres — et c'est ce que présente le texte — comme apparition objective. Le grec ἄγγελος signifie simplement « messager ». Luc présente Gabriel comme messager concret avec message concret."
+            },
+            {
+              "ref": "1,11",
+              "category": "kultur",
+              "keyword": "À droite",
+              "content": "La position droite était celle de la bénédiction et de la faveur (Ps 110,1)."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "12",
+          "text": "Zacharie l'a vu. La peur l'a saisi.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -41,75 +194,11 @@
       ]
     },
     {
-      "heading": "Un vieux prêtre, une chambre d'enfant vide",
+      "heading": "La promesse",
       "verses": [
         {
-          "number": "5",
-          "text": "Il y avait un vieux prêtre. Zacharie. Sa femme s'appelait Élisabeth. C'était sous le règne d'Hérode<span class=\"amplification\">, roi client de Rome</span>, en Judée.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "6",
-          "text": "Ils avaient tout fait comme il fallait. Ils vivaient de manière juste devant Dieu.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "7",
-          "text": "Mais la chambre d'enfant restait vide. Année après année. Élisabeth était stérile. Et ils étaient vieux maintenant.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "8",
-          "text": "Un jour, Zacharie est entré dans le sanctuaire pour offrir l'encens.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "9",
-          "text": "C'était au tour de son groupe d'assurer le service. Le sort était tombé sur lui.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "10",
-          "text": "Dehors, le peuple priait.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "11",
-          "text": "Un ange l'attendait. À droite de l'autel.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "12",
-          "text": "Le trouble a saisi Zacharie. La peur est tombée sur lui.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
           "number": "13",
-          "text": "L'ange lui a annoncé un fils. Jean<span class=\"amplification\">, un nom qui signifie « Dieu fait grâce »</span>.",
+          "text": "L'ange a dit : « N'aie pas peur, Zacharie. Ta prière a été entendue. <span class=\"amplification\">Élisabeth,</span> ta femme, te donnera un fils. <span class=\"amplification\">Appelle-le</span> Jean.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -117,7 +206,7 @@
         },
         {
           "number": "14",
-          "text": "« Il sera pour toi une source de joie. Beaucoup se réjouiront de sa naissance.",
+          "text": "Il te remplira de joie<span class=\"amplification\">, une joie immense</span>. Et beaucoup se réjouiront de sa naissance.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -125,15 +214,22 @@
         },
         {
           "number": "15",
-          "text": "Il sera grand devant le Seigneur. Il sera rempli de l'Esprit de Dieu dès le ventre de sa mère.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Devant Dieu,</span> il sera grand. Il ne touchera jamais au vin ni à l'alcool — l'Esprit Saint le remplira, déjà dans le ventre de sa mère.",
+          "footnotes": [
+            {
+              "ref": "1,15",
+              "category": "contexte",
+              "keyword": "Vin et alcool",
+              "content": "Allusion au vœu de naziréat (Nb 6,3). Comme Samson et Samuel, Jean était consacré à Dieu dès sa naissance."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "16",
-          "text": "Il ramènera beaucoup de fils d'Israël vers le Seigneur leur Dieu.",
+          "text": "Il ramènera beaucoup <span class=\"amplification\">d'Israélites</span> vers le Seigneur, leur Dieu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -141,15 +237,27 @@
         },
         {
           "number": "17",
-          "text": "Il marchera avec l'esprit et la puissance d'Élie. Il tournera le cœur des pères vers les enfants. Il préparera pour le Seigneur un peuple prêt. »<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "Avec <span class=\"amplification\">la puissance</span> d'Élie, il marchera devant lui. Il réconciliera les pères avec leurs enfants, les rebelles avec la sagesse des justes. Il préparera un peuple prêt — prêt pour le Seigneur. »",
+          "footnotes": [
+            {
+              "ref": "1,17",
+              "category": "contexte",
+              "keyword": "Élie",
+              "content": "Malachie avait annoncé le retour d'Élie avant le grand jour du Seigneur (Ml 3,23-24). Jean accomplit ce rôle."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Zacharie doute",
+      "verses": [
         {
           "number": "18",
-          "text": "Zacharie n'y croyait pas. « Je suis vieux », a-t-il dit. « Comment puis-je en être sûr ? »",
+          "text": "Zacharie a demandé : « Comment le saurai-je ? Je suis vieux. Ma femme aussi. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -157,23 +265,35 @@
         },
         {
           "number": "19",
-          "text": "L'ange a répondu : « Je suis Gabriel. Je me tiens devant Dieu. J'ai été envoyé pour t'annoncer cette bonne nouvelle.",
-          "footnotes": [],
+          "text": "L'ange a répondu : « Je suis Gabriel. Je me tiens devant le trône de Dieu. Il m'a envoyé pour t'apporter cette bonne nouvelle.",
+          "footnotes": [
+            {
+              "ref": "1,19",
+              "category": "nom",
+              "keyword": "Gabriel (Γαβριήλ)",
+              "content": "En hébreu, « force de Dieu ». L'un des archanges, celui qui « se tient devant Dieu ». Le même ange était apparu à Daniel (Dn 8,16 ; 9,21)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "20",
-          "text": "Et maintenant, tu ne pourras plus parler. Tu seras muet jusqu'au jour où ces choses arriveront. Parce que tu n'as pas cru. »<p class=\"paragraph-break\"></p>",
+          "text": "Mais puisque tu n'as pas cru mes paroles — des paroles qui s'accompliront en leur temps — tu seras muet. Tu ne pourras plus parler jusqu'à ce que tout arrive. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        },
+        }
+      ]
+    },
+    {
+      "heading": "L'attente",
+      "verses": [
         {
           "number": "21",
-          "text": "Quand il est sorti, il ne pouvait plus parler. La foule a compris qu'il s'était passé quelque chose.",
+          "text": "Dehors, le peuple attendait Zacharie. <span class=\"amplification\">Longtemps. La bénédiction du prêtre ne prenait d'habitude que quelques instants.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -181,7 +301,7 @@
         },
         {
           "number": "22",
-          "text": "Il leur faisait des signes. Il restait muet.",
+          "text": "Quand il est enfin sorti, il ne pouvait plus parler. Il leur faisait des signes. Ils ont compris : il avait eu une vision<span class=\"amplification\">. Dans le sanctuaire. Là où Dieu habite</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -189,7 +309,7 @@
         },
         {
           "number": "23",
-          "text": "Quand ses jours de service ont été accomplis, il est rentré chez lui.<p class=\"paragraph-break\"></p>",
+          "text": "Quand ses jours de service ont pris fin, il est rentré chez lui. <span class=\"amplification\">Muet. Incapable de prononcer la bénédiction que le peuple attendait.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -197,7 +317,7 @@
         },
         {
           "number": "24",
-          "text": "Et puis Élisabeth est tombée enceinte. Elle s'est cachée pendant cinq mois.",
+          "text": "Peu après, Élisabeth est tombée enceinte. Pendant cinq mois, elle s'est tenue à l'écart.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -205,7 +325,7 @@
         },
         {
           "number": "25",
-          "text": "« Dieu a regardé ma honte », disait-elle. « Et il l'a ôtée. »",
+          "text": "Elle disait : « Voilà ce que le Seigneur a fait pour moi. Il m'a regardée. Il m'a enlevé la honte<span class=\"amplification\">— la honte des femmes sans enfants, que tous considéraient comme punies par Dieu</span>. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -218,7 +338,7 @@
       "verses": [
         {
           "number": "26",
-          "text": "Six mois après la visite à Zacharie, Dieu a envoyé Gabriel ailleurs. Pas dans un temple. Dans un village du nord. Nazareth<span class=\"amplification\">, un endroit que personne ne connaissait</span>. En Galilée.",
+          "text": "<span class=\"amplification\">Six mois plus tard,</span> Dieu a envoyé l'ange Gabriel <span class=\"amplification\">de nouveau. Cette fois, pas au Temple. Pas à Jérusalem.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">En</span> Galilée. Dans un village appelé Nazareth<span class=\"amplification\">. Un endroit dont personne n'avait entendu parler</span>.<p class=\"paragraph-break\"></p><span class=\"amplification\">Pas de temple. Pas d'encens. Pas de foule en prière dehors. Juste une jeune fille.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -226,23 +346,37 @@
         },
         {
           "number": "27",
-          "text": "Il y avait là une jeune fille. Marie. Elle était fiancée. Elle n'avait jamais été avec un homme. Son fiancé s'appelait Joseph<span class=\"amplification\">, un artisan descendant de la lignée royale de David</span>.<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Elle s'appelait Marie. Elle était</span> fiancée à un homme nommé Joseph, qui descendait de David. <span class=\"amplification\">Fiancée — c'est-à-dire qu'elle lui appartenait déjà, légalement. Mais elle habitait encore chez son père. Le mariage n'avait pas eu lieu.</span>",
+          "footnotes": [
+            {
+              "ref": "1,27",
+              "category": "kultur",
+              "keyword": "Fiançailles",
+              "content": "Les fiançailles étaient juridiquement contraignantes — une rupture nécessitait un divorce formel. Marie vivait encore chez son père ; le mariage restait à venir."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "28",
-          "text": "L'ange est entré chez elle. « Réjouis-toi, Marie. Dieu t'a regardée avec faveur. »",
-          "footnotes": [],
+          "text": "L'ange est venu vers elle. Il a dit : « Je te salue, toi qui as reçu la faveur de Dieu ! Le Seigneur est avec toi. »",
+          "footnotes": [
+            {
+              "ref": "1,28",
+              "category": "text",
+              "keyword": "Favorisée (κεχαριτωμένη)",
+              "content": "Parfait passif participe de χαριτόω — met l'accent sur l'action accomplie de Dieu envers Marie, non sur ses propres mérites. Luther : « pleine de grâce » ; littéralement : « celle qui a reçu la grâce ». La tradition catholique traduit « pleine de grâce » et voit ici le fondement de la position unique de Marie."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "29",
-          "text": "Elle ne comprenait pas. Elle avait peur.",
+          "text": "Ces mots l'ont troublée profondément. Elle se demandait ce que cette salutation pouvait signifier.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -250,7 +384,7 @@
         },
         {
           "number": "30",
-          "text": "« N'aie pas peur. Tu as trouvé faveur auprès de Dieu.",
+          "text": "L'ange a dit : « N'aie pas peur, Marie. <span class=\"amplification\">Dieu t'a choisie.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -258,23 +392,37 @@
         },
         {
           "number": "31",
-          "text": "Tu vas avoir un fils. Tu l'appelleras Jésus<span class=\"amplification\">, un nom qui signifie « Dieu sauve »</span>.",
-          "footnotes": [],
+          "text": "Tu vas tomber enceinte et mettre au monde un fils. <span class=\"amplification\">Appelle-le</span> Jésus.",
+          "footnotes": [
+            {
+              "ref": "1,31",
+              "category": "text",
+              "keyword": "Jésus (Ἰησοῦς)",
+              "content": "Forme grecque de l'hébreu Yeschua/Josué, signifie « YHWH sauve » ou « Dieu est salut ». Le nom est un programme : il sauvera son peuple de ses péchés (Mt 1,21)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "32",
-          "text": "Il sera grand. On l'appellera Fils du Dieu très-haut. Le Seigneur Dieu lui donnera le trône de David.",
-          "footnotes": [],
+          "text": "Il sera grand. On l'appellera Fils du Très-Haut. Dieu<span class=\"amplification\">, le Seigneur,</span> lui donnera le trône de son ancêtre David.",
+          "footnotes": [
+            {
+              "ref": "1,32-33",
+              "category": "kontext",
+              "keyword": "Trône de David",
+              "content": "La promesse faite à David (2 S 7,12-16) a façonné l'attente messianique juive. Dieu avait promis à David un trône éternel — mais le royaume était tombé depuis longtemps."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "33",
-          "text": "Son règne n'aura pas de fin. »<p class=\"paragraph-break\"></p>",
+          "text": "Il régnera sur <span class=\"amplification\">Israël</span> pour toujours. Son règne n'aura pas de fin. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -282,7 +430,7 @@
         },
         {
           "number": "34",
-          "text": "« Mais comment ? Je suis vierge. »",
+          "text": "Marie a demandé : « Comment est-ce possible ? Je n'ai jamais été avec un homme. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -290,15 +438,28 @@
         },
         {
           "number": "35",
-          "text": "« L'Esprit de Dieu viendra sur toi. Sa puissance te couvrira. L'enfant sera appelé Fils de Dieu.",
-          "footnotes": [],
+          "text": "L'ange a répondu : « L'Esprit Saint viendra sur toi. La puissance du Très-Haut te couvrira de son ombre. C'est pourquoi l'enfant qui naîtra sera appelé saint, Fils de Dieu.",
+          "footnotes": [
+            {
+              "ref": "1,35",
+              "category": "text",
+              "keyword": "Couvrir de son ombre (ἐπισκιάζω)",
+              "content": "Le même verbe décrit la nuée couvrant la Tente de la Rencontre (Ex 40,35). Marie devient le lieu de la présence divine."
+            },
+            {
+              "ref": "1,35",
+              "category": "unglaublich",
+              "keyword": "Conception virginale",
+              "content": "L'idée d'une conception sans homme est difficile à croire pour les lecteurs modernes. Le texte ne prétend pas expliquer la parthénogenèse biologique, mais proclame l'action divine : l'Esprit de Dieu réalise ce qui est naturellement impossible. Certains comprennent ceci symboliquement — comme expression de la relation unique de Jésus avec Dieu. D'autres, comme les Églises historiques, l'entendent littéralement comme miracle. Le grec ἐπισκιάζω (« couvrir de son ombre ») rappelle la nuée qui remplissait le sanctuaire (Ex 40,35) — Marie devient le lieu de la présence divine."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "36",
-          "text": "Et ta parente Élisabeth — elle aussi est enceinte. Elle qu'on disait stérile en est à son sixième mois.",
+          "text": "<span class=\"amplification\">D'ailleurs —</span> ta parente Élisabeth est enceinte, elle aussi, elle qu'on disait stérile. Elle est <span class=\"amplification\">déjà</span> au sixième mois.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -306,16 +467,30 @@
         },
         {
           "number": "37",
-          "text": "Rien n'est impossible à Dieu. »<p class=\"paragraph-break\"></p>",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Rien n'est</span> impossible à Dieu. »<p class=\"paragraph-break\"></p>",
+          "footnotes": [
+            {
+              "ref": "1,37",
+              "category": "kontext",
+              "keyword": "Rien d'impossible",
+              "content": "Écho de Genèse 18,14, où Dieu promet un fils à Sara, déjà âgée."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "38",
-          "text": "Marie a répondu : « Je suis la servante de Dieu. Que ça se passe. »<p class=\"paragraph-break\"></p>L'ange est parti. Elle était seule avec le secret.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Marie a dit :</span><p class=\"paragraph-break\"></p>« J'appartiens au Seigneur. Ce que tu as dit — qu'il en soit ainsi. »<p class=\"paragraph-break\"></p>Alors l'ange l'a quittée.",
+          "footnotes": [
+            {
+              "ref": "1,38",
+              "category": "leben",
+              "keyword": "Qu'il en soit ainsi",
+              "content": "La réponse de Marie montre une voie pour tous les siècles : Dieu agit par consentement, non par contrainte. L'authentique pratique spirituelle commence par ce oui à la direction divine — même quand les conséquences sont imprévisibles. Cette attitude de disponibilité radicale est au cœur de toutes les traditions mystiques, des Bénédictins au zen bouddhiste."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -327,7 +502,7 @@
       "verses": [
         {
           "number": "39",
-          "text": "Marie s'est mise en route. Vite. Elle a traversé la région montagneuse jusqu'à une ville de Juda.",
+          "text": "Marie s'est mise en route. <span class=\"amplification\">Aussitôt.</span> Elle est partie en hâte<span class=\"amplification\">— des jours de marche</span> à travers la région montagneuse<span class=\"amplification\">, seule,</span> vers une ville de Judée.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -335,7 +510,7 @@
         },
         {
           "number": "40",
-          "text": "Elle est entrée chez Zacharie. Elle a salué Élisabeth.",
+          "text": "Elle est entrée dans la maison de Zacharie et a salué Élisabeth.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -343,7 +518,7 @@
         },
         {
           "number": "41",
-          "text": "Au son de sa voix, l'enfant a bougé dans le ventre d'Élisabeth. Brusquement. Élisabeth a été remplie de l'Esprit de Dieu.",
+          "text": "Dès qu'Élisabeth a entendu la salutation de Marie, le bébé a bondi dans son ventre. Et Élisabeth a été remplie de l'Esprit Saint.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -351,7 +526,7 @@
         },
         {
           "number": "42",
-          "text": "Elle s'est écriée : « Tu es bénie entre toutes les femmes ! Et l'enfant que tu portes est béni !",
+          "text": "Elle s'est exclamée d'une voix forte<span class=\"amplification\">— comme une prophétesse</span> :<p class=\"paragraph-break\"></p>« Tu es bénie<span class=\"amplification\">entre toutes les femmes</span> ! Et béni est <span class=\"amplification\">l'enfant dans</span> ton ventre !",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -359,7 +534,7 @@
         },
         {
           "number": "43",
-          "text": "Comment se fait-il que la mère de mon Seigneur vienne chez moi ?",
+          "text": "<span class=\"amplification\">Mais comment se fait-il que</span> la mère de mon Seigneur vienne à moi ? <span class=\"amplification\">Moi — vers moi ?</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -367,7 +542,7 @@
         },
         {
           "number": "44",
-          "text": "Dès que ta voix a touché mes oreilles, l'enfant a sauté de joie dans mon ventre.",
+          "text": "Car dès que ta voix a atteint mes oreilles, le bébé a bondi de joie dans mon ventre !",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -375,8 +550,15 @@
         },
         {
           "number": "45",
-          "text": "Heureuse es-tu, toi qui as cru. Ce que Dieu t'a dit s'accomplira. »",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Tu as cru. C'est pourquoi</span> tu es heureuse. Ce que <span class=\"amplification\">Dieu</span> t'a <span class=\"amplification\">promis</span> s'accomplira. »",
+          "footnotes": [
+            {
+              "ref": "1,45",
+              "category": "contexte",
+              "keyword": "Tu as cru",
+              "content": "Élisabeth loue la foi de Marie — par contraste avec Zacharie, qui a douté."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -384,72 +566,75 @@
       ]
     },
     {
-      "heading": "Le Magnificat",
+      "heading": "Ce que Dieu fait — Le Magnificat",
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"poetry-line-1\">Marie a dit :</span><span class=\"poetry-line-1\">Tout mon être dit sa grandeur.</span>",
-          "footnotes": [],
+          "text": "Marie a dit :<span class=\"poetry-line-1\">Tout en moi — tout ! — célèbre Dieu.</span>",
+          "footnotes": [
+            {
+              "ref": "1,46-55",
+              "category": "contexte",
+              "keyword": "Magnificat",
+              "content": "Le cantique de Marie suit le modèle du chant d'Anne (1 S 2,1-10). Les deux femmes louent Dieu pour le renversement de l'ordre établi."
+            }
+          ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 0,
           "lines": [
             {
-              "text": "Marie a dit :",
-              "level": 1
-            },
-            {
-              "text": "Tout mon être dit sa grandeur.",
+              "text": "Tout en moi — tout ! — célèbre Dieu.",
               "level": 1
             }
           ]
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Mon esprit explose de joie</span><span class=\"poetry-line-2\">à cause de Dieu qui me sauve.</span>",
+          "text": "<span class=\"poetry-line-1\">Mon esprit exulte devant mon Sauveur.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Mon esprit explose de joie",
+              "text": "Mon esprit exulte devant mon Sauveur.",
               "level": 1
-            },
-            {
-              "text": "à cause de Dieu qui me sauve.",
-              "level": 2
             }
           ]
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Il a regardé.</span><span class=\"poetry-line-2\">Moi. La petite. L'insignifiante.</span><span class=\"poetry-line-1\">Désormais, tous diront : elle a été comblée.</span>",
+          "text": "<span class=\"poetry-line-1\">Il m'a regardée.</span><span class=\"poetry-line-2\">Moi, la petite.</span><span class=\"poetry-line-2\">L'insignifiante.</span><span class=\"poetry-line-1\">Désormais, toutes les générations diront : Elle est bénie.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Il a regardé.",
+              "text": "Il m'a regardée.",
               "level": 1
             },
             {
-              "text": "Moi. La petite. L'insignifiante.",
+              "text": "Moi, la petite.",
               "level": 2
             },
             {
-              "text": "Désormais, tous diront : elle a été comblée.",
+              "text": "L'insignifiante.",
+              "level": 2
+            },
+            {
+              "text": "Désormais, toutes les générations diront : Elle est bénie.",
               "level": 1
             }
           ]
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">Le Puissant a fait de grandes choses pour moi.</span><span class=\"poetry-line-2\">Son nom est saint.</span>",
+          "text": "<span class=\"poetry-line-1\">Car le Puissant a fait de grandes choses pour moi.</span><span class=\"poetry-line-2\">Son nom est saint.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Le Puissant a fait de grandes choses pour moi.",
+              "text": "Car le Puissant a fait de grandes choses pour moi.",
               "level": 1
             },
             {
@@ -460,113 +645,113 @@
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Sa tendresse s'étend d'âge en âge</span><span class=\"poetry-line-2\">sur ceux qui le respectent.</span>",
+          "text": "<span class=\"poetry-line-1\">Sa tendresse s'étend sur ceux qui le respectent —</span><span class=\"poetry-line-2\">de génération en génération.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Sa tendresse s'étend d'âge en âge",
+              "text": "Sa tendresse s'étend sur ceux qui le respectent —",
               "level": 1
             },
             {
-              "text": "sur ceux qui le respectent.",
+              "text": "de génération en génération.",
               "level": 2
             }
           ]
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Son bras a frappé.</span><span class=\"poetry-line-2\">Les orgueilleux — dispersés.</span><span class=\"poetry-line-2\">Leurs plans — en miettes.</span>",
+          "text": "<span class=\"poetry-line-1\">Son bras est fort.</span><span class=\"poetry-line-1\">Les orgueilleux ? Dispersés<span class=\"amplification\">, eux et leurs grands projets</span>.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Son bras a frappé.",
+              "text": "Son bras est fort.",
               "level": 1
             },
             {
-              "text": "Les orgueilleux — dispersés.",
-              "level": 2
-            },
-            {
-              "text": "Leurs plans — en miettes.",
-              "level": 2
+              "text": "Les orgueilleux ? Dispersés<span class=\"amplification\">, eux et leurs grands projets</span>.",
+              "level": 1
             }
           ]
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Les puissants — renversés de leurs trônes.</span><span class=\"poetry-line-2\">Les petits — élevés.</span>",
+          "text": "<span class=\"poetry-line-1\">Les puissants ? Renversés de leur trône.</span><span class=\"poetry-line-1\">Les petits ? Élevés.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Les puissants — renversés de leurs trônes.",
+              "text": "Les puissants ? Renversés de leur trône.",
               "level": 1
             },
             {
-              "text": "Les petits — élevés.",
-              "level": 2
+              "text": "Les petits ? Élevés.",
+              "level": 1
             }
           ]
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">Les affamés — comblés de bonnes choses.</span><span class=\"poetry-line-2\">Les riches — renvoyés les mains vides.</span>",
+          "text": "<span class=\"poetry-line-1\">Les affamés ? Comblés de biens.</span><span class=\"poetry-line-1\">Les riches ? Renvoyés les mains vides.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Les affamés — comblés de bonnes choses.",
+              "text": "Les affamés ? Comblés de biens.",
               "level": 1
             },
             {
-              "text": "Les riches — renvoyés les mains vides.",
-              "level": 2
+              "text": "Les riches ? Renvoyés les mains vides.",
+              "level": 1
             }
           ]
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Il a pris soin d'Israël, son serviteur.</span>",
+          "text": "<span class=\"poetry-line-1\">Il a secouru Israël, son serviteur.</span><span class=\"poetry-line-2\">Il s'est souvenu de sa tendresse —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Il a pris soin d'Israël, son serviteur.",
+              "text": "Il a secouru Israël, son serviteur.",
               "level": 1
+            },
+            {
+              "text": "Il s'est souvenu de sa tendresse —",
+              "level": 2
             }
           ]
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">Il s'est souvenu de sa tendresse —</span><span class=\"poetry-line-2\">comme promis à nos ancêtres,</span><span class=\"poetry-line-2\">à Abraham et à ses descendants. Pour toujours.</span><p class=\"paragraph-break\"></p>",
+          "text": "<span class=\"poetry-line-1\">comme il l'avait promis à nos ancêtres :</span><span class=\"poetry-line-2\">à Abraham et à sa descendance.</span><span class=\"poetry-line-2\">Pour toujours.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Il s'est souvenu de sa tendresse —",
+              "text": "comme il l'avait promis à nos ancêtres :",
               "level": 1
             },
             {
-              "text": "comme promis à nos ancêtres,",
+              "text": "à Abraham et à sa descendance.",
               "level": 2
             },
             {
-              "text": "à Abraham et à ses descendants. Pour toujours.",
+              "text": "Pour toujours.",
               "level": 2
             }
           ]
         },
         {
           "number": "56",
-          "text": "Marie est restée trois mois avec Élisabeth. Puis elle est rentrée chez elle.",
+          "text": "Marie est restée environ trois mois avec Élisabeth. Puis elle est rentrée chez elle.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -579,7 +764,7 @@
       "verses": [
         {
           "number": "57",
-          "text": "Le temps est venu pour Élisabeth. Elle a accouché d'un fils.",
+          "text": "Le temps d'Élisabeth est venu. Elle a mis au monde un fils.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -587,7 +772,7 @@
         },
         {
           "number": "58",
-          "text": "Les voisins et les proches ont appris la nouvelle : Dieu lui avait montré une grande bonté. Ils se sont réjouis avec elle.<p class=\"paragraph-break\"></p>",
+          "text": "Les voisins et les proches ont appris <span class=\"amplification\">ce qui s'était passé :</span> le Seigneur lui avait fait une grande grâce. Ils se sont réjouis avec elle.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -595,7 +780,7 @@
         },
         {
           "number": "59",
-          "text": "Le huitième jour, ils sont venus pour la circoncision. Ils voulaient appeler l'enfant Zacharie, comme son père.",
+          "text": "Le huitième jour, ils sont venus pour la circoncision<span class=\"amplification\">— l'antique signe de l'alliance, au cours duquel l'enfant recevait son nom</span>. Ils voulaient l'appeler Zacharie, comme son père.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -603,7 +788,7 @@
         },
         {
           "number": "60",
-          "text": "Mais Élisabeth a dit : « Non. Il s'appellera Jean. »",
+          "text": "Mais la mère a dit : « Non. Son nom est Jean. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -611,7 +796,7 @@
         },
         {
           "number": "61",
-          "text": "Ils ont répondu : « Personne dans ta famille ne s'appelle Jean ! »",
+          "text": "Ils ont protesté : « Personne dans ta famille ne porte ce nom ! » <span class=\"amplification\">Donner à un enfant le nom d'un étranger ? Ça ne se faisait pas.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -619,7 +804,7 @@
         },
         {
           "number": "62",
-          "text": "Ils ont fait signe au père. Comment voulait-il l'appeler ?",
+          "text": "Ils ont demandé au père par signes<span class=\"amplification\">— ils pensaient sans doute qu'il était devenu sourd aussi</span>. Quel nom donner à l'enfant ?",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -627,7 +812,7 @@
         },
         {
           "number": "63",
-          "text": "Il a demandé une tablette. Il a écrit : « Son nom, c'est Jean. »<p class=\"paragraph-break\"></p>Tout le monde était stupéfait.<p class=\"paragraph-break\"></p>",
+          "text": "Il a demandé une tablette et a écrit : « Son nom est Jean. »<p class=\"paragraph-break\"></p>Tous ont été stupéfaits.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -635,7 +820,7 @@
         },
         {
           "number": "64",
-          "text": "Aussitôt, sa bouche s'est ouverte. Après neuf mois de silence. Sa langue s'est déliée. Il a parlé. Il bénissait Dieu.",
+          "text": "À l'instant, sa bouche s'est ouverte<span class=\"amplification\">, sa langue s'est déliée</span>. Il s'est mis à parler, bénissant Dieu.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -643,7 +828,7 @@
         },
         {
           "number": "65",
-          "text": "La crainte a saisi tout le voisinage. Dans toute la région montagneuse de Judée, on ne parlait que de ça.",
+          "text": "La crainte a saisi tous les voisins. Dans toute la région montagneuse de Judée, on ne parlait que de cela.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -651,7 +836,7 @@
         },
         {
           "number": "66",
-          "text": "Tous ceux qui entendaient gardaient ces choses dans leur cœur. Ils se demandaient : « Que sera cet enfant ? »<p class=\"paragraph-break\"></p>Car la main de Dieu était sur lui.",
+          "text": "Tous ceux qui entendaient gardaient ces choses dans leur cœur<span class=\"amplification\">, se demandant :</span> « Que deviendra cet enfant ? » Car la main du Seigneur était visiblement sur lui.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -660,145 +845,163 @@
       ]
     },
     {
-      "heading": "Le Benedictus",
+      "heading": "Ce que Zacharie a vu — Le Benedictus",
       "verses": [
         {
           "number": "67",
-          "text": "Zacharie, son père, a été rempli de l'Esprit de Dieu. Il a prophétisé :",
-          "footnotes": [],
+          "text": "Zacharie, son père, a été rempli de l'Esprit Saint. Il a prophétisé :",
+          "footnotes": [
+            {
+              "ref": "1,67-79",
+              "category": "contexte",
+              "keyword": "Benedictus",
+              "content": "Le Benedictus a deux parties : louange pour la rédemption d'Israël (68-75) et prophétie sur la mission de Jean (76-79)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">« Béni soit le Seigneur, le Dieu d'Israël !</span><span class=\"poetry-line-2\">Il est intervenu.</span><span class=\"poetry-line-2\">Il a libéré son peuple.</span>",
+          "text": "<span class=\"poetry-line-1\">Béni soit le Seigneur, le Dieu d'Israël !</span><span class=\"poetry-line-1\">Il a visité son peuple. Il l'a libéré.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "« Béni soit le Seigneur, le Dieu d'Israël !",
+              "text": "Béni soit le Seigneur, le Dieu d'Israël !",
               "level": 1
             },
             {
-              "text": "Il est intervenu.",
-              "level": 2
-            },
-            {
-              "text": "Il a libéré son peuple.",
-              "level": 2
+              "text": "Il a visité son peuple. Il l'a libéré.",
+              "level": 1
             }
           ]
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Il a fait surgir un libérateur puissant</span><span class=\"poetry-line-2\">dans la maison de David.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Il nous a donné un sauveur puissant —</span><span class=\"poetry-line-2\">issu de la maison de David, son serviteur.</span>",
+          "footnotes": [
+            {
+              "ref": "1,69",
+              "category": "langue",
+              "keyword": "Sauveur puissant (κέρας σωτηρίας)",
+              "content": "Littéralement « corne du salut » — une image de force et de puissance (Ps 18,3)."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Il a fait surgir un libérateur puissant",
+              "text": "Il nous a donné un sauveur puissant —",
               "level": 1
             },
             {
-              "text": "dans la maison de David.",
+              "text": "issu de la maison de David, son serviteur.",
               "level": 2
             }
           ]
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Comme l'avaient annoncé ses prophètes</span><span class=\"poetry-line-2\">depuis les temps anciens :</span>",
+          "text": "<span class=\"poetry-line-1\">Comme il l'avait promis,</span><span class=\"poetry-line-2\">il y a longtemps,</span><span class=\"poetry-line-2\">par la bouche de ses prophètes :</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Comme l'avaient annoncé ses prophètes",
+              "text": "Comme il l'avait promis,",
               "level": 1
             },
             {
-              "text": "depuis les temps anciens :",
+              "text": "il y a longtemps,",
+              "level": 2
+            },
+            {
+              "text": "par la bouche de ses prophètes :",
               "level": 2
             }
           ]
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">le salut loin de nos ennemis,</span><span class=\"poetry-line-2\">loin de ceux qui nous haïssent.</span>",
+          "text": "<span class=\"poetry-line-1\">le salut face à nos ennemis,</span><span class=\"poetry-line-2\">face à tous ceux qui nous haïssent.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "le salut loin de nos ennemis,",
+              "text": "le salut face à nos ennemis,",
               "level": 1
             },
             {
-              "text": "loin de ceux qui nous haïssent.",
+              "text": "face à tous ceux qui nous haïssent.",
               "level": 2
             }
           ]
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">Il a tenu sa promesse à nos ancêtres.</span>",
+          "text": "<span class=\"poetry-line-1\">Il a montré sa bonté à nos ancêtres.</span><span class=\"poetry-line-2\">Il s'est souvenu de son alliance sainte —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Il a tenu sa promesse à nos ancêtres.",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "73",
-          "text": "<span class=\"poetry-line-1\">Il s'est souvenu de son alliance sainte,</span><span class=\"poetry-line-2\">du serment fait à Abraham :</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Il s'est souvenu de son alliance sainte,",
+              "text": "Il a montré sa bonté à nos ancêtres.",
               "level": 1
             },
             {
-              "text": "du serment fait à Abraham :",
+              "text": "Il s'est souvenu de son alliance sainte —",
               "level": 2
             }
           ]
         },
         {
-          "number": "74",
-          "text": "<span class=\"poetry-line-1\">nous libérer de nos ennemis</span><span class=\"poetry-line-2\">pour le servir sans crainte,</span>",
+          "number": "73",
+          "text": "<span class=\"poetry-line-1\">du serment qu'il a fait à Abraham, notre père :</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "nous libérer de nos ennemis",
+              "text": "du serment qu'il a fait à Abraham, notre père :",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "number": "74",
+          "text": "<span class=\"poetry-line-1\">arrachés à nos ennemis,</span><span class=\"poetry-line-2\">nous pouvons le servir,</span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "arrachés à nos ennemis,",
               "level": 1
             },
             {
-              "text": "pour le servir sans crainte,",
+              "text": "nous pouvons le servir,",
               "level": 2
             }
           ]
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">dans la droiture et la justice</span><span class=\"poetry-line-2\">tous les jours de notre vie.</span>",
+          "text": "<span class=\"poetry-line-1\">sans crainte,</span><span class=\"poetry-line-2\">dans la sainteté et la droiture,</span><span class=\"poetry-line-2\">tous les jours de notre vie.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "dans la droiture et la justice",
+              "text": "sans crainte,",
               "level": 1
+            },
+            {
+              "text": "dans la sainteté et la droiture,",
+              "level": 2
             },
             {
               "text": "tous les jours de notre vie.",
@@ -808,17 +1011,17 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Et toi, mon enfant,</span><span class=\"poetry-line-2\">on t'appellera prophète du Dieu très-haut.</span><span class=\"poetry-line-1\">Tu marcheras devant le Seigneur</span><span class=\"poetry-line-2\">pour préparer son chemin.</span>",
+          "text": "<span class=\"poetry-line-1\">Et toi, mon enfant —</span><span class=\"poetry-line-2\">tu seras appelé prophète du Très-Haut.</span><span class=\"poetry-line-1\">Tu marcheras devant le Seigneur</span><span class=\"poetry-line-2\">pour lui préparer le chemin.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Et toi, mon enfant,",
+              "text": "Et toi, mon enfant —",
               "level": 1
             },
             {
-              "text": "on t'appellera prophète du Dieu très-haut.",
+              "text": "tu seras appelé prophète du Très-Haut.",
               "level": 2
             },
             {
@@ -826,67 +1029,87 @@
               "level": 1
             },
             {
-              "text": "pour préparer son chemin.",
+              "text": "pour lui préparer le chemin.",
               "level": 2
             }
           ]
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Tu apprendras à son peuple</span><span class=\"poetry-line-2\">que le salut vient par le pardon des fautes,</span>",
+          "text": "<span class=\"poetry-line-1\">Tu apprendras à son peuple ce qu'est le salut :</span><span class=\"poetry-line-2\">le pardon de leurs fautes.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "Tu apprendras à son peuple",
+              "text": "Tu apprendras à son peuple ce qu'est le salut :",
               "level": 1
             },
             {
-              "text": "que le salut vient par le pardon des fautes,",
+              "text": "le pardon de leurs fautes.",
               "level": 2
             }
           ]
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\">grâce à la tendresse profonde de notre Dieu.</span><span class=\"poetry-line-1\">L'aube venue d'en haut nous a visités</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">Tout cela arrive</span> parce que notre Dieu est plein de tendresse.</span><span class=\"poetry-line-1\">Le soleil levant d'en haut nous visitera,</span>",
+          "footnotes": [
+            {
+              "ref": "1,78",
+              "category": "langue",
+              "keyword": "Plein de tendresse (σπλάγχνα ἐλέους)",
+              "content": "Littéralement « entrailles de miséricorde ». L'Antiquité situait les émotions profondes dans le ventre, pas dans le cœur. C'est une compassion viscérale, physique."
+            },
+            {
+              "ref": "1,78",
+              "category": "langue",
+              "keyword": "Soleil levant (ἀνατολή)",
+              "content": "Peut signifier « lever du soleil » ou « germe » (titre messianique)."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "grâce à la tendresse profonde de notre Dieu.",
+              "text": "<span class=\"amplification\">Tout cela arrive</span> parce que notre Dieu est plein de tendresse.",
               "level": 1
             },
             {
-              "text": "L'aube venue d'en haut nous a visités",
+              "text": "Le soleil levant d'en haut nous visitera,",
               "level": 1
             }
           ]
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">pour éclairer ceux qui sont dans les ténèbres,</span><span class=\"poetry-line-2\">dans l'ombre de la mort,</span><span class=\"poetry-line-1\">pour guider nos pas</span><span class=\"poetry-line-2\">sur le chemin de la paix. »</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">pour éclairer ceux</span><span class=\"poetry-line-2\">qui sont assis dans les ténèbres,</span><span class=\"poetry-line-2\">à l'ombre de la mort —</span><span class=\"poetry-line-1\">et pour guider nos pas sur le chemin de la paix.</span>",
+          "footnotes": [
+            {
+              "ref": "1,79",
+              "category": "contexte",
+              "keyword": "Dans les ténèbres, à l'ombre de la mort",
+              "content": "Allusion à Ésaïe 9,1 — la lumière pour le peuple opprimé."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": [
             {
-              "text": "pour éclairer ceux qui sont dans les ténèbres,",
+              "text": "pour éclairer ceux",
               "level": 1
             },
             {
-              "text": "dans l'ombre de la mort,",
+              "text": "qui sont assis dans les ténèbres,",
               "level": 2
             },
             {
-              "text": "pour guider nos pas",
+              "text": "à l'ombre de la mort —",
+              "level": 2
+            },
+            {
+              "text": "et pour guider nos pas sur le chemin de la paix.",
               "level": 1
-            },
-            {
-              "text": "sur le chemin de la paix. »",
-              "level": 2
             }
           ]
         }
@@ -897,7 +1120,7 @@
       "verses": [
         {
           "number": "80",
-          "text": "L'enfant grandissait. Il devenait fort en esprit.<p class=\"paragraph-break\"></p>Il vivait au désert. Loin de tous. Jusqu'au jour où il apparaîtrait devant Israël.",
+          "text": "L'enfant grandissait. Il devenait fort en esprit. Il vivait dans le désert<span class=\"amplification\">— loin de tout</span> — jusqu'au jour où il est apparu devant Israël.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,

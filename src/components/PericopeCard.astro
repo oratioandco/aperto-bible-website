@@ -36,15 +36,23 @@ interface Props {
     label: string;
   };
   lang: string;
+  chapter?: number;
   isFirst?: boolean;
   layoutIndex?: number;
 }
 
-const { id, title, subtitle, verses, image, verseData, media, exegesis, lang, isFirst, layoutIndex = 0 } = Astro.props;
+const { id, title, subtitle, verses, image, verseData, media, exegesis, lang, chapter = 1, isFirst, layoutIndex = 0 } = Astro.props;
 
 // Parse practice content from markdown to HTML
 const practiceContentHtml = media.practice?.content ? marked.parse(media.practice.content) : '';
 const base = '';
+
+// Determine the exegesis URL based on language availability
+// New languages have localized exegesis, others fall back to English
+const localizedExegesisLangs = ['da', 'es', 'it', 'pt', 'sv', 'uk'];
+const exegesisBasePath = localizedExegesisLangs.includes(lang)
+  ? `${base}/${lang}/exegesis/luke/${chapter}`
+  : `${base}/exegesis/luke/${chapter}`;
 
 const songs: Song[] = media.songs || (media.song ? [{ ...media.song, genre: '' }] : []);
 const hasMedia = media.practice || songs.length > 0 || media.podcast || exegesis || media.audioBible;
@@ -268,7 +276,7 @@ const categoryLabels: Record<string, string> = {
 
           {exegesis && (
             <a
-              href={`${base}/exegesis/luke/1#${exegesis.section}`}
+              href={`${exegesisBasePath}#${exegesis.section}`}
               class="media-card media-card-exegesis group"
             >
               <div class="media-card-inner">

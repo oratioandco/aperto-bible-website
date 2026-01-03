@@ -23,15 +23,15 @@ function getVersesForPericope(verseRange: string, sections: any[]) {
 const base = '';
 ---
 
-<BaseLayout title="Luka 1" lang="tr" description="Luka İncili Bölüm 1 - Perikoplar arasında bir yolculuk">
+<BaseLayout title="Luka 1" lang="tr" description="Luka Bölüm 1">
   <!-- Chapter Header -->
   <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
-    <p class="passage-reference mb-6">Luka'ya Göre İncil</p>
+    <p class="passage-reference mb-6">Luka</p>
     <h1 class="headline-mixed text-5xl md:text-7xl lg:text-8xl mb-6">
       <span class="cap">B</span>ölüm 1
     </h1>
     <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
-      İki imkânsız hamilelik. İki devrimci şarkı. Hikâye başlıyor.
+      İki imkansız hamilelik. İki devrimci şarkı. Hikaye başlıyor.
     </p>
 
     <!-- Table of Contents with Headlines -->
@@ -74,6 +74,7 @@ const base = '';
         media={pericope.media}
         exegesis={pericope.exegesis}
         lang="tr"
+        chapter={1}
         isFirst={index === 0} layoutIndex={index}
       />
     ))}

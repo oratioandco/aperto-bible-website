@@ -15,6 +15,12 @@
               "category": "text",
               "keyword": "Lukas' Methode",
               "content": "Lukas schreibt wie ein antiker Historiker: Augenzeugenberichte sammeln, gründlich nachforschen, geordnet darstellen. Das entspricht den Standards griechischer Geschichtsschreibung."
+            },
+            {
+              "ref": "1,1-4",
+              "category": "apologetics",
+              "keyword": "sorgfältig erkundet",
+              "content": "Lukas betont seine Methodik: Augenzeugen befragt, Quellen geprüft, geordnet dargestellt. Dies entspricht antiker Geschichtsschreibung (vgl. Thukydides). Die über 5.800 griechischen NT-Manuskripte übersteigen jede andere antike Quelle bei weitem (Homer: ~1.900). Textkritische Methoden zeigen hohe Überlieferungstreue. Lukas' Anspruch auf historische Zuverlässigkeit steht auf solider methodischer Grundlage."
             }
           ],
           "isPoetry": false,
@@ -36,7 +42,7 @@
             {
               "ref": "1,3",
               "category": "text",
-              "keyword": "Theophilus",
+              "keyword": "Theophilus (Θεόφιλος)",
               "content": "Griechisch „Gottliebender\". Der Titel κράτιστε war Anrede für römische Beamte und Personen von Rang."
             }
           ],
@@ -51,8 +57,8 @@
             {
               "ref": "1,4",
               "category": "text",
-              "keyword": "Festem Grund",
-              "content": "Griechisch ἀσφάλεια – Sicherheit, Zuverlässigkeit. Lukas will begründetes Vertrauen ermöglichen."
+              "keyword": "festem Grund (ἀσφάλεια)",
+              "content": "Sicherheit, Zuverlässigkeit. Lukas will begründetes Vertrauen ermöglichen."
             }
           ],
           "isPoetry": false,
@@ -70,19 +76,19 @@
           "footnotes": [
             {
               "ref": "1,5",
-              "category": "text",
+              "category": "kontext",
               "keyword": "Herodes",
               "content": "Herodes der Große (reg. 37–4 v. Chr.), von Rom eingesetzter König, berüchtigt für seine Grausamkeit."
             },
             {
               "ref": "1,5",
-              "category": "kontext",
+              "category": "kultur",
               "keyword": "Dienstgruppe Abija",
               "content": "Eine von 24 Priestergruppen, die abwechselnd im Tempel dienten (1 Chr 24,10)."
             },
             {
               "ref": "1,5",
-              "category": "kontext",
+              "category": "kultur",
               "keyword": "Aarons Familie",
               "content": "Beide Partner aus priesterlichen Familien — religiöser Adel. Wenn je eine Familie Gottes Segen verdient hätte, dann diese."
             }
@@ -133,13 +139,13 @@
           "footnotes": [
             {
               "ref": "1,9",
-              "category": "text",
+              "category": "kultur",
               "keyword": "Das Los",
               "content": "Das Losverfahren war Mittel göttlicher Führung (Spr 16,33). Gott wählte Zacharias aus — nicht Zufall."
             },
             {
               "ref": "1,9",
-              "category": "text",
+              "category": "kultur",
               "keyword": "Räucheropfer",
               "content": "Das höchste Privileg eines Priesters. Bei tausenden Priestern konnte ein Mann sein ganzes Leben warten, ohne je ausgelost zu werden."
             }
@@ -150,7 +156,7 @@
         },
         {
           "number": "10",
-          "text": "Er betrat das Heiligtum. <span class=\"amplification\">Allein.</span><p class=\"paragraph-break\"></p> <span class=\"amplification\">Vor ihm der goldene Räucheraltar. Der siebenarmige Leuchter warf flackerndes Licht an die Wände. Hinter ihm der schwere Vorhang, dahinter das Allerheiligste — der Ort, an dem Gott selbst wohnte.</span> Draußen<span class=\"amplification\">, unhörbar,</span> stand das Volk und betete.",
+          "text": "Er betrat das Heiligtum. <span class=\"amplification\">Allein.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Vor ihm der goldene Räucheraltar. Der siebenarmige Leuchter warf flackerndes Licht an die Wände. Hinter ihm der schwere Vorhang, dahinter das Allerheiligste — der Ort, an dem Gott selbst wohnte.</span> Draußen<span class=\"amplification\">, unhörbar,</span> stand das Volk und betete.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -168,7 +174,7 @@
             },
             {
               "ref": "1,11",
-              "category": "text",
+              "category": "kultur",
               "keyword": "Rechts",
               "content": "Die rechte Seite war die Position des Segens und der Gunst (Ps 110,1)."
             }
@@ -235,7 +241,7 @@
           "footnotes": [
             {
               "ref": "1,17",
-              "category": "kultur",
+              "category": "kontext",
               "keyword": "Elia",
               "content": "Maleachi hatte angekündigt, dass Elia vor dem großen Tag des Herrn zurückkehren würde (Mal 3,23-24). Johannes erfüllt diese Rolle."
             }
@@ -264,8 +270,8 @@
             {
               "ref": "1,19",
               "category": "text",
-              "keyword": "Gabriel",
-              "content": "Einer der Erzengel, der „vor Gott steht\". Derselbe Engel erschien Daniel (Dan 8,16; 9,21)."
+              "keyword": "Gabriel (Γαβριήλ)",
+              "content": "Hebräisch „Kraft Gottes\". Einer der Erzengel, der „vor Gott steht\". Derselbe Engel erschien Daniel (Dan 8,16; 9,21)."
             }
           ],
           "isPoetry": false,
@@ -332,7 +338,7 @@
       "verses": [
         {
           "number": "26",
-          "text": "<span class=\"amplification\">Sechs Monate später</span> schickte Gott den Engel Gabriel <span class=\"amplification\">noch einmal. Diesmal nicht in den Tempel. Nicht nach Jerusalem.</span><p class=\"paragraph-break\"></p> <span class=\"amplification\">Nach</span> Galiläa. In ein Dorf namens Nazaret<span class=\"amplification\">. Ein Ort, von dem niemand je gehört hatte</span>.<p class=\"paragraph-break\"></p> <span class=\"amplification\">Kein Tempel. Kein Weihrauch. Kein Volk, das draußen betete. Nur ein Mädchen.</span>",
+          "text": "<span class=\"amplification\">Sechs Monate später</span> schickte Gott den Engel Gabriel <span class=\"amplification\">noch einmal. Diesmal nicht in den Tempel. Nicht nach Jerusalem.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Nach</span> Galiläa. In ein Dorf namens Nazaret<span class=\"amplification\">. Ein Ort, von dem niemand je gehört hatte</span>.<p class=\"paragraph-break\"></p><span class=\"amplification\">Kein Tempel. Kein Weihrauch. Kein Volk, das draußen betete. Nur ein Mädchen.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -344,7 +350,7 @@
           "footnotes": [
             {
               "ref": "1,27",
-              "category": "text",
+              "category": "kultur",
               "keyword": "Verlobung",
               "content": "Verlobung war rechtlich bindend — ein Bruch erforderte formelle Scheidung. Maria lebte noch bei ihrem Vater; die Hochzeit stand noch bevor."
             }
@@ -356,7 +362,14 @@
         {
           "number": "28",
           "text": "Der Engel kam zu ihr und sagte: „Sei gegrüßt, Begnadete! Der Herr ist mit dir.\"",
-          "footnotes": [],
+          "footnotes": [
+            {
+              "ref": "1,28",
+              "category": "text",
+              "keyword": "Begnadete (κεχαριτωμένη)",
+              "content": "Perfekt Passiv Partizip von χαριτόω — betont Gottes vollendetes Handeln an Maria, nicht ihre eigene Leistung. Luther: „Holdselige\"; wörtlich: „die mit Gnade Beschenkte\". Katholische Tradition übersetzt „voll der Gnade\" und sieht hier Grundlage für Marias einzigartige Stellung."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -380,7 +393,14 @@
         {
           "number": "31",
           "text": "Du wirst schwanger werden und einen Sohn zur Welt bringen. <span class=\"amplification\">Nenn</span> ihn Jesus.",
-          "footnotes": [],
+          "footnotes": [
+            {
+              "ref": "1,31",
+              "category": "text",
+              "keyword": "Jesus (Ἰησοῦς)",
+              "content": "Griechische Form des hebräischen Yeschua/Joshua, bedeutet „JHWH rettet\" oder „Gott ist Rettung\". Der Name ist Programm: Er wird sein Volk von ihren Sünden retten (Mt 1,21)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -441,7 +461,7 @@
         },
         {
           "number": "37",
-          "text": "<span class=\"amplification\">Bei</span> Gott ist nichts unmöglich.\"",
+          "text": "<span class=\"amplification\">Bei</span> Gott ist nichts unmöglich.\"<p class=\"paragraph-break\"></p>",
           "footnotes": [
             {
               "ref": "1,37",
@@ -456,13 +476,19 @@
         },
         {
           "number": "38",
-          "text": "<p class=\"paragraph-break\"></p><span class=\"amplification\">Maria wusste, was das bedeutete. Schwanger vor der Hochzeit — das war nicht peinlich. Das war gefährlich. Josef konnte sie verstoßen. Das Gesetz erlaubte Schlimmeres. Ihr Ruf, ihre Zukunft, die Ehre ihrer Familie — alles stand auf dem Spiel. Und das Kind? Es würde als Bastard gelten, sein Leben lang.</span><p class=\"paragraph-break\"></p> <span class=\"amplification\">Und</span> sie sagte: „Ich gehöre dem Herrn. Was du gesagt hast — so soll es sein.\"<p class=\"paragraph-break\"></p> Dann ging der Engel<span class=\"amplification\">von ihr</span>.",
+          "text": "<span class=\"amplification\">Maria wusste, was das bedeutete. Schwanger vor der Hochzeit — das war nicht peinlich. Das war gefährlich. Josef konnte sie verstoßen. Das Gesetz erlaubte Schlimmeres. Ihr Ruf, ihre Zukunft, die Ehre ihrer Familie — alles stand auf dem Spiel. Und das Kind? Es würde als Bastard gelten, sein Leben lang.</span><p class=\"paragraph-break\"></p><span class=\"amplification\">Und</span> sie sagte: „Ich gehöre dem Herrn. Was du gesagt hast — so soll es sein.\"<p class=\"paragraph-break\"></p>Dann ging der Engel<span class=\"amplification\">von ihr</span>.",
           "footnotes": [
             {
               "ref": "1,38",
               "category": "kultur",
               "keyword": "Das Risiko",
               "content": "Eine Verlobte, die schwanger wurde, riskierte öffentliche Schande. Deuteronomium 22,23-24 sah für Ehebruch einer Verlobten die Steinigung vor. Marias Ja war Mut, nicht frommer Reflex."
+            },
+            {
+              "ref": "1,38",
+              "category": "leben",
+              "keyword": "Mir geschehe",
+              "content": "Marias Antwort zeigt einen Weg für Menschen jeden Zeitalters: Gott wirkt durch Einverständnis, nicht durch Zwang. Wahre spirituelle Praxis beginnt mit dem Ja zu Gottes Führung — auch wenn die Konsequenzen unübersehbar sind. Diese Haltung radikaler Verfügbarkeit ist der Kern aller mystischen Traditionen, von Benediktinern bis zu Zen-Buddhisten."
             }
           ],
           "isPoetry": false,
@@ -507,7 +533,7 @@
         },
         {
           "number": "42",
-          "text": "Sie rief laut<span class=\"amplification\">— wie eine Prophetin</span>:<p class=\"paragraph-break\"></p> „Gesegnet bist du<span class=\"amplification\">, mehr als alle anderen Frauen</span>! Gesegnet ist <span class=\"amplification\">das Kind in</span> deinem Leib!",
+          "text": "Sie rief laut<span class=\"amplification\">— wie eine Prophetin</span>:<p class=\"paragraph-break\"></p>„Gesegnet bist du<span class=\"amplification\">, mehr als alle anderen Frauen</span>! Gesegnet ist <span class=\"amplification\">das Kind in</span> deinem Leib!",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -535,7 +561,7 @@
           "footnotes": [
             {
               "ref": "1,45",
-              "category": "text",
+              "category": "kontext",
               "keyword": "Du hast geglaubt",
               "content": "Elisabet preist Maria für ihren Glauben — im Gegensatz zu Zacharias, der zweifelte."
             }
@@ -571,19 +597,28 @@
         },
         {
           "number": "47",
-          "text": "Mein Geist jubelt über meinen Retter.",
+          "text": "<span class=\"poetry-line-1\">Mein Geist jubelt über meinen Retter.</span>",
           "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "Mein Geist jubelt über meinen Retter.",
+              "level": 1
+            }
+          ]
         },
         {
           "number": "48",
-          "text": "Er hat mich gesehen.<span class=\"poetry-line-2\">Mich, die Kleine.</span><span class=\"poetry-line-2\">Die Unbedeutende.</span><span class=\"poetry-line-1\">Ab jetzt werden alle Generationen sagen: Sie ist gesegnet.</span>",
+          "text": "<span class=\"poetry-line-1\">Er hat mich gesehen.</span><span class=\"poetry-line-2\">Mich, die Kleine.</span><span class=\"poetry-line-2\">Die Unbedeutende.</span><span class=\"poetry-line-1\">Ab jetzt werden alle Generationen sagen: Sie ist gesegnet.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Er hat mich gesehen.",
+              "level": 1
+            },
             {
               "text": "Mich, die Kleine.",
               "level": 2
@@ -600,11 +635,15 @@
         },
         {
           "number": "49",
-          "text": "Denn der Mächtige hat Großes an mir getan.<span class=\"poetry-line-2\">Heilig ist sein Name.</span>",
+          "text": "<span class=\"poetry-line-1\">Denn der Mächtige hat Großes an mir getan.</span><span class=\"poetry-line-2\">Heilig ist sein Name.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Denn der Mächtige hat Großes an mir getan.",
+              "level": 1
+            },
             {
               "text": "Heilig ist sein Name.",
               "level": 2
@@ -613,11 +652,15 @@
         },
         {
           "number": "50",
-          "text": "Seine Güte gilt denen, die ihn ernst nehmen —<span class=\"poetry-line-2\">von Generation zu Generation.</span>",
+          "text": "<span class=\"poetry-line-1\">Seine Güte gilt denen, die ihn ernst nehmen —</span><span class=\"poetry-line-2\">von Generation zu Generation.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Seine Güte gilt denen, die ihn ernst nehmen —",
+              "level": 1
+            },
             {
               "text": "von Generation zu Generation.",
               "level": 2
@@ -626,11 +669,15 @@
         },
         {
           "number": "51",
-          "text": "Stark ist sein Arm.<span class=\"poetry-line-1\">Die Stolzen? Auseinandergejagt<span class=\"amplification\">, mitsamt ihren großen Plänen</span>.</span>",
+          "text": "<span class=\"poetry-line-1\">Stark ist sein Arm.</span><span class=\"poetry-line-1\">Die Stolzen? Auseinandergejagt<span class=\"amplification\">, mitsamt ihren großen Plänen</span>.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Stark ist sein Arm.",
+              "level": 1
+            },
             {
               "text": "Die Stolzen? Auseinandergejagt<span class=\"amplification\">, mitsamt ihren großen Plänen</span>.",
               "level": 1
@@ -639,11 +686,15 @@
         },
         {
           "number": "52",
-          "text": "Herrscher? Vom Thron gestürzt.<span class=\"poetry-line-1\">Die Kleinen? Hochgehoben.</span>",
+          "text": "<span class=\"poetry-line-1\">Herrscher? Vom Thron gestürzt.</span><span class=\"poetry-line-1\">Die Kleinen? Hochgehoben.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Herrscher? Vom Thron gestürzt.",
+              "level": 1
+            },
             {
               "text": "Die Kleinen? Hochgehoben.",
               "level": 1
@@ -652,11 +703,22 @@
         },
         {
           "number": "53",
-          "text": "Die Hungrigen? Satt mit allem Guten.<span class=\"poetry-line-1\">Die Reichen? Weggeschickt. Mit leeren Händen.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Die Hungrigen? Satt mit allem Guten.</span><span class=\"poetry-line-1\">Die Reichen? Weggeschickt. Mit leeren Händen.</span>",
+          "footnotes": [
+            {
+              "ref": "1,51-53",
+              "category": "leben",
+              "keyword": "Gottes Umkehrung",
+              "content": "Marias Vision zeigt Gottes charakteristische Art zu handeln: durch Umkehrung der Machtverhältnisse. Das ist kein Aufruf zur politischen Revolution, sondern Beschreibung der göttlichen Logik. Wo Menschen denken, Gott müsse die Mächtigen bevorzugen, wählt er bewusst die Marginalen. Diese Perspektive hilft in Zeiten eigener Ohnmacht: Gottes Aufmerksamkeit gilt nicht den Erfolgreichen, sondern den Übersehenen."
+            }
+          ],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Die Hungrigen? Satt mit allem Guten.",
+              "level": 1
+            },
             {
               "text": "Die Reichen? Weggeschickt. Mit leeren Händen.",
               "level": 1
@@ -665,11 +727,15 @@
         },
         {
           "number": "54",
-          "text": "Er hat Israel geholfen, seinem Diener.<span class=\"poetry-line-2\">Er hat an seine Güte gedacht —</span>",
+          "text": "<span class=\"poetry-line-1\">Er hat Israel geholfen, seinem Diener.</span><span class=\"poetry-line-2\">Er hat an seine Güte gedacht —</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Er hat Israel geholfen, seinem Diener.",
+              "level": 1
+            },
             {
               "text": "Er hat an seine Güte gedacht —",
               "level": 2
@@ -678,11 +744,15 @@
         },
         {
           "number": "55",
-          "text": "wie er es unseren Vorfahren versprochen hat:<span class=\"poetry-line-2\">Abraham und seinen Nachkommen.</span><span class=\"poetry-line-2\">Für immer.</span>",
+          "text": "<span class=\"poetry-line-1\">wie er es unseren Vorfahren versprochen hat:</span><span class=\"poetry-line-2\">Abraham und seinen Nachkommen.</span><span class=\"poetry-line-2\">Für immer.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "wie er es unseren Vorfahren versprochen hat:",
+              "level": 1
+            },
             {
               "text": "Abraham und seinen Nachkommen.",
               "level": 2
@@ -695,7 +765,7 @@
         },
         {
           "number": "56",
-          "text": "<p class=\"paragraph-break\"></p>Maria blieb etwa drei Monate bei Elisabet. Dann kehrte sie nach Hause zurück.",
+          "text": "Maria blieb etwa drei Monate bei Elisabet. Dann kehrte sie nach Hause zurück.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -716,7 +786,7 @@
         },
         {
           "number": "58",
-          "text": "Die Nachbarn und Verwandten hörten, <span class=\"amplification\">was geschehen war:</span> Der Herr hatte ihr großes Erbarmen gezeigt. Sie freuten sich mit ihr.",
+          "text": "Die Nachbarn und Verwandten hörten, <span class=\"amplification\">was geschehen war:</span> Der Herr hatte ihr großes Erbarmen gezeigt. Sie freuten sich mit ihr.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -724,7 +794,7 @@
         },
         {
           "number": "59",
-          "text": "<p class=\"paragraph-break\"></p>Am achten Tag kamen sie zur Beschneidung<span class=\"amplification\">— dem uralten Bundeszeichen, bei dem das Kind seinen Namen erhielt</span>. Sie wollten es Zacharias nennen, nach dem Vater.",
+          "text": "Am achten Tag kamen sie zur Beschneidung<span class=\"amplification\">— dem uralten Bundeszeichen, bei dem das Kind seinen Namen erhielt</span>. Sie wollten es Zacharias nennen, nach dem Vater.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -740,7 +810,7 @@
         },
         {
           "number": "61",
-          "text": "Sie wandten ein: „In eurer Familie heißt niemand so!\" <span class=\"amplification\">Ein Kind nach einem Fremden benennen? Das tat man nicht.</span>",
+          "text": "Sie wandten ein: „In eurer Familie heißt niemand so!\" <span class=\"amplification\">Ein Kind nach einem Fremden benennen? Das tat man nicht.</span><p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -748,7 +818,7 @@
         },
         {
           "number": "62",
-          "text": "<p class=\"paragraph-break\"></p>Sie fragten den Vater mit Zeichen<span class=\"amplification\">— sie dachten wohl, er sei auch taub geworden</span>. Wie sollte das Kind heißen?",
+          "text": "Sie fragten den Vater mit Zeichen<span class=\"amplification\">— sie dachten wohl, er sei auch taub geworden</span>. Wie sollte das Kind heißen?",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -756,7 +826,7 @@
         },
         {
           "number": "63",
-          "text": "Er bat um eine Schreibtafel und schrieb: „Johannes ist sein Name.\"<p class=\"paragraph-break\"></p> Alle staunten.",
+          "text": "Er bat um eine Schreibtafel und schrieb: „Johannes ist sein Name.\"<p class=\"paragraph-break\"></p>Alle staunten.<p class=\"paragraph-break\"></p>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -764,7 +834,7 @@
         },
         {
           "number": "64",
-          "text": "<p class=\"paragraph-break\"></p>Im selben Augenblick öffnete sich sein Mund. Seine Zunge löste sich. Er sprach — <span class=\"amplification\">und seine ersten Worte nach neun Monaten Schweigen waren</span> Lob für Gott.",
+          "text": "Im selben Augenblick öffnete sich sein Mund. Seine Zunge löste sich. Er sprach — <span class=\"amplification\">und seine ersten Worte nach neun Monaten Schweigen waren</span> Lob für Gott.<p class=\"paragraph-break\"></p>",
           "footnotes": [
             {
               "ref": "1,64",
@@ -779,7 +849,7 @@
         },
         {
           "number": "65",
-          "text": "<p class=\"paragraph-break\"></p>Schauer ergriff alle Nachbarn. Im ganzen Bergland von Judäa sprach man davon.",
+          "text": "Schauer ergriff alle Nachbarn. Im ganzen Bergland von Judäa sprach man davon.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -804,7 +874,7 @@
           "footnotes": [
             {
               "ref": "1,67-79",
-              "category": "text",
+              "category": "kontext",
               "keyword": "Benedictus",
               "content": "Das Benedictus hat zwei Teile: Lob für Gottes Erlösung Israels (68-75) und Prophezeiung über Johannes' Auftrag (76-79)."
             }
@@ -815,11 +885,15 @@
         },
         {
           "number": "68",
-          "text": "Gelobt sei der Herr, der Gott Israels!<span class=\"poetry-line-1\">Er hat sein Volk besucht. Er hat es befreit.</span>",
+          "text": "<span class=\"poetry-line-1\">Gelobt sei der Herr, der Gott Israels!</span><span class=\"poetry-line-1\">Er hat sein Volk besucht. Er hat es befreit.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Gelobt sei der Herr, der Gott Israels!",
+              "level": 1
+            },
             {
               "text": "Er hat sein Volk besucht. Er hat es befreit.",
               "level": 1
@@ -828,18 +902,22 @@
         },
         {
           "number": "69",
-          "text": "Er hat uns einen starken Retter geschenkt —<span class=\"poetry-line-2\">aus dem Haus Davids, seines Dieners.</span>",
+          "text": "<span class=\"poetry-line-1\">Er hat uns einen starken Retter geschenkt —</span><span class=\"poetry-line-2\">aus dem Haus Davids, seines Dieners.</span>",
           "footnotes": [
             {
               "ref": "1,69",
               "category": "text",
-              "keyword": "Starker Retter",
+              "keyword": "Starker Retter (κέρας σωτηρίας)",
               "content": "Wörtlich „Horn der Rettung\" — ein Bild für Stärke und Macht (Ps 18,3)."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Er hat uns einen starken Retter geschenkt —",
+              "level": 1
+            },
             {
               "text": "aus dem Haus Davids, seines Dieners.",
               "level": 2
@@ -848,11 +926,15 @@
         },
         {
           "number": "70",
-          "text": "So hat er es versprochen,<span class=\"poetry-line-2\">vor langer Zeit,</span><span class=\"poetry-line-2\">durch seine Propheten:</span>",
+          "text": "<span class=\"poetry-line-1\">So hat er es versprochen,</span><span class=\"poetry-line-2\">vor langer Zeit,</span><span class=\"poetry-line-2\">durch seine Propheten:</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "So hat er es versprochen,",
+              "level": 1
+            },
             {
               "text": "vor langer Zeit,",
               "level": 2
@@ -865,11 +947,15 @@
         },
         {
           "number": "71",
-          "text": "Rettung von unseren Feinden.<span class=\"poetry-line-2\">Rettung von allen, die uns hassen.</span>",
+          "text": "<span class=\"poetry-line-1\">Rettung von unseren Feinden.</span><span class=\"poetry-line-2\">Rettung von allen, die uns hassen.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Rettung von unseren Feinden.",
+              "level": 1
+            },
             {
               "text": "Rettung von allen, die uns hassen.",
               "level": 2
@@ -878,11 +964,15 @@
         },
         {
           "number": "72",
-          "text": "Er hat unseren Vorfahren Güte gezeigt.<span class=\"poetry-line-2\">Er hat an seinen heiligen Bund gedacht —</span>",
+          "text": "<span class=\"poetry-line-1\">Er hat unseren Vorfahren Güte gezeigt.</span><span class=\"poetry-line-2\">Er hat an seinen heiligen Bund gedacht —</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Er hat unseren Vorfahren Güte gezeigt.",
+              "level": 1
+            },
             {
               "text": "Er hat an seinen heiligen Bund gedacht —",
               "level": 2
@@ -891,19 +981,28 @@
         },
         {
           "number": "73",
-          "text": "an den Eid, den er Abraham schwor, unserem Vater:",
+          "text": "<span class=\"poetry-line-1\">an den Eid, den er Abraham schwor, unserem Vater:</span>",
           "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": [
+            {
+              "text": "an den Eid, den er Abraham schwor, unserem Vater:",
+              "level": 1
+            }
+          ]
         },
         {
           "number": "74",
-          "text": "Befreit von unseren Feinden<span class=\"poetry-line-2\">können wir ihm dienen,</span>",
+          "text": "<span class=\"poetry-line-1\">Befreit von unseren Feinden</span><span class=\"poetry-line-2\">können wir ihm dienen,</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Befreit von unseren Feinden",
+              "level": 1
+            },
             {
               "text": "können wir ihm dienen,",
               "level": 2
@@ -912,11 +1011,15 @@
         },
         {
           "number": "75",
-          "text": "ohne Furcht,<span class=\"poetry-line-2\">ihm geweiht und gerecht,</span><span class=\"poetry-line-2\">unser Leben lang.</span>",
+          "text": "<span class=\"poetry-line-1\">ohne Furcht,</span><span class=\"poetry-line-2\">ihm geweiht und gerecht,</span><span class=\"poetry-line-2\">unser Leben lang.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "ohne Furcht,",
+              "level": 1
+            },
             {
               "text": "ihm geweiht und gerecht,",
               "level": 2
@@ -929,11 +1032,15 @@
         },
         {
           "number": "76",
-          "text": "Und du, mein Kind —<span class=\"poetry-line-2\">Prophet des Höchsten wirst du genannt werden.</span><span class=\"poetry-line-1\">Du wirst vor dem Herrn hergehen</span><span class=\"poetry-line-2\">und ihm den Weg bereiten.</span>",
+          "text": "<span class=\"poetry-line-1\">Und du, mein Kind —</span><span class=\"poetry-line-2\">Prophet des Höchsten wirst du genannt werden.</span><span class=\"poetry-line-1\">Du wirst vor dem Herrn hergehen</span><span class=\"poetry-line-2\">und ihm den Weg bereiten.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Und du, mein Kind —",
+              "level": 1
+            },
             {
               "text": "Prophet des Höchsten wirst du genannt werden.",
               "level": 2
@@ -950,11 +1057,15 @@
         },
         {
           "number": "77",
-          "text": "Du wirst seinem Volk zeigen, was Rettung bedeutet:<span class=\"poetry-line-2\">Vergebung der Schuld.</span>",
+          "text": "<span class=\"poetry-line-1\">Du wirst seinem Volk zeigen, was Rettung bedeutet:</span><span class=\"poetry-line-2\">Vergebung der Schuld.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "Du wirst seinem Volk zeigen, was Rettung bedeutet:",
+              "level": 1
+            },
             {
               "text": "Vergebung der Schuld.",
               "level": 2
@@ -963,24 +1074,28 @@
         },
         {
           "number": "78",
-          "text": "<span class=\"amplification\">All das geschieht</span> weil unser Gott voller Erbarmen ist.<span class=\"poetry-line-1\">Das Licht aus der Höhe wird uns besuchen,</span>",
+          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">All das geschieht</span> weil unser Gott voller Erbarmen ist.</span><span class=\"poetry-line-1\">Das Licht aus der Höhe wird uns besuchen,</span>",
           "footnotes": [
             {
               "ref": "1,78",
               "category": "text",
-              "keyword": "Voller Erbarmen",
-              "content": "Griechisch σπλάγχνα ἐλέους — wörtlich „Eingeweide der Barmherzigkeit\". Die Antike verortete tiefe Gefühle im Bauch, nicht im Herzen. Gemeint ist: tiefste, körperlich empfundene Zuneigung."
+              "keyword": "Voller Erbarmen (σπλάγχνα ἐλέους)",
+              "content": "Wörtlich „Eingeweide der Barmherzigkeit\". Die Antike verortete tiefe Gefühle im Bauch, nicht im Herzen. Gemeint ist: tiefste, körperlich empfundene Zuneigung."
             },
             {
               "ref": "1,78",
               "category": "text",
-              "keyword": "Licht aus der Höhe",
-              "content": "Griechisch ἀνατολή kann „Aufgang\" (Sonnenaufgang) oder „Spross\" (messianischer Titel) bedeuten."
+              "keyword": "Licht aus der Höhe (ἀνατολή)",
+              "content": "Kann „Aufgang\" (Sonnenaufgang) oder „Spross\" (messianischer Titel) bedeuten."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "<span class=\"amplification\">All das geschieht</span> weil unser Gott voller Erbarmen ist.",
+              "level": 1
+            },
             {
               "text": "Das Licht aus der Höhe wird uns besuchen,",
               "level": 1
@@ -989,18 +1104,28 @@
         },
         {
           "number": "79",
-          "text": "um zu leuchten für alle,<span class=\"poetry-line-2\">die im Dunkeln sitzen,</span><span class=\"poetry-line-2\">im Schatten des Todes —</span><span class=\"poetry-line-1\">und unsere Schritte auf den Weg des Friedens zu lenken.</span>",
+          "text": "<span class=\"poetry-line-1\">um zu leuchten für alle,</span><span class=\"poetry-line-2\">die im Dunkeln sitzen,</span><span class=\"poetry-line-2\">im Schatten des Todes —</span><span class=\"poetry-line-1\">und unsere Schritte auf den Weg des Friedens zu lenken.</span>",
           "footnotes": [
             {
               "ref": "1,79",
               "category": "kontext",
               "keyword": "Im Dunkeln, im Schatten des Todes",
               "content": "Anspielung auf Jesaja 9,1 — Licht für das unterdrückte Volk."
+            },
+            {
+              "ref": "1,79",
+              "category": "leben",
+              "keyword": "Weg des Friedens",
+              "content": "Zacharias' Vision vom „Weg des Friedens\" bleibt hochaktuell. In einer Welt voller Konflikte und Spannungen — zwischen Kulturen, Generationen, Weltanschauungen — zeigt der Text einen anderen Weg: Nicht Unterwerfung der Gegner, sondern Leitung der eigenen Schritte zum Frieden hin. Das beginnt mit der persönlichen Entscheidung, aus Zynismus und Verbitterung herauszufinden."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 0,
+          "poetryLevel": 1,
           "lines": [
+            {
+              "text": "um zu leuchten für alle,",
+              "level": 1
+            },
             {
               "text": "die im Dunkeln sitzen,",
               "level": 2

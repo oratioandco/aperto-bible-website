@@ -1,0 +1,84 @@
+{
+  "book": "Luca",
+  "chapter": 3,
+  "pericopes": [
+    {
+      "id": "john-ministry",
+      "title": "La voce nel deserto",
+      "subtitle": "",
+      "verses": "1-6",
+      "color": "#E8E4DC",
+      "accentColor": "#8B7355",
+      "exegesis": {
+        "section": "pericope-1-john-ministry",
+        "label": "Approfondire"
+      },
+      "media": {}
+    },
+    {
+      "id": "john-preaching",
+      "title": "Che cosa dobbiamo fare?",
+      "subtitle": "",
+      "verses": "7-14",
+      "color": "#E4E8F0",
+      "accentColor": "#4A7C9E",
+      "exegesis": {
+        "section": "pericope-2-john-preaching",
+        "label": "Approfondire"
+      },
+      "media": {}
+    },
+    {
+      "id": "messiah-expectation",
+      "title": "Qualcuno più forte",
+      "subtitle": "",
+      "verses": "15-18",
+      "color": "#F0E8E4",
+      "accentColor": "#D4A574",
+      "exegesis": {
+        "section": "pericope-3-messiah",
+        "label": "Approfondire"
+      },
+      "media": {}
+    },
+    {
+      "id": "john-imprisoned",
+      "title": "Giovanni in prigione",
+      "subtitle": "",
+      "verses": "19-20",
+      "color": "#E8E4F0",
+      "accentColor": "#8B7399",
+      "exegesis": {
+        "section": "pericope-4-imprisoned",
+        "label": "Approfondire"
+      },
+      "media": {}
+    },
+    {
+      "id": "jesus-baptism",
+      "title": "Il battesimo di Gesù",
+      "subtitle": "",
+      "verses": "21-22",
+      "color": "#E4F0E8",
+      "accentColor": "#4A9B7C",
+      "exegesis": {
+        "section": "pericope-5-baptism",
+        "label": "Approfondire"
+      },
+      "media": {}
+    },
+    {
+      "id": "genealogy",
+      "title": "La genealogia di Gesù",
+      "subtitle": "",
+      "verses": "23-38",
+      "color": "#F0F0E4",
+      "accentColor": "#9B8B4A",
+      "exegesis": {
+        "section": "pericope-6-genealogy",
+        "label": "Approfondire"
+      },
+      "media": {}
+    }
+  ]
+}
