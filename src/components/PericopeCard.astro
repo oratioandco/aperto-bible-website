@@ -285,8 +285,32 @@ const categoryLabels: Record<string, string> = {
                     <span class="material-symbols-rounded text-xl">menu_book</span>
                   </div>
                   <div class="media-card-text">
-                    <span class="media-card-label">{lang === 'de' ? 'Exegese' : 'Exegesis'}</span>
-                    <span class="media-card-title">{lang === 'de' ? 'Tiefer studieren' : 'Study deeper'}</span>
+                    <span class="media-card-label">{
+                      lang === 'da' ? 'Eksegese' :
+                      lang === 'de' ? 'Exegese' :
+                      lang === 'es' ? 'Exégesis' :
+                      lang === 'fr' ? 'Exégèse' :
+                      lang === 'it' ? 'Esegesi' :
+                      lang === 'pl' ? 'Egzegeza' :
+                      lang === 'pt' ? 'Exegese' :
+                      lang === 'sv' ? 'Exeges' :
+                      lang === 'tr' ? 'Tefsir' :
+                      lang === 'uk' ? 'Екзегеза' :
+                      'Exegesis'
+                    }</span>
+                    <span class="media-card-title">{
+                      lang === 'da' ? 'Studér dybere' :
+                      lang === 'de' ? 'Tiefer studieren' :
+                      lang === 'es' ? 'Estudiar más' :
+                      lang === 'fr' ? 'Approfondir' :
+                      lang === 'it' ? 'Approfondire' :
+                      lang === 'pl' ? 'Studiuj głębiej' :
+                      lang === 'pt' ? 'Estudar mais' :
+                      lang === 'sv' ? 'Studera djupare' :
+                      lang === 'tr' ? 'Derinlemesine çalış' :
+                      lang === 'uk' ? 'Вивчати глибше' :
+                      'Study deeper'
+                    }</span>
                   </div>
                 </div>
                 <div class="media-card-arrow">
