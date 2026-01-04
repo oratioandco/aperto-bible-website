@@ -62,7 +62,7 @@ function parseUSFM(content) {
     if (line.match(/^\\p\s*$/)) {
       inPoetry = false;
       if (currentVerse && currentVerse.text) {
-        currentVerse.text += '<p class="paragraph-break"></p>';
+        currentVerse.text += '<span class="paragraph-break"></span>';
       }
       continue;
     }
@@ -84,7 +84,7 @@ function parseUSFM(content) {
         // Pure continuation text after \p
         const text = line.replace(/^\\p\s*/, "");
         if (text.trim() && currentVerse) {
-          currentVerse.text += '<p class="paragraph-break"></p>';
+          currentVerse.text += '<span class="paragraph-break"></span>';
           processLine(text, currentVerse, 0);
         }
       }
@@ -399,7 +399,6 @@ function processLine(text, verse, poetryLevel = 0) {
         // Add space separator for prose if needed
         if (
           processedText &&
-          !processedText.endsWith("</p>") &&
           !processedText.endsWith("</span>") &&
           !processedText.endsWith(">")
         ) {
@@ -414,7 +413,6 @@ function processLine(text, verse, poetryLevel = 0) {
     // Add to verse text
     if (
       verse.text &&
-      !verse.text.endsWith("</p>") &&
       !verse.text.endsWith("</span>") &&
       !verse.text.endsWith(">") &&
       poetryLevel === 0
