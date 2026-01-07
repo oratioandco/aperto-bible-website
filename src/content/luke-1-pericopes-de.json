@@ -3,228 +3,116 @@
   "chapter": 1,
   "pericopes": [
     {
-      "id": "prolog",
-      "title": "Warum ich das hier schreibe",
-      "subtitle": "Lukas' Vorwort und Widmung",
+      "id": "prologue",
+      "title": "Warum ich das schreibe",
+      "subtitle": "",
       "verses": "1-4",
       "color": "#E8E4DC",
       "accentColor": "#8B7355",
-      "image": "luke_01_prologue.jpeg",
       "exegesis": {
         "section": "pericope-1-prologue-11-4",
-        "label": "Tiefer studieren: Griechischer Text, Kommentare, kultureller Kontext"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "podcast": {
-          "title": "Warum ich das hier schreibe",
-          "duration": "~8 Min",
-          "description": "Samuel und Maya erkunden Lukas' einzigartigen klassischen griechischen Prolog."
-        }
-      }
+      "media": {},
+      "image": "luke_01_prologue.jpeg"
     },
     {
       "id": "zacharias-elisabeth",
-      "title": "Ein alter Priester, ein leeres Kinderzimmer",
-      "subtitle": "Zacharias und Elisabeths Geschichte",
+      "title": "Ein alter Priester und ein unmögliches Versprechen",
+      "subtitle": "",
       "verses": "5-25",
       "color": "#E4E8E4",
       "accentColor": "#6B8E7F",
-      "image": "luke_01_zechariah_temple.jpeg",
       "exegesis": {
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
-        "label": "Tiefer studieren: Priesterordnungen, Kinderlosigkeit in Israel, Geburtsankündigungen"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "practice": {
-          "title": "In der Stille warten",
-          "verseRef": "1:20-22",
-          "content": "### Die Übung\n\nZacharias wird stumm – nicht als Strafe, sondern als Einladung. Neun Monate lang kann er nicht sprechen. In einer Welt, die von Worten, Meinungen und ständiger Kommunikation überflutet ist, klingt das zunächst wie ein Albtraum. Doch was, wenn erzwungene Stille auch ein Geschenk sein kann?\n\nDie kontemplative Tradition des Christentums kennt das „heilige Schweigen\" – Zeiten, in denen man bewusst auf Worte verzichtet, um tiefer zu hören. Nicht das Schweigen der Leere, sondern das Schweigen der Aufmerksamkeit. Wer ständig redet (oder scrollt, tippt, konsumiert), hat wenig Raum für das, was zwischen den Worten liegt.\n\nZacharias' Stummheit war unfreiwillig. Diese Übung lädt ein, freiwillig in die Stille zu gehen – nicht um etwas zu erreichen, sondern um zu bemerken, was schon da ist.\n\n### Warum das funktioniert\n\nNeurowissenschaftliche Studien zeigen: Stille reduziert Cortisol (Stresshormon) und aktiviert Gehirnregionen, die mit Selbstreflexion und Empathie verbunden sind. Schon 15 Minuten täglicher Stille können messbare Effekte auf Blutdruck und emotionale Regulation haben.\n\n### So geht's (15-20 Minuten)\n\n1. **Vorbereitung** (2 Min): Finde einen ruhigen Ort. Schalte dein Handy aus – nicht auf stumm, sondern aus. Setz dich bequem hin.\n\n2. **Ankunft** (3 Min): Schließe die Augen. Atme dreimal tief durch. Lass den Tag los. Du musst jetzt nirgendwo sein und nichts tun.\n\n3. **Die Stille** (10 Min): Sitze einfach. Wenn Gedanken kommen (und sie werden kommen), nimm sie wahr wie Wolken, die vorbeiziehen. Kein Bewerten, kein Festhalten. Nur da sein.\n\n4. **Bemerken** (3 Min): Was ist aufgetaucht? Ein Gefühl? Eine Erinnerung? Ein körperliches Empfinden? Halte kurz inne und nimm wahr, ohne zu analysieren.\n\n5. **Abschluss**: Öffne die Augen. Nimm einen tiefen Atemzug. Du bist wieder da.\n\n### Für Anfänger\n\nWenn 10 Minuten Stille sich endlos anfühlen: Beginne mit 3 Minuten. Niemand erwartet Perfektion. Dein Geist wird wandern – das ist normal, kein Versagen. Jedes Bemerken, dass du abgeschweift bist, ist bereits ein Moment der Aufmerksamkeit.\n\n### Ohne religiösen Rahmen\n\nStille ist Stille – sie braucht keinen Glauben. Wenn das Wort „Gebet\" fremd klingt, nenne es Meditation oder einfach: bewusstes Nichtstun. Die Wirkung bleibt dieselbe.\n\n---"
-        },
-        "podcast": {
-          "title": "Ein alter Priester, ein leeres Kinderzimmer",
-          "duration": "~10 Min",
-          "description": "Tempelrituale, Gabriels Erscheinung, und warum Zacharias' Zweifel zu neun Monaten Schweigen führte."
-        },
-        "songs": [
-          {
-            "title": "Keine Angst",
-            "mp3": "keine_angst_de.mp3",
-            "genre": "Ballad",
-            "description": "Fürchte dich nicht - Gabriels Botschaft an Zacharias und Maria"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_zechariah_temple.jpeg"
     },
     {
-      "id": "verkuendigung",
-      "title": "Maria sagt Ja",
-      "subtitle": "Der Engel Gabriel besucht Maria",
+      "id": "annunciation",
+      "title": "Im Tempel",
+      "subtitle": "",
       "verses": "26-38",
       "color": "#F0E8E4",
       "accentColor": "#D4A574",
-      "image": "luke_01_annunciation.jpeg",
       "exegesis": {
         "section": "pericope-3-mary-says-yes-126-38",
-        "label": "Tiefer studieren: Gabriel, Marias Alter, göttliche Überschattung"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "practice": {
-          "title": "Fiat: Ja sagen zum Unbekannten",
-          "verseRef": "1:26-38",
-          "content": "**Die Praxis**: „Fiat\" — lateinisch für „es geschehe\" — ist Marias Antwort auf den Engel: „Mir geschehe, wie du gesagt hast.\" In diesem einen Wort steckt eine ganze Spiritualität. Maria versteht nicht, wie das Versprochene geschehen soll. Sie fragt nach — aber dann sagt sie Ja. Nicht blindes Ja. Nicht resigniertes Ja. Sondern vertrauendes Ja zu einem Gott, der größer ist als ihr Verstehen.\n\nDie ignatianische Tradition nennt diese Haltung „Indifferenz\" — nicht Gleichgültigkeit, sondern innere Freiheit. Die Freiheit, nicht an den eigenen Plänen zu klammern, sondern offen zu werden für Gottes Weg. Diese Praxis lädt dich ein, deinen Widerstand gegen das Unbekannte wahrzunehmen — und wie Maria ein Ja zu wagen.\n\n**Warum das wirkt**: Christen üben seit zweitausend Jahren, Kontrolle abzugeben und Gott zu vertrauen. Die moderne Psychologie bestätigt inzwischen, was Betende längst wussten: Die Fähigkeit, Unsicherheit auszuhalten („Ambiguitätstoleranz\"), ist ein Zeichen innerer Stärke und fördert psychische Gesundheit. Aber das ist nur der messbare Nebeneffekt. Der eigentliche Punkt ist: Gott begegnen. Ihm vertrauen lernen, bevor die Krise kommt.\n\n**So geht's** (15-20 Minuten):\n\n1. **Ankommen** (3 Minuten): Setz dich bequem hin. Schließ die Augen. Atme tief ein und aus. Lass den Tag hinter dir. Du bist jetzt hier — vor Gott.\n\n2. **Lesen** (5 Minuten): Lies Lukas 1,26-38 langsam. Stell dir die Szene vor: Ein einfaches Zimmer in Nazareth. Eine junge Frau. Ein Bote mit einer unmöglichen Nachricht. Lies die Passage ein zweites Mal. Achte auf das, was dich berührt.\n\n   *Kürzer? Lies nur die Verse 34-38 — Marias Frage und ihr Ja.*\n\n3. **Nachspüren** (5 Minuten): Maria fragt: „Wie soll das geschehen?\" — aber sie wartet die Antwort ab und sagt dann Ja.\n   - Wo in deinem Leben steht eine Entscheidung an, deren Ausgang du nicht kennst?\n   - Was hält dich zurück? Angst? Das Bedürfnis nach Kontrolle? Vergangene Enttäuschungen?\n   - Wie würde es sich anfühlen, Gott zu vertrauen — auch ohne alle Antworten zu haben?\n\n   *Oder frag dich einfach: Was würde passieren, wenn ich trotzdem Ja sage — zum Leben, zum nächsten Schritt, zum Wagnis? Manchmal beginnt Vertrauen mit einem Schritt ins Unbekannte.*\n\n4. **Fiat sprechen** (5 Minuten): Sprich Marias Worte langsam und bewusst — in deiner Situation:\n   > „Mir geschehe nach deinem Wort.\"\n\n   Du musst nicht verstehen, wie es ausgehen wird. Es reicht, dem zu vertrauen, der den Weg kennt.\n\n5. **Stille** (2 Minuten): Bleib einen Moment sitzen. Nimm wahr, was sich verändert hat. Danke Gott für seine Gegenwart.\n\n   *Wenig Zeit? Schritt 2 und 4 reichen. Lies, sprich das Fiat, geh weiter. Fünf Minuten können einen Tag verändern.*"
-        },
-        "songs": [
-          {
-            "title": "Ich spring",
-            "mp3": "42_luke_01_26-38_annunciation_de_v3.mp3",
-            "genre": "Electronic Pop",
-            "description": "Die Verkündigung als Song erleben"
-          },
-          {
-            "title": "Keine Angst",
-            "mp3": "keine_angst_de.mp3",
-            "genre": "Ballad",
-            "description": "Fürchte dich nicht - Gabriels Botschaft"
-          }
-        ],
-        "podcast": {
-          "title": "Maria sagt Ja",
-          "duration": "~10 Min",
-          "description": "Marias radikale Zustimmung, ihr Alter und sozialer Status."
-        }
-      }
+      "media": {},
+      "image": "luke_01_annunciation.jpeg"
     },
     {
-      "id": "heimsuchung",
-      "title": "Zwei Frauen, zwei Wunder",
-      "subtitle": "Maria besucht Elisabeth",
+      "id": "visitation",
+      "title": "Die Verheißung",
+      "subtitle": "",
       "verses": "39-45",
       "color": "#E8E4F0",
       "accentColor": "#8B7399",
-      "image": "luke_01_visitation.jpeg",
       "exegesis": {
         "section": "pericope-4-two-women-two-miracles-139-45",
-        "label": "Tiefer studieren: Die Reise nach Judäa, Elisabeths Segen"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "podcast": {
-          "title": "Zwei Frauen, zwei Wunder",
-          "duration": "~8 Min",
-          "description": "Die Begegnung zweier wunderbarer Schwangerschaften."
-        }
-      }
+      "media": {},
+      "image": "luke_01_visitation.jpeg"
     },
     {
       "id": "magnificat",
-      "title": "Marias Lied",
-      "subtitle": "Das Magnificat",
+      "title": "Zacharias zweifelt",
+      "subtitle": "",
       "verses": "46-56",
       "color": "#E4E8F0",
       "accentColor": "#4A7C9E",
-      "image": "luke_01_magnificat.jpeg",
       "exegesis": {
         "section": "pericope-5-marys-song-magnificat-146-56",
-        "label": "Tiefer studieren: Hannas Lied, Umkehr-Theologie, griechische Poesie"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "practice": {
-          "title": "Das Magnificat beten",
-          "verseRef": "1:46-56",
-          "content": "**Die Praxis**: Das Magnificat ist eines der ältesten Gebete der Christenheit. Seit über 1500 Jahren wird es täglich in der Vesper gebetet — dem Abendgebet der Kirche. Maria singt dieses Lied, nachdem Elisabet sie gesegnet hat. Es ist kein harmloses Wiegenlied, sondern eine Vision umgestürzter Verhältnisse: Mächtige werden vom Thron gestoßen, Hungernde satt gemacht, Reiche mit leeren Händen weggeschickt.\n\nDie Befreiungstheologie sieht im Magnificat ein Manifest der Hoffnung für Unterdrückte. Kontemplative Traditionen hören darin den Ruf zur inneren Umkehr. Beides gehört zusammen: Gott verändert die Welt — und er beginnt in uns. Diese Praxis lädt dich ein, das Magnificat nicht nur zu lesen, sondern zu beten. Die Worte langsam sprechen. Sie dir zu eigen machen.\n\n**Warum das wirkt**: Das Beten überlieferter Texte ist eine uralte Praxis — Juden mit den Psalmen, Christen mit dem Magnificat, Mönche mit dem Stundengebet. Die Worte anderer werden zu unseren Worten. Ihr Glaube formt unseren Glauben. Die Neurowissenschaft bestätigt heute, was Betende schon immer erfahren haben: Das Rezitieren bedeutsamer Texte beruhigt das Nervensystem und schafft neuronale Bahnen, die über die Übung hinaus wirken. Aber der eigentliche Punkt ist tiefer: Wir treten in einen Strom ein, der vor uns begonnen hat und nach uns weitergeht.\n\n**So geht's** (15-20 Minuten):\n\n1. **Ankommen** (3 Minuten): Setz dich aufrecht hin. Atme bewusst. Stell dir vor, du betrittst einen alten Raum — einen Ort, an dem dieses Lied seit Jahrhunderten gesungen wird. Du bist nicht allein. Eine Gemeinschaft über die Zeiten hinweg betet mit dir.\n\n2. **Erstes Lesen** (3 Minuten): Lies das Magnificat (Lukas 1,46-55) laut. Die Worte wollen gehört werden — auch von dir selbst.\n\n   *Kürzer? Wähle nur die Verse 46-50 oder 51-55 — den persönlichen Lobpreis oder die große Umkehrung.*\n\n3. **Langsames Beten** (7 Minuten): Geh Vers für Vers durch. Sprich jeden Satz langsam. Halt nach jedem Vers inne. Lass die Worte in dir nachklingen:\n\n   > „Alles in mir feiert Gott.\"\n\n   [Pause]\n\n   > „Er hat hingeschaut. Er hat mich gesehen. Mich — die Unbedeutende.\"\n\n   [Pause]\n\n   > „Mächtige hat er vom Thron gestoßen. Unbedeutende nach oben geholt.\"\n\n   [Pause]\n\n   Wenn ein Vers dich besonders anspricht, bleib länger dabei. Wiederhole ihn. Das ist Gebet.\n\n   *Das Magnificat wirkt auch als Poesie: Lies es laut, lass die Bilder auf dich wirken. Die Umkehrung von Macht und Ohnmacht, der Hunger nach Gerechtigkeit — diese Texte haben Menschen seit Jahrhunderten bewegt, unabhängig davon, was sie glaubten.*\n\n4. **Persönliche Anwendung** (5 Minuten): Frag dich:\n   - Wo erlebe ich, dass Gott auf mich schaut — mich sieht, auch wenn andere es nicht tun?\n   - Wo sehne ich mich nach seiner „großen Umkehrung\" — dass Falsches korrigiert wird, dass Gerechtigkeit geschieht?\n   - Was würde es bedeuten, dieses Lied als mein eigenes zu singen?\n\n5. **Abschluss** (2 Minuten): Sprich das Magnificat noch einmal — diesmal als dein Gebet. Marias Worte, dein Herz.\n\n   *Wenig Zeit? Ein einziger Vers, dreimal langsam gesprochen, ist genug. Manchmal braucht es nur einen Satz, um Gott zu begegnen.*"
-        },
-        "songs": [
-          {
-            "title": "ABRISS",
-            "mp3": "42_luke_01_46-56_magnificat_de_v3.mp3",
-            "genre": "Protest Rap",
-            "description": "Das Magnificat als Song erleben"
-          },
-          {
-            "title": "Meine Seele preist",
-            "mp3": "magnificat_de_alternate.mp3",
-            "genre": "Worship",
-            "description": "Alternative Version des Magnificat"
-          }
-        ],
-        "podcast": {
-          "title": "Marias Lied (Magnificat)",
-          "duration": "~10 Min",
-          "description": "Die revolutionäre Politik in Marias Gedicht: Die Stolzen zerstreuen, die Niedrigen erhöhen."
-        }
-      }
+      "media": {},
+      "image": "luke_01_magnificat.jpeg"
     },
     {
-      "id": "johannes-geburt",
-      "title": "Die Geburt des Johannes",
-      "subtitle": "Zacharias findet seine Stimme wieder",
+      "id": "john-birth",
+      "title": "Das Schweigen beginnt",
+      "subtitle": "",
       "verses": "57-66",
       "color": "#F0F0E4",
       "accentColor": "#9B8B4A",
-      "image": "luke_01_john_birth.jpeg",
       "exegesis": {
         "section": "pericope-6-his-name-is-john-157-66",
-        "label": "Tiefer studieren: Namensgebung, Beschneidung, Reaktion der Nachbarn"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "podcast": {
-          "title": "Sein Name ist Johannes",
-          "duration": "~9 Min",
-          "description": "Der Namensstreit, Zacharias' wiedergewonnene Stimme."
-        }
-      }
+      "media": {},
+      "image": "luke_01_john_birth.jpeg"
     },
     {
       "id": "benedictus",
-      "title": "Zacharias' Lied",
-      "subtitle": "Das Benedictus",
+      "title": "Maria sagt Ja",
+      "subtitle": "",
       "verses": "67-79",
       "color": "#E4F0E8",
       "accentColor": "#4A9B7C",
-      "image": "luke_01_benedictus.jpeg",
       "exegesis": {
         "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
-        "label": "Tiefer studieren: Prophetische Inspiration, Davidsbund, Aufgang aus der Höhe"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Neun Monate stumm",
-            "mp3": "42_luke_01_67-79_benedictus_de_v3.mp3",
-            "genre": "Singer-Songwriter",
-            "description": "Das Benedictus als Song erleben"
-          }
-        ],
-        "podcast": {
-          "title": "Zacharias' Prophezeiung (Benedictus)",
-          "duration": "~11 Min",
-          "description": "Neun Monate Schweigen, dann eine prophetische Flut."
-        },
-        "practice": {
-          "title": "Das Benedictus: Den Weg des Friedens finden",
-          "verseRef": "1:67-79",
-          "content": "**Die Praxis**: Das Benedictus ist das Lied des Zacharias — gesprochen, nachdem er neun Monate stumm war. Sein erstes Wort nach dem Schweigen ist Lobpreis. In der christlichen Tradition wird das Benedictus morgens gebetet, als Eröffnung des Tages. Es spricht von Licht, das in die Dunkelheit kommt, und von einem „Weg des Friedens\".\n\nZacharias' Schweigen war Vorbereitung, nicht Strafe. Manchmal müssen wir verstummen, bevor wir etwas Wesentliches sagen können. Diese Praxis verbindet Stille mit prophetischer Hoffnung: Erst hören — dann sprechen. Erst die Dunkelheit anerkennen — dann das Licht empfangen. Das Benedictus endet mit einer der schönsten Verheißungen der Bibel: dass Gott unsere Füße auf den „Weg des Friedens\" lenkt. Schalom — nicht nur Abwesenheit von Konflikt, sondern Ganzheit, richtiges Verhältnis zu Gott, zu anderen, zu dir selbst.\n\n**Warum das wirkt**: Morgenrituale prägen den Tag — das wussten Mönche seit dem 4. Jahrhundert, und die moderne Psychologie bestätigt es. Ein bewusster Start reduziert reaktives Verhalten und erhöht das Gefühl von Selbstwirksamkeit. Aber das ist nur der Rahmen. Der Inhalt macht den Unterschied: Wer den Tag mit Gottes Verheißung beginnt, sieht den Tag anders. Nicht weil die Probleme verschwinden, sondern weil wir wissen: Das Licht ist stärker als die Dunkelheit.\n\n**So geht's** (15-20 Minuten):\n\n1. **Stille beginnen** (5 Minuten): Bevor du sprichst — schweige. Setz dich hin. Schließ die Augen. Stell dir vor, du bist wie Zacharias nach der Engelsbegegnung: Du hast etwas Überwältigendes erlebt und kannst es noch nicht in Worte fassen. Halt die Stille aus. Lass sie arbeiten. Gott spricht oft im Schweigen.\n\n   *Wenig Zeit? Auch zwei Minuten Stille vor dem Lesen verändern die Qualität.*\n\n2. **Das Benedictus lesen** (3 Minuten): Lies Lukas 1,67-79 langsam. Achte besonders auf die letzten Verse (76-79) — Zacharias' Worte an seinen neugeborenen Sohn Johannes:\n\n   > „Du wirst vor dem Herrn hergehen, um ihm den Weg zu bereiten...\n   > um denen zu leuchten, die im Dunkel sitzen und im Schatten des Todes,\n   > um unsere Füße auf den Weg des Friedens zu lenken.\"\n\n3. **Dunkelheit benennen** (4 Minuten): Das Benedictus spricht von Menschen, die „im Dunkel sitzen\". Frag dich ehrlich:\n   - Wo sitze ich gerade im Dunkeln? Welche Situation fühlt sich hoffnungslos an?\n   - Wo ist „Schatten des Todes\" — Trauer, Verlust, Angst?\n   - Benenne es vor Gott. Zacharias beginnt nicht mit dem Licht, sondern mit der Anerkennung der Dunkelheit. Gott kann nur heilen, was wir ihm zeigen.\n\n   *Diese Übung wirkt auch ohne Gebet: Schreib auf, was gerade dunkel ist. Allein das Benennen — laut oder geschrieben — verändert etwas. Was wir aussprechen, hat weniger Macht über uns.*\n\n4. **Das Licht empfangen** (4 Minuten): Das Benedictus verspricht: Ein „Licht aus der Höhe\" wird kommen. Nicht aus dir selbst — von Gott.\n   - Was wäre, wenn Gottes Licht in deine dunkelste Situation käme? Wie sähe das aus?\n   - Was bedeutet „Weg des Friedens\" für dich — konkret, heute?\n   - Sprich die letzten Verse als Gebet für dich selbst. Bitte Gott, deine Füße auf diesen Weg zu lenken.\n\n5. **Den Tag beginnen** (2 Minuten): Das Benedictus ist ein Morgengebet. Beende diese Übung mit einem Blick auf den kommenden Tag: Wo könntest du heute Gottes Licht für jemanden sein? Welcher kleine Schritt führt dich auf den Weg des Friedens?\n\n   *Kurzversion für jeden Morgen: Lies nur Verse 78-79 laut. Dreißig Sekunden — und der Tag beginnt anders. „Um unsere Füße auf den Weg des Friedens zu lenken.\" Lass diesen Satz den Tag über in dir nachklingen.*"
-        }
-      }
+      "media": {},
+      "image": "luke_01_benedictus.jpeg"
     },
     {
-      "id": "johannes-kindheit",
-      "title": "In die Wüste",
-      "subtitle": "Johannes wächst heran",
+      "id": "john-childhood",
+      "title": "Zwei Frauen, zwei Wunder",
+      "subtitle": "",
       "verses": "80",
       "color": "#F0E4E8",
       "accentColor": "#9B4A6B",
-      "image": "luke_01_wilderness.jpeg",
       "exegesis": {
         "section": "pericope-8-growing-up-in-the-wilderness-180",
-        "label": "Tiefer studieren: Wüstenmotiv, Nasiräer-Traditionen"
+        "label": "Tiefer studieren"
       },
-      "media": {
-        "podcast": {
-          "title": "Aufwachsen in der Wüste",
-          "duration": "~7 Min",
-          "description": "Ein Vers, ein ganzes Leben komprimiert: Die Wüste als Formung, nicht als Flucht."
-        }
-      }
+      "media": {},
+      "image": "luke_01_wilderness.jpeg"
     }
   ]
 }

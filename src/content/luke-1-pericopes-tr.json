@@ -3,143 +3,116 @@
   "chapter": 1,
   "pericopes": [
     {
-      "id": "prolog",
-      "title": "Prolog",
-      "subtitle": "Luka neden yazıyor",
+      "id": "prologue",
+      "title": "Bunu neden yazıyorum",
+      "subtitle": "",
       "verses": "1-4",
       "color": "#E8E4DC",
       "accentColor": "#8B7355",
-      "image": "luke_01_prologue.jpeg",
       "exegesis": {
         "section": "pericope-1-prologue-11-4",
-        "label": "Derinlemesine çalışma: Yunanca metin, yorumlar, kültürel bağlam"
+        "label": "Daha fazla çalış"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_prologue.jpeg"
     },
     {
-      "id": "zekeriya-elizabet",
-      "title": "Yaşlı Bir Kâhin, Boş Bir Beşik",
-      "subtitle": "Zekeriya ve Elizabet'in hikâyesi",
+      "id": "zacharias-elisabeth",
+      "title": "Yaşlı bir kâhin ve imkânsız bir vaat",
+      "subtitle": "",
       "verses": "5-25",
       "color": "#E4E8E4",
       "accentColor": "#6B8E7F",
-      "image": "luke_01_zechariah_temple.jpeg",
       "exegesis": {
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
-        "label": "Derinlemesine çalışma: kâhin bölümleri, İsrail'de kısırlık"
+        "label": "Daha fazla çalış"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_zechariah_temple.jpeg"
     },
     {
-      "id": "mucdele",
-      "title": "Meryem Evet Diyor",
-      "subtitle": "Cebrail meleği Meryem'i ziyaret ediyor",
+      "id": "annunciation",
+      "title": "Tapınakta",
+      "subtitle": "",
       "verses": "26-38",
       "color": "#F0E8E4",
       "accentColor": "#D4A574",
-      "image": "luke_01_annunciation.jpeg",
       "exegesis": {
         "section": "pericope-3-mary-says-yes-126-38",
-        "label": "Derinlemesine çalışma: Cebrail, Meryem'in yaşı, ilahi gölge"
+        "label": "Daha fazla çalış"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Müjde",
-            "mp3": "42_luke_01_26-38_annunciation_tr (1).mp3",
-            "genre": "Pop",
-            "description": "Müjde şarkı olarak"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_annunciation.jpeg"
     },
     {
-      "id": "ziyaret",
-      "title": "İki Kadın, İki Mucize",
-      "subtitle": "Meryem Elizabet'i ziyaret ediyor",
+      "id": "visitation",
+      "title": "Vaat",
+      "subtitle": "",
       "verses": "39-45",
       "color": "#E8E4F0",
       "accentColor": "#8B7399",
-      "image": "luke_01_visitation.jpeg",
       "exegesis": {
         "section": "pericope-4-two-women-two-miracles-139-45",
-        "label": "Derinlemesine çalışma: Yahudiye'ye yolculuk, Elizabet'in kutsaması"
+        "label": "Daha fazla çalış"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_visitation.jpeg"
     },
     {
       "id": "magnificat",
-      "title": "Meryem'in İlahisi",
-      "subtitle": "Magnificat",
+      "title": "Zekeriya'nın kuşkusu",
+      "subtitle": "",
       "verses": "46-56",
       "color": "#E4E8F0",
       "accentColor": "#4A7C9E",
-      "image": "luke_01_magnificat.jpeg",
       "exegesis": {
         "section": "pericope-5-marys-song-magnificat-146-56",
-        "label": "Derinlemesine çalışma: Hanna'nın ilahisi, tersine çevirme teolojisi"
+        "label": "Daha fazla çalış"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Magnificat",
-            "mp3": "42_luke_01_46-56_magnificat_tr.mp3",
-            "genre": "Worship",
-            "description": "Magnificat şarkı olarak"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_magnificat.jpeg"
     },
     {
-      "id": "yahya-dogum",
-      "title": "Yahya'nın Doğumu",
-      "subtitle": "Vaftizci Yahya'nın doğumu",
+      "id": "john-birth",
+      "title": "Sessizlik başlıyor",
+      "subtitle": "",
       "verses": "57-66",
       "color": "#F0F0E4",
       "accentColor": "#9B8B4A",
-      "image": "luke_01_john_birth.jpeg",
       "exegesis": {
         "section": "pericope-6-his-name-is-john-157-66",
-        "label": "Derinlemesine çalışma: isim verme ritüelleri, sünnet"
+        "label": "Daha fazla çalış"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_john_birth.jpeg"
     },
     {
       "id": "benedictus",
-      "title": "Zekeriya'nın Peygamberliği",
-      "subtitle": "Benedictus",
+      "title": "Meryem evet diyor",
+      "subtitle": "",
       "verses": "67-79",
       "color": "#E4F0E8",
       "accentColor": "#4A9B7C",
-      "image": "luke_01_benedictus.jpeg",
       "exegesis": {
         "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
-        "label": "Derinlemesine çalışma: peygamberlik ilhamı, Davut'un antlaşması"
+        "label": "Daha fazla çalış"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Benedictus",
-            "mp3": "42_luke_01_67-79_benedictus_tr (1).mp3",
-            "genre": "Singer-Songwriter",
-            "description": "Benedictus şarkı olarak"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_benedictus.jpeg"
     },
     {
-      "id": "yahya-cocukluk",
-      "title": "Yahya'nın Çocukluğu",
-      "subtitle": "Yahya büyüyor",
+      "id": "john-childhood",
+      "title": "İki kadın, iki mucize",
+      "subtitle": "",
       "verses": "80",
       "color": "#F0E4E8",
       "accentColor": "#9B4A6B",
-      "image": "luke_01_wilderness.jpeg",
       "exegesis": {
         "section": "pericope-8-growing-up-in-the-wilderness-180",
-        "label": "Derinlemesine çalışma: çöl motifi, Nasiri gelenekleri"
+        "label": "Daha fazla çalış"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_wilderness.jpeg"
     }
   ]
 }

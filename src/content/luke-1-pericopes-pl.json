@@ -3,143 +3,116 @@
   "chapter": 1,
   "pericopes": [
     {
-      "id": "prolog",
-      "title": "Prolog",
-      "subtitle": "Dlaczego Łukasz pisze",
+      "id": "prologue",
+      "title": "Dlaczego to piszę",
+      "subtitle": "",
       "verses": "1-4",
       "color": "#E8E4DC",
       "accentColor": "#8B7355",
-      "image": "luke_01_prologue.jpeg",
       "exegesis": {
         "section": "pericope-1-prologue-11-4",
-        "label": "Pogłębione studium: tekst grecki, komentarze, kontekst kulturowy"
+        "label": "Pogłębione studium"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_prologue.jpeg"
     },
     {
-      "id": "zachariasz-elzbieta",
-      "title": "Stary kapłan, pusty pokój dziecięcy",
-      "subtitle": "Historia Zachariasza i Elżbiety",
+      "id": "zacharias-elisabeth",
+      "title": "Stary kapłan i niemożliwa obietnica",
+      "subtitle": "",
       "verses": "5-25",
       "color": "#E4E8E4",
       "accentColor": "#6B8E7F",
-      "image": "luke_01_zechariah_temple.jpeg",
       "exegesis": {
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
-        "label": "Pogłębione studium: podziały kapłańskie, bezpłodność w Izraelu"
+        "label": "Pogłębione studium"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_zechariah_temple.jpeg"
     },
     {
-      "id": "zwiastowanie",
-      "title": "Maria mówi 'tak'",
-      "subtitle": "Anioł Gabriel odwiedza Marię",
+      "id": "annunciation",
+      "title": "W świątyni",
+      "subtitle": "",
       "verses": "26-38",
       "color": "#F0E8E4",
       "accentColor": "#D4A574",
-      "image": "luke_01_annunciation.jpeg",
       "exegesis": {
         "section": "pericope-3-mary-says-yes-126-38",
-        "label": "Pogłębione studium: Gabriel, wiek Marii, boskie osłonienie"
+        "label": "Pogłębione studium"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Tak",
-            "mp3": "42_luke_01_26-38_tak_pl (1).mp3",
-            "genre": "Pop",
-            "description": "Zwiastowanie w piosence"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_annunciation.jpeg"
     },
     {
-      "id": "nawiedzenie",
-      "title": "Dwie kobiety, dwa cuda",
-      "subtitle": "Maria odwiedza Elżbietę",
+      "id": "visitation",
+      "title": "Obietnica",
+      "subtitle": "",
       "verses": "39-45",
       "color": "#E8E4F0",
       "accentColor": "#8B7399",
-      "image": "luke_01_visitation.jpeg",
       "exegesis": {
         "section": "pericope-4-two-women-two-miracles-139-45",
-        "label": "Pogłębione studium: podróż do Judei, błogosławieństwo Elżbiety"
+        "label": "Pogłębione studium"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_visitation.jpeg"
     },
     {
       "id": "magnificat",
-      "title": "Magnificat",
-      "subtitle": "Pieśń Marii",
+      "title": "Zachariasz wątpi",
+      "subtitle": "",
       "verses": "46-56",
       "color": "#E4E8F0",
       "accentColor": "#4A7C9E",
-      "image": "luke_01_magnificat.jpeg",
       "exegesis": {
         "section": "pericope-5-marys-song-magnificat-146-56",
-        "label": "Pogłębione studium: pieśń Anny, teologia odwrócenia"
+        "label": "Pogłębione studium"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Rewolucja",
-            "mp3": "42_luke_01_46-56_rewolucja_pl.mp3",
-            "genre": "Rock",
-            "description": "Magnificat w piosence"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_magnificat.jpeg"
     },
     {
-      "id": "narodziny-jana",
-      "title": "Ma na imię Jan",
-      "subtitle": "Narodziny Jana Chrzciciela",
+      "id": "john-birth",
+      "title": "Milczenie się zaczyna",
+      "subtitle": "",
       "verses": "57-66",
       "color": "#F0F0E4",
       "accentColor": "#9B8B4A",
-      "image": "luke_01_john_birth.jpeg",
       "exegesis": {
         "section": "pericope-6-his-name-is-john-157-66",
-        "label": "Pogłębione studium: rytuały nadawania imion, obrzezanie"
+        "label": "Pogłębione studium"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_john_birth.jpeg"
     },
     {
       "id": "benedictus",
-      "title": "Benedictus",
-      "subtitle": "Proroctwo Zachariasza",
+      "title": "Maria mówi tak",
+      "subtitle": "",
       "verses": "67-79",
       "color": "#E4F0E8",
       "accentColor": "#4A9B7C",
-      "image": "luke_01_benedictus.jpeg",
       "exegesis": {
         "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
-        "label": "Pogłębione studium: inspiracja prorocka, przymierze Dawidowe"
+        "label": "Pogłębione studium"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Świt",
-            "mp3": "42_luke_01_67-79_swit_pl (1).mp3",
-            "genre": "Singer-Songwriter",
-            "description": "Benedictus w piosence"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_benedictus.jpeg"
     },
     {
-      "id": "dziecinstwo-jana",
-      "title": "Dorastanie na pustyni",
-      "subtitle": "Jan dorasta",
+      "id": "john-childhood",
+      "title": "Dwie kobiety, dwa cuda",
+      "subtitle": "",
       "verses": "80",
       "color": "#F0E4E8",
       "accentColor": "#9B4A6B",
-      "image": "luke_01_wilderness.jpeg",
       "exegesis": {
         "section": "pericope-8-growing-up-in-the-wilderness-180",
-        "label": "Pogłębione studium: motyw pustyni, tradycje nazireatu"
+        "label": "Pogłębione studium"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_wilderness.jpeg"
     }
   ]
 }

@@ -4,142 +4,115 @@
   "pericopes": [
     {
       "id": "prologue",
-      "title": "Prologue",
-      "subtitle": "Pourquoi Luc écrit",
+      "title": "Pourquoi j'écris ceci",
+      "subtitle": "",
       "verses": "1-4",
       "color": "#E8E4DC",
       "accentColor": "#8B7355",
-      "image": "luke_01_prologue.jpeg",
       "exegesis": {
         "section": "pericope-1-prologue-11-4",
-        "label": "Approfondir : texte grec, commentaires, contexte culturel"
+        "label": "Approfondir"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_prologue.jpeg"
     },
     {
-      "id": "zacharie-elisabeth",
-      "title": "Un vieux prêtre, une chambre d'enfant vide",
-      "subtitle": "L'histoire de Zacharie et Élisabeth",
+      "id": "zacharias-elisabeth",
+      "title": "Un vieux prêtre et une promesse impossible",
+      "subtitle": "",
       "verses": "5-25",
       "color": "#E4E8E4",
       "accentColor": "#6B8E7F",
-      "image": "luke_01_zechariah_temple.jpeg",
       "exegesis": {
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
-        "label": "Approfondir : ordres sacerdotaux, stérilité en Israël, annonces de naissance"
+        "label": "Approfondir"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_zechariah_temple.jpeg"
     },
     {
-      "id": "annonciation",
-      "title": "Marie dit oui",
-      "subtitle": "L'ange Gabriel visite Marie",
+      "id": "annunciation",
+      "title": "Au Temple",
+      "subtitle": "",
       "verses": "26-38",
       "color": "#F0E8E4",
       "accentColor": "#D4A574",
-      "image": "luke_01_annunciation.jpeg",
       "exegesis": {
         "section": "pericope-3-mary-says-yes-126-38",
-        "label": "Approfondir : Gabriel, l'âge de Marie, l'ombre divine"
+        "label": "Approfondir"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Marie dit oui",
-            "mp3": "42_luke_01_26-38_marie_dit_oui_fr.mp3",
-            "genre": "Pop",
-            "description": "L'annonciation en chanson"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_annunciation.jpeg"
     },
     {
       "id": "visitation",
-      "title": "Deux femmes, deux miracles",
-      "subtitle": "Marie rend visite à Élisabeth",
+      "title": "La promesse",
+      "subtitle": "",
       "verses": "39-45",
       "color": "#E8E4F0",
       "accentColor": "#8B7399",
-      "image": "luke_01_visitation.jpeg",
       "exegesis": {
         "section": "pericope-4-two-women-two-miracles-139-45",
-        "label": "Approfondir : le voyage en Judée, la bénédiction d'Élisabeth"
+        "label": "Approfondir"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_visitation.jpeg"
     },
     {
       "id": "magnificat",
-      "title": "Le Magnificat",
-      "subtitle": "Le cantique de Marie",
+      "title": "Zacharie doute",
+      "subtitle": "",
       "verses": "46-56",
       "color": "#E4E8F0",
       "accentColor": "#4A7C9E",
-      "image": "luke_01_magnificat.jpeg",
       "exegesis": {
         "section": "pericope-5-marys-song-magnificat-146-56",
-        "label": "Approfondir : le cantique d'Anne, théologie du renversement"
+        "label": "Approfondir"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Le Magnificat",
-            "mp3": "42_luke_01_46-56_magnificat_fr.mp3",
-            "genre": "Worship",
-            "description": "Le Magnificat en chanson"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_magnificat.jpeg"
     },
     {
-      "id": "naissance-jean",
-      "title": "Son nom est Jean",
-      "subtitle": "La naissance de Jean-Baptiste",
+      "id": "john-birth",
+      "title": "L'attente",
+      "subtitle": "",
       "verses": "57-66",
       "color": "#F0F0E4",
       "accentColor": "#9B8B4A",
-      "image": "luke_01_john_birth.jpeg",
       "exegesis": {
         "section": "pericope-6-his-name-is-john-157-66",
-        "label": "Approfondir : rituels de nomination, circoncision"
+        "label": "Approfondir"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_john_birth.jpeg"
     },
     {
       "id": "benedictus",
-      "title": "Le Benedictus",
-      "subtitle": "La prophétie de Zacharie",
+      "title": "Marie dit oui",
+      "subtitle": "",
       "verses": "67-79",
       "color": "#E4F0E8",
       "accentColor": "#4A9B7C",
-      "image": "luke_01_benedictus.jpeg",
       "exegesis": {
         "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
-        "label": "Approfondir : inspiration prophétique, alliance davidique"
+        "label": "Approfondir"
       },
-      "media": {
-        "songs": [
-          {
-            "title": "Le Benedictus",
-            "mp3": "42_luke_01_67-79_benedictus_fr (1).mp3",
-            "genre": "Singer-Songwriter",
-            "description": "Le Benedictus en chanson"
-          }
-        ]
-      }
+      "media": {},
+      "image": "luke_01_benedictus.jpeg"
     },
     {
-      "id": "enfance-jean",
-      "title": "Grandir dans le désert",
-      "subtitle": "Jean grandit",
+      "id": "john-childhood",
+      "title": "Deux femmes, deux miracles",
+      "subtitle": "",
       "verses": "80",
       "color": "#F0E4E8",
       "accentColor": "#9B4A6B",
-      "image": "luke_01_wilderness.jpeg",
       "exegesis": {
         "section": "pericope-8-growing-up-in-the-wilderness-180",
-        "label": "Approfondir : motif du désert, traditions naziréennes"
+        "label": "Approfondir"
       },
-      "media": {}
+      "media": {},
+      "image": "luke_01_wilderness.jpeg"
     }
   ]
 }
