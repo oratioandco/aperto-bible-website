@@ -413,10 +413,11 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Lyrics Lines - Spotify Style */
   .karaoke-line {
     font-family: 'Switzer', -apple-system, sans-serif;
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 32px;
+    font-weight: 900;
     line-height: 1.4;
     color: var(--color-text-muted);
+    opacity: 0.5;
     padding: 0.75rem 0;
     transition: all 0.3s ease;
     margin-bottom: 0.5rem;
@@ -424,12 +425,13 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
   .karaoke-line.active {
     color: var(--color-charcoal);
+    opacity: 1;
     transform: scale(1.02);
   }
 
   .karaoke-line.past {
-    color: var(--color-text-muted);
-    opacity: 0.5;
+    color: var(--color-charcoal);
+    opacity: 1;
   }
 
   /* Word-level highlighting */
@@ -447,24 +449,27 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   }
 
   .karaoke-word.past {
-    opacity: 0.4;
+    opacity: 1;
   }
 
   .karaoke-word.future {
-    opacity: 0.7;
+    opacity: 0.5;
   }
 
   @media (prefers-color-scheme: dark) {
     .karaoke-line {
-      color: rgba(255, 255, 255, 0.3);
+      color: rgba(255, 255, 255, 0.5);
+      opacity: 0.5;
     }
 
     .karaoke-line.active {
       color: rgba(255, 255, 255, 0.95);
+      opacity: 1;
     }
 
     .karaoke-line.past {
-      color: rgba(255, 255, 255, 0.2);
+      color: rgba(255, 255, 255, 0.95);
+      opacity: 1;
     }
 
     .karaoke-word.current {
