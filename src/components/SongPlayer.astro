@@ -819,9 +819,14 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
     // Load transcript
     try {
+      console.log('Loading transcript from:', transcriptPath);
       const response = await fetch(transcriptPath);
-      if (!response.ok) throw new Error('Failed to load');
+      console.log('Response status:', response.status);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
       const transcript = await response.json();
+      console.log('Transcript loaded:', transcript);
       karaokeState.currentTranscript = transcript;
 
       // Render lyrics
@@ -832,9 +837,11 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
     } catch (error) {
       console.error('Error loading transcript:', error);
+      console.error('Transcript path:', transcriptPath);
+      console.error('MP3 path:', mp3);
       lyricsContainer.innerHTML = `
         <div class="lyrics-loading">
-          <span>Failed to load lyrics</span>
+          <span>Failed to load lyrics: ${error.message}</span>
         </div>
       `;
     }
