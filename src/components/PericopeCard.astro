@@ -235,7 +235,9 @@ const categoryLabels: Record<string, string> = {
           )}
 
           {songs.map((song) => (
-            <SongPlayer song={song} lang={lang} />
+            <div class="col-span-1 sm:col-span-2">
+              <SongPlayer song={song} lang={lang} />
+            </div>
           ))}
 
           {media.podcast && (

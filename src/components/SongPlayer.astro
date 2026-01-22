@@ -18,13 +18,11 @@ const { song, lang = 'en' } = Astro.props;
 const labels = {
   de: {
     lyrics: 'Liedtext',
-    close: 'Schließen',
-    lyricsUnavailable: 'Liedtext nicht verfügbar'
+    close: 'Schließen'
   },
   en: {
     lyrics: 'Lyrics',
-    close: 'Close',
-    lyricsUnavailable: 'Lyrics not available'
+    close: 'Close'
   }
 };
 
@@ -33,27 +31,50 @@ const t = labels[lang as keyof typeof labels] || labels.en;
 // Generate unique IDs
 const playerId = `player-${Math.random().toString(36).substr(2, 9)}`;
 const modalId = `karaoke-modal-${playerId}`;
-const miniPlayerId = `mini-player-${playerId}`;
 const hasTranscript = !!song.transcriptPath;
 
 // Default cover art if not provided
 const coverArt = song.coverArt || '/images/covers/default.png';
+
+// Clean title - remove (Karaoke) suffix
+const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '');
 ---
 
 <div class="song-player" data-player-id={playerId}>
-  <!-- Inline Card for Non-Karaoke Songs -->
-  {!hasTranscript && (
-    <div class="song-card-inline">
-      <div class="song-card-inline-content">
-        <div class="song-cover">
-          <img src={coverArt} alt={song.title} class="cover-image" />
-        </div>
-        <div class="song-info">
-          <span class="song-genre">{song.genre || 'Song'}</span>
-          <span class="song-title">{song.title}</span>
-          {song.description && <span class="song-description">{song.description}</span>}
-        </div>
+  <!-- Song Card -->
+  <div class="song-card">
+    <div class="song-card-content">
+      <!-- Cover Art -->
+      <div class="song-cover">
+        <img src={coverArt} alt={cleanTitle} class="cover-image" />
       </div>
+
+      <!-- Song Info -->
+      <div class="song-info">
+        <span class="song-genre">{song.genre || 'Song'}</span>
+        <span class="song-title">{cleanTitle}</span>
+        {song.description && <span class="song-description">{song.description}</span>}
+      </div>
+
+      <!-- Play Button -->
+      {hasTranscript && (
+        <button
+          class="play-button"
+          data-player-id={playerId}
+          data-cover-art={coverArt}
+          data-title={cleanTitle}
+          data-mp3={`/audio/songs/${song.mp3}`}
+          data-transcript={song.transcriptPath}
+          type="button"
+          aria-label="Play"
+        >
+          <span class="material-symbols-rounded">play_arrow</span>
+        </button>
+      )}
+    </div>
+
+    <!-- Inline Audio for Non-Karaoke -->
+    {!hasTranscript && (
       <audio
         controls
         class="song-audio"
@@ -62,56 +83,27 @@ const coverArt = song.coverArt || '/images/covers/default.png';
       >
         <source src={`/audio/songs/${song.mp3}`} type="audio/mpeg" />
       </audio>
-    </div>
-  )}
-
-  <!-- Karaoke Button -->
-  {hasTranscript && (
-    <button
-      class="karaoke-trigger"
-      data-player-id={playerId}
-      data-cover-art={coverArt}
-      data-title={song.title}
-      data-mp3={`/audio/songs/${song.mp3}`}
-      data-transcript={song.transcriptPath}
-      type="button"
-    >
-      <div class="karaoke-trigger-content">
-        <div class="karaoke-cover">
-          <img src={coverArt} alt={song.title} class="cover-image" />
-        </div>
-        <div class="karaoke-info">
-          <span class="karaoke-genre">{song.genre || 'Song'}</span>
-          <span class="karaoke-title">{song.title}</span>
-          <span class="karaoke-description">{song.description}</span>
-        </div>
-        <div class="karaoke-play-icon">
-          <span class="material-symbols-rounded">play_circle</span>
-        </div>
-      </div>
-    </button>
-  )}
+    )}
+  </div>
 </div>
 
-<!-- Karaoke Modal (Global, Single Instance) -->
+<!-- Karaoke Modal (Global) -->
 <dialog id="global-karaoke-modal" class="karaoke-modal">
-  <div class="karaoke-modal-backdrop"></div>
+  <div class="karaoke-backdrop" id="karaoke-backdrop"></div>
   <div class="karaoke-container">
     <!-- Header -->
     <header class="karaoke-header">
       <button class="karaoke-close" type="button" aria-label={t.close}>
-        <span class="material-symbols-rounded">chevron_down</span>
+        <span class="material-symbols-rounded">expand_more</span>
       </button>
       <div class="karaoke-now-playing">Now Playing</div>
-      <button class="karaoke-more" type="button" aria-label="More">
-        <span class="material-symbols-rounded">more_horiz</span>
-      </button>
+      <div class="karaoke-title-text" id="karaoke-title-text">Song Title</div>
     </header>
 
     <!-- Main Content -->
     <div class="karaoke-content">
       <!-- Lyrics View -->
-      <div class="karaoke-lyrics-view" id="karaoke-lyrics-view">
+      <div class="karaoke-lyrics-view">
         <div class="lyrics-scroll-container" id="lyrics-scroll-container">
           <div class="lyrics-loading">
             <span class="material-symbols-rounded spinning">refresh</span>
@@ -155,33 +147,35 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 </dialog>
 
 <style>
-  /* Inline Card (Non-Karaoke) */
-  .song-card-inline {
+  /* Song Card */
+  .song-card {
     background: linear-gradient(135deg, var(--color-paper), var(--color-beige));
     border: 1px solid var(--color-border);
     border-radius: 16px;
-    padding: 1rem;
+    overflow: hidden;
     transition: all 0.3s ease;
   }
 
-  .song-card-inline:hover {
+  .song-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    border-color: var(--color-border-strong);
   }
 
-  .song-card-inline-content {
+  .song-card-content {
     display: flex;
     gap: 1rem;
-    margin-bottom: 0.75rem;
+    padding: 1rem;
+    align-items: center;
   }
 
   .song-cover {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 12px;
     overflow: hidden;
     flex-shrink: 0;
-    background: linear-gradient(135deg, #E8D4C4, #F0E8E4);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
 
   .cover-image {
@@ -193,84 +187,9 @@ const coverArt = song.coverArt || '/images/covers/default.png';
   .song-info {
     flex: 1;
     min-width: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .song-genre {
-    font-family: 'Switzer', -apple-system, sans-serif;
-    font-size: 0.65rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--color-text-muted);
-    margin-bottom: 0.25rem;
-  }
-
-  .song-title {
-    font-family: 'Switzer', -apple-system, sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    color: var(--color-charcoal);
-    line-height: 1.3;
-  }
-
-  .song-description {
-    font-size: 0.8rem;
-    color: var(--color-text-muted);
-    margin-top: 0.25rem;
-  }
-
-  .song-audio {
-    width: 100%;
-    height: 40px;
-    border-radius: 8px;
-  }
-
-  /* Karaoke Trigger Button */
-  .karaoke-trigger {
-    width: 100%;
-    background: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-
-  .karaoke-trigger:hover .karaoke-trigger-content {
-    background: linear-gradient(135deg, rgba(232, 212, 196, 0.3), rgba(240, 232, 228, 0.3));
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-  }
-
-  .karaoke-trigger-content {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    background: linear-gradient(135deg, var(--color-paper), var(--color-beige));
-    border: 1px solid var(--color-border);
-    border-radius: 16px;
-    padding: 1rem;
-    transition: all 0.3s ease;
-  }
-
-  .karaoke-cover {
-    width: 100px;
-    height: 100px;
-    border-radius: 12px;
-    overflow: hidden;
-    flex-shrink: 0;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  }
-
-  .karaoke-info {
-    flex: 1;
-    text-align: left;
-    min-width: 0;
-  }
-
-  .karaoke-genre {
     font-family: 'Switzer', -apple-system, sans-serif;
     font-size: 0.7rem;
     font-weight: 600;
@@ -281,27 +200,30 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     margin-bottom: 0.25rem;
   }
 
-  .karaoke-title {
+  .song-title {
     font-family: 'Switzer', -apple-system, sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     color: var(--color-charcoal);
     display: block;
     margin-bottom: 0.25rem;
+    line-height: 1.3;
   }
 
-  .karaoke-description {
+  .song-description {
     font-size: 0.85rem;
     color: var(--color-text-muted);
     display: block;
   }
 
-  .karaoke-play-icon {
+  .play-button {
     width: 56px;
     height: 56px;
     border-radius: 50%;
     background: var(--color-accent);
     color: white;
+    border: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,16 +232,27 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     transition: all 0.2s ease;
   }
 
-  .karaoke-play-icon .material-symbols-rounded {
-    font-size: 32px;
-  }
-
-  .karaoke-trigger:hover .karaoke-play-icon {
+  .play-button:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
   }
 
-  /* Karaoke Modal - Full Screen Spotify Style */
+  .play-button .material-symbols-rounded {
+    font-size: 32px;
+  }
+
+  .song-audio {
+    width: 100%;
+    height: 40px;
+    border-radius: 0 0 16px 16px;
+  }
+
+  .song-audio::-webkit-media-controls-panel {
+    background: var(--color-cream);
+    border-radius: 0 0 16px 16px;
+  }
+
+  /* Karaoke Modal */
   .karaoke-modal {
     border: none;
     border-radius: 0;
@@ -337,6 +270,16 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     display: none;
   }
 
+  .karaoke-backdrop {
+    position: fixed;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(100px) brightness(0.3);
+    transform: scale(1.1);
+    z-index: -1;
+  }
+
   .karaoke-modal[open] {
     animation: fadeIn 0.3s ease-out;
   }
@@ -344,13 +287,6 @@ const coverArt = song.coverArt || '/images/covers/default.png';
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-  }
-
-  .karaoke-modal-backdrop {
-    position: fixed;
-    inset: 0;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    z-index: -1;
   }
 
   .karaoke-container {
@@ -363,14 +299,14 @@ const coverArt = song.coverArt || '/images/covers/default.png';
   /* Header */
   .karaoke-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 2rem 1rem;
     z-index: 10;
+    gap: 0.5rem;
   }
 
-  .karaoke-close,
-  .karaoke-more {
+  .karaoke-close {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -385,32 +321,38 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     backdrop-filter: blur(10px);
   }
 
-  .karaoke-close:hover,
-  .karaoke-more:hover {
+  .karaoke-close:hover {
     background: rgba(255, 255, 255, 0.2);
+    transform: rotate(180deg);
   }
 
-  .karaoke-close .material-symbols-rounded,
-  .karaoke-more .material-symbols-rounded {
-    font-size: 24px;
+  .karaoke-close .material-symbols-rounded {
+    font-size: 28px;
   }
 
   .karaoke-now-playing {
     font-family: 'Switzer', -apple-system, sans-serif;
     font-size: 0.85rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
   }
 
-  /* Lyrics View - Centered Large Text */
+  .karaoke-title-text {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  /* Content */
   .karaoke-content {
     flex: 1;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    position: relative;
   }
 
   .karaoke-lyrics-view {
@@ -418,14 +360,14 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 2rem;
     overflow: hidden;
   }
 
   .lyrics-scroll-container {
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
+    margin: 0 auto;
     text-align: center;
     overflow-y: auto;
     padding: 4rem 0;
@@ -458,7 +400,7 @@ const coverArt = song.coverArt || '/images/covers/default.png';
   }
 
   .karaoke-line.active {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
     transform: scale(1.05);
   }
 
@@ -476,7 +418,8 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 
   .karaoke-word.current {
     color: #1db954;
-    text-shadow: 0 0 30px rgba(29, 185, 84, 0.5);
+    text-shadow: 0 0 40px rgba(29, 185, 84, 0.6);
+    transform: scale(1.1);
   }
 
   .karaoke-word.past {
@@ -484,13 +427,13 @@ const coverArt = song.coverArt || '/images/covers/default.png';
   }
 
   .karaoke-word.future {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
   /* Footer */
   .karaoke-footer {
-    padding: 1.5rem 2rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    padding: 1.5rem 2rem 2rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
     backdrop-filter: blur(20px);
   }
 
@@ -590,30 +533,22 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 
   /* Responsive */
   @media (max-width: 768px) {
+    .song-card-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .song-cover {
+      width: 120px;
+      height: 120px;
+    }
+
     .karaoke-line {
       font-size: 1.8rem;
     }
 
     .karaoke-controls {
       gap: 1rem;
-    }
-
-    .control-btn {
-      width: 36px;
-      height: 36px;
-    }
-
-    .control-btn .material-symbols-rounded {
-      font-size: 20px;
-    }
-
-    .control-play {
-      width: 48px;
-      height: 48px;
-    }
-
-    .control-play .material-symbols-rounded {
-      font-size: 28px;
     }
   }
 </style>
@@ -623,28 +558,32 @@ const coverArt = song.coverArt || '/images/covers/default.png';
   const karaokeState = {
     currentTranscript: null,
     isPlaying: false,
-    currentTime: 0,
     audioElement: null,
     syncEnabled: true
   };
 
   // Open karaoke modal
   document.addEventListener('click', (e) => {
-    const trigger = e.target.closest('.karaoke-trigger');
+    const trigger = e.target.closest('.play-button');
     if (!trigger) return;
 
     const coverArt = trigger.getAttribute('data-cover-art');
     const title = trigger.getAttribute('data-title');
     const mp3 = trigger.getAttribute('data-mp3');
     const transcriptPath = trigger.getAttribute('data-transcript');
-    const playerId = trigger.getAttribute('data-player-id');
 
-    openKaraokeModal(coverArt, title, mp3, transcriptPath, playerId);
+    openKaraokeModal(coverArt, title, mp3, transcriptPath);
   });
 
-  async function openKaraokeModal(coverArt, title, mp3, transcriptPath, playerId) {
+  async function openKaraokeModal(coverArt, title, mp3, transcriptPath) {
     const modal = document.getElementById('global-karaoke-modal');
+    const backdrop = document.getElementById('karaoke-backdrop');
     const lyricsContainer = document.getElementById('lyrics-scroll-container');
+    const titleText = document.getElementById('karaoke-title-text');
+
+    // Set background and title
+    backdrop.style.backgroundImage = `url(${coverArt})`;
+    titleText.textContent = title;
 
     // Show modal
     modal.showModal();
@@ -668,9 +607,10 @@ const coverArt = song.coverArt || '/images/covers/default.png';
       renderKaraokeLyrics(transcript, lyricsContainer);
 
       // Setup audio
-      setupKaraokeAudio(mp3, playerId);
+      setupKaraokeAudio(mp3);
 
     } catch (error) {
+      console.error('Error loading transcript:', error);
       lyricsContainer.innerHTML = `
         <div class="lyrics-loading">
           <span>Failed to load lyrics</span>
@@ -688,8 +628,11 @@ const coverArt = song.coverArt || '/images/covers/default.png';
       }
 
       section.lines.forEach((line, lineIdx) => {
+        const lineStart = line.words?.[0]?.start_ms || line.start_ms;
+        const lineEnd = line.words?.[line.words.length-1]?.end_ms || line.end_ms;
+
         // Render with word-level spans
-        let lineHtml = '<div class="karaoke-line" data-line-index="' + lineIdx + '">';
+        let lineHtml = `<div class="karaoke-line" data-line-index="${lineIdx}" data-start="${lineStart}" data-end="${lineEnd}">`;
 
         if (line.words && line.words.length > 0) {
           line.words.forEach((word, wordIdx) => {
@@ -708,20 +651,26 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     setupWordLevelSync();
   }
 
-  function setupKaraokeAudio(mp3, playerId) {
-    // Create or get audio element
-    let audio = karaokeState.audioElement;
-
-    if (!audio) {
-      audio = new Audio(mp3);
-      karaokeState.audioElement = audio;
-
-      audio.addEventListener('timeupdate', updateKaraokeSync);
-      audio.addEventListener('ended', () => {
-        karaokeState.isPlaying = false;
-        updatePlayPauseButton();
-      });
+  function setupKaraokeAudio(mp3) {
+    // Stop any existing audio
+    if (karaokeState.audioElement) {
+      karaokeState.audioElement.pause();
+      karaokeState.audioElement = null;
     }
+
+    // Create new audio element
+    const audio = new Audio(mp3);
+    karaokeState.audioElement = audio;
+    karaokeState.isPlaying = false;
+
+    audio.addEventListener('timeupdate', updateKaraokeSync);
+    audio.addEventListener('loadedmetadata', () => {
+      document.getElementById('karaoke-duration').textContent = formatTime(audio.duration);
+    });
+    audio.addEventListener('ended', () => {
+      karaokeState.isPlaying = false;
+      updatePlayPauseButton();
+    });
   }
 
   function setupWordLevelSync() {
@@ -742,7 +691,6 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 
     // Update time display
     document.getElementById('karaoke-current-time').textContent = formatTime(audio.currentTime);
-    document.getElementById('karaoke-duration').textContent = formatTime(audio.duration);
 
     // Sync lyrics
     const lines = container.querySelectorAll('.karaoke-line');
@@ -755,13 +703,8 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     // Find current line and words
     let currentLine = null;
     lines.forEach(line => {
-      const words = line.querySelectorAll('.karaoke-word');
-      if (words.length === 0) return;
-
-      const firstWord = words[0];
-      const lastWord = words[words.length - 1];
-      const lineStart = parseInt(firstWord.getAttribute('data-start') || '0');
-      const lineEnd = parseInt(lastWord.getAttribute('data-end') || '0');
+      const lineStart = parseInt(line.getAttribute('data-start') || '0');
+      const lineEnd = parseInt(line.getAttribute('data-end') || '0');
 
       if (currentTime >= lineStart && currentTime < lineEnd) {
         currentLine = line;
@@ -783,7 +726,7 @@ const coverArt = song.coverArt || '/images/covers/default.png';
     if (currentLine) {
       currentLine.classList.add('active');
 
-      // Scroll to current line
+      // Scroll to current line smoothly
       currentLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
       // Highlight words
@@ -794,10 +737,13 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 
         if (currentTime >= start && currentTime < end) {
           word.classList.add('current');
+          word.classList.remove('past', 'future');
         } else if (currentTime > end) {
           word.classList.add('past');
+          word.classList.remove('current', 'future');
         } else {
           word.classList.add('future');
+          word.classList.remove('current', 'past');
         }
       });
     }
