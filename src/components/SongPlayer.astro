@@ -985,6 +985,12 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       }
     }
 
+    // If still no active line (at the beginning), activate the first line
+    if (currentLine === null && lines.length > 0) {
+      currentLine = lines[0];
+      activeLineIndex = 0;
+    }
+
     if (currentLine) {
       currentLine.classList.add('active');
 
