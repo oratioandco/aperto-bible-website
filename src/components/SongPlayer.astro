@@ -492,6 +492,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
   .karaoke-progress {
     margin-bottom: 1rem;
+    cursor: pointer;
   }
 
   .progress-bar {
@@ -501,6 +502,11 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 0.5rem;
+    position: relative;
+  }
+
+  .progress-bar:hover {
+    height: 6px;
   }
 
   .progress-fill {
@@ -508,7 +514,11 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     background: var(--color-accent);
     border-radius: 4px;
     width: 0%;
-    transition: width 0.1s linear;
+    position: relative;
+  }
+
+  .progress-bar:hover .progress-fill {
+    height: 100%;
   }
 
   .progress-times {
@@ -861,4 +871,48 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     karaokeState.isPlaying = !karaokeState.isPlaying;
     updatePlayPauseButton();
   });
+
+  // Progress bar scrubbing
+  const progressContainer = document.querySelector('.karaoke-progress');
+  if (progressContainer) {
+    let isScrubbing = false;
+
+    progressContainer.addEventListener('click', (e) => {
+      if (!karaokeState.audioElement) return;
+
+      const rect = progressContainer.querySelector('.progress-bar').getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const percentage = clickX / rect.width;
+      const newTime = percentage * karaokeState.audioElement.duration;
+
+      karaokeState.audioElement.currentTime = newTime;
+      updateKaraokeSync();
+    });
+
+    progressContainer.addEventListener('mousedown', () => {
+      isScrubbing = true;
+      if (karaokeState.audioElement) {
+        karaokeState.audioElement.pause();
+      }
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (isScrubbing && karaokeState.isPlaying && karaokeState.audioElement) {
+        karaokeState.audioElement.play();
+      }
+      isScrubbing = false;
+    });
+
+    progressContainer.addEventListener('mousemove', (e) => {
+      if (!isScrubbing || !karaokeState.audioElement) return;
+
+      const rect = progressContainer.querySelector('.progress-bar').getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const percentage = Math.max(0, Math.min(1, clickX / rect.width));
+      const newTime = percentage * karaokeState.audioElement.duration;
+
+      karaokeState.audioElement.currentTime = newTime;
+      updateKaraokeSync();
+    });
+  }
 </script>
