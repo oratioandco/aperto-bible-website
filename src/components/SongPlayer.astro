@@ -414,22 +414,22 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Lyrics Lines - Apple Music Style */
   .karaoke-line {
     font-family: 'Switzer', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 1.5;
-    padding: 0.5rem 0;
-    margin: 0.25rem 0;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.3;
+    padding: 0.25rem 0;
+    margin: 0.5rem 0;
 
     /* Smooth transitions for blur, scale, and opacity */
     transition:
-      filter 0.5s cubic-bezier(0.25, 1, 0.5, 1),
-      opacity 0.5s cubic-bezier(0.25, 1, 0.5, 1),
-      transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+      filter 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+      opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+      transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 
     /* Default state: blurred, dimmed, slightly smaller */
-    filter: blur(2px);
-    opacity: 0.35;
-    transform: scale(0.92);
+    filter: blur(1.5px);
+    opacity: 0.4;
+    transform: scale(0.95);
 
     cursor: pointer;
     user-select: none;
@@ -639,21 +639,54 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Responsive */
   @media (max-width: 768px) {
     .song-card-content {
-      flex-direction: column;
-      text-align: center;
+      flex-direction: row;
+      text-align: left;
+      padding: 0.75rem;
     }
 
     .song-cover {
-      width: 120px;
-      height: 120px;
+      width: 60px;
+      height: 60px;
+    }
+
+    .song-genre {
+      font-size: 0.6rem;
+    }
+
+    .song-title {
+      font-size: 0.9rem;
+    }
+
+    .song-description {
+      font-size: 0.75rem;
+    }
+
+    .play-button {
+      width: 40px;
+      height: 40px;
+    }
+
+    .play-button .material-symbols-rounded {
+      font-size: 24px;
     }
 
     .karaoke-line {
-      font-size: 1.8rem;
+      font-size: 28px;
+      font-weight: 700;
     }
 
     .karaoke-controls {
       gap: 1rem;
+    }
+
+    .lyrics-scroll-container {
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .karaoke-line {
+      font-size: 24px;
     }
   }
 </style>
