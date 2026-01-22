@@ -263,7 +263,6 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     max-height: 100vh;
     padding: 0;
     overflow: hidden;
-    background: transparent;
   }
 
   .karaoke-modal::backdrop {
@@ -275,9 +274,23 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     inset: 0;
     background-size: cover;
     background-position: center;
-    filter: blur(100px) brightness(0.3);
+    filter: blur(100px) brightness(0.4);
     transform: scale(1.1);
     z-index: -1;
+  }
+
+  .karaoke-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(135deg, #FFFBF5 0%, #F5EBE0 100%);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karaoke-container {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
   }
 
   .karaoke-modal[open] {
@@ -334,7 +347,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     font-family: 'Switzer', -apple-system, sans-serif;
     font-size: 0.85rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.15em;
   }
@@ -343,8 +356,18 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     font-family: 'Switzer', -apple-system, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: white;
+    color: var(--color-charcoal);
     text-align: center;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karaoke-now-playing {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .karaoke-title-text {
+      color: white;
+    }
   }
 
   /* Content */
@@ -390,22 +413,23 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Lyrics Lines - Spotify Style */
   .karaoke-line {
     font-family: 'Switzer', -apple-system, sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 800;
     line-height: 1.4;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--color-text-muted);
     padding: 0.75rem 0;
     transition: all 0.3s ease;
     margin-bottom: 0.5rem;
   }
 
   .karaoke-line.active {
-    color: rgba(255, 255, 255, 0.95);
-    transform: scale(1.05);
+    color: var(--color-charcoal);
+    transform: scale(1.02);
   }
 
   .karaoke-line.past {
-    color: rgba(255, 255, 255, 0.2);
+    color: var(--color-text-muted);
+    opacity: 0.5;
   }
 
   /* Word-level highlighting */
@@ -417,24 +441,48 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   }
 
   .karaoke-word.current {
-    color: #1db954;
-    text-shadow: 0 0 40px rgba(29, 185, 84, 0.6);
-    transform: scale(1.1);
+    color: var(--color-accent);
+    text-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
+    transform: scale(1.08);
   }
 
   .karaoke-word.past {
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .karaoke-word.future {
-    opacity: 0.5;
+    opacity: 0.7;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karaoke-line {
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    .karaoke-line.active {
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .karaoke-line.past {
+      color: rgba(255, 255, 255, 0.2);
+    }
+
+    .karaoke-word.current {
+      color: #1db954;
+      text-shadow: 0 0 30px rgba(29, 185, 84, 0.5);
+    }
   }
 
   /* Footer */
   .karaoke-footer {
     padding: 1.5rem 2rem 2rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-    backdrop-filter: blur(20px);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), transparent);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karaoke-footer {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    }
   }
 
   .karaoke-progress {
@@ -444,7 +492,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   .progress-bar {
     width: 100%;
     height: 4px;
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--color-border);
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 0.5rem;
@@ -452,7 +500,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
   .progress-fill {
     height: 100%;
-    background: #1db954;
+    background: var(--color-accent);
     border-radius: 4px;
     width: 0%;
     transition: width 0.1s linear;
@@ -463,7 +511,21 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     justify-content: space-between;
     font-family: 'Switzer', -apple-system, sans-serif;
     font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-text-muted);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .progress-bar {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .progress-fill {
+      background: #1db954;
+    }
+
+    .progress-times {
+      color: rgba(255, 255, 255, 0.6);
+    }
   }
 
   .karaoke-controls {
@@ -479,7 +541,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     border-radius: 50%;
     border: none;
     background: transparent;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-text);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -488,8 +550,19 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   }
 
   .control-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-charcoal);
+    background: var(--color-beige);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .control-btn {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .control-btn:hover {
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+    }
   }
 
   .control-btn .material-symbols-rounded {
