@@ -36,7 +36,40 @@ const base = '';
 
     <!-- Table of Contents with Headlines -->
     <nav class="toc max-w-2xl w-full">
-      <ul class="space-y-2">
+      <!-- Mobile Dropdown -->
+      <div class="toc-dropdown md:hidden">
+        <button
+          id="toc-dropdown-button"
+          class="toc-dropdown-button w-full flex items-center justify-between py-3 px-4 rounded-lg bg-white/60 hover:bg-white/80 transition-all"
+          aria-expanded="false"
+          aria-controls="toc-dropdown-menu"
+          type="button"
+        >
+          <span class="font-medium text-charcoal">Inhaltsverzeichnis</span>
+          <span class="material-symbols-rounded text-charcoal">expand_more</span>
+        </button>
+        <div
+          id="toc-dropdown-menu"
+          class="toc-dropdown-menu hidden"
+        >
+          <ul class="space-y-1 mt-2">
+            {pericopes.pericopes.map((p) => (
+              <li>
+                <a
+                  href={`#${p.id}`}
+                  class="toc-dropdown-item flex items-center justify-between py-3 px-4 rounded-lg transition-all hover:bg-white/50"
+                >
+                  <span class="toc-title text-left">{p.title}</span>
+                  <span class="toc-verses text-sm">{p.verses}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Desktop List -->
+      <ul class="toc-desktop hidden md:block space-y-2">
         {pericopes.pericopes.map((p) => (
           <li>
             <a
@@ -133,7 +166,86 @@ const base = '';
   .animate-bounce {
     animation: bounce 2s infinite;
   }
+
+  /* TOC Dropdown styles */
+  .toc-dropdown-button {
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .toc-dropdown-button:hover {
+    border-color: rgba(139, 115, 85, 0.2);
+  }
+
+  .toc-dropdown-menu {
+    animation: slideDown 0.2s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .toc-dropdown-item {
+    border: 1px solid transparent;
+  }
+
+  .toc-dropdown-item:hover {
+    border-color: rgba(139, 115, 85, 0.2);
+  }
 </style>
+
+<script>
+  // TOC Dropdown functionality
+  const tocDropdownButton = document.getElementById('toc-dropdown-button');
+  const tocDropdownMenu = document.getElementById('toc-dropdown-menu');
+
+  if (tocDropdownButton && tocDropdownMenu) {
+    tocDropdownButton.addEventListener('click', () => {
+      const isExpanded = tocDropdownButton.getAttribute('aria-expanded') === 'true';
+      tocDropdownButton.setAttribute('aria-expanded', !isExpanded);
+      tocDropdownMenu.classList.toggle('hidden');
+
+      // Rotate the icon
+      const icon = tocDropdownButton.querySelector('.material-symbols-rounded');
+      if (icon) {
+        icon.style.transform = !isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+        icon.style.transition = 'transform 0.2s ease';
+      }
+    });
+
+    // Close dropdown when clicking on a link
+    const dropdownLinks = tocDropdownMenu.querySelectorAll('a');
+    dropdownLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        tocDropdownButton.setAttribute('aria-expanded', 'false');
+        tocDropdownMenu.classList.add('hidden');
+        const icon = tocDropdownButton.querySelector('.material-symbols-rounded');
+        if (icon) {
+          icon.style.transform = 'rotate(0deg)';
+        }
+      });
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!tocDropdownButton.contains(e.target) && !tocDropdownMenu.contains(e.target)) {
+        tocDropdownButton.setAttribute('aria-expanded', 'false');
+        tocDropdownMenu.classList.add('hidden');
+        const icon = tocDropdownButton.querySelector('.material-symbols-rounded');
+        if (icon) {
+          icon.style.transform = 'rotate(0deg)';
+        }
+      }
+    });
+  }
+</script>
 
 <script is:inline>
 (function() {
