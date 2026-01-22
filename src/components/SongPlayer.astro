@@ -96,8 +96,6 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       <button class="karaoke-close" type="button" aria-label={t.close}>
         <span class="material-symbols-rounded">expand_more</span>
       </button>
-      <div class="karaoke-now-playing">Now Playing</div>
-      <div class="karaoke-title-text" id="karaoke-title-text">Song Title</div>
     </header>
 
     <!-- Main Content -->
@@ -272,11 +270,26 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   .karaoke-backdrop {
     position: fixed;
     inset: 0;
-    background-size: cover;
-    background-position: center;
-    filter: blur(100px) brightness(0.4);
-    transform: scale(1.1);
+    background-size: 400% 400%;
+    background-position: 0% 50%;
     z-index: -1;
+    animation: gradientShift 15s ease infinite;
+  }
+
+  /* Light mode - Warm beige gradient */
+  .karaoke-backdrop {
+    background: linear-gradient(135deg, #FFFBF5 0%, #F5EBE0 25%, #E8D5C4 50%, #F5EBE0 75%, #FFFBF5 100%);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karaoke-backdrop {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #16213e 75%, #1a1a2e 100%);
+    }
+  }
+
+  @keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
   }
 
   .karaoke-container {
@@ -284,13 +297,6 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     display: flex;
     flex-direction: column;
     position: relative;
-    background: linear-gradient(135deg, #FFFBF5 0%, #F5EBE0 100%);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .karaoke-container {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    }
   }
 
   .karaoke-modal[open] {
@@ -312,62 +318,56 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Header */
   .karaoke-header {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 1.5rem 2rem 1rem;
+    padding: 1rem;
+    position: relative;
     z-index: 10;
-    gap: 0.5rem;
   }
 
   .karaoke-close {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     border: none;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
+    background: rgba(0, 0, 0, 0.05);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease;
-    backdrop-filter: blur(10px);
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    color: var(--color-text);
   }
 
   .karaoke-close:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.1);
     transform: rotate(180deg);
   }
 
-  .karaoke-close .material-symbols-rounded {
-    font-size: 28px;
-  }
-
-  .karaoke-now-playing {
-    font-family: 'Switzer', -apple-system, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: var(--color-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-  }
-
-  .karaoke-title-text {
-    font-family: 'Switzer', -apple-system, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--color-charcoal);
-    text-align: center;
-  }
-
   @media (prefers-color-scheme: dark) {
-    .karaoke-now-playing {
-      color: rgba(255, 255, 255, 0.6);
+    .karaoke-close {
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
     }
 
-    .karaoke-title-text {
-      color: white;
+    .karaoke-close:hover {
+      background: rgba(255, 255, 255, 0.2);
     }
+  }
+
+  .karaoke-close .material-symbols-rounded {
+    font-size: 24px;
+  }
+
+  /* Section labels */
+  .lyric-section-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 3rem 0 1.5rem;
+    opacity: 0.4;
+    transition: opacity 0.5s ease;
   }
 
   /* Content */
@@ -393,8 +393,9 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     margin: 0 auto;
     text-align: center;
     overflow-y: auto;
-    padding: 4rem 0;
+    padding: 50vh 0;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
 
   .lyrics-scroll-container::-webkit-scrollbar {
@@ -410,28 +411,42 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     border-radius: 4px;
   }
 
-  /* Lyrics Lines - Spotify Style */
+  /* Lyrics Lines - Apple Music Style */
   .karaoke-line {
-    font-family: 'Switzer', -apple-system, sans-serif;
+    font-family: 'Switzer', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 32px;
     font-weight: 900;
-    line-height: 1.4;
-    color: var(--color-text-muted);
-    opacity: 0.5;
-    padding: 0.75rem 0;
-    transition: all 0.3s ease;
-    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    padding: 0.5rem 0;
+    margin: 0.25rem 0;
+
+    /* Smooth transitions for blur, scale, and opacity */
+    transition:
+      filter 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+      opacity 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+      transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+
+    /* Default state: blurred, dimmed, slightly smaller */
+    filter: blur(2px);
+    opacity: 0.35;
+    transform: scale(0.92);
+
+    cursor: pointer;
+    user-select: none;
   }
 
+  /* Active line - fully visible and sharp */
   .karaoke-line.active {
-    color: var(--color-charcoal);
+    filter: blur(0);
     opacity: 1;
-    transform: scale(1.02);
+    transform: scale(1);
   }
 
+  /* Past lines - visible but slightly dimmed */
   .karaoke-line.past {
-    color: var(--color-charcoal);
-    opacity: 1;
+    filter: blur(0.5px);
+    opacity: 0.6;
+    transform: scale(0.96);
   }
 
   /* Word-level highlighting */
@@ -458,23 +473,12 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
   @media (prefers-color-scheme: dark) {
     .karaoke-line {
-      color: rgba(255, 255, 255, 0.5);
-      opacity: 0.5;
-    }
-
-    .karaoke-line.active {
-      color: rgba(255, 255, 255, 0.95);
-      opacity: 1;
-    }
-
-    .karaoke-line.past {
-      color: rgba(255, 255, 255, 0.95);
-      opacity: 1;
+      color: rgba(255, 255, 255, 0.8);
     }
 
     .karaoke-word.current {
       color: #1db954;
-      text-shadow: 0 0 30px rgba(29, 185, 84, 0.5);
+      text-shadow: 0 0 40px rgba(29, 185, 84, 0.6);
     }
   }
 
@@ -667,11 +671,6 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     const modal = document.getElementById('global-karaoke-modal');
     const backdrop = document.getElementById('karaoke-backdrop');
     const lyricsContainer = document.getElementById('lyrics-scroll-container');
-    const titleText = document.getElementById('karaoke-title-text');
-
-    // Set background and title
-    backdrop.style.backgroundImage = `url(${coverArt})`;
-    titleText.textContent = title;
 
     // Show modal
     modal.showModal();
@@ -712,7 +711,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
     transcript.sections.forEach((section, sectionIdx) => {
       if (section.label) {
-        html += `<div style="color: rgba(255,255,255,0.4); font-size: 1rem; margin: 2rem 0 1rem; text-transform: uppercase; letter-spacing: 0.2em;">${section.label}</div>`;
+        html += `<div class="lyric-section-label">${section.label}</div>`;
       }
 
       section.lines.forEach((line, lineIdx) => {
@@ -736,6 +735,18 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     });
 
     container.innerHTML = html;
+
+    // Add click handlers for seeking
+    container.querySelectorAll('.karaoke-line').forEach((line, index) => {
+      line.addEventListener('click', () => {
+        const startTime = parseInt(line.getAttribute('data-start') || '0') / 1000;
+        if (karaokeState.audioElement) {
+          karaokeState.audioElement.currentTime = startTime;
+          updateKaraokeSync();
+        }
+      });
+    });
+
     setupWordLevelSync();
   }
 
