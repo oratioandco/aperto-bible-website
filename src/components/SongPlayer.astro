@@ -452,23 +452,32 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Word-level highlighting */
   .karaoke-word {
     display: inline;
-    padding: 0.1em 0.2em;
-    border-radius: 8px;
-    transition: all 0.15s ease;
+    padding: 0.05em 0.15em;
+    margin: 0 0.05em;
+    border-radius: 6px;
+    transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+    opacity: 0.4;
   }
 
+  /* Currently being sung - bright and glowing */
   .karaoke-word.current {
     color: var(--color-accent);
-    text-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
-    transform: scale(1.08);
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(212, 165, 116, 0.5), 0 0 60px rgba(212, 165, 116, 0.3);
+    transform: scale(1.12);
+    font-weight: 950;
   }
 
+  /* Already sung - fully visible but no glow */
   .karaoke-word.past {
     opacity: 1;
+    transform: scale(1);
   }
 
+  /* Not yet sung - dimmed */
   .karaoke-word.future {
-    opacity: 0.5;
+    opacity: 0.4;
+    transform: scale(0.98);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -478,7 +487,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
     .karaoke-word.current {
       color: #1db954;
-      text-shadow: 0 0 40px rgba(29, 185, 84, 0.6);
+      text-shadow: 0 0 40px rgba(29, 185, 84, 0.7), 0 0 80px rgba(29, 185, 84, 0.4);
     }
   }
 
@@ -651,7 +660,8 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     currentTranscript: null,
     isPlaying: false,
     audioElement: null,
-    syncEnabled: true
+    animationFrame: null,
+    lastUpdateTime: 0
   };
 
   // Open karaoke modal
@@ -757,19 +767,52 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       karaokeState.audioElement = null;
     }
 
+    // Cancel any existing animation frame
+    if (karaokeState.animationFrame) {
+      cancelAnimationFrame(karaokeState.animationFrame);
+    }
+
     // Create new audio element
     const audio = new Audio(mp3);
     karaokeState.audioElement = audio;
     karaokeState.isPlaying = false;
 
-    audio.addEventListener('timeupdate', updateKaraokeSync);
     audio.addEventListener('loadedmetadata', () => {
       document.getElementById('karaoke-duration').textContent = formatTime(audio.duration);
+      updatePlayPauseButton();
     });
+
     audio.addEventListener('ended', () => {
       karaokeState.isPlaying = false;
       updatePlayPauseButton();
+      if (karaokeState.animationFrame) {
+        cancelAnimationFrame(karaokeState.animationFrame);
+      }
     });
+
+    audio.addEventListener('play', () => {
+      karaokeState.isPlaying = true;
+      updatePlayPauseButton();
+      startUpdateLoop();
+    });
+
+    audio.addEventListener('pause', () => {
+      karaokeState.isPlaying = false;
+      updatePlayPauseButton();
+      if (karaokeState.animationFrame) {
+        cancelAnimationFrame(karaokeState.animationFrame);
+      }
+    });
+  }
+
+  function startUpdateLoop() {
+    const update = () => {
+      updateKaraokeSync();
+      if (karaokeState.isPlaying) {
+        karaokeState.animationFrame = requestAnimationFrame(update);
+      }
+    };
+    karaokeState.animationFrame = requestAnimationFrame(update);
   }
 
   function setupWordLevelSync() {
@@ -857,7 +900,9 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   function updatePlayPauseButton() {
     const btn = document.getElementById('karaoke-play-pause');
     const icon = btn.querySelector('.material-symbols-rounded');
-    icon.textContent = karaokeState.isPlaying ? 'pause' : 'play_arrow';
+    if (icon) {
+      icon.textContent = karaokeState.isPlaying ? 'pause' : 'play_arrow';
+    }
   }
 
   // Close modal
@@ -866,6 +911,9 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     if (karaokeState.audioElement) {
       karaokeState.audioElement.pause();
       karaokeState.isPlaying = false;
+    }
+    if (karaokeState.animationFrame) {
+      cancelAnimationFrame(karaokeState.animationFrame);
     }
     modal.close();
   });
