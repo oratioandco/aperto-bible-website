@@ -1,11 +1,13 @@
 ---
 import { marked } from 'marked';
+import SongPlayer from './SongPlayer.astro';
 
 interface Song {
   description?: string;
   title: string;
   mp3: string;
   genre: string;
+  transcriptPath?: string;
 }
 
 interface Footnote {
@@ -233,22 +235,7 @@ const categoryLabels: Record<string, string> = {
           )}
 
           {songs.map((song) => (
-            <div class="media-card media-card-song group">
-              <div class="media-card-inner">
-                <div class="media-card-header">
-                  <div class="media-icon-wrapper media-icon-song">
-                    <span class="material-symbols-rounded text-xl">music_note</span>
-                  </div>
-                  <div class="media-card-text">
-                    <span class="media-card-label">{song.genre || 'Song'}</span>
-                    <span class="media-card-title">{song.title}</span>
-                  </div>
-                </div>
-                <audio controls class="w-full h-10 mt-3" preload="none">
-                  <source src={`${base}/audio/songs/${song.mp3}`} type="audio/mpeg" />
-                </audio>
-              </div>
-            </div>
+            <SongPlayer song={song} lang={lang} />
           ))}
 
           {media.podcast && (

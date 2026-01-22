@@ -1,0 +1,2190 @@
+{
+  "schema_version": "1.0",
+  "song_id": "42_luke_01_46-56_de",
+  "title": "Alles in mir feiert",
+  "artist": "Aperto Bible",
+  "language": "de",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "46-56",
+  "duration_ms": 152159,
+  "audio_file": "songs/luke_01/german/_Alles in mir feiert_ - Luke 1_46-56 (German).mp3",
+  "lyrics_source": "songs/luke_01/german/38_luke_01_46-56_FINAL_OUTPUT.md",
+  "generated_at": "2026-01-19T16:28:59.965453",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.933,
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Intro",
+      "start_ms": 0,
+      "end_ms": 6640,
+      "lines": [
+        {
+          "text": "Alles in mir feiert",
+          "start_ms": 0,
+          "end_ms": 2000,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 0,
+              "end_ms": 500
+            },
+            {
+              "word": "in",
+              "start_ms": 500,
+              "end_ms": 700
+            },
+            {
+              "word": "mir",
+              "start_ms": 700,
+              "end_ms": 780
+            },
+            {
+              "word": "feiert",
+              "start_ms": 780,
+              "end_ms": 2000
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert",
+          "start_ms": 4659,
+          "end_ms": 6640,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 4659,
+              "end_ms": 5060
+            },
+            {
+              "word": "in",
+              "start_ms": 5060,
+              "end_ms": 5260
+            },
+            {
+              "word": "mir",
+              "start_ms": 5260,
+              "end_ms": 5320
+            },
+            {
+              "word": "feiert",
+              "start_ms": 5320,
+              "end_ms": 6640
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 10060,
+      "end_ms": 26780,
+      "lines": [
+        {
+          "text": "Niemand hat mich auf dem Schirm gehabt",
+          "start_ms": 10060,
+          "end_ms": 11820,
+          "words": [
+            {
+              "word": "Niemand",
+              "start_ms": 10060,
+              "end_ms": 10460
+            },
+            {
+              "word": "hat",
+              "start_ms": 10460,
+              "end_ms": 10620
+            },
+            {
+              "word": "mich",
+              "start_ms": 10620,
+              "end_ms": 10820
+            },
+            {
+              "word": "auf",
+              "start_ms": 10820,
+              "end_ms": 10940
+            },
+            {
+              "word": "dem",
+              "start_ms": 10940,
+              "end_ms": 11080
+            },
+            {
+              "word": "Schirm",
+              "start_ms": 11080,
+              "end_ms": 11340
+            },
+            {
+              "word": "gehabt",
+              "start_ms": 11340,
+              "end_ms": 11820
+            }
+          ]
+        },
+        {
+          "text": "Kleines Mädchen, kleines Dorf, keine Chance",
+          "start_ms": 12080,
+          "end_ms": 13860,
+          "words": [
+            {
+              "word": "Kleines",
+              "start_ms": 12080,
+              "end_ms": 12220
+            },
+            {
+              "word": "Mädchen,",
+              "start_ms": 12220,
+              "end_ms": 12480
+            },
+            {
+              "word": "kleines",
+              "start_ms": 12080,
+              "end_ms": 12220
+            },
+            {
+              "word": "Dorf,",
+              "start_ms": 12800,
+              "end_ms": 13060
+            },
+            {
+              "word": "keine",
+              "start_ms": 13160,
+              "end_ms": 13280
+            },
+            {
+              "word": "Chance",
+              "start_ms": 13280,
+              "end_ms": 13860
+            }
+          ]
+        },
+        {
+          "text": "Die Welt sagt, du bist nichts, du bleibst nichts",
+          "start_ms": 14440,
+          "end_ms": 15300,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 14440,
+              "end_ms": 14480
+            },
+            {
+              "word": "Welt",
+              "start_ms": 14480,
+              "end_ms": 14620
+            },
+            {
+              "word": "sagt,",
+              "start_ms": 14620,
+              "end_ms": 14760
+            },
+            {
+              "word": "du",
+              "start_ms": 14760,
+              "end_ms": 14880
+            },
+            {
+              "word": "bist",
+              "start_ms": 14880,
+              "end_ms": 15160
+            },
+            {
+              "word": "nichts,",
+              "start_ms": 15160,
+              "end_ms": 15300
+            },
+            {
+              "word": "du",
+              "start_ms": 14760,
+              "end_ms": 14880
+            },
+            {
+              "word": "bleibst",
+              "start_ms": 15480,
+              "end_ms": 15780
+            },
+            {
+              "word": "nichts",
+              "start_ms": 15160,
+              "end_ms": 15300
+            }
+          ]
+        },
+        {
+          "text": "Aber dann kam einer, der hat mich gesehn",
+          "start_ms": 16059,
+          "end_ms": 17660,
+          "words": [
+            {
+              "word": "Aber",
+              "start_ms": 16059,
+              "end_ms": 16260
+            },
+            {
+              "word": "dann",
+              "start_ms": 16260,
+              "end_ms": 16420
+            },
+            {
+              "word": "kam",
+              "start_ms": 16420,
+              "end_ms": 16520
+            },
+            {
+              "word": "einer,",
+              "start_ms": 16520,
+              "end_ms": 16720
+            },
+            {
+              "word": "der",
+              "start_ms": 16800,
+              "end_ms": 16920
+            },
+            {
+              "word": "hat",
+              "start_ms": 16920,
+              "end_ms": 17080
+            },
+            {
+              "word": "mich",
+              "start_ms": 17080,
+              "end_ms": 17240
+            },
+            {
+              "word": "gesehn",
+              "start_ms": 17240,
+              "end_ms": 17660
+            }
+          ]
+        },
+        {
+          "text": "Er hat mich gesehn, mich, die niemand sieht",
+          "start_ms": 18040,
+          "end_ms": 19980,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 18040,
+              "end_ms": 18080
+            },
+            {
+              "word": "hat",
+              "start_ms": 18080,
+              "end_ms": 18220
+            },
+            {
+              "word": "mich",
+              "start_ms": 18220,
+              "end_ms": 18400
+            },
+            {
+              "word": "gesehn,",
+              "start_ms": 18400,
+              "end_ms": 18760
+            },
+            {
+              "word": "mich,",
+              "start_ms": 18780,
+              "end_ms": 19060
+            },
+            {
+              "word": "die",
+              "start_ms": 19360,
+              "end_ms": 19360
+            },
+            {
+              "word": "niemand",
+              "start_ms": 19360,
+              "end_ms": 19620
+            },
+            {
+              "word": "sieht",
+              "start_ms": 19620,
+              "end_ms": 19980
+            }
+          ]
+        },
+        {
+          "text": "Er hat mich gehört, als niemand zuhört",
+          "start_ms": 20220,
+          "end_ms": 22480,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 20220,
+              "end_ms": 20380
+            },
+            {
+              "word": "hat",
+              "start_ms": 20380,
+              "end_ms": 20480
+            },
+            {
+              "word": "mich",
+              "start_ms": 20480,
+              "end_ms": 20740
+            },
+            {
+              "word": "gehört,",
+              "start_ms": 20740,
+              "end_ms": 21060
+            },
+            {
+              "word": "als",
+              "start_ms": 21140,
+              "end_ms": 21380
+            },
+            {
+              "word": "niemand",
+              "start_ms": 21380,
+              "end_ms": 21880
+            },
+            {
+              "word": "zuhört",
+              "start_ms": 21880,
+              "end_ms": 22480
+            }
+          ]
+        },
+        {
+          "text": "Er hat mich gewählt, obwohl ich niemand bin",
+          "start_ms": 22640,
+          "end_ms": 24760,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 22640,
+              "end_ms": 22660
+            },
+            {
+              "word": "hat",
+              "start_ms": 22660,
+              "end_ms": 22760
+            },
+            {
+              "word": "mich",
+              "start_ms": 22760,
+              "end_ms": 23020
+            },
+            {
+              "word": "gewählt,",
+              "start_ms": 23020,
+              "end_ms": 23220
+            },
+            {
+              "word": "obwohl",
+              "start_ms": 23300,
+              "end_ms": 23500
+            },
+            {
+              "word": "ich",
+              "start_ms": 23500,
+              "end_ms": 23740
+            },
+            {
+              "word": "niemand",
+              "start_ms": 23740,
+              "end_ms": 24120
+            },
+            {
+              "word": "bin",
+              "start_ms": 24120,
+              "end_ms": 24760
+            }
+          ]
+        },
+        {
+          "text": "Und jetzt kann ich nicht still sein",
+          "start_ms": 25060,
+          "end_ms": 26780,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 25060,
+              "end_ms": 25240
+            },
+            {
+              "word": "jetzt",
+              "start_ms": 25240,
+              "end_ms": 25360
+            },
+            {
+              "word": "kann",
+              "start_ms": 25360,
+              "end_ms": 25580
+            },
+            {
+              "word": "ich",
+              "start_ms": 25580,
+              "end_ms": 25780
+            },
+            {
+              "word": "nicht",
+              "start_ms": 25780,
+              "end_ms": 26000
+            },
+            {
+              "word": "still",
+              "start_ms": 26000,
+              "end_ms": 26340
+            },
+            {
+              "word": "sein",
+              "start_ms": 26340,
+              "end_ms": 26780
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 27500,
+      "end_ms": 39020,
+      "lines": [
+        {
+          "text": "Alles, was sie sagten, war ich nicht wert",
+          "start_ms": 27500,
+          "end_ms": 32659,
+          "words": [
+            {
+              "word": "Alles,",
+              "start_ms": 27500,
+              "end_ms": 27900
+            },
+            {
+              "word": "was",
+              "start_ms": 27900,
+              "end_ms": 28020
+            },
+            {
+              "word": "sie",
+              "start_ms": 30320,
+              "end_ms": 30560
+            },
+            {
+              "word": "sagten,",
+              "start_ms": 30560,
+              "end_ms": 30780
+            },
+            {
+              "word": "war",
+              "start_ms": 30200,
+              "end_ms": 30320
+            },
+            {
+              "word": "ich",
+              "start_ms": 30960,
+              "end_ms": 31080
+            },
+            {
+              "word": "nicht",
+              "start_ms": 31080,
+              "end_ms": 31360
+            },
+            {
+              "word": "wert",
+              "start_ms": 32460,
+              "end_ms": 32659
+            }
+          ]
+        },
+        {
+          "text": "Alles, was sie dachten, hab ich nicht verdient",
+          "start_ms": 36640,
+          "end_ms": 39550,
+          "words": [
+            {
+              "word": "Alles,",
+              "start_ms": 36640,
+              "end_ms": 37100
+            },
+            {
+              "word": "was",
+              "start_ms": 37150,
+              "end_ms": 37450,
+              "estimated": true
+            },
+            {
+              "word": "sie",
+              "start_ms": 37500,
+              "end_ms": 37800,
+              "estimated": true
+            },
+            {
+              "word": "dachten,",
+              "start_ms": 37850,
+              "end_ms": 38150,
+              "estimated": true
+            },
+            {
+              "word": "hab",
+              "start_ms": 38200,
+              "end_ms": 38500,
+              "estimated": true
+            },
+            {
+              "word": "ich",
+              "start_ms": 38550,
+              "end_ms": 38850,
+              "estimated": true
+            },
+            {
+              "word": "nicht",
+              "start_ms": 38900,
+              "end_ms": 39200,
+              "estimated": true
+            },
+            {
+              "word": "verdient",
+              "start_ms": 39250,
+              "end_ms": 39550,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Aber er sieht anders, er sieht mich",
+          "start_ms": 37100,
+          "end_ms": 37300,
+          "words": [
+            {
+              "word": "Aber",
+              "start_ms": 37100,
+              "end_ms": 37400,
+              "estimated": true
+            },
+            {
+              "word": "er",
+              "start_ms": 37450,
+              "end_ms": 37750,
+              "estimated": true
+            },
+            {
+              "word": "sieht",
+              "start_ms": 37800,
+              "end_ms": 38100,
+              "estimated": true
+            },
+            {
+              "word": "anders,",
+              "start_ms": 38150,
+              "end_ms": 38450,
+              "estimated": true
+            },
+            {
+              "word": "er",
+              "start_ms": 38500,
+              "end_ms": 38800,
+              "estimated": true
+            },
+            {
+              "word": "sieht",
+              "start_ms": 38850,
+              "end_ms": 39150,
+              "estimated": true
+            },
+            {
+              "word": "mich",
+              "start_ms": 37240,
+              "end_ms": 37300
+            }
+          ]
+        },
+        {
+          "text": "Und jetzt",
+          "start_ms": 37300,
+          "end_ms": 39020,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 37300,
+              "end_ms": 37600,
+              "estimated": true
+            },
+            {
+              "word": "jetzt",
+              "start_ms": 38480,
+              "end_ms": 39020
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 39180,
+      "end_ms": 47000,
+      "lines": [
+        {
+          "text": "Alles in mir feiert, alles in mir tanzt",
+          "start_ms": 39180,
+          "end_ms": 39970,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 39180,
+              "end_ms": 39360
+            },
+            {
+              "word": "in",
+              "start_ms": 39360,
+              "end_ms": 39520
+            },
+            {
+              "word": "mir",
+              "start_ms": 39520,
+              "end_ms": 39620
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 39620,
+              "end_ms": 40060
+            },
+            {
+              "word": "alles",
+              "start_ms": 40110,
+              "end_ms": 40410,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 39360,
+              "end_ms": 39520
+            },
+            {
+              "word": "mir",
+              "start_ms": 39520,
+              "end_ms": 39620
+            },
+            {
+              "word": "tanzt",
+              "start_ms": 39670,
+              "end_ms": 39970,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert, ich halt nicht mehr an",
+          "start_ms": 39180,
+          "end_ms": 41080,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 39180,
+              "end_ms": 39360
+            },
+            {
+              "word": "in",
+              "start_ms": 39360,
+              "end_ms": 39520
+            },
+            {
+              "word": "mir",
+              "start_ms": 39520,
+              "end_ms": 39620
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 39620,
+              "end_ms": 40060
+            },
+            {
+              "word": "ich",
+              "start_ms": 40260,
+              "end_ms": 40420
+            },
+            {
+              "word": "halt",
+              "start_ms": 40420,
+              "end_ms": 40500
+            },
+            {
+              "word": "nicht",
+              "start_ms": 40500,
+              "end_ms": 40720
+            },
+            {
+              "word": "mehr",
+              "start_ms": 40720,
+              "end_ms": 40940
+            },
+            {
+              "word": "an",
+              "start_ms": 40940,
+              "end_ms": 41080
+            }
+          ]
+        },
+        {
+          "text": "Er sieht mich, er sieht uns, er sieht die Kleinen",
+          "start_ms": 41140,
+          "end_ms": 43680,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 41140,
+              "end_ms": 41340
+            },
+            {
+              "word": "sieht",
+              "start_ms": 41340,
+              "end_ms": 41600
+            },
+            {
+              "word": "mich,",
+              "start_ms": 41600,
+              "end_ms": 41780
+            },
+            {
+              "word": "er",
+              "start_ms": 41140,
+              "end_ms": 41340
+            },
+            {
+              "word": "sieht",
+              "start_ms": 41340,
+              "end_ms": 41600
+            },
+            {
+              "word": "uns,",
+              "start_ms": 42300,
+              "end_ms": 42440
+            },
+            {
+              "word": "er",
+              "start_ms": 41780,
+              "end_ms": 41940
+            },
+            {
+              "word": "sieht",
+              "start_ms": 41340,
+              "end_ms": 41600
+            },
+            {
+              "word": "die",
+              "start_ms": 42900,
+              "end_ms": 43220
+            },
+            {
+              "word": "Kleinen",
+              "start_ms": 43220,
+              "end_ms": 43680
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert, ich kann nicht mehr schweigen",
+          "start_ms": 43700,
+          "end_ms": 45860,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 43700,
+              "end_ms": 43960
+            },
+            {
+              "word": "in",
+              "start_ms": 43960,
+              "end_ms": 44100
+            },
+            {
+              "word": "mir",
+              "start_ms": 44100,
+              "end_ms": 44160
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 44160,
+              "end_ms": 44600
+            },
+            {
+              "word": "ich",
+              "start_ms": 44660,
+              "end_ms": 44760
+            },
+            {
+              "word": "kann",
+              "start_ms": 44760,
+              "end_ms": 45060
+            },
+            {
+              "word": "nicht",
+              "start_ms": 45060,
+              "end_ms": 45200
+            },
+            {
+              "word": "mehr",
+              "start_ms": 45200,
+              "end_ms": 45380
+            },
+            {
+              "word": "schweigen",
+              "start_ms": 45380,
+              "end_ms": 45860
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert",
+          "start_ms": 46020,
+          "end_ms": 47000,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 46020,
+              "end_ms": 46240
+            },
+            {
+              "word": "in",
+              "start_ms": 46240,
+              "end_ms": 46400
+            },
+            {
+              "word": "mir",
+              "start_ms": 46400,
+              "end_ms": 46460
+            },
+            {
+              "word": "feiert",
+              "start_ms": 46460,
+              "end_ms": 47000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 54560,
+      "end_ms": 73340,
+      "lines": [
+        {
+          "text": "Und was er an mir tut, macht er überall",
+          "start_ms": 54560,
+          "end_ms": 57040,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 54560,
+              "end_ms": 55040
+            },
+            {
+              "word": "was",
+              "start_ms": 55040,
+              "end_ms": 55240
+            },
+            {
+              "word": "er",
+              "start_ms": 55240,
+              "end_ms": 55460
+            },
+            {
+              "word": "an",
+              "start_ms": 55460,
+              "end_ms": 55500
+            },
+            {
+              "word": "mir",
+              "start_ms": 55500,
+              "end_ms": 55660
+            },
+            {
+              "word": "tut,",
+              "start_ms": 55660,
+              "end_ms": 56100
+            },
+            {
+              "word": "macht",
+              "start_ms": 56300,
+              "end_ms": 56380
+            },
+            {
+              "word": "er",
+              "start_ms": 56380,
+              "end_ms": 56540
+            },
+            {
+              "word": "überall",
+              "start_ms": 56540,
+              "end_ms": 57040
+            }
+          ]
+        },
+        {
+          "text": "Die Kleinen werden groß, die Großen werden klein",
+          "start_ms": 57280,
+          "end_ms": 59400,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 57280,
+              "end_ms": 57400
+            },
+            {
+              "word": "Kleinen",
+              "start_ms": 57400,
+              "end_ms": 57660
+            },
+            {
+              "word": "werden",
+              "start_ms": 57660,
+              "end_ms": 57880
+            },
+            {
+              "word": "groß,",
+              "start_ms": 57880,
+              "end_ms": 58300
+            },
+            {
+              "word": "die",
+              "start_ms": 58360,
+              "end_ms": 58540
+            },
+            {
+              "word": "Großen",
+              "start_ms": 58540,
+              "end_ms": 58780
+            },
+            {
+              "word": "werden",
+              "start_ms": 58780,
+              "end_ms": 59140
+            },
+            {
+              "word": "klein",
+              "start_ms": 59140,
+              "end_ms": 59400
+            }
+          ]
+        },
+        {
+          "text": "Die Hungrigen kriegen mehr, als sie je hatten",
+          "start_ms": 59560,
+          "end_ms": 61640,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 59560,
+              "end_ms": 59760
+            },
+            {
+              "word": "Hungrigen",
+              "start_ms": 59760,
+              "end_ms": 60180
+            },
+            {
+              "word": "kriegen",
+              "start_ms": 60180,
+              "end_ms": 60480
+            },
+            {
+              "word": "mehr,",
+              "start_ms": 60480,
+              "end_ms": 60780
+            },
+            {
+              "word": "als",
+              "start_ms": 60860,
+              "end_ms": 61060
+            },
+            {
+              "word": "sie",
+              "start_ms": 61060,
+              "end_ms": 61340
+            },
+            {
+              "word": "je",
+              "start_ms": 61390,
+              "end_ms": 61690,
+              "estimated": true
+            },
+            {
+              "word": "hatten",
+              "start_ms": 61340,
+              "end_ms": 61640
+            }
+          ]
+        },
+        {
+          "text": "Die Reichen gehn nach Haus, mit leeren Händen",
+          "start_ms": 61820,
+          "end_ms": 64140,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 61820,
+              "end_ms": 61980
+            },
+            {
+              "word": "Reichen",
+              "start_ms": 61980,
+              "end_ms": 62180
+            },
+            {
+              "word": "gehn",
+              "start_ms": 62180,
+              "end_ms": 62380
+            },
+            {
+              "word": "nach",
+              "start_ms": 62380,
+              "end_ms": 62620
+            },
+            {
+              "word": "Haus,",
+              "start_ms": 62620,
+              "end_ms": 62940
+            },
+            {
+              "word": "mit",
+              "start_ms": 63180,
+              "end_ms": 63380
+            },
+            {
+              "word": "leeren",
+              "start_ms": 63380,
+              "end_ms": 63620
+            },
+            {
+              "word": "Händen",
+              "start_ms": 63620,
+              "end_ms": 64140
+            }
+          ]
+        },
+        {
+          "text": "Das ist kein Traum, das ist sein Muster",
+          "start_ms": 64260,
+          "end_ms": 66540,
+          "words": [
+            {
+              "word": "Das",
+              "start_ms": 64260,
+              "end_ms": 64379
+            },
+            {
+              "word": "ist",
+              "start_ms": 64379,
+              "end_ms": 64560
+            },
+            {
+              "word": "kein",
+              "start_ms": 64560,
+              "end_ms": 64780
+            },
+            {
+              "word": "Traum,",
+              "start_ms": 64780,
+              "end_ms": 65260
+            },
+            {
+              "word": "das",
+              "start_ms": 65400,
+              "end_ms": 65560
+            },
+            {
+              "word": "ist",
+              "start_ms": 65560,
+              "end_ms": 65780
+            },
+            {
+              "word": "sein",
+              "start_ms": 65780,
+              "end_ms": 66000
+            },
+            {
+              "word": "Muster",
+              "start_ms": 66000,
+              "end_ms": 66540
+            }
+          ]
+        },
+        {
+          "text": "Seit Abraham, seit immer schon",
+          "start_ms": 66920,
+          "end_ms": 69020,
+          "words": [
+            {
+              "word": "Seit",
+              "start_ms": 66920,
+              "end_ms": 67200
+            },
+            {
+              "word": "Abraham,",
+              "start_ms": 67250,
+              "end_ms": 67550,
+              "estimated": true
+            },
+            {
+              "word": "seit",
+              "start_ms": 66920,
+              "end_ms": 67200
+            },
+            {
+              "word": "immer",
+              "start_ms": 68260,
+              "end_ms": 68600
+            },
+            {
+              "word": "schon",
+              "start_ms": 68600,
+              "end_ms": 69020
+            }
+          ]
+        },
+        {
+          "text": "Er vergisst nicht, er gibt nicht auf",
+          "start_ms": 69100,
+          "end_ms": 71340,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 69100,
+              "end_ms": 69340
+            },
+            {
+              "word": "vergisst",
+              "start_ms": 69340,
+              "end_ms": 69680
+            },
+            {
+              "word": "nicht,",
+              "start_ms": 69680,
+              "end_ms": 69940
+            },
+            {
+              "word": "er",
+              "start_ms": 69100,
+              "end_ms": 69340
+            },
+            {
+              "word": "gibt",
+              "start_ms": 70520,
+              "end_ms": 70760
+            },
+            {
+              "word": "nicht",
+              "start_ms": 70760,
+              "end_ms": 71060
+            },
+            {
+              "word": "auf",
+              "start_ms": 71060,
+              "end_ms": 71340
+            }
+          ]
+        },
+        {
+          "text": "Was er verspricht, das hält",
+          "start_ms": 71500,
+          "end_ms": 73340,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 71500,
+              "end_ms": 71640
+            },
+            {
+              "word": "er",
+              "start_ms": 71640,
+              "end_ms": 71900
+            },
+            {
+              "word": "verspricht,",
+              "start_ms": 71900,
+              "end_ms": 72460
+            },
+            {
+              "word": "das",
+              "start_ms": 72560,
+              "end_ms": 72960
+            },
+            {
+              "word": "hält",
+              "start_ms": 72960,
+              "end_ms": 73340
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 73340,
+      "end_ms": 82380,
+      "lines": [
+        {
+          "text": "Die Welt sagt, so läuft das nicht",
+          "start_ms": 73340,
+          "end_ms": 75900,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 73340,
+              "end_ms": 73920
+            },
+            {
+              "word": "Welt",
+              "start_ms": 73920,
+              "end_ms": 74440
+            },
+            {
+              "word": "sagt,",
+              "start_ms": 74440,
+              "end_ms": 74800
+            },
+            {
+              "word": "so",
+              "start_ms": 74820,
+              "end_ms": 75000
+            },
+            {
+              "word": "läuft",
+              "start_ms": 75000,
+              "end_ms": 75360
+            },
+            {
+              "word": "das",
+              "start_ms": 75360,
+              "end_ms": 75720
+            },
+            {
+              "word": "nicht",
+              "start_ms": 75720,
+              "end_ms": 75900
+            }
+          ]
+        },
+        {
+          "text": "Die Mächtigen bleiben oben, ihr bleibt unten",
+          "start_ms": 76040,
+          "end_ms": 79000,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 76040,
+              "end_ms": 76220
+            },
+            {
+              "word": "Mächtigen",
+              "start_ms": 76220,
+              "end_ms": 76800
+            },
+            {
+              "word": "bleiben",
+              "start_ms": 76800,
+              "end_ms": 77260
+            },
+            {
+              "word": "oben,",
+              "start_ms": 78540,
+              "end_ms": 79000
+            },
+            {
+              "word": "ihr",
+              "start_ms": 79050,
+              "end_ms": 79350,
+              "estimated": true
+            },
+            {
+              "word": "bleibt",
+              "start_ms": 78180,
+              "end_ms": 78540
+            },
+            {
+              "word": "unten",
+              "start_ms": 78540,
+              "end_ms": 79000
+            }
+          ]
+        },
+        {
+          "text": "Aber er sieht anders, er dreht alles um",
+          "start_ms": 79240,
+          "end_ms": 81380,
+          "words": [
+            {
+              "word": "Aber",
+              "start_ms": 79240,
+              "end_ms": 79340
+            },
+            {
+              "word": "er",
+              "start_ms": 79340,
+              "end_ms": 79480
+            },
+            {
+              "word": "sieht",
+              "start_ms": 79480,
+              "end_ms": 79700
+            },
+            {
+              "word": "anders,",
+              "start_ms": 79240,
+              "end_ms": 79340
+            },
+            {
+              "word": "er",
+              "start_ms": 79340,
+              "end_ms": 79480
+            },
+            {
+              "word": "dreht",
+              "start_ms": 80140,
+              "end_ms": 80340
+            },
+            {
+              "word": "alles",
+              "start_ms": 80340,
+              "end_ms": 80780
+            },
+            {
+              "word": "um",
+              "start_ms": 80780,
+              "end_ms": 81380
+            }
+          ]
+        },
+        {
+          "text": "Und jetzt",
+          "start_ms": 81660,
+          "end_ms": 82380,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 81660,
+              "end_ms": 81960
+            },
+            {
+              "word": "jetzt",
+              "start_ms": 81960,
+              "end_ms": 82380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 82380,
+      "end_ms": 92640,
+      "lines": [
+        {
+          "text": "Alles in mir feiert, alles in mir tanzt",
+          "start_ms": 82380,
+          "end_ms": 85650,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 82380,
+              "end_ms": 82820
+            },
+            {
+              "word": "in",
+              "start_ms": 82820,
+              "end_ms": 82960
+            },
+            {
+              "word": "mir",
+              "start_ms": 82960,
+              "end_ms": 83040
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 85300,
+              "end_ms": 85780
+            },
+            {
+              "word": "alles",
+              "start_ms": 85830,
+              "end_ms": 86130,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 85120,
+              "end_ms": 85240
+            },
+            {
+              "word": "mir",
+              "start_ms": 85240,
+              "end_ms": 85300
+            },
+            {
+              "word": "tanzt",
+              "start_ms": 85350,
+              "end_ms": 85650,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert, ich halt nicht mehr an",
+          "start_ms": 84860,
+          "end_ms": 86860,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 84860,
+              "end_ms": 85120
+            },
+            {
+              "word": "in",
+              "start_ms": 85120,
+              "end_ms": 85240
+            },
+            {
+              "word": "mir",
+              "start_ms": 85240,
+              "end_ms": 85300
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 85300,
+              "end_ms": 85780
+            },
+            {
+              "word": "ich",
+              "start_ms": 85980,
+              "end_ms": 86140
+            },
+            {
+              "word": "halt",
+              "start_ms": 86140,
+              "end_ms": 86240
+            },
+            {
+              "word": "nicht",
+              "start_ms": 86240,
+              "end_ms": 86440
+            },
+            {
+              "word": "mehr",
+              "start_ms": 86440,
+              "end_ms": 86620
+            },
+            {
+              "word": "an",
+              "start_ms": 86620,
+              "end_ms": 86860
+            }
+          ]
+        },
+        {
+          "text": "Er sieht mich, er sieht uns, er sieht die Kleinen",
+          "start_ms": 86860,
+          "end_ms": 89380,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 86860,
+              "end_ms": 87060
+            },
+            {
+              "word": "sieht",
+              "start_ms": 87060,
+              "end_ms": 87300
+            },
+            {
+              "word": "mich,",
+              "start_ms": 87300,
+              "end_ms": 87500
+            },
+            {
+              "word": "er",
+              "start_ms": 86860,
+              "end_ms": 87060
+            },
+            {
+              "word": "sieht",
+              "start_ms": 87060,
+              "end_ms": 87300
+            },
+            {
+              "word": "uns,",
+              "start_ms": 88020,
+              "end_ms": 88200
+            },
+            {
+              "word": "er",
+              "start_ms": 87560,
+              "end_ms": 87660
+            },
+            {
+              "word": "sieht",
+              "start_ms": 87060,
+              "end_ms": 87300
+            },
+            {
+              "word": "die",
+              "start_ms": 88600,
+              "end_ms": 88940
+            },
+            {
+              "word": "Kleinen",
+              "start_ms": 88940,
+              "end_ms": 89380
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert, ich kann nicht mehr schweigen",
+          "start_ms": 89440,
+          "end_ms": 91600,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 89440,
+              "end_ms": 89660
+            },
+            {
+              "word": "in",
+              "start_ms": 89660,
+              "end_ms": 89800
+            },
+            {
+              "word": "mir",
+              "start_ms": 89800,
+              "end_ms": 89880
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 89880,
+              "end_ms": 90320
+            },
+            {
+              "word": "ich",
+              "start_ms": 90380,
+              "end_ms": 90480
+            },
+            {
+              "word": "kann",
+              "start_ms": 90480,
+              "end_ms": 90760
+            },
+            {
+              "word": "nicht",
+              "start_ms": 90760,
+              "end_ms": 90920
+            },
+            {
+              "word": "mehr",
+              "start_ms": 90920,
+              "end_ms": 91080
+            },
+            {
+              "word": "schweigen",
+              "start_ms": 91080,
+              "end_ms": 91600
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert",
+          "start_ms": 91760,
+          "end_ms": 92640,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 91760,
+              "end_ms": 91940
+            },
+            {
+              "word": "in",
+              "start_ms": 91940,
+              "end_ms": 92160
+            },
+            {
+              "word": "mir",
+              "start_ms": 92160,
+              "end_ms": 92160
+            },
+            {
+              "word": "feiert",
+              "start_ms": 92160,
+              "end_ms": 92640
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Breakdown",
+      "start_ms": 100300,
+      "end_ms": 117860,
+      "lines": [
+        {
+          "text": "Die Stolzen, weg",
+          "start_ms": 100300,
+          "end_ms": 102260,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 100300,
+              "end_ms": 101220
+            },
+            {
+              "word": "Stolzen,",
+              "start_ms": 101220,
+              "end_ms": 101920
+            },
+            {
+              "word": "weg",
+              "start_ms": 101920,
+              "end_ms": 102260
+            }
+          ]
+        },
+        {
+          "text": "Die Herrscher, gestürzt",
+          "start_ms": 100300,
+          "end_ms": 103460,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 100300,
+              "end_ms": 101220
+            },
+            {
+              "word": "Herrscher,",
+              "start_ms": 102560,
+              "end_ms": 102980
+            },
+            {
+              "word": "gestürzt",
+              "start_ms": 102980,
+              "end_ms": 103460
+            }
+          ]
+        },
+        {
+          "text": "Die Kleinen, hochgehoben",
+          "start_ms": 102420,
+          "end_ms": 104690,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 102420,
+              "end_ms": 102560
+            },
+            {
+              "word": "Kleinen,",
+              "start_ms": 103700,
+              "end_ms": 104340
+            },
+            {
+              "word": "hochgehoben",
+              "start_ms": 104390,
+              "end_ms": 104690,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Die Hungrigen, satt",
+          "start_ms": 103620,
+          "end_ms": 106360,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 103620,
+              "end_ms": 103700
+            },
+            {
+              "word": "Hungrigen,",
+              "start_ms": 105500,
+              "end_ms": 105920
+            },
+            {
+              "word": "satt",
+              "start_ms": 105920,
+              "end_ms": 106360
+            }
+          ]
+        },
+        {
+          "text": "Die Reichen, leere Hände",
+          "start_ms": 105240,
+          "end_ms": 108840,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 105240,
+              "end_ms": 105500
+            },
+            {
+              "word": "Reichen,",
+              "start_ms": 107080,
+              "end_ms": 107600
+            },
+            {
+              "word": "leere",
+              "start_ms": 107600,
+              "end_ms": 108180
+            },
+            {
+              "word": "Hände",
+              "start_ms": 108180,
+              "end_ms": 108840
+            }
+          ]
+        },
+        {
+          "text": "Nochmal",
+          "start_ms": 109280,
+          "end_ms": 109740,
+          "words": [
+            {
+              "word": "Nochmal",
+              "start_ms": 109280,
+              "end_ms": 109740
+            }
+          ]
+        },
+        {
+          "text": "Die Stolzen, weg",
+          "start_ms": 110380,
+          "end_ms": 111760,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 110380,
+              "end_ms": 110560
+            },
+            {
+              "word": "Stolzen,",
+              "start_ms": 110560,
+              "end_ms": 111300
+            },
+            {
+              "word": "weg",
+              "start_ms": 111300,
+              "end_ms": 111760
+            }
+          ]
+        },
+        {
+          "text": "Die Herrscher, gestürzt",
+          "start_ms": 110380,
+          "end_ms": 114480,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 110380,
+              "end_ms": 110560
+            },
+            {
+              "word": "Herrscher,",
+              "start_ms": 112780,
+              "end_ms": 113620
+            },
+            {
+              "word": "gestürzt",
+              "start_ms": 113620,
+              "end_ms": 114480
+            }
+          ]
+        },
+        {
+          "text": "Die Kleinen, oben",
+          "start_ms": 112640,
+          "end_ms": 116280,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 112640,
+              "end_ms": 112780
+            },
+            {
+              "word": "Kleinen,",
+              "start_ms": 115080,
+              "end_ms": 115680
+            },
+            {
+              "word": "oben",
+              "start_ms": 115680,
+              "end_ms": 116280
+            }
+          ]
+        },
+        {
+          "text": "Für immer",
+          "start_ms": 117160,
+          "end_ms": 117860,
+          "words": [
+            {
+              "word": "Für",
+              "start_ms": 117160,
+              "end_ms": 117360
+            },
+            {
+              "word": "immer",
+              "start_ms": 117360,
+              "end_ms": 117860
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Final Chorus",
+      "start_ms": 121500,
+      "end_ms": 138360,
+      "lines": [
+        {
+          "text": "Alles in mir feiert, alles in mir tanzt",
+          "start_ms": 121500,
+          "end_ms": 123540,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 121500,
+              "end_ms": 121660
+            },
+            {
+              "word": "in",
+              "start_ms": 121660,
+              "end_ms": 121780
+            },
+            {
+              "word": "mir",
+              "start_ms": 121780,
+              "end_ms": 121900
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 121900,
+              "end_ms": 122400
+            },
+            {
+              "word": "alles",
+              "start_ms": 122660,
+              "end_ms": 122840
+            },
+            {
+              "word": "in",
+              "start_ms": 122840,
+              "end_ms": 122940
+            },
+            {
+              "word": "mir",
+              "start_ms": 122940,
+              "end_ms": 123040
+            },
+            {
+              "word": "tanzt",
+              "start_ms": 123040,
+              "end_ms": 123540
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert, er hat mich erkannt",
+          "start_ms": 123800,
+          "end_ms": 125600,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 123800,
+              "end_ms": 123940
+            },
+            {
+              "word": "in",
+              "start_ms": 123940,
+              "end_ms": 124120
+            },
+            {
+              "word": "mir",
+              "start_ms": 124120,
+              "end_ms": 124200
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 124200,
+              "end_ms": 124720
+            },
+            {
+              "word": "er",
+              "start_ms": 124920,
+              "end_ms": 125000
+            },
+            {
+              "word": "hat",
+              "start_ms": 125000,
+              "end_ms": 125080
+            },
+            {
+              "word": "mich",
+              "start_ms": 125080,
+              "end_ms": 125280
+            },
+            {
+              "word": "erkannt",
+              "start_ms": 125280,
+              "end_ms": 125600
+            }
+          ]
+        },
+        {
+          "text": "Er sieht mich, er sieht dich, er sieht die Kleinen",
+          "start_ms": 125640,
+          "end_ms": 128220,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 125640,
+              "end_ms": 125900
+            },
+            {
+              "word": "sieht",
+              "start_ms": 125900,
+              "end_ms": 126160
+            },
+            {
+              "word": "mich,",
+              "start_ms": 126160,
+              "end_ms": 126320
+            },
+            {
+              "word": "er",
+              "start_ms": 125640,
+              "end_ms": 125900
+            },
+            {
+              "word": "sieht",
+              "start_ms": 125900,
+              "end_ms": 126160
+            },
+            {
+              "word": "dich,",
+              "start_ms": 126160,
+              "end_ms": 126320
+            },
+            {
+              "word": "er",
+              "start_ms": 125640,
+              "end_ms": 125900
+            },
+            {
+              "word": "sieht",
+              "start_ms": 125900,
+              "end_ms": 126160
+            },
+            {
+              "word": "die",
+              "start_ms": 127460,
+              "end_ms": 127780
+            },
+            {
+              "word": "Kleinen",
+              "start_ms": 127780,
+              "end_ms": 128220
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert, wir können nicht mehr schweigen",
+          "start_ms": 128280,
+          "end_ms": 130440,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 128280,
+              "end_ms": 128520
+            },
+            {
+              "word": "in",
+              "start_ms": 128520,
+              "end_ms": 128620
+            },
+            {
+              "word": "mir",
+              "start_ms": 128620,
+              "end_ms": 128740
+            },
+            {
+              "word": "feiert,",
+              "start_ms": 128740,
+              "end_ms": 129160
+            },
+            {
+              "word": "wir",
+              "start_ms": 129300,
+              "end_ms": 129360
+            },
+            {
+              "word": "können",
+              "start_ms": 129360,
+              "end_ms": 129600
+            },
+            {
+              "word": "nicht",
+              "start_ms": 129600,
+              "end_ms": 129800
+            },
+            {
+              "word": "mehr",
+              "start_ms": 129800,
+              "end_ms": 129960
+            },
+            {
+              "word": "schweigen",
+              "start_ms": 129960,
+              "end_ms": 130440
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert",
+          "start_ms": 130620,
+          "end_ms": 131520,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 130620,
+              "end_ms": 130780
+            },
+            {
+              "word": "in",
+              "start_ms": 130780,
+              "end_ms": 130960
+            },
+            {
+              "word": "mir",
+              "start_ms": 130960,
+              "end_ms": 131039
+            },
+            {
+              "word": "feiert",
+              "start_ms": 131039,
+              "end_ms": 131520
+            }
+          ]
+        },
+        {
+          "text": "Alles in mir feiert",
+          "start_ms": 135100,
+          "end_ms": 136380,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 135100,
+              "end_ms": 135340
+            },
+            {
+              "word": "in",
+              "start_ms": 135340,
+              "end_ms": 135580
+            },
+            {
+              "word": "mir",
+              "start_ms": 135580,
+              "end_ms": 135580
+            },
+            {
+              "word": "feiert",
+              "start_ms": 135580,
+              "end_ms": 136380
+            }
+          ]
+        },
+        {
+          "text": "Für immer",
+          "start_ms": 136480,
+          "end_ms": 138360,
+          "words": [
+            {
+              "word": "Für",
+              "start_ms": 136480,
+              "end_ms": 137960
+            },
+            {
+              "word": "immer",
+              "start_ms": 137960,
+              "end_ms": 138360
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Alles, was sie sagten, war ich...",
+      "section_type": "chorus",
+      "start_ms": 27500,
+      "end_ms": 39020,
+      "key_line": "Alles, was sie sagten, war ich nicht wert",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Alles in mir feiert, alles in ...",
+      "section_type": "chorus",
+      "start_ms": 39180,
+      "end_ms": 47000,
+      "key_line": "Alles in mir feiert, alles in mir tanzt",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Die Welt sagt, so läuft das ni...",
+      "section_type": "chorus",
+      "start_ms": 73340,
+      "end_ms": 82380,
+      "key_line": "Die Welt sagt, so läuft das nicht",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Alles in mir feiert, alles in ...",
+      "section_type": "chorus",
+      "start_ms": 82380,
+      "end_ms": 92640,
+      "key_line": "Alles in mir feiert, alles in mir tanzt",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Alles in mir feiert, alles in ...",
+      "section_type": "chorus",
+      "start_ms": 121500,
+      "end_ms": 138360,
+      "key_line": "Alles in mir feiert, alles in mir tanzt",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ]
+}

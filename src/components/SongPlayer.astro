@@ -1,0 +1,635 @@
+---
+interface Song {
+  title: string;
+  mp3: string;
+  genre?: string;
+  description?: string;
+  transcriptPath?: string;
+}
+
+interface Props {
+  song: Song;
+  lang?: string;
+}
+
+const { song, lang = 'en' } = Astro.props;
+
+const labels = {
+  de: {
+    lyrics: 'Liedtext',
+    close: 'Schließen',
+    lyricsUnavailable: 'Liedtext nicht verfügbar'
+  },
+  en: {
+    lyrics: 'Lyrics',
+    close: 'Close',
+    lyricsUnavailable: 'Lyrics not available'
+  }
+};
+
+const t = labels[lang as keyof typeof labels] || labels.en;
+
+// Generate unique ID for this player
+const playerId = `player-${Math.random().toString(36).substr(2, 9)}`;
+const modalId = `lyrics-modal-${playerId}`;
+const hasTranscript = !!song.transcriptPath;
+---
+
+<div class="song-player" data-player-id={playerId} data-transcript={song.transcriptPath || ''}>
+  <div class="song-card">
+    <div class="song-header">
+      <div class="song-icon">
+        <span class="material-symbols-rounded">music_note</span>
+      </div>
+      <div class="song-info">
+        <span class="song-genre">{song.genre || 'Song'}</span>
+        <span class="song-title">{song.title}</span>
+        {song.description && <span class="song-description">{song.description}</span>}
+      </div>
+      {hasTranscript && (
+        <button
+          class="lyrics-toggle"
+          data-modal={modalId}
+          aria-label={t.lyrics}
+          type="button"
+        >
+          <span class="material-symbols-rounded">lyrics</span>
+          <span>{t.lyrics}</span>
+        </button>
+      )}
+    </div>
+    <audio
+      controls
+      class="song-audio"
+      preload="none"
+      data-player-id={playerId}
+    >
+      <source src={`/audio/songs/${song.mp3}`} type="audio/mpeg" />
+    </audio>
+  </div>
+</div>
+
+{hasTranscript && (
+  <dialog id={modalId} class="lyrics-modal">
+    <div class="lyrics-modal-content">
+      <header class="lyrics-modal-header">
+        <h3 class="lyrics-modal-title">{song.title}</h3>
+        <button class="lyrics-modal-close" data-close={modalId} type="button" aria-label={t.close}>
+          <span class="material-symbols-rounded">close</span>
+        </button>
+      </header>
+      <div class="lyrics-container" data-player-id={playerId}>
+        <div class="lyrics-loading">
+          <span class="material-symbols-rounded spinning">refresh</span>
+          <span>Loading lyrics...</span>
+        </div>
+      </div>
+      <div class="lyrics-modal-footer">
+        <button class="lyrics-sync-toggle active" type="button" data-player-id={playerId}>
+          <span class="material-symbols-rounded">sync</span>
+          <span>Sync On</span>
+        </button>
+      </div>
+    </div>
+  </dialog>
+)}
+
+<style>
+  /* Song Card - Apple Music / Spotify inspired */
+  .song-card {
+    background: linear-gradient(135deg, var(--color-paper), var(--color-beige));
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.25rem;
+    transition: all 0.3s ease;
+  }
+
+  .song-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    border-color: var(--color-border-strong);
+  }
+
+  .song-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .song-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #E8D4C4, #F0E8E4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #8E6B5A;
+  }
+
+  .song-icon .material-symbols-rounded {
+    font-size: 28px;
+  }
+
+  .song-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .song-genre {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.25rem;
+  }
+
+  .song-title {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-charcoal);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .song-description {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .lyrics-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.875rem;
+    background: var(--color-cream);
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .lyrics-toggle:hover {
+    background: var(--color-beige);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .lyrics-toggle .material-symbols-rounded {
+    font-size: 18px;
+  }
+
+  .song-audio {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+  }
+
+  .song-audio::-webkit-media-controls-panel {
+    background: var(--color-cream);
+    border-radius: 8px;
+  }
+
+  /* Lyrics Modal */
+  .lyrics-modal {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90vw;
+    max-height: 80vh;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .lyrics-modal::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+  }
+
+  .lyrics-modal-content {
+    background: var(--color-paper);
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .lyrics-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-cream);
+  }
+
+  .lyrics-modal-title {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--color-charcoal);
+    margin: 0;
+  }
+
+  .lyrics-modal-close {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-beige);
+    color: var(--color-text);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .lyrics-modal-close:hover {
+    background: var(--color-sand);
+    transform: rotate(90deg);
+  }
+
+  .lyrics-modal-close .material-symbols-rounded {
+    font-size: 20px;
+  }
+
+  .lyrics-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    background: var(--color-paper);
+  }
+
+  .lyrics-scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .lyrics-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 0;
+  }
+
+  .lyrics-section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .lyrics-line {
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .lyrics-line:hover {
+    background: var(--color-beige);
+  }
+
+  .lyrics-line.active {
+    background: linear-gradient(135deg, var(--color-beige), var(--color-sand));
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .lyrics-line.active .lyrics-line-text {
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  .lyrics-line.past {
+    opacity: 0.5;
+  }
+
+  .lyrics-line.future {
+    opacity: 0.7;
+  }
+
+  .lyrics-line-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-text);
+    transition: all 0.3s ease;
+  }
+
+  .lyrics-line-time {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+    font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
+  }
+
+  .lyrics-modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-cream);
+  }
+
+  .lyrics-sync-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--color-paper);
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .lyrics-sync-toggle:hover {
+    border-color: var(--color-accent);
+  }
+
+  .lyrics-sync-toggle.active {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+  }
+
+  .lyrics-sync-toggle .material-symbols-rounded {
+    font-size: 18px;
+  }
+
+  /* Loading and error states */
+  .lyrics-loading,
+  .lyrics-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+    color: var(--color-text-muted);
+  }
+
+  .lyrics-loading .material-symbols-rounded.spinning {
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  /* Modal animation */
+  .lyrics-modal[open] {
+    animation: modalFadeIn 0.25s ease-out;
+  }
+
+  @keyframes modalFadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95) translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+
+  /* Scrollbar styling */
+  .lyrics-container::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .lyrics-container::-webkit-scrollbar-track {
+    background: var(--color-beige);
+    border-radius: 4px;
+  }
+
+  .lyrics-container::-webkit-scrollbar-thumb {
+    background: var(--color-sand);
+    border-radius: 4px;
+  }
+
+  .lyrics-container::-webkit-scrollbar-thumb:hover {
+    background: var(--color-border-strong);
+  }
+</style>
+
+<script define:vars={{ playerId, modalId, song, hasTranscript }}>
+  // Store transcripts and sync state
+  const transcripts = new Map();
+  const syncEnabled = new Map();
+  syncEnabled.set(playerId, true);
+
+  async function loadTranscript(path) {
+    try {
+      const response = await fetch(path);
+      if (!response.ok) return null;
+      return await response.json();
+    } catch {
+      return null;
+    }
+  }
+
+  function formatTime(ms) {
+    const seconds = Math.floor(ms / 1000);
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+  }
+
+  function renderLyrics(transcript, container, playerId) {
+    const sync = syncEnabled.get(playerId) ?? true;
+
+    let html = '<div class="lyrics-scroll">';
+
+    transcript.sections.forEach((section, sectionIdx) => {
+      html += `<div class="lyrics-section" data-section="${sectionIdx}">`;
+
+      if (section.label) {
+        html += `<div class="lyrics-section-label">${section.label}</div>`;
+      }
+
+      section.lines.forEach((line, lineIdx) => {
+        const globalLineIdx = `${sectionIdx}-${lineIdx}`;
+        html += `
+          <div class="lyrics-line"
+               data-start="${line.start_ms}"
+               data-end="${line.end_ms}"
+               data-line-index="${globalLineIdx}"
+               data-player-id="${playerId}">
+            <div class="lyrics-line-text">${line.text}</div>
+            ${sync ? `<div class="lyrics-line-time">${formatTime(line.start_ms)}</div>` : ''}
+          </div>
+        `;
+      });
+
+      html += '</div>';
+    });
+
+    html += '</div>';
+    container.innerHTML = html;
+
+    if (sync) {
+      setupSyncedLyrics(playerId);
+    }
+  }
+
+  function setupSyncedLyrics(playerId) {
+    const audio = document.querySelector(`audio[data-player-id="${playerId}"]`);
+    const container = document.querySelector(`.lyrics-container[data-player-id="${playerId}"]`);
+
+    if (!audio || !container) return;
+
+    const updateTime = () => {
+      const currentTime = audio.currentTime * 1000;
+      const lines = container.querySelectorAll('.lyrics-line');
+
+      let activeLine = null;
+
+      lines.forEach((line) => {
+        const start = parseInt(line.getAttribute('data-start') || '0');
+        const end = parseInt(line.getAttribute('data-end') || '0');
+
+        if (currentTime >= start && currentTime < end) {
+          activeLine = line;
+        }
+
+        line.classList.remove('active', 'past', 'future');
+      });
+
+      if (activeLine) {
+        activeLine.classList.add('active');
+        activeLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      // Mark past and future lines
+      let foundActive = false;
+      lines.forEach((line) => {
+        if (!foundActive) {
+          const start = parseInt(line.getAttribute('data-start') || '0');
+          if (line === activeLine) {
+            foundActive = true;
+          } else if (currentTime > start) {
+            line.classList.add('past');
+          } else {
+            line.classList.add('future');
+          }
+        } else {
+          line.classList.add('future');
+        }
+      });
+    };
+
+    audio.addEventListener('timeupdate', updateTime);
+    audio.addEventListener('play', updateTime);
+  }
+
+  // Handle lyrics button clicks
+  if (hasTranscript) {
+    const lyricsToggle = document.querySelector(`.lyrics-toggle[data-modal="${modalId}"]`);
+    const modal = document.getElementById(modalId);
+    const syncToggle = modal?.querySelector('.lyrics-sync-toggle');
+    const closeBtn = modal?.querySelector('.lyrics-modal-close');
+
+    if (lyricsToggle && modal) {
+      lyricsToggle.addEventListener('click', async () => {
+        const container = modal.querySelector('.lyrics-container');
+        const transcriptPath = song.transcriptPath;
+
+        if (!container || !transcriptPath) {
+          modal?.showModal();
+          return;
+        }
+
+        // Check if already loaded
+        if (!container.querySelector('.lyrics-loading')) {
+          modal?.showModal();
+          return;
+        }
+
+        // Load transcript
+        container.innerHTML = '<div class="lyrics-loading"><span class="material-symbols-rounded spinning">refresh</span><span>Loading lyrics...</span></div>';
+        modal?.showModal();
+
+        const transcript = await loadTranscript(transcriptPath);
+
+        if (transcript) {
+          renderLyrics(transcript, container, playerId);
+          transcripts.set(playerId, transcript);
+        } else {
+          container.innerHTML = '<div class="lyrics-error">Failed to load lyrics</div>';
+        }
+      });
+    }
+
+    if (closeBtn && modal) {
+      closeBtn.addEventListener('click', () => {
+        modal.close();
+      });
+    }
+
+    if (syncToggle && modal) {
+      syncToggle.addEventListener('click', () => {
+        const container = modal.querySelector('.lyrics-container');
+        const currentState = syncEnabled.get(playerId) ?? true;
+        const newState = !currentState;
+        syncEnabled.set(playerId, newState);
+
+        syncToggle.classList.toggle('active', newState);
+        const icon = syncToggle.querySelector('.material-symbols-rounded');
+        const text = syncToggle.querySelector('span:last-child');
+
+        if (newState) {
+          icon.textContent = 'sync';
+          text.textContent = 'Sync On';
+        } else {
+          icon.textContent = 'sync_disabled';
+          text.textContent = 'Sync Off';
+        }
+
+        // Re-render lyrics
+        const transcript = transcripts.get(playerId);
+        if (transcript && container) {
+          renderLyrics(transcript, container, playerId);
+        }
+      });
+    }
+
+    // Close modal on backdrop click
+    if (modal) {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.close();
+        }
+      });
+    }
+  }
+</script>
