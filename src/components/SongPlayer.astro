@@ -215,7 +215,7 @@ const hasTranscript = !!song.transcriptPath;
     border: none;
     border-radius: 20px;
     box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.3);
-    max-width: 600px;
+    max-width: 700px;
     width: 90vw;
     max-height: 80vh;
     padding: 0;
@@ -307,7 +307,6 @@ const hasTranscript = !!song.transcriptPath;
     padding: 0.75rem 1rem;
     border-radius: 12px;
     transition: all 0.3s ease;
-    cursor: pointer;
     position: relative;
   }
 
@@ -321,11 +320,6 @@ const hasTranscript = !!song.transcriptPath;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
-  .lyrics-line.active .lyrics-line-text {
-    color: var(--color-accent);
-    font-weight: 600;
-  }
-
   .lyrics-line.past {
     opacity: 0.5;
   }
@@ -334,11 +328,36 @@ const hasTranscript = !!song.transcriptPath;
     opacity: 0.7;
   }
 
+  /* Word-level styling */
   .lyrics-line-text {
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.1rem;
+    line-height: 1.6;
     color: var(--color-text);
-    transition: all 0.3s ease;
+  }
+
+  .karaoke-word {
+    display: inline;
+    padding: 0.1em 0.15em;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    position: relative;
+  }
+
+  .karaoke-word.past {
+    opacity: 0.4;
+    color: var(--color-text-muted);
+  }
+
+  .karaoke-word.current {
+    background: var(--color-accent);
+    color: white;
+    font-weight: 600;
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .karaoke-word.future {
+    opacity: 0.8;
   }
 
   .lyrics-line-time {
@@ -479,13 +498,27 @@ const hasTranscript = !!song.transcriptPath;
 
       section.lines.forEach((line, lineIdx) => {
         const globalLineIdx = `${sectionIdx}-${lineIdx}`;
+
+        // Render words with spans for word-level highlighting
+        let wordsHtml = '';
+        if (sync && line.words && line.words.length > 0) {
+          wordsHtml = line.words.map((word, wordIdx) => {
+            return `<span class="karaoke-word"
+                          data-start="${word.start_ms}"
+                          data-end="${word.end_ms}"
+                          data-word-index="${wordIdx}">${word.word}</span>`;
+          }).join(' ');
+        } else {
+          wordsHtml = line.text;
+        }
+
         html += `
           <div class="lyrics-line"
                data-start="${line.start_ms}"
                data-end="${line.end_ms}"
                data-line-index="${globalLineIdx}"
                data-player-id="${playerId}">
-            <div class="lyrics-line-text">${line.text}</div>
+            <div class="lyrics-line-text">${wordsHtml}</div>
             ${sync ? `<div class="lyrics-line-time">${formatTime(line.start_ms)}</div>` : ''}
           </div>
         `;
@@ -498,11 +531,11 @@ const hasTranscript = !!song.transcriptPath;
     container.innerHTML = html;
 
     if (sync) {
-      setupSyncedLyrics(playerId);
+      setupWordLevelSync(playerId);
     }
   }
 
-  function setupSyncedLyrics(playerId) {
+  function setupWordLevelSync(playerId) {
     const audio = document.querySelector(`audio[data-player-id="${playerId}"]`);
     const container = document.querySelector(`.lyrics-container[data-player-id="${playerId}"]`);
 
@@ -511,32 +544,35 @@ const hasTranscript = !!song.transcriptPath;
     const updateTime = () => {
       const currentTime = audio.currentTime * 1000;
       const lines = container.querySelectorAll('.lyrics-line');
+      const allWords = container.querySelectorAll('.karaoke-word');
 
-      let activeLine = null;
+      // Reset all words and lines
+      allWords.forEach(word => {
+        word.classList.remove('past', 'current', 'future');
+      });
 
-      lines.forEach((line) => {
+      lines.forEach(line => {
+        line.classList.remove('active', 'past', 'future');
+      });
+
+      // Find current line
+      let currentLine = null;
+      lines.forEach(line => {
         const start = parseInt(line.getAttribute('data-start') || '0');
         const end = parseInt(line.getAttribute('data-end') || '0');
 
         if (currentTime >= start && currentTime < end) {
-          activeLine = line;
+          currentLine = line;
         }
-
-        line.classList.remove('active', 'past', 'future');
       });
 
-      if (activeLine) {
-        activeLine.classList.add('active');
-        activeLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-
-      // Mark past and future lines
-      let foundActive = false;
-      lines.forEach((line) => {
-        if (!foundActive) {
+      // Mark line states
+      let foundCurrent = false;
+      lines.forEach(line => {
+        if (!foundCurrent) {
           const start = parseInt(line.getAttribute('data-start') || '0');
-          if (line === activeLine) {
-            foundActive = true;
+          if (line === currentLine) {
+            foundCurrent = true;
           } else if (currentTime > start) {
             line.classList.add('past');
           } else {
@@ -546,6 +582,37 @@ const hasTranscript = !!song.transcriptPath;
           line.classList.add('future');
         }
       });
+
+      if (currentLine) {
+        currentLine.classList.add('active');
+
+        // Highlight words within current line
+        const words = currentLine.querySelectorAll('.karaoke-word');
+        let foundCurrentWord = false;
+
+        words.forEach(word => {
+          const start = parseInt(word.getAttribute('data-start') || '0');
+          const end = parseInt(word.getAttribute('data-end') || '0');
+
+          if (!foundCurrentWord) {
+            if (currentTime >= start && currentTime < end) {
+              word.classList.add('current');
+              foundCurrentWord = true;
+            } else if (currentTime > end) {
+              word.classList.add('past');
+            } else {
+              word.classList.add('future');
+            }
+          } else {
+            word.classList.add('future');
+          }
+        });
+      }
+
+      // Scroll current line into view
+      if (currentLine) {
+        currentLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     };
 
     audio.addEventListener('timeupdate', updateTime);

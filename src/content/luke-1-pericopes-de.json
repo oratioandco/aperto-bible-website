@@ -27,7 +27,16 @@
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
         "label": "Tiefer studieren"
       },
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "Hab keine Angst",
+            "mp3": "keine_angst_de.mp3",
+            "genre": "Lied",
+            "description": "Eine Geschichte über Mut und Vertrauen"
+          }
+        ]
+      },
       "image": "luke_01_zechariah_temple.jpeg"
     },
     {
@@ -43,12 +52,6 @@
       },
       "media": {
         "songs": [
-          {
-            "title": "Hab keine Angst",
-            "mp3": "keine_angst_de.mp3",
-            "genre": "Lied",
-            "description": "Eine Geschichte über Mut und Vertrauen"
-          },
           {
             "title": "Hab keine Angst (Karaoke)",
             "mp3": "luke_01/german/_Hab keine Angst_ - Luke 1_26-38 (German).mp3",
