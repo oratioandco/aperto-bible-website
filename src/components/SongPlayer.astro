@@ -894,6 +894,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     // Cancel any existing animation frame
     if (karaokeState.animationFrame) {
       cancelAnimationFrame(karaokeState.animationFrame);
+      karaokeState.animationFrame = null;
     }
 
     // Create new audio element
@@ -904,43 +905,33 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     audio.addEventListener('loadedmetadata', () => {
       document.getElementById('karaoke-duration').textContent = formatTime(audio.duration);
       updatePlayPauseButton();
+      // Start the update loop immediately
+      startUpdateLoop();
     });
 
     audio.addEventListener('ended', () => {
       karaokeState.isPlaying = false;
       updatePlayPauseButton();
-      if (karaokeState.animationFrame) {
-        cancelAnimationFrame(karaokeState.animationFrame);
-      }
     });
 
     audio.addEventListener('play', () => {
       karaokeState.isPlaying = true;
       updatePlayPauseButton();
-      startUpdateLoop();
     });
 
     audio.addEventListener('pause', () => {
       karaokeState.isPlaying = false;
       updatePlayPauseButton();
-      if (karaokeState.animationFrame) {
-        cancelAnimationFrame(karaokeState.animationFrame);
-      }
     });
   }
 
   function startUpdateLoop() {
     const update = () => {
       updateKaraokeSync();
-      if (karaokeState.isPlaying) {
-        karaokeState.animationFrame = requestAnimationFrame(update);
-      }
+      // Always continue updating, even when paused (for seeking)
+      karaokeState.animationFrame = requestAnimationFrame(update);
     };
     karaokeState.animationFrame = requestAnimationFrame(update);
-  }
-
-  function setupWordLevelSync() {
-    // Sync happens in timeupdate event
   }
 
   function updateKaraokeSync() {
@@ -1032,6 +1023,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     }
     if (karaokeState.animationFrame) {
       cancelAnimationFrame(karaokeState.animationFrame);
+      karaokeState.animationFrame = null;
     }
     modal.close();
   });
