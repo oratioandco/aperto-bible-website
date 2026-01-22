@@ -90,12 +90,24 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 <!-- Karaoke Modal (Global) -->
 <dialog id="global-karaoke-modal" class="karaoke-modal">
   <div class="karaoke-backdrop" id="karaoke-backdrop"></div>
+
+  <!-- Close Button (top-right corner) -->
+  <button id="karaoke-close-corner" class="karaoke-close-corner" type="button" aria-label={t.close}>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 6L6 18M6 6l12 12"/>
+    </svg>
+  </button>
+
   <div class="karaoke-container">
     <!-- Header -->
     <header class="karaoke-header">
-      <button class="karaoke-close" type="button" aria-label={t.close}>
-        <span class="material-symbols-rounded">expand_more</span>
-      </button>
+      <div class="header-left">
+        <h1 id="karaoke-title" class="karaoke-title-text">{cleanTitle}</h1>
+        <p id="karaoke-artist" class="karaoke-artist-text">Aperto Bible</p>
+      </div>
+      <div class="header-right">
+        <div class="lyrics-badge">{t.lyrics}</div>
+      </div>
     </header>
 
     <!-- Main Content -->
@@ -318,11 +330,50 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   /* Header */
   .karaoke-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem 2rem 1rem;
     position: relative;
     z-index: 10;
+  }
+
+  .header-left {
+    flex: 1;
+  }
+
+  .karaoke-title-text {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+
+  .karaoke-artist-text {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .lyrics-badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .karaoke-close {
@@ -357,6 +408,29 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
   .karaoke-close .material-symbols-rounded {
     font-size: 24px;
+  }
+
+  .karaoke-close-corner {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 100;
+    color: white;
+  }
+
+  .karaoke-close-corner:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(90deg);
   }
 
   /* Section labels */
@@ -718,6 +792,12 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     const modal = document.getElementById('global-karaoke-modal');
     const backdrop = document.getElementById('karaoke-backdrop');
     const lyricsContainer = document.getElementById('lyrics-scroll-container');
+    const titleElement = document.getElementById('karaoke-title');
+
+    // Set title
+    if (titleElement) {
+      titleElement.textContent = title;
+    }
 
     // Show modal
     modal.showModal();
@@ -937,7 +1017,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   }
 
   // Close modal
-  document.querySelector('.karaoke-close')?.addEventListener('click', () => {
+  document.getElementById('karaoke-close-corner')?.addEventListener('click', () => {
     const modal = document.getElementById('global-karaoke-modal');
     if (karaokeState.audioElement) {
       karaokeState.audioElement.pause();
