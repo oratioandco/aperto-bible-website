@@ -449,35 +449,21 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     transform: scale(0.96);
   }
 
-  /* Word-level highlighting */
+  /* Word-level highlighting - Apple Music Style */
   .karaoke-word {
     display: inline;
-    padding: 0.05em 0.15em;
-    margin: 0 0.05em;
-    border-radius: 6px;
-    transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
-    opacity: 0.4;
+    transition: color 0.15s ease-out;
   }
 
-  /* Currently being sung - bright and glowing */
-  .karaoke-word.current {
-    color: var(--color-accent);
-    opacity: 1;
-    text-shadow: 0 0 30px rgba(212, 165, 116, 0.5), 0 0 60px rgba(212, 165, 116, 0.3);
-    transform: scale(1.12);
-    font-weight: 950;
+  /* Default word state - dimmed (inactive words inside active line) */
+  .karaoke-line.active .karaoke-word {
+    color: rgba(255, 255, 255, 0.35);
   }
 
-  /* Already sung - fully visible but no glow */
-  .karaoke-word.past {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  /* Not yet sung - dimmed */
-  .karaoke-word.future {
-    opacity: 0.4;
-    transform: scale(0.98);
+  /* When the word is sung - bright with glow */
+  .karaoke-line.active .karaoke-word.sung {
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -485,9 +471,27 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       color: rgba(255, 255, 255, 0.8);
     }
 
-    .karaoke-word.current {
-      color: #1db954;
-      text-shadow: 0 0 40px rgba(29, 185, 84, 0.7), 0 0 80px rgba(29, 185, 84, 0.4);
+    /* Default word state in dark mode */
+    .karaoke-line.active .karaoke-word {
+      color: rgba(255, 255, 255, 0.35);
+    }
+
+    /* Sung words in dark mode */
+    .karaoke-line.active .karaoke-word.sung {
+      color: #ffffff;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  /* Light mode word colors */
+  @media (prefers-color-scheme: light) {
+    .karaoke-line.active .karaoke-word {
+      color: rgba(0, 0, 0, 0.35);
+    }
+
+    .karaoke-line.active .karaoke-word.sung {
+      color: #000000;
+      text-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -836,34 +840,34 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
     // Sync lyrics
     const lines = container.querySelectorAll('.karaoke-line');
-    const allWords = container.querySelectorAll('.karaoke-word');
 
-    // Reset all
-    allWords.forEach(word => word.classList.remove('past', 'current', 'future'));
-    lines.forEach(line => line.classList.remove('active', 'past'));
+    // Reset all line states
+    lines.forEach(line => line.classList.remove('active'));
 
-    // Find current line and words
+    // Find current line
     let currentLine = null;
-    lines.forEach(line => {
+    let activeLineIndex = -1;
+
+    lines.forEach((line, index) => {
       const lineStart = parseInt(line.getAttribute('data-start') || '0');
       const lineEnd = parseInt(line.getAttribute('data-end') || '0');
 
-      if (currentTime >= lineStart && currentTime < lineEnd) {
+      if (currentTime >= lineStart && currentTime <= lineEnd) {
         currentLine = line;
+        activeLineIndex = index;
       }
     });
 
-    // Mark line states
-    let foundCurrent = false;
-    lines.forEach(line => {
-      if (!foundCurrent) {
-        if (line === currentLine) {
-          foundCurrent = true;
-        } else {
-          line.classList.add('past');
+    // Handle gaps between lines - if we're in a gap, highlight the last passed line
+    if (currentLine === null) {
+      for (let i = 0; i < lines.length; i++) {
+        const lineEnd = parseInt(lines[i].getAttribute('data-end') || '0');
+        if (currentTime > lineEnd) {
+          currentLine = lines[i];
+          activeLineIndex = i;
         }
       }
-    });
+    }
 
     if (currentLine) {
       currentLine.classList.add('active');
@@ -871,21 +875,15 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       // Scroll to current line smoothly
       currentLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-      // Highlight words
+      // Update word highlights with .sung class
       const words = currentLine.querySelectorAll('.karaoke-word');
       words.forEach(word => {
         const start = parseInt(word.getAttribute('data-start') || '0');
-        const end = parseInt(word.getAttribute('data-end') || '0');
 
-        if (currentTime >= start && currentTime < end) {
-          word.classList.add('current');
-          word.classList.remove('past', 'future');
-        } else if (currentTime > end) {
-          word.classList.add('past');
-          word.classList.remove('current', 'future');
+        if (currentTime >= start) {
+          word.classList.add('sung');
         } else {
-          word.classList.add('future');
-          word.classList.remove('current', 'past');
+          word.classList.remove('sung');
         }
       });
     }
