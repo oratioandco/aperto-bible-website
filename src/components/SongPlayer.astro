@@ -486,7 +486,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
   }
 
   /* Lyrics Lines - Apple Music Style */
-  .karaoke-line {
+  .karaoke-line[data-astro-cid-p2eaymh7] {
     font-family: 'Switzer', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 32px;
     font-weight: 800;
@@ -509,53 +509,115 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     user-select: none;
   }
 
+  /* Also target dynamically generated karaoke lines without data-astro-cid */
+  dialog .karaoke-line {
+    font-family: 'Switzer', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    line-height: 1.3 !important;
+    padding: 0.75rem 0 !important;
+    margin: 1rem 0 !important;
+
+    /* Smooth transitions for blur, scale, and opacity */
+    transition:
+      filter 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+      opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+      transform 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
+
+    /* Default state: blurred, dimmed, slightly smaller */
+    filter: blur(1.5px);
+    opacity: 0.4;
+    transform: scale(0.95);
+
+    cursor: pointer !important;
+    user-select: none !important;
+  }
+
   /* Tablet - larger text */
   @media (min-width: 768px) {
-    .karaoke-line {
+    .karaoke-line[data-astro-cid-p2eaymh7] {
       font-size: 42px;
       padding: 0.875rem 0;
       margin: 1.125rem 0;
+    }
+
+    dialog .karaoke-line {
+      font-size: 42px !important;
+      padding: 0.875rem 0 !important;
+      margin: 1.125rem 0 !important;
     }
   }
 
   /* Desktop - even larger text (Apple Music style) */
   @media (min-width: 1024px) {
-    .karaoke-line {
+    .karaoke-line[data-astro-cid-p2eaymh7] {
       font-size: 56px;
       padding: 1rem 0;
       margin: 1.25rem 0;
     }
+
+    dialog .karaoke-line {
+      font-size: 56px !important;
+      padding: 1rem 0 !important;
+      margin: 1.25rem 0 !important;
+    }
   }
 
   /* Active line - fully visible and sharp */
-  .karaoke-line.active {
+  .karaoke-line.active[data-astro-cid-p2eaymh7] {
     filter: blur(0);
     opacity: 1;
     transform: scale(1);
   }
 
+  dialog .karaoke-line.active {
+    filter: blur(0) !important;
+    opacity: 1 !important;
+    transform: scale(1) !important;
+  }
+
   /* Past lines - visible but slightly dimmed */
-  .karaoke-line.past {
+  .karaoke-line.past[data-astro-cid-p2eaymh7] {
     filter: blur(0.5px);
     opacity: 0.6;
     transform: scale(0.96);
   }
 
+  dialog .karaoke-line.past {
+    filter: blur(0.5px) !important;
+    opacity: 0.6 !important;
+    transform: scale(0.96) !important;
+  }
+
   /* Word-level highlighting - Apple Music Style */
-  .karaoke-word {
+  .karaoke-word[data-astro-cid-p2eaymh7] {
     display: inline;
     transition: color 0.15s ease-out;
   }
 
+  dialog .karaoke-word {
+    display: inline !important;
+    transition: color 0.15s ease-out !important;
+  }
+
   /* Default word state - dimmed (inactive words inside active line) */
-  .karaoke-line.active .karaoke-word {
+  .karaoke-line.active[data-astro-cid-p2eaymh7] .karaoke-word[data-astro-cid-p2eaymh7] {
     color: rgba(255, 255, 255, 0.35);
   }
 
+  dialog .karaoke-line.active .karaoke-word {
+    color: rgba(255, 255, 255, 0.35) !important;
+  }
+
   /* When the word is sung - bright with glow */
-  .karaoke-line.active .karaoke-word.sung {
+  .karaoke-line.active[data-astro-cid-p2eaymh7] .karaoke-word.sung[data-astro-cid-p2eaymh7] {
     color: #ffffff;
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  }
+
+  dialog .karaoke-line.active .karaoke-word.sung {
+    color: #ffffff !important;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.4) !important;
   }
 
   @media (prefers-color-scheme: dark) {
