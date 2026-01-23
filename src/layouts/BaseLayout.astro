@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { useTranslations, getAllLanguages, getLocalizedPath, type Lang, defaultLang } from '../i18n/utils';
+import MiniPlayer from '../components/MiniPlayer.astro';
 
 interface Props {
   title: string;
@@ -176,6 +177,9 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
     <main>
       <slot />
     </main>
+
+    <!-- Global Mini-Player -->
+    <MiniPlayer />
 
     <footer class="px-8 md:px-16 lg:px-24 py-16 mt-24" style="border-top: 1px solid #F5E6DC; background-color: rgba(245, 230, 220, 0.3);">
       <div class="max-w-6xl mx-auto">

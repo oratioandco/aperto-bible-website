@@ -323,22 +323,18 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.audioBible.title}</span>
                   </div>
                 </div>
-                {audioBibleHasTranscript ? (
-                  <button
-                    class="audiobible-karaoke-btn"
-                    data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
-                    data-title={media.audioBible.title}
-                    data-transcript={resolvedAudioBibleTranscriptPath}
-                    data-start-ms={audioBibleStart || 0}
-                    type="button"
-                  >
-                    <span class="material-symbols-rounded">play_arrow</span>
-                  </button>
-                ) : (
-                  <audio controls class="w-full h-10 mt-3" preload="none">
-                    <source src={`${base}/audio/audiobible/${media.audioBible.mp3}`} type="audio/mpeg" />
-                  </audio>
-                )}
+                <button
+                  class="media-play-btn"
+                  data-type="audiobible"
+                  data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
+                  data-title={media.audioBible.title}
+                  data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
+                  data-start-ms={audioBibleStart || 0}
+                  data-has-lyrics={audioBibleHasTranscript ? 'true' : 'false'}
+                  type="button"
+                >
+                  <span class="material-symbols-rounded">play_arrow</span>
+                </button>
               </div>
             </div>
           )}
@@ -384,9 +380,16 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.podcast.title}</span>
                   </div>
                 </div>
-                <audio controls class="w-full h-10 mt-3" preload="none">
-                  <source src={`/audio/podcasts/${media.podcast.mp3}`} type="audio/mpeg" />
-                </audio>
+                <button
+                  class="media-play-btn"
+                  data-type="podcast"
+                  data-mp3={`/audio/podcasts/${media.podcast.mp3}`}
+                  data-title={media.podcast.title}
+                  data-artist={title}
+                  type="button"
+                >
+                  <span class="material-symbols-rounded">play_arrow</span>
+                </button>
               </div>
             </div>
           )}
@@ -415,9 +418,16 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.devotional.title}</span>
                   </div>
                 </div>
-                <audio controls class="w-full h-10 mt-3" preload="none">
-                  <source src={`/audio/meditations/${media.devotional.mp3}`} type="audio/mpeg" />
-                </audio>
+                <button
+                  class="media-play-btn"
+                  data-type="meditation"
+                  data-mp3={`/audio/meditations/${media.devotional.mp3}`}
+                  data-title={media.devotional.title}
+                  data-artist={title}
+                  type="button"
+                >
+                  <span class="material-symbols-rounded">play_arrow</span>
+                </button>
               </div>
             </div>
           )}
@@ -446,9 +456,16 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.spiritualPractice.title}</span>
                   </div>
                 </div>
-                <audio controls class="w-full h-10 mt-3" preload="none">
-                  <source src={`/audio/meditations/${media.spiritualPractice.mp3}`} type="audio/mpeg" />
-                </audio>
+                <button
+                  class="media-play-btn"
+                  data-type="spiritual"
+                  data-mp3={`/audio/meditations/${media.spiritualPractice.mp3}`}
+                  data-title={media.spiritualPractice.title}
+                  data-artist={title}
+                  type="button"
+                >
+                  <span class="material-symbols-rounded">play_arrow</span>
+                </button>
               </div>
             </div>
           )}
@@ -831,8 +848,8 @@ processedVerses.forEach((verse, idx) => {
     background: linear-gradient(135deg, var(--color-paper), var(--color-beige));
   }
 
-  /* Audiobible karaoke play button in media card */
-  .audiobible-karaoke-btn {
+  /* Media play button (unified for all audio types) */
+  .media-play-btn {
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -847,14 +864,15 @@ processedVerses.forEach((verse, idx) => {
     margin-left: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: all 0.2s ease;
+    flex-shrink: 0;
   }
 
-  .audiobible-karaoke-btn:hover {
+  .media-play-btn:hover {
     transform: scale(1.08);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
   }
 
-  .audiobible-karaoke-btn .material-symbols-rounded {
+  .media-play-btn .material-symbols-rounded {
     font-size: 28px;
   }
 
@@ -986,50 +1004,11 @@ processedVerses.forEach((verse, idx) => {
   document.addEventListener('DOMContentLoaded', initFootnoteTooltips);
   document.addEventListener('astro:page-load', initFootnoteTooltips);
 
-  // Audiobible pericope playback
-  let audioBibleAudio = null;
-  let currentPlayingBtn = null;
-
-  // Helper function to open the global karaoke modal (shared with SongPlayer)
-  function openAudioBibleKaraoke(mp3, title, transcriptPath, startMs) {
-    const modal = document.getElementById('global-karaoke-modal');
-    if (!modal) {
-      console.error('Karaoke modal not found');
-      return;
-    }
-
-    const titleElement = document.getElementById('karaoke-title');
-    const lyricsContainer = document.getElementById('lyrics-scroll-container');
-
-    if (titleElement) {
-      titleElement.textContent = title;
-    }
-
-    // Show modal
-    modal.showModal();
-
-    // Show loading
-    if (lyricsContainer) {
-      lyricsContainer.innerHTML = `
-        <div class="lyrics-loading">
-          <span class="material-symbols-rounded spinning">refresh</span>
-          <span>Loading...</span>
-        </div>
-      `;
-    }
-
-    // Load transcript and setup - dispatch event for SongPlayer's karaoke system
-    const event = new CustomEvent('openKaraoke', {
-      detail: { mp3, title, transcriptPath, startMs }
-    });
-    window.dispatchEvent(event);
-  }
-
-  function initAudioBibleButtons() {
-    // Header play buttons
-    const buttons = document.querySelectorAll('.audiobible-play-btn');
-
-    buttons.forEach(btn => {
+  // Unified audio playback via mini-player
+  function initMediaPlayButtons() {
+    // Header audiobible play buttons
+    const headerButtons = document.querySelectorAll('.audiobible-play-btn');
+    headerButtons.forEach(btn => {
       btn.addEventListener('click', () => {
         const hasKaraoke = btn.dataset.hasKaraoke === 'true';
         const mp3 = btn.dataset.mp3;
@@ -1037,79 +1016,51 @@ processedVerses.forEach((verse, idx) => {
         const title = btn.dataset.title || 'Audio Bible';
         const transcriptPath = btn.dataset.transcript;
 
-        // If has karaoke capability, open the karaoke modal
-        if (hasKaraoke && transcriptPath) {
-          openAudioBibleKaraoke(mp3, title, transcriptPath, startMs);
-          return;
-        }
-
-        // Otherwise, use inline playback (fallback for no transcript)
-        // If clicking the same button that's playing, toggle pause/play
-        if (currentPlayingBtn === btn && audioBibleAudio) {
-          if (audioBibleAudio.paused) {
-            audioBibleAudio.play();
-            btn.classList.add('playing');
-            btn.querySelector('.material-symbols-rounded').textContent = 'pause_circle';
-          } else {
-            audioBibleAudio.pause();
-            btn.classList.remove('playing');
-            btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
+        // Dispatch to mini-player
+        const event = new CustomEvent('playAudio', {
+          detail: {
+            type: 'audiobible',
+            mp3,
+            title,
+            artist: 'Aperto Bible',
+            transcriptPath: hasKaraoke ? transcriptPath : undefined,
+            startMs,
+            hasLyrics: hasKaraoke
           }
-          return;
-        }
-
-        // Stop any existing playback
-        if (audioBibleAudio) {
-          audioBibleAudio.pause();
-          audioBibleAudio = null;
-        }
-        if (currentPlayingBtn) {
-          currentPlayingBtn.classList.remove('playing');
-          currentPlayingBtn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
-        }
-
-        // Create new audio and start at pericope position
-        audioBibleAudio = new Audio(mp3);
-        audioBibleAudio.currentTime = startMs / 1000;
-
-        audioBibleAudio.addEventListener('canplay', () => {
-          audioBibleAudio.play();
-        }, { once: true });
-
-        audioBibleAudio.addEventListener('ended', () => {
-          btn.classList.remove('playing');
-          btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
-          currentPlayingBtn = null;
         });
-
-        audioBibleAudio.addEventListener('error', (e) => {
-          console.error('Audio error:', e);
-          btn.classList.remove('playing');
-          btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
-          currentPlayingBtn = null;
-        });
-
-        // Update UI
-        btn.classList.add('playing');
-        btn.querySelector('.material-symbols-rounded').textContent = 'pause_circle';
-        currentPlayingBtn = btn;
+        window.dispatchEvent(event);
       });
     });
 
-    // Media card karaoke buttons
-    const karaokeButtons = document.querySelectorAll('.audiobible-karaoke-btn');
-    karaokeButtons.forEach(btn => {
+    // Media card play buttons (podcast, meditation, spiritual, audiobible)
+    const mediaButtons = document.querySelectorAll('.media-play-btn');
+    mediaButtons.forEach(btn => {
       btn.addEventListener('click', () => {
+        const type = btn.dataset.type || 'audio';
         const mp3 = btn.dataset.mp3;
-        const title = btn.dataset.title || 'Audio Bible';
+        const title = btn.dataset.title || 'Audio';
+        const artist = btn.dataset.artist || 'Aperto Bible';
         const transcriptPath = btn.dataset.transcript;
         const startMs = parseInt(btn.dataset.startMs, 10) || 0;
+        const hasLyrics = btn.dataset.hasLyrics === 'true';
 
-        openAudioBibleKaraoke(mp3, title, transcriptPath, startMs);
+        // Dispatch to mini-player
+        const event = new CustomEvent('playAudio', {
+          detail: {
+            type,
+            mp3,
+            title,
+            artist,
+            transcriptPath: transcriptPath || undefined,
+            startMs,
+            hasLyrics
+          }
+        });
+        window.dispatchEvent(event);
       });
     });
   }
 
-  document.addEventListener('DOMContentLoaded', initAudioBibleButtons);
-  document.addEventListener('astro:page-load', initAudioBibleButtons);
+  document.addEventListener('DOMContentLoaded', initMediaPlayButtons);
+  document.addEventListener('astro:page-load', initMediaPlayButtons);
 </script>

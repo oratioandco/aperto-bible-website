@@ -1,0 +1,1020 @@
+---
+/**
+ * MiniPlayer - Global floating audio player
+ *
+ * Features:
+ * - Single audio source (pauses others when playing)
+ * - Collapsed mini-bar at bottom
+ * - Expands to full-screen for lyrics/karaoke
+ * - Word-level sync for transcripts
+ */
+---
+
+<!-- Mini-Player UI -->
+<div id="mini-player" class="mini-player">
+  <!-- Collapsed Bar -->
+  <div class="mini-player-bar">
+    <div class="mini-player-progress-thin">
+      <div class="mini-player-progress-fill" id="mini-progress-fill"></div>
+    </div>
+    <div class="mini-player-content">
+      <img class="mini-player-cover" id="mini-cover" src="" alt="" />
+      <div class="mini-player-info" id="mini-info-area">
+        <span class="mini-player-title" id="mini-title"></span>
+        <span class="mini-player-artist" id="mini-artist"></span>
+      </div>
+      <button class="mini-player-play" id="mini-play-btn" type="button" aria-label="Play/Pause">
+        <span class="material-symbols-rounded">play_arrow</span>
+      </button>
+      <button class="mini-player-close" id="mini-close-btn" type="button" aria-label="Close">
+        <span class="material-symbols-rounded">close</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Expanded View -->
+  <div class="mini-player-expanded" id="mini-expanded">
+    <div class="mini-player-expanded-backdrop" id="mini-expanded-backdrop"></div>
+
+    <!-- Minimize Button -->
+    <button class="mini-player-minimize" id="mini-minimize-btn" type="button" aria-label="Minimize">
+      <span class="material-symbols-rounded">keyboard_arrow_down</span>
+    </button>
+
+    <!-- Close Button -->
+    <button class="mini-player-expanded-close" id="mini-expanded-close-btn" type="button" aria-label="Close">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+
+    <!-- Header -->
+    <header class="mini-player-header">
+      <h1 class="mini-player-exp-title" id="mini-exp-title"></h1>
+      <p class="mini-player-exp-artist" id="mini-exp-artist">Aperto Bible</p>
+    </header>
+
+    <!-- Lyrics Container -->
+    <div class="mini-player-lyrics-container" id="mini-lyrics-container">
+      <!-- Non-lyrics view (cover art) -->
+      <div class="mini-player-cover-view" id="mini-cover-view">
+        <img class="mini-player-large-cover" id="mini-large-cover" src="" alt="" />
+      </div>
+      <!-- Lyrics view -->
+      <div class="mini-player-lyrics-scroll" id="mini-lyrics-scroll">
+        <!-- Lyrics rendered here -->
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <footer class="mini-player-controls">
+      <div class="mini-player-progress">
+        <div class="progress-bar" id="mini-progress-bar">
+          <div class="progress-fill" id="mini-exp-progress-fill"></div>
+        </div>
+        <div class="progress-times">
+          <span id="mini-current-time">0:00</span>
+          <span id="mini-duration">0:00</span>
+        </div>
+      </div>
+      <div class="mini-player-control-buttons">
+        <button class="control-btn control-play" id="mini-exp-play-btn" type="button">
+          <span class="material-symbols-rounded">play_arrow</span>
+        </button>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<style>
+  /* Mini-Player Base */
+  .mini-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+  }
+
+  .mini-player.visible {
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .mini-player.expanded {
+    top: 0;
+  }
+
+  /* Collapsed Bar */
+  .mini-player-bar {
+    background: var(--color-warm-white, #FFFBF5);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid var(--color-border, #F5E6DC);
+    position: relative;
+  }
+
+  .mini-player-progress-thin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--color-border, #F5E6DC);
+  }
+
+  .mini-player-progress-fill {
+    height: 100%;
+    background: var(--color-accent, #8B7355);
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+
+  .mini-player-content {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+  }
+
+  .mini-player-cover {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .mini-player-info {
+    flex: 1;
+    min-width: 0;
+    cursor: pointer;
+  }
+
+  .mini-player-title {
+    display: block;
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--color-charcoal, #2C2C2C);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mini-player-artist {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--color-text-muted, #9A8F85);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mini-player-play,
+  .mini-player-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    color: var(--color-charcoal, #2C2C2C);
+    flex-shrink: 0;
+  }
+
+  .mini-player-play {
+    background: var(--color-accent, #8B7355);
+    color: white;
+  }
+
+  .mini-player-play:hover {
+    transform: scale(1.05);
+  }
+
+  .mini-player-close:hover {
+    background: var(--color-beige, #F5EBE0);
+  }
+
+  .mini-player-play .material-symbols-rounded {
+    font-size: 24px;
+  }
+
+  .mini-player-close .material-symbols-rounded {
+    font-size: 20px;
+  }
+
+  /* Expanded View */
+  .mini-player-expanded {
+    position: fixed;
+    inset: 0;
+    display: none;
+    flex-direction: column;
+    z-index: 1001;
+  }
+
+  .mini-player.expanded .mini-player-bar {
+    display: none;
+  }
+
+  .mini-player.expanded .mini-player-expanded {
+    display: flex;
+  }
+
+  .mini-player-expanded-backdrop {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #FFFBF5 0%, #F5EBE0 25%, #E8D5C4 50%, #F5EBE0 75%, #FFFBF5 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    z-index: -1;
+  }
+
+  @keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .mini-player-minimize {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 32px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    color: var(--color-charcoal, #2C2C2C);
+    transition: all 0.2s ease;
+  }
+
+  .mini-player-minimize:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .mini-player-expanded-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    color: var(--color-charcoal, #2C2C2C);
+    transition: all 0.2s ease;
+  }
+
+  .mini-player-expanded-close:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  /* Header */
+  .mini-player-header {
+    padding: 4rem 2rem 1rem;
+    text-align: center;
+  }
+
+  .mini-player-exp-title {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0 0 0.25rem;
+  }
+
+  .mini-player-exp-artist {
+    font-size: 0.875rem;
+    color: var(--color-text-muted, #9A8F85);
+    margin: 0;
+  }
+
+  /* Lyrics Container */
+  .mini-player-lyrics-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .mini-player-cover-view {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .mini-player.no-lyrics .mini-player-cover-view {
+    display: flex;
+  }
+
+  .mini-player.no-lyrics .mini-player-lyrics-scroll {
+    display: none;
+  }
+
+  .mini-player-large-cover {
+    width: 240px;
+    height: 240px;
+    max-width: 60vw;
+    max-height: 60vw;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  }
+
+  .mini-player-lyrics-scroll {
+    height: 100%;
+    overflow-y: auto;
+    padding: 40vh 2rem;
+    text-align: center;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mini-player-lyrics-scroll::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .mini-player-lyrics-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .mini-player-lyrics-scroll::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  /* Controls */
+  .mini-player-controls {
+    padding: 1.5rem 2rem 2rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), transparent);
+  }
+
+  .mini-player-progress {
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--color-border, #F5E6DC);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+
+  .progress-bar:hover {
+    height: 6px;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--color-accent, #8B7355);
+    border-radius: 4px;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+
+  .progress-times {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-size: 0.75rem;
+    color: var(--color-text-muted, #9A8F85);
+  }
+
+  .mini-player-control-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .control-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    color: var(--color-charcoal, #2C2C2C);
+  }
+
+  .control-play {
+    width: 56px;
+    height: 56px;
+    background: var(--color-charcoal, #2C2C2C);
+    color: white;
+  }
+
+  .control-play:hover {
+    transform: scale(1.05);
+  }
+
+  .control-play .material-symbols-rounded {
+    font-size: 32px;
+  }
+
+  /* Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    .mini-player-bar {
+      background: #1a1a1a;
+      border-top-color: #333;
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .mini-player-progress-thin {
+      background: #333;
+    }
+
+    .mini-player-progress-fill {
+      background: #1db954;
+    }
+
+    .mini-player-title {
+      color: white;
+    }
+
+    .mini-player-artist {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .mini-player-play,
+    .mini-player-close {
+      color: white;
+    }
+
+    .mini-player-play {
+      background: #1db954;
+    }
+
+    .mini-player-close:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .mini-player-expanded-backdrop {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #16213e 75%, #1a1a2e 100%);
+    }
+
+    .mini-player-minimize,
+    .mini-player-expanded-close {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+
+    .mini-player-minimize:hover,
+    .mini-player-expanded-close:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .mini-player-exp-title {
+      color: white;
+    }
+
+    .mini-player-exp-artist {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .mini-player-controls {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    }
+
+    .progress-bar {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .progress-fill {
+      background: #1db954;
+    }
+
+    .progress-times {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .control-btn {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .control-play {
+      background: white;
+      color: #1a1a2e;
+    }
+  }
+
+  /* Safe area for iOS */
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    .mini-player-bar {
+      padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
+    }
+
+    .mini-player-controls {
+      padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .mini-player-content {
+      padding: 0.5rem 0.75rem;
+    }
+
+    .mini-player-cover {
+      width: 40px;
+      height: 40px;
+    }
+
+    .mini-player-header {
+      padding: 3rem 1rem 0.5rem;
+    }
+
+    .mini-player-lyrics-scroll {
+      padding: 30vh 1rem;
+    }
+
+    .mini-player-controls {
+      padding: 1rem 1rem 1.5rem;
+    }
+  }
+</style>
+
+<script>
+  // ========================================
+  // Global Audio Manager
+  // ========================================
+
+  interface Track {
+    type: 'song' | 'audiobible' | 'podcast' | 'meditation' | 'spiritual';
+    mp3: string;
+    title: string;
+    artist?: string;
+    coverArt?: string;
+    transcriptPath?: string;
+    startMs?: number;
+    hasLyrics?: boolean;
+  }
+
+  interface AudioManagerState {
+    audio: HTMLAudioElement;
+    currentTrack: Track | null;
+    isPlaying: boolean;
+    isExpanded: boolean;
+    transcript: any | null;
+    animationFrame: number | null;
+    userScrolling: boolean;
+    scrollTimeout: number | null;
+  }
+
+  // Initialize global audio manager
+  const audioManager: AudioManagerState = {
+    audio: new Audio(),
+    currentTrack: null,
+    isPlaying: false,
+    isExpanded: false,
+    transcript: null,
+    animationFrame: null,
+    userScrolling: false,
+    scrollTimeout: null
+  };
+
+  // Expose globally
+  (window as any).audioManager = audioManager;
+
+  // DOM Elements
+  const miniPlayer = document.getElementById('mini-player')!;
+  const miniCover = document.getElementById('mini-cover') as HTMLImageElement;
+  const miniTitle = document.getElementById('mini-title')!;
+  const miniArtist = document.getElementById('mini-artist')!;
+  const miniPlayBtn = document.getElementById('mini-play-btn')!;
+  const miniCloseBtn = document.getElementById('mini-close-btn')!;
+  const miniProgressFill = document.getElementById('mini-progress-fill')!;
+  const miniInfoArea = document.getElementById('mini-info-area')!;
+
+  // Expanded elements
+  const miniExpanded = document.getElementById('mini-expanded')!;
+  const miniMinimizeBtn = document.getElementById('mini-minimize-btn')!;
+  const miniExpandedCloseBtn = document.getElementById('mini-expanded-close-btn')!;
+  const miniExpTitle = document.getElementById('mini-exp-title')!;
+  const miniExpArtist = document.getElementById('mini-exp-artist')!;
+  const miniLargeCover = document.getElementById('mini-large-cover') as HTMLImageElement;
+  const miniLyricsScroll = document.getElementById('mini-lyrics-scroll')!;
+  const miniExpProgressFill = document.getElementById('mini-exp-progress-fill')!;
+  const miniCurrentTime = document.getElementById('mini-current-time')!;
+  const miniDuration = document.getElementById('mini-duration')!;
+  const miniExpPlayBtn = document.getElementById('mini-exp-play-btn')!;
+  const miniProgressBar = document.getElementById('mini-progress-bar')!;
+
+  // ========================================
+  // Audio Manager Functions
+  // ========================================
+
+  function playTrack(track: Track) {
+    // Stop any currently playing audio
+    audioManager.audio.pause();
+
+    // Cancel animation frame
+    if (audioManager.animationFrame) {
+      cancelAnimationFrame(audioManager.animationFrame);
+      audioManager.animationFrame = null;
+    }
+
+    // Update state
+    audioManager.currentTrack = track;
+    audioManager.transcript = null;
+    audioManager.isPlaying = false;
+
+    // Set audio source
+    audioManager.audio.src = track.mp3;
+
+    // Update UI
+    updateMiniPlayerUI(track);
+    showMiniPlayer();
+
+    // Determine if this track has lyrics
+    const hasLyrics = !!(track.transcriptPath && track.hasLyrics !== false);
+    if (hasLyrics) {
+      miniPlayer.classList.remove('no-lyrics');
+    } else {
+      miniPlayer.classList.add('no-lyrics');
+    }
+
+    // Load transcript if available
+    if (track.transcriptPath) {
+      loadTranscript(track.transcriptPath, track.startMs || 0);
+    }
+
+    // Setup audio events
+    audioManager.audio.addEventListener('loadedmetadata', () => {
+      miniDuration.textContent = formatTime(audioManager.audio.duration);
+
+      // Set start position if specified
+      if (track.startMs && track.startMs > 0) {
+        audioManager.audio.currentTime = track.startMs / 1000;
+      }
+
+      // Auto-play
+      audioManager.audio.play();
+    }, { once: true });
+
+    // Auto-expand for lyrics content
+    if (hasLyrics) {
+      expand();
+    }
+
+    // Start update loop
+    startUpdateLoop();
+  }
+
+  function updateMiniPlayerUI(track: Track) {
+    const defaultCover = '/images/covers/default.png';
+    const cover = track.coverArt || defaultCover;
+
+    miniCover.src = cover;
+    miniLargeCover.src = cover;
+    miniTitle.textContent = track.title;
+    miniArtist.textContent = track.artist || 'Aperto Bible';
+    miniExpTitle.textContent = track.title;
+    miniExpArtist.textContent = track.artist || 'Aperto Bible';
+  }
+
+  function showMiniPlayer() {
+    miniPlayer.classList.add('visible');
+  }
+
+  function hideMiniPlayer() {
+    miniPlayer.classList.remove('visible', 'expanded');
+    audioManager.audio.pause();
+    audioManager.isPlaying = false;
+    audioManager.currentTrack = null;
+
+    if (audioManager.animationFrame) {
+      cancelAnimationFrame(audioManager.animationFrame);
+      audioManager.animationFrame = null;
+    }
+  }
+
+  function expand() {
+    miniPlayer.classList.add('expanded');
+    audioManager.isExpanded = true;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function collapse() {
+    miniPlayer.classList.remove('expanded');
+    audioManager.isExpanded = false;
+    document.body.style.overflow = '';
+  }
+
+  function togglePlayPause() {
+    if (!audioManager.audio.src) return;
+
+    if (audioManager.isPlaying) {
+      audioManager.audio.pause();
+    } else {
+      audioManager.audio.play();
+    }
+  }
+
+  // ========================================
+  // Transcript & Lyrics
+  // ========================================
+
+  async function loadTranscript(transcriptPath: string, filterStartMs: number = 0) {
+    try {
+      const response = await fetch(transcriptPath);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const transcript = await response.json();
+      audioManager.transcript = transcript;
+
+      renderLyrics(transcript, filterStartMs);
+    } catch (error) {
+      console.error('Error loading transcript:', error);
+      miniLyricsScroll.innerHTML = '<div class="lyrics-error">Could not load lyrics</div>';
+    }
+  }
+
+  function renderLyrics(transcript: any, filterStartMs: number = 0) {
+    let html = '';
+    let lineIndex = 0;
+
+    transcript.sections.forEach((section: any) => {
+      if (section.label) {
+        html += `<div class="lyric-section-label">${section.label}</div>`;
+      }
+
+      section.lines.forEach((line: any) => {
+        const lineStart = line.words?.[0]?.start_ms || line.start_ms;
+        const lineEnd = line.words?.[line.words.length - 1]?.end_ms || line.end_ms;
+
+        // Skip lines that end before the filter start time
+        if (filterStartMs > 0 && lineEnd < filterStartMs - 500) {
+          return;
+        }
+
+        let lineHtml = `<div class="karaoke-line" data-line-index="${lineIndex}" data-start="${lineStart}" data-end="${lineEnd}">`;
+
+        if (line.words && line.words.length > 0) {
+          line.words.forEach((word: any) => {
+            lineHtml += `<span class="karaoke-word" data-start="${word.start_ms}" data-end="${word.end_ms}">${word.word}</span> `;
+          });
+        } else {
+          lineHtml += line.text;
+        }
+
+        lineHtml += '</div>';
+        html += lineHtml;
+        lineIndex++;
+      });
+    });
+
+    miniLyricsScroll.innerHTML = html;
+
+    // Add click handlers for seeking
+    miniLyricsScroll.querySelectorAll('.karaoke-line').forEach((line) => {
+      line.addEventListener('click', () => {
+        const startTime = parseInt(line.getAttribute('data-start') || '0') / 1000;
+        audioManager.audio.currentTime = startTime;
+        audioManager.userScrolling = false;
+      });
+    });
+
+    // Add scroll listener
+    miniLyricsScroll.addEventListener('scroll', handleUserScroll, { passive: true });
+  }
+
+  function handleUserScroll() {
+    audioManager.userScrolling = true;
+
+    if (audioManager.scrollTimeout) {
+      clearTimeout(audioManager.scrollTimeout);
+    }
+
+    audioManager.scrollTimeout = window.setTimeout(() => {
+      audioManager.userScrolling = false;
+    }, 3000);
+  }
+
+  // ========================================
+  // Update Loop
+  // ========================================
+
+  function startUpdateLoop() {
+    const update = () => {
+      updateSync();
+      audioManager.animationFrame = requestAnimationFrame(update);
+    };
+    audioManager.animationFrame = requestAnimationFrame(update);
+  }
+
+  function updateSync() {
+    const audio = audioManager.audio;
+    if (!audio.src) return;
+
+    const currentTime = audio.currentTime * 1000;
+    const duration = audio.duration || 1;
+    const progressPercent = (audio.currentTime / duration) * 100;
+
+    // Update progress bars
+    miniProgressFill.style.width = progressPercent + '%';
+    miniExpProgressFill.style.width = progressPercent + '%';
+
+    // Update time display
+    miniCurrentTime.textContent = formatTime(audio.currentTime);
+
+    // Sync lyrics if we have a transcript
+    if (audioManager.transcript && audioManager.isExpanded) {
+      syncLyrics(currentTime);
+    }
+  }
+
+  function syncLyrics(currentTime: number) {
+    const lines = miniLyricsScroll.querySelectorAll('.karaoke-line');
+
+    // Reset all line states
+    lines.forEach(line => line.classList.remove('active'));
+
+    // Find current line
+    let currentLine: Element | null = null;
+    let activeLineIndex = -1;
+
+    lines.forEach((line, index) => {
+      const lineStart = parseInt(line.getAttribute('data-start') || '0');
+      const lineEnd = parseInt(line.getAttribute('data-end') || '0');
+
+      if (currentTime >= lineStart && currentTime <= lineEnd) {
+        currentLine = line;
+        activeLineIndex = index;
+      }
+    });
+
+    // Handle gaps - highlight last passed line
+    if (!currentLine) {
+      for (let i = 0; i < lines.length; i++) {
+        const lineEnd = parseInt(lines[i].getAttribute('data-end') || '0');
+        if (currentTime > lineEnd) {
+          currentLine = lines[i];
+          activeLineIndex = i;
+        }
+      }
+    }
+
+    // Default to first line
+    if (!currentLine && lines.length > 0) {
+      currentLine = lines[0];
+      activeLineIndex = 0;
+    }
+
+    if (currentLine) {
+      currentLine.classList.add('active');
+
+      // Auto-scroll
+      if (!audioManager.userScrolling) {
+        currentLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      // Word-level highlights
+      const words = currentLine.querySelectorAll('.karaoke-word');
+      words.forEach(word => {
+        const start = parseInt(word.getAttribute('data-start') || '0');
+        if (currentTime >= start) {
+          word.classList.add('sung');
+        } else {
+          word.classList.remove('sung');
+        }
+      });
+    }
+
+    // Reset highlights on non-active lines
+    lines.forEach((line, index) => {
+      if (index !== activeLineIndex) {
+        line.querySelectorAll('.karaoke-word').forEach(word => word.classList.remove('sung'));
+      }
+    });
+  }
+
+  // ========================================
+  // Event Handlers
+  // ========================================
+
+  // Audio events
+  audioManager.audio.addEventListener('play', () => {
+    audioManager.isPlaying = true;
+    updatePlayButtons();
+  });
+
+  audioManager.audio.addEventListener('pause', () => {
+    audioManager.isPlaying = false;
+    updatePlayButtons();
+  });
+
+  audioManager.audio.addEventListener('ended', () => {
+    audioManager.isPlaying = false;
+    updatePlayButtons();
+  });
+
+  function updatePlayButtons() {
+    const icon = audioManager.isPlaying ? 'pause' : 'play_arrow';
+    miniPlayBtn.querySelector('.material-symbols-rounded')!.textContent = icon;
+    miniExpPlayBtn.querySelector('.material-symbols-rounded')!.textContent = icon;
+  }
+
+  // Button events
+  miniPlayBtn.addEventListener('click', togglePlayPause);
+  miniExpPlayBtn.addEventListener('click', togglePlayPause);
+  miniCloseBtn.addEventListener('click', hideMiniPlayer);
+  miniExpandedCloseBtn.addEventListener('click', hideMiniPlayer);
+  miniMinimizeBtn.addEventListener('click', collapse);
+  miniInfoArea.addEventListener('click', expand);
+
+  // Progress bar seeking
+  let isScrubbing = false;
+
+  miniProgressBar.addEventListener('click', (e) => {
+    const rect = miniProgressBar.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const percentage = clickX / rect.width;
+    audioManager.audio.currentTime = percentage * audioManager.audio.duration;
+    audioManager.userScrolling = false;
+  });
+
+  miniProgressBar.addEventListener('mousedown', () => {
+    isScrubbing = true;
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (isScrubbing && audioManager.isPlaying) {
+      audioManager.audio.play();
+    }
+    isScrubbing = false;
+  });
+
+  miniProgressBar.addEventListener('mousemove', (e) => {
+    if (!isScrubbing) return;
+
+    const rect = miniProgressBar.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const percentage = Math.max(0, Math.min(1, clickX / rect.width));
+    audioManager.audio.currentTime = percentage * audioManager.audio.duration;
+    audioManager.userScrolling = false;
+  });
+
+  // ========================================
+  // Global Event Listeners
+  // ========================================
+
+  // Listen for play requests from other components
+  window.addEventListener('playAudio', ((e: CustomEvent<Track>) => {
+    playTrack(e.detail);
+  }) as EventListener);
+
+  // Legacy support: openKaraoke event
+  window.addEventListener('openKaraoke', ((e: CustomEvent) => {
+    const { mp3, title, transcriptPath, startMs } = e.detail;
+    playTrack({
+      type: 'audiobible',
+      mp3,
+      title,
+      transcriptPath,
+      startMs,
+      hasLyrics: true
+    });
+  }) as EventListener);
+
+  // ========================================
+  // Utilities
+  // ========================================
+
+  function formatTime(seconds: number): string {
+    if (isNaN(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  // Expose play function globally
+  (window as any).playAudio = playTrack;
+</script>
