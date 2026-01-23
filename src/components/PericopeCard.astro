@@ -30,8 +30,10 @@ interface Props {
     practice?: { title: string; verseRef: string; content?: string };
     song?: { title: string; mp3: string };
     songs?: Song[];
-    podcast?: { title: string; duration?: string; description?: string; scriptFile?: string };
+    podcast?: { title: string; duration?: string; description?: string; scriptFile?: string; mp3?: string };
     audioBible?: { title: string; mp3: string; transcriptPath?: string };
+    devotional?: { title: string; mp3: string; duration?: string };
+    spiritualPractice?: { title: string; mp3: string; duration?: string };
   };
   exegesis?: {
     section: string;
@@ -394,6 +396,68 @@ processedVerses.forEach((verse, idx) => {
             </button>
           )}
 
+          {media.devotional && (
+            <div class="media-card media-card-devotional">
+              <div class="media-card-inner">
+                <div class="media-card-header">
+                  <div class="media-icon-wrapper media-icon-devotional">
+                    <span class="material-symbols-rounded text-xl">sunny</span>
+                  </div>
+                  <div class="media-card-text">
+                    <span class="media-card-label">{
+                      lang === 'da' ? 'Daglig andagt' :
+                      lang === 'de' ? 'Tägliche Andacht' :
+                      lang === 'es' ? 'Devocional diario' :
+                      lang === 'fr' ? 'Méditation quotidienne' :
+                      lang === 'it' ? 'Meditazione quotidiana' :
+                      lang === 'pl' ? 'Codzienna medytacja' :
+                      lang === 'pt' ? 'Devocional diário' :
+                      lang === 'sv' ? 'Daglig andakt' :
+                      lang === 'tr' ? 'Günlük dua' :
+                      lang === 'uk' ? 'Щоденна медитація' :
+                      'Daily Devotional'
+                    } {media.devotional.duration ? `· ${media.devotional.duration}` : ''}</span>
+                    <span class="media-card-title">{media.devotional.title}</span>
+                  </div>
+                </div>
+                <audio controls class="w-full h-10 mt-3" preload="none">
+                  <source src={`/audio/meditations/${media.devotional.mp3}`} type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+          )}
+
+          {media.spiritualPractice && (
+            <div class="media-card media-card-spiritual">
+              <div class="media-card-inner">
+                <div class="media-card-header">
+                  <div class="media-icon-wrapper media-icon-spiritual">
+                    <span class="material-symbols-rounded text-xl">self_improvement</span>
+                  </div>
+                  <div class="media-card-text">
+                    <span class="media-card-label">{
+                      lang === 'da' ? 'Åndelig praksis' :
+                      lang === 'de' ? 'Geistliche Übung' :
+                      lang === 'es' ? 'Práctica espiritual' :
+                      lang === 'fr' ? 'Pratique spirituelle' :
+                      lang === 'it' ? 'Pratica spirituale' :
+                      lang === 'pl' ? 'Praktyka duchowa' :
+                      lang === 'pt' ? 'Prática espiritual' :
+                      lang === 'sv' ? 'Andlig övning' :
+                      lang === 'tr' ? 'Ruhani uygulama' :
+                      lang === 'uk' ? 'Духовна практика' :
+                      'Spiritual Practice'
+                    } {media.spiritualPractice.duration ? `· ${media.spiritualPractice.duration}` : ''}</span>
+                    <span class="media-card-title">{media.spiritualPractice.title}</span>
+                  </div>
+                </div>
+                <audio controls class="w-full h-10 mt-3" preload="none">
+                  <source src={`/audio/meditations/${media.spiritualPractice.mp3}`} type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+          )}
+
           {exegesis && (
             <a
               href={`${exegesisBasePath}#${exegesis.section}`}
@@ -740,6 +804,16 @@ processedVerses.forEach((verse, idx) => {
   .media-icon-podcast {
     background: linear-gradient(135deg, #E4F0E8, #C4E8D4);
     color: #5A8E6B;
+  }
+
+  .media-icon-devotional {
+    background: linear-gradient(135deg, #FFF3E0, #FFE0B2);
+    color: #E65100;
+  }
+
+  .media-icon-spiritual {
+    background: linear-gradient(135deg, #E8E4F0, #D4CDE8);
+    color: #6B5A8E;
   }
 
   .media-icon-exegesis {
