@@ -394,7 +394,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.05);
     border: none;
     cursor: pointer;
     display: flex;
@@ -402,12 +402,23 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     justify-content: center;
     transition: all 0.2s ease;
     z-index: 100;
-    color: white;
+    color: var(--color-charcoal);
   }
 
   .karaoke-close-corner:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.1);
     transform: rotate(90deg);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karaoke-close-corner {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+
+    .karaoke-close-corner:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
   }
 
   /* Content */
