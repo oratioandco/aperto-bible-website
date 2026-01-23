@@ -77,11 +77,18 @@
       "media": {
         "songs": [
           {
-            "title": "Ele Me Olhou",
+            "title": "Ele Me Olhou (PT)",
             "mp3": "luke_01/portuguese/Luke 1_46-56 Portuguese.mp3",
             "genre": "Pop",
-            "description": "O Cântico de Maria",
+            "description": "O Cântico de Maria - Português Europeu",
             "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_46_56_transcript_pt.json"
+          },
+          {
+            "title": "Ele Me Viu (BR)",
+            "mp3": "luke_01/portuguese/Luke 1_46-56 Brazilian Portuguese.mp3",
+            "genre": "Pop",
+            "description": "O Cântico de Maria - Português Brasileiro",
+            "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_46_56_transcript_pt-br.json"
           }
         ]
       },
@@ -115,11 +122,18 @@
       "media": {
         "songs": [
           {
-            "title": "A Luz Que Vem",
+            "title": "A Luz Que Vem (PT)",
             "mp3": "luke_01/portuguese/Luke 1_67-79 Portuguese.mp3",
             "genre": "Pop",
-            "description": "A Profecia de Zacarias",
+            "description": "A Profecia de Zacarias - Português Europeu",
             "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_67_79_transcript_pt.json"
+          },
+          {
+            "title": "Sem Medo (BR)",
+            "mp3": "luke_01/portuguese/Luke 1_67-79 Brazilian Portuguese.mp3",
+            "genre": "Pop",
+            "description": "A Profecia de Zacarias - Português Brasileiro",
+            "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_67_79_transcript_pt-br.json"
           }
         ]
       },
