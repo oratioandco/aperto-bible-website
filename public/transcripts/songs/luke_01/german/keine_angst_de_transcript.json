@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "song_id": "keine_angst_de",
+  "title": "Keine Angst",
+  "artist": "Aperto Bible",
+  "language": "de",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "05-25",
+  "duration_ms": 209960,
+  "audio_file": "songs/luke_01/german/keine_angst_de.mp3",
+  "lyrics_source": "songs/luke_01/german/keine_angst_de_LYRICS.md",
+  "generated_at": "2026-01-23T16:00:00.000000",
+  "alignment_tool": "manual_estimate",
+  "alignment_confidence": 0.7,
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 5000,
+      "end_ms": 45000,
+      "lines": [
+        {"text": "Zacharias steht im Rauch, der Tempel still", "start_ms": 5000, "end_ms": 10000},
+        {"text": "Ein Leben lang gebetet, und jetzt – jetzt steht da wer", "start_ms": 10000, "end_ms": 16000},
+        {"text": "Rechts vom Altar, Licht das nicht Licht ist", "start_ms": 16000, "end_ms": 21000},
+        {"text": "Sein Herz bleibt stehen, seine Hände zittern", "start_ms": 21000, "end_ms": 27000},
+        {"text": "Eine Stimme, die nicht von hier kommt", "start_ms": 27000, "end_ms": 32000},
+        {"text": "Sagt Sachen, die sein Kopf nicht packt", "start_ms": 32000, "end_ms": 37000},
+        {"text": "Dein Gebet – ja, das alte, das vergessene", "start_ms": 37000, "end_ms": 42000},
+        {"text": "Es ist angekommen, es war nie weg", "start_ms": 42000, "end_ms": 45000}
+      ]
+    },
+    {
+      "type": "pre-chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 45000,
+      "end_ms": 58000,
+      "lines": [
+        {"text": "Und das erste Wort?", "start_ms": 45000, "end_ms": 48000},
+        {"text": "Nicht: Hier ist der Plan", "start_ms": 48000, "end_ms": 51000},
+        {"text": "Nicht: Das musst du tun", "start_ms": 51000, "end_ms": 54000},
+        {"text": "Sondern:", "start_ms": 54000, "end_ms": 58000}
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 58000,
+      "end_ms": 95000,
+      "lines": [
+        {"text": "Keine Angst, keine Angst", "start_ms": 58000, "end_ms": 63000},
+        {"text": "Ich weiß, du zitterst, ich weiß, du brichst fast", "start_ms": 63000, "end_ms": 70000},
+        {"text": "Keine Angst, keine Angst", "start_ms": 70000, "end_ms": 75000},
+        {"text": "Gott hat dich gehört, das ist kein Traum", "start_ms": 75000, "end_ms": 82000},
+        {"text": "Das Unmögliche klopft an", "start_ms": 82000, "end_ms": 86000},
+        {"text": "Bei dir, bei mir, bei uns", "start_ms": 86000, "end_ms": 90000},
+        {"text": "Keine Angst – das ist sein erstes Wort", "start_ms": 90000, "end_ms": 95000}
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 100000,
+      "end_ms": 140000,
+      "lines": [
+        {"text": "Sechs Monate später, kleines Dorf, junge Frau", "start_ms": 100000, "end_ms": 106000},
+        {"text": "Maria, jung, verlobt, ihr Leben vorgezeichnet", "start_ms": 106000, "end_ms": 112000},
+        {"text": "Und dann steht da einer, der alles umwirft", "start_ms": 112000, "end_ms": 118000},
+        {"text": "Worte, die ihr Leben in Stücke reißen könnten", "start_ms": 118000, "end_ms": 125000},
+        {"text": "Sie erschrickt, klar – wer würde das nicht?", "start_ms": 125000, "end_ms": 130000},
+        {"text": "Aber der Engel, bevor er was erklärt", "start_ms": 130000, "end_ms": 135000},
+        {"text": "Sagt erst mal das Wichtigste", "start_ms": 135000, "end_ms": 140000}
+      ]
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "start_ms": 145000,
+      "end_ms": 180000,
+      "lines": [
+        {"text": "Zwei Menschen, zwei Momente", "start_ms": 145000, "end_ms": 150000},
+        {"text": "Ein alter Mann, eine junge Frau", "start_ms": 150000, "end_ms": 155000},
+        {"text": "Beide am Boden, beide erschüttert", "start_ms": 155000, "end_ms": 160000},
+        {"text": "Und Gott? Gott fängt mit Trost an", "start_ms": 160000, "end_ms": 166000},
+        {"text": "Nicht mit Forderung, nicht mit Plan", "start_ms": 166000, "end_ms": 171000},
+        {"text": "Sondern: Ich seh dich, hab keine Angst", "start_ms": 171000, "end_ms": 176000},
+        {"text": "Das ist sein Stil, das ist sein Herz", "start_ms": 176000, "end_ms": 180000}
+      ]
+    },
+    {
+      "type": "outro",
+      "label": "Outro",
+      "start_ms": 185000,
+      "end_ms": 209000,
+      "lines": [
+        {"text": "Keine Angst, keine Angst", "start_ms": 185000, "end_ms": 191000},
+        {"text": "Was auch immer kommt", "start_ms": 191000, "end_ms": 196000},
+        {"text": "Keine Angst, keine Angst", "start_ms": 196000, "end_ms": 202000},
+        {"text": "Er fängt immer so an", "start_ms": 202000, "end_ms": 209000}
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "id": "pre_chorus_buildup",
+      "description": "Pre-Chorus - builds tension before 'Keine Angst'",
+      "section_type": "pre-chorus",
+      "start_ms": 45000,
+      "end_ms": 63000,
+      "key_line": "Und das erste Wort? Nicht: Hier ist der Plan. Sondern:",
+      "recommended_for": ["devotional_intro"]
+    },
+    {
+      "id": "chorus_main",
+      "description": "Main Chorus - 'Keine Angst, ich weiß du zitterst'",
+      "section_type": "chorus",
+      "start_ms": 58000,
+      "end_ms": 82000,
+      "key_line": "Keine Angst, keine Angst – ich weiß, du zitterst, ich weiß, du brichst fast",
+      "recommended_for": ["devotional_intro", "social_clip", "app_preview"]
+    },
+    {
+      "id": "chorus_application",
+      "description": "Chorus application - 'Bei dir, bei mir, bei uns'",
+      "section_type": "chorus",
+      "start_ms": 82000,
+      "end_ms": 98000,
+      "key_line": "Das Unmögliche klopft an – bei dir, bei mir, bei uns",
+      "recommended_for": ["devotional_intro", "social_clip"]
+    },
+    {
+      "id": "bridge_pattern",
+      "description": "Bridge - 'Zwei Menschen, zwei Momente'",
+      "section_type": "bridge",
+      "start_ms": 145000,
+      "end_ms": 166000,
+      "key_line": "Zwei Menschen, zwei Momente – ein alter Mann, eine junge Frau",
+      "recommended_for": ["devotional_intro"]
+    }
+  ],
+  "intro_clips": [
+    {
+      "id": "recommended_devotional_clip",
+      "start_ms": 58000,
+      "end_ms": 78000,
+      "focused_duration_ms": 15000,
+      "section_type": "chorus",
+      "key_line": "Keine Angst, keine Angst – ich weiß, du zitterst",
+      "notes": "Main chorus hook - emotionally direct, captures the core message"
+    }
+  ]
+}

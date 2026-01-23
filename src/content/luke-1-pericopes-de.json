@@ -40,6 +40,16 @@
         "label": "Tiefer studieren"
       },
       "media": {
+        "songs": [
+          {
+            "title": "Keine Angst",
+            "mp3": "luke_01/german/keine_angst_de.mp3",
+            "genre": "Pop",
+            "description": "Die Geschichte von Zacharias",
+            "coverArt": "/images/covers/keine_angst_de.png",
+            "transcriptPath": "/transcripts/songs/luke_01/german/keine_angst_de_transcript.json"
+          }
+        ],
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/de/42_luke_01_05-25_podcast_de.mp3",
