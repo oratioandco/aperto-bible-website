@@ -110,6 +110,90 @@ const categoryLabels: Record<string, string> = {
   kontext: 'Kontext', context: 'Context',
   unglaublich: 'Schwierig', hard: 'Difficult'
 };
+
+// Process verse text to add inline footnote tooltips
+function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html: string; unmatchedFootnotes: Footnote[] } {
+  if (!footnotes || footnotes.length === 0) {
+    return { html: text, unmatchedFootnotes: [] };
+  }
+
+  let processed = text;
+  const matched = new Set<number>();
+
+  footnotes.forEach((fn, idx) => {
+    // Extract base keyword (before parentheses for Greek terms like "Theophilus (Θεόφιλος)")
+    const baseKeyword = fn.keyword.split('(')[0].trim();
+
+    // Skip if keyword is empty or too short
+    if (!baseKeyword || baseKeyword.length < 2) return;
+
+    // Check if keyword exists in text (case-insensitive search, but preserve original case)
+    const keywordRegex = new RegExp(`(?<![\\w-])${baseKeyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\w-])`, 'i');
+    const match = processed.match(keywordRegex);
+
+    if (match) {
+      const originalKeyword = match[0];
+      const category = fn.category.toLowerCase();
+      const categoryLabel = categoryLabels[category] || fn.category;
+      const icon = categoryIcons[category] || 'info';
+
+      // Escape HTML in content to prevent XSS
+      const escapedContent = fn.content
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+      const escapedKeyword = fn.keyword
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+
+      // Create tooltip wrapper
+      const replacement = `<span class="footnote-inline" tabindex="0"><span class="footnote-trigger">${originalKeyword}</span><span class="footnote-tooltip"><span class="footnote-tooltip-header"><span class="material-symbols-rounded footnote-tooltip-icon">${icon}</span><span class="footnote-tooltip-category footnote-category-${category}">${categoryLabel}</span></span><span class="footnote-tooltip-keyword">${escapedKeyword}</span><span class="footnote-tooltip-content">${escapedContent}</span></span></span>`;
+
+      // Replace first occurrence only
+      processed = processed.replace(keywordRegex, replacement);
+      matched.add(idx);
+    }
+  });
+
+  // Collect unmatched footnotes for additional notes section
+  const unmatchedFootnotes = footnotes.filter((_, idx) => !matched.has(idx));
+
+  return { html: processed, unmatchedFootnotes };
+}
+
+// Process all verses and collect unmatched footnotes
+const processedVerses = verseData.map((verse) => {
+  const result = processVerseWithFootnotes(verse.text, verse.footnotes || []);
+  return {
+    ...verse,
+    processedText: result.html,
+    unmatchedFootnotes: result.unmatchedFootnotes
+  };
+});
+
+// Collect all unmatched footnotes for "Additional Notes" section
+const additionalNotes: (Footnote & { verseNum: number })[] = [];
+processedVerses.forEach((verse) => {
+  verse.unmatchedFootnotes.forEach((fn: Footnote) => {
+    additionalNotes.push({ ...fn, verseNum: verse.number });
+  });
+});
+
+// Update verse groups to use processed verses
+const processedVerseGroups: VerseGroup[] = [];
+let currentProcessedGroup: VerseGroup | null = null;
+
+processedVerses.forEach((verse, idx) => {
+  const type = verse.isPoetry ? 'poetry' : 'prose';
+  if (!currentProcessedGroup || currentProcessedGroup.type !== type) {
+    currentProcessedGroup = { type, verses: [] };
+    processedVerseGroups.push(currentProcessedGroup);
+  }
+  currentProcessedGroup.verses.push({ verse, idx });
+});
 ---
 
 <section class="pericope-card py-16 md:py-24" id={id}>
@@ -135,14 +219,14 @@ const categoryLabels: Record<string, string> = {
       </figure>
     )}
 
-    <!-- Verses - grouped by prose/poetry -->
+    <!-- Verses - grouped by prose/poetry with inline footnotes -->
     <div class="verses-container max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%]">
-      {verseGroups.map((group) => (
+      {processedVerseGroups.map((group) => (
         group.type === 'poetry' ? (
           <div class="poetry-block">
             {group.verses.map(({ verse, idx }) => (
               <div class="poetry-verse">
-                <span class="verse-text" set:html={verse.text} />
+                <span class="verse-text" set:html={verse.processedText} />
               </div>
             ))}
           </div>
@@ -150,7 +234,7 @@ const categoryLabels: Record<string, string> = {
           <div class="prose-section">
             {group.verses.map(({ verse, idx }) => (
               <span class="prose-verse">
-                <span class="verse-text" set:html={verse.text} />
+                <span class="verse-text" set:html={verse.processedText} />
               </span>
             ))}
           </div>
@@ -158,11 +242,14 @@ const categoryLabels: Record<string, string> = {
       ))}
     </div>
 
-    <!-- Footnotes list at end of pericope -->
-    {allFootnotes.length > 0 && (
-      <div class="footnotes-list max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%] mt-10 pt-6 border-t" style="border-color: var(--color-border)">
+    <!-- Additional Notes (for footnotes that couldn't be matched inline) -->
+    {additionalNotes.length > 0 && (
+      <div class="additional-notes max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%] mt-8 pt-4 border-t" style="border-color: var(--color-border)">
+        <p class="text-xs tracking-wider uppercase mb-3" style="color: var(--color-text-muted)">
+          {lang === 'de' ? 'Weitere Hinweise' : 'Additional Notes'}
+        </p>
         <ul class="space-y-2">
-          {allFootnotes.map((fn) => (
+          {additionalNotes.map((fn) => (
             <li class="footnote-item">
               <details class="footnote-details">
                 <summary class="footnote-summary flex items-center gap-3 cursor-pointer">
@@ -700,3 +787,52 @@ const categoryLabels: Record<string, string> = {
     background: var(--color-beige);
   }
 </style>
+
+<script>
+  // Inline footnote touch handling for mobile devices
+  function initFootnoteTooltips() {
+    const footnotes = document.querySelectorAll('.footnote-inline');
+
+    footnotes.forEach(el => {
+      el.addEventListener('click', (e) => {
+        // Only handle on touch devices
+        if (window.matchMedia('(hover: none)').matches) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          // Close other open tooltips
+          document.querySelectorAll('.footnote-inline.active').forEach(other => {
+            if (other !== el) {
+              other.classList.remove('active');
+            }
+          });
+
+          // Toggle this tooltip
+          el.classList.toggle('active');
+        }
+      });
+    });
+
+    // Close tooltips when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.footnote-inline')) {
+        document.querySelectorAll('.footnote-inline.active').forEach(el => {
+          el.classList.remove('active');
+        });
+      }
+    });
+
+    // Close tooltips on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.footnote-inline.active').forEach(el => {
+          el.classList.remove('active');
+        });
+      }
+    });
+  }
+
+  // Initialize on page load and after navigation
+  document.addEventListener('DOMContentLoaded', initFootnoteTooltips);
+  document.addEventListener('astro:page-load', initFootnoteTooltips);
+</script>
