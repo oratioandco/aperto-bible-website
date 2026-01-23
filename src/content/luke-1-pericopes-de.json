@@ -16,10 +16,12 @@
       "media": {
         "audioBible": {
           "title": "Lukas 1 - Hörbibel",
-          "mp3": "42_luke_01_audio_bible_de.mp3"
+          "mp3": "42_luke_01_audio_bible_de.mp3",
+          "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_de.json"
         }
       },
-      "image": "luke_01_prologue.jpeg"
+      "image": "luke_01_prologue.jpeg",
+      "audioBibleStart": 7920
     },
     {
       "id": "zacharias-elisabeth",
@@ -33,7 +35,8 @@
         "label": "Tiefer studieren"
       },
       "media": {},
-      "image": "luke_01_zechariah_temple.jpeg"
+      "image": "luke_01_zechariah_temple.jpeg",
+      "audioBibleStart": 68072
     },
     {
       "id": "annunciation",
@@ -58,7 +61,8 @@
           }
         ]
       },
-      "image": "luke_01_annunciation.jpeg"
+      "image": "luke_01_annunciation.jpeg",
+      "audioBibleStart": 383870
     },
     {
       "id": "visitation",
@@ -72,7 +76,8 @@
         "label": "Tiefer studieren"
       },
       "media": {},
-      "image": "luke_01_visitation.jpeg"
+      "image": "luke_01_visitation.jpeg",
+      "audioBibleStart": 579364
     },
     {
       "id": "magnificat",
@@ -97,7 +102,8 @@
           }
         ]
       },
-      "image": "luke_01_magnificat.jpeg"
+      "image": "luke_01_magnificat.jpeg",
+      "audioBibleStart": 684630
     },
     {
       "id": "john-birth",
@@ -111,7 +117,8 @@
         "label": "Tiefer studieren"
       },
       "media": {},
-      "image": "luke_01_john_birth.jpeg"
+      "image": "luke_01_john_birth.jpeg",
+      "audioBibleStart": 850048
     },
     {
       "id": "benedictus",
@@ -136,7 +143,8 @@
           }
         ]
       },
-      "image": "luke_01_benedictus.jpeg"
+      "image": "luke_01_benedictus.jpeg",
+      "audioBibleStart": 1000428
     },
     {
       "id": "john-childhood",
@@ -150,7 +158,8 @@
         "label": "Tiefer studieren"
       },
       "media": {},
-      "image": "luke_01_wilderness.jpeg"
+      "image": "luke_01_wilderness.jpeg",
+      "audioBibleStart": 1195922
     }
   ]
 }

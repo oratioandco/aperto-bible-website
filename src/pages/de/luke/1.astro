@@ -108,7 +108,11 @@ const base = '';
         exegesis={pericope.exegesis}
         lang="de"
         chapter={1}
-        isFirst={index === 0} layoutIndex={index}
+        isFirst={index === 0}
+        layoutIndex={index}
+        audioBibleStart={pericope.audioBibleStart}
+        audioBibleMp3={pericope.media?.audioBible?.mp3 || pericopes.pericopes[0]?.media?.audioBible?.mp3}
+        audioBibleTranscriptPath={pericope.media?.audioBible?.transcriptPath || pericopes.pericopes[0]?.media?.audioBible?.transcriptPath}
       />
     ))}
   </div>

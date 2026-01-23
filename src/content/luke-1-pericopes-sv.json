@@ -16,10 +16,12 @@
       "media": {
         "audioBible": {
           "title": "Lukas 1 - Ljudbibel",
-          "mp3": "42_luke_01_audio_bible_sv.mp3"
+          "mp3": "42_luke_01_audio_bible_sv.mp3",
+          "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_sv.json"
         }
       },
-      "image": "luke_01_prologue.jpeg"
+      "image": "luke_01_prologue.jpeg",
+      "audioBibleStart": 700
     },
     {
       "id": "zacharias-elisabeth",
@@ -33,7 +35,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_zechariah_temple.jpeg"
+      "image": "luke_01_zechariah_temple.jpeg",
+      "audioBibleStart": 58728
     },
     {
       "id": "annunciation",
@@ -47,7 +50,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_annunciation.jpeg"
+      "image": "luke_01_annunciation.jpeg",
+      "audioBibleStart": 363378
     },
     {
       "id": "visitation",
@@ -61,7 +65,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_visitation.jpeg"
+      "image": "luke_01_visitation.jpeg",
+      "audioBibleStart": 551970
     },
     {
       "id": "magnificat",
@@ -75,7 +80,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_magnificat.jpeg"
+      "image": "luke_01_magnificat.jpeg",
+      "audioBibleStart": 653520
     },
     {
       "id": "john-birth",
@@ -89,7 +95,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_john_birth.jpeg"
+      "image": "luke_01_john_birth.jpeg",
+      "audioBibleStart": 813099
     },
     {
       "id": "benedictus",
@@ -103,7 +110,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_benedictus.jpeg"
+      "image": "luke_01_benedictus.jpeg",
+      "audioBibleStart": 958170
     },
     {
       "id": "john-childhood",
@@ -117,7 +125,8 @@
         "label": "Fördjupa"
       },
       "media": {},
-      "image": "luke_01_wilderness.jpeg"
+      "image": "luke_01_wilderness.jpeg",
+      "audioBibleStart": 1146762
     }
   ]
 }

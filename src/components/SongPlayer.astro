@@ -676,11 +676,14 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     openKaraokeModal(coverArt, title, mp3, transcriptPath);
   });
 
-  async function openKaraokeModal(coverArt, title, mp3, transcriptPath) {
+  async function openKaraokeModal(coverArt, title, mp3, transcriptPath, startMs = 0) {
     const modal = document.getElementById('global-karaoke-modal');
     const backdrop = document.getElementById('karaoke-backdrop');
     const lyricsContainer = document.getElementById('lyrics-scroll-container');
     const titleElement = document.getElementById('karaoke-title');
+
+    // Store startMs for audio setup
+    karaokeState.startMs = startMs;
 
     // Set title
     if (titleElement) {
@@ -713,8 +716,8 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       // Render lyrics
       renderKaraokeLyrics(transcript, lyricsContainer);
 
-      // Setup audio
-      setupKaraokeAudio(mp3);
+      // Setup audio with optional start position
+      setupKaraokeAudio(mp3, startMs);
 
     } catch (error) {
       console.error('Error loading transcript:', error);
@@ -727,6 +730,12 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       `;
     }
   }
+
+  // Listen for openKaraoke events from other components (e.g., audiobible)
+  window.addEventListener('openKaraoke', (e) => {
+    const { mp3, title, transcriptPath, startMs } = e.detail;
+    openKaraokeModal(null, title, mp3, transcriptPath, startMs || 0);
+  });
 
   function renderKaraokeLyrics(transcript, container) {
     let html = '';
@@ -788,7 +797,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     }, 3000);
   }
 
-  function setupKaraokeAudio(mp3) {
+  function setupKaraokeAudio(mp3, startMs = 0) {
     // Stop any existing audio
     if (karaokeState.audioElement) {
       karaokeState.audioElement.pause();
@@ -808,6 +817,10 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
     audio.addEventListener('loadedmetadata', () => {
       document.getElementById('karaoke-duration').textContent = formatTime(audio.duration);
+      // Set start position if specified (for audiobible pericope playback)
+      if (startMs > 0) {
+        audio.currentTime = startMs / 1000;
+      }
       updatePlayPauseButton();
       // Start the update loop immediately
       startUpdateLoop();

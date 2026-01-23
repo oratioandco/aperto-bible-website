@@ -16,10 +16,12 @@
       "media": {
         "audioBible": {
           "title": "Luke 1 - Audio Bible",
-          "mp3": "42_luke_01_audio_bible_en.mp3"
+          "mp3": "42_luke_01_audio_bible_en.mp3",
+          "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_en.json"
         }
       },
-      "image": "luke_01_prologue.jpeg"
+      "image": "luke_01_prologue.jpeg",
+      "audioBibleStart": 660
     },
     {
       "id": "zacharias-elisabeth",
@@ -33,7 +35,8 @@
         "label": "Study deeper"
       },
       "media": {},
-      "image": "luke_01_zechariah_temple.jpeg"
+      "image": "luke_01_zechariah_temple.jpeg",
+      "audioBibleStart": 56673
     },
     {
       "id": "annunciation",
@@ -57,7 +60,8 @@
           }
         ]
       },
-      "image": "luke_01_annunciation.jpeg"
+      "image": "luke_01_annunciation.jpeg",
+      "audioBibleStart": 350741
     },
     {
       "id": "visitation",
@@ -71,7 +75,8 @@
         "label": "Study deeper"
       },
       "media": {},
-      "image": "luke_01_visitation.jpeg"
+      "image": "luke_01_visitation.jpeg",
+      "audioBibleStart": 532783
     },
     {
       "id": "magnificat",
@@ -95,7 +100,8 @@
           }
         ]
       },
-      "image": "luke_01_magnificat.jpeg"
+      "image": "luke_01_magnificat.jpeg",
+      "audioBibleStart": 630806
     },
     {
       "id": "john-birth",
@@ -109,7 +115,8 @@
         "label": "Study deeper"
       },
       "media": {},
-      "image": "luke_01_john_birth.jpeg"
+      "image": "luke_01_john_birth.jpeg",
+      "audioBibleStart": 784842
     },
     {
       "id": "benedictus",
@@ -133,7 +140,8 @@
           }
         ]
       },
-      "image": "luke_01_benedictus.jpeg"
+      "image": "luke_01_benedictus.jpeg",
+      "audioBibleStart": 924874
     },
     {
       "id": "john-childhood",
@@ -147,7 +155,8 @@
         "label": "Study deeper"
       },
       "media": {},
-      "image": "luke_01_wilderness.jpeg"
+      "image": "luke_01_wilderness.jpeg",
+      "audioBibleStart": 1106916
     }
   ]
 }

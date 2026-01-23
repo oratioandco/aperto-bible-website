@@ -16,10 +16,12 @@
       "media": {
         "audioBible": {
           "title": "Lucas 1 - Áudio Bíblia",
-          "mp3": "42_luke_01_audio_bible_pt.mp3"
+          "mp3": "42_luke_01_audio_bible_pt.mp3",
+          "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_pt.json"
         }
       },
-      "image": "luke_01_prologue.jpeg"
+      "image": "luke_01_prologue.jpeg",
+      "audioBibleStart": 660
     },
     {
       "id": "zacharias-elisabeth",
@@ -33,7 +35,8 @@
         "label": "Estudar mais"
       },
       "media": {},
-      "image": "luke_01_zechariah_temple.jpeg"
+      "image": "luke_01_zechariah_temple.jpeg",
+      "audioBibleStart": 34143
     },
     {
       "id": "annunciation",
@@ -47,7 +50,8 @@
         "label": "Estudar mais"
       },
       "media": {},
-      "image": "luke_01_annunciation.jpeg"
+      "image": "luke_01_annunciation.jpeg",
+      "audioBibleStart": 209928
     },
     {
       "id": "visitation",
@@ -61,7 +65,8 @@
         "label": "Estudar mais"
       },
       "media": {},
-      "image": "luke_01_visitation.jpeg"
+      "image": "luke_01_visitation.jpeg",
+      "audioBibleStart": 318748
     },
     {
       "id": "magnificat",
@@ -92,7 +97,8 @@
           }
         ]
       },
-      "image": "luke_01_magnificat.jpeg"
+      "image": "luke_01_magnificat.jpeg",
+      "audioBibleStart": 377343
     },
     {
       "id": "john-birth",
@@ -106,7 +112,8 @@
         "label": "Estudar mais"
       },
       "media": {},
-      "image": "luke_01_john_birth.jpeg"
+      "image": "luke_01_john_birth.jpeg",
+      "audioBibleStart": 469421
     },
     {
       "id": "benedictus",
@@ -137,7 +144,8 @@
           }
         ]
       },
-      "image": "luke_01_benedictus.jpeg"
+      "image": "luke_01_benedictus.jpeg",
+      "audioBibleStart": 553129
     },
     {
       "id": "john-childhood",
@@ -151,7 +159,8 @@
         "label": "Estudar mais"
       },
       "media": {},
-      "image": "luke_01_wilderness.jpeg"
+      "image": "luke_01_wilderness.jpeg",
+      "audioBibleStart": 661949
     }
   ]
 }
