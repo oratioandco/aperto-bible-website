@@ -713,8 +713,8 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       console.log('Transcript loaded:', transcript);
       karaokeState.currentTranscript = transcript;
 
-      // Render lyrics
-      renderKaraokeLyrics(transcript, lyricsContainer);
+      // Render lyrics (filter by startMs for audiobible pericopes)
+      renderKaraokeLyrics(transcript, lyricsContainer, startMs);
 
       // Setup audio with optional start position
       setupKaraokeAudio(mp3, startMs);
@@ -737,20 +737,26 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     openKaraokeModal(null, title, mp3, transcriptPath, startMs || 0);
   });
 
-  function renderKaraokeLyrics(transcript, container) {
+  function renderKaraokeLyrics(transcript, container, filterStartMs = 0) {
     let html = '';
+    let lineIndex = 0;
 
     transcript.sections.forEach((section, sectionIdx) => {
       if (section.label) {
         html += `<div class="lyric-section-label">${section.label}</div>`;
       }
 
-      section.lines.forEach((line, lineIdx) => {
+      section.lines.forEach((line) => {
         const lineStart = line.words?.[0]?.start_ms || line.start_ms;
         const lineEnd = line.words?.[line.words.length-1]?.end_ms || line.end_ms;
 
+        // Skip lines that end before the pericope start time (with small buffer)
+        if (filterStartMs > 0 && lineEnd < filterStartMs - 500) {
+          return;
+        }
+
         // Render with word-level spans
-        let lineHtml = `<div class="karaoke-line" data-line-index="${lineIdx}" data-start="${lineStart}" data-end="${lineEnd}">`;
+        let lineHtml = `<div class="karaoke-line" data-line-index="${lineIndex}" data-start="${lineStart}" data-end="${lineEnd}">`;
 
         if (line.words && line.words.length > 0) {
           line.words.forEach((word, wordIdx) => {
@@ -762,6 +768,7 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
         lineHtml += '</div>';
         html += lineHtml;
+        lineIndex++;
       });
     });
 
