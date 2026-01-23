@@ -105,9 +105,6 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
         <h1 id="karaoke-title" class="karaoke-title-text">{cleanTitle}</h1>
         <p id="karaoke-artist" class="karaoke-artist-text">Aperto Bible</p>
       </div>
-      <div class="header-right">
-        <div class="lyrics-badge">{t.lyrics}</div>
-      </div>
     </header>
 
     <!-- Main Content -->
@@ -334,35 +331,26 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     font-family: 'Switzer', -apple-system, sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
-    color: white;
+    color: var(--color-charcoal);
     margin: 0;
     letter-spacing: -0.02em;
   }
 
   .karaoke-artist-text {
     font-size: 0.875rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-text-muted);
     margin: 0;
     font-weight: 500;
   }
 
-  .header-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
+  @media (prefers-color-scheme: dark) {
+    .karaoke-title-text {
+      color: white;
+    }
 
-  .lyrics-badge {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: white;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    .karaoke-artist-text {
+      color: rgba(255, 255, 255, 0.6);
+    }
   }
 
   .karaoke-close {
