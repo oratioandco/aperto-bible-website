@@ -136,20 +136,9 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       </div>
 
       <div class="karaoke-controls">
-        <button class="control-btn" id="karaoke-shuffle" type="button">
-          <span class="material-symbols-rounded">shuffle</span>
-        </button>
-        <button class="control-btn" id="karaoke-prev" type="button">
-          <span class="material-symbols-rounded">skip_previous</span>
-        </button>
+        <!-- Only play/pause for songs - no playlist navigation needed -->
         <button class="control-btn control-play" id="karaoke-play-pause" type="button">
           <span class="material-symbols-rounded">play_arrow</span>
-        </button>
-        <button class="control-btn" id="karaoke-next" type="button">
-          <span class="material-symbols-rounded">skip_next</span>
-        </button>
-        <button class="control-btn" id="karaoke-repeat" type="button">
-          <span class="material-symbols-rounded">repeat</span>
         </button>
       </div>
     </footer>
