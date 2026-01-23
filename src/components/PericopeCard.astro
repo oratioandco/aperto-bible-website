@@ -482,12 +482,25 @@ processedVerses.forEach((verse, idx) => {
     <div class="modal-content p-8 md:p-12">
       <header class="flex justify-between items-start mb-8">
         <div>
-          <p class="text-xs tracking-widest opacity-60 mb-2" style="color: var(--color-accent)">PODCAST</p>
-          <h3 class="headline-mixed text-2xl md:text-3xl" set:html={formatTitle(media.podcast.title)} />
+          <p class="text-xs tracking-widest opacity-60 mb-2" style="color: var(--color-accent)">
+            PODCAST {media.podcast.duration ? `· ${media.podcast.duration}` : ''}
+          </p>
+          <h3 class="headline-mixed text-2xl md:text-3xl">{title}</h3>
+          <p class="text-sm mt-2" style="color: var(--color-text-muted)">
+            {lang === 'de' ? 'Lukas' : 'Luke'} {verses}
+          </p>
         </div>
         <button onclick={`document.getElementById('${podcastModalId}').close()`} class="text-2xl opacity-40 hover:opacity-100" type="button">&times;</button>
       </header>
-      <p class="opacity-70 italic">{lang === 'de' ? 'Podcast-Episode kommt bald.' : 'Podcast episode coming soon.'}</p>
+      {media.podcast.mp3 ? (
+        <div class="podcast-player">
+          <audio controls class="w-full" preload="metadata">
+            <source src={`/audio/podcasts/${media.podcast.mp3}`} type="audio/mpeg" />
+          </audio>
+        </div>
+      ) : (
+        <p class="opacity-70 italic">{lang === 'de' ? 'Podcast-Episode kommt bald.' : 'Podcast episode coming soon.'}</p>
+      )}
       <footer class="mt-8 pt-6 border-t" style="border-color: var(--color-border)">
         <button onclick={`document.getElementById('${podcastModalId}').close()`} class="px-6 py-2 rounded-full text-sm text-white" style="background: var(--color-accent)" type="button">
           {lang === 'de' ? 'Schließen' : 'Close'}

@@ -18,6 +18,11 @@
           "title": "Lukas 1 - Lydbibel",
           "mp3": "42_luke_01_audio_bible_da.mp3",
           "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_da.json"
+        },
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_01-04_podcast_da.mp3",
+          "duration": "2 min"
         }
       },
       "image": "luke_01_prologue.jpeg",
@@ -34,7 +39,13 @@
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
         "label": "Læs mere"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_05-25_podcast_da.mp3",
+          "duration": "1 min"
+        }
+      },
       "image": "luke_01_zechariah_temple.jpeg",
       "audioBibleStart": 30904
     },
@@ -58,7 +69,12 @@
             "description": "En sang om mod og tillid",
             "transcriptPath": "/transcripts/songs/luke_01/danish/42_luke_01_26_38_transcript_da.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_26-38_podcast_da.mp3",
+          "duration": "1 min"
+        }
       },
       "image": "luke_01_annunciation.jpeg",
       "audioBibleStart": 187900
@@ -74,7 +90,13 @@
         "section": "pericope-4-two-women-two-miracles-139-45",
         "label": "Læs mere"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_39-45_podcast_da.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_visitation.jpeg",
       "audioBibleStart": 285088
     },
@@ -98,7 +120,12 @@
             "description": "Marias lovsang",
             "transcriptPath": "/transcripts/songs/luke_01/danish/42_luke_01_46_56_transcript_da.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_46-56_podcast_da.mp3",
+          "duration": "2 min"
+        }
       },
       "image": "luke_01_magnificat.jpeg",
       "audioBibleStart": 337420
@@ -114,7 +141,13 @@
         "section": "pericope-6-his-name-is-john-157-66",
         "label": "Læs mere"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_57-66_podcast_da.mp3",
+          "duration": "3 min"
+        }
+      },
       "image": "luke_01_john_birth.jpeg",
       "audioBibleStart": 419656
     },
@@ -138,7 +171,12 @@
             "description": "Zakarias' profeti",
             "transcriptPath": "/transcripts/songs/luke_01/danish/42_luke_01_67_79_transcript_da.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_67-79_podcast_da.mp3",
+          "duration": "1 min"
+        }
       },
       "image": "luke_01_benedictus.jpeg",
       "audioBibleStart": 494416
@@ -154,7 +192,13 @@
         "section": "pericope-8-growing-up-in-the-wilderness-180",
         "label": "Læs mere"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/da/42_luke_01_80_podcast_da.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_wilderness.jpeg",
       "audioBibleStart": 591604
     }

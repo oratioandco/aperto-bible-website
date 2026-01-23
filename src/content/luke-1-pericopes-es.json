@@ -18,6 +18,11 @@
           "title": "Lucas 1 - Audio Biblia",
           "mp3": "42_luke_01_audio_bible_es.mp3",
           "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_es.json"
+        },
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_01-04_podcast_es.mp3",
+          "duration": "5 min"
         }
       },
       "image": "luke_01_prologue.jpeg",
@@ -34,7 +39,13 @@
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_05-25_podcast_es.mp3",
+          "duration": "3 min"
+        }
+      },
       "image": "luke_01_zechariah_temple.jpeg",
       "audioBibleStart": 32293
     },
@@ -49,7 +60,13 @@
         "section": "pericope-3-mary-says-yes-126-38",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_26-38_podcast_es.mp3",
+          "duration": "4 min"
+        }
+      },
       "image": "luke_01_annunciation.jpeg",
       "audioBibleStart": 198996
     },
@@ -64,7 +81,13 @@
         "section": "pericope-4-two-women-two-miracles-139-45",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_39-45_podcast_es.mp3",
+          "duration": "3 min"
+        }
+      },
       "image": "luke_01_visitation.jpeg",
       "audioBibleStart": 302193
     },
@@ -79,7 +102,13 @@
         "section": "pericope-5-marys-song-magnificat-146-56",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_46-56_podcast_es.mp3",
+          "duration": "4 min"
+        }
+      },
       "image": "luke_01_magnificat.jpeg",
       "audioBibleStart": 357761
     },
@@ -94,7 +123,13 @@
         "section": "pericope-6-his-name-is-john-157-66",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_57-66_podcast_es.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_john_birth.jpeg",
       "audioBibleStart": 445082
     },
@@ -109,7 +144,13 @@
         "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_67-79_podcast_es.mp3",
+          "duration": "4 min"
+        }
+      },
       "image": "luke_01_benedictus.jpeg",
       "audioBibleStart": 524464
     },
@@ -124,7 +165,13 @@
         "section": "pericope-8-growing-up-in-the-wilderness-180",
         "label": "Estudiar más"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/es/42_luke_01_80_podcast_es.mp3",
+          "duration": "3 min"
+        }
+      },
       "image": "luke_01_wilderness.jpeg",
       "audioBibleStart": 627661
     }

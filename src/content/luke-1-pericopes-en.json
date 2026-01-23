@@ -18,6 +18,11 @@
           "title": "Luke 1 - Audio Bible",
           "mp3": "42_luke_01_audio_bible_en.mp3",
           "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_en.json"
+        },
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_01-04_podcast_en.mp3",
+          "duration": "1 min"
         }
       },
       "image": "luke_01_prologue.jpeg",
@@ -34,7 +39,13 @@
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
         "label": "Study deeper"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_05-25_podcast_en_gemini.mp3",
+          "duration": "3 min"
+        }
+      },
       "image": "luke_01_zechariah_temple.jpeg",
       "audioBibleStart": 56673
     },
@@ -58,7 +69,12 @@
             "description": "A song about courage and trust",
             "transcriptPath": "/transcripts/songs/luke_01/english/42_luke_01_26_38_transcript_en.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_26-38_podcast_en_gemini.mp3",
+          "duration": "3 min"
+        }
       },
       "image": "luke_01_annunciation.jpeg",
       "audioBibleStart": 350741
@@ -74,7 +90,13 @@
         "section": "pericope-4-two-women-two-miracles-139-45",
         "label": "Study deeper"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_39-45_podcast_en_gemini.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_visitation.jpeg",
       "audioBibleStart": 532783
     },
@@ -98,7 +120,12 @@
             "description": "Mary's Song of Praise",
             "transcriptPath": "/transcripts/songs/luke_01/english/42_luke_01_46_56_transcript_en.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_46-56_podcast_en_gemini.mp3",
+          "duration": "3 min"
+        }
       },
       "image": "luke_01_magnificat.jpeg",
       "audioBibleStart": 630806
@@ -114,7 +141,13 @@
         "section": "pericope-6-his-name-is-john-157-66",
         "label": "Study deeper"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_57-66_podcast_en_gemini.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_john_birth.jpeg",
       "audioBibleStart": 784842
     },
@@ -138,7 +171,12 @@
             "description": "Zechariah's Prophecy",
             "transcriptPath": "/transcripts/songs/luke_01/english/42_luke_01_67_79_transcript_en.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_67-79_podcast_en_gemini.mp3",
+          "duration": "3 min"
+        }
       },
       "image": "luke_01_benedictus.jpeg",
       "audioBibleStart": 924874
@@ -154,7 +192,13 @@
         "section": "pericope-8-growing-up-in-the-wilderness-180",
         "label": "Study deeper"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/en/42_luke_01_80_podcast_en_gemini.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_wilderness.jpeg",
       "audioBibleStart": 1106916
     }

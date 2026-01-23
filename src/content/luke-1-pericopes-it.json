@@ -18,6 +18,11 @@
           "title": "Luca 1 - Audio Bibbia",
           "mp3": "42_luke_01_audio_bible_it.mp3",
           "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_it.json"
+        },
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_01-04_podcast_it.mp3",
+          "duration": "4 min"
         }
       },
       "image": "luke_01_prologue.jpeg",
@@ -34,7 +39,13 @@
         "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
         "label": "Approfondire"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_05-25_podcast_it.mp3",
+          "duration": "4 min"
+        }
+      },
       "image": "luke_01_zechariah_temple.jpeg",
       "audioBibleStart": 28584
     },
@@ -58,7 +69,12 @@
             "description": "Una canzone sul coraggio e la fiducia",
             "transcriptPath": "/transcripts/songs/luke_01/italian/42_luke_01_26_38_transcript_it.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_26-38_podcast_it.mp3",
+          "duration": "5 min"
+        }
       },
       "image": "luke_01_annunciation.jpeg",
       "audioBibleStart": 175290
@@ -74,7 +90,13 @@
         "section": "pericope-4-two-women-two-miracles-139-45",
         "label": "Approfondire"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_39-45_podcast_it.mp3",
+          "duration": "5 min"
+        }
+      },
       "image": "luke_01_visitation.jpeg",
       "audioBibleStart": 266108
     },
@@ -98,7 +120,12 @@
             "description": "Il Cantico di Maria",
             "transcriptPath": "/transcripts/songs/luke_01/italian/42_luke_01_46_56_transcript_it.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_46-56_podcast_it.mp3",
+          "duration": "6 min"
+        }
       },
       "image": "luke_01_magnificat.jpeg",
       "audioBibleStart": 315010
@@ -114,7 +141,13 @@
         "section": "pericope-6-his-name-is-john-157-66",
         "label": "Approfondire"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_57-66_podcast_it.mp3",
+          "duration": "5 min"
+        }
+      },
       "image": "luke_01_john_birth.jpeg",
       "audioBibleStart": 391856
     },
@@ -138,7 +171,12 @@
             "description": "La Profezia di Zaccaria",
             "transcriptPath": "/transcripts/songs/luke_01/italian/42_luke_01_67_79_transcript_it.json"
           }
-        ]
+        ],
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_67-79_podcast_it.mp3",
+          "duration": "6 min"
+        }
       },
       "image": "luke_01_benedictus.jpeg",
       "audioBibleStart": 461716
@@ -154,7 +192,13 @@
         "section": "pericope-8-growing-up-in-the-wilderness-180",
         "label": "Approfondire"
       },
-      "media": {},
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/it/42_luke_01_80_podcast_it.mp3",
+          "duration": "2 min"
+        }
+      },
       "image": "luke_01_wilderness.jpeg",
       "audioBibleStart": 552534
     }
