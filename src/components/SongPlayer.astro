@@ -668,7 +668,10 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     isPlaying: false,
     audioElement: null,
     animationFrame: null,
-    lastUpdateTime: 0
+    lastUpdateTime: 0,
+    userScrolling: false,
+    scrollTimeout: null,
+    lastActiveLineIndex: -1
   };
 
   // Open karaoke modal
@@ -776,6 +779,24 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
         }
       });
     });
+
+    // Add scroll listener for free scroll with auto-scroll timeout
+    container.addEventListener('scroll', handleUserScroll, { passive: true });
+  }
+
+  function handleUserScroll() {
+    // Mark that user is scrolling
+    karaokeState.userScrolling = true;
+
+    // Clear existing timeout
+    if (karaokeState.scrollTimeout) {
+      clearTimeout(karaokeState.scrollTimeout);
+    }
+
+    // After 3 seconds of inactivity, re-enable auto-scroll
+    karaokeState.scrollTimeout = setTimeout(() => {
+      karaokeState.userScrolling = false;
+    }, 3000);
   }
 
   function setupKaraokeAudio(mp3) {
@@ -883,8 +904,10 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     if (currentLine) {
       currentLine.classList.add('active');
 
-      // Scroll to current line smoothly
-      currentLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Only auto-scroll if user isn't manually scrolling
+      if (!karaokeState.userScrolling) {
+        currentLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
 
       // Update word highlights with .sung class
       const words = currentLine.querySelectorAll('.karaoke-word');
@@ -898,6 +921,14 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
         }
       });
     }
+
+    // Also reset word highlights on non-active lines
+    lines.forEach((line, index) => {
+      if (index !== activeLineIndex) {
+        const words = line.querySelectorAll('.karaoke-word');
+        words.forEach(word => word.classList.remove('sung'));
+      }
+    });
   }
 
   function formatTime(seconds) {
@@ -955,6 +986,11 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       const newTime = percentage * karaokeState.audioElement.duration;
 
       karaokeState.audioElement.currentTime = newTime;
+      // Reset user scrolling so we scroll to the new position
+      karaokeState.userScrolling = false;
+      if (karaokeState.scrollTimeout) {
+        clearTimeout(karaokeState.scrollTimeout);
+      }
       updateKaraokeSync();
     });
 
@@ -981,6 +1017,11 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
       const newTime = percentage * karaokeState.audioElement.duration;
 
       karaokeState.audioElement.currentTime = newTime;
+      // Reset user scrolling so we scroll to the new position
+      karaokeState.userScrolling = false;
+      if (karaokeState.scrollTimeout) {
+        clearTimeout(karaokeState.scrollTimeout);
+      }
       updateKaraokeSync();
     });
   }
