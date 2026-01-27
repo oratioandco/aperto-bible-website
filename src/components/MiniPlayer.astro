@@ -725,7 +725,10 @@
   function collapse() {
     miniPlayer.classList.remove('expanded');
     audioManager.isExpanded = false;
-    document.body.style.overflow = '';
+    // Restore scroll immediately
+    requestAnimationFrame(() => {
+      document.body.style.overflow = '';
+    });
   }
 
   function togglePlayPause() {

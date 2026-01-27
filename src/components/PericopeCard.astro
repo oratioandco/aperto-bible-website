@@ -309,7 +309,7 @@ processedVerses.forEach((verse, idx) => {
     <!-- Media Section -->
     {hasMedia && (
       <div class="media-section max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%] mt-16">
-        <div class="media-grid grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="media-grid grid grid-cols-1 md:grid-cols-2 gap-4">
 
           {media.audioBible && (
             <div class="media-card media-card-audio group">
@@ -328,6 +328,7 @@ processedVerses.forEach((verse, idx) => {
                   data-type="audiobible"
                   data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
                   data-title={media.audioBible.title}
+                  data-cover-art="/images/covers/default.png"
                   data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
                   data-start-ms={audioBibleStart || 0}
                   data-has-lyrics={audioBibleHasTranscript ? 'true' : 'false'}
@@ -363,7 +364,7 @@ processedVerses.forEach((verse, idx) => {
           )}
 
           {songs.map((song) => (
-            <div class="col-span-1 sm:col-span-2 lg:col-span-3">
+            <div class="col-span-1 md:col-span-2">
               <SongPlayer song={song} lang={lang} />
             </div>
           ))}
@@ -386,6 +387,7 @@ processedVerses.forEach((verse, idx) => {
                   data-mp3={`/audio/podcasts/${media.podcast.mp3}`}
                   data-title={media.podcast.title}
                   data-artist={title}
+                  data-cover-art="/images/covers/default.png"
                   type="button"
                 >
                   <span class="material-symbols-rounded">play_arrow</span>
@@ -420,10 +422,11 @@ processedVerses.forEach((verse, idx) => {
                 </div>
                 <button
                   class="media-play-btn"
-                  data-type="meditation"
-                  data-mp3={`/audio/meditations/${media.devotional.mp3}`}
+                  data-type="devotional"
+                  data-mp3={`/audio/devotionals/${media.devotional.mp3}`}
                   data-title={media.devotional.title}
                   data-artist={title}
+                  data-cover-art="/images/covers/morgen.png"
                   type="button"
                 >
                   <span class="material-symbols-rounded">play_arrow</span>
@@ -462,6 +465,7 @@ processedVerses.forEach((verse, idx) => {
                   data-mp3={`/audio/meditations/${media.spiritualPractice.mp3}`}
                   data-title={media.spiritualPractice.title}
                   data-artist={title}
+                  data-cover-art="/images/covers/default.png"
                   type="button"
                 >
                   <span class="material-symbols-rounded">play_arrow</span>
@@ -1040,6 +1044,7 @@ processedVerses.forEach((verse, idx) => {
         const mp3 = btn.dataset.mp3;
         const title = btn.dataset.title || 'Audio';
         const artist = btn.dataset.artist || 'Aperto Bible';
+        const coverArt = btn.dataset.coverArt;
         const transcriptPath = btn.dataset.transcript;
         const startMs = parseInt(btn.dataset.startMs, 10) || 0;
         const hasLyrics = btn.dataset.hasLyrics === 'true';
@@ -1051,6 +1056,7 @@ processedVerses.forEach((verse, idx) => {
             mp3,
             title,
             artist,
+            coverArt: coverArt || undefined,
             transcriptPath: transcriptPath || undefined,
             startMs,
             hasLyrics
