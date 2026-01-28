@@ -312,7 +312,7 @@ processedVerses.forEach((verse, idx) => {
         <div class="media-grid grid grid-cols-1 md:grid-cols-2 gap-4">
 
           {media.audioBible && (
-            <div class="media-card media-card-audio group">
+            <div class="media-card media-card-audio group" id={`audiobible-${id}`}>
               <div class="media-card-inner">
                 <div class="media-card-header">
                   <div class="media-icon-wrapper">
@@ -323,19 +323,30 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.audioBible.title}</span>
                   </div>
                 </div>
-                <button
-                  class="media-play-btn"
-                  data-type="audiobible"
-                  data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
-                  data-title={media.audioBible.title}
-                  data-cover-art="/images/covers/default.png"
-                  data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
-                  data-start-ms={audioBibleStart || 0}
-                  data-has-lyrics={audioBibleHasTranscript ? 'true' : 'false'}
-                  type="button"
-                >
-                  <span class="material-symbols-rounded">play_arrow</span>
-                </button>
+                <div class="media-card-actions">
+                  <button
+                    class="media-play-btn"
+                    data-type="audiobible"
+                    data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
+                    data-title={media.audioBible.title}
+                    data-cover-art="/images/covers/default.png"
+                    data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
+                    data-start-ms={audioBibleStart || 0}
+                    data-has-lyrics={audioBibleHasTranscript ? 'true' : 'false'}
+                    type="button"
+                  >
+                    <span class="material-symbols-rounded">play_arrow</span>
+                  </button>
+                  <button
+                    class="media-share-btn"
+                    data-share={`#audiobible-${id}`}
+                    type="button"
+                    aria-label="Share"
+                    title="Share"
+                  >
+                    <span class="material-symbols-rounded">share</span>
+                  </button>
+                </div>
               </div>
             </div>
           )}
@@ -853,6 +864,14 @@ processedVerses.forEach((verse, idx) => {
   }
 
   /* Media play button (unified for all audio types) */
+  .media-card-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    margin-left: auto;
+    align-items: center;
+  }
+
   .media-play-btn {
     width: 48px;
     height: 48px;
@@ -864,8 +883,6 @@ processedVerses.forEach((verse, idx) => {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0.75rem;
-    margin-left: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: all 0.2s ease;
     flex-shrink: 0;
@@ -874,6 +891,35 @@ processedVerses.forEach((verse, idx) => {
   .media-play-btn:hover {
     transform: scale(1.08);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .media-share-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-beige);
+    color: var(--color-accent);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .media-share-btn:hover {
+    background: var(--color-sand);
+    transform: scale(1.05);
+  }
+
+  .media-share-btn .material-symbols-rounded {
+    font-size: 20px;
+  }
+
+  .media-share-btn.copied {
+    background: #4CAF50;
+    color: white;
   }
 
   .media-play-btn .material-symbols-rounded {
@@ -1069,4 +1115,37 @@ processedVerses.forEach((verse, idx) => {
 
   document.addEventListener('DOMContentLoaded', initMediaPlayButtons);
   document.addEventListener('astro:page-load', initMediaPlayButtons);
+
+  // Share button functionality
+  function initShareButtons() {
+    const shareButtons = document.querySelectorAll('.media-share-btn');
+
+    shareButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const shareHash = btn.getAttribute('data-share');
+        const fullUrl = window.location.origin + window.location.pathname + shareHash;
+
+        // Copy to clipboard
+        navigator.clipboard.writeText(fullUrl).then(() => {
+          // Show copied state
+          const icon = btn.querySelector('.material-symbols-rounded');
+          const originalText = icon.textContent;
+
+          btn.classList.add('copied');
+          icon.textContent = 'check';
+
+          // Reset after 2 seconds
+          setTimeout(() => {
+            btn.classList.remove('copied');
+            icon.textContent = originalText;
+          }, 2000);
+        }).catch(err => {
+          console.error('Failed to copy:', err);
+        });
+      });
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', initShareButtons);
+  document.addEventListener('astro:page-load', initShareButtons);
 </script>

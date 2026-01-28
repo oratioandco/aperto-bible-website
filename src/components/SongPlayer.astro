@@ -17,6 +17,7 @@ const { song, lang = 'en' } = Astro.props;
 
 // Generate unique IDs
 const playerId = `player-${Math.random().toString(36).substr(2, 9)}`;
+const shareId = `share-${playerId}`;
 const hasTranscript = !!song.transcriptPath;
 
 // Default cover art if not provided
@@ -24,9 +25,13 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 
 // Clean title - remove (Karaoke) suffix
 const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '');
+
+// Create share URL from song title
+const slug = cleanTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const shareUrl = `#${slug}`;
 ---
 
-<div class="song-player" data-player-id={playerId}>
+<div class="song-player" data-player-id={playerId} id={slug}>
   <!-- Song Card -->
   <div class="song-card">
     <div class="song-card-content">
@@ -42,20 +47,35 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
         {song.description && <span class="song-description">{song.description}</span>}
       </div>
 
-      <!-- Play Button -->
-      <button
-        class="play-button"
-        data-player-id={playerId}
-        data-cover-art={coverArt}
-        data-title={cleanTitle}
-        data-mp3={`/audio/songs/${song.mp3}`}
-        data-transcript={song.transcriptPath || ''}
-        data-has-lyrics={hasTranscript ? 'true' : 'false'}
-        type="button"
-        aria-label="Play"
-      >
-        <span class="material-symbols-rounded">play_arrow</span>
-      </button>
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <!-- Play Button -->
+        <button
+          class="play-button"
+          data-player-id={playerId}
+          data-cover-art={coverArt}
+          data-title={cleanTitle}
+          data-mp3={`/audio/songs/${song.mp3}`}
+          data-transcript={song.transcriptPath || ''}
+          data-has-lyrics={hasTranscript ? 'true' : 'false'}
+          type="button"
+          aria-label="Play"
+        >
+          <span class="material-symbols-rounded">play_arrow</span>
+        </button>
+
+        <!-- Share Button -->
+        <button
+          class="share-button"
+          data-share-url={shareUrl}
+          data-share-id={shareId}
+          type="button"
+          aria-label="Share"
+          title="Share"
+        >
+          <span class="material-symbols-rounded">share</span>
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -130,6 +150,12 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     display: block;
   }
 
+  .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
   .play-button {
     width: 56px;
     height: 56px;
@@ -153,6 +179,40 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
 
   .play-button .material-symbols-rounded {
     font-size: 32px;
+  }
+
+  .share-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--color-beige);
+    color: var(--color-accent);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+
+  .share-button:hover {
+    background: var(--color-sand);
+    transform: scale(1.05);
+  }
+
+  .share-button .material-symbols-rounded {
+    font-size: 24px;
+  }
+
+  .share-button.copied {
+    background: #4CAF50;
+    color: white;
+  }
+
+  .share-button.copied .material-symbols-rounded {
+    font-size: 20px;
   }
 
   /* Responsive */
@@ -188,10 +248,46 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     .play-button .material-symbols-rounded {
       font-size: 24px;
     }
+
+    .share-button {
+      width: 36px;
+      height: 36px;
+    }
+
+    .share-button .material-symbols-rounded {
+      font-size: 20px;
+    }
   }
 </style>
 
 <script>
+  // Share button functionality
+  document.addEventListener('click', (e) => {
+    const shareBtn = e.target.closest('.share-button');
+    if (!shareBtn) return;
+
+    const shareUrl = shareBtn.getAttribute('data-share-url');
+    const fullUrl = window.location.origin + window.location.pathname + shareUrl;
+
+    // Copy to clipboard
+    navigator.clipboard.writeText(fullUrl).then(() => {
+      // Show copied state
+      const icon = shareBtn.querySelector('.material-symbols-rounded');
+      const originalText = icon.textContent;
+
+      shareBtn.classList.add('copied');
+      icon.textContent = 'check';
+
+      // Reset after 2 seconds
+      setTimeout(() => {
+        shareBtn.classList.remove('copied');
+        icon.textContent = originalText;
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy:', err);
+    });
+  });
+
   // Play button click handler - dispatches to global mini-player
   document.addEventListener('click', (e) => {
     const trigger = e.target.closest('.play-button');
@@ -217,4 +313,12 @@ const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '')
     });
     window.dispatchEvent(event);
   });
+
+  // Handle anchor links on page load
+  if (window.location.hash) {
+    const element = document.querySelector(window.location.hash);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
 </script>
