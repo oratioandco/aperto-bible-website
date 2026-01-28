@@ -381,7 +381,7 @@ processedVerses.forEach((verse, idx) => {
           ))}
 
           {media.podcast && media.podcast.mp3 && (
-            <div class="media-card media-card-podcast">
+            <div class="media-card media-card-podcast" id={`podcast-${id}`}>
               <div class="media-card-inner">
                 <div class="media-card-header">
                   <div class="media-icon-wrapper media-icon-podcast">
@@ -392,23 +392,34 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.podcast.title}</span>
                   </div>
                 </div>
-                <button
-                  class="media-play-btn"
-                  data-type="podcast"
-                  data-mp3={`/audio/podcasts/${media.podcast.mp3}`}
-                  data-title={media.podcast.title}
-                  data-artist={title}
-                  data-cover-art="/images/covers/default.png"
-                  type="button"
-                >
-                  <span class="material-symbols-rounded">play_arrow</span>
-                </button>
+                <div class="media-card-actions">
+                  <button
+                    class="media-play-btn"
+                    data-type="podcast"
+                    data-mp3={`/audio/podcasts/${media.podcast.mp3}`}
+                    data-title={media.podcast.title}
+                    data-artist={title}
+                    data-cover-art="/images/covers/default.png"
+                    type="button"
+                  >
+                    <span class="material-symbols-rounded">play_arrow</span>
+                  </button>
+                  <button
+                    class="media-share-btn"
+                    data-share={`#podcast-${id}`}
+                    type="button"
+                    aria-label="Share"
+                    title="Share"
+                  >
+                    <span class="material-symbols-rounded">share</span>
+                  </button>
+                </div>
               </div>
             </div>
           )}
 
           {media.devotional && (
-            <div class="media-card media-card-devotional">
+            <div class="media-card media-card-devotional" id={`devotional-${id}`}>
               <div class="media-card-inner">
                 <div class="media-card-header">
                   <div class="media-icon-wrapper media-icon-devotional">
@@ -431,23 +442,34 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.devotional.title}</span>
                   </div>
                 </div>
-                <button
-                  class="media-play-btn"
-                  data-type="devotional"
-                  data-mp3={`/audio/devotionals/${media.devotional.mp3}`}
-                  data-title={media.devotional.title}
-                  data-artist={title}
-                  data-cover-art="/images/covers/morgen.png"
-                  type="button"
-                >
-                  <span class="material-symbols-rounded">play_arrow</span>
-                </button>
+                <div class="media-card-actions">
+                  <button
+                    class="media-play-btn"
+                    data-type="devotional"
+                    data-mp3={`/audio/devotionals/${media.devotional.mp3}`}
+                    data-title={media.devotional.title}
+                    data-artist={title}
+                    data-cover-art="/images/covers/morgen.png"
+                    type="button"
+                  >
+                    <span class="material-symbols-rounded">play_arrow</span>
+                  </button>
+                  <button
+                    class="media-share-btn"
+                    data-share={`#devotional-${id}`}
+                    type="button"
+                    aria-label="Share"
+                    title="Share"
+                  >
+                    <span class="material-symbols-rounded">share</span>
+                  </button>
+                </div>
               </div>
             </div>
           )}
 
           {media.spiritualPractice && (
-            <div class="media-card media-card-spiritual">
+            <div class="media-card media-card-spiritual" id={`spiritual-${id}`}>
               <div class="media-card-inner">
                 <div class="media-card-header">
                   <div class="media-icon-wrapper media-icon-spiritual">
@@ -470,17 +492,28 @@ processedVerses.forEach((verse, idx) => {
                     <span class="media-card-title">{media.spiritualPractice.title}</span>
                   </div>
                 </div>
-                <button
-                  class="media-play-btn"
-                  data-type="spiritual"
-                  data-mp3={`/audio/meditations/${media.spiritualPractice.mp3}`}
-                  data-title={media.spiritualPractice.title}
-                  data-artist={title}
-                  data-cover-art="/images/covers/default.png"
-                  type="button"
-                >
-                  <span class="material-symbols-rounded">play_arrow</span>
-                </button>
+                <div class="media-card-actions">
+                  <button
+                    class="media-play-btn"
+                    data-type="spiritual"
+                    data-mp3={`/audio/meditations/${media.spiritualPractice.mp3}`}
+                    data-title={media.spiritualPractice.title}
+                    data-artist={title}
+                    data-cover-art="/images/covers/default.png"
+                    type="button"
+                  >
+                    <span class="material-symbols-rounded">play_arrow</span>
+                  </button>
+                  <button
+                    class="media-share-btn"
+                    data-share={`#spiritual-${id}`}
+                    type="button"
+                    aria-label="Share"
+                    title="Share"
+                  >
+                    <span class="material-symbols-rounded">share</span>
+                  </button>
+                </div>
               </div>
             </div>
           )}
