@@ -427,19 +427,32 @@ processedVerses.forEach((verse, idx) => {
                   </div>
                   <div class="media-card-text">
                     <span class="media-card-label">{
-                      lang === 'da' ? 'Meditation' :
-                      lang === 'de' ? 'Meditation' :
-                      lang === 'es' ? 'Meditación' :
-                      lang === 'fr' ? 'Méditation' :
-                      lang === 'it' ? 'Meditazione' :
-                      lang === 'pl' ? 'Medytacja' :
-                      lang === 'pt' ? 'Meditação' :
-                      lang === 'sv' ? 'Meditation' :
-                      lang === 'tr' ? 'Meditasyon' :
-                      lang === 'uk' ? 'Медитація' :
-                      'Meditation'
-                    } {media.devotional.duration ? `· ${media.devotional.duration}` : ''}</span>
+                      lang === 'da' ? 'Morgensang' :
+                      lang === 'de' ? 'Morgenlied' :
+                      lang === 'es' ? 'Canción de la mañana' :
+                      lang === 'fr' ? 'Chant du matin' :
+                      lang === 'it' ? 'Canto del mattino' :
+                      lang === 'pl' ? 'Poranna pieśń' :
+                      lang === 'pt' ? 'Canção da manhã' :
+                      lang === 'sv' ? 'Morgonsång' :
+                      lang === 'tr' ? 'Sabah şarkısı' :
+                      lang === 'uk' ? 'Ранковий пісня' :
+                      'Morning Song'
+                    }</span>
                     <span class="media-card-title">{media.devotional.title}</span>
+                    <span class="media-card-description">{
+                      lang === 'da' ? 'Start din dag med en sang' :
+                      lang === 'de' ? 'Starten Sie Ihren Tag mit einem Lied' :
+                      lang === 'es' ? 'Empieza tu día con una canción' :
+                      lang === 'fr' ? 'Commencez votre journée avec une chanson' :
+                      lang === 'it' ? 'Inizia la tua giornata con una canzone' :
+                      lang === 'pl' ? 'Zacznij dzień od piosenki' :
+                      lang === 'pt' ? 'Comece seu dia com uma música' :
+                      lang === 'sv' ? 'Starta din dag med en sång' :
+                      lang === 'tr' ? 'Günüze bir şarkı ile başla' :
+                      lang === 'uk' ? 'Почніть свій день з піснею' :
+                      'Start your day with a song'
+                    }</span>
                   </div>
                 </div>
                 <div class="media-card-actions">
@@ -874,6 +887,14 @@ processedVerses.forEach((verse, idx) => {
     font-weight: 600;
     font-size: 0.875rem;
     color: var(--color-charcoal);
+    line-height: 1.3;
+  }
+
+  .media-card-description {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-top: 2px;
     line-height: 1.3;
   }
 
