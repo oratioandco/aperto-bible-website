@@ -363,6 +363,38 @@
     border-radius: 4px;
   }
 
+  /* Karaoke lyrics styles */
+  .karaoke-line {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+    padding: 0.5rem 0;
+    display: block;
+  }
+
+  .karaoke-line.active {
+    opacity: 1;
+  }
+
+  .karaoke-word {
+    transition: color 0.1s ease;
+  }
+
+  .karaoke-word.sung {
+    color: var(--color-accent, #8B7355);
+    font-weight: 500;
+  }
+
+  .gap-indicator {
+    color: var(--color-accent, #8B7355);
+    font-weight: 500;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+
   /* Controls */
   .mini-player-controls {
     padding: 1.5rem 2rem 2rem;
@@ -901,20 +933,58 @@
 
       // Word-level highlights
       const words = currentLine.querySelectorAll('.karaoke-word');
-      words.forEach(word => {
+      let currentWordIndex = -1;
+
+      words.forEach((word, index) => {
         const start = parseInt(word.getAttribute('data-start') || '0');
-        if (currentTime >= start) {
+        const end = parseInt(word.getAttribute('data-end') || '0');
+
+        // Highlight word if current time is within its range
+        if (currentTime >= start && currentTime <= end) {
           word.classList.add('sung');
-        } else {
+          currentWordIndex = index;
+        } else if (currentTime < start) {
+          // Future word - not sung yet
           word.classList.remove('sung');
+        } else {
+          // Past word - mark as sung
+          word.classList.add('sung');
         }
       });
+
+      // Show "..." if we're in a gap after the last word but before line end
+      if (words.length > 0) {
+        const lastWordEnd = parseInt(words[words.length - 1].getAttribute('data-end') || '0');
+        const lineEnd = parseInt(currentLine.getAttribute('data-end') || '0');
+        const gapDuration = lineEnd - lastWordEnd;
+
+        // If gap is longer than 2 seconds, show indicator
+        if (gapDuration > 2000 && currentTime > lastWordEnd && currentTime < lineEnd) {
+          // Check if gap indicator already exists
+          let gapIndicator = currentLine.querySelector('.gap-indicator');
+          if (!gapIndicator) {
+            gapIndicator = document.createElement('span');
+            gapIndicator.className = 'gap-indicator';
+            gapIndicator.textContent = '...';
+            currentLine.appendChild(gapIndicator);
+          }
+          gapIndicator.classList.add('sung');
+        } else {
+          // Remove gap indicator if not in gap
+          const gapIndicator = currentLine.querySelector('.gap-indicator');
+          if (gapIndicator) {
+            gapIndicator.remove();
+          }
+        }
+      }
     }
 
     // Reset highlights on non-active lines
     lines.forEach((line, index) => {
       if (index !== activeLineIndex) {
         line.querySelectorAll('.karaoke-word').forEach(word => word.classList.remove('sung'));
+        const gapIndicator = line.querySelector('.gap-indicator');
+        if (gapIndicator) gapIndicator.remove();
       }
     });
   }
