@@ -113,13 +113,94 @@ const categoryIcons: Record<string, string> = {
   unglaublich: 'help', hard: 'help'
 };
 
-// Category labels (for display)
+// Category labels (for display) - localized
+const categoryLabelsLocalized: Record<string, Record<string, string>> = {
+  da: {
+    text: 'Tekst',
+    kultur: 'Kultur', culture: 'Kultur',
+    leben: 'Liv', life: 'Liv',
+    kontext: 'Kontekst', context: 'Kontekst',
+    unglaublich: 'Svært', hard: 'Svært'
+  },
+  de: {
+    text: 'Text',
+    kultur: 'Kultur', culture: 'Kultur',
+    leben: 'Leben', life: 'Leben',
+    kontext: 'Kontext', context: 'Kontext',
+    unglaublich: 'Schwierig', hard: 'Schwierig'
+  },
+  en: {
+    text: 'Text',
+    kultur: 'Culture', culture: 'Culture',
+    leben: 'Life', life: 'Life',
+    kontext: 'Context', context: 'Context',
+    unglaublich: 'Difficult', hard: 'Difficult'
+  },
+  es: {
+    text: 'Texto',
+    kultur: 'Cultura', culture: 'Cultura',
+    leben: 'Vida', life: 'Vida',
+    kontext: 'Contexto', context: 'Contexto',
+    unglaublich: 'Difícil', hard: 'Difícil'
+  },
+  fr: {
+    text: 'Texte',
+    kultur: 'Culture', culture: 'Culture',
+    leben: 'Vie', life: 'Vie',
+    kontext: 'Contexte', context: 'Contexte',
+    unglaublich: 'Difficile', hard: 'Difficile'
+  },
+  it: {
+    text: 'Testo',
+    kultur: 'Cultura', culture: 'Cultura',
+    leben: 'Vita', life: 'Vita',
+    kontext: 'Contesto', context: 'Contesto',
+    unglaublich: 'Difficile', hard: 'Difficile'
+  },
+  pl: {
+    text: 'Tekst',
+    kultur: 'Kultura', culture: 'Kultura',
+    leben: 'Życie', life: 'Życie',
+    kontext: 'Kontekst', context: 'Kontekst',
+    unglaublich: 'Trudne', hard: 'Trudne'
+  },
+  pt: {
+    text: 'Texto',
+    kultur: 'Cultura', culture: 'Cultura',
+    leben: 'Vida', life: 'Vida',
+    kontext: 'Contexto', context: 'Contexto',
+    unglaublich: 'Difícil', hard: 'Difícil'
+  },
+  sv: {
+    text: 'Text',
+    kultur: 'Kultur', culture: 'Kultur',
+    leben: 'Liv', life: 'Liv',
+    kontext: 'Kontext', context: 'Kontext',
+    unglaublich: 'Svårt', hard: 'Svårt'
+  },
+  tr: {
+    text: 'Metin',
+    kultur: 'Kültür', culture: 'Kültür',
+    leben: 'Yaşam', life: 'Yaşam',
+    kontext: 'Bağlam', context: 'Bağlam',
+    unglaublich: 'Zor', hard: 'Zor'
+  },
+  uk: {
+    text: 'Текст',
+    kultur: 'Культура', culture: 'Культура',
+    leben: 'Життя', life: 'Життя',
+    kontext: 'Контекст', context: 'Контекст',
+    unglaublich: 'Складне', hard: 'Складне'
+  }
+};
+
+// Fallback to English labels
 const categoryLabels: Record<string, string> = {
   text: 'Text',
-  kultur: 'Kultur', culture: 'Culture',
-  leben: 'Leben', life: 'Life',
-  kontext: 'Kontext', context: 'Context',
-  unglaublich: 'Schwierig', hard: 'Difficult'
+  kultur: 'Culture', culture: 'Culture',
+  leben: 'Life', life: 'Life',
+  kontext: 'Context', context: 'Context',
+  unglaublich: 'Difficult', hard: 'Difficult'
 };
 
 // Process verse text to add inline footnote tooltips
@@ -145,7 +226,9 @@ function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html:
     if (match) {
       const originalKeyword = match[0];
       const category = fn.category.toLowerCase();
-      const categoryLabel = categoryLabels[category] || fn.category;
+      // Get localized label, fallback to English, then to category name
+      const localizedLabels = categoryLabelsLocalized[lang] || categoryLabelsLocalized['en'];
+      const categoryLabel = localizedLabels[category] || categoryLabels[category] || fn.category;
       const icon = categoryIcons[category] || 'info';
 
       // Escape HTML in content to prevent XSS
