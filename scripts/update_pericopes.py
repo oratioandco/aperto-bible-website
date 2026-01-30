@@ -9,6 +9,7 @@ from pathlib import Path
 
 # Pericope to verse mapping
 PERICOPE_VERSES = {
+    "zacharias-elisabeth": "05-25",
     "annunciation": "26-38",
     "magnificat": "46-56",
     "benedictus": "67-79"

@@ -25,6 +25,15 @@ LANGUAGE_NAMES = {
 
 # Pericope titles for mapping
 PERICOPE_TITLES = {
+    "05-25": {
+        "de": "Ein alter Priester",
+        "en": "An Old Priest",
+        "da": "En gammel præst",
+        "fr": "Un vieux prêtre",
+        "it": "Un vecchio sacerdote",
+        "pl": "Stary kapłan",
+        "pt": "Um velho sacerdote"
+    },
     "26-38": {
         "de": "Maria sagt ja",
         "en": "Mary Says Yes",
