@@ -23,9 +23,39 @@
     "copyright": "2025 Aperto Bible Project"
   },
   "home": {
-    "tagline": "A fresh translation that welcomes everyone to the conversation—whether you're deeply rooted in faith, exploring from the outside, or somewhere in between.",
     "alphaNotice": "Early Alpha",
     "alphaText": "This is an early alpha release. Currently only Luke Chapter 1 is available. We're building one chapter at a time, one book at a time.",
+    "hero": {
+      "headline": "Scripture that takes you seriously.",
+      "subhead": "A literary Bible translation for those who refuse to choose between intellectual honesty and living faith.",
+      "cta": "Start Reading"
+    },
+    "manifesto": {
+      "p1": "Somewhere along the way, we were told to choose: study the Bible critically and risk losing the sacred, or hold onto faith and stop asking hard questions.",
+      "p2": "We don't believe that's the only way.",
+      "p3": "Aperto is a literary translation—poetry as poetry, prose as prose—with ancient context woven directly into the text, clearly marked so you always know what was written and what it meant.",
+      "p4": "It's built on ecumenical scholarship from Catholic, Protestant, Orthodox, and Pentecostal traditions.",
+      "p5": "And it's designed for real encounter—through audio, music, and meditation shaped by how people actually read and grow today.",
+      "p6": "Rigorous.",
+      "p7": "Accessible.",
+      "p8": "Spiritually alive.",
+      "p9": "For the curious and the seeking. For those who left and those who stayed. For anyone ready to look again."
+    },
+    "features": {
+      "literary": "Literary Translation",
+      "literaryLabel": "Poetry as Poetry",
+      "multimedia": "Multimedia",
+      "multimediaLabel": "Audio & Music",
+      "languages": "11 Languages",
+      "languagesLabel": "And Growing",
+      "ecumenical": "Ecumenical",
+      "ecumenicalLabel": "Whole Church"
+    },
+    "cta": {
+      "title": "We're building this one chapter at a time.",
+      "description": "Start with Luke 1—the announcement of John the Baptist, Gabriel's visit to Mary, and two songs that changed the world."
+    },
+    "tagline": "A fresh translation that welcomes everyone to the conversation—whether you're deeply rooted in faith, exploring from the outside, or somewhere in between.",
     "readLuke": "Read Luke 1",
     "differentBible": "A Different Kind of Bible",
     "accessible": "Accessible",
@@ -39,39 +69,82 @@
   },
   "about": {
     "title": "About Aperto",
-    "whatIs": {
-      "title": "What is Aperto?",
-      "p1": "Aperto is an open-source Bible translation project written for modern readers—whether you're a lifelong believer wanting fresh eyes on familiar texts, or a sceptic curious what these ancient texts actually say.",
-      "p2": "The name comes from Latin 'apertus': open, accessible, unconcealed. It's inspired by Luke 24:32, where the disciples say their hearts burned within them as Jesus opened the Scriptures to them."
+    "falseChoice": {
+      "title": "The False Choice",
+      "p1": "For a long time, Christianity has felt like it's splitting into two camps.",
+      "p2": "One takes the text seriously—historically, critically, honestly. It asks hard questions about authorship, context, transmission. It refuses easy answers. But somewhere along the way, it often loses the expectation that Scripture might actually do something to you. Study becomes analysis. The text becomes an artifact.",
+      "p3": "The other promises encounter, transformation, a living word. It expects God to show up. But it sometimes asks you to stop asking questions—or at least to feel guilty about them. Certainty becomes the measure of faith. Curiosity feels like betrayal.",
+      "p4": "We think that's a false choice.",
+      "p5": "The scholars who first studied these texts were monks in prayer. The mystics who encountered God in them were rigorous readers. For most of Christian history, depth of study and depth of encounter weren't opposites—they were the same path.",
+      "p6": "Aperto exists to reunite them."
     },
-    "philosophy": {
-      "title": "Our Philosophy",
-      "believerSkeptic": "For Believers and Sceptics",
-      "believerSkepticDesc": "We write for both—people deeply rooted in faith seeking fresh perspective, and people exploring from the outside. Whether you've spent your whole life in church or never stepped inside one, you're welcome here.",
-      "ecumenical": "Ecumenical and Intersectional",
-      "ecumenicalDesc": "Our approach integrates Catholic, Orthodox, Protestant, and Pentecostal scholarship fairly—not flattened into one tradition. We also engage with feminist, liberationist, and historical-critical readings, aware of how translations have historically been used to both liberate and harm.",
-      "accessible": "Accessible Without Dumbing Down",
-      "accessibleDesc": "Contemporary language that reads like modern literature. No religious jargon, no insider vocabulary—just the text, alive and direct. Honest footnotes that make complexity accessible rather than hidden.",
-      "multimedia": "Multimedia First",
-      "multimediaDesc": "Audio Bible, podcasts, original songs, and contemplative practices. Meeting people where they are, not just where they ought to be.",
-      "openSource": "Radically Open",
-      "openSourceDesc": "CC BY-SA 4.0 licence. Everything—translation, exegesis, songs—is free to use, adapt, and build upon. Because Scripture belongs to everyone."
+    "building": {
+      "title": "What We're Building",
+      "literary": {
+        "title": "A literary translation",
+        "desc": "that honors the original forms—poetry as poetry, narrative as narrative, letter as letter. Scripture is literature before it's anything else, and we translate it that way."
+      },
+      "context": {
+        "title": "Context made visible",
+        "desc": "The first readers of these texts understood things we don't—cultural assumptions, geographic references, religious background, literary echoes. We weave that context directly into the text, clearly formatted so you always know what was written and what it meant. No more flipping to footnotes to understand why something matters."
+      },
+      "ecumenical": {
+        "title": "Ecumenical foundations",
+        "desc": "Our exegesis draws on Catholic, Protestant, Orthodox, and Pentecostal scholarship. Not to flatten differences, but because the text belongs to the whole Church, and every tradition sees something the others might miss."
+      },
+      "multimedia": {
+        "title": "Multimedia encounter",
+        "desc": "Audio Bible. Podcasts that unpack each passage. Original songs that capture the emotional weight of the text. Meditations and devotions. Scripture isn't just read—it's heard, sung, sat with, lived."
+      },
+      "design": {
+        "title": "Designed for how people actually engage",
+        "desc": "Informed by research on digital reading and spiritual formation, we build formats that work with attention, not against it—and that support genuine growth, not just information transfer."
+      },
+      "europe": {
+        "title": "Scripture for Europe",
+        "desc": "Available in 11 languages and growing—bringing resources to communities that have waited too long for translations that are both serious and alive."
+      },
+      "ai": {
+        "title": "Made possible by AI",
+        "desc": "Thoughtful workflows let us achieve depth and scale that would otherwise take generations. What once seemed impossible for smaller language communities is now within reach."
+      }
     },
-    "languages": {
-      "title": "Available Languages",
-      "intro": "Currently available in five languages, each culturally adapted for its context:"
+    "audience": {
+      "title": "Who This Is For",
+      "skeptic": "For the skeptic who still wonders.",
+      "believer": "For the believer who still thinks.",
+      "left": "For those who left the church but couldn't leave the questions.",
+      "stayed": "For those who stayed but feel the tension.",
+      "curious": "For the spiritually curious and the intellectually honest.",
+      "tired": "For anyone tired of choosing.",
+      "closing": "You don't have to have it figured out. You just have to be willing to look."
     },
-    "license": {
-      "title": "Licence",
-      "p1": "Aperto is released under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0). This means:",
-      "share": "You may share and redistribute the material in any format",
-      "adapt": "You may remix, transform, and build upon the material",
-      "attribution": "You must give appropriate credit",
-      "shareAlike": "You must distribute under the same licence if you remix or build upon"
+    "europe": {
+      "title": "A European Project",
+      "p1": "Christianity in Europe sits at a crossroads. Historic churches face decline. Evangelical communities remain small. Secular culture has often written off faith as intellectually untenable—and too many expressions of Christianity have confirmed that suspicion.",
+      "p2": "But there's also hunger. People searching for meaning, for depth, for something that can hold the weight of real life. People who might be open to the Christian story if someone offered it without asking them to stop thinking.",
+      "p3": "Aperto is built for that moment. A Bible that urban, educated, questioning Europeans can engage without embarrassment—and that might just change them.",
+      "p4": "We're starting with 11 languages. We won't stop there."
     },
-    "team": {
-      "title": "The Team",
-      "description": "Aperto is a community project based in Berlin. We're translators, musicians, designers, and developers committed to making Scripture accessible to everyone."
+    "name": {
+      "title": "The Name",
+      "accessible": "Open as in accessible",
+      "accessibleDesc": "no insider jargon, no barriers to entry",
+      "transparent": "Open as in transparent",
+      "transparentDesc": "you can see exactly what we've done and why",
+      "invitation": "Open as in invitation",
+      "invitationDesc": "come as you are, questions and all",
+      "source": "Open source",
+      "sourceDesc": "freely shared, built to be built upon"
+    },
+    "join": {
+      "title": "Join Us",
+      "p1": "We're building this one chapter at a time, one book at a time. Right now, you can read Luke 1—the announcement of John the Baptist, Gabriel's visit to Mary, and two songs that changed the world.",
+      "p2": "Come see what we're making. Bring your doubts. Bring your longing.",
+      "readLuke": "Read Luke 1",
+      "goDeeper": "Want to go deeper?",
+      "goDeeperDesc": "Learn how we translate, how our AI workflows function, and the scholarship behind every decision.",
+      "processLink": "Our Process →"
     }
   },
   "process": {
@@ -100,113 +173,16 @@
         "desc": "AI-assisted draft generation, filtered through our translation philosophy: accessible, literary, honest."
       },
       "step3": {
-        "title": "Footnotes",
-        "desc": "Cultural context, Greek word choices, scholarly debates, and honest acknowledgement of difficult passages."
+        "title": "Human Review",
+        "desc": "Translation teams review and refine, ensuring accuracy, literary quality, and faithfulness to the original text."
       },
       "step4": {
-        "title": "Multimedia Production",
-        "desc": "Audio Bible, discussion podcasts, original songs, and contemplative practices."
+        "title": "Community Feedback",
+        "desc": "Open for community input and discussion. Translation improves through conversation."
       },
       "step5": {
-        "title": "Human Review",
-        "desc": "Every translation passes through human review. AI generates drafts; humans refine, correct, and approve."
-      },
-      "step6": {
-        "title": "Community Feedback",
-        "desc": "Ongoing revision based on reader feedback and scholarly insights."
-      }
-    },
-    "principles": {
-      "title": "Guiding Principles",
-      "clarity": {
-        "title": "Clarity",
-        "desc": "Every sentence should be understandable without assuming religious background."
-      },
-      "faithfulness": {
-        "title": "Faithfulness",
-        "desc": "Preserving the meaning of the original whilst expressing it in natural, contemporary English."
-      },
-      "beauty": {
-        "title": "Beauty",
-        "desc": "Language worthy of being read—not just information, but literature."
-      },
-      "humility": {
-        "title": "Humility",
-        "desc": "Honest acknowledgement of uncertainty, different interpretations, and our own limitations."
-      }
-    },
-    "invitation": {
-      "title": "Get Involved",
-      "desc": "This is an open project. We welcome contributions—translation help, cultural consultation, audio production, or technical development.",
-      "cta": "Read Now"
-    }
-  },
-  "legal": {
-    "privacy": {
-      "title": "Privacy Policy",
-      "intro": "The Aperto Bible Project is committed to protecting your privacy. This policy explains how we handle your data.",
-      "dataCollection": {
-        "title": "Data Collection",
-        "text": "This website does not collect personal data. We do not use cookies for tracking, and we do not use analytics services that track individual users."
-      },
-      "hosting": {
-        "title": "Hosting",
-        "text": "This website is hosted on GitHub Pages. GitHub may collect technical information such as IP addresses for security and operational purposes. Please refer to GitHub's privacy policy for details."
-      },
-      "contact": {
-        "title": "Contact",
-        "text": "For privacy-related questions, please contact us at info@apertobible.com."
-      },
-      "rights": {
-        "title": "Your Rights",
-        "text": "Under GDPR, you have the right to access, rectify, or delete any personal data we may hold about you. Since we don't collect personal data, this is unlikely to apply, but we're happy to respond to any enquiries."
-      },
-      "lastUpdated": "Last updated: December 2024"
-    },
-    "accessibility": {
-      "title": "Accessibility Statement",
-      "intro": "The Aperto Bible Project is committed to making our content accessible to everyone, including people with disabilities.",
-      "standards": {
-        "title": "Accessibility Standards",
-        "text": "We aim to conform to WCAG 2.1 Level AA guidelines. Our website is designed with semantic HTML, keyboard navigation support, and appropriate colour contrast."
-      },
-      "features": {
-        "title": "Accessibility Features",
-        "list": [
-          "Semantic HTML structure for screen reader compatibility",
-          "Keyboard navigation support throughout the site",
-          "Sufficient colour contrast for readability",
-          "Responsive design that works across devices",
-          "Text alternatives for non-text content",
-          "Clear, readable typography"
-        ]
-      },
-      "feedback": {
-        "title": "Feedback",
-        "text": "We welcome feedback on accessibility. If you encounter barriers or have suggestions for improvement, please contact us at info@apertobible.com."
-      },
-      "ongoing": {
-        "title": "Ongoing Efforts",
-        "text": "Accessibility is an ongoing process. We continuously work to improve our site and address any issues that arise."
-      }
-    },
-    "imprint": {
-      "title": "Imprint",
-      "responsible": {
-        "title": "Responsible for Content",
-        "text": "Aperto Bible Project"
-      },
-      "contact": {
-        "title": "Contact",
-        "text": "Email: info@apertobible.com"
-      },
-      "disclaimer": {
-        "title": "Disclaimer",
-        "text": "The content of this website is provided for informational purposes. We make every effort to ensure accuracy but cannot guarantee that all information is complete or current. External links are provided for convenience; we are not responsible for the content of linked sites."
-      },
-      "license": {
-        "title": "Content Licence",
-        "text": "Unless otherwise noted, all content on this website is released under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)."
+        "title": "Multimedia Production",
+        "desc": "Audio Bible, podcasts, songs, and meditations that help the text come alive."
       }
     }
   }

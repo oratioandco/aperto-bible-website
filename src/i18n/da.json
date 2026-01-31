@@ -23,9 +23,39 @@
     "copyright": "2025 Aperto Bible Project"
   },
   "home": {
-    "tagline": "En frisk oversættelse, der byder alle velkommen til samtalen – uanset om du er dybt rodfæstet i troen, udforsker udefra, eller befinder dig et sted midt imellem.",
     "alphaNotice": "Tidlig Alpha",
     "alphaText": "Dette er en tidlig alpha-udgave. I øjeblikket er kun Lukasevangeliet kapitel 1 tilgængeligt. Vi bygger ét kapitel ad gangen, én bog ad gangen.",
+    "hero": {
+      "headline": "Skrifter, der tager dig alvorligt.",
+      "subhead": "En litterær bibeloversættelse for dem, der nægter at vælge mellem intellektuel ærlighed og levende tro.",
+      "cta": "Begynd at læse"
+    },
+    "manifesto": {
+      "p1": "På et tidspunkt blev vi fortalt, at vi skulle vælge: studerer Biblen kritisk og risiker at miste det hellige, eller hold fast ved troen og hold op med at stille svære spørgsmål.",
+      "p2": "Vi tror ikke, det er den eneste måde.",
+      "p3": "Aperto er en litterær oversættelse—poesi som poesi, prosa som prosa—med antik kontekst vævet direkte ind i teksten, tydeligt markeret så du altid ved, hvad der blev skrevet og hvad det betød.",
+      "p4": "Bygget på økumenisk forskning fra katolske, protestantiske, ortodokse og pinsekirkelige traditioner.",
+      "p5": "Og designet til virkeligt møde—gennem lyd, musik og meditation formet af hvordan mennesker faktisk læser og vokser i dag.",
+      "p6": "Rigourøs.",
+      "p7": "Tilgængelig.",
+      "p8": "Åndeligt levende.",
+      "p9": "For de nysgerrige og de søgende. For dem der rejste, og dem der blev. For alle, der er klar til at se igen."
+    },
+    "features": {
+      "literary": "Litterær Oversættelse",
+      "literaryLabel": "Poesi som Poesi",
+      "multimedia": "Multimedier",
+      "multimediaLabel": "Lyd og Musik",
+      "languages": "11 Sprog",
+      "languagesLabel": "Og Voksende",
+      "ecumenical": "Økumenisk",
+      "ecumenicalLabel": "Hele Kirken"
+    },
+    "cta": {
+      "title": "Vi bygger dette ét kapitel ad gangen.",
+      "description": "Begynd med Lukas 1—bekendelsen af Johannes Døberen, Gabriels besøg hos Maria, og to sange der ændrede verden."
+    },
+    "tagline": "En frisk oversættelse, der byder alle velkommen til samtalen – uanset om du er dybt rodfæstet i troen, udforsker udefra, eller befinder dig et sted midt imellem.",
     "readLuke": "Læs Lukas 1",
     "differentBible": "En anderledes slags bibel",
     "accessible": "Tilgængelig",
@@ -35,7 +65,7 @@
     "openSource": "Open Source",
     "openSourceDesc": "CC BY-SA 4.0-licens. Fri til at dele, tilpasse og bygge videre på. Tilgængelig på flere sprog.",
     "startReading": "Begynd at læse",
-    "startReadingDesc": "Vi begynder med Lukasevangeliet kapitel 1: budskabet om Johannes Døber, englen Gabriels besøg hos Maria, og to revolutionære sange, der stadig genlyder i dag."
+    "startReadingDesc": "Vi begynder med Lukasevangeliet kapitel 1: budskabet om Johannes Døberen, englen Gabriels besøg hos Maria, og to revolutionære sange, der stadig genlyder i dag."
   },
   "about": {
     "title": "Om Aperto",

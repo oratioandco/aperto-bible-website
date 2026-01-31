@@ -23,9 +23,39 @@
     "copyright": "2025 Aperto Bible Project"
   },
   "home": {
-    "tagline": "Una traduzione fresca che invita tutti alla conversazione, che tu sia profondamente radicato nella fede, stia esplorando dall'esterno, o ti trovi da qualche parte nel mezzo.",
     "alphaNotice": "Alpha iniziale",
     "alphaText": "Questa è una versione alpha iniziale. Attualmente è disponibile solo Luca Capitolo 1. Stiamo costruendo un capitolo alla volta, un libro alla volta.",
+    "hero": {
+      "headline": "Scritture che ti prendono sul serio.",
+      "subhead": "Una traduzione biblica letteraria per coloro che rifiutano di scegliere tra onestà intellettuale e fede vissuta.",
+      "cta": "Inizia a leggere"
+    },
+    "manifesto": {
+      "p1": "In qualche momento, ci è stato detto di scegliere: studiare la Bibbia criticamente e rischiare di perdere il sacro, o tenere alla fede e smettere di porci domande difficili.",
+      "p2": "Non crediamo che sia l'unico modo.",
+      "p3": "Aperto è una traduzione letteraria—poesia come poesia, prosa come prosa—con contesto antico intessuto direttamente nel testo, chiaramente segnato in modo da sapere sempre cosa è stato scritto e cosa significava.",
+      "p4": "Costruita sulla scholarship ecumenica delle tradizioni cattolica, protestante, ortodossa e pentecostale.",
+      "p5": "E progettata per un incontro reale—attraverso audio, musica e meditazione modellata su come le persone leggono e crescono davvero oggi.",
+      "p6": "Rigogliosa.",
+      "p7": "Accessibile.",
+      "p8": "Spiritualmente viva.",
+      "p9": "Per i curiosi e i cercatori. Per chi se n'è andato e per chi è rimasto. Per chiunque sia pronto a guardare di nuovo."
+    },
+    "features": {
+      "literary": "Traduzione Letteraria",
+      "literaryLabel": "Poesia come Poesia",
+      "multimedia": "Multimedia",
+      "multimediaLabel": "Audio e Musica",
+      "languages": "11 Lingue",
+      "languagesLabel": "E in crescita",
+      "ecumenical": "Ecumenico",
+      "ecumenicalLabel": "Tutta la Chiesa"
+    },
+    "cta": {
+      "title": "Stiamo costruendo questo progetto un capitolo alla volta.",
+      "description": "Inizia con Luca 1—l'annuncio di Giovanni Battista, la visita di Gabriele a Maria, e due canzoni che hanno cambiato il mondo."
+    },
+    "tagline": "Una traduzione fresca che invita tutti alla conversazione, che tu sia profondamente radicato nella fede, stia esplorando dall'esterno, o ti trovi da qualche parte nel mezzo.",
     "readLuke": "Leggi Luca 1",
     "differentBible": "Una Bibbia diversa",
     "accessible": "Accessibile",
@@ -38,40 +68,83 @@
     "startReadingDesc": "Iniziamo con Luca Capitolo 1: l'annuncio di Giovanni Battista, la visita dell'angelo Gabriele a Maria, e due canzoni rivoluzionarie che risuonano ancora oggi."
   },
   "about": {
-    "title": "Chi è Aperto",
-    "whatIs": {
-      "title": "Cos'è Aperto?",
-      "p1": "Aperto è un progetto di traduzione biblica open source scritto per lettori moderni, che tu sia un credente di lunga data che cerca nuovi occhi su testi familiari, o uno scettico curioso di sapere cosa dicono realmente questi testi antichi.",
-      "p2": "Il nome viene dal latino 'apertus': aperto, accessibile, senza veli. È ispirato a Luca 24:32, dove i discepoli dicono che i loro cuori ardevano dentro di loro mentre Gesù apriva loro le Scritture."
+    "title": "Informazioni su Aperto",
+    "falseChoice": {
+      "title": "La Falsa Scelta",
+      "p1": "Per molto tempo, il cristianesimo sembrava dividersi in due campi.",
+      "p2": "Uno prende il testo sul serio—storicamente, criticamente, onestamente. Fa domande difficili su paternità, contesto, trasmissione. Rifiuta risposte facili. Ma da qualche parte lungo la strada, perde spesso l'aspettativa che la Scrittura possa realmente fare qualcosa a te. Lo studio diventa analisi. Il testo diventa un artefatto.",
+      "p3": "L'altro promette incontro, trasformazione, una parola vivente. Si aspetta che Dio si presenti. Ma a volte ti chiede di smettere di fare domande—o almeno di sentirti in colpa per farle. La certezza diventa la misura della fede. La curiosità sembra un tradimento.",
+      "p4": "Pensiamo che sia una falsa scelta.",
+      "p5": "Gli studiosi che per primi studiarono questi testi erano monaci in preghiera. I mistici che incontrarono Dio in essi erano lettori rigorosi. Per la maggior parte della storia cristiana, profondità di studio e profondità di incontro non erano opposti—erano lo stesso cammino.",
+      "p6": "Aperto esiste per riunirli."
     },
-    "philosophy": {
-      "title": "La nostra filosofia",
-      "believerSkeptic": "Per credenti e scettici",
-      "believerSkepticDesc": "Scriviamo per entrambi: persone profondamente radicate nella fede che cercano una nuova prospettiva, e persone che esplorano dall'esterno. Che tu abbia passato tutta la tua vita in chiesa o non ci sia mai entrato, sei il benvenuto qui.",
-      "ecumenical": "Ecumenico e intersezionale",
-      "ecumenicalDesc": "Il nostro approccio integra equamente la ricerca cattolica, ortodossa, protestante e pentecostale, senza appiattirla in una sola tradizione. Ci impegniamo anche con letture femministe, liberazioniste e storico-critiche, consapevoli di come le traduzioni siano state storicamente usate sia per liberare che per danneggiare.",
-      "accessible": "Accessibile senza banalizzare",
-      "accessibleDesc": "Linguaggio contemporaneo che si legge come letteratura moderna. Nessun gergo religioso, nessun vocabolario da iniziati, solo il testo, vivo e diretto. Note a piè di pagina oneste che rendono la complessità accessibile invece che nascosta.",
-      "multimedia": "Multimedia prima di tutto",
-      "multimediaDesc": "Audio Bibbia, podcast, canzoni originali e pratiche contemplative. Incontriamo le persone dove sono, non solo dove dovrebbero essere.",
-      "openSource": "Radicalmente aperto",
-      "openSourceDesc": "Licenza CC BY-SA 4.0. Tutto, traduzione, esegesi, canzoni, è libero di usare, adattare e costruire. Perché la Scrittura appartiene a tutti."
+    "building": {
+      "title": "Cosa stiamo costruendo",
+      "literary": {
+        "title": "Una traduzione letteraria",
+        "desc": "che onora le forme originali—poesia come poesia, narrazione come narrazione, lettera come lettera. La Scrittura è letteratura prima di essere qualsiasi altra cosa, e la traduciamo in questo modo."
+      },
+      "context": {
+        "title": "Contesto reso visibile",
+        "desc": "I primi lettori di questi testi capivano cose che noi non conosciamo—assunzioni culturali, riferimenti geografici, background religioso, echi letterari. Intessiamo quel contesto direttamente nel testo, chiaramente formattato in modo da sapere sempre cosa è stato scritto e cosa significava. Niente più saltare alle note a piè di pagina per capire perché qualcosa importa."
+      },
+      "ecumenical": {
+        "title": "Fondamenti ecumenici",
+        "desc": "La nostra esegesi attinge alla scholarship cattolica, protestante, ortodossa e pentecostale. Non per appiattire le differenze, ma perché il testo appartiene a tutta la Chiesa, e ogni tradizione vede qualcosa che le altre potrebbero perdere."
+      },
+      "multimedia": {
+        "title": "Incontro multimediale",
+        "desc": "Audio Bibbia. Podcast che analizzano ogni passaggio. Canzoni originali che catturano il peso emotivo del testo. Meditazioni e devozioni. La Scrittura non è solo letta—è ascoltata, cantata, vissuta, abitata."
+      },
+      "design": {
+        "title": "Progettato per come le persone si impegnano davvero",
+        "desc": "Informato dalla ricerca sulla lettura digitale e sulla formazione spirituale, costruiamo formati che lavorano con l'attenzione, non contro—e che supportano una crescita genuina, non solo il trasferimento di informazioni."
+      },
+      "europe": {
+        "title": "Scrittura per l'Europa",
+        "desc": "Disponibile in 11 lingue e in crescita—portando risorse alle comunità che hanno aspettato troppo a lungo traduzioni che siano sia serie che vive."
+      },
+      "ai": {
+        "title": "Reso possibile dall'AI",
+        "desc": "Flussi di lavoro ponderati ci permettono di raggiungere profondità e scala che altrimenti richiederebbero generazioni. Quello che una volta sembrava impossibile per le comunità linguistiche più piccole è ora a portata di mano."
+      }
     },
-    "languages": {
-      "title": "Lingue disponibili",
-      "intro": "Attualmente disponibile in cinque lingue, ciascuna adattata culturalmente al suo contesto:"
+    "audience": {
+      "title": "Per chi è",
+      "skeptic": "Per lo scettico che si chiede ancora.",
+      "believer": "Per il credente che pensa ancora.",
+      "left": "Per chi se n'è andato dalla chiesa ma non poteva lasciare le domande.",
+      "stayed": "Per chi è rimasto ma sente la tensione.",
+      "curious": "Per i curiosi spiritualmente e gli onesti intellettualmente.",
+      "tired": "Per chiunque stanco di scegliere.",
+      "closing": "Non devi aver capito tutto. Devi solo essere disposto a guardare."
     },
-    "license": {
-      "title": "Licenza",
-      "p1": "Aperto è rilasciato sotto la licenza Creative Commons Attribuzione-Condividi allo stesso modo 4.0 Internazionale (CC BY-SA 4.0). Questo significa:",
-      "share": "Puoi condividere e ridistribuire il materiale in qualsiasi formato",
-      "adapt": "Puoi remixare, trasformare e costruire sul materiale",
-      "attribution": "Devi dare credito appropriato",
-      "shareAlike": "Devi distribuire sotto la stessa licenza se remixi o costruisci"
+    "europe": {
+      "title": "Un Progetto Europeo",
+      "p1": "Il cristianesimo in Europa si trova a un bivio. Le chiese storiche affrontano il declino. Le comunità evangeliche rimangono piccole. La cultura secolare ha spesso liquidato la fede come intellettualmente insostenibile—e troppe espressioni del cristianesimo hanno confermato quel sospetto.",
+      "p2": "Ma c'è anche fame. Persone in cerca di significato, profondità, qualcosa che possa reggere il peso della vita reale. Persone che potrebbero essere aperte alla storia cristiana se qualcuno la offrisse senza chiedere loro di smettere di pensare.",
+      "p3": "Aperto è costruito per quel momento. Una Bibbia che gli europei urbani, educati, che si pongono domande possono impegnare senza imbarazzo—e che potrebbe proprio cambiarli.",
+      "p4": "Iniziamo con 11 lingue. Non ci fermeremo qui."
     },
-    "team": {
-      "title": "Il team",
-      "description": "Aperto è un progetto comunitario con sede a Berlino. Siamo traduttori, musicisti, designer e sviluppatori impegnati a rendere la Scrittura accessibile a tutti."
+    "name": {
+      "title": "Il Nome",
+      "accessible": "Aperto come accessibile",
+      "accessibleDesc": "nessun gergo da insider, nessuna barra all'ingresso",
+      "transparent": "Aperto come trasparente",
+      "transparentDesc": "puoi vedere esattamente cosa abbiamo fatto e perché",
+      "invitation": "Aperto come invito",
+      "invitationDesc": "vieni come sei, con tutte le tue domande",
+      "source": "Open source",
+      "sourceDesc": "liberamente condiviso, costruito per essere costruito sopra"
+    },
+    "join": {
+      "title": "Unisciti a noi",
+      "p1": "Stiamo costruendo questo progetto un capitolo alla volta, un libro alla volta. In questo momento, puoi leggere Luca 1—l'annuncio di Giovanni Battista, la visita di Gabriele a Maria, e due canzoni che hanno cambiato il mondo.",
+      "p2": "Vieni a vedere cosa stiamo creando. Porta i tuoi dubbi. Porta il tuo desiderio.",
+      "readLuke": "Leggi Luca 1",
+      "goDeeper": "Vuoi andare più a fondo?",
+      "goDeeperDesc": "Scopri come traduciamo, come funzionano i nostri flussi di lavoro AI, e la scholarship dietro ogni decisione.",
+      "processLink": "Il Nostro Processo →"
     }
   },
   "process": {

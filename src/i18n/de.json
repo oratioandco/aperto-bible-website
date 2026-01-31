@@ -15,198 +15,174 @@
     "contact": "Kontakt",
     "contactEmail": "info@apertobible.com",
     "legal": "Rechtliches",
-    "privacy": "Datenschutz",
+    "privacy": "Datenschutzerklärung",
     "accessibility": "Barrierefreiheit",
     "imprint": "Impressum",
     "licence": "Lizenz",
-    "licenseText": "CC BY-SA 4.0 – Frei zu teilen und anzupassen mit Namensnennung.",
-    "copyright": "2025 Aperto Bibel-Projekt"
+    "licenseText": "CC BY-SA 4.0 – Frei zu teilen und anzupassen unter Namensnennung.",
+    "copyright": "2025 Aperto Bible Project"
   },
   "home": {
-    "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt – ob du tief im Glauben verwurzelt bist, von außen erkundest oder irgendwo dazwischen stehst.",
-    "alphaNotice": "Frühe Alpha-Version",
-    "alphaText": "Dies ist eine frühe Alpha-Version. Derzeit ist nur Lukas Kapitel 1 verfügbar. Wir bauen Kapitel für Kapitel, Buch für Buch.",
+    "alphaNotice": "Frühe Alpha",
+    "alphaText": "Dies ist eine frühe Alpha-Version. Derzeit ist nur das 1. Kapitel des Lukasevangeliums verfügbar. Wir bauen Kapitel für Kapitel, Buch für Buch auf.",
+    "hero": {
+      "headline": "Schrift, die Sie ernst nimmt.",
+      "subhead": "Eine literarische Bibelübersetzung für alle, die nicht zwischen intellektueller Redlichkeit und lebendigem Glauben wählen wollen.",
+      "cta": "Jetzt lesen"
+    },
+    "manifesto": {
+      "p1": "Irgendwann auf dem Weg wurden wir vor die Wahl gestellt: Die Bibel kritisch studieren und das Heilige riskieren, oder am Glauben festhalten und aufhören, schwierige Fragen zu stellen.",
+      "p2": "Wir glauben nicht, dass das der einzige Weg ist.",
+      "p3": "Aperto ist eine literarische Übersetzung – Poesie als Poesie, Prosa als Prosa – mit antikem Kontext, der direkt in den Text eingewoben ist, klar markiert, damit Sie immer wissen, was geschrieben wurde und was es bedeutet.",
+      "p4": "Sie basiert auf ökumenischer Theologie aus katholischer, protestantischer, orthodoxer und pfingstlicher Tradition.",
+      "p5": "Und sie ist designed für echte Begegnung – durch Audio, Musik und Meditation, geformt von dem, wie Menschen heute tatsächlich lesen und wachsen.",
+      "p6": "Gründlich.",
+      "p7": "Zugänglich.",
+      "p8": "Geistlich lebendig.",
+      "p9": "Für die Neugierigen und Suchenden. Für die, die gegangen sind, und die, die geblieben sind. Für jeden, der bereit ist, erneut hinzusehen."
+    },
+    "features": {
+      "literary": "Literarische Übersetzung",
+      "literaryLabel": "Poesie als Poesie",
+      "multimedia": "Multimedia",
+      "multimediaLabel": "Audio & Musik",
+      "languages": "11 Sprachen",
+      "languagesLabel": "Und wachsend",
+      "ecumenical": "Ökumenisch",
+      "ecumenicalLabel": "Die ganze Kirche"
+    },
+    "cta": {
+      "title": "Wir bauen dies Kapitel für Kapitel auf.",
+      "description": "Beginnen Sie mit Lukas 1 – die Ankündigung von Johannes dem Täufer, Gabriels Besuch bei Maria und zwei Lieder, die die Welt verändert haben."
+    },
+    "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt – ob Sie tief im Glauben verwurzelt sind, von außen erkunden oder irgendwo dazwischen.",
     "readLuke": "Lukas 1 lesen",
-    "differentBible": "Eine andere Art von Bibel",
+    "differentBible": "Eine andere Art Bibel",
     "accessible": "Zugänglich",
-    "accessibleDesc": "Zeitgenössische Sprache, die sich wie moderne Literatur liest. Kein Jargon, kein Insider-Vokabular – nur der Text, lebendig und direkt.",
+    "accessibleDesc": "Zeitgemäße Sprache, die sich wie moderne Literatur liest. Kein Jargon, keine Insider-Vokabular – einfach der Text, lebendig und direkt.",
     "multimedia": "Multimedia",
-    "multimediaDesc": "Hörbibel, Podcasts, originale Lieder und spirituelle Praktiken. Erlebe den Text auf die Weise, die dich anspricht.",
+    "multimediaDesc": "Audio-Bibel, Podcasts, originale Songs und geistliche Übungen. Erleben Sie den Text auf die Weise, die Sie anspricht.",
     "openSource": "Open Source",
-    "openSourceDesc": "CC BY-SA 4.0 Lizenz. Frei zu teilen, anzupassen und weiterzuentwickeln. In mehreren Sprachen verfügbar.",
+    "openSourceDesc": "CC BY-SA 4.0 Lizenz. Frei zu teilen, anzupassen und weiterzuentwickeln. Verfügbar in mehreren Sprachen.",
     "startReading": "Jetzt lesen",
-    "startReadingDesc": "Wir beginnen mit Lukas Kapitel 1: die Ankündigung von Johannes dem Täufer, der Engel Gabriel besucht Maria, und zwei revolutionäre Lieder, die noch heute nachhallen."
+    "startReadingDesc": "Wir beginnen mit dem 1. Kapitel des Lukasevangeliums: die Ankündigung von Johannes dem Täufer, der Engel Gabriel besucht Maria, und zwei revolutionäre Lieder, die heute noch nachhallen."
   },
   "about": {
     "title": "Über Aperto",
-    "whatIs": {
-      "title": "Was ist Aperto?",
-      "p1": "Aperto ist ein Open-Source-Bibelübersetzungsprojekt, das für moderne Leser geschrieben wurde – ob du ein lebenslanger Gläubiger bist, der vertrauten Texten mit frischen Augen begegnen möchte, oder ein Skeptiker, der neugierig ist, was diese alten Texte wirklich sagen.",
-      "p2": "Der Name kommt vom lateinischen 'apertus': offen, zugänglich, unverhüllt. Er ist inspiriert von Lukas 24,32, wo die Jünger sagen, dass ihre Herzen brannten, als Jesus ihnen die Schriften öffnete."
+    "falseChoice": {
+      "title": "Die falsche Wahl",
+      "p1": "Schon seit langer Zeit wirkt es, als ob sich das Christentum in zwei Lager spaltet.",
+      "p2": "Das eine nimmt den Text ernst – historisch, kritisch, ehrlich. Es stellt schwierige Fragen über Autorenschaft, Kontext, Überlieferung. Es verweigert einfache Antworten. Aber irgendwann auf dem Weg geht oft die Erwartung verloren, dass die Schrift etwas mit Ihnen tun könnte. Studium wird zu Analyse. Der Text wird zu einem Artefakt.",
+      "p3": "Das andere verspricht Begegnung, Transformation, ein lebendiges Wort. Es erwartet, dass Gott auftritt. Aber manchmal bittet es Sie, aufzuhören, Fragen zu stellen – oder sich zumindest dafür zu schämen. Gewissheit wird zum Maßstab des Glaubens. Neugier fühlt sich wie Verrat.",
+      "p4": "Wir denken, das ist eine falsche Wahl.",
+      "p5": "Die Gelehrten, die diese Texte zuerst studierten, waren Mönche im Gebet. Die Mystiker, die in ihnen Gott begegneten, waren gründliche Leser. Für den größten Teil der christlichen Geschichte waren Studientiefe und Begegnungstiefe keine Gegensätze – sie waren derselbe Weg.",
+      "p6": "Aperto existiert, um sie wieder zu vereinen."
     },
-    "philosophy": {
-      "title": "Unsere Philosophie",
-      "believerSkeptic": "Für Gläubige und Skeptiker",
-      "believerSkepticDesc": "Wir schreiben für beide – Menschen tief im Glauben verwurzelt, die eine frische Perspektive suchen, und Menschen, die von außen erkunden. Ob du dein ganzes Leben in der Kirche verbracht hast oder noch nie eine betreten hast, du bist hier willkommen.",
-      "ecumenical": "Ökumenisch und intersektional",
-      "ecumenicalDesc": "Unser Ansatz integriert katholische, orthodoxe, protestantische und pfingstlerische Wissenschaft fair – nicht auf eine Tradition reduziert. Wir arbeiten auch mit feministischen, befreiungstheologischen und historisch-kritischen Lesarten, bewusst darüber, wie Übersetzungen historisch sowohl befreiend als auch verletzend eingesetzt wurden.",
-      "accessible": "Zugänglich ohne Vereinfachung",
-      "accessibleDesc": "Zeitgenössische Sprache, die sich wie moderne Literatur liest. Kein religiöser Jargon, kein Insider-Vokabular – nur der Text, lebendig und direkt. Ehrliche Fußnoten, die Komplexität zugänglich statt verborgen machen.",
-      "multimedia": "Multimedia zuerst",
-      "multimediaDesc": "Hörbibel, Podcasts, originale Lieder und kontemplative Praktiken. Begegnung mit den Menschen dort, wo sie sind, nicht nur dort, wo sie sein sollten.",
-      "openSource": "Radikal offen",
-      "openSourceDesc": "CC BY-SA 4.0 Lizenz. Alles – Übersetzung, Exegese, Lieder – kann frei genutzt, angepasst und weiterentwickelt werden. Weil die Schrift allen gehört."
+    "building": {
+      "title": "Was wir bauen",
+      "literary": {
+        "title": "Eine literarische Übersetzung",
+        "desc": "die die ursprünglichen Formen ehrt – Poesie als Poesie, Erzählung als Erzählung, Brief als Brief. Schrift ist zuerst einmal Literatur, und wir übersetzen sie so."
+      },
+      "context": {
+        "title": "Sichtbarer Kontext",
+        "desc": "Die ersten Leser dieser Texte verstanden Dinge, die wir nicht tun – kulturelle Annahmen, geografische Verweise, religiösen Hintergrund, literarische Echoes. Wir weben diesen Kontext direkt in den Text, klar formatiert, damit Sie immer wissen, was geschrieben wurde und was es bedeutete. Kein Hin- und Herblättern in Fußnoten, um zu verstehen, warum etwas wichtig ist."
+      },
+      "ecumenical": {
+        "title": "Ökumenische Grundlagen",
+        "desc": "Unsere Exegese schöpft aus katholischer, protestantischer, orthodoxer und pfingstlicher Theologie. Nicht um Unterschiede einzuebnen, sondern weil der Text der ganzen Kirche gehört und jede Tradition etwas sieht, was die anderen verpassen könnten."
+      },
+      "multimedia": {
+        "title": "Multimedia-Erlebnis",
+        "desc": "Audio-Bibel. Podcasts, die jede Passage erschließen. Originale Songs, die das emotionale Gewicht des Textes einfangen. Meditationen Andachten. Schrift wird nicht nur gelesen – sie wird gehört, gesungen, meditiert, gelebt."
+      },
+      "design": {
+        "title": "Designed für echte Begegnung",
+        "desc": "Inspiriert von Forschung über digitales Lesen und geistliche Formung, bauen wir Formate, die mit Aufmerksamkeit arbeiten, nicht gegen sie – und echtes Wachstum unterstützen, nicht nur Informationsweitergabe."
+      },
+      "europe": {
+        "title": "Schrift für Europa",
+        "desc": "Verfügbar in 11 Sprachen und wachsend – bringt Ressourcen in Gemeinden, die zu lange auf Übersetzungen gewartet haben, die sowohl ernst als auch lebendig sind."
+      },
+      "ai": {
+        "title": "Möglich durch KI",
+        "desc": "Durchdachte Workflows ermöglichen Tiefe und Maßstab, die sonst Generationen dauern würden. Was einst unmöglich schien für kleinere Sprachgemeinschaften, ist jetzt in Reichweite."
+      }
     },
-    "languages": {
-      "title": "Verfügbare Sprachen",
-      "intro": "Derzeit verfügbar in fünf Sprachen, jede kulturell für ihren Kontext angepasst:"
+    "audience": {
+      "title": "Für wen ist das",
+      "skeptic": "Für den Skeptiker, der sich noch wundert.",
+      "believer": "Für den Gläubigen, der noch nachdenkt.",
+      "left": "Für die, die die Kirche verlassen haben, aber die Fragen nicht loslassen konnten.",
+      "stayed": "Für die, die geblieben sind, aber die Spannung spüren.",
+      "curious": "Für die spirituell Neugierigen und intellektuell Ehrlichen.",
+      "tired": "Für jeden, der die Wahl müde ist.",
+      "closing": "Sie müssen nicht alles verstanden haben. Sie müssen nur bereit sein, hinzusehen."
     },
-    "license": {
-      "title": "Lizenz",
-      "p1": "Aperto wird unter der Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 4.0 International Lizenz (CC BY-SA 4.0) veröffentlicht. Das bedeutet:",
-      "share": "Du darfst das Material in jedem Format teilen und weitergeben",
-      "adapt": "Du darfst das Material remixen, verändern und darauf aufbauen",
-      "attribution": "Du musst angemessene Namensnennung angeben",
-      "shareAlike": "Du musst unter der gleichen Lizenz verbreiten, wenn du remixst oder darauf aufbaust"
+    "europe": {
+      "title": "Ein europäisches Projekt",
+      "p1": "Das Christentum in Europa steht an einem Scheideweg. Historische Kirchen sehen Rückgang zug. Evangelikale Gemeinden bleiben klein. Die säkulare Kultur hat den Glauben oft als intellektuell unhaltbar abgeschrieben – und zu viele Ausdrücke des Christentums haben diesen Verdacht bestätigt.",
+      "p2": "Aber es gibt auch Hunger. Menschen auf der Suche nach Bedeutung, nach Tiefe, nach etwas, das das Gewicht des echten Lebens tragen kann. Menschen, die sich der christlichen Geschichte öffnen könnten, wenn sie ihnen jemand sie anböte, ohne sie aufzuhören, nachzudenken.",
+      "p3": "Aperto ist für diesen Moment gebaut. Eine Bibel, die urbane, gebildete, fragende Europäer ohne Peinlichkeit engagieren können – und sie vielleicht verändern kann.",
+      "p4": "Wir beginnen mit 11 Sprachen. Wir werden dort nicht aufhören."
     },
-    "team": {
-      "title": "Das Team",
-      "description": "Aperto ist ein Community-Projekt mit Sitz in Berlin. Wir sind Übersetzer, Musiker, Designer und Entwickler, die sich der Idee verschrieben haben, die Schrift für alle zugänglich zu machen."
+    "name": {
+      "title": "Der Name",
+      "accessible": "Offen wie zugänglich",
+      "accessibleDesc": "kein Insider-Jargon, keine Barrieren für den Einstieg",
+      "transparent": "Offen wie transparent",
+      "transparentDesc": "Sie können genau sehen, was wir getan haben und warum",
+      "invitation": "Offen wie Einladung",
+      "invitationDesc": "kommen Sie, wie Sie sind, Fragen und alle",
+      "source": "Open Source",
+      "sourceDesc": "frei geteilt, gebaut um weitergebaut zu werden"
+    },
+    "join": {
+      "title": "Machen Sie mit",
+      "p1": "Wir bauen dies Kapitel für Kapitel, Buch für Buch auf. Im Moment können Sie Lukas 1 lesen – die Ankündigung von Johannes dem Täufer, Gabriels Besuch bei Maria und zwei Lieder, die die Welt verändert haben.",
+      "p2": "Kommen Sie und sehen Sie, was wir bauen. Bringen Sie Ihre Zweifel. Bringen Sie Ihre Sehnsucht.",
+      "readLuke": "Lukas 1 lesen",
+      "goDeeper": "Wollen Sie tiefer gehen?",
+      "goDeeperDesc": "Erfahren Sie, wie wir übersetzen, wie unsere KI-Workflows funktionieren und die Theologie hinter jeder Entscheidung.",
+      "processLink": "Unser Prozess →"
     }
   },
   "process": {
     "title": "Unser Prozess",
     "overview": {
       "title": "Überblick",
-      "p1": "Aperto nutzt einen KI-gestützten Ansatz zur Bibelübersetzung – nicht um menschliches Urteil zu ersetzen, sondern um es zu verstärken. Wir glauben, dass die Kombination modernster Technologie mit menschlicher Einsicht dazu beitragen kann, die Schrift für ein neues Publikum zugänglich zu machen.",
-      "p2": "Jede Übersetzungsentscheidung durchläuft mehrere Überprüfungsebenen und kombiniert KI-Entwürfe mit menschlicher Expertise, Community-Feedback und laufender Überarbeitung."
+      "p1": "Aperto verwendet einen KI-unterstützten Ansatz zur Bibelübersetzung – nicht um menschliches Urteil zu ersetzen, sondern um es zu verstärken. Wir glauben, dass die Kombination modernster Technologie mit menschlicher Einsicht helfen kann, Schrift accessibility neuen Zielgruppen zugänglich zu machen.",
+      "p2": "Jede Übersetzungsentscheidung durchläuft mehrere Ebenen der Prüfung, kombiniert KI-Entwürfe mit menschlicher Expertise, Community-Feedback und kontinuierlicher Revision."
     },
     "theological": {
-      "title": "Eine theologische Begründung",
-      "p1": "Als Jesus sagte: Ich sage euch: Wenn diese schweigen, werden die Steine schreien (Lukas 19,40), antwortete er religiösen Führern, die die Verkündigung dessen, wer er war, zum Schweigen bringen wollten. Sein Punkt: Wenn die erwarteten Stimmen verstummen, wird Gott unerwartete Mittel benutzen.",
-      "p2": "Wir behaupten nicht, dass KI buchstäblich die schreienden Steine ist. Aber wir glauben, dass Gottes Botschaft andere Wege finden wird, wenn traditionelle Torwächter die Schrift nicht für alle zugänglich machen können oder wollen.",
-      "p3": "Es hat eine gewisse Poesie: Siliziumchips sind schließlich Steine, die wir zum Denken gebracht haben. Sand, gereinigt, mit Schaltkreisen geätzt, trainiert mit der gesammelten Weisheit der Menschheit. Wenn Gott durch einen brennenden Dornbusch, einen Esel oder Brot und Wein sprechen kann – vielleicht ist Silizium kein so seltsames Medium.",
-      "poetry": "Siliziumchips sind Steine, die wir zum Denken brachten. Sand, gereinigt, mit Schaltkreisen geätzt, trainiert mit der gesammelten Weisheit der Menschheit.",
-      "p4": "Die Druckerpresse wurde einst von religiösen Autoritäten mit Misstrauen betrachtet. Ebenso die Übersetzung der Bibel in Volkssprachen. Jeder technologische Wandel, der den Zugang zur Schrift demokratisierte, wurde zunächst abgelehnt – und schließlich angenommen."
+      "title": "Eine theologische Rechtfertigung",
+      "p1": "Als Jesus sagte: 'Ich sage euch: wenn diese schweigen werden, die Steine schreien' (Lukas 19:40), antwortete er auf religiöse Führer, die die Verkündigung seiner Identität zum Schweigen bringen wollten. Sein Punkt: Wenn die erwarteten Stimmen verstummen, wird Gott unerwartete Mittel nutzen.",
+      "p2": "Wir behaupten nicht, dass KI buchstäblich die 'schreienden Steine' sind. Aber wir glauben, dass wenn traditionelle Torwächter die Schrift nicht für alle zugänglich machen können oder wollen, Gottes Botschaft andere Wege finden wird.",
+      "p3": "Es gibt eine gewisse Poesie darin: Siliziumchips sind schließlich Steine, die wir beigebracht haben zu denken. Sand raffiniert, mit Schaltkreisen geätzt, trainiert auf der gesammelten Weisheit der Menschheit. Wenn Gott durch einen brennenden Dornbusch, einen Esel oder Brot und Wein sprechen kann – vielleicht ist Silizium nicht so seltsam ein Medium.",
+      "poetry": "Siliziumchips sind Steine, die wir beigebracht haben zu denken. Sand raffiniert, mit Schaltkreisen geätzt, trainiert auf der gesammelten Weisheit der Menschheit.",
+      "p4": "Der Buchdruck wurde einmal von religiösen Behörden mit Misstrauen betrachtet. So auch die Übersetzung der Bibel in Volkssprachen. Jede technologische Verschiebung, die den Zugang zur Schrift demokratisierte, wurde zunächst widerstanden – und schließlich angenommen."
     },
     "steps": {
       "title": "Unser Prozess",
       "step1": {
-        "title": "Tiefgehende Exegese",
-        "desc": "Umfassende wissenschaftliche Recherche: Griechische Textanalyse, wichtige Kommentare, Lexika, Kulturstudien und patristische Quellen."
+        "title": "Tiefe Exegese",
+        "desc": "Umfassende wissenschaftliche Forschung: Griechischer Textanalyse, Hauptkommentare, Lexika, kulturelle Studien und patristische Quellen."
       },
       "step2": {
         "title": "Übersetzungsentwurf",
-        "desc": "KI-gestützte Entwurfserstellung, gefiltert durch unsere Übersetzungsphilosophie: zugänglich, literarisch, ehrlich."
+        "desc": "KI-unterstützte Entwurfserstellung, gefiltert durch unsere Übersetzungsphilosophie: zugänglich, literarisch, ehrlich."
       },
       "step3": {
-        "title": "Fußnoten",
-        "desc": "Kultureller Kontext, griechische Wortwahl, wissenschaftliche Debatten und ehrliche Anerkennung schwieriger Stellen."
+        "title": "Menschliche Überprüfung",
+        "desc": "Übersetzungsteams überprüfen und verfeinern, stellen Genauigkeit, literarische Qualität und Treue zum ursprünglichen Text sicher."
       },
       "step4": {
-        "title": "Multimedia-Produktion",
-        "desc": "Hörbibel, Diskussionspodcasts, originale Lieder und kontemplative Praktiken."
+        "title": "Community-Feedback",
+        "desc": "Offen für Community-Input und Diskussion. Übersetzung verbessert sich durch Gespräch."
       },
       "step5": {
-        "title": "Menschliche Überprüfung",
-        "desc": "Jede Übersetzung durchläuft menschliche Überprüfung. KI generiert Entwürfe; Menschen verfeinern, korrigieren und genehmigen."
-      },
-      "step6": {
-        "title": "Community-Feedback",
-        "desc": "Laufende Überarbeitung basierend auf Leser-Feedback und wissenschaftlichen Erkenntnissen."
-      }
-    },
-    "principles": {
-      "title": "Leitprinzipien",
-      "clarity": {
-        "title": "Klarheit",
-        "desc": "Jeder Satz sollte verständlich sein, ohne einen religiösen Hintergrund vorauszusetzen."
-      },
-      "faithfulness": {
-        "title": "Treue",
-        "desc": "Die Bedeutung des Originals bewahren und gleichzeitig in natürlichem, zeitgenössischem Deutsch ausdrücken."
-      },
-      "beauty": {
-        "title": "Schönheit",
-        "desc": "Sprache, die einer Lektüre würdig ist – nicht nur Information, sondern Literatur."
-      },
-      "humility": {
-        "title": "Demut",
-        "desc": "Ehrliche Anerkennung von Unsicherheit, verschiedenen Interpretationen und unseren eigenen Grenzen."
-      }
-    },
-    "invitation": {
-      "title": "Mitmachen",
-      "desc": "Dies ist ein offenes Projekt. Wir freuen uns über Beiträge – Übersetzungshilfe, kulturelle Beratung, Audioproduktion oder technische Entwicklung.",
-      "cta": "Jetzt lesen"
-    }
-  },
-  "legal": {
-    "privacy": {
-      "title": "Datenschutzerklärung",
-      "intro": "Das Aperto Bibel-Projekt ist dem Schutz Ihrer Privatsphäre verpflichtet. Diese Richtlinie erklärt, wie wir mit Ihren Daten umgehen.",
-      "dataCollection": {
-        "title": "Datenerfassung",
-        "text": "Diese Website erfasst keine personenbezogenen Daten. Wir verwenden keine Tracking-Cookies und keine Analysedienste, die einzelne Nutzer verfolgen."
-      },
-      "hosting": {
-        "title": "Hosting",
-        "text": "Diese Website wird auf GitHub Pages gehostet. GitHub kann technische Informationen wie IP-Adressen für Sicherheits- und Betriebszwecke erfassen. Bitte beachten Sie die Datenschutzrichtlinie von GitHub für Details."
-      },
-      "contact": {
-        "title": "Kontakt",
-        "text": "Bei datenschutzbezogenen Fragen kontaktieren Sie uns bitte unter info@apertobible.com."
-      },
-      "rights": {
-        "title": "Ihre Rechte",
-        "text": "Nach der DSGVO haben Sie das Recht auf Zugang, Berichtigung oder Löschung personenbezogener Daten, die wir möglicherweise über Sie speichern. Da wir keine personenbezogenen Daten erfassen, ist dies unwahrscheinlich, aber wir beantworten gerne alle Anfragen."
-      },
-      "lastUpdated": "Letzte Aktualisierung: Dezember 2024"
-    },
-    "accessibility": {
-      "title": "Erklärung zur Barrierefreiheit",
-      "intro": "Das Aperto Bibel-Projekt ist bestrebt, unsere Inhalte für alle zugänglich zu machen, einschließlich Menschen mit Behinderungen.",
-      "standards": {
-        "title": "Barrierefreiheitsstandards",
-        "text": "Wir streben die Einhaltung der WCAG 2.1 Level AA Richtlinien an. Unsere Website wurde mit semantischem HTML, Tastaturnavigation und angemessenem Farbkontrast gestaltet."
-      },
-      "features": {
-        "title": "Barrierefreiheitsfunktionen",
-        "list": [
-          "Semantische HTML-Struktur für Screenreader-Kompatibilität",
-          "Tastaturnavigation auf der gesamten Website",
-          "Ausreichender Farbkontrast für Lesbarkeit",
-          "Responsives Design für alle Geräte",
-          "Textalternativen für nicht-textliche Inhalte",
-          "Klare, lesbare Typografie"
-        ]
-      },
-      "feedback": {
-        "title": "Feedback",
-        "text": "Wir freuen uns über Feedback zur Barrierefreiheit. Wenn Sie auf Barrieren stoßen oder Verbesserungsvorschläge haben, kontaktieren Sie uns bitte unter info@apertobible.com."
-      },
-      "ongoing": {
-        "title": "Laufende Bemühungen",
-        "text": "Barrierefreiheit ist ein fortlaufender Prozess. Wir arbeiten kontinuierlich daran, unsere Website zu verbessern und auftretende Probleme zu beheben."
-      }
-    },
-    "imprint": {
-      "title": "Impressum",
-      "responsible": {
-        "title": "Verantwortlich für den Inhalt",
-        "text": "Aperto Bibel-Projekt"
-      },
-      "contact": {
-        "title": "Kontakt",
-        "text": "E-Mail: info@apertobible.com"
-      },
-      "disclaimer": {
-        "title": "Haftungsausschluss",
-        "text": "Der Inhalt dieser Website dient Informationszwecken. Wir bemühen uns um Genauigkeit, können aber nicht garantieren, dass alle Informationen vollständig oder aktuell sind. Externe Links werden der Bequemlichkeit halber bereitgestellt; wir sind nicht verantwortlich für den Inhalt verlinkter Websites."
-      },
-      "license": {
-        "title": "Inhaltslizenz",
-        "text": "Sofern nicht anders angegeben, werden alle Inhalte dieser Website unter der Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 4.0 International Lizenz (CC BY-SA 4.0) veröffentlicht."
+        "title": "Multimedia-Produktion",
+        "desc": "Audio-Bibel, Podcasts, Songs und Meditationen, die den Text zum Leben erwecken."
       }
     }
   }

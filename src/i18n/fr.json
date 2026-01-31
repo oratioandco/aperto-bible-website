@@ -23,9 +23,39 @@
     "copyright": "2025 Projet Bible Aperto"
   },
   "home": {
-    "tagline": "Une traduction fraîche qui accueille tout le monde à la conversation — que vous soyez profondément enraciné dans la foi, explorant de l'extérieur, ou quelque part entre les deux.",
     "alphaNotice": "Alpha précoce",
     "alphaText": "Ceci est une version alpha précoce. Actuellement, seul Luc chapitre 1 est disponible. Nous construisons chapitre par chapitre, livre par livre.",
+    "hero": {
+      "headline": "L'Écriture qui vous prend au sérieux.",
+      "subhead": "Une traduction biblique littéraire pour ceux qui refusent de choisir entre honnêteté intellectuelle et foi vivante.",
+      "cta": "Commencer à lire"
+    },
+    "manifesto": {
+      "p1": "À un moment donné, on nous a demandé de choisir : étudier la Bible critiquement et risquer de perdre le sacré, ou tenir bon dans la foi et cesser de poser des questions difficiles.",
+      "p2": "Nous ne croyons pas que ce soit la seule façon.",
+      "p3": "Aperto est une traduction littéraire — la poésie comme poésie, la prose comme prose — avec le contexte antique tissé directement dans le texte, clairement marqué pour que vous sachiez toujours ce qui a été écrit et ce que cela signifiait.",
+      "p4": "Elle est fondée sur l'érudition œcuménique des traditions catholique, protestante, orthodoxe et pentecôtiste.",
+      "p5": "Et elle est conçue pour une vraie rencontre — à travers l'audio, la musique et la méditation façonnées par la façon dont les gens lisent et grandissent réellement aujourd'hui.",
+      "p6": "Rigoureuse.",
+      "p7": "Accessible.",
+      "p8": "Spirituellement vivante.",
+      "p9": "Pour les curieux et les chercheurs. Pour ceux qui sont partis et ceux qui sont restés. Pour quiconque prêt à regarder à nouveau."
+    },
+    "features": {
+      "literary": "Traduction littéraire",
+      "literaryLabel": "La poésie comme poésie",
+      "multimedia": "Multimédia",
+      "multimediaLabel": "Audio & musique",
+      "languages": "11 langues",
+      "languagesLabel": "Et en croissance",
+      "ecumenical": "Œcuménique",
+      "ecumenicalLabel": "Toute l'Église"
+    },
+    "cta": {
+      "title": "Nous construisons ceci un chapitre à la fois.",
+      "description": "Commencez avec Luc 1 — l'annonce de Jean-Baptiste, la visite de Gabriel à Marie, et deux chants qui ont changé le monde."
+    },
+    "tagline": "Une traduction fraîche qui accueille tout le monde à la conversation — que vous soyez profondément enraciné dans la foi, explorant de l'extérieur, ou quelque part entre les deux.",
     "readLuke": "Lire Luc 1",
     "differentBible": "Une Bible différente",
     "accessible": "Accessible",
@@ -39,39 +69,82 @@
   },
   "about": {
     "title": "À propos d'Aperto",
-    "whatIs": {
-      "title": "Qu'est-ce qu'Aperto ?",
-      "p1": "Aperto est un projet de traduction biblique open source écrit pour les lecteurs modernes — que vous soyez un croyant de longue date voulant un regard neuf sur des textes familiers, ou un sceptique curieux de ce que disent vraiment ces textes anciens.",
-      "p2": "Le nom vient du latin 'apertus' : ouvert, accessible, dévoilé. Il est inspiré de Luc 24,32, où les disciples disent que leur cœur brûlait tandis que Jésus leur ouvrait les Écritures."
+    "falseChoice": {
+      "title": "Le faux choix",
+      "p1": "Pendant longtemps, le christianisme a semblé se diviser en deux camps.",
+      "p2": "L'un prend le texte au sérieux — historiquement, critiquement, honnêtement. Il pose des questions difficiles sur l'auteurship, le contexte, la transmission. Il refuse les réponses faciles. Mais quelque part en chemin, il perd souvent l'attente que l'Écriture puisse vraiment faire quelque chose en vous. L'étude devient une analyse. Le texte devient un artefact.",
+      "p3": "L'autre promet la rencontre, la transformation, une parole vivante. Il s'attend à ce que Dieu se manifeste. Mais il vous demande parfois d'arrêter de poser des questions — ou du moins de vous sentir coupable de les poser. La certitude devient la mesure de la foi. La curiosité ressemble à une trahison.",
+      "p4": "Nous pensons que c'est un faux choix.",
+      "p5": "Les scholars qui ont étudié ces textes étaient des moines en prière. Les mystiques qui ont rencontré Dieu en eux étaient des lecteurs rigoureux. Pendant la majeure partie de l'histoire chrétienne, la profondeur de l'étude et la profondeur de la rencontre n'étaient pas des opposés — c'était le même chemin.",
+      "p6": "Aperto existe pour les réunir."
     },
-    "philosophy": {
-      "title": "Notre philosophie",
-      "believerSkeptic": "Pour croyants et sceptiques",
-      "believerSkepticDesc": "Nous écrivons pour les deux — les personnes profondément enracinées dans la foi cherchant une perspective fraîche, et les personnes explorant de l'extérieur. Que vous ayez passé toute votre vie à l'église ou n'y ayez jamais mis les pieds, vous êtes les bienvenus ici.",
-      "ecumenical": "Œcuménique et intersectionnel",
-      "ecumenicalDesc": "Notre approche intègre équitablement les recherches catholiques, orthodoxes, protestantes et pentecôtistes — sans les aplatir en une seule tradition. Nous travaillons aussi avec les lectures féministes, de libération et historico-critiques, conscients de la façon dont les traductions ont historiquement été utilisées pour libérer comme pour blesser.",
-      "accessible": "Accessible sans simplifier",
-      "accessibleDesc": "Un langage contemporain qui se lit comme de la littérature moderne. Pas de jargon religieux, pas de vocabulaire d'initiés — juste le texte, vivant et direct. Des notes honnêtes qui rendent la complexité accessible plutôt que cachée.",
-      "multimedia": "Multimédia d'abord",
-      "multimediaDesc": "Bible audio, podcasts, chansons originales et pratiques contemplatives. Rencontrer les gens là où ils sont, pas seulement là où ils devraient être.",
-      "openSource": "Radicalement ouvert",
-      "openSourceDesc": "Licence CC BY-SA 4.0. Tout — traduction, exégèse, chansons — est libre d'utilisation, d'adaptation et de développement. Parce que l'Écriture appartient à tous."
+    "building": {
+      "title": "Ce que nous construisons",
+      "literary": {
+        "title": "Une traduction littéraire",
+        "desc": "qui honore les formes originales — la poésie comme poésie, la narration comme narration, la lettre comme lettre. L'Écriture est de la littérature avant tout, et nous la traduisons ainsi."
+      },
+      "context": {
+        "title": "Le contexte rendu visible",
+        "desc": "Les premiers lecteurs de ces textes comprenaient des choses que nous ne comprenons pas — des hypothèses culturelles, des références géographiques, des arrière-plans religieux, des échos littéraires. Nous tissons ce contexte directement dans le texte, clairement formaté pour que vous sachiez toujours ce qui a été écrit et ce que cela signifiait. Plus besoin de retourner aux notes de bas de page pour comprendre pourquoi quelque chose est important."
+      },
+      "ecumenical": {
+        "title": "Fondations œcuméniques",
+        "desc": "Notre exégèse s'appuie sur l'érudition catholique, protestante, orthodoxe et pentecôtiste. Non pour aplatir les différences, mais parce que le texte appartient à l'Église tout entière, et chaque tradition voit quelque chose que les autres pourraient manquer."
+      },
+      "multimedia": {
+        "title": "Rencontre multimédia",
+        "desc": "Bible audio. Podcasts qui déballent chaque passage. Chansons originales qui capturent le poids émotionnel du texte. Méditations et dévotions. L'Écriture n'est pas seulement lue — elle est entendue, chantée, fréquentée, vécue."
+      },
+      "design": {
+        "title": "Conçu pour comment les gens s'engagent réellement",
+        "desc": "Informé par la recherche sur la lecture numérique et la formation spirituelle, nous construisons des formats qui travaillent avec l'attention, pas contre elle — et qui soutiennent une croissance réelle, pas juste un transfert d'informations."
+      },
+      "europe": {
+        "title": "L'Écriture pour l'Europe",
+        "desc": "Disponible en 11 langues et en croissance — apportant des ressources aux communautés qui ont attendu trop longtemps des traductions à la fois sérieuses et vivantes."
+      },
+      "ai": {
+        "title": "Rendu possible par l'IA",
+        "desc": "Des flux de travail réfléchis nous permettent d'atteindre une profondeur et une échelle qui prendraient autrement des générations. Ce qui semblait autrefois impossible pour les plus petites communautés linguistiques est maintenant à portée de main."
+      }
     },
-    "languages": {
-      "title": "Langues disponibles",
-      "intro": "Actuellement disponible en cinq langues, chacune culturellement adaptée à son contexte :"
+    "audience": {
+      "title": "À qui ceci s'adresse",
+      "skeptic": "Pour le sceptique qui se demande encore.",
+      "believer": "Pour le croyant qui réfléchit encore.",
+      "left": "Pour ceux qui ont quitté l'Église mais n'ont pas pu quitter les questions.",
+      "stayed": "Pour ceux qui sont restés mais ressentent la tension.",
+      "curious": "Pour les curieux spirituels et les honnêtes intellectuellement.",
+      "tired": "Pour quiconque fatigué de devoir choisir.",
+      "closing": "Vous n'avez pas à tout comprendre. Vous devez juste être prêt à regarder."
     },
-    "license": {
-      "title": "Licence",
-      "p1": "Aperto est publié sous la licence Creative Commons Attribution-Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0). Cela signifie :",
-      "share": "Vous pouvez partager et redistribuer le matériel dans n'importe quel format",
-      "adapt": "Vous pouvez remixer, transformer et développer le matériel",
-      "attribution": "Vous devez donner crédit de manière appropriée",
-      "shareAlike": "Vous devez distribuer sous la même licence si vous remixez ou développez"
+    "europe": {
+      "title": "Un projet européen",
+      "p1": "Le christianisme en Europe est à la croisée des chemins. Les Églises historiques font face au déclin. Les communautés évangéliques restent petites. La culture séculière a souvent rejeté la foi comme intellectuellement intenable — et trop d'expressions du christianisme ont confirmé ce soupçon.",
+      "p2": "Mais il y a aussi une faim. Des gens cherchant du sens, de la profondeur, quelque chose qui peut porter le poids de la vraie vie. Des gens qui pourraient être ouverts à l'histoire chrétienne si quelqu'un la leur offrait sans leur demander d'arrêter de penser.",
+      "p3": "Aperto est construit pour ce moment. Une Bible que les Européens urbains, éduqués, en questionnement peuvent s'approprier sans gêne — et qui pourrait juste les changer.",
+      "p4": "Nous commençons avec 11 langues. Nous ne nous arrêterons pas là."
     },
-    "team": {
-      "title": "L'équipe",
-      "description": "Aperto est un projet communautaire basé à Berlin. Nous sommes des traducteurs, musiciens, designers et développeurs engagés à rendre l'Écriture accessible à tous."
+    "name": {
+      "title": "Le nom",
+      "accessible": "Ouvert comme accessible",
+      "accessibleDesc": "pas de jargon d'initié, pas de barrières à l'entrée",
+      "transparent": "Ouvert comme transparent",
+      "transparentDesc": "vous pouvez voir exactement ce que nous avons fait et pourquoi",
+      "invitation": "Ouvert comme invitation",
+      "invitationDesc": "venez comme vous êtes, questions et tout",
+      "source": "Open source",
+      "sourceDesc": "librement partagé, construit pour être construit dessus"
+    },
+    "join": {
+      "title": "Rejoignez-nous",
+      "p1": "Nous construisons ceci un chapitre à la fois, un livre à la fois. Pour l'instant, vous pouvez lire Luc 1 — l'annonce de Jean-Baptiste, la visite de Gabriel à Marie, et deux chants qui ont changé le monde.",
+      "p2": "Venez voir ce que nous créons. Apportez vos doutes. Apportez votre désir.",
+      "readLuke": "Lire Luc 1",
+      "goDeeper": "Voulez-vous aller plus loin ?",
+      "goDeeperDesc": "Découvrez comment nous traduisons, comment fonctionnent nos flux de travail IA, et l'érudition derrière chaque décision.",
+      "processLink": "Notre processus →"
     }
   },
   "process": {
