@@ -149,41 +149,145 @@
   },
   "process": {
     "title": "Our Process",
-    "overview": {
-      "title": "Overview",
-      "p1": "Aperto uses an AI-assisted approach to Bible translation—not to replace human judgement, but to amplify it. We believe combining cutting-edge technology with human insight can help make Scripture accessible to new audiences.",
-      "p2": "Every translation decision goes through multiple layers of review, combining AI drafts with human expertise, community feedback, and ongoing revision."
+    "challenge": {
+      "title": "The Challenge",
+      "p1": "Translating Scripture well has always required holding tensions together: fidelity to the original and accessibility to the reader, scholarly rigor and spiritual vitality, respect for tradition and openness to fresh insight.",
+      "p2": "Aperto adds one more: the scale to serve Europe's diverse language communities, and the depth that usually requires decades of work per language.",
+      "p3": "We believe we've found a way to hold all of these together."
+    },
+    "philosophy": {
+      "title": "Translation Philosophy",
+      "literary": {
+        "title": "Literature First",
+        "desc": "The Bible is poetry, narrative, letter, prophecy, law, wisdom literature, apocalyptic vision. Each genre has its own rhythm, its own logic, its own way of meaning. We translate poetry as poetry—with line breaks, metaphor, and sound. We translate prose as prose—with narrative momentum and natural speech. The form carries meaning; we honor both."
+      },
+      "context": {
+        "title": "Context Made Visible",
+        "desc": "The original readers of these texts understood things modern readers don't: cultural customs, geographic references, religious background, literary echoes from earlier Scripture. Most translations force you into footnotes to recover this. We weave essential context directly into the text—using clear formatting so you always know what was written and what it meant. You see the text as ancient readers experienced it, without losing sight of what the text actually says."
+      },
+      "ecumenical": {
+        "title": "Ecumenical Foundation",
+        "desc": "Our exegetical foundation draws on Catholic, Protestant, Orthodox, and Pentecostal scholarship. Not to erase differences—they matter—but because every tradition illuminates something others might miss. The text belongs to the whole Church. Our process reflects that."
+      },
+      "engagement": {
+        "title": "Designed for Real Engagement",
+        "desc": "We don't just think about what to say—we think about how people actually read and grow. Informed by research on digital attention and spiritual formation, we design formats that work with how people engage today: scannable when needed, immersive when invited, multi-sensory across audio, music, and meditation."
+      }
     },
     "theological": {
-      "title": "A Theological Justification",
-      "p1": "When Jesus said 'I tell you, if these were silent, the very stones would cry out' (Luke 19:40), he was responding to religious leaders who wanted to silence the proclamation of who he was. His point: if the expected voices fall silent, God will use unexpected means.",
-      "p2": "We don't claim AI is literally the 'stones crying out'. But we do believe that when traditional gatekeepers can't or won't make Scripture accessible to everyone, God's message will find other ways through.",
-      "p3": "There's a certain poetry to it: silicon chips are, after all, rocks we taught to think. Sand refined, etched with circuits, trained on humanity's collected wisdom. If God can speak through a burning bush, a donkey, or bread and wine—perhaps silicon isn't so strange a medium.",
-      "poetry": "Silicon chips are rocks we taught to think. Sand refined, etched with circuits, trained on humanity's collected wisdom.",
-      "p4": "The printing press was once viewed with suspicion by religious authorities. So was translating the Bible into vernacular languages. Every technological shift that democratised access to Scripture was initially resisted—and eventually embraced."
+      "title": "A Theological Case for AI",
+      "pentecost": {
+        "title": "The Pentecost Impulse",
+        "p1": "The Spirit's first public act was crossing a language barrier. At Pentecost, people from every nation \"heard in their own language\" (Acts 2:8). The miracle wasn't just power—it was accessibility. From the beginning, God has shown that his word is meant for everyone, in forms they can understand.",
+        "p2": "That's the heartbeat of translation. And it's the conviction driving Aperto: every European language community deserves Scripture resources with real depth—not just bare text, but the context, scholarship, and multimedia that bring it alive."
+      },
+      "reformation": {
+        "title": "The Reformation Precedent",
+        "p1": "The Reformers believed the plowboy had as much right to Scripture as the priest. That conviction required new technology—the printing press—and was fiercely resisted by religious authorities who feared what would happen when ordinary people could read for themselves.",
+        "p2": "They were right to sense that everything would change. They were wrong to resist it.",
+        "p3": "Every expansion of Scripture access has followed this pattern: vernacular translation, printing, audio, digital. Each was initially suspect. Each was eventually embraced. Each extended the reach of God's word to people who had been excluded—by language, by literacy, by cost, by geography.",
+        "p4": "AI-assisted translation stands in this lineage. The technology is new. The conviction is ancient."
+      },
+      "unexpected": {
+        "title": "God's Pattern of Unexpected Means",
+        "p1": "Scripture is full of God working through unlikely instruments:",
+        "donkey": "A donkey speaks to a prophet (Numbers 22)",
+        "pagan": "A pagan king is called God's \"anointed\" (Isaiah 45:1)",
+        "astrologers": "Foreign astrologers are led to the Messiah (Matthew 2)",
+        "foolish": "\"The foolish things of the world shame the wise\" (1 Corinthians 1:27)",
+        "p2": "When Jesus said \"if these were silent, the very stones would cry out\" (Luke 19:40), he was making a point about inevitability: God's truth will find its way out. If expected voices fall short, unexpected ones will rise.",
+        "p3": "We don't claim AI is the stones crying out. But we do believe that when the need is real and traditional means can't meet it, God opens new paths. He's done it before. We believe he's doing it again.",
+        "blockquote": "Silicon chips are, after all, rocks we taught to think. Sand refined, etched with circuits, trained on humanity's collected wisdom. If God can speak through a burning bush, a donkey, or bread and wine—perhaps silicon isn't so strange a medium."
+      },
+      "silence": {
+        "title": "The European Silence",
+        "p1": "Europe was once the heart of Christian civilization. Today it's one of the most secular continents on earth—and one of the most underserved when it comes to quality Scripture resources.",
+        "p2": "The silence here isn't primarily rejection. It's incapacity.",
+        "p3": "Historic churches often have institutional resources but declining energy—and sometimes theological ambivalence about whether Scripture still transforms. Evangelical and charismatic communities have conviction but lack scale and infrastructure. Smaller language communities—Danish, Swedish, Polish, Portuguese, Ukrainian—simply cannot sustain the decades of scholarly work required for resources of this depth.",
+        "p4": "The need is vast. Traditional capacity is insufficient. Not because people are unfaithful, but because the economics don't work and the demographics have shifted."
+      },
+      "possible": {
+        "title": "What AI Makes Possible",
+        "p1": "A translation of this depth—literary, contextually enriched, multimedia-rich, ecumenically grounded—would normally require a generation of work per language. For most European communities, it would never happen at all.",
+        "p2": "AI doesn't replace human judgment. It multiplies it. Every exegetical decision, every translation choice, every footnote still passes through human review. But the scale becomes possible. Eleven languages now. More to come. Resources that smaller communities could never produce on their own—finally within reach.",
+        "p3": "What seemed impossible is now feasible. Communities that have waited generations might not have to wait any longer.",
+        "p4": "We believe that matters. We believe God cares about it. And we believe he's given us tools to do something about it."
+      }
     },
-    "steps": {
-      "title": "Our Process",
+    "workflow": {
+      "title": "The Workflow",
       "step1": {
         "title": "Deep Exegesis",
-        "desc": "Comprehensive scholarly research: Greek text analysis, major commentaries, lexicons, cultural studies, and patristic sources."
+        "desc": "Comprehensive scholarly research for each passage: Greek text analysis, major commentaries across traditions, lexicons, cultural and historical studies, patristic sources. This is the foundation everything else builds on."
       },
       "step2": {
-        "title": "Translation Draft",
-        "desc": "AI-assisted draft generation, filtered through our translation philosophy: accessible, literary, honest."
+        "title": "Literary Translation Draft",
+        "desc": "AI-assisted drafting filtered through our translation philosophy—literary, accessible, faithful. The goal: language worthy of being read aloud, not just decoded."
       },
       "step3": {
-        "title": "Human Review",
-        "desc": "Translation teams review and refine, ensuring accuracy, literary quality, and faithfulness to the original text."
+        "title": "Contextual Enrichment",
+        "desc": "Identification and integration of cultural, geographic, religious, and literary context the original audience would have known. Clearly formatted to distinguish from the biblical text itself."
       },
       "step4": {
-        "title": "Community Feedback",
-        "desc": "Open for community input and discussion. Translation improves through conversation."
+        "title": "Footnotes & Exegesis",
+        "desc": "Deeper layers for those who want them: Greek word choices, scholarly debates, historical background, and honest acknowledgment of uncertainty and interpretive options."
       },
       "step5": {
         "title": "Multimedia Production",
-        "desc": "Audio Bible, podcasts, songs, and meditations that help the text come alive."
+        "desc": "Audio Bible narration. Podcasts unpacking each pericope. Original songs capturing the emotional and theological weight of key passages. Meditations and devotional guides. Scripture experienced, not just read."
+      },
+      "step6": {
+        "title": "Human Review & Refinement",
+        "desc": "Every output passes through human review. AI generates drafts; humans correct, refine, and approve. The judgment is always human."
+      },
+      "step7": {
+        "title": "Community Feedback",
+        "desc": "Ongoing revision based on reader response and scholarly input. Translation is never finished—it's a living conversation."
       }
-    }
+    },
+    "principles": {
+      "title": "Guiding Principles",
+      "honesty": {
+        "title": "Honesty",
+        "desc": "We don't hide complexity, smooth over difficulties, or pretend certainty where there is none. The text is stranger and more challenging than many translations let on. We let it be."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "desc": "Every sentence should be understandable without insider vocabulary or assumed religious background. Clarity isn't dumbing down—it's hospitality."
+      },
+      "craft": {
+        "title": "Literary Craft",
+        "desc": "Language worthy of the text. Not just information transferred, but writing that rewards reading—rhythm, imagery, weight."
+      },
+      "expectancy": {
+        "title": "Spiritual Expectancy",
+        "desc": "We study rigorously because we believe the text can still transform. Scholarship serves encounter, not the other way around."
+      },
+      "humility": {
+        "title": "Ecumenical Humility",
+        "desc": "We learn from traditions beyond our own. We acknowledge what we don't know. We hold our interpretations with open hands."
+      }
+    },
+    "involved": {
+      "title": "Get Involved",
+      "intro": "Aperto is an open project. We welcome contributions:",
+      "translation": "Translation review – Native speakers and biblical scholars",
+      "cultural": "Cultural consultation – Especially for non-English European contexts",
+      "audio": "Audio & music production – Narration, original compositions",
+      "technical": "Technical development – Platform, workflow, accessibility",
+      "feedback": "Feedback – Read, respond, help us improve",
+      "contact": "Contact us",
+      "contactEmail": "info@apertobible.com"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "intro": "Sign up for our newsletter to follow our progress.",
+      "note": "Our newsletter is in English.",
+      "firstName": "First Name",
+      "email": "Email",
+      "agree": "I agree to receive email updates and promotions.",
+      "button": "Receive the Aperto Newsletter"
+    },
+    "readLuke": "Read Luke 1 →"
   }
 }
