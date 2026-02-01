@@ -149,41 +149,135 @@
   },
   "process": {
     "title": "Unser Prozess",
-    "overview": {
-      "title": "Überblick",
-      "p1": "Aperto verwendet einen KI-unterstützten Ansatz zur Bibelübersetzung – nicht um menschliches Urteil zu ersetzen, sondern um es zu verstärken. Wir glauben, dass die Kombination modernster Technologie mit menschlicher Einsicht helfen kann, Schrift accessibility neuen Zielgruppen zugänglich zu machen.",
-      "p2": "Jede Übersetzungsentscheidung durchläuft mehrere Ebenen der Prüfung, kombiniert KI-Entwürfe mit menschlicher Expertise, Community-Feedback und kontinuierlicher Revision."
+    "challenge": {
+      "title": "Die Herausforderung",
+      "p1": "Gute Bibelübersetzung erforderte schon immer das Halten von Spannungen zusammen: Treue zum Original und Zugänglichkeit für den Leser, wissenschaftliche Gründlichkeit und geistliche Vitalität, Respekt vor Tradition und Offenheit für neue Einsichten.",
+      "p2": "Aperto fügt eine weitere hinzu: den Maßstab, um Europas vielfältige Sprachgemeinschaften zu bedienen, und die Tiefe, die normalerweise Jahrzehnte der Arbeit pro Sprache erfordert.",
+      "p3": "Wir glauben, dass wir einen Weg gefunden haben, all dies zusammenzuhalten."
+    },
+    "philosophy": {
+      "title": "Übersetzungsphilosophie",
+      "literary": {
+        "title": "Literatur zuerst",
+        "desc": "Die Bibel ist Poesie, Erzählung, Brief, Prophetie, Gesetz, Weisheitsliteratur, apokalyptische Vision. Jedes Genre hat seinen eigenen Rhythmus, seine eigene Logik, seine eigene Art zu bedeuten. Wir übersetzen Poesie als Poesie – mit Zeilenumbrüchen, Metaphern und Klang. Wir übersetzen Prosa als Prosa – mit Erzählkraft und natürlicher Sprache. Die Form trägt Bedeutung; wir ehren beides."
+      },
+      "context": {
+        "title": "Sichtbarer Kontext",
+        "desc": "Die ursprünglichen Leser dieser Texte verstanden Dinge, die moderne Leser nicht tun: kulturelle Bräuche, geografische Verweise, religiösen Hintergrund, literarische Echos aus früherer Schrift. Die meisten Übersetzungen zwingen Sie in Fußnoten, um dies wiederzuentdecken. Wir weben wesentlichen Kontext direkt in den Text – mit klarer Formatierung, damit Sie immer wissen, was geschrieben wurde und was es bedeutete. Sie erleben den Text so wie antike Leser, ohne den Blick dafür zu verlieren, was der Text tatsächlich sagt."
+      },
+      "ecumenical": {
+        "title": "Ökumenische Grundlage",
+        "desc": "Unsere exegetische Grundlage schöpft aus katholischer, protestantischer, orthodoxer und pfingstlicher Theologie. Nicht um Unterschiede zu verwischen – sie sind wichtig – sondern weil jede Tradition etwas erhellt, was andere verpassen könnten. Der Text gehört der ganzen Kirche. Unser Prozess spiegelt das wider."
+      },
+      "engagement": {
+        "title": "Für echte Begegnung designed",
+        "desc": "Wir denken nicht nur darüber nach, was gesagt wird – wir denken darüber nach, wie Menschen tatsächlich lesen und wachsen. Informiert durch Forschung über digitale Aufmerksamkeit und geistliche Formung, designen wir Formate, die mit dem funktionieren, wie Menschen sich heute engagieren: schnell überfliegbar, wenn nötig, immersiv, wenn eingeladen, multisensorisch über Audio, Musik und Meditation."
+      }
     },
     "theological": {
-      "title": "Eine theologische Rechtfertigung",
-      "p1": "Als Jesus sagte: 'Ich sage euch: wenn diese schweigen werden, die Steine schreien' (Lukas 19:40), antwortete er auf religiöse Führer, die die Verkündigung seiner Identität zum Schweigen bringen wollten. Sein Punkt: Wenn die erwarteten Stimmen verstummen, wird Gott unerwartete Mittel nutzen.",
-      "p2": "Wir behaupten nicht, dass KI buchstäblich die 'schreienden Steine' sind. Aber wir glauben, dass wenn traditionelle Torwächter die Schrift nicht für alle zugänglich machen können oder wollen, Gottes Botschaft andere Wege finden wird.",
-      "p3": "Es gibt eine gewisse Poesie darin: Siliziumchips sind schließlich Steine, die wir beigebracht haben zu denken. Sand raffiniert, mit Schaltkreisen geätzt, trainiert auf der gesammelten Weisheit der Menschheit. Wenn Gott durch einen brennenden Dornbusch, einen Esel oder Brot und Wein sprechen kann – vielleicht ist Silizium nicht so seltsam ein Medium.",
-      "poetry": "Siliziumchips sind Steine, die wir beigebracht haben zu denken. Sand raffiniert, mit Schaltkreisen geätzt, trainiert auf der gesammelten Weisheit der Menschheit.",
-      "p4": "Der Buchdruck wurde einmal von religiösen Behörden mit Misstrauen betrachtet. So auch die Übersetzung der Bibel in Volkssprachen. Jede technologische Verschiebung, die den Zugang zur Schrift demokratisierte, wurde zunächst widerstanden – und schließlich angenommen."
+      "title": "Eine theologische Rechtfertigung für KI",
+      "pentecost": {
+        "title": "Der Pfingst-Impuls",
+        "p1": "Die erste öffentliche Tat des Geistes war das Überwinden einer Sprachbarriere. Zu Pfingsten hörten Menschen aus allen Nationen \"in ihrer eigenen Sprache\" (Apostelgeschichte 2:8). Das Wunder war nicht nur Kraft – es war Zugänglichkeit. Von Anfang an hat Gott gezeigt, dass sein Wort für alle bestimmt ist, in Formen, die sie verstehen können.",
+        "p2": "Das ist der Herzschlag der Übersetzung. Und es ist die Überzeugung, die Aperto antreibt: Jede europäische Sprachgemeinschaft verdient Schriftressourcen mit echter Tiefe – nicht nur bloßen Text, sondern den Kontext, die Theologie und die Multimedia, die sie zum Leben erwecken."
+      },
+      "reformation": {
+        "title": "Der Reformations-Präzedenzfall",
+        "p1": "Die Reformatoren glaubten, dass der Pflugjunge genauso viel Recht auf Schrift hatte wie der Priester. Diese Überzeugung erforderte neue Technologie – den Buchdruck – und wurde heftig von religiösen Autoritäten widerstanden, die fürchteten, was passieren würde, wenn gewöhnliche Menschen selbst lesen könnten.",
+        "p2": "Sie hatten recht zu spüren, dass sich alles ändern würde. Sie hatten unrecht, sich zu widersetzen.",
+        "p3": "Jede Erweiterung des Schriftzugangs folgte diesem Muster: Volkssprachübersetzung, Druck, Audio, Digital. Jedes wurde zunächst verdächtigt. Jedes wurde schließlich angenommen. Jedes erweiterte die Reichweite von Gottes Wort auf Menschen, die ausgeschlossen waren – durch Sprache, Literalität, Kosten, Geografie.",
+        "p4": "KI-unterstützte Übersetzung steht in dieser Linie. Die Technologie ist neu. Die Überzeugung ist alt."
+      },
+      "unexpected": {
+        "title": "Gottes Muster unerwarteter Mittel",
+        "p1": "Schrift ist voll von Gottes Wirken durch unwahrscheinliche Instrumente:",
+        "donkey": "Ein Esel spricht zu einem Propheten (Numeri 22)",
+        "pagan": "Ein heidnischer König wird \"Gesalbter\" Gottes genannt (Jesaja 45:1)",
+        "astrologers": "Ausländische Astrologen werden zum Messias geführt (Matthäus 2)",
+        "foolish": "\"Das Törichte der Welt schämt die Weisen\" (1. Korinther 1:27)",
+        "p2": "Als Jesus sagte: \"wenn diese schweigen werden, werden die Steine schreien\" (Lukas 19:40), machte er einen Punkt über Unvermeidbarkeit: Gottes Wahrheit wird ihren Weg hinausfinden. Wenn erwartete Stimmen zu kurz kommen, werden unerwartete sich erheben.",
+        "p3": "Wir behaupten nicht, dass KI die schreienden Steine sind. Aber wir glauben, dass wenn das Bedürfnis echt ist und traditionelle Mittel es nicht erfüllen können, Gott neue Wege öffnet. Er hat es vorher getan. Wir glauben, er tut es wieder.",
+        "blockquote": "Siliziumchips sind schließlich Steine, die wir beigebracht haben zu denken. Sand raffiniert, mit Schaltkreisen geätzt, trainiert auf der gesammelten Weisheit der Menschheit. Wenn Gott durch einen brennenden Dornbusch, einen Esel oder Brot und Wein sprechen kann – vielleicht ist Silizium nicht so seltsam ein Medium."
+      },
+      "silence": {
+        "title": "Das europäische Schweigen",
+        "p1": "Europa war einmal das Herz der christlichen Zivilisation. Heute ist es einer der säkularsten Kontinente der Erde – und einer der am schlechtesten versorgten, wenn es um qualitativ hochwertige Schriftressourcen geht.",
+        "p2": "Das Schweigen hier ist primär keine Ablehnung. Es ist Unfähigkeit.",
+        "p3": "Historische Kirchen haben oft institutionelle Ressourcen, aber abnehmende Energie – und manchmal theologische Ambivalenz, ob Schrift noch verwandelt. Evangelikale und charismatische Gemeinden haben Überzeugung, aber fehlen an Maßstab und Infrastruktur. Kleinere Sprachgemeinschaften – Dänisch, Schwedisch, Polnisch, Portugiesisch, Ukrainisch – können einfach nicht die Jahrzehnte wissenschaftlicher Arbeit aufrechterhalten, die für Ressourcen dieser Tiefe erforderlich sind.",
+        "p4": "Das Bedürfnis ist vast. Traditionelle Kapazität ist unzureichend. Nicht weil Menschen untreu sind, sondern weil die Ökonomie nicht funktioniert und die Demografie sich verschoben hat."
+      },
+      "possible": {
+        "title": "Was KI möglich macht",
+        "p1": "Eine Übersetzung dieser Tiefe – literarisch, kontextuell angereichert, multimedia-reich, ökumenisch gegründet – würde normalerweise eine Generation Arbeit pro Sprache erfordern. Für die meisten europäischen Gemeinschaften würde es überhaupt nicht passieren.",
+        "p2": "KI ersetzt nicht menschliches Urteil. Sie multipliziert es. Jede exegetische Entscheidung, jede Übersetzungswahl, jede Fußnote durchläuft immer noch menschliche Überprüfung. Aber der Maßstab wird möglich. Elf Sprachen jetzt. Mehr folgen. Ressourcen, die kleinere Gemeinschaften nie allein produzieren könnten – endlich in Reichweite.",
+        "p3": "Was unmöglich schien, ist jetzt machbar. Gemeinschaften, die Generationen gewartet haben, müssen vielleicht nicht mehr warten.",
+        "p4": "Wir glauben, dass das wichtig ist. Wir glauben, Gott kümmert sich darum. Und wir glauben, er hat uns Werkzeuge gegeben, um etwas zu tun."
+      }
     },
-    "steps": {
-      "title": "Unser Prozess",
+    "workflow": {
+      "title": "Der Arbeitsablauf",
       "step1": {
         "title": "Tiefe Exegese",
-        "desc": "Umfassende wissenschaftliche Forschung: Griechischer Textanalyse, Hauptkommentare, Lexika, kulturelle Studien und patristische Quellen."
+        "desc": "Umfassende wissenschaftliche Forschung für jede Passage: Griechische Textanalyse, Hauptkommentare über Traditionen hinweg, Lexika, kulturelle und historische Studien, patristische Quellen. Das ist die Grundlage, auf der alles andere aufbaut."
       },
       "step2": {
-        "title": "Übersetzungsentwurf",
-        "desc": "KI-unterstützte Entwurfserstellung, gefiltert durch unsere Übersetzungsphilosophie: zugänglich, literarisch, ehrlich."
+        "title": "Literarischer Übersetzungsentwurf",
+        "desc": "KI-unterstützte Entwurfserstellung, gefiltert durch unsere Übersetzungsphilosophie – literarisch, zugänglich, treu. Das Ziel: Sprache, würdig, laut vorgelesen zu werden, nicht nur dekodiert."
       },
       "step3": {
-        "title": "Menschliche Überprüfung",
-        "desc": "Übersetzungsteams überprüfen und verfeinern, stellen Genauigkeit, literarische Qualität und Treue zum ursprünglichen Text sicher."
+        "title": "Kontextuelle Anreicherung",
+        "desc": "Identifizierung und Integration von kulturellem, geografischem, religiösem und literarischem Kontext, den das ursprüngliche Publikum gekannt hätte. Klar formatiert, um vom biblischen Text selbst zu unterscheiden."
       },
       "step4": {
-        "title": "Community-Feedback",
-        "desc": "Offen für Community-Input und Diskussion. Übersetzung verbessert sich durch Gespräch."
+        "title": "Fußnoten & Exegese",
+        "desc": "Tiefere Schichten für die, die sie wollen: Griechische Wortwahl, wissenschaftliche Debatten, historischer Hintergrund und ehrliche Anerkennung von Unsicherheit und Interpretationsoptionen."
       },
       "step5": {
         "title": "Multimedia-Produktion",
-        "desc": "Audio-Bibel, Podcasts, Songs und Meditationen, die den Text zum Leben erwecken."
+        "desc": "Audio-Bibel-Erzählung. Podcasts, die jede Perikope erschließen. Originale Songs, die das emotionale und theologische Gewicht zentraler Passagen einfangen. Meditationen Andachtsleitfäden. Schrift erlebt, nicht nur gelesen."
+      },
+      "step6": {
+        "title": "Menschliche Überprüfung & Verfeinerung",
+        "desc": "Jede Ausgabe durchläuft menschliche Überprüfung. KI generiert Entwürfe; Menschen korrigieren, verfeinern und genehmigen. Das Urteil ist immer menschlich."
+      },
+      "step7": {
+        "title": "Community-Feedback",
+        "desc": "Laufende Revision basierend auf Leserreaktion und wissenschaftlichem Input. Übersetzung ist nie fertig – sie ist ein lebendiges Gespräch."
       }
+    },
+    "principles": {
+      "title": "Leitprinzipien",
+      "honesty": {
+        "title": "Ehrlichkeit",
+        "desc": "Wir verbergen keine Komplexität, glätten keine Schwierigkeiten oder tun so, als ob wir Gewissheit hätten, wo es keine gibt. Der Text ist fremder und herausfordernder, als viele Übersetzungen zulassen. Wir lassen ihn sein."
+      },
+      "accessibility": {
+        "title": "Zugänglichkeit",
+        "desc": "Jeder Satz sollte ohne Insider-Vokabular oder angenommenes religiöses Hintergrundwissen verständlich sein. Klarheit ist keine Vereinfachung – sie ist Gastfreundschaft."
+      },
+      "craft": {
+        "title": "Literarisches Handwerk",
+        "desc": "Sprache, die des Textes würdig ist. Nicht nur übertragene Information, sondern Schreiben, das Lesen belohnt – Rhythmus, Bildhaftigkeit, Gewicht."
+      },
+      "expectancy": {
+        "title": "Geistliche Erwartung",
+        "desc": "Wir studieren gründlich, weil wir glauben, dass der Text noch verwandeln kann. Theologie dient der Begegnung, nicht umgekehrt."
+      },
+      "humility": {
+        "title": "Ökumenische Demut",
+        "desc": "Wir lernen von Traditionen über unsere hinaus. Wir geben zu, was wir nicht wissen. Wir halten unsere Interpretationen mit offenen Händen."
+      }
+    },
+    "involved": {
+      "title": "Machen Sie mit",
+      "intro": "Aperto ist ein offenes Projekt. Wir begrüßen Beiträge:",
+      "translation": "Übersetzungsprüfung – Muttersprachler und biblische Gelehrte",
+      "cultural": "Kulturelle Beratung – Besonders für nicht-englische europäische Kontexte",
+      "audio": "Audio- & Musikproduktion – Erzählung, originale Kompositionen",
+      "technical": "Technische Entwicklung – Plattform, Arbeitsabläufe, Barrierefreiheit",
+      "feedback": "Feedback – Lesen, reagieren, helfen Sie uns zu verbessern",
+      "contact": "Kontaktieren Sie uns",
+      "contactEmail": "info@apertobible.com"
     },
     "newsletter": {
       "title": "Bleiben Sie auf dem Laufenden",
@@ -193,6 +287,7 @@
       "email": "E-Mail",
       "agree": "Ich stimme zu, E-Mail-Updates und Werbeangebote zu erhalten.",
       "button": "Aperto Newsletter erhalten"
-    }
+    },
+    "readLuke": "Lukas 1 lesen →"
   }
 }

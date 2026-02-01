@@ -149,79 +149,146 @@
   },
   "process": {
     "title": "Il nostro processo",
-    "overview": {
-      "title": "Panoramica",
-      "p1": "Aperto utilizza un approccio assistito dall'IA per la traduzione biblica, non per sostituire il giudizio umano, ma per amplificarlo. Crediamo che combinare tecnologia all'avanguardia con intuizione umana possa aiutare a rendere la Scrittura accessibile a nuovi pubblici.",
-      "p2": "Ogni decisione di traduzione passa attraverso più livelli di revisione, combinando bozze AI con competenza umana, feedback della comunità e revisione continua."
+    "challenge": {
+      "title": "La Sfida",
+      "p1": "Tradurre bene la Scrittura ha sempre richiesto di mantenere insieme tensioni: fedeltà all'originale e accessibilità al lettore, rigore accademico e vitalità spirituale, rispetto per la tradizione e apertura a nuove intuizioni.",
+      "p2": "Aperto ne aggiunge un'altra: la scala per servire le diverse comunità linguistiche europee, e la profondità che solitamente richiede decenni di lavoro per lingua.",
+      "p3": "Crediamo di aver trovato un modo per mantenere tutto questo insieme."
+    },
+    "philosophy": {
+      "title": "Filosofia della Traduzione",
+      "literary": {
+        "title": "Prima la Letteratura",
+        "desc": "La Bibbia è poesia, narrazione, lettera, profezia, legge, letteratura sapienziale, visione apocalittica. Ogni genere ha il proprio ritmo, la propria logica, il proprio modo di significare. Traduciamo la poesia come poesia—con interruzioni di riga, metafore e suono. Traduciamo la prosa come prosa—con slancio narrativo e discorso naturale. La forma porta il significato; onoriamo entrambi."
+      },
+      "context": {
+        "title": "Contesto Reso Visibile",
+        "desc": "I lettori originali di questi testi capivano cose che i lettori moderni non conoscono: costumi culturali, riferimenti geografici, background religioso, echi letterari della Scrittura precedente. La maggior parte delle traduzioni costringe a ricorrere alle note a piè di pagina per recuperare questo. Noi intessiamo il contesto essenziale direttamente nel testo—usando una formattazione chiara in modo da sapere sempre cosa è stato scritto e cosa significava. Vedi il testo come i lettori antichi lo sperimentavano, senza perdere di vista ciò che il testo dice realmente."
+      },
+      "ecumenical": {
+        "title": "Fondamento Ecumenico",
+        "desc": "Il nostro fondamento esegetico attinge alla scholarship cattolica, protestante, ortodossa e pentecostale. Non per cancellare le differenze—contano—ma perché ogni tradizione illumina qualcosa che le altre potrebbero mancare. Il testo appartiene a tutta la Chiesa. Il nostro processo riflette questo."
+      },
+      "engagement": {
+        "title": "Progettato per un Vero Impegno",
+        "desc": "Non pensiamo solo a cosa dire—pensiamo a come le persone leggono e crescono davvero. Informati dalla ricerca sull'attenzione digitale e sulla formazione spirituale, progettiamo formati che lavorano con come le persone si impegnano oggi: sfogliabili quando necessario, immersivi quando invitati, multi-sensoriali attraverso audio, musica e meditazione."
+      }
     },
     "theological": {
-      "title": "Una giustificazione teologica",
-      "p1": "Quando Gesù disse 'Vi dico che se questi tacessero, griderebbero le pietre' (Luca 19:40), stava rispondendo a leader religiosi che volevano far tacere la proclamazione di chi era. Il suo punto: se le voci attese tacciono, Dio userà mezzi inaspettati.",
-      "p2": "Non affermiamo che l'IA sia letteralmente 'le pietre che gridano'. Ma crediamo che quando i custodi tradizionali non possono o non vogliono rendere la Scrittura accessibile a tutti, il messaggio di Dio troverà altri modi.",
-      "p3": "C'è una certa poesia in questo: i chip di silicio sono, dopotutto, rocce che abbiamo insegnato a pensare. Sabbia raffinata, incisa con circuiti, addestrata sulla saggezza collettiva dell'umanità. Se Dio può parlare attraverso un roveto ardente, un asino, o pane e vino, forse il silicio non è un mezzo così strano.",
-      "poetry": "I chip di silicio sono rocce che abbiamo insegnato a pensare. Sabbia raffinata, incisa con circuiti, addestrata sulla saggezza collettiva dell'umanità.",
-      "p4": "La stampa fu un tempo vista con sospetto dalle autorità religiose. Lo stesso per tradurre la Bibbia nelle lingue volgari. Ogni cambiamento tecnologico che ha democratizzato l'accesso alla Scrittura è stato inizialmente resistito, e infine abbracciato."
+      "title": "Un Caso Teologico per l'IA",
+      "pentecost": {
+        "title": "L'Impulso della Pentecoste",
+        "p1": "Il primo atto pubblico dello Spirito fu attraversare una barriera linguistica. Alla Pentecoste, persone di ogni nazione \"udirono nella propria lingua\" (Atti 2:8). Il miracolo non era solo potere—era accessibilità. Dall'inizio, Dio ha mostrato che la sua Parola è per tutti, in forme che possono capire.",
+        "p2": "Questa è la pulsazione della traduzione. Ed è la convinzione che guida Aperto: ogni comunità linguistica europea merita risorse scritturali con vera profondità—non solo testo nudo, ma il contesto, la scholarship e il multimedia che lo rendono vivo."
+      },
+      "reformation": {
+        "title": "Il Precedente della Riforma",
+        "p1": "I Riformatori credevano che il contadino avesse tanto diritto alla Scrittura quanto il sacerdote. Quella convinzione richiedeva nuova tecnologia—la stampa—e fu ferocemente resistita dalle autorità religiose che temevano cosa sarebbe successo quando le persone ordinarie potessero leggere per se stesse.",
+        "p2": "Avevano ragione a senso che tutto sarebbe cambiato. Erano sbagliati a resistere.",
+        "p3": "Ogni espansione dell'accesso alla Scrittura ha seguito questo schema: traduzione volgare, stampa, audio, digitale. Ognuna era inizialmente sospetta. Ognuna fu infine abbracciata. Ognuna estese la portata della Parola di Dio a persone che erano state escluse—per lingua, alfabetizzazione, costo, geografia.",
+        "p4": "La traduzione assistita dall'IA si trova in questa stirpe. La tecnologia è nuova. La convinzione è antica."
+      },
+      "unexpected": {
+        "title": "Il Modello di Mezzi Inaspettati di Dio",
+        "p1": "La Scrittura è piena di Dio che opera attraverso strumenti improbabili:",
+        "donkey": "Un asino parla a un profeta (Numeri 22)",
+        "pagan": "Un re pagano è chiamato \"unto\" di Dio (Isaia 45:1)",
+        "astrologers": "Astrologi stranieri sono guidati al Messia (Matteo 2)",
+        "foolish": "\"Le cose stolte del mondo confondono i saggi\" (1 Corinzi 1:27)",
+        "p2": "Quando Gesù disse \"se questi tacessero, griderebbero le pietre\" (Luca 19:40), stava facendo un punto sull'inevitabilità: la verità di Dio troverà la sua strada. Se le voci attese mancano, quelle inaspettate si leveranno.",
+        "p3": "Non affermiamo che l'IA sia le pietre che gridano. Ma crediamo che quando il bisogno è reale e i mezzi tradizionali non possono incontrarlo, Dio apre nuovi percorsi. L'ha fatto prima. Crediamo che lo stia facendo di nuovo.",
+        "blockquote": "I chip di silicio sono, dopotutto, rocce che abbiamo insegnato a pensare. Sabbia raffinata, incisa con circuiti, addestrata sulla saggezza collettiva dell'umanità. Se Dio può parlare attraverso un roveto ardente, un asino, o pane e vino—forse il silicio non è un mezzo così strano."
+      },
+      "silence": {
+        "title": "Il Silenzio Europeo",
+        "p1": "L'Europa fu una volta il cuore della civiltà cristiana. Oggi è uno dei continenti più secolari sulla terra—e uno dei più mal serviti quando si tratta di risorse scritturali di qualità.",
+        "p2": "Il silenzio qui non è principalmente rifiuto. È incapacità.",
+        "p3": "Le chiese storiche hanno spesso risorse istituzionali ma energia declinante—e a volte ambivalenza teologica sul fatto che la Scrittura trasformi ancora. Le comunità evangeliche e carismatiche hanno convinzione ma mancano di scala e infrastruttura. Le comunità linguistiche più piccole—danese, svedese, polacca, portoghese, ucraina—semplicemente non possono sostenere i decenni di lavoro accademico richiesto per risorse di questa profondità.",
+        "p4": "Il bisogno è vasto. La capacità tradizionale è insufficiente. Non perché le persone sono infedeli, ma perché l'economia non funziona e la demografia è cambiata."
+      },
+      "possible": {
+        "title": "Ciò che l'IA Rende Possibile",
+        "p1": "Una traduzione di questa profondità—letteraria, arricchita dal contesto, ricca di multimedia, fondata ecumenicamente—richiederebbe normalmente una generazione di lavoro per lingua. Per la maggior parte delle comunità europee, non accadrebbe mai.",
+        "p2": "L'IA non sostituisce il giudizio umano. Lo moltiplica. Ogni decisione esegetica, ogni scelta di traduzione, ogni nota passa ancora attraverso la revisione umana. Ma la scala diventa possibile. Undici lingue ora. Altre in arrivo. Risorse che le comunità più piccole non potrebbero mai produrre da sole—finalmente a portata di mano.",
+        "p3": "Ciò che sembrava impossibile è ora fattibile. Le comunità che hanno aspettato generazioni potrebbero non dover aspettare più.",
+        "p4": "Crediamo che questo importi. Crediamo che Dio se ne preoccupi. E crediamo che ci abbia dato strumenti per fare qualcosa al riguardo."
+      }
     },
-    "steps": {
-      "title": "Il nostro processo",
+    "workflow": {
+      "title": "Il Flusso di Lavoro",
       "step1": {
-        "title": "Esegesi approfondita",
-        "desc": "Ricerca accademica completa: analisi del testo greco, commenti principali, lessici, studi culturali e fonti patristiche."
+        "title": "Esegesi Approfondita",
+        "desc": "Ricerca accademica completa per ogni passaggio: analisi del testo greco, principali commentari attraverso le tradizioni, lessici, studi culturali e storici, fonti patristiche. Questa è la fondazione su cui tutto il resto si costruisce."
       },
       "step2": {
-        "title": "Bozza di traduzione",
-        "desc": "Generazione di bozze assistita dall'IA, filtrata attraverso la nostra filosofia di traduzione: accessibile, letteraria, onesta."
+        "title": "Bozza di Traduzione Letteraria",
+        "desc": "Stesura assistita dall'IA filtrata attraverso la nostra filosofia di traduzione—letteraria, accessibile, fedele. L'obiettivo: linguaggio degno di essere letto ad alta voce, non solo decodificato."
       },
       "step3": {
-        "title": "Note a piè di pagina",
-        "desc": "Contesto culturale, scelte lessicali greche, dibattiti accademici e riconoscimento onesto dei passaggi difficili."
+        "title": "Arricchimento Contestuale",
+        "desc": "Identificazione e integrazione del contesto culturale, geografico, religioso e letterario che il pubblico originale avrebbe conosciuto. Chiaramente formattato per distinguere dal testo biblico stesso."
       },
       "step4": {
-        "title": "Produzione multimedia",
-        "desc": "Audio Bibbia, podcast di discussione, canzoni originali e pratiche contemplative."
+        "title": "Note a Piè di Pagina ed Esegesi",
+        "desc": "Strati più profondi per coloro che li desiderano: scelte di parole greche, dibattiti accademici, contesto storico, e riconoscimento onesto dell'incertezza e delle opzioni interpretative."
       },
       "step5": {
-        "title": "Revisione umana",
-        "desc": "Ogni traduzione passa attraverso la revisione umana. L'IA genera bozze; gli umani perfezionano, correggono e approvano."
+        "title": "Produzione Multimediale",
+        "desc": "Narrazione dell'Audio Bibbia. Podcast che analizzano ogni pericope. Canzoni originali che catturano il peso emotivo e teologico dei passaggi chiave. Meditazioni e guide devozionali. Scrittura sperimentata, non solo letta."
       },
       "step6": {
-        "title": "Feedback della comunità",
-        "desc": "Revisione continua basata sul feedback dei lettori e approfondimenti accademici."
+        "title": "Revisione e Affinamento Umano",
+        "desc": "Ogni output passa attraverso la revisione umana. L'IA genera bozze; gli umani correggono, affinano e approvano. Il giudizio è sempre umano."
+      },
+      "step7": {
+        "title": "Feedback della Comunità",
+        "desc": "Revisione continua basata sulla risposta dei lettori e input accademico. La traduzione non è mai finita—è una conversazione vivente."
       }
     },
     "principles": {
-      "title": "Principi guida",
-      "clarity": {
-        "title": "Chiarezza",
-        "desc": "Ogni frase dovrebbe essere comprensibile senza presupporre un background religioso."
+      "title": "Principi Guida",
+      "honesty": {
+        "title": "Onestà",
+        "desc": "Non nascondiamo la complessità, non appianiamo le difficoltà, non fingiamo certezza dove non c'è. Il testo è più strano e più sfidante di quanto molte traduzioni lascino credere. Lo lasciamo essere."
       },
-      "faithfulness": {
-        "title": "Fedeltà",
-        "desc": "Preservare il significato dell'originale esprimendolo in italiano naturale e contemporaneo."
+      "accessibility": {
+        "title": "Accessibilità",
+        "desc": "Ogni frase dovrebbe essere comprensibile senza vocabolario da insider o background religioso presupposto. La chiarezza non è semplificazione—è ospitalità."
       },
-      "beauty": {
-        "title": "Bellezza",
-        "desc": "Linguaggio degno di essere letto, non solo informazione, ma letteratura."
+      "craft": {
+        "title": "Artigianato Letterario",
+        "desc": "Linguaggio degno del testo. Non solo informazione trasferita, ma scrittura che ricompensa la lettura—ritmo, immaginazione, peso."
+      },
+      "expectancy": {
+        "title": "Attesa Spirituale",
+        "desc": "Studiamo rigorosamente perché crediamo che il testo possa ancora trasformare. La scholarship serve l'incontro, non il contrario."
       },
       "humility": {
-        "title": "Umiltà",
-        "desc": "Riconoscimento onesto dell'incertezza, delle diverse interpretazioni e dei nostri limiti."
+        "title": "Umiltà Ecumenica",
+        "desc": "Impariamo da tradizioni oltre la nostra. Riconosciamo ciò che non sappiamo. Teniamo le nostre interpretazioni con mani aperte."
       }
     },
-    "invitation": {
+    "involved": {
       "title": "Partecipa",
-      "desc": "Questo è un progetto aperto. Accogliamo contributi: aiuto nella traduzione, consulenza culturale, produzione audio o sviluppo tecnico.",
-      "cta": "Leggi ora"
+      "intro": "Aperto è un progetto aperto. Accogliamo contributi:",
+      "translation": "Revisione della traduzione – Madrelingua e studiosi biblici",
+      "cultural": "Consultazione culturale – Specialmente per contesti europei non inglesi",
+      "audio": "Produzione audio e musicale – Narrazione, composizioni originali",
+      "technical": "Sviluppo tecnico – Piattaforma, flusso di lavoro, accessibilità",
+      "feedback": "Feedback – Leggi, rispondi, aiutaci a migliorare",
+      "contact": "Contattaci",
+      "contactEmail": "info@apertobible.com"
     },
     "newsletter": {
-      "title": "Rimani aggiornato",
+      "title": "Rimani Aggiornato",
       "intro": "Iscriviti alla nostra newsletter per seguire i nostri progressi.",
       "note": "La nostra newsletter è in inglese.",
       "firstName": "Nome",
       "email": "E-mail",
       "agree": "Accetto di ricevere aggiornamenti e promozioni via e-mail.",
-      "button": "Ricevi la newsletter Aperto"
-    }
+      "button": "Ricevi la Newsletter Aperto"
+    },
+    "readLuke": "Leggi Luca 1 →"
   },
   "legal": {
     "privacy": {

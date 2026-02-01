@@ -106,69 +106,135 @@
   },
   "process": {
     "title": "Vår process",
-    "overview": {
-      "title": "Översikt",
-      "p1": "Aperto använder ett AI-assisterat tillvägagångssätt för bibelöversättning, inte för att ersätta mänskligt omdöme, utan för att förstärka det. Vi tror att kombinera banbrytande teknik med mänsklig insikt kan hjälpa till att göra Skriften tillgänglig för nya målgrupper.",
-      "p2": "Varje översättningsbeslut går genom flera lager av granskning, som kombinerar AI-utkast med mänsklig expertis, gemenskapsfeedback och pågående revision."
+    "challenge": {
+      "title": "Utmaningen",
+      "p1": "Att översätta Skrift väl har alltid krävt att man håller spänningar samman: trohet mot originalet och tillgänglighet för läsaren, vetenskaplig rigorositet och andlig vitalitet, respekt för tradition och öppenhet för ny insikt.",
+      "p2": "Aperto lägger till ytterligare en: skalan att tjäna Europas olika språkgemenskaper, och djupet som vanligtvis kräver decennier av arbete per språk.",
+      "p3": "Vi tror att vi har funnit ett sätt att hålla alla dessa samman."
+    },
+    "philosophy": {
+      "title": "Översättningsfilosofi",
+      "literary": {
+        "title": "Litteratur först",
+        "desc": "Bibeln är poesi, berättelse, brev, profetia, lag, visdomslitteratur, apokalyptisk vision. Varje genre har sin egen rytm, sin egen logik, sitt eget sätt att betyda. Vi översätter poesi som poesi—with radbrytningar, metaforer och ljud. Vi översätter prosa som prosa—with berättarkraft och naturligt tal. Formen bär betydelse; vi hedrar båda."
+      },
+      "context": {
+        "title": "Kontext synliggjord",
+        "desc": "De ursprungliga läsarna av dessa texter förstod saker som moderna läsare inte gör: kulturella sedvänjor, geografiska referenser, religiös bakgrund, litterära ekon från tidigare skrifter. De flesta översättningar tvingar dig till fotnoter för att återfå detta. Vi väver väsentlig kontext direkt i texten—med hjälp av tydlig formatering så att du alltid vet vad som skrevs och vad det betydde. Du ser texten som antika läsare upplevde den, utan att tappa sikte på vad texten faktiskt säger."
+      },
+      "ecumenical": {
+        "title": "Ekumenisk grund",
+        "desc": "Vår exegetiska grund bygger på katolsk, protestantisk, ortodox och pingstvetenskap. Inte för att sudda ut skillnader—de är viktiga—utan för att varje tradition belyser något andra kan missa. Texten tillhör hela kyrkan. Vår process återspeglar det."
+      },
+      "engagement": {
+        "title": "Designad för verkligt engagemang",
+        "desc": "Vi tänker inte bara på vad vi ska säga—vi tänker på hur människor faktiskt läser och växer. Informerad av forskning om digital uppmärksamhet och andlig formning, vi designar format som fungerar med hur människor engagerar sig idag: skannbart vid behov, fördjupat när inbjuden, multisensoriskt över ljud, musik och meditation."
+      }
     },
     "theological": {
-      "title": "En teologisk motivering",
-      "p1": "När Jesus sa 'Jag säger er: om dessa tiger, kommer stenarna att ropa' (Lukas 19:40), svarade han religiösa ledare som ville tysta förkunnelsen av vem han var. Hans poäng: om de förväntade rösterna tiger, kommer Gud att använda oväntade medel.",
-      "p2": "Vi hävdar inte att AI bokstavligen är 'stenarna som ropar'. Men vi tror att när traditionella grindvakter inte kan eller vill göra Skriften tillgänglig för alla, kommer Guds budskap att hitta andra vägar.",
-      "p3": "Det finns en viss poesi i det: kiselchips är trots allt stenar vi har lärt att tänka. Sand förfinad, etsad med kretsar, tränad på mänsklighetens samlade visdom. Om Gud kan tala genom en brinnande buske, en åsna, eller bröd och vin, kanske kisel inte är ett så konstigt medium.",
-      "poetry": "Kiselchips är stenar vi har lärt att tänka. Sand förfinad, etsad med kretsar, tränad på mänsklighetens samlade visdom.",
-      "p4": "Tryckpressen betraktades en gång med misstänksamhet av religiösa auktoriteter. Detsamma gällde för att översätta Bibeln till folkspråk. Varje teknologisk förändring som demokratiserade tillgången till Skriften möttes först av motstånd, och omfamnades så småningom."
+      "title": "Ett teologiskt argument för AI",
+      "pentecost": {
+        "title": "Pingstimpulsen",
+        "p1": "Andens första offentliga handling var att korsa en språkbarriär. Vid pingst hörde människor från varje nation \"i sitt eget språk\" (Apostlagärningarna 2:8). Undret var inte bara kraft—it var tillgänglighet. Från början har Gud visat att hans ord är avsett för alla, i former de kan förstå.",
+        "p2": "Det är hjärtslaget i översättning. Och det är övertygelsen som driver Aperto: varje europeisk språkgemenskap förtjänar skriftresurser med rikt djup—inte bara bar text, utan kontexten, vetenskapen och multimedia som ger den liv."
+      },
+      "reformation": {
+        "title": "Reformationsförebilden",
+        "p1": "Reformatorerna trodde att plogen hade lika stor rätt till skriften som prästen. Den övertygelsen krävde ny teknik—tryckpressen—och möttes hårt av religiösa auktoriteter som fruktade vad som skulle hända när vanliga människor kunde läsa själva.",
+        "p2": "De hade rätt att känna att allt skulle förändras. De hade fel att motsätta sig det.",
+        "p3": "Varje expansion av skrifttillgång har följt detta mönster: folköversättning, tryckning, ljud, digitalt. Varje var först misstänkt. Varje omfamnades till slut. Varje utökade räckvidden för Guds ord till människor som hade uteslutits—av språk, av läskunnighet, av kostnad, av geografi.",
+        "p4": "AI-assisterad översättning står i denna linje. Tekniken är ny. Övertygelsen är urgammal."
+      },
+      "unexpected": {
+        "title": "Guds mönster av oväntade medel",
+        "p1": "Skriften är full av Gud som arbetar genom osannolika instrument:",
+        "donkey": "En åsna talar till en profet (4 Moseboken 22)",
+        "pagan": "En hedning kung kallas Guds \"smorde\" (Jesaja 45:1)",
+        "astrologers": "Utländska astrologer leds till Messias (Matteus 2)",
+        "foolish": "\"Det dåraktiga i världen skamer de visa\" (1 Korinthiernabrevet 1:27)",
+        "p2": "När Jesus sa \"om dessa tiger, kommer själva stenarna att ropa\" (Lukas 19:40), gjorde han en poäng om oundviklighet: Guds sanning kommer att hitta sin väg ut. Om förväntade röster faller kort, kommer oväntade att resa sig.",
+        "p3": "Vi hävdar inte att AI är stenarna som ropar. Men vi tror att när behovet är äkta och traditionella medel inte kan möta det, öppnar Gud nya vägar. Han har gjort det förut. Vi tror att han gör det igen.",
+        "blockquote": "Kiselchips är trots allt stenar vi lärt att tänka. Sand förfinad, etsad med kretsar, tränad på mänsklighetens samlade visdom. Om Gud kan tala genom en brinnande buske, en åsna, eller bröd och vin—kanske kisel inte är så konstigt ett medium."
+      },
+      "silence": {
+        "title": "Den europeiska tystnaden",
+        "p1": "Europa var en gång hjärtat i kristen civilisation. Idag är det en av de mest sekulära kontinenterna på jorden—och en av de mest underservade när det gäller kvalitetsskritresurser.",
+        "p2": "Tystnaden här är främst inte avvisande. Det är oförmåga.",
+        "p3": "Historiska kyrkor har ofta institutionella resurser men minskande energi—och ibland teologisk ambivalens om skrift fortfarande transformerar. Evangeliska och karismatiska gemenskaper har övertygelse men saknar skala och infrastruktur. Mindre språkgemenskaper—danska, svenska, polska, portugisiska, ukrainska—kan helt enkelt inte upprätthålla decennier av vetenskapligt arbete som krävs för resurser av detta djup.",
+        "p4": "Behovet är omfattande. Traditionell kapacitet är otillräcklig. Inte för att människor är otrogna, utan för att ekonomin inte fungerar och demografin har skiftat."
+      },
+      "possible": {
+        "title": "Vad AI gör möjligt",
+        "p1": "En översättning av detta djup—litterär, kontextuellt berikad, multimedia-rik, ekumeniskt grundad—skulle normalt kräva en generation av arbete per språk. För de flesta europeiska gemenskaper skulle det aldrig ske alls.",
+        "p2": "AI ersätter inte mänskligt omdöme. Det multiplicerar det. Varje exegetiskt beslut, varje översättningsval, varje fotnot passerar fortfarande genom mänsklig granskning. Men skalan blir möjlig. Elva språk nu. Mer att komma. Resurser som mindre gemenskaper aldrig kunde producera själva—äntligen inom räckhåll.",
+        "p3": "Vad som verkade omöjligt är nu genomförbart. Gemenskaper som har väntat generationer kanske inte behöver vänta längre.",
+        "p4": "Vi tror att det betyder något. Vi tror att Gud bryr sig om det. Och vi tror att han har gett oss verktyg för att göra något åt det."
+      }
     },
-    "steps": {
-      "title": "Vår process",
+    "workflow": {
+      "title": "Arbetsflödet",
       "step1": {
         "title": "Djup exeges",
-        "desc": "Omfattande vetenskaplig forskning: grekisk textanalys, stora kommentarer, lexikon, kulturstudier och patristiska källor."
+        "desc": "Omfattande vetenskaplig forskning för varje passag: grekisk textanalys, stora kommentarer över traditioner, lexikon, kulturella och historiska studier, patristiska källor. Detta är grunden som allt annat bygger på."
       },
       "step2": {
-        "title": "Översättningsutkast",
-        "desc": "AI-assisterad utkastgenerering, filtrerad genom vår översättningsfilosofi: tillgänglig, litterär, ärlig."
+        "title": "Litterärt översättningsutkast",
+        "desc": "AI-assisterad utkastning filtrerad genom vår översättningsfilosofi—litterär, tillgänglig, trogen. Målet: språk värt att läsas högt, inte bara avkodas."
       },
       "step3": {
-        "title": "Fotnoter",
-        "desc": "Kulturell kontext, grekiska ordval, vetenskapliga debatter och ärligt erkännande av svåra passager."
+        "title": "Kontextuell berikning",
+        "desc": "Identifiering och integration av kulturell, geografisk, religiös och litterär kontext som den ursprungliga publiken skulle ha känt till. Tydligt formaterad för att skilja från den bibliska texten själv."
       },
       "step4": {
-        "title": "Multimediaproduktion",
-        "desc": "Ljudbibel, diskussionspodcasts, originalsånger och kontemplativa övningar."
+        "title": "Fotnoter och exeges",
+        "desc": "Djupare lager för dem som vill ha dem: grekiska ordval, vetenskapliga debatter, historisk bakgrund och ärligt erkännande av osäkerhet och tolkningsalternativ."
       },
       "step5": {
-        "title": "Mänsklig granskning",
-        "desc": "Varje översättning granskas av människor. AI genererar utkast; människor förfinar, korrigerar och godkänner."
+        "title": "Multimediaproduktion",
+        "desc": "Ljuduppläsning av bibeln. Podcasts som packar upp varje perikop. Originalsånger som fångar den emotionella och teologiska tyngden av nyckelpassager. Meditationer and andaktsvägledare. Skrift upplevd, inte bara läst."
       },
       "step6": {
+        "title": "Mänsklig granskning och förfining",
+        "desc": "Varje utgång passerar genom mänsklig granskning. AI genererar utkast; människor korrigerar, förfinar och godkänner. Omdömet är alltid mänskligt."
+      },
+      "step7": {
         "title": "Gemenskapsfeedback",
-        "desc": "Pågående revision baserad på läsarfeedback och vetenskapliga insikter."
+        "desc": "Pågående revision baserad på läsarrespons och vetenskaplig insats. Översättning är aldrig klar—it är en levande konversation."
       }
     },
     "principles": {
       "title": "Vägledande principer",
-      "clarity": {
-        "title": "Klarhet",
-        "desc": "Varje mening ska vara förståelig utan att förutsätta religiös bakgrund."
+      "honesty": {
+        "title": "Ärlighet",
+        "desc": "Vi döljer inte komplexitet, jämna över svårigheter eller låtsas säkerhet där det inte finns någon. Texten är konstigare och mer utmanande än många översättningar låter på. Vi låter den vara."
       },
-      "faithfulness": {
-        "title": "Trohet",
-        "desc": "Bevara originalets mening medan det uttrycks i naturlig, samtida svenska."
+      "accessibility": {
+        "title": "Tillgänglighet",
+        "desc": "Varje mening ska vara begriplig utan insidervokabulär eller antagen religiös bakgrund. Klarhet är inte att förenkla—it är gästfrihet."
       },
-      "beauty": {
-        "title": "Skönhet",
-        "desc": "Språk värt att läsas, inte bara information, utan litteratur."
+      "craft": {
+        "title": "Litterärt hantverk",
+        "desc": "Språk värt texten. Inte bara information överförd, utan skrivning som belönar läsning—rytm, bildspråk, tyngd."
+      },
+      "expectancy": {
+        "title": "Andlig förväntan",
+        "desc": "Vi studerar rigoröst eftersom vi tror att texten fortfarande kan transformera. Vetenskap tjänar möte, inte tvärtom."
       },
       "humility": {
-        "title": "Ödmjukhet",
-        "desc": "Ärligt erkännande av osäkerhet, olika tolkningar och våra egna begränsningar."
+        "title": "Ekumenisk ödmjukhet",
+        "desc": "Vi lär oss av traditioner bortom vår egen. Vi erkänner vad vi inte vet. Vi håller våra tolkningar med öppna händer."
       }
     },
-    "invitation": {
+    "involved": {
       "title": "Engagera dig",
-      "desc": "Detta är ett öppet projekt. Vi välkomnar bidrag, översättningshjälp, kulturell rådgivning, ljudproduktion eller teknisk utveckling.",
-      "cta": "Läs nu"
+      "intro": "Aperto är ett öppet projekt. Vi välkomnar bidrag:",
+      "translation": "Översättningsgranskning – Modersmålstalare och bibelvetare",
+      "cultural": "Kulturell konsultation – Särskilt för icke-engelska europeiska kontexter",
+      "audio": "Ljud och musikproduktion – Uppläsning, originalkompositioner",
+      "technical": "Teknisk utveckling – Plattform, arbetsflöde, tillgänglighet",
+      "feedback": "Feedback – Läs, svara, hjälp oss att förbättra",
+      "contact": "Kontakta oss",
+      "contactEmail": "info@apertobible.com"
     },
     "newsletter": {
       "title": "Håll dig uppdaterad",
@@ -178,7 +244,8 @@
       "email": "E-post",
       "agree": "Jag godkänner att ta emot e-postuppdateringar och erbjudanden.",
       "button": "Få Aperto nyhetsbrev"
-    }
+    },
+    "readLuke": "Läs Lukas 1 →"
   },
   "legal": {
     "privacy": {

@@ -76,69 +76,135 @@
   },
   "process": {
     "title": "Nasz proces",
-    "overview": {
-      "title": "Przegląd",
-      "p1": "Aperto wykorzystuje podejście do tłumaczenia Biblii wspomagane przez AI – nie po to, by zastąpić ludzki osąd, ale by go wzmocnić. Wierzymy, że połączenie najnowocześniejszej technologii z ludzkim wglądem może pomóc uczynić Pismo dostępnym dla nowej publiczności.",
-      "p2": "Każda decyzja tłumaczeniowa przechodzi przez wiele warstw przeglądu, łącząc szkice AI z ludzką ekspertyzą, opiniami społeczności i ciągłą rewizją."
+    "challenge": {
+      "title": "Wyzwanie",
+      "p1": "Dobre tłumaczenie Pisma zawsze wymagało utrzymania napięć: wierności oryginałowi i dostępności dla czytelnika, rygoru naukowego i żywotności duchowej, szacunku dla tradycji i otwartości na nowe spojrzenie.",
+      "p2": "Aperto dodaje jeszcze jedno: skalę służącą różnorodnym społecznościom językowym Europy oraz głębię, która zazwyczaj wymaga dziesięcioleci pracy na język.",
+      "p3": "Wierzymy, że znaleźliśmy sposób na utrzymanie wszystkiego tego razem."
+    },
+    "philosophy": {
+      "title": "Filozofia tłumaczenia",
+      "literary": {
+        "title": "Literatura przede wszystkim",
+        "desc": "Biblia jest poezją, narracją, listem, proroctwem, prawem, literaturą mądrościową, wizją apokaliptyczną. Każdy gatunek ma swój rytm, swoją logikę, swój sposób znaczenia. Tłumaczymy poezję jako poezję – z podziałami na wersy, metaforami i dźwiękiem. Tłumaczymy prozę jako prozę – z dynamiką narracyjną i naturalną mową. Forma niesie znaczenie; szanujemy oba."
+      },
+      "context": {
+        "title": "Widoczny kontekst",
+        "desc": "Oryginalni czytelnicy tych tekstów rozumieli rzeczy, których współcześni czytelnicy nie rozumieją: zwyczaje kulturowe, odniesienia geograficzne, tło religijne, echa literackie ze wcześniejszego Pisma. Większość tłumaczeń zmusza do sięgania do przypisów, aby to odzyskać. Pleciemy istotny kontekst bezpośrednio w tekście – używając wyraźnego formatowania, abyś zawsze wiedział, co zostało napisane, a co to oznaczało. Widzisz tekst tak, jak go doświadczyli starożytni czytelnicy, nie tracąc z oczu tego, co tekst faktycznie mówi."
+      },
+      "ecumenical": {
+        "title": "Fundament ekumeniczny",
+        "desc": "Nasza podstawa egzegetyczna czerpie z nauki katolickiej, protestanckiej, prawosławnej i zielonoświątkowej. Nie by wymazać różnice – one mają znaczenie – ale ponieważ każda tradycja oświetla coś, co inne mogą pominąć. Tekst należy do całego Kościoła. Nasz proces to odzwierciedla."
+      },
+      "engagement": {
+        "title": "Zaprojektowane dla prawdziwego zaangażowania",
+        "desc": "Nie myślimy tylko o tym, co powiedzieć – myślimy o tym, jak ludzie faktycznie czytają i rosną. Informowani przez badania nad cyfrową uwagą i formowaniem duchowym, tworzymy formaty, które współgrają z tym, jak ludzie dziś się angażują: możliwe do skanowania gdy trzeba, immersyjne gdy zaproszeni, wielozmysłowe przez audio, muzykę i medytację."
+      }
     },
     "theological": {
-      "title": "Uzasadnienie teologiczne",
-      "p1": "Kiedy Jezus powiedział: Powiadam wam: Jeśli ci umilkną, kamienie wołać będą (Łukasz 19,40), odpowiadał przywódcom religijnym, którzy chcieli uciszyć głoszenie tego, kim On jest. Jego punkt: jeśli oczekiwane głosy zamilkną, Bóg użyje nieoczekiwanych środków.",
-      "p2": "Nie twierdzimy, że AI jest dosłownie wołającymi kamieniami. Ale wierzymy, że jeśli tradycyjni strażnicy nie mogą lub nie chcą uczynić Pisma dostępnym dla wszystkich, przesłanie Boga znajdzie inne drogi.",
-      "p3": "Jest w tym pewna poezja: chipy krzemowe to przecież kamienie, które nauczyliśmy myśleć. Piasek, oczyszczony, wytrawiony obwodami, wytrenowany na zebranej mądrości ludzkości. Jeśli Bóg może przemawiać przez płonący krzew, osła lub chleb i wino – być może krzem nie jest tak dziwnym medium.",
-      "poetry": "Chipy krzemowe to kamienie, które nauczyliśmy myśleć. Piasek, oczyszczony, wytrawiony obwodami, wytrenowany na zebranej mądrości ludzkości.",
-      "p4": "Prasa drukarska była kiedyś traktowana z podejrzliwością przez władze religijne. Podobnie tłumaczenie Biblii na języki narodowe. Każda technologiczna zmiana, która demokratyzowała dostęp do Pisma, była początkowo odrzucana – i ostatecznie przyjmowana."
+      "title": "Teologiczne uzasadnienie dla AI",
+      "pentecost": {
+        "title": "Impuls Zesłania Ducha Świętego",
+        "p1": "Pierwszą publiczną czynnością Ducha było przekroczenie bariery językowej. Na Zesłaniu Ducha Świętego ludzie z każdego narodu «słyszeli w swoim własnym języku» (Dz 2,8). Cud nie był tylko mocą – był dostępnością. Od początku Bóg pokazał, że Jego słowo jest przeznaczone dla każdego, w formach, które mogą zrozumieć.",
+        "p2": "To jest serce tłumaczenia. I to przekonanie napędza Aperto: każda europejska społeczność językowa zasługuje na zasoby Pisma z prawdziwą głębią – nie tylko sam tekst, ale kontekst, naukę i multimedia, które je ożywiają."
+      },
+      "reformation": {
+        "title": "Precedens Reformacji",
+        "p1": "Reformatorzy wierzyli, że oracz ma takie samo prawo do Pisma jak kapłan. To przekonanie wymagało nowej technologii – prasy drukarskiej – i było ostro opierane przez władze religijne, które obawiały się, co się stanie, gdy zwykli ludzie będą mogli czytać sami.",
+        "p2": "Mieli rację, czując, że wszystko się zmieni. Mylili się, opierając temu.",
+        "p3": "Każde rozszerzenie dostępu do Pisma podążało tym wzorem: tłumaczenie na języki narodowe, druk, audio, cyfrowe. Każde było początkowo podejrzewane. Każde zostało ostatecznie przyjęte. Każde rozszerzyło zasięg słowa Bożego do ludzi, którzy byli wykluczeni – przez język, piśmienność, koszty, geografię.",
+        "p4": "Tłumaczenie wspomagane przez AI stoi w tej linii. Technologia jest nowa. Przekonanie jest starożytne."
+      },
+      "unexpected": {
+        "title": "Boży wzorzec nieoczekiwanych środków",
+        "p1": "Pismo jest pełne Boga działającego przez mało prawdopodobne instrumenty:",
+        "donkey": "Osioł mówi do proroka (Lb 22)",
+        "pagan": "Pogański król jest nazywany «namaszczonym» Boga (Iz 45,1)",
+        "astrologers": "Obcy magowie są prowadzeni do Mesjasza (Mt 2)",
+        "foolish": "«Głupie rzeczy tego świecie zawstydzają mądrych» (1 Kor 1,27)",
+        "p2": "Kiedy Jezus powiedział «jeśli ci umilkną, kamienie wołać będą» (Łk 19,40), robił punkt o nieuniknioności: prawda Boża znajdzie wyjście. Jeśli oczekiwane głosy zawiodą, nieoczekiwane powstaną.",
+        "p3": "Nie twierdzimy, że AI to wołające kamienie. Ale wierzymy, że gdy potrzeba jest prawdziwa, a tradycyjne środki nie mogą jej zaspokoić, Bóg otwiera nowe ścieżki. Robił to wcześniej. Wierzymy, że robi to znowu.",
+        "blockquote": "Chipy krzemowe to w końcu skały, których nauczyliśmy myśleć. Piasek oczyszczony, wytrawiony obwodami, wytrenowany na zebranej mądrości ludzkości. Jeśli Bóg może mówić przez płonący krzew, osła albo chleb i wino – może krzem nie jest tak dziwnym medium."
+      },
+      "silence": {
+        "title": "Europejska cisza",
+        "p1": "Europa była kiedyś sercem cywilizacji chrześcijańskiej. Dziś jest jednym z najbardziej świeckich kontynentów na ziemi – i jednym z najmniej obsługiwanych pod względem jakościowych zasobów Pisma.",
+        "p2": "Cisza tutaj nie jest przede wszystkim odrzuceniem. Jest niezdolnością.",
+        "p3": "Historyczne kościoły często mają zasoby instytucjonalne, ale malejącą energię – a czasem teologiczną niejednoznaczność co do tego, czy Pismo wciąż przekształca. Społeczności ewangelikalne i charyzmatyczne mają przekonanie, ale brak im skali i infrastruktury. Mniejsze społeczności językowe – duńska, szwedzka, polska, portugalska, ukraińska – po prostu nie mogą utrzymać dziesięcioleci pracy naukowej wymaganej dla zasobów tej głębi.",
+        "p4": "Potrzeba jest ogromna. Tradycyjna zdolność jest niewystarczająca. Nie dlatego, że ludzie są niewierni, ale because ekonomika nie działa i demografia się zmieniła."
+      },
+      "possible": {
+        "title": "Co czyni AI możliwym",
+        "p1": "Tłumaczenie tej głębi – literackie, wzbogacone kontekstowo, bogate w multimedia, oparte ekumenicznie – normalnie wymagałoby pokolenia pracy na język. Dla większości społeczności europejskich nigdy by to się nie stało.",
+        "p2": "AI nie zastępuje ludzkiego osądu. Go mnoży. Każda decyzja egzegetyczna, każdy wybór tłumaczeniowy, każda przypis nadal przechodzi przez ludzki przegląd. Ale skala staje się możliwa. Jedenaście języków teraz. Więcej w przyszłości. Zasoby, których mniejsze społeczności nigdy nie mogłyby wyprodukować same – wreszcie w zasięgu.",
+        "p3": "To, co wydawało się niemożliwe, jest teraz wykonalne. Społeczności, które czekały pokolenia, mogą już nie musieć czekać.",
+        "p4": "Wierzymy, że to ma znaczenie. Wierzymy, że Bóg się tym przejmuje. I wierzymy, że dał nam narzędzia, by coś z tym zrobić."
+      }
     },
-    "steps": {
-      "title": "Nasz proces",
+    "workflow": {
+      "title": "Przepływ pracy",
       "step1": {
         "title": "Głęboka egzegeza",
-        "desc": "Kompleksowe badania naukowe: analiza tekstu greckiego, kluczowe komentarze, leksykony, studia kulturowe i źródła patrystyczne."
+        "desc": "Kompleksowe badania naukowe dla każdego fragmentu: analiza tekstu greckiego, główne komentarze między tradycjami, leksykony, studia kulturowe i historyczne, źródła patrystyczne. To fundament, na którym wszystko inne się buduje."
       },
       "step2": {
-        "title": "Szkic tłumaczenia",
-        "desc": "Generowanie szkicu wspomagane przez AI, przefiltrowane przez naszą filozofię tłumaczenia: przystępne, literackie, uczciwe."
+        "title": "Szkic tłumaczenia literackiego",
+        "desc": "Szkicowanie wspomagane przez AI przefiltrowane przez naszą filozofię tłumaczenia – literackie, dostępne, wierne. Cel: język godny czytania na głos, nie tylko dekodowania."
       },
       "step3": {
-        "title": "Przypisy",
-        "desc": "Kontekst kulturowy, greckie wybory słowne, debaty naukowe i uczciwe uznanie trudnych fragmentów."
+        "title": "Wzbogacenie kontekstowe",
+        "desc": "Identyfikacja i integracja kontekstu kulturowego, geograficznego, religijnego i literackiego, który oryginalna publiczność znała. Wyraźnie sformatowany, aby odróżnić od samego tekstu biblijnego."
       },
       "step4": {
-        "title": "Produkcja multimediów",
-        "desc": "Audiobiblia, podcasty dyskusyjne, oryginalne piosenki i praktyki kontemplacyjne."
+        "title": "Przypisy i egzegeza",
+        "desc": "Głębsze warstwy dla tych, którzy ich chcą: greckie wybory słowne, debaty naukowe, tło historyczne i uczciwe uznanie niepewności i opcji interpretacyjnych."
       },
       "step5": {
-        "title": "Przegląd ludzki",
-        "desc": "Każde tłumaczenie przechodzi przegląd ludzki. AI generuje szkice; ludzie dopracowują, poprawiają i zatwierdzają."
+        "title": "Produkcja multimediów",
+        "desc": "Narracja audiobilii. Podcasty rozwijające każdy perkopę. Oryginalne piosenki uchytujące emocjonalny i teologiczny ciężar kluczowych fragmentów. Medytacje i przewodniki dewocyjne. Pismo doświadczone, nie tylko przeczytane."
       },
       "step6": {
-        "title": "Opinie społeczności",
-        "desc": "Ciągła rewizja oparta na opiniach czytelników i odkryciach naukowych."
+        "title": "Ludzki przegląd i dopracowanie",
+        "desc": "Każdy wynik przechodzi przez ludzki przegląd. AI generuje szkice; ludzie korygują, dopracowują i zatwierdzają. Osąd jest zawsze ludzki."
+      },
+      "step7": {
+        "title": "Opinii społeczności",
+        "desc": "Ciągła rewizja na podstawie odpowiedzi czytelników i wkładu naukowego. Tłumaczenie nigdy nie jest skończone – to żywa rozmowa."
       }
     },
     "principles": {
       "title": "Zasady przewodnie",
-      "clarity": {
-        "title": "Jasność",
-        "desc": "Każde zdanie powinno być zrozumiałe bez zakładania religijnego tła."
+      "honesty": {
+        "title": "Uczciwość",
+        "desc": "Nie ukrywamy złożoności, nie wygładzamy trudności, nie udajemy pewności tam, gdzie jej nie ma. Tekst jest dziwniejszy i bardziej wyzywający niż pozwala na to większość tłumaczeń. Pozwalamy mu być."
       },
-      "faithfulness": {
-        "title": "Wierność",
-        "desc": "Zachowanie znaczenia oryginału przy wyrażeniu w naturalnej, współczesnej polszczyźnie."
+      "accessibility": {
+        "title": "Dostępność",
+        "desc": "Każde zdanie powinno być zrozumiałe bez słownictwa dla wtajemniczonych czy zakładanego tła religijnego. Jasność nie jest upraszczaniem – jest gościnnością."
       },
-      "beauty": {
-        "title": "Piękno",
-        "desc": "Język godny lektury – nie tylko informacja, ale literatura."
+      "craft": {
+        "title": "Rzemiosło literackie",
+        "desc": "Język godny tekstu. Nie tylko przekazana informacja, ale pisanie, które nagradza czytanie – rytm, obrazowanie, ciężar."
+      },
+      "expectancy": {
+        "title": "Duchowa oczekiwalność",
+        "desc": "Studium rygorystycznie, ponieważ wierzymy, że tekst może wciąż przekształca. Nauka służy spotkaniu, nie odwrotnie."
       },
       "humility": {
-        "title": "Pokora",
-        "desc": "Uczciwe uznanie niepewności, różnych interpretacji i naszych własnych ograniczeń."
+        "title": "Pokora ekumeniczna",
+        "desc": "Uczymy się od tradycji poza naszą własną. Uznajemy to, czego nie wiemy. Trzymamy nasze interpretacje otwartymi rękami."
       }
     },
-    "invitation": {
-      "title": "Dołącz do nas",
-      "desc": "To jest otwarty projekt. Zapraszamy do współpracy – pomoc w tłumaczeniu, doradztwo kulturowe, produkcja audio lub rozwój techniczny.",
-      "cta": "Czytaj teraz"
+    "involved": {
+      "title": "Zaangażuj się",
+      "intro": "Aperto to otwarty projekt. Witamy wkład:",
+      "translation": "Przegląd tłumaczenia – Rodzimi mówcy i bibliści",
+      "cultural": "Doradztwo kulturowe – Zwłaszcza dla nieangielskich kontekstów europejskich",
+      "audio": "Produkcja audio i muzyczna – Narracja, oryginalne kompozycje",
+      "technical": "Rozwój techniczny – Platforma, przepływ pracy, dostępność",
+      "feedback": "Opinii – Czytaj, odpowiadaj, pomóż nam ulepszać",
+      "contact": "Skontaktuj się z nami",
+      "contactEmail": "info@apertobible.com"
     },
     "newsletter": {
       "title": "Bądź na bieżąco",
@@ -148,7 +214,8 @@
       "email": "E-mail",
       "agree": "Zgadzam się na otrzymywanie aktualizacji i promocji e-mail.",
       "button": "Otrzymuj newsletter Aperto"
-    }
+    },
+    "readLuke": "Czytaj Łukasza 1 →"
   },
   "legal": {
     "privacy": {
