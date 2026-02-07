@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://apertobible.com",
+  site: "https://aperto.bible",
   base: "/",
   trailingSlash: "ignore",
   i18n: {
