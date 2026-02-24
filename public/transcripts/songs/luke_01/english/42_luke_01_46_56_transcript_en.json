@@ -1,474 +1,2307 @@
 {
   "schema_version": "1.0",
-  "song_id": "42_luke_01_46_56_en",
-  "title": "The Nobody",
+  "song_id": "42_luke_01_46_56_transcript_en",
+  "title": "Song",
   "artist": "Aperto Bible",
   "language": "en",
   "book": "luke",
   "chapter": 1,
   "verses": "46-56",
-  "duration_ms": 227719,
-  "audio_file": "songs/luke_01/english/Luke 1_46-56 English (The Magnificat).mp3",
-  "lyrics_source": "38_luke_01_46-56_FINAL_OUTPUT.md",
-  "generated_at": "2026-01-23T16:15:36.699175",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
   "sections": [
     {
-      "type": "verse",
-      "label": "Verse 1",
+      "type": "song",
+      "label": "Lyrics",
       "lines": [
         {
           "text": "I can feel it rising up inside",
-          "start_ms": 5000,
-          "end_ms": 8628
+          "start_ms": 11640,
+          "end_ms": 13980,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 11640,
+              "end_ms": 12200
+            },
+            {
+              "word": "can",
+              "start_ms": 12200,
+              "end_ms": 12360
+            },
+            {
+              "word": "feel",
+              "start_ms": 12360,
+              "end_ms": 12600
+            },
+            {
+              "word": "it",
+              "start_ms": 12600,
+              "end_ms": 12760
+            },
+            {
+              "word": "rising",
+              "start_ms": 12760,
+              "end_ms": 13160
+            },
+            {
+              "word": "up",
+              "start_ms": 13160,
+              "end_ms": 13440
+            },
+            {
+              "word": "inside",
+              "start_ms": 13440,
+              "end_ms": 13980
+            }
+          ]
         },
         {
           "text": "This fire burning, I can not keep it quiet",
-          "start_ms": 8628,
-          "end_ms": 12257
+          "start_ms": 14440,
+          "end_ms": 16660,
+          "words": [
+            {
+              "word": "This",
+              "start_ms": 14440,
+              "end_ms": 14720
+            },
+            {
+              "word": "fire",
+              "start_ms": 14720,
+              "end_ms": 14920
+            },
+            {
+              "word": "burning,",
+              "start_ms": 14920,
+              "end_ms": 15340
+            },
+            {
+              "word": "I",
+              "start_ms": 15340,
+              "end_ms": 15560
+            },
+            {
+              "word": "can",
+              "start_ms": 15560,
+              "end_ms": 15700
+            },
+            {
+              "word": "not",
+              "start_ms": 15750,
+              "end_ms": 16050
+            },
+            {
+              "word": "keep",
+              "start_ms": 15700,
+              "end_ms": 16100
+            },
+            {
+              "word": "it",
+              "start_ms": 16100,
+              "end_ms": 16320
+            },
+            {
+              "word": "quiet",
+              "start_ms": 16320,
+              "end_ms": 16660
+            }
+          ]
         },
         {
           "text": "You found me in the corner, overlooked",
-          "start_ms": 12257,
-          "end_ms": 15885
+          "start_ms": 17240,
+          "end_ms": 19440,
+          "words": [
+            {
+              "word": "You",
+              "start_ms": 17240,
+              "end_ms": 17340
+            },
+            {
+              "word": "found",
+              "start_ms": 17340,
+              "end_ms": 17540
+            },
+            {
+              "word": "me",
+              "start_ms": 17540,
+              "end_ms": 17760
+            },
+            {
+              "word": "in",
+              "start_ms": 17760,
+              "end_ms": 17920
+            },
+            {
+              "word": "the",
+              "start_ms": 17920,
+              "end_ms": 18040
+            },
+            {
+              "word": "corner,",
+              "start_ms": 18040,
+              "end_ms": 18340
+            },
+            {
+              "word": "overlooked",
+              "start_ms": 18340,
+              "end_ms": 19440
+            }
+          ]
         },
         {
           "text": "The one they never gave a second look",
-          "start_ms": 15885,
-          "end_ms": 19514
+          "start_ms": 17920,
+          "end_ms": 21920,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 17920,
+              "end_ms": 18040
+            },
+            {
+              "word": "one",
+              "start_ms": 20000,
+              "end_ms": 20160
+            },
+            {
+              "word": "they",
+              "start_ms": 20160,
+              "end_ms": 20360
+            },
+            {
+              "word": "never",
+              "start_ms": 20360,
+              "end_ms": 20620
+            },
+            {
+              "word": "gave",
+              "start_ms": 20620,
+              "end_ms": 20880
+            },
+            {
+              "word": "a",
+              "start_ms": 20880,
+              "end_ms": 21200
+            },
+            {
+              "word": "second",
+              "start_ms": 21200,
+              "end_ms": 21560
+            },
+            {
+              "word": "look",
+              "start_ms": 21560,
+              "end_ms": 21920
+            }
+          ]
         },
         {
           "text": "Small town, small name, small dreams they said",
-          "start_ms": 19514,
-          "end_ms": 23143
+          "start_ms": 22180,
+          "end_ms": 24860,
+          "words": [
+            {
+              "word": "Small",
+              "start_ms": 22180,
+              "end_ms": 22280
+            },
+            {
+              "word": "town,",
+              "start_ms": 22280,
+              "end_ms": 22620
+            },
+            {
+              "word": "small",
+              "start_ms": 22180,
+              "end_ms": 22280
+            },
+            {
+              "word": "name,",
+              "start_ms": 23040,
+              "end_ms": 23320
+            },
+            {
+              "word": "small",
+              "start_ms": 22880,
+              "end_ms": 23040
+            },
+            {
+              "word": "dreams",
+              "start_ms": 23680,
+              "end_ms": 23960
+            },
+            {
+              "word": "they",
+              "start_ms": 23960,
+              "end_ms": 24300
+            },
+            {
+              "word": "said",
+              "start_ms": 24300,
+              "end_ms": 24860
+            }
+          ]
         },
         {
           "text": "But something woke up in my chest instead",
-          "start_ms": 23143,
-          "end_ms": 26771
+          "start_ms": 24860,
+          "end_ms": 27360,
+          "words": [
+            {
+              "word": "But",
+              "start_ms": 24860,
+              "end_ms": 25340
+            },
+            {
+              "word": "something",
+              "start_ms": 25340,
+              "end_ms": 25640
+            },
+            {
+              "word": "woke",
+              "start_ms": 25640,
+              "end_ms": 25920
+            },
+            {
+              "word": "up",
+              "start_ms": 25920,
+              "end_ms": 26120
+            },
+            {
+              "word": "in",
+              "start_ms": 26120,
+              "end_ms": 26320
+            },
+            {
+              "word": "my",
+              "start_ms": 26320,
+              "end_ms": 26480
+            },
+            {
+              "word": "chest",
+              "start_ms": 26480,
+              "end_ms": 26720
+            },
+            {
+              "word": "instead",
+              "start_ms": 26720,
+              "end_ms": 27360
+            }
+          ]
         },
         {
           "text": "Everything in me is coming alive",
-          "start_ms": 26771,
-          "end_ms": 30400
+          "start_ms": 27360,
+          "end_ms": 29540,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 27360,
+              "end_ms": 28120
+            },
+            {
+              "word": "in",
+              "start_ms": 28120,
+              "end_ms": 28380
+            },
+            {
+              "word": "me",
+              "start_ms": 28380,
+              "end_ms": 28540
+            },
+            {
+              "word": "is",
+              "start_ms": 28540,
+              "end_ms": 28700
+            },
+            {
+              "word": "coming",
+              "start_ms": 28700,
+              "end_ms": 28980
+            },
+            {
+              "word": "alive",
+              "start_ms": 28980,
+              "end_ms": 29540
+            }
+          ]
         },
         {
           "text": "I was made for more than just survive",
-          "start_ms": 30400,
-          "end_ms": 34029
-        }
-      ],
-      "start_ms": 5000,
-      "end_ms": 34029
-    },
-    {
-      "type": "chorus",
-      "label": "Pre-Chorus",
-      "lines": [
+          "start_ms": 29540,
+          "end_ms": 31910,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 29540,
+              "end_ms": 29900
+            },
+            {
+              "word": "was",
+              "start_ms": 29900,
+              "end_ms": 30080
+            },
+            {
+              "word": "made",
+              "start_ms": 30080,
+              "end_ms": 30300
+            },
+            {
+              "word": "for",
+              "start_ms": 30300,
+              "end_ms": 30600
+            },
+            {
+              "word": "more",
+              "start_ms": 30600,
+              "end_ms": 30960
+            },
+            {
+              "word": "than",
+              "start_ms": 30960,
+              "end_ms": 31260
+            },
+            {
+              "word": "just",
+              "start_ms": 31260,
+              "end_ms": 31560
+            },
+            {
+              "word": "survive",
+              "start_ms": 31610,
+              "end_ms": 31910
+            }
+          ]
+        },
         {
           "text": "Everything in me, everything",
-          "start_ms": 34529,
-          "end_ms": 38157
+          "start_ms": 32400,
+          "end_ms": 33180,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 32400,
+              "end_ms": 33180
+            },
+            {
+              "word": "in",
+              "start_ms": 33180,
+              "end_ms": 33580
+            },
+            {
+              "word": "me,",
+              "start_ms": 33580,
+              "end_ms": 33820
+            },
+            {
+              "word": "everything",
+              "start_ms": 32400,
+              "end_ms": 33180
+            }
+          ]
         },
         {
           "text": "Is ready to explode",
-          "start_ms": 38157,
-          "end_ms": 41786
+          "start_ms": 35660,
+          "end_ms": 37520,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 35660,
+              "end_ms": 36020
+            },
+            {
+              "word": "ready",
+              "start_ms": 36020,
+              "end_ms": 36240
+            },
+            {
+              "word": "to",
+              "start_ms": 36240,
+              "end_ms": 36600
+            },
+            {
+              "word": "explode",
+              "start_ms": 36600,
+              "end_ms": 37520
+            }
+          ]
         },
         {
           "text": "Everything in me, everything",
-          "start_ms": 41786,
-          "end_ms": 45414
+          "start_ms": 37520,
+          "end_ms": 38520,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 37520,
+              "end_ms": 38520
+            },
+            {
+              "word": "in",
+              "start_ms": 38520,
+              "end_ms": 39000
+            },
+            {
+              "word": "me,",
+              "start_ms": 39000,
+              "end_ms": 39180
+            },
+            {
+              "word": "everything",
+              "start_ms": 37520,
+              "end_ms": 38520
+            }
+          ]
         },
         {
           "text": "I can not hold it anymore",
-          "start_ms": 45414,
-          "end_ms": 49043
-        }
-      ],
-      "start_ms": 34529,
-      "end_ms": 49043
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
+          "start_ms": 39960,
+          "end_ms": 41960,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 39960,
+              "end_ms": 40320
+            },
+            {
+              "word": "can",
+              "start_ms": 40320,
+              "end_ms": 40600
+            },
+            {
+              "word": "not",
+              "start_ms": 40320,
+              "end_ms": 40600
+            },
+            {
+              "word": "hold",
+              "start_ms": 40600,
+              "end_ms": 41200
+            },
+            {
+              "word": "it",
+              "start_ms": 41200,
+              "end_ms": 41380
+            },
+            {
+              "word": "anymore",
+              "start_ms": 41380,
+              "end_ms": 41960
+            }
+          ]
+        },
         {
           "text": "I am the nobody, the nobody",
-          "start_ms": 49543,
-          "end_ms": 53171
+          "start_ms": 41960,
+          "end_ms": 44900,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 41960,
+              "end_ms": 42860
+            },
+            {
+              "word": "am",
+              "start_ms": 42860,
+              "end_ms": 43180
+            },
+            {
+              "word": "the",
+              "start_ms": 43180,
+              "end_ms": 43320
+            },
+            {
+              "word": "nobody,",
+              "start_ms": 43320,
+              "end_ms": 43760
+            },
+            {
+              "word": "the",
+              "start_ms": 43180,
+              "end_ms": 43320
+            },
+            {
+              "word": "nobody",
+              "start_ms": 44320,
+              "end_ms": 44900
+            }
+          ]
         },
         {
           "text": "They never saw me coming",
-          "start_ms": 53171,
-          "end_ms": 56800
+          "start_ms": 45860,
+          "end_ms": 47700,
+          "words": [
+            {
+              "word": "They",
+              "start_ms": 45860,
+              "end_ms": 46300
+            },
+            {
+              "word": "never",
+              "start_ms": 46300,
+              "end_ms": 46580
+            },
+            {
+              "word": "saw",
+              "start_ms": 46580,
+              "end_ms": 46900
+            },
+            {
+              "word": "me",
+              "start_ms": 46900,
+              "end_ms": 47180
+            },
+            {
+              "word": "coming",
+              "start_ms": 47180,
+              "end_ms": 47700
+            }
+          ]
         },
         {
           "text": "I am the nobody, the nobody",
-          "start_ms": 56800,
-          "end_ms": 60428
+          "start_ms": 47700,
+          "end_ms": 50260,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 47700,
+              "end_ms": 48200
+            },
+            {
+              "word": "am",
+              "start_ms": 48200,
+              "end_ms": 48480
+            },
+            {
+              "word": "the",
+              "start_ms": 48480,
+              "end_ms": 48640
+            },
+            {
+              "word": "nobody,",
+              "start_ms": 48640,
+              "end_ms": 49240
+            },
+            {
+              "word": "the",
+              "start_ms": 48480,
+              "end_ms": 48640
+            },
+            {
+              "word": "nobody",
+              "start_ms": 49640,
+              "end_ms": 50260
+            }
+          ]
         },
         {
           "text": "Now watch me while I am running",
-          "start_ms": 60428,
-          "end_ms": 64057
+          "start_ms": 50820,
+          "end_ms": 53000,
+          "words": [
+            {
+              "word": "Now",
+              "start_ms": 50820,
+              "end_ms": 51180
+            },
+            {
+              "word": "watch",
+              "start_ms": 51180,
+              "end_ms": 51480
+            },
+            {
+              "word": "me",
+              "start_ms": 51480,
+              "end_ms": 51660
+            },
+            {
+              "word": "while",
+              "start_ms": 51660,
+              "end_ms": 51920
+            },
+            {
+              "word": "I",
+              "start_ms": 51920,
+              "end_ms": 52300
+            },
+            {
+              "word": "am",
+              "start_ms": 52300,
+              "end_ms": 52580
+            },
+            {
+              "word": "running",
+              "start_ms": 52580,
+              "end_ms": 53000
+            }
+          ]
         },
         {
           "text": "Everything in me celebrates",
-          "start_ms": 64057,
-          "end_ms": 67686
+          "start_ms": 53000,
+          "end_ms": 55600,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 53000,
+              "end_ms": 53800
+            },
+            {
+              "word": "in",
+              "start_ms": 53800,
+              "end_ms": 54140
+            },
+            {
+              "word": "me",
+              "start_ms": 54140,
+              "end_ms": 54660
+            },
+            {
+              "word": "celebrates",
+              "start_ms": 54660,
+              "end_ms": 55600
+            }
+          ]
         },
         {
           "text": "I can not hold it in, I will not hold it back",
-          "start_ms": 67686,
-          "end_ms": 71314
+          "start_ms": 55600,
+          "end_ms": 58680,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 55600,
+              "end_ms": 56000
+            },
+            {
+              "word": "can",
+              "start_ms": 56000,
+              "end_ms": 56340
+            },
+            {
+              "word": "not",
+              "start_ms": 56000,
+              "end_ms": 56340
+            },
+            {
+              "word": "hold",
+              "start_ms": 56340,
+              "end_ms": 56800
+            },
+            {
+              "word": "it",
+              "start_ms": 56800,
+              "end_ms": 57040
+            },
+            {
+              "word": "in,",
+              "start_ms": 57090,
+              "end_ms": 57390
+            },
+            {
+              "word": "I",
+              "start_ms": 58680,
+              "end_ms": 58920
+            },
+            {
+              "word": "will",
+              "start_ms": 58970,
+              "end_ms": 59270
+            },
+            {
+              "word": "not",
+              "start_ms": 59320,
+              "end_ms": 59620
+            },
+            {
+              "word": "hold",
+              "start_ms": 59670,
+              "end_ms": 59970
+            },
+            {
+              "word": "it",
+              "start_ms": 58160,
+              "end_ms": 58320
+            },
+            {
+              "word": "back",
+              "start_ms": 58320,
+              "end_ms": 58680
+            }
+          ]
         },
         {
           "text": "I am the nobody, the nobody",
-          "start_ms": 71314,
-          "end_ms": 74943
+          "start_ms": 58680,
+          "end_ms": 60980,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 58680,
+              "end_ms": 58920
+            },
+            {
+              "word": "am",
+              "start_ms": 58920,
+              "end_ms": 59200
+            },
+            {
+              "word": "the",
+              "start_ms": 59200,
+              "end_ms": 59320
+            },
+            {
+              "word": "nobody,",
+              "start_ms": 59320,
+              "end_ms": 59780
+            },
+            {
+              "word": "the",
+              "start_ms": 59200,
+              "end_ms": 59320
+            },
+            {
+              "word": "nobody",
+              "start_ms": 60320,
+              "end_ms": 60980
+            }
+          ]
         },
         {
           "text": "And I am never going back",
-          "start_ms": 74943,
-          "end_ms": 78572
-        }
-      ],
-      "start_ms": 49543,
-      "end_ms": 78572
-    },
-    {
-      "type": "verse",
-      "label": "Verse 2",
-      "lines": [
+          "start_ms": 62360,
+          "end_ms": 64959,
+          "words": [
+            {
+              "word": "And",
+              "start_ms": 62360,
+              "end_ms": 63020
+            },
+            {
+              "word": "I",
+              "start_ms": 63020,
+              "end_ms": 63220
+            },
+            {
+              "word": "am",
+              "start_ms": 63220,
+              "end_ms": 63400
+            },
+            {
+              "word": "never",
+              "start_ms": 63400,
+              "end_ms": 63740
+            },
+            {
+              "word": "going",
+              "start_ms": 63740,
+              "end_ms": 64260
+            },
+            {
+              "word": "back",
+              "start_ms": 64260,
+              "end_ms": 64959
+            }
+          ]
+        },
         {
           "text": "The proud ones walking tall, so sure",
-          "start_ms": 79072,
-          "end_ms": 82700
+          "start_ms": 69660,
+          "end_ms": 72360,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 69660,
+              "end_ms": 70320
+            },
+            {
+              "word": "proud",
+              "start_ms": 70320,
+              "end_ms": 70640
+            },
+            {
+              "word": "ones",
+              "start_ms": 70640,
+              "end_ms": 70960
+            },
+            {
+              "word": "walking",
+              "start_ms": 70960,
+              "end_ms": 71340
+            },
+            {
+              "word": "tall,",
+              "start_ms": 71340,
+              "end_ms": 71640
+            },
+            {
+              "word": "so",
+              "start_ms": 71640,
+              "end_ms": 72020
+            },
+            {
+              "word": "sure",
+              "start_ms": 72020,
+              "end_ms": 72360
+            }
+          ]
         },
         {
           "text": "But they do not know what is coming for them",
-          "start_ms": 82700,
-          "end_ms": 86329
+          "start_ms": 72360,
+          "end_ms": 75300,
+          "words": [
+            {
+              "word": "But",
+              "start_ms": 72360,
+              "end_ms": 72660
+            },
+            {
+              "word": "they",
+              "start_ms": 72660,
+              "end_ms": 72860
+            },
+            {
+              "word": "do",
+              "start_ms": 72860,
+              "end_ms": 73020
+            },
+            {
+              "word": "not",
+              "start_ms": 73020,
+              "end_ms": 73260
+            },
+            {
+              "word": "know",
+              "start_ms": 73260,
+              "end_ms": 73600
+            },
+            {
+              "word": "what",
+              "start_ms": 73600,
+              "end_ms": 73900
+            },
+            {
+              "word": "is",
+              "start_ms": 73900,
+              "end_ms": 74040
+            },
+            {
+              "word": "coming",
+              "start_ms": 74040,
+              "end_ms": 74340
+            },
+            {
+              "word": "for",
+              "start_ms": 74340,
+              "end_ms": 74960
+            },
+            {
+              "word": "them",
+              "start_ms": 74960,
+              "end_ms": 75300
+            }
+          ]
         },
         {
           "text": "Scattered like leaves when the wind hits hard",
-          "start_ms": 86329,
-          "end_ms": 89957
+          "start_ms": 75300,
+          "end_ms": 77800,
+          "words": [
+            {
+              "word": "Scattered",
+              "start_ms": 75300,
+              "end_ms": 75780
+            },
+            {
+              "word": "like",
+              "start_ms": 75780,
+              "end_ms": 76060
+            },
+            {
+              "word": "leaves",
+              "start_ms": 76060,
+              "end_ms": 76360
+            },
+            {
+              "word": "when",
+              "start_ms": 76360,
+              "end_ms": 76540
+            },
+            {
+              "word": "the",
+              "start_ms": 76540,
+              "end_ms": 76720
+            },
+            {
+              "word": "wind",
+              "start_ms": 76720,
+              "end_ms": 76940
+            },
+            {
+              "word": "hits",
+              "start_ms": 76940,
+              "end_ms": 77440
+            },
+            {
+              "word": "hard",
+              "start_ms": 77440,
+              "end_ms": 77800
+            }
+          ]
         },
         {
           "text": "The ones who thought they held the cards",
-          "start_ms": 89957,
-          "end_ms": 93586
+          "start_ms": 77800,
+          "end_ms": 80440,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 77800,
+              "end_ms": 78020
+            },
+            {
+              "word": "ones",
+              "start_ms": 78020,
+              "end_ms": 78320
+            },
+            {
+              "word": "who",
+              "start_ms": 78320,
+              "end_ms": 78580
+            },
+            {
+              "word": "thought",
+              "start_ms": 78580,
+              "end_ms": 78900
+            },
+            {
+              "word": "they",
+              "start_ms": 78900,
+              "end_ms": 79180
+            },
+            {
+              "word": "held",
+              "start_ms": 79180,
+              "end_ms": 79680
+            },
+            {
+              "word": "the",
+              "start_ms": 79680,
+              "end_ms": 79900
+            },
+            {
+              "word": "cards",
+              "start_ms": 79900,
+              "end_ms": 80440
+            }
+          ]
         },
         {
           "text": "The thrones they built are coming down",
-          "start_ms": 93586,
-          "end_ms": 97215
+          "start_ms": 79680,
+          "end_ms": 82860,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 79680,
+              "end_ms": 79900
+            },
+            {
+              "word": "thrones",
+              "start_ms": 80680,
+              "end_ms": 81140
+            },
+            {
+              "word": "they",
+              "start_ms": 81140,
+              "end_ms": 81300
+            },
+            {
+              "word": "built",
+              "start_ms": 81300,
+              "end_ms": 81640
+            },
+            {
+              "word": "are",
+              "start_ms": 81640,
+              "end_ms": 81900
+            },
+            {
+              "word": "coming",
+              "start_ms": 81900,
+              "end_ms": 82340
+            },
+            {
+              "word": "down",
+              "start_ms": 82340,
+              "end_ms": 82860
+            }
+          ]
         },
         {
           "text": "The small ones rising off the ground",
-          "start_ms": 97215,
-          "end_ms": 100843
+          "start_ms": 82860,
+          "end_ms": 85560,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 82860,
+              "end_ms": 83320
+            },
+            {
+              "word": "small",
+              "start_ms": 83370,
+              "end_ms": 83670
+            },
+            {
+              "word": "ones",
+              "start_ms": 83600,
+              "end_ms": 84020
+            },
+            {
+              "word": "rising",
+              "start_ms": 84020,
+              "end_ms": 84540
+            },
+            {
+              "word": "off",
+              "start_ms": 84540,
+              "end_ms": 85000
+            },
+            {
+              "word": "the",
+              "start_ms": 85000,
+              "end_ms": 85160
+            },
+            {
+              "word": "ground",
+              "start_ms": 85160,
+              "end_ms": 85560
+            }
+          ]
         },
         {
           "text": "The hungry finally getting fed",
-          "start_ms": 100843,
-          "end_ms": 104472
+          "start_ms": 85000,
+          "end_ms": 95680,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 85000,
+              "end_ms": 85160
+            },
+            {
+              "word": "hungry",
+              "start_ms": 86020,
+              "end_ms": 86480
+            },
+            {
+              "word": "finally",
+              "start_ms": 86480,
+              "end_ms": 87120
+            },
+            {
+              "word": "getting",
+              "start_ms": 91440,
+              "end_ms": 91940
+            },
+            {
+              "word": "fed",
+              "start_ms": 95180,
+              "end_ms": 95680
+            }
+          ]
         },
         {
           "text": "The rich left empty-handed instead",
-          "start_ms": 104472,
-          "end_ms": 108101
-        }
-      ],
-      "start_ms": 79072,
-      "end_ms": 108101
-    },
-    {
-      "type": "chorus",
-      "label": "Pre-Chorus",
-      "lines": [
+          "start_ms": 95680,
+          "end_ms": 97380,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 95680,
+              "end_ms": 95980
+            },
+            {
+              "word": "rich",
+              "start_ms": 96030,
+              "end_ms": 96330
+            },
+            {
+              "word": "left",
+              "start_ms": 96380,
+              "end_ms": 96680
+            },
+            {
+              "word": "empty-handed",
+              "start_ms": 96730,
+              "end_ms": 97030
+            },
+            {
+              "word": "instead",
+              "start_ms": 97080,
+              "end_ms": 97380
+            }
+          ]
+        },
         {
           "text": "Everything in me, everything",
-          "start_ms": 108601,
-          "end_ms": 112229
+          "start_ms": 96260,
+          "end_ms": 97200,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 96260,
+              "end_ms": 97200
+            },
+            {
+              "word": "in",
+              "start_ms": 97200,
+              "end_ms": 97680
+            },
+            {
+              "word": "me,",
+              "start_ms": 97680,
+              "end_ms": 97840
+            },
+            {
+              "word": "everything",
+              "start_ms": 96260,
+              "end_ms": 97200
+            }
+          ]
         },
         {
           "text": "Is catching fire now",
-          "start_ms": 112229,
-          "end_ms": 115858
+          "start_ms": 99900,
+          "end_ms": 101060,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 99900,
+              "end_ms": 100060
+            },
+            {
+              "word": "catching",
+              "start_ms": 100060,
+              "end_ms": 100540
+            },
+            {
+              "word": "fire",
+              "start_ms": 100590,
+              "end_ms": 100890
+            },
+            {
+              "word": "now",
+              "start_ms": 100540,
+              "end_ms": 101060
+            }
+          ]
         },
         {
           "text": "Everything in me, everything",
-          "start_ms": 115858,
-          "end_ms": 119486
+          "start_ms": 100060,
+          "end_ms": 105260,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 100060,
+              "end_ms": 100540
+            },
+            {
+              "word": "in",
+              "start_ms": 101060,
+              "end_ms": 101600
+            },
+            {
+              "word": "me,",
+              "start_ms": 105620,
+              "end_ms": 105860
+            },
+            {
+              "word": "everything",
+              "start_ms": 104980,
+              "end_ms": 105260
+            }
+          ]
         },
         {
           "text": "I can not stop what has started now",
-          "start_ms": 119486,
-          "end_ms": 123115
-        }
-      ],
-      "start_ms": 108601,
-      "end_ms": 123115
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
+          "start_ms": 106340,
+          "end_ms": 111130,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 106340,
+              "end_ms": 106920
+            },
+            {
+              "word": "can",
+              "start_ms": 108880,
+              "end_ms": 109720
+            },
+            {
+              "word": "not",
+              "start_ms": 109770,
+              "end_ms": 110070
+            },
+            {
+              "word": "stop",
+              "start_ms": 110120,
+              "end_ms": 110420
+            },
+            {
+              "word": "what",
+              "start_ms": 109940,
+              "end_ms": 110080
+            },
+            {
+              "word": "has",
+              "start_ms": 110130,
+              "end_ms": 110430
+            },
+            {
+              "word": "started",
+              "start_ms": 110480,
+              "end_ms": 110780
+            },
+            {
+              "word": "now",
+              "start_ms": 110830,
+              "end_ms": 111130
+            }
+          ]
+        },
         {
           "text": "I am the nobody, the nobody",
-          "start_ms": 123615,
-          "end_ms": 127243
+          "start_ms": 109720,
+          "end_ms": 112680,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 109720,
+              "end_ms": 109940
+            },
+            {
+              "word": "am",
+              "start_ms": 111020,
+              "end_ms": 111280
+            },
+            {
+              "word": "the",
+              "start_ms": 111330,
+              "end_ms": 111630
+            },
+            {
+              "word": "nobody,",
+              "start_ms": 111680,
+              "end_ms": 111980
+            },
+            {
+              "word": "the",
+              "start_ms": 112030,
+              "end_ms": 112330
+            },
+            {
+              "word": "nobody",
+              "start_ms": 112380,
+              "end_ms": 112680
+            }
+          ]
         },
         {
           "text": "They never saw me coming",
-          "start_ms": 127243,
-          "end_ms": 130872
+          "start_ms": 111280,
+          "end_ms": 113630,
+          "words": [
+            {
+              "word": "They",
+              "start_ms": 111280,
+              "end_ms": 111580
+            },
+            {
+              "word": "never",
+              "start_ms": 111680,
+              "end_ms": 112500
+            },
+            {
+              "word": "saw",
+              "start_ms": 112550,
+              "end_ms": 112850
+            },
+            {
+              "word": "me",
+              "start_ms": 112800,
+              "end_ms": 113280
+            },
+            {
+              "word": "coming",
+              "start_ms": 113330,
+              "end_ms": 113630
+            }
+          ]
         },
         {
           "text": "I am the nobody, the nobody",
-          "start_ms": 130872,
-          "end_ms": 134500
+          "start_ms": 114220,
+          "end_ms": 119540,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 114220,
+              "end_ms": 114680
+            },
+            {
+              "word": "am",
+              "start_ms": 117620,
+              "end_ms": 117900
+            },
+            {
+              "word": "the",
+              "start_ms": 117900,
+              "end_ms": 118020
+            },
+            {
+              "word": "nobody,",
+              "start_ms": 118020,
+              "end_ms": 118520
+            },
+            {
+              "word": "the",
+              "start_ms": 117900,
+              "end_ms": 118020
+            },
+            {
+              "word": "nobody",
+              "start_ms": 119000,
+              "end_ms": 119540
+            }
+          ]
         },
         {
           "text": "Now watch me while I am running",
-          "start_ms": 134500,
-          "end_ms": 138129
-        },
-        {
-          "text": "Everything in me celebrates",
-          "start_ms": 138129,
-          "end_ms": 141758
+          "start_ms": 119540,
+          "end_ms": 122370,
+          "words": [
+            {
+              "word": "Now",
+              "start_ms": 119540,
+              "end_ms": 119840
+            },
+            {
+              "word": "watch",
+              "start_ms": 119890,
+              "end_ms": 120190
+            },
+            {
+              "word": "me",
+              "start_ms": 120240,
+              "end_ms": 120540
+            },
+            {
+              "word": "while",
+              "start_ms": 120590,
+              "end_ms": 120890
+            },
+            {
+              "word": "I",
+              "start_ms": 120780,
+              "end_ms": 121860
+            },
+            {
+              "word": "am",
+              "start_ms": 121860,
+              "end_ms": 122020
+            },
+            {
+              "word": "running",
+              "start_ms": 122070,
+              "end_ms": 122370
+            }
+          ]
         },
         {
           "text": "I can not hold it in, I will not hold it back",
-          "start_ms": 141758,
-          "end_ms": 145386
+          "start_ms": 120780,
+          "end_ms": 123940,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 120780,
+              "end_ms": 121860
+            },
+            {
+              "word": "can",
+              "start_ms": 119540,
+              "end_ms": 120780
+            },
+            {
+              "word": "not",
+              "start_ms": 120830,
+              "end_ms": 121130
+            },
+            {
+              "word": "hold",
+              "start_ms": 121180,
+              "end_ms": 121480
+            },
+            {
+              "word": "it",
+              "start_ms": 120780,
+              "end_ms": 121860
+            },
+            {
+              "word": "in,",
+              "start_ms": 121910,
+              "end_ms": 122210
+            },
+            {
+              "word": "I",
+              "start_ms": 120780,
+              "end_ms": 121860
+            },
+            {
+              "word": "will",
+              "start_ms": 121910,
+              "end_ms": 122210
+            },
+            {
+              "word": "not",
+              "start_ms": 122260,
+              "end_ms": 122560
+            },
+            {
+              "word": "hold",
+              "start_ms": 122610,
+              "end_ms": 122910
+            },
+            {
+              "word": "it",
+              "start_ms": 120780,
+              "end_ms": 121860
+            },
+            {
+              "word": "back",
+              "start_ms": 122940,
+              "end_ms": 123940
+            }
+          ]
+        },
+        {
+          "text": "Everything in me celebrates",
+          "start_ms": 122020,
+          "end_ms": 122560,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 122020,
+              "end_ms": 122440
+            },
+            {
+              "word": "in",
+              "start_ms": 120780,
+              "end_ms": 121860
+            },
+            {
+              "word": "me",
+              "start_ms": 121910,
+              "end_ms": 122210
+            },
+            {
+              "word": "celebrates",
+              "start_ms": 122260,
+              "end_ms": 122560
+            }
+          ]
         },
         {
           "text": "I am the nobody, the nobody",
-          "start_ms": 145386,
-          "end_ms": 149015
+          "start_ms": 123940,
+          "end_ms": 132940,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 123940,
+              "end_ms": 124520
+            },
+            {
+              "word": "am",
+              "start_ms": 124520,
+              "end_ms": 124520
+            },
+            {
+              "word": "the",
+              "start_ms": 124520,
+              "end_ms": 124520
+            },
+            {
+              "word": "nobody,",
+              "start_ms": 124520,
+              "end_ms": 128860
+            },
+            {
+              "word": "the",
+              "start_ms": 124520,
+              "end_ms": 124520
+            },
+            {
+              "word": "nobody",
+              "start_ms": 132940,
+              "end_ms": 132940
+            }
+          ]
         },
         {
           "text": "And I am never going back",
-          "start_ms": 149015,
-          "end_ms": 152644
-        }
-      ],
-      "start_ms": 123615,
-      "end_ms": 152644
-    },
-    {
-      "type": "bridge",
-      "label": "Bridge",
-      "lines": [
+          "start_ms": 132940,
+          "end_ms": 140330,
+          "words": [
+            {
+              "word": "And",
+              "start_ms": 132940,
+              "end_ms": 133240
+            },
+            {
+              "word": "I",
+              "start_ms": 136440,
+              "end_ms": 136780
+            },
+            {
+              "word": "am",
+              "start_ms": 139120,
+              "end_ms": 139280
+            },
+            {
+              "word": "never",
+              "start_ms": 139330,
+              "end_ms": 139630
+            },
+            {
+              "word": "going",
+              "start_ms": 139680,
+              "end_ms": 139980
+            },
+            {
+              "word": "back",
+              "start_ms": 140030,
+              "end_ms": 140330
+            }
+          ]
+        },
         {
           "text": "You saw me when no one else did",
-          "start_ms": 153144,
-          "end_ms": 156772
+          "start_ms": 138420,
+          "end_ms": 143930,
+          "words": [
+            {
+              "word": "You",
+              "start_ms": 138420,
+              "end_ms": 138840
+            },
+            {
+              "word": "saw",
+              "start_ms": 138890,
+              "end_ms": 139190
+            },
+            {
+              "word": "me",
+              "start_ms": 139240,
+              "end_ms": 139540
+            },
+            {
+              "word": "when",
+              "start_ms": 140480,
+              "end_ms": 140480
+            },
+            {
+              "word": "no",
+              "start_ms": 140530,
+              "end_ms": 140830
+            },
+            {
+              "word": "one",
+              "start_ms": 140940,
+              "end_ms": 141460
+            },
+            {
+              "word": "else",
+              "start_ms": 142900,
+              "end_ms": 143580
+            },
+            {
+              "word": "did",
+              "start_ms": 143630,
+              "end_ms": 143930
+            }
+          ]
         },
         {
           "text": "Before I knew what I could be",
-          "start_ms": 156772,
-          "end_ms": 160401
+          "start_ms": 143580,
+          "end_ms": 150240,
+          "words": [
+            {
+              "word": "Before",
+              "start_ms": 143580,
+              "end_ms": 143880
+            },
+            {
+              "word": "I",
+              "start_ms": 143580,
+              "end_ms": 144220
+            },
+            {
+              "word": "knew",
+              "start_ms": 146180,
+              "end_ms": 146880
+            },
+            {
+              "word": "what",
+              "start_ms": 146880,
+              "end_ms": 147580
+            },
+            {
+              "word": "I",
+              "start_ms": 148980,
+              "end_ms": 149540
+            },
+            {
+              "word": "could",
+              "start_ms": 149590,
+              "end_ms": 149890
+            },
+            {
+              "word": "be",
+              "start_ms": 149940,
+              "end_ms": 150240
+            }
+          ]
         },
         {
           "text": "You picked the small one, the quiet one",
-          "start_ms": 160401,
-          "end_ms": 164029
+          "start_ms": 149540,
+          "end_ms": 151340,
+          "words": [
+            {
+              "word": "You",
+              "start_ms": 149540,
+              "end_ms": 149840
+            },
+            {
+              "word": "picked",
+              "start_ms": 149890,
+              "end_ms": 150190
+            },
+            {
+              "word": "the",
+              "start_ms": 150280,
+              "end_ms": 150640
+            },
+            {
+              "word": "small",
+              "start_ms": 150690,
+              "end_ms": 150990
+            },
+            {
+              "word": "one,",
+              "start_ms": 151040,
+              "end_ms": 151340
+            },
+            {
+              "word": "the",
+              "start_ms": 150280,
+              "end_ms": 150640
+            },
+            {
+              "word": "quiet",
+              "start_ms": 150690,
+              "end_ms": 150990
+            },
+            {
+              "word": "one",
+              "start_ms": 151040,
+              "end_ms": 151340
+            }
+          ]
         },
         {
           "text": "And now the world is gonna see",
-          "start_ms": 164029,
-          "end_ms": 167658
-        },
-        {
-          "text": "I was nothing, I was no one",
-          "start_ms": 167658,
-          "end_ms": 171287
+          "start_ms": 150640,
+          "end_ms": 155460,
+          "words": [
+            {
+              "word": "And",
+              "start_ms": 150640,
+              "end_ms": 150940
+            },
+            {
+              "word": "now",
+              "start_ms": 150990,
+              "end_ms": 151290
+            },
+            {
+              "word": "the",
+              "start_ms": 150280,
+              "end_ms": 150640
+            },
+            {
+              "word": "world",
+              "start_ms": 150690,
+              "end_ms": 150990
+            },
+            {
+              "word": "is",
+              "start_ms": 149540,
+              "end_ms": 149980
+            },
+            {
+              "word": "gonna",
+              "start_ms": 150030,
+              "end_ms": 150330
+            },
+            {
+              "word": "see",
+              "start_ms": 153960,
+              "end_ms": 155460
+            }
+          ]
         },
         {
           "text": "That was never shame",
-          "start_ms": 171287,
-          "end_ms": 174915
+          "start_ms": 153620,
+          "end_ms": 164250,
+          "words": [
+            {
+              "word": "That",
+              "start_ms": 153620,
+              "end_ms": 153960
+            },
+            {
+              "word": "was",
+              "start_ms": 154010,
+              "end_ms": 154310
+            },
+            {
+              "word": "never",
+              "start_ms": 163640,
+              "end_ms": 163900
+            },
+            {
+              "word": "shame",
+              "start_ms": 163950,
+              "end_ms": 164250
+            }
+          ]
+        },
+        {
+          "text": "I was nothing, I was no one",
+          "start_ms": 159760,
+          "end_ms": 162160,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 159760,
+              "end_ms": 160060
+            },
+            {
+              "word": "was",
+              "start_ms": 160110,
+              "end_ms": 160410
+            },
+            {
+              "word": "nothing,",
+              "start_ms": 160460,
+              "end_ms": 160760
+            },
+            {
+              "word": "I",
+              "start_ms": 160810,
+              "end_ms": 161110
+            },
+            {
+              "word": "was",
+              "start_ms": 161160,
+              "end_ms": 161460
+            },
+            {
+              "word": "no",
+              "start_ms": 161510,
+              "end_ms": 161810
+            },
+            {
+              "word": "one",
+              "start_ms": 161860,
+              "end_ms": 162160
+            }
+          ]
         },
         {
           "text": "It is where the power comes from",
-          "start_ms": 174915,
-          "end_ms": 178544
+          "start_ms": 166480,
+          "end_ms": 170600,
+          "words": [
+            {
+              "word": "It",
+              "start_ms": 166480,
+              "end_ms": 166980
+            },
+            {
+              "word": "is",
+              "start_ms": 166480,
+              "end_ms": 166980
+            },
+            {
+              "word": "where",
+              "start_ms": 169380,
+              "end_ms": 169600
+            },
+            {
+              "word": "the",
+              "start_ms": 169650,
+              "end_ms": 169950
+            },
+            {
+              "word": "power",
+              "start_ms": 169600,
+              "end_ms": 169900
+            },
+            {
+              "word": "comes",
+              "start_ms": 169950,
+              "end_ms": 170250
+            },
+            {
+              "word": "from",
+              "start_ms": 170300,
+              "end_ms": 170600
+            }
+          ]
         },
         {
-          "text": "Nothing stays the same",
-          "start_ms": 178544,
-          "end_ms": 182173
-        }
-      ],
-      "start_ms": 153144,
-      "end_ms": 182173
-    },
-    {
-      "type": "chorus",
-      "label": "Final Chorus",
-      "lines": [
-        {
           "text": "We are the nobodies, the nobodies",
-          "start_ms": 182673,
-          "end_ms": 186301
+          "start_ms": 169600,
+          "end_ms": 171480,
+          "words": [
+            {
+              "word": "We",
+              "start_ms": 169600,
+              "end_ms": 169900
+            },
+            {
+              "word": "are",
+              "start_ms": 169900,
+              "end_ms": 170080
+            },
+            {
+              "word": "the",
+              "start_ms": 170130,
+              "end_ms": 170430
+            },
+            {
+              "word": "nobodies,",
+              "start_ms": 170480,
+              "end_ms": 170780
+            },
+            {
+              "word": "the",
+              "start_ms": 170830,
+              "end_ms": 171130
+            },
+            {
+              "word": "nobodies",
+              "start_ms": 171180,
+              "end_ms": 171480
+            }
+          ]
         },
         {
           "text": "They never saw us coming",
-          "start_ms": 186301,
-          "end_ms": 189930
+          "start_ms": 170080,
+          "end_ms": 172530,
+          "words": [
+            {
+              "word": "They",
+              "start_ms": 170080,
+              "end_ms": 170380
+            },
+            {
+              "word": "never",
+              "start_ms": 170460,
+              "end_ms": 171220
+            },
+            {
+              "word": "saw",
+              "start_ms": 171270,
+              "end_ms": 171570
+            },
+            {
+              "word": "us",
+              "start_ms": 171540,
+              "end_ms": 172180
+            },
+            {
+              "word": "coming",
+              "start_ms": 172230,
+              "end_ms": 172530
+            }
+          ]
+        },
+        {
+          "text": "Nothing stays the same",
+          "start_ms": 170460,
+          "end_ms": 170080,
+          "words": [
+            {
+              "word": "Nothing",
+              "start_ms": 170460,
+              "end_ms": 171220
+            },
+            {
+              "word": "stays",
+              "start_ms": 171270,
+              "end_ms": 171570
+            },
+            {
+              "word": "the",
+              "start_ms": 171620,
+              "end_ms": 171920
+            },
+            {
+              "word": "same",
+              "start_ms": 169900,
+              "end_ms": 170080
+            }
+          ]
         },
         {
           "text": "We are the nobodies, the nobodies",
-          "start_ms": 189930,
-          "end_ms": 193558
+          "start_ms": 172920,
+          "end_ms": 178760,
+          "words": [
+            {
+              "word": "We",
+              "start_ms": 172920,
+              "end_ms": 173360
+            },
+            {
+              "word": "are",
+              "start_ms": 176240,
+              "end_ms": 176480
+            },
+            {
+              "word": "the",
+              "start_ms": 176480,
+              "end_ms": 176640
+            },
+            {
+              "word": "nobodies,",
+              "start_ms": 176640,
+              "end_ms": 177180
+            },
+            {
+              "word": "the",
+              "start_ms": 176480,
+              "end_ms": 176640
+            },
+            {
+              "word": "nobodies",
+              "start_ms": 177700,
+              "end_ms": 178760
+            }
+          ]
         },
         {
           "text": "Watch us while we are running",
-          "start_ms": 193558,
-          "end_ms": 197187
+          "start_ms": 179560,
+          "end_ms": 181030,
+          "words": [
+            {
+              "word": "Watch",
+              "start_ms": 179560,
+              "end_ms": 179860
+            },
+            {
+              "word": "us",
+              "start_ms": 179910,
+              "end_ms": 180210
+            },
+            {
+              "word": "while",
+              "start_ms": 180360,
+              "end_ms": 180540
+            },
+            {
+              "word": "we",
+              "start_ms": 180360,
+              "end_ms": 180540
+            },
+            {
+              "word": "are",
+              "start_ms": 180540,
+              "end_ms": 180680
+            },
+            {
+              "word": "running",
+              "start_ms": 180730,
+              "end_ms": 181030
+            }
+          ]
         },
         {
           "text": "Everything in us celebrates",
-          "start_ms": 197187,
-          "end_ms": 200816
+          "start_ms": 180680,
+          "end_ms": 183940,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 180680,
+              "end_ms": 180900
+            },
+            {
+              "word": "in",
+              "start_ms": 182680,
+              "end_ms": 183240
+            },
+            {
+              "word": "us",
+              "start_ms": 183290,
+              "end_ms": 183590
+            },
+            {
+              "word": "celebrates",
+              "start_ms": 183640,
+              "end_ms": 183940
+            }
+          ]
         },
         {
           "text": "We can not hold it in, we will not hold it back",
-          "start_ms": 200816,
-          "end_ms": 204444
+          "start_ms": 183240,
+          "end_ms": 189990,
+          "words": [
+            {
+              "word": "We",
+              "start_ms": 183240,
+              "end_ms": 183540
+            },
+            {
+              "word": "can",
+              "start_ms": 188900,
+              "end_ms": 189640
+            },
+            {
+              "word": "not",
+              "start_ms": 189690,
+              "end_ms": 189990
+            },
+            {
+              "word": "hold",
+              "start_ms": 190040,
+              "end_ms": 190340
+            },
+            {
+              "word": "it",
+              "start_ms": 189640,
+              "end_ms": 189640
+            },
+            {
+              "word": "in,",
+              "start_ms": 189690,
+              "end_ms": 189990
+            },
+            {
+              "word": "we",
+              "start_ms": 190040,
+              "end_ms": 190340
+            },
+            {
+              "word": "will",
+              "start_ms": 190390,
+              "end_ms": 190690
+            },
+            {
+              "word": "not",
+              "start_ms": 190740,
+              "end_ms": 191040
+            },
+            {
+              "word": "hold",
+              "start_ms": 191090,
+              "end_ms": 191390
+            },
+            {
+              "word": "it",
+              "start_ms": 189640,
+              "end_ms": 189640
+            },
+            {
+              "word": "back",
+              "start_ms": 189690,
+              "end_ms": 189990
+            }
+          ]
         },
         {
           "text": "We are the nobodies, the nobodies",
-          "start_ms": 204444,
-          "end_ms": 208073
+          "start_ms": 189640,
+          "end_ms": 202480,
+          "words": [
+            {
+              "word": "We",
+              "start_ms": 189640,
+              "end_ms": 189940
+            },
+            {
+              "word": "are",
+              "start_ms": 189990,
+              "end_ms": 190290
+            },
+            {
+              "word": "the",
+              "start_ms": 197340,
+              "end_ms": 197560
+            },
+            {
+              "word": "nobodies,",
+              "start_ms": 197560,
+              "end_ms": 199900
+            },
+            {
+              "word": "the",
+              "start_ms": 197340,
+              "end_ms": 197560
+            },
+            {
+              "word": "nobodies",
+              "start_ms": 200780,
+              "end_ms": 202480
+            }
+          ]
+        },
+        {
+          "text": "The nobody",
+          "start_ms": 200220,
+          "end_ms": 202480,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 200220,
+              "end_ms": 200780
+            },
+            {
+              "word": "nobody",
+              "start_ms": 200780,
+              "end_ms": 202480
+            }
+          ]
+        },
+        {
+          "text": "The nobody",
+          "start_ms": 200220,
+          "end_ms": 202480,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 200220,
+              "end_ms": 200780
+            },
+            {
+              "word": "nobody",
+              "start_ms": 200780,
+              "end_ms": 202480
+            }
+          ]
         },
         {
           "text": "And we are never going back",
-          "start_ms": 208073,
-          "end_ms": 211702
-        }
-      ],
-      "start_ms": 182673,
-      "end_ms": 211702
-    },
-    {
-      "type": "outro",
-      "label": "Outro",
-      "lines": [
-        {
-          "text": "The nobody",
-          "start_ms": 212202,
-          "end_ms": 215830
+          "start_ms": 202480,
+          "end_ms": 205010,
+          "words": [
+            {
+              "word": "And",
+              "start_ms": 202480,
+              "end_ms": 203260
+            },
+            {
+              "word": "we",
+              "start_ms": 203310,
+              "end_ms": 203610
+            },
+            {
+              "word": "are",
+              "start_ms": 203660,
+              "end_ms": 203960
+            },
+            {
+              "word": "never",
+              "start_ms": 204010,
+              "end_ms": 204310
+            },
+            {
+              "word": "going",
+              "start_ms": 204360,
+              "end_ms": 204660
+            },
+            {
+              "word": "back",
+              "start_ms": 204710,
+              "end_ms": 205010
+            }
+          ]
         },
         {
           "text": "Never saw me coming",
-          "start_ms": 215830,
-          "end_ms": 219459
-        },
-        {
-          "text": "The nobody",
-          "start_ms": 219459,
-          "end_ms": 223087
+          "start_ms": 202480,
+          "end_ms": 203830,
+          "words": [
+            {
+              "word": "Never",
+              "start_ms": 202480,
+              "end_ms": 202780
+            },
+            {
+              "word": "saw",
+              "start_ms": 202830,
+              "end_ms": 203130
+            },
+            {
+              "word": "me",
+              "start_ms": 203180,
+              "end_ms": 203480
+            },
+            {
+              "word": "coming",
+              "start_ms": 203530,
+              "end_ms": 203830
+            }
+          ]
         },
         {
           "text": "Finally free",
-          "start_ms": 223087,
-          "end_ms": 226716
+          "start_ms": 202480,
+          "end_ms": 203130,
+          "words": [
+            {
+              "word": "Finally",
+              "start_ms": 202480,
+              "end_ms": 202780
+            },
+            {
+              "word": "free",
+              "start_ms": 202830,
+              "end_ms": 203130
+            }
+          ]
         }
       ],
-      "start_ms": 212202,
-      "end_ms": 226716
+      "start_ms": 11640,
+      "end_ms": 203130
     }
   ],
-  "hooks": [
-    {
-      "id": "chorus_1",
-      "description": "Pre-Chorus - Everything in me, everything...",
-      "section_type": "chorus",
-      "start_ms": 34529,
-      "end_ms": 49043,
-      "key_line": "Everything in me, everything",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_2",
-      "description": "Chorus - I am the nobody, the nobody...",
-      "section_type": "chorus",
-      "start_ms": 49543,
-      "end_ms": 74543,
-      "key_line": "I am the nobody, the nobody",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_3",
-      "description": "Pre-Chorus - Everything in me, everything...",
-      "section_type": "chorus",
-      "start_ms": 108601,
-      "end_ms": 123115,
-      "key_line": "Everything in me, everything",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_4",
-      "description": "Chorus - I am the nobody, the nobody...",
-      "section_type": "chorus",
-      "start_ms": 123615,
-      "end_ms": 148615,
-      "key_line": "I am the nobody, the nobody",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "bridge_5",
-      "description": "Bridge - You saw me when no one else di...",
-      "section_type": "bridge",
-      "start_ms": 153144,
-      "end_ms": 178144,
-      "key_line": "You saw me when no one else did",
-      "recommended_for": [
-        "devotional_intro"
-      ]
-    },
-    {
-      "id": "chorus_6",
-      "description": "Final Chorus - We are the nobodies, the nobod...",
-      "section_type": "chorus",
-      "start_ms": 182673,
-      "end_ms": 207673,
-      "key_line": "We are the nobodies, the nobodies",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    }
-  ],
-  "intro_clips": [
-    {
-      "id": "recommended_devotional_clip",
-      "start_ms": 34529,
-      "end_ms": 49043,
-      "focused_duration_ms": 15000,
-      "section_type": "chorus",
-      "key_line": "Everything in me, everything",
-      "notes": "Main chorus hook for devotional intro"
-    }
-  ]
+  "alignment_tool": "ttml_import",
+  "alignment_confidence": 1
 }

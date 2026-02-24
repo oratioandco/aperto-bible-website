@@ -1,444 +1,1720 @@
 {
   "schema_version": "1.0",
-  "song_id": "42_luke_01_67_79_de",
-  "title": "Luke 1:67-79 German",
+  "song_id": "42_luke_01_67_79_transcript_de",
+  "title": "Song",
   "artist": "Aperto Bible",
   "language": "de",
   "book": "luke",
   "chapter": 1,
   "verses": "67-79",
-  "duration_ms": 221639,
-  "audio_file": "songs/luke_01/german/Luke 1_67-79 German.mp3",
-  "lyrics_source": "53_luke_01_67-79_FINAL_OUTPUT.md",
-  "generated_at": "2026-01-23T16:15:37.044662",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
   "sections": [
     {
-      "type": "verse",
-      "label": "Verse 1",
-      "lines": [
-        {
-          "text": "Neun Monate hab ich geschwiegen",
-          "start_ms": 5000,
-          "end_ms": 8919
-        },
-        {
-          "text": "Neun Monate ohne ein Wort",
-          "start_ms": 8919,
-          "end_ms": 12838
-        },
-        {
-          "text": "Ich konnte nicht beten, nicht segnen",
-          "start_ms": 12838,
-          "end_ms": 16757
-        },
-        {
-          "text": "Nur warten an diesem stillen Ort",
-          "start_ms": 16757,
-          "end_ms": 20676
-        },
-        {
-          "text": "Doch in der Stille hab ich gelernt",
-          "start_ms": 20676,
-          "end_ms": 24595
-        },
-        {
-          "text": "Was Worte nie sagen konnten",
-          "start_ms": 24595,
-          "end_ms": 28514
-        },
-        {
-          "text": "Dass Gott mich nicht vergessen hat",
-          "start_ms": 28514,
-          "end_ms": 32433
-        },
-        {
-          "text": "Dass er sein Versprechen gehalten hat",
-          "start_ms": 32433,
-          "end_ms": 36353
-        }
-      ],
-      "start_ms": 5000,
-      "end_ms": 36353
-    },
-    {
-      "type": "chorus",
-      "label": "Pre-Chorus",
-      "lines": [
-        {
-          "text": "Und jetzt, jetzt öffnet sich mein Mund",
-          "start_ms": 36853,
-          "end_ms": 40772
-        },
-        {
-          "text": "Und das erste Wort nach all der Zeit",
-          "start_ms": 40772,
-          "end_ms": 44691
-        },
-        {
-          "text": "Ist nicht Klage, nicht mehr Angst",
-          "start_ms": 44691,
-          "end_ms": 48610
-        }
-      ],
-      "start_ms": 36853,
-      "end_ms": 48610
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
-        {
-          "text": "Sondern Dank",
-          "start_ms": 49110,
-          "end_ms": 53029
-        },
-        {
-          "text": "Für den Weg des Friedens",
-          "start_ms": 53029,
-          "end_ms": 56948
-        },
-        {
-          "text": "Für das Licht aus der Höhe",
-          "start_ms": 56948,
-          "end_ms": 60867
-        },
-        {
-          "text": "Das zu uns kommt",
-          "start_ms": 60867,
-          "end_ms": 64786
-        },
-        {
-          "text": "Weg des Friedens",
-          "start_ms": 64786,
-          "end_ms": 68705
-        },
-        {
-          "text": "Ohne Furcht, ohne Angst",
-          "start_ms": 68705,
-          "end_ms": 72624
-        },
-        {
-          "text": "Nicht mehr im Schatten",
-          "start_ms": 72624,
-          "end_ms": 76543
-        },
-        {
-          "text": "Auf dem Weg des Friedens",
-          "start_ms": 76543,
-          "end_ms": 80463
-        }
-      ],
-      "start_ms": 49110,
-      "end_ms": 80463
-    },
-    {
-      "type": "verse",
-      "label": "Verse 2",
-      "lines": [
-        {
-          "text": "Und du, mein Kind",
-          "start_ms": 80963,
-          "end_ms": 84882
-        },
-        {
-          "text": "Du liegst hier in meinem Arm",
-          "start_ms": 84882,
-          "end_ms": 88801
-        },
-        {
-          "text": "So klein, so neu",
-          "start_ms": 88801,
-          "end_ms": 92720
-        },
-        {
-          "text": "Du verstehst noch nicht, was ich dir sage",
-          "start_ms": 92720,
-          "end_ms": 96639
-        },
-        {
-          "text": "Aber eines Tages wirst du wissen",
-          "start_ms": 96639,
-          "end_ms": 100558
-        },
-        {
-          "text": "Dein Vater hat über dich gesprochen",
-          "start_ms": 100558,
-          "end_ms": 104477
-        },
-        {
-          "text": "Hat dir Worte auf die Stirn gelegt",
-          "start_ms": 104477,
-          "end_ms": 108396
-        },
-        {
-          "text": "Die größer sind als er",
-          "start_ms": 108396,
-          "end_ms": 112316
-        }
-      ],
-      "start_ms": 80963,
-      "end_ms": 112316
-    },
-    {
-      "type": "chorus",
-      "label": "Pre-Chorus",
-      "lines": [
-        {
-          "text": "Du wirst vor ihm hergehen",
-          "start_ms": 112816,
-          "end_ms": 116735
-        },
-        {
-          "text": "Du wirst den Weg bereiten",
-          "start_ms": 116735,
-          "end_ms": 120654
-        },
-        {
-          "text": "Du wirst zeigen, was Vergebung heißt",
-          "start_ms": 120654,
-          "end_ms": 124573
-        }
-      ],
-      "start_ms": 112816,
-      "end_ms": 124573
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
-        {
-          "text": "Auf dem Weg des Friedens",
-          "start_ms": 125073,
-          "end_ms": 128992
-        },
-        {
-          "text": "Durch das Licht aus der Höhe",
-          "start_ms": 128992,
-          "end_ms": 132911
-        },
-        {
-          "text": "Das zu uns kommt",
-          "start_ms": 132911,
-          "end_ms": 136830
-        },
-        {
-          "text": "Weg des Friedens",
-          "start_ms": 136830,
-          "end_ms": 140749
-        },
-        {
-          "text": "Ohne Furcht, ohne Angst",
-          "start_ms": 140749,
-          "end_ms": 144668
-        },
-        {
-          "text": "Nicht mehr im Schatten",
-          "start_ms": 144668,
-          "end_ms": 148587
-        },
-        {
-          "text": "Auf dem Weg des Friedens",
-          "start_ms": 148587,
-          "end_ms": 152507
-        }
-      ],
-      "start_ms": 125073,
-      "end_ms": 152507
-    },
-    {
-      "type": "bridge",
-      "label": "Bridge",
+      "type": "song",
+      "label": "Lyrics",
       "lines": [
         {
           "text": "Weil Gott voller Erbarmen ist",
-          "start_ms": 153007,
-          "end_ms": 156926
-        },
-        {
-          "text": "Tiefes, echtes Erbarmen",
-          "start_ms": 156926,
-          "end_ms": 160845
+          "start_ms": 0,
+          "end_ms": 1700,
+          "words": [
+            {
+              "word": "Weil",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "Gott",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "voller",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "Erbarmen",
+              "start_ms": 1050,
+              "end_ms": 1350
+            },
+            {
+              "word": "ist",
+              "start_ms": 1400,
+              "end_ms": 1700
+            }
+          ]
         },
         {
           "text": "Kommt das Licht zu denen",
-          "start_ms": 160845,
-          "end_ms": 164764
+          "start_ms": 0,
+          "end_ms": 1700,
+          "words": [
+            {
+              "word": "Kommt",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "das",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "Licht",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "zu",
+              "start_ms": 1050,
+              "end_ms": 1350
+            },
+            {
+              "word": "denen",
+              "start_ms": 1400,
+              "end_ms": 1700
+            }
+          ]
         },
         {
           "text": "Die im Dunkeln sitzen",
-          "start_ms": 164764,
-          "end_ms": 168683
+          "start_ms": 0,
+          "end_ms": 1350,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "im",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "Dunkeln",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "sitzen",
+              "start_ms": 1050,
+              "end_ms": 1350
+            }
+          ]
         },
         {
           "text": "Nicht wir müssen es finden",
-          "start_ms": 168683,
-          "end_ms": 172602
-        },
-        {
-          "text": "Es kommt zu uns",
-          "start_ms": 172602,
-          "end_ms": 176521
-        },
-        {
-          "text": "Der Morgen bricht an",
-          "start_ms": 176521,
-          "end_ms": 180440
-        },
-        {
-          "text": "Der Morgen bricht an",
-          "start_ms": 180440,
-          "end_ms": 184360
-        }
-      ],
-      "start_ms": 153007,
-      "end_ms": 184360
-    },
-    {
-      "type": "chorus",
-      "label": "Final Chorus",
-      "lines": [
-        {
-          "text": "Weg des Friedens",
-          "start_ms": 184860,
-          "end_ms": 188779
+          "start_ms": 0,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Nicht",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "wir",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "müssen",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "es",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "finden",
+              "start_ms": 221620,
+              "end_ms": 221620
+            }
+          ]
         },
         {
           "text": "Unsere Schritte werden gelenkt",
-          "start_ms": 188779,
-          "end_ms": 192698
+          "start_ms": 0,
+          "end_ms": 221970,
+          "words": [
+            {
+              "word": "Unsere",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "Schritte",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "werden",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "gelenkt",
+              "start_ms": 221670,
+              "end_ms": 221970
+            }
+          ]
         },
         {
           "text": "Ohne Furcht, auf dem Weg des Friedens",
-          "start_ms": 192698,
-          "end_ms": 196617
+          "start_ms": 0,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Ohne",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "Furcht,",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "auf",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "dem",
+              "start_ms": 1050,
+              "end_ms": 1350
+            },
+            {
+              "word": "Weg",
+              "start_ms": 221600,
+              "end_ms": 221620
+            },
+            {
+              "word": "des",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 221620,
+              "end_ms": 221620
+            }
+          ]
         },
         {
           "text": "Licht aus der Höhe",
-          "start_ms": 196617,
-          "end_ms": 200536
+          "start_ms": 0,
+          "end_ms": 1350,
+          "words": [
+            {
+              "word": "Licht",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "aus",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "der",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "Höhe",
+              "start_ms": 1050,
+              "end_ms": 1350
+            }
+          ]
         },
         {
           "text": "Für alle im Dunkeln",
-          "start_ms": 200536,
-          "end_ms": 204455
+          "start_ms": 0,
+          "end_ms": 1350,
+          "words": [
+            {
+              "word": "Für",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "alle",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "im",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "Dunkeln",
+              "start_ms": 1050,
+              "end_ms": 1350
+            }
+          ]
         },
         {
           "text": "Zeigt uns den Weg",
-          "start_ms": 204455,
-          "end_ms": 208374
+          "start_ms": 0,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Zeigt",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "uns",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "den",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "Weg",
+              "start_ms": 221600,
+              "end_ms": 221620
+            }
+          ]
         },
         {
-          "text": "Den Weg des Friedens",
-          "start_ms": 208374,
-          "end_ms": 212294
-        }
-      ],
-      "start_ms": 184860,
-      "end_ms": 212294
-    },
-    {
-      "type": "outro",
-      "label": "Outro",
-      "lines": [
-        {
           "text": "Und du, mein Kind",
-          "start_ms": 212794,
-          "end_ms": 216713
+          "start_ms": 0,
+          "end_ms": 1350,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 0,
+              "end_ms": 300
+            },
+            {
+              "word": "du,",
+              "start_ms": 350,
+              "end_ms": 650
+            },
+            {
+              "word": "mein",
+              "start_ms": 700,
+              "end_ms": 1000
+            },
+            {
+              "word": "Kind",
+              "start_ms": 1050,
+              "end_ms": 1350
+            }
+          ]
+        },
+        {
+          "text": "Neun Monate hab ich geschwiegen",
+          "start_ms": 12020,
+          "end_ms": 15400,
+          "words": [
+            {
+              "word": "Neun",
+              "start_ms": 12020,
+              "end_ms": 12320
+            },
+            {
+              "word": "Monate",
+              "start_ms": 13300,
+              "end_ms": 13880
+            },
+            {
+              "word": "hab",
+              "start_ms": 13880,
+              "end_ms": 14520
+            },
+            {
+              "word": "ich",
+              "start_ms": 14520,
+              "end_ms": 14760
+            },
+            {
+              "word": "geschwiegen",
+              "start_ms": 14760,
+              "end_ms": 15400
+            }
+          ]
+        },
+        {
+          "text": "Neun Monate ohne ein Wort",
+          "start_ms": 15400,
+          "end_ms": 18560,
+          "words": [
+            {
+              "word": "Neun",
+              "start_ms": 15400,
+              "end_ms": 15700
+            },
+            {
+              "word": "Monate",
+              "start_ms": 16600,
+              "end_ms": 17380
+            },
+            {
+              "word": "ohne",
+              "start_ms": 17380,
+              "end_ms": 17820
+            },
+            {
+              "word": "ein",
+              "start_ms": 17870,
+              "end_ms": 18170
+            },
+            {
+              "word": "Wort",
+              "start_ms": 17820,
+              "end_ms": 18560
+            }
+          ]
+        },
+        {
+          "text": "Ich konnte nicht beten, nicht segnen",
+          "start_ms": 18560,
+          "end_ms": 21640,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 18560,
+              "end_ms": 19320
+            },
+            {
+              "word": "konnte",
+              "start_ms": 19320,
+              "end_ms": 19540
+            },
+            {
+              "word": "nicht",
+              "start_ms": 19540,
+              "end_ms": 19960
+            },
+            {
+              "word": "beten,",
+              "start_ms": 19960,
+              "end_ms": 20680
+            },
+            {
+              "word": "nicht",
+              "start_ms": 19540,
+              "end_ms": 19960
+            },
+            {
+              "word": "segnen",
+              "start_ms": 20980,
+              "end_ms": 21640
+            }
+          ]
+        },
+        {
+          "text": "Nur warten an diesem stillen Ort",
+          "start_ms": 21640,
+          "end_ms": 30660,
+          "words": [
+            {
+              "word": "Nur",
+              "start_ms": 21640,
+              "end_ms": 22700
+            },
+            {
+              "word": "warten",
+              "start_ms": 22700,
+              "end_ms": 23120
+            },
+            {
+              "word": "an",
+              "start_ms": 23120,
+              "end_ms": 23420
+            },
+            {
+              "word": "diesem",
+              "start_ms": 23420,
+              "end_ms": 23960
+            },
+            {
+              "word": "stillen",
+              "start_ms": 26900,
+              "end_ms": 27440
+            },
+            {
+              "word": "Ort",
+              "start_ms": 30300,
+              "end_ms": 30660
+            }
+          ]
+        },
+        {
+          "text": "Doch in der Stille hab ich gelernt",
+          "start_ms": 30660,
+          "end_ms": 42660,
+          "words": [
+            {
+              "word": "Doch",
+              "start_ms": 30660,
+              "end_ms": 30960
+            },
+            {
+              "word": "in",
+              "start_ms": 31010,
+              "end_ms": 31310
+            },
+            {
+              "word": "der",
+              "start_ms": 31360,
+              "end_ms": 31660
+            },
+            {
+              "word": "Stille",
+              "start_ms": 31710,
+              "end_ms": 32010
+            },
+            {
+              "word": "hab",
+              "start_ms": 34040,
+              "end_ms": 34840
+            },
+            {
+              "word": "ich",
+              "start_ms": 42660,
+              "end_ms": 43020
+            },
+            {
+              "word": "gelernt",
+              "start_ms": 40940,
+              "end_ms": 42660
+            }
+          ]
+        },
+        {
+          "text": "Was Worte nie sagen konnten",
+          "start_ms": 45340,
+          "end_ms": 47210,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 45340,
+              "end_ms": 45540
+            },
+            {
+              "word": "Worte",
+              "start_ms": 45900,
+              "end_ms": 46160
+            },
+            {
+              "word": "nie",
+              "start_ms": 46210,
+              "end_ms": 46510
+            },
+            {
+              "word": "sagen",
+              "start_ms": 46560,
+              "end_ms": 46860
+            },
+            {
+              "word": "konnten",
+              "start_ms": 46910,
+              "end_ms": 47210
+            }
+          ]
+        },
+        {
+          "text": "Dass Gott mich nicht vergessen hat",
+          "start_ms": 45340,
+          "end_ms": 49240,
+          "words": [
+            {
+              "word": "Dass",
+              "start_ms": 45340,
+              "end_ms": 45540
+            },
+            {
+              "word": "Gott",
+              "start_ms": 45590,
+              "end_ms": 45890
+            },
+            {
+              "word": "mich",
+              "start_ms": 48280,
+              "end_ms": 48540
+            },
+            {
+              "word": "nicht",
+              "start_ms": 48280,
+              "end_ms": 48540
+            },
+            {
+              "word": "vergessen",
+              "start_ms": 48590,
+              "end_ms": 48890
+            },
+            {
+              "word": "hat",
+              "start_ms": 48940,
+              "end_ms": 49240
+            }
+          ]
+        },
+        {
+          "text": "Dass er sein Versprechen gehalten hat",
+          "start_ms": 48540,
+          "end_ms": 55450,
+          "words": [
+            {
+              "word": "Dass",
+              "start_ms": 48540,
+              "end_ms": 48840
+            },
+            {
+              "word": "er",
+              "start_ms": 54920,
+              "end_ms": 56920
+            },
+            {
+              "word": "sein",
+              "start_ms": 54120,
+              "end_ms": 54400
+            },
+            {
+              "word": "Versprechen",
+              "start_ms": 54450,
+              "end_ms": 54750
+            },
+            {
+              "word": "gehalten",
+              "start_ms": 54800,
+              "end_ms": 55100
+            },
+            {
+              "word": "hat",
+              "start_ms": 55150,
+              "end_ms": 55450
+            }
+          ]
+        },
+        {
+          "text": "Und jetzt, jetzt öffnet sich mein Mund",
+          "start_ms": 54400,
+          "end_ms": 64000,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 54400,
+              "end_ms": 54700
+            },
+            {
+              "word": "jetzt,",
+              "start_ms": 54750,
+              "end_ms": 55050
+            },
+            {
+              "word": "jetzt",
+              "start_ms": 55100,
+              "end_ms": 55400
+            },
+            {
+              "word": "öffnet",
+              "start_ms": 55450,
+              "end_ms": 55750
+            },
+            {
+              "word": "sich",
+              "start_ms": 59980,
+              "end_ms": 60200
+            },
+            {
+              "word": "mein",
+              "start_ms": 60250,
+              "end_ms": 60550
+            },
+            {
+              "word": "Mund",
+              "start_ms": 63400,
+              "end_ms": 64000
+            }
+          ]
+        },
+        {
+          "text": "Und das erste Wort nach all der Zeit",
+          "start_ms": 63400,
+          "end_ms": 77170,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 63400,
+              "end_ms": 64000
+            },
+            {
+              "word": "das",
+              "start_ms": 63000,
+              "end_ms": 63120
+            },
+            {
+              "word": "erste",
+              "start_ms": 67240,
+              "end_ms": 67380
+            },
+            {
+              "word": "Wort",
+              "start_ms": 67430,
+              "end_ms": 67730
+            },
+            {
+              "word": "nach",
+              "start_ms": 72539,
+              "end_ms": 73220
+            },
+            {
+              "word": "all",
+              "start_ms": 73270,
+              "end_ms": 73570
+            },
+            {
+              "word": "der",
+              "start_ms": 76600,
+              "end_ms": 76820
+            },
+            {
+              "word": "Zeit",
+              "start_ms": 76870,
+              "end_ms": 77170
+            }
+          ]
+        },
+        {
+          "text": "Ist nicht Klage, nicht mehr Angst",
+          "start_ms": 82540,
+          "end_ms": 90260,
+          "words": [
+            {
+              "word": "Ist",
+              "start_ms": 82540,
+              "end_ms": 82820
+            },
+            {
+              "word": "nicht",
+              "start_ms": 82870,
+              "end_ms": 83170
+            },
+            {
+              "word": "Klage,",
+              "start_ms": 84200,
+              "end_ms": 84520
+            },
+            {
+              "word": "nicht",
+              "start_ms": 86540,
+              "end_ms": 86720
+            },
+            {
+              "word": "mehr",
+              "start_ms": 86770,
+              "end_ms": 87070
+            },
+            {
+              "word": "Angst",
+              "start_ms": 89860,
+              "end_ms": 90260
+            }
+          ]
+        },
+        {
+          "text": "Sondern Dank",
+          "start_ms": 90260,
+          "end_ms": 90910,
+          "words": [
+            {
+              "word": "Sondern",
+              "start_ms": 90260,
+              "end_ms": 90560
+            },
+            {
+              "word": "Dank",
+              "start_ms": 90610,
+              "end_ms": 90910
+            }
+          ]
+        },
+        {
+          "text": "Für den Weg des Friedens",
+          "start_ms": 90260,
+          "end_ms": 91960,
+          "words": [
+            {
+              "word": "Für",
+              "start_ms": 90260,
+              "end_ms": 90560
+            },
+            {
+              "word": "den",
+              "start_ms": 90610,
+              "end_ms": 90910
+            },
+            {
+              "word": "Weg",
+              "start_ms": 90960,
+              "end_ms": 91260
+            },
+            {
+              "word": "des",
+              "start_ms": 91310,
+              "end_ms": 91610
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 91660,
+              "end_ms": 91960
+            }
+          ]
+        },
+        {
+          "text": "Für das Licht aus der Höhe",
+          "start_ms": 90260,
+          "end_ms": 101790,
+          "words": [
+            {
+              "word": "Für",
+              "start_ms": 90260,
+              "end_ms": 90560
+            },
+            {
+              "word": "das",
+              "start_ms": 100800,
+              "end_ms": 101080
+            },
+            {
+              "word": "Licht",
+              "start_ms": 101130,
+              "end_ms": 101430
+            },
+            {
+              "word": "aus",
+              "start_ms": 100800,
+              "end_ms": 101080
+            },
+            {
+              "word": "der",
+              "start_ms": 101080,
+              "end_ms": 101440
+            },
+            {
+              "word": "Höhe",
+              "start_ms": 101490,
+              "end_ms": 101790
+            }
+          ]
+        },
+        {
+          "text": "Das zu uns kommt",
+          "start_ms": 100800,
+          "end_ms": 101150,
+          "words": [
+            {
+              "word": "Das",
+              "start_ms": 100800,
+              "end_ms": 101080
+            },
+            {
+              "word": "zu",
+              "start_ms": 101130,
+              "end_ms": 101430
+            },
+            {
+              "word": "uns",
+              "start_ms": 100660,
+              "end_ms": 100800
+            },
+            {
+              "word": "kommt",
+              "start_ms": 100850,
+              "end_ms": 101150
+            }
+          ]
         },
         {
           "text": "Weg des Friedens",
-          "start_ms": 216713,
-          "end_ms": 220632
+          "start_ms": 100800,
+          "end_ms": 106140,
+          "words": [
+            {
+              "word": "Weg",
+              "start_ms": 100800,
+              "end_ms": 101100
+            },
+            {
+              "word": "des",
+              "start_ms": 105800,
+              "end_ms": 106140
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 105800,
+              "end_ms": 106140
+            }
+          ]
+        },
+        {
+          "text": "Ohne Furcht, ohne Angst",
+          "start_ms": 106140,
+          "end_ms": 107490,
+          "words": [
+            {
+              "word": "Ohne",
+              "start_ms": 106140,
+              "end_ms": 106440
+            },
+            {
+              "word": "Furcht,",
+              "start_ms": 106490,
+              "end_ms": 106790
+            },
+            {
+              "word": "ohne",
+              "start_ms": 106840,
+              "end_ms": 107140
+            },
+            {
+              "word": "Angst",
+              "start_ms": 107190,
+              "end_ms": 107490
+            }
+          ]
+        },
+        {
+          "text": "Nicht mehr im Schatten",
+          "start_ms": 106140,
+          "end_ms": 107490,
+          "words": [
+            {
+              "word": "Nicht",
+              "start_ms": 106140,
+              "end_ms": 106440
+            },
+            {
+              "word": "mehr",
+              "start_ms": 106490,
+              "end_ms": 106790
+            },
+            {
+              "word": "im",
+              "start_ms": 106840,
+              "end_ms": 107140
+            },
+            {
+              "word": "Schatten",
+              "start_ms": 107190,
+              "end_ms": 107490
+            }
+          ]
+        },
+        {
+          "text": "Auf dem Weg des Friedens",
+          "start_ms": 112020,
+          "end_ms": 116900,
+          "words": [
+            {
+              "word": "Auf",
+              "start_ms": 112020,
+              "end_ms": 113700
+            },
+            {
+              "word": "dem",
+              "start_ms": 113700,
+              "end_ms": 113940
+            },
+            {
+              "word": "Weg",
+              "start_ms": 113940,
+              "end_ms": 114260
+            },
+            {
+              "word": "des",
+              "start_ms": 114260,
+              "end_ms": 114600
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 114600,
+              "end_ms": 116900
+            }
+          ]
+        },
+        {
+          "text": "Und du, mein Kind",
+          "start_ms": 120660,
+          "end_ms": 122290,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 120660,
+              "end_ms": 121240
+            },
+            {
+              "word": "du,",
+              "start_ms": 121290,
+              "end_ms": 121590
+            },
+            {
+              "word": "mein",
+              "start_ms": 121640,
+              "end_ms": 121940
+            },
+            {
+              "word": "Kind",
+              "start_ms": 121990,
+              "end_ms": 122290
+            }
+          ]
+        },
+        {
+          "text": "Du liegst hier in meinem Arm",
+          "start_ms": 121240,
+          "end_ms": 130200,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 121240,
+              "end_ms": 121540
+            },
+            {
+              "word": "liegst",
+              "start_ms": 128139,
+              "end_ms": 128800
+            },
+            {
+              "word": "hier",
+              "start_ms": 128850,
+              "end_ms": 129150
+            },
+            {
+              "word": "in",
+              "start_ms": 129200,
+              "end_ms": 129500
+            },
+            {
+              "word": "meinem",
+              "start_ms": 129550,
+              "end_ms": 129850
+            },
+            {
+              "word": "Arm",
+              "start_ms": 129900,
+              "end_ms": 130200
+            }
+          ]
+        },
+        {
+          "text": "Du verstehst noch nicht, was ich dir sage",
+          "start_ms": 128139,
+          "end_ms": 131860,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 128139,
+              "end_ms": 128439
+            },
+            {
+              "word": "verstehst",
+              "start_ms": 128489,
+              "end_ms": 128789
+            },
+            {
+              "word": "noch",
+              "start_ms": 129660,
+              "end_ms": 130539
+            },
+            {
+              "word": "nicht,",
+              "start_ms": 129660,
+              "end_ms": 130539
+            },
+            {
+              "word": "was",
+              "start_ms": 130589,
+              "end_ms": 130889
+            },
+            {
+              "word": "ich",
+              "start_ms": 129660,
+              "end_ms": 130539
+            },
+            {
+              "word": "dir",
+              "start_ms": 130589,
+              "end_ms": 130889
+            },
+            {
+              "word": "sage",
+              "start_ms": 131560,
+              "end_ms": 131860
+            }
+          ]
+        },
+        {
+          "text": "So klein, so neu",
+          "start_ms": 129660,
+          "end_ms": 128139,
+          "words": [
+            {
+              "word": "So",
+              "start_ms": 129660,
+              "end_ms": 129960
+            },
+            {
+              "word": "klein,",
+              "start_ms": 130010,
+              "end_ms": 130310
+            },
+            {
+              "word": "so",
+              "start_ms": 130360,
+              "end_ms": 130660
+            },
+            {
+              "word": "neu",
+              "start_ms": 127920,
+              "end_ms": 128139
+            }
+          ]
+        },
+        {
+          "text": "Aber eines Tages wirst du wissen",
+          "start_ms": 131860,
+          "end_ms": 144340,
+          "words": [
+            {
+              "word": "Aber",
+              "start_ms": 131860,
+              "end_ms": 132160
+            },
+            {
+              "word": "eines",
+              "start_ms": 132210,
+              "end_ms": 132510
+            },
+            {
+              "word": "Tages",
+              "start_ms": 132560,
+              "end_ms": 132860
+            },
+            {
+              "word": "wirst",
+              "start_ms": 143160,
+              "end_ms": 143640
+            },
+            {
+              "word": "du",
+              "start_ms": 143690,
+              "end_ms": 143990
+            },
+            {
+              "word": "wissen",
+              "start_ms": 144040,
+              "end_ms": 144340
+            }
+          ]
+        },
+        {
+          "text": "Hat dir Worte auf die Stirn gelegt",
+          "start_ms": 148640,
+          "end_ms": 150660,
+          "words": [
+            {
+              "word": "Hat",
+              "start_ms": 148640,
+              "end_ms": 148940
+            },
+            {
+              "word": "dir",
+              "start_ms": 149860,
+              "end_ms": 149960
+            },
+            {
+              "word": "Worte",
+              "start_ms": 150010,
+              "end_ms": 150310
+            },
+            {
+              "word": "auf",
+              "start_ms": 150360,
+              "end_ms": 150660
+            },
+            {
+              "word": "die",
+              "start_ms": 149860,
+              "end_ms": 149960
+            },
+            {
+              "word": "Stirn",
+              "start_ms": 150010,
+              "end_ms": 150310
+            },
+            {
+              "word": "gelegt",
+              "start_ms": 150360,
+              "end_ms": 150660
+            }
+          ]
+        },
+        {
+          "text": "Dein Vater hat über dich gesprochen",
+          "start_ms": 148940,
+          "end_ms": 148990,
+          "words": [
+            {
+              "word": "Dein",
+              "start_ms": 148940,
+              "end_ms": 149580
+            },
+            {
+              "word": "Vater",
+              "start_ms": 149630,
+              "end_ms": 149930
+            },
+            {
+              "word": "hat",
+              "start_ms": 149980,
+              "end_ms": 150280
+            },
+            {
+              "word": "über",
+              "start_ms": 150330,
+              "end_ms": 150630
+            },
+            {
+              "word": "dich",
+              "start_ms": 148440,
+              "end_ms": 148640
+            },
+            {
+              "word": "gesprochen",
+              "start_ms": 148690,
+              "end_ms": 148990
+            }
+          ]
+        },
+        {
+          "text": "Die größer sind als er",
+          "start_ms": 149860,
+          "end_ms": 157640,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 149860,
+              "end_ms": 149960
+            },
+            {
+              "word": "größer",
+              "start_ms": 150010,
+              "end_ms": 150310
+            },
+            {
+              "word": "sind",
+              "start_ms": 150520,
+              "end_ms": 151160
+            },
+            {
+              "word": "als",
+              "start_ms": 151210,
+              "end_ms": 151510
+            },
+            {
+              "word": "er",
+              "start_ms": 155600,
+              "end_ms": 157640
+            }
+          ]
+        },
+        {
+          "text": "Du wirst vor ihm hergehen",
+          "start_ms": 157640,
+          "end_ms": 159340,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 157640,
+              "end_ms": 157940
+            },
+            {
+              "word": "wirst",
+              "start_ms": 157990,
+              "end_ms": 158290
+            },
+            {
+              "word": "vor",
+              "start_ms": 158340,
+              "end_ms": 158640
+            },
+            {
+              "word": "ihm",
+              "start_ms": 158690,
+              "end_ms": 158990
+            },
+            {
+              "word": "hergehen",
+              "start_ms": 159040,
+              "end_ms": 159340
+            }
+          ]
+        },
+        {
+          "text": "Du wirst den Weg bereiten",
+          "start_ms": 157640,
+          "end_ms": 169400,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 157640,
+              "end_ms": 157940
+            },
+            {
+              "word": "wirst",
+              "start_ms": 157990,
+              "end_ms": 158290
+            },
+            {
+              "word": "den",
+              "start_ms": 155600,
+              "end_ms": 157640
+            },
+            {
+              "word": "Weg",
+              "start_ms": 163060,
+              "end_ms": 164880
+            },
+            {
+              "word": "bereiten",
+              "start_ms": 168940,
+              "end_ms": 169400
+            }
+          ]
+        },
+        {
+          "text": "Du wirst zeigen, was Vergebung heißt",
+          "start_ms": 169400,
+          "end_ms": 184800,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 169400,
+              "end_ms": 169700
+            },
+            {
+              "word": "wirst",
+              "start_ms": 169750,
+              "end_ms": 170050
+            },
+            {
+              "word": "zeigen,",
+              "start_ms": 170100,
+              "end_ms": 170400
+            },
+            {
+              "word": "was",
+              "start_ms": 178000,
+              "end_ms": 178260
+            },
+            {
+              "word": "Vergebung",
+              "start_ms": 178310,
+              "end_ms": 178610
+            },
+            {
+              "word": "heißt",
+              "start_ms": 183180,
+              "end_ms": 184800
+            }
+          ]
+        },
+        {
+          "text": "Auf dem Weg des Friedens",
+          "start_ms": 184800,
+          "end_ms": 191600,
+          "words": [
+            {
+              "word": "Auf",
+              "start_ms": 184800,
+              "end_ms": 185100
+            },
+            {
+              "word": "dem",
+              "start_ms": 185000,
+              "end_ms": 185160
+            },
+            {
+              "word": "Weg",
+              "start_ms": 185160,
+              "end_ms": 185580
+            },
+            {
+              "word": "des",
+              "start_ms": 187840,
+              "end_ms": 188560
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 188560,
+              "end_ms": 191600
+            }
+          ]
+        },
+        {
+          "text": "Durch das Licht aus der Höhe",
+          "start_ms": 202120,
+          "end_ms": 204110,
+          "words": [
+            {
+              "word": "Durch",
+              "start_ms": 202120,
+              "end_ms": 202360
+            },
+            {
+              "word": "das",
+              "start_ms": 202410,
+              "end_ms": 202710
+            },
+            {
+              "word": "Licht",
+              "start_ms": 202760,
+              "end_ms": 203060
+            },
+            {
+              "word": "aus",
+              "start_ms": 203110,
+              "end_ms": 203410
+            },
+            {
+              "word": "der",
+              "start_ms": 203460,
+              "end_ms": 203760
+            },
+            {
+              "word": "Höhe",
+              "start_ms": 203810,
+              "end_ms": 204110
+            }
+          ]
+        },
+        {
+          "text": "Das zu uns kommt",
+          "start_ms": 202360,
+          "end_ms": 202470,
+          "words": [
+            {
+              "word": "Das",
+              "start_ms": 202360,
+              "end_ms": 202660
+            },
+            {
+              "word": "zu",
+              "start_ms": 202710,
+              "end_ms": 203010
+            },
+            {
+              "word": "uns",
+              "start_ms": 200720,
+              "end_ms": 202120
+            },
+            {
+              "word": "kommt",
+              "start_ms": 202170,
+              "end_ms": 202470
+            }
+          ]
+        },
+        {
+          "text": "Weg des Friedens",
+          "start_ms": 204340,
+          "end_ms": 206400,
+          "words": [
+            {
+              "word": "Weg",
+              "start_ms": 204340,
+              "end_ms": 205140
+            },
+            {
+              "word": "des",
+              "start_ms": 205140,
+              "end_ms": 205260
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 205260,
+              "end_ms": 206400
+            }
+          ]
+        },
+        {
+          "text": "Ohne Furcht, ohne Angst",
+          "start_ms": 213960,
+          "end_ms": 215310,
+          "words": [
+            {
+              "word": "Ohne",
+              "start_ms": 213960,
+              "end_ms": 214260
+            },
+            {
+              "word": "Furcht,",
+              "start_ms": 214310,
+              "end_ms": 214610
+            },
+            {
+              "word": "ohne",
+              "start_ms": 214660,
+              "end_ms": 214960
+            },
+            {
+              "word": "Angst",
+              "start_ms": 215010,
+              "end_ms": 215310
+            }
+          ]
+        },
+        {
+          "text": "Nicht mehr im Schatten",
+          "start_ms": 213960,
+          "end_ms": 222300,
+          "words": [
+            {
+              "word": "Nicht",
+              "start_ms": 213960,
+              "end_ms": 214260
+            },
+            {
+              "word": "mehr",
+              "start_ms": 221600,
+              "end_ms": 221600
+            },
+            {
+              "word": "im",
+              "start_ms": 221650,
+              "end_ms": 221950
+            },
+            {
+              "word": "Schatten",
+              "start_ms": 222000,
+              "end_ms": 222300
+            }
+          ]
+        },
+        {
+          "text": "Auf dem Weg des Friedens",
+          "start_ms": 221600,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Auf",
+              "start_ms": 221600,
+              "end_ms": 221600
+            },
+            {
+              "word": "dem",
+              "start_ms": 221600,
+              "end_ms": 221600
+            },
+            {
+              "word": "Weg",
+              "start_ms": 221600,
+              "end_ms": 221600
+            },
+            {
+              "word": "des",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 221620,
+              "end_ms": 221620
+            }
+          ]
+        },
+        {
+          "text": "Weg des Friedens",
+          "start_ms": 221600,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Weg",
+              "start_ms": 221600,
+              "end_ms": 221620
+            },
+            {
+              "word": "des",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 221620,
+              "end_ms": 221620
+            }
+          ]
+        },
+        {
+          "text": "Den Weg des Friedens",
+          "start_ms": 221600,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Den",
+              "start_ms": 221600,
+              "end_ms": 221600
+            },
+            {
+              "word": "Weg",
+              "start_ms": 221600,
+              "end_ms": 221620
+            },
+            {
+              "word": "des",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 221620,
+              "end_ms": 221620
+            }
+          ]
+        },
+        {
+          "text": "Weg des Friedens",
+          "start_ms": 221600,
+          "end_ms": 221620,
+          "words": [
+            {
+              "word": "Weg",
+              "start_ms": 221600,
+              "end_ms": 221620
+            },
+            {
+              "word": "des",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "Friedens",
+              "start_ms": 221620,
+              "end_ms": 221620
+            }
+          ]
+        },
+        {
+          "text": "Tiefes, echtes Erbarmen",
+          "start_ms": 221620,
+          "end_ms": 222320,
+          "words": [
+            {
+              "word": "Tiefes,",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "echtes",
+              "start_ms": 221670,
+              "end_ms": 221970
+            },
+            {
+              "word": "Erbarmen",
+              "start_ms": 222020,
+              "end_ms": 222320
+            }
+          ]
+        },
+        {
+          "text": "Es kommt zu uns",
+          "start_ms": 221620,
+          "end_ms": 222670,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 221620,
+              "end_ms": 221620
+            },
+            {
+              "word": "kommt",
+              "start_ms": 221670,
+              "end_ms": 221970
+            },
+            {
+              "word": "zu",
+              "start_ms": 222020,
+              "end_ms": 222320
+            },
+            {
+              "word": "uns",
+              "start_ms": 222370,
+              "end_ms": 222670
+            }
+          ]
+        },
+        {
+          "text": "Der Morgen bricht an",
+          "start_ms": 221620,
+          "end_ms": 222970,
+          "words": [
+            {
+              "word": "Der",
+              "start_ms": 221620,
+              "end_ms": 221920
+            },
+            {
+              "word": "Morgen",
+              "start_ms": 221970,
+              "end_ms": 222270
+            },
+            {
+              "word": "bricht",
+              "start_ms": 222320,
+              "end_ms": 222620
+            },
+            {
+              "word": "an",
+              "start_ms": 222670,
+              "end_ms": 222970
+            }
+          ]
+        },
+        {
+          "text": "Der Morgen bricht an",
+          "start_ms": 221620,
+          "end_ms": 222970,
+          "words": [
+            {
+              "word": "Der",
+              "start_ms": 221620,
+              "end_ms": 221920
+            },
+            {
+              "word": "Morgen",
+              "start_ms": 221970,
+              "end_ms": 222270
+            },
+            {
+              "word": "bricht",
+              "start_ms": 222320,
+              "end_ms": 222620
+            },
+            {
+              "word": "an",
+              "start_ms": 222670,
+              "end_ms": 222970
+            }
+          ]
         }
       ],
-      "start_ms": 212794,
-      "end_ms": 220632
+      "start_ms": 0,
+      "end_ms": 222970
     }
   ],
-  "hooks": [
-    {
-      "id": "chorus_1",
-      "description": "Pre-Chorus - Und jetzt, jetzt öffnet sich m...",
-      "section_type": "chorus",
-      "start_ms": 36853,
-      "end_ms": 48610,
-      "key_line": "Und jetzt, jetzt öffnet sich mein Mund",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_2",
-      "description": "Chorus - Sondern Dank...",
-      "section_type": "chorus",
-      "start_ms": 49110,
-      "end_ms": 74110,
-      "key_line": "Sondern Dank",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_3",
-      "description": "Pre-Chorus - Du wirst vor ihm hergehen...",
-      "section_type": "chorus",
-      "start_ms": 112816,
-      "end_ms": 124573,
-      "key_line": "Du wirst vor ihm hergehen",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_4",
-      "description": "Chorus - Auf dem Weg des Friedens...",
-      "section_type": "chorus",
-      "start_ms": 125073,
-      "end_ms": 150073,
-      "key_line": "Auf dem Weg des Friedens",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "bridge_5",
-      "description": "Bridge - Weil Gott voller Erbarmen ist...",
-      "section_type": "bridge",
-      "start_ms": 153007,
-      "end_ms": 178007,
-      "key_line": "Weil Gott voller Erbarmen ist",
-      "recommended_for": [
-        "devotional_intro"
-      ]
-    },
-    {
-      "id": "chorus_6",
-      "description": "Final Chorus - Weg des Friedens...",
-      "section_type": "chorus",
-      "start_ms": 184860,
-      "end_ms": 209860,
-      "key_line": "Weg des Friedens",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    }
-  ],
-  "intro_clips": [
-    {
-      "id": "recommended_devotional_clip",
-      "start_ms": 36853,
-      "end_ms": 48610,
-      "focused_duration_ms": 15000,
-      "section_type": "chorus",
-      "key_line": "Und jetzt, jetzt öffnet sich mein Mund",
-      "notes": "Main chorus hook for devotional intro"
-    }
-  ]
+  "alignment_tool": "ttml_import",
+  "alignment_confidence": 1
 }

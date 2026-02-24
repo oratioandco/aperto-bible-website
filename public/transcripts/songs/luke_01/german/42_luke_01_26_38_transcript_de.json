@@ -1,456 +1,1723 @@
 {
   "schema_version": "1.0",
-  "song_id": "42_luke_01_26_38_de",
-  "title": "Hab keine Angst",
+  "song_id": "42_luke_01_26_38_transcript_de",
+  "title": "Song",
   "artist": "Aperto Bible",
   "language": "de",
   "book": "luke",
   "chapter": 1,
   "verses": "26-38",
-  "duration_ms": 215919,
-  "audio_file": "songs/luke_01/german/_Hab keine Angst_ - Luke 1_26-38 (German).mp3",
-  "lyrics_source": "19_luke_01_26-38_FINAL_OUTPUT.md",
-  "generated_at": "2026-01-23T16:15:37.153837",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
   "sections": [
     {
-      "type": "verse",
-      "label": "Verse 1",
+      "type": "song",
+      "label": "Lyrics",
       "lines": [
         {
           "text": "Kleines Zimmer, nichts Besondres",
-          "start_ms": 5000,
-          "end_ms": 8550
+          "start_ms": 13340,
+          "end_ms": 17060,
+          "words": [
+            {
+              "word": "Kleines",
+              "start_ms": 13340,
+              "end_ms": 14500
+            },
+            {
+              "word": "Zimmer,",
+              "start_ms": 14500,
+              "end_ms": 15140
+            },
+            {
+              "word": "nichts",
+              "start_ms": 15620,
+              "end_ms": 15800
+            },
+            {
+              "word": "Besondres",
+              "start_ms": 15800,
+              "end_ms": 17060
+            }
+          ]
         },
         {
           "text": "Kleines Leben, kleines Dorf",
-          "start_ms": 8550,
-          "end_ms": 12100
+          "start_ms": 17060,
+          "end_ms": 20300,
+          "words": [
+            {
+              "word": "Kleines",
+              "start_ms": 17060,
+              "end_ms": 17740
+            },
+            {
+              "word": "Leben,",
+              "start_ms": 17740,
+              "end_ms": 18500
+            },
+            {
+              "word": "kleines",
+              "start_ms": 17060,
+              "end_ms": 17740
+            },
+            {
+              "word": "Dorf",
+              "start_ms": 19340,
+              "end_ms": 20300
+            }
+          ]
         },
         {
           "text": "Und dann plötzlich diese Worte",
-          "start_ms": 12100,
-          "end_ms": 15650
+          "start_ms": 20300,
+          "end_ms": 23380,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 20300,
+              "end_ms": 20780
+            },
+            {
+              "word": "dann",
+              "start_ms": 20780,
+              "end_ms": 21000
+            },
+            {
+              "word": "plötzlich",
+              "start_ms": 21000,
+              "end_ms": 21880
+            },
+            {
+              "word": "diese",
+              "start_ms": 21880,
+              "end_ms": 22540
+            },
+            {
+              "word": "Worte",
+              "start_ms": 22540,
+              "end_ms": 23380
+            }
+          ]
         },
         {
           "text": "Die mich treffen wie ein Sturm",
-          "start_ms": 15650,
-          "end_ms": 19201
+          "start_ms": 23380,
+          "end_ms": 26180,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 23380,
+              "end_ms": 23920
+            },
+            {
+              "word": "mich",
+              "start_ms": 23920,
+              "end_ms": 24180
+            },
+            {
+              "word": "treffen",
+              "start_ms": 24180,
+              "end_ms": 24560
+            },
+            {
+              "word": "wie",
+              "start_ms": 24560,
+              "end_ms": 24900
+            },
+            {
+              "word": "ein",
+              "start_ms": 24900,
+              "end_ms": 25260
+            },
+            {
+              "word": "Sturm",
+              "start_ms": 25260,
+              "end_ms": 26180
+            }
+          ]
         },
         {
           "text": "Alles bebt, ich kann nicht atmen",
-          "start_ms": 19201,
-          "end_ms": 22751
+          "start_ms": 26180,
+          "end_ms": 29860,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 26180,
+              "end_ms": 27380
+            },
+            {
+              "word": "bebt,",
+              "start_ms": 27380,
+              "end_ms": 27840
+            },
+            {
+              "word": "ich",
+              "start_ms": 27980,
+              "end_ms": 28460
+            },
+            {
+              "word": "kann",
+              "start_ms": 28740,
+              "end_ms": 28840
+            },
+            {
+              "word": "nicht",
+              "start_ms": 28840,
+              "end_ms": 29060
+            },
+            {
+              "word": "atmen",
+              "start_ms": 29060,
+              "end_ms": 29860
+            }
+          ]
         },
         {
           "text": "Was passiert hier, wer bist du",
-          "start_ms": 22751,
-          "end_ms": 26301
+          "start_ms": 29860,
+          "end_ms": 33100,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 29860,
+              "end_ms": 30360
+            },
+            {
+              "word": "passiert",
+              "start_ms": 30360,
+              "end_ms": 30980
+            },
+            {
+              "word": "hier,",
+              "start_ms": 30980,
+              "end_ms": 31600
+            },
+            {
+              "word": "wer",
+              "start_ms": 31920,
+              "end_ms": 32080
+            },
+            {
+              "word": "bist",
+              "start_ms": 32080,
+              "end_ms": 32340
+            },
+            {
+              "word": "du",
+              "start_ms": 32340,
+              "end_ms": 33100
+            }
+          ]
         },
         {
           "text": "Meine Hände zittern, mein Herz rast",
-          "start_ms": 26301,
-          "end_ms": 29851
+          "start_ms": 33580,
+          "end_ms": 36000,
+          "words": [
+            {
+              "word": "Meine",
+              "start_ms": 33580,
+              "end_ms": 33860
+            },
+            {
+              "word": "Hände",
+              "start_ms": 33860,
+              "end_ms": 34300
+            },
+            {
+              "word": "zittern,",
+              "start_ms": 34300,
+              "end_ms": 34840
+            },
+            {
+              "word": "mein",
+              "start_ms": 35060,
+              "end_ms": 35160
+            },
+            {
+              "word": "Herz",
+              "start_ms": 35160,
+              "end_ms": 35580
+            },
+            {
+              "word": "rast",
+              "start_ms": 35580,
+              "end_ms": 36000
+            }
+          ]
         },
         {
           "text": "Und ich weiß nicht mehr wozu",
-          "start_ms": 29851,
-          "end_ms": 33402
-        }
-      ],
-      "start_ms": 5000,
-      "end_ms": 33402
-    },
-    {
-      "type": "chorus",
-      "label": "Pre-Chorus",
-      "lines": [
+          "start_ms": 36000,
+          "end_ms": 38760,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 36000,
+              "end_ms": 36200
+            },
+            {
+              "word": "ich",
+              "start_ms": 36200,
+              "end_ms": 36420
+            },
+            {
+              "word": "weiß",
+              "start_ms": 36420,
+              "end_ms": 36780
+            },
+            {
+              "word": "nicht",
+              "start_ms": 36780,
+              "end_ms": 37240
+            },
+            {
+              "word": "mehr",
+              "start_ms": 37240,
+              "end_ms": 37560
+            },
+            {
+              "word": "wozu",
+              "start_ms": 37560,
+              "end_ms": 38760
+            }
+          ]
+        },
         {
           "text": "Ich hör eine Stimme, die sagt mir",
-          "start_ms": 33902,
-          "end_ms": 37452
+          "start_ms": 38760,
+          "end_ms": 43020,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 38760,
+              "end_ms": 40180
+            },
+            {
+              "word": "hör",
+              "start_ms": 40180,
+              "end_ms": 40520
+            },
+            {
+              "word": "eine",
+              "start_ms": 40780,
+              "end_ms": 40980
+            },
+            {
+              "word": "Stimme,",
+              "start_ms": 40980,
+              "end_ms": 41600
+            },
+            {
+              "word": "die",
+              "start_ms": 41760,
+              "end_ms": 42040
+            },
+            {
+              "word": "sagt",
+              "start_ms": 42040,
+              "end_ms": 42420
+            },
+            {
+              "word": "mir",
+              "start_ms": 42420,
+              "end_ms": 43020
+            }
+          ]
         },
         {
           "text": "Was ich niemals glauben kann",
-          "start_ms": 37452,
-          "end_ms": 41002
+          "start_ms": 43020,
+          "end_ms": 46260,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 43020,
+              "end_ms": 43420
+            },
+            {
+              "word": "ich",
+              "start_ms": 43420,
+              "end_ms": 43680
+            },
+            {
+              "word": "niemals",
+              "start_ms": 43680,
+              "end_ms": 44420
+            },
+            {
+              "word": "glauben",
+              "start_ms": 44420,
+              "end_ms": 45480
+            },
+            {
+              "word": "kann",
+              "start_ms": 45480,
+              "end_ms": 46260
+            }
+          ]
         },
         {
           "text": "Doch sie sagt auch etwas anderes",
-          "start_ms": 41002,
-          "end_ms": 44552
+          "start_ms": 46260,
+          "end_ms": 49280,
+          "words": [
+            {
+              "word": "Doch",
+              "start_ms": 46260,
+              "end_ms": 47400
+            },
+            {
+              "word": "sie",
+              "start_ms": 47400,
+              "end_ms": 47640
+            },
+            {
+              "word": "sagt",
+              "start_ms": 47640,
+              "end_ms": 47900
+            },
+            {
+              "word": "auch",
+              "start_ms": 47900,
+              "end_ms": 48180
+            },
+            {
+              "word": "etwas",
+              "start_ms": 48180,
+              "end_ms": 48460
+            },
+            {
+              "word": "anderes",
+              "start_ms": 48460,
+              "end_ms": 49280
+            }
+          ]
         },
         {
           "text": "Etwas, das mich hält",
-          "start_ms": 44552,
-          "end_ms": 48103
-        }
-      ],
-      "start_ms": 33902,
-      "end_ms": 48103
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
+          "start_ms": 49280,
+          "end_ms": 51420,
+          "words": [
+            {
+              "word": "Etwas,",
+              "start_ms": 49280,
+              "end_ms": 50080
+            },
+            {
+              "word": "das",
+              "start_ms": 50140,
+              "end_ms": 50380
+            },
+            {
+              "word": "mich",
+              "start_ms": 50380,
+              "end_ms": 50780
+            },
+            {
+              "word": "hält",
+              "start_ms": 50780,
+              "end_ms": 51420
+            }
+          ]
+        },
         {
           "text": "Hab keine Angst",
-          "start_ms": 48603,
-          "end_ms": 52153
+          "start_ms": 55620,
+          "end_ms": 58080,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 55620,
+              "end_ms": 55920
+            },
+            {
+              "word": "keine",
+              "start_ms": 56960,
+              "end_ms": 57400
+            },
+            {
+              "word": "Angst",
+              "start_ms": 57400,
+              "end_ms": 58080
+            }
+          ]
         },
         {
           "text": "Ich hab Angst, aber",
-          "start_ms": 52153,
-          "end_ms": 55703
+          "start_ms": 60000,
+          "end_ms": 65680,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 60000,
+              "end_ms": 60440
+            },
+            {
+              "word": "hab",
+              "start_ms": 61520,
+              "end_ms": 62280
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 62980,
+              "end_ms": 63500
+            },
+            {
+              "word": "aber",
+              "start_ms": 64819,
+              "end_ms": 65680
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 55703,
-          "end_ms": 59253
+          "start_ms": 65680,
+          "end_ms": 67940,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 65680,
+              "end_ms": 66360
+            },
+            {
+              "word": "keine",
+              "start_ms": 66760,
+              "end_ms": 67040
+            },
+            {
+              "word": "Angst",
+              "start_ms": 67040,
+              "end_ms": 67940
+            }
+          ]
         },
         {
           "text": "Trotzdem bleib ich hier",
-          "start_ms": 59253,
-          "end_ms": 62804
+          "start_ms": 68460,
+          "end_ms": 68950,
+          "words": [
+            {
+              "word": "Trotzdem",
+              "start_ms": 68460,
+              "end_ms": 68760
+            },
+            {
+              "word": "bleib",
+              "start_ms": 68810,
+              "end_ms": 69110
+            },
+            {
+              "word": "ich",
+              "start_ms": 68460,
+              "end_ms": 68600
+            },
+            {
+              "word": "hier",
+              "start_ms": 68650,
+              "end_ms": 68950
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 62804,
-          "end_ms": 66354
+          "start_ms": 69440,
+          "end_ms": 71300,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 69440,
+              "end_ms": 69860
+            },
+            {
+              "word": "keine",
+              "start_ms": 70200,
+              "end_ms": 70440
+            },
+            {
+              "word": "Angst",
+              "start_ms": 70440,
+              "end_ms": 71300
+            }
+          ]
         },
         {
           "text": "Ich versteh nicht, aber",
-          "start_ms": 66354,
-          "end_ms": 69904
-        },
-        {
-          "text": "Hab keine Angst",
-          "start_ms": 69904,
-          "end_ms": 73454
+          "start_ms": 71620,
+          "end_ms": 72430,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 71620,
+              "end_ms": 72080
+            },
+            {
+              "word": "versteh",
+              "start_ms": 72130,
+              "end_ms": 72430
+            },
+            {
+              "word": "nicht,",
+              "start_ms": 71620,
+              "end_ms": 72080
+            },
+            {
+              "word": "aber",
+              "start_ms": 72130,
+              "end_ms": 72430
+            }
+          ]
         },
         {
           "text": "Ich sag Ja",
-          "start_ms": 73454,
-          "end_ms": 77005
-        }
-      ],
-      "start_ms": 48603,
-      "end_ms": 77005
-    },
-    {
-      "type": "verse",
-      "label": "Verse 2",
-      "lines": [
+          "start_ms": 71620,
+          "end_ms": 74420,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 71620,
+              "end_ms": 72080
+            },
+            {
+              "word": "sag",
+              "start_ms": 72080,
+              "end_ms": 72880
+            },
+            {
+              "word": "Ja",
+              "start_ms": 73220,
+              "end_ms": 74420
+            }
+          ]
+        },
+        {
+          "text": "Hab keine Angst",
+          "start_ms": 72080,
+          "end_ms": 71300,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 72080,
+              "end_ms": 72380
+            },
+            {
+              "word": "keine",
+              "start_ms": 70200,
+              "end_ms": 70440
+            },
+            {
+              "word": "Angst",
+              "start_ms": 70440,
+              "end_ms": 71300
+            }
+          ]
+        },
         {
           "text": "Was das heißt, weiß ich genau",
-          "start_ms": 77505,
-          "end_ms": 81055
+          "start_ms": 79880,
+          "end_ms": 83300,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 79880,
+              "end_ms": 80680
+            },
+            {
+              "word": "das",
+              "start_ms": 80680,
+              "end_ms": 81080
+            },
+            {
+              "word": "heißt,",
+              "start_ms": 81080,
+              "end_ms": 81760
+            },
+            {
+              "word": "weiß",
+              "start_ms": 82140,
+              "end_ms": 82220
+            },
+            {
+              "word": "ich",
+              "start_ms": 82220,
+              "end_ms": 82420
+            },
+            {
+              "word": "genau",
+              "start_ms": 82420,
+              "end_ms": 83300
+            }
+          ]
         },
         {
           "text": "Was ich riskier, wenn ich Ja sag",
-          "start_ms": 81055,
-          "end_ms": 84605
+          "start_ms": 83300,
+          "end_ms": 87100,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 83300,
+              "end_ms": 83740
+            },
+            {
+              "word": "ich",
+              "start_ms": 82220,
+              "end_ms": 82420
+            },
+            {
+              "word": "riskier,",
+              "start_ms": 84000,
+              "end_ms": 84420
+            },
+            {
+              "word": "wenn",
+              "start_ms": 85480,
+              "end_ms": 85580
+            },
+            {
+              "word": "ich",
+              "start_ms": 83740,
+              "end_ms": 84000
+            },
+            {
+              "word": "Ja",
+              "start_ms": 85940,
+              "end_ms": 86280
+            },
+            {
+              "word": "sag",
+              "start_ms": 86280,
+              "end_ms": 87100
+            }
+          ]
         },
         {
           "text": "Alles, was ich hab und bin",
-          "start_ms": 84605,
-          "end_ms": 88155
+          "start_ms": 87100,
+          "end_ms": 89900,
+          "words": [
+            {
+              "word": "Alles,",
+              "start_ms": 87100,
+              "end_ms": 87480
+            },
+            {
+              "word": "was",
+              "start_ms": 87480,
+              "end_ms": 87680
+            },
+            {
+              "word": "ich",
+              "start_ms": 87680,
+              "end_ms": 88020
+            },
+            {
+              "word": "hab",
+              "start_ms": 88020,
+              "end_ms": 88380
+            },
+            {
+              "word": "und",
+              "start_ms": 88700,
+              "end_ms": 89120
+            },
+            {
+              "word": "bin",
+              "start_ms": 89120,
+              "end_ms": 89900
+            }
+          ]
         },
         {
           "text": "Steht auf einmal auf dem Spiel",
-          "start_ms": 88155,
-          "end_ms": 91706
+          "start_ms": 89900,
+          "end_ms": 92420,
+          "words": [
+            {
+              "word": "Steht",
+              "start_ms": 89900,
+              "end_ms": 90540
+            },
+            {
+              "word": "auf",
+              "start_ms": 90540,
+              "end_ms": 90780
+            },
+            {
+              "word": "einmal",
+              "start_ms": 90780,
+              "end_ms": 91100
+            },
+            {
+              "word": "auf",
+              "start_ms": 90540,
+              "end_ms": 90780
+            },
+            {
+              "word": "dem",
+              "start_ms": 91360,
+              "end_ms": 91780
+            },
+            {
+              "word": "Spiel",
+              "start_ms": 91780,
+              "end_ms": 92420
+            }
+          ]
         },
         {
           "text": "Josef, meine Familie",
-          "start_ms": 91706,
-          "end_ms": 95256
+          "start_ms": 93280,
+          "end_ms": 95500,
+          "words": [
+            {
+              "word": "Josef,",
+              "start_ms": 93280,
+              "end_ms": 94080
+            },
+            {
+              "word": "meine",
+              "start_ms": 94280,
+              "end_ms": 94540
+            },
+            {
+              "word": "Familie",
+              "start_ms": 94540,
+              "end_ms": 95500
+            }
+          ]
         },
         {
           "text": "Mein Ruf, vielleicht mein Leben",
-          "start_ms": 95256,
-          "end_ms": 98806
+          "start_ms": 95500,
+          "end_ms": 98580,
+          "words": [
+            {
+              "word": "Mein",
+              "start_ms": 95500,
+              "end_ms": 96360
+            },
+            {
+              "word": "Ruf,",
+              "start_ms": 96360,
+              "end_ms": 96900
+            },
+            {
+              "word": "vielleicht",
+              "start_ms": 96900,
+              "end_ms": 97540
+            },
+            {
+              "word": "mein",
+              "start_ms": 95500,
+              "end_ms": 96360
+            },
+            {
+              "word": "Leben",
+              "start_ms": 97800,
+              "end_ms": 98580
+            }
+          ]
         },
         {
           "text": "Und ich soll einfach Ja sagen",
-          "start_ms": 98806,
-          "end_ms": 102356
+          "start_ms": 98580,
+          "end_ms": 102200,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 98580,
+              "end_ms": 99140
+            },
+            {
+              "word": "ich",
+              "start_ms": 99140,
+              "end_ms": 99960
+            },
+            {
+              "word": "soll",
+              "start_ms": 99960,
+              "end_ms": 100360
+            },
+            {
+              "word": "einfach",
+              "start_ms": 100360,
+              "end_ms": 101020
+            },
+            {
+              "word": "Ja",
+              "start_ms": 101020,
+              "end_ms": 101640
+            },
+            {
+              "word": "sagen",
+              "start_ms": 101640,
+              "end_ms": 102200
+            }
+          ]
         },
         {
           "text": "Zu etwas, das ich nicht versteh",
-          "start_ms": 102356,
-          "end_ms": 105907
-        }
-      ],
-      "start_ms": 77505,
-      "end_ms": 105907
-    },
-    {
-      "type": "chorus",
-      "label": "Pre-Chorus",
-      "lines": [
+          "start_ms": 102200,
+          "end_ms": 104580,
+          "words": [
+            {
+              "word": "Zu",
+              "start_ms": 102200,
+              "end_ms": 102860
+            },
+            {
+              "word": "etwas,",
+              "start_ms": 102860,
+              "end_ms": 103200
+            },
+            {
+              "word": "das",
+              "start_ms": 103220,
+              "end_ms": 103420
+            },
+            {
+              "word": "ich",
+              "start_ms": 103420,
+              "end_ms": 103680
+            },
+            {
+              "word": "nicht",
+              "start_ms": 103680,
+              "end_ms": 104040
+            },
+            {
+              "word": "versteh",
+              "start_ms": 104040,
+              "end_ms": 104580
+            }
+          ]
+        },
         {
           "text": "Da ist diese Angst, die schreit so laut",
-          "start_ms": 106407,
-          "end_ms": 109957
+          "start_ms": 106640,
+          "end_ms": 109540,
+          "words": [
+            {
+              "word": "Da",
+              "start_ms": 106640,
+              "end_ms": 106700
+            },
+            {
+              "word": "ist",
+              "start_ms": 106700,
+              "end_ms": 106940
+            },
+            {
+              "word": "diese",
+              "start_ms": 106940,
+              "end_ms": 107280
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 107280,
+              "end_ms": 108060
+            },
+            {
+              "word": "die",
+              "start_ms": 108100,
+              "end_ms": 108260
+            },
+            {
+              "word": "schreit",
+              "start_ms": 108260,
+              "end_ms": 108700
+            },
+            {
+              "word": "so",
+              "start_ms": 108700,
+              "end_ms": 109060
+            },
+            {
+              "word": "laut",
+              "start_ms": 109060,
+              "end_ms": 109540
+            }
+          ]
         },
         {
           "text": "Und da ist diese Stimme, die mich trägt",
-          "start_ms": 109957,
-          "end_ms": 113507
+          "start_ms": 109540,
+          "end_ms": 112580,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 109540,
+              "end_ms": 109720
+            },
+            {
+              "word": "da",
+              "start_ms": 109720,
+              "end_ms": 109980
+            },
+            {
+              "word": "ist",
+              "start_ms": 109980,
+              "end_ms": 110180
+            },
+            {
+              "word": "diese",
+              "start_ms": 110180,
+              "end_ms": 110520
+            },
+            {
+              "word": "Stimme,",
+              "start_ms": 110520,
+              "end_ms": 110900
+            },
+            {
+              "word": "die",
+              "start_ms": 110920,
+              "end_ms": 111540
+            },
+            {
+              "word": "mich",
+              "start_ms": 111540,
+              "end_ms": 112200
+            },
+            {
+              "word": "trägt",
+              "start_ms": 112200,
+              "end_ms": 112580
+            }
+          ]
         },
         {
           "text": "Ich weiß nicht, was morgen wird",
-          "start_ms": 113507,
-          "end_ms": 117057
+          "start_ms": 113120,
+          "end_ms": 116060,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 113120,
+              "end_ms": 113580
+            },
+            {
+              "word": "weiß",
+              "start_ms": 113580,
+              "end_ms": 114220
+            },
+            {
+              "word": "nicht,",
+              "start_ms": 114220,
+              "end_ms": 114580
+            },
+            {
+              "word": "was",
+              "start_ms": 114600,
+              "end_ms": 114860
+            },
+            {
+              "word": "morgen",
+              "start_ms": 114860,
+              "end_ms": 115420
+            },
+            {
+              "word": "wird",
+              "start_ms": 115420,
+              "end_ms": 116060
+            }
+          ]
         },
         {
           "text": "Aber ich weiß, wem ich gehör",
-          "start_ms": 117057,
-          "end_ms": 120608
-        }
-      ],
-      "start_ms": 106407,
-      "end_ms": 120608
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
+          "start_ms": 116060,
+          "end_ms": 119300,
+          "words": [
+            {
+              "word": "Aber",
+              "start_ms": 116060,
+              "end_ms": 116780
+            },
+            {
+              "word": "ich",
+              "start_ms": 116780,
+              "end_ms": 117120
+            },
+            {
+              "word": "weiß,",
+              "start_ms": 117120,
+              "end_ms": 117660
+            },
+            {
+              "word": "wem",
+              "start_ms": 117960,
+              "end_ms": 118280
+            },
+            {
+              "word": "ich",
+              "start_ms": 116780,
+              "end_ms": 117120
+            },
+            {
+              "word": "gehör",
+              "start_ms": 118780,
+              "end_ms": 119300
+            }
+          ]
+        },
         {
           "text": "Hab keine Angst",
-          "start_ms": 121108,
-          "end_ms": 124658
+          "start_ms": 122100,
+          "end_ms": 124620,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 122100,
+              "end_ms": 122400
+            },
+            {
+              "word": "keine",
+              "start_ms": 123580,
+              "end_ms": 124020
+            },
+            {
+              "word": "Angst",
+              "start_ms": 124020,
+              "end_ms": 124620
+            }
+          ]
         },
         {
           "text": "Ich hab Angst, aber",
-          "start_ms": 124658,
-          "end_ms": 128208
+          "start_ms": 126460,
+          "end_ms": 132140,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 126460,
+              "end_ms": 126940
+            },
+            {
+              "word": "hab",
+              "start_ms": 127760,
+              "end_ms": 128740
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 129380,
+              "end_ms": 129960
+            },
+            {
+              "word": "aber",
+              "start_ms": 131280,
+              "end_ms": 132140
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 128208,
-          "end_ms": 131758
+          "start_ms": 132140,
+          "end_ms": 134400,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 132140,
+              "end_ms": 132820
+            },
+            {
+              "word": "keine",
+              "start_ms": 133200,
+              "end_ms": 133620
+            },
+            {
+              "word": "Angst",
+              "start_ms": 133620,
+              "end_ms": 134400
+            }
+          ]
         },
         {
           "text": "Trotzdem bleib ich hier",
-          "start_ms": 131758,
-          "end_ms": 135309
+          "start_ms": 134940,
+          "end_ms": 135410,
+          "words": [
+            {
+              "word": "Trotzdem",
+              "start_ms": 134940,
+              "end_ms": 135240
+            },
+            {
+              "word": "bleib",
+              "start_ms": 135290,
+              "end_ms": 135590
+            },
+            {
+              "word": "ich",
+              "start_ms": 134940,
+              "end_ms": 135060
+            },
+            {
+              "word": "hier",
+              "start_ms": 135110,
+              "end_ms": 135410
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 135309,
-          "end_ms": 138859
+          "start_ms": 135940,
+          "end_ms": 149060,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 135940,
+              "end_ms": 136360
+            },
+            {
+              "word": "keine",
+              "start_ms": 136640,
+              "end_ms": 136920
+            },
+            {
+              "word": "Angst",
+              "start_ms": 148080,
+              "end_ms": 149060
+            }
+          ]
         },
         {
           "text": "Ich versteh nicht, aber",
-          "start_ms": 138859,
-          "end_ms": 142409
+          "start_ms": 149060,
+          "end_ms": 151090,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 149060,
+              "end_ms": 149620
+            },
+            {
+              "word": "versteh",
+              "start_ms": 149670,
+              "end_ms": 149970
+            },
+            {
+              "word": "nicht,",
+              "start_ms": 150500,
+              "end_ms": 150740
+            },
+            {
+              "word": "aber",
+              "start_ms": 150790,
+              "end_ms": 151090
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 142409,
-          "end_ms": 145959
+          "start_ms": 150740,
+          "end_ms": 151670,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 150740,
+              "end_ms": 151040
+            },
+            {
+              "word": "keine",
+              "start_ms": 150740,
+              "end_ms": 151320
+            },
+            {
+              "word": "Angst",
+              "start_ms": 151370,
+              "end_ms": 151670
+            }
+          ]
         },
         {
           "text": "Ich sag Ja",
-          "start_ms": 145959,
-          "end_ms": 149510
-        }
-      ],
-      "start_ms": 121108,
-      "end_ms": 149510
-    },
-    {
-      "type": "bridge",
-      "label": "Bridge",
-      "lines": [
+          "start_ms": 151870,
+          "end_ms": 152910,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 151870,
+              "end_ms": 152210
+            },
+            {
+              "word": "sag",
+              "start_ms": 152260,
+              "end_ms": 152560
+            },
+            {
+              "word": "Ja",
+              "start_ms": 152610,
+              "end_ms": 152910
+            }
+          ]
+        },
         {
           "text": "Ich gehör nicht meiner Angst",
-          "start_ms": 150010,
-          "end_ms": 153560
+          "start_ms": 151870,
+          "end_ms": 153120,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 151870,
+              "end_ms": 152210
+            },
+            {
+              "word": "gehör",
+              "start_ms": 152210,
+              "end_ms": 152770
+            },
+            {
+              "word": "nicht",
+              "start_ms": 152770,
+              "end_ms": 152770
+            },
+            {
+              "word": "meiner",
+              "start_ms": 152770,
+              "end_ms": 152770
+            },
+            {
+              "word": "Angst",
+              "start_ms": 152820,
+              "end_ms": 153120
+            }
+          ]
         },
         {
           "text": "Ich gehör nicht meinem Zweifel",
-          "start_ms": 153560,
-          "end_ms": 157110
+          "start_ms": 152770,
+          "end_ms": 152770,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 152770,
+              "end_ms": 153050
+            },
+            {
+              "word": "gehör",
+              "start_ms": 153050,
+              "end_ms": 153970
+            },
+            {
+              "word": "nicht",
+              "start_ms": 152770,
+              "end_ms": 153050
+            },
+            {
+              "word": "meinem",
+              "start_ms": 152770,
+              "end_ms": 152770
+            },
+            {
+              "word": "Zweifel",
+              "start_ms": 152770,
+              "end_ms": 152770
+            }
+          ]
         },
         {
           "text": "Ich gehör, ich weiß wem",
-          "start_ms": 157110,
-          "end_ms": 160660
+          "start_ms": 152770,
+          "end_ms": 155390,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 152770,
+              "end_ms": 153050
+            },
+            {
+              "word": "gehör,",
+              "start_ms": 153050,
+              "end_ms": 153970
+            },
+            {
+              "word": "ich",
+              "start_ms": 152770,
+              "end_ms": 153050
+            },
+            {
+              "word": "weiß",
+              "start_ms": 154150,
+              "end_ms": 154730
+            },
+            {
+              "word": "wem",
+              "start_ms": 155390,
+              "end_ms": 155390
+            }
+          ]
         },
         {
           "text": "Und deshalb kann ich wagen",
-          "start_ms": 160660,
-          "end_ms": 164211
+          "start_ms": 155390,
+          "end_ms": 159230,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 155390,
+              "end_ms": 156330
+            },
+            {
+              "word": "deshalb",
+              "start_ms": 156330,
+              "end_ms": 157090
+            },
+            {
+              "word": "kann",
+              "start_ms": 157090,
+              "end_ms": 157390
+            },
+            {
+              "word": "ich",
+              "start_ms": 157390,
+              "end_ms": 158030
+            },
+            {
+              "word": "wagen",
+              "start_ms": 158030,
+              "end_ms": 159230
+            }
+          ]
         },
         {
           "text": "Was du sagst",
-          "start_ms": 164211,
-          "end_ms": 167761
+          "start_ms": 159230,
+          "end_ms": 164630,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 159230,
+              "end_ms": 162370
+            },
+            {
+              "word": "du",
+              "start_ms": 162370,
+              "end_ms": 163310
+            },
+            {
+              "word": "sagst",
+              "start_ms": 163310,
+              "end_ms": 164630
+            }
+          ]
         },
         {
           "text": "So soll es sein",
-          "start_ms": 167761,
-          "end_ms": 171311
+          "start_ms": 165210,
+          "end_ms": 166810,
+          "words": [
+            {
+              "word": "So",
+              "start_ms": 165210,
+              "end_ms": 165270
+            },
+            {
+              "word": "soll",
+              "start_ms": 165270,
+              "end_ms": 165530
+            },
+            {
+              "word": "es",
+              "start_ms": 165530,
+              "end_ms": 165810
+            },
+            {
+              "word": "sein",
+              "start_ms": 165810,
+              "end_ms": 166810
+            }
+          ]
         },
         {
           "text": "Was du sagst",
-          "start_ms": 171311,
-          "end_ms": 174861
+          "start_ms": 167870,
+          "end_ms": 171070,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 167870,
+              "end_ms": 168870
+            },
+            {
+              "word": "du",
+              "start_ms": 168870,
+              "end_ms": 169810
+            },
+            {
+              "word": "sagst",
+              "start_ms": 169810,
+              "end_ms": 171070
+            }
+          ]
         },
         {
           "text": "Ich bin bereit",
-          "start_ms": 174861,
-          "end_ms": 178412
-        }
-      ],
-      "start_ms": 150010,
-      "end_ms": 178412
-    },
-    {
-      "type": "chorus",
-      "label": "Final Chorus",
-      "lines": [
+          "start_ms": 171490,
+          "end_ms": 173050,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 171490,
+              "end_ms": 171710
+            },
+            {
+              "word": "bin",
+              "start_ms": 171710,
+              "end_ms": 171950
+            },
+            {
+              "word": "bereit",
+              "start_ms": 171950,
+              "end_ms": 173050
+            }
+          ]
+        },
         {
           "text": "Hab keine Angst",
-          "start_ms": 178912,
-          "end_ms": 182462
+          "start_ms": 173050,
+          "end_ms": 177930,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 173050,
+              "end_ms": 174990
+            },
+            {
+              "word": "keine",
+              "start_ms": 175170,
+              "end_ms": 175770
+            },
+            {
+              "word": "Angst",
+              "start_ms": 177450,
+              "end_ms": 177930
+            }
+          ]
         },
         {
           "text": "Ich hatte Angst, aber",
-          "start_ms": 182462,
-          "end_ms": 186012
+          "start_ms": 176890,
+          "end_ms": 178190,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 176890,
+              "end_ms": 177110
+            },
+            {
+              "word": "hatte",
+              "start_ms": 177110,
+              "end_ms": 177450
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 175770,
+              "end_ms": 176550
+            },
+            {
+              "word": "aber",
+              "start_ms": 177930,
+              "end_ms": 178190
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 186012,
-          "end_ms": 189562
+          "start_ms": 178190,
+          "end_ms": 179830,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 178190,
+              "end_ms": 178550
+            },
+            {
+              "word": "keine",
+              "start_ms": 178590,
+              "end_ms": 179030
+            },
+            {
+              "word": "Angst",
+              "start_ms": 179030,
+              "end_ms": 179830
+            }
+          ]
         },
         {
           "text": "Ich bin trotzdem hier",
-          "start_ms": 189562,
-          "end_ms": 193113
+          "start_ms": 179830,
+          "end_ms": 183070,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 179830,
+              "end_ms": 180050
+            },
+            {
+              "word": "bin",
+              "start_ms": 180050,
+              "end_ms": 180610
+            },
+            {
+              "word": "trotzdem",
+              "start_ms": 180610,
+              "end_ms": 181590
+            },
+            {
+              "word": "hier",
+              "start_ms": 181590,
+              "end_ms": 183070
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 193113,
-          "end_ms": 196663
+          "start_ms": 183070,
+          "end_ms": 185130,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 183070,
+              "end_ms": 183830
+            },
+            {
+              "word": "keine",
+              "start_ms": 184270,
+              "end_ms": 184510
+            },
+            {
+              "word": "Angst",
+              "start_ms": 184510,
+              "end_ms": 185130
+            }
+          ]
         },
         {
           "text": "Ich verstand nicht, aber",
-          "start_ms": 196663,
-          "end_ms": 200213
+          "start_ms": 185230,
+          "end_ms": 187150,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 185230,
+              "end_ms": 185370
+            },
+            {
+              "word": "verstand",
+              "start_ms": 185370,
+              "end_ms": 186010
+            },
+            {
+              "word": "nicht,",
+              "start_ms": 186190,
+              "end_ms": 186410
+            },
+            {
+              "word": "aber",
+              "start_ms": 186410,
+              "end_ms": 187150
+            }
+          ]
         },
         {
           "text": "Hab keine Angst",
-          "start_ms": 200213,
-          "end_ms": 203764
+          "start_ms": 187150,
+          "end_ms": 189690,
+          "words": [
+            {
+              "word": "Hab",
+              "start_ms": 187150,
+              "end_ms": 188010
+            },
+            {
+              "word": "keine",
+              "start_ms": 188310,
+              "end_ms": 188850
+            },
+            {
+              "word": "Angst",
+              "start_ms": 188850,
+              "end_ms": 189690
+            }
+          ]
         },
         {
           "text": "Ich sag Ja",
-          "start_ms": 203764,
-          "end_ms": 207314
+          "start_ms": 190070,
+          "end_ms": 191050,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 190070,
+              "end_ms": 190190
+            },
+            {
+              "word": "sag",
+              "start_ms": 190190,
+              "end_ms": 190430
+            },
+            {
+              "word": "Ja",
+              "start_ms": 190470,
+              "end_ms": 191050
+            }
+          ]
         },
         {
           "text": "So soll es sein",
-          "start_ms": 207314,
-          "end_ms": 210864
+          "start_ms": 199990,
+          "end_ms": 202430,
+          "words": [
+            {
+              "word": "So",
+              "start_ms": 199990,
+              "end_ms": 200870
+            },
+            {
+              "word": "soll",
+              "start_ms": 200870,
+              "end_ms": 201210
+            },
+            {
+              "word": "es",
+              "start_ms": 201210,
+              "end_ms": 201410
+            },
+            {
+              "word": "sein",
+              "start_ms": 201410,
+              "end_ms": 202430
+            }
+          ]
         },
         {
           "text": "Ich sag Ja",
-          "start_ms": 210864,
-          "end_ms": 214415
+          "start_ms": 206490,
+          "end_ms": 209650,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 206490,
+              "end_ms": 207850
+            },
+            {
+              "word": "sag",
+              "start_ms": 207850,
+              "end_ms": 208290
+            },
+            {
+              "word": "Ja",
+              "start_ms": 208950,
+              "end_ms": 209650
+            }
+          ]
         }
       ],
-      "start_ms": 178912,
-      "end_ms": 214415
+      "start_ms": 13340,
+      "end_ms": 209650
     }
   ],
-  "hooks": [
-    {
-      "id": "chorus_1",
-      "description": "Pre-Chorus - Ich hör eine Stimme, die sagt ...",
-      "section_type": "chorus",
-      "start_ms": 33902,
-      "end_ms": 48103,
-      "key_line": "Ich hör eine Stimme, die sagt mir",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_2",
-      "description": "Chorus - Hab keine Angst...",
-      "section_type": "chorus",
-      "start_ms": 48603,
-      "end_ms": 73603,
-      "key_line": "Hab keine Angst",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_3",
-      "description": "Pre-Chorus - Da ist diese Angst, die schrei...",
-      "section_type": "chorus",
-      "start_ms": 106407,
-      "end_ms": 120608,
-      "key_line": "Da ist diese Angst, die schreit so laut",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "chorus_4",
-      "description": "Chorus - Hab keine Angst...",
-      "section_type": "chorus",
-      "start_ms": 121108,
-      "end_ms": 146108,
-      "key_line": "Hab keine Angst",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    },
-    {
-      "id": "bridge_5",
-      "description": "Bridge - Ich gehör nicht meiner Angst...",
-      "section_type": "bridge",
-      "start_ms": 150010,
-      "end_ms": 175010,
-      "key_line": "Ich gehör nicht meiner Angst",
-      "recommended_for": [
-        "devotional_intro"
-      ]
-    },
-    {
-      "id": "chorus_6",
-      "description": "Final Chorus - Hab keine Angst...",
-      "section_type": "chorus",
-      "start_ms": 178912,
-      "end_ms": 203912,
-      "key_line": "Hab keine Angst",
-      "recommended_for": [
-        "devotional_intro",
-        "social_clip"
-      ]
-    }
-  ],
-  "intro_clips": [
-    {
-      "id": "recommended_devotional_clip",
-      "start_ms": 33902,
-      "end_ms": 48103,
-      "focused_duration_ms": 15000,
-      "section_type": "chorus",
-      "key_line": "Ich hör eine Stimme, die sagt mir",
-      "notes": "Main chorus hook for devotional intro"
-    }
-  ]
+  "alignment_tool": "ttml_import",
+  "alignment_confidence": 1
 }
