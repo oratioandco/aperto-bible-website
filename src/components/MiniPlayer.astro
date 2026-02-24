@@ -813,11 +813,21 @@
         let lineHtml = `<div class="karaoke-line" data-line-index="${lineIndex}" data-start="${lineStart}" data-end="${lineEnd}">`;
 
         if (line.words && line.words.length > 0) {
+          // Use actual word-level timestamps
           line.words.forEach((word: any) => {
             lineHtml += `<span class="karaoke-word" data-start="${word.start_ms}" data-end="${word.end_ms}">${word.word}</span> `;
           });
-        } else {
-          lineHtml += line.text;
+        } else if (line.text) {
+          // Fallback: estimate word timings based on line duration
+          const words = line.text.split(/\s+/).filter((w: string) => w.length > 0);
+          const lineDuration = lineEnd - lineStart;
+          const wordDuration = lineDuration / words.length;
+
+          words.forEach((word: string, i: number) => {
+            const wordStart = lineStart + (i * wordDuration);
+            const wordEnd = wordStart + wordDuration;
+            lineHtml += `<span class="karaoke-word" data-start="${wordStart}" data-end="${wordEnd}">${word}</span> `;
+          });
         }
 
         lineHtml += '</div>';
