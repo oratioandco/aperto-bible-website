@@ -31,111 +31,156 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       <h1 class="text-4xl md:text-5xl mb-12 headline-mixed">{t('about.title')}</h1>
 
       <section class="mb-16">
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.whatIs.title')}</h2>
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.falseChoice.title')}</h2>
         <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
-          {t('about.whatIs.p1')}
+          {t('about.falseChoice.p1')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.falseChoice.p2')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.falseChoice.p3')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.falseChoice.p4')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.falseChoice.p5')}
         </p>
         <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
-          {t('about.whatIs.p2')}
+          {t('about.falseChoice.p6')}
         </p>
       </section>
 
       <section class="mb-16">
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.philosophy.title')}</h2>
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.building.title')}</h2>
         <div class="space-y-8">
           <div>
-            <h3 class="text-xl mb-3">{t('about.philosophy.believerSkeptic')}</h3>
+            <h3 class="text-xl mb-3">{t('about.building.literary.title')}</h3>
             <p class="leading-relaxed" style="color: #5A5A5A;">
-              {t('about.philosophy.believerSkepticDesc')}
+              {t('about.building.literary.desc')}
             </p>
           </div>
           <div>
-            <h3 class="text-xl mb-3">{t('about.philosophy.ecumenical')}</h3>
+            <h3 class="text-xl mb-3">{t('about.building.context.title')}</h3>
             <p class="leading-relaxed" style="color: #5A5A5A;">
-              {t('about.philosophy.ecumenicalDesc')}
+              {t('about.building.context.desc')}
             </p>
           </div>
           <div>
-            <h3 class="text-xl mb-3">{t('about.philosophy.accessible')}</h3>
+            <h3 class="text-xl mb-3">{t('about.building.ecumenical.title')}</h3>
             <p class="leading-relaxed" style="color: #5A5A5A;">
-              {t('about.philosophy.accessibleDesc')}
+              {t('about.building.ecumenical.desc')}
             </p>
           </div>
           <div>
-            <h3 class="text-xl mb-3">{t('about.philosophy.multimedia')}</h3>
+            <h3 class="text-xl mb-3">{t('about.building.multimedia.title')}</h3>
             <p class="leading-relaxed" style="color: #5A5A5A;">
-              {t('about.philosophy.multimediaDesc')}
+              {t('about.building.multimedia.desc')}
             </p>
           </div>
           <div>
-            <h3 class="text-xl mb-3">{t('about.philosophy.openSource')}</h3>
+            <h3 class="text-xl mb-3">{t('about.building.design.title')}</h3>
             <p class="leading-relaxed" style="color: #5A5A5A;">
-              {t('about.philosophy.openSourceDesc')}
+              {t('about.building.design.desc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-3">{t('about.building.europe.title')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.building.europe.desc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-3">{t('about.building.ai.title')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.building.ai.desc')}
             </p>
           </div>
         </div>
       </section>
 
       <section class="mb-16">
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.languages.title')}</h2>
-        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
-          {t('about.languages.intro')}
-        </p>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <a href={`${base}da/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Dansk</span>
-          </a>
-          <a href={`${base}de/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Deutsch</span>
-          </a>
-          <a href={`${base}en/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">English</span>
-          </a>
-          <a href={`${base}es/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Español</span>
-          </a>
-          <a href={`${base}fr/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Français</span>
-          </a>
-          <a href={`${base}it/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Italiano</span>
-          </a>
-          <a href={`${base}pl/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Polski</span>
-          </a>
-          <a href={`${base}pt/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Português</span>
-          </a>
-          <a href={`${base}sv/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Svenska</span>
-          </a>
-          <a href={`${base}tr/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Türkçe</span>
-          </a>
-          <a href={`${base}uk/luke/1`} class="p-4 rounded-lg transition-all hover:shadow-md text-center" style="background-color: rgba(245, 230, 220, 0.5); border: 1px solid #F5E6DC;">
-            <span class="block text-lg">Українська</span>
-          </a>
-        </div>
-      </section>
-
-      <section class="mb-16">
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.license.title')}</h2>
-        <p class="text-lg leading-relaxed mb-4" style="color: #5A5A5A;">
-          {t('about.license.p1')}
-        </p>
-        <ul class="list-disc list-inside space-y-2 text-lg" style="color: #5A5A5A;">
-          <li>{t('about.license.share')}</li>
-          <li>{t('about.license.adapt')}</li>
-          <li>{t('about.license.attribution')}</li>
-          <li>{t('about.license.shareAlike')}</li>
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.audience.title')}</h2>
+        <ul class="space-y-4 text-lg" style="color: #5A5A5A;">
+          <li>{t('about.audience.skeptic')}</li>
+          <li>{t('about.audience.believer')}</li>
+          <li>{t('about.audience.left')}</li>
+          <li>{t('about.audience.stayed')}</li>
+          <li>{t('about.audience.curious')}</li>
+          <li>{t('about.audience.tired')}</li>
         </ul>
+        <p class="text-lg leading-relaxed mt-6 italic" style="color: #5A5A5A;">
+          {t('about.audience.closing')}
+        </p>
       </section>
 
-      <section>
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.team.title')}</h2>
-        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
-          {t('about.team.description')}
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.europe.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.europe.p1')}
         </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.europe.p2')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.europe.p3')}
+        </p>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('about.europe.p4')}
+        </p>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.name.title')}</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl mb-2">{t('about.name.accessible')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.name.accessibleDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-2">{t('about.name.transparent')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.name.transparentDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-2">{t('about.name.invitation')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.name.invitationDesc')}
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl mb-2">{t('about.name.source')}</h3>
+            <p class="leading-relaxed" style="color: #5A5A5A;">
+              {t('about.name.sourceDesc')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.join.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.join.p1')}
+        </p>
+        <p class="text-lg leading-relaxed mb-8" style="color: #5A5A5A;">
+          {t('about.join.p2')}
+        </p>
+        <a href={`${base}${lang}/luke/1`} class="inline-block px-6 py-3 rounded-lg text-lg font-medium transition-all hover:shadow-md" style="background-color: rgba(245, 230, 220, 0.8); border: 1px solid #F5E6DC;">
+          {t('about.join.readLuke')}
+        </a>
+        <div class="mt-8 p-6 rounded-lg" style="background-color: rgba(245, 230, 220, 0.3); border: 1px solid #F5E6DC;">
+          <h3 class="text-xl mb-3">{t('about.join.goDeeper')}</h3>
+          <p class="leading-relaxed mb-4" style="color: #5A5A5A;">
+            {t('about.join.goDeeperDesc')}
+          </p>
+          <a href={`${base}${lang}/process`} class="text-lg font-medium hover:underline">
+            {t('about.join.processLink')}
+          </a>
+        </div>
       </section>
     </div>
   </article>
