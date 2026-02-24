@@ -927,8 +927,14 @@
       }
     }
 
-    // Default to first line
+    // If still no line found, check if we're before the first line (intro)
     if (!currentLine && lines.length > 0) {
+      const firstLineStart = parseInt(lines[0].getAttribute('data-start') || '0');
+      // Only default to first line if we've passed its start time
+      // Otherwise we're in an intro - don't highlight anything
+      if (currentTime < firstLineStart) {
+        return; // In intro, no highlighting
+      }
       currentLine = lines[0];
       activeLineIndex = 0;
     }
