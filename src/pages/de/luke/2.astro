@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../components/PericopeCard.astro';
+import ChapterNav from '../../../components/ChapterNav.astro';
 import chapterData from '../../../content/luke-2-de.json';
 import pericopes from '../../../content/luke-2-pericopes-de.json';
 
@@ -31,7 +32,7 @@ const base = '';
       <span class="cap">K</span>apitel 2
     </h1>
     <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
-      Geburt in einem Stall. Hirten als Zeugen. Ein alter Mann sieht das Heil.
+      Ein Kind wird geboren. Hirten und Weise. Ein Junge im Tempel.
     </p>
 
     <!-- Table of Contents with Headlines -->
@@ -82,10 +83,14 @@ const base = '';
 
   <!-- Chapter Footer -->
   <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
-    <p class="text-warm-gray mb-8">Weiterlesen</p>
-    <a href={`${base}/de/luke/3`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-      Lukas 3 <span>→</span>
-    </a>
+    <ChapterNav currentChapter={2} lang="de" />
+
+    <div class="mt-12">
+      <a href={`${base}/de/`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
+        ← Zurück zur Startseite
+      </a>
+    </div>
+
     <p class="mt-12 text-sm text-warm-gray">
       Übersetzung: Aperto Bibel (AB-DE) | Lizenz: CC BY-SA 4.0
     </p>

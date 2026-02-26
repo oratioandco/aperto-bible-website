@@ -1,0 +1,297 @@
+---
+interface Props {
+  currentChapter: number;
+  totalChapters?: number;
+  lang?: string;
+  book?: string;
+}
+
+const {
+  currentChapter,
+  totalChapters = 24,
+  lang = 'de',
+  book = 'luke'
+} = Astro.props;
+
+const prevChapter = currentChapter > 1 ? currentChapter - 1 : null;
+const nextChapter = currentChapter < totalChapters ? currentChapter + 1 : null;
+
+// Chapter titles/descriptions for the selector
+const chapterLabels: Record<string, Record<number, string>> = {
+  de: {
+    1: 'Die Vorbereitung',
+    2: 'Die Geburt',
+    3: 'Johannes und Taufe',
+    4: 'Versuchung und Ablehnung',
+    5: 'Berufung der Jünger',
+    6: 'Bergpredigt',
+    7: 'Wunder und Fragen',
+    8: 'Gleichnisse und Wunder',
+    9: 'Sendung und Bekenntnis',
+    10: 'Der barmherzige Samariter',
+    11: 'Gebet und Warnung',
+    12: 'Sorge und Treue',
+    13: 'Umkehr und Heilung',
+    14: 'Gastmahl und Nachfolge',
+    15: 'Verlorene Söhne',
+    16: 'Reichtum und Armut',
+    17: 'Glaube und Reich',
+    18: 'Gebet und Nachfolge',
+    19: 'Zachäus und Einzug',
+    20: 'Streitgespräche',
+    21: 'Endzeitreden',
+    22: 'Abendmahl und Verrat',
+    23: 'Prozess und Kreuz',
+    24: 'Auferstehung',
+  }
+};
+
+const labels = chapterLabels[lang] || chapterLabels.de;
+---
+
+<div class="chapter-nav">
+  <!-- Previous/Next Navigation -->
+  <div class="chapter-nav-arrows">
+    {prevChapter && (
+      <a
+        href={`/${lang}/${book}/${prevChapter}`}
+        class="chapter-nav-btn chapter-nav-prev"
+        title={`Kapitel ${prevChapter}`}
+      >
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        <span class="chapter-nav-label">Kapitel {prevChapter}</span>
+      </a>
+    )}
+
+    {nextChapter && (
+      <a
+        href={`/${lang}/${book}/${nextChapter}`}
+        class="chapter-nav-btn chapter-nav-next"
+        title={`Kapitel ${nextChapter}`}
+      >
+        <span class="chapter-nav-label">Kapitel {nextChapter}</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
+    )}
+  </div>
+
+  <!-- Chapter Selector Dropdown -->
+  <div class="chapter-selector-container">
+    <button
+      class="chapter-selector-btn"
+      id="chapter-selector-btn"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+    >
+      <span class="chapter-selector-current">Kapitel {currentChapter}</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 9l6 6 6-6"/>
+      </svg>
+    </button>
+
+    <div class="chapter-selector-dropdown" id="chapter-selector-dropdown" role="listbox">
+      <div class="chapter-selector-grid">
+        {Array.from({ length: totalChapters }, (_, i) => i + 1).map(ch => (
+          <a
+            href={`/${lang}/${book}/${ch}`}
+            class={`chapter-selector-item ${ch === currentChapter ? 'active' : ''}`}
+            role="option"
+            aria-selected={ch === currentChapter}
+          >
+            <span class="chapter-number">{ch}</span>
+            <span class="chapter-title">{labels[ch] || ''}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .chapter-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .chapter-nav-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .chapter-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 9999px;
+    background: white;
+    color: #6B5A4A;
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(139, 115, 85, 0.2);
+  }
+
+  .chapter-nav-btn:hover {
+    background: #8B7355;
+    color: white;
+    border-color: #8B7355;
+  }
+
+  .chapter-nav-label {
+    font-size: 0.875rem;
+  }
+
+  @media (max-width: 480px) {
+    .chapter-nav-label {
+      display: none;
+    }
+  }
+
+  /* Chapter Selector */
+  .chapter-selector-container {
+    position: relative;
+  }
+
+  .chapter-selector-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    background: white;
+    color: #6B5A4A;
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-weight: 500;
+    border: 1px solid rgba(139, 115, 85, 0.2);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .chapter-selector-btn:hover {
+    border-color: rgba(139, 115, 85, 0.4);
+  }
+
+  .chapter-selector-btn[aria-expanded="true"] {
+    background: #8B7355;
+    color: white;
+    border-color: #8B7355;
+  }
+
+  .chapter-selector-btn[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+  }
+
+  .chapter-selector-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    max-height: 400px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 100;
+  }
+
+  .chapter-selector-dropdown.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .chapter-selector-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .chapter-selector-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #3D3530;
+    transition: all 0.15s ease;
+  }
+
+  .chapter-selector-item:hover {
+    background: #F5EBE0;
+  }
+
+  .chapter-selector-item.active {
+    background: #8B7355;
+    color: white;
+  }
+
+  .chapter-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(139, 115, 85, 0.1);
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  .chapter-selector-item.active .chapter-number {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .chapter-title {
+    font-size: 0.875rem;
+    color: #7A6F66;
+  }
+
+  .chapter-selector-item.active .chapter-title {
+    color: rgba(255, 255, 255, 0.8);
+  }
+</style>
+
+<script is:inline>
+  (function() {
+    const btn = document.getElementById('chapter-selector-btn');
+    const dropdown = document.getElementById('chapter-selector-dropdown');
+
+    if (!btn || !dropdown) return;
+
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const isOpen = dropdown.classList.contains('open');
+      dropdown.classList.toggle('open');
+      btn.setAttribute('aria-expanded', !isOpen);
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!btn.contains(e.target) && !dropdown.contains(e.target)) {
+        dropdown.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        dropdown.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
+</script>

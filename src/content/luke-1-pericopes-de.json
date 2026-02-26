@@ -3,252 +3,124 @@
   "chapter": 1,
   "pericopes": [
     {
-      "id": "prologue",
+      "id": "warum-ich-das-schreibe",
       "title": "Warum ich das schreibe",
       "subtitle": "",
       "verses": "1-4",
       "color": "#E8E4DC",
       "accentColor": "#8B7355",
-      "exegesis": {
-        "section": "pericope-1-prologue-11-4",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "audioBible": {
-          "title": "Lukas 1 - Hörbibel",
-          "mp3": "42_luke_01_audio_bible_de.mp3",
-          "transcriptPath": "/transcripts/audiobible/42_luke_01_transcript_de.json"
-        },
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_01-04_podcast_de.mp3",
-          "duration": "4 min"
-        }
-      },
-      "image": "luke_01_prologue.jpeg",
-      "audioBibleStart": 7920
+      "media": {},
+      "image": null
     },
     {
-      "id": "zacharias-elisabeth",
+      "id": "ein-alter-priester-und-ein-unm-gliches-versprechen",
       "title": "Ein alter Priester und ein unmögliches Versprechen",
       "subtitle": "",
-      "verses": "5-25",
+      "verses": "5-7",
       "color": "#E4E8E4",
       "accentColor": "#6B8E7F",
-      "exegesis": {
-        "section": "pericope-2-an-old-priest-an-empty-nursery-15-25",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "songs": [
-          {
-            "title": "Keine Angst",
-            "mp3": "luke_01/german/keine_angst_de.mp3",
-            "genre": "Pop",
-            "description": "Die Geschichte von Zacharias",
-            "coverArt": "/images/covers/keine_angst_de.png",
-            "transcriptPath": "/transcripts/songs/luke_01/german/keine_angst_de_transcript.json"
-          }
-        ],
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_05-25_podcast_de.mp3",
-          "duration": "4 min"
-        },
-        "devotional": {
-          "mp3": "luke_01/german/42_luke_1_05-25_morgen_de.mp3",
-          "title": "Morning Devotional",
-          "duration": "5 min"
-        }
-      },
-      "image": "luke_01_zechariah_temple.jpeg",
-      "audioBibleStart": 68072
+      "media": {},
+      "image": null
     },
     {
-      "id": "annunciation",
+      "id": "im-tempel",
       "title": "Im Tempel",
       "subtitle": "",
-      "verses": "26-38",
+      "verses": "8-12",
       "color": "#F0E8E4",
       "accentColor": "#D4A574",
-      "exegesis": {
-        "section": "pericope-3-mary-says-yes-126-38",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "songs": [
-          {
-            "title": "Hab keine Angst",
-            "mp3": "luke_01/german/_Hab keine Angst_ - Luke 1_26-38 (German).mp3",
-            "genre": "Piano-Pop",
-            "description": "Eine Geschichte über Mut und Vertrauen",
-            "coverArt": "/images/covers/annunciation_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/german/42_luke_01_26_38_transcript_de.json"
-          }
-        ],
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_26-38_podcast_de.mp3",
-          "duration": "3 min"
-        },
-        "devotional": {
-          "title": "Morning Devotional",
-          "mp3": "luke_01/german/42_luke_1_26-38_morgen_de.mp3",
-          "duration": "5 min"
-        },
-        "spiritualPractice": {
-          "title": "Geistliche Übung",
-          "mp3": "spiritual_practice_01_26-38_de.mp3",
-          "duration": "10 min"
-        }
-      },
-      "image": "luke_01_annunciation.jpeg",
-      "audioBibleStart": 383870
+      "media": {},
+      "image": null
     },
     {
-      "id": "visitation",
+      "id": "die-verhei-ung",
       "title": "Die Verheißung",
       "subtitle": "",
-      "verses": "39-45",
+      "verses": "13-17",
       "color": "#E8E4F0",
       "accentColor": "#8B7399",
-      "exegesis": {
-        "section": "pericope-4-two-women-two-miracles-139-45",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_39-45_podcast_de.mp3",
-          "duration": "3 min"
-        }
-      },
-      "image": "luke_01_visitation.jpeg",
-      "audioBibleStart": 579364
+      "media": {},
+      "image": null
     },
     {
-      "id": "magnificat",
+      "id": "zacharias-zweifelt",
       "title": "Zacharias zweifelt",
       "subtitle": "",
-      "verses": "46-56",
+      "verses": "18-20",
       "color": "#E4E8F0",
       "accentColor": "#4A7C9E",
-      "exegesis": {
-        "section": "pericope-5-marys-song-magnificat-146-56",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "songs": [
-          {
-            "title": "Alles in mir feiert",
-            "mp3": "luke_01/german/_Alles in mir feiert_ - Luke 1_46-56 (German).mp3",
-            "genre": "Pop-Rap",
-            "description": "Marias Lobgesang",
-            "coverArt": "/images/covers/magnificat_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/german/42_luke_01_46_56_transcript_de.json"
-          }
-        ],
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_46-56_podcast_de.mp3",
-          "duration": "3 min"
-        },
-        "devotional": {
-          "title": "Morning Devotional",
-          "mp3": "luke_01/german/42_luke_1_46-56_morgen_de.mp3",
-          "duration": "5 min"
-        },
-        "spiritualPractice": {
-          "title": "Geistliche Übung",
-          "mp3": "spiritual_practice_01_46-56_de.mp3",
-          "duration": "10 min"
-        }
-      },
-      "image": "luke_01_magnificat.jpeg",
-      "audioBibleStart": 684630
+      "media": {},
+      "image": null
     },
     {
-      "id": "john-birth",
+      "id": "das-schweigen-beginnt",
       "title": "Das Schweigen beginnt",
       "subtitle": "",
-      "verses": "57-66",
+      "verses": "21-25",
       "color": "#F0F0E4",
       "accentColor": "#9B8B4A",
-      "exegesis": {
-        "section": "pericope-6-his-name-is-john-157-66",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_57-66_podcast_de.mp3",
-          "duration": "3 min"
-        }
-      },
-      "image": "luke_01_john_birth.jpeg",
-      "audioBibleStart": 850048
+      "media": {},
+      "image": null
     },
     {
-      "id": "benedictus",
+      "id": "maria-sagt-ja",
       "title": "Maria sagt Ja",
       "subtitle": "",
-      "verses": "67-79",
+      "verses": "26-38",
       "color": "#E4F0E8",
       "accentColor": "#4A9B7C",
-      "exegesis": {
-        "section": "pericope-7-zechariahs-prophecy-benedictus-167-79",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "songs": [
-          {
-            "title": "Das Schweigen gebrochen",
-            "mp3": "luke_01/german/Luke 1_67-79 German.mp3",
-            "genre": "Singer-Songwriter",
-            "description": "Zacharias' Prophetie",
-            "coverArt": "/images/covers/benedictus_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/german/42_luke_01_67_79_transcript_de.json"
-          }
-        ],
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_67-79_podcast_de.mp3",
-          "duration": "3 min"
-        },
-        "devotional": {
-          "title": "Morning Devotional",
-          "mp3": "luke_01/german/42_luke_1_67-79_morgen_de.mp3",
-          "duration": "5 min"
-        },
-        "spiritualPractice": {
-          "title": "Geistliche Übung",
-          "mp3": "spiritual_practice_01_67-79_de.mp3",
-          "duration": "10 min"
-        }
-      },
-      "image": "luke_01_benedictus.jpeg",
-      "audioBibleStart": 1000428
+      "media": {},
+      "image": null
     },
     {
-      "id": "john-childhood",
+      "id": "zwei-frauen-zwei-wunder",
       "title": "Zwei Frauen, zwei Wunder",
       "subtitle": "",
-      "verses": "80",
+      "verses": "39-45",
       "color": "#F0E4E8",
       "accentColor": "#9B4A6B",
-      "exegesis": {
-        "section": "pericope-8-growing-up-in-the-wilderness-180",
-        "label": "Tiefer studieren"
-      },
-      "media": {
-        "podcast": {
-          "title": "Podcast",
-          "mp3": "luke_01/de/42_luke_01_80_podcast_de.mp3",
-          "duration": "3 min"
-        }
-      },
-      "image": "luke_01_wilderness.jpeg",
-      "audioBibleStart": 1195922
+      "media": {},
+      "image": null
+    },
+    {
+      "id": "was-gott-tut-das-magnificat",
+      "title": "Was Gott tut — Das Magnificat",
+      "subtitle": "",
+      "verses": "46-56",
+      "color": "#E8E4DC",
+      "accentColor": "#8B7355",
+      "media": {},
+      "image": null
+    },
+    {
+      "id": "sein-name-ist-johannes",
+      "title": "Sein Name ist Johannes",
+      "subtitle": "",
+      "verses": "57-66",
+      "color": "#E4E8E4",
+      "accentColor": "#6B8E7F",
+      "media": {},
+      "image": null
+    },
+    {
+      "id": "was-zacharias-sah-das-benedictus",
+      "title": "Was Zacharias sah — Das Benedictus",
+      "subtitle": "",
+      "verses": "67-79",
+      "color": "#F0E8E4",
+      "accentColor": "#D4A574",
+      "media": {},
+      "image": null
+    },
+    {
+      "id": "aufwachsen-in-der-w-ste",
+      "title": "Aufwachsen in der Wüste",
+      "subtitle": "",
+      "verses": "80",
+      "color": "#E8E4F0",
+      "accentColor": "#8B7399",
+      "media": {},
+      "image": null
     }
   ]
 }

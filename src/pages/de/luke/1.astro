@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../components/PericopeCard.astro';
+import ChapterNav from '../../../components/ChapterNav.astro';
 import chapterData from '../../../content/luke-1-de.json';
 import pericopes from '../../../content/luke-1-pericopes-de.json';
 
@@ -36,40 +37,7 @@ const base = '';
 
     <!-- Table of Contents with Headlines -->
     <nav class="toc max-w-2xl w-full">
-      <!-- Mobile Dropdown -->
-      <div class="toc-dropdown md:hidden">
-        <button
-          id="toc-dropdown-button"
-          class="toc-dropdown-button w-full flex items-center justify-between py-3 px-4 rounded-lg bg-white/60 hover:bg-white/80 transition-all"
-          aria-expanded="false"
-          aria-controls="toc-dropdown-menu"
-          type="button"
-        >
-          <span class="font-medium text-charcoal">Inhaltsverzeichnis</span>
-          <span class="material-symbols-rounded text-charcoal">expand_more</span>
-        </button>
-        <div
-          id="toc-dropdown-menu"
-          class="toc-dropdown-menu hidden"
-        >
-          <ul class="space-y-1 mt-2">
-            {pericopes.pericopes.map((p) => (
-              <li>
-                <a
-                  href={`#${p.id}`}
-                  class="toc-dropdown-item flex items-center justify-between py-3 px-4 rounded-lg transition-all hover:bg-white/50"
-                >
-                  <span class="toc-title text-left">{p.title}</span>
-                  <span class="toc-verses text-sm">{p.verses}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      <!-- Desktop List -->
-      <ul class="toc-desktop hidden md:block space-y-2">
+      <ul class="space-y-2">
         {pericopes.pericopes.map((p) => (
           <li>
             <a
@@ -108,21 +76,21 @@ const base = '';
         exegesis={pericope.exegesis}
         lang="de"
         chapter={1}
-        isFirst={index === 0}
-        layoutIndex={index}
-        audioBibleStart={pericope.audioBibleStart}
-        audioBibleMp3={pericope.media?.audioBible?.mp3 || pericopes.pericopes[0]?.media?.audioBible?.mp3}
-        audioBibleTranscriptPath={pericope.media?.audioBible?.transcriptPath || pericopes.pericopes[0]?.media?.audioBible?.transcriptPath}
+        isFirst={index === 0} layoutIndex={index}
       />
     ))}
   </div>
 
   <!-- Chapter Footer -->
   <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
-    <p class="text-warm-gray mb-8">Weiterlesen</p>
-    <a href={`${base}/de/luke/2`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-      Lukas 2 <span>→</span>
-    </a>
+    <ChapterNav currentChapter={1} lang="de" />
+
+    <div class="mt-12">
+      <a href={`${base}/de/`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
+        ← Zurück zur Startseite
+      </a>
+    </div>
+
     <p class="mt-12 text-sm text-warm-gray">
       Übersetzung: Aperto Bibel (AB-DE) | Lizenz: CC BY-SA 4.0
     </p>
@@ -170,86 +138,7 @@ const base = '';
   .animate-bounce {
     animation: bounce 2s infinite;
   }
-
-  /* TOC Dropdown styles */
-  .toc-dropdown-button {
-    border: 1px solid transparent;
-    transition: all 0.2s ease;
-  }
-
-  .toc-dropdown-button:hover {
-    border-color: rgba(139, 115, 85, 0.2);
-  }
-
-  .toc-dropdown-menu {
-    animation: slideDown 0.2s ease;
-  }
-
-  @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-8px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .toc-dropdown-item {
-    border: 1px solid transparent;
-  }
-
-  .toc-dropdown-item:hover {
-    border-color: rgba(139, 115, 85, 0.2);
-  }
 </style>
-
-<script>
-  // TOC Dropdown functionality
-  const tocDropdownButton = document.getElementById('toc-dropdown-button');
-  const tocDropdownMenu = document.getElementById('toc-dropdown-menu');
-
-  if (tocDropdownButton && tocDropdownMenu) {
-    tocDropdownButton.addEventListener('click', () => {
-      const isExpanded = tocDropdownButton.getAttribute('aria-expanded') === 'true';
-      tocDropdownButton.setAttribute('aria-expanded', !isExpanded);
-      tocDropdownMenu.classList.toggle('hidden');
-
-      // Rotate the icon
-      const icon = tocDropdownButton.querySelector('.material-symbols-rounded');
-      if (icon) {
-        icon.style.transform = !isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
-        icon.style.transition = 'transform 0.2s ease';
-      }
-    });
-
-    // Close dropdown when clicking on a link
-    const dropdownLinks = tocDropdownMenu.querySelectorAll('a');
-    dropdownLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        tocDropdownButton.setAttribute('aria-expanded', 'false');
-        tocDropdownMenu.classList.add('hidden');
-        const icon = tocDropdownButton.querySelector('.material-symbols-rounded');
-        if (icon) {
-          icon.style.transform = 'rotate(0deg)';
-        }
-      });
-    });
-
-    // Close dropdown when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!tocDropdownButton.contains(e.target) && !tocDropdownMenu.contains(e.target)) {
-        tocDropdownButton.setAttribute('aria-expanded', 'false');
-        tocDropdownMenu.classList.add('hidden');
-        const icon = tocDropdownButton.querySelector('.material-symbols-rounded');
-        if (icon) {
-          icon.style.transform = 'rotate(0deg)';
-        }
-      }
-    });
-  }
-</script>
 
 <script is:inline>
 (function() {
