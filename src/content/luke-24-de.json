@@ -8,15 +8,22 @@
       "verses": [
         {
           "number": "1",
-          "text": "<span class=\"paragraph-break\"></span>Am ersten Tag der Woche<span class=\"amplification\">, tief in der Morgendämmerung, bevor die Sonne aufging,</span> kamen die Frauen zum Grab. Sie trugen die duftenden Salben, die sie vorbereitet hatten.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>Am ersten Tag der Woche, tief in der Morgendämmerung<span class=\"amplification\">, bevor die Sonne aufging,</span> kamen die Frauen zum Grab. Sie trugen die duftenden Salben, die sie vorbereitet hatten.",
+          "footnotes": [
+            {
+              "ref": "24:1",
+              "category": "kultur",
+              "keyword": "duftende Salben (ἀρώματα)",
+              "content": "Totenbalsamierung war im Judentum kein ägyptischer Mumifizierungsprozess, sondern ein Akt der Liebe und Ehre: Der Leichnam wurde gewaschen, mit duftenden Ölen eingerieben, in Leinentücher gewickelt. Die Frauen kommen am dritten Tag — die Balsamierung am Kreuzigungstag blieb wegen des hereinbrechenden Sabbats unvollständig. Es ist die letzte Geste der Fürsorge für einen Toten, den sie lieben."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "2",
-          "text": "Aber der Stein war weggerollt<span class=\"amplification\">— weg vom Eingang, als wäre er nie dort gewesen</span>.",
+          "text": "Aber der Stein war weggerollt, weg vom Eingang<span class=\"amplification\">, als wäre er nie dort gewesen</span>.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -39,7 +46,7 @@
         },
         {
           "number": "4",
-          "text": "Während sie noch ratlos dastanden und nicht wussten, was sie denken sollten, standen plötzlich zwei Männer neben ihnen<span class=\"amplification\">— keine gewöhnlichen Männer, sondern Boten aus einer anderen Welt</span>, in Gewändern, die wie Blitze leuchteten.",
+          "text": "Während sie noch ratlos dastanden<span class=\"amplification\">und nicht wussten, was sie denken sollten</span>, standen plötzlich zwei Männer neben ihnen, in Gewändern, die wie Blitze leuchteten.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -54,6 +61,12 @@
               "category": "text",
               "keyword": "den Lebendigen (τὸν ζῶντα)",
               "content": "Ein Gottestitel in der Septuaginta — die Engel bezeichnen Jesus mit einem Gottesprädikat."
+            },
+            {
+              "ref": "24:5",
+              "category": "leben",
+              "keyword": "den Lebendigen bei den Toten",
+              "content": "Die Frage der Engel zielt tiefer als auf den Ostermorgen. Sie stellt eine Grundfrage: Wo suchen Menschen Leben? Die Versuchung besteht darin, Lebendiges dort zu suchen, wo es nicht mehr ist — in vergangenen Beziehungen, alten Identitäten, gestorbenen Erwartungen. Auferstehungsglaube bedeutet: Das Lebendige ist nicht dort, wo es begraben wurde."
             }
           ],
           "isPoetry": false,
@@ -62,13 +75,19 @@
         },
         {
           "number": "6",
-          "text": "Er ist nicht hier — er wurde auferweckt.<span class=\"amplification\">Erinnert euch:</span> Er hat es euch gesagt, noch in Galiläa,",
+          "text": "Er ist nicht hier — er wurde auferweckt. Erinnert euch: Er hat es euch gesagt, noch in Galiläa,",
           "footnotes": [
             {
               "ref": "24:6",
               "category": "text",
               "keyword": "wurde auferweckt (ἠγέρθη)",
               "content": "Das göttliche Passiv: Gott hat ihn auferweckt. Nicht Selbstauferstehung, sondern göttlicher Akt."
+            },
+            {
+              "ref": "24:6",
+              "category": "unglaublich",
+              "keyword": "wurde auferweckt",
+              "content": "Drei Lesarten stehen sich gegenüber: (1) Naturalistisch-kritisch: Die Auferstehung ist eine theologische Deutung der Jünger, keine historische Aussage. Das leere Grab hat viele mögliche Erklärungen; der Glaube entstand in Visionen, nicht am leeren Grab. (2) Symbolisch-theologisch: Die Auferstehung drückt aus, dass Jesus' Botschaft den Tod überdauert — sein „Auferwecktwerden\" ist die Erfahrung, dass seine Sache weitergeht, nicht notwendig ein physisches Ereignis. (3) Historisch-glaubend: Die frühesten Quellen (1Kor 15,3-8, ca. 55 n.Chr.) bezeugen leibliche Erscheinungen vor Hunderten von Zeugen. Lukas insistiert auf Körperlichkeit (V. 39-43) gegen jede Vergeistigung. Die Historizität des leeren Grabes wird von Kritikern wie Vermes und Allison ernst genommen. — Wo der Leser landet, bleibt offen. Der Text selbst lässt keinen Zweifel an seiner Überzeugung."
             }
           ],
           "isPoetry": false,
@@ -92,7 +111,7 @@
         },
         {
           "number": "8",
-          "text": "Da kam es zurück. Seine Worte. Sie erinnerten sich.",
+          "text": "<span class=\"amplification\">Da kam es zurück. Seine Worte.</span> Sie erinnerten sich.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -108,8 +127,15 @@
         },
         {
           "number": "10",
-          "text": "Es waren Maria Magdalena, Johanna<span class=\"amplification\">, die Frau des Chuza, eines Verwalters des Herodes</span>, und Maria, die Mutter des Jakobus, und die anderen Frauen mit ihnen.",
-          "footnotes": [],
+          "text": "Es waren Maria Magdalena, Johanna und Maria, die Mutter des Jakobus, und die anderen Frauen mit ihnen.",
+          "footnotes": [
+            {
+              "ref": "24:10",
+              "category": "kultur",
+              "keyword": "Johanna",
+              "content": "Die Frau des Chuza, eines Verwalters des Herodes (vgl. 8,3). Sie gehörte zum Kreis der Frauen, die Jesus aus eigenen Mitteln unterstützten — eine Frau aus dem Umfeld der Macht."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -123,6 +149,12 @@
               "category": "text",
               "keyword": "Fieberphantasien (λῆρος)",
               "content": "Ein medizinischer Fachbegriff — das delirante Reden Fieberkranker. Die Jünger pathologisieren das Zeugnis der Frauen. Lukas zeichnet dies als Irrtum der Apostel auf, nicht als Norm."
+            },
+            {
+              "ref": "24:11",
+              "category": "apologetics",
+              "keyword": "Fieberphantasien",
+              "content": "Dass ausgerechnet Frauen als erste Auferstehungszeuginnen auftreten, ist eines der stärksten historischen Argumente für die Glaubwürdigkeit der Osterberichte. Im jüdischen Rechtskontext des 1. Jahrhunderts galt das Zeugnis von Frauen als wenig belastbar. Kein Erfinder einer Auferstehungsgeschichte hätte Frauen als Erstzeuginnen gewählt — es sei denn, es war tatsächlich so geschehen. Historiker (N.T. Wright, Richard Bauckham) und selbst skeptische Forscher (Gerd Lüdemann) erkennen dieses Argument der „historischen Peinlichkeit\" an."
             }
           ],
           "isPoetry": false,
@@ -137,7 +169,7 @@
               "ref": "24:12",
               "category": "text",
               "keyword": "Vers fehlt in einigen Handschriften",
-              "content": "Der gesamte Vers fehlt im Codex Bezae und der westlichen Tradition. P75 und die wichtigsten Handschriften enthalten ihn. Das ἠγέρθη ist theologisch wichtig: Petrus läuft zum Grab, sieht und staunt — aber glaubt noch nicht."
+              "content": "Der gesamte Vers fehlt im Codex Bezae und der westlichen Tradition. P75 und die wichtigsten Handschriften enthalten ihn."
             },
             {
               "ref": "24:12",
@@ -157,7 +189,7 @@
       "verses": [
         {
           "number": "13",
-          "text": "<span class=\"paragraph-break\"></span>Noch am selben Tag waren zwei von ihnen unterwegs nach Emmaus<span class=\"amplification\">, einem Dorf etwa elf Kilometer von Jerusalem entfernt</span>. Sie redeten miteinander über alles, was geschehen war.",
+          "text": "<span class=\"paragraph-break\"></span>Noch am selben Tag waren zwei von ihnen unterwegs nach Emmaus, einem Dorf etwa elf Kilometer von Jerusalem entfernt.",
           "footnotes": [
             {
               "ref": "24:13",
@@ -172,6 +204,14 @@
         },
         {
           "number": "14",
+          "text": "Sie redeten miteinander über alles, was geschehen war.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "15",
           "text": "Während sie so sprachen und überlegten, näherte sich Jesus und ging mit.",
           "footnotes": [],
           "isPoetry": false,
@@ -180,7 +220,7 @@
         },
         {
           "number": "16",
-          "text": "Aber ihre Augen wurden gehalten<span class=\"amplification\">— von Gott gehalten; ein göttliches Verhüllen</span> — sie erkannten ihn nicht.",
+          "text": "Aber ihre Augen wurden gehalten — sie erkannten ihn nicht.",
           "footnotes": [
             {
               "ref": "24:16",
@@ -211,14 +251,21 @@
         {
           "number": "18",
           "text": "Kleopas antwortete: \"Bist du der Einzige in Jerusalem, der nicht weiß, was in diesen Tagen geschehen ist?\"",
-          "footnotes": [],
+          "footnotes": [
+            {
+              "ref": "24:18",
+              "category": "text",
+              "keyword": "Kleopas (Κλεοπᾶς)",
+              "content": "Kurzform von Kleopatros (griechisch). Kirchenvater Eusebius (Kirchengeschichte 3.11) identifiziert ihn als Bruder Josefs — damit wäre er ein Onkel Jesu. Wenn diese Identifikation stimmt, ist die Emmaus-Geschichte eine Familiengeschichte: Der Auferstandene begegnet seinem Onkel auf dem Weg. Richard Bauckham argumentiert, der ungenannte Begleiter könnte Maria, die Frau des Klopas (Joh 19,25), gewesen sein."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "19",
-          "text": "\"Was denn?\" \"Das mit Jesus von Nazaret<span class=\"amplification\">, einem Propheten, mächtig in Tat und Wort vor Gott und dem ganzen Volk</span>.",
+          "text": "\"Was denn?\" \"Das mit Jesus von Nazaret, einem Propheten, mächtig in Tat und Wort vor Gott und dem ganzen Volk.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -234,7 +281,7 @@
         },
         {
           "number": "21",
-          "text": "Wir aber hatten gehofft, dass er Israel erlösen würde.\" Er schwieg. \"Und jetzt ist das schon drei Tage her.",
+          "text": "Wir aber hatten gehofft, dass er Israel erlösen würde.\"<span class=\"amplification\">Er schwieg.</span> \"Und jetzt ist das schon drei Tage her.",
           "footnotes": [
             {
               "ref": "24:21",
@@ -319,8 +366,15 @@
         },
         {
           "number": "29",
-          "text": "Aber sie ließen ihn nicht gehen, drängten ihn: \"Bleib bei uns<span class=\"amplification\">, denn es wird Abend, und der Tag neigt sich</span>.\" Er blieb.",
-          "footnotes": [],
+          "text": "Aber sie ließen ihn nicht gehen, drängten ihn: \"Bleib bei uns, denn es wird Abend, und der Tag neigt sich.\" Er blieb.",
+          "footnotes": [
+            {
+              "ref": "24:29",
+              "category": "leben",
+              "keyword": "Bleib bei uns",
+              "content": "Eines der ältesten und innigsten Gebete der Christenheit. Bach vertonte es als Eingangschor der Kantate BWV 6 (Ostermontag 1725). Es ist das Gebet derer, die etwas in der Schrift gespürt haben und die Gegenwart nicht verlieren wollen — die wissen, dass es Abend wird und sie nicht allein sein wollen. In der mystischen Tradition gilt dieses „Bleib bei uns\" als Modell jeder Bitte um Gottes Gegenwart."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -357,13 +411,19 @@
         },
         {
           "number": "32",
-          "text": "Sie sahen sich an: \"Brannte unser Herz nicht die ganze Zeit<span class=\"amplification\">, als er mit uns redete und uns die Schrift öffnete?</span>\"",
+          "text": "Sie sahen sich an: \"Brannte unser Herz nicht die ganze Zeit, als er mit uns redete und uns die Schrift öffnete?\"",
           "footnotes": [
             {
               "ref": "24:32",
               "category": "text",
               "keyword": "brannte (καιομένη ἦν)",
               "content": "Periphrastisches Imperfekt: Das Herz brannte während des ganzen Weges. Die Jünger erkennen rückblickend, dass die Begegnung bereits im Gange war, bevor sie es wussten."
+            },
+            {
+              "ref": "24:32",
+              "category": "leben",
+              "keyword": "Brannte unser Herz nicht",
+              "content": "Mystiker aller Traditionen — Meister Eckhart, Teresa von Ávila, die Pietisten — beschreiben dieses Phänomen: eine innere Gewissheit, die der bewussten Erkenntnis vorausgeht. Das Herz „weiß\" etwas, bevor der Verstand es benennen kann. Die Emmaus-Erfahrung lädt ein, auf das zu achten, was in uns brennt, wenn wir einem Text, einem Menschen oder einer Idee begegnen — und erst nachher verstehen, warum."
             }
           ],
           "isPoetry": false,
@@ -372,7 +432,7 @@
         },
         {
           "number": "33",
-          "text": "In derselben Stunde machten sie sich auf den Weg zurück nach Jerusalem. Sie fanden die Elf und die anderen versammelt,",
+          "text": "Noch in derselben Stunde brachen sie auf und kehrten nach Jerusalem zurück. Sie fanden die Elf und die anderen versammelt,",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -386,7 +446,7 @@
               "ref": "24:34",
               "category": "kontext",
               "keyword": "Simon erschienen",
-              "content": "Eine unnarrtierte Erscheinung, die auch in 1Kor 15,5 bezeugt ist. Lukas berichtet das Ergebnis ohne das Ereignis zu erzählen."
+              "content": "Eine unnarratierte Erscheinung, die auch in 1Kor 15,5 bezeugt ist. Lukas berichtet das Ergebnis, ohne das Ereignis zu erzählen."
             }
           ],
           "isPoetry": false,
@@ -395,7 +455,7 @@
         },
         {
           "number": "35",
-          "text": "Und die beiden erzählten, was auf dem Weg geschehen war und wie sie ihn erkannt hatten, als er das Brot brach.",
+          "text": "Und die beiden erzählten, was auf dem Weg geschehen war und wie sie ihn erkannt hatten — am Brotbrechen.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -415,6 +475,12 @@
               "category": "text",
               "keyword": "Friede sei mit euch (Εἰρήνη ὑμῖν)",
               "content": "Das hebräische \"Schalom\" ist nicht nur Gruß, sondern Segensformel. Jesus grüßt mit dem liturgischen Friedenswort."
+            },
+            {
+              "ref": "24:36",
+              "category": "unglaublich",
+              "keyword": "stand er plötzlich mitten unter ihnen",
+              "content": "Jesus erscheint ohne Ankündigung mitten im Raum — nicht durch eine Tür, nicht als Erinnerung, sondern physisch anwesend. Der Auferstehungsleib, wie Lukas ihn beschreibt, ist real und greifbar (Fleisch und Knochen, V. 39), aber nicht an die üblichen physikalischen Beschränkungen gebunden. Interpretationen: (1) Naturalistisch: Die Erscheinungen sind innere Erlebnisse der Jünger — Visionen, keine physischen Ereignisse. (2) Historisch-kritisch: Etwas ist den Jüngern widerfahren, das sie als leibliche Begegnung deuteten; was genau, lässt sich historisch nicht rekonstruieren. (3) Historisch-glaubend: Der auferstandene Jesus hat einen verwandelten Leib, der physisch real ist, aber die Grenzen des Raums übersteigt — ein Vorschein dessen, was die Bibel als „neue Schöpfung\" beschreibt. Lukas insistiert auf der Körperlichkeit: Anfassen, Anschauen, Essen. Dies ist kein Geist und keine Vision."
             }
           ],
           "isPoetry": false,
@@ -459,6 +525,12 @@
               "category": "kontext",
               "keyword": "Fleisch und Knochen",
               "content": "Lukas' Anti-Doketismus: Der Auferstandene ist kein Geist, sondern leibhaftig. Das Essen des Fisches (V. 42-43) unterstreicht die Körperlichkeit."
+            },
+            {
+              "ref": "24:39",
+              "category": "apologetics",
+              "keyword": "Fasst mich an und seht",
+              "content": "Lukas bietet das systematischste Anti-Geist-Argument im Neuen Testament. Jesus widerlegt nacheinander jede naturalistische Alternative: (1) Gegen die Geist-Theorie: Anfassen — „ein Geist hat nicht Fleisch und Knochen.\" (2) Gegen die Verwechslungs-Theorie: Die Wundmale an Händen und Füßen identifizieren ihn als den Gekreuzigten. (3) Gegen die Halluzinations-Theorie: gemeinschaftliche Erscheinung, nicht individuelle Vision. (4) Gegen die Einbildungs-Theorie: Er isst gebratenen Fisch vor ihren Augen (V. 42-43). N.T. Wright (The Resurrection of the Son of God, 2003) argumentiert, dass keine jüdische oder heidnische Kategorie das erklären kann, was die Jünger berichten: weder eine Geisterscheinung noch eine wiederbelebte Leiche, sondern eine völlig neue Art von Leiblichkeit."
             }
           ],
           "isPoetry": false,
@@ -482,13 +554,19 @@
         },
         {
           "number": "41",
-          "text": "Aber aus purer Freude konnten sie es noch nicht glauben. Es war zu viel.",
+          "text": "Aber aus purer Freude konnten sie es noch nicht glauben.<span class=\"amplification\">Es war zu viel.</span>",
           "footnotes": [
             {
               "ref": "24:41",
               "category": "text",
               "keyword": "aus Freude (ἀπὸ τῆς χαρᾶς)",
               "content": "Nicht Unglaube aus Skepsis, sondern aus Überwältigung. Zu gut, um wahr zu sein."
+            },
+            {
+              "ref": "24:41",
+              "category": "leben",
+              "keyword": "aus purer Freude konnten sie es nicht glauben",
+              "content": "Es gibt einen Unglauben, der nicht aus Zweifel kommt, sondern aus Überwältigung. Zu gut, um wahr zu sein — dieses Gefühl kennen Menschen bei unerwarteten Wendungen: einer Diagnose, die sich als falsch erweist; einer Versöhnung, die niemand mehr für möglich hielt. Die Auferstehung sagt: Das Beste, was passieren kann, ist tatsächlich passiert. Freude ist in Lukas 24 die angemessene Antwort auf die Auferstehung — aber sie braucht Zeit."
             }
           ],
           "isPoetry": false,
@@ -520,7 +598,7 @@
         },
         {
           "number": "44",
-          "text": "Er sagte zu ihnen: \"Das ist es, was ich euch gesagt habe, während ich noch bei euch war: Alles muss in Erfüllung gehen, was über mich geschrieben steht — im Gesetz des Mose, bei den Propheten und in den Psalmen.\"",
+          "text": "Er sagte: \"Das habe ich euch schon gesagt, als ich noch bei euch war: Alles muss in Erfüllung gehen, was über mich geschrieben steht — im Gesetz des Mose, bei den Propheten und in den Psalmen.\"",
           "footnotes": [
             {
               "ref": "24:44",
@@ -558,7 +636,7 @@
         },
         {
           "number": "47",
-          "text": "und in seinem Namen muss Umkehr und Vergebung der Sünden allen Völkern gepredigt werden<span class=\"amplification\">, angefangen in Jerusalem</span>.",
+          "text": "und in seinem Namen muss Umkehr und Vergebung der Sünden allen Völkern gepredigt werden — von Jerusalem aus.",
           "footnotes": [
             {
               "ref": "24:47",
@@ -601,7 +679,7 @@
       "verses": [
         {
           "number": "50",
-          "text": "<span class=\"paragraph-break\"></span>Er führte sie hinaus bis nach Bethanien. Dort hob er die Hände<span class=\"amplification\">in priesterlichem Segensgestus</span> und segnete sie.",
+          "text": "<span class=\"paragraph-break\"></span>Er führte sie hinaus bis nach Bethanien. Dort hob er die Hände und segnete sie.",
           "footnotes": [
             {
               "ref": "24:50",
@@ -629,6 +707,12 @@
               "category": "text",
               "keyword": "wurde emporgehoben",
               "content": "Textzeuge: Der Ausdruck fehlt im Codex Bezae und dem westlichen Text. P75 und die wichtigsten Handschriften enthalten ihn."
+            },
+            {
+              "ref": "24:51",
+              "category": "unglaublich",
+              "keyword": "wurde zum Himmel emporgehoben",
+              "content": "Die Himmelfahrt gehört zu den für moderne Menschen schwierigsten biblischen Vorstellungen. „Himmel\" ist im biblischen Weltbild nicht ein Ort über den Wolken, sondern Gottes Dimension der Wirklichkeit — dort, wo Gottes Herrschaft vollständig ist. Interpretationen: (1) Symbolisch: Die Himmelfahrt drückt Jesu bleibende Bedeutung und Autorität in Bildsprache aus. (2) Kosmologisch-kritisch: Die Erzählung verwendet das antike Dreistock-Weltbild; moderne Leser müssen die Bedeutung von der Kosmologie trennen. (3) Theologisch-glaubend: Jesus geht leiblich in Gottes Gegenwart ein — nicht als Abschied, sondern als Herrschaftsantritt. Die orthodoxe Theologie (Theosis) sieht darin die Aufnahme der Menschheit in die göttliche Herrlichkeit: „Er hat Fleisch nicht angenommen, um es abzulegen, sondern um es in die Herrlichkeit zu tragen.\" Das letzte Bild des Lukasevangeliums ist kein Verschwinden — es ist ein Segen."
             }
           ],
           "isPoetry": false,
@@ -637,7 +721,7 @@
         },
         {
           "number": "52",
-          "text": "Sie fielen vor ihm nieder<span class=\"amplification\">und beteten ihn an</span> und kehrten voller Freude nach Jerusalem zurück.",
+          "text": "Sie fielen vor ihm nieder und beteten ihn an und kehrten voller Freude nach Jerusalem zurück.",
           "footnotes": [
             {
               "ref": "24:52",
@@ -652,13 +736,13 @@
         },
         {
           "number": "53",
-          "text": "Und sie waren ständig im Tempel und priesen Gott.",
+          "text": "Und sie verweilten Tag für Tag im Tempel und priesen Gott.",
           "footnotes": [
             {
               "ref": "24:53",
               "category": "kontext",
               "keyword": "im Tempel",
-              "content": "Das Evangelium endet, wo es begann — im Tempel (vgl. 1,5-25). Der Kreis schließt. Die Jünger bleiben in Jerusalem und preisen Gott."
+              "content": "Das Evangelium endet, wo es begann — im Tempel (vgl. 1,5-25). Der Kreis schließt sich. Die Jünger bleiben in Jerusalem und preisen Gott."
             }
           ],
           "isPoetry": false,
