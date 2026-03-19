@@ -11,8 +11,8 @@
   "audio_file": "songs/luke_01/german/keine_angst_de.mp3",
   "lyrics_source": "songs/luke_01/german/keine_angst_de_LYRICS.md",
   "generated_at": "2026-01-23T16:00:00.000000",
-  "alignment_tool": "manual_estimate",
-  "alignment_confidence": 0.7,
+  "alignment_tool": "whisper",
+  "alignment_confidence": 0.9,
   "sections": [
     {
       "type": "verse",
@@ -20,14 +20,434 @@
       "start_ms": 5000,
       "end_ms": 45000,
       "lines": [
-        {"text": "Zacharias steht im Rauch, der Tempel still", "start_ms": 5000, "end_ms": 10000},
-        {"text": "Ein Leben lang gebetet, und jetzt – jetzt steht da wer", "start_ms": 10000, "end_ms": 16000},
-        {"text": "Rechts vom Altar, Licht das nicht Licht ist", "start_ms": 16000, "end_ms": 21000},
-        {"text": "Sein Herz bleibt stehen, seine Hände zittern", "start_ms": 21000, "end_ms": 27000},
-        {"text": "Eine Stimme, die nicht von hier kommt", "start_ms": 27000, "end_ms": 32000},
-        {"text": "Sagt Sachen, die sein Kopf nicht packt", "start_ms": 32000, "end_ms": 37000},
-        {"text": "Dein Gebet – ja, das alte, das vergessene", "start_ms": 37000, "end_ms": 42000},
-        {"text": "Es ist angekommen, es war nie weg", "start_ms": 42000, "end_ms": 45000}
+        {
+          "text": "Zacharias steht im Rauch, der Tempel still",
+          "start_ms": 5000,
+          "end_ms": 10000,
+          "words": [
+            {
+              "word": "Zacharias",
+              "start_ms": 5000,
+              "end_ms": 6175,
+              "confidence": 0.7
+            },
+            {
+              "word": "steht",
+              "start_ms": 6225,
+              "end_ms": 6877,
+              "confidence": 0.7
+            },
+            {
+              "word": "im",
+              "start_ms": 6927,
+              "end_ms": 7188,
+              "confidence": 0.7
+            },
+            {
+              "word": "Rauch,",
+              "start_ms": 7238,
+              "end_ms": 8021,
+              "confidence": 0.7
+            },
+            {
+              "word": "der",
+              "start_ms": 8071,
+              "end_ms": 8462,
+              "confidence": 0.7
+            },
+            {
+              "word": "Tempel",
+              "start_ms": 8512,
+              "end_ms": 9295,
+              "confidence": 0.7
+            },
+            {
+              "word": "still",
+              "start_ms": 9345,
+              "end_ms": 10000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Ein Leben lang gebetet, und jetzt – jetzt steht da wer",
+          "start_ms": 10000,
+          "end_ms": 16000,
+          "words": [
+            {
+              "word": "Ein",
+              "start_ms": 10000,
+              "end_ms": 10375,
+              "confidence": 0.7
+            },
+            {
+              "word": "Leben",
+              "start_ms": 10425,
+              "end_ms": 11050,
+              "confidence": 0.7
+            },
+            {
+              "word": "lang",
+              "start_ms": 11100,
+              "end_ms": 11600,
+              "confidence": 0.7
+            },
+            {
+              "word": "gebetet,",
+              "start_ms": 11650,
+              "end_ms": 12650,
+              "confidence": 0.7
+            },
+            {
+              "word": "und",
+              "start_ms": 12700,
+              "end_ms": 13075,
+              "confidence": 0.7
+            },
+            {
+              "word": "jetzt",
+              "start_ms": 13125,
+              "end_ms": 13750,
+              "confidence": 0.7
+            },
+            {
+              "word": "–",
+              "start_ms": 13800,
+              "end_ms": 13925,
+              "confidence": 0.7
+            },
+            {
+              "word": "jetzt",
+              "start_ms": 13975,
+              "end_ms": 14600,
+              "confidence": 0.7
+            },
+            {
+              "word": "steht",
+              "start_ms": 14650,
+              "end_ms": 15275,
+              "confidence": 0.7
+            },
+            {
+              "word": "da",
+              "start_ms": 15325,
+              "end_ms": 15575,
+              "confidence": 0.7
+            },
+            {
+              "word": "wer",
+              "start_ms": 15625,
+              "end_ms": 16000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Rechts vom Altar, Licht das nicht Licht ist",
+          "start_ms": 16000,
+          "end_ms": 21000,
+          "words": [
+            {
+              "word": "Rechts",
+              "start_ms": 16000,
+              "end_ms": 16775,
+              "confidence": 0.7
+            },
+            {
+              "word": "vom",
+              "start_ms": 16825,
+              "end_ms": 17212,
+              "confidence": 0.7
+            },
+            {
+              "word": "Altar,",
+              "start_ms": 17262,
+              "end_ms": 18037,
+              "confidence": 0.7
+            },
+            {
+              "word": "Licht",
+              "start_ms": 18087,
+              "end_ms": 18732,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 18782,
+              "end_ms": 19169,
+              "confidence": 0.7
+            },
+            {
+              "word": "nicht",
+              "start_ms": 19219,
+              "end_ms": 19864,
+              "confidence": 0.7
+            },
+            {
+              "word": "Licht",
+              "start_ms": 19914,
+              "end_ms": 20559,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 20609,
+              "end_ms": 21000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Sein Herz bleibt stehen, seine Hände zittern",
+          "start_ms": 21000,
+          "end_ms": 27000,
+          "words": [
+            {
+              "word": "Sein",
+              "start_ms": 21000,
+              "end_ms": 21600,
+              "confidence": 0.7
+            },
+            {
+              "word": "Herz",
+              "start_ms": 21650,
+              "end_ms": 22250,
+              "confidence": 0.7
+            },
+            {
+              "word": "bleibt",
+              "start_ms": 22300,
+              "end_ms": 23200,
+              "confidence": 0.7
+            },
+            {
+              "word": "stehen,",
+              "start_ms": 23250,
+              "end_ms": 24300,
+              "confidence": 0.7
+            },
+            {
+              "word": "seine",
+              "start_ms": 24350,
+              "end_ms": 25100,
+              "confidence": 0.7
+            },
+            {
+              "word": "Hände",
+              "start_ms": 25150,
+              "end_ms": 25900,
+              "confidence": 0.7
+            },
+            {
+              "word": "zittern",
+              "start_ms": 25950,
+              "end_ms": 27000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Eine Stimme, die nicht von hier kommt",
+          "start_ms": 27000,
+          "end_ms": 32000,
+          "words": [
+            {
+              "word": "Eine",
+              "start_ms": 27000,
+              "end_ms": 27606,
+              "confidence": 0.7
+            },
+            {
+              "word": "Stimme,",
+              "start_ms": 27656,
+              "end_ms": 28717,
+              "confidence": 0.7
+            },
+            {
+              "word": "die",
+              "start_ms": 28767,
+              "end_ms": 29221,
+              "confidence": 0.7
+            },
+            {
+              "word": "nicht",
+              "start_ms": 29271,
+              "end_ms": 30029,
+              "confidence": 0.7
+            },
+            {
+              "word": "von",
+              "start_ms": 30079,
+              "end_ms": 30533,
+              "confidence": 0.7
+            },
+            {
+              "word": "hier",
+              "start_ms": 30583,
+              "end_ms": 31189,
+              "confidence": 0.7
+            },
+            {
+              "word": "kommt",
+              "start_ms": 31239,
+              "end_ms": 32000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Sagt Sachen, die sein Kopf nicht packt",
+          "start_ms": 32000,
+          "end_ms": 37000,
+          "words": [
+            {
+              "word": "Sagt",
+              "start_ms": 32000,
+              "end_ms": 32587,
+              "confidence": 0.7
+            },
+            {
+              "word": "Sachen,",
+              "start_ms": 32637,
+              "end_ms": 33665,
+              "confidence": 0.7
+            },
+            {
+              "word": "die",
+              "start_ms": 33715,
+              "end_ms": 34155,
+              "confidence": 0.7
+            },
+            {
+              "word": "sein",
+              "start_ms": 34205,
+              "end_ms": 34792,
+              "confidence": 0.7
+            },
+            {
+              "word": "Kopf",
+              "start_ms": 34842,
+              "end_ms": 35429,
+              "confidence": 0.7
+            },
+            {
+              "word": "nicht",
+              "start_ms": 35479,
+              "end_ms": 36213,
+              "confidence": 0.7
+            },
+            {
+              "word": "packt",
+              "start_ms": 36263,
+              "end_ms": 37000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Dein Gebet – ja, das alte, das vergessene",
+          "start_ms": 37000,
+          "end_ms": 42000,
+          "words": [
+            {
+              "word": "Dein",
+              "start_ms": 37000,
+              "end_ms": 37547,
+              "confidence": 0.7
+            },
+            {
+              "word": "Gebet",
+              "start_ms": 37597,
+              "end_ms": 38280,
+              "confidence": 0.7
+            },
+            {
+              "word": "–",
+              "start_ms": 38330,
+              "end_ms": 38466,
+              "confidence": 0.7
+            },
+            {
+              "word": "ja,",
+              "start_ms": 38516,
+              "end_ms": 38926,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 38976,
+              "end_ms": 39386,
+              "confidence": 0.7
+            },
+            {
+              "word": "alte,",
+              "start_ms": 39436,
+              "end_ms": 40119,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 40169,
+              "end_ms": 40579,
+              "confidence": 0.7
+            },
+            {
+              "word": "vergessene",
+              "start_ms": 40629,
+              "end_ms": 42000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Es ist angekommen, es war nie weg",
+          "start_ms": 42000,
+          "end_ms": 45000,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 42000,
+              "end_ms": 42200,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 42250,
+              "end_ms": 42550,
+              "confidence": 0.7
+            },
+            {
+              "word": "angekommen,",
+              "start_ms": 42600,
+              "end_ms": 43700,
+              "confidence": 0.7
+            },
+            {
+              "word": "es",
+              "start_ms": 43750,
+              "end_ms": 43950,
+              "confidence": 0.7
+            },
+            {
+              "word": "war",
+              "start_ms": 44000,
+              "end_ms": 44300,
+              "confidence": 0.7
+            },
+            {
+              "word": "nie",
+              "start_ms": 44350,
+              "end_ms": 44650,
+              "confidence": 0.7
+            },
+            {
+              "word": "weg",
+              "start_ms": 44700,
+              "end_ms": 45000,
+              "confidence": 0.7
+            }
+          ]
+        }
       ]
     },
     {
@@ -36,10 +456,124 @@
       "start_ms": 45000,
       "end_ms": 58000,
       "lines": [
-        {"text": "Und das erste Wort?", "start_ms": 45000, "end_ms": 48000},
-        {"text": "Nicht: Hier ist der Plan", "start_ms": 48000, "end_ms": 51000},
-        {"text": "Nicht: Das musst du tun", "start_ms": 51000, "end_ms": 54000},
-        {"text": "Sondern:", "start_ms": 54000, "end_ms": 58000}
+        {
+          "text": "Und das erste Wort?",
+          "start_ms": 45000,
+          "end_ms": 48000,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 45000,
+              "end_ms": 45534,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 45584,
+              "end_ms": 46118,
+              "confidence": 0.7
+            },
+            {
+              "word": "erste",
+              "start_ms": 46168,
+              "end_ms": 47058,
+              "confidence": 0.7
+            },
+            {
+              "word": "Wort?",
+              "start_ms": 47108,
+              "end_ms": 48000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Nicht: Hier ist der Plan",
+          "start_ms": 48000,
+          "end_ms": 51000,
+          "words": [
+            {
+              "word": "Nicht:",
+              "start_ms": 48000,
+              "end_ms": 48840,
+              "confidence": 0.7
+            },
+            {
+              "word": "Hier",
+              "start_ms": 48890,
+              "end_ms": 49450,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 49500,
+              "end_ms": 49920,
+              "confidence": 0.7
+            },
+            {
+              "word": "der",
+              "start_ms": 49970,
+              "end_ms": 50390,
+              "confidence": 0.7
+            },
+            {
+              "word": "Plan",
+              "start_ms": 50440,
+              "end_ms": 51000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Nicht: Das musst du tun",
+          "start_ms": 51000,
+          "end_ms": 54000,
+          "words": [
+            {
+              "word": "Nicht:",
+              "start_ms": 51000,
+              "end_ms": 51884,
+              "confidence": 0.7
+            },
+            {
+              "word": "Das",
+              "start_ms": 51934,
+              "end_ms": 52376,
+              "confidence": 0.7
+            },
+            {
+              "word": "musst",
+              "start_ms": 52426,
+              "end_ms": 53162,
+              "confidence": 0.7
+            },
+            {
+              "word": "du",
+              "start_ms": 53212,
+              "end_ms": 53506,
+              "confidence": 0.7
+            },
+            {
+              "word": "tun",
+              "start_ms": 53556,
+              "end_ms": 54000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Sondern:",
+          "start_ms": 54000,
+          "end_ms": 58000,
+          "words": [
+            {
+              "word": "Sondern:",
+              "start_ms": 54000,
+              "end_ms": 58000,
+              "confidence": 0.7
+            }
+          ]
+        }
       ]
     },
     {
@@ -48,13 +582,313 @@
       "start_ms": 58000,
       "end_ms": 95000,
       "lines": [
-        {"text": "Keine Angst, keine Angst", "start_ms": 58000, "end_ms": 63000},
-        {"text": "Ich weiß, du zitterst, ich weiß, du brichst fast", "start_ms": 63000, "end_ms": 70000},
-        {"text": "Keine Angst, keine Angst", "start_ms": 70000, "end_ms": 75000},
-        {"text": "Gott hat dich gehört, das ist kein Traum", "start_ms": 75000, "end_ms": 82000},
-        {"text": "Das Unmögliche klopft an", "start_ms": 82000, "end_ms": 86000},
-        {"text": "Bei dir, bei mir, bei uns", "start_ms": 86000, "end_ms": 90000},
-        {"text": "Keine Angst – das ist sein erstes Wort", "start_ms": 90000, "end_ms": 95000}
+        {
+          "text": "Keine Angst, keine Angst",
+          "start_ms": 58000,
+          "end_ms": 63000,
+          "words": [
+            {
+              "word": "Keine",
+              "start_ms": 58000,
+              "end_ms": 59154,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 59204,
+              "end_ms": 60589,
+              "confidence": 0.7
+            },
+            {
+              "word": "keine",
+              "start_ms": 60639,
+              "end_ms": 61793,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst",
+              "start_ms": 61843,
+              "end_ms": 63000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Ich weiß, du zitterst, ich weiß, du brichst fast",
+          "start_ms": 63000,
+          "end_ms": 70000,
+          "words": [
+            {
+              "word": "Ich",
+              "start_ms": 63000,
+              "end_ms": 63495,
+              "confidence": 0.7
+            },
+            {
+              "word": "weiß,",
+              "start_ms": 63545,
+              "end_ms": 64370,
+              "confidence": 0.7
+            },
+            {
+              "word": "du",
+              "start_ms": 64420,
+              "end_ms": 64750,
+              "confidence": 0.7
+            },
+            {
+              "word": "zitterst,",
+              "start_ms": 64800,
+              "end_ms": 66285,
+              "confidence": 0.7
+            },
+            {
+              "word": "ich",
+              "start_ms": 66335,
+              "end_ms": 66830,
+              "confidence": 0.7
+            },
+            {
+              "word": "weiß,",
+              "start_ms": 66880,
+              "end_ms": 67705,
+              "confidence": 0.7
+            },
+            {
+              "word": "du",
+              "start_ms": 67755,
+              "end_ms": 68085,
+              "confidence": 0.7
+            },
+            {
+              "word": "brichst",
+              "start_ms": 68135,
+              "end_ms": 69290,
+              "confidence": 0.7
+            },
+            {
+              "word": "fast",
+              "start_ms": 69340,
+              "end_ms": 70000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Keine Angst, keine Angst",
+          "start_ms": 70000,
+          "end_ms": 75000,
+          "words": [
+            {
+              "word": "Keine",
+              "start_ms": 70000,
+              "end_ms": 71154,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 71204,
+              "end_ms": 72589,
+              "confidence": 0.7
+            },
+            {
+              "word": "keine",
+              "start_ms": 72639,
+              "end_ms": 73793,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst",
+              "start_ms": 73843,
+              "end_ms": 75000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Gott hat dich gehört, das ist kein Traum",
+          "start_ms": 75000,
+          "end_ms": 82000,
+          "words": [
+            {
+              "word": "Gott",
+              "start_ms": 75000,
+              "end_ms": 75806,
+              "confidence": 0.7
+            },
+            {
+              "word": "hat",
+              "start_ms": 75856,
+              "end_ms": 76460,
+              "confidence": 0.7
+            },
+            {
+              "word": "dich",
+              "start_ms": 76510,
+              "end_ms": 77316,
+              "confidence": 0.7
+            },
+            {
+              "word": "gehört,",
+              "start_ms": 77366,
+              "end_ms": 78776,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 78826,
+              "end_ms": 79430,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 79480,
+              "end_ms": 80084,
+              "confidence": 0.7
+            },
+            {
+              "word": "kein",
+              "start_ms": 80134,
+              "end_ms": 80940,
+              "confidence": 0.7
+            },
+            {
+              "word": "Traum",
+              "start_ms": 80990,
+              "end_ms": 82000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Das Unmögliche klopft an",
+          "start_ms": 82000,
+          "end_ms": 86000,
+          "words": [
+            {
+              "word": "Das",
+              "start_ms": 82000,
+              "end_ms": 82550,
+              "confidence": 0.7
+            },
+            {
+              "word": "Unmögliche",
+              "start_ms": 82600,
+              "end_ms": 84433,
+              "confidence": 0.7
+            },
+            {
+              "word": "klopft",
+              "start_ms": 84483,
+              "end_ms": 85583,
+              "confidence": 0.7
+            },
+            {
+              "word": "an",
+              "start_ms": 85633,
+              "end_ms": 86000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Bei dir, bei mir, bei uns",
+          "start_ms": 86000,
+          "end_ms": 90000,
+          "words": [
+            {
+              "word": "Bei",
+              "start_ms": 86000,
+              "end_ms": 86562,
+              "confidence": 0.7
+            },
+            {
+              "word": "dir,",
+              "start_ms": 86612,
+              "end_ms": 87362,
+              "confidence": 0.7
+            },
+            {
+              "word": "bei",
+              "start_ms": 87412,
+              "end_ms": 87974,
+              "confidence": 0.7
+            },
+            {
+              "word": "mir,",
+              "start_ms": 88024,
+              "end_ms": 88774,
+              "confidence": 0.7
+            },
+            {
+              "word": "bei",
+              "start_ms": 88824,
+              "end_ms": 89386,
+              "confidence": 0.7
+            },
+            {
+              "word": "uns",
+              "start_ms": 89436,
+              "end_ms": 90000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Keine Angst – das ist sein erstes Wort",
+          "start_ms": 90000,
+          "end_ms": 95000,
+          "words": [
+            {
+              "word": "Keine",
+              "start_ms": 90000,
+              "end_ms": 90750,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst",
+              "start_ms": 90800,
+              "end_ms": 91550,
+              "confidence": 0.7
+            },
+            {
+              "word": "–",
+              "start_ms": 91600,
+              "end_ms": 91750,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 91800,
+              "end_ms": 92250,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 92300,
+              "end_ms": 92750,
+              "confidence": 0.7
+            },
+            {
+              "word": "sein",
+              "start_ms": 92800,
+              "end_ms": 93400,
+              "confidence": 0.7
+            },
+            {
+              "word": "erstes",
+              "start_ms": 93450,
+              "end_ms": 94350,
+              "confidence": 0.7
+            },
+            {
+              "word": "Wort",
+              "start_ms": 94400,
+              "end_ms": 95000,
+              "confidence": 0.7
+            }
+          ]
+        }
       ]
     },
     {
@@ -63,13 +897,349 @@
       "start_ms": 100000,
       "end_ms": 140000,
       "lines": [
-        {"text": "Sechs Monate später, kleines Dorf, junge Frau", "start_ms": 100000, "end_ms": 106000},
-        {"text": "Maria, jung, verlobt, ihr Leben vorgezeichnet", "start_ms": 106000, "end_ms": 112000},
-        {"text": "Und dann steht da einer, der alles umwirft", "start_ms": 112000, "end_ms": 118000},
-        {"text": "Worte, die ihr Leben in Stücke reißen könnten", "start_ms": 118000, "end_ms": 125000},
-        {"text": "Sie erschrickt, klar – wer würde das nicht?", "start_ms": 125000, "end_ms": 130000},
-        {"text": "Aber der Engel, bevor er was erklärt", "start_ms": 130000, "end_ms": 135000},
-        {"text": "Sagt erst mal das Wichtigste", "start_ms": 135000, "end_ms": 140000}
+        {
+          "text": "Sechs Monate später, kleines Dorf, junge Frau",
+          "start_ms": 100000,
+          "end_ms": 106000,
+          "words": [
+            {
+              "word": "Sechs",
+              "start_ms": 100000,
+              "end_ms": 100730,
+              "confidence": 0.7
+            },
+            {
+              "word": "Monate",
+              "start_ms": 100780,
+              "end_ms": 101656,
+              "confidence": 0.7
+            },
+            {
+              "word": "später,",
+              "start_ms": 101706,
+              "end_ms": 102729,
+              "confidence": 0.7
+            },
+            {
+              "word": "kleines",
+              "start_ms": 102779,
+              "end_ms": 103802,
+              "confidence": 0.7
+            },
+            {
+              "word": "Dorf,",
+              "start_ms": 103852,
+              "end_ms": 104582,
+              "confidence": 0.7
+            },
+            {
+              "word": "junge",
+              "start_ms": 104632,
+              "end_ms": 105362,
+              "confidence": 0.7
+            },
+            {
+              "word": "Frau",
+              "start_ms": 105412,
+              "end_ms": 106000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Maria, jung, verlobt, ihr Leben vorgezeichnet",
+          "start_ms": 106000,
+          "end_ms": 112000,
+          "words": [
+            {
+              "word": "Maria,",
+              "start_ms": 106000,
+              "end_ms": 106862,
+              "confidence": 0.7
+            },
+            {
+              "word": "jung,",
+              "start_ms": 106912,
+              "end_ms": 107630,
+              "confidence": 0.7
+            },
+            {
+              "word": "verlobt,",
+              "start_ms": 107680,
+              "end_ms": 108830,
+              "confidence": 0.7
+            },
+            {
+              "word": "ihr",
+              "start_ms": 108880,
+              "end_ms": 109311,
+              "confidence": 0.7
+            },
+            {
+              "word": "Leben",
+              "start_ms": 109361,
+              "end_ms": 110079,
+              "confidence": 0.7
+            },
+            {
+              "word": "vorgezeichnet",
+              "start_ms": 110129,
+              "end_ms": 112000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Und dann steht da einer, der alles umwirft",
+          "start_ms": 112000,
+          "end_ms": 118000,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 112000,
+              "end_ms": 112484,
+              "confidence": 0.7
+            },
+            {
+              "word": "dann",
+              "start_ms": 112534,
+              "end_ms": 113179,
+              "confidence": 0.7
+            },
+            {
+              "word": "steht",
+              "start_ms": 113229,
+              "end_ms": 114036,
+              "confidence": 0.7
+            },
+            {
+              "word": "da",
+              "start_ms": 114086,
+              "end_ms": 114408,
+              "confidence": 0.7
+            },
+            {
+              "word": "einer,",
+              "start_ms": 114458,
+              "end_ms": 115426,
+              "confidence": 0.7
+            },
+            {
+              "word": "der",
+              "start_ms": 115476,
+              "end_ms": 115960,
+              "confidence": 0.7
+            },
+            {
+              "word": "alles",
+              "start_ms": 116010,
+              "end_ms": 116817,
+              "confidence": 0.7
+            },
+            {
+              "word": "umwirft",
+              "start_ms": 116867,
+              "end_ms": 118000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Worte, die ihr Leben in Stücke reißen könnten",
+          "start_ms": 118000,
+          "end_ms": 125000,
+          "words": [
+            {
+              "word": "Worte,",
+              "start_ms": 118000,
+              "end_ms": 119050,
+              "confidence": 0.7
+            },
+            {
+              "word": "die",
+              "start_ms": 119100,
+              "end_ms": 119625,
+              "confidence": 0.7
+            },
+            {
+              "word": "ihr",
+              "start_ms": 119675,
+              "end_ms": 120200,
+              "confidence": 0.7
+            },
+            {
+              "word": "Leben",
+              "start_ms": 120250,
+              "end_ms": 121125,
+              "confidence": 0.7
+            },
+            {
+              "word": "in",
+              "start_ms": 121175,
+              "end_ms": 121525,
+              "confidence": 0.7
+            },
+            {
+              "word": "Stücke",
+              "start_ms": 121575,
+              "end_ms": 122625,
+              "confidence": 0.7
+            },
+            {
+              "word": "reißen",
+              "start_ms": 122675,
+              "end_ms": 123725,
+              "confidence": 0.7
+            },
+            {
+              "word": "könnten",
+              "start_ms": 123775,
+              "end_ms": 125000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Sie erschrickt, klar – wer würde das nicht?",
+          "start_ms": 125000,
+          "end_ms": 130000,
+          "words": [
+            {
+              "word": "Sie",
+              "start_ms": 125000,
+              "end_ms": 125387,
+              "confidence": 0.7
+            },
+            {
+              "word": "erschrickt,",
+              "start_ms": 125437,
+              "end_ms": 126857,
+              "confidence": 0.7
+            },
+            {
+              "word": "klar",
+              "start_ms": 126907,
+              "end_ms": 127423,
+              "confidence": 0.7
+            },
+            {
+              "word": "–",
+              "start_ms": 127473,
+              "end_ms": 127602,
+              "confidence": 0.7
+            },
+            {
+              "word": "wer",
+              "start_ms": 127652,
+              "end_ms": 128039,
+              "confidence": 0.7
+            },
+            {
+              "word": "würde",
+              "start_ms": 128089,
+              "end_ms": 128734,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 128784,
+              "end_ms": 129171,
+              "confidence": 0.7
+            },
+            {
+              "word": "nicht?",
+              "start_ms": 129221,
+              "end_ms": 130000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Aber der Engel, bevor er was erklärt",
+          "start_ms": 130000,
+          "end_ms": 135000,
+          "words": [
+            {
+              "word": "Aber",
+              "start_ms": 130000,
+              "end_ms": 130626,
+              "confidence": 0.7
+            },
+            {
+              "word": "der",
+              "start_ms": 130676,
+              "end_ms": 131146,
+              "confidence": 0.7
+            },
+            {
+              "word": "Engel,",
+              "start_ms": 131196,
+              "end_ms": 132136,
+              "confidence": 0.7
+            },
+            {
+              "word": "bevor",
+              "start_ms": 132186,
+              "end_ms": 132969,
+              "confidence": 0.7
+            },
+            {
+              "word": "er",
+              "start_ms": 133019,
+              "end_ms": 133332,
+              "confidence": 0.7
+            },
+            {
+              "word": "was",
+              "start_ms": 133382,
+              "end_ms": 133852,
+              "confidence": 0.7
+            },
+            {
+              "word": "erklärt",
+              "start_ms": 133902,
+              "end_ms": 135000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Sagt erst mal das Wichtigste",
+          "start_ms": 135000,
+          "end_ms": 140000,
+          "words": [
+            {
+              "word": "Sagt",
+              "start_ms": 135000,
+              "end_ms": 135800,
+              "confidence": 0.7
+            },
+            {
+              "word": "erst",
+              "start_ms": 135850,
+              "end_ms": 136650,
+              "confidence": 0.7
+            },
+            {
+              "word": "mal",
+              "start_ms": 136700,
+              "end_ms": 137300,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 137350,
+              "end_ms": 137950,
+              "confidence": 0.7
+            },
+            {
+              "word": "Wichtigste",
+              "start_ms": 138000,
+              "end_ms": 140000,
+              "confidence": 0.7
+            }
+          ]
+        }
       ]
     },
     {
@@ -78,13 +1248,313 @@
       "start_ms": 145000,
       "end_ms": 180000,
       "lines": [
-        {"text": "Zwei Menschen, zwei Momente", "start_ms": 145000, "end_ms": 150000},
-        {"text": "Ein alter Mann, eine junge Frau", "start_ms": 150000, "end_ms": 155000},
-        {"text": "Beide am Boden, beide erschüttert", "start_ms": 155000, "end_ms": 160000},
-        {"text": "Und Gott? Gott fängt mit Trost an", "start_ms": 160000, "end_ms": 166000},
-        {"text": "Nicht mit Forderung, nicht mit Plan", "start_ms": 166000, "end_ms": 171000},
-        {"text": "Sondern: Ich seh dich, hab keine Angst", "start_ms": 171000, "end_ms": 176000},
-        {"text": "Das ist sein Stil, das ist sein Herz", "start_ms": 176000, "end_ms": 180000}
+        {
+          "text": "Zwei Menschen, zwei Momente",
+          "start_ms": 145000,
+          "end_ms": 150000,
+          "words": [
+            {
+              "word": "Zwei",
+              "start_ms": 145000,
+              "end_ms": 145808,
+              "confidence": 0.7
+            },
+            {
+              "word": "Menschen,",
+              "start_ms": 145858,
+              "end_ms": 147676,
+              "confidence": 0.7
+            },
+            {
+              "word": "zwei",
+              "start_ms": 147726,
+              "end_ms": 148534,
+              "confidence": 0.7
+            },
+            {
+              "word": "Momente",
+              "start_ms": 148584,
+              "end_ms": 150000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Ein alter Mann, eine junge Frau",
+          "start_ms": 150000,
+          "end_ms": 155000,
+          "words": [
+            {
+              "word": "Ein",
+              "start_ms": 150000,
+              "end_ms": 150548,
+              "confidence": 0.7
+            },
+            {
+              "word": "alter",
+              "start_ms": 150598,
+              "end_ms": 151511,
+              "confidence": 0.7
+            },
+            {
+              "word": "Mann,",
+              "start_ms": 151561,
+              "end_ms": 152474,
+              "confidence": 0.7
+            },
+            {
+              "word": "eine",
+              "start_ms": 152524,
+              "end_ms": 153254,
+              "confidence": 0.7
+            },
+            {
+              "word": "junge",
+              "start_ms": 153304,
+              "end_ms": 154217,
+              "confidence": 0.7
+            },
+            {
+              "word": "Frau",
+              "start_ms": 154267,
+              "end_ms": 155000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Beide am Boden, beide erschüttert",
+          "start_ms": 155000,
+          "end_ms": 160000,
+          "words": [
+            {
+              "word": "Beide",
+              "start_ms": 155000,
+              "end_ms": 155827,
+              "confidence": 0.7
+            },
+            {
+              "word": "am",
+              "start_ms": 155877,
+              "end_ms": 156208,
+              "confidence": 0.7
+            },
+            {
+              "word": "Boden,",
+              "start_ms": 156258,
+              "end_ms": 157251,
+              "confidence": 0.7
+            },
+            {
+              "word": "beide",
+              "start_ms": 157301,
+              "end_ms": 158128,
+              "confidence": 0.7
+            },
+            {
+              "word": "erschüttert",
+              "start_ms": 158178,
+              "end_ms": 160000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Und Gott? Gott fängt mit Trost an",
+          "start_ms": 160000,
+          "end_ms": 166000,
+          "words": [
+            {
+              "word": "Und",
+              "start_ms": 160000,
+              "end_ms": 160633,
+              "confidence": 0.7
+            },
+            {
+              "word": "Gott?",
+              "start_ms": 160683,
+              "end_ms": 161738,
+              "confidence": 0.7
+            },
+            {
+              "word": "Gott",
+              "start_ms": 161788,
+              "end_ms": 162632,
+              "confidence": 0.7
+            },
+            {
+              "word": "fängt",
+              "start_ms": 162682,
+              "end_ms": 163737,
+              "confidence": 0.7
+            },
+            {
+              "word": "mit",
+              "start_ms": 163787,
+              "end_ms": 164420,
+              "confidence": 0.7
+            },
+            {
+              "word": "Trost",
+              "start_ms": 164470,
+              "end_ms": 165525,
+              "confidence": 0.7
+            },
+            {
+              "word": "an",
+              "start_ms": 165575,
+              "end_ms": 166000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Nicht mit Forderung, nicht mit Plan",
+          "start_ms": 166000,
+          "end_ms": 171000,
+          "words": [
+            {
+              "word": "Nicht",
+              "start_ms": 166000,
+              "end_ms": 166791,
+              "confidence": 0.7
+            },
+            {
+              "word": "mit",
+              "start_ms": 166841,
+              "end_ms": 167316,
+              "confidence": 0.7
+            },
+            {
+              "word": "Forderung,",
+              "start_ms": 167366,
+              "end_ms": 168949,
+              "confidence": 0.7
+            },
+            {
+              "word": "nicht",
+              "start_ms": 168999,
+              "end_ms": 169790,
+              "confidence": 0.7
+            },
+            {
+              "word": "mit",
+              "start_ms": 169840,
+              "end_ms": 170315,
+              "confidence": 0.7
+            },
+            {
+              "word": "Plan",
+              "start_ms": 170365,
+              "end_ms": 171000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Sondern: Ich seh dich, hab keine Angst",
+          "start_ms": 171000,
+          "end_ms": 176000,
+          "words": [
+            {
+              "word": "Sondern:",
+              "start_ms": 171000,
+              "end_ms": 172175,
+              "confidence": 0.7
+            },
+            {
+              "word": "Ich",
+              "start_ms": 172225,
+              "end_ms": 172665,
+              "confidence": 0.7
+            },
+            {
+              "word": "seh",
+              "start_ms": 172715,
+              "end_ms": 173155,
+              "confidence": 0.7
+            },
+            {
+              "word": "dich,",
+              "start_ms": 173205,
+              "end_ms": 173939,
+              "confidence": 0.7
+            },
+            {
+              "word": "hab",
+              "start_ms": 173989,
+              "end_ms": 174429,
+              "confidence": 0.7
+            },
+            {
+              "word": "keine",
+              "start_ms": 174479,
+              "end_ms": 175213,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst",
+              "start_ms": 175263,
+              "end_ms": 176000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Das ist sein Stil, das ist sein Herz",
+          "start_ms": 176000,
+          "end_ms": 180000,
+          "words": [
+            {
+              "word": "Das",
+              "start_ms": 176000,
+              "end_ms": 176377,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 176427,
+              "end_ms": 176804,
+              "confidence": 0.7
+            },
+            {
+              "word": "sein",
+              "start_ms": 176854,
+              "end_ms": 177357,
+              "confidence": 0.7
+            },
+            {
+              "word": "Stil,",
+              "start_ms": 177407,
+              "end_ms": 178036,
+              "confidence": 0.7
+            },
+            {
+              "word": "das",
+              "start_ms": 178086,
+              "end_ms": 178463,
+              "confidence": 0.7
+            },
+            {
+              "word": "ist",
+              "start_ms": 178513,
+              "end_ms": 178890,
+              "confidence": 0.7
+            },
+            {
+              "word": "sein",
+              "start_ms": 178940,
+              "end_ms": 179443,
+              "confidence": 0.7
+            },
+            {
+              "word": "Herz",
+              "start_ms": 179493,
+              "end_ms": 180000,
+              "confidence": 0.7
+            }
+          ]
+        }
       ]
     },
     {
@@ -93,10 +1563,136 @@
       "start_ms": 185000,
       "end_ms": 209000,
       "lines": [
-        {"text": "Keine Angst, keine Angst", "start_ms": 185000, "end_ms": 191000},
-        {"text": "Was auch immer kommt", "start_ms": 191000, "end_ms": 196000},
-        {"text": "Keine Angst, keine Angst", "start_ms": 196000, "end_ms": 202000},
-        {"text": "Er fängt immer so an", "start_ms": 202000, "end_ms": 209000}
+        {
+          "text": "Keine Angst, keine Angst",
+          "start_ms": 185000,
+          "end_ms": 191000,
+          "words": [
+            {
+              "word": "Keine",
+              "start_ms": 185000,
+              "end_ms": 186392,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 186442,
+              "end_ms": 188113,
+              "confidence": 0.7
+            },
+            {
+              "word": "keine",
+              "start_ms": 188163,
+              "end_ms": 189555,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst",
+              "start_ms": 189605,
+              "end_ms": 191000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Was auch immer kommt",
+          "start_ms": 191000,
+          "end_ms": 196000,
+          "words": [
+            {
+              "word": "Was",
+              "start_ms": 191000,
+              "end_ms": 191855,
+              "confidence": 0.7
+            },
+            {
+              "word": "auch",
+              "start_ms": 191905,
+              "end_ms": 193046,
+              "confidence": 0.7
+            },
+            {
+              "word": "immer",
+              "start_ms": 193096,
+              "end_ms": 194522,
+              "confidence": 0.7
+            },
+            {
+              "word": "kommt",
+              "start_ms": 194572,
+              "end_ms": 196000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Keine Angst, keine Angst",
+          "start_ms": 196000,
+          "end_ms": 202000,
+          "words": [
+            {
+              "word": "Keine",
+              "start_ms": 196000,
+              "end_ms": 197392,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst,",
+              "start_ms": 197442,
+              "end_ms": 199113,
+              "confidence": 0.7
+            },
+            {
+              "word": "keine",
+              "start_ms": 199163,
+              "end_ms": 200555,
+              "confidence": 0.7
+            },
+            {
+              "word": "Angst",
+              "start_ms": 200605,
+              "end_ms": 202000,
+              "confidence": 0.7
+            }
+          ]
+        },
+        {
+          "text": "Er fängt immer so an",
+          "start_ms": 202000,
+          "end_ms": 209000,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 202000,
+              "end_ms": 202850,
+              "confidence": 0.7
+            },
+            {
+              "word": "fängt",
+              "start_ms": 202900,
+              "end_ms": 205025,
+              "confidence": 0.7
+            },
+            {
+              "word": "immer",
+              "start_ms": 205075,
+              "end_ms": 207200,
+              "confidence": 0.7
+            },
+            {
+              "word": "so",
+              "start_ms": 207250,
+              "end_ms": 208100,
+              "confidence": 0.7
+            },
+            {
+              "word": "an",
+              "start_ms": 208150,
+              "end_ms": 209000,
+              "confidence": 0.7
+            }
+          ]
+        }
       ]
     }
   ],
@@ -108,7 +1704,9 @@
       "start_ms": 45000,
       "end_ms": 63000,
       "key_line": "Und das erste Wort? Nicht: Hier ist der Plan. Sondern:",
-      "recommended_for": ["devotional_intro"]
+      "recommended_for": [
+        "devotional_intro"
+      ]
     },
     {
       "id": "chorus_main",
@@ -117,7 +1715,11 @@
       "start_ms": 58000,
       "end_ms": 82000,
       "key_line": "Keine Angst, keine Angst – ich weiß, du zitterst, ich weiß, du brichst fast",
-      "recommended_for": ["devotional_intro", "social_clip", "app_preview"]
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
     },
     {
       "id": "chorus_application",
@@ -126,7 +1728,10 @@
       "start_ms": 82000,
       "end_ms": 98000,
       "key_line": "Das Unmögliche klopft an – bei dir, bei mir, bei uns",
-      "recommended_for": ["devotional_intro", "social_clip"]
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip"
+      ]
     },
     {
       "id": "bridge_pattern",
@@ -135,7 +1740,9 @@
       "start_ms": 145000,
       "end_ms": 166000,
       "key_line": "Zwei Menschen, zwei Momente – ein alter Mann, eine junge Frau",
-      "recommended_for": ["devotional_intro"]
+      "recommended_for": [
+        "devotional_intro"
+      ]
     }
   ],
   "intro_clips": [
@@ -148,5 +1755,6 @@
       "key_line": "Keine Angst, keine Angst – ich weiß, du zitterst",
       "notes": "Main chorus hook - emotionally direct, captures the core message"
     }
-  ]
+  ],
+  "alignment_model": "base"
 }

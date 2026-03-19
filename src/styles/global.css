@@ -308,10 +308,7 @@ p.paragraph-break {
 
 /* Tooltip Container */
 .footnote-tooltip {
-    position: absolute;
-    bottom: calc(100% + 10px);
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed;
     width: max-content;
     max-width: 340px;
     padding: 14px 16px;
@@ -321,10 +318,6 @@ p.paragraph-break {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
     opacity: 0;
     visibility: hidden;
-    transition:
-        opacity 0.2s ease,
-        visibility 0.2s ease,
-        transform 0.2s ease;
     z-index: 1000;
     pointer-events: none;
     text-align: left;
@@ -337,7 +330,6 @@ p.paragraph-break {
 .footnote-inline.active .footnote-tooltip {
     opacity: 1;
     visibility: visible;
-    transform: translateX(-50%) translateY(-4px);
     pointer-events: auto;
 }
 
@@ -345,22 +337,44 @@ p.paragraph-break {
 .footnote-tooltip::after {
     content: "";
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
     border: 8px solid transparent;
-    border-top-color: var(--color-paper);
     filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.05));
 }
 
 .footnote-tooltip::before {
     content: "";
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
     border: 9px solid transparent;
+}
+
+/* Arrow positioning - default: bottom of tooltip (tooltip above cursor) */
+.footnote-tooltip.arrow-bottom::after {
+    top: 100%;
+    left: var(--arrow-left, 50%);
+    transform: translateX(-50%);
+    border-top-color: var(--color-paper);
+}
+
+.footnote-tooltip.arrow-bottom::before {
+    top: 100%;
+    left: var(--arrow-left, 50%);
+    transform: translateX(-50%);
     border-top-color: var(--color-border-strong);
+}
+
+/* Arrow positioning - top of tooltip (tooltip below cursor) */
+.footnote-tooltip.arrow-top::after {
+    bottom: 100%;
+    left: var(--arrow-left, 50%);
+    transform: translateX(-50%);
+    border-bottom-color: var(--color-paper);
+}
+
+.footnote-tooltip.arrow-top::before {
+    bottom: 100%;
+    left: var(--arrow-left, 50%);
+    transform: translateX(-50%);
+    border-bottom-color: var(--color-border-strong);
 }
 
 /* Tooltip Header */
@@ -398,43 +412,17 @@ p.paragraph-break {
 .footnote-tooltip-content {
     display: block;
     font-size: 0.825rem;
-    line-height: 1.55;
+    line-height: 1.2;
     color: var(--color-text);
-}
-
-/* Edge detection - prevent tooltip from going off-screen */
-.footnote-inline:first-child .footnote-tooltip,
-.verse-text > .footnote-inline:first-of-type .footnote-tooltip {
-    left: 0;
-    transform: translateX(0);
-}
-
-.footnote-inline:first-child .footnote-tooltip::after,
-.footnote-inline:first-child .footnote-tooltip::before,
-.verse-text > .footnote-inline:first-of-type .footnote-tooltip::after,
-.verse-text > .footnote-inline:first-of-type .footnote-tooltip::before {
-    left: 20px;
 }
 
 /* Mobile adjustments */
 @media (max-width: 640px) {
     .footnote-tooltip {
         max-width: calc(100vw - 48px);
-        left: 0;
-        transform: translateX(0);
-        position: fixed;
-        bottom: auto;
-        top: auto;
-        margin-top: 8px;
-    }
-
-    .footnote-inline.active .footnote-tooltip {
-        transform: translateX(0);
-    }
-
-    .footnote-tooltip::after,
-    .footnote-tooltip::before {
-        display: none;
+        left: 24px !important;
+        right: 24px !important;
+        width: auto !important;
     }
 }
 

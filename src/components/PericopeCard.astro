@@ -1144,13 +1144,77 @@ processedVerses.forEach((verse, idx) => {
 </style>
 
 <script>
-  // Inline footnote touch handling for mobile devices
+  // Cursor-positioned footnote tooltips with viewport detection
+  const OFFSET = 12; // Distance from cursor
+  const PADDING = 10; // Viewport edge padding
+
+  function positionTooltip(tooltip, mouseX, mouseY) {
+    // Force a reflow to get accurate dimensions
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.display = 'block';
+
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const tooltipWidth = tooltipRect.width;
+    const tooltipHeight = tooltipRect.height;
+
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    let x = mouseX + OFFSET;
+    let y = mouseY - tooltipHeight - OFFSET; // Default: above cursor
+    let arrowClass = 'arrow-bottom';
+
+    // Check if tooltip goes off right edge
+    if (x + tooltipWidth + PADDING > viewportWidth) {
+      x = mouseX - tooltipWidth - OFFSET;
+    }
+
+    // Check if tooltip goes off left edge
+    if (x < PADDING) {
+      x = PADDING;
+    }
+
+    // Check if tooltip goes off top edge
+    if (y < PADDING) {
+      y = mouseY + OFFSET; // Position below cursor
+      arrowClass = 'arrow-top';
+    }
+
+    // Check if tooltip goes off bottom edge
+    if (y + tooltipHeight + PADDING > viewportHeight) {
+      y = viewportHeight - tooltipHeight - PADDING;
+    }
+
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+    tooltip.style.visibility = '';
+    tooltip.style.display = '';
+
+    // Update arrow position
+    tooltip.classList.remove('arrow-top', 'arrow-bottom');
+    tooltip.classList.add(arrowClass);
+
+    // Position arrow relative to cursor
+    const arrowLeft = Math.max(12, Math.min(mouseX - x, tooltipWidth - 12));
+
+    // Set CSS variable for arrow position
+    tooltip.style.setProperty('--arrow-left', arrowLeft + 'px');
+  }
+
   function initFootnoteTooltips() {
     const footnotes = document.querySelectorAll('.footnote-inline');
 
     footnotes.forEach(el => {
+      const tooltip = el.querySelector('.footnote-tooltip');
+      if (!tooltip) return;
+
+      // Track mouse position for cursor-based positioning (desktop)
+      el.addEventListener('mousemove', (e) => {
+        positionTooltip(tooltip, e.clientX, e.clientY);
+      });
+
+      // Handle click for touch devices
       el.addEventListener('click', (e) => {
-        // Only handle on touch devices
         if (window.matchMedia('(hover: none)').matches) {
           e.preventDefault();
           e.stopPropagation();
@@ -1161,6 +1225,10 @@ processedVerses.forEach((verse, idx) => {
               other.classList.remove('active');
             }
           });
+
+          // Position tooltip at touch point
+          const touch = e.touches ? e.touches[0] : e;
+          positionTooltip(tooltip, touch.clientX, touch.clientY);
 
           // Toggle this tooltip
           el.classList.toggle('active');
