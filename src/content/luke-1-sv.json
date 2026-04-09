@@ -4,40 +4,25 @@
   "chapter": 1,
   "sections": [
     {
-      "heading": "Varför jag skriver detta",
+      "heading": "Varför jag skriver det här",
       "verses": [
         {
           "number": "1",
-          "text": "Många har redan försökt skriva ner vad som hände bland oss.",
-          "footnotes": [
-            {
-              "ref": "1,1-4",
-              "category": "text",
-              "keyword": "Lukas metod",
-              "content": "Lukas skriver som en antik historiker: samlar ögonvittnesskildringar, undersöker noggrant, presenterar ordnat. Det motsvarar standarderna för grekisk historieskrivning."
-            }
-          ],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "2",
-          "text": "De byggde på det som ögonvittnena har överlämnat till oss — människor som var med från början och blev förkunnare av denna berättelse.",
+          "text": "<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
-          "number": "3",
-          "text": "Också jag har bestämt mig för att undersöka allt <span class=\"amplification\">på nytt</span> från grunden. Noggrant. För dig, ärade Theofilos —",
+          "number": "2",
+          "text": "De byggde på vad ögonvittnena lämnade vidare — de som såg det från början och sedan ägnade sina liv åt att sprida budskapet.",
           "footnotes": [
             {
-              "ref": "1,3",
-              "category": "namn",
-              "keyword": "Theofilos (Θεόφιλος)",
-              "content": "Grekiska \"Gudsälskare\". Titeln κράτιστε var tilltal för romerska tjänstemän och personer av rang."
+              "ref": "1:2",
+              "category": "text",
+              "keyword": "ögonvittnena",
+              "content": "Grekiskans autoptai (αὐτόπται) — bokstavligen \"de som såg med egna ögon\". Ett juridiskt och historiografiskt begrepp. Samma personer var först vittnen, sedan budbärare: de som hade sett blev de som berättade."
             }
           ],
           "isPoetry": false,
@@ -45,14 +30,28 @@
           "lines": []
         },
         {
+          "number": "3",
+          "text": "",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
           "number": "4",
-          "text": "så att du kan veta: Det du har fått höra vilar på säker grund.",
+          "text": "Så att du <span class=\"amplification\">själv</span> kan se tillförlitligheten i det du har fått lära dig.",
           "footnotes": [
             {
-              "ref": "1,4",
+              "ref": "1:4",
               "category": "text",
-              "keyword": "Säker grund (ἀσφάλεια)",
-              "content": "Säkerhet, tillförlitlighet. Lukas vill möjliggöra grundat förtroende."
+              "keyword": "tillförlitligheten",
+              "content": "Grekiskans asphaleia (ἀσφάλεια) — inte \"bevis\" utan \"pålitlighet\", något du kan stå på. Lukas lovar inte matematisk visshet utan solid mark under fötterna. Undersökningen stärker tron, den ersätter den inte."
+            },
+            {
+              "ref": "1:1-4",
+              "category": "apologetics",
+              "keyword": "noggrant ha undersökt",
+              "content": "Lukas presenterar sig som antik historiker — med samma metod som Thukydides och Herodotos: ögonvittnen, källkritik, ordnad framställning. Nya testamentets manuskriptbas är ojämförligt stark: över 5 800 grekiska handskrifter, de äldsta från 100-talet. Till jämförelse: Homeros bevaras i ca 1 900 kopior, Herodotos i färre än 100. Textkritisk forskning (jfr Bruce Metzger, \"The Text of the New Testament\") bekräftar hög överensstämmelse. Ingen antik text har bättre dokumentation."
             }
           ],
           "isPoetry": false,
@@ -66,34 +65,15 @@
       "verses": [
         {
           "number": "5",
-          "text": "<span class=\"paragraph-break\"></span>På kung Herodes tid levde i Judeen en präst vid namn Sakarias. Han tillhörde Avias avdelning<span class=\"amplification\">— en av tjugofyra grupper som turades om att tjänstgöra i templet</span>. Hans hustru Elisabet härstammade från Arons familj. <span class=\"amplification\">Ett prästpar, båda av gammal släkt. Om någon familj förtjänade Guds välsignelse, var det denna.</span>",
-          "footnotes": [
-            {
-              "ref": "1,5",
-              "category": "kontext",
-              "keyword": "Herodes",
-              "content": "Herodes den store (reg. 37-4 f.Kr.), insatt som kung av Rom, ökänd för sin grymhet."
-            },
-            {
-              "ref": "1,5",
-              "category": "kultur",
-              "keyword": "Avias avdelning",
-              "content": "En av 24 prästgrupper som turades om att tjänstgöra i templet (1 Krön 24,10)."
-            },
-            {
-              "ref": "1,5",
-              "category": "kultur",
-              "keyword": "Arons familj",
-              "content": "Båda makarna från prästfamiljer — religiös aristokrati. Om någon familj förtjänade Guds välsignelse, var det denna."
-            }
-          ],
+          "text": "<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "6",
-          "text": "<span class=\"amplification\">Och faktiskt:</span> Båda levde så att ingen kunde anklaga dem för något. <span class=\"amplification\">Ingen kunde säga något dåligt om dem.</span>",
+          "text": "De levde båda två rätt inför Gud, klanderfritt, noga med varje bud och föreskrift.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -101,27 +81,28 @@
         },
         {
           "number": "7",
-          "text": "<span class=\"amplification\">Men deras liv kändes inte välsignat.</span> Elisabet var barnlös. <span class=\"amplification\">Barnlöshet — det var i deras värld ingen privat olycka. Det var skam. Det var frågan som ingen ställde högt, men alla tänkte: Vad har de gjort, att Gud straffar dem så? De hade inte gjort något.</span> Och båda var <span class=\"amplification\">redan</span> gamla.",
+          "text": "Ändå hade de inga barn. Elisabet var barnlös. <span class=\"amplification\">I den världen var det inte bara sorg. Det var skam — den sorts skam som alla visste om men ingen nämnde.</span> Och de var gamla nu. <span class=\"amplification\">För gamla för hopp.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,7",
+              "ref": "1:7",
               "category": "kultur",
-              "keyword": "Barnlöshet",
-              "content": "I heder-skam-kulturen betydde barnlöshet offentlig skam. Man frågade sig vad de drabbade hade gjort för fel, att Gud straffade dem så."
+              "keyword": "barnlös",
+              "content": "I den antika Medelhavsvärlden var barnlöshet inte bara sorg — det var offentlig skam. Grannar tolkade det som Guds straff, även om texten uttryckligen säger att Elisabet och Sakarias levde \"klanderfritt\". Spänningen är grym: det mest moraliska paret bär märket av det som ser ut som en förbannelse."
+            },
+            {
+              "ref": "1:7",
+              "category": "leben",
+              "keyword": "barnlös... och de var gamla",
+              "content": "Elisabet och Sakarias levde med det som många känner igen: en längtan som inte infrias. Livet såg inte ut som de hoppats. Texten berättar inte att de slutade be — men inte heller att de fick svar under alla de åren. Väntan utan garanti är en av trons svåraste platser. Att texten inte romantiserar deras situation gör den ärligare än de flesta."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "I templet",
-      "verses": [
+        },
         {
           "number": "8",
-          "text": "<span class=\"paragraph-break\"></span>Så kom dagen då <span class=\"amplification\">Sakarias</span> avdelning hade tjänst. Han tjänstgjorde inför Gud,",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -129,19 +110,13 @@
         },
         {
           "number": "9",
-          "text": "och lotten föll på honom: Han skulle frambära rökoffret. <span class=\"amplification\">Det privilegium som en präst väntade på hela sitt liv. Somliga upplevde det aldrig.</span>",
+          "text": "och att lotten föll på honom. <span class=\"amplification\">Lotten — så avgjordes det, av Gud.</span> Han skulle tända rökelsen i Guds helgedom. <span class=\"amplification\">Det ögonblick han hade väntat på hela sitt liv.</span> Folket stod utanför och bad.",
           "footnotes": [
             {
-              "ref": "1,9",
+              "ref": "1:9",
               "category": "kultur",
-              "keyword": "Lotten",
-              "content": "Lottkastning var ett medel för gudomlig ledning (Ords 16,33). Gud valde Sakarias — inte slumpen."
-            },
-            {
-              "ref": "1,9",
-              "category": "kultur",
-              "keyword": "Rökoffer",
-              "content": "Det högsta privilegiet för en präst. Med tusentals präster kunde en man vänta hela sitt liv utan att någonsin bli utvald."
+              "keyword": "lotten föll på honom",
+              "content": "Rökelseoffret i templets inre helgedom var den högsta äran en präst kunde tilldelas — och den gavs bara en gång i livet, genom lottdragning. Lotten var inte slump utan sättet Gud avgjorde. Många präster upplevde aldrig detta ögonblick."
             }
           ],
           "isPoetry": false,
@@ -150,7 +125,7 @@
         },
         {
           "number": "10",
-          "text": "Han gick in i helgedomen. <span class=\"amplification\">Ensam.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Framför honom det gyllene rökaltaret. Den sjuarmade ljusstaken kastade fladdrande ljus på väggarna. Bakom honom det tunga förhänget, och bakom det det allra heligaste — platsen där Gud själv bodde.</span> Utanför<span class=\"amplification\">, i tystnad,</span> stod folket och bad.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -158,19 +133,27 @@
         },
         {
           "number": "11",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Då</span> stod där en ängel. Till höger om altaret<span class=\"amplification\">— där välsignelsen kommer ifrån</span>.",
+          "text": "",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "12",
+          "text": "Skräcken slog ner i honom.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,11",
-              "category": "otroligt",
-              "keyword": "Ängel",
-              "content": "För moderna läsare väcker detta frågor: Änglar? På riktigt? Texten förutsätter en världsbild där Gud handlar genom budbärare — inte som metafor, utan som verklig upplevelse. Somliga förstår änglar som inre upplevelser eller litterärt grepp. Andra — och så presenterar texten det — som objektiv uppenbarelse. Det grekiska ἄγγελος betyder helt enkelt \"budbärare\". Lukas presenterar Gabriel som en konkret budbärare med ett konkret budskap."
+              "ref": "1:11",
+              "category": "unglaublich",
+              "keyword": "en ängel",
+              "content": "Änglauppenbarelser hör till de svåraste aspekterna för moderna läsare. Texten förutsätter ett världsbild där Gud kommunicerar genom budbärare. Tolkningar: (1) Symbolisk — litterärt verktyg för att uttrycka gudomligt tilltal. (2) Psykologisk — inre upplevelse som tolkas i tidens kategorier. (3) Bokstavlig — reella andliga väsen. Jesus själv talade om änglar som verkliga (Matt 18:10). Texten presenterar Gabriel som en konkret budbärare med ett konkret uppdrag — inte som en känsla eller idé."
             },
             {
-              "ref": "1,11",
-              "category": "kultur",
-              "keyword": "Till höger",
-              "content": "Höger sida var positionen för välsignelse och gunst (Ps 110,1)."
+              "ref": "1:12",
+              "category": "text",
+              "keyword": "Skräcken slog ner i honom",
+              "content": "Grekiskans phobos epepesen (φόβος ἐπέπεσεν) — bokstavligen \"fruktan föll ner på honom\". Inte \"han blev rädd\" utan fruktan som ett fysiskt föremål som slår ner ovanifrån. Verbets brutalitet är avsiktlig: detta är inte nervositet utan helig skräck."
             }
           ],
           "isPoetry": false,
@@ -178,21 +161,8 @@
           "lines": []
         },
         {
-          "number": "12",
-          "text": "Sakarias såg honom. Och rädsla grep honom.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Löftet",
-      "verses": [
-        {
           "number": "13",
-          "text": "<span class=\"paragraph-break\"></span>Ängeln sa: \"Var inte rädd, Sakarias. Din bön har blivit hörd. Elisabet, din hustru, kommer att ge dig en son. Kalla honom Johannes.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -200,7 +170,7 @@
         },
         {
           "number": "14",
-          "text": "Han kommer att ge dig glädje<span class=\"amplification\">, stor glädje</span>. Och många kommer att glädjas över hans födelse.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -208,22 +178,15 @@
         },
         {
           "number": "15",
-          "text": "Inför Gud kommer han att vara stor. Vin och starka drycker kommer han aldrig att röra — den helige Ande kommer att fylla honom, redan i moderlivet.",
-          "footnotes": [
-            {
-              "ref": "1,15",
-              "category": "kontext",
-              "keyword": "Vin och starka drycker",
-              "content": "Anspelning på nasirlöftet (4 Mos 6,3). Som Simson och Samuel var Johannes vigd åt Gud från födseln."
-            }
-          ],
+          "text": "",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "16",
-          "text": "Många i Israel kommer han att föra tillbaka till Herren, deras Gud.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -231,41 +194,51 @@
         },
         {
           "number": "17",
-          "text": "Med kraften från Elia kommer han att gå före honom. Han kommer att försona fäder och barn, föra de olydiga till förstånd. Så kommer han att göra ett folk redo — redo för Herren.\"",
+          "text": "och gå före honom med samma ande och kraft som Elia — för att försona fäder och barn med varandra och föra upproriska människor till rättfärdigas vishet. <span class=\"amplification\">Ett folk, redo för Gud.</span>\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,17",
+              "ref": "1:17",
               "category": "kontext",
-              "keyword": "Elia",
-              "content": "Malaki hade förutsagt att Elia skulle återvända före Herrens stora dag (Mal 3,23-24). Johannes uppfyller denna roll."
+              "keyword": "Elias ande och kraft",
+              "content": "Hänvisning till Mal 3:1 och 4:5-6: profeten Elia som skulle återvända före Herrens stora dag för att vända fäders hjärtan till barnen. Johannes är inte Elia själv men bär hans profetiska arv. Jesus bekräftade denna identifikation (Lk 7:27; Matt 11:14)."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Sakarias tvivlar",
-      "verses": [
+        },
         {
           "number": "18",
-          "text": "<span class=\"paragraph-break\"></span>Sakarias frågade: \"Hur kan jag veta det? Jag är gammal. Min hustru också.\"",
-          "footnotes": [],
+          "text": "\"Hur ska jag kunna veta det här?\" sa Sakarias. \"Jag är gammal. Min hustru är gammal.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:18",
+              "category": "kontext",
+              "keyword": "Hur ska jag kunna veta det här?",
+              "content": "Nästan identisk med Abrahams fråga i 1 Mos 15:8: \"Hur ska jag veta?\" Abraham fick ett förbundstecken. Sakarias får också ett tecken — men ett annorlunda: tystnad. Samma fråga, olika konsekvenser."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "19",
-          "text": "Ängeln svarade: \"Jag är Gabriel. Jag står inför Guds tron. Han har sänt mig för att ge dig detta goda budskap.",
+          "text": "",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "20",
+          "text": "Men du trodde inte. Därför ska du inte kunna tala — inte ett ord — förrän allt det här har gått i uppfyllelse.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,19",
-              "category": "namn",
-              "keyword": "Gabriel (Γαβριήλ)",
-              "content": "Hebreiska \"Guds kraft\". En av ärkeänglarna, som \"står inför Gud\". Samma ängel visade sig för Daniel (Dan 8,16; 9,21)."
+              "ref": "1:20",
+              "category": "unglaublich",
+              "keyword": "inte kunna tala",
+              "content": "Plötslig stumhet som övernaturligt tecken — svårt för moderna läsare. Möjliga tolkningar: (1) Medicinsk — konversionsreaktion efter en överväldigande upplevelse (dokumenterat i modern psykiatri). (2) Teologisk-symbolisk — tystnaden som formativ period: den som tvivlade på Guds ord förlorar sitt eget tills löftet uppfylls. (3) Övernaturlig — Gud stänger och öppnar, som han gör med livmodern (jfr 1:7, 1:24). Texten behandlar stumheten som verklig — grannarna märker den (1:22), den varar nio månader, och den bryts i exakt det ögonblick som utlovats (1:64)."
             }
           ],
           "isPoetry": false,
@@ -273,21 +246,8 @@
           "lines": []
         },
         {
-          "number": "20",
-          "text": "Men eftersom du inte trodde mina ord — ord som kommer att gå i uppfyllelse i rätt tid — kommer du att bli stum. Du kommer inte att kunna tala förrän det sker.\"",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Tystnaden börjar",
-      "verses": [
-        {
           "number": "21",
-          "text": "<span class=\"paragraph-break\"></span>Utanför väntade folket på Sakarias. <span class=\"amplification\">Ovanligt länge. Den prästerliga välsignelsen brukade bara ta ett ögonblick.</span>",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -295,7 +255,7 @@
         },
         {
           "number": "22",
-          "text": "När han äntligen kom ut kunde han inte tala. Han gjorde tecken med händerna. Då förstod de: Han hade haft en syn<span class=\"amplification\">. I helgedomen, där Gud bor</span>.",
+          "text": "När han till sist kom ut ur helgedomen kunde han inte säga ett ord. Han gjorde tecken med händerna. De förstod: han hade sett en syn.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -303,7 +263,7 @@
         },
         {
           "number": "23",
-          "text": "Efter sin tjänstgöring gick han hem. <span class=\"amplification\">Stum. Oförmögen att uttala den välsignelse som folket väntade på.</span>",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -311,15 +271,22 @@
         },
         {
           "number": "24",
-          "text": "Strax därefter blev Elisabet gravid. I fem månader höll hon sig undan.",
-          "footnotes": [],
+          "text": "Inte länge därefter blev Elisabet gravid. Hon höll sig undan i fem månader.",
+          "footnotes": [
+            {
+              "ref": "1:24",
+              "category": "unglaublich",
+              "keyword": "Elisabet gravid",
+              "content": "Graviditet vid hög ålder — svårt men inte biologiskt omöjligt, till skillnad från jungfrufödelsen. Berättelsen ekar medvetet Sara (1 Mos 18:11-14), Rebecka (1 Mos 25:21), Rakel (1 Mos 30:22) och Hanna (1 Sam 1:19-20) — alla barnlösa kvinnor vars barn blev avgörande i Israels historia. Mönstret: Gud griper in där mänsklig förmåga når sin gräns. Att Elisabet \"höll sig undan\" kan tyda på att hon ville skydda graviditeten, eller att hon behövde tid att förstå vad som hänt."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "25",
-          "text": "Hon sa: \"Det här har Gud gjort för mig. Han såg mig. Han tog bort min skam<span class=\"amplification\">— skammen över att vara barnlös, som i allas ögon var ett straff från Gud</span>.\"",
+          "text": "\"Det är Gud som har gjort det här\", sa hon. \"<span class=\"amplification\">Han såg till mig.</span> Han tog bort min skam <span class=\"amplification\">bland människor</span>.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -332,7 +299,7 @@
       "verses": [
         {
           "number": "26",
-          "text": "<span class=\"paragraph-break\"></span>Sex månader senare sände Gud ängeln Gabriel <span class=\"amplification\">igen. Den här gången inte till templet. Inte till Jerusalem.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Till</span> Galileen. Till en by som hette Nasaret<span class=\"amplification\">. En plats som ingen hade hört talas om</span>.<span class=\"paragraph-break\"></span><span class=\"amplification\">Inget tempel. Ingen rökelse. Inget folk som bad utanför. Bara en flicka.</span>",
+          "text": "<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -340,13 +307,13 @@
         },
         {
           "number": "27",
-          "text": "<span class=\"paragraph-break\"></span>Hon hette Maria. Hon var trolovad med en man vid namn Josef, som härstammade från Davids hus. <span class=\"amplification\">Trolovad — det betydde: Hon tillhörde honom redan, juridiskt sett. Men hon bodde fortfarande hos sin far. Bröllopet hade ännu inte skett.</span>",
+          "text": "Där bodde en ung kvinna som hette Maria. Hon var förlovad med Josef, av kung Davids släkt.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,27",
+              "ref": "1:27",
               "category": "kultur",
-              "keyword": "Trolovning",
-              "content": "Trolovning var juridiskt bindande — att bryta den krävde formell skilsmässa. Maria bodde fortfarande hos sin far; bröllopet hade ännu inte skett."
+              "keyword": "förlovad",
+              "content": "Trolovning i det antika Israel var inte som modern förlovning — det var ett juridiskt bindande avtal. Att bryta det krävde skilsmässa. En trolovad kvinna som blev gravid med någon annan riskerade allvarliga konsekvenser: social utstötning, skilsmässa eller i värsta fall döden."
             }
           ],
           "isPoetry": false,
@@ -355,23 +322,37 @@
         },
         {
           "number": "28",
-          "text": "Ängeln kom till henne och sa: \"Var hälsad, benådade! Herren är med dig.\"",
-          "footnotes": [],
+          "text": "Ängeln sa till henne: \"Var hälsad, du som har fått nåd. Gud är med dig.\"",
+          "footnotes": [
+            {
+              "ref": "1:28",
+              "category": "text",
+              "keyword": "du som har fått nåd",
+              "content": "Grekiskans kecharitōmenē (κεχαριτωμένη) — perfekt particip passivum: \"du som redan har blivit benådad\". Katolsk tradition: \"full av nåd\". Protestantisk tradition: \"högt benådad\". Bådadera fångar aspekter. Grundbetydelsen: Gud har redan handlat i Marias liv innan hon vet om det."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "29",
-          "text": "Orden skakade henne. Hon undrade vad den här hälsningen kunde betyda.",
-          "footnotes": [],
+          "text": "Orden skakade henne. <span class=\"amplification\">Vad betydde de?</span><span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:29",
+              "category": "text",
+              "keyword": "Orden skakade henne",
+              "content": "Grekiskans dietarachthē (διεταράχθη) — starkare än \"oroades\". Prefixet dia- förstärker: djup inre turbulens. Maria reagerar inte med rädsla (som Sakarias) utan med förvirring — vad betyder den här hälsningen?"
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "30",
-          "text": "Ängeln sa: \"Var inte rädd, Maria. <span class=\"amplification\">Gud har utvalt dig.</span>",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -379,7 +360,7 @@
         },
         {
           "number": "31",
-          "text": "Du kommer att bli gravid och föda en son. Kalla honom Jesus.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -387,22 +368,15 @@
         },
         {
           "number": "32",
-          "text": "Han kommer att vara stor. Man kommer att kalla honom den Högstes Son. Gud, Herren, kommer att ge honom hans förfader Davids tron.",
-          "footnotes": [
-            {
-              "ref": "1,32-33",
-              "category": "kontext",
-              "keyword": "Davids tron",
-              "content": "Davidslöftet (2 Sam 7,12-16) formade judisk messiasförväntan. Gud hade lovat David en evig tron — men kungariket hade för länge sedan fallit."
-            }
-          ],
+          "text": "",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "33",
-          "text": "Han kommer att regera över <span class=\"amplification\">Israel</span> för evigt. Hans rike kommer aldrig att ta slut.\"",
+          "text": "och han ska härska över Jakobs hus för evigt. Hans rike ska aldrig ta slut.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -410,7 +384,7 @@
         },
         {
           "number": "34",
-          "text": "Maria frågade: \"Hur ska det kunna ske? Jag har aldrig legat med en man.\"",
+          "text": "\"Hur ska det gå till?\" sa Maria. \"Jag har aldrig varit med en man.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -418,22 +392,15 @@
         },
         {
           "number": "35",
-          "text": "Ängeln svarade: \"Den helige Ande kommer att komma över dig. Den Högstes kraft kommer att överskugga dig<span class=\"amplification\">— precis som molnet en gång fyllde helgedomen</span>. Därför kommer <span class=\"amplification\">man att kalla barnet du föder</span> heligt: Guds Son.",
-          "footnotes": [
-            {
-              "ref": "1,34-35",
-              "category": "otroligt",
-              "keyword": "Jungfrufödsel",
-              "content": "Föreställningen om befruktning utan en man är svår att tro för moderna läsare. Texten hävdar inte biologisk partenogenes, utan gudomligt handlande: Guds Ande åstadkommer det som är naturligt omöjligt. Somliga förstår detta symboliskt — som uttryck för Jesu unika relation till Gud. Andra, som de historiska kyrkorna, förstår det bokstavligt som ett under. Det grekiska ἐπισκιάζω (\"överskugga\") påminner om molnet som fyllde helgedomen (2 Mos 40,35) — Maria blir platsen för Guds närvaro."
-            }
-          ],
+          "text": "",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "36",
-          "text": "<span class=\"amplification\">Förresten —</span> din släkting Elisabet är också gravid, hon som kallades ofruktsam. Hon är <span class=\"amplification\">redan</span> i sjätte månaden.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -441,28 +408,21 @@
         },
         {
           "number": "37",
-          "text": "<span class=\"amplification\">För</span> Gud är ingenting omöjligt.\"<span class=\"paragraph-break\"></span>",
-          "footnotes": [
-            {
-              "ref": "1,37",
-              "category": "kontext",
-              "keyword": "Ingenting omöjligt",
-              "content": "Eko av 1 Mos 18,14, där Gud lovar den gamla Sara en son."
-            }
-          ],
+          "text": "För Gud är ingenting omöjligt.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "38",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Maria visste vad det betydde. Gravid före bröllopet — det var inte pinsamt. Det var farligt. Josef kunde förskjuta henne. Lagen tillät värre. Hennes rykte, hennes framtid, hennes familjs heder — allt stod på spel. Och barnet? Det skulle betraktas som oäkta, hela sitt liv.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Och</span> hon sa: \"Jag tillhör Herren. Vad du har sagt — låt det ske.\"<span class=\"paragraph-break\"></span>Sedan gick ängeln<span class=\"amplification\">från henne</span>.",
+          "text": "Maria sa: \"Jag tillhör Gud. Låt det ske med mig som du har sagt.\" Och ängeln lämnade henne.",
           "footnotes": [
             {
-              "ref": "1,38",
-              "category": "kultur",
-              "keyword": "Risken",
-              "content": "En trolovad som blev gravid riskerade offentlig skam. 5 Mos 22,23-24 föreskrev stening för en trolovads otrohet. Marias ja var mod, inte from reflex."
+              "ref": "1:38",
+              "category": "leben",
+              "keyword": "Jag tillhör Herren",
+              "content": "Grekiskans doulē kyriou (δούλη κυρίου) — bokstavligen \"Herrens slavinna\". Maria väljer att tillhöra. Det är inte passivt underkastelse utan aktivt samtycke — ett ja som kostar allt. Vad innebär det att säga ja till något som kommer att kosta dig allt du har?"
             }
           ],
           "isPoetry": false,
@@ -476,7 +436,7 @@
       "verses": [
         {
           "number": "39",
-          "text": "<span class=\"paragraph-break\"></span>Maria gav sig iväg. <span class=\"amplification\">Genast.</span> Hon skyndade sig <span class=\"amplification\">— flera dagars resa</span> genom bergstrakterna<span class=\"amplification\">, ensam,</span> till en stad i Judeen.",
+          "text": "<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -484,7 +444,7 @@
         },
         {
           "number": "40",
-          "text": "Hon gick in i Sakarias hus och hälsade på Elisabet.",
+          "text": "och gick in i Sakarias hus.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -492,13 +452,21 @@
         },
         {
           "number": "41",
-          "text": "<span class=\"amplification\">Det som sedan hände var mer än ett återseende.</span> När Elisabet hörde Marias röst, spratt barnet till i hennes mage. Den helige Ande fyllde Elisabet.",
+          "text": "",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "42",
+          "text": "och hon ropade högt:<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,41",
-              "category": "otroligt",
-              "keyword": "Barnet spratt till",
-              "content": "Kan ett ofött barn reagera profetiskt? Texten använder samma ord som om Jakob och Esau i Rebeckas liv (1 Mos 25,22). Lukas presenterar detta som mer än vanlig sparkning — som igenkännande före födseln. Skeptiker ser här litterär utsmyckning; troende ser Guds Ande som redan verkar i moderlivet."
+              "ref": "1:42",
+              "category": "kontext",
+              "keyword": "ropade högt",
+              "content": "Grekiskans anephōnēsen kraugē megalē — profetiskt utrop, inte artigt samtal. \"Välsignad bland kvinnor\" ekar Jaels välsignelse (Dom 5:24) och Judits (Judit 13:18). Elisabet placerar Maria bland Israels heroiska kvinnor."
             }
           ],
           "isPoetry": false,
@@ -506,16 +474,8 @@
           "lines": []
         },
         {
-          "number": "42",
-          "text": "Hon ropade högt<span class=\"amplification\">— som en profetissa</span>:<span class=\"paragraph-break\"></span>\"Välsignad är du<span class=\"amplification\">, mer än alla andra kvinnor</span>! Välsignat är <span class=\"amplification\">barnet i</span> ditt liv!",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
           "number": "43",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Men hur kan det komma sig att</span> min Herres mor kommer till mig? <span class=\"amplification\">Jag — till mig?</span>",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -523,7 +483,7 @@
         },
         {
           "number": "44",
-          "text": "När din röst nådde mitt öra, hoppade mitt barn av glädje!",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -531,15 +491,8 @@
         },
         {
           "number": "45",
-          "text": "<span class=\"amplification\">Du trodde. Därför</span> är du välsignad. Det som <span class=\"amplification\">Gud</span> har <span class=\"amplification\">lovat</span> dig kommer att gå i uppfyllelse.\"",
-          "footnotes": [
-            {
-              "ref": "1,45",
-              "category": "kontext",
-              "keyword": "Du trodde",
-              "content": "Elisabet prisar Maria för hennes tro — i motsats till Sakarias, som tvivlade."
-            }
-          ],
+          "text": "Lycklig är hon som trodde. För det som Gud lovade henne ska bli verklighet.\"",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -547,192 +500,125 @@
       ]
     },
     {
-      "heading": "Vad Gud gör — Magnificat",
+      "heading": "Marias sång",
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>Maria sa:<span class=\"poetry-line-1\">Allt i mig — allt! — firar Gud.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Allt i mig firar Gud. <span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,46-55",
+              "ref": "1:46",
               "category": "kontext",
-              "keyword": "Magnificat",
-              "content": "Marias lovsång följer mönstret från Hannas sång (1 Sam 2,1-10). Båda kvinnorna prisar Gud för att han vänder på förhållandena."
+              "keyword": "Marias sång (Magnificat)",
+              "content": "Sången ekar Hannas bön (1 Sam 2:1-10) — en annan kvinna vars barn förändrade historien. Men Marias version är politiskt skarpare. Under romersk ockupation är \"makthavare från deras troner\" inte metafor utan revolution. Sången har sjungits dagligen i kyrkans aftonbön i snart 2 000 år och finns i Svenska psalmboken."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 0,
-          "lines": [
-            {
-              "text": "Allt i mig — allt! — firar Gud.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 1,
+          "lines": []
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Min ande jublar över min räddare.</span>",
+          "text": "Min ande jublar <span class=\"poetry-line-2\">över Gud som räddar mig.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Min ande jublar över min räddare.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Han såg mig.</span><span class=\"poetry-line-2\">Mig, den lilla.</span><span class=\"poetry-line-2\">Den obetydliga.</span><span class=\"poetry-line-1\">Från och med nu kommer alla generationer att säga: Hon är välsignad.</span>",
-          "footnotes": [],
+          "text": "Han såg mig. <span class=\"poetry-line-1\">Han lade märke till mig —</span><span class=\"poetry-line-2\"><span class=\"amplification\">den lilla, den obetydliga</span>.</span><span class=\"poetry-line-1\">Från och med nu ska alla säga:</span><span class=\"poetry-line-2\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:48",
+              "category": "text",
+              "keyword": "den lilla, den obetydliga",
+              "content": "Grekiskans tapeinōsin (ταπείνωσιν) — inte \"ödmjukhet\" som andlig dygd utan social position: Maria namnger sin faktiska maktlöshet. Hon är liten, obetydlig, en bondflicka i en ockuperad koloni. Det gör hennes anspråk desto mer remarkabelt."
+            },
+            {
+              "ref": "1:48",
+              "category": "leben",
+              "keyword": "Han såg mig",
+              "content": "Att bli sedd — verkligt sedd — av någon som har makt att förändra ens situation. Maria namnger det som många längtar efter: att inte vara osynlig. Att det man bär på betyder något. Magnificat börjar inte med teologi utan med en erfarenhet: Gud lade märke till mig. Den erfarenheten — att vara sedd bortom sin sociala roll — kan förändra hur en människa ser sig själv."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han såg mig.",
-              "level": 1
-            },
-            {
-              "text": "Mig, den lilla.",
-              "level": 2
-            },
-            {
-              "text": "Den obetydliga.",
-              "level": 2
-            },
-            {
-              "text": "Från och med nu kommer alla generationer att säga: Hon är välsignad.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">För den Mäktige har gjort stora ting för mig.</span><span class=\"poetry-line-2\">Heligt är hans namn.</span>",
+          "text": "Hon blev rikt begåvad. <span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Den Mäktige har gjort stora ting med mig.</span><span class=\"poetry-line-1\">Heligt är hans namn.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "För den Mäktige har gjort stora ting för mig.",
-              "level": 1
-            },
-            {
-              "text": "Heligt är hans namn.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Hans godhet gäller dem som tar honom på allvar —</span><span class=\"poetry-line-2\">från generation till generation.</span>",
+          "text": "Hans godhet räcker genom alla tider, <span class=\"poetry-line-2\">till dem som lever i vördnad för honom.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Hans godhet gäller dem som tar honom på allvar —",
-              "level": 1
-            },
-            {
-              "text": "från generation till generation.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Stark är hans arm.</span><span class=\"poetry-line-1\">De högmodiga? Skingrade<span class=\"amplification\">, med alla sina stora planer</span>.</span>",
+          "text": "Han visade sin arms styrka. <span class=\"poetry-line-1\">De som trodde sig stora skingrade han.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Stark är hans arm.",
-              "level": 1
-            },
-            {
-              "text": "De högmodiga? Skingrade<span class=\"amplification\">, med alla sina stora planer</span>.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Härskare? Störtade från tronen.</span><span class=\"poetry-line-1\">De små? Upphöjda.</span>",
+          "text": "Makthavare störtade han från deras troner <span class=\"poetry-line-2\">och lyfte upp de maktlösa.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Härskare? Störtade från tronen.",
-              "level": 1
-            },
-            {
-              "text": "De små? Upphöjda.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">De hungriga? Mättade med allt gott.</span><span class=\"poetry-line-1\">De rika? Bortskickade. Med tomma händer.</span>",
-          "footnotes": [],
+          "text": "Hungriga mättade han med gott. <span class=\"poetry-line-1\">Rika skickade han tomhänta ifrån sig.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:51-53",
+              "category": "kultur",
+              "keyword": "de stora omvälvningarna",
+              "content": "Dessa verser är den mest politiskt laddade poesin i Nya testamentet. Grekiskans aoristformer (skingrade, störtade, mättade) beskriver vad Gud karakteristiskt gör — inte bara vad han har gjort. Under romersk ockupation, med extrem ojämlikhet i Galileen, hörde fattiga bönder sin egen situation beskrivas. De hungriga är bokstavligen hungriga. De rika är bokstavligen rika."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "De hungriga? Mättade med allt gott.",
-              "level": 1
-            },
-            {
-              "text": "De rika? Bortskickade. Med tomma händer.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Han har hjälpt Israel, sin tjänare.</span><span class=\"poetry-line-2\">Han har kommit ihåg sin godhet —</span>",
+          "text": "Han tog sig an Israel, sitt folk, <span class=\"poetry-line-2\">trogen den godhet han lovat —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han har hjälpt Israel, sin tjänare.",
-              "level": 1
-            },
-            {
-              "text": "Han har kommit ihåg sin godhet —",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">som han lovade våra förfäder:</span><span class=\"poetry-line-2\">Abraham och hans ättlingar.</span><span class=\"poetry-line-2\">För evigt.</span><span class=\"paragraph-break\"></span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "så som han sa till våra förfäder, <span class=\"poetry-line-2\">till Abraham och hans barn, för alltid. </span><span class=\"paragraph-break\"></span>",
+          "footnotes": [
             {
-              "text": "som han lovade våra förfäder:",
-              "level": 1
-            },
-            {
-              "text": "Abraham och hans ättlingar.",
-              "level": 2
-            },
-            {
-              "text": "För evigt.",
-              "level": 2
+              "ref": "1:55",
+              "category": "kontext",
+              "keyword": "Abraham och hans barn",
+              "content": "Allt Gud gör i Magnificat grundas i förbundet med Abraham (1 Mos 12:1-3; 15:1-6; 17:1-8). Guds handlande nu är inte nytt utan uppfyllelse av ett urgammalt löfte. Maria knyter sin personliga erfarenhet till hela frälsningshistorien."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "56",
-          "text": "<span class=\"paragraph-break\"></span>Maria stannade hos Elisabet i ungefär tre månader. Sedan återvände hon hem.",
+          "text": "Maria stannade hos Elisabet i ungefär tre månader. Sedan reste hon hem.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -745,7 +631,7 @@
       "verses": [
         {
           "number": "57",
-          "text": "<span class=\"paragraph-break\"></span>För Elisabet kom tiden. Hon födde en son.",
+          "text": "<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -753,7 +639,7 @@
         },
         {
           "number": "58",
-          "text": "Grannarna och släktingarna hörde <span class=\"amplification\">vad som hade hänt:</span> Herren hade visat henne stor barmhärtighet. De gladde sig med henne.<span class=\"paragraph-break\"></span>",
+          "text": "När grannarna och släktingarna fick höra att Gud hade visat henne <span class=\"amplification\">stor</span> godhet kom de för att dela hennes glädje.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -761,15 +647,22 @@
         },
         {
           "number": "59",
-          "text": "<span class=\"paragraph-break\"></span>På åttonde dagen kom de för omskärelsen<span class=\"amplification\">— det urgamla förbundstecknet, då barnet fick sitt namn</span>. De ville kalla honom Sakarias, efter fadern.",
-          "footnotes": [],
+          "text": "På åttonde dagen var det omskärelse — <span class=\"amplification\">barnet skulle tas in i Guds förbund</span> — och de ville ge honom faderns namn: Sakarias.",
+          "footnotes": [
+            {
+              "ref": "1:59",
+              "category": "kultur",
+              "keyword": "omskärelse på åttonde dagen",
+              "content": "Omskärelsen var inte bara en ritual — det var barnets formella inträde i Israels förbund med Gud (1 Mos 17:12). Samma dag fick barnet sitt namn. Det var en offentlig högtid med familj och grannar."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "60",
-          "text": "Men modern sa: \"Nej. Han heter Johannes.\"",
+          "text": "Men Elisabet sa: \"Nej. Johannes ska han heta.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -777,7 +670,7 @@
         },
         {
           "number": "61",
-          "text": "De invände: \"Ingen i er familj heter så!\" <span class=\"amplification\">Att uppkalla ett barn efter en främling? Det gjorde man inte.</span><span class=\"paragraph-break\"></span>",
+          "text": "\"Johannes?\" <span class=\"amplification\">De skakade på huvudet.</span> \"Ingen i familjen heter så.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -785,7 +678,7 @@
         },
         {
           "number": "62",
-          "text": "<span class=\"paragraph-break\"></span>De frågade fadern med tecken<span class=\"amplification\">— de trodde kanske att han hade blivit döv också</span>. Vad skulle barnet heta?",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -793,21 +686,13 @@
         },
         {
           "number": "63",
-          "text": "Han bad om en tavla och skrev: \"Johannes är hans namn.\"<span class=\"paragraph-break\"></span>Alla blev förvånade.<span class=\"paragraph-break\"></span>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "64",
-          "text": "<span class=\"paragraph-break\"></span>I samma ögonblick öppnades hans mun. Hans tunga löstes. Han talade — <span class=\"amplification\">och hans första ord efter nio månaders tystnad var</span> lovprisning av Gud.<span class=\"paragraph-break\"></span>",
+          "text": "Han bad om en skrivtavla. \"Johannes är hans namn.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,64",
-              "category": "otroligt",
-              "keyword": "Munnen öppnades",
-              "content": "Nio månaders stumhet — och sedan, i lydighetens ögonblick, omedelbart botande. Var det psykosomatiskt? Ett under? Texten presenterar det som direkt ingripande från Gud: Straffet upphör när Sakarias lyder ängeln. Hans första ord efter månader av tystnad är lovprisning."
+              "ref": "1:63",
+              "category": "text",
+              "keyword": "Johannes är hans namn",
+              "content": "Presensform — inte \"ska heta\" utan \"är hans namn\". En deklaration, inte ett förslag. Sakarias bekräftar vad ängeln sa (1:13) och vad Elisabet redan insisterat på. Namnets betydelse: \"Gud har visat nåd\"."
             }
           ],
           "isPoetry": false,
@@ -815,8 +700,16 @@
           "lines": []
         },
         {
+          "number": "64",
+          "text": "Och i den stunden öppnades hans mun. Det första Sakarias sa <span class=\"amplification\">efter nio månaders tystnad</span> var en lovsång till Gud.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
           "number": "65",
-          "text": "<span class=\"paragraph-break\"></span>Vördnad grep alla grannar. I hela Judeens bergstrakt talade man om det.",
+          "text": "",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -824,7 +717,7 @@
         },
         {
           "number": "66",
-          "text": "Alla som hörde det bevarade det i sina hjärtan<span class=\"amplification\">:</span> \"Vad ska det bli av det här barnet?\" För Herrens hand var synligt över honom.",
+          "text": "Alla som hörde det bar på samma fråga: \"Vad ska det bli av det här barnet?\" Guds hand vilade över honom.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -833,283 +726,175 @@
       ]
     },
     {
-      "heading": "Vad Sakarias såg — Benedictus",
+      "heading": "Sakarias profetia",
       "verses": [
         {
           "number": "67",
-          "text": "<span class=\"paragraph-break\"></span>Sakarias, hans far, fylldes av den helige Ande. Han började profetera:",
+          "text": "<span class=\"paragraph-break\"></span>Sakarias fylldes av helig ande. Han profeterade: <span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,67-79",
+              "ref": "1:67",
               "category": "kontext",
-              "keyword": "Benedictus",
-              "content": "Benedictus har två delar: lovprisning för Guds frälsning av Israel (68-75) och profetia om Johannes uppdrag (76-79)."
+              "keyword": "Sakarias profeterade",
+              "content": "Benedictus (latin: \"Välsignad\") följer den judiska berakah-formen — en välsignelsebön som fortfarande används i synagogor. Zecharya öppnar med den traditionella formeln och fyller den med nytt innehåll: Guds löften till Israel håller på att uppfyllas."
             }
           ],
-          "isPoetry": false,
-          "poetryLevel": 0,
+          "isPoetry": true,
+          "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">Lovad vare Herren, Israels Gud!</span><span class=\"poetry-line-1\">Han har besökt sitt folk. Han har befriat det.</span>",
+          "text": "Välsignad vare Israels Gud. <span class=\"poetry-line-1\">Han har sett till sitt folk.</span><span class=\"poetry-line-1\">Han har befriat dem.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Lovad vare Herren, Israels Gud!",
-              "level": 1
-            },
-            {
-              "text": "Han har besökt sitt folk. Han har befriat det.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Han har gett oss en stark räddare —</span><span class=\"poetry-line-2\">från Davids hus, hans tjänare.</span>",
+          "text": "En kraft som räddar <span class=\"poetry-line-2\">har han rest i <span class=\"amplification\">sin tjänare</span> Davids hus —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,69",
+              "ref": "1:69",
               "category": "text",
-              "keyword": "Stark räddare (κέρας σωτηρίας)",
-              "content": "Ordagrant \"frälsningens horn\" — en bild av styrka och makt (Ps 18,3)."
+              "keyword": "en kraft som räddar",
+              "content": "Grekiskans keras sōtērias (κέρας σωτηρίας) — bokstavligen \"frälsningens horn\". Hornet var en symbol för kungamakt (smörjelsehornet vid kröning). \"Frälsningens horn\" är en död metafor på svenska — \"en kraft som räddar\" bevarar innebörden: Gud reser en makt som befriar, ur Davids kungahus."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han har gett oss en stark räddare —",
-              "level": 1
-            },
-            {
-              "text": "från Davids hus, hans tjänare.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Så har han lovat det,</span><span class=\"poetry-line-2\">för länge sedan,</span><span class=\"poetry-line-2\">genom sina profeter:</span>",
+          "text": "precis som han lovat <span class=\"poetry-line-2\">genom sina heliga profeter,</span><span class=\"poetry-line-2\">för länge sedan:</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Så har han lovat det,",
-              "level": 1
-            },
-            {
-              "text": "för länge sedan,",
-              "level": 2
-            },
-            {
-              "text": "genom sina profeter:",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">Räddning från våra fiender.</span><span class=\"poetry-line-2\">Räddning från alla som hatar oss.</span>",
+          "text": "Räddning från våra fiender. <span class=\"poetry-line-1\">Räddning ur händerna på dem som hatar oss.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Räddning från våra fiender.",
-              "level": 1
-            },
-            {
-              "text": "Räddning från alla som hatar oss.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">Han har visat våra förfäder godhet.</span><span class=\"poetry-line-2\">Han har kommit ihåg sitt heliga förbund —</span>",
+          "text": "Han var trogen sina löften till våra förfäder. <span class=\"poetry-line-1\">Han mindes sitt förbund,</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han har visat våra förfäder godhet.",
-              "level": 1
-            },
-            {
-              "text": "Han har kommit ihåg sitt heliga förbund —",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">eden som han svor Abraham, vår far:</span>",
+          "text": "den ed han svor till vår far Abraham: <span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "eden som han svor Abraham, vår far:",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-1\">Befriade från våra fiender</span><span class=\"poetry-line-2\">kan vi tjäna honom,</span>",
+          "text": "Att vi, befriade, <span class=\"poetry-line-2\">skulle få tjäna honom utan rädsla —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Befriade från våra fiender",
-              "level": 1
-            },
-            {
-              "text": "kan vi tjäna honom,",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">utan rädsla,</span><span class=\"poetry-line-2\">helgade och rättfärdiga inför honom,</span><span class=\"poetry-line-2\">hela vårt liv.</span>",
+          "text": "i helighet och rättfärdighet inför hans ansikte, <span class=\"poetry-line-2\">så länge vi lever.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "utan rädsla,",
-              "level": 1
-            },
-            {
-              "text": "helgade och rättfärdiga inför honom,",
-              "level": 2
-            },
-            {
-              "text": "hela vårt liv.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Och du, mitt barn —</span><span class=\"poetry-line-2\">den Högstes profet kommer du att kallas.</span><span class=\"poetry-line-1\">Du kommer att gå före Herren</span><span class=\"poetry-line-2\">och bereda vägen för honom.</span>",
+          "text": "Och du, <span class=\"amplification\">mitt</span> barn — <span class=\"poetry-line-1\">du ska kallas den Högstes profet.</span><span class=\"poetry-line-1\">Du ska gå före Gud</span><span class=\"poetry-line-2\">och bana väg för honom.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Och du, mitt barn —",
-              "level": 1
-            },
-            {
-              "text": "den Högstes profet kommer du att kallas.",
-              "level": 2
-            },
-            {
-              "text": "Du kommer att gå före Herren",
-              "level": 1
-            },
-            {
-              "text": "och bereda vägen för honom.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Du kommer att visa hans folk vad räddning betyder:</span><span class=\"poetry-line-2\">Förlåtelse för skuld.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "Du ska låta hans folk veta <span class=\"poetry-line-2\">att räddning finns i förlåten synd.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
             {
-              "text": "Du kommer att visa hans folk vad räddning betyder:",
-              "level": 1
-            },
-            {
-              "text": "Förlåtelse för skuld.",
-              "level": 2
+              "ref": "1:77",
+              "category": "text",
+              "keyword": "räddning finns i förlåten synd",
+              "content": "Sakarias knyter samman befrielse (politisk) och förlåtelse (andlig) utan att välja mellan dem. I profetisk tradition hör de ihop: Guds räddning är både yttre och inre, både social och personlig."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">Allt detta sker</span> för att vår Gud är full av barmhärtighet.</span><span class=\"poetry-line-1\">Ljuset från höjden kommer att besöka oss,</span>",
+          "text": "<span class=\"amplification\">Allt detta —</span> <span class=\"poetry-line-1\">ur Guds innersta medkänsla.</span><span class=\"poetry-line-1\">Genom den ska en gryning från höjden</span><span class=\"poetry-line-2\">nå oss,</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,78",
+              "ref": "1:78",
               "category": "text",
-              "keyword": "Full av barmhärtighet (σπλάγχνα ἐλέους)",
-              "content": "Ordagrant \"barmhärtighetens inälvor\". Antiken placerade djupa känslor i magen, inte i hjärtat. Det betyder: djup, kroppsligt känd kärlek."
+              "keyword": "Guds innersta medkänsla",
+              "content": "Grekiskans splanchna eleous (σπλάγχνα ἐλέους) — bokstavligen \"barmhärtighetens inälvor\". Guds medkänsla lokaliseras i kroppen, i magen, i det djupaste fysiska inre. Inte sentimentalt medlidande utan visceral, kroppslig solidaritet."
             },
             {
-              "ref": "1,78",
-              "category": "text",
-              "keyword": "Ljuset från höjden (ἀνατολή)",
-              "content": "Kan betyda \"uppgång\" (soluppgång) eller \"skott\" (messiansk titel)."
+              "ref": "1:78",
+              "category": "kontext",
+              "keyword": "en gryning från höjden",
+              "content": "Grekiskans anatolē (ἀνατολή) har dubbel betydelse: \"soluppgång\" och \"telning/skott\" (jfr Sak 3:8; 6:12 om den messianske grenen). Bilden rymmer bådadera: ett ljus som gryr och ett nytt skott som spirar. Psalmen slutar i ljus, inte mörker."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "<span class=\"amplification\">Allt detta sker</span> för att vår Gud är full av barmhärtighet.",
-              "level": 1
-            },
-            {
-              "text": "Ljuset från höjden kommer att besöka oss,",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">för att lysa för alla</span><span class=\"poetry-line-2\">som sitter i mörker,</span><span class=\"poetry-line-2\">i dödens skugga —</span><span class=\"poetry-line-1\">och leda våra steg på fridens väg.</span>",
+          "text": "lysa över dem som sitter i mörker <span class=\"poetry-line-2\">och dödens skugga,</span><span class=\"poetry-line-1\">och föra våra fötter</span><span class=\"poetry-line-2\">in på fredens väg.</span>",
           "footnotes": [
             {
-              "ref": "1,79",
+              "ref": "1:79",
               "category": "kontext",
-              "keyword": "I mörker, i dödens skugga",
-              "content": "Anspelning på Jes 9,1 — ljus för det förtryckta folket."
+              "keyword": "mörker och dödens skugga",
+              "content": "Ekar Ps 23:4 — \"Även om jag vandrar i dödsskuggans dal\". Bilden av människor som sitter i mörker sammanbinder personligt lidande med politiskt förtryck. Under romersk ockupation var metaforen konkret."
+            },
+            {
+              "ref": "1:78-79",
+              "category": "leben",
+              "keyword": "lysa över dem som sitter i mörker",
+              "content": "Sakarias sjunger om ljus för dem som sitter i mörker — efter att själv ha tillbringat nio månader i tystnad. Bilden är inte abstrakt: mörker och dödens skugga kan vara depression, sorg, meningslöshet, eller en värld som känns hotfull. Att psalmen slutar med \"fredens väg\" — inte med triumf eller förklaring — har gjort den till morgonbön i kyrkan sedan 300-talet. Inte som svar på varför mörkret finns, utan som riktning genom det."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "för att lysa för alla",
-              "level": 1
-            },
-            {
-              "text": "som sitter i mörker,",
-              "level": 2
-            },
-            {
-              "text": "i dödens skugga —",
-              "level": 2
-            },
-            {
-              "text": "och leda våra steg på fridens väg.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         }
       ]
     },
     {
-      "heading": "Att växa upp i öknen",
+      "heading": "Barnet i ödemarken",
       "verses": [
         {
           "number": "80",
-          "text": "<span class=\"paragraph-break\"></span>Barnet växte upp. Han blev stark i anden. Han levde i öknen<span class=\"amplification\">— långt borta från allt</span> — till den dag då han trädde fram inför Israel.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>Barnet växte upp och blev starkt i anden. Han levde i ödemarken tills den dag han trädde fram inför Israel.",
+          "footnotes": [
+            {
+              "ref": "1:80",
+              "category": "kontext",
+              "keyword": "i ödemarken",
+              "content": "Öknen var i judisk tradition den plats där Gud formade profeter: Mose, Elia, Israel självt. Ödemarken rensade bort allt oväsentligt. Johannes följer samma mönster — formad utanför det etablerade samhällets strukturer."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []

@@ -48,10 +48,11 @@ export function getLangFromUrl(url: URL): Lang {
   return defaultLang;
 }
 
-export function useTranslations(lang: Lang) {
+export function useTranslations(lang: string) {
+  const safeLang = (lang in translations ? lang : defaultLang) as Lang;
   return function t(key: string): string {
     const keys = key.split(".");
-    let result: unknown = translations[lang];
+    let result: unknown = translations[safeLang];
 
     for (const k of keys) {
       if (result && typeof result === "object" && k in result) {
@@ -74,7 +75,7 @@ export function useTranslations(lang: Lang) {
   };
 }
 
-export function getLocalizedPath(path: string, lang: Lang): string {
+export function getLocalizedPath(path: string, lang: string): string {
   // Remove any existing language prefix
   const cleanPath = path.replace(/^\/(en|de|fr|pl|tr|da|es|it|pt|sv|uk)/, "");
   return `/${lang}${cleanPath || "/"}`;

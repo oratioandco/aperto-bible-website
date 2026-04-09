@@ -8,19 +8,13 @@
       "verses": [
         {
           "number": "1",
-          "text": "Beaucoup ont déjà tenté de raconter ce qui s'est passé parmi nous.",
+          "text": "<span class=\"paragraph-break\"></span>Puisque beaucoup ont entrepris de composer un récit des événements <span class=\"amplification\">que Dieu a accomplis</span> parmi nous —",
           "footnotes": [
             {
-              "ref": "1,1-4",
-              "category": "text",
-              "keyword": "La méthode de Luc",
-              "content": "Luc écrit en historien de son époque : il rassemble les témoignages, vérifie ses sources, ordonne son récit. C'était le standard de l'historiographie grecque."
-            },
-            {
-              "ref": "1,1-4",
-              "category": "apologetics",
-              "keyword": "soigneusement enquêté",
-              "content": "Luc met l'accent sur sa méthodologie : témoins interrogés, sources vérifiées, présentation ordonnée. Cela correspond à l'historiographie antique (cf. Thucydide). Les plus de 5 800 manuscrits grecs du NT dépassent largement toute autre source antique (Homère : ~1 900). Les méthodes de critique textuelle montrent une fidélité de transmission élevée. L'affirmation de fiabilité historique de Luc repose sur des bases méthodiques solides."
+              "ref": "1:1",
+              "category": "kultur",
+              "keyword": "Récit",
+              "content": "Luc utilise ici les conventions du prologue historiographique grec — le même genre littéraire que Thucydide ou Hérodote. Il se présente comme un historien rigoureux, pas comme un croyant naïf. La forme rhétorique (une seule phrase périodique, des subordonnées emboîtées) est un signal : cet auteur maîtrise les codes de l'élite intellectuelle gréco-romaine."
             }
           ],
           "isPoetry": false,
@@ -29,7 +23,7 @@
         },
         {
           "number": "2",
-          "text": "Ils se sont appuyés sur ce que les témoins oculaires nous ont transmis — ceux qui étaient là depuis le début et qui sont devenus serviteurs de cette parole.",
+          "text": "tels que nous les ont transmis ceux qui, depuis le début, en ont été les témoins directs et sont devenus serviteurs de cette parole —",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -37,13 +31,13 @@
         },
         {
           "number": "3",
-          "text": "J'ai décidé, moi aussi, de tout reprendre depuis l'origine. Avec soin. <span class=\"amplification\">Méthodiquement.</span> Pour toi, très cher Théophile —",
+          "text": "il m'a semblé bon, à moi aussi, après avoir tout examiné de près depuis l'origine, de te les écrire dans leur ordre —",
           "footnotes": [
             {
-              "ref": "1,3",
+              "ref": "1:3",
               "category": "text",
-              "keyword": "Théophile (Θεόφιλος)",
-              "content": "En grec, « celui qui aime Dieu ». Le titre κράτιστε s'adressait aux fonctionnaires romains et aux personnes de rang."
+              "keyword": "Dans leur ordre",
+              "content": "Le mot grec (καθεξῆς) désigne un arrangement thématique, pas nécessairement chronologique. Luc organise son récit par thèmes et sens, pas comme une simple timeline. Le mot ἀκριβῶς (« avec précision ») renforce la prétention méthodologique : il a enquêté, recoupé, vérifié."
             }
           ],
           "isPoetry": false,
@@ -52,13 +46,25 @@
         },
         {
           "number": "4",
-          "text": "afin que tu saches : ce qu'on t'a enseigné repose sur du solide.",
+          "text": "cher Théophile, pour que tu mesures la solidité de ce qu'on t'a enseigné.",
           "footnotes": [
             {
-              "ref": "1,4",
+              "ref": "1:4",
+              "category": "kultur",
+              "keyword": "Théophile",
+              "content": "Le nom signifie « celui qui aime Dieu ». L'adresse honorifique (κράτιστε, « très honoré ») suggère un patron qui a financé la production du texte — une pratique courante dans le monde gréco-romain. Mais le nom peut aussi être symbolique : chaque lecteur « qui aime Dieu » est invité à s'identifier."
+            },
+            {
+              "ref": "1:1-4",
+              "category": "apologetics",
+              "keyword": "entrepris de composer",
+              "content": "Luc revendique une méthode d'investigation historique : témoins directs consultés, sources recoupées, récit structuré. Les plus de 5 800 manuscrits grecs du Nouveau Testament dépassent de loin toute autre œuvre antique (Homère : environ 1 900). L'analyse textuelle critique montre une transmission d'une fiabilité remarquable."
+            },
+            {
+              "ref": "1:4",
               "category": "text",
-              "keyword": "Du solide (ἀσφάλεια)",
-              "content": "Certitude, fiabilité. Luc veut permettre une confiance fondée."
+              "keyword": "la solidité",
+              "content": "Grec ἀσφάλεια — non pas « certitude » au sens d'une preuve qui ferme la discussion, mais « solidité », un socle sur lequel on peut se tenir. Luc ne promet pas une démonstration intellectuelle. Il promet un terrain ferme."
             }
           ],
           "isPoetry": false,
@@ -68,29 +74,29 @@
       ]
     },
     {
-      "heading": "Un vieux prêtre et une promesse impossible",
+      "heading": "L'annonce de la naissance de Jean",
       "verses": [
         {
           "number": "5",
-          "text": "<span class=\"paragraph-break\"></span>À l'époque d'Hérode, roi de Judée, vivait un prêtre nommé Zacharie. Il appartenait à la classe d'Abia<span class=\"amplification\">— l'un des vingt-quatre groupes qui assuraient le service au Temple à tour de rôle</span>. Sa femme, Élisabeth, descendait d'Aaron<span class=\"amplification\">. Un couple de prêtres, donc, tous deux issus des meilleures familles, tous deux bénis de Dieu — du moins, c'est ce qu'on aurait dû penser</span>.",
+          "text": "<span class=\"paragraph-break\"></span>À l'époque d'Hérode, le roi que Rome avait installé en Judée, il y avait un prêtre du nom de Zacharie, de la classe sacerdotale d'Abiya. Sa femme s'appelait Élisabeth. Elle aussi descendait d'Aaron<span class=\"amplification\">— un couple de prêtres, des deux côtés, de bonnes familles toutes les deux</span>.",
           "footnotes": [
             {
-              "ref": "1,5",
-              "category": "kontext",
+              "ref": "1:5",
+              "category": "kultur",
               "keyword": "Hérode",
-              "content": "Hérode le Grand (37-4 av. J.-C.), roi installé par Rome. Célèbre pour ses constructions monumentales et sa brutalité."
+              "content": "Hérode le Grand, roi de 37 à 4 av. J.-C., installé par Rome. Sous son règne, le Temple de Jérusalem (qu'il avait massivement agrandi) et le sacerdoce étaient sous pression politique. Un roi client, brutal et paranoïaque."
             },
             {
-              "ref": "1,5",
-              "category": "kultur",
-              "keyword": "Classe d'Abia",
-              "content": "L'une des vingt-quatre divisions sacerdotales qui assuraient le service au Temple à tour de rôle (1 Ch 24,10). Système organisé depuis l'époque de David."
+              "ref": "1:5",
+              "category": "apologetics",
+              "keyword": "Hérode... classe d'Abiya",
+              "content": "Les détails historiques de Luc sont vérifiables : Hérode le Grand est attesté par Flavius Josèphe (Antiquités judaïques 14-17), les 24 classes sacerdotales par 1 Chroniques 24. La mention de la classe d'Abiya (la huitième) est un détail que personne n'inventerait — c'est le type de précision qui trahit une source fiable. Richard Bauckham (Jesus and the Eyewitnesses, 2006) montre que les noms propres dans les Évangiles correspondent aux fréquences onomastiques palestiniennes du Ier siècle."
             },
             {
-              "ref": "1,5",
+              "ref": "1:5",
               "category": "kultur",
-              "keyword": "Famille d'Aaron",
-              "content": "Tous deux issus de familles sacerdotales — l'élite religieuse. Si jamais une famille méritait la bénédiction divine, c'était celle-ci."
+              "keyword": "classe d'Abiya",
+              "content": "Le sacerdoce de Jérusalem était divisé en 24 classes qui servaient à tour de rôle au Temple (cf. 1 Ch 24). La classe d'Abiya était la huitième. Chaque classe servait deux semaines par an."
             }
           ],
           "isPoetry": false,
@@ -99,7 +105,7 @@
         },
         {
           "number": "6",
-          "text": "<span class=\"amplification\">Et de fait :</span> ils vivaient de manière irréprochable<span class=\"amplification\">, observant chaque commandement</span>.",
+          "text": "Ils étaient justes devant Dieu, irréprochables. <span class=\"amplification\">Ils respectaient tous les commandements, toutes les règles, sans faute.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -107,27 +113,34 @@
         },
         {
           "number": "7",
-          "text": "<span class=\"amplification\">Mais ça ne se sentait pas comme ça.</span> Élisabeth était restée sans enfant. <span class=\"amplification\">Dans leur monde, la stérilité n'était pas un malheur privé. C'était une honte. C'était la question que personne ne posait à voix haute : Qu'ont-ils fait pour que Dieu les punisse ainsi ? Or ils n'avaient rien fait.</span> Et maintenant, tous deux étaient vieux.",
+          "text": "<span class=\"amplification\">Mais</span> ils n'avaient pas d'enfant. Élisabeth était stérile. <span class=\"amplification\">Pas d'enfant — dans leur monde, ça voulait dire la honte. La question que personne ne posait tout haut : qu'est-ce qu'ils ont fait pour que Dieu les punisse comme ça ? Ils n'avaient rien fait.</span> Et maintenant ils étaient vieux.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,7",
+              "ref": "1:7",
               "category": "kultur",
-              "keyword": "Sans enfant",
-              "content": "Dans la culture méditerranéenne de l'honneur et de la honte, la stérilité était perçue comme un signe de défaveur divine. L'anthropologue Bruce Malina décrit cette société où l'opinion publique déterminait la valeur d'une personne. Zacharie et Élisabeth subissaient une pression sociale constante."
+              "keyword": "stérile",
+              "content": "Dans la culture méditerranéenne du Ier siècle — une « culture d'honneur et de honte » (Bruce Malina, Jerome Neyrey) — la stérilité n'était pas un problème médical privé. C'était une disgrâce publique, une question muette : qu'ont-ils fait pour que Dieu les punisse ? Le texte souligne pourtant qu'Élisabeth et Zacharie étaient « justes devant Dieu »."
+            },
+            {
+              "ref": "1:7",
+              "category": "kontext",
+              "keyword": "stérile",
+              "content": "Le motif biblique de la femme stérile qui enfante par intervention divine est un classique : Sara (Gn 18), Rébecca (Gn 25:21), Rachel (Gn 30:22), la mère de Samson (Jg 13), Anne mère de Samuel (1 S 1-2). À chaque fois, la naissance impossible inaugure une nouvelle étape de l'histoire du salut."
+            },
+            {
+              "ref": "1:7",
+              "category": "leben",
+              "keyword": "stérile",
+              "content": "Vivre fidèlement sans voir de résultat — c'est l'expérience d'Élisabeth et Zacharie. Ils faisaient tout bien. Rien ne venait. Les traditions monastiques parlent de la « nuit obscure » (Jean de la Croix) : une période où la prière semble tomber dans le vide. La psychologie contemporaine confirme que traverser l'absence de réponse sans abandonner est une forme de résilience profonde. Mais le texte dit autre chose : Dieu n'avait pas oublié. Il préparait."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Au Temple",
-      "verses": [
+        },
         {
           "number": "8",
-          "text": "<span class=\"paragraph-break\"></span>Un jour, le groupe de Zacharie était de service. Il officiait devant Dieu.",
+          "text": "Un jour, c'était le tour de la classe d'Abiya pour le service au Temple.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -135,19 +148,13 @@
         },
         {
           "number": "9",
-          "text": "Le sort tomba sur lui : il devait offrir l'encens. <span class=\"amplification\">Ce privilège qu'un prêtre pouvait attendre toute sa vie. Certains ne l'obtenaient jamais.</span>",
+          "text": "Et le sort est tombé sur Zacharie — <span class=\"amplification\">c'est comme ça que Dieu choisissait</span> — pour entrer dans le sanctuaire et brûler l'encens. <span class=\"amplification\">L'occasion d'une vie entière. Un prêtre n'entrait là qu'une seule fois.</span>",
           "footnotes": [
             {
-              "ref": "1,9",
+              "ref": "1:9",
               "category": "kultur",
-              "keyword": "Le sort",
-              "content": "Le tirage au sort était un moyen de discerner la volonté divine (Pr 16,33). Dieu a choisi Zacharie — ce n'était pas le hasard."
-            },
-            {
-              "ref": "1,9",
-              "category": "kultur",
-              "keyword": "L'encens",
-              "content": "Le privilège suprême d'un prêtre. Parmi des milliers de prêtres, un homme pouvait attendre toute sa vie sans jamais être désigné."
+              "keyword": "le sort est tombé",
+              "content": "Le tirage au sort n'était pas un hasard — c'était la manière dont Dieu désignait qui entrerait. L'offrande d'encens avait lieu deux fois par jour dans le Lieu saint (sanctuaire intérieur). La plupart des prêtres ne recevaient jamais cet honneur au cours de toute leur carrière. C'était le sommet d'une vie de service."
             }
           ],
           "isPoetry": false,
@@ -156,7 +163,7 @@
         },
         {
           "number": "10",
-          "text": "Il est entré dans le sanctuaire. Seul.<span class=\"paragraph-break\"></span><span class=\"amplification\">Devant lui, l'autel d'or des parfums. Le chandelier à sept branches projetait des ombres tremblantes sur les murs. Derrière lui, le lourd rideau, et derrière ce rideau : le Lieu très saint — là où Dieu lui-même habitait.</span> Dehors<span class=\"amplification\">, en silence,</span> le peuple priait.",
+          "text": "Dehors, la foule priait. <span class=\"amplification\">Devant lui : le chandelier à sept branches, l'autel des parfums, le voile. La fumée d'encens montait dans la pénombre.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -164,19 +171,13 @@
         },
         {
           "number": "11",
-          "text": "<span class=\"paragraph-break\"></span>Alors un ange lui est apparu. Debout à droite de l'autel de l'encens<span class=\"amplification\">— le côté de la bénédiction</span>.",
+          "text": "Et là — un ange. Debout à droite de l'autel<span class=\"amplification\">, du côté d'où vient la bénédiction</span>.",
           "footnotes": [
             {
-              "ref": "1,11",
+              "ref": "1:11",
               "category": "unglaublich",
-              "keyword": "Ange",
-              "content": "Les apparitions d'anges posent des questions aux lecteurs modernes : Anges ? Vraiment ? Le texte présuppose un univers où Dieu communique par des messagers — non comme métaphore, mais comme rencontre réelle. Certains comprennent les anges comme expérience intérieure ou procédé littéraire. D'autres — et c'est ce que présente le texte — comme apparition objective. Le grec ἄγγελος signifie simplement « messager ». Luc présente Gabriel comme messager concret avec message concret."
-            },
-            {
-              "ref": "1,11",
-              "category": "kultur",
-              "keyword": "À droite",
-              "content": "La position droite était celle de la bénédiction et de la faveur (Ps 110,1)."
+              "keyword": "un ange",
+              "content": "Les apparitions angéliques sont parmi les éléments les plus difficiles du texte biblique pour un lecteur moderne. Trois cadres de lecture coexistent : (1) Lecture naturaliste/critique : le récit reflète les conventions littéraires de l'Antiquité pour exprimer une expérience spirituelle intense. (2) Lecture symbolique/théologique : l'ange est un véhicule narratif pour une révélation qui dépasse les mots ordinaires. (3) Lecture historique/croyante : Zacharie a rencontré un être réel dans le sanctuaire. Ce que ces trois lectures partagent : une parole a été reçue, et elle a tout changé."
             }
           ],
           "isPoetry": false,
@@ -185,28 +186,37 @@
         },
         {
           "number": "12",
-          "text": "Zacharie l'a vu. La peur l'a saisi.",
-          "footnotes": [],
+          "text": "La peur est tombée sur Zacharie.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:12",
+              "category": "text",
+              "keyword": "La peur est tombée",
+              "content": "Grec φόβος ἐπέπεσεν αὐτῷ — littéralement « la peur tomba sur lui ». Les traductions plates : « il eut peur ». La différence : ici, la peur est un objet qui tombe de l'extérieur, pas une émotion qui monte de l'intérieur. La physicalité du verbe est essentielle."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "La promesse",
-      "verses": [
+        },
         {
           "number": "13",
-          "text": "<span class=\"paragraph-break\"></span>L'ange a dit : « N'aie pas peur, Zacharie. Ta prière a été entendue. Élisabeth, ta femme, te donnera un fils. Appelle-le Jean.",
-          "footnotes": [],
+          "text": "L'ange a dit : « N'aie pas peur, Zacharie. Ta prière a été entendue. Élisabeth, ta femme, va te donner un fils, et tu l'appelleras Jean.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:13",
+              "category": "text",
+              "keyword": "Jean",
+              "content": "En hébreu Yohanan : « YHWH a fait grâce ». Le nom résume toute la théologie de l'épisode. Dieu s'est tourné vers ceux qu'on croyait oubliés. En France, « Jean » est l'un des prénoms les plus courants — mais il porte un sens que plus personne n'entend."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "14",
-          "text": "Il te remplira de joie<span class=\"amplification\">, une joie immense</span>. Et beaucoup se réjouiront de sa naissance.",
+          "text": "Il sera ta joie. Beaucoup se réjouiront de sa naissance.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -214,13 +224,13 @@
         },
         {
           "number": "15",
-          "text": "Devant Dieu, il sera grand. Il ne touchera jamais au vin ni à l'alcool — l'Esprit Saint le remplira, déjà dans le ventre de sa mère.",
+          "text": "Il sera grand devant Dieu. Il ne boira ni vin ni boisson forte, et il sera rempli de l'Esprit saint dès le ventre de sa mère.",
           "footnotes": [
             {
-              "ref": "1,15",
-              "category": "contexte",
-              "keyword": "Vin et alcool",
-              "content": "Allusion au vœu de naziréat (Nb 6,3). Comme Samson et Samuel, Jean était consacré à Dieu dès sa naissance."
+              "ref": "1:15",
+              "category": "kultur",
+              "keyword": "ni vin ni boisson forte",
+              "content": "Le vœu de naziréat (Nb 6:3) séparait quelqu'un pour Dieu par l'abstinence. Samson et Samuel furent aussi consacrés naziréens. L'abstinence de Jean n'est pas un programme ascétique individuel — c'est un signe : il est destiné à cette mission depuis avant sa naissance."
             }
           ],
           "isPoetry": false,
@@ -229,7 +239,7 @@
         },
         {
           "number": "16",
-          "text": "Il ramènera beaucoup d'Israélites vers le Seigneur, leur Dieu.",
+          "text": "Il ramènera beaucoup de fils d'Israël vers Dieu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -237,41 +247,43 @@
         },
         {
           "number": "17",
-          "text": "Avec la puissance d'Élie, il marchera devant lui. Il réconciliera les pères avec leurs enfants, les rebelles avec la sagesse des justes. Il préparera un peuple prêt — prêt pour le Seigneur. »",
+          "text": "Il marchera devant lui avec l'esprit et la puissance d'Élie — pour tourner le cœur des pères vers les enfants, pour ramener les désobéissants à la sagesse des justes. Pour préparer au Seigneur un peuple bien disposé. »<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,17",
-              "category": "contexte",
-              "keyword": "Élie",
-              "content": "Malachie avait annoncé le retour d'Élie avant le grand jour du Seigneur (Ml 3,23-24). Jean accomplit ce rôle."
+              "ref": "1:17",
+              "category": "kontext",
+              "keyword": "l'esprit et la puissance d'Élie",
+              "content": "Allusion à Ml 3:1 et 4:5-6 : le prophète Élie devait revenir avant le grand jour du Seigneur pour « tourner le cœur des pères vers les enfants ». Jean n'est pas Élie en personne, mais il en porte l'héritage prophétique. Jésus confirmera cette identification (Lc 7:27)."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Zacharie doute",
-      "verses": [
+        },
         {
           "number": "18",
-          "text": "<span class=\"paragraph-break\"></span>Zacharie a demandé : « Comment le saurai-je ? Je suis vieux. Ma femme aussi. »",
-          "footnotes": [],
+          "text": "Zacharie a dit : « Comment est-ce que je peux en être sûr ? Je suis un vieil homme, et ma femme aussi est âgée. »<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:18",
+              "category": "text",
+              "keyword": "Comment être sûr",
+              "content": "Zacharie demande Κατὰ τί γνώσομαι — « par quoi le saurai-je ? » — la même question qu'Abraham (Gn 15:8). La différence : Abraham était au début d'une relation avec Dieu. Zacharie est un prêtre qui vient de recevoir un message dans le sanctuaire. Le contexte transforme une question légitime en manque de foi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "19",
-          "text": "L'ange a répondu : « Je suis Gabriel. Je me tiens devant le trône de Dieu. Il m'a envoyé pour t'apporter cette bonne nouvelle.",
+          "text": "L'ange a répondu : « Je suis Gabriel — celui qui se tient devant Dieu. J'ai été envoyé pour te parler et t'annoncer cette bonne nouvelle.",
           "footnotes": [
             {
-              "ref": "1,19",
-              "category": "nom",
-              "keyword": "Gabriel (Γαβριήλ)",
-              "content": "En hébreu, « force de Dieu ». L'un des archanges, celui qui « se tient devant Dieu ». Le même ange était apparu à Daniel (Dn 8,16 ; 9,21)."
+              "ref": "1:19",
+              "category": "kultur",
+              "keyword": "Gabriel",
+              "content": "Dans la tradition juive, Gabriel est l'un des archanges. Il apparaît dans Daniel 8:16 et 9:21 pour expliquer des visions. Son nom signifie « homme de Dieu » ou « force de Dieu ». La phrase « celui qui se tient devant Dieu » indique un rang suprême dans la hiérarchie céleste."
             }
           ],
           "isPoetry": false,
@@ -280,79 +292,19 @@
         },
         {
           "number": "20",
-          "text": "Mais puisque tu n'as pas cru mes paroles — des paroles qui s'accompliront en leur temps — tu seras muet. Tu ne pourras plus parler jusqu'à ce que tout arrive. »",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "L'attente",
-      "verses": [
-        {
-          "number": "21",
-          "text": "<span class=\"paragraph-break\"></span>Dehors, le peuple attendait Zacharie. <span class=\"amplification\">Longtemps. La bénédiction du prêtre ne prenait d'habitude que quelques instants.</span>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "22",
-          "text": "Quand il est enfin sorti, il ne pouvait plus parler. Il leur faisait des signes. Ils ont compris : il avait eu une vision<span class=\"amplification\">. Dans le sanctuaire. Là où Dieu habite</span>.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "23",
-          "text": "Quand ses jours de service ont pris fin, il est rentré chez lui. <span class=\"amplification\">Muet. Incapable de prononcer la bénédiction que le peuple attendait.</span>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "24",
-          "text": "Peu après, Élisabeth est tombée enceinte. Pendant cinq mois, elle s'est tenue à l'écart.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "25",
-          "text": "Elle disait : « Voilà ce que le Seigneur a fait pour moi. Il m'a regardée. Il m'a enlevé la honte<span class=\"amplification\">— la honte des femmes sans enfants, que tous considéraient comme punies par Dieu</span>. »",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Marie dit oui",
-      "verses": [
-        {
-          "number": "26",
-          "text": "<span class=\"paragraph-break\"></span>Six mois plus tard, Dieu a envoyé l'ange Gabriel <span class=\"amplification\">de nouveau. Cette fois, pas au Temple. Pas à Jérusalem.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">En</span> Galilée. Dans un village appelé Nazareth<span class=\"amplification\">. Un endroit dont personne n'avait entendu parler</span>.<span class=\"paragraph-break\"></span><span class=\"amplification\">Pas de temple. Pas d'encens. Pas de foule en prière dehors. Juste une jeune fille.</span>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "27",
-          "text": "<span class=\"paragraph-break\"></span>Elle s'appelait Marie. Elle était fiancée à un homme nommé Joseph, qui descendait de David. <span class=\"amplification\">Fiancée — c'est-à-dire qu'elle lui appartenait déjà, légalement. Mais elle habitait encore chez son père. Le mariage n'avait pas eu lieu.</span>",
+          "text": "Et maintenant, tu ne pourras plus parler. Pas un mot. Jusqu'au jour où tout ça se réalisera. Parce que tu n'as pas cru mes paroles — et elles s'accompliront en leur temps. »<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,27",
-              "category": "kultur",
-              "keyword": "Fiançailles",
-              "content": "Les fiançailles étaient juridiquement contraignantes — une rupture nécessitait un divorce formel. Marie vivait encore chez son père ; le mariage restait à venir."
+              "ref": "1:20",
+              "category": "unglaublich",
+              "keyword": "tu ne pourras plus parler",
+              "content": "Un homme rendu muet par un ange — le texte ne propose aucune explication médicale. Trois lectures coexistent : (1) Lecture naturaliste : un choc psychologique (mutisme de conversion) provoqué par une expérience intense dans le sanctuaire. (2) Lecture symbolique : le silence est un dispositif narratif — le doute réduit au silence jusqu'à ce que la foi parle (v. 64). (3) Lecture historique/croyante : Dieu intervient directement, et le silence est à la fois signe et discipline. Ce que les trois partagent : quand Zacharie retrouve la parole, ses premiers mots sont une louange."
+            },
+            {
+              "ref": "1:20",
+              "category": "leben",
+              "keyword": "tu ne pourras plus parler",
+              "content": "Neuf mois de silence forcé. C'est une discipline, pas une punition — ou plutôt, c'est une punition qui devient formation. Zacharie entre dans le sanctuaire en doutant et en sort transformé : ses premiers mots après le silence seront une louange (v. 64). Les traditions monastiques (trappistes, chartreux) témoignent que le silence prolongé change profondément celui qui le traverse."
             }
           ],
           "isPoetry": false,
@@ -360,14 +312,75 @@
           "lines": []
         },
         {
+          "number": "21",
+          "text": "Dehors, les gens commençaient à s'inquiéter. <span class=\"amplification\">Le prêtre prenait trop de temps.</span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "22",
+          "text": "Quand il est finalement sorti, il ne pouvait pas parler. Il leur faisait des signes. Ils ont compris : il avait vu quelque chose.<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "23",
+          "text": "Quand ses jours de service se sont terminés, Zacharie est rentré chez lui.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "24",
+          "text": "Quelque temps après, Élisabeth est tombée enceinte. Elle s'est cachée pendant cinq mois.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "25",
+          "text": "Elle disait : « Dieu a fait ça pour moi. Il a regardé. Il a enlevé ma honte parmi les gens. »",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        }
+      ]
+    },
+    {
+      "heading": "L'annonce de la naissance de Jésus",
+      "verses": [
+        {
+          "number": "26",
+          "text": "<span class=\"paragraph-break\"></span>Six mois plus tard, Dieu a envoyé l'ange Gabriel à Nazareth, en Galilée. <span class=\"amplification\">Un village que personne ne connaît. Pas de temple. Pas d'encens. Juste une jeune fille.</span><span class=\"paragraph-break\"></span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "27",
+          "text": "Elle s'appelait Marie. Elle était vierge, promise en mariage à un homme nommé Joseph, un descendant de David.<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
           "number": "28",
-          "text": "L'ange est venu vers elle. Il a dit : « Je te salue, toi qui as reçu la faveur de Dieu ! Le Seigneur est avec toi. »",
+          "text": "Gabriel est entré et lui a dit : « Réjouis-toi, toi qui as reçu la grâce. Dieu est avec toi. »",
           "footnotes": [
             {
-              "ref": "1,28",
+              "ref": "1:28",
               "category": "text",
-              "keyword": "Favorisée (κεχαριτωμένη)",
-              "content": "Parfait passif participe de χαριτόω — met l'accent sur l'action accomplie de Dieu envers Marie, non sur ses propres mérites. Luther : « pleine de grâce » ; littéralement : « celle qui a reçu la grâce ». La tradition catholique traduit « pleine de grâce » et voit ici le fondement de la position unique de Marie."
+              "keyword": "toi qui as reçu la grâce",
+              "content": "Grec κεχαριτωμένη — un participe parfait passif : « celle qui a été — et demeure — comblée de grâce ». Ce n'est pas un titre (« pleine de grâce » de l'Ave Maria est une lecture possible mais réductrice). C'est un état : Dieu a agi sur elle, et cet effet perdure. Le verbe χαριτόω n'apparaît qu'ici et en Éphésiens 1:6 dans tout le Nouveau Testament."
             }
           ],
           "isPoetry": false,
@@ -376,7 +389,7 @@
         },
         {
           "number": "29",
-          "text": "Ces mots l'ont troublée profondément. Elle se demandait ce que cette salutation pouvait signifier.",
+          "text": "Ces mots l'ont secouée. Elle cherchait ce que ça pouvait vouloir dire.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -384,7 +397,7 @@
         },
         {
           "number": "30",
-          "text": "L'ange a dit : « N'aie pas peur, Marie. <span class=\"amplification\">Dieu t'a choisie.</span>",
+          "text": "L'ange a dit : « N'aie pas peur, Marie. Dieu t'a choisie.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -392,37 +405,23 @@
         },
         {
           "number": "31",
-          "text": "Tu vas tomber enceinte et mettre au monde un fils. Appelle-le Jésus.",
-          "footnotes": [
-            {
-              "ref": "1,31",
-              "category": "text",
-              "keyword": "Jésus (Ἰησοῦς)",
-              "content": "Forme grecque de l'hébreu Yeschua/Josué, signifie « YHWH sauve » ou « Dieu est salut ». Le nom est un programme : il sauvera son peuple de ses péchés (Mt 1,21)."
-            }
-          ],
+          "text": "Tu vas être enceinte et tu auras un fils. Tu l'appelleras Jésus.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "32",
-          "text": "Il sera grand. On l'appellera Fils du Très-Haut. Dieu, le Seigneur, lui donnera le trône de son ancêtre David.",
-          "footnotes": [
-            {
-              "ref": "1,32-33",
-              "category": "kontext",
-              "keyword": "Trône de David",
-              "content": "La promesse faite à David (2 S 7,12-16) a façonné l'attente messianique juive. Dieu avait promis à David un trône éternel — mais le royaume était tombé depuis longtemps."
-            }
-          ],
+          "text": "Il sera grand. On l'appellera Fils du Très-Haut. Dieu lui donnera le trône de David son ancêtre.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "33",
-          "text": "Il régnera sur <span class=\"amplification\">Israël</span> pour toujours. Son règne n'aura pas de fin. »",
+          "text": "Il régnera sur la maison de Jacob pour toujours. Son règne n'aura pas de fin. »<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -430,27 +429,34 @@
         },
         {
           "number": "34",
-          "text": "Marie a demandé : « Comment est-ce possible ? Je n'ai jamais été avec un homme. »",
-          "footnotes": [],
+          "text": "Marie a dit : « Comment — je ne connais pas d'homme. »<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:34",
+              "category": "text",
+              "keyword": "je ne connais pas d'homme",
+              "content": "Idiome biblique pour l'absence de relations sexuelles (cf. Gn 4:1). La question de Marie (Πῶς ἔσται τοῦτο — « comment cela sera-t-il ? ») diffère radicalement de celle de Zacharie (Κατὰ τί γνώσομαι — « comment en être sûr ? »). Marie demande le comment pratique. Zacharie demandait la preuve. L'ange ne la punit pas : il explique."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "35",
-          "text": "L'ange a répondu : « L'Esprit Saint viendra sur toi. La puissance du Très-Haut te couvrira de son ombre. C'est pourquoi l'enfant qui naîtra sera appelé saint, Fils de Dieu.",
+          "text": "L'ange a répondu : « L'Esprit saint viendra sur toi. La puissance du Très-Haut te couvrira de son ombre. C'est pourquoi l'enfant qui naîtra sera saint — on l'appellera Fils de Dieu.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,35",
-              "category": "text",
-              "keyword": "Couvrir de son ombre (ἐπισκιάζω)",
-              "content": "Le même verbe décrit la nuée couvrant la Tente de la Rencontre (Ex 40,35). Marie devient le lieu de la présence divine."
+              "ref": "1:35",
+              "category": "kontext",
+              "keyword": "couvrira de son ombre",
+              "content": "Grec ἐπισκιάσει — le même verbe qu'en Exode 40:35, quand la nuée de la présence divine (la Shekinah) couvre la Tente de la Rencontre. Marie devient, en quelque sorte, le nouveau lieu de la présence de Dieu. L'image est cosmique, pas biologique."
             },
             {
-              "ref": "1,35",
+              "ref": "1:35",
               "category": "unglaublich",
-              "keyword": "Conception virginale",
-              "content": "L'idée d'une conception sans homme est difficile à croire pour les lecteurs modernes. Le texte ne prétend pas expliquer la parthénogenèse biologique, mais proclame l'action divine : l'Esprit de Dieu réalise ce qui est naturellement impossible. Certains comprennent ceci symboliquement — comme expression de la relation unique de Jésus avec Dieu. D'autres, comme les Églises historiques, l'entendent littéralement comme miracle. Le grec ἐπισκιάζω (« couvrir de son ombre ») rappelle la nuée qui remplissait le sanctuaire (Ex 40,35) — Marie devient le lieu de la présence divine."
+              "keyword": "l'enfant sera saint — Fils de Dieu",
+              "content": "La conception virginale est l'un des points les plus contestés du Nouveau Testament. Trois lectures coexistent : (1) Lecture critique/naturaliste : le récit utilise les conventions des naissances divines dans le monde antique (héros grecs, empereurs romains) pour affirmer la signification de Jésus. (2) Lecture symbolique/théologique : la naissance sans père humain signifie que Jésus est entièrement don de Dieu — une nouvelle création. (3) Lecture historique/croyante : il s'agit d'un événement réel, attesté indépendamment par Matthieu et Luc. L'absence de tout récit « d'union divine » (contrairement aux mythes grecs) est frappante : le texte insiste sur la pudeur, l'ombre, le souffle."
             }
           ],
           "isPoetry": false,
@@ -459,7 +465,7 @@
         },
         {
           "number": "36",
-          "text": "<span class=\"amplification\">D'ailleurs —</span> ta parente Élisabeth est enceinte, elle aussi, elle qu'on disait stérile. Elle est <span class=\"amplification\">déjà</span> au sixième mois.",
+          "text": "« Et Élisabeth, ta parente — elle aussi attend un enfant. Elle qu'on disait stérile. Elle en est à son sixième mois.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -467,28 +473,27 @@
         },
         {
           "number": "37",
-          "text": "<span class=\"amplification\">Rien n'est</span> impossible à Dieu. »<span class=\"paragraph-break\"></span>",
-          "footnotes": [
-            {
-              "ref": "1,37",
-              "category": "kontext",
-              "keyword": "Rien d'impossible",
-              "content": "Écho de Genèse 18,14, où Dieu promet un fils à Sara, déjà âgée."
-            }
-          ],
+          "text": "Parce que rien n'est impossible à Dieu. »<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "38",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Marie a dit :</span><span class=\"paragraph-break\"></span>« J'appartiens au Seigneur. Ce que tu as dit — qu'il en soit ainsi. »<span class=\"paragraph-break\"></span>Alors l'ange l'a quittée.",
+          "text": "Marie a dit : « Je suis la servante de Dieu. Qu'il en soit comme tu l'as dit. » Et l'ange est parti. <span class=\"amplification\">Et elle est restée seule.</span>",
           "footnotes": [
             {
-              "ref": "1,38",
+              "ref": "1:38",
+              "category": "text",
+              "keyword": "servante",
+              "content": "Grec δούλη — littéralement « esclave ». Marie ne choisit pas un mot doux. Elle se place radicalement à la disposition de Dieu. Dans le contexte post-colonial français, « esclave » porterait des connotations qui déformeraient le sens. « Servante » préserve la radicalité de l'auto-identification sans la surcharger."
+            },
+            {
+              "ref": "1:38",
               "category": "leben",
-              "keyword": "Qu'il en soit ainsi",
-              "content": "La réponse de Marie montre une voie pour tous les siècles : Dieu agit par consentement, non par contrainte. L'authentique pratique spirituelle commence par ce oui à la direction divine — même quand les conséquences sont imprévisibles. Cette attitude de disponibilité radicale est au cœur de toutes les traditions mystiques, des Bénédictins au zen bouddhiste."
+              "keyword": "Qu'il en soit comme tu l'as dit",
+              "content": "Le « oui » de Marie est un acte de consentement radical — pas un acquiescement passif. Elle dit oui à quelque chose dont elle ne connaît pas l'issue, qui menace sa réputation, son mariage, sa sécurité. Simone Weil parlait de l'« attention » comme forme la plus pure de générosité. Les traditions contemplatives (ignatienne, carmélitaine) voient dans ce « fiat » le modèle de toute réponse à un appel : dire oui avant de comprendre comment."
             }
           ],
           "isPoetry": false,
@@ -498,11 +503,11 @@
       ]
     },
     {
-      "heading": "Deux femmes, deux miracles",
+      "heading": "Marie rend visite à Élisabeth",
       "verses": [
         {
           "number": "39",
-          "text": "<span class=\"paragraph-break\"></span>Marie s'est mise en route. <span class=\"amplification\">Aussitôt.</span> Elle est partie en hâte<span class=\"amplification\">— des jours de marche</span> à travers la région montagneuse<span class=\"amplification\">, seule,</span> vers une ville de Judée.",
+          "text": "<span class=\"paragraph-break\"></span>Marie est partie. <span class=\"amplification\">Vite.</span> <span class=\"amplification\">Vers la région montagneuse de Judée. Plusieurs jours de marche.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -510,7 +515,7 @@
         },
         {
           "number": "40",
-          "text": "Elle est entrée dans la maison de Zacharie et a salué Élisabeth.",
+          "text": "Quand elle est arrivée chez Zacharie, elle est entrée et elle a salué Élisabeth.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -518,23 +523,37 @@
         },
         {
           "number": "41",
-          "text": "Dès qu'Élisabeth a entendu la salutation de Marie, le bébé a bondi dans son ventre. Et Élisabeth a été remplie de l'Esprit Saint.",
-          "footnotes": [],
+          "text": "Au son de sa voix, l'enfant a bondi dans le ventre d'Élisabeth. Elle a été remplie de l'Esprit saint",
+          "footnotes": [
+            {
+              "ref": "1:41",
+              "category": "unglaublich",
+              "keyword": "l'enfant a bondi",
+              "content": "Un fœtus qui réagit à une voix — est-ce surnaturel ? L'obstétrique moderne confirme que les fœtus réagissent aux stimuli sonores dès le sixième mois. La question n'est pas le mouvement, mais son interprétation. Le texte dit : c'est l'Esprit saint qui provoque cette réaction. Lecture naturaliste : le narrateur théologise un mouvement fœtal ordinaire. Lecture symbolique : le bond exprime la reconnaissance entre les deux enfants à naître — Jean reconnaît déjà celui qu'il précédera. Lecture croyante : l'Esprit agit réellement, même in utero."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "42",
-          "text": "Elle s'est exclamée d'une voix forte<span class=\"amplification\">— comme une prophétesse</span> :<span class=\"paragraph-break\"></span>« Tu es bénie<span class=\"amplification\">entre toutes les femmes</span> ! Et béni est <span class=\"amplification\">l'enfant dans</span> ton ventre !",
-          "footnotes": [],
+          "text": "et elle a crié : « Tu es bénie entre toutes les femmes ! Et béni est l'enfant que tu portes !<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:42",
+              "category": "kontext",
+              "keyword": "bénie entre toutes les femmes",
+              "content": "La formule « bénie entre toutes les femmes » fait écho à Yaël (Jg 5:24) et à Judith (Jdt 13:18) — des femmes héroïques qui ont sauvé Israël par un acte de courage. Élisabeth place Marie dans cette lignée de femmes décisives."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "43",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Mais comment se fait-il que</span> la mère de mon Seigneur vienne à moi ? <span class=\"amplification\">Moi — vers moi ?</span>",
+          "text": "Comment c'est possible — la mère de mon Seigneur, chez moi ?<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -542,7 +561,7 @@
         },
         {
           "number": "44",
-          "text": "Car dès que ta voix a atteint mes oreilles, le bébé a bondi de joie dans mon ventre !",
+          "text": "Quand ta voix est arrivée à mes oreilles, l'enfant a bondi de joie dans mon ventre.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -550,15 +569,8 @@
         },
         {
           "number": "45",
-          "text": "<span class=\"amplification\">Tu as cru. C'est pourquoi</span> tu es heureuse. Ce que <span class=\"amplification\">Dieu</span> t'a <span class=\"amplification\">promis</span> s'accomplira. »",
-          "footnotes": [
-            {
-              "ref": "1,45",
-              "category": "contexte",
-              "keyword": "Tu as cru",
-              "content": "Élisabeth loue la foi de Marie — par contraste avec Zacharie, qui a douté."
-            }
-          ],
+          "text": "Heureuse celle qui a cru — parce que ce que Dieu lui a dit s'accomplira. »",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -566,192 +578,118 @@
       ]
     },
     {
-      "heading": "Ce que Dieu fait — Le Magnificat",
+      "heading": "Le cantique de Marie (Magnificat)",
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>Marie a dit :<span class=\"poetry-line-1\">Tout en moi — tout ! — célèbre Dieu.</span>",
+          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Tout en moi — tout ! —</span> dit oui à Dieu.",
           "footnotes": [
             {
-              "ref": "1,46-55",
-              "category": "contexte",
-              "keyword": "Magnificat",
-              "content": "Le cantique de Marie suit le modèle du chant d'Anne (1 S 2,1-10). Les deux femmes louent Dieu pour le renversement de l'ordre établi."
+              "ref": "1:46",
+              "category": "kontext",
+              "keyword": "dit oui à Dieu",
+              "content": "Le verbe grec Μεγαλύνει signifie littéralement « rend grand », « magnifie ». Le Magnificat est modelé sur le cantique d'Anne (1 S 2:1-10) : même structure, mêmes thèmes (renversement social, Dieu qui regarde les petits). Ce que Marie chante, Anne l'avait déjà chanté mille ans plus tôt."
+            },
+            {
+              "ref": "1:46-55",
+              "category": "leben",
+              "keyword": "dit oui à Dieu",
+              "content": "Le Magnificat est le texte biblique le plus souvent cité dans les mouvements de libération — d'Amérique latine à l'Afrique du Sud. Mais il n'est pas qu'un manifeste politique. Les traditions contemplatives y voient une prière personnelle : nommer ce que Dieu a fait, reconnaître les renversements, se placer du côté des « petits ». Prier le Magnificat, c'est à la fois un acte de mémoire (« il a fait pour moi... ») et un acte d'espérance (« les puissants... les affamés... »). Les moines le chantent chaque soir aux Vêpres. Marie chantait ce que des millions de voix après elle n'ont pas cessé de chanter."
             }
           ],
-          "isPoetry": true,
+          "isPoetry": false,
           "poetryLevel": 0,
-          "lines": [
-            {
-              "text": "Tout en moi — tout ! — célèbre Dieu.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Mon esprit exulte devant mon Sauveur.</span>",
+          "text": "Mon esprit éclate, parce que Dieu me sauve. <span class=\"amplification\">Moi !</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Mon esprit exulte devant mon Sauveur.",
-              "level": 1
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Il m'a regardée.</span><span class=\"poetry-line-2\">Moi, la petite.</span><span class=\"poetry-line-2\">L'insignifiante.</span><span class=\"poetry-line-1\">Désormais, toutes les générations diront : Elle est bénie.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "Il a regardé. Il m'a vue. <span class=\"amplification\">Moi — la petite, celle qu'on ne voit pas.</span><span class=\"paragraph-break\"></span>",
+          "footnotes": [
             {
-              "text": "Il m'a regardée.",
-              "level": 1
-            },
-            {
-              "text": "Moi, la petite.",
-              "level": 2
-            },
-            {
-              "text": "L'insignifiante.",
-              "level": 2
-            },
-            {
-              "text": "Désormais, toutes les générations diront : Elle est bénie.",
-              "level": 1
+              "ref": "1:48",
+              "category": "text",
+              "keyword": "la petite",
+              "content": "Grec ταπείνωσις — non pas l'humilité comme vertu (ce serait ταπεινοφροσύνη), mais la condition sociale basse, le statut de personne insignifiante. Marie ne se vante pas de sa modestie. Elle nomme sa réalité : elle est une paysanne de Nazareth, un village de rien. Et Dieu l'a regardée."
             }
-          ]
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">Car le Puissant a fait de grandes choses pour moi.</span><span class=\"poetry-line-2\">Son nom est saint.</span>",
+          "text": "Et maintenant ? Maintenant tout le monde va dire : elle a tout reçu. Vraiment tout. Parce que le Puissant a fait pour moi <span class=\"amplification\">des choses que personne n'avait vues venir</span>. Son nom est saint.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Car le Puissant a fait de grandes choses pour moi.",
-              "level": 1
-            },
-            {
-              "text": "Son nom est saint.",
-              "level": 2
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Sa tendresse s'étend sur ceux qui le respectent —</span><span class=\"poetry-line-2\">de génération en génération.</span>",
+          "text": "Sa bonté tient. D'une génération à l'autre — pour ceux qui le respectent.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Sa tendresse s'étend sur ceux qui le respectent —",
-              "level": 1
-            },
-            {
-              "text": "de génération en génération.",
-              "level": 2
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Son bras est fort.</span><span class=\"poetry-line-1\">Les orgueilleux ? Dispersés<span class=\"amplification\">, eux et leurs grands projets</span>.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "Il a déployé la force de son bras. Les orgueilleux, il les a dispersés<span class=\"amplification\">— eux et toute leur arrogance</span>.",
+          "footnotes": [
             {
-              "text": "Son bras est fort.",
-              "level": 1
-            },
-            {
-              "text": "Les orgueilleux ? Dispersés<span class=\"amplification\">, eux et leurs grands projets</span>.",
-              "level": 1
+              "ref": "1:51-53",
+              "category": "kultur",
+              "keyword": "les orgueilleux... les puissants... les riches",
+              "content": "Le vocabulaire est concret et politique — trônes, puissants, affamés, riches. Sous l'occupation romaine, ces mots ne sont pas des métaphores spirituelles. Le Magnificat a été interdit par des régimes autoritaires en Amérique latine précisément parce qu'il nomme l'injustice structurelle. Bien avant 1789, une jeune juive chantait déjà le renversement des puissants."
             }
-          ]
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Les puissants ? Renversés de leur trône.</span><span class=\"poetry-line-1\">Les petits ? Élevés.</span>",
+          "text": "Les puissants, il les a arrachés de leurs trônes. Et les petits, il les a élevés.",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Les puissants ? Renversés de leur trône.",
-              "level": 1
-            },
-            {
-              "text": "Les petits ? Élevés.",
-              "level": 1
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">Les affamés ? Comblés de biens.</span><span class=\"poetry-line-1\">Les riches ? Renvoyés les mains vides.</span>",
+          "text": "Ceux qui avaient faim, il les a rassasiés. Et les riches, il les a renvoyés les mains vides.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Les affamés ? Comblés de biens.",
-              "level": 1
-            },
-            {
-              "text": "Les riches ? Renvoyés les mains vides.",
-              "level": 1
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Il a secouru Israël, son serviteur.</span><span class=\"poetry-line-2\">Il s'est souvenu de sa tendresse —</span>",
+          "text": "Il a relevé Israël, celui qui le sert.",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Il a secouru Israël, son serviteur.",
-              "level": 1
-            },
-            {
-              "text": "Il s'est souvenu de sa tendresse —",
-              "level": 2
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">comme il l'avait promis à nos ancêtres :</span><span class=\"poetry-line-2\">à Abraham et à sa descendance.</span><span class=\"poetry-line-2\">Pour toujours.</span><span class=\"paragraph-break\"></span>",
+          "text": "Il s'est souvenu de sa bonté — comme il l'avait promis à Abraham. Pour toujours.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "comme il l'avait promis à nos ancêtres :",
-              "level": 1
-            },
-            {
-              "text": "à Abraham et à sa descendance.",
-              "level": 2
-            },
-            {
-              "text": "Pour toujours.",
-              "level": 2
-            }
-          ]
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
         },
         {
           "number": "56",
-          "text": "<span class=\"paragraph-break\"></span>Marie est restée environ trois mois avec Élisabeth. Puis elle est rentrée chez elle.",
+          "text": "Marie est restée environ trois mois chez Élisabeth. Puis elle est rentrée chez elle.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -760,11 +698,11 @@
       ]
     },
     {
-      "heading": "Son nom est Jean",
+      "heading": "La naissance de Jean",
       "verses": [
         {
           "number": "57",
-          "text": "<span class=\"paragraph-break\"></span>Le temps d'Élisabeth est venu. Elle a mis au monde un fils.",
+          "text": "<span class=\"paragraph-break\"></span>Le moment est venu pour Élisabeth. Elle a donné naissance à un fils.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -772,7 +710,7 @@
         },
         {
           "number": "58",
-          "text": "Les voisins et les proches ont appris <span class=\"amplification\">ce qui s'était passé :</span> le Seigneur lui avait fait une grande grâce. Ils se sont réjouis avec elle.<span class=\"paragraph-break\"></span>",
+          "text": "Les voisins et la famille ont appris que Dieu s'était tourné vers elle, et tout le monde est venu se réjouir.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -780,15 +718,22 @@
         },
         {
           "number": "59",
-          "text": "<span class=\"paragraph-break\"></span>Le huitième jour, ils sont venus pour la circoncision<span class=\"amplification\">— l'antique signe de l'alliance, au cours duquel l'enfant recevait son nom</span>. Ils voulaient l'appeler Zacharie, comme son père.",
-          "footnotes": [],
+          "text": "Le huitième jour, ils sont venus pour la circoncision de l'enfant. On voulait l'appeler Zacharie, comme son père<span class=\"amplification\">— c'était comme ça qu'on faisait</span>.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:59",
+              "category": "kultur",
+              "keyword": "le huitième jour",
+              "content": "La circoncision et la nomination avaient lieu le huitième jour — c'était l'entrée dans l'alliance. On donnait traditionnellement le nom du père ou d'un ancêtre. Appeler un enfant autrement allait à l'encontre de la convention sociale. Quand Élisabeth dit « Jean », elle transgresse."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "60",
-          "text": "Mais la mère a dit : « Non. Son nom est Jean. »",
+          "text": "Élisabeth a dit : « Non. Il s'appellera Jean. »<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -796,7 +741,7 @@
         },
         {
           "number": "61",
-          "text": "Ils ont protesté : « Personne dans ta famille ne porte ce nom ! » <span class=\"amplification\">Donner à un enfant le nom d'un étranger ? Ça ne se faisait pas.</span><span class=\"paragraph-break\"></span>",
+          "text": "Ils ont dit : « Mais personne dans ta famille ne porte ce nom. »",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -804,7 +749,7 @@
         },
         {
           "number": "62",
-          "text": "<span class=\"paragraph-break\"></span>Ils ont demandé au père par signes<span class=\"amplification\">— ils pensaient sans doute qu'il était devenu sourd aussi</span>. Quel nom donner à l'enfant ?",
+          "text": "Ils se sont tournés vers le père. Ils lui faisaient des signes — il ne pouvait toujours pas parler.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -812,7 +757,7 @@
         },
         {
           "number": "63",
-          "text": "Il a demandé une tablette et a écrit : « Son nom est Jean. »<span class=\"paragraph-break\"></span>Tous ont été stupéfaits.<span class=\"paragraph-break\"></span>",
+          "text": "Il a demandé une tablette. Et il a écrit : « Jean. C'est son nom. » Personne ne s'y attendait.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -820,15 +765,22 @@
         },
         {
           "number": "64",
-          "text": "<span class=\"paragraph-break\"></span>À l'instant, sa bouche s'est ouverte<span class=\"amplification\">, sa langue s'est déliée</span>. Il s'est mis à parler, bénissant Dieu.<span class=\"paragraph-break\"></span>",
-          "footnotes": [],
+          "text": "Et là, d'un coup — sa bouche s'est ouverte. Et les premiers mots qui sont sortis de sa bouche étaient pour Dieu.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:64",
+              "category": "unglaublich",
+              "keyword": "sa bouche s'est ouverte",
+              "content": "Un mutisme de neuf mois qui cesse instantanément — au moment précis où Zacharie confirme le nom « Jean ». Les mutismes de conversion (psychogènes) peuvent effectivement se résoudre de manière soudaine, souvent liés à un acte symbolique de résolution. Le texte ne s'intéresse pas au mécanisme : il relie la guérison à l'obéissance. Zacharie confirme ce que Dieu a dit — et retrouve la parole. La structure est narrative et théologique : le doute rend muet, la foi rend la voix."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "65",
-          "text": "<span class=\"paragraph-break\"></span>La crainte a saisi tous les voisins. Dans toute la région montagneuse de Judée, on ne parlait que de cela.",
+          "text": "La peur s'est posée sur tout le monde. Dans toute la région montagneuse de Judée, les gens ne parlaient que de ça.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -836,7 +788,7 @@
         },
         {
           "number": "66",
-          "text": "Tous ceux qui entendaient gardaient ces choses dans leur cœur<span class=\"amplification\">, se demandant :</span> « Que deviendra cet enfant ? » Car la main du Seigneur était visiblement sur lui.",
+          "text": "Et ceux qui entendaient n'arrivaient pas à lâcher ça. Ils disaient : « Que sera cet enfant ? » Parce que la main de Dieu était sur lui.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -845,17 +797,17 @@
       ]
     },
     {
-      "heading": "Ce que Zacharie a vu — Le Benedictus",
+      "heading": "Le cantique de Zacharie (Benedictus)",
       "verses": [
         {
           "number": "67",
-          "text": "<span class=\"paragraph-break\"></span>Zacharie, son père, a été rempli de l'Esprit Saint. Il a prophétisé :",
+          "text": "<span class=\"paragraph-break\"></span>Zacharie, son père, a été rempli de l'Esprit saint. Et il a prophétisé :<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,67-79",
-              "category": "contexte",
-              "keyword": "Benedictus",
-              "content": "Le Benedictus a deux parties : louange pour la rédemption d'Israël (68-75) et prophétie sur la mission de Jean (76-79)."
+              "ref": "1:68",
+              "category": "kultur",
+              "keyword": "Béni soit le Seigneur",
+              "content": "La berakah est la forme de prière juive par excellence : on bénit Dieu pour ce qu'il a fait. Le Benedictus est chanté chaque matin dans les Laudes (Office du matin) depuis les premiers siècles — dans les abbayes françaises aussi. C'est à la fois une prière personnelle de Zacharie et un hymne liturgique de la communauté."
             }
           ],
           "isPoetry": false,
@@ -864,264 +816,150 @@
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">Béni soit le Seigneur, le Dieu d'Israël !</span><span class=\"poetry-line-1\">Il a visité son peuple. Il l'a libéré.</span>",
+          "text": "<span class=\"poetry-line-1\">Béni soit le Seigneur, le Dieu d'Israël.</span><span class=\"poetry-line-1\">Il est venu vers son peuple.</span><span class=\"poetry-line-1\">Il lui a donné la délivrance.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Béni soit le Seigneur, le Dieu d'Israël !",
-              "level": 1
-            },
-            {
-              "text": "Il a visité son peuple. Il l'a libéré.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Il nous a donné un sauveur puissant —</span><span class=\"poetry-line-2\">issu de la maison de David, son serviteur.</span>",
+          "text": "<span class=\"poetry-line-1\">Il a fait surgir une puissance de salut</span><span class=\"poetry-line-1\">dans la maison de David, celui qui le servait —</span>",
           "footnotes": [
             {
-              "ref": "1,69",
-              "category": "langue",
-              "keyword": "Sauveur puissant (κέρας σωτηρίας)",
-              "content": "Littéralement « corne du salut » — une image de force et de puissance (Ps 18,3)."
+              "ref": "1:69",
+              "category": "text",
+              "keyword": "une puissance de salut",
+              "content": "Grec κέρας σωτηρίας — littéralement « une corne de salut ». Dans l'Ancien Testament, la corne est symbole de force (Ps 18:3 ; 89:18 ; 1 S 2:1). L'image est celle de la puissance d'un animal — un taureau qui charge. Traduire « corne de salut » serait opaque en français ; « une puissance de salut » préserve la force sans l'image devenue étrangère."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Il nous a donné un sauveur puissant —",
-              "level": 1
-            },
-            {
-              "text": "issu de la maison de David, son serviteur.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Comme il l'avait promis,</span><span class=\"poetry-line-2\">il y a longtemps,</span><span class=\"poetry-line-2\">par la bouche de ses prophètes :</span>",
+          "text": "<span class=\"poetry-line-1\">comme il l'avait annoncé depuis toujours</span><span class=\"poetry-line-1\">par la bouche de ses prophètes :</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Comme il l'avait promis,",
-              "level": 1
-            },
-            {
-              "text": "il y a longtemps,",
-              "level": 2
-            },
-            {
-              "text": "par la bouche de ses prophètes :",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">le salut face à nos ennemis,</span><span class=\"poetry-line-2\">face à tous ceux qui nous haïssent.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">nous sauver de nos ennemis,</span><span class=\"poetry-line-1\">de la main de tous ceux qui nous haïssent.</span><span class=\"poetry-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:71",
+              "category": "kultur",
+              "keyword": "nos ennemis",
+              "content": "Sous l'occupation romaine, ce vocabulaire a une portée politique concrète. « Nos ennemis » ne désigne pas une abstraction spirituelle — ce sont les soldats romains dans les rues, les collecteurs d'impôts, le roi client Hérode. Le Benedictus promet la libération. Mais le chemin qu'il trace mène à la « paix » (v. 79), pas à la guerre."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "le salut face à nos ennemis,",
-              "level": 1
-            },
-            {
-              "text": "face à tous ceux qui nous haïssent.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">Il a montré sa bonté à nos ancêtres.</span><span class=\"poetry-line-2\">Il s'est souvenu de son alliance sainte —</span>",
+          "text": "<span class=\"poetry-line-1\">Il a montré sa bonté envers nos pères.</span><span class=\"poetry-line-1\">Il s'est souvenu de son alliance sainte —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Il a montré sa bonté à nos ancêtres.",
-              "level": 1
-            },
-            {
-              "text": "Il s'est souvenu de son alliance sainte —",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">du serment qu'il a fait à Abraham, notre père :</span>",
+          "text": "<span class=\"poetry-line-1\">le serment qu'il a fait à Abraham, notre ancêtre :</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "du serment qu'il a fait à Abraham, notre père :",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-1\">arrachés à nos ennemis,</span><span class=\"poetry-line-2\">nous pouvons le servir,</span>",
+          "text": "<span class=\"poetry-line-1\">nous arracher à nos ennemis</span><span class=\"poetry-line-1\">pour que nous puissions le servir sans crainte,</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "arrachés à nos ennemis,",
-              "level": 1
-            },
-            {
-              "text": "nous pouvons le servir,",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">sans crainte,</span><span class=\"poetry-line-2\">dans la sainteté et la droiture,</span><span class=\"poetry-line-2\">tous les jours de notre vie.</span>",
+          "text": "<span class=\"poetry-line-1\">dans la droiture, devant lui,</span><span class=\"poetry-line-1\">tous les jours de notre vie.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "sans crainte,",
-              "level": 1
-            },
-            {
-              "text": "dans la sainteté et la droiture,",
-              "level": 2
-            },
-            {
-              "text": "tous les jours de notre vie.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Et toi, mon enfant —</span><span class=\"poetry-line-2\">tu seras appelé prophète du Très-Haut.</span><span class=\"poetry-line-1\">Tu marcheras devant le Seigneur</span><span class=\"poetry-line-2\">pour lui préparer le chemin.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Et toi, petit —</span><span class=\"poetry-line-1\">on t'appellera prophète du Très-Haut.</span><span class=\"poetry-line-1\">Tu marcheras devant le Seigneur pour préparer ses chemins,</span>",
+          "footnotes": [
+            {
+              "ref": "1:76-79",
+              "category": "leben",
+              "keyword": "Et toi, petit",
+              "content": "Zacharie parle à un nouveau-né. Il ne lui dit pas ce qu'il devra faire — il lui dit qui il sera. La pratique de « bénir » un enfant — lui parler de son avenir, de sa vocation, de ce qu'on espère pour lui — existe dans presque toutes les traditions chrétiennes. Ce n'est pas de la magie : c'est un acte de confiance. Nommer une direction de vie, pour un enfant ou pour soi-même, est un geste qui engage. Les traditions juive et chrétienne appellent ça une berakah — une parole qui libère ce qu'elle nomme."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Et toi, mon enfant —",
-              "level": 1
-            },
-            {
-              "text": "tu seras appelé prophète du Très-Haut.",
-              "level": 2
-            },
-            {
-              "text": "Tu marcheras devant le Seigneur",
-              "level": 1
-            },
-            {
-              "text": "pour lui préparer le chemin.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Tu apprendras à son peuple ce qu'est le salut :</span><span class=\"poetry-line-2\">le pardon de leurs fautes.</span>",
+          "text": "<span class=\"poetry-line-1\">pour que son peuple sache qu'il est sauvé</span><span class=\"poetry-line-1\">par le pardon de ses fautes.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Tu apprendras à son peuple ce qu'est le salut :",
-              "level": 1
-            },
-            {
-              "text": "le pardon de leurs fautes.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">Tout cela arrive</span> parce que notre Dieu est plein de tendresse.</span><span class=\"poetry-line-1\">Le soleil levant d'en haut nous visitera,</span>",
+          "text": "<span class=\"poetry-line-1\">Par la tendresse de notre Dieu,</span><span class=\"poetry-line-1\">l'aube d'en haut viendra nous visiter,</span>",
           "footnotes": [
             {
-              "ref": "1,78",
-              "category": "langue",
-              "keyword": "Plein de tendresse (σπλάγχνα ἐλέους)",
-              "content": "Littéralement « entrailles de miséricorde ». L'Antiquité situait les émotions profondes dans le ventre, pas dans le cœur. C'est une compassion viscérale, physique."
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "la tendresse",
+              "content": "Grec σπλάγχνα ἐλέους — littéralement « les entrailles de miséricorde ». Dans le monde antique, la compassion se ressentait dans les viscères, pas dans le cœur. L'expression désigne une bonté physique, incarnée — Dieu ne compatit pas de loin, il est remué dans ses entrailles. Le français « tendresse » est un compromis : il perd la physicalité mais préserve l'intimité."
             },
             {
-              "ref": "1,78",
-              "category": "langue",
-              "keyword": "Soleil levant (ἀνατολή)",
-              "content": "Peut signifier « lever du soleil » ou « germe » (titre messianique)."
+              "ref": "1:78",
+              "category": "kontext",
+              "keyword": "l'aube d'en haut",
+              "content": "Grec ἀνατολή — un mot à double sens : (1) l'aube, le lever du soleil ; (2) le « germe » messianique (cf. Jr 23:5 ; Za 3:8 LXX). Le texte joue sur les deux registres : la lumière qui se lève ET le descendant promis qui vient. Le verbe ἐπισκέψεται (« visiter ») reprend celui de v. 68 — Dieu visite son peuple. La variante textuelle (certains manuscrits ont l'aoriste ἐπεσκέψατο, « a visité ») change le temps mais pas le sens."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "<span class=\"amplification\">Tout cela arrive</span> parce que notre Dieu est plein de tendresse.",
-              "level": 1
-            },
-            {
-              "text": "Le soleil levant d'en haut nous visitera,",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">pour éclairer ceux</span><span class=\"poetry-line-2\">qui sont assis dans les ténèbres,</span><span class=\"poetry-line-2\">à l'ombre de la mort —</span><span class=\"poetry-line-1\">et pour guider nos pas sur le chemin de la paix.</span>",
-          "footnotes": [
-            {
-              "ref": "1,79",
-              "category": "contexte",
-              "keyword": "Dans les ténèbres, à l'ombre de la mort",
-              "content": "Allusion à Ésaïe 9,1 — la lumière pour le peuple opprimé."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">pour éclairer ceux qui sont assis dans les ténèbres,</span><span class=\"poetry-line-1\">à l'ombre de la mort,</span><span class=\"poetry-line-1\">et guider nos pas sur un chemin de paix.</span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "pour éclairer ceux",
-              "level": 1
-            },
-            {
-              "text": "qui sont assis dans les ténèbres,",
-              "level": 2
-            },
-            {
-              "text": "à l'ombre de la mort —",
-              "level": 2
-            },
-            {
-              "text": "et pour guider nos pas sur le chemin de la paix.",
-              "level": 1
-            }
-          ]
+          "lines": []
         }
       ]
     },
     {
-      "heading": "Grandir dans le désert",
+      "heading": "L'enfance de Jean",
       "verses": [
         {
           "number": "80",
-          "text": "<span class=\"paragraph-break\"></span>L'enfant grandissait. Il devenait fort en esprit. Il vivait dans le désert<span class=\"amplification\">— loin de tout</span> — jusqu'au jour où il est apparu devant Israël.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>L'enfant grandissait. Son esprit se fortifiait. Il vivait dans les régions désertiques — jusqu'au jour où il se montrerait à Israël.",
+          "footnotes": [
+            {
+              "ref": "1:80",
+              "category": "kontext",
+              "keyword": "les régions désertiques",
+              "content": "Le désert est le lieu de formation des prophètes dans la Bible : Moïse au Sinaï (Ex 3), Élie au torrent de Kérith (1 R 17:2-6), Israël pendant quarante ans. Le pluriel « régions » (ἐρήμοις) suggère un mode de vie, pas un lieu fixe. Jean grandit en marge de toutes les institutions — ni Temple, ni école, ni ville."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []

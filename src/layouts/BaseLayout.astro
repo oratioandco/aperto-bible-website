@@ -1,16 +1,17 @@
 ---
 import '../styles/global.css';
-import { useTranslations, getAllLanguages, getLocalizedPath, type Lang, defaultLang } from '../i18n/utils';
+import { useTranslations, getAllLanguages, getLocalizedPath, defaultLang } from '../i18n/utils';
 import MiniPlayer from '../components/MiniPlayer.astro';
 
 interface Props {
   title: string;
   description?: string;
-  lang?: Lang;
+  lang?: string;
 }
 
 const { title, description, lang = defaultLang } = Astro.props;
 const t = useTranslations(lang);
+const isRTL = lang === 'ar';
 const languages = getAllLanguages();
 const currentPath = Astro.url.pathname;
 
@@ -26,7 +27,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
 ---
 
 <!DOCTYPE html>
-<html lang={lang}>
+<html lang={lang} dir={isRTL ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

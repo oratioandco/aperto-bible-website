@@ -26,7 +26,7 @@ const base = '';
 <BaseLayout title="Luka 1" lang="tr" description="Luka Bölüm 1">
   <!-- Chapter Header -->
   <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
-    <p class="passage-reference mb-6">Luka</p>
+    <p class="passage-reference mb-6">Luka İncili</p>
     <h1 class="headline-mixed text-5xl md:text-7xl lg:text-8xl mb-6">
       <span class="cap">B</span>ölüm 1
     </h1>
@@ -75,11 +75,7 @@ const base = '';
         exegesis={pericope.exegesis}
         lang="tr"
         chapter={1}
-        isFirst={index === 0}
-        layoutIndex={index}
-        audioBibleStart={pericope.audioBibleStart}
-        audioBibleMp3={pericope.media?.audioBible?.mp3 || pericopes.pericopes[0]?.media?.audioBible?.mp3}
-        audioBibleTranscriptPath={pericope.media?.audioBible?.transcriptPath || pericopes.pericopes[0]?.media?.audioBible?.transcriptPath}
+        isFirst={index === 0} layoutIndex={index}
       />
     ))}
   </div>

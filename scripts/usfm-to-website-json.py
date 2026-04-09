@@ -79,7 +79,7 @@ class USFMToWebsiteConverter:
         }
 
     def convert_verse_text(self, text: str) -> Tuple[str, List[Dict]]:
-        """Convert USFM verse text to HTML format"""
+        """Convert USFM verse text to HTML format, handling poetry markers"""
         result = text
 
         # Extract and process footnotes first
@@ -100,8 +100,53 @@ class USFMToWebsiteConverter:
         add_pattern = r'\\add\s+(.*?)\\add\*'
         result = re.sub(add_pattern, r'<span class="amplification">\1</span>', result, flags=re.DOTALL)
 
+        # Handle poetry line markers BEFORE stripping all markers
+        # \q1 or \q (level 1) -> wrap in poetry-line-1 span
+        # \q2 (level 2) -> wrap in poetry-line-2 span
+        # \b (blank line in poetry) -> poetry-break span
+
+        # Process \b markers (blank lines in poetry)
+        result = re.sub(r'\\b\s*', '<span class="poetry-break"></span>', result)
+
+        # Process \q2 markers
+        result = re.sub(r'\\q2\s*', '<span class="poetry-line-2">', result)
+        # Process \q1 or \q markers
+        result = re.sub(r'\\q1\s*', '<span class="poetry-line-1">', result)
+        result = re.sub(r'\\q\s+', '<span class="poetry-line-1">', result)
+        result = re.sub(r'\\q\s*$', '<span class="poetry-line-1">', result)
+
+        # Close open poetry spans: split on span openings, then reassemble with closing tags
+        # This avoids catastrophic backtracking by not using regex with DOTALL + $
+        def close_poetry_spans(text):
+            """Close poetry-line spans by splitting and reassembling."""
+            # Split on opening span tags for poetry lines
+            parts = re.split(r'(<span class="poetry-line-[12]">)', text)
+            if len(parts) <= 1:
+                return text
+            result_parts = [parts[0]]
+            i = 1
+            while i < len(parts):
+                if re.match(r'<span class="poetry-line-[12]">', parts[i]):
+                    opener = parts[i]
+                    content = parts[i + 1] if i + 1 < len(parts) else ''
+                    # Close the span before any existing opening span or poetry-break span
+                    inner_split = re.split(r'(<span class="poetry(?:-line-[12]|-break)">)', content, maxsplit=1)
+                    result_parts.append(opener + inner_split[0].rstrip() + '</span>')
+                    if len(inner_split) > 1:
+                        # Put the remaining back as the next part prefix
+                        parts[i + 1] = inner_split[1] + (inner_split[2] if len(inner_split) > 2 else '')
+                    else:
+                        i += 1
+                    i += 1
+                else:
+                    result_parts.append(parts[i])
+                    i += 1
+            return ''.join(result_parts)
+
+        result = close_poetry_spans(result)
+
         # Clean up any remaining USFM markers
-        result = re.sub(r'\\[a-z]+\d*\s*', '', result)
+        result = re.sub(r'\\[a-z]+\d*\*?\s*', '', result)
 
         # Clean up whitespace
         result = re.sub(r'\s+', ' ', result).strip()
@@ -143,7 +188,10 @@ class USFMToWebsiteConverter:
         return sections
 
     def extract_verses_from_usfm(self, usfm_content: str) -> List[Tuple[int, str]]:
-        """Extract all verses from USFM content with their full text including multiline footnotes"""
+        """Extract all verses from USFM content with their full text including multiline footnotes.
+
+        Also looks backwards on the same line to capture any \\q prefix before the \\v marker.
+        """
         verses = []
 
         # Find verse positions
@@ -154,11 +202,15 @@ class USFMToWebsiteConverter:
             verse_num = int(match.group(1))
             verse_start = match.end()
 
-            # Find where this verse ends (next verse marker, section, paragraph, or end)
+            # Find where this verse ends. Use the start of the LINE containing the next
+            # \v marker, so that \q prefixes on the same line as the next \v belong to
+            # the next verse, not to this one.
             next_start = len(usfm_content)
-            for j in range(i + 1, len(verse_matches)):
-                next_start = verse_matches[j].start()
-                break
+            if i + 1 < len(verse_matches):
+                next_v_pos = verse_matches[i + 1].start()
+                # Find the start of the line containing the next verse marker
+                line_start_next = usfm_content.rfind('\n', 0, next_v_pos)
+                next_start = (line_start_next + 1) if line_start_next != -1 else 0
 
             # Also check for section/paragraph markers
             next_section = re.search(r'\\s1\s', usfm_content[verse_start:])
@@ -168,25 +220,68 @@ class USFMToWebsiteConverter:
                     next_start = potential_end
 
             verse_text = usfm_content[verse_start:next_start].strip()
+
+            # Look backwards on the same line from the \v marker to find any \q prefix
+            # Find the start of the line containing this \v marker
+            line_start = usfm_content.rfind('\n', 0, match.start())
+            if line_start == -1:
+                line_start = 0
+            else:
+                line_start += 1  # skip the newline itself
+
+            line_before_v = usfm_content[line_start:match.start()]
+
+            # Check for \q2, \q1, or \q prefix on the same line
+            q_prefix_match = re.search(r'\\(q[12]?)\s*$', line_before_v)
+            if q_prefix_match:
+                q_marker = q_prefix_match.group(1)
+                verse_text = f'\\{q_marker} {verse_text}'
+
             verses.append((verse_num, verse_text))
 
         return verses
+
+    def find_paragraph_breaks_between_verses(self, usfm_content: str, verse_positions: Dict[int, Tuple[int, int]]) -> set:
+        """
+        Find which verse numbers have a \\p paragraph break before the NEXT verse
+        (i.e., at the end of this verse's range in the USFM, before the next \\v marker).
+
+        The \\p marker appears INSIDE verse_positions[v_num] (between this verse's \\v
+        and the next one's \\v), not between them. So we look at the verse's own text.
+
+        Returns a set of verse numbers that should have a paragraph-break appended.
+        """
+        paragraph_after = set()
+
+        verse_nums = sorted(verse_positions.keys())
+        for idx, v_num in enumerate(verse_nums[:-1]):
+            v_start, v_end = verse_positions[v_num]
+            # The verse text spans from \v N to just before \v N+1
+            verse_raw = usfm_content[v_start:v_end]
+
+            # Remove footnotes to avoid false positives (\fp etc.)
+            verse_stripped = re.sub(r'\\f\s+\+.*?\\f\*', '', verse_raw, flags=re.DOTALL)
+
+            # Check if \p or \pi appears in the verse text (means: paragraph break after this verse)
+            has_paragraph = bool(re.search(r'\\p\b|\\pi\b', verse_stripped))
+            # Check if a \s1 section boundary is in this range (then it's a section break, not para break)
+            has_section = bool(re.search(r'\\s1\s', verse_stripped))
+
+            if has_paragraph and not has_section:
+                paragraph_after.add(v_num)
+
+        return paragraph_after
 
     def convert_usfm_to_website_json(self, usfm_content: str, chapter: int, language: str) -> Dict:
         """Convert USFM content to website JSON format"""
         # Book name translations
         book_names = {
-            'de': 'Lukas',
-            'en': 'Luke',
-            'fr': 'Luc',
-            'es': 'Lucas',
-            'it': 'Luca',
-            'pt': 'Lucas',
-            'pl': 'Łukasz',
-            'sv': 'Lukas',
-            'da': 'Lukas',
-            'tr': 'Luka',
-            'uk': 'Лука',
+            'de': 'Lukas', 'en': 'Luke', 'fr': 'Luc', 'es': 'Lucas', 'it': 'Luca',
+            'pt': 'Lucas', 'pl': 'Łukasz', 'sv': 'Lukas', 'da': 'Lukas', 'tr': 'Luka',
+            'uk': 'Лука', 'nl': 'Lucas', 'ro': 'Luca', 'cs': 'Lukáš', 'el': 'Λουκάς',
+            'hu': 'Lukács', 'bg': 'Лука', 'hr': 'Luka', 'fi': 'Luukas', 'sk': 'Lukáš',
+            'lt': 'Luko', 'sl': 'Luka', 'lv': 'Lūka', 'et': 'Luuka', 'ga': 'Lúcás',
+            'mt': 'Luqa', 'nb': 'Lukas', 'ru': 'Луки', 'ar': 'لوقا', 'ca': 'Lluc'
         }
 
         # Extract sections with verse ranges
@@ -194,6 +289,23 @@ class USFMToWebsiteConverter:
 
         # Extract all verses with full content
         raw_verses = self.extract_verses_from_usfm(usfm_content)
+
+        # Build a map of verse number -> (start_pos, end_pos) in usfm_content
+        # for paragraph break detection
+        verse_positions = {}
+        verse_pattern = r'\\v\s+(\d+)'
+        verse_matches = list(re.finditer(verse_pattern, usfm_content))
+        for i, match in enumerate(verse_matches):
+            v_num = int(match.group(1))
+            v_start = match.start()
+            if i + 1 < len(verse_matches):
+                v_end = verse_matches[i + 1].start()
+            else:
+                v_end = len(usfm_content)
+            verse_positions[v_num] = (v_start, v_end)
+
+        # Find paragraph breaks between verses
+        paragraph_after_verse = self.find_paragraph_breaks_between_verses(usfm_content, verse_positions)
 
         # Process each verse
         processed_verses = {}
@@ -210,6 +322,10 @@ class USFMToWebsiteConverter:
 
             # Convert verse text
             converted_text, footnotes = self.convert_verse_text(verse_text)
+
+            # Append paragraph break if there's a \p after this verse
+            if verse_num in paragraph_after_verse:
+                converted_text = converted_text + '<span class="paragraph-break"></span>'
 
             processed_verses[verse_num] = {
                 'number': str(verse_num),
@@ -251,7 +367,7 @@ class USFMToWebsiteConverter:
         usfm_path = self.get_usfm_path(chapter, language)
 
         if not usfm_path.exists():
-            print(f"  ❌ USFM file not found: {usfm_path}")
+            print(f"  USFM file not found: {usfm_path}")
             return None
 
         with open(usfm_path, 'r', encoding='utf-8') as f:
@@ -264,7 +380,7 @@ class USFMToWebsiteConverter:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
 
-        print(f"  ✅ {output_path.name} ({len(result['sections'])} sections, {sum(len(s['verses']) for s in result['sections'])} verses)")
+        print(f"  OK {output_path.name} ({len(result['sections'])} sections, {sum(len(s['verses']) for s in result['sections'])} verses)")
         return result
 
 
@@ -297,12 +413,12 @@ def main():
         print("Please specify --chapter or --chapters")
         return
 
-    print(f"\n📖 Converting Luke chapters {chapters[0]}-{chapters[-1]} ({args.language})...\n")
+    print(f"\nConverting Luke chapters {chapters[0]}-{chapters[-1]} ({args.language})...\n")
 
     for chapter in chapters:
         converter.convert_chapter(chapter, args.language)
 
-    print(f"\n✅ Conversion complete!")
+    print(f"\nConversion complete!")
 
 
 if __name__ == '__main__':

@@ -8,13 +8,13 @@
       "verses": [
         {
           "number": "1",
-          "text": "Muchos ya han intentado escribir lo que pasó entre nosotros.",
+          "text": "<span class=\"paragraph-break\"></span>Muchos ya lo han intentado: poner en orden la historia de lo que se ha cumplido entre nosotros,",
           "footnotes": [
             {
-              "ref": "1,1-4",
-              "category": "texto",
-              "keyword": "El método de Lucas",
-              "content": "Lucas escribe como un historiador antiguo: recopila testimonios de testigos oculares, investiga a fondo, presenta de manera ordenada. Esto corresponde a los estándares de la historiografía griega."
+              "ref": "1:1-4",
+              "category": "text",
+              "keyword": "lo han intentado",
+              "content": "Lucas subraya su método histórico: testigos directos entrevistados, fuentes examinadas, relato ordenado — eso corresponde a la historiografía antigua (cfr. Tucídides, Josefo). Los más de 5.800 manuscritos griegos conservados del Nuevo Testamento superan con creces cualquier otra obra antigua (Homero: aprox. 1.900). El análisis textual muestra una alta fidelidad en la transmisión."
             }
           ],
           "isPoetry": false,
@@ -23,7 +23,7 @@
         },
         {
           "number": "2",
-          "text": "Se basaron en lo que los testigos oculares nos transmitieron — personas que estuvieron presentes desde el principio y se convirtieron en proclamadores de esta historia.",
+          "text": "tal como nos la transmitieron quienes lo vieron con sus propios ojos y después dedicaron su vida a contarlo.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -31,13 +31,13 @@
         },
         {
           "number": "3",
-          "text": "También yo he decidido investigar todo <span class=\"amplification\">nuevamente</span> desde el principio. A fondo. Para ti, estimado Teófilo —",
+          "text": "Por eso, estimado Teófilo, yo también he investigado todo a fondo, desde el principio, y he decidido escribírtelo en orden.",
           "footnotes": [
             {
-              "ref": "1,3",
-              "category": "nombre",
-              "keyword": "Teófilo (Θεόφιλος)",
-              "content": "Griego \"amante de Dios\". El título κράτιστε era la forma de dirigirse a funcionarios romanos y personas de rango."
+              "ref": "1:3",
+              "category": "text",
+              "keyword": "estimado Teófilo",
+              "content": "Griego κράτιστε (kratiste) = título honorífico para romanos de alto rango o personas influyentes. Teófilo (griego: «amigo de Dios») es posiblemente un nombre propio, una dedicatoria simbólica, o ambas cosas. Este título señala que el escrito se dirige a lectores cultos y establecidos socialmente."
             }
           ],
           "isPoetry": false,
@@ -46,13 +46,19 @@
         },
         {
           "number": "4",
-          "text": "para que sepas: lo que te han contado está bien fundamentado.",
+          "text": "Para que lo que te han enseñado tenga un fundamento sólido.",
           "footnotes": [
             {
-              "ref": "1,4",
-              "category": "texto",
-              "keyword": "Bien fundamentado (ἀσφάλεια)",
-              "content": "Seguridad, fiabilidad. Lucas quiere hacer posible una confianza fundada."
+              "ref": "1:4",
+              "category": "text",
+              "keyword": "lo que te han enseñado",
+              "content": "Griego κατηχήθης, raíz de «catequesis» — instrucción religiosa formal. Teófilo ya conoce lo básico. Lucas no introduce, sino que fundamenta."
+            },
+            {
+              "ref": "1:4",
+              "category": "text",
+              "keyword": "fundamento sólido",
+              "content": "Griego ἀσφάλεια. Traducciones tradicionales: «certeza», «seguridad». Aquí: «fundamento sólido» — Lucas no promete una certeza agresiva sino un suelo firme sobre el que construir. La diferencia: saber versus tener dónde pisar."
             }
           ],
           "isPoetry": false,
@@ -62,35 +68,29 @@
       ]
     },
     {
-      "heading": "Un sacerdote anciano y una promesa imposible",
+      "heading": "La promesa imposible",
       "verses": [
         {
           "number": "5",
-          "text": "<span class=\"paragraph-break\"></span>En tiempos del rey Herodes vivía en Judea un sacerdote llamado Zacarías. Pertenecía al grupo de servicio de Abías<span class=\"amplification\">— uno de los veinticuatro grupos que servían por turnos en el templo</span>. Su esposa Elisabet descendía de la familia de Aarón. <span class=\"amplification\">Una pareja de sacerdotes, ambos de linaje antiguo. Si había alguna familia que Dios debía bendecir, era esta.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Era en tiempos de Herodes, rey de Judea. <span class=\"amplification\">En Jerusalén</span> vivía un sacerdote llamado Zacarías, de la sección de Abías. Su mujer, Elisabet, también era de familia sacerdotal, descendiente de Aarón. <span class=\"amplification\">Un matrimonio de sacerdotes, los dos de linaje antiguo.</span>",
           "footnotes": [
             {
-              "ref": "1,5",
-              "category": "contexto",
+              "ref": "1:5",
+              "category": "kultur",
               "keyword": "Herodes",
-              "content": "Herodes el Grande (reinó 37-4 a.C.), rey instalado por Roma, famoso por su crueldad."
+              "content": "Herodes el Grande, rey entre el 37 y el 4 a.C., instalado por Roma. Bajo su reinado, tanto el Templo de Jerusalén (que él reconstruyó de forma masiva) como el sacerdocio operaban bajo presión política."
             },
             {
-              "ref": "1,5",
-              "category": "increble",
-              "keyword": "Precisión histórica",
-              "content": "Lucas demuestra conocimiento histórico preciso en sus referencias. Herodes el Grande está bien documentado en fuentes como Josefo (Antigüedades 15-17) y la arqueología confirma sus proyectos de construcción, incluida la expansión del Templo de Jerusalén. Para lectores escépticos sobre la historicidad bíblica, Lucas muestra una atención al detalle que sugiere investigación seria, no invención piadosa (cf. Lucas 1,3)."
+              "ref": "1:5",
+              "category": "text",
+              "keyword": "en tiempos de Herodes",
+              "content": "Lucas ancla su relato en la historia verificable. La existencia de Herodes el Grande está documentada en Josefo (Antigüedades Judías 14-17), en monedas, inscripciones y restos arqueológicos (Herodión, Masada, el Muro Occidental). Las 24 secciones sacerdotales están confirmadas en inscripciones sinagogales del siglo III-IV d.C. y en los manuscritos de Qumrán. Lucas no escribe mito — sitúa su narración en coordenadas históricas comprobables."
             },
             {
-              "ref": "1,5",
-              "category": "cultura",
-              "keyword": "Grupo de Abías",
-              "content": "Uno de 24 grupos de sacerdotes que servían por turnos en el templo (1 Cr 24,10)."
-            },
-            {
-              "ref": "1,5",
-              "category": "cultura",
-              "keyword": "Familia de Aarón",
-              "content": "Ambos de familias sacerdotales — la aristocracia religiosa. Si alguna familia merecía la bendición de Dios, era esta."
+              "ref": "1:5",
+              "category": "kultur",
+              "keyword": "sección de Abías",
+              "content": "El sacerdocio del Templo de Jerusalén estaba dividido en 24 secciones que se turnaban según un calendario rotativo (véase 1 Cr 24). La sección de Abías era la octava. Cada grupo servía dos semanas al año."
             }
           ],
           "isPoetry": false,
@@ -99,35 +99,37 @@
         },
         {
           "number": "6",
-          "text": "<span class=\"amplification\">Y en efecto:</span> Ambos vivían de tal manera que nadie podía reprocharles nada. <span class=\"amplification\">Nadie podía decir nada malo de ellos.</span>",
-          "footnotes": [],
+          "text": "Vivían sin reproche ante Dios, cumplían cada mandato, cada norma, sin faltar una sola vez.",
+          "footnotes": [
+            {
+              "ref": "1:6",
+              "category": "text",
+              "keyword": "sin reproche",
+              "content": "El texto establece algo incómodo: personas intachables ante Dios pueden vivir sin recompensa visible durante décadas. La fidelidad de Zacarías y Elisabet no produjo el resultado esperado. La ecuación «vida correcta = vida bendecida» se rompe aquí — y Lucas lo subraya deliberadamente antes de contar la resolución."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "7",
-          "text": "<span class=\"amplification\">Pero su vida no se sentía bendecida.</span> Elisabet no había podido tener hijos. <span class=\"amplification\">No tener hijos — en su mundo esto no era una desgracia privada. Era vergüenza. Era la pregunta que nadie hacía en voz alta pero todos pensaban: ¿Qué hicieron para que Dios los castigue así? No habían hecho nada.</span> Y ambos eran <span class=\"amplification\">ya</span> ancianos.",
+          "text": "<span class=\"amplification\">Y sin embargo.</span> Elisabet no había podido tener hijos. <span class=\"amplification\">No era solo un dolor privado. En su mundo, eso era vergüenza. Era la pregunta que nadie hacía en voz alta: ¿qué habrán hecho para que Dios los castigue así? Pero ellos no habían hecho nada.</span> Y ya eran viejos.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,7",
-              "category": "cultura",
-              "keyword": "Sin hijos",
-              "content": "En la cultura del honor y la vergüenza, no tener hijos significaba vergüenza pública. La gente se preguntaba qué habían hecho mal los afectados para que Dios los castigara así."
+              "ref": "1:7",
+              "category": "kultur",
+              "keyword": "no había podido tener hijos",
+              "content": "En la cultura mediterránea del siglo I, la falta de hijos era vergüenza pública, no solo dolor privado. La pregunta no formulada: ¿qué habrán hecho para que Dios los castigue? Pero el texto subraya que eran intachables. El contraste es deliberado."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "En el templo",
-      "verses": [
+        },
         {
           "number": "8",
-          "text": "<span class=\"paragraph-break\"></span>Un día, le tocó el turno a <span class=\"amplification\">su</span> grupo de servicio. Zacarías estaba sirviendo ante Dios,",
+          "text": "<span class=\"amplification\">En el Templo de Jerusalén, las veinticuatro secciones de sacerdotes se turnaban según un calendario antiguo.</span> Cuando llegó el turno de la sección de Abías,",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -135,19 +137,13 @@
         },
         {
           "number": "9",
-          "text": "y la suerte cayó sobre él: debía ofrecer el incienso. <span class=\"amplification\">El privilegio que un sacerdote esperaba toda su vida. Algunos nunca lo experimentaban.</span>",
+          "text": "echaron suertes, y la suerte cayó sobre Zacarías: le tocó entrar en el santuario a quemar incienso. <span class=\"amplification\">El momento que un sacerdote espera toda la vida — muchos no lo viven nunca.</span>",
           "footnotes": [
             {
-              "ref": "1,9",
-              "category": "cultura",
-              "keyword": "La suerte",
-              "content": "Echar suertes era un medio de guía divina (Pr 16,33). Dios eligió a Zacarías — no fue casualidad."
-            },
-            {
-              "ref": "1,9",
-              "category": "cultura",
-              "keyword": "Ofrenda de incienso",
-              "content": "El mayor privilegio de un sacerdote. Con miles de sacerdotes, un hombre podía esperar toda su vida sin ser elegido jamás."
+              "ref": "1:9",
+              "category": "kultur",
+              "keyword": "la suerte cayó sobre Zacarías",
+              "content": "La ofrenda de incienso en el santuario era el privilegio más alto para un sacerdote — y se asignaba por sorteo, una sola vez en la vida. Muchos sacerdotes nunca lo experimentaban. El griego ἔλαχε (recibió por sorteo) lleva el peso de la decisión divina, no del azar."
             }
           ],
           "isPoetry": false,
@@ -156,7 +152,7 @@
         },
         {
           "number": "10",
-          "text": "Entró en el santuario. Solo.<span class=\"paragraph-break\"></span><span class=\"amplification\">Ante él, el altar de oro del incienso. El candelabro de siete brazos proyectaba luz parpadeante en las paredes. Detrás, la pesada cortina, y más allá el Lugar Santísimo — el lugar donde habitaba Dios mismo.</span> Afuera<span class=\"amplification\">, silenciosamente,</span> el pueblo estaba de pie orando.",
+          "text": "El pueblo se congregó fuera, rezando. Zacarías entró. <span class=\"amplification\">El santuario: el candelabro, el altar del incienso, el olor a resina quemada, el silencio. Estaba solo.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -164,19 +160,13 @@
         },
         {
           "number": "11",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Entonces</span> apareció un ángel. A la derecha del altar<span class=\"amplification\">— el lado de donde viene la bendición</span>.",
+          "text": "Y entonces, allí estaba: un ángel. A la derecha del altar — <span class=\"amplification\">el lado de la bendición.</span>",
           "footnotes": [
             {
-              "ref": "1,11",
-              "category": "increble",
-              "keyword": "Ángel",
-              "content": "Para los lectores modernos esto plantea preguntas: ¿Ángeles? ¿En serio? El texto presupone una visión del mundo en la que Dios actúa a través de mensajeros — no como metáfora, sino como encuentro real. Algunos entienden a los ángeles como experiencia interior o recurso literario. Otros — y así lo presenta el texto — como una aparición objetiva. El griego ἄγγελος significa simplemente \"mensajero\". Lucas presenta a Gabriel como un mensajero concreto con un mensaje concreto."
-            },
-            {
-              "ref": "1,11",
-              "category": "cultura",
-              "keyword": "Derecha",
-              "content": "El lado derecho era la posición de bendición y favor (Sal 110,1)."
+              "ref": "1:11",
+              "category": "text",
+              "keyword": "ángel",
+              "content": "Las apariciones angélicas son uno de los aspectos más difíciles de la Biblia para lectores modernos. El texto asume un mundo donde Dios se comunica a través de mensajeros. Interpretaciones posibles: (1) simbólica — recurso literario para una experiencia interior; (2) psicológica — experiencia visionaria intensa; (3) literal — encuentro real con un ser espiritual. Jesús mismo se refirió a los ángeles como reales (Lc 4:10; Mt 18:10). Lo que todas las lecturas comparten: un mensaje fue recibido y lo cambió todo."
             }
           ],
           "isPoetry": false,
@@ -185,28 +175,37 @@
         },
         {
           "number": "12",
-          "text": "Zacarías lo vio. Y el miedo lo invadió.",
-          "footnotes": [],
+          "text": "El miedo le cayó encima.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:12",
+              "category": "text",
+              "keyword": "El miedo le cayó encima",
+              "content": "Griego φόβος ἐπέπεσεν αὐτῷ — literalmente «el miedo cayó sobre él». Traducciones planas: «tuvo miedo», «se asustó». La diferencia: la fisicalidad del verbo es esencial. El miedo viene de fuera y de arriba, como un objeto que cae."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "La promesa",
-      "verses": [
+        },
         {
           "number": "13",
-          "text": "<span class=\"paragraph-break\"></span>El ángel dijo: \"No tengas miedo, Zacarías. Tu oración ha sido escuchada. Elisabet, tu esposa, te dará un hijo. Llámalo Juan.",
-          "footnotes": [],
+          "text": "El ángel dijo: «No tengas miedo, Zacarías. Tu oración ha sido escuchada. Tu mujer Elisabet te dará un hijo, y le pondrás por nombre Juan.",
+          "footnotes": [
+            {
+              "ref": "1:13",
+              "category": "text",
+              "keyword": "Juan",
+              "content": "En hebreo: Yohanán — «el Señor ha mostrado gracia». El nombre resume en una palabra lo que estos nueve meses van a significar."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "14",
-          "text": "Él te traerá alegría<span class=\"amplification\">, una gran alegría</span>. Y muchos se alegrarán de su nacimiento.",
+          "text": "Será tu alegría — tuya y de muchos otros.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -214,13 +213,25 @@
         },
         {
           "number": "15",
-          "text": "Ante Dios será grande. Nunca tocará vino ni licor — el Espíritu Santo lo llenará desde el vientre de su madre.",
+          "text": "Será grande ante Dios. No beberá vino ni bebida fuerte. Desde antes de nacer, el Espíritu Santo lo llenará.",
           "footnotes": [
             {
-              "ref": "1,15",
-              "category": "contexto",
-              "keyword": "Vino y licor",
-              "content": "Alusión al voto nazareo (Nm 6,3). Como Sansón y Samuel, Juan estaba consagrado a Dios desde su nacimiento."
+              "ref": "1:15",
+              "category": "kultur",
+              "keyword": "vino ni bebida fuerte",
+              "content": "El voto de nazireo (Números 6:3) apartaba a una persona para Dios mediante la abstinencia. Sansón y Samuel fueron consagrados del mismo modo. La abstinencia de Juan no es un programa ascético individual, sino una señal: está destinado a esta vocación desde antes de nacer."
+            },
+            {
+              "ref": "1:15",
+              "category": "text",
+              "keyword": "el Espíritu Santo lo llenará",
+              "content": "La idea de que un niño no nacido pueda ser llenado del Espíritu Santo desafía toda categoría moderna. Interpretaciones: metafórica (forma de expresar que Juan fue apartado para su misión desde el inicio); teológico-literal (la acción divina no depende de la conciencia del receptor — tradición cristiana desde los Padres de la Iglesia); psicológica (retroproyección teológica sobre la vida prenatal de Juan). Lo que comparten: la vocación de Juan no fue elegida, sino recibida antes de que pudiera aceptarla o rechazarla."
+            },
+            {
+              "ref": "1:15",
+              "category": "kontext",
+              "keyword": "Desde antes de nacer",
+              "content": "La consagración prenatal conecta a Juan con Sansón (Jueces 13:4-5), Samuel (1 Samuel 1:11) y Jeremías (Jeremías 1:5: «antes de formarte en el vientre, te conocí»). Lucas inscribe a Juan en la tradición de los grandes apartados de Israel — pero con una diferencia: ningún otro fue descrito como lleno del Espíritu Santo antes de nacer."
             }
           ],
           "isPoetry": false,
@@ -229,7 +240,7 @@
         },
         {
           "number": "16",
-          "text": "Hará que muchos en Israel vuelvan al Señor su Dios.",
+          "text": "Hará que muchos en Israel vuelvan a su Dios,",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -237,41 +248,43 @@
         },
         {
           "number": "17",
-          "text": "Irá delante de él con el poder de Elías. Reconciliará a padres e hijos, traerá a los rebeldes a la cordura. Así preparará un pueblo — un pueblo listo para el Señor.\"",
+          "text": "con el espíritu y la fuerza de Elías, para preparar un pueblo que esté listo para el Señor.»<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,17",
-              "category": "contexto",
-              "keyword": "Elías",
-              "content": "Malaquías había anunciado que Elías regresaría antes del gran día del Señor (Mal 3,23-24). Juan cumple este rol."
+              "ref": "1:17",
+              "category": "kontext",
+              "keyword": "el espíritu y la fuerza de Elías",
+              "content": "Alusión a Malaquías 3:1 y 4:5-6: el profeta Elías que volvería antes del gran día del Señor para reconciliar corazones. Juan no es Elías, pero lleva su herencia profética y su fuerza. Jesús confirmó esta identificación (Lc 7:27; Mt 11:14)."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Zacarías duda",
-      "verses": [
+        },
         {
           "number": "18",
-          "text": "<span class=\"paragraph-break\"></span>Zacarías preguntó: \"¿Cómo puedo saber esto? Soy viejo. Mi esposa también.\"",
-          "footnotes": [],
+          "text": "Zacarías preguntó: «¿Cómo puedo estar seguro de eso? Soy viejo. Mi mujer también.»<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:18",
+              "category": "kontext",
+              "keyword": "¿Cómo puedo estar seguro?",
+              "content": "La misma pregunta que Abraham en Génesis 15:8 («¿en qué conoceré?»), pero con consecuencias más severas. Posible explicación: Zacarías tiene más revelación (el Templo, los profetas). O quizá la disciplina es formativa, no punitiva — el silencio como preparación."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "19",
-          "text": "El ángel respondió: \"Soy Gabriel. Estoy ante el trono de Dios. Él me ha enviado para darte esta buena noticia.",
+          "text": "El ángel respondió: «Yo soy Gabriel — uno de los que están ante <span class=\"amplification\">el trono de</span> Dios. He sido enviado a decirte esto, a traerte esta noticia.",
           "footnotes": [
             {
-              "ref": "1,19",
-              "category": "nombre",
-              "keyword": "Gabriel (Γαβριήλ)",
-              "content": "Hebreo \"fuerza de Dios\". Uno de los arcángeles, que \"está ante Dios\". El mismo ángel se apareció a Daniel (Dn 8,16; 9,21)."
+              "ref": "1:19",
+              "category": "text",
+              "keyword": "Gabriel",
+              "content": "En hebreo: «fuerza de Dios» o «guerrero de Dios». Gabriel aparece solo cuatro veces en la Biblia: dos en Daniel (8:16; 9:21) y dos aquí en Lucas (1:19; 1:26). En Daniel anuncia el fin de los tiempos; en Lucas anuncia nacimientos. El mismo mensajero — misiones diferentes. La tradición judía (1 Henoc, Talmud) lo sitúa como uno de los cuatro arcángeles principales."
             }
           ],
           "isPoetry": false,
@@ -280,13 +293,66 @@
         },
         {
           "number": "20",
-          "text": "Pero como no has creído mis palabras — palabras que se cumplirán a su debido tiempo — quedarás mudo. No podrás hablar hasta que esto suceda.\"",
+          "text": "Pero como no has creído lo que te digo, vas a quedarte mudo — sin poder hablar — hasta el día en que todo esto suceda.»<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,18-20",
-              "category": "vida",
-              "keyword": "La duda del profesional",
-              "content": "Zacarías es un líder religioso experimentado que duda del mensaje divino, mientras que María, una joven sin formación teológica, confía. Esta inversión cuestiona las estructuras tradicionales de autoridad religiosa. En el contexto español, donde muchos han perdido confianza en las instituciones eclesiásticas, el texto sugiere que el encuentro auténtico con lo divino puede suceder fuera de los marcos establecidos, incluso cuando los profesionales fallan."
+              "ref": "1:20",
+              "category": "text",
+              "keyword": "vas a quedarte mudo",
+              "content": "Un sacerdote pierde la voz en el acto litúrgico más solemne de su vida. Interpretaciones: médica (shock psicogénico, afonía funcional — documentada en la literatura médica ante eventos de estrés extremo); simbólica (el silencio como metáfora narrativa: la vieja era enmudece para que la nueva pueda hablar); teológico-literal (disciplina divina directa, como la ceguera de Pablo en Hechos 9). Lo que comparten: el silencio obligado de Zacarías tiene una función — cuando se rompe, lo primero que sale es alabanza (v.64)."
+            },
+            {
+              "ref": "1:20",
+              "category": "text",
+              "keyword": "sin poder hablar",
+              "content": "Nueve meses sin hablar. Sin opinar, sin controlar, sin explicar. El silencio forzado de Zacarías no es solo castigo — es transformación. Al final, de su boca sale profecía, no quejas. A veces la pérdida de control sobre lo que se puede decir abre espacio para escuchar lo que realmente importa."
+            }
+          ],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "21",
+          "text": "Afuera, el pueblo esperaba. <span class=\"amplification\">Demasiado tiempo.</span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "22",
+          "text": "Cuando Zacarías por fin salió, no podía hablar. Les hacía señas. Entendieron: <span class=\"amplification\">algo le había pasado allí dentro</span>.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "23",
+          "text": "Cuando terminó su turno de servicio, volvió a casa.<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "24",
+          "text": "Poco después, Elisabet quedó embarazada. Durante cinco meses no salió de casa.",
+          "footnotes": [],
+          "isPoetry": false,
+          "poetryLevel": 0,
+          "lines": []
+        },
+        {
+          "number": "25",
+          "text": "Después dijo: «Esto lo ha hecho Dios por mí. Me ha mirado. Me ha quitado la vergüenza.»",
+          "footnotes": [
+            {
+              "ref": "1:25",
+              "category": "text",
+              "keyword": "Me ha quitado la vergüenza",
+              "content": "La reacción de Elisabet no es solo alivio personal: es restauración social. Dios revierte un juicio de la comunidad. La expresión «me ha mirado» (ἐπεῖδεν ἐπί με) es la misma que aparece en el Magnificat (1:48). La mirada de Dios sobre los que nadie mira es un motivo central en Lucas."
             }
           ],
           "isPoetry": false,
@@ -296,56 +362,11 @@
       ]
     },
     {
-      "heading": "El silencio comienza",
-      "verses": [
-        {
-          "number": "21",
-          "text": "<span class=\"paragraph-break\"></span>Afuera, el pueblo esperaba a Zacarías. <span class=\"amplification\">Tiempo inusualmente largo. La bendición sacerdotal normalmente duraba solo unos momentos.</span>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "22",
-          "text": "Cuando finalmente salió, no podía hablar. Hacía señas con las manos. Entonces comprendieron: había tenido una visión<span class=\"amplification\">. En el santuario, donde habita Dios</span>.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "23",
-          "text": "Después de su servicio, se fue a casa. <span class=\"amplification\">Mudo. Incapaz de pronunciar la bendición que el pueblo esperaba.</span>",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "24",
-          "text": "Poco después, Elisabet quedó embarazada. Durante cinco meses se mantuvo oculta.",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        },
-        {
-          "number": "25",
-          "text": "Dijo: \"Esto es lo que el Señor ha hecho por mí. Me ha mirado. Me ha quitado la vergüenza<span class=\"amplification\">— la vergüenza de los sin hijos, que a los ojos de todos eran considerados castigados por Dios</span>.\"",
-          "footnotes": [],
-          "isPoetry": false,
-          "poetryLevel": 0,
-          "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "María dice sí",
+      "heading": "María dice que sí",
       "verses": [
         {
           "number": "26",
-          "text": "<span class=\"paragraph-break\"></span>Seis meses después, Dios envió al ángel Gabriel <span class=\"amplification\">otra vez. Esta vez no al templo. No a Jerusalén.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">A</span> Galilea. A un pueblo llamado Nazaret<span class=\"amplification\">. Un lugar del que nadie había oído hablar</span>.<span class=\"paragraph-break\"></span><span class=\"amplification\">Sin templo. Sin incienso. Sin pueblo orando afuera. Solo una muchacha.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Seis meses después, Dios envió al mismo ángel — Gabriel — en otra misión. <span class=\"amplification\">Esta vez no a Jerusalén. No al magno Templo.</span> A Galilea. A un pueblo que nadie conocía: Nazaret.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -353,13 +374,19 @@
         },
         {
           "number": "27",
-          "text": "<span class=\"paragraph-break\"></span>Se llamaba María. Estaba prometida a un hombre llamado José, que pertenecía a la casa de David. <span class=\"amplification\">Prometida — eso significaba: ya le pertenecía a él, legalmente. Pero todavía vivía con su padre. La boda aún estaba por venir.</span>",
+          "text": "Allí vivía una joven llamada María. Estaba prometida con un hombre llamado José, del linaje del rey David. <span class=\"amplification\">Prometida — y en su mundo eso era más que una promesa. Ante la ley, ya era su esposa, aunque vivía todavía con su familia.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,27",
-              "category": "cultura",
-              "keyword": "Compromiso",
-              "content": "El compromiso era legalmente vinculante — romperlo requería un divorcio formal. María todavía vivía con su padre; la boda aún estaba por venir."
+              "ref": "1:27",
+              "category": "text",
+              "keyword": "joven",
+              "content": "Griego παρθένος — tradicionalmente «virgen». El término indica una mujer joven, soltera, bajo la autoridad del padre. La pregunta de María en el v.34 confirma su situación sexual. «Joven» preserva la realidad social sin cargar el texto con el peso dogmático del término «virgen»."
+            },
+            {
+              "ref": "1:27",
+              "category": "kultur",
+              "keyword": "prometida",
+              "content": "El compromiso (μνηστευομένη) en el mundo judío del siglo I era jurídicamente vinculante — no un simple acuerdo, sino ya un matrimonio ante la ley. Para romperlo habría sido necesario un divorcio. María vivía todavía en casa de sus padres, pero legalmente ya pertenecía a José. Un embarazo en esta fase se habría considerado adulterio, con graves consecuencias."
             }
           ],
           "isPoetry": false,
@@ -368,23 +395,37 @@
         },
         {
           "number": "28",
-          "text": "El ángel vino a ella y dijo: \"¡Alégrate, favorecida! El Señor está contigo.\"",
-          "footnotes": [],
+          "text": "El ángel se presentó ante ella y dijo: «Dios te saluda, tú, la favorecida. El Señor está contigo.»",
+          "footnotes": [
+            {
+              "ref": "1:28",
+              "category": "text",
+              "keyword": "la favorecida",
+              "content": "Griego κεχαριτωμένη — participio perfecto pasivo de χαριτόω. El perfecto indica una acción completada con efecto permanente: María es alguien sobre quien Dios ya ha actuado con gracia, y esa gracia permanece. Traducciones tradicionales: «llena de gracia» (Ave María). Aperto: «la favorecida» — Dios es el sujeto, María es la receptora, no la fuente de la gracia. Este saludo no tiene precedente en toda la Escritura."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "29",
-          "text": "Las palabras la perturbaron. Se preguntaba qué significaría este saludo.",
-          "footnotes": [],
+          "text": "Las palabras la sacudieron. <span class=\"amplification\">¿Qué significaba aquello?</span><span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:29",
+              "category": "text",
+              "keyword": "la sacudieron",
+              "content": "Griego διεταράχθη — de ταράσσω, «sacudir violentamente, agitar en lo profundo». Verbo más fuerte que el miedo de Zacarías (1:12). Lucas muestra: María no se asusta del ángel, sino del saludo — piensa en lo que significa. Traducciones planas: «se turbó», «se asustó». La diferencia: son las palabras, no la imagen, lo que la mueve — y el movimiento es más profundo."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "30",
-          "text": "El ángel dijo: \"No tengas miedo, María. <span class=\"amplification\">Dios te ha elegido.</span>",
+          "text": "El ángel dijo: «No tengas miedo, María. Has encontrado el favor de Dios.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -392,7 +433,7 @@
         },
         {
           "number": "31",
-          "text": "Vas a quedar embarazada y darás a luz un hijo. Llámalo Jesús.",
+          "text": "Vas a quedar embarazada y tendrás un hijo. Le pondrás por nombre Jesús.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -400,13 +441,13 @@
         },
         {
           "number": "32",
-          "text": "Él será grande. Lo llamarán Hijo del Altísimo. Dios, el Señor, le dará el trono de su antepasado David.",
+          "text": "Será grande y lo llamarán Hijo del Altísimo. Dios le dará el trono de David, su antepasado, y reinará sobre el pueblo de Israel para siempre.",
           "footnotes": [
             {
-              "ref": "1,32-33",
-              "category": "contexto",
-              "keyword": "Trono de David",
-              "content": "La promesa a David (2 Sam 7,12-16) moldeó las expectativas mesiánicas judías. Dios le había prometido a David un trono eterno — pero el reino había caído hace mucho."
+              "ref": "1:32-33",
+              "category": "kontext",
+              "keyword": "el trono de David",
+              "content": "La promesa de Natán (2 Samuel 7:12-16): Dios juró a David que su casa y su reino perdurarían para siempre. La esperanza mesiánica judía del siglo I aguardaba un rey davídico que liberara a Israel políticamente. Lucas muestra: Jesús cumple esta esperanza, pero de una manera inesperada."
             }
           ],
           "isPoetry": false,
@@ -415,7 +456,7 @@
         },
         {
           "number": "33",
-          "text": "Reinará sobre <span class=\"amplification\">Israel</span> para siempre. Su reino no tendrá fin.\"",
+          "text": "Su reinado no tendrá fin.»<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -423,21 +464,34 @@
         },
         {
           "number": "34",
-          "text": "María preguntó: \"¿Cómo va a suceder esto? Nunca he estado con un hombre.\"",
-          "footnotes": [],
+          "text": "María preguntó: «¿Cómo puede pasar eso? No he estado con ningún hombre.»<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:34",
+              "category": "text",
+              "keyword": "¿Cómo puede pasar eso?",
+              "content": "La pregunta de María no es rechazo. Es la pregunta más honesta posible ante algo incomprensible. A diferencia de Zacarías (v.18), que pide pruebas, María pregunta por el mecanismo. La diferencia importa: una pregunta nace de la duda, la otra de la disposición a entender. Hacer preguntas difíciles no es lo opuesto de la fe — puede ser su forma más auténtica."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "35",
-          "text": "El ángel respondió: \"El Espíritu Santo vendrá sobre ti. El poder del Altísimo te cubrirá con su sombra<span class=\"amplification\">— como una vez la nube llenó el santuario</span>. Por eso <span class=\"amplification\">al niño que des a luz lo</span> llamarán santo: Hijo de Dios.",
+          "text": "El ángel respondió: «El Espíritu Santo vendrá sobre ti. La fuerza del Altísimo te cubrirá — <span class=\"amplification\">como la nube cubrió el santuario.</span> Por eso el niño que nacerá será santo: lo llamarán Hijo de Dios.",
           "footnotes": [
             {
-              "ref": "1,34-35",
-              "category": "increble",
-              "keyword": "Nacimiento virginal",
-              "content": "La idea de una concepción sin hombre es difícil de creer para los lectores modernos. El texto no afirma partenogénesis biológica, sino acción divina: el Espíritu de Dios hace lo que naturalmente es imposible. Algunos entienden esto simbólicamente — como expresión de la relación única de Jesús con Dios. Otros, como las iglesias históricas, lo entienden literalmente como milagro. El griego ἐπισκιάζω (\"cubrir/hacer sombra\") recuerda la nube que llenó el santuario (Ex 40,35) — María se convierte en el lugar de la presencia divina."
+              "ref": "1:35",
+              "category": "text",
+              "keyword": "te cubrirá",
+              "content": "Griego ἐπισκιάσει — «cubrir con sombra», el mismo verbo que en Éxodo 40:35, donde la presencia de Dios (Shekiná) cubrió la Tienda del Encuentro. El ángel equipara a María con el santuario: así como la nube significó la presencia de Dios, el Espíritu morará ahora en ella. María = nuevo santuario."
+            },
+            {
+              "ref": "1:35",
+              "category": "text",
+              "keyword": "El Espíritu Santo vendrá sobre ti",
+              "content": "La concepción virginal es uno de los puntos más debatidos de la fe. Lucas no ofrece detalles biológicos — usa lenguaje de Templo (Shekiná). Interpretaciones: teológico-literal (concepción virginal histórica, tradición cristiana desde el siglo I; Credo Apostólico); simbólica (afirmación sobre el origen único de Jesús en Dios); histórico-crítica (construcción teológica). Lo que comparten todas las lecturas: el origen de Jesús no es casual — el texto lo vincula directamente a la acción de Dios."
             }
           ],
           "isPoetry": false,
@@ -446,7 +500,7 @@
         },
         {
           "number": "36",
-          "text": "<span class=\"amplification\">Por cierto —</span> tu pariente Elisabet también está embarazada, ella, a la que llamaban estéril. Ya está en su sexto mes.",
+          "text": "Y mira: tu pariente Elisabet, la que todos decían que no podía tener hijos, está embarazada. Ya va por el sexto mes.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -454,13 +508,13 @@
         },
         {
           "number": "37",
-          "text": "<span class=\"amplification\">Para</span> Dios nada es imposible.\"<span class=\"paragraph-break\"></span>",
+          "text": "Porque para Dios nada es imposible.»<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,37",
-              "category": "contexto",
-              "keyword": "Nada imposible",
-              "content": "Eco de Génesis 18,14, donde Dios promete un hijo a la anciana Sara."
+              "ref": "1:37",
+              "category": "kontext",
+              "keyword": "nada es imposible",
+              "content": "Eco directo de Génesis 18:14, donde Dios dice a Sara (también anciana, también estéril): «¿Hay algo imposible para el Señor?». Lucas conecta deliberadamente a Elisabet con Sara y a María con una nueva promesa aún mayor. La frase no es un eslogan genérico de optimismo — es una afirmación teológica específica: Dios cumple lo que promete, aunque sea biológica o socialmente imposible."
             }
           ],
           "isPoetry": false,
@@ -469,19 +523,19 @@
         },
         {
           "number": "38",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">María sabía lo que esto significaba. Embarazada antes de la boda — eso no era vergonzoso. Era peligroso. José podía repudiarla. La ley permitía cosas peores. Su reputación, su futuro, el honor de su familia — todo estaba en juego. ¿Y el niño? Sería considerado un bastardo, toda su vida.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Y</span> ella dijo: \"Pertenezco al Señor. Lo que has dicho — que así sea.\"<span class=\"paragraph-break\"></span>Entonces el ángel se fue<span class=\"amplification\">de ella</span>.",
+          "text": "María dijo: «Le pertenezco al Señor. Que se haga como has dicho.» El ángel se fue.",
           "footnotes": [
             {
-              "ref": "1,38",
-              "category": "cultura",
-              "keyword": "El riesgo",
-              "content": "Una prometida que quedaba embarazada arriesgaba la vergüenza pública. Deuteronomio 22,23-24 prescribía la lapidación por adulterio de una prometida. El sí de María fue valentía, no reflejo piadoso."
+              "ref": "1:38",
+              "category": "text",
+              "keyword": "Le pertenezco al Señor",
+              "content": "Griego δούλη κυρίου — literalmente «esclava del Señor». Traducciones tradicionales: «Sierva del Señor» (Luther/RV). Aperto: «Le pertenezco al Señor» — transmite la pertenencia voluntaria sin las connotaciones de esclavitud que desorientan al lector moderno. El sí de María no es forzado sino decidido, nacido de la pertenencia."
             },
             {
-              "ref": "1,38",
-              "category": "vida",
-              "keyword": "El sí de María",
-              "content": "El sí de María trasciende la devoción mariana tradicional. Es una mujer joven que acepta un riesgo extraordinario — social, familiar, personal — confiando en una promesa que no puede verificar. Su fe no es pasiva sino activamente valiente. Un modelo que resuena más allá de los contextos religiosos: a veces la vida exige apostar por algo mayor que nosotros, sin garantías."
+              "ref": "1:38",
+              "category": "text",
+              "keyword": "Que se haga como has dicho",
+              "content": "La respuesta de María es uno de los sí más valientes de la historia. Lo dice sin garantía de que saldrá bien: José podría repudiarla, su familia avergonzarse, el pueblo rechazarla. El verbo en optativo (γένοιτο) expresa un deseo resuelto — no aceptación pasiva, sino voluntad activa. El coraje no surge cuando desaparece el riesgo, sino a pesar de él."
             }
           ],
           "isPoetry": false,
@@ -495,15 +549,22 @@
       "verses": [
         {
           "number": "39",
-          "text": "<span class=\"paragraph-break\"></span>María se puso en camino. <span class=\"amplification\">De inmediato.</span> Se apresuró <span class=\"amplification\">— durante días</span> a través de la región montañosa<span class=\"amplification\">, sola,</span> hacia una ciudad de Judea.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>María no esperó. Se puso en camino de inmediato, hacia las montañas de Judea. <span class=\"amplification\">Eran ochenta millas — varios días a pie.</span>",
+          "footnotes": [
+            {
+              "ref": "1:39",
+              "category": "kultur",
+              "keyword": "hacia las montañas de Judea",
+              "content": "Nazaret a la zona montañosa de Judea: unos 130 kilómetros, cuatro o cinco días a pie. Una joven soltera, probablemente embarazada, viajando sola o con una caravana por caminos inseguros. El detalle no es decorativo — Lucas muestra la urgencia y el coraje físico de María. En el siglo I, este viaje era una decisión seria, no un paseo."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "40",
-          "text": "Entró en la casa de Zacarías y saludó a Elisabet.",
+          "text": "Llegó a la casa de Zacarías y saludó a Elisabet.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -511,13 +572,19 @@
         },
         {
           "number": "41",
-          "text": "<span class=\"amplification\">Lo que pasó entonces fue más que un reencuentro.</span> Cuando Elisabet oyó la voz de María, el bebé saltó en su vientre. El Espíritu Santo llenó a Elisabet.",
+          "text": "En el momento en que Elisabet oyó la voz de María, el niño saltó dentro de ella. El Espíritu Santo llenó a Elisabet,",
           "footnotes": [
             {
-              "ref": "1,41",
-              "category": "increble",
-              "keyword": "El bebé saltó",
-              "content": "¿Puede un bebé no nacido reaccionar proféticamente? El texto usa la misma palabra que para Jacob y Esaú en el vientre de Rebeca (Gn 25,22). Lucas presenta esto como más que movimiento normal — como reconocimiento antes del nacimiento. Los escépticos ven aquí embellecimiento literario; los creyentes ven al Espíritu de Dios obrando ya en el vientre materno."
+              "ref": "1:41",
+              "category": "text",
+              "keyword": "saltó",
+              "content": "Griego ἐσκίρτησεν — un verbo de movimiento vivo e intenso (el mismo de Salmo 114:4, donde los montes «danzan»). Traducciones planas: «se movió», «se estremeció». El verbo es inequívoco: el niño ejecuta un salto de alegría, no un simple movimiento."
+            },
+            {
+              "ref": "1:41",
+              "category": "text",
+              "keyword": "El Espíritu Santo llenó a Elisabet",
+              "content": "El llenado del Espíritu y la profecía posterior plantean preguntas a los lectores modernos. Interpretaciones: fisiológica (la reacción emocional fue interpretada teológicamente después); psicológica (un reconocimiento intenso en el instante del encuentro); teológico-literal (el Espíritu Santo actuó a través del acontecimiento). Lucas describe el hecho como detonante de la palabra profética, sin arbitrar entre interpretaciones."
             }
           ],
           "isPoetry": false,
@@ -526,15 +593,28 @@
         },
         {
           "number": "42",
-          "text": "Exclamó en voz alta<span class=\"amplification\">— como una profetisa</span>:<span class=\"paragraph-break\"></span>\"¡Bendita eres tú<span class=\"amplification\">, más que todas las mujeres</span>! ¡Bendito es <span class=\"amplification\">el niño en</span> tu vientre!",
-          "footnotes": [],
+          "text": "y gritó — <span class=\"amplification\">como una profetisa:</span> «¡Bendita tú entre todas las mujeres, y bendito el fruto de tu vientre!<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:42",
+              "category": "text",
+              "keyword": "gritó",
+              "content": "Griego ἀνεφώνησεν κραυγῇ μεγάλῃ — «gritó con un gran grito». El guion en la traducción enacta la fuerza profética del momento: la voz estalla, incontrolable, antes de que lleguen las palabras."
+            },
+            {
+              "ref": "1:42",
+              "category": "kontext",
+              "keyword": "Bendita tú entre las mujeres",
+              "content": "Esta bendición evoca las heroínas de Israel: Jael (Jueces 5:24 — «Bendita entre las mujeres sea Jael») y Judit (Judit 13:18 — «Bendita eres tú, hija»). Elisabet sitúa a María en la línea de mujeres que cambiaron la historia de Israel."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "43",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Pero ¿cómo es posible que</span> la madre de mi Señor venga a mí? <span class=\"amplification\">¿Yo — a mí?</span>",
+          "text": "¿Quién soy yo para que la madre de mi Señor venga a verme?",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -542,7 +622,7 @@
         },
         {
           "number": "44",
-          "text": "¡Cuando tu voz llegó a mi oído, mi bebé saltó de alegría!",
+          "text": "Porque en el instante en que tu voz llegó a mis oídos, el niño saltó de alegría dentro de mí.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -550,13 +630,13 @@
         },
         {
           "number": "45",
-          "text": "<span class=\"amplification\">Has creído. Por eso</span> eres dichosa. Lo que <span class=\"amplification\">Dios</span> te <span class=\"amplification\">prometió</span> se cumplirá.\"",
+          "text": "Dichosa tú, que has creído: lo que Dios te ha dicho se va a cumplir.» <span class=\"amplification\">Zacarías no sabía nada. José no sabía nada. Dos mujeres, una habitación — y allí dentro, toda la historia.</span>",
           "footnotes": [
             {
-              "ref": "1,45",
-              "category": "contexto",
-              "keyword": "Has creído",
-              "content": "Elisabet alaba a María por su fe — en contraste con Zacarías, que dudó."
+              "ref": "1:45",
+              "category": "text",
+              "keyword": "Dichosa",
+              "content": "Griego μακαρία — fórmula de «bienaventuranza» (la misma que en las Bienaventuranzas de Mt 5). Traducciones tradicionales: «bienaventurada» (arcaico, evocador de catequesis franquista en España). Aperto: «dichosa» — contemporáneo, literario, con peso."
             }
           ],
           "isPoetry": false,
@@ -566,199 +646,145 @@
       ]
     },
     {
-      "heading": "Lo que Dios hace — El Magnificat",
+      "heading": "El canto de María",
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>María dijo:<span class=\"poetry-line-1\">Todo en mí — ¡todo! — celebra a Dios.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Todo en mí — ¡todo! — celebra a Dios.",
           "footnotes": [
             {
-              "ref": "1,46-55",
-              "category": "contexto",
-              "keyword": "Magnificat",
-              "content": "El cántico de María sigue el modelo del cántico de Ana (1 Sam 2,1-10). Ambas mujeres alaban a Dios por la inversión de las circunstancias."
+              "ref": "1:46",
+              "category": "text",
+              "keyword": "celebra",
+              "content": "Griego μεγαλύνει — literalmente «hace grande». Traducciones tradicionales: «alaba», «engrandece», «magnifica». Aperto: «celebra» — para captar la alegría explosiva, no la devoción silenciosa. El contexto (la situación de María, la confirmación de Elisabet) apunta a un estallido de júbilo, no a un rezo litúrgico."
+            },
+            {
+              "ref": "1:46-55",
+              "category": "kontext",
+              "keyword": "El canto de María",
+              "content": "El Magnificat se reza diariamente en las vísperas desde el siglo V. Luteranos, anglicanos, católicos y ortodoxos lo cantan juntos. En la teología de la liberación (Gustavo Gutiérrez) se convirtió en texto clave de la opción por los pobres. En Argentina y Guatemala fue prohibido por dictaduras militares por considerarse políticamente subversivo. Ningún otro canto mariano ha marcado tantas culturas tan profundamente."
             }
           ],
-          "isPoetry": true,
+          "isPoetry": false,
           "poetryLevel": 0,
-          "lines": [
-            {
-              "text": "Todo en mí — ¡todo! — celebra a Dios.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Mi espíritu se alegra en mi Salvador.</span>",
+          "text": "<span class=\"poetry-line-1\">Mi espíritu estalla de alegría</span><span class=\"poetry-line-2\">por Dios, que me rescata.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Mi espíritu se alegra en mi Salvador.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Él me ha visto.</span><span class=\"poetry-line-2\">A mí, la pequeña.</span><span class=\"poetry-line-2\">La insignificante.</span><span class=\"poetry-line-1\">Desde ahora, todas las generaciones dirán: Ella es dichosa.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Él me ha visto.",
-              "level": 1
-            },
-            {
-              "text": "A mí, la pequeña.",
-              "level": 2
-            },
-            {
-              "text": "La insignificante.",
-              "level": 2
-            },
-            {
-              "text": "Desde ahora, todas las generaciones dirán: Ella es dichosa.",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "49",
-          "text": "<span class=\"poetry-line-1\">Porque el Poderoso ha hecho grandes cosas en mí.</span><span class=\"poetry-line-2\">Santo es su nombre.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Porque el Poderoso ha hecho grandes cosas en mí.",
-              "level": 1
-            },
-            {
-              "text": "Santo es su nombre.",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "number": "50",
-          "text": "<span class=\"poetry-line-1\">Su bondad alcanza a quienes lo toman en serio —</span><span class=\"poetry-line-2\">de generación en generación.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Su bondad alcanza a quienes lo toman en serio —",
-              "level": 1
-            },
-            {
-              "text": "de generación en generación.",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "number": "51",
-          "text": "<span class=\"poetry-line-1\">Fuerte es su brazo.</span><span class=\"poetry-line-1\">¿Los soberbios? Dispersados<span class=\"amplification\">, junto con sus grandes planes</span>.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Fuerte es su brazo.",
-              "level": 1
-            },
-            {
-              "text": "¿Los soberbios? Dispersados<span class=\"amplification\">, junto con sus grandes planes</span>.",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "52",
-          "text": "<span class=\"poetry-line-1\">¿Los gobernantes? Derribados del trono.</span><span class=\"poetry-line-1\">¿Los pequeños? Levantados.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "¿Los gobernantes? Derribados del trono.",
-              "level": 1
-            },
-            {
-              "text": "¿Los pequeños? Levantados.",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "53",
-          "text": "<span class=\"poetry-line-1\">¿Los hambrientos? Saciados con todo lo bueno.</span><span class=\"poetry-line-1\">¿Los ricos? Despedidos. Con las manos vacías.</span>",
+          "text": "<span class=\"poetry-line-1\">Me miró.</span><span class=\"poetry-line-2\">Me vio a mí.</span><span class=\"poetry-line-1\">A mí — la pequeña, <span class=\"amplification\">la insignificante.</span></span><span class=\"poetry-line-2\">Y a partir de ahora, todas las generaciones dirán:</span><span class=\"poetry-line-1\">Dichosa. Colmada de dones.</span>",
           "footnotes": [
             {
-              "ref": "1,52-53",
-              "category": "vida",
-              "keyword": "Revolución divina",
-              "content": "Las palabras de María son radicalmente políticas — predican una inversión total del poder. En el contexto español, esto resuena con siglos de lucha entre privilegio y justicia, desde la Reconquista hasta la Guerra Civil. Pero el canto de María no es ideología partidista: es una visión del mundo donde la dignidad humana trasciende las estructuras de poder. Una esperanza que puede inspirar tanto a creyentes como a no creyentes que buscan un mundo más justo."
+              "ref": "1:48",
+              "category": "text",
+              "keyword": "Me miró. Me vio a mí.",
+              "content": "La mirada de Dios sobre María es lo contrario de la valoración social: ella es joven, mujer, pobre, soltera — en los márgenes de la importancia en su mundo. Lucas muestra una y otra vez: la atención de Dios se dirige especialmente a quienes la sociedad no ve (cfr. 1:25; 4:18; 7:22). No se trata de espiritualizar la pobreza, sino de invertir los criterios de valor social."
+            },
+            {
+              "ref": "1:48",
+              "category": "kontext",
+              "keyword": "todas las generaciones dirán",
+              "content": "Este versículo marca una de las diferencias interpretativas centrales entre tradiciones cristianas. La tradición católica y ortodoxa ve en el papel único de María como Madre de Dios (Θεοτόκος — Theotokos, Concilio de Éfeso 431) una dignidad especial permanente: el «dichosa» de todas las generaciones fundamenta la veneración mariana, viva hasta hoy en liturgia, oración y arte. La tradición protestante lee a María como ejemplo supremo de la persona creyente: recibe, responde, confía — y en eso es modelo para todo cristiano, no objeto de veneración. Ambas lecturas encuentran apoyo en el texto."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
+          "lines": []
+        },
+        {
+          "number": "49",
+          "text": "<span class=\"poetry-line-1\">Porque el Poderoso ha hecho grandes cosas en mí.</span><span class=\"poetry-line-2\">Santo es su nombre.</span><span class=\"poetry-break\"></span>",
+          "footnotes": [
             {
-              "text": "¿Los hambrientos? Saciados con todo lo bueno.",
-              "level": 1
-            },
-            {
-              "text": "¿Los ricos? Despedidos. Con las manos vacías.",
-              "level": 1
+              "ref": "1:49",
+              "category": "text",
+              "keyword": "grandes cosas en mí",
+              "content": "María no dice «grandes cosas para mí» (beneficio personal) sino «en mí» (ἐποίησέν μοι μεγάλα). Ella es el lugar donde Dios actúa, no solo la beneficiaria. La distinción importa: la acción de Dios no es una recompensa sino una irrupción — sucede a través de personas concretas, no en abstracto. Las «grandes cosas» empiezan en un cuerpo, en un pueblo insignificante."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
+        },
+        {
+          "number": "50",
+          "text": "<span class=\"poetry-line-1\">Su misericordia — de generación en generación —</span><span class=\"poetry-line-2\">alcanza a los que lo respetan.</span><span class=\"poetry-break\"></span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
+        },
+        {
+          "number": "51",
+          "text": "<span class=\"poetry-line-1\">Actúa con fuerza.</span><span class=\"poetry-line-2\">A los soberbios los dispersa — con todos sus planes.</span>",
+          "footnotes": [
+            {
+              "ref": "1:51-53",
+              "category": "text",
+              "keyword": "Actúa... derriba... llena... despide",
+              "content": "Los verbos griegos en vv.51-53 están en aoristo — equivalente al pretérito español. Pero muchos exegetas los entienden como «aoristo gnómico»: acción característica y atemporal de Dios, no un acontecimiento pasado. María describe lo que Dios siempre hace, no lo que hizo una vez. Aperto traduce en presente para transmitir esta fuerza: Dios derriba a los poderosos — eso es lo que hace. No: los derribó."
+            }
+          ],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
+        },
+        {
+          "number": "52",
+          "text": "<span class=\"poetry-line-1\">Derriba a los poderosos de sus tronos.</span><span class=\"poetry-line-2\">A los pequeños los levanta.</span>",
+          "footnotes": [
+            {
+              "ref": "1:52",
+              "category": "kultur",
+              "keyword": "Derriba a los poderosos",
+              "content": "Estas palabras no son metáfora espiritual — en boca de una campesina de una colonia romana, son dinamita política. Las dictaduras militares de Argentina (1976-1983) y Guatemala (1982-1983) prohibieron la lectura pública del Magnificat. Óscar Romero lo citó días antes de su asesinato. El teólogo Gustavo Gutiérrez lo convirtió en texto fundacional de la teología de la liberación. María no canta un himno devoto — anuncia un programa de inversión social."
+            }
+          ],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
+        },
+        {
+          "number": "53",
+          "text": "<span class=\"poetry-line-1\">A los hambrientos los llena de cosas buenas.</span><span class=\"poetry-line-2\">Y a los ricos los despide con las manos vacías.</span><span class=\"poetry-break\"></span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Ha ayudado a Israel, su siervo.</span><span class=\"poetry-line-2\">Se ha acordado de su bondad —</span>",
+          "text": "<span class=\"poetry-line-1\">No ha olvidado a Israel, su pueblo.</span><span class=\"poetry-line-2\">Ha mantenido su promesa —</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Ha ayudado a Israel, su siervo.",
-              "level": 1
-            },
-            {
-              "text": "Se ha acordado de su bondad —",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">como lo prometió a nuestros antepasados:</span><span class=\"poetry-line-2\">a Abraham y a sus descendientes.</span><span class=\"poetry-line-2\">Para siempre.</span><span class=\"paragraph-break\"></span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">la que le hizo a Abraham y a sus descendientes.</span><span class=\"poetry-line-2\">Para siempre. </span><span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:55",
+              "category": "kontext",
+              "keyword": "Abraham",
+              "content": "La alianza con Abraham (Gn 17:7; 22:17-18): la fidelidad eterna de Dios hacia los descendientes de Israel. María ve la llegada de Jesús no como un comienzo nuevo, sino como el cumplimiento de una promesa antiquísima. El Magnificat es profundamente judío — celebra la fidelidad de Dios a lo largo de los siglos. Pablo desarrolla esta teología de la alianza en Romanos 4 y Gálatas 3."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "como lo prometió a nuestros antepasados:",
-              "level": 1
-            },
-            {
-              "text": "a Abraham y a sus descendientes.",
-              "level": 2
-            },
-            {
-              "text": "Para siempre.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "56",
-          "text": "<span class=\"paragraph-break\"></span>María se quedó unos tres meses con Elisabet. Después regresó a su casa.",
+          "text": "María se quedó con Elisabet unos tres meses. Después volvió a casa.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -771,7 +797,7 @@
       "verses": [
         {
           "number": "57",
-          "text": "<span class=\"paragraph-break\"></span>Para Elisabet llegó el momento. Dio a luz un hijo.",
+          "text": "<span class=\"paragraph-break\"></span>Llegó el momento. Elisabet dio a luz un hijo.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -779,7 +805,7 @@
         },
         {
           "number": "58",
-          "text": "Los vecinos y parientes oyeron <span class=\"amplification\">lo que había pasado:</span> el Señor le había mostrado gran misericordia. Se alegraron con ella.<span class=\"paragraph-break\"></span>",
+          "text": "La noticia corrió rápido — Dios se había acordado de ella, ¡por fin! — y los vecinos y parientes vinieron a celebrar con ella.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -787,15 +813,22 @@
         },
         {
           "number": "59",
-          "text": "<span class=\"paragraph-break\"></span>Al octavo día vinieron para la circuncisión<span class=\"amplification\">— la antigua señal del pacto, en la que el niño recibía su nombre</span>. Querían llamarlo Zacarías, como el padre.",
-          "footnotes": [],
+          "text": "Al octavo día se reunieron para circuncidar al niño. Querían llamarlo Zacarías, como su padre — <span class=\"amplification\">así se hacía.</span> Pero la madre dijo:<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:59",
+              "category": "kultur",
+              "keyword": "Al octavo día",
+              "content": "La circuncisión al octavo día (Gn 17:12) marcaba la entrada del niño en la alianza de Abraham. Era un acontecimiento comunitario, no privado. El momento de la circuncisión era también, tradicionalmente, el momento de poner nombre al niño."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "60",
-          "text": "Pero la madre dijo: \"No. Se llama Juan.\"",
+          "text": "«No. Se llama Juan.»<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -803,7 +836,7 @@
         },
         {
           "number": "61",
-          "text": "Le objetaron: \"¡En tu familia nadie se llama así!\" <span class=\"amplification\">¿Ponerle a un niño el nombre de un extraño? Eso no se hacía.</span><span class=\"paragraph-break\"></span>",
+          "text": "«¿Juan?», le dijeron. «En tu familia nadie se llama así.»",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -811,7 +844,7 @@
         },
         {
           "number": "62",
-          "text": "<span class=\"paragraph-break\"></span>Preguntaron al padre con señas<span class=\"amplification\">— probablemente pensaban que también se había quedado sordo</span>. ¿Cómo debía llamarse el niño?",
+          "text": "Entonces le preguntaron al padre por señas cómo quería llamar al niño.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -819,7 +852,7 @@
         },
         {
           "number": "63",
-          "text": "Pidió una tablilla y escribió: \"Su nombre es Juan.\"<span class=\"paragraph-break\"></span>Todos se asombraron.<span class=\"paragraph-break\"></span>",
+          "text": "Zacarías pidió una tablilla y escribió: «Se llama Juan.» Todos se quedaron asombrados.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -827,13 +860,13 @@
         },
         {
           "number": "64",
-          "text": "<span class=\"paragraph-break\"></span>En ese mismo instante se abrió su boca. Su lengua se soltó. Habló — <span class=\"amplification\">y sus primeras palabras después de nueve meses de silencio fueron</span> alabanza a Dios.<span class=\"paragraph-break\"></span>",
+          "text": "En ese instante se le abrió la boca. <span class=\"amplification\">Después de nueve meses de silencio, lo primero que dijo no fue una queja ni una explicación.</span> Fue alabanza a Dios.",
           "footnotes": [
             {
-              "ref": "1,64",
-              "category": "increble",
-              "keyword": "Se abrió su boca",
-              "content": "Nueve meses de mudez — y entonces, en el momento de la obediencia, curación instantánea. ¿Fue psicosomático? ¿Un milagro? El texto lo presenta como intervención directa de Dios: el castigo termina cuando Zacarías obedece al ángel. Su primera palabra después de meses de silencio es alabanza."
+              "ref": "1:64",
+              "category": "text",
+              "keyword": "se le abrió la boca",
+              "content": "Griego ἀνεῴχθη τὸ στόμα αὐτοῦ — pasivo divino: no es que Zacarías decidió hablar, sino que «le fue abierta» la boca. Dios cierra (v.20) y Dios abre. La misma construcción aparece en Ezequiel 33:22, cuando el profeta recupera el habla tras la caída de Jerusalén. Lucas muestra: la obediencia de nombrar al niño «Juan» (contra la tradición familiar) desbloquea lo que la incredulidad había cerrado."
             }
           ],
           "isPoetry": false,
@@ -842,7 +875,7 @@
         },
         {
           "number": "65",
-          "text": "<span class=\"paragraph-break\"></span>El asombro se apoderó de todos los vecinos. En toda la región montañosa de Judea se hablaba de esto.",
+          "text": "El miedo se apoderó de todos los que vivían en la zona. Por todas partes se comentaba lo que había pasado.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -850,7 +883,7 @@
         },
         {
           "number": "66",
-          "text": "Todos los que lo oyeron lo guardaron en su corazón<span class=\"amplification\">:</span> \"¿Qué será de este niño?\" Porque la mano del Señor estaba visiblemente sobre él.",
+          "text": "La gente se preguntaba: «¿Qué va a ser de este niño?» Porque la mano del Señor estaba con él.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -859,283 +892,195 @@
       ]
     },
     {
-      "heading": "Lo que Zacarías vio — El Benedictus",
+      "heading": "El canto de Zacarías",
       "verses": [
         {
           "number": "67",
-          "text": "<span class=\"paragraph-break\"></span>Zacarías, su padre, fue llenado del Espíritu Santo. Comenzó a profetizar:",
+          "text": "<span class=\"paragraph-break\"></span>Zacarías, lleno del Espíritu Santo, habló como profeta: <span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,67-79",
-              "category": "contexto",
-              "keyword": "Benedictus",
-              "content": "El Benedictus tiene dos partes: alabanza por la redención de Israel por parte de Dios (68-75) y profecía sobre la misión de Juan (76-79)."
+              "ref": "1:67",
+              "category": "text",
+              "keyword": "lleno del Espíritu Santo",
+              "content": "El tercer llenado del Espíritu en este capítulo (tras Juan en v.15 y Elisabet en v.41). Un hombre que llevaba nueve meses mudo de repente habla — y no con palabras propias, sino con profecía estructurada. Interpretaciones: teológico-literal (el Espíritu capacita para la profecía, como en el Antiguo Testamento — cfr. Números 11:25; 1 Samuel 10:10); psicológica (la liberación emocional tras meses de silencio produce una experiencia de inspiración); literaria (Lucas compone el Benedictus como paralelo del Magnificat). Lo que comparten: nueve meses de silencio desembocan en palabras que trascienden la situación personal."
+            },
+            {
+              "ref": "1:67",
+              "category": "kontext",
+              "keyword": "habló como profeta",
+              "content": "El Benedictus es la primera profecía sacerdotal en Israel desde hacía siglos. En la tradición judía del Segundo Templo, la profecía se consideraba extinguida (1 Macabeos 9:27; Tosefta Sotá 13:2). Que un sacerdote profetice en el momento de nombrar a su hijo señala, para Lucas, que la era profética ha vuelto. El Espíritu está activo de nuevo."
             }
           ],
-          "isPoetry": false,
-          "poetryLevel": 0,
+          "isPoetry": true,
+          "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">¡Alabado sea el Señor, el Dios de Israel!</span><span class=\"poetry-line-1\">Ha visitado a su pueblo. Lo ha liberado.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "«Alabado sea el Señor, Dios de Israel — <span class=\"poetry-line-2\">ha venido a ver a su pueblo</span><span class=\"poetry-line-1\">y lo ha liberado.</span><span class=\"poetry-break\"></span>",
+          "footnotes": [
             {
-              "text": "¡Alabado sea el Señor, el Dios de Israel!",
-              "level": 1
-            },
-            {
-              "text": "Ha visitado a su pueblo. Lo ha liberado.",
-              "level": 1
+              "ref": "1:68",
+              "category": "kontext",
+              "keyword": "Alabado sea el Señor, Dios de Israel",
+              "content": "El Benedictus abre con la fórmula de bendición judía (בָּרוּךְ, barukh) usada en los Salmos (Sal 41:14; 72:18; 106:48). Zacarías no improvisa — habla desde la tradición litúrgica de Israel. El canto combina elementos de salmo real (vv.68-75: liberación nacional) y profecía personal (vv.76-79: vocación del niño). La estructura es deliberada: primero Dios actúa en la historia, después Dios actúa en una familia."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Nos ha dado un Salvador poderoso —</span><span class=\"poetry-line-2\">de la casa de David, su siervo.</span>",
+          "text": "<span class=\"poetry-line-1\">Nos ha dado un salvador poderoso</span><span class=\"poetry-line-2\">de la casa de David —</span>",
           "footnotes": [
             {
-              "ref": "1,69",
-              "category": "texto",
-              "keyword": "Salvador poderoso (κέρας σωτηρίας)",
-              "content": "Literalmente \"cuerno de salvación\" — una imagen de fuerza y poder (Sal 18,3)."
+              "ref": "1:69",
+              "category": "text",
+              "keyword": "un salvador poderoso",
+              "content": "Griego κέρας σωτηρίας — literalmente «cuerno de salvación». La imagen del cuerno (animal, aceite de unción) simboliza fuerza y poder en el Antiguo Testamento (cfr. 1 Sam 2:10; Sal 18:3; 132:17). Es una metáfora muerta en español moderno. Aperto: «un salvador poderoso» — transmite el significado sin la imagen opaca."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Nos ha dado un Salvador poderoso —",
-              "level": 1
-            },
-            {
-              "text": "de la casa de David, su siervo.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Así lo prometió,</span><span class=\"poetry-line-2\">hace mucho tiempo,</span><span class=\"poetry-line-2\">a través de sus profetas:</span>",
+          "text": "<span class=\"poetry-line-1\">como anunció desde siempre</span><span class=\"poetry-line-2\">por medio de sus profetas.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Así lo prometió,",
-              "level": 1
-            },
-            {
-              "text": "hace mucho tiempo,",
-              "level": 2
-            },
-            {
-              "text": "a través de sus profetas:",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">Salvación de nuestros enemigos.</span><span class=\"poetry-line-2\">Salvación de todos los que nos odian.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Liberación de nuestros enemigos,</span>",
+          "footnotes": [
+            {
+              "ref": "1:71",
+              "category": "kultur",
+              "keyword": "Liberación de nuestros enemigos",
+              "content": "Bajo la ocupación romana, estas palabras tenían carga política real. La esperanza mesiánica judía del siglo I incluía la liberación nacional. Lucas no elimina esta dimensión política pero la reenmarca: la verdadera liberación, como mostrará el resto del Evangelio, no viene por la violencia sino por la transformación."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Salvación de nuestros enemigos.",
-              "level": 1
-            },
-            {
-              "text": "Salvación de todos los que nos odian.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">Ha mostrado bondad a nuestros antepasados.</span><span class=\"poetry-line-2\">Se ha acordado de su santo pacto —</span>",
+          "text": "<span class=\"poetry-line-2\">de la mano de los que nos odian.</span><span class=\"poetry-line-1\">Así cumple la misericordia prometida a nuestros antepasados.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Ha mostrado bondad a nuestros antepasados.",
-              "level": 1
-            },
-            {
-              "text": "Se ha acordado de su santo pacto —",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">del juramento que hizo a Abraham, nuestro padre:</span>",
+          "text": "<span class=\"poetry-line-2\">Así cumple el juramento que hizo a Abraham:</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "del juramento que hizo a Abraham, nuestro padre:",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-1\">Liberados de nuestros enemigos,</span><span class=\"poetry-line-2\">podemos servirle</span>",
+          "text": "<span class=\"poetry-line-1\">que podamos vivir sin miedo,</span><span class=\"poetry-line-2\">al servicio de Dios,</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Liberados de nuestros enemigos,",
-              "level": 1
-            },
-            {
-              "text": "podemos servirle",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">sin miedo,</span><span class=\"poetry-line-2\">consagrados a él y justos,</span><span class=\"poetry-line-2\">toda nuestra vida.</span>",
+          "text": "<span class=\"poetry-line-1\">en santidad y justicia,</span><span class=\"poetry-line-2\">todos los días de nuestra vida.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "sin miedo,",
-              "level": 1
-            },
-            {
-              "text": "consagrados a él y justos,",
-              "level": 2
-            },
-            {
-              "text": "toda nuestra vida.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Y tú, hijo mío —</span><span class=\"poetry-line-2\">serás llamado profeta del Altísimo.</span><span class=\"poetry-line-1\">Irás delante del Señor</span><span class=\"poetry-line-2\">y le prepararás el camino.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Y tú, hijo mío —</span><span class=\"poetry-break\"></span><span class=\"poetry-line-2\">serás llamado profeta del Altísimo.</span><span class=\"poetry-line-1\">Irás delante del Señor para prepararle el camino</span>",
+          "footnotes": [
+            {
+              "ref": "1:76",
+              "category": "text",
+              "keyword": "Y tú, hijo mío",
+              "content": "El giro más conmovedor del Benedictus: Zacarías pasa de la profecía cósmica a la intimidad de un padre con su recién nacido. Nueve meses de silencio. Y ahora, con la boca abierta al fin, no habla de sí mismo — habla al niño. Le dice quién va a ser. Le da su vocación antes de que pueda entenderla. Es uno de los actos más tiernos de toda la Escritura."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Y tú, hijo mío —",
-              "level": 1
-            },
-            {
-              "text": "serás llamado profeta del Altísimo.",
-              "level": 2
-            },
-            {
-              "text": "Irás delante del Señor",
-              "level": 1
-            },
-            {
-              "text": "y le prepararás el camino.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Mostrarás a su pueblo lo que significa la salvación:</span><span class=\"poetry-line-2\">perdón de los pecados.</span>",
+          "text": "<span class=\"poetry-line-2\">y enseñar a su pueblo</span><span class=\"poetry-line-1\">que la salvación llega</span><span class=\"poetry-line-2\">con el perdón de los pecados —</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Mostrarás a su pueblo lo que significa la salvación:",
-              "level": 1
-            },
-            {
-              "text": "perdón de los pecados.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">Todo esto sucede</span> porque nuestro Dios está lleno de compasión.</span><span class=\"poetry-line-1\">La luz de lo alto nos visitará,</span>",
+          "text": "<span class=\"poetry-line-1\">por la compasión más profunda de nuestro Dios.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">La aurora desde lo alto nos visitará</span>",
           "footnotes": [
             {
-              "ref": "1,78",
-              "category": "texto",
-              "keyword": "Lleno de compasión (σπλάγχνα ἐλέους)",
-              "content": "Literalmente \"entrañas de misericordia\". La antigüedad ubicaba los sentimientos profundos en el vientre, no en el corazón. Significa: afecto profundo, sentido físicamente."
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "la compasión más profunda",
+              "content": "Griego σπλάγχνα ἐλέους — literalmente «las entrañas de la misericordia». La misericordia no es un concepto abstracto: se siente en las vísceras, en el estómago. Es el término más físico del Nuevo Testamento para la compasión divina."
             },
             {
-              "ref": "1,78",
-              "category": "texto",
-              "keyword": "Luz de lo alto (ἀνατολή)",
-              "content": "Puede significar \"amanecer\" (salida del sol) o \"retoño\" (título mesiánico)."
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "La aurora desde lo alto",
+              "content": "Griego ἀνατολὴ ἐξ ὕψους — deliberadamente ambiguo: ἀνατολή significa tanto «amanecer» (el sol que sale) como «retoño/brote» (título mesiánico de Jer 23:5; Zac 6:12). Zacarías sostiene ambas imágenes simultáneamente: la luz está amaneciendo Y el prometido está llegando."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "<span class=\"amplification\">Todo esto sucede</span> porque nuestro Dios está lleno de compasión.",
-              "level": 1
-            },
-            {
-              "text": "La luz de lo alto nos visitará,",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">para brillar sobre todos</span><span class=\"poetry-line-2\">los que están en la oscuridad,</span><span class=\"poetry-line-2\">en sombra de muerte —</span><span class=\"poetry-line-1\">y guiar nuestros pasos por el camino de la paz.</span>",
+          "text": "<span class=\"poetry-line-2\">para iluminar a los que viven</span><span class=\"poetry-line-1\">en oscuridad y sombra de muerte,</span><span class=\"poetry-line-2\">para poner nuestros pies</span><span class=\"poetry-line-1\">en el camino de la paz.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Paz.»</span>",
           "footnotes": [
             {
-              "ref": "1,79",
-              "category": "contexto",
-              "keyword": "En la oscuridad, en sombra de muerte",
-              "content": "Alusión a Isaías 9,1 — luz para el pueblo oprimido."
+              "ref": "1:79",
+              "category": "kontext",
+              "keyword": "oscuridad y sombra de muerte",
+              "content": "Eco directo del Salmo 23:4 (LXX Sal 22:4) y de Isaías 9:1 — textos que cualquier oyente judío reconocería. La imagen une la experiencia personal (atravesar la oscuridad) con la esperanza nacional (la luz mesiánica que viene)."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "para brillar sobre todos",
-              "level": 1
-            },
-            {
-              "text": "los que están en la oscuridad,",
-              "level": 2
-            },
-            {
-              "text": "en sombra de muerte —",
-              "level": 2
-            },
-            {
-              "text": "y guiar nuestros pasos por el camino de la paz.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         }
       ]
     },
     {
-      "heading": "Creciendo en el desierto",
+      "heading": "Crecer en el desierto",
       "verses": [
         {
           "number": "80",
-          "text": "<span class=\"paragraph-break\"></span>El niño creció. Se fortaleció en el espíritu. Vivió en el desierto<span class=\"amplification\">— lejos de todo</span> — hasta el día en que apareció ante Israel.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>El niño creció y se hizo fuerte en espíritu. Vivía en el desierto — <span class=\"amplification\">lejos de todo, donde se forjan los profetas —</span> hasta el día en que apareció ante Israel.",
+          "footnotes": [
+            {
+              "ref": "1:80",
+              "category": "kultur",
+              "keyword": "el desierto",
+              "content": "El desierto de Judea: tierra árida entre Jerusalén y el Mar Muerto. En la tradición bíblica, el desierto es el lugar de formación por excelencia — allí se forjaron Moisés (40 años), Elías (huida y encuentro con Dios) y el propio Israel (40 años de peregrinación). Los manuscritos del Mar Muerto (Qumrán) muestran que comunidades judías del siglo I se retiraban literalmente al desierto para prepararse para la nueva era. Juan crece exactamente en ese paisaje."
+            },
+            {
+              "ref": "1:80",
+              "category": "text",
+              "keyword": "creció y se hizo fuerte",
+              "content": "Lucas resume décadas en una frase. Entre el nacimiento milagroso y la misión pública hay años de silencio, crecimiento invisible, preparación sin audiencia. El texto no dramatiza ese período — simplemente lo menciona. La formación más importante sucede lejos de los reflectores."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []

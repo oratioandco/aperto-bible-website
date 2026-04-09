@@ -72,6 +72,25 @@ const LANG_CONFIG = {
     continue: "Продовжити читання",
     license: "Переклад: Біблія Апертo (AB-UK) | Ліцензія: CC BY-SA 4.0",
   },
+  nl: { book: "Lucas", chapter: "Hoofdstuk", continue: "Verder lezen", license: "Vertaling: Aperto Bijbel (AB-NL) | Licentie: CC BY-SA 4.0" },
+  ro: { book: "Luca", chapter: "Capitol", continue: "Continuă lectura", license: "Traducere: Biblia Aperto (AB-RO) | Licență: CC BY-SA 4.0" },
+  cs: { book: "Lukáš", chapter: "Kapitola", continue: "Číst dál", license: "Překlad: Aperto Bible (AB-CS) | Licence: CC BY-SA 4.0" },
+  el: { book: "Λουκάς", chapter: "Κεφάλαιο", continue: "Συνέχεια ανάγνωσης", license: "Μετάφραση: Aperto Bible (AB-EL) | Άδεια: CC BY-SA 4.0" },
+  hu: { book: "Lukács", chapter: "Fejezet", continue: "Folytatás", license: "Fordítás: Aperto Biblia (AB-HU) | Licenc: CC BY-SA 4.0" },
+  bg: { book: "Лука", chapter: "Глава", continue: "Продължи четенето", license: "Превод: Aperto Библия (AB-BG) | Лиценз: CC BY-SA 4.0" },
+  hr: { book: "Luka", chapter: "Poglavlje", continue: "Čitaj dalje", license: "Prijevod: Aperto Biblija (AB-HR) | Licenca: CC BY-SA 4.0" },
+  fi: { book: "Luukas", chapter: "Luku", continue: "Jatka lukemista", license: "Käännös: Aperto Raamattu (AB-FI) | Lisenssi: CC BY-SA 4.0" },
+  sk: { book: "Lukáš", chapter: "Kapitola", continue: "Čítaj ďalej", license: "Preklad: Aperto Biblia (AB-SK) | Licencia: CC BY-SA 4.0" },
+  lt: { book: "Luko", chapter: "Skyrius", continue: "Skaityti toliau", license: "Vertimas: Aperto Biblija (AB-LT) | Licencija: CC BY-SA 4.0" },
+  sl: { book: "Luka", chapter: "Poglavje", continue: "Beri naprej", license: "Prevod: Aperto Biblija (AB-SL) | Licenca: CC BY-SA 4.0" },
+  lv: { book: "Lūka", chapter: "Nodaļa", continue: "Lasīt tālāk", license: "Tulkojums: Aperto Bībele (AB-LV) | Licence: CC BY-SA 4.0" },
+  et: { book: "Luuka", chapter: "Peatükk", continue: "Loe edasi", license: "Tõlge: Aperto Piibel (AB-ET) | Litsents: CC BY-SA 4.0" },
+  ga: { book: "Lúcás", chapter: "Caibidil", continue: "Lean ar aghaidh ag léamh", license: "Aistriúchán: Aperto Bible (AB-GA) | Ceadúnas: CC BY-SA 4.0" },
+  mt: { book: "Luqa", chapter: "Kapitolu", continue: "Kompli aqra", license: "Traduzzjoni: Aperto Bible (AB-MT) | Liċenzja: CC BY-SA 4.0" },
+  nb: { book: "Lukas", chapter: "Kapittel", continue: "Les videre", license: "Oversettelse: Aperto Bibelen (AB-NB) | Lisens: CC BY-SA 4.0" },
+  ru: { book: "Луки", chapter: "Глава", continue: "Читать дальше", license: "Перевод: Апертo Библия (AB-RU) | Лицензия: CC BY-SA 4.0" },
+  ar: { book: "لوقا", chapter: "الإصحاح", continue: "تابع القراءة", license: "ترجمة: Aperto Bible (AB-AR) | الترخيص: CC BY-SA 4.0" },
+  ca: { book: "Lluc", chapter: "Capítol", continue: "Continua llegint", license: "Traducció: Bíblia Aperto (AB-CA) | Llicència: CC BY-SA 4.0" },
 };
 
 const CHAPTER_SUBTITLES = {
@@ -87,6 +106,25 @@ const CHAPTER_SUBTITLES = {
     sv: "Två omöjliga graviditeter. Två revolutionära sånger. Historien börjar.",
     tr: "İki imkansız hamilelik. İki devrimci şarkı. Hikaye başlıyor.",
     uk: "Дві неможливі вагітності. Дві революційні пісні. Історія починається.",
+    nl: "Twee onmogelijke zwangerschappen. Twee revolutionaire liederen. Het verhaal begint.",
+    ro: "Două sarcini imposibile. Două cântece revoluționare. Povestea începe.",
+    cs: "Dvě nemožná těhotenství. Dvě revoluční písně. Příběh začíná.",
+    el: "Δύο αδύνατες εγκυμοσύνες. Δύο επαναστατικά τραγούδια. Η ιστορία αρχίζει.",
+    hu: "Két lehetetlen terhesség. Két forradalmi ének. A történet elkezdődik.",
+    bg: "Две невъзможни бременности. Две революционни песни. Историята започва.",
+    hr: "Dvije nemoguće trudnoće. Dvije revolucionarne pjesme. Priča počinje.",
+    fi: "Kaksi mahdotonta raskautta. Kaksi vallankumouksellista laulua. Tarina alkaa.",
+    sk: "Dve nemožné tehotenstvá. Dve revolučné piesne. Príbeh začína.",
+    lt: "Du neįmanomi nėštumai. Dvi revoliucinės giesmės. Istorija prasideda.",
+    sl: "Dve nemogoči nosečnosti. Dve revolucionarni pesmi. Zgodba se začenja.",
+    lv: "Divas neiespējamas grūtniecības. Divas revolucionāras dziesmas. Stāsts sākas.",
+    et: "Kaks võimatut rasedust. Kaks revolutsioonilist laulu. Lugu algab.",
+    ga: "Dhá toircheas dodhéanta. Dhá amhrán réabhlóideach. Tosaíonn an scéal.",
+    mt: "Żewġ tqaliet impossibbli. Żewġ kanzunetti rivoluzzjonarji. Il-ħikja tibda.",
+    nb: "To umulige svangerskap. To revolusjonære sanger. Historien begynner.",
+    ru: "Две невозможные беременности. Две революционные песни. История начинается.",
+    ar: "حملان مستحيلان. أغنيتان ثوريتان. تبدأ القصة.",
+    ca: "Dos embarassos impossibles. Dues cançons revolucionàries. La història comença.",
   },
   2: {
     da: "Fødsel i en stald. Hyrder som vidner. En gammel mand ser frelsen.",
@@ -125,7 +163,7 @@ function generatePage(lang, chapter, hasNextChapter) {
       ${config.book} ${chapter + 1} <span>→</span>
     </a>`
     : `<a href={\`\${base}/${lang}/\`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-      ← ${lang === "de" ? "Zurück zur Startseite" : lang === "en" ? "Back to Home" : config.continue}
+      ← ${lang === "de" ? "Zurück zur Startseite" : lang === "en" ? "Back to Home" : lang === "fr" ? "Retour à l'accueil" : lang === "es" ? "Volver al inicio" : lang === "it" ? "Torna alla home" : lang === "pt" ? "Voltar ao início" : lang === "pl" ? "Wróć do strony głównej" : lang === "sv" ? "Tillbaka till start" : lang === "da" ? "Tilbage til forsiden" : lang === "tr" ? "Ana sayfaya dön" : lang === "uk" ? "На головну" : lang === "nb" ? "Tilbake til startsiden" : lang === "ru" ? "На главную" : lang === "ar" ? "العودة إلى الرئيسية" : config.continue}
     </a>`;
 
   const firstLetter = config.chapter.charAt(0);
@@ -159,7 +197,7 @@ const base = '';
 <BaseLayout title="${config.book} ${chapter}" lang="${lang}" description="${config.book} ${config.chapter} ${chapter}">
   <!-- Chapter Header -->
   <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
-    <p class="passage-reference mb-6">${lang === "de" ? "Das Evangelium nach " : lang === "en" ? "The Gospel of " : ""}${config.book}</p>
+    <p class="passage-reference mb-6">${lang === "de" ? "Das Evangelium nach " : lang === "en" ? "The Gospel of " : lang === "fr" ? "L'Évangile de " : lang === "pl" ? "Ewangelia według " : lang === "tr" ? "Luka İncili" : lang === "nl" ? "Het Evangelie van " : lang === "it" ? "Il Vangelo di " : lang === "es" ? "El Evangelio de " : lang === "pt" ? "O Evangelho de " : lang === "sv" ? "Evangeliet enligt " : lang === "da" ? "Evangeliet efter " : lang === "uk" ? "Євангеліє від " : lang === "nb" ? "Evangeliet etter " : lang === "fi" ? "Evankeliumi " : lang === "ru" ? "Евангелие от " : lang === "ar" ? "إنجيل " : lang === "ca" ? "L'Evangeli de " : ""}${lang === "tr" ? "" : config.book}</p>
     <h1 class="headline-mixed text-5xl md:text-7xl lg:text-8xl mb-6">
       <span class="cap">${firstLetter}</span>${restChapter} ${chapter}
     </h1>
@@ -350,6 +388,25 @@ const langs = [
   "sv",
   "tr",
   "uk",
+  "nl",
+  "ro",
+  "cs",
+  "el",
+  "hu",
+  "bg",
+  "hr",
+  "fi",
+  "sk",
+  "lt",
+  "sl",
+  "lv",
+  "et",
+  "ga",
+  "mt",
+  "nb",
+  "ru",
+  "ar",
+  "ca",
 ];
 const chapters = [1, 2, 3];
 

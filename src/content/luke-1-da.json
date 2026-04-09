@@ -8,22 +8,15 @@
       "verses": [
         {
           "number": "1",
-          "text": "Mange har allerede forsøgt at skrive ned, hvad der er sket hos os.",
-          "footnotes": [
-            {
-              "ref": "1,1-4",
-              "category": "tekst",
-              "keyword": "Lukas' metode",
-              "content": "Lukas skriver som en antik historiker: han samler øjenvidneberetninger, undersøger grundigt og præsenterer det ordentligt. Det svarer til standarderne i græsk historieskrivning."
-            }
-          ],
+          "text": "<span class=\"paragraph-break\"></span>Mange har forsøgt at skrive en sammenhængende beretning om det, der er sket iblandt os.",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "2",
-          "text": "De baserede sig på det, øjenvidnerne har overleveret til os — mennesker, der var med fra begyndelsen og blev forkyndere af denne historie.",
+          "text": "De bygger på det, øjenvidnerne selv har givet videre — folk, der var med fra begyndelsen og siden fortalte det videre.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -31,13 +24,19 @@
         },
         {
           "number": "3",
-          "text": "Også jeg har besluttet mig for at undersøge alt <span class=\"amplification\">igen</span> fra bunden. Grundigt. For dig, ærede Theofilus —",
+          "text": "Også jeg har besluttet at skrive til dig, kære Theofilos. Jeg har selv undersøgt alt grundigt, fra begyndelsen af, og skriver det nu sammenhængende,",
           "footnotes": [
             {
-              "ref": "1,3",
-              "category": "navn",
-              "keyword": "Theofilus (Θεόφιλος)",
-              "content": "Græsk \"Gudselsker\". Titlen κράτιστε var en tiltaleform for romerske embedsmænd og personer af rang."
+              "ref": "1:3",
+              "category": "text",
+              "keyword": "Theofilos",
+              "content": "Navnet betyder „den, der elsker Gud.\" Det var sandsynligvis en virkelig person — en velstående mæcen, der støttede udgivelsen af skriftet. At dedikere et værk til en navngiven person var en almindelig social konvention i det græsk-romerske samfund."
+            },
+            {
+              "ref": "1:1-4",
+              "category": "apologetics",
+              "keyword": "undersøgt alt grundigt",
+              "content": "Lukas understreger sin metode: øjenvidner udspurgt, kilder gennemgået, ordnet fremstilling. Dette svarer til antik historieskrivning (jf. Thukydid, Polybios). De over 5.800 græske NT-manuskripter overstiger enhver anden antik kilde (Homer: ca. 1.900, Thukydid: 8). Tekstkritiske metoder viser høj overensstemmelse mellem manuskripterne. Lukas skriver ikke naiv myte, men undersøgt beretning — med kildekritik, der var avanceret for sin tid."
             }
           ],
           "isPoetry": false,
@@ -46,13 +45,13 @@
         },
         {
           "number": "4",
-          "text": "så du kan vide: Det, du har fået fortalt, står på fast grund.",
+          "text": "så du kan vide, at det, du allerede har lært, holder.",
           "footnotes": [
             {
-              "ref": "1,4",
-              "category": "tekst",
-              "keyword": "Fast grund (ἀσφάλεια)",
-              "content": "Sikkerhed, pålidelighed. Lukas vil gøre begrundet tillid mulig."
+              "ref": "1:4",
+              "category": "text",
+              "keyword": "holder (ἀσφάλεια)",
+              "content": "Betyder „sikkerhed, stabilitet\" — noget at stå på. Lukas lover ikke beviser, men solid grund under fødderne. Theofilos har allerede fået undervisning; nu får han grundlaget til at stole på det."
             }
           ],
           "isPoetry": false,
@@ -66,25 +65,13 @@
       "verses": [
         {
           "number": "5",
-          "text": "<span class=\"paragraph-break\"></span>På kong Herodes' tid levede der i Judæa en præst ved navn Zakarias. Han tilhørte Abijas vagthold<span class=\"amplification\">— en af fireogtyve grupper, der skiftevis gjorde tjeneste i templet</span>. Hans kone Elisabeth stammede fra Arons familie. <span class=\"amplification\">Et præstepar, begge af gammel slægt. Hvis nogen familie fortjente Guds velsignelse, var det denne.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Det var på kong Herodes' tid, <span class=\"amplification\">den konge, Rom havde sat til at herske</span>. I Judæas bjerge levede en præst ved navn Zakarias fra Abijas gruppe — <span class=\"amplification\">en af de fireogtyve grupper, der skiftedes til tempeltjenesten</span>. Hans kone Elisabet var Arons-datter<span class=\"amplification\">. Et præstepar. Begge fra de bedste familier</span>.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,5",
-              "category": "kontekst",
+              "ref": "1:5",
+              "category": "kultur",
               "keyword": "Herodes",
-              "content": "Herodes den Store (reg. 37-4 f.Kr.), indsat som konge af Rom, berygtet for sin grusomhed."
-            },
-            {
-              "ref": "1,5",
-              "category": "kultur",
-              "keyword": "Abijas vagthold",
-              "content": "En af 24 præstegrupper, der skiftevis gjorde tjeneste i templet (1 Krøn 24,10)."
-            },
-            {
-              "ref": "1,5",
-              "category": "kultur",
-              "keyword": "Arons familie",
-              "content": "Begge ægtefæller fra præstefamilier — religiøs adel. Hvis nogen familie fortjente Guds velsignelse, var det denne."
+              "content": "Herodes den Store (regerede 37-4 f.Kr.), en klientkonge, Rom havde indsat. Han var frygtet og forhadt — paranoid, voldelig, berømt for at myrde selv sine egne familiemedlemmer. „I Herodes' tid\" signalerede mørke tider."
             }
           ],
           "isPoetry": false,
@@ -93,7 +80,7 @@
         },
         {
           "number": "6",
-          "text": "<span class=\"amplification\">Og faktisk:</span> Begge levede sådan, at ingen kunne bebrejde dem noget. <span class=\"amplification\">Ingen kunne sige noget dårligt om dem.</span>",
+          "text": "De levede, som man skulle. Holdt alle bud, fulgte alle forskrifter. <span class=\"amplification\">Ingen kunne sige noget på dem.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -101,27 +88,22 @@
         },
         {
           "number": "7",
-          "text": "<span class=\"amplification\">Men deres liv føltes ikke velsignet.</span> Elisabeth var barnløs. <span class=\"amplification\">Barnløshed — det var i deres verden ikke en privat ulykke. Det var skam. Det var spørgsmålet, ingen stillede højt, men alle tænkte: Hvad har de gjort, at Gud straffer dem sådan? De havde ikke gjort noget.</span> Og begge var <span class=\"amplification\">allerede</span> gamle.",
+          "text": "<span class=\"amplification\">Men</span> Elisabet var barnløs<span class=\"amplification\">. Og barnløshed var skam. Folk talte ikke om det. Men de tænkte det: Hvad har de gjort?</span> <span class=\"amplification\">Nu var</span> begge gamle.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,7",
-              "category": "kultur",
-              "keyword": "Barnløshed",
-              "content": "I ære-skam-kulturen betød barnløshed offentlig skam. Man spurgte sig selv, hvad de berørte havde gjort forkert, at Gud straffede dem sådan."
+              "ref": "1:7",
+              "category": "leben",
+              "keyword": "barnløs",
+              "content": "At leve rigtigt og alligevel mangle det, man inderst inde længes efter — det er en grunderfaring, der rækker langt ud over barnløshed. Elisabet og Zakarias var „ulastelige.\" Ingen fejl at rette. Alligevel: tomme hænder. Teksten viser, at Gud ikke altid belønner trofasthed med opfyldelse af ønsker — men at historien ikke er slut."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "I templet",
-      "verses": [
+        },
         {
           "number": "8",
-          "text": "<span class=\"paragraph-break\"></span>Så kom dagen, hvor <span class=\"amplification\">Zakarias'</span> vagthold var på tjeneste. Han gjorde tjeneste for Gud,",
+          "text": "Så kom turen til Zakarias' gruppe.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -129,19 +111,13 @@
         },
         {
           "number": "9",
-          "text": "og loddet faldt på ham: Han skulle bringe røgelsesofferet. <span class=\"amplification\">Det privilegium, som en præst ventede på hele sit liv. Nogle oplevede det aldrig.</span>",
+          "text": "Loddet faldt på ham<span class=\"amplification\">. Loddet var Guds måde at vælge på — ikke tilfældighed. For de fleste præster kom den dag aldrig. For Zakarias kom den nu</span>. Han skulle gå ind i det hellige rum. <span class=\"amplification\">Alene. Brænde røgelse.</span>",
           "footnotes": [
             {
-              "ref": "1,9",
+              "ref": "1:9",
               "category": "kultur",
-              "keyword": "Loddet",
-              "content": "Lodtrækning var et middel til guddommelig vejledning (Ordsp 16,33). Gud valgte Zakarias — ikke tilfældighed."
-            },
-            {
-              "ref": "1,9",
-              "category": "kultur",
-              "keyword": "Røgelsesoffer",
-              "content": "Det højeste privilegium for en præst. Med tusindvis af præster kunne en mand vente hele sit liv uden nogensinde at blive udtrukket."
+              "keyword": "det hellige rum",
+              "content": "Det Hellige var det indre rum i templet, kun tilgængeligt for præster. Her stod den syvarmede lysestage, skuebrødsbordet og røgelsesalteret. Bag et forhæng lå Det Allerhelligste, som kun ypperstepræsten måtte betræde én gang om året. At brænde røgelse var en ære, de fleste præster aldrig oplevede i hele deres liv."
             }
           ],
           "isPoetry": false,
@@ -150,7 +126,7 @@
         },
         {
           "number": "10",
-          "text": "Han trådte ind i helligdommen. <span class=\"amplification\">Alene.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Foran ham det gyldne røgelsesalter. Den syvarmede lysestage kastede flakkende lys på væggene. Bag ham det tunge forhæng, og bag det det allerhelligste — stedet, hvor Gud selv boede.</span> Udenfor<span class=\"amplification\">, i stilhed,</span> stod folket og bad.",
+          "text": "Udenfor bad folkemængden.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -158,19 +134,19 @@
         },
         {
           "number": "11",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Så</span> stod der en engel. Til højre for alteret<span class=\"amplification\">— der, hvor velsignelsen kommer fra</span>.",
+          "text": "<span class=\"amplification\">Og så</span> stod der pludselig en engel<span class=\"amplification\">. Til højre for røgelsesalteret</span>.",
           "footnotes": [
             {
-              "ref": "1,11",
-              "category": "utroligt",
-              "keyword": "Engel",
-              "content": "For moderne læsere rejser dette spørgsmål: Engle? Virkelig? Teksten forudsætter et verdensbillede, hvor Gud handler gennem budbringere — ikke som en metafor, men som en reel oplevelse. Nogle forstår engle som en indre oplevelse eller et litterært virkemiddel. Andre — og sådan præsenterer teksten det — som en objektiv tilsynekomst. Det græske ἄγγελος betyder simpelthen \"budbringer\". Lukas præsenterer Gabriel som en konkret budbringer med et konkret budskab."
+              "ref": "1:11",
+              "category": "unglaublich",
+              "keyword": "engel",
+              "content": "Engle hører til de mest udfordrende elementer for moderne læsere. Teksten forudsætter et verdensbillede, hvor Gud kommunikerer gennem budbringere — ikke som metafor, men som reel tilstedeværelse. Fortolkninger: symbolsk (litterært virkemiddel for guddommelig åbenbaring), psykologisk (indre erfaring), bogstavelig (virkelige åndelige væsner). Jesus selv talte om engle som virkelige (Matthæus 18:10). Teksten præsenterer Gabriel som en konkret budbringer med et konkret budskab."
             },
             {
-              "ref": "1,11",
+              "ref": "1:11",
               "category": "kultur",
-              "keyword": "Til højre",
-              "content": "Højre side var positionen for velsignelse og gunst (Sl 110,1)."
+              "keyword": "til højre",
+              "content": "Højre side var velsignelsens plads. At englen viser sig netop der, signalerer: dette er et godt budskab."
             }
           ],
           "isPoetry": false,
@@ -179,28 +155,43 @@
         },
         {
           "number": "12",
-          "text": "Zakarias så ham. Og frygt greb ham.",
-          "footnotes": [],
+          "text": "Frygten slog ned i ham.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:12",
+              "category": "text",
+              "keyword": "Frygten slog ned (φόβος ἐπέπεσεν)",
+              "content": "Bogstaveligt „frygt faldt over\" Zakarias — en fysisk kraft udefra, ikke en indre følelse. Det er det, der sker, når det guddommelige bryder ind i det menneskelige."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Løftet",
-      "verses": [
+        },
         {
           "number": "13",
-          "text": "<span class=\"paragraph-break\"></span>Englen sagde: \"Vær ikke bange, Zakarias. Din bøn er blevet hørt. Elisabeth, din kone, vil give dig en søn. Kald ham Johannes.",
-          "footnotes": [],
+          "text": "<span class=\"amplification\">Englen</span> sagde: „Frygt ikke, Zakarias. Din bøn er hørt. Elisabet, din kone, vil føde dig en søn. Du skal kalde ham Johannes.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:13",
+              "category": "text",
+              "keyword": "Din bøn er hørt",
+              "content": "Tvetydigt: bad Zakarias om et barn — eller om Israels forløsning? Måske begge dele. Bønnen er blevet hørt i begge betydninger."
+            },
+            {
+              "ref": "1:13",
+              "category": "text",
+              "keyword": "Johannes (Ἰωάννης)",
+              "content": "Navnet betyder „Gud har vist nåde.\" Ingen i familien hed Johannes — det var et helt nyt navn, valgt af Gud, ikke af tradition."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "14",
-          "text": "Han vil bringe dig glæde<span class=\"amplification\">, stor glæde</span>. Og mange vil glæde sig over hans fødsel.",
+          "text": "Du vil blive glad, og mange vil glæde sig over hans fødsel.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -208,13 +199,13 @@
         },
         {
           "number": "15",
-          "text": "For Gud vil han være stor. Vin og øl vil han aldrig røre — Helligånden vil fylde ham, allerede i moders liv.",
+          "text": "<span class=\"amplification\">Stor for Gud.</span> Vin og stærk drik skal han ikke røre. <span class=\"amplification\">Fyldt af Helligånden allerede fra sin mors liv.</span>",
           "footnotes": [
             {
-              "ref": "1,15",
-              "category": "kontekst",
-              "keyword": "Vin og øl",
-              "content": "Henvisning til nasiræerløftet (4 Mos 6,3). Som Samson og Samuel var Johannes viet til Gud fra fødslen."
+              "ref": "1:15",
+              "category": "kultur",
+              "keyword": "vin og stærk drik",
+              "content": "Et nasiræerløfte — en gammel tradition for mennesker, der var viet til Gud fra fødslen. Samson og Samuel levede under lignende løfter."
             }
           ],
           "isPoetry": false,
@@ -223,7 +214,7 @@
         },
         {
           "number": "16",
-          "text": "Mange i Israel vil han bringe tilbage til Herren, deres Gud.",
+          "text": "Han vil føre mange af Israels børn tilbage til <span class=\"amplification\">deres</span> Gud<span class=\"amplification\">—</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -231,41 +222,43 @@
         },
         {
           "number": "17",
-          "text": "Med kraften fra Elias vil han gå foran ham. Han vil forsone fædre og børn, bringe de ulydige til fornuft. Sådan vil han gøre et folk klar — klar til Herren.\"",
+          "text": "<span class=\"amplification\">gå foran</span> med Elias' ånd og kraft<span class=\"amplification\">, vende fædres hjerter mod deres børn, vende de ulydige til de retfærdiges indsigt. Han vil gøre et folk klar</span>.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,17",
-              "category": "kontekst",
-              "keyword": "Elias",
-              "content": "Malakias havde forudsagt, at Elias ville vende tilbage før Herrens store dag (Mal 3,23-24). Johannes opfylder denne rolle."
+              "ref": "1:17",
+              "category": "kontext",
+              "keyword": "Elias' ånd og kraft",
+              "content": "Profeten Elias var den mest dramatiske skikkelse i Israels historie — han udfordrede konger, kaldte ild ned fra himlen og blev ifølge traditionen taget direkte til himlen. At sige, at Johannes skulle komme „med Elias' ånd,\" var at love en ny Elias — en profet, der ville konfrontere magten."
             }
           ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Zakarias tvivler",
-      "verses": [
+        },
         {
           "number": "18",
-          "text": "<span class=\"paragraph-break\"></span>Zakarias spurgte: \"Hvordan kan jeg vide det? Jeg er gammel. Min kone også.\"",
-          "footnotes": [],
+          "text": "Zakarias sagde: „Hvordan kan jeg vide, at det er sandt? Jeg er gammel. Min kone er gammel.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:18",
+              "category": "kontext",
+              "keyword": "Hvordan kan jeg vide",
+              "content": "Zakarias bruger næsten de samme ord som Abraham i 1. Mosebog 15,8: „Hvordan skal jeg vide det?\" Abraham fik et tegn. Zakarias får også et tegn — men hårdere: tavshed. Forskellen er muligvis, at Zakarias burde vide bedre. Han er præst. Han kender historien."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "19",
-          "text": "Englen svarede: \"Jeg er Gabriel. Jeg står foran Guds trone. Han har sendt mig for at bringe dig dette gode budskab.",
+          "text": "Englen svarede: „Jeg er Gabriel. Jeg står for Guds ansigt. Jeg er sendt for at fortælle dig dette.",
           "footnotes": [
             {
-              "ref": "1,19",
-              "category": "navn",
-              "keyword": "Gabriel (Γαβριήλ)",
-              "content": "Hebraisk \"Guds kraft\". En af ærkeenglene, som \"står foran Gud\". Samme engel viste sig for Daniel (Dan 8,16; 9,21)."
+              "ref": "1:19",
+              "category": "kontext",
+              "keyword": "Jeg er Gabriel (Γαβριήλ)",
+              "content": "Gabriel er én af ærkeenglene — „Guds stærke\" eller „Guds kriger.\" At stå for Guds ansigt betyder at tilhøre den inderste kreds. Det er en massiv autoritetserklæring: „Du tvivler? Jeg kommer direkte fra Gud.\""
             }
           ],
           "isPoetry": false,
@@ -274,20 +267,22 @@
         },
         {
           "number": "20",
-          "text": "Men fordi du ikke troede mine ord — ord, der vil gå i opfyldelse til rette tid — vil du blive stum. Du vil ikke kunne tale, før det sker.\"",
-          "footnotes": [],
+          "text": "Men fordi du ikke troede mine ord: Du skal tie. Du vil ikke kunne tale, før det hele er sket.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:20",
+              "category": "unglaublich",
+              "keyword": "Du skal tie",
+              "content": "At blive slået med stumhed som tegn rejser spørgsmål. Er det bogstaveligt — en fysisk tilstand? Psykosomatisk — chok efter en overvældende oplevelse? Teologisk-symbolsk — tvivlen gør talens gave umulig, indtil troen vender? Teksten præsenterer det som direkte konsekvens af at møde det guddommelige og tvivle. Det er både tegn og forberedelse: ni måneders tavshed former Zakarias til det øjeblik, hans mund åbner sig med lovprisning (v.64)."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
-        }
-      ]
-    },
-    {
-      "heading": "Tavsheden begynder",
-      "verses": [
+        },
         {
           "number": "21",
-          "text": "<span class=\"paragraph-break\"></span>Udenfor ventede folket på Zakarias. <span class=\"amplification\">Usædvanlig længe. Den præstelige velsignelse varede normalt kun et øjeblik.</span>",
+          "text": "Udenfor stod folk og ventede. <span class=\"amplification\">Zakarias blev for længe væk.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -295,7 +290,7 @@
         },
         {
           "number": "22",
-          "text": "Da han endelig kom ud, kunne han ikke tale. Han gjorde tegn med hænderne. Da forstod de: Han havde haft et syn<span class=\"amplification\">. I helligdommen, der hvor Gud bor</span>.",
+          "text": "Da han endelig kom ud, kunne han ikke sige noget. Han stod og gestikulerede. <span class=\"amplification\">Folk forstod: han havde set et syn.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -303,7 +298,7 @@
         },
         {
           "number": "23",
-          "text": "Efter sin tjeneste gik han hjem. <span class=\"amplification\">Stum. Ude af stand til at udtale den velsignelse, folket ventede.</span>",
+          "text": "Han tjente resten af sin tid og rejste hjem.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -311,7 +306,7 @@
         },
         {
           "number": "24",
-          "text": "Kort efter blev Elisabeth gravid. I fem måneder holdt hun sig skjult.",
+          "text": "Kort tid efter blev Elisabet gravid. Hun holdt sig væk i fem måneder.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -319,8 +314,15 @@
         },
         {
           "number": "25",
-          "text": "Hun sagde: \"Det har Gud gjort for mig. Han så mig. Han tog min skam fra mig<span class=\"amplification\">— skammen over at være barnløs, som i alles øjne var en straf fra Gud</span>.\"",
-          "footnotes": [],
+          "text": "„Gud har set til mig,\" sagde hun. „Han har taget min skam.\"",
+          "footnotes": [
+            {
+              "ref": "1:25",
+              "category": "kultur",
+              "keyword": "min skam (ὄνειδος)",
+              "content": "Barnløshed var i den antikke verden ikke et privat medicinsk problem. Det var offentlig skam — et tegn, mente mange, på at Gud straffede dig. Elisabet har båret denne sociale byrde i årtier, mens hun og Zakarias levede ulastelig. Nu er skammen fjernet."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -332,21 +334,28 @@
       "verses": [
         {
           "number": "26",
-          "text": "<span class=\"paragraph-break\"></span>Seks måneder senere sendte Gud englen Gabriel <span class=\"amplification\">igen. Denne gang ikke til templet. Ikke til Jerusalem.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Til</span> Galilæa. Til en landsby ved navn Nazaret<span class=\"amplification\">. Et sted, ingen havde hørt om</span>.<span class=\"paragraph-break\"></span><span class=\"amplification\">Intet tempel. Ingen røgelse. Intet folk, der bad udenfor. Kun en pige.</span>",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>Seks måneder senere sendte Gud englen Gabriel til Galilæa, til en landsby ved navn Nazaret.",
+          "footnotes": [
+            {
+              "ref": "1:26",
+              "category": "kultur",
+              "keyword": "Nazaret",
+              "content": "En ubetydelig landsby med 200-400 indbyggere. Arkæologien viser en fattig landbrugsby i det nordlige Israel — langt fra Jerusalem, langt fra magt og prestige. At Gud sender sin engel hertil og ikke til templet er pointen."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "27",
-          "text": "<span class=\"paragraph-break\"></span>Hun hed Maria. Hun var forlovet med en mand ved navn Josef, som stammede fra Davids hus. <span class=\"amplification\">Forlovet — det betød: Hun tilhørte ham allerede, juridisk set. Men hun boede stadig hos sin far. Brylluppet var endnu ikke kommet.</span>",
+          "text": "Der boede en ung kvinde. Hun var forlovet med Josef, en mand af Davids slægt. Hun hed Maria.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,27",
-              "category": "kultur",
-              "keyword": "Forlovelse",
-              "content": "Forlovelse var juridisk bindende — et brud krævede formel skilsmisse. Maria boede stadig hos sin far; brylluppet var endnu ikke kommet."
+              "ref": "1:27",
+              "category": "text",
+              "keyword": "en ung kvinde (παρθένος)",
+              "content": "Betyder „jomfru\" — en ung, ugift kvinde. Lukas understreger, at Maria ikke har været sammen med nogen (v.34). Den teologiske pointe er, at initiativet er Guds alene."
             }
           ],
           "isPoetry": false,
@@ -355,15 +364,22 @@
         },
         {
           "number": "28",
-          "text": "Englen kom til hende og sagde: \"Vær hilset, benådede! Herren er med dig.\"",
-          "footnotes": [],
+          "text": "Gabriel kom til hende. „Du, som har fundet nåde,\" sagde han. „Gud er med dig.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:28",
+              "category": "text",
+              "keyword": "fundet nåde (κεχαριτωμένη)",
+              "content": "Perfektum passiv — „du, som er blevet beklædt med nåde.\" Det beskriver noget, Gud allerede har gjort, ikke noget, Maria har fortjent."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "29",
-          "text": "Ordene rystede hende. Hun spurgte sig selv, hvad denne hilsen kunne betyde.",
+          "text": "Ordene rystede hende. <span class=\"amplification\">Hvad mente han?</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -371,7 +387,7 @@
         },
         {
           "number": "30",
-          "text": "Englen sagde: \"Vær ikke bange, Maria. <span class=\"amplification\">Gud har udvalgt dig.</span>",
+          "text": "<span class=\"amplification\">Englen</span> sagde: „Frygt ikke, Maria. Du har fundet nåde hos Gud.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -379,7 +395,7 @@
         },
         {
           "number": "31",
-          "text": "Du vil blive gravid og føde en søn. Kald ham Jesus.",
+          "text": "Du vil blive gravid og føde en søn, og du skal kalde ham Jesus.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -387,13 +403,19 @@
         },
         {
           "number": "32",
-          "text": "Han vil være stor. Man vil kalde ham den Højestes Søn. Gud, Herren, vil give ham hans forfader Davids trone.",
+          "text": "Han skal være stor — den Højestes søn. Gud vil give ham Davids trone,",
           "footnotes": [
             {
-              "ref": "1,32-33",
-              "category": "kontekst",
+              "ref": "1:32",
+              "category": "kontext",
+              "keyword": "den Højestes søn (Ὕψιστος)",
+              "content": "„Den Højeste\" er en titel for Gud. At barnet skal kaldes „den Højestes søn\" er en massiv teologisk erklæring — dette barn vil stå i et unikt forhold til Gud."
+            },
+            {
+              "ref": "1:32",
+              "category": "kontext",
               "keyword": "Davids trone",
-              "content": "Davidsløftet (2 Sam 7,12-16) formede jødisk messiasforventning. Gud havde lovet David en evig trone — men kongeriget var for længst faldet."
+              "content": "Israels store konge David regerede ca. 1000 f.Kr. Gud lovede David, at hans slægt for evigt skulle sidde på tronen (2. Samuelsbog 7). Jøderne ventede stadig på denne lovede konge — Messias. Josef var af Davids slægt."
             }
           ],
           "isPoetry": false,
@@ -402,7 +424,7 @@
         },
         {
           "number": "33",
-          "text": "Han vil herske over <span class=\"amplification\">Israel</span> for evigt. Hans rige vil ikke have nogen ende.\"",
+          "text": "og han vil herske over Jakobs hus for evigt. Hans rige vil aldrig ende.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -410,13 +432,13 @@
         },
         {
           "number": "34",
-          "text": "Maria spurgte: \"Hvordan kan det ske? Jeg har aldrig været sammen med en mand.\"",
+          "text": "„Hvordan kan det ske?\" sagde Maria. „Jeg har ikke været sammen med nogen.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,34",
-              "category": "liv",
-              "keyword": "Spørge og tro",
-              "content": "Marias spørgsmål er ikke tvivl, men ønsket om at forstå. Hun accepterer budskabet, men vil vide hvordan. Dette mønster — at spørge før man handler — er en form for modent ansvar. Kristne traditioner har altid værdsat både tillid og refleksion. Også sekulariserede mennesker genkender denne balance: at sige ja til noget vigtigt uden at slutte af for at tænke."
+              "ref": "1:34",
+              "category": "text",
+              "keyword": "Hvordan kan det ske",
+              "content": "Marias spørgsmål er fundamentalt anderledes end Zakarias' (v.18). Zakarias spurgte: „Hvordan kan jeg vide, at det er sandt?\" — han krævede bevis. Maria spørger: „Hvordan?\" — hun søger forståelse. Forskellen koster Zakarias ni måneders tavshed. Maria får et svar."
             }
           ],
           "isPoetry": false,
@@ -425,13 +447,19 @@
         },
         {
           "number": "35",
-          "text": "Englen svarede: \"Helligånden vil komme over dig. Den Højestes kraft vil overskygge dig<span class=\"amplification\">— ligesom skyen engang fyldte helligdommen</span>. Derfor vil <span class=\"amplification\">man kalde det barn, du føder,</span> helligt: Guds Søn.",
+          "text": "„Helligånden vil komme over dig. Den Højestes kraft vil lægge sin skygge over dig. Derfor skal barnet, der fødes, kaldes helligt — Guds søn.\"",
           "footnotes": [
             {
-              "ref": "1,34-35",
-              "category": "utroligt",
-              "keyword": "Jomfrufødsel",
-              "content": "Forestillingen om undfangelse uden en mand er svær at tro for moderne læsere. Teksten hævder ikke biologisk partenogenese, men guddommelig handling: Guds Ånd bevirker, hvad der naturligt er umuligt. Nogle forstår dette symbolsk — som udtryk for Jesu unikke forhold til Gud. Andre, som de historiske kirker, forstår det bogstaveligt som et mirakel. Det græske ἐπισκιάζω (\"overskygge\") minder om skyen, der fyldte helligdommen (2 Mos 40,35) — Maria bliver stedet for Guds nærvær."
+              "ref": "1:35",
+              "category": "text",
+              "keyword": "lægge sin skygge (ἐπισκιάσει)",
+              "content": "Samme ord som i 2. Mosebog 40,35, da Guds sky lagde sig over tabernaklet. Det er Guds nærvær, der slår sig ned — den samme tilstedeværelse, der engang fyldte templet, kommer nu over en ung kvinde i en landsby."
+            },
+            {
+              "ref": "1:35",
+              "category": "unglaublich",
+              "keyword": "Helligånden vil komme over dig",
+              "content": "Jomfrufødslen er et af de mest omdiskuterede elementer i juleevangeliet. Lukas beskriver ingen biologiske detaljer — sproget er bevidst tilsløret og bruger GT-billeder (2. Mosebog 40:35). Fortolkninger: historisk-troende (Guds direkte indgriben, bekræftet i den apostolske trosbekendelse), teologisk-symbolsk (Jesu guddommelige oprindelse, ikke biologisk påstand), kritisk-historisk (teologisk konstruktion, jf. Gerd Lüdemann). Se sidebar SB-LK01-02 for en grundigere behandling."
             }
           ],
           "isPoetry": false,
@@ -440,7 +468,7 @@
         },
         {
           "number": "36",
-          "text": "<span class=\"amplification\">I øvrigt —</span> din slægtning Elisabeth er også gravid, hun, som man kaldte ufrugtbar. Hun er <span class=\"amplification\">allerede</span> i sjette måned.",
+          "text": "<span class=\"amplification\">Han standsede.</span> „Din slægtning Elisabet — også hun er gravid med en søn. I sin alderdom. Hun, som de kaldte barnløs, er i sjette måned.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -448,28 +476,27 @@
         },
         {
           "number": "37",
-          "text": "<span class=\"amplification\">For</span> Gud er intet umuligt.\"<span class=\"paragraph-break\"></span>",
-          "footnotes": [
-            {
-              "ref": "1,37",
-              "category": "kontekst",
-              "keyword": "Intet umuligt",
-              "content": "Ekko af 1 Mos 18,14, hvor Gud lover den gamle Sara en søn."
-            }
-          ],
+          "text": "Intet er umuligt for Gud.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "38",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Maria vidste, hvad det betød. Gravid før brylluppet — det var ikke pinligt. Det var farligt. Josef kunne forstøde hende. Loven tillod værre. Hendes ry, hendes fremtid, hendes families ære — alt stod på spil. Og barnet? Det ville blive betragtet som uægte, hele sit liv.</span><span class=\"paragraph-break\"></span><span class=\"amplification\">Og</span> hun sagde: \"Jeg tilhører Herren. Hvad du har sagt — lad det ske.\"<span class=\"paragraph-break\"></span>Så gik englen<span class=\"amplification\">fra hende</span>.",
+          "text": "Maria sagde: „Jeg er Guds tjenerinde. Lad det ske, som du har sagt.\" Englen forlod hende.",
           "footnotes": [
             {
-              "ref": "1,38",
-              "category": "kultur",
-              "keyword": "Risikoen",
-              "content": "En forlovet, der blev gravid, risikerede offentlig skam. 5 Mos 22,23-24 foreskrev stening for en forlovets utroskab. Marias ja var mod, ikke from refleks."
+              "ref": "1:38",
+              "category": "text",
+              "keyword": "Lad det ske (γένοιτο)",
+              "content": "Optativ — en aktiv ønskeform. Maria accepterer ikke passivt; hun samtykker aktivt. Og prisen er høj: en graviditet før ægteskab betyder skandale, mulig forskydelse, social udstødelse. Marias ja er modigt, ikke sødt."
+            },
+            {
+              "ref": "1:38",
+              "category": "leben",
+              "keyword": "Lad det ske",
+              "content": "Marias ja er et af de mest radikale samtykker i litteraturhistorien. Hun siger ja til noget, der kan ødelægge hendes liv — skandale, udstødelse, mulig skilsmisse. Englen har ikke lovet, at det bliver nemt. At sige ja til noget, der koster — før man kan se, hvordan det ender — er en grundlæggende livserfaring. Modet ligger ikke i fraværet af risiko, men i det bevidste alligevel."
             }
           ],
           "isPoetry": false,
@@ -483,7 +510,7 @@
       "verses": [
         {
           "number": "39",
-          "text": "<span class=\"paragraph-break\"></span>Maria tog af sted. <span class=\"amplification\">Med det samme.</span> Hun skyndte sig <span class=\"amplification\">— flere dages rejse</span> gennem bjergene<span class=\"amplification\">, alene,</span> til en by i Judæa.",
+          "text": "<span class=\"paragraph-break\"></span>Maria rejste sig og skyndte sig af sted. Op i bjergene, til en by i Judæa.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -491,7 +518,7 @@
         },
         {
           "number": "40",
-          "text": "Hun gik ind i Zakarias' hus og hilste på Elisabeth.",
+          "text": "Hun gik ind i Zakarias' hus og hilste på Elisabet.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -499,13 +526,19 @@
         },
         {
           "number": "41",
-          "text": "<span class=\"amplification\">Hvad der så skete, var mere end et gensyn.</span> Da Elisabeth hørte Marias stemme, sprang barnet i hendes mave. Helligånden fyldte Elisabeth.",
+          "text": "I det øjeblik sprang barnet i Elisabet. Hun blev fyldt af Helligånden og råbte højt:<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
-              "ref": "1,41",
-              "category": "utroligt",
-              "keyword": "Barnet sprang",
-              "content": "Kan et ufødt barn reagere profetisk? Teksten bruger samme ord som ved Jakob og Esau i Rebekkas liv (1 Mos 25,22). Lukas præsenterer dette som mere end normalt spark — som erkendelse før fødslen. Skeptikere ser her litterær udsmykning; troende ser Guds Ånd, der allerede virker i moders liv."
+              "ref": "1:41",
+              "category": "text",
+              "keyword": "sprang barnet (ἐσκίρτησεν)",
+              "content": "Betyder „springe, hoppe\" — bruges om lam, der springer. Det er ikke en blid bevægelse men en voldsom, fysisk reaktion. Den ufødte Johannes genkender den ufødte Jesus — profetisk anerkendelse allerede før fødslen."
+            },
+            {
+              "ref": "1:41",
+              "category": "unglaublich",
+              "keyword": "sprang barnet",
+              "content": "At et ufødt barn genkender et andet ufødt barn som Messias er en påstand, de fleste moderne læsere vil stoppe ved. Er det teologisk fortolkning af en normal fosterbevægelse? Profetisk anerkendelse? Litterært virkemiddel? Teksten selv behandler det som reelt: Elisabet fortolker det som hendes barns reaktion på Marias stemme og den, hun bærer."
             }
           ],
           "isPoetry": false,
@@ -514,23 +547,37 @@
         },
         {
           "number": "42",
-          "text": "Hun råbte højt<span class=\"amplification\">— som en profetinde</span>:<span class=\"paragraph-break\"></span>\"Velsignet er du<span class=\"amplification\">, mere end alle andre kvinder</span>! Velsignet er <span class=\"amplification\">barnet i</span> dit liv!",
-          "footnotes": [],
+          "text": "„Velsignet er du blandt kvinder. Velsignet er det barn, du bærer.",
+          "footnotes": [
+            {
+              "ref": "1:42",
+              "category": "kontext",
+              "keyword": "Velsignet er du blandt kvinder",
+              "content": "Ordene gentager velsignelsen af Jael (Dommerbogen 5,24) og Judit (Judits Bog 13,18) — Israels heltekvinder. Maria stilles i rækken af kvinder, der spillede en afgørende rolle i Guds historie."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "43",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Men hvordan kan det være, at</span> min Herres mor kommer til mig? <span class=\"amplification\">Jeg — til mig?</span>",
-          "footnotes": [],
+          "text": "Hvordan kan det ske — at min Herres mor kommer til mig?",
+          "footnotes": [
+            {
+              "ref": "1:43",
+              "category": "kontext",
+              "keyword": "min Herres mor",
+              "content": "Elisabet — en præstekone, ældre, fra en respekteret familie — kalder en ung bondepige „min Herres mor.\" Den sociale orden er allerede ved at vende. Ordene gentager kong Davids reaktion, da pagtens ark kom til ham (2. Samuelsbog 6,9): „Hvordan kan Herrens ark komme til mig?\""
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "44",
-          "text": "Da din stemme nåede mit øre, hoppede mit barn af glæde!",
+          "text": "Da din stemme nåede mine ører, sprang barnet af glæde i mig.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -538,15 +585,8 @@
         },
         {
           "number": "45",
-          "text": "<span class=\"amplification\">Du troede. Derfor</span> er du velsignet. Hvad <span class=\"amplification\">Gud</span> har <span class=\"amplification\">lovet</span> dig, vil gå i opfyldelse.\"",
-          "footnotes": [
-            {
-              "ref": "1,45",
-              "category": "kontekst",
-              "keyword": "Du troede",
-              "content": "Elisabeth priser Maria for hendes tro — i modsætning til Zakarias, der tvivlede."
-            }
-          ],
+          "text": "Lykkelig er hun, som troede. For det vil ske — det, Gud har lovet.\"",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -554,199 +594,118 @@
       ]
     },
     {
-      "heading": "Hvad Gud gør — Magnificat",
+      "heading": "Marias sang",
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>Maria sagde:<span class=\"poetry-line-1\">Alt i mig — alt! — fejrer Gud.</span>",
-          "footnotes": [
-            {
-              "ref": "1,46-55",
-              "category": "kontekst",
-              "keyword": "Magnificat",
-              "content": "Marias lovsang følger mønsteret fra Hannas sang (1 Sam 2,1-10). Begge kvinder priser Gud for at vende forholdene om."
-            }
-          ],
+          "text": "<span class=\"paragraph-break\"></span>Alt i mig fejrer Gud. <span class=\"poetry-line-1\"></span>",
+          "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 0,
-          "lines": [
-            {
-              "text": "Alt i mig — alt! — fejrer Gud.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 1,
+          "lines": []
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Min ånd jubler over min frelser.</span>",
+          "text": "Min ånd jubler <span class=\"poetry-line-2\">over ham, som redder mig.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Min ånd jubler over min frelser.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">Han så mig.</span><span class=\"poetry-line-2\">Mig, den lille.</span><span class=\"poetry-line-2\">Den ubetydelige.</span><span class=\"poetry-line-1\">Fra nu af vil alle generationer sige: Hun er velsignet.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han så mig.",
-              "level": 1
-            },
-            {
-              "text": "Mig, den lille.",
-              "level": 2
-            },
-            {
-              "text": "Den ubetydelige.",
-              "level": 2
-            },
-            {
-              "text": "Fra nu af vil alle generationer sige: Hun er velsignet.",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "49",
-          "text": "<span class=\"poetry-line-1\">For den Mægtige har gjort store ting for mig.</span><span class=\"poetry-line-2\">Helligt er hans navn.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "For den Mægtige har gjort store ting for mig.",
-              "level": 1
-            },
-            {
-              "text": "Helligt er hans navn.",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "number": "50",
-          "text": "<span class=\"poetry-line-1\">Hans godhed gælder dem, der tager ham alvorligt —</span><span class=\"poetry-line-2\">fra generation til generation.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Hans godhed gælder dem, der tager ham alvorligt —",
-              "level": 1
-            },
-            {
-              "text": "fra generation til generation.",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "number": "51",
-          "text": "<span class=\"poetry-line-1\">Stærk er hans arm.</span><span class=\"poetry-line-1\">De stolte? Spredt for alle vinde<span class=\"amplification\">, med alle deres store planer</span>.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Stærk er hans arm.",
-              "level": 1
-            },
-            {
-              "text": "De stolte? Spredt for alle vinde<span class=\"amplification\">, med alle deres store planer</span>.",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "number": "52",
-          "text": "<span class=\"poetry-line-1\">Herskere? Styrtet fra tronen.</span><span class=\"poetry-line-1\">De små? Løftet op.</span>",
+          "text": "Han så mig. <span class=\"poetry-line-1\">Han lagde mærke til mig —</span><span class=\"poetry-line-2\"><span class=\"amplification\">den lille, den ubetydelige</span>.</span><span class=\"poetry-line-1\">Fra nu af vil alle sige:</span><span class=\"poetry-line-2\">Hun blev beskænket.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,52",
-              "category": "liv",
-              "keyword": "Omvending af magten",
-              "content": "Marias vision af en omvendt verden — hvor de mægtige styrtedes og de ubetydelige løftes op — har fascineret og provokeret i to årtusinder. Befrielseteologer ser her et manifest for social retfærdighed. Konservative betoner den åndelige dimension. Begge har ret: Teksten er både åndelig og politisk. For danskere, der værdsætter lighed og social retfærdighed, rejser Magnificat spørgsmålet: Hvem er de \"små\" i dag? Og hvad vil det sige at løfte dem op?"
+              "ref": "1:48",
+              "category": "text",
+              "keyword": "den lille, den ubetydelige (ταπείνωσις)",
+              "content": "Betyder „lav social position\" — ikke ydmyghed som dyd, men Marias faktiske situation: fattig, ung, kvinde, fra ingenting. Hun er ikke beskeden. Hun beskriver, hvor hun står i verden. Og Gud så hende dér."
+            },
+            {
+              "ref": "1:48",
+              "category": "leben",
+              "keyword": "Han så mig",
+              "content": "Maria beskriver en erfaring, mange kender: at være ubetydelig, overset, perifær. Og så opdage, at nogen ser en. Marias sang siger: Guds blik falder ikke på magt, præstation eller synlighed — men netop dér, hvor ingen andre ser. Det er ikke en idyllisk trøst. Det er en omvæltning af, hvad det vil sige at have værdi."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
+          "lines": []
+        },
+        {
+          "number": "49",
+          "text": "For han, som er mægtig, har gjort store ting for mig. <span class=\"poetry-line-2\">Helligt er hans navn.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
+        },
+        {
+          "number": "50",
+          "text": "Hans godhed varer <span class=\"poetry-line-2\">fra slægt til slægt</span><span class=\"poetry-line-2\">for dem, der frygter ham.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
+        },
+        {
+          "number": "51",
+          "text": "Med sin stærke arm har han handlet. <span class=\"poetry-line-1\">De hovmodige har han spredt.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
             {
-              "text": "Herskere? Styrtet fra tronen.",
-              "level": 1
-            },
-            {
-              "text": "De små? Løftet op.",
-              "level": 1
+              "ref": "1:51",
+              "category": "kontext",
+              "keyword": "De hovmodige har han spredt",
+              "content": "Magnificat bruger aorist — en græsk fortidsform, der her beskriver Guds karakteristiske handling: „Sådan gør Gud.\" Det lyder som om det allerede er sket, men Herodes sidder stadig på tronen. Spændingen er tilsigtet: profetisk vished midt i politisk virkelighed. Under romersk besættelse var disse ord revolutionære."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
+        },
+        {
+          "number": "52",
+          "text": "Magthaverne har han styrtet. <span class=\"poetry-line-1\">De små har han løftet.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [],
+          "isPoetry": true,
+          "poetryLevel": 1,
+          "lines": []
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">De sultne? Mætte med alt godt.</span><span class=\"poetry-line-1\">De rige? Sendt væk. Med tomme hænder.</span>",
+          "text": "De sultne har han mættet. <span class=\"poetry-line-1\">De rige har han sendt tomhændede bort.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "De sultne? Mætte med alt godt.",
-              "level": 1
-            },
-            {
-              "text": "De rige? Sendt væk. Med tomme hænder.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Han har hjulpet Israel, sin tjener.</span><span class=\"poetry-line-2\">Han har husket sin godhed —</span>",
+          "text": "Han har hjulpet Israel, sin tjener. <span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han har hjulpet Israel, sin tjener.",
-              "level": 1
-            },
-            {
-              "text": "Han har husket sin godhed —",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">som han lovede vores forfædre:</span><span class=\"poetry-line-2\">Abraham og hans efterkommere.</span><span class=\"poetry-line-2\">For evigt.</span><span class=\"paragraph-break\"></span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "Han huskede sin godhed. <span class=\"poetry-line-2\">Som han lovede vores fædre —</span><span class=\"poetry-line-2\">Abraham og hans slægt.</span><span class=\"poetry-line-2\">For altid.</span><span class=\"poetry-break\"></span><span class=\"paragraph-break\"></span>",
+          "footnotes": [
             {
-              "text": "som han lovede vores forfædre:",
-              "level": 1
-            },
-            {
-              "text": "Abraham og hans efterkommere.",
-              "level": 2
-            },
-            {
-              "text": "For evigt.",
-              "level": 2
+              "ref": "1:54-55",
+              "category": "text",
+              "keyword": "sin godhed (ἔλεος/חֶסֶד)",
+              "content": "Oversætter det hebraiske chesed — pagtstroskab, den dybe loyalitet, Gud lovede Abraham og hans efterkommere. Magnificat ender ikke i abstrakt teologi men i konkret erindring: Gud husker et løfte, han gav for tusind år siden. Nu holder han det — gennem denne pige."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "56",
-          "text": "<span class=\"paragraph-break\"></span>Maria blev hos Elisabeth i omkring tre måneder. Så vendte hun hjem.",
+          "text": "Maria blev hos Elisabet i tre måneder. Så rejste hun hjem.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -759,7 +718,7 @@
       "verses": [
         {
           "number": "57",
-          "text": "<span class=\"paragraph-break\"></span>For Elisabeth kom tiden. Hun fødte en søn.",
+          "text": "<span class=\"paragraph-break\"></span>Så var tiden inde for Elisabet. Hun fødte en søn.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -767,7 +726,7 @@
         },
         {
           "number": "58",
-          "text": "Naboerne og slægtninge hørte, <span class=\"amplification\">hvad der var sket:</span> Herren havde vist hende stor barmhjertighed. De glædede sig med hende.<span class=\"paragraph-break\"></span>",
+          "text": "Naboerne og familien hørte det — at Gud havde været god mod hende. De glædede sig med hende.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -775,15 +734,22 @@
         },
         {
           "number": "59",
-          "text": "<span class=\"paragraph-break\"></span>På den ottende dag kom de til omskærelsen<span class=\"amplification\">— det ældgamle pagtstegn, hvor barnet fik sit navn</span>. De ville kalde ham Zakarias, efter faderen.",
-          "footnotes": [],
+          "text": "Da barnet var otte dage gammelt, kom de for at omskære ham. De ville kalde ham Zakarias.",
+          "footnotes": [
+            {
+              "ref": "1:59",
+              "category": "kultur",
+              "keyword": "otte dage",
+              "content": "Omskærelsen på den ottende dag var det jødiske pagtstegn — barnets formelle indlemmelse i Israels folk. Samtidig fik barnet sit navn. Det var en offentlig, fælles begivenhed — hele familien og naboerne deltog."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "60",
-          "text": "Men moderen sagde: \"Nej. Han hedder Johannes.\"",
+          "text": "Elisabet sagde: „Nej. Han skal hedde Johannes.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -791,7 +757,7 @@
         },
         {
           "number": "61",
-          "text": "De indvendte: \"I jeres familie hedder ingen sådan!\" <span class=\"amplification\">At opkalde et barn efter en fremmed? Det gjorde man ikke.</span><span class=\"paragraph-break\"></span>",
+          "text": "De sagde: „<span class=\"amplification\">Det hedder ingen i din familie.</span>\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -799,7 +765,7 @@
         },
         {
           "number": "62",
-          "text": "<span class=\"paragraph-break\"></span>De spurgte faderen med tegn<span class=\"amplification\">— de troede nok, han også var blevet døv</span>. Hvad skulle barnet hedde?",
+          "text": "Så henvendte de sig til faren. Gjorde tegn til ham.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -807,7 +773,7 @@
         },
         {
           "number": "63",
-          "text": "Han bad om en tavle og skrev: \"Johannes er hans navn.\"<span class=\"paragraph-break\"></span>Alle undrede sig.<span class=\"paragraph-break\"></span>",
+          "text": "Zakarias bad om en tavle og skrev: Hans navn er Johannes. <span class=\"amplification\">Alle blev stille.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -815,22 +781,15 @@
         },
         {
           "number": "64",
-          "text": "<span class=\"paragraph-break\"></span>I samme øjeblik åbnede hans mund sig. Hans tunge løsnede sig. Han talte — <span class=\"amplification\">og hans første ord efter ni måneders tavshed var</span> lovprisning af Gud.<span class=\"paragraph-break\"></span>",
-          "footnotes": [
-            {
-              "ref": "1,64",
-              "category": "utroligt",
-              "keyword": "Munden åbnede sig",
-              "content": "Ni måneders stumhed — og så, i lydighedens øjeblik, øjeblikkelig helbredelse. Var det psykosomatisk? Et mirakel? Teksten præsenterer det som direkte indgriben fra Gud: Straffen ophører, da Zakarias adlyder englen. Hans første ord efter måneders tavshed er lovprisning."
-            }
-          ],
+          "text": "I samme øjeblik åbnede hans mund sig. Han talte. Han priste Gud.<span class=\"paragraph-break\"></span>",
+          "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "65",
-          "text": "<span class=\"paragraph-break\"></span>Ærefrygt greb alle naboer. I hele Judæas bjergland talte man om det.",
+          "text": "Frygt faldt over alle. I hele Judæas bjerge talte folk om det.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -838,7 +797,7 @@
         },
         {
           "number": "66",
-          "text": "Alle, der hørte det, gemte det i deres hjerte<span class=\"amplification\">:</span> \"Hvad mon der bliver af dette barn?\" For Herrens hånd var synligt over ham.",
+          "text": "Alle, der hørte det, tænkte over det og sagde: „Hvad skal der blive af det barn?\" For Guds hånd var over ham.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -847,283 +806,189 @@
       ]
     },
     {
-      "heading": "Hvad Zakarias så — Benedictus",
+      "heading": "Zakarias' profeti",
       "verses": [
         {
           "number": "67",
-          "text": "<span class=\"paragraph-break\"></span>Zakarias, hans far, blev fyldt af Helligånden. Han begyndte at profetere:",
+          "text": "<span class=\"paragraph-break\"></span>Helligånden fyldte Zakarias<span class=\"amplification\">, hans far</span>. Han profeterede: <span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,67-79",
-              "category": "kontekst",
-              "keyword": "Benedictus",
-              "content": "Benedictus har to dele: lovprisning for Guds frelse af Israel (68-75) og profeti om Johannes' mission (76-79)."
+              "ref": "1:67",
+              "category": "unglaublich",
+              "keyword": "Helligånden fyldte Zakarias",
+              "content": "Inspiration og profeti — at et menneske taler ord, der kommer „udefra\" — hører til de ældste religiøse erfaringer. Moderne neurovidenskab studerer ekstatiske tilstande, men kan ikke afgøre spørgsmålet om guddommelig oprindelse. Teksten præsenterer det som reel erfaring: Zakarias' mund åbnes efter ni måneders tavshed, og det første, han siger, er profetisk poesi af høj litterær kvalitet."
             }
           ],
-          "isPoetry": false,
-          "poetryLevel": 0,
+          "isPoetry": true,
+          "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "68",
-          "text": "<span class=\"poetry-line-1\">Lovet være Herren, Israels Gud!</span><span class=\"poetry-line-1\">Han har besøgt sit folk. Han har befriet det.</span>",
-          "footnotes": [],
+          "text": "Lovet være Herren, Israels Gud. <span class=\"poetry-line-1\">Han har set til sit folk.</span><span class=\"poetry-line-1\">Han har befriet dem.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:68",
+              "category": "kontext",
+              "keyword": "Lovet være Herren",
+              "content": "Benedictus åbner med en berakah — den jødiske velsignelsesformel, der indleder bønner i synagogen. Zakarias bruger formen fra sin egen tradition. Det er hans første ord efter ni måneders tavshed — og de første ord er lovprisning, ikke klage."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Lovet være Herren, Israels Gud!",
-              "level": 1
-            },
-            {
-              "text": "Han har besøgt sit folk. Han har befriet det.",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Han har givet os en stærk frelser —</span><span class=\"poetry-line-2\">fra Davids hus, hans tjener.</span>",
+          "text": "En mægtig redning har han rejst <span class=\"poetry-line-2\">i sin tjener Davids hus.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,69",
-              "category": "tekst",
-              "keyword": "Stærk frelser (κέρας σωτηρίας)",
-              "content": "Ordret \"frelsens horn\" — et billede på styrke og magt (Sl 18,3)."
+              "ref": "1:69",
+              "category": "text",
+              "keyword": "mægtig redning (κέρας σωτηρίας)",
+              "content": "Bogstaveligt „frelsens horn.\" Hornet var i det gamle Israel et symbol på styrke og magt (som et dyrs horn). Billedet betyder: Gud har rejst en stærk befrier."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han har givet os en stærk frelser —",
-              "level": 1
-            },
-            {
-              "text": "fra Davids hus, hans tjener.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Sådan har han lovet det,</span><span class=\"poetry-line-2\">for lang tid siden,</span><span class=\"poetry-line-2\">gennem sine profeter:</span>",
+          "text": "Sådan lovede han det <span class=\"poetry-line-2\">gennem sine profeters mund.</span><span class=\"poetry-line-2\">For længe siden.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Sådan har han lovet det,",
-              "level": 1
-            },
-            {
-              "text": "for lang tid siden,",
-              "level": 2
-            },
-            {
-              "text": "gennem sine profeter:",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">Frelse fra vores fjender.</span><span class=\"poetry-line-2\">Frelse fra alle, der hader os.</span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
+          "text": "Frelse fra vores fjender. <span class=\"poetry-line-2\">Fra alle, der hader os.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
             {
-              "text": "Frelse fra vores fjender.",
-              "level": 1
-            },
-            {
-              "text": "Frelse fra alle, der hader os.",
-              "level": 2
+              "ref": "1:71",
+              "category": "kontext",
+              "keyword": "vores fjender",
+              "content": "Under romersk besættelse var „frelse fra fjender\" politisk sprængstof. Men Benedictus ender ikke med militær sejr — det ender med fred (v.79). Zakarias begynder med det, hans folk forventer (befrielse fra Rom), og leder dem hen mod noget dybere."
             }
-          ]
+          ],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "72",
-          "text": "<span class=\"poetry-line-1\">Han har vist vores forfædre godhed.</span><span class=\"poetry-line-2\">Han har husket sin hellige pagt —</span>",
+          "text": "Godhed mod vores fædre. <span class=\"poetry-line-1\">Han huskede sin pagt —</span><span class=\"poetry-line-2\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Han har vist vores forfædre godhed.",
-              "level": 1
-            },
-            {
-              "text": "Han har husket sin hellige pagt —",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">den ed, han svor Abraham, vores far:</span>",
+          "text": "eden til Abraham: <span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "den ed, han svor Abraham, vores far:",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-1\">Befriet fra vores fjender</span><span class=\"poetry-line-2\">kan vi tjene ham,</span>",
+          "text": "at vi kan tjene ham uden frygt, <span class=\"poetry-line-2\"><span class=\"amplification\">befriet,</span></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Befriet fra vores fjender",
-              "level": 1
-            },
-            {
-              "text": "kan vi tjene ham,",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">uden frygt,</span><span class=\"poetry-line-2\">helliget og retfærdige for ham,</span><span class=\"poetry-line-2\">hele vores liv.</span>",
+          "text": "hellige og retfærdige foran ham, <span class=\"poetry-line-2\">alle vores dage.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "uden frygt,",
-              "level": 1
-            },
-            {
-              "text": "helliget og retfærdige for ham,",
-              "level": 2
-            },
-            {
-              "text": "hele vores liv.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Og du, mit barn —</span><span class=\"poetry-line-2\">den Højestes profet vil du blive kaldt.</span><span class=\"poetry-line-1\">Du vil gå foran Herren</span><span class=\"poetry-line-2\">og berede ham vejen.</span>",
-          "footnotes": [],
+          "text": "Og du, barn. <span class=\"poetry-line-1\">Du skal kaldes den Højestes profet.</span><span class=\"poetry-line-1\">Du vil gå foran ham</span><span class=\"poetry-line-2\">og gøre hans vej klar.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:76",
+              "category": "kontext",
+              "keyword": "Og du, barn",
+              "content": "Her vender Zakarias sig direkte til sin nyfødte søn. Efter kosmisk profeti om pagter, konger og fjender — pludselig intimt: en far taler til sit barn. Han kalder en nyfødt for „den Højestes profet.\" Kontrasten mellem den store titel og det lille barn er tilsigtet."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Og du, mit barn —",
-              "level": 1
-            },
-            {
-              "text": "den Højestes profet vil du blive kaldt.",
-              "level": 2
-            },
-            {
-              "text": "Du vil gå foran Herren",
-              "level": 1
-            },
-            {
-              "text": "og berede ham vejen.",
-              "level": 2
-            }
-          ]
+          "lines": []
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Du vil vise hans folk, hvad frelse betyder:</span><span class=\"poetry-line-2\">Tilgivelse for skyld.</span>",
+          "text": "Du vil lære hans folk, <span class=\"poetry-line-2\">at der er frelse —</span><span class=\"poetry-line-2\">tilgivelse for det, de har gjort.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "Du vil vise hans folk, hvad frelse betyder:",
-              "level": 1
-            },
-            {
-              "text": "Tilgivelse for skyld.",
-              "level": 2
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\"><span class=\"amplification\">Alt dette sker</span> fordi vores Gud er fuld af barmhjertighed.</span><span class=\"poetry-line-1\">Lyset fra det høje vil besøge os,</span>",
+          "text": "For af Guds inderste barmhjertighed <span class=\"poetry-line-1\">vil et lys fra det høje besøge os.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
-              "ref": "1,78",
-              "category": "tekst",
-              "keyword": "Fuld af barmhjertighed (σπλάγχνα ἐλέους)",
-              "content": "Ordret \"barmhjertighedens indvolde\". Antikken placerede dybe følelser i maven, ikke i hjertet. Det betyder: dyb, kropsligt følt kærlighed."
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "inderste barmhjertighed (σπλάγχνα ἐλέους)",
+              "content": "Bogstaveligt „barmhjertighedens indvolde.\" Det er ikke abstrakt nåde men fysisk, kropslig medfølelse — noget, Gud føler i maven. Dansk „inderste\" fanger dybden: det, der kommer fra det indre."
             },
             {
-              "ref": "1,78",
-              "category": "tekst",
-              "keyword": "Lyset fra det høje (ἀνατολή)",
-              "content": "Kan betyde \"opgang\" (solopgang) eller \"skud\" (messiansk titel)."
+              "ref": "1:78",
+              "category": "text",
+              "keyword": "et lys fra det høje (ἀνατολή)",
+              "content": "Kan betyde både „solopgang\" og „skud\" (som i en ny gren). Begge billeder peger på Messias: et lys, der bryder frem, en ny begyndelse fra oven."
             }
           ],
           "isPoetry": true,
           "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "<span class=\"amplification\">Alt dette sker</span> fordi vores Gud er fuld af barmhjertighed.",
-              "level": 1
-            },
-            {
-              "text": "Lyset fra det høje vil besøge os,",
-              "level": 1
-            }
-          ]
+          "lines": []
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">for at skinne for alle,</span><span class=\"poetry-line-2\">der sidder i mørke,</span><span class=\"poetry-line-2\">i dødens skygge —</span><span class=\"poetry-line-1\">og lede vores skridt på fredens vej.</span>",
+          "text": "Det vil skinne for dem, <span class=\"poetry-line-2\">der sidder i mørke</span><span class=\"poetry-line-2\">og i dødens skygge.</span><span class=\"poetry-line-1\">Det vil lede vores fødder</span><span class=\"poetry-line-2\">ind på fredens vej.</span>",
           "footnotes": [
             {
-              "ref": "1,79",
-              "category": "kontekst",
-              "keyword": "I mørke, i dødens skygge",
-              "content": "Henvisning til Es 9,1 — lys for det undertrykte folk."
+              "ref": "1:79",
+              "category": "kontext",
+              "keyword": "mørke og dødens skygge",
+              "content": "Et direkte citat fra Esajas 9,1 og et ekko af Salme 23,4. Billedet af mørke og skygge forbinder Benedictus med Israels dybeste håb — og med den mest kendte af alle salmer."
+            },
+            {
+              "ref": "1:79",
+              "category": "leben",
+              "keyword": "fredens vej",
+              "content": "Benedictus ender ikke med sejr, trumf eller magt — men med fred. Zakarias begynder med Israels store historie, ender med et lys, der skinner i mørket, og fødder, der ledes ind på fredens vej. At finde fred — ikke som fravær af konflikt, men som en retning at gå i — er måske den dybeste menneskelige længsel. Benedictus siger: Det lys findes. Og det kommer udefra."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
-          "lines": [
-            {
-              "text": "for at skinne for alle,",
-              "level": 1
-            },
-            {
-              "text": "der sidder i mørke,",
-              "level": 2
-            },
-            {
-              "text": "i dødens skygge —",
-              "level": 2
-            },
-            {
-              "text": "og lede vores skridt på fredens vej.",
-              "level": 1
-            }
-          ]
+          "poetryLevel": 2,
+          "lines": []
         }
       ]
     },
     {
-      "heading": "At vokse op i ørkenen",
+      "heading": "Drengen i ødemarken",
       "verses": [
         {
           "number": "80",
-          "text": "<span class=\"paragraph-break\"></span>Barnet voksede op. Det blev stærkt i ånden. Det levede i ørkenen<span class=\"amplification\">— langt væk fra alt</span> — indtil den dag, det trådte frem for Israel.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>Drengen voksede op. Han blev stærk i ånden. Han levede i ødemarken — indtil den dag, han trådte frem for Israel.",
+          "footnotes": [
+            {
+              "ref": "1:80",
+              "category": "kultur",
+              "keyword": "ødemarken",
+              "content": "Ørkenen var i Israels tradition stedet, hvor profeter blev formet — Moses i Midjan, Elias på Horeb, Israel selv i fyrre år. Johannes vokser op uden for institutionerne — væk fra templet, væk fra den religiøse elite. Det er forberedelse, ikke eksil."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []

@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../components/PericopeCard.astro';
-import ChapterNav from '../../../components/ChapterNav.astro';
 import chapterData from '../../../content/luke-3-de.json';
 import pericopes from '../../../content/luke-3-pericopes-de.json';
 
@@ -83,14 +82,10 @@ const base = '';
 
   <!-- Chapter Footer -->
   <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
-    <ChapterNav currentChapter={3} lang="de" />
-
-    <div class="mt-12">
-      <a href={`${base}/de/`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-        ← Zurück zur Startseite
-      </a>
-    </div>
-
+    <p class="text-warm-gray mb-8">Weiterlesen</p>
+    <a href={`${base}/de/luke/4`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
+      Lukas 4 <span>→</span>
+    </a>
     <p class="mt-12 text-sm text-warm-gray">
       Übersetzung: Aperto Bibel (AB-DE) | Lizenz: CC BY-SA 4.0
     </p>
