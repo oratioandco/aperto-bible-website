@@ -747,8 +747,12 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
   }
 
   .prose-paragraph {
+    font-family: var(--font-bible);
+    font-size: 1.25rem;
+    line-height: 1.9;
+    font-weight: 200;
+    color: var(--color-text);
     margin-bottom: 1.2em;
-    line-height: 1.85;
   }
 
   .prose-paragraph:last-child {
