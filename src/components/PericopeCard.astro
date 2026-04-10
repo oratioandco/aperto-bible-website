@@ -1,6 +1,7 @@
 ---
 import { marked } from 'marked';
 import SongPlayer from './SongPlayer.astro';
+import { useTranslations } from '../i18n/utils';
 
 interface Song {
   description?: string;
@@ -49,6 +50,7 @@ interface Props {
 }
 
 const { id, title, subtitle, verses, image, verseData, media, exegesis, lang, chapter = 1, isFirst, layoutIndex = 0, audioBibleStart, audioBibleMp3, audioBibleTranscriptPath } = Astro.props;
+const t = useTranslations(lang);
 
 // Determine if audiobible has karaoke capability
 const audioBibleHasTranscript = !!(audioBibleTranscriptPath || media.audioBible?.transcriptPath);
@@ -113,95 +115,20 @@ const categoryIcons: Record<string, string> = {
   unglaublich: 'help', hard: 'help'
 };
 
-// Category labels (for display) - localized
-const categoryLabelsLocalized: Record<string, Record<string, string>> = {
-  da: {
-    text: 'Tekst',
-    kultur: 'Kultur', culture: 'Kultur',
-    leben: 'Liv', life: 'Liv',
-    kontext: 'Kontekst', context: 'Kontekst',
-    unglaublich: 'Svært', hard: 'Svært'
-  },
-  de: {
-    text: 'Text',
-    kultur: 'Kultur', culture: 'Kultur',
-    leben: 'Leben', life: 'Leben',
-    kontext: 'Kontext', context: 'Kontext',
-    unglaublich: 'Schwierig', hard: 'Schwierig'
-  },
-  en: {
-    text: 'Text',
-    kultur: 'Culture', culture: 'Culture',
-    leben: 'Life', life: 'Life',
-    kontext: 'Context', context: 'Context',
-    unglaublich: 'Difficult', hard: 'Difficult'
-  },
-  es: {
-    text: 'Texto',
-    kultur: 'Cultura', culture: 'Cultura',
-    leben: 'Vida', life: 'Vida',
-    kontext: 'Contexto', context: 'Contexto',
-    unglaublich: 'Difícil', hard: 'Difícil'
-  },
-  fr: {
-    text: 'Texte',
-    kultur: 'Culture', culture: 'Culture',
-    leben: 'Vie', life: 'Vie',
-    kontext: 'Contexte', context: 'Contexte',
-    unglaublich: 'Difficile', hard: 'Difficile'
-  },
-  it: {
-    text: 'Testo',
-    kultur: 'Cultura', culture: 'Cultura',
-    leben: 'Vita', life: 'Vita',
-    kontext: 'Contesto', context: 'Contesto',
-    unglaublich: 'Difficile', hard: 'Difficile'
-  },
-  pl: {
-    text: 'Tekst',
-    kultur: 'Kultura', culture: 'Kultura',
-    leben: 'Życie', life: 'Życie',
-    kontext: 'Kontekst', context: 'Kontekst',
-    unglaublich: 'Trudne', hard: 'Trudne'
-  },
-  pt: {
-    text: 'Texto',
-    kultur: 'Cultura', culture: 'Cultura',
-    leben: 'Vida', life: 'Vida',
-    kontext: 'Contexto', context: 'Contexto',
-    unglaublich: 'Difícil', hard: 'Difícil'
-  },
-  sv: {
-    text: 'Text',
-    kultur: 'Kultur', culture: 'Kultur',
-    leben: 'Liv', life: 'Liv',
-    kontext: 'Kontext', context: 'Kontext',
-    unglaublich: 'Svårt', hard: 'Svårt'
-  },
-  tr: {
-    text: 'Metin',
-    kultur: 'Kültür', culture: 'Kültür',
-    leben: 'Yaşam', life: 'Yaşam',
-    kontext: 'Bağlam', context: 'Bağlam',
-    unglaublich: 'Zor', hard: 'Zor'
-  },
-  uk: {
-    text: 'Текст',
-    kultur: 'Культура', culture: 'Культура',
-    leben: 'Життя', life: 'Життя',
-    kontext: 'Контекст', context: 'Контекст',
-    unglaublich: 'Складне', hard: 'Складне'
-  }
+// Map raw category keys (including German legacy keys) to i18n keys
+const categoryToI18nKey: Record<string, string> = {
+  text: 'text',
+  kultur: 'culture', culture: 'culture',
+  leben: 'life',    life: 'life',
+  kontext: 'context', context: 'context',
+  unglaublich: 'difficult', hard: 'difficult',
 };
 
-// Fallback to English labels
-const categoryLabels: Record<string, string> = {
-  text: 'Text',
-  kultur: 'Culture', culture: 'Culture',
-  leben: 'Life', life: 'Life',
-  kontext: 'Context', context: 'Context',
-  unglaublich: 'Difficult', hard: 'Difficult'
-};
+function getCategoryLabel(category: string): string {
+  const key = categoryToI18nKey[category.toLowerCase()];
+  if (key) return t(`reader.footnote.${key}`);
+  return category;
+}
 
 // Process verse text to add inline footnote tooltips
 function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html: string; unmatchedFootnotes: Footnote[] } {
@@ -226,9 +153,7 @@ function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html:
     if (match) {
       const originalKeyword = match[0];
       const category = fn.category.toLowerCase();
-      // Get localized label, fallback to English, then to category name
-      const localizedLabels = categoryLabelsLocalized[lang] || categoryLabelsLocalized['en'];
-      const categoryLabel = localizedLabels[category] || categoryLabels[category] || fn.category;
+      const categoryLabel = getCategoryLabel(category);
       const icon = categoryIcons[category] || 'info';
 
       // Escape HTML in content to prevent XSS
@@ -327,7 +252,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
       <div class="flex items-start justify-between gap-4">
         <div>
           <p class="passage-reference mb-2">
-            {lang === 'de' ? 'Lukas' : 'Luke'} {verses}
+            {t('reader.luke')} {verses}
           </p>
           <h2 class="headline-mixed text-3xl md:text-4xl lg:text-5xl leading-[1.1]" set:html={formatTitle(title)} />
         </div>
@@ -338,12 +263,12 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
             data-mp3={`/audio/audiobible/${audioBibleMp3}`}
             data-start-ms={audioBibleStart}
             data-pericope-id={id}
-            data-title={media.audioBible?.title || (lang === 'de' ? 'Hörbibel' : 'Audio Bible')}
+            data-title={media.audioBible?.title || t('reader.audioBible')}
             data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
             data-has-karaoke={audioBibleHasTranscript ? 'true' : 'false'}
             type="button"
-            aria-label={lang === 'de' ? 'Hörbibel abspielen' : 'Play Audio Bible'}
-            title={lang === 'de' ? 'Hörbibel abspielen' : 'Play Audio Bible'}
+            aria-label={t('reader.playAudioBible')}
+            title={t('reader.playAudioBible')}
           >
             <span class="material-symbols-rounded">play_circle</span>
           </button>
@@ -388,7 +313,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
     {additionalNotes.length > 0 && (
       <div class="additional-notes max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%] mt-8 pt-4 border-t" style="border-color: var(--color-border)">
         <p class="text-xs tracking-wider uppercase mb-3" style="color: var(--color-text-muted)">
-          {lang === 'de' ? 'Weitere Hinweise' : 'Additional Notes'}
+          {t('reader.additionalNotes')}
         </p>
         <ul class="space-y-2">
           {additionalNotes.map((fn) => (
@@ -401,7 +326,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                     </span>
                   </div>
                   <span class="footnote-category uppercase tracking-wider text-[10px] font-medium" style="color: var(--color-text-muted)">
-                    {categoryLabels[fn.category.toLowerCase()] || fn.category}
+                    {getCategoryLabel(fn.category.toLowerCase())}
                   </span>
                   <span class="footnote-keyword font-medium text-sm" style="color: var(--color-accent)">{fn.keyword}</span>
                   <span class="footnote-chevron material-symbols-rounded text-sm ml-auto" style="color: var(--color-text-muted)">expand_more</span>
@@ -429,7 +354,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                     <span class="material-symbols-rounded text-xl">auto_stories</span>
                   </div>
                   <div class="media-card-text">
-                    <span class="media-card-label">{lang === 'de' ? 'Audiobibel' : 'Audio Bible'}</span>
+                    <span class="media-card-label">{t('reader.audioBible')}</span>
                     <span class="media-card-title">{media.audioBible.title}</span>
                   </div>
                 </div>
