@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { useTranslations, type Lang } from '../../i18n/utils';
+import { useTranslations } from '../../i18n/utils';
 
 export function getStaticPaths() {
   return [
@@ -15,17 +15,37 @@ export function getStaticPaths() {
     { params: { lang: 'sv' } },
     { params: { lang: 'tr' } },
     { params: { lang: 'uk' } },
+    { params: { lang: 'nl' } },
+    { params: { lang: 'ro' } },
+    { params: { lang: 'cs' } },
+    { params: { lang: 'el' } },
+    { params: { lang: 'hu' } },
+    { params: { lang: 'bg' } },
+    { params: { lang: 'hr' } },
+    { params: { lang: 'fi' } },
+    { params: { lang: 'sk' } },
+    { params: { lang: 'lt' } },
+    { params: { lang: 'sl' } },
+    { params: { lang: 'lv' } },
+    { params: { lang: 'et' } },
+    { params: { lang: 'ga' } },
+    { params: { lang: 'mt' } },
+    { params: { lang: 'nb' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'ar' } },
+    { params: { lang: 'ca' } },
+    { params: { lang: 'sq' } },
   ];
 }
 
-const { lang } = Astro.params as { lang: Lang };
+const { lang } = Astro.params as { lang: string };
 const t = useTranslations(lang);
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
 // Language-specific book names for Luke
-const lukeNames: Record<Lang, string> = {
+const lukeNames: Record<string, string> = {
   da: 'Lukas',
   de: 'Lukas',
   en: 'Luke',
@@ -37,6 +57,26 @@ const lukeNames: Record<Lang, string> = {
   sv: 'Lukas',
   tr: 'Luka',
   uk: 'Луки',
+  nl: 'Lucas',
+  ro: 'Luca',
+  cs: 'Lukáš',
+  el: 'Λουκάς',
+  hu: 'Lukács',
+  bg: 'Лука',
+  hr: 'Luka',
+  fi: 'Luukas',
+  sk: 'Lukáš',
+  lt: 'Luko',
+  sl: 'Luka',
+  lv: 'Lūka',
+  et: 'Luuka',
+  ga: 'Lúcás',
+  mt: 'Luqa',
+  nb: 'Lukas',
+  ru: 'Луки',
+  ar: 'لوقا',
+  ca: 'Lluc',
+  sq: 'Luka',
 };
 ---
 

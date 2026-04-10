@@ -19,7 +19,7 @@ const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
 // Determine current page type for language switcher
-const pathWithoutLang = currentPath.replace(/^\/(en|de|fr|pl|tr)/, '').replace(/^\//, '');
+const pathWithoutLang = currentPath.replace(/^\/[a-z]{2,3}\//, '').replace(/^\//, '');
 const pageType = pathWithoutLang.startsWith('about') ? 'about'
   : pathWithoutLang.startsWith('process') ? 'process'
   : pathWithoutLang.match(/^(luke|luc|lukas|lukasz)\//) ? 'reader'

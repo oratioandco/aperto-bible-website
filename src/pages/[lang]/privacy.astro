@@ -1,18 +1,44 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { useTranslations, type Lang } from '../../i18n/utils';
+import { useTranslations } from '../../i18n/utils';
 
 export function getStaticPaths() {
   return [
-    { params: { lang: 'en' } },
+    { params: { lang: 'da' } },
     { params: { lang: 'de' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'es' } },
     { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
     { params: { lang: 'pl' } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'sv' } },
     { params: { lang: 'tr' } },
+    { params: { lang: 'uk' } },
+    { params: { lang: 'nl' } },
+    { params: { lang: 'ro' } },
+    { params: { lang: 'cs' } },
+    { params: { lang: 'el' } },
+    { params: { lang: 'hu' } },
+    { params: { lang: 'bg' } },
+    { params: { lang: 'hr' } },
+    { params: { lang: 'fi' } },
+    { params: { lang: 'sk' } },
+    { params: { lang: 'lt' } },
+    { params: { lang: 'sl' } },
+    { params: { lang: 'lv' } },
+    { params: { lang: 'et' } },
+    { params: { lang: 'ga' } },
+    { params: { lang: 'mt' } },
+    { params: { lang: 'nb' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'ar' } },
+    { params: { lang: 'ca' } },
+    { params: { lang: 'sq' } },
   ];
 }
 
-const { lang } = Astro.params as { lang: Lang };
+const { lang } = Astro.params as { lang: string };
 const t = useTranslations(lang);
 ---
 
