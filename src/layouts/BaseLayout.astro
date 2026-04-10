@@ -95,7 +95,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
 
       <!-- Mobile Menu Overlay -->
       <div id="mobile-menu" class="fixed inset-0 z-50 hidden" style="background-color: rgba(0,0,0,0.5);">
-        <div class="absolute right-0 top-0 h-full w-72 p-6" style="background-color: #FFFBF5;">
+        <div class="absolute right-0 top-0 h-full w-72 p-6 overflow-y-auto" style="background-color: #FFFBF5;">
           <div class="flex justify-between items-center mb-8">
             <span class="text-xl font-medium">{t('nav.menu')}</span>
             <button id="mobile-menu-close" class="p-2 rounded-lg hover:bg-gray-100" aria-label="Close menu">

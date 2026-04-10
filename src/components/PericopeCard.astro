@@ -288,6 +288,27 @@ processedVerses.forEach((verse, idx) => {
   }
   currentProcessedGroup.verses.push({ verse, idx });
 });
+
+// Split a prose verse group into paragraphs based on paragraph-break markers
+const PARA_BREAK = '<span class="paragraph-break"></span>';
+function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
+  const paragraphs: string[] = [];
+  let current = '';
+
+  for (const { verse } of verses) {
+    if (!verse.processedText) continue;
+
+    if (verse.processedText.startsWith(PARA_BREAK)) {
+      if (current.trim()) paragraphs.push(current.trim());
+      current = verse.processedText.slice(PARA_BREAK.length);
+    } else {
+      current += (current ? ' ' : '') + verse.processedText;
+    }
+  }
+
+  if (current.trim()) paragraphs.push(current.trim());
+  return paragraphs.filter(Boolean);
+}
 ---
 
 <section class="pericope-card py-16 md:py-24" id={id}>
@@ -347,10 +368,8 @@ processedVerses.forEach((verse, idx) => {
           </div>
         ) : (
           <div class="prose-section">
-            {group.verses.map(({ verse, idx }) => (
-              <span class="prose-verse">
-                <span class="verse-text" set:html={verse.processedText} />
-              </span>
+            {splitIntoParagraphs(group.verses).map((paraHtml) => (
+              <p class="prose-paragraph" set:html={paraHtml} />
             ))}
           </div>
         )
@@ -762,6 +781,15 @@ processedVerses.forEach((verse, idx) => {
 
   .prose-section {
     margin-bottom: 0.5rem;
+  }
+
+  .prose-paragraph {
+    margin-bottom: 1.2em;
+    line-height: 1.85;
+  }
+
+  .prose-paragraph:last-child {
+    margin-bottom: 0;
   }
 
   /* Poetry block - continuous */
