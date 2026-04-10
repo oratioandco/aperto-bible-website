@@ -707,6 +707,36 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
     border-radius: 4px;
   }
 
+  /* RTL (Arabic): mirror the editorial layout — image right, text offset from right */
+  :global([dir="rtl"]) .editorial-image {
+    margin-left: 2%;
+    margin-right: -2%;
+  }
+
+  :global([dir="rtl"]) .editorial-header,
+  :global([dir="rtl"]) .verses-container,
+  :global([dir="rtl"]) .additional-notes,
+  :global([dir="rtl"]) .media-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 768px) {
+    :global([dir="rtl"]) .editorial-image {
+      max-width: calc(20% + 36rem);
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    :global([dir="rtl"]) .editorial-header,
+    :global([dir="rtl"]) .verses-container,
+    :global([dir="rtl"]) .additional-notes,
+    :global([dir="rtl"]) .media-section {
+      margin-right: 20%;
+      margin-left: 0;
+    }
+  }
+
   /* Verses container */
   .verses-container {
     line-height: 1.85;
