@@ -289,7 +289,8 @@ processedVerses.forEach((verse, idx) => {
   currentProcessedGroup.verses.push({ verse, idx });
 });
 
-// Split a prose verse group into paragraphs based on paragraph-break markers
+// Split a prose verse group into paragraphs based on paragraph-break markers.
+// The marker can appear at the start, end, or middle of any verse's text.
 const PARA_BREAK = '<span class="paragraph-break"></span>';
 function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
   const paragraphs: string[] = [];
@@ -298,11 +299,18 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
   for (const { verse } of verses) {
     if (!verse.processedText) continue;
 
-    if (verse.processedText.startsWith(PARA_BREAK)) {
-      if (current.trim()) paragraphs.push(current.trim());
-      current = verse.processedText.slice(PARA_BREAK.length);
+    const parts = verse.processedText.split(PARA_BREAK);
+    if (parts.length === 1) {
+      current += (current ? ' ' : '') + parts[0];
     } else {
-      current += (current ? ' ' : '') + verse.processedText;
+      for (let i = 0; i < parts.length; i++) {
+        if (i === 0) {
+          current += (current ? ' ' : '') + parts[0];
+        } else {
+          if (current.trim()) paragraphs.push(current.trim());
+          current = parts[i];
+        }
+      }
     }
   }
 
