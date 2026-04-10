@@ -11,7 +11,12 @@
       "accentColor": "#8B7355",
       "image": "luke_01_prologue.jpeg",
       "exegesis": null,
-      "media": {}
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/sq/42_luke_01_01-04_podcast_sq.mp3"
+        }
+      }
     },
     {
       "id": "zacharias-elisabeth",
@@ -22,7 +27,12 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.jpeg",
       "exegesis": null,
-      "media": {}
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/sq/42_luke_01_05-25_podcast_sq.mp3"
+        }
+      }
     },
     {
       "id": "verkuendigung",
@@ -33,7 +43,12 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.jpeg",
       "exegesis": null,
-      "media": {}
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/sq/42_luke_01_26-38_podcast_sq.mp3"
+        }
+      }
     },
     {
       "id": "heimsuchung",
@@ -55,7 +70,12 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.jpeg",
       "exegesis": null,
-      "media": {}
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/sq/42_luke_01_46-56_podcast_sq.mp3"
+        }
+      }
     },
     {
       "id": "johannes-geburt",
@@ -66,7 +86,12 @@
       "accentColor": "#6A7A8B",
       "image": "luke_01_birth_john.jpeg",
       "exegesis": null,
-      "media": {}
+      "media": {
+        "podcast": {
+          "title": "Podcast",
+          "mp3": "luke_01/sq/42_luke_01_57-66_podcast_sq.mp3"
+        }
+      }
     },
     {
       "id": "benedictus",
@@ -90,5 +115,9 @@
       "exegesis": null,
       "media": {}
     }
-  ]
+  ],
+  "chapterPodcast": {
+    "mp3": "luke_01/sq/42_luke_01_chapter_podcast_sq.mp3",
+    "title": "Podcast"
+  }
 }

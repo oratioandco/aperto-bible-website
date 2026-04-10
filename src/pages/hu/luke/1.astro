@@ -34,6 +34,21 @@ const base = '';
       Két lehetetlen terhesség. Két forradalmi ének. A történet elkezdődik.
     </p>
 
+
+    {pericopes.chapterPodcast && (
+      <button
+        class="chapter-podcast-btn media-play-btn flex items-center gap-3 px-5 py-3 rounded-full mb-10 transition-all hover:opacity-80"
+        style="background: rgba(44,44,44,0.85); color: #FFFBF5; backdrop-filter: blur(4px);"
+        data-mp3={`/audio/podcasts/${pericopes.chapterPodcast.mp3}`}
+        data-title={pericopes.chapterPodcast.title}
+        data-type="podcast"
+        type="button"
+      >
+        <span class="material-symbols-rounded text-xl">podcasts</span>
+        <span class="text-sm font-medium">{pericopes.chapterPodcast.title}</span>
+      </button>
+    )}
+
     <!-- Table of Contents with Headlines -->
     <nav class="toc max-w-2xl w-full">
       <ul class="space-y-2">
