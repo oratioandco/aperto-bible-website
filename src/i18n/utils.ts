@@ -28,6 +28,7 @@ import nb from "./nb.json";
 import ru from "./ru.json";
 import ar from "./ar.json";
 import ca from "./ca.json";
+import sq from "./sq.json";
 
 export const languages = {
   en: { label: "EN", name: "English" },
@@ -98,6 +99,7 @@ const translations: Partial<Record<Lang, typeof en>> = {
   ru,
   ar,
   ca,
+  sq,
 };
 
 export function getLangFromUrl(url: URL): Lang {
