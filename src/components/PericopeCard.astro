@@ -616,6 +616,21 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
       </div>
     )}
 
+    <!-- Feedback button -->
+    <div class="feedback-row max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%] mt-10">
+      <button
+        class="feedback-btn"
+        data-tally-id="NpJb5B"
+        data-lang={lang}
+        data-pericope={id}
+        data-chapter={chapter}
+        type="button"
+      >
+        <span class="material-symbols-rounded">flag</span>
+        {t('reader.feedback')}
+      </button>
+    </div>
+
   </div>
 </section>
 
@@ -757,6 +772,32 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
 
   .prose-paragraph:last-child {
     margin-bottom: 0;
+  }
+
+  /* Feedback button */
+  .feedback-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-warm-gray);
+    opacity: 0.5;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    letter-spacing: 0.03em;
+  }
+
+  .feedback-btn:hover {
+    opacity: 0.9;
+  }
+
+  .feedback-btn .material-symbols-rounded {
+    font-size: 0.9rem;
   }
 
   /* Poetry block - continuous */
@@ -1348,4 +1389,24 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
 
   document.addEventListener('DOMContentLoaded', initShareButtons);
   document.addEventListener('astro:page-load', initShareButtons);
+
+  // Feedback buttons — open Tally popup with context pre-filled
+  function initFeedbackButtons() {
+    document.querySelectorAll('.feedback-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        if (typeof Tally === 'undefined') return;
+        Tally.openPopup(btn.dataset.tallyId, {
+          hiddenFields: {
+            lang: btn.dataset.lang || '',
+            pericope: btn.dataset.pericope || '',
+            chapter: btn.dataset.chapter || '',
+          },
+          overlay: true,
+          emoji: { text: '👋', animation: 'wave' },
+        });
+      });
+    });
+  }
+  document.addEventListener('DOMContentLoaded', initFeedbackButtons);
+  document.addEventListener('astro:page-load', initFeedbackButtons);
 </script>
