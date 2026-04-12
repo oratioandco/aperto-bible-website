@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Stambus planas grubaus, rankų darbo popieriaus paviršiaus su įstrižomis šešėlių linijomis šiltoje šviesoje"
+      "imageAlt": "Stambus rankų darbo šiurkštaus popieriaus paviršiaus vaizdas su įstrižomis šešėlių linijomis šiltoje krintančioje šviesoje"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Plona dūmų sruogelė kyla pro šiltos šviesos spindulį tamsiame akmeniniame interjere"
+      "media": {
+        "songs": [
+          {
+            "title": "Nebijok",
+            "mp3": "luke_01/lithuanian/_Nebijok_ — Luke 1_5-38 (Lithuanian).mp3",
+            "genre": "Intimate Synth-Pop",
+            "description": "Mary's yes is a genuine choice made before understanding — faith precedes comprehension.",
+            "coverArt": "/images/covers/nebijok_lt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/lithuanian/nebijok_lt_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Plonas dūmų sruogelis kylantis per šilto apšvietimo stulpą tamsiame akmeniniame interjere"
     },
     {
       "id": "verkuendigung",
@@ -36,7 +47,7 @@
       "image": "luke_01_annunciation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Atviros medinės durys akmeninėje sienoje su rytine šviesa, užliejančia šiurkščią akmeninę grindį"
+      "imageAlt": "Atviros medinės durys akmeninėje sienoje, per kurias krinta rytinė šviesa ant grublėtos akmeninės grindų dangos"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Siauras žvyrkelis vingiuoja per sausą auksinę kalvos žolę auksinės valandos metu, dingsta už pakilimo"
+      "imageAlt": "Siauras žvyruotas kelias vingiuojantis per sausą auksinę kalvos žolę „auksinės valandos“ metu, dingstantis už pakilimo"
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Vienas laukinis žolės stiebas švyti šoninėje šviesoje, augdamas iš įtrūkimo tamsiame, grublėtame akmens paviršiuje"
+      "media": {
+        "songs": [
+          {
+            "title": "Pamatė mane",
+            "mp3": "luke_01/lithuanian/_Pamatė mane_ — Luke 1_46-56 (Lithuanian).mp3",
+            "genre": "Dark Synth-Pop",
+            "description": "The Magnificat is not a hymn recited — it is the shock of someone invisible who was finally seen.",
+            "coverArt": "/images/covers/pamat_mane_lt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/lithuanian/pamat_mane_lt_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Vienas laukinės žolės stiebelis, švytintis šoninėje šviesoje, augantis iš plyšio tamsiame šiurkščiame akmeniniame paviršiuje"
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Priešaušrio kraštovaizdis su sausa žole, atsispindinčia prieš blankų šiltą švytėjimą prie horizonto po tamsiu dangumi"
+      "media": {
+        "songs": [
+          {
+            "title": "Aušra",
+            "mp3": "luke_01/lithuanian/_Aušra_ — Luke 1_67-79 (Lithuanian).mp3",
+            "genre": "Ambient Electronic / Ethereal Folk-Tronica",
+            "description": "Zechariah's nine months of forced silence became a gestation of its own — his first word back is his son.",
+            "coverArt": "/images/covers/aura_lt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/lithuanian/aura_lt_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Peizažas prieš aušrą su sausa žole, atsispindinčia siluetu prieš blankų šiltą švytėjimą horizonte po tamsiu dangumi"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Platus suskilusios sausos dykumos reljefo vaizdas vėlyvą popietę su blankiu nutrintu keliu, dingstančiu tolumoje"
+      "imageAlt": "Platus vaizdas į suskilinėjusį sausą dykumos reljefą vėlyvą popietę su vos pastebimu nudėvėtu taku, dingstančiu tolumoje"
     }
   ],
   "chapterPodcast": {

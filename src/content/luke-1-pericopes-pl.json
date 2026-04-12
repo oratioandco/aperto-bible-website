@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 540,
-      "imageAlt": "Zbliżenie szorstkiej, ręcznie robionej powierzchni papieru z ukośnymi liniami cieni przecinającymi ją w ciepłym świetle padającym pod kątem"
+      "imageAlt": "Zbliżenie powierzchni szorstkiego, ręcznie robionego papieru z ukośnymi liniami cienia przecinającymi go w ciepłym, padającym ukośnie świetle"
     },
     {
       "id": "zacharias-elisabeth",
@@ -45,11 +45,21 @@
           "title": "Podcast",
           "mp3": "luke_01/pl/42_luke_01_05-25_podcast_pl.mp3",
           "duration": "3 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Nie bój się",
+            "mp3": "luke_01/polish/Luke 1_13-30 _Nie bój się_ polish.mp3",
+            "genre": "Atmospheric Indie Pop",
+            "description": "God says 'don't be afraid' to two very different people in the same terrifying moment — not to deny the fear, but to mee",
+            "coverArt": "/images/covers/nie_bj_si_pl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/polish/nie_bj_si_pl_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 28315,
-      "imageAlt": "Cienki dym unoszący się przez snop ciepłego światła w ciemnym kamiennym wnętrzu"
+      "imageAlt": "Cienki kłębek dymu unoszący się przez snop ciepłego światła w ciemnym, kamiennym wnętrzu"
     },
     {
       "id": "annunciation",
@@ -63,16 +73,7 @@
         "label": "Pogłębione studium"
       },
       "media": {
-        "songs": [
-          {
-            "title": "Nie bój się",
-            "mp3": "luke_01/polish/_Nie bój się_ - Luke 1_26-38 (Polish).mp3",
-            "genre": "Piano-Pop",
-            "description": "Historia o odwadze i zaufaniu",
-            "coverArt": "/images/covers/annunciation_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/polish/42_luke_01_26_38_transcript_pl.json"
-          }
-        ],
+        "songs": [],
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/pl/42_luke_01_26-38_podcast_pl.mp3",
@@ -91,7 +92,7 @@
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 174133,
-      "imageAlt": "Otwarte drewniane drzwi w kamiennej ścianie z porannym światłem wpadającym na szorstką kamienną podłogę"
+      "imageAlt": "Otwarte drewniane drzwi w kamiennej ścianie, przez które wpada poranne światło na szorstką kamienną podłogę"
     },
     {
       "id": "visitation",
@@ -113,7 +114,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 264402,
-      "imageAlt": "Wąska polna ścieżka wijąca się przez suchą, złotą trawę na zboczu wzgórza w złotej godzinie, znikająca za wzniesieniem"
+      "imageAlt": "Wąska ścieżka gruntowa wijąca się przez suchą, złotą trawę na zboczu wzgórza o złotej godzinie, znikająca za wzniesieniem"
     },
     {
       "id": "magnificat",
@@ -129,12 +130,12 @@
       "media": {
         "songs": [
           {
-            "title": "Wszystko we mnie śpiewa",
-            "mp3": "luke_01/polish/_Wszystko we mnie śpiewa_ - Luke 1_46-56 (Polish).mp3",
-            "genre": "Pop-Rap",
-            "description": "Pieśń Maryi",
-            "coverArt": "/images/covers/magnificat_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/polish/42_luke_01_46_56_transcript_pl.json"
+            "title": "Już się dzieje",
+            "mp3": "luke_01/polish/Luke 1_46-55 _Już się dzieje_polish.mp3",
+            "genre": "Polish Literary Hip-Hop",
+            "description": "The Magnificat's verbs are in the gnomic present — God doesn't promise to overturn systems, God characteristically does.",
+            "coverArt": "/images/covers/ju_si_dzieje_pl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/polish/ju_si_dzieje_pl_transcript.json"
           }
         ],
         "podcast": {
@@ -177,7 +178,7 @@
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 389390,
-      "imageAlt": "Zbliżenie nieskazitelnie złożonego naturalnego lnu z miękkim światłem rzucającym delikatne cienie w fałdach"
+      "imageAlt": "Zbliżenie nieskazitelnej, złożonej, naturalnej lnianej tkaniny z delikatnym światłem rzucającym łagodne cienie w fałdach"
     },
     {
       "id": "benedictus",
@@ -193,12 +194,12 @@
       "media": {
         "songs": [
           {
-            "title": "Milczenie przerwane",
-            "mp3": "luke_01/polish/Luke 1_67-79 Polish.mp3",
-            "genre": "Singer-Songwriter",
-            "description": "Proroctwo Zachariasza",
-            "coverArt": "/images/covers/benedictus_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/polish/42_luke_01_67_79_transcript_pl.json"
+            "title": "Brzask z wysoka",
+            "mp3": "luke_01/polish/Luke 1_76-79 _Brzask z wysoka_ polish.mp3",
+            "genre": "Atmospheric Indie Pop",
+            "description": "The Benedictus ends not with a warrior but a dawn coming from above — ἀνατολὴ ἐξ ὕψους, directionality matters. Zecharia",
+            "coverArt": "/images/covers/brzask_z_wysoka_pl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/polish/brzask_z_wysoka_pl_transcript.json"
           }
         ],
         "podcast": {
@@ -241,7 +242,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 549096,
-      "imageAlt": "Szeroki widok spękanej, suchej pustyni późnym popołudniem ze słabą, wytartą ścieżką znikającą w oddali"
+      "imageAlt": "Szeroki widok na popękany, suchy teren pustynny późnym popołudniem z ledwo widoczną, wytartą ścieżką znikającą w oddali"
     }
   ],
   "chapterPodcast": {

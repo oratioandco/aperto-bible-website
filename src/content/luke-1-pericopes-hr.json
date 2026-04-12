@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Krupan prikaz grube površine ručno rađenog papira s dijagonalnim linijama sjene koje ga presijecaju pod toplim bočnim svjetlom"
+      "imageAlt": "Krupni plan grube površine ručno rađenog papira s dijagonalnim linijama sjene koje ga presijecaju pod toplim bočnim svjetlom."
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,10 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Tanki pramen dima koji se diže kroz snop toplog svjetla u tamnoj kamenoj unutrašnjosti"
+      "media": {
+        "songs": []
+      },
+      "imageAlt": "Tanki pramen dima koji se diže kroz snop toplog svjetla u tamnoj kamenoj unutrašnjosti."
     },
     {
       "id": "verkuendigung",
@@ -35,8 +37,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Otvorena drvena vrata u kamenom zidu s jutarnjim svjetlom koje preplavljuje grubi kameni pod"
+      "media": {
+        "songs": [
+          {
+            "title": "Drhtim, ali da",
+            "mp3": "luke_01/croatian/Luke 1_26-38  — Croatian — _Drhtim, ali da_.mp3",
+            "genre": "Croatian indie ballad / Mediterranean folk",
+            "description": "",
+            "coverArt": "/images/covers/drhtim_ali_da_hr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/croatian/drhtim_ali_da_hr_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Otvorena drvena vrata u kamenom zidu s jutarnjim svjetlom koje preplavljuje grubi kameni pod."
     },
     {
       "id": "heimsuchung",
@@ -48,7 +61,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Uska zemljana staza koja se vijuga kroz suhu zlatnu travu na obronku brda u zlatni sat, nestajući preko uzvisine"
+      "imageAlt": "Uska zemljana staza koja vijuga kroz suhu zlatnu travu na padini brda u zlatni sat, nestajući preko uspona."
     },
     {
       "id": "magnificat",
@@ -59,8 +72,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Jedna divlja travka svijetli pod bočnim svjetlom, izrasta iz pukotine u tamnoj gruboj kamenoj površini"
+      "media": {
+        "songs": [
+          {
+            "title": "Pogledao me",
+            "mp3": "luke_01/croatian/Luke 1_46-56  — Croatian — _Pogledao me_.mp3",
+            "genre": "Dark electronic pop",
+            "description": "",
+            "coverArt": "/images/covers/pogledao_me_hr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/croatian/pogledao_me_hr_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Jedna stabljika divlje trave koja svijetli na bočnom svjetlu, raste iz pukotine u tamnoj gruboj kamenoj površini."
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +106,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Predzorni pejzaž sa suhom travom u silueti nasuprot slabom toplom sjaju na horizontu pod tamnim nebom"
+      "media": {
+        "songs": [
+          {
+            "title": "A ti, dijete",
+            "mp3": "luke_01/croatian/Luke 1_67-79  — Croatian — _A ti, dijete_.mp3",
+            "genre": "Atmospheric folk / electronic lullaby",
+            "description": "",
+            "coverArt": "/images/covers/a_ti_dijete_hr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/croatian/a_ti_dijete_hr_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Pejzaž prije zore sa suhom travom siluetuiranom u odnosu na slabi topli sjaj na horizontu ispod tamnog neba."
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +130,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Široki pogled na ispucani suhi pustinjski teren u kasnim poslijepodnevnim satima s blagom istrošenom stazom koja nestaje u daljini"
+      "imageAlt": "Široki pogled na ispucani suhi pustinjski teren u kasnim popodnevnim satima s blagom istrošenom stazom koja nestaje u daljini."
     }
   ],
   "chapterPodcast": {

@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Lähikuva karkeasta, käsintehdystä paperipinnasta, jonka poikki kulkee diagonaalisia varjoviivoja lämpimässä viistossa valossa"
+      "imageAlt": "Lähikuva karkeasta käsintehdystä paperipinnasta, jonka ylittävät diagonaaliset varjoviivat lämpimässä sivuttaisvalossa."
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Ohut savukihara nousee ylös lämpimän valonsäteen läpi pimeässä kivisisätilassa"
+      "media": {
+        "songs": [
+          {
+            "title": "Älä pelkää",
+            "mp3": "luke_01/finnish/Älä pelkää (Luke 1_5-38) — Finnish.mp3",
+            "genre": "Finnish Indie Folk",
+            "description": "The same two words — don't be afraid — spoken to an old priest and a teenage girl, neither of whom can follow the comman",
+            "coverArt": "/images/covers/l_pelk_fi.png",
+            "transcriptPath": "/transcripts/songs/luke_01/finnish/l_pelk_fi_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Ohut savukierre nousee lämpimän valonsäteen läpi tummassa kivisessä sisätilassa."
     },
     {
       "id": "verkuendigung",
@@ -36,7 +47,7 @@
       "image": "luke_01_annunciation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Avoin puuovi kiviseinässä, josta aamuvalo tulvii karkealle kiviselle lattialle"
+      "imageAlt": "Avoin puuovi kiviseinässä, jolle aamuvalo tulvii karkealle kiviselle lattialle."
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Kapea hiekkapolku mutkittelee kuivan kultaisen mäenrinteen ruohon läpi kultaisena hetkenä, kadoten kukkulan yli"
+      "imageAlt": "Kapea hiekkapolku mutkittelee kuivan kultaisen rinneniityn läpi kultaisen tunnin aikaan, kadoten kukkulan yli."
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Yksi villi heinänkorsi hehkuu sivuttaisvalossa, kasvaen tumman karkean kiviaineksen halkeamasta"
+      "media": {
+        "songs": [
+          {
+            "title": "Tyhjin käsin",
+            "mp3": "luke_01/finnish/Tyhjin käsin (Luke 1_46-56) — Finnish.mp3",
+            "genre": "Finnish Hip-Hop",
+            "description": "The Magnificat is not a prayer — it's a statement of fact about how the world works when God looks at it: thrones fall, ",
+            "coverArt": "/images/covers/tyhjin_ksin_fi.png",
+            "transcriptPath": "/transcripts/songs/luke_01/finnish/tyhjin_ksin_fi_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Yksittäinen villiheinän varsi hehkuu sivuvalossa, kasvaen halkeamasta tummassa karkeassa kivipinnassa."
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Aamuhämärä maisema, jossa kuiva ruoho on siluettina heikkoa lämmintä hehkua vasten horisontissa tumman taivaan alla"
+      "media": {
+        "songs": [
+          {
+            "title": "Aamunkoitto",
+            "mp3": "luke_01/finnish/Aamunkoitto (Luke 1_67-79) — Finnish.mp3",
+            "genre": "Nordic Ambient Folk",
+            "description": "Nine months of silence taught Zechariah what words are for — and his first speech narrows from cosmic prophecy to lookin",
+            "coverArt": "/images/covers/aamunkoitto_fi.png",
+            "transcriptPath": "/transcripts/songs/luke_01/finnish/aamunkoitto_fi_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Aamuhämäräinen maisema kuivalla ruoholla, joka on siluettina heikkoa lämmintä hehkua vasten horisontissa tumman taivaan alla."
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Laaja näkymä halkeilleesta kuivasta aavikkomaastosta myöhään iltapäivällä, jossa himmeä kulunut polku katoaa etäisyyteen"
+      "imageAlt": "Laaja näkymä halkeilleesta kuivasta aavikkomaastosta myöhään iltapäivällä, jossa heikko kulunut polku katoaa kauas."
     }
   ],
   "chapterPodcast": {

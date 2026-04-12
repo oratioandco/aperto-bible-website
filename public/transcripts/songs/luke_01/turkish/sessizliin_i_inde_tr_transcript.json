@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "song_id": "sessizliin_i_inde_tr",
+  "title": "Sessizliğin İçinde",
+  "artist": "Aperto Bible",
+  "language": "tr",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "1:67-79",
+  "duration_ms": 220000,
+  "audio_file": "/audio/songs/luke_01/turkish/Sessizliğin İçinde (Luke 1_67-79) — Turkish.mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-12T16:53:41.417657+00:00",
+  "alignment_tool": "estimated",
+  "alignment_confidence": 0.5,
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Işık geliyor",
+          "start_ms": 6000,
+          "end_ms": 8000
+        },
+        {
+          "text": "Karanlıkta oturanlara",
+          "start_ms": 8000,
+          "end_ms": 10000
+        },
+        {
+          "text": "Işık geliyor",
+          "start_ms": 10000,
+          "end_ms": 12000
+        },
+        {
+          "text": "Yolumuzu aydınlatacak",
+          "start_ms": 12000,
+          "end_ms": 14000
+        },
+        {
+          "text": "Işık geliyor — ve ben onu gördüm",
+          "start_ms": 14000,
+          "end_ms": 16560
+        },
+        {
+          "text": "Sessizliğin içinde gördüm",
+          "start_ms": 16560,
+          "end_ms": 18560
+        }
+      ],
+      "start_ms": 6000,
+      "end_ms": 18560
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "text": "Ve sen — küçük oğlum",
+          "start_ms": 21560,
+          "end_ms": 23560
+        },
+        {
+          "text": "Daha dün doğdun",
+          "start_ms": 23560,
+          "end_ms": 25560
+        },
+        {
+          "text": "Bir gün büyük işler yapacaksın",
+          "start_ms": 25560,
+          "end_ms": 27960
+        },
+        {
+          "text": "Ama şimdi",
+          "start_ms": 27960,
+          "end_ms": 29960
+        },
+        {
+          "text": "Şimdi sadece nefes alıyorsun",
+          "start_ms": 29960,
+          "end_ms": 32200
+        },
+        {
+          "text": "Ve bu yeterli",
+          "start_ms": 32200,
+          "end_ms": 34200
+        }
+      ],
+      "start_ms": 21560,
+      "end_ms": 34200
+    },
+    {
+      "type": "chorus",
+      "label": "Final Chorus",
+      "lines": [
+        {
+          "text": "Işık geliyor",
+          "start_ms": 37200,
+          "end_ms": 39200
+        },
+        {
+          "text": "Söz veriyorum — geliyor",
+          "start_ms": 39200,
+          "end_ms": 41200
+        },
+        {
+          "text": "Karanlık kalıcı değil",
+          "start_ms": 41200,
+          "end_ms": 43200
+        },
+        {
+          "text": "Sessizlik kalıcı değil",
+          "start_ms": 43200,
+          "end_ms": 45200
+        },
+        {
+          "text": "Ama ışık — ışık kalıcı",
+          "start_ms": 45200,
+          "end_ms": 47200
+        }
+      ],
+      "start_ms": 37200,
+      "end_ms": 47200
+    },
+    {
+      "type": "outro",
+      "label": "Outro",
+      "lines": [
+        {
+          "text": "Geliyor",
+          "start_ms": 50200,
+          "end_ms": 52200
+        }
+      ],
+      "start_ms": 50200,
+      "end_ms": 52200
+    },
+    {
+      "type": "outro",
+      "label": "End",
+      "lines": [
+        {
+          "text": "---",
+          "start_ms": 55200,
+          "end_ms": 57200
+        }
+      ],
+      "start_ms": 55200,
+      "end_ms": 57200
+    }
+  ],
+  "hooks": [],
+  "intro_clips": []
+}

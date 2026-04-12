@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "صورة مقربة لسطح ورق مصنوع يدويًا خشن مع خطوط ظل مائلة تتقاطع في ضوء كاشف دافئ"
+      "imageAlt": "صورة مقرّبة لسطح ورق مصنوع يدويًا خشن مع خطوط ظل مائلة تتقاطع عليه في إضاءة كاشفة دافئة"
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "خصلة دخان رقيقة تتصاعد عبر شعاع من الضوء الدافئ في داخل حجري مظلم"
+      "imageAlt": "خصلة رقيقة من الدخان تتصاعد عبر عمود من الضوء الدافئ في داخل حجري مظلم"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +35,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "باب خشبي مفتوح في جدار حجري مع ضوء الصباح يغمر أرضية حجرية خشنة"
+      "media": {
+        "songs": [
+          {
+            "title": "فليكن (Falyakun)",
+            "mp3": "luke_01/arabic/AR Luke 1_26-38 — ن (Falyakun _ Let It Be).mp3",
+            "genre": "Arabic Indie",
+            "description": "",
+            "coverArt": "/images/covers/falyakun_ar.png",
+            "transcriptPath": "/transcripts/songs/luke_01/arabic/falyakun_ar_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "باب خشبي مفتوح في جدار حجري مع نور الصباح يغمر أرضية حجرية خشنة"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "طريق ترابي ضيق يلتوي عبر عشب التلال الذهبي الجاف في الساعة الذهبية، ويختفي فوق مرتفع"
+      "imageAlt": "مسار ترابي ضيق يلتوي عبر عشب التلال الذهبية الجافة في الساعة الذهبية، ويختفي فوق ارتفاع"
     },
     {
       "id": "magnificat",
@@ -59,7 +70,18 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "أنزلهم (Anzalahum)",
+            "mp3": "luke_01/arabic/Luke 1_46-56  — م (Anzalahum _ He Brought Them Down).mp3",
+            "genre": "Arabic Alt-Rock",
+            "description": "",
+            "coverArt": "/images/covers/anzalahum_ar.png",
+            "transcriptPath": "/transcripts/songs/luke_01/arabic/anzalahum_ar_transcript.json"
+          }
+        ]
+      },
       "imageAlt": "ساق عشب بري واحد يتوهج في ضوء جانبي، وينمو من شق في سطح حجري خشن داكن"
     },
     {
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "منظر طبيعي قبل الفجر مع عشب جاف يظهر كخيال مقابل توهج دافئ خافت في الأفق تحت سماء مظلمة"
+      "media": {
+        "songs": [
+          {
+            "title": "صمتي صار فجرا (Samti Sar Fajran)",
+            "mp3": "luke_01/arabic/AR Luke 1_67-79  — ا (Samti Sar Fajran _ My Silence Became Dawn).mp3",
+            "genre": "Arabic Atmospheric Electronic",
+            "description": "",
+            "coverArt": "/images/covers/samti_sar_fajran_ar.png",
+            "transcriptPath": "/transcripts/songs/luke_01/arabic/samti_sar_fajran_ar_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "منظر طبيعي قبل الفجر مع عشب جاف معروضًا كصورة ظلية على خلفية توهج دافئ خافت في الأفق تحت سماء مظلمة"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "منظر واسع لتضاريس صحراوية جافة متشققة في وقت متأخر من بعد الظهر مع مسار باهت متآكل يختفي في المسافة"
+      "imageAlt": "منظر واسع لتضاريس صحراوية جافة متشققة في وقت متأخر من بعد الظهر مع مسار باهت مهترئ يختفي في المسافة"
     }
   ],
   "chapterPodcast": {

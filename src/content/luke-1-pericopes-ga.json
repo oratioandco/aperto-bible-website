@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Gar dhún de dhromchla páipéir garbh lámhdhéanta le línte scátha trasnánacha ag trasnú air faoi sholas te ag scuabadh"
+      "imageAlt": "Garshothar ar dhromchla páipéir gharbh lámhdhéanta le línte scátha trasnánacha ag trasnú air faoi sholas te ag rácáil."
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Cnap tanaí deataigh ag ardú trí sholas te i taobh istigh dorcha cloiche"
+      "imageAlt": "Casadh tanaí deataigh ag ardú trí sheafta solais te i taobh istigh de chloch dorcha."
     },
     {
       "id": "verkuendigung",
@@ -35,8 +35,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Doras adhmaid oscailte i mballa cloiche le solas na maidine ag tuile isteach ar urlár garbh cloiche"
+      "media": {
+        "songs": [
+          {
+            "title": "Níl Focal Ann",
+            "mp3": "luke_01/irish/Luke 1_26-38 — _Níl Focal Ann_ (Irish).mp3",
+            "genre": "Indie pop with electronic textures",
+            "description": "Irish has no word for \"yes\" — Mary's consent costs a whole sentence of her life",
+            "coverArt": "/images/covers/nl_focal_ann_ga.png",
+            "transcriptPath": "/transcripts/songs/luke_01/irish/nl_focal_ann_ga_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Doras adhmaid oscailte i mballa cloiche agus solas na maidne ag tuile isteach ar urlár garbh cloiche."
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Conair chúng salachar ag foirceannadh trí fhéar tirim órga ar thaobh cnoic ag uair órga, ag imeacht thar ardú"
+      "imageAlt": "Conair chaoch chumhang ag foirceannadh trí fhéar tirim órga taobh cnoic le linn uair órga, ag imeacht i bhfad uainn thar ardú."
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Gas amháin féir fhiáin ag lonrú i solas taobh, ag fás ó scáineadh i ndromchla dorcha garbh cloiche"
+      "media": {
+        "songs": [
+          {
+            "title": "An Ceann Beag",
+            "mp3": "luke_01/irish/Luke 1_46-56 — _An Ceann Beag_ (Irish).mp3",
+            "genre": "Dark folk with post-punk energy",
+            "description": "The gnomic aorists describe what God ALWAYS does — a nobody sees the pattern and names it",
+            "coverArt": "/images/covers/an_ceann_beag_ga.png",
+            "transcriptPath": "/transcripts/songs/luke_01/irish/an_ceann_beag_ga_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Gas aonair féir fhiáin ag lonrú i bhfianaise taobh, ag fás as scoilt i ndromchla cloiche dorcha garbh."
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Tírdhreach roimh an bhfionnadh le féar tirim siléadaithe in aghaidh gléachthe te éadrom ag an spéirlíne faoi spéir dhorcha"
+      "media": {
+        "songs": [
+          {
+            "title": "Agus Tusa, a Linbh",
+            "mp3": "luke_01/irish/Luke 1_76-79 — _Agus Tusa, a Linbh_ (Irish).mp3",
+            "genre": "Nocturnal indie-folk with electronic pulse",
+            "description": "After nine months of silence, cosmic prophecy becomes a father's lullaby — the scale shift from Israel to one baby",
+            "coverArt": "/images/covers/agus_tusa_a_linbh_ga.png",
+            "transcriptPath": "/transcripts/songs/luke_01/irish/agus_tusa_a_linbh_ga_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Tírdhreach roimh breacadh an lae le féar tirim i gcoinne faint gile te ag an spéir uachtair faoi spéir dhorcha."
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Radharc leathan ar thalamh tirim scáinte fásaigh ag tráthnóna déanach le conair chaite éadrom ag imeacht isteach sa bhfad"
+      "imageAlt": "Radharc leathan ar thalamh fásaigh tirim scáinte ag deireadh an tráthnóna agus conair faint caite ag imeacht i bhfad uainn."
     }
   ],
   "chapterPodcast": {

@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "song_id": "korkma_dedi_tr",
+  "title": "Korkma Dedi",
+  "artist": "Aperto Bible",
+  "language": "tr",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "1:26-38",
+  "duration_ms": 220000,
+  "audio_file": "/audio/songs/luke_01/turkish/Korkma Dedi (Luke 1_5-38) — Turkish.mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-12T16:53:41.399129+00:00",
+  "alignment_tool": "estimated",
+  "alignment_confidence": 0.5,
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Korkma dedi",
+          "start_ms": 6000,
+          "end_ms": 8000
+        },
+        {
+          "text": "Korkma dedi",
+          "start_ms": 8000,
+          "end_ms": 10000
+        },
+        {
+          "text": "Sonra imkansız olanı söyledi",
+          "start_ms": 10000,
+          "end_ms": 12240
+        },
+        {
+          "text": "Korkma dedi — ama nasıl?",
+          "start_ms": 12240,
+          "end_ms": 14240
+        },
+        {
+          "text": "Ama nasıl korkmayayım?",
+          "start_ms": 14240,
+          "end_ms": 16240
+        }
+      ],
+      "start_ms": 6000,
+      "end_ms": 16240
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "text": "Sen söylüyorsun kolay",
+          "start_ms": 19240,
+          "end_ms": 21240
+        },
+        {
+          "text": "Ben yaşıyorum zor",
+          "start_ms": 21240,
+          "end_ms": 23240
+        },
+        {
+          "text": "İkimiz de titriyorduk",
+          "start_ms": 23240,
+          "end_ms": 25240
+        },
+        {
+          "text": "Ama titremek farklıydı",
+          "start_ms": 25240,
+          "end_ms": 27240
+        }
+      ],
+      "start_ms": 19240,
+      "end_ms": 27240
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Korkma dedi",
+          "start_ms": 30240,
+          "end_ms": 32240
+        },
+        {
+          "text": "Korkma dedi",
+          "start_ms": 32240,
+          "end_ms": 34240
+        },
+        {
+          "text": "Sonra imkansız olanı söyledi",
+          "start_ms": 34240,
+          "end_ms": 36480
+        },
+        {
+          "text": "Korkma dedi — ama nasıl?",
+          "start_ms": 36480,
+          "end_ms": 38480
+        },
+        {
+          "text": "Ama nasıl korkmayayım?",
+          "start_ms": 38480,
+          "end_ms": 40480
+        }
+      ],
+      "start_ms": 30240,
+      "end_ms": 40480
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "text": "Belki korkmak doğru olandı",
+          "start_ms": 43480,
+          "end_ms": 45560
+        },
+        {
+          "text": "Belki titremek dürüstlüktü",
+          "start_ms": 45560,
+          "end_ms": 47640
+        },
+        {
+          "text": "Ve \"olsun\" demek",
+          "start_ms": 47640,
+          "end_ms": 49640
+        },
+        {
+          "text": "Korkunun ortasında söylenir",
+          "start_ms": 49640,
+          "end_ms": 51800
+        },
+        {
+          "text": "Yoksa cesaret değildir",
+          "start_ms": 51800,
+          "end_ms": 53800
+        }
+      ],
+      "start_ms": 43480,
+      "end_ms": 53800
+    },
+    {
+      "type": "chorus",
+      "label": "Final Chorus",
+      "lines": [
+        {
+          "text": "Korkma dedi",
+          "start_ms": 56800,
+          "end_ms": 58800
+        },
+        {
+          "text": "Ve ben hâlâ korkuyorum",
+          "start_ms": 58800,
+          "end_ms": 60800
+        },
+        {
+          "text": "Ama olsun",
+          "start_ms": 60800,
+          "end_ms": 62800
+        },
+        {
+          "text": "Olsun",
+          "start_ms": 62800,
+          "end_ms": 64800
+        }
+      ],
+      "start_ms": 56800,
+      "end_ms": 64800
+    },
+    {
+      "type": "outro",
+      "label": "End",
+      "lines": [
+        {
+          "text": "---",
+          "start_ms": 67800,
+          "end_ms": 69800
+        }
+      ],
+      "start_ms": 67800,
+      "end_ms": 69800
+    }
+  ],
+  "hooks": [],
+  "intro_clips": []
+}

@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Крупeн план на грапава повърхност от ръчно изработена хартия с диагонални сенки, пресичащи я в топла светлина"
+      "imageAlt": "Едър план на грапава повърхност на ръчно изработена хартия с диагонални сенки, пресичащи я в топла светлина"
     },
     {
       "id": "zacharias-elisabeth",
@@ -35,8 +35,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Отворена дървена врата в каменна стена, с утринна светлина, заливаща груб каменен под"
+      "media": {
+        "songs": [
+          {
+            "title": "Нека ми бъде",
+            "mp3": "luke_01/bulgarian/Luke 1_26-38 — Bulgarian — _Нека ми бъде_ (Let It Be to Me).mp3",
+            "genre": "Indie Pop / Electronic",
+            "description": "",
+            "coverArt": "/images/covers/song_bg.png",
+            "transcriptPath": "/transcripts/songs/luke_01/bulgarian/song_bg_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Отворена дървена врата в каменна стена, през която утринна светлина наводнява грапав каменен под"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Тясна мръсна пътека, виеща се през суха златиста трева на хълм в златния час, изчезваща над възвишение"
+      "imageAlt": "Тясна черна пътека, виеща се през суха златиста трева по хълм по време на златен час, изчезваща над възвишение"
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Единично стръкче дива трева, светещо в странична светлина, растящо от пукнатина в тъмна грапава каменна повърхност"
+      "media": {
+        "songs": [
+          {
+            "title": "Нищожната",
+            "mp3": "luke_01/bulgarian/Luke 1_46-56 (Magnificat) — Bulgarian — Нищожната (The Nobody).mp3",
+            "genre": "Dark Pop-Trap",
+            "description": "",
+            "coverArt": "/images/covers/song_bg.png",
+            "transcriptPath": "/transcripts/songs/luke_01/bulgarian/song_bg_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Единично стъбло дива трева, светещо в странична светлина, растящо от пукнатина в тъмна грапава каменна повърхност"
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Пейзаж преди зазоряване със суха трева, силуетно очертана срещу слаб топъл блясък на хоризонта под тъмно небе"
+      "media": {
+        "songs": [
+          {
+            "title": "Тишината говори",
+            "mp3": "luke_01/bulgarian/Luke 1_67-79 (Benedictus) — Bulgarian — _Тишината говори_ (The Silence Speaks).mp3",
+            "genre": "Atmospheric Electronic / Cinematic Ambient",
+            "description": "",
+            "coverArt": "/images/covers/song_bg.png",
+            "transcriptPath": "/transcripts/songs/luke_01/bulgarian/song_bg_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Пейзаж преди зазоряване със суха трева, очертана на фона на слаб топъл блясък на хоризонта под тъмно небе"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Широк изглед на напукан сух пустинен терен в късен следобед с тънка износена пътека, изчезваща в далечината"
+      "imageAlt": "Широк изглед на напукан сух пустинен терен в късен следобед със слаба износена пътека, изчезваща в далечината"
     }
   ],
   "chapterPodcast": {

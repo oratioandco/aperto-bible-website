@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Nærbilde av grov, håndlaget papirflate med diagonale skyggelinjer som krysser den i varmt lys"
+      "imageAlt": "Nærbilde av overflaten på grovt, håndlaget papir med diagonale skyggelinjer som krysser det i varmt, skrått lys"
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "En tynn røyksøyle stiger gjennom en stråle av varmt lys i et mørkt steininteriør"
+      "imageAlt": "En tynn røykspiral som stiger gjennom en stråle av varmt lys i et mørkt steininteriør"
     },
     {
       "id": "verkuendigung",
@@ -35,7 +35,18 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "La det skje",
+            "mp3": "luke_01/norwegian/La det skje — Mary Says Yes (Luke 1_26-38) - norwegian.mp3",
+            "genre": "Nordic Synth-Pop",
+            "description": "Mary's yes is not passive obedience but informed consent under conditions that could destroy her — courage is saying yes",
+            "coverArt": "/images/covers/la_det_skje_nb.png",
+            "transcriptPath": "/transcripts/songs/luke_01/norwegian/la_det_skje_nb_transcript.json"
+          }
+        ]
+      },
       "imageAlt": "En åpen tredør i en steinvegg med morgenlys som strømmer inn på et grovt steingulv"
     },
     {
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "En smal sti som snor seg gjennom tørt, gyllent gress i åssiden ved golden hour, og forsvinner over en stigning"
+      "imageAlt": "En smal grussti som snor seg gjennom tørt, gyllent gress i en åsside i den gylne time, og forsvinner over en bakketopp"
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Et enkelt vilt gresstrå som gløder i sidelengs lys, og vokser fra en sprekk i en mørk, grov steinoverflate"
+      "media": {
+        "songs": [
+          {
+            "title": "Han så meg",
+            "mp3": "luke_01/norwegian/Han så meg — Magnificat (Luke 1_46-56)- norwegian.mp3",
+            "genre": "Nordic Alt-Pop",
+            "description": "God's attention to the overlooked is the engine of cosmic reversal — thrones fall BECAUSE God notices the nobody",
+            "coverArt": "/images/covers/han_s_meg_nb.png",
+            "transcriptPath": "/transcripts/songs/luke_01/norwegian/han_s_meg_nb_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Et enkelt vilt gresstrå som gløder i sidelys, og vokser ut av en sprekk i en mørk, grov steinflate"
     },
     {
       "id": "johannes-geburt",
@@ -82,7 +104,18 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "Lyset kommer",
+            "mp3": "luke_01/norwegian/Lyset kommer — Benedictus (Luke 1_67-79)- norwegian.mp3",
+            "genre": "Nordic Ambient Pop",
+            "description": "Nine months of enforced silence transformed Zechariah — his first words are prophecy, not complaint. The dawn imagery re",
+            "coverArt": "/images/covers/lyset_kommer_nb.png",
+            "transcriptPath": "/transcripts/songs/luke_01/norwegian/lyset_kommer_nb_transcript.json"
+          }
+        ]
+      },
       "imageAlt": "Landskap før daggry med tørt gress silhuett mot en svak varm glød ved horisonten under en mørk himmel"
     },
     {
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Vidt utsyn over sprukket tørt ørkenlandskap sent på ettermiddagen med en svak slitt sti som forsvinner i det fjerne"
+      "imageAlt": "Vid utsikt over sprukket, tørt ørkenterreng sent på ettermiddagen med en svak, slitt sti som forsvinner i det fjerne"
     }
   ],
   "chapterPodcast": {

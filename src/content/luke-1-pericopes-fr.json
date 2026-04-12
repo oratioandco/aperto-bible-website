@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 660,
-      "imageAlt": "Gros plan d'une surface de papier artisanal rugueux avec des lignes d'ombre diagonales la traversant sous une lumière rasante chaude"
+      "imageAlt": "Gros plan d'une surface de papier rugueux fait à la main avec des lignes d'ombre diagonales la traversant sous une lumière rasante chaude."
     },
     {
       "id": "zacharias-elisabeth",
@@ -49,7 +49,7 @@
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 54107,
-      "imageAlt": "Une fine volute de fumée s'élevant à travers un rayon de lumière chaude dans un intérieur en pierre sombre"
+      "imageAlt": "Une fine volute de fumée s'élevant à travers un rayon de lumière chaude dans un intérieur en pierre sombre."
     },
     {
       "id": "annunciation",
@@ -65,12 +65,12 @@
       "media": {
         "songs": [
           {
-            "title": "N'aie Pas Peur",
-            "mp3": "luke_01/french/Luke 1_26-38 French - _N'aie Pas Peur_.mp3",
-            "genre": "Pop",
-            "description": "Une chanson sur le courage et la confiance",
-            "coverArt": "/images/covers/annunciation_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/french/42_luke_01_26_38_transcript_fr.json"
+            "title": "Comment",
+            "mp3": "luke_01/french/Comment (Luke 1_26-38) — French.mp3",
+            "genre": "French Contemporary Pop Ballad",
+            "description": "Mary's yes was an active choice, not passive obedience — and the solitude after the angel left is the real story",
+            "coverArt": "/images/covers/comment_fr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/french/comment_fr_transcript.json"
           }
         ],
         "podcast": {
@@ -91,7 +91,7 @@
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 334703,
-      "imageAlt": "Une porte en bois ouverte dans un mur de pierre avec la lumière du matin inondant un sol en pierre brute"
+      "imageAlt": "Une porte en bois ouverte dans un mur de pierre avec la lumière du matin inondant un sol en pierre brute."
     },
     {
       "id": "visitation",
@@ -113,7 +113,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 508406,
-      "imageAlt": "Un chemin de terre étroit serpentant à travers l'herbe sèche et dorée à flanc de colline à l'heure dorée, disparaissant au sommet d'une pente"
+      "imageAlt": "Un chemin de terre étroit serpentant à travers l'herbe sèche et dorée à flanc de colline à l'heure dorée, disparaissant au sommet d'une pente."
     },
     {
       "id": "magnificat",
@@ -129,12 +129,12 @@
       "media": {
         "songs": [
           {
-            "title": "Il A Regardé",
-            "mp3": "luke_01/french/Luke 1_46-56 French - _Il A Regardé_.mp3",
-            "genre": "Pop",
-            "description": "Le Cantique de Marie",
-            "coverArt": "/images/covers/magnificat_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/french/42_luke_01_46_56_transcript_fr.json"
+            "title": "Les mains vides",
+            "mp3": "luke_01/french/Les mains vides (Luke 1_46-56) — French.mp3",
+            "genre": "French Dark Electronic Pop",
+            "description": "A teenage peasant girl from nowhere declares the world's power structure already overturned — past tense, fait accompli ",
+            "coverArt": "/images/covers/les_mains_vides_fr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/french/les_mains_vides_fr_transcript.json"
           }
         ],
         "podcast": {
@@ -155,7 +155,7 @@
       },
       "image": "luke_01_magnificat.png",
       "audioBibleStart": 601938,
-      "imageAlt": "Une seule tige d'herbe sauvage brillant sous un éclairage latéral, poussant à partir d'une fissure dans une surface de pierre sombre et rugueuse"
+      "imageAlt": "Une seule tige d'herbe sauvage brillant dans la lumière latérale, poussant à partir d'une fissure dans une surface de pierre sombre et rugueuse."
     },
     {
       "id": "john-birth",
@@ -173,11 +173,21 @@
           "title": "Podcast",
           "mp3": "luke_01/fr/42_luke_01_57-66_podcast_fr.mp3",
           "duration": "2 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Le premier mot",
+            "mp3": "luke_01/french/Le premier mot (Luke 1_64-79)— French.mp3",
+            "genre": "French Atmospheric Chanson",
+            "description": "After nine months of enforced silence, Zechariah's first word was not complaint but prophecy — the silence was not punis",
+            "coverArt": "/images/covers/le_premier_mot_fr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/french/le_premier_mot_fr_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 748918,
-      "imageAlt": "Gros plan d'un tissu de lin naturel plié et immaculé avec une lumière douce projetant de douces ombres dans les plis"
+      "imageAlt": "Gros plan d'un tissu de lin naturel plié et immaculé avec une lumière douce projetant de douces ombres dans les plis."
     },
     {
       "id": "benedictus",
@@ -191,16 +201,7 @@
         "label": "Approfondir"
       },
       "media": {
-        "songs": [
-          {
-            "title": "Sans Crainte",
-            "mp3": "luke_01/french/Luke 1_67-79 French - _Sans Crainte_.mp3",
-            "genre": "Pop",
-            "description": "La Prophétie de Zacharie",
-            "coverArt": "/images/covers/benedictus_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/french/42_luke_01_67_79_transcript_fr.json"
-          }
-        ],
+        "songs": [],
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/fr/42_luke_01_67-79_podcast_fr.mp3",
@@ -219,7 +220,7 @@
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 882535,
-      "imageAlt": "Paysage d'avant l'aube avec de l'herbe sèche se détachant sur une faible lueur chaude à l'horizon sous un ciel sombre"
+      "imageAlt": "Paysage d'avant l'aube avec de l'herbe sèche se profilant sur une faible lueur chaude à l'horizon sous un ciel sombre."
     },
     {
       "id": "john-childhood",
@@ -241,7 +242,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 1056238,
-      "imageAlt": "Vue large d'un terrain désertique sec et craquelé en fin d'après-midi avec un faible sentier usé disparaissant au loin"
+      "imageAlt": "Vue large d'un terrain désertique sec et craquelé en fin d'après-midi avec un faible sentier usé disparaissant au loin."
     }
   ],
   "chapterPodcast": {

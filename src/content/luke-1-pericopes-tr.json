@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 0,
-      "imageAlt": "Sıcak ışıkta çapraz gölge çizgileri olan pürüzlü el yapımı kağıt yüzeyinin yakın çekimi"
+      "imageAlt": "Sıcak yalayıcı ışıkta çapraz gölgelerle kaba el yapımı kağıt yüzeyinin yakın çekimi"
     },
     {
       "id": "zacharias-elisabeth",
@@ -49,7 +49,7 @@
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 57329,
-      "imageAlt": "Karanlık bir taş iç mekanda sıcak ışık huzmesinden yükselen ince bir duman kıvrımı"
+      "imageAlt": "Karanlık taş bir iç mekanda sıcak bir ışık huzmesinde yükselen ince bir duman kıvrımı"
     },
     {
       "id": "annunciation",
@@ -72,11 +72,21 @@
           "title": "Ruhani Uygulama",
           "mp3": "spiritual_practice_01_26-38_tr.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Korkma Dedi",
+            "mp3": "luke_01/turkish/Korkma Dedi (Luke 1_5-38) — Turkish.mp3",
+            "genre": "Pop",
+            "description": "",
+            "coverArt": "/images/covers/korkma_dedi_tr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/turkish/korkma_dedi_tr_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 358309,
-      "imageAlt": "Taş bir duvarda açık ahşap bir kapıdan sabah ışığı pürüzlü taş bir zemine doluyor"
+      "imageAlt": "Taş duvarda, sabah ışığının kaba bir taş zemine aktığı açık bir ahşap kapı"
     },
     {
       "id": "visitation",
@@ -98,7 +108,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 544630,
-      "imageAlt": "Altın saatte kuru altın yamaç otlaklarında kıvrılan dar bir toprak yol, bir yükseltiden kayboluyor"
+      "imageAlt": "Altın saatte kuru altın tepe otları arasında kıvrılan, bir yükseltinin üzerinde kaybolan dar bir toprak yol"
     },
     {
       "id": "magnificat",
@@ -121,11 +131,21 @@
           "title": "Ruhani Uygulama",
           "mp3": "spiritual_practice_01_46-56_tr.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Nasıra'dan",
+            "mp3": "luke_01/turkish/Nasıra'dan (Luke 1_46-56) — Turkish.mp3",
+            "genre": "Pop",
+            "description": "",
+            "coverArt": "/images/covers/nasradan_tr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/turkish/nasradan_tr_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_magnificat.png",
       "audioBibleStart": 644956,
-      "imageAlt": "Karanlık pürüzlü bir taş yüzeydeki bir çatlağa büyüyen, yan ışıktan parlayan tek bir yaban otu sapı"
+      "imageAlt": "Karanlık, pürüzlü bir taş yüzeyindeki bir çatlakta büyüyen, yan ışıktaki tek bir yabani ot sapı"
     },
     {
       "id": "john-birth",
@@ -147,7 +167,7 @@
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 802613,
-      "imageAlt": "Katlarda yumuşak gölgeler oluşturan yumuşak ışıkla kusursuz katlanmış doğal keten kumaşın yakın çekimi"
+      "imageAlt": "Katlarda yumuşak gölgeler oluşturan yumuşak ışıklı, bozulmamış katlanmış doğal keten kumaşın yakın çekimi"
     },
     {
       "id": "benedictus",
@@ -170,11 +190,21 @@
           "title": "Ruhani Uygulama",
           "mp3": "spiritual_practice_01_67-79_tr.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Sessizliğin İçinde",
+            "mp3": "luke_01/turkish/Sessizliğin İçinde (Luke 1_67-79) — Turkish.mp3",
+            "genre": "Pop",
+            "description": "",
+            "coverArt": "/images/covers/sessizliin_i_inde_tr.png",
+            "transcriptPath": "/transcripts/songs/luke_01/turkish/sessizliin_i_inde_tr_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 945936,
-      "imageAlt": "Karanlık bir gökyüzü altında ufukta soluk sıcak bir parıltıya karşı silüetleri olan kuru otlaklarla şafak öncesi manzara"
+      "imageAlt": "Karanlık bir gökyüzü altında ufukta hafif sıcak bir parıltıya karşı silüetlenen kuru otlu şafak öncesi manzara"
     },
     {
       "id": "john-childhood",
@@ -196,7 +226,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 1132257,
-      "imageAlt": "Geç öğleden sonra çatlamış kuru çöl arazisinin geniş görünümü, uzaklara kaybolan soluk yıpranmış bir yol"
+      "imageAlt": "Geç öğleden sonra, çatlak kuru çöl arazisinin uzaklara kaybolan soluk yıpranmış bir yolla geniş görünümü"
     }
   ],
   "chapterPodcast": {

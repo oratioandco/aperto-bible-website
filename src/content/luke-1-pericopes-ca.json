@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Primer pla d'una superfície de paper rugosa feta a mà amb línies d'ombra diagonals que la travessen amb llum rasant càlida"
+      "imageAlt": "Primer pla d'una superfície de paper artesanal rugós amb línies d'ombra diagonals que la creuen amb llum càlida rasant"
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Un prim espiral de fum que s'eleva a través d'un raig de llum càlida en un interior de pedra fosc"
+      "imageAlt": "Un fi rínxol de fum que s'eleva a través d'un raig de llum càlida en un interior de pedra fosca"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +35,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Una porta de fusta oberta en una paret de pedra amb llum matinal inundant un terra de pedra rugosa"
+      "media": {
+        "songs": [
+          {
+            "title": "Encara així, sí",
+            "mp3": "luke_01/catalan/Luke 1_26-38 Catalan.mp3",
+            "genre": "Pop",
+            "description": "",
+            "coverArt": "/images/covers/encara_aix_s_ca.png",
+            "transcriptPath": "/transcripts/songs/luke_01/catalan/encara_aix_s_ca_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Una porta de fusta oberta en una paret de pedra amb llum del matí que inunda un sòl de pedra rugosa"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Un camí de terra estret que serpenteja a través d'herba seca i daurada al vessant d'un turó a l'hora daurada, desapareixent sobre un pujol"
+      "imageAlt": "Un estret camí de terra que serpenteja a través d'herba seca i daurada al vessant d'un turó durant l'hora daurada, desapareixent sobre una elevació"
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Una sola tija d'herba salvatge que brilla amb llum lateral, creixent des d'una esquerda en una superfície de pedra rugosa fosca"
+      "media": {
+        "songs": [
+          {
+            "title": "Els petits, els aixeca",
+            "mp3": "luke_01/catalan/Luke 1_46-56 Catalan.mp3",
+            "genre": "Pop",
+            "description": "",
+            "coverArt": "/images/covers/els_petits_els_aixeca_ca.png",
+            "transcriptPath": "/transcripts/songs/luke_01/catalan/els_petits_els_aixeca_ca_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Una sola tija d'herba silvestre brillant a la llum lateral, que creix d'una esquerda en una superfície de pedra rugosa fosca"
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Paisatge abans de l'alba amb herba seca siluetada contra una tènue lluentor càlida a l'horitzó sota un cel fosc"
+      "media": {
+        "songs": [
+          {
+            "title": "Fill meu",
+            "mp3": "luke_01/catalan/Luke 1_67-79 Catalan.mp3",
+            "genre": "Pop",
+            "description": "",
+            "coverArt": "/images/covers/fill_meu_ca.png",
+            "transcriptPath": "/transcripts/songs/luke_01/catalan/fill_meu_ca_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Paisatge abans de l'alba amb herba seca siluetada contra una tènue resplendor càlida a l'horitzó sota un cel fosc"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Visió àmplia d'un terreny desèrtic sec i esquerdat a última hora de la tarda amb un camí desgastat feble que desapareix a la distància"
+      "imageAlt": "Vista àmplia de terreny desèrtic sec i esquerdat a última hora de la tarda amb un camí desgastat tènue que desapareix a la distància"
     }
   ],
   "chapterPodcast": {

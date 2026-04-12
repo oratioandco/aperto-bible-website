@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Lähivõte karedast käsitsi valmistatud paberi pinnast, mida läbivad diagonaalsed varjujooned soojas riivavas valguses"
+      "imageAlt": "Lähivaade karedale käsitsi valmistatud paberi pinnale, mida läbivad diagonaalsed varjujooned soojas riivavas valguses."
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Õhuke suitsukirbe tõuseb läbi sooja valgusekiire pimedas kivises interjööris"
+      "imageAlt": "Õhuke suitsuvine tõuseb läbi sooja valgusekiire tumedas kivises siseruumis."
     },
     {
       "id": "verkuendigung",
@@ -35,8 +35,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Avatud puidust uks kiviseinas, mille kaudu hommikune valgus tulvab karedale kivipõrandale"
+      "media": {
+        "songs": [
+          {
+            "title": "Ikkagi jah",
+            "mp3": "luke_01/estonian/Luke 1_26-38 — Ikkagi jah — Mary's Yes — estonian.mp3",
+            "genre": "Indie Folk-Pop",
+            "description": "Mary's yes is not passive submission but an active choice made while trembling — courage is saying yes when you understa",
+            "coverArt": "/images/covers/ikkagi_jah_et.png",
+            "transcriptPath": "/transcripts/songs/luke_01/estonian/ikkagi_jah_et_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Avatud puidust uks kiviseinas, millele hommikune valgus üle ujutab kareda kivipõranda."
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Kitsas mullarada lookleb läbi kuiva kuldse mäekülje rohu kuldsel tunnil, kadudes üle kõrgendiku"
+      "imageAlt": "Kitsas pinnastee lookleb läbi kuiva kuldse nõlvakuheina kuldsel tunnil, kadudes üle künka."
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Üksik metsik kõrreline taim helendab küljevalguses, kasvades praost tumedas karedas kivipinnas"
+      "media": {
+        "songs": [
+          {
+            "title": "Keegi kusagil",
+            "mp3": "luke_01/estonian/Luke 1_46-56 Keegi kusagil — Magnificat — estonian.mp3",
+            "genre": "Dark Electronic",
+            "description": "The Magnificat is not hope or prayer but a witness statement about how reality works — the powerful fall and the invisib",
+            "coverArt": "/images/covers/keegi_kusagil_et.png",
+            "transcriptPath": "/transcripts/songs/luke_01/estonian/keegi_kusagil_et_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Üksik metsiku rohu vars, mis helendab küljevalguses, kasvades praost tumedas karedas kivi pinnal."
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Päikesetõusueelne maastik, kus kuiv rohi on siluetis nõrga sooja kuma taustal horisondil tumeda taeva all"
+      "media": {
+        "songs": [
+          {
+            "title": "Koidutaht kõrgustest",
+            "mp3": "luke_01/estonian/Luke 1_67-79 Koidutaht korgustest — Zechariah's Dawn — estonian.mp3",
+            "genre": "Folktronica",
+            "description": "Nine months of enforced silence transformed doubt into certainty — when the mouth finally opened, the first word was not",
+            "coverArt": "/images/covers/koidutaht_krgustest_et.png",
+            "transcriptPath": "/transcripts/songs/luke_01/estonian/koidutaht_krgustest_et_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Maastik enne koitu kuiva rohuga, mis on siluetiks peene sooja kuma vastu horisondil tumeda taeva all."
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Lai vaade pragunenud kuivale kõrbeterritooriumile hilisel pärastlõunal, kus nõrk kulunud rada kaob kaugusesse"
+      "imageAlt": "Lai vaade pragunenud kuivale kõrbe pinnasele hilisel pärastlõunal, kus nõrk kulunud rada kaob kaugusesse."
     }
   ],
   "chapterPodcast": {

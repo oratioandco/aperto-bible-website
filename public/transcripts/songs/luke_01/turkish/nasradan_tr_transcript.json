@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "song_id": "nasradan_tr",
+  "title": "Nasıra'dan",
+  "artist": "Aperto Bible",
+  "language": "tr",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "1:46-56",
+  "duration_ms": 220000,
+  "audio_file": "/audio/songs/luke_01/turkish/Nasıra'dan (Luke 1_46-56) — Turkish.mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-12T16:53:41.403512+00:00",
+  "alignment_tool": "estimated",
+  "alignment_confidence": 0.5,
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Alt üst oldu her şey",
+          "start_ms": 6000,
+          "end_ms": 8000
+        },
+        {
+          "text": "Tahtlarından indi güçlüler",
+          "start_ms": 8000,
+          "end_ms": 10080
+        },
+        {
+          "text": "Açlar sofraya oturdu",
+          "start_ms": 10080,
+          "end_ms": 12080
+        },
+        {
+          "text": "Toklar boş döndü",
+          "start_ms": 12080,
+          "end_ms": 14080
+        },
+        {
+          "text": "Alt üst — alt üst — alt üst oldu",
+          "start_ms": 14080,
+          "end_ms": 16640
+        }
+      ],
+      "start_ms": 6000,
+      "end_ms": 16640
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "text": "On altı yaşındayım belki",
+          "start_ms": 19640,
+          "end_ms": 21640
+        },
+        {
+          "text": "Belki on beş — kayıt yok",
+          "start_ms": 21640,
+          "end_ms": 23640
+        },
+        {
+          "text": "Ama gördüklerimi biliyorum",
+          "start_ms": 23640,
+          "end_ms": 25720
+        },
+        {
+          "text": "Ve gördüklerim yalan değil",
+          "start_ms": 25720,
+          "end_ms": 27800
+        }
+      ],
+      "start_ms": 19640,
+      "end_ms": 27800
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Alt üst oldu her şey",
+          "start_ms": 30800,
+          "end_ms": 32800
+        },
+        {
+          "text": "Tahtlarından indi güçlüler",
+          "start_ms": 32800,
+          "end_ms": 34880
+        },
+        {
+          "text": "Açlar sofraya oturdu",
+          "start_ms": 34880,
+          "end_ms": 36880
+        },
+        {
+          "text": "Toklar boş döndü",
+          "start_ms": 36880,
+          "end_ms": 38880
+        },
+        {
+          "text": "Alt üst — alt üst — alt üst oldu",
+          "start_ms": 38880,
+          "end_ms": 41440
+        }
+      ],
+      "start_ms": 30800,
+      "end_ms": 41440
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "text": "Herkes diyor \"bir gün\"",
+          "start_ms": 44440,
+          "end_ms": 46440
+        },
+        {
+          "text": "Ben demiyorum \"bir gün\"",
+          "start_ms": 46440,
+          "end_ms": 48440
+        },
+        {
+          "text": "Ben diyorum \"bitti\"",
+          "start_ms": 48440,
+          "end_ms": 50440
+        },
+        {
+          "text": "Çoktan bitti",
+          "start_ms": 50440,
+          "end_ms": 52440
+        },
+        {
+          "text": "Siz hâlâ bekliyorsunuz",
+          "start_ms": 52440,
+          "end_ms": 54440
+        },
+        {
+          "text": "Ben çoktan gördüm",
+          "start_ms": 54440,
+          "end_ms": 56440
+        }
+      ],
+      "start_ms": 44440,
+      "end_ms": 56440
+    },
+    {
+      "type": "chorus",
+      "label": "Final Chorus",
+      "lines": [
+        {
+          "text": "Alt üst oldu",
+          "start_ms": 59440,
+          "end_ms": 61440
+        },
+        {
+          "text": "Ve kimse geri koyamaz",
+          "start_ms": 61440,
+          "end_ms": 63440
+        },
+        {
+          "text": "Alt üst oldu",
+          "start_ms": 63440,
+          "end_ms": 65440
+        },
+        {
+          "text": "Ve ben bunu bir köyden söylüyorum",
+          "start_ms": 65440,
+          "end_ms": 68080
+        },
+        {
+          "text": "Nasıra'dan — haritada bile olmayan yerden",
+          "start_ms": 68080,
+          "end_ms": 71360
+        }
+      ],
+      "start_ms": 59440,
+      "end_ms": 71360
+    },
+    {
+      "type": "outro",
+      "label": "Outro",
+      "lines": [
+        {
+          "text": "Alt üst",
+          "start_ms": 74360,
+          "end_ms": 76360
+        }
+      ],
+      "start_ms": 74360,
+      "end_ms": 76360
+    },
+    {
+      "type": "outro",
+      "label": "End",
+      "lines": [
+        {
+          "text": "---",
+          "start_ms": 79360,
+          "end_ms": 81360
+        }
+      ],
+      "start_ms": 79360,
+      "end_ms": 81360
+    }
+  ],
+  "hooks": [],
+  "intro_clips": []
+}

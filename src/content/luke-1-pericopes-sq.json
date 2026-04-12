@@ -17,7 +17,7 @@
           "mp3": "luke_01/sq/42_luke_01_01-04_podcast_sq.mp3"
         }
       },
-      "imageAlt": "Pamje nga afër e sipërfaqes së ashpër të letrës së punuar me dorë me vija të pjerrëta hije që e kryqëzojnë në dritë të ngrohtë"
+      "imageAlt": "Pamje nga afër e sipërfaqes së ashpër të letrës së punuar me dorë me vija diagonale hijesh që e kryqëzojnë në dritë të ngrohtë"
     },
     {
       "id": "zacharias-elisabeth",
@@ -32,9 +32,27 @@
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/sq/42_luke_01_05-25_podcast_sq.mp3"
-        }
+        },
+        "songs": [
+          {
+            "title": "Mos u frikëso",
+            "mp3": "luke_01/albanian/Luke 1_13, 1_30 - Mos u frikëso (albanian).mp3",
+            "genre": "Albanian Contemporary Pop",
+            "description": "The same words of reassurance — 'Don't be afraid' — spoken to an old priest in the holiest room and a teenage girl in an",
+            "coverArt": "/images/covers/mos_u_frikso_sq.png",
+            "transcriptPath": "/transcripts/songs/luke_01/albanian/mos_u_frikso_sq_transcript.json"
+          },
+          {
+            "title": "Nëntë muaj pa zë",
+            "mp3": "luke_01/albanian/Luke 1_18-20, 1_57-66 - Nëntë muaj pa zë (albanian).mp3",
+            "genre": "Albanian Art Pop",
+            "description": "Zechariah is silenced for nine months — not as punishment but as transformation. When his mouth finally opens, his first",
+            "coverArt": "/images/covers/nnt_muaj_pa_z_sq.png",
+            "transcriptPath": "/transcripts/songs/luke_01/albanian/nnt_muaj_pa_z_sq_transcript.json"
+          }
+        ]
       },
-      "imageAlt": "Një kaçurrel i hollë tymi që ngrihet përmes një rreze drite të ngrohtë në një ambient të errët prej guri"
+      "imageAlt": "Një kruspull i hollë tymi që ngrihet nëpër një rreze drite të ngrohtë në një ambient të errët prej guri"
     },
     {
       "id": "verkuendigung",
@@ -51,7 +69,7 @@
           "mp3": "luke_01/sq/42_luke_01_26-38_podcast_sq.mp3"
         }
       },
-      "imageAlt": "Një derë e hapur prej druri në një mur guri me dritë të mëngjesit që përmbyt një dysheme të ashpër prej guri"
+      "imageAlt": "Një derë e hapur prej druri në një mur guri me dritë të mëngjesit që vërshon mbi një dysheme të ashpër guri"
     },
     {
       "id": "heimsuchung",
@@ -78,9 +96,19 @@
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/sq/42_luke_01_46-56_podcast_sq.mp3"
-        }
+        },
+        "songs": [
+          {
+            "title": "Të vegjlit, lart",
+            "mp3": "luke_01/albanian/Luke 1_46-56 - Të vegjlit, lart (albanian).mp3",
+            "genre": "Albanian Indie Pop",
+            "description": "A peasant girl from a nameless village announces — in past tense — that God has already toppled rulers and fed the hungr",
+            "coverArt": "/images/covers/t_vegjlit_lart_sq.png",
+            "transcriptPath": "/transcripts/songs/luke_01/albanian/t_vegjlit_lart_sq_transcript.json"
+          }
+        ]
       },
-      "imageAlt": "Një kërcell i vetëm i barit të egër që shkëlqen në dritën anësore, duke u rritur nga një e çarë në një sipërfaqe të errët të ashpër guri"
+      "imageAlt": "Një kërcell i vetëm bari i egër që shkëlqen në dritë anësore, duke u rritur nga një e çarë në një sipërfaqe të errët guri të ashpër"
     },
     {
       "id": "johannes-geburt",
@@ -108,7 +136,7 @@
       "image": "luke_01_benedictus.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Peizazh para agimit me bar të thatë të siluetuar kundër një shkëlqimi të dobët të ngrohtë në horizont nën një qiell të errët"
+      "imageAlt": "Peizazh para agimit me bar të thatë të siluetuar kundër një shkëlqimi të zbehtë të ngrohtë në horizont nën një qiell të errët"
     },
     {
       "id": "johannes-kindheit",
@@ -120,7 +148,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Pamje e gjerë e terrenit të thatë të plasaritur të shkretëtirës në pasdite vonë me një shteg të zbehtë të konsumuar që zhduket në largësi"
+      "imageAlt": "Pamje e gjerë e terrenit të thatë të shkretëtirës të plasaritur në pasdite vonë me një shteg të zbehtë të konsumuar që zhduket në distancë"
     }
   ],
   "chapterPodcast": {

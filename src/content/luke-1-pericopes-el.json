@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Μια λεπτή μπούκλα καπνού που ανεβαίνει μέσα από μια δέσμη θερμού φωτός σε ένα σκοτεινό πέτρινο εσωτερικό"
+      "media": {
+        "songs": [
+          {
+            "title": "Μη φοβάσαι",
+            "mp3": "luke_01/greek/Μη φοβάσαι (Luke 1_12-30) — Greek.mp3",
+            "genre": "Greek Acoustic Pop / Entechno",
+            "description": "Fear and faith coexist — Mary says yes while afraid, not after the fear passes",
+            "coverArt": "/images/covers/song_el.png",
+            "transcriptPath": "/transcripts/songs/luke_01/greek/song_el_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Μια λεπτή μπούκλα καπνού που υψώνεται μέσα από μια δέσμη θερμού φωτός σε ένα σκοτεινό πέτρινο εσωτερικό"
     },
     {
       "id": "verkuendigung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Ένα στενό χωματόδρομο που ελίσσεται μέσα από ξηρό χρυσό γρασίδι σε πλαγιά λόφου τη χρυσή ώρα, εξαφανίζεται πάνω από μια ανύψωση"
+      "imageAlt": "Ένα στενό χωματόδρομο που ελίσσεται μέσα από ξηρό χρυσαφένιο γρασίδι σε πλαγιά λόφου κατά τη διάρκεια της χρυσής ώρας, εξαφανιζόμενος πάνω από έναν λόφο"
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Ένα μόνο άγριο στέλεχος γρασιδιού που λάμπει σε πλάγιο φως, μεγαλώνει από μια ρωγμή σε μια σκούρα τραχιά πέτρινη επιφάνεια"
+      "media": {
+        "songs": [
+          {
+            "title": "Με κοίταξε",
+            "mp3": "luke_01/greek/Με κοίταξε (Luke 1_46-55) — Greek (1).mp3",
+            "genre": "Greek Alternative Rock",
+            "description": "Revolution starts with being seen — the most powerful being noticed the most invisible person, and that single act of se",
+            "coverArt": "/images/covers/song_el.png",
+            "transcriptPath": "/transcripts/songs/luke_01/greek/song_el_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Ένα μονό άγριο στέλεχος γρασιδιού που λάμπει στο πλευρικό φως, φυτρώνει από μια ρωγμή σε μια σκοτεινή τραχιά πέτρινη επιφάνεια"
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Τοπίο πριν την αυγή με ξερό χόρτο να σκιαγραφείται σε σχέση με μια αμυδρή θερμή λάμψη στον ορίζοντα κάτω από έναν σκοτεινό ουρανό"
+      "media": {
+        "songs": [
+          {
+            "title": "Κι εσύ, παιδί μου",
+            "mp3": "luke_01/greek/Κι εσύ, παιδί μου (Luke 1_76-79)— Greek.mp3",
+            "genre": "Greek Atmospheric Indie Folk",
+            "description": "Nine months of silence transformed doubt into vision — cosmic prophecy pivots to a father looking at his newborn",
+            "coverArt": "/images/covers/song_el.png",
+            "transcriptPath": "/transcripts/songs/luke_01/greek/song_el_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Τοπίο πριν την αυγή με ξερά χόρτα να σκιαγραφούνται σε έναν αχνό θερμό φως στον ορίζοντα κάτω από έναν σκοτεινό ουρανό"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Ευρεία θέα σε ραγισμένο ξηρό έδαφος ερήμου αργά το απόγευμα με ένα αμυδρό φθαρμένο μονοπάτι να εξαφανίζεται στην απόσταση"
+      "imageAlt": "Ευρεία θέα της ραγισμένης ξηρής ερημικής περιοχής αργά το απόγευμα με ένα αχνό φθαρμένο μονοπάτι να εξαφανίζεται στην απόσταση"
     }
   ],
   "chapterPodcast": {

@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 660,
-      "imageAlt": "Close-up de superfície de papel artesanal áspero com linhas de sombra diagonais que a cruzam sob luz quente"
+      "imageAlt": "Close-up da superfície de papel áspero feito à mão com linhas de sombra diagonais cruzando-a em luz indireta quente"
     },
     {
       "id": "zacharias-elisabeth",
@@ -49,7 +49,7 @@
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 34143,
-      "imageAlt": "Uma fina espiral de fumaça subindo por um raio de luz quente em um interior de pedra escura"
+      "imageAlt": "Uma fina espiral de fumaça subindo através de um feixe de luz quente em um interior de pedra escura"
     },
     {
       "id": "annunciation",
@@ -72,11 +72,21 @@
           "title": "Prática Espiritual",
           "mp3": "spiritual_practice_01_26-38_pt.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Mesmo Assim",
+            "mp3": "luke_01/portuguese/Luke 1_26-38 (Portuguese).mp3",
+            "genre": "Indie Pop",
+            "description": "Courage is saying yes to what terrifies you before understanding it",
+            "coverArt": "/images/covers/mesmo_assim_pt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/portuguese/mesmo_assim_pt_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 209928,
-      "imageAlt": "Uma porta de madeira aberta em uma parede de pedra com luz matinal inundando um chão de pedra áspero"
+      "imageAlt": "Uma porta de madeira aberta em uma parede de pedra com a luz da manhã inundando um chão de pedra áspero"
     },
     {
       "id": "visitation",
@@ -98,7 +108,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 318748,
-      "imageAlt": "Um caminho de terra estreito serpenteando por grama seca e dourada na encosta durante a hora dourada, desaparecendo em uma elevação"
+      "imageAlt": "Um caminho de terra estreito serpenteando através de grama seca dourada na encosta durante a hora dourada, desaparecendo sobre uma elevação"
     },
     {
       "id": "magnificat",
@@ -114,20 +124,12 @@
       "media": {
         "songs": [
           {
-            "title": "Ele Me Olhou",
-            "mp3": "luke_01/portuguese/Luke 1_46-56 Portuguese.mp3",
-            "genre": "Pop",
-            "description": "O Cântico de Maria",
-            "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_46_56_transcript_pt.json",
-            "coverArt": "/images/covers/magnificat_karaoke.png"
-          },
-          {
-            "title": "Ele Me Viu",
-            "mp3": "luke_01/portuguese/Luke 1_46-56 Brazilian Portuguese.mp3",
-            "genre": "Pop",
-            "description": "O Cântico de Maria",
-            "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_46_56_transcript_pt-br.json",
-            "coverArt": "/images/covers/magnificat_karaoke.png"
+            "title": "Os Tronos Estao a Cair",
+            "mp3": "luke_01/portuguese/Luke 1_46-56 (Portuguese).mp3",
+            "genre": "Indie Rock",
+            "description": "The most revolutionary text in the Bible was spoken by someone society considered nobody",
+            "coverArt": "/images/covers/os_tronos_estao_a_cair_pt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/portuguese/os_tronos_estao_a_cair_pt_transcript.json"
           }
         ],
         "podcast": {
@@ -170,7 +172,7 @@
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 469421,
-      "imageAlt": "Close-up de um pano de linho natural dobrado e impecável com luz suave projetando sombras suaves nas dobras"
+      "imageAlt": "Close-up de pano de linho natural dobrado e impecável com luz suave lançando sombras suaves nas dobras"
     },
     {
       "id": "benedictus",
@@ -186,20 +188,12 @@
       "media": {
         "songs": [
           {
-            "title": "A Luz Que Vem",
-            "mp3": "luke_01/portuguese/Luke 1_67-79 Portuguese.mp3",
-            "genre": "Pop",
-            "description": "A Profecia de Zacarias",
-            "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_67_79_transcript_pt.json",
-            "coverArt": "/images/covers/benedictus_karaoke.png"
-          },
-          {
-            "title": "Sem Medo",
-            "mp3": "luke_01/portuguese/Luke 1_67-79 Brazilian Portuguese.mp3",
-            "genre": "Pop",
-            "description": "A Profecia de Zacarias",
-            "transcriptPath": "/transcripts/songs/luke_01/portuguese/42_luke_01_67_79_transcript_pt-br.json",
-            "coverArt": "/images/covers/benedictus_karaoke.png"
+            "title": "Ja Vem a Luz",
+            "mp3": "luke_01/portuguese/Luke 1_67-79 (Portuguese).mp3",
+            "genre": "Fado Pop",
+            "description": "What we say after long silence reveals who we have become",
+            "coverArt": "/images/covers/ja_vem_a_luz_pt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/portuguese/ja_vem_a_luz_pt_transcript.json"
           }
         ],
         "podcast": {
@@ -220,7 +214,7 @@
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 553129,
-      "imageAlt": "Paisagem antes do amanhecer com grama seca silhuetada contra um tênue brilho quente no horizonte sob um céu escuro"
+      "imageAlt": "Paisagem pré-amanhecer com grama seca silhuetada contra um leve brilho quente no horizonte sob um céu escuro"
     },
     {
       "id": "john-childhood",
@@ -242,7 +236,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 661949,
-      "imageAlt": "Vista ampla do terreno desértico seco e rachado no final da tarde com um caminho gasto e fraco desaparecendo na distância"
+      "imageAlt": "Ampla vista de terreno desértico seco e rachado no final da tarde com um caminho gasto tênue desaparecendo na distância"
     }
   ],
   "chapterPodcast": {

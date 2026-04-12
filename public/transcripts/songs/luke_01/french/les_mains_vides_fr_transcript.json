@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "song_id": "les_mains_vides_fr",
+  "title": "Les mains vides",
+  "artist": "Aperto Bible",
+  "language": "fr",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "1:46-56",
+  "duration_ms": 220000,
+  "audio_file": "/audio/songs/luke_01/french/Les mains vides (Luke 1_46-56) — French.mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-12T16:53:40.852307+00:00",
+  "alignment_tool": "estimated",
+  "alignment_confidence": 0.5,
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "text": "Je viens d'un bled que t'as jamais cherche sur la carte",
+          "start_ms": 6000,
+          "end_ms": 10400
+        },
+        {
+          "text": "Pas d'argent, pas de nom, pas de place a la table",
+          "start_ms": 10400,
+          "end_ms": 14320
+        },
+        {
+          "text": "Mais j'ai vu quelque chose que les grands voient pas",
+          "start_ms": 14320,
+          "end_ms": 18480
+        },
+        {
+          "text": "Depuis leurs tours, depuis leurs trônes, depuis la-haut",
+          "start_ms": 18480,
+          "end_ms": 22880
+        }
+      ],
+      "start_ms": 6000,
+      "end_ms": 22880
+    },
+    {
+      "type": "pre-chorus",
+      "label": "Pre-Chorus",
+      "lines": [
+        {
+          "text": "Ils pensaient que ca durerait toujours",
+          "start_ms": 25880,
+          "end_ms": 28920
+        },
+        {
+          "text": "Que personne bougerait, que personne dirait rien",
+          "start_ms": 28920,
+          "end_ms": 32760
+        }
+      ],
+      "start_ms": 25880,
+      "end_ms": 32760
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Les mains vides",
+          "start_ms": 35760,
+          "end_ms": 37760
+        },
+        {
+          "text": "C'est comme ca qu'ils repartent",
+          "start_ms": 37760,
+          "end_ms": 40240
+        },
+        {
+          "text": "Les mains vides",
+          "start_ms": 40240,
+          "end_ms": 42240
+        },
+        {
+          "text": "Les puissants, les premiers, les forts",
+          "start_ms": 42240,
+          "end_ms": 45280
+        },
+        {
+          "text": "Les mains vides",
+          "start_ms": 45280,
+          "end_ms": 47280
+        },
+        {
+          "text": "Et ceux d'en bas, on se releve",
+          "start_ms": 47280,
+          "end_ms": 49680
+        },
+        {
+          "text": "C'est deja fait",
+          "start_ms": 49680,
+          "end_ms": 51680
+        }
+      ],
+      "start_ms": 35760,
+      "end_ms": 51680
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "text": "Les affames, il les a remplis",
+          "start_ms": 54680,
+          "end_ms": 57000
+        },
+        {
+          "text": "Les riches, il les a renvoyes sans rien",
+          "start_ms": 57000,
+          "end_ms": 60120
+        },
+        {
+          "text": "C'est pas un reve, c'est pas un plan",
+          "start_ms": 60120,
+          "end_ms": 63000
+        },
+        {
+          "text": "C'est un fait, regarde, c'est deja en train",
+          "start_ms": 63000,
+          "end_ms": 66440
+        }
+      ],
+      "start_ms": 54680,
+      "end_ms": 66440
+    },
+    {
+      "type": "pre-chorus",
+      "label": "Pre-Chorus",
+      "lines": [
+        {
+          "text": "Ils ont ri quand j'ai ouvert la bouche",
+          "start_ms": 69440,
+          "end_ms": 72480
+        },
+        {
+          "text": "Une fille de province, qu'est-ce qu'elle en sait",
+          "start_ms": 72480,
+          "end_ms": 76320
+        }
+      ],
+      "start_ms": 69440,
+      "end_ms": 76320
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Les mains vides",
+          "start_ms": 79320,
+          "end_ms": 81320
+        },
+        {
+          "text": "C'est comme ca qu'ils repartent",
+          "start_ms": 81320,
+          "end_ms": 83800
+        },
+        {
+          "text": "Les mains vides",
+          "start_ms": 83800,
+          "end_ms": 85800
+        },
+        {
+          "text": "Les puissants, les premiers, les forts",
+          "start_ms": 85800,
+          "end_ms": 88840
+        },
+        {
+          "text": "Les mains vides",
+          "start_ms": 88840,
+          "end_ms": 90840
+        },
+        {
+          "text": "Et ceux d'en bas, on se releve",
+          "start_ms": 90840,
+          "end_ms": 93240
+        },
+        {
+          "text": "C'est deja fait",
+          "start_ms": 93240,
+          "end_ms": 95240
+        }
+      ],
+      "start_ms": 79320,
+      "end_ms": 95240
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge] [Spoken Word",
+      "lines": [
+        {
+          "text": "Mon ame est plus grande que ce qu'ils croient",
+          "start_ms": 98240,
+          "end_ms": 101840
+        },
+        {
+          "text": "Mon esprit danse sur leurs certitudes",
+          "start_ms": 101840,
+          "end_ms": 104800
+        },
+        {
+          "text": "Celui qui voit les invisibles",
+          "start_ms": 104800,
+          "end_ms": 107120
+        },
+        {
+          "text": "M'a regardee, moi",
+          "start_ms": 107120,
+          "end_ms": 109120
+        },
+        {
+          "text": "Et tout a bascule",
+          "start_ms": 109120,
+          "end_ms": 111120
+        },
+        {
+          "text": "La promesse faite a nos peres",
+          "start_ms": 111120,
+          "end_ms": 113440
+        },
+        {
+          "text": "Elle tient, elle tient dans mon ventre",
+          "start_ms": 113440,
+          "end_ms": 116480
+        }
+      ],
+      "start_ms": 98240,
+      "end_ms": 116480
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus] [Powerful",
+      "lines": [
+        {
+          "text": "Les mains vides",
+          "start_ms": 119480,
+          "end_ms": 121480
+        },
+        {
+          "text": "C'est comme ca qu'ils repartent",
+          "start_ms": 121480,
+          "end_ms": 123960
+        },
+        {
+          "text": "Les mains vides",
+          "start_ms": 123960,
+          "end_ms": 125960
+        },
+        {
+          "text": "Et nous, en bas, les yeux grands ouverts",
+          "start_ms": 125960,
+          "end_ms": 129160
+        },
+        {
+          "text": "Les mains vides",
+          "start_ms": 129160,
+          "end_ms": 131160
+        },
+        {
+          "text": "C'est deja fait, c'est deja fait",
+          "start_ms": 131160,
+          "end_ms": 133720
+        },
+        {
+          "text": "LES MAINS VIDES",
+          "start_ms": 133720,
+          "end_ms": 135720
+        }
+      ],
+      "start_ms": 119480,
+      "end_ms": 135720
+    }
+  ],
+  "hooks": [],
+  "intro_clips": []
+}

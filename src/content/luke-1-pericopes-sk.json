@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Detail hrubej ručne robenej papierovej plochy s diagonálnymi tieňmi prechádzajúcimi cez ňu v teplom svetle"
+      "imageAlt": "Detail drsného ručne robeného papiera s diagonálnymi tieňmi v teplom bočnom svetle"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Tenký pramienok dymu stúpajúci cez prúd teplého svetla v tmavom kamennom interiéri"
+      "media": {
+        "songs": [
+          {
+            "title": "Po tichu",
+            "mp3": "luke_01/slovak/Luke 1_5-79 — Zechariah's Arc (Slovak).mp3",
+            "genre": "Cinematic Folk-Pop",
+            "description": "Nine months of enforced silence — and when it breaks, the first word is gratitude. What you say after you've been silent",
+            "coverArt": "/images/covers/po_tichu_sk.png",
+            "transcriptPath": "/transcripts/songs/luke_01/slovak/po_tichu_sk_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Tenký prúd dymu stúpajúci cez lúč teplého svetla v tmavom kamennom interiéri"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +46,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Otvorené drevené dvere v kamennom múre s ranným svetlom zaplavujúcim hrubú kamennú podlahu"
+      "media": {
+        "songs": [
+          {
+            "title": "Aj tak ano",
+            "mp3": "luke_01/slovak/Luke 1_26-38 — Mary's Yes (Slovak).mp3",
+            "genre": "Intimate Indie Pop",
+            "description": "Saying yes before the safety net appears — faith not as certainty but as courage under radical uncertainty.",
+            "coverArt": "/images/covers/aj_tak_ano_sk.png",
+            "transcriptPath": "/transcripts/songs/luke_01/slovak/aj_tak_ano_sk_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Otvorené drevené dvere v kamennej stene s ranným svetlom zaplavujúcim drsnú kamennú podlahu"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +70,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Úzky hlinený chodník vinúci sa cez suchú zlatistú trávu na úbočí kopca počas zlatej hodiny, miznúci za návrším"
+      "imageAlt": "Úzky hlinený chodník vinúci sa suchou zlatistou trávou na svahu počas zlatej hodiny, miznúci za stúpaním"
     },
     {
       "id": "magnificat",
@@ -59,8 +81,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Jediná stonka divokej trávy žiariaca v bočnom svetle, vyrastajúca z trhliny v tmavom drsnom kamennom povrchu"
+      "media": {
+        "songs": [
+          {
+            "title": "Svet naruby",
+            "mp3": "luke_01/slovak/Luke 1_46-56 — Magnificat (Slovak).mp3",
+            "genre": "Power Rock Ballad",
+            "description": "Mary announces God's reversal of power structures using past tense for things not yet finished — prophetic certainty tha",
+            "coverArt": "/images/covers/svet_naruby_sk.png",
+            "transcriptPath": "/transcripts/songs/luke_01/slovak/svet_naruby_sk_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Jediný divý steblo trávy žiariaci v bočnom svetle, vyrastajúci z trhliny v tmavom drsnom kamennom povrchu"
     },
     {
       "id": "johannes-geburt",
@@ -83,7 +116,7 @@
       "image": "luke_01_benedictus.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Predsvitanová krajina so suchou trávou siluetou proti slabej teplej žiare na horizonte pod tmavou oblohou"
+      "imageAlt": "Predúsvitová krajina so suchou trávou siluetovanou proti slabému teplému žiareniu na horizonte pod tmavou oblohou"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Široký pohľad na popraskaný suchý púštny terén neskoro popoludní so slabo viditeľnou cestou miznúcou do diaľky"
+      "imageAlt": "Široký pohľad na popraskaný suchý púštny terén neskoro popoludní so sotva viditeľným vyšliapaným chodníkom miznúcim v diaľke"
     }
   ],
   "chapterPodcast": {

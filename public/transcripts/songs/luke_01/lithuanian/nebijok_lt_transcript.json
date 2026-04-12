@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "song_id": "nebijok_lt",
+  "title": "Nebijok",
+  "artist": "Aperto Bible",
+  "language": "lt",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "1:5-38",
+  "duration_ms": 220000,
+  "audio_file": "/audio/songs/luke_01/lithuanian/_Nebijok_ — Luke 1_5-38 (Lithuanian).mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-12T16:53:41.151537+00:00",
+  "alignment_tool": "estimated",
+  "alignment_confidence": 0.5,
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Nebijok, nebijok",
+          "start_ms": 6000,
+          "end_ms": 8000
+        },
+        {
+          "text": "Tu jau žinai atsakymą",
+          "start_ms": 8000,
+          "end_ms": 10000
+        },
+        {
+          "text": "Nebijok, nebijok",
+          "start_ms": 10000,
+          "end_ms": 12000
+        },
+        {
+          "text": "Sakyk, tiesiog sakyk",
+          "start_ms": 12000,
+          "end_ms": 14000
+        }
+      ],
+      "start_ms": 6000,
+      "end_ms": 14000
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "text": "Galėčiau pasakyt ne",
+          "start_ms": 17000,
+          "end_ms": 19000
+        },
+        {
+          "text": "Galėčiau nusisukti ir uždaryti duris",
+          "start_ms": 19000,
+          "end_ms": 21880
+        },
+        {
+          "text": "Bet kažkas viduje jau atsako",
+          "start_ms": 21880,
+          "end_ms": 24120
+        },
+        {
+          "text": "Dar anksčiau negu lūpos sujuda",
+          "start_ms": 24120,
+          "end_ms": 26520
+        }
+      ],
+      "start_ms": 17000,
+      "end_ms": 26520
+    },
+    {
+      "type": "pre-chorus",
+      "label": "Pre-Chorus",
+      "lines": [
+        {
+          "text": "Kaip tai gali būti",
+          "start_ms": 29520,
+          "end_ms": 31520
+        },
+        {
+          "text": "Bet gal ir nereikia žinot",
+          "start_ms": 31520,
+          "end_ms": 33520
+        }
+      ],
+      "start_ms": 29520,
+      "end_ms": 33520
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Nebijok, nebijok",
+          "start_ms": 36520,
+          "end_ms": 38520
+        },
+        {
+          "text": "Tu jau žinai atsakymą",
+          "start_ms": 38520,
+          "end_ms": 40520
+        },
+        {
+          "text": "Nebijok, nebijok",
+          "start_ms": 40520,
+          "end_ms": 42520
+        },
+        {
+          "text": "Sakyk, tiesiog sakyk",
+          "start_ms": 42520,
+          "end_ms": 44520
+        }
+      ],
+      "start_ms": 36520,
+      "end_ms": 44520
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "text": "Tebūnie",
+          "start_ms": 47520,
+          "end_ms": 49520
+        },
+        {
+          "text": "Tebūnie pagal tą žodį",
+          "start_ms": 49520,
+          "end_ms": 51520
+        },
+        {
+          "text": "Kurio dar nesuprantu",
+          "start_ms": 51520,
+          "end_ms": 53520
+        },
+        {
+          "text": "Bet kuriuo jau tikiu",
+          "start_ms": 53520,
+          "end_ms": 55520
+        }
+      ],
+      "start_ms": 47520,
+      "end_ms": 55520
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "text": "Nebijok, nebijok",
+          "start_ms": 58520,
+          "end_ms": 60520
+        },
+        {
+          "text": "Aš jau žinau atsakymą",
+          "start_ms": 60520,
+          "end_ms": 62520
+        },
+        {
+          "text": "Nebijok, nebijok",
+          "start_ms": 62520,
+          "end_ms": 64520
+        },
+        {
+          "text": "Sakau, tiesiog sakau taip",
+          "start_ms": 64520,
+          "end_ms": 66520
+        }
+      ],
+      "start_ms": 58520,
+      "end_ms": 66520
+    },
+    {
+      "type": "outro",
+      "label": "Outro",
+      "lines": [
+        {
+          "text": "Nebijok",
+          "start_ms": 69520,
+          "end_ms": 71520
+        },
+        {
+          "text": "Sakyk",
+          "start_ms": 71520,
+          "end_ms": 73520
+        },
+        {
+          "text": "Nebijok",
+          "start_ms": 73520,
+          "end_ms": 75520
+        },
+        {
+          "text": "Sakyk",
+          "start_ms": 75520,
+          "end_ms": 77520
+        }
+      ],
+      "start_ms": 69520,
+      "end_ms": 77520
+    },
+    {
+      "type": "outro",
+      "label": "End",
+      "lines": [
+        {
+          "text": "---",
+          "start_ms": 80520,
+          "end_ms": 82520
+        }
+      ],
+      "start_ms": 80520,
+      "end_ms": 82520
+    }
+  ],
+  "hooks": [],
+  "intro_clips": []
+}

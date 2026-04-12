@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 1000,
-      "imageAlt": "Nærbillede af ru håndlavet papirflade med diagonale skyggelinjer, der krydser den i varmt strygende lys"
+      "imageAlt": "Nærbillede af ru håndlavet papir med diagonale skyggelinjer, der krydser det i varmt strygelys"
     },
     {
       "id": "zacharias-elisabeth",
@@ -45,11 +45,21 @@
           "title": "Podcast",
           "mp3": "luke_01/da/42_luke_01_05-25_podcast_da.mp3",
           "duration": "1 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Ni måneder stille",
+            "mp3": "luke_01/danish/Luke 1_5-25+57-66 _Ni måneder stille_ — Danish.mp3",
+            "genre": "Danish minimal electronic ambient",
+            "description": "Zechariah's enforced silence is not punishment but formation — his first words after 9 months are poetry, not complaint",
+            "coverArt": "/images/covers/ni_mneder_stille_da.png",
+            "transcriptPath": "/transcripts/songs/luke_01/danish/ni_mneder_stille_da_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 30904,
-      "imageAlt": "En tynd krølle af røg, der stiger op gennem en stråle af varmt lys i et mørkt steninteriør"
+      "imageAlt": "En tynd røgkrølle, der stiger op gennem en stråle af varmt lys i et mørkt steninteriør"
     },
     {
       "id": "annunciation",
@@ -65,12 +75,12 @@
       "media": {
         "songs": [
           {
-            "title": "Frygt Ikke",
-            "mp3": "luke_01/danish/Luke 1_26-38 - Danish - _Frygt Ikke_.mp3",
-            "genre": "Pop",
-            "description": "En sang om mod og tillid",
-            "coverArt": "/images/covers/annunciation_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/danish/42_luke_01_26_38_transcript_da.json"
+            "title": "Alligevel",
+            "mp3": "luke_01/danish/Luke 1_26-38 _Alligevel_ — Danish.mp3",
+            "genre": "Danish acoustic folk-pop",
+            "description": "Mary's \"Lad det ske\" is not sweet compliance but radical courage — saying yes to something that will cost everything, be",
+            "coverArt": "/images/covers/alligevel_da.png",
+            "transcriptPath": "/transcripts/songs/luke_01/danish/alligevel_da_transcript.json"
           }
         ],
         "podcast": {
@@ -113,7 +123,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 285088,
-      "imageAlt": "En smal jordsti, der snor sig gennem tørt gyldent bakkelandskab i golden hour og forsvinder over en bakke"
+      "imageAlt": "En smal jordsti, der snor sig gennem tørt gyldent græs på en bjergside i gyldne time, og forsvinder over en bakke"
     },
     {
       "id": "magnificat",
@@ -129,12 +139,12 @@
       "media": {
         "songs": [
           {
-            "title": "Han Så På Mig",
-            "mp3": "luke_01/danish/Luke 1_46-56 Danish - _Han Så På Mig_.mp3",
-            "genre": "Pop",
-            "description": "Marias lovsang",
-            "coverArt": "/images/covers/magnificat_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/danish/42_luke_01_46_56_transcript_da.json"
+            "title": "Set",
+            "mp3": "luke_01/danish/Luke 1_46-56 _Set_ — Danish.mp3",
+            "genre": "Danish indie pop with electronic textures",
+            "description": "Before the Magnificat's revolutionary politics, there is a single personal moment: a nobody discovers she's been seen. T",
+            "coverArt": "/images/covers/set_da.png",
+            "transcriptPath": "/transcripts/songs/luke_01/danish/set_da_transcript.json"
           }
         ],
         "podcast": {
@@ -155,7 +165,7 @@
       },
       "image": "luke_01_magnificat.png",
       "audioBibleStart": 337420,
-      "imageAlt": "Et enkelt vildt græsstrå, der gløder i sidelys, vokser fra en revne i en mørk, ru stenoverflade"
+      "imageAlt": "Et enkelt vildt græsstrå, der gløder i sidelys, og vokser fra en sprække i en mørk ru stenoverflade"
     },
     {
       "id": "john-birth",
@@ -177,7 +187,7 @@
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 419656,
-      "imageAlt": "Nærbillede af rent foldet naturligt linnedstof med blødt lys, der kaster blide skygger i folderne"
+      "imageAlt": "Nærbillede af uberørt foldet naturligt linnedklæde med blødt lys, der kaster milde skygger i folderne"
     },
     {
       "id": "benedictus",
@@ -191,16 +201,7 @@
         "label": "Læs mere"
       },
       "media": {
-        "songs": [
-          {
-            "title": "Uden Frygt",
-            "mp3": "luke_01/danish/Luke 1_67-79 Danish - _Uden Frygt_.mp3",
-            "genre": "Pop",
-            "description": "Zakarias' profeti",
-            "coverArt": "/images/covers/benedictus_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/danish/42_luke_01_67_79_transcript_da.json"
-          }
-        ],
+        "songs": [],
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/da/42_luke_01_67-79_podcast_da.mp3",
@@ -219,7 +220,7 @@
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 494416,
-      "imageAlt": "Landskab før daggry med tørt græs silhuetteret mod en svag varm glød ved horisonten under en mørk himmel"
+      "imageAlt": "Landskab før daggry med tørt græs silhuet mod en svag varm glød ved horisonten under en mørk himmel"
     },
     {
       "id": "john-childhood",
@@ -241,7 +242,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 591604,
-      "imageAlt": "Bredt udsyn over revnet tørt ørkenlandskab sent om eftermiddagen med en svag slidt sti, der forsvinder i det fjerne"
+      "imageAlt": "Bredt udsyn over revnet tørt ørkenterræn sent på eftermiddagen med en svag slidt sti, der forsvinder i det fjerne"
     }
   ],
   "chapterPodcast": {

@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Close-up van ruw handgeschept papieroppervlak met diagonale schaduwlijnen die het kruisen in warm strijklicht"
+      "imageAlt": "Close-up van ruw handgeschept papier met diagonale schaduwlijnen in warm strijklicht"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Een dunne rookpluim die opstijgt door een straal warm licht in een donker stenen interieur"
+      "media": {
+        "songs": [
+          {
+            "title": "Wees niet bang",
+            "mp3": "luke_01/dutch/_Wees niet bang_ — Luke 1_13, 1_30 (Dutch).mp3",
+            "genre": "Dutch Singer-Songwriter Pop",
+            "description": "God starts with you, not with what God wants from you. The first word is always about your fear, not about God's plan.",
+            "coverArt": "/images/covers/wees_niet_bang_nl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/dutch/wees_niet_bang_nl_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Een dunne rookpluim die opstijgt door een schacht van warm licht in een donker stenen interieur"
     },
     {
       "id": "verkuendigung",
@@ -36,7 +47,7 @@
       "image": "luke_01_annunciation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Een open houten deur in een stenen muur met ochtendlicht dat doorbreekt op een ruwe stenen vloer"
+      "imageAlt": "Een open houten deur in een stenen muur met ochtendlicht dat naar binnen stroomt op een ruwe stenen vloer"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Een smal zandpad dat slingert door droog goudkleurig heuvellandgras tijdens het gouden uur, verdwijnend over een heuvelrug"
+      "imageAlt": "Een smal zandpad dat slingert door droog gouden heuvelgras tijdens het gouden uur, en verdwijnt over een heuvelrug"
     },
     {
       "id": "magnificat",
@@ -59,7 +70,18 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "Hij zag mij staan",
+            "mp3": "luke_01/dutch/Luke 1_46-55 (Magnificat) — Dutch.mp3",
+            "genre": "Dutch indie pop-rap, empowerment anthem",
+            "description": "",
+            "coverArt": "/images/covers/hij_zag_mij_staan_nl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/dutch/hij_zag_mij_staan_nl_transcript.json"
+          }
+        ]
+      },
       "imageAlt": "Een enkele wilde grasspriet die gloeit in zijlicht, groeiend uit een scheur in een donker ruw stenen oppervlak"
     },
     {
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Pre-dageraad landschap met droog gras silhouet tegen een vage warme gloed aan de horizon onder een donkere hemel"
+      "media": {
+        "songs": [
+          {
+            "title": "Stil genoeg",
+            "mp3": "luke_01/dutch/Luke 1_67-79 — _Stil genoeg_ (Dutch).mp3",
+            "genre": "Atmospheric electronic / cinematic dream pop",
+            "description": "Zacharias' first words after nine months of enforced silence are not complaint but prophecy about light. The silence was",
+            "coverArt": "/images/covers/stil_genoeg_nl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/dutch/stil_genoeg_nl_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Pre-zonsopgang landschap met droog gras dat silhouet tegen een zwakke warme gloed aan de horizon onder een donkere hemel"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Breed zicht op gebarsten droog woestijnterrein in de late namiddag met een vaag versleten pad dat in de verte verdwijnt"
+      "imageAlt": "Wijd uitzicht op gebarsten droog woestijnterrein in de late namiddag met een vaag versleten pad dat in de verte verdwijnt"
     }
   ],
   "chapterPodcast": {

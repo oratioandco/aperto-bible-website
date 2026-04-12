@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 640,
-      "imageAlt": "Primo piano di una superficie di carta artigianale ruvida con linee d'ombra diagonali che la attraversano sotto una calda luce radente"
+      "imageAlt": "Primo piano di superficie di carta ruvida fatta a mano con linee d'ombra diagonali che la attraversano in calda luce radente."
     },
     {
       "id": "zacharias-elisabeth",
@@ -49,7 +49,7 @@
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 28584,
-      "imageAlt": "Un sottile ricciolo di fumo che si alza attraverso un fascio di luce calda in un interno di pietra scuro"
+      "imageAlt": "Un sottile ricciolo di fumo che sale attraverso un raggio di luce calda in un interno di pietra scura."
     },
     {
       "id": "annunciation",
@@ -65,12 +65,12 @@
       "media": {
         "songs": [
           {
-            "title": "Non Avere Paura",
-            "mp3": "luke_01/italian/Luke 1_26-38 Italian - _Non Avere Paura_.mp3",
-            "genre": "Pop",
-            "description": "Una canzone sul coraggio e la fiducia",
-            "coverArt": "/images/covers/annunciation_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/italian/42_luke_01_26_38_transcript_it.json"
+            "title": "Dico sì lo stesso",
+            "mp3": "luke_01/it/Luke 1_26-38 — _Dico sì lo stesso_ — Italian.mp3",
+            "genre": "Italian intimate indie pop ballad",
+            "description": "Saying yes when you cannot see the outcome — active consent in the face of total uncertainty",
+            "coverArt": "/images/covers/dico_s_lo_stesso_it.png",
+            "transcriptPath": "/transcripts/songs/luke_01/it/dico_s_lo_stesso_it_transcript.json"
           }
         ],
         "podcast": {
@@ -91,7 +91,7 @@
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 175290,
-      "imageAlt": "Una porta di legno aperta in un muro di pietra con la luce del mattino che inonda un pavimento di pietra grezza"
+      "imageAlt": "Una porta di legno aperta in un muro di pietra con la luce del mattino che inonda un pavimento di pietra grezza."
     },
     {
       "id": "visitation",
@@ -113,7 +113,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 266108,
-      "imageAlt": "Uno stretto sentiero di terra che si snoda attraverso l'erba secca e dorata del fianco di una collina durante l'ora d'oro, scomparendo oltre un'altura"
+      "imageAlt": "Un stretto sentiero sterrato che serpeggia attraverso l'erba secca e dorata del fianco della collina durante l'ora d'oro, scomparendo oltre un'altura."
     },
     {
       "id": "magnificat",
@@ -129,12 +129,12 @@
       "media": {
         "songs": [
           {
-            "title": "Lui Mi Ha Guardata",
-            "mp3": "luke_01/italian/Luke 1_46-56 Italian - _Lui Mi Ha Guardata_.mp3",
-            "genre": "Pop",
-            "description": "Il Cantico di Maria",
-            "coverArt": "/images/covers/magnificat_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/italian/42_luke_01_46_56_transcript_it.json"
+            "title": "Mi ha vista",
+            "mp3": "luke_01/it/Luke 1_46-56 — _Mi ha vista_ — Italian.mp3",
+            "genre": "Italian dark electronic pop",
+            "description": "Being seen by God when the world makes you invisible — the revolutionary power of divine attention",
+            "coverArt": "/images/covers/mi_ha_vista_it.png",
+            "transcriptPath": "/transcripts/songs/luke_01/it/mi_ha_vista_it_transcript.json"
           }
         ],
         "podcast": {
@@ -155,7 +155,7 @@
       },
       "image": "luke_01_magnificat.png",
       "audioBibleStart": 315010,
-      "imageAlt": "Un singolo stelo di erba selvatica che brilla di luce laterale, crescendo da una fessura in una superficie di pietra scura e ruvida"
+      "imageAlt": "Un singolo stelo di erba selvatica che brilla di luce laterale, che cresce da una fessura in una superficie di pietra scura e ruvida."
     },
     {
       "id": "john-birth",
@@ -173,11 +173,21 @@
           "title": "Podcast",
           "mp3": "luke_01/it/42_luke_01_57-66_podcast_it.mp3",
           "duration": "5 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Nove mesi di silenzio",
+            "mp3": "luke_01/it/Luke 1_64-79 — _Nove mesi di silenzio_ — Italian.mp3",
+            "genre": "Italian contemporary cantautore ballad",
+            "description": "Forced silence as formation, not punishment — what grows in the space where words used to be",
+            "coverArt": "/images/covers/nove_mesi_di_silenzio_it.png",
+            "transcriptPath": "/transcripts/songs/luke_01/it/nove_mesi_di_silenzio_it_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 391856,
-      "imageAlt": "Primo piano di un tessuto di lino naturale piegato e immacolato con una luce soffusa che proietta ombre delicate nelle pieghe"
+      "imageAlt": "Primo piano di un panno di lino naturale piegato e immacolato con una luce soffusa che proietta ombre delicate nelle pieghe."
     },
     {
       "id": "benedictus",
@@ -191,16 +201,7 @@
         "label": "Approfondire"
       },
       "media": {
-        "songs": [
-          {
-            "title": "Senza Paura",
-            "mp3": "luke_01/italian/Luke 1_67-79 Italian - _Senza Paura_.mp3",
-            "genre": "Pop",
-            "description": "La Profezia di Zaccaria",
-            "coverArt": "/images/covers/benedictus_karaoke.png",
-            "transcriptPath": "/transcripts/songs/luke_01/italian/42_luke_01_67_79_transcript_it.json"
-          }
-        ],
+        "songs": [],
         "podcast": {
           "title": "Podcast",
           "mp3": "luke_01/it/42_luke_01_67-79_podcast_it.mp3",
@@ -219,7 +220,7 @@
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 461716,
-      "imageAlt": "Paesaggio pre-alba con erba secca in controluce contro una debole luce calda all'orizzonte sotto un cielo scuro"
+      "imageAlt": "Paesaggio prima dell'alba con erba secca in controluce contro un debole bagliore caldo all'orizzonte sotto un cielo scuro."
     },
     {
       "id": "john-childhood",
@@ -241,7 +242,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 552534,
-      "imageAlt": "Ampia vista di un terreno desertico secco e screpolato nel tardo pomeriggio con un debole sentiero consumato che scompare in lontananza"
+      "imageAlt": "Ampia veduta di terreno desertico secco e screpolato nel tardo pomeriggio con un debole sentiero consumato che scompare in lontananza."
     }
   ],
   "chapterPodcast": {

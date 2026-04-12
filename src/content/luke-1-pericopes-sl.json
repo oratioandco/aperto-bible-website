@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Posnetek od blizu površine grobega ročno izdelanega papirja z diagonalnimi sencami, ki jo prečkajo v topli svetlobi"
+      "imageAlt": "Posnetek od blizu grobega ročno izdelanega papirja z diagonalnimi sencami v topli stranski svetlobi"
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Tanek curek dima, ki se dviga skozi žarek tople svetlobe v temni kamniti notranjosti"
+      "imageAlt": "Tanek curek dima, ki se dviga skozi snop tople svetlobe v temni kamniti notranjosti"
     },
     {
       "id": "verkuendigung",
@@ -35,7 +35,18 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "Pa sem rekla da",
+            "mp3": "luke_01/slovenian/Luke 1_26-38 — _Pa sem rekla da_ (Slovenian).mp3",
+            "genre": "Indie Folk-Pop",
+            "description": "",
+            "coverArt": "/images/covers/pa_sem_rekla_da_sl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/slovenian/pa_sem_rekla_da_sl_transcript.json"
+          }
+        ]
+      },
       "imageAlt": "Odprta lesena vrata v kamnitem zidu z jutranjo svetlobo, ki preplavlja groba kamnita tla"
     },
     {
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Ozka makadamska pot, ki se vije skozi suho zlato travo pobočja ob zlati uri in izginja čez vzpetino"
+      "imageAlt": "Ozka zemeljska pot, ki se vije skozi suho zlato travo pobočja v zlati uri, izginja čez vzpetino"
     },
     {
       "id": "magnificat",
@@ -59,8 +70,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Eno samo steblo divje trave, ki se sveti v stranski svetlobi in raste iz razpoke v temni grobi kamniti površini"
+      "media": {
+        "songs": [
+          {
+            "title": "Prazne roke",
+            "mp3": "luke_01/slovenian/Luke 1_46-56 — _Prazne roke_ (Slovenian).mp3",
+            "genre": "Conscious Hip-Hop",
+            "description": "",
+            "coverArt": "/images/covers/prazne_roke_sl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/slovenian/prazne_roke_sl_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Eno samo steblo divje trave, ki sije v stranski svetlobi, raste iz razpoke v temni grobi kamniti površini"
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Pokrajina pred zoro s suho travo, ki jo silhuetno poudarja šibek topel sij na obzorju pod temnim nebom"
+      "media": {
+        "songs": [
+          {
+            "title": "Zora",
+            "mp3": "luke_01/slovenian/Luke 1_67-79 — _Zora_ (Slovenian).mp3",
+            "genre": "Atmospheric Ambient",
+            "description": "",
+            "coverArt": "/images/covers/zora_sl.png",
+            "transcriptPath": "/transcripts/songs/luke_01/slovenian/zora_sl_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Pokrajina pred zoro s suho travo, ki se silhuetno izrisuje ob šibkem toplem sijaju na obzorju pod temnim nebom"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Širok pogled na razpokan suh puščavski teren ob poznem popoldnevu s komaj opazno utrjeno potjo, ki izginja v daljavo"
+      "imageAlt": "Širok pogled na razpokano suho puščavsko pokrajino pozno popoldne s komaj opazno obrabljeno potjo, ki izginja v daljavi"
     }
   ],
   "chapterPodcast": {

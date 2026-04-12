@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Prim-plan al suprafeței aspre de hârtie făcută manual, cu linii diagonale de umbră care o traversează în lumină caldă"
+      "imageAlt": "Prim-plan cu suprafața aspră a unei hârtii lucrate manual, cu linii diagonale de umbră care o traversează în lumină caldă piezișă"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Un firicel subțire de fum se ridică printr-un fascicul de lumină caldă într-un interior întunecat din piatră"
+      "media": {
+        "songs": [
+          {
+            "title": "Nu mai pot tăcea",
+            "mp3": "luke_01/romanian/Luke 1_5-25 Nu mai pot tăcea (Romanian).mp3",
+            "genre": "Romanian Indie Ballad",
+            "description": "Zechariah's nine months of forced silence wasn't punishment — it was the forge where a skeptical priest became a poet",
+            "coverArt": "/images/covers/nu_mai_pot_tacea_ro.png",
+            "transcriptPath": "/transcripts/songs/luke_01/romanian/nu_mai_pot_tcea_ro_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Un fir subțire de fum care se ridică printr-un fascicul de lumină caldă într-un interior întunecat de piatră"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +46,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "O ușă deschisă din lemn într-un zid de piatră, cu lumina dimineții inundând o podea aspră de piatră"
+      "media": {
+        "songs": [
+          {
+            "title": "Fie",
+            "mp3": "luke_01/romanian/Luke 1_26-38 Fie (Romanian).mp3",
+            "genre": "Romanian Intimate Pop",
+            "description": "Every Romanian knows 'Fie' from liturgy — but strip the piety away and it's the most dangerous word a teenage girl could",
+            "coverArt": "/images/covers/fie_ro.png",
+            "transcriptPath": "/transcripts/songs/luke_01/romanian/fie_ro_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "O ușă de lemn deschisă într-un zid de piatră, cu lumină matinală inundând o podea de piatră aspră"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +70,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "O potecă îngustă de pământ șerpuind prin iarbă uscată și aurie pe versantul unui deal la ora de aur, dispărând după o ridicătură"
+      "imageAlt": "O potecă îngustă de pământ șerpuind prin iarbă aurie uscată pe un deal în timpul orei de aur, dispărând peste o culme"
     },
     {
       "id": "magnificat",
@@ -59,8 +81,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "O singură tulpină de iarbă sălbatică strălucind în lumină laterală, crescând dintr-o crăpătură într-o suprafață întunecată și aspră de piatră"
+      "media": {
+        "songs": [
+          {
+            "title": "Pe dos",
+            "mp3": "luke_01/romanian/Luke 1_46-56 Pe dos (Romanian).mp3",
+            "genre": "Romanian Hip-Hop / Folk-Electronic",
+            "description": "The most revolutionary manifesto in Western history was composed by a teenage girl from a village of 200 people — and we",
+            "coverArt": "/images/covers/pe_dos_ro.png",
+            "transcriptPath": "/transcripts/songs/luke_01/romanian/pe_dos_ro_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "O singură tulpină de iarbă sălbatică strălucind în lumina laterală, crescând dintr-o crăpătură într-o suprafață de piatră aspră și întunecată"
     },
     {
       "id": "johannes-geburt",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Vedere largă a terenului deșertic uscat și crăpat, după-amiaza târziu, cu o potecă slabă, uzată, dispărând în depărtare"
+      "imageAlt": "Vedere largă a terenului deșertic uscat și crăpat după-amiaza târziu, cu o potecă slabă, uzată, dispărând în depărtare"
     }
   ],
   "chapterPodcast": {

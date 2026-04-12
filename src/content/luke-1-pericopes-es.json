@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 540,
-      "imageAlt": "Primer plano de superficie de papel artesanal rugoso con líneas de sombra diagonales cruzándolo bajo una luz cálida rasante"
+      "imageAlt": "Primer plano de la superficie de papel rugoso hecho a mano con líneas de sombra diagonales que lo cruzan bajo una cálida luz rasante."
     },
     {
       "id": "zacharias-elisabeth",
@@ -45,11 +45,21 @@
           "title": "Podcast",
           "mp3": "luke_01/es/42_luke_01_05-25_podcast_es.mp3",
           "duration": "3 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Me vio a mi",
+            "mp3": "luke_01/spanish/Luke 1_25 + 1_48 (Being Seen) — Spanish.mp3",
+            "genre": "Cantautor Folk",
+            "description": "Two women — one old with decades of shame, one young with nothing to offer — share the shattering experience of being tr",
+            "coverArt": "/images/covers/me_vio_a_mi_es.png",
+            "transcriptPath": "/transcripts/songs/luke_01/spanish/me_vio_a_mi_es_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 32293,
-      "imageAlt": "Un fino rizo de humo que se eleva a través de un haz de luz cálida en un interior de piedra oscuro"
+      "imageAlt": "Una fina voluta de humo que se eleva a través de un haz de luz cálida en un interior de piedra oscura."
     },
     {
       "id": "annunciation",
@@ -72,11 +82,21 @@
           "title": "Práctica Espiritual",
           "mp3": "spiritual_practice_01_26-38_es.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Aun asi, si",
+            "mp3": "luke_01/spanish/Luke 1_26-38 (Mary's Yes) — Spanish.mp3",
+            "genre": "Folk-Rock",
+            "description": "Mary's yes is not fearless surrender but clear-eyed courage — she counts the cost (social destruction, family shame, acc",
+            "coverArt": "/images/covers/aun_asi_si_es.png",
+            "transcriptPath": "/transcripts/songs/luke_01/spanish/aun_asi_si_es_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 198996,
-      "imageAlt": "Una puerta de madera abierta en una pared de piedra con luz de la mañana inundando un suelo de piedra rugoso"
+      "imageAlt": "Una puerta de madera abierta en una pared de piedra con luz de la mañana que inunda un suelo de piedra rugosa."
     },
     {
       "id": "visitation",
@@ -98,7 +118,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 302193,
-      "imageAlt": "Un estrecho camino de tierra serpenteando a través de hierba seca dorada en la ladera durante la hora dorada, desapareciendo sobre una colina"
+      "imageAlt": "Un estrecho camino de tierra que serpentea a través de la hierba seca y dorada de la ladera a la hora dorada, desapareciendo sobre una elevación."
     },
     {
       "id": "magnificat",
@@ -121,11 +141,21 @@
           "title": "Práctica Espiritual",
           "mp3": "spiritual_practice_01_46-56_es.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Derriba",
+            "mp3": "luke_01/spanish/Luke 1_46-56 (Magnificat) — Spanish.mp3",
+            "genre": "Flamenco-Pop",
+            "description": "A young woman from a nothing village announces the end of the existing order — the Magnificat as revolutionary manifesto",
+            "coverArt": "/images/covers/derriba_es.png",
+            "transcriptPath": "/transcripts/songs/luke_01/spanish/derriba_es_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_magnificat.png",
       "audioBibleStart": 357761,
-      "imageAlt": "Un solo tallo de hierba silvestre brillando a contraluz, creciendo desde una grieta en una superficie de piedra oscura y rugosa"
+      "imageAlt": "Un solo tallo de hierba silvestre que brilla con luz lateral, creciendo desde una grieta en una superficie de piedra oscura y rugosa."
     },
     {
       "id": "john-birth",
@@ -147,7 +177,7 @@
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 445082,
-      "imageAlt": "Primer plano de tela de lino natural doblada y prístina con luz suave proyectando sombras delicadas en los pliegues"
+      "imageAlt": "Primer plano de una tela de lino natural doblada e impecable con una luz suave que proyecta delicadas sombras en los pliegues."
     },
     {
       "id": "benedictus",
@@ -174,7 +204,7 @@
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 524464,
-      "imageAlt": "Paisaje antes del amanecer con hierba seca silueteada contra un tenue resplandor cálido en el horizonte bajo un cielo oscuro"
+      "imageAlt": "Paisaje antes del amanecer con hierba seca silueteada contra un tenue resplandor cálido en el horizonte bajo un cielo oscuro."
     },
     {
       "id": "john-childhood",
@@ -196,7 +226,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 627661,
-      "imageAlt": "Vista amplia de terreno desértico seco y agrietado al final de la tarde con un tenue sendero desgastado que desaparece en la distancia"
+      "imageAlt": "Vista amplia de terreno desértico seco y agrietado al final de la tarde con un tenue camino desgastado que desaparece en la distancia."
     }
   ],
   "chapterPodcast": {

@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Dehra mill-qrib ta' wiċċ ta' karta mhux maħduma magħmula bl-idejn b'linji ta' dell djagonali jaqsmuha f'dawl sħun"
+      "imageAlt": "Veduta mill-qrib ta' wiċċ ta' karta magħmula bl-idejn, mhux lixxa, b'linji ta' dellijiet dijagonali jaqsmuha f'dawl sħun"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Ċoff żgħir ta' duħħan tiela' minn ġo raġġ ta' dawl sħun f'interjuri tal-ġebel skur"
+      "media": {
+        "songs": [
+          {
+            "title": "Infetaħ",
+            "mp3": "luke_01/maltese/Luke 1_5-25, 67-79 — Infetaħ — Maltese.mp3",
+            "genre": "Dream Pop / Atmospheric Electronic",
+            "description": "Nine months of enforced silence transform doubt into prophecy — the first words after silence are song, not complaint",
+            "coverArt": "/images/covers/infeta_mt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/maltese/infeta_mt_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Ċoff żgħir ta' duħħan tiela' minn ġo xaft ta' dawl sħun ġewwa interjur tal-ġebel skur"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +46,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Bieb tal-injam miftuħ f'ħajt tal-ġebel b'dawl ta' filgħodu jidħol jgħarraq art tal-ġebel mhux maħduma"
+      "media": {
+        "songs": [
+          {
+            "title": "Kulħadd Jaf",
+            "mp3": "luke_01/maltese/Luke 1_26-38 — Kulħadd Jaf — Maltese.mp3",
+            "genre": "Indie Folk Pop",
+            "description": "The courage of saying yes to something that will cost you everything, in a village where everyone knows everything",
+            "coverArt": "/images/covers/kuladd_jaf_mt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/maltese/kuladd_jaf_mt_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Bieb tal-injam miftuħ f'ħajt tal-ġebel b'dawl ta' filgħodu dieħel minnu u jixħet fuq art tal-ġebel mhux lixxa"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +70,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Triq dejqa tal-ħmieġ iddur minn ġo ħaxix niexef u deheb tal-għoljiet fis-siegħa tad-deheb, tisparixxi fuq żieda"
+      "imageAlt": "Passaġġ dejjaq tal-ħamrija jgħaddi minn ġo ħaxix niexef u dehbi f'għoljiet waqt is-'siegħa tad-deheb', u jisparixxi fuq żieda fl-art"
     },
     {
       "id": "magnificat",
@@ -59,8 +81,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Zokk wieħed ta' ħaxix selvaġġ jiddi f'dawl tal-ġenb, jikber minn xaqq f'wiċċ ta' ġebla skura mhux maħduma"
+      "media": {
+        "songs": [
+          {
+            "title": "Ħadd Ma Rani",
+            "mp3": "luke_01/maltese/Luke 1_46-56 — Ħadd Ma Rani— Maltese.mp3",
+            "genre": "Dark Electronic Hip-Hop",
+            "description": "The invisible one declares the pattern of cosmic reversal — what God always does is bring down the powerful and lift the",
+            "coverArt": "/images/covers/add_ma_rani_mt.png",
+            "transcriptPath": "/transcripts/songs/luke_01/maltese/add_ma_rani_mt_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Zokk wieħed ta' ħaxix salvaġġ ileqq f'dawl tal-ġenb, jikber minn xaqq f'wiċċ tal-ġebel skur u mhux lixx"
     },
     {
       "id": "johannes-geburt",
@@ -83,7 +116,7 @@
       "image": "luke_01_benedictus.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Pajsaġġ ta' qabel is-sebħ b'ħaxix niexef siluwettjat kontra dija sħuna u ħafifa fl-orizzont taħt sema skura"
+      "imageAlt": "Pajsaġġ qabel tlugħ ix-xemx b'ħaxix niexef siluwettjat ma' dawl ħelu u ċar fl-orizzont taħt sema skura"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Veduta wiesgħa ta' art tad-deżert niexfa u maqsuma tard wara nofsinhar b'mogħdija ħafifa li tispiċċa fid-distanza"
+      "imageAlt": "Veduta wiesgħa ta' art tad-deżert xotta u mxaqqaq tard wara nofsinhar b'mogħdija ċkejkna u mikula tisparixxi fid-distanza"
     }
   ],
   "chapterPodcast": {

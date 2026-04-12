@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Detail drsného povrchu ručně vyráběného papíru s diagonálními liniemi stínů, které se protínají v teplém šikmém světle"
+      "imageAlt": "Detail hrubého povrchu ručního papíru s diagonálními stínovými liniemi, které se protínají v teplém bočním světle"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Tenký obláček kouře stoupající skrz paprsek teplého světla v tmavém kamenném interiéru"
+      "media": {
+        "songs": [
+          {
+            "title": "Neboj se",
+            "mp3": "luke_01/czech/Luke 1_13 _Neboj se_ — Czech.mp3",
+            "genre": "Czech intimate acoustic pop / singer-songwriter",
+            "description": "Fear and faith coexist — \"neboj se\" doesn't demand you stop being afraid, it says \"I know you're afraid and I'm still he",
+            "coverArt": "/images/covers/neboj_se_cs.png",
+            "transcriptPath": "/transcripts/songs/luke_01/czech/neboj_se_cs_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Tenký pramínek kouře stoupající skrze proud teplého světla v tmavém kamenném interiéru"
     },
     {
       "id": "verkuendigung",
@@ -35,7 +46,9 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": []
+      },
       "imageAlt": "Otevřené dřevěné dveře v kamenné zdi s ranním světlem zaplavujícím hrubou kamennou podlahu"
     },
     {
@@ -48,7 +61,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Úzká polní cesta vinoucí se suchou zlatavou trávou na svahu kopce ve zlaté hodině, mizící za vrškem"
+      "imageAlt": "Úzká polní cesta klikatící se suchou zlatou trávou na úbočí kopce během zlaté hodiny, mizící za návrším"
     },
     {
       "id": "magnificat",
@@ -59,8 +72,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Jediný stonek divoké trávy zářící v bočním světle, rostoucí z trhliny v tmavém drsném kamenném povrchu"
+      "media": {
+        "songs": [
+          {
+            "title": "Viděl mě",
+            "mp3": "luke_01/czech/Luke 1_46-56 _Viděl mě_ — Czech.mp3",
+            "genre": "Czech alt-rock / indie rock",
+            "description": "Mary sings before anything is resolved — praise as orientation, not response to outcomes",
+            "coverArt": "/images/covers/vidl_m_cs.png",
+            "transcriptPath": "/transcripts/songs/luke_01/czech/vidl_m_cs_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Jediný stvol divoké trávy zářící v bočním světle, rostoucí z praskliny v tmavém hrubém kamenném povrchu"
     },
     {
       "id": "johannes-geburt",
@@ -82,8 +106,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Krajina před úsvitem se suchou trávou v siluetě proti slabé teplé záři na obzoru pod tmavou oblohou"
+      "media": {
+        "songs": [
+          {
+            "title": "A ty, dítě",
+            "mp3": "luke_01/czech/Luke 1_67-79 _A ty, dítě_ — Czech.mp3",
+            "genre": "Czech indie electronic / atmospheric pop",
+            "description": "Zechariah's cosmic prophecy collapses to intimate fatherhood at v.76 — the world shrinks to one child",
+            "coverArt": "/images/covers/a_ty_dt_cs.png",
+            "transcriptPath": "/transcripts/songs/luke_01/czech/a_ty_dt_cs_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Předúsvitová krajina se suchou trávou siluetou proti slabé teplé záři na obzoru pod tmavou oblohou"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +130,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Široký pohled na popraskaný suchý pouštní terén v pozdním odpoledni s tenkou prošlapanou cestou mizící v dálce"
+      "imageAlt": "Široký pohled na popraskaný suchý pouštní terén v pozdním odpoledni se slabou opotřebovanou cestou mizící v dálce"
     }
   ],
   "chapterPodcast": {

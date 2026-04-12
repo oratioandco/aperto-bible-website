@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Крупный план грубой поверхности бумаги ручной работы с диагональными линиями тени в теплом свете"
+      "imageAlt": "Крупный план грубой бумаги ручной работы с диагональными тенями в теплом скользящем свете"
     },
     {
       "id": "zacharias-elisabeth",
@@ -24,7 +24,7 @@
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Тонкий завиток дыма, поднимающийся сквозь луч теплого света в темном каменном интерьере"
+      "imageAlt": "Тонкая струйка дыма поднимается в луче теплого света в темном каменном интерьере"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +35,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Открытая деревянная дверь в каменной стене, через которую утренний свет заливает грубый каменный пол"
+      "media": {
+        "songs": [
+          {
+            "title": "Пусть будет так",
+            "mp3": "luke_01/russian/Luke 1_26-38 Russian _Пусть будет так_ — Informed consent.mp3",
+            "genre": "Russian Singer-Songwriter",
+            "description": "Mary says yes knowing exactly what pregnancy before marriage costs — not obedience but informed consent. The Greek optat",
+            "coverArt": "/images/covers/song_ru.png",
+            "transcriptPath": "/transcripts/songs/luke_01/russian/song_ru_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Открытая деревянная дверь в каменной стене с утренним светом, заливающим грубый каменный пол"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +59,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Узкая грунтовая тропа, петляющая по сухой золотистой траве на склоне холма в золотой час, исчезающая за подъемом"
+      "imageAlt": "Узкая грунтовая тропа, извивающаяся по сухой золотистой траве на склоне холма в золотой час, исчезающая за подъемом"
     },
     {
       "id": "magnificat",
@@ -59,7 +70,18 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
+      "media": {
+        "songs": [
+          {
+            "title": "Он меня увидел",
+            "mp3": "luke_01/russian/Luke 1_46-56 Russian  _Он меня увидел_.mp3",
+            "genre": "Russian Indie Rock",
+            "description": "The most radical political manifesto in the New Testament was spoken by a pregnant teenager from a village that didn't m",
+            "coverArt": "/images/covers/song_ru.png",
+            "transcriptPath": "/transcripts/songs/luke_01/russian/song_ru_transcript.json"
+          }
+        ]
+      },
       "imageAlt": "Одинокий стебель дикой травы, светящийся в боковом свете, растущий из трещины в темной грубой каменной поверхности"
     },
     {
@@ -82,8 +104,19 @@
       "accentColor": "#8B6A5A",
       "image": "luke_01_benedictus.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Предрассветный пейзаж с сухой травой, силуэтом выделяющейся на фоне слабого теплого свечения на горизонте под темным небом"
+      "media": {
+        "songs": [
+          {
+            "title": "Рассвет",
+            "mp3": "luke_01/russian/Luke 1_67-79 Russian _Рассвет_ — Silence as transformation.mp3",
+            "genre": "Atmospheric Electronic",
+            "description": "Nine months of silence weren't punishment but preparation. When Zechariah finally speaks, what comes out isn't what he e",
+            "coverArt": "/images/covers/song_ru.png",
+            "transcriptPath": "/transcripts/songs/luke_01/russian/song_ru_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Предрассветный пейзаж с сухой травой, силуэтно выделяющейся на фоне слабого теплого свечения на горизонте под темным небом"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Широкий вид потрескавшейся сухой пустынной местности в конце дня с едва заметной тропой, уходящей вдаль"
+      "imageAlt": "Широкий вид потрескавшейся сухой пустынной местности в конце дня с еле заметной изношенной тропой, исчезающей вдали"
     }
   ],
   "chapterPodcast": {

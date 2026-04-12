@@ -27,7 +27,7 @@
       },
       "image": "luke_01_prologue.png",
       "audioBibleStart": 700,
-      "imageAlt": "Närbild av grov handgjord pappersyta med diagonala skuggor som korsar den i varmt släpljus"
+      "imageAlt": "Närbild av grovt handgjort pappersyta med diagonala skuggor i varmt släpljus"
     },
     {
       "id": "zacharias-elisabeth",
@@ -45,11 +45,12 @@
           "title": "Podcast",
           "mp3": "luke_01/sv/42_luke_01_05-25_podcast_sv.mp3",
           "duration": "3 min"
-        }
+        },
+        "songs": []
       },
       "image": "luke_01_zechariah_temple.png",
       "audioBibleStart": 58728,
-      "imageAlt": "En tunn rökstrimma som stiger genom en stråle av varmt ljus i en mörk steninteriör"
+      "imageAlt": "En tunn rökpelare stiger genom en stråle av varmt ljus i en mörk steninteriör"
     },
     {
       "id": "annunciation",
@@ -72,11 +73,21 @@
           "title": "Andlig Övning",
           "mp3": "spiritual_practice_01_26-38_sv.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Jag sa ja",
+            "mp3": "luke_01/swedish/Jag sa ja (Luke 1_26-38) — Swedish.mp3",
+            "genre": "Swedish Indie Rock",
+            "description": "The bravest decisions are the ones where you say yes before you know how it ends",
+            "coverArt": "/images/covers/jag_sa_ja_sv.png",
+            "transcriptPath": "/transcripts/songs/luke_01/swedish/jag_sa_ja_sv_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_annunciation.png",
       "audioBibleStart": 363378,
-      "imageAlt": "En öppen trädörr i en stenmur med morgonljus som strömmar in på ett grovt stengolv"
+      "imageAlt": "En öppen trädörr i en stenmur med morgonljus som flödar in på ett grovt stengolv"
     },
     {
       "id": "visitation",
@@ -98,7 +109,7 @@
       },
       "image": "luke_01_visitation.png",
       "audioBibleStart": 551970,
-      "imageAlt": "En smal grusväg som slingrar sig genom torrt gyllene gräs i en sluttning under gyllene timmen och försvinner över en kulle"
+      "imageAlt": "En smal stig som slingrar sig genom torrt gyllene gräs i en sluttning under den gyllene timmen och försvinner över en höjd"
     },
     {
       "id": "magnificat",
@@ -121,11 +132,21 @@
           "title": "Andlig Övning",
           "mp3": "spiritual_practice_01_46-56_sv.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Allt faller",
+            "mp3": "luke_01/swedish/Allt faller (Luke 1_46-56)— Swedish.mp3",
+            "genre": "Swedish Electronic Pop",
+            "description": "Revolution starts not with the powerful falling but with the invisible being seen",
+            "coverArt": "/images/covers/allt_faller_sv.png",
+            "transcriptPath": "/transcripts/songs/luke_01/swedish/allt_faller_sv_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_magnificat.png",
       "audioBibleStart": 653520,
-      "imageAlt": "Ett enda vildgrässtrå som lyser i sidoljus, växer från en spricka i en mörk grov stenyta"
+      "imageAlt": "Ett ensamt vildgrässtrå som lyser i sidoljus, växer från en spricka i en mörk grov stenyta"
     },
     {
       "id": "john-birth",
@@ -147,7 +168,7 @@
       },
       "image": "luke_01_john_birth.png",
       "audioBibleStart": 813099,
-      "imageAlt": "Närbild av perfekt vikt naturlig linnetyg med mjukt ljus som kastar mjuka skuggor i vecken"
+      "imageAlt": "Närbild av orörd vikt naturlig linnetyg med mjukt ljus som kastar mjuka skuggor i vecken"
     },
     {
       "id": "benedictus",
@@ -170,11 +191,21 @@
           "title": "Andlig Övning",
           "mp3": "spiritual_practice_01_67-79_sv.mp3",
           "duration": "10 min"
-        }
+        },
+        "songs": [
+          {
+            "title": "Gryning",
+            "mp3": "luke_01/swedish/Gryning (Luke 1_20 + 1_67-79) — Swedish.mp3",
+            "genre": "Swedish Dream Pop",
+            "description": "The silence you didn't choose might be forming the words you couldn't have said otherwise",
+            "coverArt": "/images/covers/gryning_sv.png",
+            "transcriptPath": "/transcripts/songs/luke_01/swedish/gryning_sv_transcript.json"
+          }
+        ]
       },
       "image": "luke_01_benedictus.png",
       "audioBibleStart": 958170,
-      "imageAlt": "Landskap före gryningen med torrt gräs silhuetterat mot ett svagt varmt sken vid horisonten under en mörk himmel"
+      "imageAlt": "Landskap före gryningen med torrt gräs silhuett mot en svag varm glöd vid horisonten under en mörk himmel"
     },
     {
       "id": "john-childhood",
@@ -196,7 +227,7 @@
       },
       "image": "luke_01_wilderness.png",
       "audioBibleStart": 1146762,
-      "imageAlt": "Vidsträckt vy över sprucken torr ökenterräng sen eftermiddag med en svag sliten stig som försvinner in i fjärran"
+      "imageAlt": "Vid vy av sprucken torr ökenterräng sent på eftermiddagen med en svag sliten stig som försvinner i fjärran"
     }
   ],
   "chapterPodcast": {

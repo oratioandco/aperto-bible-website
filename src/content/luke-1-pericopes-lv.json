@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Rupja, ar roku darināta papīra virsmas tuvplāns ar diagonālām ēnu līnijām siltā, slīpā gaismā"
+      "imageAlt": "Rupja roku darināta papīra virsmas tuvplāns ar diagonālām ēnu līnijām siltā slīpā gaismā"
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,19 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Plāna dūmu vītele paceļas caur siltas gaismas staru tumšā akmens interjerā"
+      "media": {
+        "songs": [
+          {
+            "title": "Gaisma naks",
+            "mp3": "luke_01/latvian/Luke 1_5-25+57-79 _Gaisma naks_ (Light Will Come)— Latvian.mp3",
+            "genre": "Cinematic Electronic Folk / Dream Pop",
+            "description": "",
+            "coverArt": "/images/covers/gaisma_naks_lv.png",
+            "transcriptPath": "/transcripts/songs/luke_01/latvian/gaisma_naks_lv_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Plāna dūmu sproga paceļas caur siltas gaismas šahtu tumšā akmens interjerā"
     },
     {
       "id": "verkuendigung",
@@ -35,8 +46,19 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Atvērtas koka durvis akmens sienā ar rīta gaismu, kas appludina raupju akmens grīdu"
+      "media": {
+        "songs": [
+          {
+            "title": "Seit klusuma pec",
+            "mp3": "luke_01/latvian/Luke 1_26-38 _Seit klusuma pec_ (After the Silence) — Latvian.mp3",
+            "genre": "Indie Folk / Atmospheric Pop",
+            "description": "",
+            "coverArt": "/images/covers/seit_klusuma_pec_lv.png",
+            "transcriptPath": "/transcripts/songs/luke_01/latvian/seit_klusuma_pec_lv_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Atvērtas koka durvis akmens sienā ar rīta gaismu, kas plūst pāri raupjai akmens grīdai"
     },
     {
       "id": "heimsuchung",
@@ -48,7 +70,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Šaura zemes taka, kas vijas caur sausu, zeltītu pakalnu zāli zelta stundā, pazūdot aiz pacēluma"
+      "imageAlt": "Šaurs zemes ceļš, kas vijas cauri sausai zelta kalna zālei zelta stundā, pazūdot pāri pacēlumam"
     },
     {
       "id": "magnificat",
@@ -59,8 +81,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Viens savvaļas zāles stiebrs spīd sānu gaismā, augot no plaisas tumšā, raupjā akmens virsmā"
+      "media": {
+        "songs": [
+          {
+            "title": "Visu apgriez",
+            "mp3": "luke_01/latvian/Luke 1_46-56 _Visu apgriez_ (Turn It All Upside Down) — Latvian.mp3",
+            "genre": "Indie Pop-Rock / Electronic",
+            "description": "",
+            "coverArt": "/images/covers/visu_apgriez_lv.png",
+            "transcriptPath": "/transcripts/songs/luke_01/latvian/visu_apgriez_lv_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Viens savvaļas zāles stiebrs spīd sānu gaismā, augot no plaisas tumšā raupjā akmens virsmā"
     },
     {
       "id": "johannes-geburt",
@@ -83,7 +116,7 @@
       "image": "luke_01_benedictus.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Ainava pirms rītausmas ar sausu zāli, kas attēlota siluetā pret vāju siltu mirdzumu pie horizonta zem tumšām debesīm"
+      "imageAlt": "Ainava pirms rītausmas ar sausu zāli, kas attēlota kā siluets pret vāju siltu mirdzumu pie horizonta zem tumšām debesīm"
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +128,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Plašs skats uz saplaisājušu sausu tuksneša reljefu vēlā pēcpusdienā ar vāju nodilušu taku, kas pazūd tālumā"
+      "imageAlt": "Plašs skats uz saplaisājušu sausu tuksneša reljefu vēlā pēcpusdienā ar vāju nolietotu taku, kas pazūd tālumā"
     }
   ],
   "chapterPodcast": {

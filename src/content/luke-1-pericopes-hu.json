@@ -12,7 +12,7 @@
       "image": "luke_01_prologue.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Közelkép durva, kézzel készített papír felületéről, melyet átlós árnyékvonalak szelnek át meleg, súroló fényben"
+      "imageAlt": "Nagyított kép egy durva, kézzel készített papír felületéről, melyet átlós árnyékvonalak kereszteznek meleg, oldalról érkező fényben."
     },
     {
       "id": "zacharias-elisabeth",
@@ -23,8 +23,27 @@
       "accentColor": "#6B8E7F",
       "image": "luke_01_zechariah_temple.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Vékony füstgomolyag emelkedik fel egy meleg fénysugáron keresztül egy sötét kő belső térben"
+      "media": {
+        "songs": [
+          {
+            "title": "Hallgattam",
+            "mp3": "luke_01/hungarian/_Hallgattam_ — Luke 1_20,64,67-79 (Hungarian).mp3",
+            "genre": "Hungarian Atmospheric Electronic Pop",
+            "description": "Zechariah's nine months of enforced silence was not punishment but gestation — the voice that returned was not the same ",
+            "coverArt": "/images/covers/hallgattam_hu.png",
+            "transcriptPath": "/transcripts/songs/luke_01/hungarian/hallgattam_hu_transcript.json"
+          },
+          {
+            "title": "Rám nézett",
+            "mp3": "luke_01/hungarian/_Rám nézett_ — Luke 1_25,48 (Hungarian).mp3",
+            "genre": "Hungarian Indie Pop",
+            "description": "To be seen by God is not exposure but revelation — the gaze that finds you in the shadow does not blind you, it shows yo",
+            "coverArt": "/images/covers/rm_nzett_hu.png",
+            "transcriptPath": "/transcripts/songs/luke_01/hungarian/rm_nzett_hu_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Egy vékony füstcsík emelkedik felfelé egy meleg fénysugáron keresztül egy sötét kő belső térben."
     },
     {
       "id": "verkuendigung",
@@ -35,8 +54,10 @@
       "accentColor": "#8B6F5E",
       "image": "luke_01_annunciation.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Nyitott faajtó egy kőfalban, melyen keresztül reggeli fény árasztja el a durva kőpadlót"
+      "media": {
+        "songs": []
+      },
+      "imageAlt": "Egy nyitott faajtó egy kőfalban, melyre a reggeli fény árad be egy durva kőpadlóra."
     },
     {
       "id": "heimsuchung",
@@ -48,7 +69,7 @@
       "image": "luke_01_visitation.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Keskeny földút kanyarog száraz, arany domboldali fű között az arany órában, eltűnve egy magaslaton túl"
+      "imageAlt": "Egy keskeny földút kanyarog a száraz, aranyló domboldali fűben az arany órában, eltűnve egy emelkedőn túl."
     },
     {
       "id": "magnificat",
@@ -59,8 +80,19 @@
       "accentColor": "#7A6A8B",
       "image": "luke_01_magnificat.png",
       "exegesis": null,
-      "media": {},
-      "imageAlt": "Egyetlen vad fűszál világít oldalfényben, egy sötét, durva kőfelület repedéséből nőve ki"
+      "media": {
+        "songs": [
+          {
+            "title": "Fejjel lefelé",
+            "mp3": "luke_01/hungarian/_Fejjel lefelé_ — Luke 1_46-56 (Hungarian).mp3",
+            "genre": "Hungarian Alternative Rock",
+            "description": "The Magnificat's reversals are not future promises but accomplished facts — the Greek aorist announces a completed cosmi",
+            "coverArt": "/images/covers/fejjel_lefel_hu.png",
+            "transcriptPath": "/transcripts/songs/luke_01/hungarian/fejjel_lefel_hu_transcript.json"
+          }
+        ]
+      },
+      "imageAlt": "Egyetlen vad fűszál oldalfényben világítva, egy sötét, durva kőfelület repedéséből nőve."
     },
     {
       "id": "johannes-geburt",
@@ -83,7 +115,7 @@
       "image": "luke_01_benedictus.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Hajnal előtti táj, ahol a száraz fű sötétedik a halvány, meleg fényben a horizonton a sötét ég alatt"
+      "imageAlt": "Hajnal előtti táj száraz fűvel, mely sötét égbolt alatt halvány, meleg fényben vetül az égre."
     },
     {
       "id": "johannes-kindheit",
@@ -95,7 +127,7 @@
       "image": "luke_01_wilderness.png",
       "exegesis": null,
       "media": {},
-      "imageAlt": "Széles látkép repedezett, száraz sivatagi terepről késő délután, melyen egy halvány, kopott ösvény tűnik el a távolban"
+      "imageAlt": "Széles látkép repedezett, száraz sivatagi terepről késő délutáni fényben, melyen egy halvány, kopott ösvény tűnik el a távolban."
     }
   ],
   "chapterPodcast": {
