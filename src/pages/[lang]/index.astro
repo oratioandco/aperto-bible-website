@@ -143,4 +143,30 @@ const lukeNames: Record<string, string> = {
       </a>
     </div>
   </section>
+
+  <!-- Get Involved -->
+  <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: #2C2C2C; color: #FFFBF5;">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl mb-6" style="color: #FFFBF5;">{t('home.getInvolved.title')}</h2>
+      <p class="text-lg leading-relaxed mb-10" style="color: rgba(255,251,245,0.7);">
+        {t('home.getInvolved.description')}
+      </p>
+      <button
+        class="get-involved-btn px-8 py-4 rounded font-medium transition-all hover:opacity-90 cursor-pointer"
+        style="background-color: #FFFBF5; color: #2C2C2C;"
+      >
+        {t('home.getInvolved.button')}
+      </button>
+    </div>
+  </section>
+
+  <script is:inline>
+    document.querySelector('.get-involved-btn')?.addEventListener('click', function() {
+      if (typeof Tally !== 'undefined') {
+        Tally.openPopup('b58vj1', { width: 600 });
+      } else {
+        window.open('https://tally.so/r/b58vj1', '_blank');
+      }
+    });
+  </script>
 </BaseLayout>

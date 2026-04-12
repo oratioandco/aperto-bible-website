@@ -176,6 +176,16 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
       });
     </script>
 
+    <script is:inline>
+      document.querySelector('.footer-get-involved-btn')?.addEventListener('click', function() {
+        if (typeof Tally !== 'undefined') {
+          Tally.openPopup('b58vj1', { width: 600 });
+        } else {
+          window.open('https://tally.so/r/b58vj1', '_blank');
+        }
+      });
+    </script>
+
     <main>
       <slot />
     </main>
@@ -201,6 +211,11 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
               <li><a href={`${base}${lang}/`} style="color: #9A8F85;" class="hover:underline">{t('nav.home')}</a></li>
               <li><a href={`${base}${lang}/about`} style="color: #9A8F85;" class="hover:underline">{t('nav.about')}</a></li>
               <li><a href={`${base}${lang}/process`} style="color: #9A8F85;" class="hover:underline">{t('nav.process')}</a></li>
+              <li>
+                <button class="footer-get-involved-btn hover:underline text-left" style="color: #9A8F85; background: none; border: none; padding: 0; cursor: pointer; font-size: inherit;">
+                  {t('footer.getInvolved')}
+                </button>
+              </li>
             </ul>
             <h4 class="text-lg mt-6 mb-3">{t('footer.readLuke')}</h4>
             <ul class="space-y-2 text-sm">
