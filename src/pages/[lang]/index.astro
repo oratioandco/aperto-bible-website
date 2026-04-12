@@ -251,6 +251,45 @@ const lukeNames: Record<string, string> = {
       .blob { animation: none; }
       .marquee-track { animation: none; }
     }
+
+    /* Get Involved section */
+    .get-involved-section {
+      background-color: var(--color-charcoal);
+      color: var(--color-cream);
+    }
+
+    .get-involved-section h2 {
+      color: var(--color-cream);
+    }
+
+    .get-involved-section p {
+      color: rgba(255, 251, 245, 0.7);
+    }
+
+    .get-involved-btn {
+      background-color: var(--color-cream);
+      color: var(--color-charcoal);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .get-involved-section {
+        background-color: #111111;
+        color: #f0ebe3;
+      }
+
+      .get-involved-section h2 {
+        color: #f0ebe3;
+      }
+
+      .get-involved-section p {
+        color: rgba(240, 235, 227, 0.65);
+      }
+
+      .get-involved-btn {
+        background-color: #f0ebe3;
+        color: #111111;
+      }
+    }
   </style>
 
   <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: rgba(245, 230, 220, 0.3);">
@@ -296,15 +335,14 @@ const lukeNames: Record<string, string> = {
   </section>
 
   <!-- Get Involved -->
-  <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: #2C2C2C; color: #FFFBF5;">
+  <section class="get-involved-section py-24 px-8 md:px-16 lg:px-24">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl mb-6" style="color: #FFFBF5;">{t('home.getInvolved.title')}</h2>
-      <p class="text-lg leading-relaxed mb-10" style="color: rgba(255,251,245,0.7);">
+      <h2 class="text-3xl md:text-4xl mb-6">{t('home.getInvolved.title')}</h2>
+      <p class="text-lg leading-relaxed mb-10">
         {t('home.getInvolved.description')}
       </p>
       <button
         class="get-involved-btn px-8 py-4 rounded font-medium transition-all hover:opacity-90 cursor-pointer"
-        style="background-color: #FFFBF5; color: #2C2C2C;"
       >
         {t('home.getInvolved.button')}
       </button>
