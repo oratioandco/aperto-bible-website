@@ -2,8 +2,8 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../components/PericopeCard.astro';
 import ChapterNav from '../../../components/ChapterNav.astro';
-import chapterData from '../../../content/luke-1-en.json';
-import pericopes from '../../../content/luke-1-pericopes-en.json';
+import chapterData from '../../../content/luke-6-en.json';
+import pericopes from '../../../content/luke-6-pericopes-en.json';
 
 // Helper to get verses for a pericope
 function getVersesForPericope(verseRange: string, sections: any[]) {
@@ -24,31 +24,16 @@ function getVersesForPericope(verseRange: string, sections: any[]) {
 const base = '';
 ---
 
-<BaseLayout title="Luke 1" lang="en" description="Luke Chapter 1">
+<BaseLayout title="Luke 6" lang="en" description="Luke Chapter 6">
   <!-- Chapter Header -->
   <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
     <p class="passage-reference mb-6">The Gospel of Luke</p>
     <h1 class="headline-mixed text-5xl md:text-7xl lg:text-8xl mb-6">
-      <span class="cap">C</span>hapter 1
+      <span class="cap">C</span>hapter 6
     </h1>
     <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
-      Two impossible pregnancies. Two revolutionary songs. The story begins.
+      Sabbath conflicts. The Twelve are chosen. Blessings and woes.
     </p>
-
-
-    {pericopes.chapterPodcast && (
-      <button
-        class="chapter-podcast-btn media-play-btn flex items-center gap-3 px-5 py-3 rounded-full mb-10 transition-all hover:opacity-80"
-        style="background: rgba(44,44,44,0.85); color: #FFFBF5; backdrop-filter: blur(4px);"
-        data-mp3={`/audio/podcasts/${pericopes.chapterPodcast.mp3}`}
-        data-title={pericopes.chapterPodcast.title}
-        data-type="podcast"
-        type="button"
-      >
-        <span class="material-symbols-rounded text-xl">podcasts</span>
-        <span class="text-sm font-medium">{pericopes.chapterPodcast.title}</span>
-      </button>
-    )}
 
     <!-- Table of Contents with Headlines -->
     <nav class="toc max-w-2xl w-full">
@@ -91,7 +76,7 @@ const base = '';
         media={pericope.media}
         exegesis={pericope.exegesis}
         lang="en"
-        chapter={1}
+        chapter={6}
         isFirst={index === 0} layoutIndex={index}
       />
     ))}
@@ -99,7 +84,7 @@ const base = '';
 
   <!-- Chapter Footer -->
   <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
-    <ChapterNav currentChapter={1} lang="en" />
+    <ChapterNav currentChapter={6} lang="en" />
 
     <div class="mt-12">
       <a href={`${base}/en/`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">

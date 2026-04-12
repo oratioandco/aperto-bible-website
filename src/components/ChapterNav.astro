@@ -43,10 +43,43 @@ const chapterLabels: Record<string, Record<number, string>> = {
     22: 'Abendmahl und Verrat',
     23: 'Prozess und Kreuz',
     24: 'Auferstehung',
+  },
+  en: {
+    1: 'The Announcement',
+    2: 'The Birth',
+    3: 'John and Baptism',
+    4: 'Temptation and Rejection',
+    5: 'Calling of Disciples',
+    6: 'Sermon on the Plain',
+    7: 'Miracles and Questions',
+    8: 'Parables and Miracles',
+    9: 'Mission and Confession',
+    10: 'The Good Samaritan',
+    11: 'Prayer and Warning',
+    12: 'Worry and Faithfulness',
+    13: 'Repentance and Healing',
+    14: 'Banquet and Discipleship',
+    15: 'The Lost Sons',
+    16: 'Wealth and Poverty',
+    17: 'Faith and the Kingdom',
+    18: 'Prayer and Discipleship',
+    19: 'Zacchaeus and Entry',
+    20: 'Controversy',
+    21: 'End Times',
+    22: 'Last Supper and Betrayal',
+    23: 'Trial and Cross',
+    24: 'Resurrection',
   }
 };
 
 const labels = chapterLabels[lang] || chapterLabels.de;
+
+// Chapter word by language
+const chapterWord: Record<string, string> = {
+  de: 'Kapitel',
+  en: 'Chapter',
+};
+const chapWord = chapterWord[lang] || 'Chapter';
 ---
 
 <div class="chapter-nav">
@@ -56,12 +89,12 @@ const labels = chapterLabels[lang] || chapterLabels.de;
       <a
         href={`/${lang}/${book}/${prevChapter}`}
         class="chapter-nav-btn chapter-nav-prev"
-        title={`Kapitel ${prevChapter}`}
+        title={`${chapWord} ${prevChapter}`}
       >
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="chapter-nav-label">Kapitel {prevChapter}</span>
+        <span class="chapter-nav-label">{chapWord} {prevChapter}</span>
       </a>
     )}
 
@@ -69,9 +102,9 @@ const labels = chapterLabels[lang] || chapterLabels.de;
       <a
         href={`/${lang}/${book}/${nextChapter}`}
         class="chapter-nav-btn chapter-nav-next"
-        title={`Kapitel ${nextChapter}`}
+        title={`${chapWord} ${nextChapter}`}
       >
-        <span class="chapter-nav-label">Kapitel {nextChapter}</span>
+        <span class="chapter-nav-label">{chapWord} {nextChapter}</span>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>
@@ -87,7 +120,7 @@ const labels = chapterLabels[lang] || chapterLabels.de;
       aria-expanded="false"
       aria-haspopup="listbox"
     >
-      <span class="chapter-selector-current">Kapitel {currentChapter}</span>
+      <span class="chapter-selector-current">{chapWord} {currentChapter}</span>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M6 9l6 6 6-6"/>
       </svg>

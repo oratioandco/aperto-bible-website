@@ -1,0 +1,83 @@
+{
+  "book": "Luke",
+  "chapter": 23,
+  "pericopes": [
+    {
+      "id": "before-pilate",
+      "title": "Before Pilate",
+      "subtitle": "",
+      "verses": "1-5",
+      "color": "#E8E4DC",
+      "accentColor": "#8B7355",
+      "media": {},
+      "image": "luke_23_pilate.png",
+      "imageAlt": "An official stone tribunal platform with a single carved chair, empty, morning light on the pale stone steps"
+    },
+    {
+      "id": "before-herod",
+      "title": "Before Herod",
+      "subtitle": "",
+      "verses": "6-12",
+      "color": "#E4E8E4",
+      "accentColor": "#6B8E7F",
+      "media": {},
+      "image": "luke_23_herod_trial.png",
+      "imageAlt": "An elaborate royal robe spread out on a stone floor, costly but empty, beside a simple dark shadow cast by nothing visible"
+    },
+    {
+      "id": "pilates-verdict",
+      "title": "Pilate's Verdict",
+      "subtitle": "",
+      "verses": "13-25",
+      "color": "#F0E8E4",
+      "accentColor": "#D4A574",
+      "media": {},
+      "image": "luke_23_sentence.png",
+      "imageAlt": "A stone judicial tablet with a broken wax seal hanging open, the document sealed and then unsealed beyond repair"
+    },
+    {
+      "id": "the-road-to-the-cross",
+      "title": "The Road to the Cross",
+      "subtitle": "",
+      "verses": "26-32",
+      "color": "#E8E4F0",
+      "accentColor": "#8B7399",
+      "media": {},
+      "image": "luke_23_via_dolorosa.png",
+      "imageAlt": "A narrow stone street between high walls, the stones worn smooth by the passage of countless feet, the street ending in darkness"
+    },
+    {
+      "id": "the-crucifixion",
+      "title": "The Crucifixion",
+      "subtitle": "",
+      "verses": "33-43",
+      "color": "#E4E8F0",
+      "accentColor": "#4A7C9E",
+      "media": {},
+      "image": "luke_23_crucifixion.png",
+      "imageAlt": "A bare rocky hilltop at harsh midday, three post holes in the pale rock, the sky overexposed and white, no objects"
+    },
+    {
+      "id": "the-death-of-jesus",
+      "title": "The Death of Jesus",
+      "subtitle": "",
+      "verses": "44-49",
+      "color": "#F0F0E4",
+      "accentColor": "#9B8B4A",
+      "media": {},
+      "image": "luke_23_death.png",
+      "imageAlt": "A total solar eclipse at midday, the corona visible, the landscape below in unnatural darkness, everything washed grey"
+    },
+    {
+      "id": "the-burial",
+      "title": "The Burial",
+      "subtitle": "",
+      "verses": "50-56",
+      "color": "#E4F0E8",
+      "accentColor": "#4A9B7C",
+      "media": {},
+      "image": "luke_23_burial.png",
+      "imageAlt": "A large circular stone partially rolled away from a dark tomb entrance, late afternoon light on the pale stone, deep shadow within"
+    }
+  ]
+}
