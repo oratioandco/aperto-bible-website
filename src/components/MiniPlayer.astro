@@ -148,6 +148,11 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
 
+  .mini-player-cover:not([src]),
+  .mini-player-cover[src=""] {
+    display: none;
+  }
+
   .mini-player-info {
     flex: 1;
     min-width: 0;
@@ -339,6 +344,11 @@
     border-radius: 16px;
     object-fit: cover;
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  }
+
+  .mini-player-large-cover:not([src]),
+  .mini-player-large-cover[src=""] {
+    display: none;
   }
 
   .mini-player-lyrics-scroll {
@@ -743,11 +753,12 @@
   }
 
   function updateMiniPlayerUI(track: Track) {
-    const defaultCover = '/images/covers/default.png';
-    const cover = track.coverArt || defaultCover;
+    const cover = track.coverArt || '';
 
     miniCover.src = cover;
+    miniCover.onerror = () => { miniCover.src = ''; };
     miniLargeCover.src = cover;
+    miniLargeCover.onerror = () => { miniLargeCover.src = ''; };
     miniTitle.textContent = track.title;
     miniArtist.textContent = track.artist || 'Aperto Bible';
     miniExpTitle.textContent = track.title;
