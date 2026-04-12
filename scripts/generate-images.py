@@ -33,6 +33,7 @@ CONTENT_DIR = PROJECT_DIR / "src/content"
 
 # Rate limiting
 DELAY_BETWEEN_REQUESTS = 5  # seconds
+RETRY_DELAYS = [60, 120, 300]  # seconds to wait on 429 before retrying
 
 # All supported language codes
 ALL_LANGS = [
@@ -69,29 +70,40 @@ def get_pericopes_file(chapter: int, lang: str) -> Path:
 
 
 def generate_image(client, prompt: str, filename: str, output_dir: Path) -> bool:
-    try:
-        print(f"  Generating with imagen-4.0-generate-001...")
-        response = client.models.generate_images(
-            model="imagen-4.0-generate-001",
-            prompt=prompt,
-            config=types.GenerateImagesConfig(
-                number_of_images=1,
-                aspect_ratio="16:9",
-                safety_filter_level="BLOCK_LOW_AND_ABOVE",
+    for attempt, retry_delay in enumerate([0] + RETRY_DELAYS):
+        if retry_delay:
+            print(f"  ⏳ Rate limited — waiting {retry_delay}s before retry {attempt}/{len(RETRY_DELAYS)}...")
+            time.sleep(retry_delay)
+        try:
+            print(f"  Generating with imagen-4.0-generate-001...")
+            response = client.models.generate_images(
+                model="imagen-4.0-generate-001",
+                prompt=prompt,
+                config=types.GenerateImagesConfig(
+                    number_of_images=1,
+                    aspect_ratio="16:9",
+                    safety_filter_level="BLOCK_LOW_AND_ABOVE",
+                )
             )
-        )
-        if response.generated_images:
-            generated = response.generated_images[0]
-            output_path = output_dir / filename
-            generated.image.save(str(output_path))
-            print(f"  ✓ Saved: {filename}")
-            return True
-        else:
-            print(f"  ✗ No image generated")
+            if response.generated_images:
+                generated = response.generated_images[0]
+                output_path = output_dir / filename
+                generated.image.save(str(output_path))
+                print(f"  ✓ Saved: {filename}")
+                return True
+            else:
+                print(f"  ✗ No image generated")
+                return False
+        except Exception as e:
+            err = str(e)
+            if "429" in err or "RESOURCE_EXHAUSTED" in err:
+                if attempt < len(RETRY_DELAYS):
+                    continue  # will retry with next delay
+                print(f"  ✗ Quota exhausted after {len(RETRY_DELAYS)} retries, giving up")
+            else:
+                print(f"  ✗ Error: {err[:200]}")
             return False
-    except Exception as e:
-        print(f"  ✗ Error: {str(e)[:200]}")
-        return False
+    return False
 
 
 def translate_alts_batch(client, alts: dict, langs: list) -> dict:
