@@ -88,9 +88,12 @@ const lukeNames: Record<string, string> = {
     </p>
   </div>
 
-  <section class="hero min-h-[70vh] flex items-center justify-center px-8 md:px-16 lg:px-24">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl md:text-7xl lg:text-8xl mb-8 tracking-tight logo" style="color: var(--color-headline);">aperto</h1>
+  <section class="hero min-h-[80vh] flex items-center justify-center px-8 md:px-16 lg:px-24">
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+    <div class="blob blob-3" aria-hidden="true"></div>
+    <div class="hero-content max-w-4xl mx-auto text-center">
+      <h1 class="hero-wordmark mb-8 tracking-tight logo" style="color: var(--color-headline);">aperto</h1>
       <p class="text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-12" style="color: #5A5A5A;">
         {t('home.tagline')}
       </p>
@@ -101,6 +104,78 @@ const lukeNames: Record<string, string> = {
       </div>
     </div>
   </section>
+
+  <style>
+    /* Hero blob animation */
+    .hero {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(90px);
+      will-change: transform;
+      pointer-events: none;
+    }
+
+    .blob-1 {
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(ellipse, rgba(193, 154, 107, 0.42) 0%, transparent 70%);
+      top: -180px;
+      left: -160px;
+      animation: drift1 22s ease-in-out infinite alternate;
+    }
+
+    .blob-2 {
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(ellipse, rgba(214, 176, 148, 0.35) 0%, transparent 70%);
+      bottom: -120px;
+      right: -100px;
+      animation: drift2 29s ease-in-out infinite alternate;
+    }
+
+    .blob-3 {
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(ellipse, rgba(245, 210, 165, 0.28) 0%, transparent 70%);
+      top: 40%;
+      left: 55%;
+      animation: drift3 37s ease-in-out infinite alternate;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-wordmark {
+      font-size: clamp(5rem, 14vw, 13rem);
+      line-height: 1;
+    }
+
+    @keyframes drift1 {
+      0%   { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(90px, 70px) scale(1.12); }
+    }
+
+    @keyframes drift2 {
+      0%   { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(-70px, -90px) scale(1.08); }
+    }
+
+    @keyframes drift3 {
+      0%   { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(-50px, 60px) scale(0.92); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .blob { animation: none; }
+    }
+  </style>
 
   <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: rgba(245, 230, 220, 0.3);">
     <div class="max-w-4xl mx-auto">

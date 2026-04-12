@@ -38,8 +38,24 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
     <title>{title} | Aperto</title>
     <script async src="https://tally.so/widgets/embed.js"></script>
+    <style>
+      .grain-overlay {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+        background-size: 220px 220px;
+        opacity: 0.045;
+        mix-blend-mode: multiply;
+        pointer-events: none;
+        z-index: 9999;
+      }
+    </style>
   </head>
   <body class="min-h-screen" style="background-color: #FFFBF5;">
+    <div class="grain-overlay" aria-hidden="true"></div>
     <header class="px-4 md:px-16 lg:px-24 py-4 md:py-8" style="border-bottom: 1px solid #F5E6DC;">
       <nav class="max-w-6xl mx-auto flex justify-between items-center">
         <a href={`${base}${lang}/`} class="logo text-xl md:text-2xl" style="color: #2C2C2C;">
