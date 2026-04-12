@@ -1,0 +1,89 @@
+{
+  "book": "Luke",
+  "chapter": 2,
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
+  "aspect_ratio": "16:9",
+  "color_palette": "Bleached linen, weathered stone, faded terracotta, dry grass, bone white, ash gray, deep shadow — all heavily desaturated with analog film warmth",
+  "images": [
+    {
+      "id": "nativity",
+      "filename": "luke_02_nativity.png",
+      "imageAlt": "A narrow beam of warm amber light crossing a dark rough stone floor in near-total darkness",
+      "title": "No Room for the King",
+      "verses": "1-7",
+      "concept": "Empire decrees, the world moves — but the real event happens in the smallest possible corner",
+      "prompt": "35mm analog film photograph, a thin beam of warm amber light falling across a rough stone floor in near-total darkness, the beam entering from outside the frame at a low angle, illuminating a narrow stripe of the textured stone surface while everything else remains in deep shadow, heavy Kodak Portra 400 grain throughout, muted almost monochrome palette with only the faintest warmth in the beam, nothing else in the frame — no objects, no people — just the stone floor and the beam of light, vast darkness surrounding, deeply contemplative, Alabaster Books aesthetic, 16:9 landscape",
+      "pericopeId": "birth"
+    },
+    {
+      "id": "shepherds",
+      "filename": "luke_02_shepherds.png",
+      "imageAlt": "Dry hillside grass lit from above by a sudden pool of warm light against total darkness",
+      "title": "Heaven Opens—For Shepherds",
+      "verses": "8-20",
+      "concept": "The sky tears open above the people everyone ignores",
+      "prompt": "35mm analog film photograph, wide-angle view of dry hillside grass at night, the grass overexposed in sudden inexplicable white-gold light from above while surrounding darkness remains total, film grain heavy and visible especially in the dark zones, wild grass blades sharp in the sudden light then dissolving into dark, no source visible for the light — it simply appears from beyond the frame, deeply disorienting and beautiful, muted earth tones in the grass, pure black sky, Kodak Portra 400 pushed one stop, Kinfolk editorial restraint, 16:9 landscape, vast sky taking upper two-thirds of frame",
+      "pericopeId": "shepherds"
+    },
+    {
+      "id": "naming",
+      "filename": "luke_02_naming.png",
+      "imageAlt": "Extreme close-up of rough woven linen texture with raking light revealing every fiber, fading into shadow",
+      "title": "His Name Is a Mission",
+      "verses": "21",
+      "concept": "A name written before birth — identity as calling",
+      "prompt": "35mm analog film photograph, extreme macro close-up of rough handmade linen or papyrus surface texture, raking side light from the left edge revealing every fiber and imperfection in the weave, no text, no marks, no letters — purely the texture of the material itself, heavy film grain merging seamlessly with the fiber texture so they become indistinguishable, warm cream and ash tones, entirely abstract, light on material is the entire subject, Alabaster Books aesthetic, wide 16:9 with light raking across from left, right side fading into soft shadow, meditative silence",
+      "pericopeId": "circumcision"
+    },
+    {
+      "id": "presentation",
+      "filename": "luke_02_presentation.png",
+      "imageAlt": "A single small olive branch resting on a worn stone step, polished smooth by generations of feet",
+      "title": "Poor, but Blessed",
+      "verses": "22-40",
+      "concept": "Faithful obedience from people who have nothing — the gift of the poor carried with dignity",
+      "prompt": "35mm analog film photograph, minimalist study of worn stone threshold steps seen from above, the stone surface polished smooth by generations of feet, a single dried olive branch or wild herb placed deliberately at the edge of the step, soft diffused morning light washing evenly across the stone, almost no shadow, heavy film grain, muted pale stone tones with faint olive warmth, nothing else in frame — just the ancient stone and one small living thing placed with intention, Kinfolk editorial stillness, 16:9 with steps filling frame, deeply quiet",
+      "pericopeId": "presentation"
+    },
+    {
+      "id": "simeon",
+      "filename": "luke_02_simeon.png",
+      "imageAlt": "The geometric shadow of a window frame stretching across a bare stone floor in warm afternoon light",
+      "title": "A Lifetime of Waiting",
+      "verses": "25-35",
+      "concept": "Decades of patient waiting — then in one moment, everything arrives",
+      "prompt": "35mm analog film photograph, a long afternoon shadow stretching across bare stone floor, the shadow of a window frame falling in precise geometry on worn pale stone, the light itself coming from outside the frame, shadow perfectly sharp then softening at edges, heavy Kodak Portra 400 grain in the shadow zones, pale stone tones with warm amber light, the shadow implying a figure waiting without showing one, vast empty stone floor with breathing room, Alabaster Books minimal aesthetic, 16:9 landscape, shadow entering from left edge reaching toward right, time itself made visible",
+      "pericopeId": "simeon"
+    },
+    {
+      "id": "anna",
+      "filename": "luke_02_anna.png",
+      "imageAlt": "A small oil lamp just extinguished with a curl of smoke dissolving into pre-dawn blue light in a stone corner",
+      "title": "Eighty Years of Waiting",
+      "verses": "36-38",
+      "concept": "A life given entirely to prayer — the vigil that outlasted almost everyone",
+      "prompt": "35mm analog film photograph, pre-dawn blue light in a stone interior, a single small oil lamp wick just extinguished with a thin curl of smoke rising and dissolving into the blue-dark air, the smoke barely visible, blue-gray pre-dawn mixing with the last warmth of the dying lamp, heavy film grain throughout, muted cold blue palette with one failing amber note, the smoke carrying everything the image needs to say, wide 16:9 with lamp in lower left third, smoke rising toward dark upper right, Kinfolk meditative stillness, the longest night finally ending",
+      "pericopeId": "anna"
+    },
+    {
+      "id": "nazareth",
+      "filename": "luke_02_nazareth.png",
+      "imageAlt": "A small green plant growing from a crack in a rough stone wall, caught in warm morning raking light",
+      "title": "Back to Nazareth",
+      "verses": "39-40",
+      "concept": "Hidden growth in an ordinary place — grace concealed in unremarkable days",
+      "prompt": "35mm analog film photograph, close-up of a rough stone wall surface in warm morning light, a single small green plant growing from a crack between two stones, warm raking light from the left, deep shadow on the right, heavy Kodak Portra 400 grain, muted warm palette, no people, no text, no objects other than the wall and plant, purely textural and quiet, Alabaster Books aesthetic, 16:9 landscape",
+      "pericopeId": "nazareth"
+    },
+    {
+      "id": "temple-boy",
+      "filename": "luke_02_temple_boy.png",
+      "imageAlt": "Strong afternoon light casting parallel column shadows across ancient stone floor with an open book at the edge of the light",
+      "title": "The Boy Who Knew",
+      "verses": "41-52",
+      "concept": "Light flooding through ancient columns onto open scrolls — the moment a child stops being only a child",
+      "prompt": "35mm analog film photograph, strong afternoon light flooding through tall stone columns onto a stone floor below, the columns casting long parallel shadows across the floor in deep geometric pattern, an open scroll or aged manuscript barely visible at the edge of the light pool, the scene mostly floor and light and shadow with the columns at frame edge, heavy film grain especially in shadow bands, warm amber light against cool stone shadow, architectural grandeur reduced to pattern and light, Kinfolk editorial composition, 16:9 with light columns filling upper portion and geometric shadow-light pattern filling the floor below, no people, no faces — just light entering a space where something important happened",
+      "pericopeId": "temple"
+    }
+  ]
+}

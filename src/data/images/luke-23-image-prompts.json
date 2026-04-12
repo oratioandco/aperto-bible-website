@@ -1,0 +1,79 @@
+{
+  "book": "Luke",
+  "chapter": 23,
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
+  "aspect_ratio": "16:9",
+  "color_palette": "Bleached linen, weathered stone, faded terracotta, dry grass, bone white, ash gray, deep shadow — all heavily desaturated with analog film warmth",
+  "images": [
+    {
+      "id": "pilate-trial",
+      "filename": "luke_23_pilate.png",
+      "title": "I Find No Guilt in This Man",
+      "verses": "1-5",
+      "pericopeId": "jesus-vor-pilatus",
+      "concept": "Three times declared innocent — and condemned anyway",
+      "imageAlt": "An official stone tribunal platform with a single carved chair, empty, morning light on the pale stone steps",
+      "prompt": "35mm analog film photograph, a raised stone tribunal platform with a carved stone seat empty at its center, steps leading up to the platform worn smooth by use, morning light falling across the pale stone steps and the empty seat, the area below the platform in cool shadow, heavy Kodak Portra 400 grain in the shadow areas, muted warm palette of pale morning light on stone and cool shadow below, Alabaster Books juridical emptiness, 16:9 with the platform and empty seat in the upper frame and the shadow below, the seat of authority as the site of injustice"
+    },
+    {
+      "id": "herod-trial",
+      "filename": "luke_23_herod_trial.png",
+      "title": "Herod Treated Him with Contempt",
+      "verses": "6-12",
+      "pericopeId": "jesus-vor-herodes",
+      "concept": "The interrogation that gets no answer — silence as the only dignified response to mockery",
+      "imageAlt": "An elaborate royal garment laid out on a stone floor, costly but empty, beside a plain dark shadow cast by nothing visible",
+      "prompt": "35mm analog film photograph, an elaborate embroidered garment or robe laid flat on a pale stone floor, the fabric ornate and clearly expensive, the robe arranged as if draped over an absent body but entirely empty, beside it a strange dark shadow cast by nothing visible in the frame, the shadow without a source, flat even light on the garment, heavy Kodak Portra 400 grain, muted warm palette of pale embroidered fabric and pale stone, Kinfolk empty spectacle, 16:9 with the elaborate garment occupying most of the frame and the sourceless shadow beside it, contempt made visible in costume"
+    },
+    {
+      "id": "death-sentence",
+      "filename": "luke_23_sentence.png",
+      "title": "Crucify Him",
+      "verses": "13-25",
+      "pericopeId": "das-todesurteil",
+      "concept": "The sentence imposed by crowd pressure — justice abandoned under the weight of demand",
+      "imageAlt": "A stone judicial tablet with a wax seal broken and hanging open, the document sealed and then unsealable",
+      "prompt": "35mm analog film photograph, a clay tablet or papyrus document with a large broken wax seal, the seal cracked and hanging partially open — a document irrevocably acted upon, the seal that should have held justice broken, raking side light, heavy Kodak Portra 400 grain, muted warm palette of pale parchment and dark broken wax, Alabaster Books broken authority, 16:9 with the document centered and the broken seal as the focal element, the breach of what should have protected"
+    },
+    {
+      "id": "via-dolorosa",
+      "filename": "luke_23_via_dolorosa.png",
+      "title": "Daughters of Jerusalem, Weep",
+      "verses": "26-32",
+      "pericopeId": "der-weg-zum-kreuz",
+      "concept": "The road that only goes one direction — and the lament that knows what is coming before it arrives",
+      "imageAlt": "A narrow stone street between high walls, the stones worn smooth by the passage of countless feet, the street ending in darkness",
+      "prompt": "35mm analog film photograph, a narrow stone street or lane between high walls, the street surface worn into a slight hollow at the center by generations of passage, the walls pressing close on either side, the street terminating in deep shadow at the far end, harsh midday light pressing down from directly overhead making the walls bright and the shadows below severe, heavy Kodak Portra 400 grain in the shadow areas, muted near-monochrome palette of bleached wall and dark shadow and worn stone, Kinfolk unavoidable passage, 16:9 with the street centered and the end disappearing into darkness"
+    },
+    {
+      "id": "crucifixion",
+      "filename": "luke_23_crucifixion.png",
+      "title": "Father, Forgive Them",
+      "verses": "33-43",
+      "pericopeId": "die-kreuzigung",
+      "concept": "The place of the skull — the prayer spoken at the worst moment, the paradise promised to the one beside him",
+      "imageAlt": "A bare rocky hilltop at harsh noon, three post-holes in the pale bedrock, the sky overexposed and white, no objects",
+      "prompt": "35mm analog film photograph, a bare rocky hilltop surface at harsh noon, the pale limestone bedrock exposed, three irregularly spaced post-holes or cavities in the rock — empty now — the surface around them worn and pale, the sky completely overexposed to white, the horizon bleached away, nothing above and nothing below but the bare rock and the empty holes and the white sky, heavy Kodak Portra 400 grain in the rock surface texture, near-monochrome palette of pale rock and white sky, Alabaster Books ultimate reduction, 16:9 with the three holes visible in the lower two-thirds and the white sky above, the site after — absence as the subject"
+    },
+    {
+      "id": "jesus-death",
+      "filename": "luke_23_death.png",
+      "title": "Father, Into Your Hands",
+      "verses": "44-49",
+      "pericopeId": "jesu-tod",
+      "concept": "Darkness at noon — the cosmos responding to the death of its creator",
+      "imageAlt": "A total solar eclipse mid-day, the corona visible, the landscape below in unnatural darkness, everything washed gray",
+      "prompt": "35mm analog film photograph, an eclipse in midday — the sun completely covered, the corona a thin ring of pale fire around the total darkness of the disk, the land below rendered in a strange flat gray without shadow, the light wrong in a way that is both beautiful and deeply unsettling, heavy Kodak Portra 400 grain throughout, near-monochrome palette of cold gray-white corona and black center and flat gray below, Alabaster Books cosmic weight, 16:9 with the eclipse in the upper center and the strangely lit landscape stretching below, the darkness at midday as the frame's entire argument"
+    },
+    {
+      "id": "burial",
+      "filename": "luke_23_burial.png",
+      "title": "A Tomb Cut in Stone",
+      "verses": "50-56",
+      "pericopeId": "das-begr-bnis",
+      "concept": "Careful burial — the dignity given to the dead by those who loved him",
+      "imageAlt": "A large circular stone partially rolled aside from a dark tomb entrance, late afternoon light on the pale stone, deep shadow within",
+      "prompt": "35mm analog film photograph, a large circular stone standing at the entrance of a tomb cut into a rock face, the stone partially to the side, the tomb entrance behind it a dark opening, late afternoon light illuminating the pale stone's surface while the interior of the tomb remains in total shadow, the stone itself massive and pale, the transition from light to absolute dark at the threshold, heavy Kodak Portra 400 grain in the shadow interior, muted warm palette of pale stone in late light and deep shadow within, Kinfolk threshold gravity, 16:9 with the stone on the left and the dark tomb entrance on the right, the boundary between the sealed and the open"
+    }
+  ]
+}

@@ -1,73 +1,89 @@
 {
   "book": "Luke",
   "chapter": 1,
-  "style_notes": "Cinematic editorial photography with art direction inspired by high-end magazine spreads. Think Kinfolk meets sacred art. Dramatic use of light, shadow, and negative space. Each image tells a story through objects and atmosphere rather than people.",
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
   "aspect_ratio": "16:9",
-  "color_palette": "Warm earth tones, Mediterranean palette - terracotta, sand, olive, aged bronze, sun-bleached linen, weathered stone",
+  "color_palette": "Bleached linen, weathered stone, faded terracotta, dry grass, bone white, ash gray, deep shadow — all heavily desaturated with analog film warmth",
   "images": [
     {
       "id": "prologue",
       "filename": "luke_01_prologue.png",
+      "pericopeId": "prologue",
       "title": "Why I'm Writing This",
       "verses": "1-4",
-      "concept": "The act of careful investigation and writing - Luke as historian and artist",
-      "prompt": "Cinematic overhead editorial photograph, ancient writing desk scene, partially unrolled papyrus scroll with visible texture alongside reed pen and bronze inkwell, scattered research notes on worn parchment, afternoon sun streaming through unseen window casting dramatic diagonal shadows of window frame across the composition, dust particles visible in light beams, weathered olive wood desk surface with natural grain, small stack of bound manuscripts in background blur, color palette of warm amber, aged parchment cream, oxidized bronze and walnut brown, ultra-wide 16:9 composition with subject in left third, massive breathing room, Kinfolk magazine aesthetic, professional product photography, 85mm lens, shallow depth of field, natural film grain"
+      "concept": "Careful investigation — the discipline of paying close attention before speaking",
+      "imageAlt": "Close-up of rough handmade paper surface with diagonal shadow lines crossing it in warm raking light",
+      "prompt": "35mm analog film photograph, overhead close-up of rough handmade paper surface, warm raking light from one edge revealing every fiber and grain of the material, a single shadow line crossing the surface — perhaps from a window frame or an object just outside the frame, no text, no writing implements, nothing readable — purely texture and the geometry of light on material, heavy Kodak Portra 400 grain blending with the paper texture, muted warm cream and ash tones, Alabaster Books aesthetic, 16:9 with light entering from left, shadow and texture filling the frame, the act of careful attention made visual"
     },
     {
       "id": "zechariah-elizabeth",
       "filename": "luke_01_zechariah_temple.png",
+      "pericopeId": "zacharias-elisabeth",
       "title": "An Old Priest, an Empty Nursery",
       "verses": "5-25",
-      "concept": "Sacred duty meets personal longing - incense rising like unanswered prayers",
-      "prompt": "Dramatic editorial photograph, ornate brass incense burner with thick smoke rising and curling in golden afternoon light shaft, ancient Jerusalem temple interior atmosphere, smoke creating ethereal layers and depth, weathered limestone altar surface with centuries of use, single pomegranate and dried fig leaves as symbolic elements, deep shadows contrasting with the illuminated smoke column, color palette of aged gold, warm stone gray, incense smoke white and deep amber shadows, cinematic 16:9 composition with incense centered, smoke trailing to upper right, sacred stillness captured in motion, high-end architectural photography style, medium format film aesthetic"
+      "concept": "A prayer repeated so long it has become the shape of a life — faithful duty and silent longing",
+      "imageAlt": "A thin curl of smoke rising through a shaft of warm light in a dark stone interior",
+      "prompt": "35mm analog film photograph, a thin curl of smoke rising in an otherwise empty stone interior, the smoke backlit by a single shaft of afternoon light so it becomes luminous and visible against the dark background, the smoke moving and dissolving upward, nothing else in frame — no objects, no incense burner visible, just the smoke and the light and the dark stone, heavy Kodak Portra 400 grain especially in shadow areas, muted warm gray palette with one column of warm amber light, Kinfolk editorial restraint, 16:9 with smoke centered, dark surroundings, the unanswered prayer made visible"
     },
     {
       "id": "annunciation",
       "filename": "luke_01_annunciation.png",
+      "pericopeId": "annunciation",
       "title": "Mary Says Yes",
       "verses": "26-38",
-      "concept": "An ordinary moment interrupted by the extraordinary - domestic tranquility before everything changes",
-      "prompt": "Intimate editorial photograph, simple Galilean dwelling interior, morning light flooding through small stone window onto rough-hewn wooden table, half-finished weaving on simple loom, clay water jug with morning condensation, wild chamomile flowers in small vessel catching the light, dust motes dancing in sunbeam, worn linen cloth draped naturally, extraordinary stillness in ordinary space, color palette of soft morning gold, natural linen cream, warm terracotta and weathered olive wood, wide 16:9 composition with light source on right third, empty space on left suggesting presence just arrived, tender documentary photography aesthetic, natural imperfection, Wabi-sabi beauty"
+      "concept": "An ordinary moment interrupted — the threshold between one life and another",
+      "imageAlt": "An open wooden door in a stone wall with morning light flooding through onto a rough stone floor",
+      "prompt": "35mm analog film photograph, a doorway or open window in a simple stone wall, morning light flooding through the opening onto a rough stone floor, the threshold itself sharp and clear while the room beyond dissolves into warm shadow, nothing and no one visible — just the opening and the light it admits, heavy Kodak Portra 400 grain, muted warm palette of stone and morning gold, the doorway as the entire subject, Alabaster Books aesthetic, 16:9 with the opening slightly off-center, vast breathing space of lit floor in the foreground, the moment before everything changes"
     },
     {
       "id": "visitation",
       "filename": "luke_01_visitation.png",
+      "pericopeId": "visitation",
       "title": "Two Women, Two Miracles",
       "verses": "39-45",
-      "concept": "The journey through hill country - anticipation and arrival",
-      "prompt": "Sweeping editorial landscape photograph, winding ancient path through Judean hill country at golden hour, terraced olive groves cascading down hillsides, wild thyme and lavender along dusty path edges, distant village with white limestone buildings catching last light, dramatic cloud formations creating god rays, long shadows stretching across terraces, sense of journey and destination, color palette of golden ochre, silvery olive green, dusty rose, warm honey and distant blue-gray, ultra-wide 16:9 panoramic composition, path leading from bottom left toward village in upper right third, epic scale meeting intimate journey, National Geographic meets fine art landscape photography"
+      "concept": "The hill country path between two impossibilities — joy carried across distance",
+      "imageAlt": "A narrow dirt path winding through dry golden hillside grass at golden hour, disappearing over a rise",
+      "prompt": "35mm analog film photograph, a narrow path through dry Judean hillside terrain at golden hour, the path winding through and disappearing over a rise, wild dry grass and low scrub on either side, warm low light turning the grass amber-gold, long shadows stretching across the path, no people, nothing at the end of the path visible — just the path continuing beyond the frame, heavy Kodak Portra 400 grain, deeply muted warm palette, Kinfolk landscape restraint, 16:9 with path leading from lower center toward upper third, vast sky above, sense of journey and arrival held in the landscape itself"
     },
     {
       "id": "magnificat",
       "filename": "luke_01_magnificat.png",
+      "pericopeId": "magnificat",
       "title": "Mary's Song",
       "verses": "46-56",
-      "concept": "Revolution and reversal - the mighty brought low, the humble lifted up",
-      "prompt": "Conceptual editorial still life, dramatic scene of overturned ornate bronze throne or wealthy vessel spilling coins and jewels across rough peasant floor, beside it a simple clay bowl of grain standing upright and abundant, extreme contrast between fallen luxury and standing simplicity, harsh side lighting creating dramatic shadows, scattered fig leaves and pomegranate seeds, dust catching in light beams, color palette of tarnished gold, rich terracotta, deep bronze shadows and warm wheat tones, bold 16:9 composition with diagonal tension, revolutionary energy in still objects, high-concept fashion photography applied to sacred narrative"
+      "concept": "The great reversal — power inverted, the overlooked given weight",
+      "imageAlt": "A single wild grass stem glowing in side light, growing from a crack in a dark rough stone surface",
+      "prompt": "35mm analog film photograph, stark close-up of a rough stone surface with a single wild grass stem growing from a crack, the grass lit from below or side so it glows against a deep shadow background, the stone massive and dark, the grass small and luminous, nothing else in frame, heavy Kodak Portra 400 grain, near-monochrome palette with the one note of warm light on the grass, Alabaster Books aesthetic, 16:9 with the crack running diagonally and the grass catching the light in the lower third, the image holds the tension of smallness and strength"
     },
     {
       "id": "john-birth",
       "filename": "luke_01_john_birth.png",
+      "pericopeId": "john-birth",
       "title": "The Birth of John",
       "verses": "57-66",
-      "concept": "New life, new name, new voice - intimate miracle",
-      "prompt": "Tender editorial photograph, intimate scene of handmade wooden cradle with softest natural linen, single olive oil lamp casting warm golden glow across scene, fresh cut rosemary and lavender bundles nearby for blessing, small wax writing tablet with stylus suggesting the naming, early morning blue hour light mixing with warm lamplight through window, everything soft and precious, color palette of warm candlelight gold, soft linen cream, morning blue and weathered honey wood, gentle 16:9 composition with cradle in right third, lamp glow spreading left, documentary intimacy, newborn photography aesthetic without showing baby, sacred tenderness"
+      "concept": "Speech returning after long silence — a name written, a voice given back",
+      "imageAlt": "Close-up of pristine folded natural linen cloth with soft light casting gentle shadows in the folds",
+      "prompt": "35mm analog film photograph, close-up of folded natural linen cloth, warm soft light falling evenly across the surface, the folds creating gentle shadow valleys in the weave, no damage, no tears, no stains — pristine undyed fabric in the most tender light, heavy Kodak Portra 400 grain blending with the cloth texture, warm cream and ivory tones, deeply quiet and intimate, Alabaster Books tactile stillness, 16:9 with the fabric folds filling the frame, light coming from above, shadow only in the fold creases"
     },
     {
       "id": "benedictus",
       "filename": "luke_01_benedictus.png",
+      "pericopeId": "benedictus",
       "title": "Zechariah's Song",
       "verses": "67-79",
-      "concept": "Dawn breaking after long silence - voice restored, prophecy released",
-      "prompt": "Majestic editorial landscape photograph, dramatic sunrise breaking over Judean hills, first golden rays piercing through morning mist in valleys, ancient village silhouette on hilltop catching the new light, rays spreading like fingers of blessing across the land, birds rising from olive groves, dew visible on wild herbs in sharp foreground, sense of new beginning after long night, color palette of rose gold sunrise, misty lavender gray, warm honey light and deep valley shadows, epic 16:9 composition with sun breaking in upper left, light spreading across full frame, spiritual landscape photography, hope made visible"
+      "concept": "Dawn breaking after a long silence — first light after the longest night",
+      "imageAlt": "Pre-dawn landscape with dry grass silhouetted against a faint warm glow at the horizon under a dark sky",
+      "prompt": "35mm analog film photograph, pre-dawn landscape, the horizon just beginning to separate sky from land, the faintest warm glow at the edge of the frame while most of the image remains in deep blue-gray darkness, dry grass or low scrub in silhouette against the brightening edge, no sun visible yet — just the first evidence of its coming, heavy Kodak Portra 400 grain especially in the dark zones, muted cool blue palette with one thin warm note at the horizon, Kinfolk landscape stillness, 16:9 with horizon in lower third and vast dark sky above, the first light as the entire subject"
     },
     {
       "id": "john-childhood",
       "filename": "luke_01_wilderness.png",
+      "pericopeId": "john-childhood",
       "title": "Into the Wilderness",
       "verses": "80",
-      "concept": "Solitude that shapes - the desert as formation ground",
-      "prompt": "Contemplative editorial landscape photograph, Judean wilderness at late afternoon, dramatic rocky terrain with scattered wild hyssop and desert sage, ancient worn path disappearing into distant barren hills, single weathered boulder in foreground casting long shadow, vulture or eagle circling in distant sky, harsh beauty of desert solitude, sense of preparation and purpose in emptiness, color palette of warm sienna, dusty ochre, pale desert cream and deep shadow purple, austere 16:9 composition with path in center third leading to horizon, vast negative space of sky, fine art landscape aesthetic, sacred desolation"
+      "concept": "Solitude that forms — the desert as the place where something essential is being made",
+      "imageAlt": "Wide view of cracked dry desert terrain at late afternoon with a faint worn path disappearing into the distance",
+      "prompt": "35mm analog film photograph, wide view of bare Judean desert terrain at late afternoon, the ground cracked dry earth and pale rock, a single worn path barely visible crossing the frame and disappearing, vast empty sky taking the upper half of the image, warm low light turning the earth amber-sienna, deep shadows in the cracks of the ground, no people, no destination visible, heavy Kodak Portra 400 grain, muted warm desert palette, Alabaster Books austere stillness, 16:9 with path in middle third, the emptiness itself the subject — preparation visible in absence"
     }
   ]
 }

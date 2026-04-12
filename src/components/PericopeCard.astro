@@ -26,6 +26,7 @@ interface Props {
   color?: string;
   accentColor?: string;
   image?: string;
+  imageAlt?: string;
   verseData: any[];
   media: {
     practice?: { title: string; verseRef: string; content?: string };
@@ -49,7 +50,7 @@ interface Props {
   audioBibleTranscriptPath?: string;
 }
 
-const { id, title, subtitle, verses, image, verseData, media, exegesis, lang, chapter = 1, isFirst, layoutIndex = 0, audioBibleStart, audioBibleMp3, audioBibleTranscriptPath } = Astro.props;
+const { id, title, subtitle, verses, image, imageAlt, verseData, media, exegesis, lang, chapter = 1, isFirst, layoutIndex = 0, audioBibleStart, audioBibleMp3, audioBibleTranscriptPath } = Astro.props;
 const t = useTranslations(lang);
 
 // Determine if audiobible has karaoke capability
@@ -280,8 +281,8 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
     {image && (
       <figure class="editorial-image mb-10">
         <img
-          src={`${base}/images/luke/1/${image}`}
-          alt={title}
+          src={`${base}/images/luke/${chapter}/${image}`}
+          alt={imageAlt || title}
           class="w-full aspect-video object-cover rounded"
           loading="lazy"
         />

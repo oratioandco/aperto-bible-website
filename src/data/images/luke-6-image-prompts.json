@@ -1,0 +1,99 @@
+{
+  "book": "Luke",
+  "chapter": 6,
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
+  "aspect_ratio": "16:9",
+  "color_palette": "Bleached linen, weathered stone, faded terracotta, dry grass, bone white, ash gray, deep shadow — all heavily desaturated with analog film warmth",
+  "images": [
+    {
+      "id": "lord-sabbath",
+      "filename": "luke_06_lord-sabbath.png",
+      "pericopeId": "herr-ber-den-sabbat",
+      "title": "Lord of the Sabbath",
+      "verses": "1-5",
+      "concept": "Grain heads plucked in hunger — law made for humans, not humans for law",
+      "imageAlt": "Close-up of dry grain stalks bending in soft light, a few broken stems among the standing ones",
+      "prompt": "35mm analog film photograph, extreme close-up of dry grain stalks in soft warm light, the stalks slightly overexposed to bone white at their tips, a few stalks bent or broken among the standing ones, the background dissolving into soft bokeh of more grain, heavy Kodak Portra 400 grain visible throughout, warm bleached palette of dry straw and pale gold, the broken stems carrying the moral weight of the image, Alabaster Books aesthetic, 16:9 landscape with light entering from the right"
+    },
+    {
+      "id": "healing-sabbath",
+      "filename": "luke_06_healing-sabbath.png",
+      "pericopeId": "heilung-am-sabbat",
+      "title": "Healing on the Sabbath",
+      "verses": "6-11",
+      "concept": "A withered hand restored — the watchers who came to condemn leave carrying their own verdict",
+      "imageAlt": "The shadow of an outstretched hand cast on a pale stone floor, the shadow fingers fully extended and distinct",
+      "prompt": "35mm analog film photograph, the shadow of an open outstretched hand falling precisely on pale worn stone floor, the fingers of the shadow fully extended and distinct, the shadow sharp at the fingertips and slightly soft at the wrist where it enters from the frame edge, no actual hand visible — only its shadow, warm midday light from above, heavy film grain in the stone texture, bleached stone tone with the shadow in warm gray, the hand present only as absence and projection, Kinfolk editorial restraint, 16:9 landscape"
+    },
+    {
+      "id": "choosing-twelve",
+      "filename": "luke_06_choosing-twelve.png",
+      "pericopeId": "die-wahl-der-zw-lf",
+      "title": "Choosing the Twelve",
+      "verses": "12-16",
+      "concept": "A night alone on a mountain — then names spoken that would change history",
+      "imageAlt": "Pre-dawn mountain ridgeline against a deep blue-black sky, faint gray light beginning at the horizon",
+      "prompt": "35mm analog film photograph, pre-dawn mountain ridgeline silhouetted against a deep blue-black sky, the very first trace of gray light appearing at the horizon below the ridge, the ridge itself a dark irregular line of rock and sparse vegetation, the sky filled with heavy film grain that merges with the darkness, cold blue-black palette with the faintest warm gray trace at horizon, no people no moon no stars visible — just the ridge and the last of the dark, Alabaster Books aesthetic, 16:9 landscape with ridge taking lower third of frame"
+    },
+    {
+      "id": "crowds-gather",
+      "filename": "luke_06_crowds-gather.png",
+      "pericopeId": "die-menge-versammelt-sich",
+      "title": "The Crowd Gathers",
+      "verses": "17-19",
+      "concept": "Power going out — drawn not by argument but by touch and the possibility of healing",
+      "imageAlt": "Dust rising in soft afternoon backlight above a flat open ground, the particles glowing gold in the light",
+      "prompt": "35mm analog film photograph, fine dust particles rising and drifting in strong warm afternoon backlight above a flat open ground, the particles catching the light and glowing amber-gold against the darker middle ground behind them, the ground surface pale and dry, heavy film grain blending with the dust particles, muted warm palette of dust gold and pale earth, no people or objects — just the lit air above an empty gathering place, the presence implied by the disturbed dust, Kinfolk magazine stillness, 16:9"
+    },
+    {
+      "id": "beatitudes-woes",
+      "filename": "luke_06_beatitudes-woes.png",
+      "pericopeId": "seligpreisungen-und-weherufe",
+      "title": "Blessings and Warnings",
+      "verses": "20-26",
+      "concept": "The world's values inverted — the poor inheriting what the full-bellied cannot see",
+      "imageAlt": "A stone step with the lower half in deep shadow and the upper half in brilliant light, the boundary between them razor sharp",
+      "prompt": "35mm analog film photograph, close view of a single ancient stone step, the lower half plunged in deep cool shadow while the upper surface catches full brilliant light, the boundary line between shadow and light razor sharp and perfectly horizontal dividing the frame, the stone surface textured and worn, heavy Kodak Portra 400 grain especially in the shadow half, warm stone tones in the lit half, cool gray in the shadow, the stark contrast is the entire theological statement, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "love-enemies",
+      "filename": "luke_06_love-enemies.png",
+      "pericopeId": "feindesliebe",
+      "title": "Love Your Enemies",
+      "verses": "27-35",
+      "concept": "A love that goes against every instinct — grace extended without calculation of return",
+      "imageAlt": "Two dry stones on barren soil, placed close together but not touching, one in warm light one in shadow",
+      "prompt": "35mm analog film photograph, close overhead view of two rough stones resting on dry barren soil, the stones placed near each other but not touching, one stone catching warm raking light while the other falls partly in shadow, the soil between them pale and granular, heavy film grain throughout, muted warm palette of stone and earth, the small gap between the stones carrying the entire meaning — proximity without merger, the space between as ethical demand, Kinfolk editorial restraint, 16:9"
+    },
+    {
+      "id": "do-not-judge",
+      "filename": "luke_06_do-not-judge.png",
+      "pericopeId": "richtet-nicht",
+      "title": "Do Not Judge",
+      "verses": "37-42",
+      "concept": "The beam in your own eye — self-blindness as the first obstacle to seeing clearly",
+      "imageAlt": "A small window in a thick stone wall with bright light outside and near-total interior darkness, a large dust mote visible in the beam",
+      "prompt": "35mm analog film photograph, small deep-set window in a thick rough stone wall seen from the dark interior, the outside blazing with bright overexposed light while the interior remains in near-total darkness, a narrow shaft of light projects inward from the window catching one large visible dust particle floating in the beam, the window frame reveals the wall's great thickness, heavy film grain throughout the dark interior, muted palette of dark warm stone and white exterior light, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "trees-fruit",
+      "filename": "luke_06_trees-fruit.png",
+      "pericopeId": "b-ume-und-ihre-fr-chte",
+      "title": "Trees and Their Fruit",
+      "verses": "43-45",
+      "concept": "What grows from the root reveals what the root is — character made visible in its fruit",
+      "imageAlt": "Close-up of rough tree bark with a small dried fig fallen and split open at the base, raking morning light",
+      "prompt": "35mm analog film photograph, close-up of rough ancient tree bark with deep furrowed texture, a single small dried fig or similar fruit lying split open at the base of the trunk on dry soil, warm raking morning light from the left illuminating the bark texture dramatically while the split fruit catches a note of gold, heavy Kodak Portra 400 grain, muted warm palette of bark brown and pale soil, no leaves no branches visible — just the bark and the fallen fruit, Kinfolk editorial stillness, 16:9"
+    },
+    {
+      "id": "two-foundations",
+      "filename": "luke_06_two-foundations.png",
+      "pericopeId": "zwei-fundamente",
+      "title": "Two Foundations",
+      "verses": "46-49",
+      "concept": "Rock vs. sand — what holds when everything shakes depends on what you built on",
+      "imageAlt": "A split frame showing rough bedrock on one side and loose dry sand on the other, a line of shadow between them",
+      "prompt": "35mm analog film photograph, close ground-level view showing a natural division in the earth, one half solid exposed bedrock with visible strata lines, the other half loose dry sand with grain texture, a shadow line running down the center of the frame dividing the two surfaces, raking side light from left emphasizing the contrast in texture, heavy film grain throughout, muted palette of gray stone and pale sand, the contrast in texture is the entire meaning — stability vs. impermanence made visible, Alabaster Books aesthetic, 16:9"
+    }
+  ]
+}

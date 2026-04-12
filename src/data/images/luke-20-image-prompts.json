@@ -1,0 +1,69 @@
+{
+  "book": "Luke",
+  "chapter": 20,
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
+  "aspect_ratio": "16:9",
+  "color_palette": "Bleached linen, weathered stone, faded terracotta, dry grass, bone white, ash gray, deep shadow — all heavily desaturated with analog film warmth",
+  "images": [
+    {
+      "id": "authority-question",
+      "filename": "luke_20_authority.png",
+      "title": "By What Authority?",
+      "verses": "1-8",
+      "pericopeId": "mit-welcher-vollmacht",
+      "concept": "The question answered with a question — authority that cannot be boxed or trapped",
+      "imageAlt": "A long empty temple portico with columns casting regular shadow stripes across the stone floor, two shadows converging at the center",
+      "prompt": "35mm analog film photograph, a long stone portico with columns casting regular parallel shadow stripes across the polished floor, the shadows uniform except at the center where two diagonal shadows converge from opposite directions, the convergence point empty — no people, just the intersection of shadows on pale stone, harsh midday light, heavy Kodak Portra 400 grain in the shadow zones, muted near-monochrome palette of pale stone and deep shadow, Kinfolk architectural precision, 16:9 with the converging shadows meeting at the center of the frame"
+    },
+    {
+      "id": "vineyard-tenants",
+      "filename": "luke_20_vineyard.png",
+      "title": "The Wicked Tenants",
+      "verses": "9-19",
+      "pericopeId": "die-weinbergp-chter",
+      "concept": "The vineyard sent messengers — each rejected, the son last of all",
+      "imageAlt": "An ancient vineyard stone wall with a single carved cornerstone at the base, the vines visible beyond the wall, afternoon light",
+      "prompt": "35mm analog film photograph, the base of an ancient dry stone vineyard wall where a single carefully cut cornerstone is set — different from the rough fieldstones around it, more precisely shaped and seated at the corner, afternoon light raking across the wall surface revealing the different textures, wild vine tendrils visible over the top of the wall, heavy Kodak Portra 400 grain, muted warm palette of pale stone and dark vine, Alabaster Books material theology, 16:9 with the cornerstone in the lower left and the rough wall extending right and the vine visible at the top"
+    },
+    {
+      "id": "taxes-caesar",
+      "filename": "luke_20_coin_caesar.png",
+      "title": "Whose Image Is This?",
+      "verses": "20-26",
+      "pericopeId": "steuern-an-den-kaiser",
+      "concept": "The coin and the image — what belongs to Caesar and what belongs to God are not the same thing",
+      "imageAlt": "A single ancient coin resting on a flat stone surface in sharp raking light, the relief on its face barely readable",
+      "prompt": "35mm analog film photograph, a single old coin resting on a flat stone surface, strong raking side light revealing the relief of a face or inscription on the coin's surface — not readable as a specific face, just the suggestion of a profile pressed into metal, the coin small against the expanse of stone, heavy Kodak Portra 400 grain, muted near-monochrome palette of dull metal and pale stone, Alabaster Books extreme material attention, 16:9 with the coin slightly off-center and the raking light making the relief visible, the question of whose image and whose world held in one small object"
+    },
+    {
+      "id": "resurrection-question",
+      "filename": "luke_20_resurrection.png",
+      "title": "God of the Living",
+      "verses": "27-40",
+      "pericopeId": "ehe-und-auferstehung",
+      "concept": "The God who is not the God of the dead — life that transcends the categories we use to limit it",
+      "imageAlt": "A shaft of morning light descending into a dark stone tomb or cave, the stone cold and the light warm, no meeting point yet",
+      "prompt": "35mm analog film photograph, a vertical shaft of warm morning light descending through a narrow opening into a dark stone interior, the light coming from far above and making a small bright pool on the stone floor below, the surrounding stone cold and gray, the pool of light warm and separate, heavy Kodak Portra 400 grain in the stone darkness, near-monochrome palette with one small warm pool of light on the floor, Alabaster Books gravity, 16:9 with the shaft of light descending from the upper center to a small pool in the lower center, the life-giving light entering the place of death"
+    },
+    {
+      "id": "davids-son",
+      "filename": "luke_20_davids_son.png",
+      "title": "David's Lord",
+      "verses": "41-44",
+      "pericopeId": "davids-sohn",
+      "concept": "The Messiah who is David's son and David's Lord — the category that exceeds the category",
+      "imageAlt": "An ancient throne seat carved from stone, worn and empty, a faint carved crown above it barely legible, afternoon light",
+      "prompt": "35mm analog film photograph, an ancient stone throne seat carved from a single block, the seat worn smooth and empty, above the back of the throne a faint carved crown relief worn nearly smooth by time, afternoon light falling from one side, the throne small and grand simultaneously, heavy Kodak Portra 400 grain, muted warm palette of pale worn stone and deep shadow, Kinfolk object authority, 16:9 with the throne in the lower center and the worn crown above it, the symbol of kingship both present and almost erased"
+    },
+    {
+      "id": "scribes-warning",
+      "filename": "luke_20_scribes_warning.png",
+      "title": "Beware of the Scribes",
+      "verses": "45-47",
+      "pericopeId": "warnung-vor-den-schriftgelehrten",
+      "concept": "The long robe and the long prayer — performance at the expense of the widow",
+      "imageAlt": "An elaborate ceremonial robe draped over a bench, its fringes ornate, a simple clay bowl placed beside it, stark contrast of materials",
+      "prompt": "35mm analog film photograph, an elaborately fringed ceremonial garment or robe draped over a stone bench, the fringe heavy and ornate, beside the robe a single small plain clay bowl — the contrast between the elaborate fabric and the utterly plain vessel sharp and deliberate, even diffused light, heavy Kodak Portra 400 grain, muted warm palette of ornate faded fabric and plain pale clay, Alabaster Books contrast without drama, 16:9 with the robe occupying most of the frame and the small bowl in the lower right, the performance of piety beside the object it dispossesses"
+    }
+  ]
+}
