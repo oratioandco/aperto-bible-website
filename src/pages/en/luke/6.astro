@@ -1,212 +1,137 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import PericopeCard from '../../../components/PericopeCard.astro';
 import ChapterNav from '../../../components/ChapterNav.astro';
-import chapterData from '../../../content/luke-6-en.json';
 import pericopes from '../../../content/luke-6-pericopes-en.json';
-
-// Helper to get verses for a pericope
-function getVersesForPericope(verseRange: string, sections: any[]) {
-  const allVerses: any[] = [];
-  sections.forEach(section => {
-    section.verses.forEach((v: any) => allVerses.push(v));
-  });
-
-  const [start, end] = verseRange.split('-').map(Number);
-  const endNum = end || start;
-
-  return allVerses.filter(v => {
-    const vNum = v.number.includes('-') ? parseInt(v.number.split('-')[0]) : parseInt(v.number);
-    return vNum >= start && vNum <= endNum;
-  });
-}
 
 const base = '';
 ---
 
 <BaseLayout title="Luke 6" lang="en" description="Luke Chapter 6">
   <!-- Chapter Header -->
-  <header class="chapter-header min-h-[90vh] flex flex-col justify-center items-center text-center px-8 py-24" style="background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);">
-    <p class="passage-reference mb-6">The Gospel of Luke</p>
-    <h1 class="headline-mixed text-5xl md:text-7xl lg:text-8xl mb-6">
+  <header class="chapter-header">
+    <p class="passage-reference">The Gospel of Luke</p>
+    <h1 class="headline-mixed">
       <span class="cap">C</span>hapter 6
     </h1>
-    <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
-      Sabbath conflicts. The Twelve are chosen. Blessings and woes.
-    </p>
-
-    <div class="mb-8">
-      <ChapterNav currentChapter={6} lang="en" />
-    </div>
-
-    <!-- Table of Contents with Headlines -->
-    <nav class="toc max-w-2xl w-full">
-      <ul class="space-y-2">
-        {pericopes.pericopes.map((p) => (
-          <li>
-            <a
-              href={`#${p.id}`}
-              class="toc-item flex items-center justify-between py-3 px-4 rounded-lg transition-all hover:bg-white/50"
-            >
-              <span class="toc-title text-left">{p.title}</span>
-              <span class="toc-verses text-sm">{p.verses}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
-
-    <!-- Scroll indicator -->
-    <div class="scroll-indicator mt-16 opacity-40">
-      <svg class="w-6 h-6 text-warm-gray animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-      </svg>
-    </div>
+    <p class="chapter-subtitle">Sabbath conflicts. The Twelve are chosen. Blessings and woes.</p>
+    <ChapterNav currentChapter={6} lang="en" />
   </header>
 
-  <!-- Pericopes -->
-  <div class="pericopes-container">
-    {pericopes.pericopes.map((pericope, index) => (
-      <PericopeCard
-        id={pericope.id}
-        title={pericope.title}
-        subtitle={pericope.subtitle}
-        verses={pericope.verses}
-        color={pericope.color}
-        accentColor={pericope.accentColor}
-        verseData={getVersesForPericope(pericope.verses, chapterData.sections)}
-        image={pericope.image}
-        imageAlt={pericope.imageAlt}
-        media={pericope.media}
-        exegesis={pericope.exegesis}
-        lang="en"
-        chapter={6}
-        isFirst={index === 0} layoutIndex={index}
-      />
-    ))}
-  </div>
-
-  <!-- Chapter Footer -->
-  <footer class="chapter-footer py-24 px-8 text-center" style="background: #F5E6DC;">
-    <ChapterNav currentChapter={6} lang="en" />
-
-    <div class="mt-12">
-      <a href={`${base}/en/`} style="background: #8B7355; color: white;" class="inline-flex items-center gap-2 px-8 py-4 rounded-full font-medium transition-all hover:opacity-90">
-        ← Back to Home
-      </a>
+  <!-- Pericope Grid -->
+  <section class="pericope-grid-section">
+    <div class="pericope-grid">
+      {pericopes.pericopes.map((p) => (
+        <a href={`${base}/en/luke/6/${p.id}`} class="pericope-thumb">
+          {p.image && (
+            <div class="pericope-thumb-img-wrap">
+              <img src={`/images/luke/6/${p.image}`} alt={p.imageAlt || p.title} class="pericope-thumb-img" />
+            </div>
+          )}
+          <div class="pericope-thumb-info" style={`background-color: ${p.color};`}>
+            <span class="pericope-thumb-verses">{p.verses}</span>
+            <span class="pericope-thumb-title">{p.title}</span>
+          </div>
+        </a>
+      ))}
     </div>
+  </section>
 
-    <p class="mt-12 text-sm text-warm-gray">
+  <footer class="chapter-footer">
+    <ChapterNav currentChapter={6} lang="en" />
+    <p class="mt-12 text-sm" style="color: var(--color-warm-gray);">
       Translation: Aperto Bible (AB-EN) | License: CC BY-SA 4.0
     </p>
   </footer>
 </BaseLayout>
 
 <style>
+  .chapter-header {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);
+  }
+  .chapter-subtitle {
+    font-family: 'Switzer', sans-serif;
+    font-size: 1.1rem;
+    color: var(--color-warm-gray);
+    max-width: 36rem;
+    margin-bottom: 2rem;
+  }
   .headline-mixed {
     font-family: 'Softcore', Georgia, serif;
+    font-size: clamp(3rem, 8vw, 6rem);
     color: #6B5A4A;
+    margin-bottom: 1rem;
   }
-
   .headline-mixed .cap {
     font-family: 'Silvera', serif;
     color: #9A8570;
     font-size: 1.1em;
   }
-
-  .toc-item {
-    border: 1px solid transparent;
+  .pericope-grid-section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
-
-  .toc-item:hover {
-    border-color: rgba(139, 115, 85, 0.2);
-    background: rgba(255, 255, 255, 0.6);
+  .pericope-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
   }
-
-  .toc-title {
-    font-family: 'Switzer', -apple-system, sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--color-charcoal);
+  .pericope-thumb {
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    border: 1px solid var(--color-border);
+    transition: all 0.25s ease;
+    display: block;
   }
-
-  .toc-verses {
-    font-family: 'Switzer', -apple-system, sans-serif;
+  .pericope-thumb:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  }
+  .pericope-thumb-img-wrap {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+  .pericope-thumb-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .pericope-thumb:hover .pericope-thumb-img {
+    transform: scale(1.04);
+  }
+  .pericope-thumb-info {
+    padding: 1rem 1.25rem;
+  }
+  .pericope-thumb-verses {
+    display: block;
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: var(--color-warm-gray);
+    margin-bottom: 0.35rem;
   }
-
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(8px); }
+  .pericope-thumb-title {
+    display: block;
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 150;
+    color: var(--color-charcoal);
+    line-height: 1.3;
   }
-
-  .animate-bounce {
-    animation: bounce 2s infinite;
+  .chapter-footer {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #F5E6DC;
   }
 </style>
-
-<script is:inline>
-(function() {
-  function initFootnotePopovers() {
-    document.querySelectorAll('.fn-btn').forEach(function(btn) {
-      btn.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var targetId = btn.getAttribute('data-fn-id');
-        var popover = document.getElementById(targetId);
-        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) {
-          if (p.id !== targetId) p.classList.add('hidden');
-        });
-        if (popover && popover.classList.contains('hidden')) {
-          var rect = btn.getBoundingClientRect();
-          var scrollY = window.scrollY;
-          var top = rect.bottom + scrollY + 8;
-          var left = rect.left;
-          if (left + 320 > window.innerWidth) left = window.innerWidth - 340;
-          if (left < 20) left = 20;
-          popover.style.top = top + 'px';
-          popover.style.left = left + 'px';
-          popover.classList.remove('hidden');
-        } else if (popover) {
-          popover.classList.add('hidden');
-        }
-      };
-    });
-    document.querySelectorAll('.mobile-fn-btn').forEach(function(btn) {
-      btn.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var targetId = btn.getAttribute('data-fn-id');
-        var popover = document.getElementById(targetId);
-        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) {
-          if (p.id !== targetId) p.classList.add('hidden');
-        });
-        if (popover) popover.classList.toggle('hidden');
-      };
-    });
-    document.querySelectorAll('.fn-close').forEach(function(btn) {
-      btn.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var popover = btn.closest('.fn-popover, .fn-popover-mobile');
-        if (popover) popover.classList.add('hidden');
-      };
-    });
-  }
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.fn-popover') && !e.target.closest('.fn-popover-mobile') && !e.target.closest('.fn-btn') && !e.target.closest('.mobile-fn-btn')) {
-      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) { p.classList.add('hidden'); });
-    }
-  });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function(p) { p.classList.add('hidden'); });
-    }
-  });
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initFootnotePopovers);
-  } else {
-    initFootnotePopovers();
-  }
-})();
-</script>
