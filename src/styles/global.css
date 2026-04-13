@@ -661,9 +661,6 @@ audio::-webkit-media-controls-panel {
     [data-read-mode="study"] .media-section,
     [data-read-mode="study"] .feedback-row {
         grid-column: 1;
-        max-width: none !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
     }
     [data-read-mode="study"] .study-panel {
         grid-column: 2;
@@ -778,4 +775,24 @@ audio::-webkit-media-controls-panel {
     font-size: 0.8rem;
     line-height: 1.6;
     color: var(--color-text, #3C3530);
+}
+
+/* Active study note (highlighted when its verse is topmost visible) */
+.study-note.active-note {
+    background: rgba(139, 115, 85, 0.07);
+    border-radius: 8px;
+    margin: -0.5rem;
+    padding: calc(1rem - 0.5rem);
+    transition: background 0.25s ease;
+}
+.study-note.active-note .study-note-keyword {
+    color: var(--color-charcoal, #2C2C2C);
+}
+
+/* Invisible verse anchor spans */
+.verse-anchor {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
 }

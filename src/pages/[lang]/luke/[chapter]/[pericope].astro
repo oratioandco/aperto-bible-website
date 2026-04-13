@@ -505,4 +505,79 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     init();
   }
 })();
+
+// ── Study panel scroll sync ──────────────────────────────────────────
+(function () {
+  var STICKY_OFFSET = 88; // sticky read-mode bar height
+  var activeVerseNum = null;
+
+  function setActiveVerse(verseNum) {
+    if (verseNum === activeVerseNum) return;
+    activeVerseNum = verseNum;
+
+    document.querySelectorAll('.study-note.active-note').forEach(function (n) {
+      n.classList.remove('active-note');
+    });
+    if (!verseNum) return;
+
+    var matching = document.querySelectorAll('.study-note[data-verse="' + verseNum + '"]');
+    if (!matching.length) return;
+
+    matching.forEach(function (n) { n.classList.add('active-note'); });
+
+    // Scroll the first matching note into the panel viewport
+    var panel = document.querySelector('.study-panel');
+    if (panel && matching[0]) {
+      var noteTop = matching[0].offsetTop;
+      var panelScroll = panel.scrollTop;
+      var panelHeight = panel.clientHeight;
+      if (noteTop < panelScroll || noteTop > panelScroll + panelHeight - 60) {
+        panel.scrollTo({ top: noteTop - 24, behavior: 'smooth' });
+      }
+    }
+  }
+
+  function syncScroll() {
+    // Only active in study mode with panel visible
+    if (document.body.getAttribute('data-read-mode') !== 'study') return;
+    if (!document.querySelector('.study-panel')) return;
+
+    var anchors = document.querySelectorAll('[data-verse-anchor]');
+    var best = null;
+    for (var i = 0; i < anchors.length; i++) {
+      var top = anchors[i].getBoundingClientRect().top;
+      if (top <= STICKY_OFFSET) {
+        best = anchors[i];
+      }
+    }
+    if (best) {
+      setActiveVerse(best.getAttribute('data-verse-anchor'));
+    }
+  }
+
+  function init() {
+    window.addEventListener('scroll', syncScroll, { passive: true });
+    // Re-sync when mode changes to study
+    document.querySelectorAll('.rmode-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (btn.getAttribute('data-mode') === 'study') {
+          setTimeout(syncScroll, 50);
+        } else {
+          // Clear highlights when leaving study mode
+          document.querySelectorAll('.study-note.active-note').forEach(function (n) {
+            n.classList.remove('active-note');
+          });
+          activeVerseNum = null;
+        }
+      });
+    });
+    syncScroll();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
 </script>

@@ -212,6 +212,8 @@ processedVerses.forEach((verse, idx) => {
     currentProcessedGroup = { type, verses: [] };
     processedVerseGroups.push(currentProcessedGroup);
   }
+  // Prepend an invisible anchor span for scroll sync
+  verse.processedText = `<span class="verse-anchor" data-verse-anchor="${verse.number}"></span>` + (verse.processedText || '');
   currentProcessedGroup.verses.push({ verse, idx });
 });
 
@@ -643,7 +645,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
       ) : (
         <ul class="study-notes-list">
           {allFootnotes.map((fn) => (
-            <li class="study-note" data-category={fn.category.toLowerCase()}>
+            <li class="study-note" data-category={fn.category.toLowerCase()} data-verse={String(fn.verseNum)}>
               <div class="study-note-meta">
                 <div class="study-note-icon">
                   <span class="material-symbols-rounded">{categoryIcons[fn.category.toLowerCase()] || 'info'}</span>
