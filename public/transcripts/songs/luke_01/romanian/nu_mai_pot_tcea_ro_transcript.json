@@ -7,276 +7,1271 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:5-79",
-  "duration_ms": 220000,
+  "duration_ms": 238880,
   "audio_file": "/audio/songs/luke_01/romanian/Luke 1_5-25 Nu mai pot tăcea (Romanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.243314+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.038145+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.994,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 16140,
+      "end_ms": 40420,
       "lines": [
         {
           "text": "Stăteam în fața focului",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 16140,
+          "end_ms": 20040,
+          "words": [
+            {
+              "word": "Stăteam",
+              "start_ms": 16140,
+              "end_ms": 17540
+            },
+            {
+              "word": "în",
+              "start_ms": 17540,
+              "end_ms": 17780
+            },
+            {
+              "word": "fața",
+              "start_ms": 17780,
+              "end_ms": 18200
+            },
+            {
+              "word": "focului",
+              "start_ms": 18200,
+              "end_ms": 20040
+            }
+          ]
         },
         {
           "text": "cu tămâie în mâini",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 20780,
+          "end_ms": 23420,
+          "words": [
+            {
+              "word": "cu",
+              "start_ms": 20780,
+              "end_ms": 21060
+            },
+            {
+              "word": "tămâie",
+              "start_ms": 21060,
+              "end_ms": 21820
+            },
+            {
+              "word": "în",
+              "start_ms": 21820,
+              "end_ms": 22040
+            },
+            {
+              "word": "mâini",
+              "start_ms": 22040,
+              "end_ms": 23420
+            }
+          ]
         },
         {
           "text": "și gura plină de întrebări —",
-          "start_ms": 10000,
-          "end_ms": 12240
+          "start_ms": 23420,
+          "end_ms": 27670,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 23420,
+              "end_ms": 24120
+            },
+            {
+              "word": "gura",
+              "start_ms": 24120,
+              "end_ms": 24560
+            },
+            {
+              "word": "plină",
+              "start_ms": 24560,
+              "end_ms": 25180
+            },
+            {
+              "word": "de",
+              "start_ms": 25180,
+              "end_ms": 25640
+            },
+            {
+              "word": "întrebări",
+              "start_ms": 25640,
+              "end_ms": 27320
+            },
+            {
+              "word": "—",
+              "start_ms": 27370,
+              "end_ms": 27670,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "cum să știu, cum să cred?",
-          "start_ms": 12240,
-          "end_ms": 14240
+          "start_ms": 27900,
+          "end_ms": 29760,
+          "words": [
+            {
+              "word": "cum",
+              "start_ms": 27900,
+              "end_ms": 28020
+            },
+            {
+              "word": "să",
+              "start_ms": 28020,
+              "end_ms": 28300
+            },
+            {
+              "word": "știu,",
+              "start_ms": 28300,
+              "end_ms": 28780
+            },
+            {
+              "word": "cum",
+              "start_ms": 27900,
+              "end_ms": 28020
+            },
+            {
+              "word": "să",
+              "start_ms": 28020,
+              "end_ms": 28300
+            },
+            {
+              "word": "cred?",
+              "start_ms": 29340,
+              "end_ms": 29760
+            }
+          ]
         },
         {
           "text": "Am spus prea mult, prea repede",
-          "start_ms": 14240,
-          "end_ms": 16640
+          "start_ms": 31000,
+          "end_ms": 35680,
+          "words": [
+            {
+              "word": "Am",
+              "start_ms": 31000,
+              "end_ms": 31900
+            },
+            {
+              "word": "spus",
+              "start_ms": 31900,
+              "end_ms": 32240
+            },
+            {
+              "word": "prea",
+              "start_ms": 32240,
+              "end_ms": 32800
+            },
+            {
+              "word": "mult,",
+              "start_ms": 32800,
+              "end_ms": 33560
+            },
+            {
+              "word": "prea",
+              "start_ms": 32240,
+              "end_ms": 32800
+            },
+            {
+              "word": "repede",
+              "start_ms": 34000,
+              "end_ms": 35680
+            }
+          ]
         },
         {
           "text": "și lumea s-a oprit",
-          "start_ms": 16640,
-          "end_ms": 18640
+          "start_ms": 36420,
+          "end_ms": 40420,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 36420,
+              "end_ms": 36580
+            },
+            {
+              "word": "lumea",
+              "start_ms": 36580,
+              "end_ms": 39340
+            },
+            {
+              "word": "s-a",
+              "start_ms": 39560,
+              "end_ms": 39660
+            },
+            {
+              "word": "oprit",
+              "start_ms": 39660,
+              "end_ms": 40420
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 18640
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 43819,
+      "end_ms": 55420,
       "lines": [
         {
           "text": "Nouă luni fără cuvinte",
-          "start_ms": 21640,
-          "end_ms": 23640
+          "start_ms": 43819,
+          "end_ms": 46760,
+          "words": [
+            {
+              "word": "Nouă",
+              "start_ms": 43819,
+              "end_ms": 44540
+            },
+            {
+              "word": "luni",
+              "start_ms": 44540,
+              "end_ms": 44760
+            },
+            {
+              "word": "fără",
+              "start_ms": 44760,
+              "end_ms": 45440
+            },
+            {
+              "word": "cuvinte",
+              "start_ms": 45440,
+              "end_ms": 46760
+            }
+          ]
         },
         {
           "text": "nouă luni doar eu cu mine",
-          "start_ms": 23640,
-          "end_ms": 25640
+          "start_ms": 47860,
+          "end_ms": 50440,
+          "words": [
+            {
+              "word": "nouă",
+              "start_ms": 47860,
+              "end_ms": 48200
+            },
+            {
+              "word": "luni",
+              "start_ms": 48200,
+              "end_ms": 48400
+            },
+            {
+              "word": "doar",
+              "start_ms": 48400,
+              "end_ms": 48740
+            },
+            {
+              "word": "eu",
+              "start_ms": 48740,
+              "end_ms": 49100
+            },
+            {
+              "word": "cu",
+              "start_ms": 49100,
+              "end_ms": 49460
+            },
+            {
+              "word": "mine",
+              "start_ms": 49460,
+              "end_ms": 50440
+            }
+          ]
         },
         {
           "text": "auzind ce n-am auzit niciodată",
-          "start_ms": 25640,
-          "end_ms": 28040
+          "start_ms": 51239,
+          "end_ms": 55420,
+          "words": [
+            {
+              "word": "auzind",
+              "start_ms": 51239,
+              "end_ms": 51960
+            },
+            {
+              "word": "ce",
+              "start_ms": 51960,
+              "end_ms": 52280
+            },
+            {
+              "word": "n-am",
+              "start_ms": 52640,
+              "end_ms": 52880
+            },
+            {
+              "word": "auzit",
+              "start_ms": 52880,
+              "end_ms": 54140
+            },
+            {
+              "word": "niciodată",
+              "start_ms": 54140,
+              "end_ms": 55420
+            }
+          ]
         }
-      ],
-      "start_ms": 21640,
-      "end_ms": 28040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 56420,
+      "end_ms": 81780,
       "lines": [
         {
           "text": "Nu mai pot tăcea",
-          "start_ms": 31040,
-          "end_ms": 33040
+          "start_ms": 56420,
+          "end_ms": 67420,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 56420,
+              "end_ms": 57840
+            },
+            {
+              "word": "mai",
+              "start_ms": 56420,
+              "end_ms": 57840
+            },
+            {
+              "word": "pot",
+              "start_ms": 65160,
+              "end_ms": 67420
+            },
+            {
+              "word": "tăcea",
+              "start_ms": 65160,
+              "end_ms": 67420
+            }
+          ]
         },
         {
           "text": "nu mai pot tăcea",
-          "start_ms": 33040,
-          "end_ms": 35040
+          "start_ms": 64519,
+          "end_ms": 67420,
+          "words": [
+            {
+              "word": "nu",
+              "start_ms": 64519,
+              "end_ms": 65160
+            },
+            {
+              "word": "mai",
+              "start_ms": 56420,
+              "end_ms": 57840
+            },
+            {
+              "word": "pot",
+              "start_ms": 65160,
+              "end_ms": 67420
+            },
+            {
+              "word": "tăcea",
+              "start_ms": 65160,
+              "end_ms": 67420
+            }
+          ]
         },
         {
           "text": "ceva crește-n mine",
-          "start_ms": 35040,
-          "end_ms": 37040
+          "start_ms": 71060,
+          "end_ms": 74620,
+          "words": [
+            {
+              "word": "ceva",
+              "start_ms": 71060,
+              "end_ms": 72360
+            },
+            {
+              "word": "crește-n",
+              "start_ms": 72360,
+              "end_ms": 73480
+            },
+            {
+              "word": "mine",
+              "start_ms": 73640,
+              "end_ms": 74620
+            }
+          ]
         },
         {
           "text": "și iese la lumină",
-          "start_ms": 37040,
-          "end_ms": 39040
+          "start_ms": 74620,
+          "end_ms": 78960,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 74620,
+              "end_ms": 75360
+            },
+            {
+              "word": "iese",
+              "start_ms": 75360,
+              "end_ms": 75980
+            },
+            {
+              "word": "la",
+              "start_ms": 75980,
+              "end_ms": 76660
+            },
+            {
+              "word": "lumină",
+              "start_ms": 76660,
+              "end_ms": 78960
+            }
+          ]
         },
         {
           "text": "nu mai pot tăcea",
-          "start_ms": 39040,
-          "end_ms": 41040
+          "start_ms": 79320,
+          "end_ms": 81780,
+          "words": [
+            {
+              "word": "nu",
+              "start_ms": 79320,
+              "end_ms": 79980
+            },
+            {
+              "word": "mai",
+              "start_ms": 79320,
+              "end_ms": 79980
+            },
+            {
+              "word": "pot",
+              "start_ms": 79980,
+              "end_ms": 81780
+            },
+            {
+              "word": "tăcea",
+              "start_ms": 79980,
+              "end_ms": 81780
+            }
+          ]
         }
-      ],
-      "start_ms": 31040,
-      "end_ms": 41040
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 86940,
+      "end_ms": 107480,
       "lines": [
         {
           "text": "Am numărat zilele pe degete",
-          "start_ms": 44040,
-          "end_ms": 46200
+          "start_ms": 86940,
+          "end_ms": 91500,
+          "words": [
+            {
+              "word": "Am",
+              "start_ms": 86940,
+              "end_ms": 88340
+            },
+            {
+              "word": "numărat",
+              "start_ms": 88340,
+              "end_ms": 89180
+            },
+            {
+              "word": "zilele",
+              "start_ms": 89180,
+              "end_ms": 89920
+            },
+            {
+              "word": "pe",
+              "start_ms": 89920,
+              "end_ms": 90180
+            },
+            {
+              "word": "degete",
+              "start_ms": 90180,
+              "end_ms": 91500
+            }
+          ]
         },
         {
           "text": "am scris ce nu puteam spune",
-          "start_ms": 46200,
-          "end_ms": 48360
+          "start_ms": 91780,
+          "end_ms": 94540,
+          "words": [
+            {
+              "word": "am",
+              "start_ms": 91780,
+              "end_ms": 91900
+            },
+            {
+              "word": "scris",
+              "start_ms": 91900,
+              "end_ms": 92180
+            },
+            {
+              "word": "ce",
+              "start_ms": 92180,
+              "end_ms": 92440
+            },
+            {
+              "word": "nu",
+              "start_ms": 92440,
+              "end_ms": 92760
+            },
+            {
+              "word": "puteam",
+              "start_ms": 92760,
+              "end_ms": 93540
+            },
+            {
+              "word": "spune",
+              "start_ms": 93540,
+              "end_ms": 94540
+            }
+          ]
         },
         {
           "text": "am ascultat cum bate inima",
-          "start_ms": 48360,
-          "end_ms": 50440
+          "start_ms": 95020,
+          "end_ms": 98600,
+          "words": [
+            {
+              "word": "am",
+              "start_ms": 95020,
+              "end_ms": 95720
+            },
+            {
+              "word": "ascultat",
+              "start_ms": 95720,
+              "end_ms": 96380
+            },
+            {
+              "word": "cum",
+              "start_ms": 96380,
+              "end_ms": 96640
+            },
+            {
+              "word": "bate",
+              "start_ms": 96640,
+              "end_ms": 97260
+            },
+            {
+              "word": "inima",
+              "start_ms": 97260,
+              "end_ms": 98600
+            }
+          ]
         },
         {
           "text": "a copilului care vine",
-          "start_ms": 50440,
-          "end_ms": 52440
+          "start_ms": 98600,
+          "end_ms": 101820,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 98600,
+              "end_ms": 99220
+            },
+            {
+              "word": "copilului",
+              "start_ms": 99220,
+              "end_ms": 100300
+            },
+            {
+              "word": "care",
+              "start_ms": 100300,
+              "end_ms": 101000
+            },
+            {
+              "word": "vine",
+              "start_ms": 101000,
+              "end_ms": 101820
+            }
+          ]
         },
         {
           "text": "și tăcerea m-a desfăcut",
-          "start_ms": 52440,
-          "end_ms": 54440
+          "start_ms": 102320,
+          "end_ms": 106380,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 102320,
+              "end_ms": 103020
+            },
+            {
+              "word": "tăcerea",
+              "start_ms": 103020,
+              "end_ms": 104600
+            },
+            {
+              "word": "m-a",
+              "start_ms": 104820,
+              "end_ms": 105000
+            },
+            {
+              "word": "desfăcut",
+              "start_ms": 105000,
+              "end_ms": 106380
+            }
+          ]
         },
         {
           "text": "bucată cu bucată",
-          "start_ms": 54440,
-          "end_ms": 56440
+          "start_ms": 106640,
+          "end_ms": 107480,
+          "words": [
+            {
+              "word": "bucată",
+              "start_ms": 106640,
+              "end_ms": 107480
+            },
+            {
+              "word": "cu",
+              "start_ms": 107480,
+              "end_ms": 107920
+            },
+            {
+              "word": "bucată",
+              "start_ms": 106640,
+              "end_ms": 107480
+            }
+          ]
         }
-      ],
-      "start_ms": 44040,
-      "end_ms": 56440
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 113240,
+      "end_ms": 125420,
       "lines": [
         {
           "text": "Nouă luni fără cuvinte",
-          "start_ms": 59440,
-          "end_ms": 61440
+          "start_ms": 113240,
+          "end_ms": 116800,
+          "words": [
+            {
+              "word": "Nouă",
+              "start_ms": 113240,
+              "end_ms": 114640
+            },
+            {
+              "word": "luni",
+              "start_ms": 114640,
+              "end_ms": 114840
+            },
+            {
+              "word": "fără",
+              "start_ms": 114840,
+              "end_ms": 115520
+            },
+            {
+              "word": "cuvinte",
+              "start_ms": 115520,
+              "end_ms": 116800
+            }
+          ]
         },
         {
           "text": "nouă luni doar eu cu mine",
-          "start_ms": 61440,
-          "end_ms": 63440
+          "start_ms": 117980,
+          "end_ms": 120380,
+          "words": [
+            {
+              "word": "nouă",
+              "start_ms": 117980,
+              "end_ms": 118360
+            },
+            {
+              "word": "luni",
+              "start_ms": 118360,
+              "end_ms": 118500
+            },
+            {
+              "word": "doar",
+              "start_ms": 118500,
+              "end_ms": 118840
+            },
+            {
+              "word": "eu",
+              "start_ms": 118840,
+              "end_ms": 119220
+            },
+            {
+              "word": "cu",
+              "start_ms": 119220,
+              "end_ms": 119560
+            },
+            {
+              "word": "mine",
+              "start_ms": 119560,
+              "end_ms": 120380
+            }
+          ]
         },
         {
           "text": "înțelegând ce n-am înțeles niciodată",
-          "start_ms": 63440,
-          "end_ms": 66320
+          "start_ms": 120380,
+          "end_ms": 125420,
+          "words": [
+            {
+              "word": "înțelegând",
+              "start_ms": 120380,
+              "end_ms": 122060
+            },
+            {
+              "word": "ce",
+              "start_ms": 122060,
+              "end_ms": 122400
+            },
+            {
+              "word": "n-am",
+              "start_ms": 122720,
+              "end_ms": 122860
+            },
+            {
+              "word": "înțeles",
+              "start_ms": 122860,
+              "end_ms": 124080
+            },
+            {
+              "word": "niciodată",
+              "start_ms": 124080,
+              "end_ms": 125420
+            }
+          ]
         }
-      ],
-      "start_ms": 59440,
-      "end_ms": 66320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 126980,
+      "end_ms": 154420,
       "lines": [
         {
           "text": "Nu mai pot tăcea",
-          "start_ms": 69320,
-          "end_ms": 71320
+          "start_ms": 126980,
+          "end_ms": 136420,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 126980,
+              "end_ms": 127960
+            },
+            {
+              "word": "mai",
+              "start_ms": 126980,
+              "end_ms": 127960
+            },
+            {
+              "word": "pot",
+              "start_ms": 135340,
+              "end_ms": 136420
+            },
+            {
+              "word": "tăcea",
+              "start_ms": 135340,
+              "end_ms": 136420
+            }
+          ]
         },
         {
           "text": "nu mai pot tăcea",
-          "start_ms": 71320,
-          "end_ms": 73320
+          "start_ms": 130539,
+          "end_ms": 136420,
+          "words": [
+            {
+              "word": "nu",
+              "start_ms": 130539,
+              "end_ms": 135340
+            },
+            {
+              "word": "mai",
+              "start_ms": 126980,
+              "end_ms": 127960
+            },
+            {
+              "word": "pot",
+              "start_ms": 135340,
+              "end_ms": 136420
+            },
+            {
+              "word": "tăcea",
+              "start_ms": 135340,
+              "end_ms": 136420
+            }
+          ]
         },
         {
           "text": "ceva crește-n mine",
-          "start_ms": 73320,
-          "end_ms": 75320
+          "start_ms": 141100,
+          "end_ms": 144720,
+          "words": [
+            {
+              "word": "ceva",
+              "start_ms": 141100,
+              "end_ms": 142500
+            },
+            {
+              "word": "crește-n",
+              "start_ms": 142500,
+              "end_ms": 143380
+            },
+            {
+              "word": "mine",
+              "start_ms": 143780,
+              "end_ms": 144720
+            }
+          ]
         },
         {
           "text": "și iese la lumină",
-          "start_ms": 75320,
-          "end_ms": 77320
+          "start_ms": 144720,
+          "end_ms": 149140,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 144720,
+              "end_ms": 145500
+            },
+            {
+              "word": "iese",
+              "start_ms": 145500,
+              "end_ms": 146140
+            },
+            {
+              "word": "la",
+              "start_ms": 146140,
+              "end_ms": 146780
+            },
+            {
+              "word": "lumină",
+              "start_ms": 146780,
+              "end_ms": 149140
+            }
+          ]
         },
         {
           "text": "nu mai pot tăcea",
-          "start_ms": 77320,
-          "end_ms": 79320
+          "start_ms": 149440,
+          "end_ms": 154420,
+          "words": [
+            {
+              "word": "nu",
+              "start_ms": 149440,
+              "end_ms": 150140
+            },
+            {
+              "word": "mai",
+              "start_ms": 149440,
+              "end_ms": 150140
+            },
+            {
+              "word": "pot",
+              "start_ms": 150140,
+              "end_ms": 154420
+            },
+            {
+              "word": "tăcea",
+              "start_ms": 150140,
+              "end_ms": 154420
+            }
+          ]
         }
-      ],
-      "start_ms": 69320,
-      "end_ms": 79320
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Powerful",
+      "label": "Bridge",
+      "start_ms": 172760,
+      "end_ms": 186600,
       "lines": [
         {
           "text": "Răsăritul vine de sus",
-          "start_ms": 82320,
-          "end_ms": 84320
+          "start_ms": 172760,
+          "end_ms": 175700,
+          "words": [
+            {
+              "word": "Răsăritul",
+              "start_ms": 172760,
+              "end_ms": 174160
+            },
+            {
+              "word": "vine",
+              "start_ms": 174160,
+              "end_ms": 174520
+            },
+            {
+              "word": "de",
+              "start_ms": 174520,
+              "end_ms": 174880
+            },
+            {
+              "word": "sus",
+              "start_ms": 174880,
+              "end_ms": 175700
+            }
+          ]
         },
         {
           "text": "peste cei din umbra morții",
-          "start_ms": 84320,
-          "end_ms": 86400
+          "start_ms": 175700,
+          "end_ms": 179420,
+          "words": [
+            {
+              "word": "peste",
+              "start_ms": 175700,
+              "end_ms": 177320
+            },
+            {
+              "word": "cei",
+              "start_ms": 177320,
+              "end_ms": 177660
+            },
+            {
+              "word": "din",
+              "start_ms": 177660,
+              "end_ms": 177960
+            },
+            {
+              "word": "umbra",
+              "start_ms": 177960,
+              "end_ms": 178440
+            },
+            {
+              "word": "morții",
+              "start_ms": 178440,
+              "end_ms": 179420
+            }
+          ]
         },
         {
           "text": "pașii noștri vor găsi",
-          "start_ms": 86400,
-          "end_ms": 88400
+          "start_ms": 180520,
+          "end_ms": 184000,
+          "words": [
+            {
+              "word": "pașii",
+              "start_ms": 180520,
+              "end_ms": 181260
+            },
+            {
+              "word": "noștri",
+              "start_ms": 181260,
+              "end_ms": 182160
+            },
+            {
+              "word": "vor",
+              "start_ms": 182160,
+              "end_ms": 182640
+            },
+            {
+              "word": "găsi",
+              "start_ms": 182640,
+              "end_ms": 184000
+            }
+          ]
         },
         {
           "text": "drumul, drumul păcii",
-          "start_ms": 88400,
-          "end_ms": 90400
+          "start_ms": 184000,
+          "end_ms": 186600,
+          "words": [
+            {
+              "word": "drumul,",
+              "start_ms": 184000,
+              "end_ms": 185200
+            },
+            {
+              "word": "drumul",
+              "start_ms": 185200,
+              "end_ms": 185900
+            },
+            {
+              "word": "păcii",
+              "start_ms": 185900,
+              "end_ms": 186600
+            }
+          ]
         }
-      ],
-      "start_ms": 82320,
-      "end_ms": 90400
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 187600,
+      "end_ms": 213600,
       "lines": [
         {
           "text": "Nu mai pot tăcea!",
-          "start_ms": 93400,
-          "end_ms": 95400
+          "start_ms": 187600,
+          "end_ms": 201600,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 187600,
+              "end_ms": 188840
+            },
+            {
+              "word": "mai",
+              "start_ms": 187600,
+              "end_ms": 188840
+            },
+            {
+              "word": "pot",
+              "start_ms": 202420,
+              "end_ms": 203060
+            },
+            {
+              "word": "tăcea!",
+              "start_ms": 196500,
+              "end_ms": 201600
+            }
+          ]
         },
         {
           "text": "Nu mai pot tăcea!",
-          "start_ms": 95400,
-          "end_ms": 97400
+          "start_ms": 195500,
+          "end_ms": 201600,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 195500,
+              "end_ms": 196500
+            },
+            {
+              "word": "mai",
+              "start_ms": 187600,
+              "end_ms": 188840
+            },
+            {
+              "word": "pot",
+              "start_ms": 202420,
+              "end_ms": 203060
+            },
+            {
+              "word": "tăcea!",
+              "start_ms": 196500,
+              "end_ms": 201600
+            }
+          ]
         },
         {
           "text": "Tot ce-a fost în mine",
-          "start_ms": 97400,
-          "end_ms": 99400
+          "start_ms": 202420,
+          "end_ms": 205440,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 202420,
+              "end_ms": 203060
+            },
+            {
+              "word": "ce-a",
+              "start_ms": 203060,
+              "end_ms": 203300
+            },
+            {
+              "word": "fost",
+              "start_ms": 203560,
+              "end_ms": 203920
+            },
+            {
+              "word": "în",
+              "start_ms": 203920,
+              "end_ms": 204400
+            },
+            {
+              "word": "mine",
+              "start_ms": 204400,
+              "end_ms": 205440
+            }
+          ]
         },
         {
           "text": "acum iese la lumină",
-          "start_ms": 99400,
-          "end_ms": 101400
+          "start_ms": 205700,
+          "end_ms": 210000,
+          "words": [
+            {
+              "word": "acum",
+              "start_ms": 205700,
+              "end_ms": 206360
+            },
+            {
+              "word": "iese",
+              "start_ms": 206360,
+              "end_ms": 207000
+            },
+            {
+              "word": "la",
+              "start_ms": 207000,
+              "end_ms": 207620
+            },
+            {
+              "word": "lumină",
+              "start_ms": 207620,
+              "end_ms": 210000
+            }
+          ]
         },
         {
           "text": "NU MAI POT TĂCEA",
-          "start_ms": 101400,
-          "end_ms": 103400
+          "start_ms": 210400,
+          "end_ms": 213600,
+          "words": [
+            {
+              "word": "NU",
+              "start_ms": 210400,
+              "end_ms": 212360
+            },
+            {
+              "word": "MAI",
+              "start_ms": 210400,
+              "end_ms": 212360
+            },
+            {
+              "word": "POT",
+              "start_ms": 212360,
+              "end_ms": 213600
+            },
+            {
+              "word": "TĂCEA",
+              "start_ms": 212360,
+              "end_ms": 213600
+            }
+          ]
         }
-      ],
-      "start_ms": 93400,
-      "end_ms": 103400
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 217820,
+      "end_ms": 225940,
       "lines": [
         {
           "text": "...și primul cuvânt a fost laudă",
-          "start_ms": 106400,
-          "end_ms": 108960
+          "start_ms": 217820,
+          "end_ms": 225940,
+          "words": [
+            {
+              "word": "...și",
+              "start_ms": 217820,
+              "end_ms": 219220
+            },
+            {
+              "word": "primul",
+              "start_ms": 219220,
+              "end_ms": 219860
+            },
+            {
+              "word": "cuvânt",
+              "start_ms": 219860,
+              "end_ms": 221620
+            },
+            {
+              "word": "a",
+              "start_ms": 221620,
+              "end_ms": 223340
+            },
+            {
+              "word": "fost",
+              "start_ms": 223340,
+              "end_ms": 224180
+            },
+            {
+              "word": "laudă",
+              "start_ms": 224180,
+              "end_ms": 225940
+            }
+          ]
         }
-      ],
-      "start_ms": 106400,
-      "end_ms": 108960
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Nouă luni fără cuvinte",
+      "section_type": "chorus",
+      "start_ms": 43819,
+      "end_ms": 55420,
+      "key_line": "Nouă luni fără cuvinte",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Nu mai pot tăcea",
+      "section_type": "chorus",
+      "start_ms": 56420,
+      "end_ms": 81780,
+      "key_line": "Nu mai pot tăcea",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Nouă luni fără cuvinte",
+      "section_type": "chorus",
+      "start_ms": 113240,
+      "end_ms": 125420,
+      "key_line": "Nouă luni fără cuvinte",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Nu mai pot tăcea",
+      "section_type": "chorus",
+      "start_ms": 126980,
+      "end_ms": 154420,
+      "key_line": "Nu mai pot tăcea",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 172760,
+      "end_ms": 186600,
+      "key_line": "Răsăritul vine de sus",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Nu mai pot tăcea!",
+      "section_type": "chorus",
+      "start_ms": 187600,
+      "end_ms": 213600,
+      "key_line": "Nu mai pot tăcea!",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/romanian/42_luke_01_1-5_transcript.json"
 }

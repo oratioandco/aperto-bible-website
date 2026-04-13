@@ -7,250 +7,1121 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 129600,
   "audio_file": "/audio/songs/luke_01/maltese/Luke 1_46-56 — Ħadd Ma Rani— Maltese.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.181079+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.008905+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.356,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 27000,
+      "end_ms": 35420,
       "lines": [
         {
           "text": "Jien dik li ma tidhirx fir-ritratti",
-          "start_ms": 6000,
-          "end_ms": 8800
+          "start_ms": 27000,
+          "end_ms": 36120,
+          "words": [
+            {
+              "word": "Jien",
+              "start_ms": 27000,
+              "end_ms": 27300,
+              "estimated": true
+            },
+            {
+              "word": "dik",
+              "start_ms": 27350,
+              "end_ms": 27650,
+              "estimated": true
+            },
+            {
+              "word": "li",
+              "start_ms": 27700,
+              "end_ms": 28000,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "tidhirx",
+              "start_ms": 35470,
+              "end_ms": 35770,
+              "estimated": true
+            },
+            {
+              "word": "fir-ritratti",
+              "start_ms": 35820,
+              "end_ms": 36120,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jien dik li tpoġġiet wara l-bieb",
-          "start_ms": 8800,
-          "end_ms": 11360
+          "start_ms": 35420,
+          "end_ms": 34940,
+          "words": [
+            {
+              "word": "Jien",
+              "start_ms": 35420,
+              "end_ms": 35720,
+              "estimated": true
+            },
+            {
+              "word": "dik",
+              "start_ms": 35770,
+              "end_ms": 36070,
+              "estimated": true
+            },
+            {
+              "word": "li",
+              "start_ms": 36120,
+              "end_ms": 36420,
+              "estimated": true
+            },
+            {
+              "word": "tpoġġiet",
+              "start_ms": 36470,
+              "end_ms": 36770,
+              "estimated": true
+            },
+            {
+              "word": "wara",
+              "start_ms": 33960,
+              "end_ms": 34590
+            },
+            {
+              "word": "l-bieb",
+              "start_ms": 34640,
+              "end_ms": 34940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Iż-żgħira",
-          "start_ms": 11360,
-          "end_ms": 13360
+          "start_ms": 35040,
+          "end_ms": 35340,
+          "words": [
+            {
+              "word": "Iż-żgħira",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Li isimha ma jfisser xejn għal ħadd",
-          "start_ms": 13360,
-          "end_ms": 16160
+          "start_ms": 35040,
+          "end_ms": 30880,
+          "words": [
+            {
+              "word": "Li",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "isimha",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "jfisser",
+              "start_ms": 35470,
+              "end_ms": 35770,
+              "estimated": true
+            },
+            {
+              "word": "xejn",
+              "start_ms": 35820,
+              "end_ms": 36120,
+              "estimated": true
+            },
+            {
+              "word": "għal",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ħadd",
+              "start_ms": 30250,
+              "end_ms": 30880
+            }
+          ]
         },
         {
           "text": "Imma llum fommi miftuħ",
-          "start_ms": 16160,
-          "end_ms": 18160
+          "start_ms": 29020,
+          "end_ms": 36120,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 29020,
+              "end_ms": 29700
+            },
+            {
+              "word": "llum",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "fommi",
+              "start_ms": 35470,
+              "end_ms": 35770,
+              "estimated": true
+            },
+            {
+              "word": "miftuħ",
+              "start_ms": 35820,
+              "end_ms": 36120,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "U l-kliem ġejjin bħal ilma",
-          "start_ms": 18160,
-          "end_ms": 20240
+          "start_ms": 35420,
+          "end_ms": 35420,
+          "words": [
+            {
+              "word": "U",
+              "start_ms": 35420,
+              "end_ms": 35720,
+              "estimated": true
+            },
+            {
+              "word": "l-kliem",
+              "start_ms": 35770,
+              "end_ms": 36070,
+              "estimated": true
+            },
+            {
+              "word": "ġejjin",
+              "start_ms": 36120,
+              "end_ms": 36420,
+              "estimated": true
+            },
+            {
+              "word": "bħal",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ilma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 20240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 32020,
+      "end_ms": 34310,
       "lines": [
         {
           "text": "Ħadd ma rani",
-          "start_ms": 23240,
-          "end_ms": 25240
+          "start_ms": 32020,
+          "end_ms": 34590,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "rani",
+              "start_ms": 33960,
+              "end_ms": 34590
+            }
+          ]
         },
         {
           "text": "Ħadd ma rani",
-          "start_ms": 25240,
-          "end_ms": 27240
+          "start_ms": 32020,
+          "end_ms": 34590,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "rani",
+              "start_ms": 33960,
+              "end_ms": 34590
+            }
+          ]
         },
         {
           "text": "Imma issa qed jisimgħuni",
-          "start_ms": 27240,
-          "end_ms": 29240
+          "start_ms": 35040,
+          "end_ms": 36470,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "issa",
+              "start_ms": 35470,
+              "end_ms": 35770,
+              "estimated": true
+            },
+            {
+              "word": "qed",
+              "start_ms": 35820,
+              "end_ms": 36120,
+              "estimated": true
+            },
+            {
+              "word": "jisimgħuni",
+              "start_ms": 36170,
+              "end_ms": 36470,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ħadd ma rani",
-          "start_ms": 29240,
-          "end_ms": 31240
+          "start_ms": 32020,
+          "end_ms": 34590,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "rani",
+              "start_ms": 33960,
+              "end_ms": 34590
+            }
+          ]
         },
         {
           "text": "Imma issa rajt kollox",
-          "start_ms": 31240,
-          "end_ms": 33240
+          "start_ms": 35040,
+          "end_ms": 34310,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "issa",
+              "start_ms": 35470,
+              "end_ms": 35770,
+              "estimated": true
+            },
+            {
+              "word": "rajt",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "kollox",
+              "start_ms": 34010,
+              "end_ms": 34310,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 23240,
-      "end_ms": 33240
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 30250,
+      "end_ms": 31070,
       "lines": [
         {
           "text": "Rajt is-setgħana bilqiegħda fuq it-tronijiet",
-          "start_ms": 36240,
-          "end_ms": 39760
+          "start_ms": 30250,
+          "end_ms": 32280,
+          "words": [
+            {
+              "word": "Rajt",
+              "start_ms": 30250,
+              "end_ms": 30880
+            },
+            {
+              "word": "is-setgħana",
+              "start_ms": 30930,
+              "end_ms": 31230,
+              "estimated": true
+            },
+            {
+              "word": "bilqiegħda",
+              "start_ms": 31280,
+              "end_ms": 31580,
+              "estimated": true
+            },
+            {
+              "word": "fuq",
+              "start_ms": 31630,
+              "end_ms": 31930,
+              "estimated": true
+            },
+            {
+              "word": "it-tronijiet",
+              "start_ms": 31980,
+              "end_ms": 32280,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jaħsbu li għal dejjem",
-          "start_ms": 39760,
-          "end_ms": 41760
+          "start_ms": 30880,
+          "end_ms": 29370,
+          "words": [
+            {
+              "word": "Jaħsbu",
+              "start_ms": 30880,
+              "end_ms": 31180,
+              "estimated": true
+            },
+            {
+              "word": "li",
+              "start_ms": 31230,
+              "end_ms": 31530,
+              "estimated": true
+            },
+            {
+              "word": "għal",
+              "start_ms": 28400,
+              "end_ms": 29020
+            },
+            {
+              "word": "dejjem",
+              "start_ms": 29070,
+              "end_ms": 29370,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Rajt il-ġijana jħabbtu wiċċhom mal-art",
-          "start_ms": 41760,
-          "end_ms": 44800
+          "start_ms": 30250,
+          "end_ms": 31580,
+          "words": [
+            {
+              "word": "Rajt",
+              "start_ms": 30250,
+              "end_ms": 30880
+            },
+            {
+              "word": "il-ġijana",
+              "start_ms": 30930,
+              "end_ms": 31230,
+              "estimated": true
+            },
+            {
+              "word": "jħabbtu",
+              "start_ms": 30250,
+              "end_ms": 30880
+            },
+            {
+              "word": "wiċċhom",
+              "start_ms": 30930,
+              "end_ms": 31230,
+              "estimated": true
+            },
+            {
+              "word": "mal-art",
+              "start_ms": 31280,
+              "end_ms": 31580,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jaħsbu li għal dejjem wkoll",
-          "start_ms": 44800,
-          "end_ms": 46960
+          "start_ms": 30880,
+          "end_ms": 29720,
+          "words": [
+            {
+              "word": "Jaħsbu",
+              "start_ms": 30880,
+              "end_ms": 31180,
+              "estimated": true
+            },
+            {
+              "word": "li",
+              "start_ms": 31230,
+              "end_ms": 31530,
+              "estimated": true
+            },
+            {
+              "word": "għal",
+              "start_ms": 28400,
+              "end_ms": 29020
+            },
+            {
+              "word": "dejjem",
+              "start_ms": 29070,
+              "end_ms": 29370,
+              "estimated": true
+            },
+            {
+              "word": "wkoll",
+              "start_ms": 29420,
+              "end_ms": 29720,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Imma xejn mhu għal dejjem",
-          "start_ms": 46960,
-          "end_ms": 48960
+          "start_ms": 29020,
+          "end_ms": 29370,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 29020,
+              "end_ms": 29700
+            },
+            {
+              "word": "xejn",
+              "start_ms": 29750,
+              "end_ms": 30050,
+              "estimated": true
+            },
+            {
+              "word": "mhu",
+              "start_ms": 30100,
+              "end_ms": 30400,
+              "estimated": true
+            },
+            {
+              "word": "għal",
+              "start_ms": 28400,
+              "end_ms": 29020
+            },
+            {
+              "word": "dejjem",
+              "start_ms": 29070,
+              "end_ms": 29370,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ħlief il-pattern ta' kif kollox jinqaleb",
-          "start_ms": 48960,
-          "end_ms": 52160
+          "start_ms": 29020,
+          "end_ms": 31070,
+          "words": [
+            {
+              "word": "Ħlief",
+              "start_ms": 29020,
+              "end_ms": 29320,
+              "estimated": true
+            },
+            {
+              "word": "il-pattern",
+              "start_ms": 29370,
+              "end_ms": 29670,
+              "estimated": true
+            },
+            {
+              "word": "ta'",
+              "start_ms": 29720,
+              "end_ms": 30020,
+              "estimated": true
+            },
+            {
+              "word": "kif",
+              "start_ms": 30070,
+              "end_ms": 30370,
+              "estimated": true
+            },
+            {
+              "word": "kollox",
+              "start_ms": 30420,
+              "end_ms": 30720,
+              "estimated": true
+            },
+            {
+              "word": "jinqaleb",
+              "start_ms": 30770,
+              "end_ms": 31070,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 36240,
-      "end_ms": 52160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 30250,
+      "end_ms": 36740,
       "lines": [
         {
           "text": "Ħadd ma rani",
-          "start_ms": 55160,
-          "end_ms": 57160
+          "start_ms": 30250,
+          "end_ms": 34590,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 30250,
+              "end_ms": 30880
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "rani",
+              "start_ms": 33960,
+              "end_ms": 34590
+            }
+          ]
         },
         {
           "text": "Ħadd ma rani",
-          "start_ms": 57160,
-          "end_ms": 59160
+          "start_ms": 32020,
+          "end_ms": 34590,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "rani",
+              "start_ms": 33960,
+              "end_ms": 34590
+            }
+          ]
         },
         {
           "text": "Imma issa s-setgħana qed jaraw lili",
-          "start_ms": 59160,
-          "end_ms": 61960
+          "start_ms": 35040,
+          "end_ms": 37170,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "issa",
+              "start_ms": 35470,
+              "end_ms": 35770,
+              "estimated": true
+            },
+            {
+              "word": "s-setgħana",
+              "start_ms": 35820,
+              "end_ms": 36120,
+              "estimated": true
+            },
+            {
+              "word": "qed",
+              "start_ms": 36170,
+              "end_ms": 36470,
+              "estimated": true
+            },
+            {
+              "word": "jaraw",
+              "start_ms": 36520,
+              "end_ms": 36820,
+              "estimated": true
+            },
+            {
+              "word": "lili",
+              "start_ms": 36870,
+              "end_ms": 37170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ħadd ma rani",
-          "start_ms": 61960,
-          "end_ms": 63960
+          "start_ms": 32020,
+          "end_ms": 34590,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 32020,
+              "end_ms": 33960
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "rani",
+              "start_ms": 33960,
+              "end_ms": 34590
+            }
+          ]
         },
         {
           "text": "U dak hu l-problema tagħhom",
-          "start_ms": 63960,
-          "end_ms": 66120
+          "start_ms": 35040,
+          "end_ms": 36740,
+          "words": [
+            {
+              "word": "U",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "dak",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            },
+            {
+              "word": "hu",
+              "start_ms": 35740,
+              "end_ms": 36040,
+              "estimated": true
+            },
+            {
+              "word": "l-problema",
+              "start_ms": 36090,
+              "end_ms": 36390,
+              "estimated": true
+            },
+            {
+              "word": "tagħhom",
+              "start_ms": 36440,
+              "end_ms": 36740,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 55160,
-      "end_ms": 66120
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 35040,
+      "end_ms": 46300,
       "lines": [
         {
           "text": "B'idejhom vojta",
-          "start_ms": 69120,
-          "end_ms": 71120
+          "start_ms": 35040,
+          "end_ms": 35690,
+          "words": [
+            {
+              "word": "B'idejhom",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "vojta",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "B'idejhom vojta",
-          "start_ms": 71120,
-          "end_ms": 73120
+          "start_ms": 35040,
+          "end_ms": 35690,
+          "words": [
+            {
+              "word": "B'idejhom",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "vojta",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Dawk li kellhom kollox",
-          "start_ms": 73120,
-          "end_ms": 75120
+          "start_ms": 35040,
+          "end_ms": 36390,
+          "words": [
+            {
+              "word": "Dawk",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "li",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            },
+            {
+              "word": "kellhom",
+              "start_ms": 35740,
+              "end_ms": 36040,
+              "estimated": true
+            },
+            {
+              "word": "kollox",
+              "start_ms": 36090,
+              "end_ms": 36390,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "B'idejhom vojta",
-          "start_ms": 75120,
-          "end_ms": 77120
+          "start_ms": 35040,
+          "end_ms": 35690,
+          "words": [
+            {
+              "word": "B'idejhom",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "vojta",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "U dawk li ma kellhom xejn",
-          "start_ms": 77120,
-          "end_ms": 79120
+          "start_ms": 35040,
+          "end_ms": 41890,
+          "words": [
+            {
+              "word": "U",
+              "start_ms": 35040,
+              "end_ms": 35340,
+              "estimated": true
+            },
+            {
+              "word": "dawk",
+              "start_ms": 35390,
+              "end_ms": 35690,
+              "estimated": true
+            },
+            {
+              "word": "li",
+              "start_ms": 35740,
+              "end_ms": 36040,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 35040,
+              "end_ms": 35420
+            },
+            {
+              "word": "kellhom",
+              "start_ms": 40880,
+              "end_ms": 41540
+            },
+            {
+              "word": "xejn",
+              "start_ms": 41590,
+              "end_ms": 41890,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Idejhom mimlija",
-          "start_ms": 79120,
-          "end_ms": 81120
+          "start_ms": 41540,
+          "end_ms": 46300,
+          "words": [
+            {
+              "word": "Idejhom",
+              "start_ms": 41540,
+              "end_ms": 41840,
+              "estimated": true
+            },
+            {
+              "word": "mimlija",
+              "start_ms": 45780,
+              "end_ms": 46300
+            }
+          ]
         }
-      ],
-      "start_ms": 69120,
-      "end_ms": 81120
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 46300,
+      "end_ms": 59020,
       "lines": [
         {
           "text": "Ħadd ma rani",
-          "start_ms": 84120,
-          "end_ms": 86120
+          "start_ms": 46300,
+          "end_ms": 44760,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 46300,
+              "end_ms": 46600,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 46650,
+              "end_ms": 46950,
+              "estimated": true
+            },
+            {
+              "word": "rani",
+              "start_ms": 43960,
+              "end_ms": 44760
+            }
+          ]
         },
         {
           "text": "Qatt ma rani",
-          "start_ms": 86120,
-          "end_ms": 88120
+          "start_ms": 44760,
+          "end_ms": 44760,
+          "words": [
+            {
+              "word": "Qatt",
+              "start_ms": 44760,
+              "end_ms": 45060,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 45110,
+              "end_ms": 45410,
+              "estimated": true
+            },
+            {
+              "word": "rani",
+              "start_ms": 43960,
+              "end_ms": 44760
+            }
+          ]
         },
         {
           "text": "Imma dan dejjem isir",
-          "start_ms": 88120,
-          "end_ms": 90120
+          "start_ms": 49560,
+          "end_ms": 53380,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 49560,
+              "end_ms": 50200
+            },
+            {
+              "word": "dan",
+              "start_ms": 50250,
+              "end_ms": 50550,
+              "estimated": true
+            },
+            {
+              "word": "dejjem",
+              "start_ms": 52400,
+              "end_ms": 53030
+            },
+            {
+              "word": "isir",
+              "start_ms": 53080,
+              "end_ms": 53380,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Il-kbar jinżlu",
-          "start_ms": 90120,
-          "end_ms": 92120
+          "start_ms": 53460,
+          "end_ms": 54110,
+          "words": [
+            {
+              "word": "Il-kbar",
+              "start_ms": 53460,
+              "end_ms": 53760,
+              "estimated": true
+            },
+            {
+              "word": "jinżlu",
+              "start_ms": 53810,
+              "end_ms": 54110,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Iż-żgħar jitilgħu",
-          "start_ms": 92120,
-          "end_ms": 94120
+          "start_ms": 53460,
+          "end_ms": 54110,
+          "words": [
+            {
+              "word": "Iż-żgħar",
+              "start_ms": 53460,
+              "end_ms": 53760,
+              "estimated": true
+            },
+            {
+              "word": "jitilgħu",
+              "start_ms": 53810,
+              "end_ms": 54110,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ħadd ma rani",
-          "start_ms": 94120,
-          "end_ms": 96120
+          "start_ms": 53460,
+          "end_ms": 55150,
+          "words": [
+            {
+              "word": "Ħadd",
+              "start_ms": 53460,
+              "end_ms": 53760,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 54320,
+              "end_ms": 54800
+            },
+            {
+              "word": "rani",
+              "start_ms": 54850,
+              "end_ms": 55150,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Imma jiena rajt kollox",
-          "start_ms": 96120,
-          "end_ms": 98120
+          "start_ms": 54320,
+          "end_ms": 59020,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 54320,
+              "end_ms": 54800
+            },
+            {
+              "word": "jiena",
+              "start_ms": 54850,
+              "end_ms": 55150,
+              "estimated": true
+            },
+            {
+              "word": "rajt",
+              "start_ms": 55200,
+              "end_ms": 55500,
+              "estimated": true
+            },
+            {
+              "word": "kollox",
+              "start_ms": 58480,
+              "end_ms": 59020
+            }
+          ]
         }
-      ],
-      "start_ms": 84120,
-      "end_ms": 98120
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 101120,
-          "end_ms": 103120
-        }
-      ],
-      "start_ms": 101120,
-      "end_ms": 103120
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ħadd ma rani",
+      "section_type": "chorus",
+      "start_ms": 32020,
+      "end_ms": 34310,
+      "key_line": "Ħadd ma rani",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Ħadd ma rani",
+      "section_type": "chorus",
+      "start_ms": 30250,
+      "end_ms": 36740,
+      "key_line": "Ħadd ma rani",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 35040,
+      "end_ms": 46300,
+      "key_line": "B'idejhom vojta",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ħadd ma rani",
+      "section_type": "chorus",
+      "start_ms": 46300,
+      "end_ms": 59020,
+      "key_line": "Ħadd ma rani",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/maltese/42_luke_01_1-46_transcript.json"
 }

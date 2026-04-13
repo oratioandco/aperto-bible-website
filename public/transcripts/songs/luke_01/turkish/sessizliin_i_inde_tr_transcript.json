@@ -7,149 +7,912 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 194520,
   "audio_file": "/audio/songs/luke_01/turkish/Sessizliğin İçinde (Luke 1_67-79) — Turkish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.417657+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.079355+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.912,
   "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 11420,
+      "end_ms": 37280,
+      "lines": [
+        {
+          "text": "Herkes konuşuyor — ben sustum",
+          "start_ms": 11420,
+          "end_ms": 19720,
+          "words": [
+            {
+              "word": "Herkes",
+              "start_ms": 11420,
+              "end_ms": 12820
+            },
+            {
+              "word": "konuşuyor",
+              "start_ms": 12820,
+              "end_ms": 14220
+            },
+            {
+              "word": "—",
+              "start_ms": 14270,
+              "end_ms": 14570,
+              "estimated": true
+            },
+            {
+              "word": "ben",
+              "start_ms": 14240,
+              "end_ms": 17380
+            },
+            {
+              "word": "sustum",
+              "start_ms": 17380,
+              "end_ms": 19720
+            }
+          ]
+        },
+        {
+          "text": "Herkes planlar yapıyor — ben bekledim",
+          "start_ms": 19720,
+          "end_ms": 27780,
+          "words": [
+            {
+              "word": "Herkes",
+              "start_ms": 19720,
+              "end_ms": 22100
+            },
+            {
+              "word": "planlar",
+              "start_ms": 22100,
+              "end_ms": 23300
+            },
+            {
+              "word": "yapıyor",
+              "start_ms": 23300,
+              "end_ms": 23980
+            },
+            {
+              "word": "—",
+              "start_ms": 24030,
+              "end_ms": 24330,
+              "estimated": true
+            },
+            {
+              "word": "ben",
+              "start_ms": 24280,
+              "end_ms": 25160
+            },
+            {
+              "word": "bekledim",
+              "start_ms": 25160,
+              "end_ms": 27780
+            }
+          ]
+        },
+        {
+          "text": "Dokuz ay boyunca tek kelime yok",
+          "start_ms": 27780,
+          "end_ms": 32380,
+          "words": [
+            {
+              "word": "Dokuz",
+              "start_ms": 27780,
+              "end_ms": 28980
+            },
+            {
+              "word": "ay",
+              "start_ms": 28980,
+              "end_ms": 29240
+            },
+            {
+              "word": "boyunca",
+              "start_ms": 29240,
+              "end_ms": 30160
+            },
+            {
+              "word": "tek",
+              "start_ms": 30160,
+              "end_ms": 30640
+            },
+            {
+              "word": "kelime",
+              "start_ms": 30640,
+              "end_ms": 31560
+            },
+            {
+              "word": "yok",
+              "start_ms": 31560,
+              "end_ms": 32380
+            }
+          ]
+        },
+        {
+          "text": "Sadece nefes — sadece zaman",
+          "start_ms": 32380,
+          "end_ms": 37280,
+          "words": [
+            {
+              "word": "Sadece",
+              "start_ms": 32380,
+              "end_ms": 33420
+            },
+            {
+              "word": "nefes",
+              "start_ms": 33420,
+              "end_ms": 34760
+            },
+            {
+              "word": "—",
+              "start_ms": 34810,
+              "end_ms": 35110,
+              "estimated": true
+            },
+            {
+              "word": "sadece",
+              "start_ms": 32380,
+              "end_ms": 33420
+            },
+            {
+              "word": "zaman",
+              "start_ms": 35920,
+              "end_ms": 37280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 39480,
+      "end_ms": 57580,
+      "lines": [
+        {
+          "text": "İlk hafta öfkelendim",
+          "start_ms": 39480,
+          "end_ms": 44180,
+          "words": [
+            {
+              "word": "İlk",
+              "start_ms": 39480,
+              "end_ms": 40880
+            },
+            {
+              "word": "hafta",
+              "start_ms": 40880,
+              "end_ms": 41700
+            },
+            {
+              "word": "öfkelendim",
+              "start_ms": 41700,
+              "end_ms": 44180
+            }
+          ]
+        },
+        {
+          "text": "İkinci ayda alıştım",
+          "start_ms": 44180,
+          "end_ms": 47760,
+          "words": [
+            {
+              "word": "İkinci",
+              "start_ms": 44180,
+              "end_ms": 45340
+            },
+            {
+              "word": "ayda",
+              "start_ms": 45340,
+              "end_ms": 46260
+            },
+            {
+              "word": "alıştım",
+              "start_ms": 46260,
+              "end_ms": 47760
+            }
+          ]
+        },
+        {
+          "text": "Beşinci ayda anladım:",
+          "start_ms": 47760,
+          "end_ms": 51260,
+          "words": [
+            {
+              "word": "Beşinci",
+              "start_ms": 47760,
+              "end_ms": 48900
+            },
+            {
+              "word": "ayda",
+              "start_ms": 45340,
+              "end_ms": 46260
+            },
+            {
+              "word": "anladım:",
+              "start_ms": 49980,
+              "end_ms": 51260
+            }
+          ]
+        },
+        {
+          "text": "Ceza sandım — başka bir şeymiş",
+          "start_ms": 51260,
+          "end_ms": 57580,
+          "words": [
+            {
+              "word": "Ceza",
+              "start_ms": 51260,
+              "end_ms": 52100
+            },
+            {
+              "word": "sandım",
+              "start_ms": 52100,
+              "end_ms": 53780
+            },
+            {
+              "word": "—",
+              "start_ms": 53830,
+              "end_ms": 54130,
+              "estimated": true
+            },
+            {
+              "word": "başka",
+              "start_ms": 53780,
+              "end_ms": 54700
+            },
+            {
+              "word": "bir",
+              "start_ms": 54700,
+              "end_ms": 55560
+            },
+            {
+              "word": "şeymiş",
+              "start_ms": 55560,
+              "end_ms": 57580
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 57580,
+      "end_ms": 73540,
+      "lines": [
+        {
+          "text": "Sessizlik bir oda gibi",
+          "start_ms": 57580,
+          "end_ms": 62060,
+          "words": [
+            {
+              "word": "Sessizlik",
+              "start_ms": 57580,
+              "end_ms": 60140
+            },
+            {
+              "word": "bir",
+              "start_ms": 54700,
+              "end_ms": 55560
+            },
+            {
+              "word": "oda",
+              "start_ms": 60700,
+              "end_ms": 61140
+            },
+            {
+              "word": "gibi",
+              "start_ms": 61140,
+              "end_ms": 62060
+            }
+          ]
+        },
+        {
+          "text": "Boş bir oda — ama temiz",
+          "start_ms": 62060,
+          "end_ms": 65540,
+          "words": [
+            {
+              "word": "Boş",
+              "start_ms": 62060,
+              "end_ms": 62940
+            },
+            {
+              "word": "bir",
+              "start_ms": 62940,
+              "end_ms": 63300
+            },
+            {
+              "word": "oda",
+              "start_ms": 63300,
+              "end_ms": 64260
+            },
+            {
+              "word": "—",
+              "start_ms": 64310,
+              "end_ms": 64610,
+              "estimated": true
+            },
+            {
+              "word": "ama",
+              "start_ms": 64260,
+              "end_ms": 64800
+            },
+            {
+              "word": "temiz",
+              "start_ms": 64800,
+              "end_ms": 65540
+            }
+          ]
+        },
+        {
+          "text": "Ve o odada duydum",
+          "start_ms": 65540,
+          "end_ms": 68040,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 65540,
+              "end_ms": 65900
+            },
+            {
+              "word": "o",
+              "start_ms": 65950,
+              "end_ms": 66250,
+              "estimated": true
+            },
+            {
+              "word": "odada",
+              "start_ms": 65900,
+              "end_ms": 66640
+            },
+            {
+              "word": "duydum",
+              "start_ms": 66640,
+              "end_ms": 68040
+            }
+          ]
+        },
+        {
+          "text": "Daha önce hiç duymadığım şeyi",
+          "start_ms": 68040,
+          "end_ms": 73540,
+          "words": [
+            {
+              "word": "Daha",
+              "start_ms": 68040,
+              "end_ms": 68560
+            },
+            {
+              "word": "önce",
+              "start_ms": 68560,
+              "end_ms": 69180
+            },
+            {
+              "word": "hiç",
+              "start_ms": 69180,
+              "end_ms": 70520
+            },
+            {
+              "word": "duymadığım",
+              "start_ms": 70520,
+              "end_ms": 72720
+            },
+            {
+              "word": "şeyi",
+              "start_ms": 72720,
+              "end_ms": 73540
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 76320,
+      "end_ms": 98420,
       "lines": [
         {
           "text": "Işık geliyor",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 76320,
+          "end_ms": 78700,
+          "words": [
+            {
+              "word": "Işık",
+              "start_ms": 76320,
+              "end_ms": 77720
+            },
+            {
+              "word": "geliyor",
+              "start_ms": 77720,
+              "end_ms": 78700
+            }
+          ]
         },
         {
           "text": "Karanlıkta oturanlara",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 78700,
+          "end_ms": 82940,
+          "words": [
+            {
+              "word": "Karanlıkta",
+              "start_ms": 78700,
+              "end_ms": 81100
+            },
+            {
+              "word": "oturanlara",
+              "start_ms": 81100,
+              "end_ms": 82940
+            }
+          ]
         },
         {
           "text": "Işık geliyor",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 83540,
+          "end_ms": 86080,
+          "words": [
+            {
+              "word": "Işık",
+              "start_ms": 83540,
+              "end_ms": 84980
+            },
+            {
+              "word": "geliyor",
+              "start_ms": 84980,
+              "end_ms": 86080
+            }
+          ]
         },
         {
           "text": "Yolumuzu aydınlatacak",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 86080,
+          "end_ms": 91280,
+          "words": [
+            {
+              "word": "Yolumuzu",
+              "start_ms": 86080,
+              "end_ms": 87900
+            },
+            {
+              "word": "aydınlatacak",
+              "start_ms": 87900,
+              "end_ms": 91280
+            }
+          ]
         },
         {
           "text": "Işık geliyor — ve ben onu gördüm",
-          "start_ms": 14000,
-          "end_ms": 16560
+          "start_ms": 91280,
+          "end_ms": 98420,
+          "words": [
+            {
+              "word": "Işık",
+              "start_ms": 91280,
+              "end_ms": 92280
+            },
+            {
+              "word": "geliyor",
+              "start_ms": 92280,
+              "end_ms": 94040
+            },
+            {
+              "word": "—",
+              "start_ms": 94090,
+              "end_ms": 94390,
+              "estimated": true
+            },
+            {
+              "word": "ve",
+              "start_ms": 94040,
+              "end_ms": 94980
+            },
+            {
+              "word": "ben",
+              "start_ms": 94980,
+              "end_ms": 95480
+            },
+            {
+              "word": "onu",
+              "start_ms": 95480,
+              "end_ms": 95900
+            },
+            {
+              "word": "gördüm",
+              "start_ms": 95900,
+              "end_ms": 98420
+            }
+          ]
         },
         {
           "text": "Sessizliğin içinde gördüm",
-          "start_ms": 16560,
-          "end_ms": 18560
+          "start_ms": 98420,
+          "end_ms": 98420,
+          "words": [
+            {
+              "word": "Sessizliğin",
+              "start_ms": 98420,
+              "end_ms": 100500
+            },
+            {
+              "word": "içinde",
+              "start_ms": 100500,
+              "end_ms": 101520
+            },
+            {
+              "word": "gördüm",
+              "start_ms": 95900,
+              "end_ms": 98420
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 18560
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 105460,
+      "end_ms": 127520,
       "lines": [
         {
           "text": "Ve sen — küçük oğlum",
-          "start_ms": 21560,
-          "end_ms": 23560
+          "start_ms": 105460,
+          "end_ms": 107800,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 105460,
+              "end_ms": 105940
+            },
+            {
+              "word": "sen",
+              "start_ms": 105940,
+              "end_ms": 106500
+            },
+            {
+              "word": "—",
+              "start_ms": 106550,
+              "end_ms": 106850,
+              "estimated": true
+            },
+            {
+              "word": "küçük",
+              "start_ms": 106500,
+              "end_ms": 107020
+            },
+            {
+              "word": "oğlum",
+              "start_ms": 107020,
+              "end_ms": 107800
+            }
+          ]
         },
         {
           "text": "Daha dün doğdun",
-          "start_ms": 23560,
-          "end_ms": 25560
+          "start_ms": 107800,
+          "end_ms": 109680,
+          "words": [
+            {
+              "word": "Daha",
+              "start_ms": 107800,
+              "end_ms": 108340
+            },
+            {
+              "word": "dün",
+              "start_ms": 108340,
+              "end_ms": 108860
+            },
+            {
+              "word": "doğdun",
+              "start_ms": 108860,
+              "end_ms": 109680
+            }
+          ]
         },
         {
           "text": "Bir gün büyük işler yapacaksın",
-          "start_ms": 25560,
-          "end_ms": 27960
+          "start_ms": 109680,
+          "end_ms": 113140,
+          "words": [
+            {
+              "word": "Bir",
+              "start_ms": 109680,
+              "end_ms": 110040
+            },
+            {
+              "word": "gün",
+              "start_ms": 110040,
+              "end_ms": 110400
+            },
+            {
+              "word": "büyük",
+              "start_ms": 110400,
+              "end_ms": 110880
+            },
+            {
+              "word": "işler",
+              "start_ms": 110880,
+              "end_ms": 111880
+            },
+            {
+              "word": "yapacaksın",
+              "start_ms": 111880,
+              "end_ms": 113140
+            }
+          ]
         },
         {
           "text": "Ama şimdi",
-          "start_ms": 27960,
-          "end_ms": 29960
+          "start_ms": 113140,
+          "end_ms": 116700,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 113140,
+              "end_ms": 113520
+            },
+            {
+              "word": "şimdi",
+              "start_ms": 114660,
+              "end_ms": 116700
+            }
+          ]
         },
         {
           "text": "Şimdi sadece nefes alıyorsun",
-          "start_ms": 29960,
-          "end_ms": 32200
+          "start_ms": 114660,
+          "end_ms": 120800,
+          "words": [
+            {
+              "word": "Şimdi",
+              "start_ms": 114660,
+              "end_ms": 116700
+            },
+            {
+              "word": "sadece",
+              "start_ms": 116700,
+              "end_ms": 117700
+            },
+            {
+              "word": "nefes",
+              "start_ms": 117700,
+              "end_ms": 118560
+            },
+            {
+              "word": "alıyorsun",
+              "start_ms": 118560,
+              "end_ms": 120800
+            }
+          ]
         },
         {
           "text": "Ve bu yeterli",
-          "start_ms": 32200,
-          "end_ms": 34200
+          "start_ms": 120800,
+          "end_ms": 127520,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 120800,
+              "end_ms": 122540
+            },
+            {
+              "word": "bu",
+              "start_ms": 122540,
+              "end_ms": 122840
+            },
+            {
+              "word": "yeterli",
+              "start_ms": 122840,
+              "end_ms": 127520
+            }
+          ]
         }
-      ],
-      "start_ms": 21560,
-      "end_ms": 34200
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 127520,
+      "end_ms": 149800,
       "lines": [
         {
           "text": "Işık geliyor",
-          "start_ms": 37200,
-          "end_ms": 39200
+          "start_ms": 127520,
+          "end_ms": 129320,
+          "words": [
+            {
+              "word": "Işık",
+              "start_ms": 127520,
+              "end_ms": 128500
+            },
+            {
+              "word": "geliyor",
+              "start_ms": 128500,
+              "end_ms": 129320
+            }
+          ]
         },
         {
           "text": "Söz veriyorum — geliyor",
-          "start_ms": 39200,
-          "end_ms": 41200
+          "start_ms": 129320,
+          "end_ms": 129320,
+          "words": [
+            {
+              "word": "Söz",
+              "start_ms": 129320,
+              "end_ms": 130320
+            },
+            {
+              "word": "veriyorum",
+              "start_ms": 130320,
+              "end_ms": 132300
+            },
+            {
+              "word": "—",
+              "start_ms": 132350,
+              "end_ms": 132650,
+              "estimated": true
+            },
+            {
+              "word": "geliyor",
+              "start_ms": 128500,
+              "end_ms": 129320
+            }
+          ]
         },
         {
           "text": "Karanlık kalıcı değil",
-          "start_ms": 41200,
-          "end_ms": 43200
+          "start_ms": 134660,
+          "end_ms": 138240,
+          "words": [
+            {
+              "word": "Karanlık",
+              "start_ms": 134660,
+              "end_ms": 136640
+            },
+            {
+              "word": "kalıcı",
+              "start_ms": 136640,
+              "end_ms": 137440
+            },
+            {
+              "word": "değil",
+              "start_ms": 137440,
+              "end_ms": 138240
+            }
+          ]
         },
         {
           "text": "Sessizlik kalıcı değil",
-          "start_ms": 43200,
-          "end_ms": 45200
+          "start_ms": 138240,
+          "end_ms": 138240,
+          "words": [
+            {
+              "word": "Sessizlik",
+              "start_ms": 138240,
+              "end_ms": 140260
+            },
+            {
+              "word": "kalıcı",
+              "start_ms": 136640,
+              "end_ms": 137440
+            },
+            {
+              "word": "değil",
+              "start_ms": 137440,
+              "end_ms": 138240
+            }
+          ]
         },
         {
           "text": "Ama ışık — ışık kalıcı",
-          "start_ms": 45200,
-          "end_ms": 47200
+          "start_ms": 141800,
+          "end_ms": 149800,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 141800,
+              "end_ms": 142140
+            },
+            {
+              "word": "ışık",
+              "start_ms": 147820,
+              "end_ms": 148500
+            },
+            {
+              "word": "—",
+              "start_ms": 148550,
+              "end_ms": 148850,
+              "estimated": true
+            },
+            {
+              "word": "ışık",
+              "start_ms": 147820,
+              "end_ms": 148500
+            },
+            {
+              "word": "kalıcı",
+              "start_ms": 148500,
+              "end_ms": 149800
+            }
+          ]
         }
-      ],
-      "start_ms": 37200,
-      "end_ms": 47200
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 189040,
+      "end_ms": 190440,
       "lines": [
         {
           "text": "Geliyor",
-          "start_ms": 50200,
-          "end_ms": 52200
+          "start_ms": 189040,
+          "end_ms": 190440,
+          "words": [
+            {
+              "word": "Geliyor",
+              "start_ms": 189040,
+              "end_ms": 190440
+            }
+          ]
         }
-      ],
-      "start_ms": 50200,
-      "end_ms": 52200
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 55200,
-          "end_ms": 57200
-        }
-      ],
-      "start_ms": 55200,
-      "end_ms": 57200
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Sessizlik bir oda gibi",
+      "section_type": "chorus",
+      "start_ms": 57580,
+      "end_ms": 73540,
+      "key_line": "Sessizlik bir oda gibi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Işık geliyor",
+      "section_type": "chorus",
+      "start_ms": 76320,
+      "end_ms": 98420,
+      "key_line": "Işık geliyor",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 105460,
+      "end_ms": 127520,
+      "key_line": "Ve sen — küçük oğlum",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Işık geliyor",
+      "section_type": "chorus",
+      "start_ms": 127520,
+      "end_ms": 149800,
+      "key_line": "Işık geliyor",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/turkish/42_luke_01_1-67_transcript.json"
 }

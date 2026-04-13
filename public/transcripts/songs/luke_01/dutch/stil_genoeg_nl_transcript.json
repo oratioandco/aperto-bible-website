@@ -7,329 +7,1613 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 278120,
   "audio_file": "/audio/songs/luke_01/dutch/Luke 1_67-79 — _Stil genoeg_ (Dutch).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.781233+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.935906+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 1.0,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 24040,
+      "end_ms": 44580,
       "lines": [
         {
           "text": "Negen maanden zonder woorden",
-          "start_ms": 6000,
-          "end_ms": 8240
+          "start_ms": 24040,
+          "end_ms": 28300,
+          "words": [
+            {
+              "word": "Negen",
+              "start_ms": 24040,
+              "end_ms": 25440
+            },
+            {
+              "word": "maanden",
+              "start_ms": 25440,
+              "end_ms": 26100
+            },
+            {
+              "word": "zonder",
+              "start_ms": 26100,
+              "end_ms": 27320
+            },
+            {
+              "word": "woorden",
+              "start_ms": 27320,
+              "end_ms": 28300
+            }
+          ]
         },
         {
           "text": "Negen maanden zonder stem",
-          "start_ms": 8240,
-          "end_ms": 10240
+          "start_ms": 29860,
+          "end_ms": 33680,
+          "words": [
+            {
+              "word": "Negen",
+              "start_ms": 29860,
+              "end_ms": 30960
+            },
+            {
+              "word": "maanden",
+              "start_ms": 30960,
+              "end_ms": 31640
+            },
+            {
+              "word": "zonder",
+              "start_ms": 31640,
+              "end_ms": 32680
+            },
+            {
+              "word": "stem",
+              "start_ms": 32680,
+              "end_ms": 33680
+            }
+          ]
         },
         {
           "text": "Alleen het kloppen van mijn hart",
-          "start_ms": 10240,
-          "end_ms": 12800
+          "start_ms": 35080,
+          "end_ms": 39260,
+          "words": [
+            {
+              "word": "Alleen",
+              "start_ms": 35080,
+              "end_ms": 36180
+            },
+            {
+              "word": "het",
+              "start_ms": 36180,
+              "end_ms": 36460
+            },
+            {
+              "word": "kloppen",
+              "start_ms": 36460,
+              "end_ms": 37200
+            },
+            {
+              "word": "van",
+              "start_ms": 37200,
+              "end_ms": 37600
+            },
+            {
+              "word": "mijn",
+              "start_ms": 37600,
+              "end_ms": 38160
+            },
+            {
+              "word": "hart",
+              "start_ms": 38160,
+              "end_ms": 39260
+            }
+          ]
         },
         {
           "text": "En alles wat ik niet kon zeggen",
-          "start_ms": 12800,
-          "end_ms": 15280
+          "start_ms": 39260,
+          "end_ms": 44580,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 39260,
+              "end_ms": 40220
+            },
+            {
+              "word": "alles",
+              "start_ms": 40220,
+              "end_ms": 40520
+            },
+            {
+              "word": "wat",
+              "start_ms": 40520,
+              "end_ms": 40740
+            },
+            {
+              "word": "ik",
+              "start_ms": 40740,
+              "end_ms": 41140
+            },
+            {
+              "word": "niet",
+              "start_ms": 41140,
+              "end_ms": 42740
+            },
+            {
+              "word": "kon",
+              "start_ms": 42740,
+              "end_ms": 43740
+            },
+            {
+              "word": "zeggen",
+              "start_ms": 43740,
+              "end_ms": 44580
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 45860,
+      "end_ms": 59980,
       "lines": [
         {
           "text": "Ik dacht het was een straf",
-          "start_ms": 18280,
-          "end_ms": 20360
+          "start_ms": 45860,
+          "end_ms": 48570,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 45860,
+              "end_ms": 46960
+            },
+            {
+              "word": "dacht",
+              "start_ms": 46960,
+              "end_ms": 47240
+            },
+            {
+              "word": "het",
+              "start_ms": 47240,
+              "end_ms": 47420
+            },
+            {
+              "word": "was",
+              "start_ms": 47420,
+              "end_ms": 47720
+            },
+            {
+              "word": "een",
+              "start_ms": 47720,
+              "end_ms": 48020
+            },
+            {
+              "word": "straf",
+              "start_ms": 48020,
+              "end_ms": 48570
+            }
+          ]
         },
         {
           "text": "Ik dacht ik was vergeten",
-          "start_ms": 20360,
-          "end_ms": 22360
+          "start_ms": 49260,
+          "end_ms": 51300,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 49260,
+              "end_ms": 49760
+            },
+            {
+              "word": "dacht",
+              "start_ms": 49760,
+              "end_ms": 50020
+            },
+            {
+              "word": "ik",
+              "start_ms": 49260,
+              "end_ms": 49760
+            },
+            {
+              "word": "was",
+              "start_ms": 50220,
+              "end_ms": 50580
+            },
+            {
+              "word": "vergeten",
+              "start_ms": 50580,
+              "end_ms": 51300
+            }
+          ]
         },
         {
           "text": "Maar in de stilte groeide iets",
-          "start_ms": 22360,
-          "end_ms": 24760
+          "start_ms": 52200,
+          "end_ms": 55460,
+          "words": [
+            {
+              "word": "Maar",
+              "start_ms": 52200,
+              "end_ms": 52520
+            },
+            {
+              "word": "in",
+              "start_ms": 52520,
+              "end_ms": 52780
+            },
+            {
+              "word": "de",
+              "start_ms": 52780,
+              "end_ms": 53040
+            },
+            {
+              "word": "stilte",
+              "start_ms": 53040,
+              "end_ms": 53580
+            },
+            {
+              "word": "groeide",
+              "start_ms": 53580,
+              "end_ms": 54500
+            },
+            {
+              "word": "iets",
+              "start_ms": 54500,
+              "end_ms": 55460
+            }
+          ]
         },
         {
           "text": "Wat ik nooit had geweten",
-          "start_ms": 24760,
-          "end_ms": 26760
+          "start_ms": 55460,
+          "end_ms": 59980,
+          "words": [
+            {
+              "word": "Wat",
+              "start_ms": 55460,
+              "end_ms": 56540
+            },
+            {
+              "word": "ik",
+              "start_ms": 56540,
+              "end_ms": 56780
+            },
+            {
+              "word": "nooit",
+              "start_ms": 56780,
+              "end_ms": 57220
+            },
+            {
+              "word": "had",
+              "start_ms": 57220,
+              "end_ms": 57580
+            },
+            {
+              "word": "geweten",
+              "start_ms": 57580,
+              "end_ms": 59980
+            }
+          ]
         }
-      ],
-      "start_ms": 18280,
-      "end_ms": 26760
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 59980,
+      "end_ms": 67680,
       "lines": [
         {
           "text": "Soms moet je ophouden met praten",
-          "start_ms": 29760,
-          "end_ms": 32320
+          "start_ms": 59980,
+          "end_ms": 64500,
+          "words": [
+            {
+              "word": "Soms",
+              "start_ms": 59980,
+              "end_ms": 61360
+            },
+            {
+              "word": "moet",
+              "start_ms": 61360,
+              "end_ms": 61660
+            },
+            {
+              "word": "je",
+              "start_ms": 61660,
+              "end_ms": 61960
+            },
+            {
+              "word": "ophouden",
+              "start_ms": 61960,
+              "end_ms": 62900
+            },
+            {
+              "word": "met",
+              "start_ms": 62900,
+              "end_ms": 63220
+            },
+            {
+              "word": "praten",
+              "start_ms": 63220,
+              "end_ms": 64500
+            }
+          ]
         },
         {
           "text": "Om eindelijk te horen",
-          "start_ms": 32320,
-          "end_ms": 34320
+          "start_ms": 64500,
+          "end_ms": 67680,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 64500,
+              "end_ms": 64920
+            },
+            {
+              "word": "eindelijk",
+              "start_ms": 64920,
+              "end_ms": 65680
+            },
+            {
+              "word": "te",
+              "start_ms": 65680,
+              "end_ms": 66200
+            },
+            {
+              "word": "horen",
+              "start_ms": 66200,
+              "end_ms": 67680
+            }
+          ]
         }
-      ],
-      "start_ms": 29760,
-      "end_ms": 34320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 67680,
+      "end_ms": 110980,
       "lines": [
         {
           "text": "Stil genoeg, stil genoeg",
-          "start_ms": 37320,
-          "end_ms": 39320
+          "start_ms": 67680,
+          "end_ms": 70340,
+          "words": [
+            {
+              "word": "Stil",
+              "start_ms": 67680,
+              "end_ms": 68360
+            },
+            {
+              "word": "genoeg,",
+              "start_ms": 68360,
+              "end_ms": 70340
+            },
+            {
+              "word": "stil",
+              "start_ms": 67680,
+              "end_ms": 68360
+            },
+            {
+              "word": "genoeg",
+              "start_ms": 68360,
+              "end_ms": 70340
+            }
+          ]
         },
         {
           "text": "Om het licht te zien",
-          "start_ms": 39320,
-          "end_ms": 41320
+          "start_ms": 72800,
+          "end_ms": 75500,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 72800,
+              "end_ms": 72980
+            },
+            {
+              "word": "het",
+              "start_ms": 72980,
+              "end_ms": 73220
+            },
+            {
+              "word": "licht",
+              "start_ms": 73220,
+              "end_ms": 73760
+            },
+            {
+              "word": "te",
+              "start_ms": 73760,
+              "end_ms": 74280
+            },
+            {
+              "word": "zien",
+              "start_ms": 74280,
+              "end_ms": 75500
+            }
+          ]
         },
         {
           "text": "Stil genoeg, stil genoeg",
-          "start_ms": 41320,
-          "end_ms": 43320
+          "start_ms": 78619,
+          "end_ms": 81420,
+          "words": [
+            {
+              "word": "Stil",
+              "start_ms": 78619,
+              "end_ms": 80020
+            },
+            {
+              "word": "genoeg,",
+              "start_ms": 80020,
+              "end_ms": 81420
+            },
+            {
+              "word": "stil",
+              "start_ms": 78619,
+              "end_ms": 80020
+            },
+            {
+              "word": "genoeg",
+              "start_ms": 80020,
+              "end_ms": 81420
+            }
+          ]
         },
         {
           "text": "Om het te begrijpen",
-          "start_ms": 43320,
-          "end_ms": 45320
+          "start_ms": 83740,
+          "end_ms": 87740,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 83740,
+              "end_ms": 83940
+            },
+            {
+              "word": "het",
+              "start_ms": 83940,
+              "end_ms": 84180
+            },
+            {
+              "word": "te",
+              "start_ms": 84180,
+              "end_ms": 84840
+            },
+            {
+              "word": "begrijpen",
+              "start_ms": 84840,
+              "end_ms": 87740
+            }
+          ]
         },
         {
           "text": "Alles wat ik wilde zeggen",
-          "start_ms": 45320,
-          "end_ms": 47320
+          "start_ms": 87740,
+          "end_ms": 91660,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 87740,
+              "end_ms": 88760
+            },
+            {
+              "word": "wat",
+              "start_ms": 88760,
+              "end_ms": 89180
+            },
+            {
+              "word": "ik",
+              "start_ms": 89180,
+              "end_ms": 89500
+            },
+            {
+              "word": "wilde",
+              "start_ms": 89500,
+              "end_ms": 90380
+            },
+            {
+              "word": "zeggen",
+              "start_ms": 90380,
+              "end_ms": 91660
+            }
+          ]
         },
         {
           "text": "Smolt tot dit ene woord",
-          "start_ms": 47320,
-          "end_ms": 49320
+          "start_ms": 93740,
+          "end_ms": 99000,
+          "words": [
+            {
+              "word": "Smolt",
+              "start_ms": 93740,
+              "end_ms": 94520
+            },
+            {
+              "word": "tot",
+              "start_ms": 94520,
+              "end_ms": 94800
+            },
+            {
+              "word": "dit",
+              "start_ms": 94800,
+              "end_ms": 95080
+            },
+            {
+              "word": "ene",
+              "start_ms": 95080,
+              "end_ms": 96120
+            },
+            {
+              "word": "woord",
+              "start_ms": 96120,
+              "end_ms": 99000
+            }
+          ]
         },
         {
           "text": "Er komt licht, er komt licht",
-          "start_ms": 49320,
-          "end_ms": 51560
+          "start_ms": 99000,
+          "end_ms": 103740,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 99000,
+              "end_ms": 99840
+            },
+            {
+              "word": "komt",
+              "start_ms": 99840,
+              "end_ms": 100340
+            },
+            {
+              "word": "licht,",
+              "start_ms": 100340,
+              "end_ms": 100960
+            },
+            {
+              "word": "er",
+              "start_ms": 99000,
+              "end_ms": 99840
+            },
+            {
+              "word": "komt",
+              "start_ms": 99840,
+              "end_ms": 100340
+            },
+            {
+              "word": "licht",
+              "start_ms": 101700,
+              "end_ms": 103740
+            }
+          ]
         },
         {
           "text": "Uit de diepte van de nacht",
-          "start_ms": 51560,
-          "end_ms": 53640
+          "start_ms": 103740,
+          "end_ms": 110980,
+          "words": [
+            {
+              "word": "Uit",
+              "start_ms": 103740,
+              "end_ms": 104500
+            },
+            {
+              "word": "de",
+              "start_ms": 104500,
+              "end_ms": 104760
+            },
+            {
+              "word": "diepte",
+              "start_ms": 104760,
+              "end_ms": 106120
+            },
+            {
+              "word": "van",
+              "start_ms": 106120,
+              "end_ms": 106900
+            },
+            {
+              "word": "de",
+              "start_ms": 104500,
+              "end_ms": 104760
+            },
+            {
+              "word": "nacht",
+              "start_ms": 107400,
+              "end_ms": 110980
+            }
+          ]
         }
-      ],
-      "start_ms": 37320,
-      "end_ms": 53640
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 110980,
+      "end_ms": 130080,
       "lines": [
         {
           "text": "Mijn eerste woord was geen klacht",
-          "start_ms": 56640,
-          "end_ms": 59280
+          "start_ms": 110980,
+          "end_ms": 115840,
+          "words": [
+            {
+              "word": "Mijn",
+              "start_ms": 110980,
+              "end_ms": 111760
+            },
+            {
+              "word": "eerste",
+              "start_ms": 111760,
+              "end_ms": 112200
+            },
+            {
+              "word": "woord",
+              "start_ms": 112200,
+              "end_ms": 113040
+            },
+            {
+              "word": "was",
+              "start_ms": 113040,
+              "end_ms": 113400
+            },
+            {
+              "word": "geen",
+              "start_ms": 113400,
+              "end_ms": 114040
+            },
+            {
+              "word": "klacht",
+              "start_ms": 114040,
+              "end_ms": 115840
+            }
+          ]
         },
         {
           "text": "Geen verklaring, geen verwijt",
-          "start_ms": 59280,
-          "end_ms": 61600
+          "start_ms": 113400,
+          "end_ms": 120660,
+          "words": [
+            {
+              "word": "Geen",
+              "start_ms": 113400,
+              "end_ms": 114040
+            },
+            {
+              "word": "verklaring,",
+              "start_ms": 116840,
+              "end_ms": 117800
+            },
+            {
+              "word": "geen",
+              "start_ms": 115840,
+              "end_ms": 116840
+            },
+            {
+              "word": "verwijt",
+              "start_ms": 118300,
+              "end_ms": 120660
+            }
+          ]
         },
         {
           "text": "Maar iets dat groter was dan ik",
-          "start_ms": 61600,
-          "end_ms": 64080
+          "start_ms": 120660,
+          "end_ms": 125260,
+          "words": [
+            {
+              "word": "Maar",
+              "start_ms": 120660,
+              "end_ms": 122060
+            },
+            {
+              "word": "iets",
+              "start_ms": 122060,
+              "end_ms": 122320
+            },
+            {
+              "word": "dat",
+              "start_ms": 122320,
+              "end_ms": 122580
+            },
+            {
+              "word": "groter",
+              "start_ms": 122580,
+              "end_ms": 123300
+            },
+            {
+              "word": "was",
+              "start_ms": 123300,
+              "end_ms": 123620
+            },
+            {
+              "word": "dan",
+              "start_ms": 123620,
+              "end_ms": 123980
+            },
+            {
+              "word": "ik",
+              "start_ms": 123980,
+              "end_ms": 125260
+            }
+          ]
         },
         {
           "text": "Iets dat al die tijd daar was",
-          "start_ms": 64080,
-          "end_ms": 66400
+          "start_ms": 125260,
+          "end_ms": 130080,
+          "words": [
+            {
+              "word": "Iets",
+              "start_ms": 125260,
+              "end_ms": 125880
+            },
+            {
+              "word": "dat",
+              "start_ms": 125880,
+              "end_ms": 126140
+            },
+            {
+              "word": "al",
+              "start_ms": 126140,
+              "end_ms": 126500
+            },
+            {
+              "word": "die",
+              "start_ms": 126500,
+              "end_ms": 126820
+            },
+            {
+              "word": "tijd",
+              "start_ms": 126820,
+              "end_ms": 127900
+            },
+            {
+              "word": "daar",
+              "start_ms": 127900,
+              "end_ms": 129060
+            },
+            {
+              "word": "was",
+              "start_ms": 129060,
+              "end_ms": 130080
+            }
+          ]
         }
-      ],
-      "start_ms": 56640,
-      "end_ms": 66400
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 131840,
+      "end_ms": 139220,
       "lines": [
         {
           "text": "Soms moet je ophouden met zoeken",
-          "start_ms": 69400,
-          "end_ms": 71960
+          "start_ms": 131840,
+          "end_ms": 136020,
+          "words": [
+            {
+              "word": "Soms",
+              "start_ms": 131840,
+              "end_ms": 133120
+            },
+            {
+              "word": "moet",
+              "start_ms": 133120,
+              "end_ms": 133400
+            },
+            {
+              "word": "je",
+              "start_ms": 133400,
+              "end_ms": 133700
+            },
+            {
+              "word": "ophouden",
+              "start_ms": 133700,
+              "end_ms": 134640
+            },
+            {
+              "word": "met",
+              "start_ms": 134640,
+              "end_ms": 134980
+            },
+            {
+              "word": "zoeken",
+              "start_ms": 134980,
+              "end_ms": 136020
+            }
+          ]
         },
         {
           "text": "Om eindelijk te vinden",
-          "start_ms": 71960,
-          "end_ms": 73960
+          "start_ms": 136020,
+          "end_ms": 139220,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 136020,
+              "end_ms": 136580
+            },
+            {
+              "word": "eindelijk",
+              "start_ms": 136580,
+              "end_ms": 137380
+            },
+            {
+              "word": "te",
+              "start_ms": 137380,
+              "end_ms": 137900
+            },
+            {
+              "word": "vinden",
+              "start_ms": 137900,
+              "end_ms": 139220
+            }
+          ]
         }
-      ],
-      "start_ms": 69400,
-      "end_ms": 73960
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 139220,
+      "end_ms": 179840,
       "lines": [
         {
           "text": "Stil genoeg, stil genoeg",
-          "start_ms": 76960,
-          "end_ms": 78960
+          "start_ms": 139220,
+          "end_ms": 142200,
+          "words": [
+            {
+              "word": "Stil",
+              "start_ms": 139220,
+              "end_ms": 140080
+            },
+            {
+              "word": "genoeg,",
+              "start_ms": 140080,
+              "end_ms": 142200
+            },
+            {
+              "word": "stil",
+              "start_ms": 139220,
+              "end_ms": 140080
+            },
+            {
+              "word": "genoeg",
+              "start_ms": 140080,
+              "end_ms": 142200
+            }
+          ]
         },
         {
           "text": "Om het licht te zien",
-          "start_ms": 78960,
-          "end_ms": 80960
+          "start_ms": 144520,
+          "end_ms": 147100,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 144520,
+              "end_ms": 144700
+            },
+            {
+              "word": "het",
+              "start_ms": 144700,
+              "end_ms": 144960
+            },
+            {
+              "word": "licht",
+              "start_ms": 144960,
+              "end_ms": 145540
+            },
+            {
+              "word": "te",
+              "start_ms": 145540,
+              "end_ms": 145900
+            },
+            {
+              "word": "zien",
+              "start_ms": 145900,
+              "end_ms": 147100
+            }
+          ]
         },
         {
           "text": "Stil genoeg, stil genoeg",
-          "start_ms": 80960,
-          "end_ms": 82960
+          "start_ms": 150339,
+          "end_ms": 153140,
+          "words": [
+            {
+              "word": "Stil",
+              "start_ms": 150339,
+              "end_ms": 151739
+            },
+            {
+              "word": "genoeg,",
+              "start_ms": 151739,
+              "end_ms": 153140
+            },
+            {
+              "word": "stil",
+              "start_ms": 150339,
+              "end_ms": 151739
+            },
+            {
+              "word": "genoeg",
+              "start_ms": 151739,
+              "end_ms": 153140
+            }
+          ]
         },
         {
           "text": "Om het te begrijpen",
-          "start_ms": 82960,
-          "end_ms": 84960
+          "start_ms": 155520,
+          "end_ms": 159240,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 155520,
+              "end_ms": 155720
+            },
+            {
+              "word": "het",
+              "start_ms": 155720,
+              "end_ms": 155940
+            },
+            {
+              "word": "te",
+              "start_ms": 155940,
+              "end_ms": 156880
+            },
+            {
+              "word": "begrijpen",
+              "start_ms": 156880,
+              "end_ms": 159240
+            }
+          ]
         },
         {
           "text": "Alles wat ik wilde roepen",
-          "start_ms": 84960,
-          "end_ms": 86960
+          "start_ms": 159240,
+          "end_ms": 165560,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 159240,
+              "end_ms": 160480
+            },
+            {
+              "word": "wat",
+              "start_ms": 160480,
+              "end_ms": 160880
+            },
+            {
+              "word": "ik",
+              "start_ms": 160880,
+              "end_ms": 161300
+            },
+            {
+              "word": "wilde",
+              "start_ms": 161300,
+              "end_ms": 161900
+            },
+            {
+              "word": "roepen",
+              "start_ms": 161900,
+              "end_ms": 165560
+            }
+          ]
         },
         {
           "text": "Smolt tot dit ene woord",
-          "start_ms": 86960,
-          "end_ms": 88960
+          "start_ms": 165560,
+          "end_ms": 170240,
+          "words": [
+            {
+              "word": "Smolt",
+              "start_ms": 165560,
+              "end_ms": 166240
+            },
+            {
+              "word": "tot",
+              "start_ms": 166240,
+              "end_ms": 166520
+            },
+            {
+              "word": "dit",
+              "start_ms": 166520,
+              "end_ms": 166900
+            },
+            {
+              "word": "ene",
+              "start_ms": 166900,
+              "end_ms": 167880
+            },
+            {
+              "word": "woord",
+              "start_ms": 167880,
+              "end_ms": 170240
+            }
+          ]
         },
         {
           "text": "Er komt licht, er komt licht",
-          "start_ms": 88960,
-          "end_ms": 91200
+          "start_ms": 170240,
+          "end_ms": 175520,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 170240,
+              "end_ms": 171600
+            },
+            {
+              "word": "komt",
+              "start_ms": 171600,
+              "end_ms": 172060
+            },
+            {
+              "word": "licht,",
+              "start_ms": 172060,
+              "end_ms": 172660
+            },
+            {
+              "word": "er",
+              "start_ms": 170240,
+              "end_ms": 171600
+            },
+            {
+              "word": "komt",
+              "start_ms": 171600,
+              "end_ms": 172060
+            },
+            {
+              "word": "licht",
+              "start_ms": 173440,
+              "end_ms": 175520
+            }
+          ]
         },
         {
           "text": "Uit de diepte van de nacht",
-          "start_ms": 91200,
-          "end_ms": 93280
+          "start_ms": 175520,
+          "end_ms": 179840,
+          "words": [
+            {
+              "word": "Uit",
+              "start_ms": 175520,
+              "end_ms": 176280
+            },
+            {
+              "word": "de",
+              "start_ms": 176280,
+              "end_ms": 176460
+            },
+            {
+              "word": "diepte",
+              "start_ms": 176460,
+              "end_ms": 177880
+            },
+            {
+              "word": "van",
+              "start_ms": 177880,
+              "end_ms": 178640
+            },
+            {
+              "word": "de",
+              "start_ms": 176280,
+              "end_ms": 176460
+            },
+            {
+              "word": "nacht",
+              "start_ms": 179100,
+              "end_ms": 179840
+            }
+          ]
         }
-      ],
-      "start_ms": 76960,
-      "end_ms": 93280
+      ]
     },
     {
       "type": "verse",
       "label": "Solo voice, near whisper",
+      "start_ms": 197760,
+      "end_ms": 214560,
       "lines": [
         {
           "text": "En nu zet ik mijn voeten",
-          "start_ms": 96280,
-          "end_ms": 98280
+          "start_ms": 197760,
+          "end_ms": 200560,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 197760,
+              "end_ms": 198620
+            },
+            {
+              "word": "nu",
+              "start_ms": 198620,
+              "end_ms": 198840
+            },
+            {
+              "word": "zet",
+              "start_ms": 198840,
+              "end_ms": 199220
+            },
+            {
+              "word": "ik",
+              "start_ms": 199220,
+              "end_ms": 199520
+            },
+            {
+              "word": "mijn",
+              "start_ms": 199520,
+              "end_ms": 199800
+            },
+            {
+              "word": "voeten",
+              "start_ms": 199800,
+              "end_ms": 200560
+            }
+          ]
         },
         {
           "text": "Op een weg die ik niet ken",
-          "start_ms": 98280,
-          "end_ms": 100360
+          "start_ms": 200560,
+          "end_ms": 203220,
+          "words": [
+            {
+              "word": "Op",
+              "start_ms": 200560,
+              "end_ms": 201020
+            },
+            {
+              "word": "een",
+              "start_ms": 201020,
+              "end_ms": 201280
+            },
+            {
+              "word": "weg",
+              "start_ms": 201280,
+              "end_ms": 201500
+            },
+            {
+              "word": "die",
+              "start_ms": 201500,
+              "end_ms": 201960
+            },
+            {
+              "word": "ik",
+              "start_ms": 201960,
+              "end_ms": 202260
+            },
+            {
+              "word": "niet",
+              "start_ms": 202260,
+              "end_ms": 202640
+            },
+            {
+              "word": "ken",
+              "start_ms": 202640,
+              "end_ms": 203220
+            }
+          ]
         },
         {
           "text": "Maar ik weet waar hij naartoe gaat",
-          "start_ms": 100360,
-          "end_ms": 103080
+          "start_ms": 203220,
+          "end_ms": 206320,
+          "words": [
+            {
+              "word": "Maar",
+              "start_ms": 203220,
+              "end_ms": 203720
+            },
+            {
+              "word": "ik",
+              "start_ms": 203720,
+              "end_ms": 204120
+            },
+            {
+              "word": "weet",
+              "start_ms": 204120,
+              "end_ms": 204480
+            },
+            {
+              "word": "waar",
+              "start_ms": 204480,
+              "end_ms": 204780
+            },
+            {
+              "word": "hij",
+              "start_ms": 204780,
+              "end_ms": 205120
+            },
+            {
+              "word": "naartoe",
+              "start_ms": 205120,
+              "end_ms": 205340
+            },
+            {
+              "word": "gaat",
+              "start_ms": 205720,
+              "end_ms": 206320
+            }
+          ]
         },
         {
           "text": "Het enige wat overblijft",
-          "start_ms": 103080,
-          "end_ms": 105080
+          "start_ms": 206320,
+          "end_ms": 210760,
+          "words": [
+            {
+              "word": "Het",
+              "start_ms": 206320,
+              "end_ms": 207120
+            },
+            {
+              "word": "enige",
+              "start_ms": 207120,
+              "end_ms": 207980
+            },
+            {
+              "word": "wat",
+              "start_ms": 207980,
+              "end_ms": 208300
+            },
+            {
+              "word": "overblijft",
+              "start_ms": 208300,
+              "end_ms": 210760
+            }
+          ]
         },
         {
           "text": "Is vrede",
-          "start_ms": 105080,
-          "end_ms": 107080
+          "start_ms": 210760,
+          "end_ms": 214560,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 210760,
+              "end_ms": 212080
+            },
+            {
+              "word": "vrede",
+              "start_ms": 212080,
+              "end_ms": 214560
+            }
+          ]
         }
-      ],
-      "start_ms": 96280,
-      "end_ms": 107080
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 217199,
+      "end_ms": 256659,
       "lines": [
         {
           "text": "Stil genoeg, stil genoeg",
-          "start_ms": 110080,
-          "end_ms": 112080
+          "start_ms": 217199,
+          "end_ms": 218920,
+          "words": [
+            {
+              "word": "Stil",
+              "start_ms": 217199,
+              "end_ms": 218059
+            },
+            {
+              "word": "genoeg,",
+              "start_ms": 218059,
+              "end_ms": 218920
+            },
+            {
+              "word": "stil",
+              "start_ms": 217199,
+              "end_ms": 218059
+            },
+            {
+              "word": "genoeg",
+              "start_ms": 218059,
+              "end_ms": 218920
+            }
+          ]
         },
         {
           "text": "En het licht breekt door",
-          "start_ms": 112080,
-          "end_ms": 114080
+          "start_ms": 221420,
+          "end_ms": 223380,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 221420,
+              "end_ms": 221660
+            },
+            {
+              "word": "het",
+              "start_ms": 221660,
+              "end_ms": 221840
+            },
+            {
+              "word": "licht",
+              "start_ms": 221840,
+              "end_ms": 222140
+            },
+            {
+              "word": "breekt",
+              "start_ms": 222140,
+              "end_ms": 222840
+            },
+            {
+              "word": "door",
+              "start_ms": 222840,
+              "end_ms": 223380
+            }
+          ]
         },
         {
           "text": "Stil genoeg, stil genoeg",
-          "start_ms": 114080,
-          "end_ms": 116080
+          "start_ms": 227640,
+          "end_ms": 230120,
+          "words": [
+            {
+              "word": "Stil",
+              "start_ms": 227640,
+              "end_ms": 228880
+            },
+            {
+              "word": "genoeg,",
+              "start_ms": 228880,
+              "end_ms": 230120
+            },
+            {
+              "word": "stil",
+              "start_ms": 227640,
+              "end_ms": 228880
+            },
+            {
+              "word": "genoeg",
+              "start_ms": 228880,
+              "end_ms": 230120
+            }
+          ]
         },
         {
           "text": "En ik spreek weer",
-          "start_ms": 116080,
-          "end_ms": 118080
+          "start_ms": 232500,
+          "end_ms": 236380,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 232500,
+              "end_ms": 232900
+            },
+            {
+              "word": "ik",
+              "start_ms": 232900,
+              "end_ms": 233260
+            },
+            {
+              "word": "spreek",
+              "start_ms": 233260,
+              "end_ms": 233880
+            },
+            {
+              "word": "weer",
+              "start_ms": 233880,
+              "end_ms": 236380
+            }
+          ]
         },
         {
           "text": "Alles wat de stilte leerde",
-          "start_ms": 118080,
-          "end_ms": 120160
+          "start_ms": 236960,
+          "end_ms": 240380,
+          "words": [
+            {
+              "word": "Alles",
+              "start_ms": 236960,
+              "end_ms": 237580
+            },
+            {
+              "word": "wat",
+              "start_ms": 237580,
+              "end_ms": 237960
+            },
+            {
+              "word": "de",
+              "start_ms": 237960,
+              "end_ms": 238340
+            },
+            {
+              "word": "stilte",
+              "start_ms": 238340,
+              "end_ms": 239060
+            },
+            {
+              "word": "leerde",
+              "start_ms": 239060,
+              "end_ms": 240380
+            }
+          ]
         },
         {
           "text": "Draag ik in mijn stem",
-          "start_ms": 120160,
-          "end_ms": 122160
+          "start_ms": 241739,
+          "end_ms": 244760,
+          "words": [
+            {
+              "word": "Draag",
+              "start_ms": 241739,
+              "end_ms": 242980
+            },
+            {
+              "word": "ik",
+              "start_ms": 242980,
+              "end_ms": 243180
+            },
+            {
+              "word": "in",
+              "start_ms": 243180,
+              "end_ms": 243500
+            },
+            {
+              "word": "mijn",
+              "start_ms": 243500,
+              "end_ms": 243840
+            },
+            {
+              "word": "stem",
+              "start_ms": 243840,
+              "end_ms": 244760
+            }
+          ]
         },
         {
           "text": "Er is licht, er is licht",
-          "start_ms": 122160,
-          "end_ms": 124160
+          "start_ms": 247380,
+          "end_ms": 251660,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 247380,
+              "end_ms": 248620
+            },
+            {
+              "word": "is",
+              "start_ms": 248620,
+              "end_ms": 249140
+            },
+            {
+              "word": "licht,",
+              "start_ms": 249140,
+              "end_ms": 249680
+            },
+            {
+              "word": "er",
+              "start_ms": 247380,
+              "end_ms": 248620
+            },
+            {
+              "word": "is",
+              "start_ms": 248620,
+              "end_ms": 249140
+            },
+            {
+              "word": "licht",
+              "start_ms": 250480,
+              "end_ms": 251660
+            }
+          ]
         },
         {
           "text": "Op de weg naar vrede",
-          "start_ms": 124160,
-          "end_ms": 126160
+          "start_ms": 251660,
+          "end_ms": 256659,
+          "words": [
+            {
+              "word": "Op",
+              "start_ms": 251660,
+              "end_ms": 253300
+            },
+            {
+              "word": "de",
+              "start_ms": 253300,
+              "end_ms": 253580
+            },
+            {
+              "word": "weg",
+              "start_ms": 253580,
+              "end_ms": 254260
+            },
+            {
+              "word": "naar",
+              "start_ms": 254260,
+              "end_ms": 254640
+            },
+            {
+              "word": "vrede",
+              "start_ms": 254640,
+              "end_ms": 256659
+            }
+          ]
         }
-      ],
-      "start_ms": 110080,
-      "end_ms": 126160
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "```",
-          "start_ms": 129160,
-          "end_ms": 131160
-        },
-        {
-          "text": "---",
-          "start_ms": 131160,
-          "end_ms": 133160
-        }
-      ],
-      "start_ms": 129160,
-      "end_ms": 133160
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Soms moet je ophouden met prat...",
+      "section_type": "chorus",
+      "start_ms": 59980,
+      "end_ms": 67680,
+      "key_line": "Soms moet je ophouden met praten",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Stil genoeg, stil genoeg",
+      "section_type": "chorus",
+      "start_ms": 67680,
+      "end_ms": 110980,
+      "key_line": "Stil genoeg, stil genoeg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Soms moet je ophouden met zoek...",
+      "section_type": "chorus",
+      "start_ms": 131840,
+      "end_ms": 139220,
+      "key_line": "Soms moet je ophouden met zoeken",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Stil genoeg, stil genoeg",
+      "section_type": "chorus",
+      "start_ms": 139220,
+      "end_ms": 179840,
+      "key_line": "Stil genoeg, stil genoeg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Stil genoeg, stil genoeg",
+      "section_type": "chorus",
+      "start_ms": 217199,
+      "end_ms": 256659,
+      "key_line": "Stil genoeg, stil genoeg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/dutch/42_luke_01_1-67_transcript.json"
 }

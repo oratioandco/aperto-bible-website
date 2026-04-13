@@ -7,278 +7,1143 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 176360,
   "audio_file": "/audio/songs/luke_01/estonian/Luke 1_46-56 Keegi kusagil — Magnificat — estonian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.817100+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.952612+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.763,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 20300,
+      "end_ms": 43460,
       "lines": [
         {
           "text": "Keegi kusagil",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 20300,
+          "end_ms": 23100,
+          "words": [
+            {
+              "word": "Keegi",
+              "start_ms": 20300,
+              "end_ms": 21700
+            },
+            {
+              "word": "kusagil",
+              "start_ms": 21700,
+              "end_ms": 23100
+            }
+          ]
         },
         {
           "text": "keegi keda sa ei tea",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 20300,
+          "end_ms": 26279,
+          "words": [
+            {
+              "word": "keegi",
+              "start_ms": 20300,
+              "end_ms": 21700
+            },
+            {
+              "word": "keda",
+              "start_ms": 24460,
+              "end_ms": 24920
+            },
+            {
+              "word": "sa",
+              "start_ms": 24920,
+              "end_ms": 25340
+            },
+            {
+              "word": "ei",
+              "start_ms": 25340,
+              "end_ms": 25580
+            },
+            {
+              "word": "tea",
+              "start_ms": 25580,
+              "end_ms": 26279
+            }
+          ]
         },
         {
           "text": "tal on koht kus elada",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 27280,
+          "end_ms": 30100,
+          "words": [
+            {
+              "word": "tal",
+              "start_ms": 27280,
+              "end_ms": 28100
+            },
+            {
+              "word": "on",
+              "start_ms": 28100,
+              "end_ms": 28340
+            },
+            {
+              "word": "koht",
+              "start_ms": 28340,
+              "end_ms": 28760
+            },
+            {
+              "word": "kus",
+              "start_ms": 28900,
+              "end_ms": 29060
+            },
+            {
+              "word": "elada",
+              "start_ms": 29060,
+              "end_ms": 30100
+            }
+          ]
         },
         {
           "text": "aga mitte nime mida mainida",
-          "start_ms": 12000,
-          "end_ms": 14160
+          "start_ms": 30980,
+          "end_ms": 34280,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 30980,
+              "end_ms": 31260
+            },
+            {
+              "word": "mitte",
+              "start_ms": 31260,
+              "end_ms": 32200
+            },
+            {
+              "word": "nime",
+              "start_ms": 32200,
+              "end_ms": 33420
+            },
+            {
+              "word": "mida",
+              "start_ms": 33420,
+              "end_ms": 34280
+            },
+            {
+              "word": "mainida",
+              "start_ms": 33420,
+              "end_ms": 34280
+            }
+          ]
         },
         {
           "text": "Ta kannab midagi",
-          "start_ms": 14160,
-          "end_ms": 16160
+          "start_ms": 36120,
+          "end_ms": 39860,
+          "words": [
+            {
+              "word": "Ta",
+              "start_ms": 36120,
+              "end_ms": 37520
+            },
+            {
+              "word": "kannab",
+              "start_ms": 37520,
+              "end_ms": 38100
+            },
+            {
+              "word": "midagi",
+              "start_ms": 38100,
+              "end_ms": 39860
+            }
+          ]
         },
         {
           "text": "mis on suurem kui ta ise",
-          "start_ms": 16160,
-          "end_ms": 18160
+          "start_ms": 40740,
+          "end_ms": 43460,
+          "words": [
+            {
+              "word": "mis",
+              "start_ms": 40740,
+              "end_ms": 40920
+            },
+            {
+              "word": "on",
+              "start_ms": 40920,
+              "end_ms": 41240
+            },
+            {
+              "word": "suurem",
+              "start_ms": 41240,
+              "end_ms": 42080
+            },
+            {
+              "word": "kui",
+              "start_ms": 42080,
+              "end_ms": 42500
+            },
+            {
+              "word": "ta",
+              "start_ms": 42500,
+              "end_ms": 42760
+            },
+            {
+              "word": "ise",
+              "start_ms": 42760,
+              "end_ms": 43460
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 18160
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 46080,
+      "end_ms": 55940,
       "lines": [
         {
           "text": "Ja ta avab suu",
-          "start_ms": 21160,
-          "end_ms": 23160
+          "start_ms": 46080,
+          "end_ms": 49660,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 46080,
+              "end_ms": 47480
+            },
+            {
+              "word": "ta",
+              "start_ms": 42500,
+              "end_ms": 42760
+            },
+            {
+              "word": "avab",
+              "start_ms": 47800,
+              "end_ms": 48340
+            },
+            {
+              "word": "suu",
+              "start_ms": 48340,
+              "end_ms": 49660
+            }
+          ]
         },
         {
           "text": "ja ütleb välja",
-          "start_ms": 23160,
-          "end_ms": 25160
+          "start_ms": 49660,
+          "end_ms": 52080,
+          "words": [
+            {
+              "word": "ja",
+              "start_ms": 49660,
+              "end_ms": 49960
+            },
+            {
+              "word": "ütleb",
+              "start_ms": 49960,
+              "end_ms": 50660
+            },
+            {
+              "word": "välja",
+              "start_ms": 50660,
+              "end_ms": 52080
+            }
+          ]
         },
         {
           "text": "mitte lootust",
-          "start_ms": 25160,
-          "end_ms": 27160
+          "start_ms": 52080,
+          "end_ms": 53740,
+          "words": [
+            {
+              "word": "mitte",
+              "start_ms": 52080,
+              "end_ms": 52780
+            },
+            {
+              "word": "lootust",
+              "start_ms": 52780,
+              "end_ms": 53740
+            }
+          ]
         },
         {
           "text": "mitte palvet",
-          "start_ms": 27160,
-          "end_ms": 29160
+          "start_ms": 52080,
+          "end_ms": 55940,
+          "words": [
+            {
+              "word": "mitte",
+              "start_ms": 52080,
+              "end_ms": 52780
+            },
+            {
+              "word": "palvet",
+              "start_ms": 55040,
+              "end_ms": 55940
+            }
+          ]
         }
-      ],
-      "start_ms": 21160,
-      "end_ms": 29160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 56080,
+      "end_ms": 76950,
       "lines": [
         {
           "text": "Vaid seda mis on",
-          "start_ms": 32160,
-          "end_ms": 34160
+          "start_ms": 56080,
+          "end_ms": 57920,
+          "words": [
+            {
+              "word": "Vaid",
+              "start_ms": 56080,
+              "end_ms": 56320
+            },
+            {
+              "word": "seda",
+              "start_ms": 56320,
+              "end_ms": 56880
+            },
+            {
+              "word": "mis",
+              "start_ms": 57060,
+              "end_ms": 57380
+            },
+            {
+              "word": "on",
+              "start_ms": 57380,
+              "end_ms": 57920
+            }
+          ]
         },
         {
           "text": "alati nii",
-          "start_ms": 34160,
-          "end_ms": 36160
+          "start_ms": 62379,
+          "end_ms": 71260,
+          "words": [
+            {
+              "word": "alati",
+              "start_ms": 62379,
+              "end_ms": 63460
+            },
+            {
+              "word": "nii",
+              "start_ms": 70720,
+              "end_ms": 71260
+            }
+          ]
         },
         {
           "text": "see kes istub kõrges kohas",
-          "start_ms": 36160,
-          "end_ms": 38240
+          "start_ms": 75360,
+          "end_ms": 77000,
+          "words": [
+            {
+              "word": "see",
+              "start_ms": 75360,
+              "end_ms": 75600
+            },
+            {
+              "word": "kes",
+              "start_ms": 75650,
+              "end_ms": 75950,
+              "estimated": true
+            },
+            {
+              "word": "istub",
+              "start_ms": 76000,
+              "end_ms": 76300,
+              "estimated": true
+            },
+            {
+              "word": "kõrges",
+              "start_ms": 76350,
+              "end_ms": 76650,
+              "estimated": true
+            },
+            {
+              "word": "kohas",
+              "start_ms": 76700,
+              "end_ms": 77000,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "langeb alla, alati nii",
-          "start_ms": 38240,
-          "end_ms": 40240
+          "start_ms": 75600,
+          "end_ms": 76950,
+          "words": [
+            {
+              "word": "langeb",
+              "start_ms": 75600,
+              "end_ms": 75900,
+              "estimated": true
+            },
+            {
+              "word": "alla,",
+              "start_ms": 75950,
+              "end_ms": 76250,
+              "estimated": true
+            },
+            {
+              "word": "alati",
+              "start_ms": 76300,
+              "end_ms": 76600,
+              "estimated": true
+            },
+            {
+              "word": "nii",
+              "start_ms": 76650,
+              "end_ms": 76950,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 32160,
-      "end_ms": 40240
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 74360,
+      "end_ms": 91140,
       "lines": [
         {
           "text": "Mina olen see keegi",
-          "start_ms": 43240,
-          "end_ms": 45240
+          "start_ms": 74360,
+          "end_ms": 76420,
+          "words": [
+            {
+              "word": "Mina",
+              "start_ms": 74360,
+              "end_ms": 74820
+            },
+            {
+              "word": "olen",
+              "start_ms": 74820,
+              "end_ms": 75360
+            },
+            {
+              "word": "see",
+              "start_ms": 75360,
+              "end_ms": 75600
+            },
+            {
+              "word": "keegi",
+              "start_ms": 75600,
+              "end_ms": 76420
+            }
+          ]
         },
         {
           "text": "see kusagilt servast",
-          "start_ms": 45240,
-          "end_ms": 47240
+          "start_ms": 75360,
+          "end_ms": 78140,
+          "words": [
+            {
+              "word": "see",
+              "start_ms": 75360,
+              "end_ms": 75600
+            },
+            {
+              "word": "kusagilt",
+              "start_ms": 76680,
+              "end_ms": 77600
+            },
+            {
+              "word": "servast",
+              "start_ms": 77600,
+              "end_ms": 78140
+            }
+          ]
         },
         {
           "text": "kellel pole häält",
-          "start_ms": 47240,
-          "end_ms": 49240
+          "start_ms": 78140,
+          "end_ms": 80620,
+          "words": [
+            {
+              "word": "kellel",
+              "start_ms": 78140,
+              "end_ms": 79540
+            },
+            {
+              "word": "pole",
+              "start_ms": 79540,
+              "end_ms": 79860
+            },
+            {
+              "word": "häält",
+              "start_ms": 79860,
+              "end_ms": 80620
+            }
+          ]
         },
         {
           "text": "kellel pole luba",
-          "start_ms": 49240,
-          "end_ms": 51240
+          "start_ms": 78140,
+          "end_ms": 82649,
+          "words": [
+            {
+              "word": "kellel",
+              "start_ms": 78140,
+              "end_ms": 79540
+            },
+            {
+              "word": "pole",
+              "start_ms": 79540,
+              "end_ms": 79860
+            },
+            {
+              "word": "luba",
+              "start_ms": 82020,
+              "end_ms": 82649
+            }
+          ]
         },
         {
           "text": "Aga vaata",
-          "start_ms": 51240,
-          "end_ms": 53240
+          "start_ms": 83240,
+          "end_ms": 85280,
+          "words": [
+            {
+              "word": "Aga",
+              "start_ms": 83240,
+              "end_ms": 84020
+            },
+            {
+              "word": "vaata",
+              "start_ms": 84020,
+              "end_ms": 85280
+            }
+          ]
         },
         {
           "text": "mu sees on kõik selge",
-          "start_ms": 53240,
-          "end_ms": 55240
+          "start_ms": 85540,
+          "end_ms": 87420,
+          "words": [
+            {
+              "word": "mu",
+              "start_ms": 85540,
+              "end_ms": 85840,
+              "estimated": true
+            },
+            {
+              "word": "sees",
+              "start_ms": 85540,
+              "end_ms": 86140
+            },
+            {
+              "word": "on",
+              "start_ms": 86140,
+              "end_ms": 86300
+            },
+            {
+              "word": "kõik",
+              "start_ms": 86300,
+              "end_ms": 86800
+            },
+            {
+              "word": "selge",
+              "start_ms": 86800,
+              "end_ms": 87420
+            }
+          ]
         },
         {
           "text": "nagu talvine taevas",
-          "start_ms": 55240,
-          "end_ms": 57240
+          "start_ms": 87420,
+          "end_ms": 89680,
+          "words": [
+            {
+              "word": "nagu",
+              "start_ms": 87420,
+              "end_ms": 87900
+            },
+            {
+              "word": "talvine",
+              "start_ms": 87900,
+              "end_ms": 88540
+            },
+            {
+              "word": "taevas",
+              "start_ms": 88540,
+              "end_ms": 89680
+            }
+          ]
         },
         {
           "text": "külm ja täielik",
-          "start_ms": 57240,
-          "end_ms": 59240
+          "start_ms": 89680,
+          "end_ms": 91140,
+          "words": [
+            {
+              "word": "külm",
+              "start_ms": 89680,
+              "end_ms": 90220
+            },
+            {
+              "word": "ja",
+              "start_ms": 90220,
+              "end_ms": 90380
+            },
+            {
+              "word": "täielik",
+              "start_ms": 90380,
+              "end_ms": 91140
+            }
+          ]
         }
-      ],
-      "start_ms": 43240,
-      "end_ms": 59240
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 90220,
+      "end_ms": 100140,
       "lines": [
         {
           "text": "Ja ma ütlen sulle",
-          "start_ms": 62240,
-          "end_ms": 64240
+          "start_ms": 90220,
+          "end_ms": 96480,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 90220,
+              "end_ms": 90380
+            },
+            {
+              "word": "ma",
+              "start_ms": 94100,
+              "end_ms": 94800
+            },
+            {
+              "word": "ütlen",
+              "start_ms": 94800,
+              "end_ms": 95600
+            },
+            {
+              "word": "sulle",
+              "start_ms": 95600,
+              "end_ms": 96480
+            }
+          ]
         },
         {
           "text": "mitte soovi",
-          "start_ms": 64240,
-          "end_ms": 66240
+          "start_ms": 96560,
+          "end_ms": 98180,
+          "words": [
+            {
+              "word": "mitte",
+              "start_ms": 96560,
+              "end_ms": 97000
+            },
+            {
+              "word": "soovi",
+              "start_ms": 97000,
+              "end_ms": 98180
+            }
+          ]
         },
         {
           "text": "mitte unenägu",
-          "start_ms": 66240,
-          "end_ms": 68240
+          "start_ms": 96560,
+          "end_ms": 100140,
+          "words": [
+            {
+              "word": "mitte",
+              "start_ms": 96560,
+              "end_ms": 97000
+            },
+            {
+              "word": "unenägu",
+              "start_ms": 99340,
+              "end_ms": 100140
+            }
+          ]
         }
-      ],
-      "start_ms": 62240,
-      "end_ms": 68240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 101040,
+      "end_ms": 148590,
       "lines": [
         {
           "text": "Vaid seda mis on",
-          "start_ms": 71240,
-          "end_ms": 73240
+          "start_ms": 101040,
+          "end_ms": 103330,
+          "words": [
+            {
+              "word": "Vaid",
+              "start_ms": 101040,
+              "end_ms": 101640
+            },
+            {
+              "word": "seda",
+              "start_ms": 101640,
+              "end_ms": 102200
+            },
+            {
+              "word": "mis",
+              "start_ms": 102200,
+              "end_ms": 102700
+            },
+            {
+              "word": "on",
+              "start_ms": 102700,
+              "end_ms": 103330
+            }
+          ]
         },
         {
           "text": "alati nii",
-          "start_ms": 73240,
-          "end_ms": 75240
+          "start_ms": 107150,
+          "end_ms": 119430,
+          "words": [
+            {
+              "word": "alati",
+              "start_ms": 107150,
+              "end_ms": 108470
+            },
+            {
+              "word": "nii",
+              "start_ms": 115990,
+              "end_ms": 119430
+            }
+          ]
         },
         {
           "text": "see kes istub kõrges kohas",
-          "start_ms": 75240,
-          "end_ms": 77320
+          "start_ms": 120610,
+          "end_ms": 130499,
+          "words": [
+            {
+              "word": "see",
+              "start_ms": 120610,
+              "end_ms": 121570
+            },
+            {
+              "word": "kes",
+              "start_ms": 122790,
+              "end_ms": 123010
+            },
+            {
+              "word": "istub",
+              "start_ms": 123060,
+              "end_ms": 123360,
+              "estimated": true
+            },
+            {
+              "word": "kõrges",
+              "start_ms": 129449,
+              "end_ms": 130149
+            },
+            {
+              "word": "kohas",
+              "start_ms": 130199,
+              "end_ms": 130499,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "langeb alla, alati nii",
-          "start_ms": 77320,
-          "end_ms": 79320
+          "start_ms": 130550,
+          "end_ms": 148590,
+          "words": [
+            {
+              "word": "langeb",
+              "start_ms": 130550,
+              "end_ms": 130850,
+              "estimated": true
+            },
+            {
+              "word": "alla,",
+              "start_ms": 140609,
+              "end_ms": 142010
+            },
+            {
+              "word": "alati",
+              "start_ms": 140609,
+              "end_ms": 142010
+            },
+            {
+              "word": "nii",
+              "start_ms": 147410,
+              "end_ms": 148590
+            }
+          ]
         }
-      ],
-      "start_ms": 71240,
-      "end_ms": 79320
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 148590,
+      "end_ms": 150599,
       "lines": [
         {
           "text": "Kusagil sees",
-          "start_ms": 82320,
-          "end_ms": 84320
+          "start_ms": 148590,
+          "end_ms": 149240,
+          "words": [
+            {
+              "word": "Kusagil",
+              "start_ms": 148590,
+              "end_ms": 148890,
+              "estimated": true
+            },
+            {
+              "word": "sees",
+              "start_ms": 148940,
+              "end_ms": 149240,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "kus sõnad saavad alguse",
-          "start_ms": 84320,
-          "end_ms": 86320
+          "start_ms": 148590,
+          "end_ms": 145520,
+          "words": [
+            {
+              "word": "kus",
+              "start_ms": 148590,
+              "end_ms": 148890,
+              "estimated": true
+            },
+            {
+              "word": "sõnad",
+              "start_ms": 148940,
+              "end_ms": 149240,
+              "estimated": true
+            },
+            {
+              "word": "saavad",
+              "start_ms": 144470,
+              "end_ms": 145170
+            },
+            {
+              "word": "alguse",
+              "start_ms": 145220,
+              "end_ms": 145520,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "on teadmine mis ei kõigu",
-          "start_ms": 86320,
-          "end_ms": 88320
+          "start_ms": 150870,
+          "end_ms": 150249,
+          "words": [
+            {
+              "word": "on",
+              "start_ms": 150870,
+              "end_ms": 152010
+            },
+            {
+              "word": "teadmine",
+              "start_ms": 152060,
+              "end_ms": 152360,
+              "estimated": true
+            },
+            {
+              "word": "mis",
+              "start_ms": 148850,
+              "end_ms": 149549
+            },
+            {
+              "word": "ei",
+              "start_ms": 149599,
+              "end_ms": 149899,
+              "estimated": true
+            },
+            {
+              "word": "kõigu",
+              "start_ms": 149949,
+              "end_ms": 150249,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "on kindlus mis ei küsi luba",
-          "start_ms": 88320,
-          "end_ms": 90480
+          "start_ms": 150870,
+          "end_ms": 150599,
+          "words": [
+            {
+              "word": "on",
+              "start_ms": 150870,
+              "end_ms": 152010
+            },
+            {
+              "word": "kindlus",
+              "start_ms": 152060,
+              "end_ms": 152360,
+              "estimated": true
+            },
+            {
+              "word": "mis",
+              "start_ms": 148850,
+              "end_ms": 149549
+            },
+            {
+              "word": "ei",
+              "start_ms": 149599,
+              "end_ms": 149899,
+              "estimated": true
+            },
+            {
+              "word": "küsi",
+              "start_ms": 149949,
+              "end_ms": 150249,
+              "estimated": true
+            },
+            {
+              "word": "luba",
+              "start_ms": 150299,
+              "end_ms": 150599,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 82320,
-      "end_ms": 90480
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 154950,
+      "end_ms": 155300,
       "lines": [
         {
           "text": "Seda mis on",
-          "start_ms": 93480,
-          "end_ms": 95480
+          "start_ms": 154950,
+          "end_ms": 154950,
+          "words": [
+            {
+              "word": "Seda",
+              "start_ms": 154950,
+              "end_ms": 157550
+            },
+            {
+              "word": "mis",
+              "start_ms": 153330,
+              "end_ms": 153750
+            },
+            {
+              "word": "on",
+              "start_ms": 153750,
+              "end_ms": 154950
+            }
+          ]
         },
         {
           "text": "alati nii",
-          "start_ms": 95480,
-          "end_ms": 97480
+          "start_ms": 154950,
+          "end_ms": 155600,
+          "words": [
+            {
+              "word": "alati",
+              "start_ms": 154950,
+              "end_ms": 155250,
+              "estimated": true
+            },
+            {
+              "word": "nii",
+              "start_ms": 155300,
+              "end_ms": 155600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "madalad tõusevad",
-          "start_ms": 97480,
-          "end_ms": 99480
+          "start_ms": 154950,
+          "end_ms": 155600,
+          "words": [
+            {
+              "word": "madalad",
+              "start_ms": 154950,
+              "end_ms": 155250,
+              "estimated": true
+            },
+            {
+              "word": "tõusevad",
+              "start_ms": 155300,
+              "end_ms": 155600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "alati nii",
-          "start_ms": 99480,
-          "end_ms": 101480
+          "start_ms": 154950,
+          "end_ms": 155600,
+          "words": [
+            {
+              "word": "alati",
+              "start_ms": 154950,
+              "end_ms": 155250,
+              "estimated": true
+            },
+            {
+              "word": "nii",
+              "start_ms": 155300,
+              "end_ms": 155600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "ja mina",
-          "start_ms": 101480,
-          "end_ms": 103480
+          "start_ms": 152990,
+          "end_ms": 153750,
+          "words": [
+            {
+              "word": "ja",
+              "start_ms": 152990,
+              "end_ms": 153330
+            },
+            {
+              "word": "mina",
+              "start_ms": 153330,
+              "end_ms": 153750
+            }
+          ]
         },
         {
           "text": "mina olen tunnistaja",
-          "start_ms": 103480,
-          "end_ms": 105480
+          "start_ms": 153330,
+          "end_ms": 155300,
+          "words": [
+            {
+              "word": "mina",
+              "start_ms": 153330,
+              "end_ms": 153750
+            },
+            {
+              "word": "olen",
+              "start_ms": 153750,
+              "end_ms": 154950
+            },
+            {
+              "word": "tunnistaja",
+              "start_ms": 155000,
+              "end_ms": 155300,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "mina olen hääl",
-          "start_ms": 105480,
-          "end_ms": 107480
+          "start_ms": 153330,
+          "end_ms": 155300,
+          "words": [
+            {
+              "word": "mina",
+              "start_ms": 153330,
+              "end_ms": 153750
+            },
+            {
+              "word": "olen",
+              "start_ms": 153750,
+              "end_ms": 154950
+            },
+            {
+              "word": "hääl",
+              "start_ms": 155000,
+              "end_ms": 155300,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 93480,
-      "end_ms": 107480
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ja ta avab suu",
+      "section_type": "chorus",
+      "start_ms": 46080,
+      "end_ms": 55940,
+      "key_line": "Ja ta avab suu",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Vaid seda mis on",
+      "section_type": "chorus",
+      "start_ms": 56080,
+      "end_ms": 76950,
+      "key_line": "Vaid seda mis on",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ja ma ütlen sulle",
+      "section_type": "chorus",
+      "start_ms": 90220,
+      "end_ms": 100140,
+      "key_line": "Ja ma ütlen sulle",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Vaid seda mis on",
+      "section_type": "chorus",
+      "start_ms": 101040,
+      "end_ms": 148590,
+      "key_line": "Vaid seda mis on",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 148590,
+      "end_ms": 150599,
+      "key_line": "Kusagil sees",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Seda mis on",
+      "section_type": "chorus",
+      "start_ms": 154950,
+      "end_ms": 155300,
+      "key_line": "Seda mis on",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/estonian/42_luke_01_1-46_transcript.json"
 }

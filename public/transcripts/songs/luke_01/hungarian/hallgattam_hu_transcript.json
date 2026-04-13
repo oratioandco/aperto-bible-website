@@ -7,437 +7,1736 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:20-79",
-  "duration_ms": 220000,
+  "duration_ms": 214920,
   "audio_file": "/audio/songs/luke_01/hungarian/_Hallgattam_ — Luke 1_20,64,67-79 (Hungarian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.037128+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.982024+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.85,
   "sections": [
     {
       "type": "intro",
       "label": "Intro",
+      "start_ms": 17439,
+      "end_ms": 18439,
       "lines": [
         {
           "text": "Tél volt",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 17439,
+          "end_ms": 18089,
+          "words": [
+            {
+              "word": "Tél",
+              "start_ms": 17439,
+              "end_ms": 17739,
+              "estimated": true
+            },
+            {
+              "word": "volt",
+              "start_ms": 17789,
+              "end_ms": 18089,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nagyon hosszú tél",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 17439,
+          "end_ms": 18439,
+          "words": [
+            {
+              "word": "Nagyon",
+              "start_ms": 17439,
+              "end_ms": 17739,
+              "estimated": true
+            },
+            {
+              "word": "hosszú",
+              "start_ms": 17789,
+              "end_ms": 18089,
+              "estimated": true
+            },
+            {
+              "word": "tél",
+              "start_ms": 18139,
+              "end_ms": 18439,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 10000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 17439,
+      "end_ms": 47620,
       "lines": [
         {
           "text": "A föld nem halt meg",
-          "start_ms": 13000,
-          "end_ms": 15000
+          "start_ms": 17439,
+          "end_ms": 20480,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 17439,
+              "end_ms": 18400
+            },
+            {
+              "word": "föld",
+              "start_ms": 18400,
+              "end_ms": 19360
+            },
+            {
+              "word": "nem",
+              "start_ms": 19360,
+              "end_ms": 19600
+            },
+            {
+              "word": "halt",
+              "start_ms": 19600,
+              "end_ms": 19980
+            },
+            {
+              "word": "meg",
+              "start_ms": 19980,
+              "end_ms": 20480
+            }
+          ]
         },
         {
           "text": "Csak behúzódott",
-          "start_ms": 15000,
-          "end_ms": 17000
+          "start_ms": 20540,
+          "end_ms": 22960,
+          "words": [
+            {
+              "word": "Csak",
+              "start_ms": 20540,
+              "end_ms": 20820
+            },
+            {
+              "word": "behúzódott",
+              "start_ms": 20820,
+              "end_ms": 22960
+            }
+          ]
         },
         {
           "text": "Valahova mélyre",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 23580,
+          "end_ms": 25280,
+          "words": [
+            {
+              "word": "Valahova",
+              "start_ms": 23580,
+              "end_ms": 24060
+            },
+            {
+              "word": "mélyre",
+              "start_ms": 24400,
+              "end_ms": 25280
+            }
+          ]
         },
         {
           "text": "Ahol nem látjuk",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 25480,
+          "end_ms": 27620,
+          "words": [
+            {
+              "word": "Ahol",
+              "start_ms": 25480,
+              "end_ms": 25940
+            },
+            {
+              "word": "nem",
+              "start_ms": 25940,
+              "end_ms": 26420
+            },
+            {
+              "word": "látjuk",
+              "start_ms": 26420,
+              "end_ms": 27620
+            }
+          ]
         },
         {
           "text": "Én sem haltam meg",
-          "start_ms": 21000,
-          "end_ms": 23000
+          "start_ms": 28490,
+          "end_ms": 30520,
+          "words": [
+            {
+              "word": "Én",
+              "start_ms": 28490,
+              "end_ms": 29100
+            },
+            {
+              "word": "sem",
+              "start_ms": 29100,
+              "end_ms": 29360
+            },
+            {
+              "word": "haltam",
+              "start_ms": 29360,
+              "end_ms": 30140
+            },
+            {
+              "word": "meg",
+              "start_ms": 30140,
+              "end_ms": 30520
+            }
+          ]
         },
         {
           "text": "Csak elhallgattam",
-          "start_ms": 23000,
-          "end_ms": 25000
+          "start_ms": 30620,
+          "end_ms": 32960,
+          "words": [
+            {
+              "word": "Csak",
+              "start_ms": 30620,
+              "end_ms": 30960
+            },
+            {
+              "word": "elhallgattam",
+              "start_ms": 30960,
+              "end_ms": 32960
+            }
+          ]
         },
         {
           "text": "Behúzódtam magamba",
-          "start_ms": 25000,
-          "end_ms": 27000
+          "start_ms": 33460,
+          "end_ms": 35700,
+          "words": [
+            {
+              "word": "Behúzódtam",
+              "start_ms": 33460,
+              "end_ms": 34700
+            },
+            {
+              "word": "magamba",
+              "start_ms": 34700,
+              "end_ms": 35700
+            }
+          ]
         },
         {
           "text": "Várakozni",
-          "start_ms": 27000,
-          "end_ms": 29000
+          "start_ms": 35700,
+          "end_ms": 36660,
+          "words": [
+            {
+              "word": "Várakozni",
+              "start_ms": 35700,
+              "end_ms": 36660
+            }
+          ]
         },
         {
           "text": "A csend hideg volt",
-          "start_ms": 29000,
-          "end_ms": 31000
+          "start_ms": 38960,
+          "end_ms": 40740,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 38960,
+              "end_ms": 39140
+            },
+            {
+              "word": "csend",
+              "start_ms": 39140,
+              "end_ms": 39840
+            },
+            {
+              "word": "hideg",
+              "start_ms": 39840,
+              "end_ms": 40360
+            },
+            {
+              "word": "volt",
+              "start_ms": 40360,
+              "end_ms": 40740
+            }
+          ]
         },
         {
           "text": "De nem üres",
-          "start_ms": 31000,
-          "end_ms": 33000
+          "start_ms": 40840,
+          "end_ms": 42840,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 40840,
+              "end_ms": 41100
+            },
+            {
+              "word": "nem",
+              "start_ms": 41100,
+              "end_ms": 41380
+            },
+            {
+              "word": "üres",
+              "start_ms": 41380,
+              "end_ms": 42840
+            }
+          ]
         },
         {
           "text": "Valami dolgozott",
-          "start_ms": 33000,
-          "end_ms": 35000
+          "start_ms": 44020,
+          "end_ms": 45900,
+          "words": [
+            {
+              "word": "Valami",
+              "start_ms": 44020,
+              "end_ms": 44540
+            },
+            {
+              "word": "dolgozott",
+              "start_ms": 44540,
+              "end_ms": 45900
+            }
+          ]
         },
         {
           "text": "A jég alatt",
-          "start_ms": 35000,
-          "end_ms": 37000
+          "start_ms": 45900,
+          "end_ms": 47620,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 45900,
+              "end_ms": 46220
+            },
+            {
+              "word": "jég",
+              "start_ms": 46220,
+              "end_ms": 46980
+            },
+            {
+              "word": "alatt",
+              "start_ms": 46980,
+              "end_ms": 47620
+            }
+          ]
         }
-      ],
-      "start_ms": 13000,
-      "end_ms": 37000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 54080,
+      "end_ms": 68610,
       "lines": [
         {
           "text": "Hallgattam",
-          "start_ms": 40000,
-          "end_ms": 42000
+          "start_ms": 54080,
+          "end_ms": 56200,
+          "words": [
+            {
+              "word": "Hallgattam",
+              "start_ms": 54080,
+              "end_ms": 56200
+            }
+          ]
         },
         {
           "text": "Mint föld a hó alatt",
-          "start_ms": 42000,
-          "end_ms": 44000
+          "start_ms": 62260,
+          "end_ms": 67740,
+          "words": [
+            {
+              "word": "Mint",
+              "start_ms": 62260,
+              "end_ms": 62680
+            },
+            {
+              "word": "föld",
+              "start_ms": 63400,
+              "end_ms": 63839
+            },
+            {
+              "word": "a",
+              "start_ms": 63120,
+              "end_ms": 63400
+            },
+            {
+              "word": "hó",
+              "start_ms": 63450,
+              "end_ms": 63750,
+              "estimated": true
+            },
+            {
+              "word": "alatt",
+              "start_ms": 66960,
+              "end_ms": 67740
+            }
+          ]
         },
         {
           "text": "Hallgattam",
-          "start_ms": 44000,
-          "end_ms": 46000
+          "start_ms": 66960,
+          "end_ms": 67740,
+          "words": [
+            {
+              "word": "Hallgattam",
+              "start_ms": 66960,
+              "end_ms": 67740
+            }
+          ]
         },
         {
           "text": "Tavaszt várva",
-          "start_ms": 46000,
-          "end_ms": 48000
+          "start_ms": 67960,
+          "end_ms": 68610,
+          "words": [
+            {
+              "word": "Tavaszt",
+              "start_ms": 67960,
+              "end_ms": 68260,
+              "estimated": true
+            },
+            {
+              "word": "várva",
+              "start_ms": 68310,
+              "end_ms": 68610,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 40000,
-      "end_ms": 48000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 66960,
+      "end_ms": 92050,
       "lines": [
         {
           "text": "Hallgattam, ahogy a mag hallgat",
-          "start_ms": 51000,
-          "end_ms": 53480
+          "start_ms": 66960,
+          "end_ms": 67740,
+          "words": [
+            {
+              "word": "Hallgattam,",
+              "start_ms": 66960,
+              "end_ms": 67740
+            },
+            {
+              "word": "ahogy",
+              "start_ms": 67790,
+              "end_ms": 68090,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 66360,
+              "end_ms": 66560
+            },
+            {
+              "word": "mag",
+              "start_ms": 66610,
+              "end_ms": 66910,
+              "estimated": true
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 66960,
+              "end_ms": 67740
+            }
+          ]
         },
         {
           "text": "Mielőtt feltör a földön",
-          "start_ms": 53480,
-          "end_ms": 55480
+          "start_ms": 67960,
+          "end_ms": 76930,
+          "words": [
+            {
+              "word": "Mielőtt",
+              "start_ms": 67960,
+              "end_ms": 68500
+            },
+            {
+              "word": "feltör",
+              "start_ms": 68550,
+              "end_ms": 68850,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 76300,
+              "end_ms": 76580
+            },
+            {
+              "word": "földön",
+              "start_ms": 76630,
+              "end_ms": 76930,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Hallgattam, ahogy a jég hallgat",
-          "start_ms": 55480,
-          "end_ms": 57960
+          "start_ms": 76580,
+          "end_ms": 77280,
+          "words": [
+            {
+              "word": "Hallgattam,",
+              "start_ms": 76580,
+              "end_ms": 76880,
+              "estimated": true
+            },
+            {
+              "word": "ahogy",
+              "start_ms": 76930,
+              "end_ms": 77230,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 76300,
+              "end_ms": 76580
+            },
+            {
+              "word": "jég",
+              "start_ms": 76630,
+              "end_ms": 76930,
+              "estimated": true
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 76980,
+              "end_ms": 77280,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mielőtt elenged",
-          "start_ms": 57960,
-          "end_ms": 59960
+          "start_ms": 81060,
+          "end_ms": 81950,
+          "words": [
+            {
+              "word": "Mielőtt",
+              "start_ms": 81060,
+              "end_ms": 81600
+            },
+            {
+              "word": "elenged",
+              "start_ms": 81650,
+              "end_ms": 81950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Kilenc hónapig csönd",
-          "start_ms": 59960,
-          "end_ms": 61960
+          "start_ms": 81600,
+          "end_ms": 82600,
+          "words": [
+            {
+              "word": "Kilenc",
+              "start_ms": 81600,
+              "end_ms": 81900,
+              "estimated": true
+            },
+            {
+              "word": "hónapig",
+              "start_ms": 81950,
+              "end_ms": 82250,
+              "estimated": true
+            },
+            {
+              "word": "csönd",
+              "start_ms": 82300,
+              "end_ms": 82600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "De a csönd nem volt üres",
-          "start_ms": 61960,
-          "end_ms": 63960
+          "start_ms": 81600,
+          "end_ms": 91700,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 81600,
+              "end_ms": 81900,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 88960,
+              "end_ms": 89140
+            },
+            {
+              "word": "csönd",
+              "start_ms": 89190,
+              "end_ms": 89490,
+              "estimated": true
+            },
+            {
+              "word": "nem",
+              "start_ms": 90660,
+              "end_ms": 91000
+            },
+            {
+              "word": "volt",
+              "start_ms": 91050,
+              "end_ms": 91350,
+              "estimated": true
+            },
+            {
+              "word": "üres",
+              "start_ms": 91400,
+              "end_ms": 91700,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Valami nőtt bennem",
-          "start_ms": 63960,
-          "end_ms": 65960
+          "start_ms": 91000,
+          "end_ms": 91000,
+          "words": [
+            {
+              "word": "Valami",
+              "start_ms": 91000,
+              "end_ms": 91300,
+              "estimated": true
+            },
+            {
+              "word": "nőtt",
+              "start_ms": 91350,
+              "end_ms": 91650,
+              "estimated": true
+            },
+            {
+              "word": "bennem",
+              "start_ms": 90660,
+              "end_ms": 91000
+            }
+          ]
         },
         {
           "text": "Amit nem tudtam volna mondani",
-          "start_ms": 65960,
-          "end_ms": 68280
+          "start_ms": 91000,
+          "end_ms": 92050,
+          "words": [
+            {
+              "word": "Amit",
+              "start_ms": 91000,
+              "end_ms": 91300,
+              "estimated": true
+            },
+            {
+              "word": "nem",
+              "start_ms": 90660,
+              "end_ms": 91000
+            },
+            {
+              "word": "tudtam",
+              "start_ms": 91050,
+              "end_ms": 91350,
+              "estimated": true
+            },
+            {
+              "word": "volna",
+              "start_ms": 91400,
+              "end_ms": 91700,
+              "estimated": true
+            },
+            {
+              "word": "mondani",
+              "start_ms": 91750,
+              "end_ms": 92050,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 51000,
-      "end_ms": 68280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 91000,
+      "end_ms": 108780,
       "lines": [
         {
           "text": "Az első enyhülés",
-          "start_ms": 71280,
-          "end_ms": 73280
+          "start_ms": 91000,
+          "end_ms": 90660,
+          "words": [
+            {
+              "word": "Az",
+              "start_ms": 91000,
+              "end_ms": 91300,
+              "estimated": true
+            },
+            {
+              "word": "első",
+              "start_ms": 89140,
+              "end_ms": 89820
+            },
+            {
+              "word": "enyhülés",
+              "start_ms": 89820,
+              "end_ms": 90660
+            }
+          ]
         },
         {
           "text": "Nem látható, csak érezhető",
-          "start_ms": 73280,
-          "end_ms": 75360
+          "start_ms": 90660,
+          "end_ms": 93340,
+          "words": [
+            {
+              "word": "Nem",
+              "start_ms": 90660,
+              "end_ms": 91000
+            },
+            {
+              "word": "látható,",
+              "start_ms": 91000,
+              "end_ms": 91900
+            },
+            {
+              "word": "csak",
+              "start_ms": 92000,
+              "end_ms": 92160
+            },
+            {
+              "word": "érezhető",
+              "start_ms": 92160,
+              "end_ms": 93340
+            }
+          ]
         },
         {
           "text": "Egy fokkal kevesebb hideg",
-          "start_ms": 75360,
-          "end_ms": 77360
+          "start_ms": 93340,
+          "end_ms": 96260,
+          "words": [
+            {
+              "word": "Egy",
+              "start_ms": 93340,
+              "end_ms": 93480
+            },
+            {
+              "word": "fokkal",
+              "start_ms": 93480,
+              "end_ms": 94120
+            },
+            {
+              "word": "kevesebb",
+              "start_ms": 94120,
+              "end_ms": 95080
+            },
+            {
+              "word": "hideg",
+              "start_ms": 95080,
+              "end_ms": 96260
+            }
+          ]
         },
         {
           "text": "Egy réssel több fény",
-          "start_ms": 77360,
-          "end_ms": 79360
+          "start_ms": 96520,
+          "end_ms": 98480,
+          "words": [
+            {
+              "word": "Egy",
+              "start_ms": 96520,
+              "end_ms": 96660
+            },
+            {
+              "word": "réssel",
+              "start_ms": 96660,
+              "end_ms": 97560
+            },
+            {
+              "word": "több",
+              "start_ms": 97560,
+              "end_ms": 98020
+            },
+            {
+              "word": "fény",
+              "start_ms": 98020,
+              "end_ms": 98480
+            }
+          ]
         },
         {
           "text": "A szám mozgott",
-          "start_ms": 79360,
-          "end_ms": 81360
+          "start_ms": 98480,
+          "end_ms": 100420,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 98480,
+              "end_ms": 98620
+            },
+            {
+              "word": "szám",
+              "start_ms": 98620,
+              "end_ms": 99180
+            },
+            {
+              "word": "mozgott",
+              "start_ms": 99180,
+              "end_ms": 100420
+            }
+          ]
         },
         {
           "text": "De hang nem jött",
-          "start_ms": 81360,
-          "end_ms": 83360
+          "start_ms": 100980,
+          "end_ms": 103380,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 100980,
+              "end_ms": 101140
+            },
+            {
+              "word": "hang",
+              "start_ms": 101140,
+              "end_ms": 101500
+            },
+            {
+              "word": "nem",
+              "start_ms": 101500,
+              "end_ms": 102100
+            },
+            {
+              "word": "jött",
+              "start_ms": 102100,
+              "end_ms": 103380
+            }
+          ]
         },
         {
           "text": "Belül viszont",
-          "start_ms": 83360,
-          "end_ms": 85360
+          "start_ms": 103780,
+          "end_ms": 105700,
+          "words": [
+            {
+              "word": "Belül",
+              "start_ms": 103780,
+              "end_ms": 104140
+            },
+            {
+              "word": "viszont",
+              "start_ms": 104140,
+              "end_ms": 105700
+            }
+          ]
         },
         {
           "text": "Valami felengedett",
-          "start_ms": 85360,
-          "end_ms": 87360
+          "start_ms": 105700,
+          "end_ms": 108780,
+          "words": [
+            {
+              "word": "Valami",
+              "start_ms": 105700,
+              "end_ms": 106720
+            },
+            {
+              "word": "felengedett",
+              "start_ms": 106720,
+              "end_ms": 108780
+            }
+          ]
         }
-      ],
-      "start_ms": 71280,
-      "end_ms": 87360
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 110400,
+      "end_ms": 118620,
       "lines": [
         {
           "text": "Hallgattam",
-          "start_ms": 90360,
-          "end_ms": 92360
+          "start_ms": 110400,
+          "end_ms": 111340,
+          "words": [
+            {
+              "word": "Hallgattam",
+              "start_ms": 110400,
+              "end_ms": 111340
+            }
+          ]
         },
         {
           "text": "Ahogy víz hallgat jég alatt",
-          "start_ms": 92360,
-          "end_ms": 94520
+          "start_ms": 111500,
+          "end_ms": 114080,
+          "words": [
+            {
+              "word": "Ahogy",
+              "start_ms": 111500,
+              "end_ms": 111680
+            },
+            {
+              "word": "víz",
+              "start_ms": 111680,
+              "end_ms": 112160
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 112160,
+              "end_ms": 112680
+            },
+            {
+              "word": "jég",
+              "start_ms": 112680,
+              "end_ms": 113080
+            },
+            {
+              "word": "alatt",
+              "start_ms": 113080,
+              "end_ms": 114080
+            }
+          ]
         },
         {
           "text": "Hallgattam",
-          "start_ms": 94520,
-          "end_ms": 96520
+          "start_ms": 114440,
+          "end_ms": 116540,
+          "words": [
+            {
+              "word": "Hallgattam",
+              "start_ms": 114440,
+              "end_ms": 116540
+            }
+          ]
         },
         {
           "text": "Míg el nem engedett",
-          "start_ms": 96520,
-          "end_ms": 98520
+          "start_ms": 116680,
+          "end_ms": 118620,
+          "words": [
+            {
+              "word": "Míg",
+              "start_ms": 116680,
+              "end_ms": 117120
+            },
+            {
+              "word": "el",
+              "start_ms": 117120,
+              "end_ms": 117360
+            },
+            {
+              "word": "nem",
+              "start_ms": 117360,
+              "end_ms": 117560
+            },
+            {
+              "word": "engedett",
+              "start_ms": 117560,
+              "end_ms": 118620
+            }
+          ]
         }
-      ],
-      "start_ms": 90360,
-      "end_ms": 98520
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 118620,
+      "end_ms": 148440,
       "lines": [
         {
           "text": "Hallgattam, ahogy a mag hallgat",
-          "start_ms": 101520,
-          "end_ms": 104000
+          "start_ms": 118620,
+          "end_ms": 122480,
+          "words": [
+            {
+              "word": "Hallgattam,",
+              "start_ms": 118620,
+              "end_ms": 120220
+            },
+            {
+              "word": "ahogy",
+              "start_ms": 120220,
+              "end_ms": 120580
+            },
+            {
+              "word": "a",
+              "start_ms": 120580,
+              "end_ms": 120780
+            },
+            {
+              "word": "mag",
+              "start_ms": 120780,
+              "end_ms": 120940
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 120940,
+              "end_ms": 122480
+            }
+          ]
         },
         {
           "text": "Mielőtt feltör a földön",
-          "start_ms": 104000,
-          "end_ms": 106000
+          "start_ms": 122880,
+          "end_ms": 124660,
+          "words": [
+            {
+              "word": "Mielőtt",
+              "start_ms": 122880,
+              "end_ms": 123240
+            },
+            {
+              "word": "feltör",
+              "start_ms": 123240,
+              "end_ms": 123740
+            },
+            {
+              "word": "a",
+              "start_ms": 123740,
+              "end_ms": 123940
+            },
+            {
+              "word": "földön",
+              "start_ms": 123940,
+              "end_ms": 124660
+            }
+          ]
         },
         {
           "text": "Hallgattam, ahogy a jég hallgat",
-          "start_ms": 106000,
-          "end_ms": 108480
+          "start_ms": 125420,
+          "end_ms": 128419,
+          "words": [
+            {
+              "word": "Hallgattam,",
+              "start_ms": 125420,
+              "end_ms": 126580
+            },
+            {
+              "word": "ahogy",
+              "start_ms": 126660,
+              "end_ms": 126940
+            },
+            {
+              "word": "a",
+              "start_ms": 126940,
+              "end_ms": 127140
+            },
+            {
+              "word": "jég",
+              "start_ms": 127140,
+              "end_ms": 127620
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 127620,
+              "end_ms": 128419
+            }
+          ]
         },
         {
           "text": "Mielőtt elenged",
-          "start_ms": 108480,
-          "end_ms": 110480
+          "start_ms": 128580,
+          "end_ms": 130060,
+          "words": [
+            {
+              "word": "Mielőtt",
+              "start_ms": 128580,
+              "end_ms": 129160
+            },
+            {
+              "word": "elenged",
+              "start_ms": 129160,
+              "end_ms": 130060
+            }
+          ]
         },
         {
           "text": "Kilenc hónapig csönd",
-          "start_ms": 110480,
-          "end_ms": 112480
+          "start_ms": 132960,
+          "end_ms": 138020,
+          "words": [
+            {
+              "word": "Kilenc",
+              "start_ms": 132960,
+              "end_ms": 133700
+            },
+            {
+              "word": "hónapig",
+              "start_ms": 133700,
+              "end_ms": 134500
+            },
+            {
+              "word": "csönd",
+              "start_ms": 137200,
+              "end_ms": 138020
+            }
+          ]
         },
         {
           "text": "De a csönd nem volt üres",
-          "start_ms": 112480,
-          "end_ms": 114480
+          "start_ms": 136720,
+          "end_ms": 140200,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 136720,
+              "end_ms": 136940
+            },
+            {
+              "word": "a",
+              "start_ms": 136940,
+              "end_ms": 137200
+            },
+            {
+              "word": "csönd",
+              "start_ms": 137200,
+              "end_ms": 138020
+            },
+            {
+              "word": "nem",
+              "start_ms": 138020,
+              "end_ms": 138700
+            },
+            {
+              "word": "volt",
+              "start_ms": 138700,
+              "end_ms": 139280
+            },
+            {
+              "word": "üres",
+              "start_ms": 139280,
+              "end_ms": 140200
+            }
+          ]
         },
         {
           "text": "Valami nőtt bennem",
-          "start_ms": 114480,
-          "end_ms": 116480
+          "start_ms": 140200,
+          "end_ms": 143960,
+          "words": [
+            {
+              "word": "Valami",
+              "start_ms": 140200,
+              "end_ms": 141680
+            },
+            {
+              "word": "nőtt",
+              "start_ms": 141680,
+              "end_ms": 142160
+            },
+            {
+              "word": "bennem",
+              "start_ms": 142160,
+              "end_ms": 143960
+            }
+          ]
         },
         {
           "text": "Amit nem tudtam volna mondani",
-          "start_ms": 116480,
-          "end_ms": 118800
+          "start_ms": 144500,
+          "end_ms": 148440,
+          "words": [
+            {
+              "word": "Amit",
+              "start_ms": 144500,
+              "end_ms": 144640
+            },
+            {
+              "word": "nem",
+              "start_ms": 144640,
+              "end_ms": 145120
+            },
+            {
+              "word": "tudtam",
+              "start_ms": 145120,
+              "end_ms": 145900
+            },
+            {
+              "word": "volna",
+              "start_ms": 145900,
+              "end_ms": 146560
+            },
+            {
+              "word": "mondani",
+              "start_ms": 146560,
+              "end_ms": 148440
+            }
+          ]
         }
-      ],
-      "start_ms": 101520,
-      "end_ms": 118800
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 149020,
+      "end_ms": 167540,
       "lines": [
         {
           "text": "És aztán egy reggel",
-          "start_ms": 121800,
-          "end_ms": 123800
+          "start_ms": 149020,
+          "end_ms": 150960,
+          "words": [
+            {
+              "word": "És",
+              "start_ms": 149020,
+              "end_ms": 149160
+            },
+            {
+              "word": "aztán",
+              "start_ms": 149160,
+              "end_ms": 149600
+            },
+            {
+              "word": "egy",
+              "start_ms": 149600,
+              "end_ms": 149780
+            },
+            {
+              "word": "reggel",
+              "start_ms": 149780,
+              "end_ms": 150960
+            }
+          ]
         },
         {
           "text": "A levegő más volt",
-          "start_ms": 123800,
-          "end_ms": 125800
+          "start_ms": 150960,
+          "end_ms": 153200,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 150960,
+              "end_ms": 151640
+            },
+            {
+              "word": "levegő",
+              "start_ms": 151640,
+              "end_ms": 152280
+            },
+            {
+              "word": "más",
+              "start_ms": 152280,
+              "end_ms": 152740
+            },
+            {
+              "word": "volt",
+              "start_ms": 152740,
+              "end_ms": 153200
+            }
+          ]
         },
         {
           "text": "Nem tudtam megmagyarázni",
-          "start_ms": 125800,
-          "end_ms": 127800
+          "start_ms": 153580,
+          "end_ms": 156360,
+          "words": [
+            {
+              "word": "Nem",
+              "start_ms": 153580,
+              "end_ms": 153940
+            },
+            {
+              "word": "tudtam",
+              "start_ms": 153940,
+              "end_ms": 154780
+            },
+            {
+              "word": "megmagyarázni",
+              "start_ms": 154780,
+              "end_ms": 156360
+            }
+          ]
         },
         {
           "text": "Csak éreztem",
-          "start_ms": 127800,
-          "end_ms": 129800
+          "start_ms": 156520,
+          "end_ms": 158160,
+          "words": [
+            {
+              "word": "Csak",
+              "start_ms": 156520,
+              "end_ms": 156720
+            },
+            {
+              "word": "éreztem",
+              "start_ms": 156720,
+              "end_ms": 158160
+            }
+          ]
         },
         {
           "text": "A torkomon átjött valami",
-          "start_ms": 129800,
-          "end_ms": 131800
+          "start_ms": 159080,
+          "end_ms": 161080,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 159080,
+              "end_ms": 159200
+            },
+            {
+              "word": "torkomon",
+              "start_ms": 159200,
+              "end_ms": 159920
+            },
+            {
+              "word": "átjött",
+              "start_ms": 159920,
+              "end_ms": 160420
+            },
+            {
+              "word": "valami",
+              "start_ms": 160420,
+              "end_ms": 161080
+            }
+          ]
         },
         {
           "text": "Nem szó, csak hang",
-          "start_ms": 131800,
-          "end_ms": 133800
+          "start_ms": 161080,
+          "end_ms": 163040,
+          "words": [
+            {
+              "word": "Nem",
+              "start_ms": 161080,
+              "end_ms": 161600
+            },
+            {
+              "word": "szó,",
+              "start_ms": 161600,
+              "end_ms": 161980
+            },
+            {
+              "word": "csak",
+              "start_ms": 162080,
+              "end_ms": 162340
+            },
+            {
+              "word": "hang",
+              "start_ms": 162340,
+              "end_ms": 163040
+            }
+          ]
         },
         {
           "text": "Aztán szó",
-          "start_ms": 133800,
-          "end_ms": 135800
+          "start_ms": 163720,
+          "end_ms": 165600,
+          "words": [
+            {
+              "word": "Aztán",
+              "start_ms": 163720,
+              "end_ms": 164520
+            },
+            {
+              "word": "szó",
+              "start_ms": 164520,
+              "end_ms": 165600
+            }
+          ]
         },
         {
           "text": "Aztán mondat",
-          "start_ms": 135800,
-          "end_ms": 137800
+          "start_ms": 163720,
+          "end_ms": 167540,
+          "words": [
+            {
+              "word": "Aztán",
+              "start_ms": 163720,
+              "end_ms": 164520
+            },
+            {
+              "word": "mondat",
+              "start_ms": 166800,
+              "end_ms": 167540
+            }
+          ]
         }
-      ],
-      "start_ms": 121800,
-      "end_ms": 137800
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 168640,
+      "end_ms": 191420,
       "lines": [
         {
           "text": "Hallgattam, ahogy a mag hallgat",
-          "start_ms": 140800,
-          "end_ms": 143280
+          "start_ms": 168640,
+          "end_ms": 171400,
+          "words": [
+            {
+              "word": "Hallgattam,",
+              "start_ms": 168640,
+              "end_ms": 169500
+            },
+            {
+              "word": "ahogy",
+              "start_ms": 169620,
+              "end_ms": 169860
+            },
+            {
+              "word": "a",
+              "start_ms": 169860,
+              "end_ms": 170000
+            },
+            {
+              "word": "mag",
+              "start_ms": 170000,
+              "end_ms": 170200
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 170200,
+              "end_ms": 171400
+            }
+          ]
         },
         {
           "text": "Most feltöröm a földet",
-          "start_ms": 143280,
-          "end_ms": 145280
+          "start_ms": 171600,
+          "end_ms": 173540,
+          "words": [
+            {
+              "word": "Most",
+              "start_ms": 171600,
+              "end_ms": 171800
+            },
+            {
+              "word": "feltöröm",
+              "start_ms": 171800,
+              "end_ms": 172720
+            },
+            {
+              "word": "a",
+              "start_ms": 172720,
+              "end_ms": 173020
+            },
+            {
+              "word": "földet",
+              "start_ms": 173020,
+              "end_ms": 173540
+            }
+          ]
         },
         {
           "text": "Hallgattam, ahogy a jég hallgat",
-          "start_ms": 145280,
-          "end_ms": 147760
+          "start_ms": 174960,
+          "end_ms": 177500,
+          "words": [
+            {
+              "word": "Hallgattam,",
+              "start_ms": 174960,
+              "end_ms": 175820
+            },
+            {
+              "word": "ahogy",
+              "start_ms": 175960,
+              "end_ms": 176220
+            },
+            {
+              "word": "a",
+              "start_ms": 176220,
+              "end_ms": 176340
+            },
+            {
+              "word": "jég",
+              "start_ms": 176340,
+              "end_ms": 176880
+            },
+            {
+              "word": "hallgat",
+              "start_ms": 176880,
+              "end_ms": 177500
+            }
+          ]
         },
         {
           "text": "Most elengedem",
-          "start_ms": 147760,
-          "end_ms": 149760
+          "start_ms": 177720,
+          "end_ms": 178540,
+          "words": [
+            {
+              "word": "Most",
+              "start_ms": 177720,
+              "end_ms": 177920
+            },
+            {
+              "word": "elengedem",
+              "start_ms": 177920,
+              "end_ms": 178540
+            }
+          ]
         },
         {
           "text": "Kilenc hónapig csönd",
-          "start_ms": 149760,
-          "end_ms": 151760
+          "start_ms": 179660,
+          "end_ms": 182400,
+          "words": [
+            {
+              "word": "Kilenc",
+              "start_ms": 179660,
+              "end_ms": 180120
+            },
+            {
+              "word": "hónapig",
+              "start_ms": 180120,
+              "end_ms": 181120
+            },
+            {
+              "word": "csönd",
+              "start_ms": 181940,
+              "end_ms": 182400
+            }
+          ]
         },
         {
           "text": "A csönd elvette a régi hangom",
-          "start_ms": 151760,
-          "end_ms": 154080
+          "start_ms": 181820,
+          "end_ms": 184700,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 181820,
+              "end_ms": 181940
+            },
+            {
+              "word": "csönd",
+              "start_ms": 181940,
+              "end_ms": 182400
+            },
+            {
+              "word": "elvette",
+              "start_ms": 182400,
+              "end_ms": 182960
+            },
+            {
+              "word": "a",
+              "start_ms": 181820,
+              "end_ms": 181940
+            },
+            {
+              "word": "régi",
+              "start_ms": 183280,
+              "end_ms": 183740
+            },
+            {
+              "word": "hangom",
+              "start_ms": 183740,
+              "end_ms": 184700
+            }
+          ]
         },
         {
           "text": "Visszaadta az újat",
-          "start_ms": 154080,
-          "end_ms": 156080
+          "start_ms": 185280,
+          "end_ms": 188180,
+          "words": [
+            {
+              "word": "Visszaadta",
+              "start_ms": 185280,
+              "end_ms": 186140
+            },
+            {
+              "word": "az",
+              "start_ms": 186140,
+              "end_ms": 186440
+            },
+            {
+              "word": "újat",
+              "start_ms": 186440,
+              "end_ms": 188180
+            }
+          ]
         },
         {
           "text": "Azt, amit mondanom kell",
-          "start_ms": 156080,
-          "end_ms": 158080
+          "start_ms": 188980,
+          "end_ms": 191420,
+          "words": [
+            {
+              "word": "Azt,",
+              "start_ms": 188980,
+              "end_ms": 189240
+            },
+            {
+              "word": "amit",
+              "start_ms": 189240,
+              "end_ms": 189820
+            },
+            {
+              "word": "mondanom",
+              "start_ms": 189820,
+              "end_ms": 191100
+            },
+            {
+              "word": "kell",
+              "start_ms": 191100,
+              "end_ms": 191420
+            }
+          ]
         }
-      ],
-      "start_ms": 140800,
-      "end_ms": 158080
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 191420,
+      "end_ms": 201420,
       "lines": [
         {
           "text": "Hallgattam",
-          "start_ms": 161080,
-          "end_ms": 163080
+          "start_ms": 191420,
+          "end_ms": 193660,
+          "words": [
+            {
+              "word": "Hallgattam",
+              "start_ms": 191420,
+              "end_ms": 193660
+            }
+          ]
         },
         {
           "text": "A tél elmúlt",
-          "start_ms": 163080,
-          "end_ms": 165080
+          "start_ms": 195140,
+          "end_ms": 196959,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 195140,
+              "end_ms": 195280
+            },
+            {
+              "word": "tél",
+              "start_ms": 195330,
+              "end_ms": 195630,
+              "estimated": true
+            },
+            {
+              "word": "elmúlt",
+              "start_ms": 196260,
+              "end_ms": 196959
+            }
+          ]
         },
         {
           "text": "Hallgattam",
-          "start_ms": 165080,
-          "end_ms": 167080
+          "start_ms": 197320,
+          "end_ms": 198720,
+          "words": [
+            {
+              "word": "Hallgattam",
+              "start_ms": 197320,
+              "end_ms": 198720
+            }
+          ]
         },
         {
           "text": "Most szólok",
-          "start_ms": 167080,
-          "end_ms": 169080
+          "start_ms": 199840,
+          "end_ms": 201420,
+          "words": [
+            {
+              "word": "Most",
+              "start_ms": 199840,
+              "end_ms": 200160
+            },
+            {
+              "word": "szólok",
+              "start_ms": 200160,
+              "end_ms": 201420
+            }
+          ]
         }
-      ],
-      "start_ms": 161080,
-      "end_ms": 169080
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 172080,
-          "end_ms": 174080
-        }
-      ],
-      "start_ms": 172080,
-      "end_ms": 174080
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Hallgattam",
+      "section_type": "chorus",
+      "start_ms": 54080,
+      "end_ms": 68610,
+      "key_line": "Hallgattam",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Hallgattam, ahogy a mag hallga...",
+      "section_type": "chorus",
+      "start_ms": 66960,
+      "end_ms": 92050,
+      "key_line": "Hallgattam, ahogy a mag hallgat",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Hallgattam",
+      "section_type": "chorus",
+      "start_ms": 110400,
+      "end_ms": 118620,
+      "key_line": "Hallgattam",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Hallgattam, ahogy a mag hallga...",
+      "section_type": "chorus",
+      "start_ms": 118620,
+      "end_ms": 148440,
+      "key_line": "Hallgattam, ahogy a mag hallgat",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 149020,
+      "end_ms": 167540,
+      "key_line": "És aztán egy reggel",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Hallgattam, ahogy a mag hallga...",
+      "section_type": "chorus",
+      "start_ms": 168640,
+      "end_ms": 191420,
+      "key_line": "Hallgattam, ahogy a mag hallgat",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/hungarian/42_luke_01_67-79_transcript.json"
 }

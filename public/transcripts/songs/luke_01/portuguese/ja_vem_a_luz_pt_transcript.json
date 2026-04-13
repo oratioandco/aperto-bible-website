@@ -7,299 +7,1605 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 263000,
   "audio_file": "/audio/songs/luke_01/portuguese/Luke 1_67-79 (Portuguese).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.233799+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.028805+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.694,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 23060,
+      "end_ms": 58050,
       "lines": [
         {
           "text": "Havia um silencio tao longo",
-          "start_ms": 6000,
-          "end_ms": 8160
+          "start_ms": 23060,
+          "end_ms": 25160,
+          "words": [
+            {
+              "word": "Havia",
+              "start_ms": 23060,
+              "end_ms": 23360,
+              "estimated": true
+            },
+            {
+              "word": "um",
+              "start_ms": 23410,
+              "end_ms": 23710,
+              "estimated": true
+            },
+            {
+              "word": "silencio",
+              "start_ms": 23060,
+              "end_ms": 24460
+            },
+            {
+              "word": "tao",
+              "start_ms": 24510,
+              "end_ms": 24810,
+              "estimated": true
+            },
+            {
+              "word": "longo",
+              "start_ms": 24860,
+              "end_ms": 25160,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Que ja fazia parte de mim",
-          "start_ms": 8160,
-          "end_ms": 10160
+          "start_ms": 31220,
+          "end_ms": 42490,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 31220,
+              "end_ms": 31520,
+              "estimated": true
+            },
+            {
+              "word": "ja",
+              "start_ms": 31570,
+              "end_ms": 31870,
+              "estimated": true
+            },
+            {
+              "word": "fazia",
+              "start_ms": 31920,
+              "end_ms": 32220,
+              "estimated": true
+            },
+            {
+              "word": "parte",
+              "start_ms": 32270,
+              "end_ms": 32570,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 41900,
+              "end_ms": 42140
+            },
+            {
+              "word": "mim",
+              "start_ms": 42190,
+              "end_ms": 42490,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "As palavras ficaram presas",
-          "start_ms": 10160,
-          "end_ms": 12240
+          "start_ms": 48600,
+          "end_ms": 49910,
+          "words": [
+            {
+              "word": "As",
+              "start_ms": 48600,
+              "end_ms": 48860
+            },
+            {
+              "word": "palavras",
+              "start_ms": 48910,
+              "end_ms": 49210,
+              "estimated": true
+            },
+            {
+              "word": "ficaram",
+              "start_ms": 49260,
+              "end_ms": 49560,
+              "estimated": true
+            },
+            {
+              "word": "presas",
+              "start_ms": 49610,
+              "end_ms": 49910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Num sitio entre o peito e a boca",
-          "start_ms": 12240,
-          "end_ms": 14800
+          "start_ms": 52580,
+          "end_ms": 58050,
+          "words": [
+            {
+              "word": "Num",
+              "start_ms": 52580,
+              "end_ms": 53980
+            },
+            {
+              "word": "sitio",
+              "start_ms": 54680,
+              "end_ms": 55220
+            },
+            {
+              "word": "entre",
+              "start_ms": 55270,
+              "end_ms": 55570,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 58300,
+              "end_ms": 58660
+            },
+            {
+              "word": "peito",
+              "start_ms": 58710,
+              "end_ms": 59010,
+              "estimated": true
+            },
+            {
+              "word": "e",
+              "start_ms": 59060,
+              "end_ms": 59360,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 57260,
+              "end_ms": 57700
+            },
+            {
+              "word": "boca",
+              "start_ms": 57750,
+              "end_ms": 58050,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E eu deixei de as procurar",
-          "start_ms": 14800,
-          "end_ms": 16880
+          "start_ms": 57700,
+          "end_ms": 58050,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 57700,
+              "end_ms": 58000,
+              "estimated": true
+            },
+            {
+              "word": "eu",
+              "start_ms": 58050,
+              "end_ms": 58350,
+              "estimated": true
+            },
+            {
+              "word": "deixei",
+              "start_ms": 58400,
+              "end_ms": 58700,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 58750,
+              "end_ms": 59050,
+              "estimated": true
+            },
+            {
+              "word": "as",
+              "start_ms": 57260,
+              "end_ms": 57700
+            },
+            {
+              "word": "procurar",
+              "start_ms": 57750,
+              "end_ms": 58050,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16880
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 57700,
+      "end_ms": 73220,
       "lines": [
         {
           "text": "Quem espera muito tempo",
-          "start_ms": 19880,
-          "end_ms": 21880
+          "start_ms": 57700,
+          "end_ms": 56000,
+          "words": [
+            {
+              "word": "Quem",
+              "start_ms": 57700,
+              "end_ms": 58000,
+              "estimated": true
+            },
+            {
+              "word": "espera",
+              "start_ms": 58050,
+              "end_ms": 58350,
+              "estimated": true
+            },
+            {
+              "word": "muito",
+              "start_ms": 58400,
+              "end_ms": 58700,
+              "estimated": true
+            },
+            {
+              "word": "tempo",
+              "start_ms": 55220,
+              "end_ms": 56000
+            }
+          ]
         },
         {
           "text": "Comeca a confundir o escuro com o normal",
-          "start_ms": 21880,
-          "end_ms": 25080
+          "start_ms": 56000,
+          "end_ms": 61120,
+          "words": [
+            {
+              "word": "Comeca",
+              "start_ms": 56000,
+              "end_ms": 57260
+            },
+            {
+              "word": "a",
+              "start_ms": 57260,
+              "end_ms": 57700
+            },
+            {
+              "word": "confundir",
+              "start_ms": 57700,
+              "end_ms": 58300
+            },
+            {
+              "word": "o",
+              "start_ms": 58300,
+              "end_ms": 58660
+            },
+            {
+              "word": "escuro",
+              "start_ms": 58660,
+              "end_ms": 59640
+            },
+            {
+              "word": "com",
+              "start_ms": 59640,
+              "end_ms": 60060
+            },
+            {
+              "word": "o",
+              "start_ms": 58300,
+              "end_ms": 58660
+            },
+            {
+              "word": "normal",
+              "start_ms": 60240,
+              "end_ms": 61120
+            }
+          ]
         },
         {
           "text": "A sombra torna-se a casa",
-          "start_ms": 25080,
-          "end_ms": 27080
+          "start_ms": 63000,
+          "end_ms": 67100,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 63000,
+              "end_ms": 63860
+            },
+            {
+              "word": "sombra",
+              "start_ms": 63860,
+              "end_ms": 64400
+            },
+            {
+              "word": "torna-se",
+              "start_ms": 64400,
+              "end_ms": 65099
+            },
+            {
+              "word": "a",
+              "start_ms": 63000,
+              "end_ms": 63860
+            },
+            {
+              "word": "casa",
+              "start_ms": 65680,
+              "end_ms": 67100
+            }
+          ]
         },
         {
           "text": "E esqueces que havia outra coisa",
-          "start_ms": 27080,
-          "end_ms": 29640
+          "start_ms": 68000,
+          "end_ms": 73220,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 68000,
+              "end_ms": 69200
+            },
+            {
+              "word": "esqueces",
+              "start_ms": 69200,
+              "end_ms": 70100
+            },
+            {
+              "word": "que",
+              "start_ms": 70100,
+              "end_ms": 70760
+            },
+            {
+              "word": "havia",
+              "start_ms": 70760,
+              "end_ms": 71260
+            },
+            {
+              "word": "outra",
+              "start_ms": 71260,
+              "end_ms": 71880
+            },
+            {
+              "word": "coisa",
+              "start_ms": 71880,
+              "end_ms": 73220
+            }
+          ]
         }
-      ],
-      "start_ms": 19880,
-      "end_ms": 29640
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 75000,
+      "end_ms": 86140,
       "lines": [
         {
           "text": "Mas ha qualquer coisa a mudar",
-          "start_ms": 32640,
-          "end_ms": 34960
+          "start_ms": 75000,
+          "end_ms": 79140,
+          "words": [
+            {
+              "word": "Mas",
+              "start_ms": 75000,
+              "end_ms": 75780
+            },
+            {
+              "word": "ha",
+              "start_ms": 78220,
+              "end_ms": 78440
+            },
+            {
+              "word": "qualquer",
+              "start_ms": 76720,
+              "end_ms": 77440
+            },
+            {
+              "word": "coisa",
+              "start_ms": 77440,
+              "end_ms": 78220
+            },
+            {
+              "word": "a",
+              "start_ms": 78220,
+              "end_ms": 78440
+            },
+            {
+              "word": "mudar",
+              "start_ms": 78440,
+              "end_ms": 79140
+            }
+          ]
         },
         {
           "text": "La ao fundo",
-          "start_ms": 34960,
-          "end_ms": 36960
+          "start_ms": 78220,
+          "end_ms": 83180,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 78220,
+              "end_ms": 78440
+            },
+            {
+              "word": "ao",
+              "start_ms": 82020,
+              "end_ms": 82300
+            },
+            {
+              "word": "fundo",
+              "start_ms": 82300,
+              "end_ms": 83180
+            }
+          ]
         },
         {
           "text": "Onde o ceu toca o mar",
-          "start_ms": 36960,
-          "end_ms": 38960
+          "start_ms": 83180,
+          "end_ms": 86140,
+          "words": [
+            {
+              "word": "Onde",
+              "start_ms": 83180,
+              "end_ms": 83660
+            },
+            {
+              "word": "o",
+              "start_ms": 83660,
+              "end_ms": 84100
+            },
+            {
+              "word": "ceu",
+              "start_ms": 84100,
+              "end_ms": 84440
+            },
+            {
+              "word": "toca",
+              "start_ms": 84440,
+              "end_ms": 85160
+            },
+            {
+              "word": "o",
+              "start_ms": 83660,
+              "end_ms": 84100
+            },
+            {
+              "word": "mar",
+              "start_ms": 85460,
+              "end_ms": 86140
+            }
+          ]
         }
-      ],
-      "start_ms": 32640,
-      "end_ms": 38960
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 88560,
+      "end_ms": 112660,
       "lines": [
         {
           "text": "Ja vem a luz",
-          "start_ms": 41960,
-          "end_ms": 43960
+          "start_ms": 88560,
+          "end_ms": 89560,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 88560,
+              "end_ms": 88820
+            },
+            {
+              "word": "vem",
+              "start_ms": 88100,
+              "end_ms": 88560
+            },
+            {
+              "word": "a",
+              "start_ms": 88560,
+              "end_ms": 88820
+            },
+            {
+              "word": "luz",
+              "start_ms": 88820,
+              "end_ms": 89560
+            }
+          ]
         },
         {
           "text": "Ja vem de longe",
-          "start_ms": 43960,
-          "end_ms": 45960
+          "start_ms": 88560,
+          "end_ms": 93340,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 88560,
+              "end_ms": 88820
+            },
+            {
+              "word": "vem",
+              "start_ms": 88100,
+              "end_ms": 88560
+            },
+            {
+              "word": "de",
+              "start_ms": 88610,
+              "end_ms": 88910,
+              "estimated": true
+            },
+            {
+              "word": "longe",
+              "start_ms": 92140,
+              "end_ms": 93340
+            }
+          ]
         },
         {
           "text": "Para quem ficou sentado no escuro",
-          "start_ms": 45960,
-          "end_ms": 48600
+          "start_ms": 94600,
+          "end_ms": 99250,
+          "words": [
+            {
+              "word": "Para",
+              "start_ms": 94600,
+              "end_ms": 95700
+            },
+            {
+              "word": "quem",
+              "start_ms": 95700,
+              "end_ms": 96400
+            },
+            {
+              "word": "ficou",
+              "start_ms": 96400,
+              "end_ms": 97060
+            },
+            {
+              "word": "sentado",
+              "start_ms": 97060,
+              "end_ms": 98280
+            },
+            {
+              "word": "no",
+              "start_ms": 98280,
+              "end_ms": 98700
+            },
+            {
+              "word": "escuro",
+              "start_ms": 98700,
+              "end_ms": 99250
+            }
+          ]
         },
         {
           "text": "Ja vem a luz",
-          "start_ms": 48600,
-          "end_ms": 50600
+          "start_ms": 101880,
+          "end_ms": 103000,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 101880,
+              "end_ms": 102140
+            },
+            {
+              "word": "vem",
+              "start_ms": 101360,
+              "end_ms": 101880
+            },
+            {
+              "word": "a",
+              "start_ms": 101880,
+              "end_ms": 102140
+            },
+            {
+              "word": "luz",
+              "start_ms": 102140,
+              "end_ms": 103000
+            }
+          ]
         },
         {
           "text": "E o ceu a abrir-se devagar",
-          "start_ms": 50600,
-          "end_ms": 52680
+          "start_ms": 103000,
+          "end_ms": 112180,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 103000,
+              "end_ms": 104060
+            },
+            {
+              "word": "o",
+              "start_ms": 104060,
+              "end_ms": 104340
+            },
+            {
+              "word": "ceu",
+              "start_ms": 104340,
+              "end_ms": 104520
+            },
+            {
+              "word": "a",
+              "start_ms": 110920,
+              "end_ms": 111480
+            },
+            {
+              "word": "abrir-se",
+              "start_ms": 111530,
+              "end_ms": 111830,
+              "estimated": true
+            },
+            {
+              "word": "devagar",
+              "start_ms": 111880,
+              "end_ms": 112180,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E o caminho da paz a comecar",
-          "start_ms": 52680,
-          "end_ms": 54920
+          "start_ms": 111480,
+          "end_ms": 112660,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 111480,
+              "end_ms": 111780,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 111830,
+              "end_ms": 112130,
+              "estimated": true
+            },
+            {
+              "word": "caminho",
+              "start_ms": 112180,
+              "end_ms": 112480,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 109780,
+              "end_ms": 110180
+            },
+            {
+              "word": "paz",
+              "start_ms": 110180,
+              "end_ms": 110920
+            },
+            {
+              "word": "a",
+              "start_ms": 110920,
+              "end_ms": 111480
+            },
+            {
+              "word": "comecar",
+              "start_ms": 111480,
+              "end_ms": 112660
+            }
+          ]
         }
-      ],
-      "start_ms": 41960,
-      "end_ms": 54920
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 114179,
+      "end_ms": 138600,
       "lines": [
         {
           "text": "Alguem vai nascer que vai andar a frente",
-          "start_ms": 57920,
-          "end_ms": 61120
+          "start_ms": 114179,
+          "end_ms": 119080,
+          "words": [
+            {
+              "word": "Alguem",
+              "start_ms": 114179,
+              "end_ms": 115580
+            },
+            {
+              "word": "vai",
+              "start_ms": 115580,
+              "end_ms": 115800
+            },
+            {
+              "word": "nascer",
+              "start_ms": 115800,
+              "end_ms": 116580
+            },
+            {
+              "word": "que",
+              "start_ms": 116580,
+              "end_ms": 116840
+            },
+            {
+              "word": "vai",
+              "start_ms": 115580,
+              "end_ms": 115800
+            },
+            {
+              "word": "andar",
+              "start_ms": 117160,
+              "end_ms": 117880
+            },
+            {
+              "word": "a",
+              "start_ms": 117930,
+              "end_ms": 118230,
+              "estimated": true
+            },
+            {
+              "word": "frente",
+              "start_ms": 118260,
+              "end_ms": 119080
+            }
+          ]
         },
         {
           "text": "Que vai dizer o que nos nao conseguimos",
-          "start_ms": 61120,
-          "end_ms": 64240
+          "start_ms": 120240,
+          "end_ms": 126820,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 120240,
+              "end_ms": 120940
+            },
+            {
+              "word": "vai",
+              "start_ms": 120940,
+              "end_ms": 121180
+            },
+            {
+              "word": "dizer",
+              "start_ms": 121180,
+              "end_ms": 122140
+            },
+            {
+              "word": "o",
+              "start_ms": 122140,
+              "end_ms": 123020
+            },
+            {
+              "word": "que",
+              "start_ms": 123020,
+              "end_ms": 123200
+            },
+            {
+              "word": "nos",
+              "start_ms": 123200,
+              "end_ms": 123960
+            },
+            {
+              "word": "nao",
+              "start_ms": 123960,
+              "end_ms": 124700
+            },
+            {
+              "word": "conseguimos",
+              "start_ms": 124700,
+              "end_ms": 126820
+            }
+          ]
         },
         {
           "text": "Que o perdao nao e fraqueza",
-          "start_ms": 64240,
-          "end_ms": 66400
+          "start_ms": 128500,
+          "end_ms": 132500,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 128500,
+              "end_ms": 129500
+            },
+            {
+              "word": "o",
+              "start_ms": 129500,
+              "end_ms": 129780
+            },
+            {
+              "word": "perdao",
+              "start_ms": 129780,
+              "end_ms": 130160
+            },
+            {
+              "word": "nao",
+              "start_ms": 130160,
+              "end_ms": 130699
+            },
+            {
+              "word": "e",
+              "start_ms": 130749,
+              "end_ms": 131049,
+              "estimated": true
+            },
+            {
+              "word": "fraqueza",
+              "start_ms": 131060,
+              "end_ms": 132500
+            }
+          ]
         },
         {
           "text": "Que a liberdade comeca por dentro",
-          "start_ms": 66400,
-          "end_ms": 69040
+          "start_ms": 133300,
+          "end_ms": 138600,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 133300,
+              "end_ms": 134000
+            },
+            {
+              "word": "a",
+              "start_ms": 134000,
+              "end_ms": 134220
+            },
+            {
+              "word": "liberdade",
+              "start_ms": 134220,
+              "end_ms": 136040
+            },
+            {
+              "word": "comeca",
+              "start_ms": 136040,
+              "end_ms": 137360
+            },
+            {
+              "word": "por",
+              "start_ms": 137360,
+              "end_ms": 137900
+            },
+            {
+              "word": "dentro",
+              "start_ms": 137900,
+              "end_ms": 138600
+            }
+          ]
         }
-      ],
-      "start_ms": 57920,
-      "end_ms": 69040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 141180,
+      "end_ms": 152500,
       "lines": [
         {
           "text": "Tudo por uma compaixao",
-          "start_ms": 72040,
-          "end_ms": 74040
+          "start_ms": 141180,
+          "end_ms": 145580,
+          "words": [
+            {
+              "word": "Tudo",
+              "start_ms": 141180,
+              "end_ms": 141880
+            },
+            {
+              "word": "por",
+              "start_ms": 137360,
+              "end_ms": 137900
+            },
+            {
+              "word": "uma",
+              "start_ms": 142860,
+              "end_ms": 143760
+            },
+            {
+              "word": "compaixao",
+              "start_ms": 143760,
+              "end_ms": 145580
+            }
+          ]
         },
         {
           "text": "Que nao e suave",
-          "start_ms": 74040,
-          "end_ms": 76040
+          "start_ms": 146500,
+          "end_ms": 149220,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 146500,
+              "end_ms": 147200
+            },
+            {
+              "word": "nao",
+              "start_ms": 147200,
+              "end_ms": 147580
+            },
+            {
+              "word": "e",
+              "start_ms": 147630,
+              "end_ms": 147930,
+              "estimated": true
+            },
+            {
+              "word": "suave",
+              "start_ms": 147980,
+              "end_ms": 149220
+            }
+          ]
         },
         {
           "text": "Que vem das entranhas",
-          "start_ms": 76040,
-          "end_ms": 78040
+          "start_ms": 149400,
+          "end_ms": 152500,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 149400,
+              "end_ms": 149780
+            },
+            {
+              "word": "vem",
+              "start_ms": 149780,
+              "end_ms": 150280
+            },
+            {
+              "word": "das",
+              "start_ms": 150280,
+              "end_ms": 150920
+            },
+            {
+              "word": "entranhas",
+              "start_ms": 150920,
+              "end_ms": 152500
+            }
+          ]
         }
-      ],
-      "start_ms": 72040,
-      "end_ms": 78040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 154280,
+      "end_ms": 200430,
       "lines": [
         {
           "text": "Ja vem a luz",
-          "start_ms": 81040,
-          "end_ms": 83040
+          "start_ms": 154280,
+          "end_ms": 155420,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 154280,
+              "end_ms": 154560
+            },
+            {
+              "word": "vem",
+              "start_ms": 153860,
+              "end_ms": 154280
+            },
+            {
+              "word": "a",
+              "start_ms": 154280,
+              "end_ms": 154560
+            },
+            {
+              "word": "luz",
+              "start_ms": 154560,
+              "end_ms": 155420
+            }
+          ]
         },
         {
           "text": "Ja vem de longe",
-          "start_ms": 83040,
-          "end_ms": 85040
+          "start_ms": 154280,
+          "end_ms": 163320,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 154280,
+              "end_ms": 154560
+            },
+            {
+              "word": "vem",
+              "start_ms": 153860,
+              "end_ms": 154280
+            },
+            {
+              "word": "de",
+              "start_ms": 162840,
+              "end_ms": 163320
+            },
+            {
+              "word": "longe",
+              "start_ms": 162840,
+              "end_ms": 163320
+            }
+          ]
         },
         {
           "text": "Para quem vive onde nao ha luz",
-          "start_ms": 85040,
-          "end_ms": 87440
+          "start_ms": 170100,
+          "end_ms": 176970,
+          "words": [
+            {
+              "word": "Para",
+              "start_ms": 170100,
+              "end_ms": 170600
+            },
+            {
+              "word": "quem",
+              "start_ms": 170650,
+              "end_ms": 170950,
+              "estimated": true
+            },
+            {
+              "word": "vive",
+              "start_ms": 171000,
+              "end_ms": 171300,
+              "estimated": true
+            },
+            {
+              "word": "onde",
+              "start_ms": 171350,
+              "end_ms": 171650,
+              "estimated": true
+            },
+            {
+              "word": "nao",
+              "start_ms": 172020,
+              "end_ms": 172720
+            },
+            {
+              "word": "ha",
+              "start_ms": 176040,
+              "end_ms": 176620
+            },
+            {
+              "word": "luz",
+              "start_ms": 176670,
+              "end_ms": 176970,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ja vem a luz",
-          "start_ms": 87440,
-          "end_ms": 89440
+          "start_ms": 176040,
+          "end_ms": 176970,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 176040,
+              "end_ms": 176620
+            },
+            {
+              "word": "vem",
+              "start_ms": 176670,
+              "end_ms": 176970,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 176040,
+              "end_ms": 176620
+            },
+            {
+              "word": "luz",
+              "start_ms": 176670,
+              "end_ms": 176970,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E a aurora a nascer do alto",
-          "start_ms": 89440,
-          "end_ms": 91600
+          "start_ms": 195520,
+          "end_ms": 196680,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 195520,
+              "end_ms": 196020
+            },
+            {
+              "word": "a",
+              "start_ms": 198860,
+              "end_ms": 200080
+            },
+            {
+              "word": "aurora",
+              "start_ms": 200130,
+              "end_ms": 200430,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 198860,
+              "end_ms": 200080
+            },
+            {
+              "word": "nascer",
+              "start_ms": 200130,
+              "end_ms": 200430,
+              "estimated": true
+            },
+            {
+              "word": "do",
+              "start_ms": 200480,
+              "end_ms": 200780,
+              "estimated": true
+            },
+            {
+              "word": "alto",
+              "start_ms": 196020,
+              "end_ms": 196680
+            }
+          ]
         },
         {
           "text": "E os nossos passos a encontrar a paz",
-          "start_ms": 91600,
-          "end_ms": 94480
+          "start_ms": 195520,
+          "end_ms": 200430,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 195520,
+              "end_ms": 196020
+            },
+            {
+              "word": "os",
+              "start_ms": 200600,
+              "end_ms": 201620
+            },
+            {
+              "word": "nossos",
+              "start_ms": 201670,
+              "end_ms": 201970,
+              "estimated": true
+            },
+            {
+              "word": "passos",
+              "start_ms": 202020,
+              "end_ms": 202320,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 198860,
+              "end_ms": 200080
+            },
+            {
+              "word": "encontrar",
+              "start_ms": 200130,
+              "end_ms": 200430,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 198860,
+              "end_ms": 200080
+            },
+            {
+              "word": "paz",
+              "start_ms": 200130,
+              "end_ms": 200430,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 81040,
-      "end_ms": 94480
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 200600,
+      "end_ms": 217640,
       "lines": [
         {
           "text": "Depois de tanto silencio",
-          "start_ms": 97480,
-          "end_ms": 99480
+          "start_ms": 200600,
+          "end_ms": 212250,
+          "words": [
+            {
+              "word": "Depois",
+              "start_ms": 200600,
+              "end_ms": 201620
+            },
+            {
+              "word": "de",
+              "start_ms": 206820,
+              "end_ms": 208860
+            },
+            {
+              "word": "tanto",
+              "start_ms": 211460,
+              "end_ms": 211900
+            },
+            {
+              "word": "silencio",
+              "start_ms": 211950,
+              "end_ms": 212250,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "A primeira coisa que se diz",
-          "start_ms": 99480,
-          "end_ms": 101640
+          "start_ms": 221640,
+          "end_ms": 223670,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 221640,
+              "end_ms": 221920
+            },
+            {
+              "word": "primeira",
+              "start_ms": 221970,
+              "end_ms": 222270,
+              "estimated": true
+            },
+            {
+              "word": "coisa",
+              "start_ms": 222320,
+              "end_ms": 222620,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 222670,
+              "end_ms": 222970,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 223020,
+              "end_ms": 223320,
+              "estimated": true
+            },
+            {
+              "word": "diz",
+              "start_ms": 223370,
+              "end_ms": 223670,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nao e sobre nos",
-          "start_ms": 101640,
-          "end_ms": 103640
+          "start_ms": 221920,
+          "end_ms": 223270,
+          "words": [
+            {
+              "word": "Nao",
+              "start_ms": 221920,
+              "end_ms": 222220,
+              "estimated": true
+            },
+            {
+              "word": "e",
+              "start_ms": 222270,
+              "end_ms": 222570,
+              "estimated": true
+            },
+            {
+              "word": "sobre",
+              "start_ms": 222620,
+              "end_ms": 222920,
+              "estimated": true
+            },
+            {
+              "word": "nos",
+              "start_ms": 222970,
+              "end_ms": 223270,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E sobre quem esta no escuro",
-          "start_ms": 103640,
-          "end_ms": 105800
+          "start_ms": 221920,
+          "end_ms": 222690,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 221920,
+              "end_ms": 222220,
+              "estimated": true
+            },
+            {
+              "word": "sobre",
+              "start_ms": 222270,
+              "end_ms": 222570,
+              "estimated": true
+            },
+            {
+              "word": "quem",
+              "start_ms": 221240,
+              "end_ms": 221640
+            },
+            {
+              "word": "esta",
+              "start_ms": 221690,
+              "end_ms": 221990,
+              "estimated": true
+            },
+            {
+              "word": "no",
+              "start_ms": 222040,
+              "end_ms": 222340,
+              "estimated": true
+            },
+            {
+              "word": "escuro",
+              "start_ms": 222390,
+              "end_ms": 222690,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E ainda nao sabe",
-          "start_ms": 105800,
-          "end_ms": 107800
+          "start_ms": 221640,
+          "end_ms": 217640,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 221640,
+              "end_ms": 221940,
+              "estimated": true
+            },
+            {
+              "word": "ainda",
+              "start_ms": 221990,
+              "end_ms": 222290,
+              "estimated": true
+            },
+            {
+              "word": "nao",
+              "start_ms": 222340,
+              "end_ms": 222640,
+              "estimated": true
+            },
+            {
+              "word": "sabe",
+              "start_ms": 216240,
+              "end_ms": 217640
+            }
+          ]
         }
-      ],
-      "start_ms": 97480,
-      "end_ms": 107800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 221640,
+      "end_ms": 234920,
       "lines": [
         {
           "text": "Ja vem a luz",
-          "start_ms": 110800,
-          "end_ms": 112800
+          "start_ms": 221640,
+          "end_ms": 222560,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 221640,
+              "end_ms": 221920
+            },
+            {
+              "word": "vem",
+              "start_ms": 221240,
+              "end_ms": 221640
+            },
+            {
+              "word": "a",
+              "start_ms": 221640,
+              "end_ms": 221920
+            },
+            {
+              "word": "luz",
+              "start_ms": 221920,
+              "end_ms": 222560
+            }
+          ]
         },
         {
           "text": "Ja vem de longe",
-          "start_ms": 112800,
-          "end_ms": 114800
+          "start_ms": 221640,
+          "end_ms": 226460,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 221640,
+              "end_ms": 221920
+            },
+            {
+              "word": "vem",
+              "start_ms": 221240,
+              "end_ms": 221640
+            },
+            {
+              "word": "de",
+              "start_ms": 221690,
+              "end_ms": 221990,
+              "estimated": true
+            },
+            {
+              "word": "longe",
+              "start_ms": 225320,
+              "end_ms": 226460
+            }
+          ]
         },
         {
           "text": "Ja vem a luz",
-          "start_ms": 114800,
-          "end_ms": 116800
+          "start_ms": 228240,
+          "end_ms": 234920,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 228240,
+              "end_ms": 228400
+            },
+            {
+              "word": "vem",
+              "start_ms": 227840,
+              "end_ms": 228240
+            },
+            {
+              "word": "a",
+              "start_ms": 228240,
+              "end_ms": 228400
+            },
+            {
+              "word": "luz",
+              "start_ms": 232080,
+              "end_ms": 234920
+            }
+          ]
         },
         {
           "text": "Ja vem a luz",
-          "start_ms": 116800,
-          "end_ms": 118800
+          "start_ms": 231740,
+          "end_ms": 234920,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 231740,
+              "end_ms": 232080
+            },
+            {
+              "word": "vem",
+              "start_ms": 231360,
+              "end_ms": 231740
+            },
+            {
+              "word": "a",
+              "start_ms": 231740,
+              "end_ms": 232080
+            },
+            {
+              "word": "luz",
+              "start_ms": 232080,
+              "end_ms": 234920
+            }
+          ]
         }
-      ],
-      "start_ms": 110800,
-      "end_ms": 118800
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 231740,
+      "end_ms": 248020,
       "lines": [
         {
           "text": "A paz a comecar",
-          "start_ms": 121800,
-          "end_ms": 123800
+          "start_ms": 231740,
+          "end_ms": 248020,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 231740,
+              "end_ms": 232080
+            },
+            {
+              "word": "paz",
+              "start_ms": 232130,
+              "end_ms": 232430,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 231740,
+              "end_ms": 232080
+            },
+            {
+              "word": "comecar",
+              "start_ms": 247720,
+              "end_ms": 248020
+            }
+          ]
         }
-      ],
-      "start_ms": 121800,
-      "end_ms": 123800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Mas ha qualquer coisa a mudar",
+      "section_type": "chorus",
+      "start_ms": 75000,
+      "end_ms": 86140,
+      "key_line": "Mas ha qualquer coisa a mudar",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Ja vem a luz",
+      "section_type": "chorus",
+      "start_ms": 88560,
+      "end_ms": 112660,
+      "key_line": "Ja vem a luz",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Tudo por uma compaixao",
+      "section_type": "chorus",
+      "start_ms": 141180,
+      "end_ms": 152500,
+      "key_line": "Tudo por uma compaixao",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Ja vem a luz",
+      "section_type": "chorus",
+      "start_ms": 154280,
+      "end_ms": 200430,
+      "key_line": "Ja vem a luz",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 200600,
+      "end_ms": 217640,
+      "key_line": "Depois de tanto silencio",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Ja vem a luz",
+      "section_type": "chorus",
+      "start_ms": 221640,
+      "end_ms": 234920,
+      "key_line": "Ja vem a luz",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/portuguese/42_luke_01_1-67_transcript.json"
 }

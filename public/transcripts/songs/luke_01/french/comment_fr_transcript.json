@@ -7,271 +7,1332 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 164760,
   "audio_file": "/audio/songs/luke_01/french/Comment (Luke 1_26-38) — French.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.844457+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.961008+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.989,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Spoken Word",
+      "label": "Verse 1",
+      "start_ms": 3060,
+      "end_ms": 16219,
       "lines": [
         {
           "text": "On m'a jamais demande mon avis",
-          "start_ms": 6000,
-          "end_ms": 8400
+          "start_ms": 3060,
+          "end_ms": 5660,
+          "words": [
+            {
+              "word": "On",
+              "start_ms": 3060,
+              "end_ms": 3500
+            },
+            {
+              "word": "m'a",
+              "start_ms": 3550,
+              "end_ms": 3850,
+              "estimated": true
+            },
+            {
+              "word": "jamais",
+              "start_ms": 3700,
+              "end_ms": 4000
+            },
+            {
+              "word": "demande",
+              "start_ms": 4000,
+              "end_ms": 4220
+            },
+            {
+              "word": "mon",
+              "start_ms": 4220,
+              "end_ms": 4400
+            },
+            {
+              "word": "avis",
+              "start_ms": 4400,
+              "end_ms": 5660
+            }
+          ]
         },
         {
           "text": "Pour la couleur des murs de ma chambre",
-          "start_ms": 8400,
-          "end_ms": 11440
+          "start_ms": 5660,
+          "end_ms": 9140,
+          "words": [
+            {
+              "word": "Pour",
+              "start_ms": 5660,
+              "end_ms": 7260
+            },
+            {
+              "word": "la",
+              "start_ms": 7260,
+              "end_ms": 7440
+            },
+            {
+              "word": "couleur",
+              "start_ms": 7440,
+              "end_ms": 7620
+            },
+            {
+              "word": "des",
+              "start_ms": 7620,
+              "end_ms": 7780
+            },
+            {
+              "word": "murs",
+              "start_ms": 7780,
+              "end_ms": 7940
+            },
+            {
+              "word": "de",
+              "start_ms": 7940,
+              "end_ms": 8119
+            },
+            {
+              "word": "ma",
+              "start_ms": 8119,
+              "end_ms": 8340
+            },
+            {
+              "word": "chambre",
+              "start_ms": 8340,
+              "end_ms": 9140
+            }
+          ]
         },
         {
           "text": "Pour le nom de l'homme qu'on m'a choisi",
-          "start_ms": 11440,
-          "end_ms": 14560
+          "start_ms": 10380,
+          "end_ms": 14180,
+          "words": [
+            {
+              "word": "Pour",
+              "start_ms": 10380,
+              "end_ms": 10820
+            },
+            {
+              "word": "le",
+              "start_ms": 10820,
+              "end_ms": 10960
+            },
+            {
+              "word": "nom",
+              "start_ms": 10960,
+              "end_ms": 11100
+            },
+            {
+              "word": "de",
+              "start_ms": 11100,
+              "end_ms": 11240
+            },
+            {
+              "word": "l'homme",
+              "start_ms": 11360,
+              "end_ms": 11460
+            },
+            {
+              "word": "qu'on",
+              "start_ms": 11620,
+              "end_ms": 11640
+            },
+            {
+              "word": "m'a",
+              "start_ms": 11740,
+              "end_ms": 11860
+            },
+            {
+              "word": "choisi",
+              "start_ms": 11860,
+              "end_ms": 14180
+            }
+          ]
         },
         {
           "text": "Personne demande aux filles comme moi",
-          "start_ms": 14560,
-          "end_ms": 17520
+          "start_ms": 14180,
+          "end_ms": 16219,
+          "words": [
+            {
+              "word": "Personne",
+              "start_ms": 14180,
+              "end_ms": 15040
+            },
+            {
+              "word": "demande",
+              "start_ms": 15040,
+              "end_ms": 15300
+            },
+            {
+              "word": "aux",
+              "start_ms": 15300,
+              "end_ms": 15560
+            },
+            {
+              "word": "filles",
+              "start_ms": 15560,
+              "end_ms": 15740
+            },
+            {
+              "word": "comme",
+              "start_ms": 15740,
+              "end_ms": 16000
+            },
+            {
+              "word": "moi",
+              "start_ms": 16000,
+              "end_ms": 16219
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 17520
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 19400,
+      "end_ms": 32580,
       "lines": [
         {
           "text": "Et puis cette voix, dans ma piece",
-          "start_ms": 20520,
-          "end_ms": 23160
+          "start_ms": 19400,
+          "end_ms": 22740,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 19400,
+              "end_ms": 19840
+            },
+            {
+              "word": "puis",
+              "start_ms": 19840,
+              "end_ms": 20020
+            },
+            {
+              "word": "cette",
+              "start_ms": 20020,
+              "end_ms": 20280
+            },
+            {
+              "word": "voix,",
+              "start_ms": 20280,
+              "end_ms": 20800
+            },
+            {
+              "word": "dans",
+              "start_ms": 20800,
+              "end_ms": 21020
+            },
+            {
+              "word": "ma",
+              "start_ms": 21020,
+              "end_ms": 21240
+            },
+            {
+              "word": "piece",
+              "start_ms": 21240,
+              "end_ms": 22740
+            }
+          ]
         },
         {
           "text": "Qui me dit que tout va changer",
-          "start_ms": 23160,
-          "end_ms": 25560
+          "start_ms": 22740,
+          "end_ms": 25620,
+          "words": [
+            {
+              "word": "Qui",
+              "start_ms": 22740,
+              "end_ms": 23420
+            },
+            {
+              "word": "me",
+              "start_ms": 23420,
+              "end_ms": 23640
+            },
+            {
+              "word": "dit",
+              "start_ms": 23640,
+              "end_ms": 24000
+            },
+            {
+              "word": "que",
+              "start_ms": 24000,
+              "end_ms": 24180
+            },
+            {
+              "word": "tout",
+              "start_ms": 24180,
+              "end_ms": 24400
+            },
+            {
+              "word": "va",
+              "start_ms": 24400,
+              "end_ms": 24700
+            },
+            {
+              "word": "changer",
+              "start_ms": 24700,
+              "end_ms": 25620
+            }
+          ]
         },
         {
           "text": "Que dans mon corps, dans MON corps",
-          "start_ms": 25560,
-          "end_ms": 28280
+          "start_ms": 26220,
+          "end_ms": 28920,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 26220,
+              "end_ms": 26800
+            },
+            {
+              "word": "dans",
+              "start_ms": 26800,
+              "end_ms": 26980
+            },
+            {
+              "word": "mon",
+              "start_ms": 26980,
+              "end_ms": 27220
+            },
+            {
+              "word": "corps,",
+              "start_ms": 27220,
+              "end_ms": 27500
+            },
+            {
+              "word": "dans",
+              "start_ms": 26800,
+              "end_ms": 26980
+            },
+            {
+              "word": "MON",
+              "start_ms": 26980,
+              "end_ms": 27220
+            },
+            {
+              "word": "corps",
+              "start_ms": 28000,
+              "end_ms": 28920
+            }
+          ]
         },
         {
           "text": "Quelque chose d'impossible va commencer",
-          "start_ms": 28280,
-          "end_ms": 31400
+          "start_ms": 28920,
+          "end_ms": 32580,
+          "words": [
+            {
+              "word": "Quelque",
+              "start_ms": 28920,
+              "end_ms": 29560
+            },
+            {
+              "word": "chose",
+              "start_ms": 29560,
+              "end_ms": 29840
+            },
+            {
+              "word": "d'impossible",
+              "start_ms": 30080,
+              "end_ms": 30720
+            },
+            {
+              "word": "va",
+              "start_ms": 30720,
+              "end_ms": 31160
+            },
+            {
+              "word": "commencer",
+              "start_ms": 31160,
+              "end_ms": 32580
+            }
+          ]
         }
-      ],
-      "start_ms": 20520,
-      "end_ms": 31400
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 34440,
+      "end_ms": 42240,
       "lines": [
         {
           "text": "Comment... comment c'est possible",
-          "start_ms": 34400,
-          "end_ms": 37040
+          "start_ms": 34440,
+          "end_ms": 37020,
+          "words": [
+            {
+              "word": "Comment...",
+              "start_ms": 34440,
+              "end_ms": 35019
+            },
+            {
+              "word": "comment",
+              "start_ms": 34440,
+              "end_ms": 35019
+            },
+            {
+              "word": "c'est",
+              "start_ms": 36000,
+              "end_ms": 36180
+            },
+            {
+              "word": "possible",
+              "start_ms": 36180,
+              "end_ms": 37020
+            }
+          ]
         },
         {
           "text": "Je suis personne, je viens de nulle part",
-          "start_ms": 37040,
-          "end_ms": 40240
+          "start_ms": 38300,
+          "end_ms": 42240,
+          "words": [
+            {
+              "word": "Je",
+              "start_ms": 38300,
+              "end_ms": 38320
+            },
+            {
+              "word": "suis",
+              "start_ms": 38320,
+              "end_ms": 38640
+            },
+            {
+              "word": "personne,",
+              "start_ms": 38640,
+              "end_ms": 39260
+            },
+            {
+              "word": "je",
+              "start_ms": 38300,
+              "end_ms": 38320
+            },
+            {
+              "word": "viens",
+              "start_ms": 39520,
+              "end_ms": 39800
+            },
+            {
+              "word": "de",
+              "start_ms": 39800,
+              "end_ms": 40100
+            },
+            {
+              "word": "nulle",
+              "start_ms": 40100,
+              "end_ms": 40680
+            },
+            {
+              "word": "part",
+              "start_ms": 40680,
+              "end_ms": 42240
+            }
+          ]
         }
-      ],
-      "start_ms": 34400,
-      "end_ms": 40240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 42980,
+      "end_ms": 65360,
       "lines": [
         {
           "text": "Mais j'ai dit oui",
-          "start_ms": 43240,
-          "end_ms": 45240
+          "start_ms": 42980,
+          "end_ms": 45480,
+          "words": [
+            {
+              "word": "Mais",
+              "start_ms": 42980,
+              "end_ms": 43360
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 43560,
+              "end_ms": 43660
+            },
+            {
+              "word": "dit",
+              "start_ms": 43660,
+              "end_ms": 44020
+            },
+            {
+              "word": "oui",
+              "start_ms": 44020,
+              "end_ms": 45480
+            }
+          ]
         },
         {
           "text": "Pas parce qu'on me l'a demande",
-          "start_ms": 45240,
-          "end_ms": 47640
+          "start_ms": 45480,
+          "end_ms": 48520,
+          "words": [
+            {
+              "word": "Pas",
+              "start_ms": 45480,
+              "end_ms": 46320
+            },
+            {
+              "word": "parce",
+              "start_ms": 46320,
+              "end_ms": 46600
+            },
+            {
+              "word": "qu'on",
+              "start_ms": 46740,
+              "end_ms": 46940
+            },
+            {
+              "word": "me",
+              "start_ms": 46940,
+              "end_ms": 47140
+            },
+            {
+              "word": "l'a",
+              "start_ms": 47140,
+              "end_ms": 47380
+            },
+            {
+              "word": "demande",
+              "start_ms": 47380,
+              "end_ms": 48520
+            }
+          ]
         },
         {
           "text": "J'ai dit oui",
-          "start_ms": 47640,
-          "end_ms": 49640
+          "start_ms": 50080,
+          "end_ms": 52000,
+          "words": [
+            {
+              "word": "J'ai",
+              "start_ms": 50080,
+              "end_ms": 50260
+            },
+            {
+              "word": "dit",
+              "start_ms": 50260,
+              "end_ms": 50440
+            },
+            {
+              "word": "oui",
+              "start_ms": 50440,
+              "end_ms": 52000
+            }
+          ]
         },
         {
           "text": "Parce que j'ai choisi",
-          "start_ms": 49640,
-          "end_ms": 51640
+          "start_ms": 52000,
+          "end_ms": 55320,
+          "words": [
+            {
+              "word": "Parce",
+              "start_ms": 52000,
+              "end_ms": 52860
+            },
+            {
+              "word": "que",
+              "start_ms": 52860,
+              "end_ms": 53160
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 53340,
+              "end_ms": 53580
+            },
+            {
+              "word": "choisi",
+              "start_ms": 53580,
+              "end_ms": 55320
+            }
+          ]
         },
         {
           "text": "Mes mains tremblent",
-          "start_ms": 51640,
-          "end_ms": 53640
+          "start_ms": 56200,
+          "end_ms": 58760,
+          "words": [
+            {
+              "word": "Mes",
+              "start_ms": 56200,
+              "end_ms": 56800
+            },
+            {
+              "word": "mains",
+              "start_ms": 56800,
+              "end_ms": 57180
+            },
+            {
+              "word": "tremblent",
+              "start_ms": 57180,
+              "end_ms": 58760
+            }
+          ]
         },
         {
           "text": "Mon coeur sait pas encore pourquoi",
-          "start_ms": 53640,
-          "end_ms": 56360
+          "start_ms": 58760,
+          "end_ms": 61860,
+          "words": [
+            {
+              "word": "Mon",
+              "start_ms": 58760,
+              "end_ms": 59080
+            },
+            {
+              "word": "coeur",
+              "start_ms": 59080,
+              "end_ms": 59420
+            },
+            {
+              "word": "sait",
+              "start_ms": 59420,
+              "end_ms": 59800
+            },
+            {
+              "word": "pas",
+              "start_ms": 59800,
+              "end_ms": 60260
+            },
+            {
+              "word": "encore",
+              "start_ms": 60260,
+              "end_ms": 61060
+            },
+            {
+              "word": "pourquoi",
+              "start_ms": 61060,
+              "end_ms": 61860
+            }
+          ]
         },
         {
           "text": "Mais j'ai dit oui",
-          "start_ms": 56360,
-          "end_ms": 58360
+          "start_ms": 61860,
+          "end_ms": 65360,
+          "words": [
+            {
+              "word": "Mais",
+              "start_ms": 61860,
+              "end_ms": 63180
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 63400,
+              "end_ms": 63440
+            },
+            {
+              "word": "dit",
+              "start_ms": 63440,
+              "end_ms": 63740
+            },
+            {
+              "word": "oui",
+              "start_ms": 63740,
+              "end_ms": 65360
+            }
+          ]
         },
         {
           "text": "J'ai dit oui",
-          "start_ms": 58360,
-          "end_ms": 60360
+          "start_ms": 63400,
+          "end_ms": 65360,
+          "words": [
+            {
+              "word": "J'ai",
+              "start_ms": 63400,
+              "end_ms": 63440
+            },
+            {
+              "word": "dit",
+              "start_ms": 63440,
+              "end_ms": 63740
+            },
+            {
+              "word": "oui",
+              "start_ms": 63740,
+              "end_ms": 65360
+            }
+          ]
         }
-      ],
-      "start_ms": 43240,
-      "end_ms": 60360
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 70640,
+      "end_ms": 83480,
       "lines": [
         {
           "text": "Le village va parler",
-          "start_ms": 63360,
-          "end_ms": 65360
+          "start_ms": 70640,
+          "end_ms": 73460,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 70640,
+              "end_ms": 71560
+            },
+            {
+              "word": "village",
+              "start_ms": 71560,
+              "end_ms": 71820
+            },
+            {
+              "word": "va",
+              "start_ms": 71820,
+              "end_ms": 72140
+            },
+            {
+              "word": "parler",
+              "start_ms": 72140,
+              "end_ms": 73460
+            }
+          ]
         },
         {
           "text": "Joseph va comprendre ou pas",
-          "start_ms": 65360,
-          "end_ms": 67520
+          "start_ms": 73460,
+          "end_ms": 76440,
+          "words": [
+            {
+              "word": "Joseph",
+              "start_ms": 73460,
+              "end_ms": 74300
+            },
+            {
+              "word": "va",
+              "start_ms": 71820,
+              "end_ms": 72140
+            },
+            {
+              "word": "comprendre",
+              "start_ms": 74640,
+              "end_ms": 75100
+            },
+            {
+              "word": "ou",
+              "start_ms": 75100,
+              "end_ms": 75660
+            },
+            {
+              "word": "pas",
+              "start_ms": 75660,
+              "end_ms": 76440
+            }
+          ]
         },
         {
           "text": "Mon ventre va montrer",
-          "start_ms": 67520,
-          "end_ms": 69520
+          "start_ms": 77240,
+          "end_ms": 79620,
+          "words": [
+            {
+              "word": "Mon",
+              "start_ms": 77240,
+              "end_ms": 77700
+            },
+            {
+              "word": "ventre",
+              "start_ms": 77700,
+              "end_ms": 78280
+            },
+            {
+              "word": "va",
+              "start_ms": 78280,
+              "end_ms": 78480
+            },
+            {
+              "word": "montrer",
+              "start_ms": 78480,
+              "end_ms": 79620
+            }
+          ]
         },
         {
           "text": "Ce que ma bouche peut pas dire",
-          "start_ms": 69520,
-          "end_ms": 71920
+          "start_ms": 79620,
+          "end_ms": 83480,
+          "words": [
+            {
+              "word": "Ce",
+              "start_ms": 79620,
+              "end_ms": 80120
+            },
+            {
+              "word": "que",
+              "start_ms": 80120,
+              "end_ms": 80380
+            },
+            {
+              "word": "ma",
+              "start_ms": 80380,
+              "end_ms": 80840
+            },
+            {
+              "word": "bouche",
+              "start_ms": 80840,
+              "end_ms": 81320
+            },
+            {
+              "word": "peut",
+              "start_ms": 81320,
+              "end_ms": 81680
+            },
+            {
+              "word": "pas",
+              "start_ms": 81680,
+              "end_ms": 82140
+            },
+            {
+              "word": "dire",
+              "start_ms": 82140,
+              "end_ms": 83480
+            }
+          ]
         }
-      ],
-      "start_ms": 63360,
-      "end_ms": 71920
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 83480,
+      "end_ms": 92120,
       "lines": [
         {
           "text": "Comment... comment on vit avec ca",
-          "start_ms": 74920,
-          "end_ms": 77560
+          "start_ms": 83480,
+          "end_ms": 87310,
+          "words": [
+            {
+              "word": "Comment...",
+              "start_ms": 83480,
+              "end_ms": 84540
+            },
+            {
+              "word": "comment",
+              "start_ms": 83480,
+              "end_ms": 84540
+            },
+            {
+              "word": "on",
+              "start_ms": 85760,
+              "end_ms": 86080
+            },
+            {
+              "word": "vit",
+              "start_ms": 86080,
+              "end_ms": 86340
+            },
+            {
+              "word": "avec",
+              "start_ms": 86340,
+              "end_ms": 86960
+            },
+            {
+              "word": "ca",
+              "start_ms": 87010,
+              "end_ms": 87310,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Comment on porte ce qu'on comprend pas",
-          "start_ms": 77560,
-          "end_ms": 80600
+          "start_ms": 88300,
+          "end_ms": 92120,
+          "words": [
+            {
+              "word": "Comment",
+              "start_ms": 88300,
+              "end_ms": 88560
+            },
+            {
+              "word": "on",
+              "start_ms": 88560,
+              "end_ms": 88880
+            },
+            {
+              "word": "porte",
+              "start_ms": 88880,
+              "end_ms": 89160
+            },
+            {
+              "word": "ce",
+              "start_ms": 89160,
+              "end_ms": 89360
+            },
+            {
+              "word": "qu'on",
+              "start_ms": 89500,
+              "end_ms": 89720
+            },
+            {
+              "word": "comprend",
+              "start_ms": 89720,
+              "end_ms": 90140
+            },
+            {
+              "word": "pas",
+              "start_ms": 90140,
+              "end_ms": 92120
+            }
+          ]
         }
-      ],
-      "start_ms": 74920,
-      "end_ms": 80600
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 92620,
+      "end_ms": 116040,
       "lines": [
         {
           "text": "Mais j'ai dit oui",
-          "start_ms": 83600,
-          "end_ms": 85600
+          "start_ms": 92620,
+          "end_ms": 94740,
+          "words": [
+            {
+              "word": "Mais",
+              "start_ms": 92620,
+              "end_ms": 92820
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 93060,
+              "end_ms": 93160
+            },
+            {
+              "word": "dit",
+              "start_ms": 93160,
+              "end_ms": 93480
+            },
+            {
+              "word": "oui",
+              "start_ms": 93480,
+              "end_ms": 94740
+            }
+          ]
         },
         {
           "text": "Pas parce qu'on me l'a demande",
-          "start_ms": 85600,
-          "end_ms": 88000
+          "start_ms": 94740,
+          "end_ms": 97840,
+          "words": [
+            {
+              "word": "Pas",
+              "start_ms": 94740,
+              "end_ms": 95720
+            },
+            {
+              "word": "parce",
+              "start_ms": 95720,
+              "end_ms": 96000
+            },
+            {
+              "word": "qu'on",
+              "start_ms": 96140,
+              "end_ms": 96320
+            },
+            {
+              "word": "me",
+              "start_ms": 96320,
+              "end_ms": 96520
+            },
+            {
+              "word": "l'a",
+              "start_ms": 96520,
+              "end_ms": 96800
+            },
+            {
+              "word": "demande",
+              "start_ms": 96800,
+              "end_ms": 97840
+            }
+          ]
         },
         {
           "text": "J'ai dit oui",
-          "start_ms": 88000,
-          "end_ms": 90000
+          "start_ms": 99600,
+          "end_ms": 101580,
+          "words": [
+            {
+              "word": "J'ai",
+              "start_ms": 99600,
+              "end_ms": 99680
+            },
+            {
+              "word": "dit",
+              "start_ms": 99680,
+              "end_ms": 100000
+            },
+            {
+              "word": "oui",
+              "start_ms": 100000,
+              "end_ms": 101580
+            }
+          ]
         },
         {
           "text": "Parce que j'ai choisi",
-          "start_ms": 90000,
-          "end_ms": 92000
+          "start_ms": 101580,
+          "end_ms": 104440,
+          "words": [
+            {
+              "word": "Parce",
+              "start_ms": 101580,
+              "end_ms": 102260
+            },
+            {
+              "word": "que",
+              "start_ms": 102260,
+              "end_ms": 102540
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 102760,
+              "end_ms": 103000
+            },
+            {
+              "word": "choisi",
+              "start_ms": 103000,
+              "end_ms": 104440
+            }
+          ]
         },
         {
           "text": "Mes mains tremblent",
-          "start_ms": 92000,
-          "end_ms": 94000
+          "start_ms": 105480,
+          "end_ms": 107920,
+          "words": [
+            {
+              "word": "Mes",
+              "start_ms": 105480,
+              "end_ms": 106200
+            },
+            {
+              "word": "mains",
+              "start_ms": 106200,
+              "end_ms": 106600
+            },
+            {
+              "word": "tremblent",
+              "start_ms": 106600,
+              "end_ms": 107920
+            }
+          ]
         },
         {
           "text": "Mon coeur sait pas encore pourquoi",
-          "start_ms": 94000,
-          "end_ms": 96720
+          "start_ms": 107920,
+          "end_ms": 111320,
+          "words": [
+            {
+              "word": "Mon",
+              "start_ms": 107920,
+              "end_ms": 108460
+            },
+            {
+              "word": "coeur",
+              "start_ms": 108460,
+              "end_ms": 108780
+            },
+            {
+              "word": "sait",
+              "start_ms": 108780,
+              "end_ms": 109120
+            },
+            {
+              "word": "pas",
+              "start_ms": 109120,
+              "end_ms": 109640
+            },
+            {
+              "word": "encore",
+              "start_ms": 109640,
+              "end_ms": 110360
+            },
+            {
+              "word": "pourquoi",
+              "start_ms": 110360,
+              "end_ms": 111320
+            }
+          ]
         },
         {
           "text": "Mais j'ai dit oui",
-          "start_ms": 96720,
-          "end_ms": 98720
+          "start_ms": 112140,
+          "end_ms": 116040,
+          "words": [
+            {
+              "word": "Mais",
+              "start_ms": 112140,
+              "end_ms": 112500
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 112740,
+              "end_ms": 112820
+            },
+            {
+              "word": "dit",
+              "start_ms": 112820,
+              "end_ms": 113160
+            },
+            {
+              "word": "oui",
+              "start_ms": 113160,
+              "end_ms": 116040
+            }
+          ]
         }
-      ],
-      "start_ms": 83600,
-      "end_ms": 98720
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 116520,
+      "end_ms": 128720,
       "lines": [
         {
           "text": "Qu'il en soit",
-          "start_ms": 101720,
-          "end_ms": 103720
+          "start_ms": 116520,
+          "end_ms": 118400,
+          "words": [
+            {
+              "word": "Qu'il",
+              "start_ms": 116520,
+              "end_ms": 116700
+            },
+            {
+              "word": "en",
+              "start_ms": 116700,
+              "end_ms": 116920
+            },
+            {
+              "word": "soit",
+              "start_ms": 116920,
+              "end_ms": 118400
+            }
+          ]
         },
         {
           "text": "Qu'il en soit comme tu l'as dit",
-          "start_ms": 103720,
-          "end_ms": 106200
+          "start_ms": 116520,
+          "end_ms": 121900,
+          "words": [
+            {
+              "word": "Qu'il",
+              "start_ms": 116520,
+              "end_ms": 116700
+            },
+            {
+              "word": "en",
+              "start_ms": 116700,
+              "end_ms": 116920
+            },
+            {
+              "word": "soit",
+              "start_ms": 116920,
+              "end_ms": 118400
+            },
+            {
+              "word": "comme",
+              "start_ms": 119660,
+              "end_ms": 119880
+            },
+            {
+              "word": "tu",
+              "start_ms": 119880,
+              "end_ms": 120120
+            },
+            {
+              "word": "l'as",
+              "start_ms": 120300,
+              "end_ms": 120360
+            },
+            {
+              "word": "dit",
+              "start_ms": 120360,
+              "end_ms": 121900
+            }
+          ]
         },
         {
           "text": "Les yeux ouverts",
-          "start_ms": 106200,
-          "end_ms": 108200
+          "start_ms": 121900,
+          "end_ms": 124020,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 121900,
+              "end_ms": 122660
+            },
+            {
+              "word": "yeux",
+              "start_ms": 122660,
+              "end_ms": 122880
+            },
+            {
+              "word": "ouverts",
+              "start_ms": 122880,
+              "end_ms": 124020
+            }
+          ]
         },
         {
           "text": "Les mains ouvertes",
-          "start_ms": 108200,
-          "end_ms": 110200
+          "start_ms": 121900,
+          "end_ms": 126440,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 121900,
+              "end_ms": 122660
+            },
+            {
+              "word": "mains",
+              "start_ms": 124540,
+              "end_ms": 124700
+            },
+            {
+              "word": "ouvertes",
+              "start_ms": 124700,
+              "end_ms": 126440
+            }
+          ]
         },
         {
           "text": "Qu'il en soit",
-          "start_ms": 110200,
-          "end_ms": 112200
+          "start_ms": 126600,
+          "end_ms": 128720,
+          "words": [
+            {
+              "word": "Qu'il",
+              "start_ms": 126600,
+              "end_ms": 126720
+            },
+            {
+              "word": "en",
+              "start_ms": 126720,
+              "end_ms": 127100
+            },
+            {
+              "word": "soit",
+              "start_ms": 127100,
+              "end_ms": 128720
+            }
+          ]
         }
-      ],
-      "start_ms": 101720,
-      "end_ms": 112200
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 129780,
+      "end_ms": 133900,
       "lines": [
         {
           "text": "J'ai dit oui...",
-          "start_ms": 115200,
-          "end_ms": 117200
+          "start_ms": 129780,
+          "end_ms": 133900,
+          "words": [
+            {
+              "word": "J'ai",
+              "start_ms": 129780,
+              "end_ms": 129900
+            },
+            {
+              "word": "dit",
+              "start_ms": 129900,
+              "end_ms": 130220
+            },
+            {
+              "word": "oui...",
+              "start_ms": 130220,
+              "end_ms": 133900
+            }
+          ]
         }
-      ],
-      "start_ms": 115200,
-      "end_ms": 117200
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Comment... comment c'est possi...",
+      "section_type": "chorus",
+      "start_ms": 34440,
+      "end_ms": 42240,
+      "key_line": "Comment... comment c'est possible",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Mais j'ai dit oui",
+      "section_type": "chorus",
+      "start_ms": 42980,
+      "end_ms": 65360,
+      "key_line": "Mais j'ai dit oui",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Comment... comment on vit avec...",
+      "section_type": "chorus",
+      "start_ms": 83480,
+      "end_ms": 92120,
+      "key_line": "Comment... comment on vit avec ca",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Mais j'ai dit oui",
+      "section_type": "chorus",
+      "start_ms": 92620,
+      "end_ms": 116040,
+      "key_line": "Mais j'ai dit oui",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 116520,
+      "end_ms": 128720,
+      "key_line": "Qu'il en soit",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/french/42_luke_01_1-26_transcript.json"
 }

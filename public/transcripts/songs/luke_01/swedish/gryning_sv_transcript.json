@@ -7,281 +7,1245 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:20-79",
-  "duration_ms": 220000,
+  "duration_ms": 262840,
   "audio_file": "/audio/songs/luke_01/swedish/Gryning (Luke 1_20 + 1_67-79) — Swedish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.389090+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.071806+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.427,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 32800,
+      "end_ms": 71560,
       "lines": [
         {
           "text": "Nio månader tyst",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 32800,
+          "end_ms": 43480,
+          "words": [
+            {
+              "word": "Nio",
+              "start_ms": 32800,
+              "end_ms": 33100,
+              "estimated": true
+            },
+            {
+              "word": "månader",
+              "start_ms": 38980,
+              "end_ms": 40000
+            },
+            {
+              "word": "tyst",
+              "start_ms": 43240,
+              "end_ms": 43480
+            }
+          ]
         },
         {
           "text": "Inte ett ord",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 44520,
+          "end_ms": 45580,
+          "words": [
+            {
+              "word": "Inte",
+              "start_ms": 44520,
+              "end_ms": 44880
+            },
+            {
+              "word": "ett",
+              "start_ms": 44930,
+              "end_ms": 45230,
+              "estimated": true
+            },
+            {
+              "word": "ord",
+              "start_ms": 45280,
+              "end_ms": 45580,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Bara händer som formar tecken",
-          "start_ms": 10000,
-          "end_ms": 12320
+          "start_ms": 52960,
+          "end_ms": 54780,
+          "words": [
+            {
+              "word": "Bara",
+              "start_ms": 52960,
+              "end_ms": 53380
+            },
+            {
+              "word": "händer",
+              "start_ms": 53430,
+              "end_ms": 53730,
+              "estimated": true
+            },
+            {
+              "word": "som",
+              "start_ms": 53780,
+              "end_ms": 54080,
+              "estimated": true
+            },
+            {
+              "word": "formar",
+              "start_ms": 54130,
+              "end_ms": 54430,
+              "estimated": true
+            },
+            {
+              "word": "tecken",
+              "start_ms": 54480,
+              "end_ms": 54780,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "I ett språk som ingen riktigt förstår",
-          "start_ms": 12320,
-          "end_ms": 15280
+          "start_ms": 53380,
+          "end_ms": 71560,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 53380,
+              "end_ms": 53680,
+              "estimated": true
+            },
+            {
+              "word": "ett",
+              "start_ms": 62200,
+              "end_ms": 62740
+            },
+            {
+              "word": "språk",
+              "start_ms": 62790,
+              "end_ms": 63090,
+              "estimated": true
+            },
+            {
+              "word": "som",
+              "start_ms": 64340,
+              "end_ms": 64700
+            },
+            {
+              "word": "ingen",
+              "start_ms": 70200,
+              "end_ms": 70860
+            },
+            {
+              "word": "riktigt",
+              "start_ms": 70910,
+              "end_ms": 71210,
+              "estimated": true
+            },
+            {
+              "word": "förstår",
+              "start_ms": 71260,
+              "end_ms": 71560,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 70200,
+      "end_ms": 112380,
       "lines": [
         {
           "text": "Vintern var lång den gången",
-          "start_ms": 18280,
-          "end_ms": 20440
+          "start_ms": 70200,
+          "end_ms": 75590,
+          "words": [
+            {
+              "word": "Vintern",
+              "start_ms": 70200,
+              "end_ms": 70860
+            },
+            {
+              "word": "var",
+              "start_ms": 70910,
+              "end_ms": 71210,
+              "estimated": true
+            },
+            {
+              "word": "lång",
+              "start_ms": 71260,
+              "end_ms": 71560,
+              "estimated": true
+            },
+            {
+              "word": "den",
+              "start_ms": 74480,
+              "end_ms": 75240
+            },
+            {
+              "word": "gången",
+              "start_ms": 75290,
+              "end_ms": 75590,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mörkret la sig över allt",
-          "start_ms": 20440,
-          "end_ms": 22440
+          "start_ms": 75240,
+          "end_ms": 76940,
+          "words": [
+            {
+              "word": "Mörkret",
+              "start_ms": 75240,
+              "end_ms": 75540,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 75590,
+              "end_ms": 75890,
+              "estimated": true
+            },
+            {
+              "word": "sig",
+              "start_ms": 75940,
+              "end_ms": 76240,
+              "estimated": true
+            },
+            {
+              "word": "över",
+              "start_ms": 76290,
+              "end_ms": 76590,
+              "estimated": true
+            },
+            {
+              "word": "allt",
+              "start_ms": 76640,
+              "end_ms": 76940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jag satt med min tystnad som en sten i bröstet",
-          "start_ms": 22440,
-          "end_ms": 26120
+          "start_ms": 79760,
+          "end_ms": 104260,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 79760,
+              "end_ms": 80640
+            },
+            {
+              "word": "satt",
+              "start_ms": 80690,
+              "end_ms": 80990,
+              "estimated": true
+            },
+            {
+              "word": "med",
+              "start_ms": 81040,
+              "end_ms": 81340,
+              "estimated": true
+            },
+            {
+              "word": "min",
+              "start_ms": 81390,
+              "end_ms": 81690,
+              "estimated": true
+            },
+            {
+              "word": "tystnad",
+              "start_ms": 81740,
+              "end_ms": 82040,
+              "estimated": true
+            },
+            {
+              "word": "som",
+              "start_ms": 85480,
+              "end_ms": 85860
+            },
+            {
+              "word": "en",
+              "start_ms": 102140,
+              "end_ms": 103560
+            },
+            {
+              "word": "sten",
+              "start_ms": 102140,
+              "end_ms": 103560
+            },
+            {
+              "word": "i",
+              "start_ms": 103610,
+              "end_ms": 103910,
+              "estimated": true
+            },
+            {
+              "word": "bröstet",
+              "start_ms": 103960,
+              "end_ms": 104260,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Och väntade på nåt jag inte kunde namnge",
-          "start_ms": 26120,
-          "end_ms": 29320
+          "start_ms": 103560,
+          "end_ms": 112380,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 103560,
+              "end_ms": 103860,
+              "estimated": true
+            },
+            {
+              "word": "väntade",
+              "start_ms": 111120,
+              "end_ms": 111680
+            },
+            {
+              "word": "på",
+              "start_ms": 112920,
+              "end_ms": 113380
+            },
+            {
+              "word": "nåt",
+              "start_ms": 111120,
+              "end_ms": 111680
+            },
+            {
+              "word": "jag",
+              "start_ms": 111730,
+              "end_ms": 112030,
+              "estimated": true
+            },
+            {
+              "word": "inte",
+              "start_ms": 111120,
+              "end_ms": 111680
+            },
+            {
+              "word": "kunde",
+              "start_ms": 111730,
+              "end_ms": 112030,
+              "estimated": true
+            },
+            {
+              "word": "namnge",
+              "start_ms": 112080,
+              "end_ms": 112380,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 18280,
-      "end_ms": 29320
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 116560,
+      "end_ms": 132760,
       "lines": [
         {
           "text": "Men tystnaden formade nåt",
-          "start_ms": 32320,
-          "end_ms": 34320
+          "start_ms": 116560,
+          "end_ms": 118490,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 116560,
+              "end_ms": 117440
+            },
+            {
+              "word": "tystnaden",
+              "start_ms": 117490,
+              "end_ms": 117790,
+              "estimated": true
+            },
+            {
+              "word": "formade",
+              "start_ms": 117840,
+              "end_ms": 118140,
+              "estimated": true
+            },
+            {
+              "word": "nåt",
+              "start_ms": 118190,
+              "end_ms": 118490,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ord jag aldrig hade hittat",
-          "start_ms": 34320,
-          "end_ms": 36400
+          "start_ms": 117440,
+          "end_ms": 132430,
+          "words": [
+            {
+              "word": "Ord",
+              "start_ms": 117440,
+              "end_ms": 117740,
+              "estimated": true
+            },
+            {
+              "word": "jag",
+              "start_ms": 132760,
+              "end_ms": 133180
+            },
+            {
+              "word": "aldrig",
+              "start_ms": 133230,
+              "end_ms": 133530,
+              "estimated": true
+            },
+            {
+              "word": "hade",
+              "start_ms": 131280,
+              "end_ms": 132080
+            },
+            {
+              "word": "hittat",
+              "start_ms": 132130,
+              "end_ms": 132430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Om jag fortfarande kunde prata",
-          "start_ms": 36400,
-          "end_ms": 38800
+          "start_ms": 132080,
+          "end_ms": 132760,
+          "words": [
+            {
+              "word": "Om",
+              "start_ms": 132080,
+              "end_ms": 132380,
+              "estimated": true
+            },
+            {
+              "word": "jag",
+              "start_ms": 132760,
+              "end_ms": 133180
+            },
+            {
+              "word": "fortfarande",
+              "start_ms": 133230,
+              "end_ms": 133530,
+              "estimated": true
+            },
+            {
+              "word": "kunde",
+              "start_ms": 133580,
+              "end_ms": 133880,
+              "estimated": true
+            },
+            {
+              "word": "prata",
+              "start_ms": 132080,
+              "end_ms": 132760
+            }
+          ]
         }
-      ],
-      "start_ms": 32320,
-      "end_ms": 38800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 132760,
+      "end_ms": 184340,
       "lines": [
         {
           "text": "Gryning",
-          "start_ms": 41800,
-          "end_ms": 43800
+          "start_ms": 132760,
+          "end_ms": 133060,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 132760,
+              "end_ms": 133060,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Långsamt över taken",
-          "start_ms": 43800,
-          "end_ms": 45800
+          "start_ms": 132760,
+          "end_ms": 143520,
+          "words": [
+            {
+              "word": "Långsamt",
+              "start_ms": 132760,
+              "end_ms": 133060,
+              "estimated": true
+            },
+            {
+              "word": "över",
+              "start_ms": 136700,
+              "end_ms": 137160
+            },
+            {
+              "word": "taken",
+              "start_ms": 143140,
+              "end_ms": 143520
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 45800,
-          "end_ms": 47800
+          "start_ms": 150200,
+          "end_ms": 150960,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 150200,
+              "end_ms": 150960
+            }
+          ]
         },
         {
           "text": "Genom den tunnaste sprickan",
-          "start_ms": 47800,
-          "end_ms": 49960
+          "start_ms": 162380,
+          "end_ms": 165860,
+          "words": [
+            {
+              "word": "Genom",
+              "start_ms": 162380,
+              "end_ms": 162920
+            },
+            {
+              "word": "den",
+              "start_ms": 162920,
+              "end_ms": 163420
+            },
+            {
+              "word": "tunnaste",
+              "start_ms": 163420,
+              "end_ms": 164600
+            },
+            {
+              "word": "sprickan",
+              "start_ms": 164600,
+              "end_ms": 165860
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 49960,
-          "end_ms": 51960
+          "start_ms": 165860,
+          "end_ms": 167280,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 165860,
+              "end_ms": 167280
+            }
+          ]
         },
         {
           "text": "Inte svaret på varför det var mörkt",
-          "start_ms": 51960,
-          "end_ms": 54760
+          "start_ms": 167460,
+          "end_ms": 172860,
+          "words": [
+            {
+              "word": "Inte",
+              "start_ms": 167460,
+              "end_ms": 168460
+            },
+            {
+              "word": "svaret",
+              "start_ms": 168460,
+              "end_ms": 169700
+            },
+            {
+              "word": "på",
+              "start_ms": 169700,
+              "end_ms": 170080
+            },
+            {
+              "word": "varför",
+              "start_ms": 170080,
+              "end_ms": 171120
+            },
+            {
+              "word": "det",
+              "start_ms": 171120,
+              "end_ms": 171320
+            },
+            {
+              "word": "var",
+              "start_ms": 171320,
+              "end_ms": 171620
+            },
+            {
+              "word": "mörkt",
+              "start_ms": 171620,
+              "end_ms": 172860
+            }
+          ]
         },
         {
           "text": "Men ljus som hittar vägen in",
-          "start_ms": 54760,
-          "end_ms": 57000
+          "start_ms": 173440,
+          "end_ms": 179260,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 173440,
+              "end_ms": 174200
+            },
+            {
+              "word": "ljus",
+              "start_ms": 174200,
+              "end_ms": 175180
+            },
+            {
+              "word": "som",
+              "start_ms": 175180,
+              "end_ms": 175520
+            },
+            {
+              "word": "hittar",
+              "start_ms": 175520,
+              "end_ms": 176080
+            },
+            {
+              "word": "vägen",
+              "start_ms": 176080,
+              "end_ms": 177460
+            },
+            {
+              "word": "in",
+              "start_ms": 177460,
+              "end_ms": 179260
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 57000,
-          "end_ms": 59000
+          "start_ms": 182940,
+          "end_ms": 184340,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 182940,
+              "end_ms": 184340
+            }
+          ]
         }
-      ],
-      "start_ms": 41800,
-      "end_ms": 59000
+      ]
     },
     {
       "type": "verse",
-      "label": "Verse 3] [Soft",
+      "label": "Verse 3",
+      "start_ms": 189580,
+      "end_ms": 206260,
       "lines": [
         {
           "text": "Det första jag sa efter allt det där",
-          "start_ms": 62000,
-          "end_ms": 64880
+          "start_ms": 189580,
+          "end_ms": 202430,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 189580,
+              "end_ms": 189900
+            },
+            {
+              "word": "första",
+              "start_ms": 188180,
+              "end_ms": 189580
+            },
+            {
+              "word": "jag",
+              "start_ms": 189630,
+              "end_ms": 189930,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 189980,
+              "end_ms": 190280,
+              "estimated": true
+            },
+            {
+              "word": "efter",
+              "start_ms": 200340,
+              "end_ms": 201380
+            },
+            {
+              "word": "allt",
+              "start_ms": 201430,
+              "end_ms": 201730,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 201780,
+              "end_ms": 202080,
+              "estimated": true
+            },
+            {
+              "word": "där",
+              "start_ms": 202130,
+              "end_ms": 202430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Var inte hej eller förlåt",
-          "start_ms": 64880,
-          "end_ms": 66880
+          "start_ms": 204560,
+          "end_ms": 201730,
+          "words": [
+            {
+              "word": "Var",
+              "start_ms": 204560,
+              "end_ms": 204860,
+              "estimated": true
+            },
+            {
+              "word": "inte",
+              "start_ms": 204910,
+              "end_ms": 205210,
+              "estimated": true
+            },
+            {
+              "word": "hej",
+              "start_ms": 205260,
+              "end_ms": 205560,
+              "estimated": true
+            },
+            {
+              "word": "eller",
+              "start_ms": 200340,
+              "end_ms": 201380
+            },
+            {
+              "word": "förlåt",
+              "start_ms": 201430,
+              "end_ms": 201730,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Det var en sång jag aldrig övat",
-          "start_ms": 66880,
-          "end_ms": 69360
+          "start_ms": 204560,
+          "end_ms": 206960,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 204560,
+              "end_ms": 204860,
+              "estimated": true
+            },
+            {
+              "word": "var",
+              "start_ms": 204910,
+              "end_ms": 205210,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 205260,
+              "end_ms": 205560,
+              "estimated": true
+            },
+            {
+              "word": "sång",
+              "start_ms": 205610,
+              "end_ms": 205910,
+              "estimated": true
+            },
+            {
+              "word": "jag",
+              "start_ms": 205960,
+              "end_ms": 206260,
+              "estimated": true
+            },
+            {
+              "word": "aldrig",
+              "start_ms": 206310,
+              "end_ms": 206610,
+              "estimated": true
+            },
+            {
+              "word": "övat",
+              "start_ms": 206660,
+              "end_ms": 206960,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Som bara rann ur mig",
-          "start_ms": 69360,
-          "end_ms": 71360
+          "start_ms": 204560,
+          "end_ms": 206260,
+          "words": [
+            {
+              "word": "Som",
+              "start_ms": 204560,
+              "end_ms": 204860,
+              "estimated": true
+            },
+            {
+              "word": "bara",
+              "start_ms": 204910,
+              "end_ms": 205210,
+              "estimated": true
+            },
+            {
+              "word": "rann",
+              "start_ms": 205260,
+              "end_ms": 205560,
+              "estimated": true
+            },
+            {
+              "word": "ur",
+              "start_ms": 205610,
+              "end_ms": 205910,
+              "estimated": true
+            },
+            {
+              "word": "mig",
+              "start_ms": 205960,
+              "end_ms": 206260,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 62000,
-      "end_ms": 71360
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 211619,
+      "end_ms": 213019,
       "lines": [
         {
           "text": "Gryning",
-          "start_ms": 74360,
-          "end_ms": 76360
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         },
         {
           "text": "Långsamt över taken",
-          "start_ms": 76360,
-          "end_ms": 78360
+          "start_ms": 213019,
+          "end_ms": 208730,
+          "words": [
+            {
+              "word": "Långsamt",
+              "start_ms": 213019,
+              "end_ms": 213319,
+              "estimated": true
+            },
+            {
+              "word": "över",
+              "start_ms": 207340,
+              "end_ms": 208380
+            },
+            {
+              "word": "taken",
+              "start_ms": 208430,
+              "end_ms": 208730,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 78360,
-          "end_ms": 80360
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         },
         {
           "text": "Genom den tunnaste sprickan",
-          "start_ms": 80360,
-          "end_ms": 82520
+          "start_ms": 213019,
+          "end_ms": 214369,
+          "words": [
+            {
+              "word": "Genom",
+              "start_ms": 213019,
+              "end_ms": 213319,
+              "estimated": true
+            },
+            {
+              "word": "den",
+              "start_ms": 213369,
+              "end_ms": 213669,
+              "estimated": true
+            },
+            {
+              "word": "tunnaste",
+              "start_ms": 213719,
+              "end_ms": 214019,
+              "estimated": true
+            },
+            {
+              "word": "sprickan",
+              "start_ms": 214069,
+              "end_ms": 214369,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 82520,
-          "end_ms": 84520
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         },
         {
           "text": "Inte svaret på varför det var mörkt",
-          "start_ms": 84520,
-          "end_ms": 87320
+          "start_ms": 213019,
+          "end_ms": 215419,
+          "words": [
+            {
+              "word": "Inte",
+              "start_ms": 213019,
+              "end_ms": 213319,
+              "estimated": true
+            },
+            {
+              "word": "svaret",
+              "start_ms": 213369,
+              "end_ms": 213669,
+              "estimated": true
+            },
+            {
+              "word": "på",
+              "start_ms": 213719,
+              "end_ms": 214019,
+              "estimated": true
+            },
+            {
+              "word": "varför",
+              "start_ms": 214069,
+              "end_ms": 214369,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 214419,
+              "end_ms": 214719,
+              "estimated": true
+            },
+            {
+              "word": "var",
+              "start_ms": 214769,
+              "end_ms": 215069,
+              "estimated": true
+            },
+            {
+              "word": "mörkt",
+              "start_ms": 215119,
+              "end_ms": 215419,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Men ljus som hittar vägen in",
-          "start_ms": 87320,
-          "end_ms": 89560
+          "start_ms": 213019,
+          "end_ms": 208040,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 213019,
+              "end_ms": 213319,
+              "estimated": true
+            },
+            {
+              "word": "ljus",
+              "start_ms": 213369,
+              "end_ms": 213669,
+              "estimated": true
+            },
+            {
+              "word": "som",
+              "start_ms": 213719,
+              "end_ms": 214019,
+              "estimated": true
+            },
+            {
+              "word": "hittar",
+              "start_ms": 205960,
+              "end_ms": 207340
+            },
+            {
+              "word": "vägen",
+              "start_ms": 207390,
+              "end_ms": 207690,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 207740,
+              "end_ms": 208040,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 89560,
-          "end_ms": 91560
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         }
-      ],
-      "start_ms": 74360,
-      "end_ms": 91560
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Whispered",
+      "label": "Bridge",
+      "start_ms": 213019,
+      "end_ms": 201380,
       "lines": [
         {
           "text": "För dem som sitter i mörkret",
-          "start_ms": 94560,
-          "end_ms": 96800
+          "start_ms": 213019,
+          "end_ms": 214069,
+          "words": [
+            {
+              "word": "För",
+              "start_ms": 213019,
+              "end_ms": 213319,
+              "estimated": true
+            },
+            {
+              "word": "dem",
+              "start_ms": 213369,
+              "end_ms": 213669,
+              "estimated": true
+            },
+            {
+              "word": "som",
+              "start_ms": 213719,
+              "end_ms": 214019,
+              "estimated": true
+            },
+            {
+              "word": "sitter",
+              "start_ms": 205960,
+              "end_ms": 207340
+            },
+            {
+              "word": "i",
+              "start_ms": 213019,
+              "end_ms": 213719
+            },
+            {
+              "word": "mörkret",
+              "start_ms": 213769,
+              "end_ms": 214069,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "I skuggan",
-          "start_ms": 96800,
-          "end_ms": 98800
+          "start_ms": 213019,
+          "end_ms": 214069,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 213019,
+              "end_ms": 213719
+            },
+            {
+              "word": "skuggan",
+              "start_ms": 213769,
+              "end_ms": 214069,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ljuset hittar er",
-          "start_ms": 98800,
-          "end_ms": 100800
+          "start_ms": 216840,
+          "end_ms": 208380,
+          "words": [
+            {
+              "word": "Ljuset",
+              "start_ms": 216840,
+              "end_ms": 217140,
+              "estimated": true
+            },
+            {
+              "word": "hittar",
+              "start_ms": 217190,
+              "end_ms": 217490,
+              "estimated": true
+            },
+            {
+              "word": "er",
+              "start_ms": 207340,
+              "end_ms": 208380
+            }
+          ]
         },
         {
           "text": "Ljuset hittar er",
-          "start_ms": 100800,
-          "end_ms": 102800
+          "start_ms": 204560,
+          "end_ms": 201380,
+          "words": [
+            {
+              "word": "Ljuset",
+              "start_ms": 204560,
+              "end_ms": 205960
+            },
+            {
+              "word": "hittar",
+              "start_ms": 198940,
+              "end_ms": 200340
+            },
+            {
+              "word": "er",
+              "start_ms": 200340,
+              "end_ms": 201380
+            }
+          ]
         }
-      ],
-      "start_ms": 94560,
-      "end_ms": 102800
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 211619,
+      "end_ms": 213019,
       "lines": [
         {
           "text": "Gryning",
-          "start_ms": 105800,
-          "end_ms": 107800
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 107800,
-          "end_ms": 109800
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         },
         {
           "text": "Gryning",
-          "start_ms": 109800,
-          "end_ms": 111800
+          "start_ms": 211619,
+          "end_ms": 213019,
+          "words": [
+            {
+              "word": "Gryning",
+              "start_ms": 211619,
+              "end_ms": 213019
+            }
+          ]
         }
-      ],
-      "start_ms": 105800,
-      "end_ms": 111800
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 114800,
-          "end_ms": 116800
-        }
-      ],
-      "start_ms": 114800,
-      "end_ms": 116800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Men tystnaden formade nåt",
+      "section_type": "chorus",
+      "start_ms": 116560,
+      "end_ms": 132760,
+      "key_line": "Men tystnaden formade nåt",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Gryning",
+      "section_type": "chorus",
+      "start_ms": 132760,
+      "end_ms": 184340,
+      "key_line": "Gryning",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Gryning",
+      "section_type": "chorus",
+      "start_ms": 211619,
+      "end_ms": 213019,
+      "key_line": "Gryning",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 213019,
+      "end_ms": 201380,
+      "key_line": "För dem som sitter i mörkret",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Gryning",
+      "section_type": "chorus",
+      "start_ms": 211619,
+      "end_ms": 213019,
+      "key_line": "Gryning",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/swedish/42_luke_01_1-20_transcript.json"
 }

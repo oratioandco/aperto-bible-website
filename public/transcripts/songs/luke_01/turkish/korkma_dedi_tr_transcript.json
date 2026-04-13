@@ -7,182 +7,877 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 172080,
   "audio_file": "/audio/songs/luke_01/turkish/Korkma Dedi (Luke 1_5-38) — Turkish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.399129+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.076232+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.725,
   "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 14280,
+      "end_ms": 28140,
+      "lines": [
+        {
+          "text": "Cebrail geldi — iki kez",
+          "start_ms": 14280,
+          "end_ms": 18200,
+          "words": [
+            {
+              "word": "Cebrail",
+              "start_ms": 14280,
+              "end_ms": 15680
+            },
+            {
+              "word": "geldi",
+              "start_ms": 15680,
+              "end_ms": 16820
+            },
+            {
+              "word": "—",
+              "start_ms": 16870,
+              "end_ms": 17170,
+              "estimated": true
+            },
+            {
+              "word": "iki",
+              "start_ms": 16820,
+              "end_ms": 17500
+            },
+            {
+              "word": "kez",
+              "start_ms": 17500,
+              "end_ms": 18200
+            }
+          ]
+        },
+        {
+          "text": "İlk seferinde tapınağa",
+          "start_ms": 18200,
+          "end_ms": 21880,
+          "words": [
+            {
+              "word": "İlk",
+              "start_ms": 18200,
+              "end_ms": 18680
+            },
+            {
+              "word": "seferinde",
+              "start_ms": 18680,
+              "end_ms": 19860
+            },
+            {
+              "word": "tapınağa",
+              "start_ms": 19860,
+              "end_ms": 21880
+            }
+          ]
+        },
+        {
+          "text": "Yaşlı bir adamın önüne",
+          "start_ms": 21880,
+          "end_ms": 24660,
+          "words": [
+            {
+              "word": "Yaşlı",
+              "start_ms": 21880,
+              "end_ms": 22540
+            },
+            {
+              "word": "bir",
+              "start_ms": 22540,
+              "end_ms": 22860
+            },
+            {
+              "word": "adamın",
+              "start_ms": 22860,
+              "end_ms": 23480
+            },
+            {
+              "word": "önüne",
+              "start_ms": 23480,
+              "end_ms": 24660
+            }
+          ]
+        },
+        {
+          "text": "İnanmadı — ve sustu",
+          "start_ms": 24660,
+          "end_ms": 28140,
+          "words": [
+            {
+              "word": "İnanmadı",
+              "start_ms": 24660,
+              "end_ms": 25900
+            },
+            {
+              "word": "—",
+              "start_ms": 25950,
+              "end_ms": 26250,
+              "estimated": true
+            },
+            {
+              "word": "ve",
+              "start_ms": 25900,
+              "end_ms": 27140
+            },
+            {
+              "word": "sustu",
+              "start_ms": 27140,
+              "end_ms": 28140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 28140,
+      "end_ms": 41380,
+      "lines": [
+        {
+          "text": "İkinci seferinde bir köye",
+          "start_ms": 28140,
+          "end_ms": 31600,
+          "words": [
+            {
+              "word": "İkinci",
+              "start_ms": 28140,
+              "end_ms": 29080
+            },
+            {
+              "word": "seferinde",
+              "start_ms": 29080,
+              "end_ms": 30080
+            },
+            {
+              "word": "bir",
+              "start_ms": 30080,
+              "end_ms": 30500
+            },
+            {
+              "word": "köye",
+              "start_ms": 30500,
+              "end_ms": 31600
+            }
+          ]
+        },
+        {
+          "text": "Genç bir kızın odasına",
+          "start_ms": 31600,
+          "end_ms": 34760,
+          "words": [
+            {
+              "word": "Genç",
+              "start_ms": 31600,
+              "end_ms": 32280
+            },
+            {
+              "word": "bir",
+              "start_ms": 30080,
+              "end_ms": 30500
+            },
+            {
+              "word": "kızın",
+              "start_ms": 32640,
+              "end_ms": 33380
+            },
+            {
+              "word": "odasına",
+              "start_ms": 33380,
+              "end_ms": 34760
+            }
+          ]
+        },
+        {
+          "text": "Nişanlı, on altı yaşında belki",
+          "start_ms": 34760,
+          "end_ms": 38960,
+          "words": [
+            {
+              "word": "Nişanlı,",
+              "start_ms": 34760,
+              "end_ms": 35840
+            },
+            {
+              "word": "on",
+              "start_ms": 35890,
+              "end_ms": 36190,
+              "estimated": true
+            },
+            {
+              "word": "altı",
+              "start_ms": 34760,
+              "end_ms": 35840
+            },
+            {
+              "word": "yaşında",
+              "start_ms": 36500,
+              "end_ms": 37460
+            },
+            {
+              "word": "belki",
+              "start_ms": 37460,
+              "end_ms": 38960
+            }
+          ]
+        },
+        {
+          "text": "Ve aynı şeyi duydu",
+          "start_ms": 38960,
+          "end_ms": 41380,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 38960,
+              "end_ms": 39440
+            },
+            {
+              "word": "aynı",
+              "start_ms": 39440,
+              "end_ms": 39980
+            },
+            {
+              "word": "şeyi",
+              "start_ms": 39980,
+              "end_ms": 40720
+            },
+            {
+              "word": "duydu",
+              "start_ms": 40720,
+              "end_ms": 41380
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 41380,
+      "end_ms": 63420,
       "lines": [
         {
           "text": "Korkma dedi",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 41380,
+          "end_ms": 43600,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 41380,
+              "end_ms": 42560
+            },
+            {
+              "word": "dedi",
+              "start_ms": 42560,
+              "end_ms": 43600
+            }
+          ]
         },
         {
           "text": "Korkma dedi",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 41380,
+          "end_ms": 43600,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 41380,
+              "end_ms": 42560
+            },
+            {
+              "word": "dedi",
+              "start_ms": 42560,
+              "end_ms": 43600
+            }
+          ]
         },
         {
           "text": "Sonra imkansız olanı söyledi",
-          "start_ms": 10000,
-          "end_ms": 12240
+          "start_ms": 47600,
+          "end_ms": 54740,
+          "words": [
+            {
+              "word": "Sonra",
+              "start_ms": 47600,
+              "end_ms": 49320
+            },
+            {
+              "word": "imkansız",
+              "start_ms": 49320,
+              "end_ms": 51380
+            },
+            {
+              "word": "olanı",
+              "start_ms": 51380,
+              "end_ms": 52280
+            },
+            {
+              "word": "söyledi",
+              "start_ms": 52280,
+              "end_ms": 54740
+            }
+          ]
         },
         {
           "text": "Korkma dedi — ama nasıl?",
-          "start_ms": 12240,
-          "end_ms": 14240
+          "start_ms": 54740,
+          "end_ms": 58900,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 54740,
+              "end_ms": 56080
+            },
+            {
+              "word": "dedi",
+              "start_ms": 56080,
+              "end_ms": 57160
+            },
+            {
+              "word": "—",
+              "start_ms": 57210,
+              "end_ms": 57510,
+              "estimated": true
+            },
+            {
+              "word": "ama",
+              "start_ms": 57160,
+              "end_ms": 57740
+            },
+            {
+              "word": "nasıl?",
+              "start_ms": 57740,
+              "end_ms": 58900
+            }
+          ]
         },
         {
           "text": "Ama nasıl korkmayayım?",
-          "start_ms": 14240,
-          "end_ms": 16240
+          "start_ms": 57160,
+          "end_ms": 63420,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 57160,
+              "end_ms": 57740
+            },
+            {
+              "word": "nasıl",
+              "start_ms": 57740,
+              "end_ms": 58900
+            },
+            {
+              "word": "korkmayayım?",
+              "start_ms": 61720,
+              "end_ms": 63420
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16240
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 81880,
+      "end_ms": 126030,
       "lines": [
         {
           "text": "Sen söylüyorsun kolay",
-          "start_ms": 19240,
-          "end_ms": 21240
+          "start_ms": 81880,
+          "end_ms": 85580,
+          "words": [
+            {
+              "word": "Sen",
+              "start_ms": 81880,
+              "end_ms": 83280
+            },
+            {
+              "word": "söylüyorsun",
+              "start_ms": 83280,
+              "end_ms": 84380
+            },
+            {
+              "word": "kolay",
+              "start_ms": 84380,
+              "end_ms": 85580
+            }
+          ]
         },
         {
           "text": "Ben yaşıyorum zor",
-          "start_ms": 21240,
-          "end_ms": 23240
+          "start_ms": 85580,
+          "end_ms": 89400,
+          "words": [
+            {
+              "word": "Ben",
+              "start_ms": 85580,
+              "end_ms": 87020
+            },
+            {
+              "word": "yaşıyorum",
+              "start_ms": 87020,
+              "end_ms": 88140
+            },
+            {
+              "word": "zor",
+              "start_ms": 88140,
+              "end_ms": 89400
+            }
+          ]
         },
         {
           "text": "İkimiz de titriyorduk",
-          "start_ms": 23240,
-          "end_ms": 25240
+          "start_ms": 89400,
+          "end_ms": 97790,
+          "words": [
+            {
+              "word": "İkimiz",
+              "start_ms": 89400,
+              "end_ms": 90940
+            },
+            {
+              "word": "de",
+              "start_ms": 96600,
+              "end_ms": 97440
+            },
+            {
+              "word": "titriyorduk",
+              "start_ms": 97490,
+              "end_ms": 97790,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ama titremek farklıydı",
-          "start_ms": 25240,
-          "end_ms": 27240
+          "start_ms": 111160,
+          "end_ms": 126030,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 111160,
+              "end_ms": 111760
+            },
+            {
+              "word": "titremek",
+              "start_ms": 124640,
+              "end_ms": 125680
+            },
+            {
+              "word": "farklıydı",
+              "start_ms": 125730,
+              "end_ms": 126030,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 19240,
-      "end_ms": 27240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 129720,
+      "end_ms": 150780,
       "lines": [
         {
           "text": "Korkma dedi",
-          "start_ms": 30240,
-          "end_ms": 32240
+          "start_ms": 129720,
+          "end_ms": 144580,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 129720,
+              "end_ms": 131420
+            },
+            {
+              "word": "dedi",
+              "start_ms": 143640,
+              "end_ms": 144580
+            }
+          ]
         },
         {
           "text": "Korkma dedi",
-          "start_ms": 32240,
-          "end_ms": 34240
+          "start_ms": 141500,
+          "end_ms": 144580,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 141500,
+              "end_ms": 143640
+            },
+            {
+              "word": "dedi",
+              "start_ms": 143640,
+              "end_ms": 144580
+            }
+          ]
         },
         {
           "text": "Sonra imkansız olanı söyledi",
-          "start_ms": 34240,
-          "end_ms": 36480
+          "start_ms": 141500,
+          "end_ms": 152490,
+          "words": [
+            {
+              "word": "Sonra",
+              "start_ms": 141500,
+              "end_ms": 143640
+            },
+            {
+              "word": "imkansız",
+              "start_ms": 143690,
+              "end_ms": 143990,
+              "estimated": true
+            },
+            {
+              "word": "olanı",
+              "start_ms": 150080,
+              "end_ms": 152140
+            },
+            {
+              "word": "söyledi",
+              "start_ms": 152190,
+              "end_ms": 152490,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Korkma dedi — ama nasıl?",
-          "start_ms": 36480,
-          "end_ms": 38480
+          "start_ms": 146280,
+          "end_ms": 150430,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 146280,
+              "end_ms": 149060
+            },
+            {
+              "word": "dedi",
+              "start_ms": 149110,
+              "end_ms": 149410,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 149460,
+              "end_ms": 149760,
+              "estimated": true
+            },
+            {
+              "word": "ama",
+              "start_ms": 149060,
+              "end_ms": 150080
+            },
+            {
+              "word": "nasıl?",
+              "start_ms": 150130,
+              "end_ms": 150430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ama nasıl korkmayayım?",
-          "start_ms": 38480,
-          "end_ms": 40480
+          "start_ms": 149060,
+          "end_ms": 150780,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 149060,
+              "end_ms": 150080
+            },
+            {
+              "word": "nasıl",
+              "start_ms": 150130,
+              "end_ms": 150430,
+              "estimated": true
+            },
+            {
+              "word": "korkmayayım?",
+              "start_ms": 150480,
+              "end_ms": 150780,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 30240,
-      "end_ms": 40480
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 150080,
+      "end_ms": 150060,
       "lines": [
         {
           "text": "Belki korkmak doğru olandı",
-          "start_ms": 43480,
-          "end_ms": 45560
+          "start_ms": 150080,
+          "end_ms": 152140,
+          "words": [
+            {
+              "word": "Belki",
+              "start_ms": 150080,
+              "end_ms": 150380,
+              "estimated": true
+            },
+            {
+              "word": "korkmak",
+              "start_ms": 146280,
+              "end_ms": 149060
+            },
+            {
+              "word": "doğru",
+              "start_ms": 149110,
+              "end_ms": 149410,
+              "estimated": true
+            },
+            {
+              "word": "olandı",
+              "start_ms": 150080,
+              "end_ms": 152140
+            }
+          ]
         },
         {
           "text": "Belki titremek dürüstlüktü",
-          "start_ms": 45560,
-          "end_ms": 47640
+          "start_ms": 152140,
+          "end_ms": 153140,
+          "words": [
+            {
+              "word": "Belki",
+              "start_ms": 152140,
+              "end_ms": 152440,
+              "estimated": true
+            },
+            {
+              "word": "titremek",
+              "start_ms": 152490,
+              "end_ms": 152790,
+              "estimated": true
+            },
+            {
+              "word": "dürüstlüktü",
+              "start_ms": 152840,
+              "end_ms": 153140,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ve \"olsun\" demek",
-          "start_ms": 47640,
-          "end_ms": 49640
+          "start_ms": 152140,
+          "end_ms": 152490,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 152140,
+              "end_ms": 152440,
+              "estimated": true
+            },
+            {
+              "word": "\"olsun\"",
+              "start_ms": 150080,
+              "end_ms": 152140
+            },
+            {
+              "word": "demek",
+              "start_ms": 152190,
+              "end_ms": 152490,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Korkunun ortasında söylenir",
-          "start_ms": 49640,
-          "end_ms": 51800
+          "start_ms": 146280,
+          "end_ms": 149760,
+          "words": [
+            {
+              "word": "Korkunun",
+              "start_ms": 146280,
+              "end_ms": 149060
+            },
+            {
+              "word": "ortasında",
+              "start_ms": 149110,
+              "end_ms": 149410,
+              "estimated": true
+            },
+            {
+              "word": "söylenir",
+              "start_ms": 149460,
+              "end_ms": 149760,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Yoksa cesaret değildir",
-          "start_ms": 51800,
-          "end_ms": 53800
+          "start_ms": 149060,
+          "end_ms": 150060,
+          "words": [
+            {
+              "word": "Yoksa",
+              "start_ms": 149060,
+              "end_ms": 149360,
+              "estimated": true
+            },
+            {
+              "word": "cesaret",
+              "start_ms": 149410,
+              "end_ms": 149710,
+              "estimated": true
+            },
+            {
+              "word": "değildir",
+              "start_ms": 149760,
+              "end_ms": 150060,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 43480,
-      "end_ms": 53800
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 146280,
+      "end_ms": 152140,
       "lines": [
         {
           "text": "Korkma dedi",
-          "start_ms": 56800,
-          "end_ms": 58800
+          "start_ms": 146280,
+          "end_ms": 149410,
+          "words": [
+            {
+              "word": "Korkma",
+              "start_ms": 146280,
+              "end_ms": 149060
+            },
+            {
+              "word": "dedi",
+              "start_ms": 149110,
+              "end_ms": 149410,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ve ben hâlâ korkuyorum",
-          "start_ms": 58800,
-          "end_ms": 60800
+          "start_ms": 149060,
+          "end_ms": 149060,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 149060,
+              "end_ms": 149360,
+              "estimated": true
+            },
+            {
+              "word": "ben",
+              "start_ms": 144580,
+              "end_ms": 145420
+            },
+            {
+              "word": "hâlâ",
+              "start_ms": 145470,
+              "end_ms": 145770,
+              "estimated": true
+            },
+            {
+              "word": "korkuyorum",
+              "start_ms": 146280,
+              "end_ms": 149060
+            }
+          ]
         },
         {
           "text": "Ama olsun",
-          "start_ms": 60800,
-          "end_ms": 62800
+          "start_ms": 149060,
+          "end_ms": 152140,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 149060,
+              "end_ms": 150080
+            },
+            {
+              "word": "olsun",
+              "start_ms": 150080,
+              "end_ms": 152140
+            }
+          ]
         },
         {
           "text": "Olsun",
-          "start_ms": 62800,
-          "end_ms": 64800
+          "start_ms": 150080,
+          "end_ms": 152140,
+          "words": [
+            {
+              "word": "Olsun",
+              "start_ms": 150080,
+              "end_ms": 152140
+            }
+          ]
         }
-      ],
-      "start_ms": 56800,
-      "end_ms": 64800
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 67800,
-          "end_ms": 69800
-        }
-      ],
-      "start_ms": 67800,
-      "end_ms": 69800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Korkma dedi",
+      "section_type": "chorus",
+      "start_ms": 41380,
+      "end_ms": 63420,
+      "key_line": "Korkma dedi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Korkma dedi",
+      "section_type": "chorus",
+      "start_ms": 129720,
+      "end_ms": 150780,
+      "key_line": "Korkma dedi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 150080,
+      "end_ms": 150060,
+      "key_line": "Belki korkmak doğru olandı",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Korkma dedi",
+      "section_type": "chorus",
+      "start_ms": 146280,
+      "end_ms": 152140,
+      "key_line": "Korkma dedi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/turkish/42_luke_01_1-5_transcript.json"
 }

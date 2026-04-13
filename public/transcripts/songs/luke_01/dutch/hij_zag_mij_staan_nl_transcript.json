@@ -7,250 +7,1721 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-55",
-  "duration_ms": 220000,
+  "duration_ms": 118800,
   "audio_file": "/audio/songs/luke_01/dutch/Luke 1_46-55 (Magnificat) — Dutch.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.774170+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.933887+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.883,
   "sections": [
+    {
+      "type": "intro",
+      "label": "Intro - Spoken",
+      "start_ms": 0,
+      "end_ms": 7060,
+      "lines": [
+        {
+          "text": "Ik kom uit een dorp dat je niet kent",
+          "start_ms": 0,
+          "end_ms": 2000,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 0,
+              "end_ms": 420
+            },
+            {
+              "word": "kom",
+              "start_ms": 420,
+              "end_ms": 560
+            },
+            {
+              "word": "uit",
+              "start_ms": 560,
+              "end_ms": 740
+            },
+            {
+              "word": "een",
+              "start_ms": 1580,
+              "end_ms": 2000
+            },
+            {
+              "word": "dorp",
+              "start_ms": 2050,
+              "end_ms": 2350,
+              "estimated": true
+            },
+            {
+              "word": "dat",
+              "start_ms": 2400,
+              "end_ms": 2700,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 1220,
+              "end_ms": 1360
+            },
+            {
+              "word": "niet",
+              "start_ms": 1360,
+              "end_ms": 1580
+            },
+            {
+              "word": "kent",
+              "start_ms": 1580,
+              "end_ms": 2000
+            }
+          ]
+        },
+        {
+          "text": "Niemand weet mijn naam",
+          "start_ms": 3360,
+          "end_ms": 5060,
+          "words": [
+            {
+              "word": "Niemand",
+              "start_ms": 3360,
+              "end_ms": 3940
+            },
+            {
+              "word": "weet",
+              "start_ms": 3940,
+              "end_ms": 4140
+            },
+            {
+              "word": "mijn",
+              "start_ms": 4140,
+              "end_ms": 4400
+            },
+            {
+              "word": "naam",
+              "start_ms": 4400,
+              "end_ms": 5060
+            }
+          ]
+        },
+        {
+          "text": "Maar luister",
+          "start_ms": 5859,
+          "end_ms": 7060,
+          "words": [
+            {
+              "word": "Maar",
+              "start_ms": 5859,
+              "end_ms": 6159,
+              "estimated": true
+            },
+            {
+              "word": "luister",
+              "start_ms": 6459,
+              "end_ms": 7060
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 8719,
+      "end_ms": 25760,
+      "lines": [
+        {
+          "text": "Ik ben zestien en ik heb niks",
+          "start_ms": 8719,
+          "end_ms": 10900,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 8719,
+              "end_ms": 9320
+            },
+            {
+              "word": "ben",
+              "start_ms": 9320,
+              "end_ms": 9600
+            },
+            {
+              "word": "zestien",
+              "start_ms": 9600,
+              "end_ms": 10040
+            },
+            {
+              "word": "en",
+              "start_ms": 10040,
+              "end_ms": 10200
+            },
+            {
+              "word": "ik",
+              "start_ms": 10200,
+              "end_ms": 10380
+            },
+            {
+              "word": "heb",
+              "start_ms": 10380,
+              "end_ms": 10540
+            },
+            {
+              "word": "niks",
+              "start_ms": 10540,
+              "end_ms": 10900
+            }
+          ]
+        },
+        {
+          "text": "geen naam, geen macht, geen geld",
+          "start_ms": 10900,
+          "end_ms": 12880,
+          "words": [
+            {
+              "word": "geen",
+              "start_ms": 10900,
+              "end_ms": 11200
+            },
+            {
+              "word": "naam,",
+              "start_ms": 11200,
+              "end_ms": 11440
+            },
+            {
+              "word": "geen",
+              "start_ms": 10900,
+              "end_ms": 11200
+            },
+            {
+              "word": "macht,",
+              "start_ms": 11700,
+              "end_ms": 12040
+            },
+            {
+              "word": "geen",
+              "start_ms": 11540,
+              "end_ms": 11700
+            },
+            {
+              "word": "geld",
+              "start_ms": 12460,
+              "end_ms": 12880
+            }
+          ]
+        },
+        {
+          "text": "Maar alles in mij zingt vandaag",
+          "start_ms": 12880,
+          "end_ms": 15060,
+          "words": [
+            {
+              "word": "Maar",
+              "start_ms": 12880,
+              "end_ms": 13540
+            },
+            {
+              "word": "alles",
+              "start_ms": 13540,
+              "end_ms": 13860
+            },
+            {
+              "word": "in",
+              "start_ms": 13860,
+              "end_ms": 14100
+            },
+            {
+              "word": "mij",
+              "start_ms": 14100,
+              "end_ms": 14240
+            },
+            {
+              "word": "zingt",
+              "start_ms": 14240,
+              "end_ms": 14500
+            },
+            {
+              "word": "vandaag",
+              "start_ms": 14500,
+              "end_ms": 15060
+            }
+          ]
+        },
+        {
+          "text": "omdat hij mij heeft geteld",
+          "start_ms": 15060,
+          "end_ms": 17040,
+          "words": [
+            {
+              "word": "omdat",
+              "start_ms": 15060,
+              "end_ms": 15480
+            },
+            {
+              "word": "hij",
+              "start_ms": 15480,
+              "end_ms": 15720
+            },
+            {
+              "word": "mij",
+              "start_ms": 15720,
+              "end_ms": 16100
+            },
+            {
+              "word": "heeft",
+              "start_ms": 16100,
+              "end_ms": 16460
+            },
+            {
+              "word": "geteld",
+              "start_ms": 16460,
+              "end_ms": 17040
+            }
+          ]
+        },
+        {
+          "text": "Hij keek niet naar de paleizen",
+          "start_ms": 17040,
+          "end_ms": 18820,
+          "words": [
+            {
+              "word": "Hij",
+              "start_ms": 17040,
+              "end_ms": 17400
+            },
+            {
+              "word": "keek",
+              "start_ms": 17400,
+              "end_ms": 17640
+            },
+            {
+              "word": "niet",
+              "start_ms": 17640,
+              "end_ms": 17940
+            },
+            {
+              "word": "naar",
+              "start_ms": 17940,
+              "end_ms": 18200
+            },
+            {
+              "word": "de",
+              "start_ms": 18200,
+              "end_ms": 18520
+            },
+            {
+              "word": "paleizen",
+              "start_ms": 18520,
+              "end_ms": 18820
+            }
+          ]
+        },
+        {
+          "text": "niet naar de hoge heren",
+          "start_ms": 19260,
+          "end_ms": 21280,
+          "words": [
+            {
+              "word": "niet",
+              "start_ms": 19260,
+              "end_ms": 19720
+            },
+            {
+              "word": "naar",
+              "start_ms": 19720,
+              "end_ms": 19960
+            },
+            {
+              "word": "de",
+              "start_ms": 19960,
+              "end_ms": 20140
+            },
+            {
+              "word": "hoge",
+              "start_ms": 20140,
+              "end_ms": 20780
+            },
+            {
+              "word": "heren",
+              "start_ms": 20780,
+              "end_ms": 21280
+            }
+          ]
+        },
+        {
+          "text": "Hij zag mij staan, een niemand",
+          "start_ms": 21280,
+          "end_ms": 23020,
+          "words": [
+            {
+              "word": "Hij",
+              "start_ms": 21280,
+              "end_ms": 21520
+            },
+            {
+              "word": "zag",
+              "start_ms": 21520,
+              "end_ms": 21700
+            },
+            {
+              "word": "mij",
+              "start_ms": 21700,
+              "end_ms": 22000
+            },
+            {
+              "word": "staan,",
+              "start_ms": 22000,
+              "end_ms": 22400
+            },
+            {
+              "word": "een",
+              "start_ms": 22400,
+              "end_ms": 22640
+            },
+            {
+              "word": "niemand",
+              "start_ms": 22640,
+              "end_ms": 23020
+            }
+          ]
+        },
+        {
+          "text": "en dat gaat alles op z'n kop keren",
+          "start_ms": 22400,
+          "end_ms": 25760,
+          "words": [
+            {
+              "word": "en",
+              "start_ms": 22400,
+              "end_ms": 22640
+            },
+            {
+              "word": "dat",
+              "start_ms": 23360,
+              "end_ms": 23580
+            },
+            {
+              "word": "gaat",
+              "start_ms": 23580,
+              "end_ms": 24040
+            },
+            {
+              "word": "alles",
+              "start_ms": 24040,
+              "end_ms": 24440
+            },
+            {
+              "word": "op",
+              "start_ms": 24440,
+              "end_ms": 24680
+            },
+            {
+              "word": "z'n",
+              "start_ms": 24880,
+              "end_ms": 24920
+            },
+            {
+              "word": "kop",
+              "start_ms": 24920,
+              "end_ms": 25180
+            },
+            {
+              "word": "keren",
+              "start_ms": 25180,
+              "end_ms": 25760
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 25760,
+      "end_ms": 39300,
       "lines": [
         {
           "text": "Wie is er nu bang?",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 25760,
+          "end_ms": 28420,
+          "words": [
+            {
+              "word": "Wie",
+              "start_ms": 25760,
+              "end_ms": 26720
+            },
+            {
+              "word": "is",
+              "start_ms": 26720,
+              "end_ms": 27260
+            },
+            {
+              "word": "er",
+              "start_ms": 27260,
+              "end_ms": 27700
+            },
+            {
+              "word": "nu",
+              "start_ms": 27700,
+              "end_ms": 28040
+            },
+            {
+              "word": "bang?",
+              "start_ms": 28040,
+              "end_ms": 28420
+            }
+          ]
         },
         {
           "text": "De machthebbers van hun tronen",
-          "start_ms": 8000,
-          "end_ms": 10400
+          "start_ms": 28880,
+          "end_ms": 30760,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 28880,
+              "end_ms": 29120
+            },
+            {
+              "word": "machthebbers",
+              "start_ms": 29120,
+              "end_ms": 29800
+            },
+            {
+              "word": "van",
+              "start_ms": 29800,
+              "end_ms": 29980
+            },
+            {
+              "word": "hun",
+              "start_ms": 30030,
+              "end_ms": 30330,
+              "estimated": true
+            },
+            {
+              "word": "tronen",
+              "start_ms": 30160,
+              "end_ms": 30760
+            }
+          ]
         },
         {
           "text": "Wie is er nu bang?",
-          "start_ms": 10400,
-          "end_ms": 12400
+          "start_ms": 30760,
+          "end_ms": 32520,
+          "words": [
+            {
+              "word": "Wie",
+              "start_ms": 30760,
+              "end_ms": 31140
+            },
+            {
+              "word": "is",
+              "start_ms": 31140,
+              "end_ms": 31660
+            },
+            {
+              "word": "er",
+              "start_ms": 31660,
+              "end_ms": 31920
+            },
+            {
+              "word": "nu",
+              "start_ms": 31920,
+              "end_ms": 32240
+            },
+            {
+              "word": "bang?",
+              "start_ms": 32240,
+              "end_ms": 32520
+            }
+          ]
         },
         {
           "text": "Niet wij, niet meer, niet wij",
-          "start_ms": 12400,
-          "end_ms": 14720
+          "start_ms": 32659,
+          "end_ms": 34300,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 32659,
+              "end_ms": 32960
+            },
+            {
+              "word": "wij,",
+              "start_ms": 32960,
+              "end_ms": 33140
+            },
+            {
+              "word": "niet",
+              "start_ms": 32659,
+              "end_ms": 32960
+            },
+            {
+              "word": "meer,",
+              "start_ms": 33440,
+              "end_ms": 33660
+            },
+            {
+              "word": "niet",
+              "start_ms": 33240,
+              "end_ms": 33440
+            },
+            {
+              "word": "wij",
+              "start_ms": 34020,
+              "end_ms": 34300
+            }
+          ]
         },
         {
           "text": "Hij zag mij staan",
-          "start_ms": 14720,
-          "end_ms": 16720
+          "start_ms": 34300,
+          "end_ms": 36800,
+          "words": [
+            {
+              "word": "Hij",
+              "start_ms": 34300,
+              "end_ms": 35200
+            },
+            {
+              "word": "zag",
+              "start_ms": 35200,
+              "end_ms": 35700
+            },
+            {
+              "word": "mij",
+              "start_ms": 35700,
+              "end_ms": 36140
+            },
+            {
+              "word": "staan",
+              "start_ms": 36140,
+              "end_ms": 36800
+            }
+          ]
         },
         {
           "text": "en de wereld draait zich om",
-          "start_ms": 16720,
-          "end_ms": 18880
+          "start_ms": 36800,
+          "end_ms": 39300,
+          "words": [
+            {
+              "word": "en",
+              "start_ms": 36800,
+              "end_ms": 37320
+            },
+            {
+              "word": "de",
+              "start_ms": 37320,
+              "end_ms": 37720
+            },
+            {
+              "word": "wereld",
+              "start_ms": 37720,
+              "end_ms": 38080
+            },
+            {
+              "word": "draait",
+              "start_ms": 38080,
+              "end_ms": 38400
+            },
+            {
+              "word": "zich",
+              "start_ms": 38400,
+              "end_ms": 38660
+            },
+            {
+              "word": "om",
+              "start_ms": 38660,
+              "end_ms": 39300
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 18880
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 41620,
+      "end_ms": 63870,
       "lines": [
         {
           "text": "Zijn arm is niet voor show",
-          "start_ms": 21880,
-          "end_ms": 23960
+          "start_ms": 41620,
+          "end_ms": 43740,
+          "words": [
+            {
+              "word": "Zijn",
+              "start_ms": 41620,
+              "end_ms": 42240
+            },
+            {
+              "word": "arm",
+              "start_ms": 42240,
+              "end_ms": 42540
+            },
+            {
+              "word": "is",
+              "start_ms": 42540,
+              "end_ms": 42760
+            },
+            {
+              "word": "niet",
+              "start_ms": 42760,
+              "end_ms": 43020
+            },
+            {
+              "word": "voor",
+              "start_ms": 43020,
+              "end_ms": 43240
+            },
+            {
+              "word": "show",
+              "start_ms": 43240,
+              "end_ms": 43740
+            }
+          ]
         },
         {
           "text": "hij grijpt de hoogmoed bij de keel",
-          "start_ms": 23960,
-          "end_ms": 26680
+          "start_ms": 43740,
+          "end_ms": 45960,
+          "words": [
+            {
+              "word": "hij",
+              "start_ms": 43740,
+              "end_ms": 44040
+            },
+            {
+              "word": "grijpt",
+              "start_ms": 44040,
+              "end_ms": 44220
+            },
+            {
+              "word": "de",
+              "start_ms": 44220,
+              "end_ms": 44400
+            },
+            {
+              "word": "hoogmoed",
+              "start_ms": 44400,
+              "end_ms": 44800
+            },
+            {
+              "word": "bij",
+              "start_ms": 44800,
+              "end_ms": 45100
+            },
+            {
+              "word": "de",
+              "start_ms": 44220,
+              "end_ms": 44400
+            },
+            {
+              "word": "keel",
+              "start_ms": 45420,
+              "end_ms": 45960
+            }
+          ]
         },
         {
           "text": "De rijken staan te kijken",
-          "start_ms": 26680,
-          "end_ms": 28680
+          "start_ms": 45100,
+          "end_ms": 47800,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 45100,
+              "end_ms": 45420
+            },
+            {
+              "word": "rijken",
+              "start_ms": 46460,
+              "end_ms": 46820
+            },
+            {
+              "word": "staan",
+              "start_ms": 46820,
+              "end_ms": 47140
+            },
+            {
+              "word": "te",
+              "start_ms": 47140,
+              "end_ms": 47440
+            },
+            {
+              "word": "kijken",
+              "start_ms": 47440,
+              "end_ms": 47800
+            }
+          ]
         },
         {
           "text": "hoe hun handen leeg zijn, geen deel",
-          "start_ms": 28680,
-          "end_ms": 31480
+          "start_ms": 47800,
+          "end_ms": 50200,
+          "words": [
+            {
+              "word": "hoe",
+              "start_ms": 47800,
+              "end_ms": 48180
+            },
+            {
+              "word": "hun",
+              "start_ms": 48180,
+              "end_ms": 48440
+            },
+            {
+              "word": "handen",
+              "start_ms": 48440,
+              "end_ms": 48900
+            },
+            {
+              "word": "leeg",
+              "start_ms": 48900,
+              "end_ms": 49200
+            },
+            {
+              "word": "zijn,",
+              "start_ms": 49200,
+              "end_ms": 49400
+            },
+            {
+              "word": "geen",
+              "start_ms": 49400,
+              "end_ms": 49760
+            },
+            {
+              "word": "deel",
+              "start_ms": 49760,
+              "end_ms": 50200
+            }
+          ]
         },
         {
           "text": "De hongerigen zitten aan tafel",
-          "start_ms": 31480,
-          "end_ms": 33880
+          "start_ms": 53000,
+          "end_ms": 56490,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 53000,
+              "end_ms": 53160
+            },
+            {
+              "word": "hongerigen",
+              "start_ms": 53210,
+              "end_ms": 53510,
+              "estimated": true
+            },
+            {
+              "word": "zitten",
+              "start_ms": 56140,
+              "end_ms": 56540
+            },
+            {
+              "word": "aan",
+              "start_ms": 55800,
+              "end_ms": 56140
+            },
+            {
+              "word": "tafel",
+              "start_ms": 56190,
+              "end_ms": 56490,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "voor het eerst van hun leven vol",
-          "start_ms": 33880,
-          "end_ms": 36440
+          "start_ms": 56140,
+          "end_ms": 63870,
+          "words": [
+            {
+              "word": "voor",
+              "start_ms": 56140,
+              "end_ms": 56440,
+              "estimated": true
+            },
+            {
+              "word": "het",
+              "start_ms": 56490,
+              "end_ms": 56790,
+              "estimated": true
+            },
+            {
+              "word": "eerst",
+              "start_ms": 60320,
+              "end_ms": 60760
+            },
+            {
+              "word": "van",
+              "start_ms": 62880,
+              "end_ms": 63240
+            },
+            {
+              "word": "hun",
+              "start_ms": 63290,
+              "end_ms": 63590,
+              "estimated": true
+            },
+            {
+              "word": "leven",
+              "start_ms": 63240,
+              "end_ms": 63520
+            },
+            {
+              "word": "vol",
+              "start_ms": 63570,
+              "end_ms": 63870,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "En de groten van de wereld",
-          "start_ms": 36440,
-          "end_ms": 38520
+          "start_ms": 63240,
+          "end_ms": 62530,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 63240,
+              "end_ms": 63520
+            },
+            {
+              "word": "de",
+              "start_ms": 63570,
+              "end_ms": 63870,
+              "estimated": true
+            },
+            {
+              "word": "groten",
+              "start_ms": 63920,
+              "end_ms": 64220,
+              "estimated": true
+            },
+            {
+              "word": "van",
+              "start_ms": 62880,
+              "end_ms": 63240
+            },
+            {
+              "word": "de",
+              "start_ms": 61960,
+              "end_ms": 62180
+            },
+            {
+              "word": "wereld",
+              "start_ms": 62230,
+              "end_ms": 62530,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "staan buiten in de kou, verbaasd en hol",
-          "start_ms": 38520,
-          "end_ms": 41640
+          "start_ms": 62180,
+          "end_ms": 63870,
+          "words": [
+            {
+              "word": "staan",
+              "start_ms": 62180,
+              "end_ms": 62480,
+              "estimated": true
+            },
+            {
+              "word": "buiten",
+              "start_ms": 62530,
+              "end_ms": 62830,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 62880,
+              "end_ms": 63180,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 61960,
+              "end_ms": 62180
+            },
+            {
+              "word": "kou,",
+              "start_ms": 62230,
+              "end_ms": 62530,
+              "estimated": true
+            },
+            {
+              "word": "verbaasd",
+              "start_ms": 62580,
+              "end_ms": 62880,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 63240,
+              "end_ms": 63520
+            },
+            {
+              "word": "hol",
+              "start_ms": 63570,
+              "end_ms": 63870,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 21880,
-      "end_ms": 41640
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 63900,
+      "end_ms": 74700,
       "lines": [
         {
           "text": "Wie is er nu bang?",
-          "start_ms": 44640,
-          "end_ms": 46640
+          "start_ms": 63900,
+          "end_ms": 65500,
+          "words": [
+            {
+              "word": "Wie",
+              "start_ms": 63900,
+              "end_ms": 64379
+            },
+            {
+              "word": "is",
+              "start_ms": 64379,
+              "end_ms": 64760
+            },
+            {
+              "word": "er",
+              "start_ms": 64760,
+              "end_ms": 65060
+            },
+            {
+              "word": "nu",
+              "start_ms": 65060,
+              "end_ms": 65300
+            },
+            {
+              "word": "bang?",
+              "start_ms": 65300,
+              "end_ms": 65500
+            }
+          ]
         },
         {
           "text": "De machthebbers van hun tronen",
-          "start_ms": 46640,
-          "end_ms": 49040
+          "start_ms": 65800,
+          "end_ms": 67500,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 65800,
+              "end_ms": 66100,
+              "estimated": true
+            },
+            {
+              "word": "machthebbers",
+              "start_ms": 66150,
+              "end_ms": 66450,
+              "estimated": true
+            },
+            {
+              "word": "van",
+              "start_ms": 66500,
+              "end_ms": 66800,
+              "estimated": true
+            },
+            {
+              "word": "hun",
+              "start_ms": 66850,
+              "end_ms": 67150,
+              "estimated": true
+            },
+            {
+              "word": "tronen",
+              "start_ms": 67200,
+              "end_ms": 67500,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Wie is er nu bang?",
-          "start_ms": 49040,
-          "end_ms": 51040
+          "start_ms": 67100,
+          "end_ms": 67460,
+          "words": [
+            {
+              "word": "Wie",
+              "start_ms": 67100,
+              "end_ms": 67400
+            },
+            {
+              "word": "is",
+              "start_ms": 67450,
+              "end_ms": 67750,
+              "estimated": true
+            },
+            {
+              "word": "er",
+              "start_ms": 66480,
+              "end_ms": 66760
+            },
+            {
+              "word": "nu",
+              "start_ms": 66810,
+              "end_ms": 67110,
+              "estimated": true
+            },
+            {
+              "word": "bang?",
+              "start_ms": 67160,
+              "end_ms": 67460,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Niet wij, niet meer, niet wij",
-          "start_ms": 51040,
-          "end_ms": 53360
+          "start_ms": 66340,
+          "end_ms": 67400,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 66340,
+              "end_ms": 66480
+            },
+            {
+              "word": "wij,",
+              "start_ms": 66000,
+              "end_ms": 66240
+            },
+            {
+              "word": "niet",
+              "start_ms": 65800,
+              "end_ms": 66000
+            },
+            {
+              "word": "meer,",
+              "start_ms": 66480,
+              "end_ms": 66760
+            },
+            {
+              "word": "niet",
+              "start_ms": 66340,
+              "end_ms": 66480
+            },
+            {
+              "word": "wij",
+              "start_ms": 67100,
+              "end_ms": 67400
+            }
+          ]
         },
         {
           "text": "Hij zag mij staan",
-          "start_ms": 53360,
-          "end_ms": 55360
+          "start_ms": 67400,
+          "end_ms": 69840,
+          "words": [
+            {
+              "word": "Hij",
+              "start_ms": 67400,
+              "end_ms": 68280
+            },
+            {
+              "word": "zag",
+              "start_ms": 68280,
+              "end_ms": 68800
+            },
+            {
+              "word": "mij",
+              "start_ms": 68800,
+              "end_ms": 69360
+            },
+            {
+              "word": "staan",
+              "start_ms": 69360,
+              "end_ms": 69840
+            }
+          ]
         },
         {
           "text": "en de wereld draait zich om",
-          "start_ms": 55360,
-          "end_ms": 57520
+          "start_ms": 69840,
+          "end_ms": 74700,
+          "words": [
+            {
+              "word": "en",
+              "start_ms": 69840,
+              "end_ms": 70460
+            },
+            {
+              "word": "de",
+              "start_ms": 70460,
+              "end_ms": 70840
+            },
+            {
+              "word": "wereld",
+              "start_ms": 70840,
+              "end_ms": 71280
+            },
+            {
+              "word": "draait",
+              "start_ms": 71280,
+              "end_ms": 71480
+            },
+            {
+              "word": "zich",
+              "start_ms": 71480,
+              "end_ms": 71680
+            },
+            {
+              "word": "om",
+              "start_ms": 71680,
+              "end_ms": 74700
+            }
+          ]
         }
-      ],
-      "start_ms": 44640,
-      "end_ms": 57520
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 74700,
+      "end_ms": 92300,
       "lines": [
         {
           "text": "Dit is wat hij doet",
-          "start_ms": 60520,
-          "end_ms": 62520
+          "start_ms": 74700,
+          "end_ms": 76300,
+          "words": [
+            {
+              "word": "Dit",
+              "start_ms": 74700,
+              "end_ms": 75220
+            },
+            {
+              "word": "is",
+              "start_ms": 75220,
+              "end_ms": 75360
+            },
+            {
+              "word": "wat",
+              "start_ms": 75360,
+              "end_ms": 75540
+            },
+            {
+              "word": "hij",
+              "start_ms": 75540,
+              "end_ms": 75800
+            },
+            {
+              "word": "doet",
+              "start_ms": 75800,
+              "end_ms": 76300
+            }
+          ]
         },
         {
           "text": "dit deed hij al voor Abraham",
-          "start_ms": 62520,
-          "end_ms": 64760
+          "start_ms": 76300,
+          "end_ms": 78680,
+          "words": [
+            {
+              "word": "dit",
+              "start_ms": 76300,
+              "end_ms": 76880
+            },
+            {
+              "word": "deed",
+              "start_ms": 76880,
+              "end_ms": 77120
+            },
+            {
+              "word": "hij",
+              "start_ms": 77120,
+              "end_ms": 77400
+            },
+            {
+              "word": "al",
+              "start_ms": 77400,
+              "end_ms": 77660
+            },
+            {
+              "word": "voor",
+              "start_ms": 77660,
+              "end_ms": 77960
+            },
+            {
+              "word": "Abraham",
+              "start_ms": 77960,
+              "end_ms": 78680
+            }
+          ]
         },
         {
           "text": "dit doet hij vandaag",
-          "start_ms": 64760,
-          "end_ms": 66760
+          "start_ms": 78680,
+          "end_ms": 80440,
+          "words": [
+            {
+              "word": "dit",
+              "start_ms": 78680,
+              "end_ms": 79180
+            },
+            {
+              "word": "doet",
+              "start_ms": 79180,
+              "end_ms": 79460
+            },
+            {
+              "word": "hij",
+              "start_ms": 79460,
+              "end_ms": 79680
+            },
+            {
+              "word": "vandaag",
+              "start_ms": 79680,
+              "end_ms": 80440
+            }
+          ]
         },
         {
           "text": "dit doet hij morgen weer",
-          "start_ms": 66760,
-          "end_ms": 68760
+          "start_ms": 80440,
+          "end_ms": 83160,
+          "words": [
+            {
+              "word": "dit",
+              "start_ms": 80440,
+              "end_ms": 80940
+            },
+            {
+              "word": "doet",
+              "start_ms": 80940,
+              "end_ms": 81280
+            },
+            {
+              "word": "hij",
+              "start_ms": 81280,
+              "end_ms": 81780
+            },
+            {
+              "word": "morgen",
+              "start_ms": 81780,
+              "end_ms": 82480
+            },
+            {
+              "word": "weer",
+              "start_ms": 82480,
+              "end_ms": 83160
+            }
+          ]
         },
         {
           "text": "Elke generatie zegt",
-          "start_ms": 68760,
-          "end_ms": 70760
+          "start_ms": 83160,
+          "end_ms": 85180,
+          "words": [
+            {
+              "word": "Elke",
+              "start_ms": 83160,
+              "end_ms": 83640
+            },
+            {
+              "word": "generatie",
+              "start_ms": 83640,
+              "end_ms": 84600
+            },
+            {
+              "word": "zegt",
+              "start_ms": 84600,
+              "end_ms": 85180
+            }
+          ]
         },
         {
           "text": "zij is gezegend",
-          "start_ms": 70760,
-          "end_ms": 72760
+          "start_ms": 85180,
+          "end_ms": 87160,
+          "words": [
+            {
+              "word": "zij",
+              "start_ms": 85180,
+              "end_ms": 85740
+            },
+            {
+              "word": "is",
+              "start_ms": 85740,
+              "end_ms": 86120
+            },
+            {
+              "word": "gezegend",
+              "start_ms": 86120,
+              "end_ms": 87160
+            }
+          ]
         },
         {
           "text": "want hij vergeet de kleinen niet",
-          "start_ms": 72760,
-          "end_ms": 75320
+          "start_ms": 87160,
+          "end_ms": 92300,
+          "words": [
+            {
+              "word": "want",
+              "start_ms": 87160,
+              "end_ms": 88480
+            },
+            {
+              "word": "hij",
+              "start_ms": 88530,
+              "end_ms": 88830,
+              "estimated": true
+            },
+            {
+              "word": "vergeet",
+              "start_ms": 88480,
+              "end_ms": 89600
+            },
+            {
+              "word": "de",
+              "start_ms": 89600,
+              "end_ms": 89980
+            },
+            {
+              "word": "kleinen",
+              "start_ms": 89980,
+              "end_ms": 90820
+            },
+            {
+              "word": "niet",
+              "start_ms": 90820,
+              "end_ms": 92300
+            }
+          ]
         }
-      ],
-      "start_ms": 60520,
-      "end_ms": 75320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 92300,
+      "end_ms": 105720,
       "lines": [
         {
           "text": "Wie is er nu bang?",
-          "start_ms": 78320,
-          "end_ms": 80320
+          "start_ms": 92300,
+          "end_ms": 94580,
+          "words": [
+            {
+              "word": "Wie",
+              "start_ms": 92300,
+              "end_ms": 92880
+            },
+            {
+              "word": "is",
+              "start_ms": 92880,
+              "end_ms": 93420
+            },
+            {
+              "word": "er",
+              "start_ms": 93420,
+              "end_ms": 93760
+            },
+            {
+              "word": "nu",
+              "start_ms": 93760,
+              "end_ms": 94160
+            },
+            {
+              "word": "bang?",
+              "start_ms": 94160,
+              "end_ms": 94580
+            }
+          ]
         },
         {
           "text": "De machthebbers van hun tronen",
-          "start_ms": 80320,
-          "end_ms": 82720
+          "start_ms": 95060,
+          "end_ms": 96980,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 95060,
+              "end_ms": 95280
+            },
+            {
+              "word": "machthebbers",
+              "start_ms": 95280,
+              "end_ms": 95960
+            },
+            {
+              "word": "van",
+              "start_ms": 95960,
+              "end_ms": 96360
+            },
+            {
+              "word": "hun",
+              "start_ms": 96410,
+              "end_ms": 96710,
+              "estimated": true
+            },
+            {
+              "word": "tronen",
+              "start_ms": 96600,
+              "end_ms": 96980
+            }
+          ]
         },
         {
           "text": "Wie is er nu bang?",
-          "start_ms": 82720,
-          "end_ms": 84720
+          "start_ms": 96980,
+          "end_ms": 98680,
+          "words": [
+            {
+              "word": "Wie",
+              "start_ms": 96980,
+              "end_ms": 97540
+            },
+            {
+              "word": "is",
+              "start_ms": 97540,
+              "end_ms": 97920
+            },
+            {
+              "word": "er",
+              "start_ms": 97920,
+              "end_ms": 98100
+            },
+            {
+              "word": "nu",
+              "start_ms": 98100,
+              "end_ms": 98400
+            },
+            {
+              "word": "bang?",
+              "start_ms": 98400,
+              "end_ms": 98680
+            }
+          ]
         },
         {
           "text": "Niet wij, niet meer, niet wij",
-          "start_ms": 84720,
-          "end_ms": 87040
+          "start_ms": 98900,
+          "end_ms": 100560,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 98900,
+              "end_ms": 99140
+            },
+            {
+              "word": "wij,",
+              "start_ms": 99140,
+              "end_ms": 99340
+            },
+            {
+              "word": "niet",
+              "start_ms": 98900,
+              "end_ms": 99140
+            },
+            {
+              "word": "meer,",
+              "start_ms": 99580,
+              "end_ms": 99840
+            },
+            {
+              "word": "niet",
+              "start_ms": 99420,
+              "end_ms": 99580
+            },
+            {
+              "word": "wij",
+              "start_ms": 100220,
+              "end_ms": 100560
+            }
+          ]
         },
         {
           "text": "Hij zag mij staan",
-          "start_ms": 87040,
-          "end_ms": 89040
+          "start_ms": 100560,
+          "end_ms": 102980,
+          "words": [
+            {
+              "word": "Hij",
+              "start_ms": 100560,
+              "end_ms": 101360
+            },
+            {
+              "word": "zag",
+              "start_ms": 101360,
+              "end_ms": 101880
+            },
+            {
+              "word": "mij",
+              "start_ms": 101880,
+              "end_ms": 102440
+            },
+            {
+              "word": "staan",
+              "start_ms": 102440,
+              "end_ms": 102980
+            }
+          ]
         },
         {
           "text": "en de wereld draait zich om",
-          "start_ms": 89040,
-          "end_ms": 91200
+          "start_ms": 102980,
+          "end_ms": 105720,
+          "words": [
+            {
+              "word": "en",
+              "start_ms": 102980,
+              "end_ms": 103540
+            },
+            {
+              "word": "de",
+              "start_ms": 103540,
+              "end_ms": 103940
+            },
+            {
+              "word": "wereld",
+              "start_ms": 103940,
+              "end_ms": 104380
+            },
+            {
+              "word": "draait",
+              "start_ms": 104380,
+              "end_ms": 104640
+            },
+            {
+              "word": "zich",
+              "start_ms": 104640,
+              "end_ms": 104820
+            },
+            {
+              "word": "om",
+              "start_ms": 104820,
+              "end_ms": 105720
+            }
+          ]
         }
-      ],
-      "start_ms": 78320,
-      "end_ms": 91200
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 106660,
+      "end_ms": 114040,
       "lines": [
         {
           "text": "Een niemand uit Nazareth",
-          "start_ms": 94200,
-          "end_ms": 96200
+          "start_ms": 106660,
+          "end_ms": 108840,
+          "words": [
+            {
+              "word": "Een",
+              "start_ms": 106660,
+              "end_ms": 107260
+            },
+            {
+              "word": "niemand",
+              "start_ms": 107260,
+              "end_ms": 107660
+            },
+            {
+              "word": "uit",
+              "start_ms": 107660,
+              "end_ms": 107900
+            },
+            {
+              "word": "Nazareth",
+              "start_ms": 107900,
+              "end_ms": 108840
+            }
+          ]
         },
         {
           "text": "en alles draait om",
-          "start_ms": 96200,
-          "end_ms": 98200
+          "start_ms": 111380,
+          "end_ms": 114040,
+          "words": [
+            {
+              "word": "en",
+              "start_ms": 111380,
+              "end_ms": 112180
+            },
+            {
+              "word": "alles",
+              "start_ms": 112180,
+              "end_ms": 112580
+            },
+            {
+              "word": "draait",
+              "start_ms": 112580,
+              "end_ms": 113220
+            },
+            {
+              "word": "om",
+              "start_ms": 113220,
+              "end_ms": 114040
+            }
+          ]
         }
-      ],
-      "start_ms": 94200,
-      "end_ms": 98200
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 101200,
-          "end_ms": 103200
-        }
-      ],
-      "start_ms": 101200,
-      "end_ms": 103200
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Wie is er nu bang?",
+      "section_type": "chorus",
+      "start_ms": 25760,
+      "end_ms": 39300,
+      "key_line": "Wie is er nu bang?",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Wie is er nu bang?",
+      "section_type": "chorus",
+      "start_ms": 63900,
+      "end_ms": 74700,
+      "key_line": "Wie is er nu bang?",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 74700,
+      "end_ms": 92300,
+      "key_line": "Dit is wat hij doet",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Wie is er nu bang?",
+      "section_type": "chorus",
+      "start_ms": 92300,
+      "end_ms": 105720,
+      "key_line": "Wie is er nu bang?",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/dutch/42_luke_01_1-46_transcript.json"
 }

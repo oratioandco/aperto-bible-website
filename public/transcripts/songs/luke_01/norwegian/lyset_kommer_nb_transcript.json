@@ -7,253 +7,1107 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 187880,
   "audio_file": "/audio/songs/luke_01/norwegian/Lyset kommer — Benedictus (Luke 1_67-79)- norwegian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.196151+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.017685+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.921,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 15860,
+      "end_ms": 30460,
       "lines": [
         {
           "text": "Ni måneder uten stemme",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 15860,
+          "end_ms": 20600,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 15860,
+              "end_ms": 16160,
+              "estimated": true
+            },
+            {
+              "word": "måneder",
+              "start_ms": 17260,
+              "end_ms": 18380
+            },
+            {
+              "word": "uten",
+              "start_ms": 18380,
+              "end_ms": 18920
+            },
+            {
+              "word": "stemme",
+              "start_ms": 18920,
+              "end_ms": 20600
+            }
+          ]
         },
         {
           "text": "Ni måneder uten ord",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 20880,
+          "end_ms": 23520,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 20880,
+              "end_ms": 21180,
+              "estimated": true
+            },
+            {
+              "word": "måneder",
+              "start_ms": 17260,
+              "end_ms": 18380
+            },
+            {
+              "word": "uten",
+              "start_ms": 18380,
+              "end_ms": 18920
+            },
+            {
+              "word": "ord",
+              "start_ms": 22820,
+              "end_ms": 23520
+            }
+          ]
         },
         {
           "text": "Bare stillheten og meg",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 23840,
+          "end_ms": 27460,
+          "words": [
+            {
+              "word": "Bare",
+              "start_ms": 23840,
+              "end_ms": 24680
+            },
+            {
+              "word": "stillheten",
+              "start_ms": 24680,
+              "end_ms": 26020
+            },
+            {
+              "word": "og",
+              "start_ms": 26020,
+              "end_ms": 26200
+            },
+            {
+              "word": "meg",
+              "start_ms": 26200,
+              "end_ms": 27460
+            }
+          ]
         },
         {
           "text": "Og det jeg ikke trodde på",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 26020,
+          "end_ms": 30460,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 26020,
+              "end_ms": 26200
+            },
+            {
+              "word": "det",
+              "start_ms": 27940,
+              "end_ms": 28140
+            },
+            {
+              "word": "jeg",
+              "start_ms": 28140,
+              "end_ms": 28420
+            },
+            {
+              "word": "ikke",
+              "start_ms": 28420,
+              "end_ms": 29240
+            },
+            {
+              "word": "trodde",
+              "start_ms": 29240,
+              "end_ms": 29740
+            },
+            {
+              "word": "på",
+              "start_ms": 29740,
+              "end_ms": 30460
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 31160,
+      "end_ms": 42460,
       "lines": [
         {
           "text": "Men stillheten gjorde noe",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 31160,
+          "end_ms": 34620,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 31160,
+              "end_ms": 32100
+            },
+            {
+              "word": "stillheten",
+              "start_ms": 32100,
+              "end_ms": 33180
+            },
+            {
+              "word": "gjorde",
+              "start_ms": 33180,
+              "end_ms": 33700
+            },
+            {
+              "word": "noe",
+              "start_ms": 33700,
+              "end_ms": 34620
+            }
+          ]
         },
         {
           "text": "Den tok fra meg alt jeg trodde jeg visste",
-          "start_ms": 19000,
-          "end_ms": 22280
+          "start_ms": 34620,
+          "end_ms": 38460,
+          "words": [
+            {
+              "word": "Den",
+              "start_ms": 34620,
+              "end_ms": 34860
+            },
+            {
+              "word": "tok",
+              "start_ms": 34860,
+              "end_ms": 35200
+            },
+            {
+              "word": "fra",
+              "start_ms": 35200,
+              "end_ms": 35620
+            },
+            {
+              "word": "meg",
+              "start_ms": 35620,
+              "end_ms": 35900
+            },
+            {
+              "word": "alt",
+              "start_ms": 35900,
+              "end_ms": 36280
+            },
+            {
+              "word": "jeg",
+              "start_ms": 36280,
+              "end_ms": 36540
+            },
+            {
+              "word": "trodde",
+              "start_ms": 36540,
+              "end_ms": 37220
+            },
+            {
+              "word": "jeg",
+              "start_ms": 36280,
+              "end_ms": 36540
+            },
+            {
+              "word": "visste",
+              "start_ms": 37580,
+              "end_ms": 38460
+            }
+          ]
         },
         {
           "text": "Og ga meg noe annet tilbake",
-          "start_ms": 22280,
-          "end_ms": 24440
+          "start_ms": 39080,
+          "end_ms": 42460,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 39080,
+              "end_ms": 39560
+            },
+            {
+              "word": "ga",
+              "start_ms": 39560,
+              "end_ms": 39820
+            },
+            {
+              "word": "meg",
+              "start_ms": 39820,
+              "end_ms": 40080
+            },
+            {
+              "word": "noe",
+              "start_ms": 40080,
+              "end_ms": 40620
+            },
+            {
+              "word": "annet",
+              "start_ms": 40620,
+              "end_ms": 41000
+            },
+            {
+              "word": "tilbake",
+              "start_ms": 41000,
+              "end_ms": 42460
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 24440
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 44720,
+      "end_ms": 64340,
       "lines": [
         {
           "text": "Lyset kommer",
-          "start_ms": 27440,
-          "end_ms": 29440
+          "start_ms": 44720,
+          "end_ms": 46720,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 44720,
+              "end_ms": 45720
+            },
+            {
+              "word": "kommer",
+              "start_ms": 45720,
+              "end_ms": 46720
+            }
+          ]
         },
         {
           "text": "Lyset kommer",
-          "start_ms": 29440,
-          "end_ms": 31440
+          "start_ms": 44720,
+          "end_ms": 46720,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 44720,
+              "end_ms": 45720
+            },
+            {
+              "word": "kommer",
+              "start_ms": 45720,
+              "end_ms": 46720
+            }
+          ]
         },
         {
           "text": "Over de som sitter i mørket",
-          "start_ms": 31440,
-          "end_ms": 33600
+          "start_ms": 50060,
+          "end_ms": 53340,
+          "words": [
+            {
+              "word": "Over",
+              "start_ms": 50060,
+              "end_ms": 50640
+            },
+            {
+              "word": "de",
+              "start_ms": 50640,
+              "end_ms": 51160
+            },
+            {
+              "word": "som",
+              "start_ms": 51160,
+              "end_ms": 51600
+            },
+            {
+              "word": "sitter",
+              "start_ms": 51600,
+              "end_ms": 52100
+            },
+            {
+              "word": "i",
+              "start_ms": 52100,
+              "end_ms": 52400
+            },
+            {
+              "word": "mørket",
+              "start_ms": 52400,
+              "end_ms": 53340
+            }
+          ]
         },
         {
           "text": "Over de som har ventet lenge",
-          "start_ms": 33600,
-          "end_ms": 35840
+          "start_ms": 53340,
+          "end_ms": 56760,
+          "words": [
+            {
+              "word": "Over",
+              "start_ms": 53340,
+              "end_ms": 54360
+            },
+            {
+              "word": "de",
+              "start_ms": 54360,
+              "end_ms": 54880
+            },
+            {
+              "word": "som",
+              "start_ms": 54880,
+              "end_ms": 55200
+            },
+            {
+              "word": "har",
+              "start_ms": 55200,
+              "end_ms": 55520
+            },
+            {
+              "word": "ventet",
+              "start_ms": 55520,
+              "end_ms": 56120
+            },
+            {
+              "word": "lenge",
+              "start_ms": 56120,
+              "end_ms": 56760
+            }
+          ]
         },
         {
           "text": "Et lys fra det høye",
-          "start_ms": 35840,
-          "end_ms": 37840
+          "start_ms": 57560,
+          "end_ms": 60540,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 57560,
+              "end_ms": 58200
+            },
+            {
+              "word": "lys",
+              "start_ms": 58200,
+              "end_ms": 59000
+            },
+            {
+              "word": "fra",
+              "start_ms": 59000,
+              "end_ms": 59560
+            },
+            {
+              "word": "det",
+              "start_ms": 59560,
+              "end_ms": 59900
+            },
+            {
+              "word": "høye",
+              "start_ms": 59900,
+              "end_ms": 60540
+            }
+          ]
         },
         {
           "text": "Lyset kommer",
-          "start_ms": 37840,
-          "end_ms": 39840
+          "start_ms": 62420,
+          "end_ms": 64340,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 62420,
+              "end_ms": 63700
+            },
+            {
+              "word": "kommer",
+              "start_ms": 63700,
+              "end_ms": 64340
+            }
+          ]
         }
-      ],
-      "start_ms": 27440,
-      "end_ms": 39840
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 66200,
+      "end_ms": 78800,
       "lines": [
         {
           "text": "Han holdt ord",
-          "start_ms": 42840,
-          "end_ms": 44840
+          "start_ms": 66200,
+          "end_ms": 68220,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 66200,
+              "end_ms": 66840
+            },
+            {
+              "word": "holdt",
+              "start_ms": 66840,
+              "end_ms": 67520
+            },
+            {
+              "word": "ord",
+              "start_ms": 67520,
+              "end_ms": 68220
+            }
+          ]
         },
         {
           "text": "År etter år, slekt etter slekt",
-          "start_ms": 44840,
-          "end_ms": 47240
+          "start_ms": 68240,
+          "end_ms": 70300,
+          "words": [
+            {
+              "word": "År",
+              "start_ms": 68240,
+              "end_ms": 68760
+            },
+            {
+              "word": "etter",
+              "start_ms": 68760,
+              "end_ms": 69300
+            },
+            {
+              "word": "år,",
+              "start_ms": 68240,
+              "end_ms": 68760
+            },
+            {
+              "word": "slekt",
+              "start_ms": 69660,
+              "end_ms": 70300
+            },
+            {
+              "word": "etter",
+              "start_ms": 68760,
+              "end_ms": 69300
+            },
+            {
+              "word": "slekt",
+              "start_ms": 69660,
+              "end_ms": 70300
+            }
+          ]
         },
         {
           "text": "Trofast når ingen forstod det",
-          "start_ms": 47240,
-          "end_ms": 49560
+          "start_ms": 72360,
+          "end_ms": 75480,
+          "words": [
+            {
+              "word": "Trofast",
+              "start_ms": 72360,
+              "end_ms": 72740
+            },
+            {
+              "word": "når",
+              "start_ms": 72740,
+              "end_ms": 73120
+            },
+            {
+              "word": "ingen",
+              "start_ms": 73120,
+              "end_ms": 73640
+            },
+            {
+              "word": "forstod",
+              "start_ms": 73640,
+              "end_ms": 74520
+            },
+            {
+              "word": "det",
+              "start_ms": 74520,
+              "end_ms": 75480
+            }
+          ]
         },
         {
           "text": "Stille når alle hadde glemt",
-          "start_ms": 49560,
-          "end_ms": 51720
+          "start_ms": 75480,
+          "end_ms": 78800,
+          "words": [
+            {
+              "word": "Stille",
+              "start_ms": 75480,
+              "end_ms": 76220
+            },
+            {
+              "word": "når",
+              "start_ms": 76220,
+              "end_ms": 76660
+            },
+            {
+              "word": "alle",
+              "start_ms": 76660,
+              "end_ms": 77500
+            },
+            {
+              "word": "hadde",
+              "start_ms": 77500,
+              "end_ms": 78160
+            },
+            {
+              "word": "glemt",
+              "start_ms": 78160,
+              "end_ms": 78800
+            }
+          ]
         }
-      ],
-      "start_ms": 42840,
-      "end_ms": 51720
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 86980,
+      "end_ms": 103360,
       "lines": [
         {
           "text": "Og nå åpner munnen seg",
-          "start_ms": 54720,
-          "end_ms": 56720
+          "start_ms": 86980,
+          "end_ms": 97039,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 86980,
+              "end_ms": 87720
+            },
+            {
+              "word": "nå",
+              "start_ms": 87770,
+              "end_ms": 88070,
+              "estimated": true
+            },
+            {
+              "word": "åpner",
+              "start_ms": 91460,
+              "end_ms": 92160
+            },
+            {
+              "word": "munnen",
+              "start_ms": 92210,
+              "end_ms": 92510,
+              "estimated": true
+            },
+            {
+              "word": "seg",
+              "start_ms": 95639,
+              "end_ms": 97039
+            }
+          ]
         },
         {
           "text": "Etter alt det stille",
-          "start_ms": 56720,
-          "end_ms": 58720
+          "start_ms": 103660,
+          "end_ms": 103570,
+          "words": [
+            {
+              "word": "Etter",
+              "start_ms": 103660,
+              "end_ms": 104160
+            },
+            {
+              "word": "alt",
+              "start_ms": 104210,
+              "end_ms": 104510,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 102660,
+              "end_ms": 103220
+            },
+            {
+              "word": "stille",
+              "start_ms": 103270,
+              "end_ms": 103570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Og det første ordet",
-          "start_ms": 58720,
-          "end_ms": 60720
+          "start_ms": 103220,
+          "end_ms": 103220,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 103220,
+              "end_ms": 103520,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 102660,
+              "end_ms": 103220
+            },
+            {
+              "word": "første",
+              "start_ms": 103270,
+              "end_ms": 103570,
+              "estimated": true
+            },
+            {
+              "word": "ordet",
+              "start_ms": 102660,
+              "end_ms": 103220
+            }
+          ]
         },
         {
           "text": "Er ikke klage",
-          "start_ms": 60720,
-          "end_ms": 62720
+          "start_ms": 102180,
+          "end_ms": 103360,
+          "words": [
+            {
+              "word": "Er",
+              "start_ms": 102180,
+              "end_ms": 102660
+            },
+            {
+              "word": "ikke",
+              "start_ms": 102710,
+              "end_ms": 103010,
+              "estimated": true
+            },
+            {
+              "word": "klage",
+              "start_ms": 103060,
+              "end_ms": 103360,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 54720,
-      "end_ms": 62720
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 99380,
+      "end_ms": 116680,
       "lines": [
         {
           "text": "Lyset kommer",
-          "start_ms": 65720,
-          "end_ms": 67720
+          "start_ms": 99380,
+          "end_ms": 97800,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 99380,
+              "end_ms": 100780
+            },
+            {
+              "word": "kommer",
+              "start_ms": 97039,
+              "end_ms": 97800
+            }
+          ]
         },
         {
           "text": "Lyset kommer",
-          "start_ms": 67720,
-          "end_ms": 69720
+          "start_ms": 95639,
+          "end_ms": 97800,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 95639,
+              "end_ms": 97039
+            },
+            {
+              "word": "kommer",
+              "start_ms": 97039,
+              "end_ms": 97800
+            }
+          ]
         },
         {
           "text": "Over de som sitter i mørket",
-          "start_ms": 69720,
-          "end_ms": 71880
+          "start_ms": 102180,
+          "end_ms": 105180,
+          "words": [
+            {
+              "word": "Over",
+              "start_ms": 102180,
+              "end_ms": 102660
+            },
+            {
+              "word": "de",
+              "start_ms": 102660,
+              "end_ms": 103220
+            },
+            {
+              "word": "som",
+              "start_ms": 103220,
+              "end_ms": 103660
+            },
+            {
+              "word": "sitter",
+              "start_ms": 103660,
+              "end_ms": 104160
+            },
+            {
+              "word": "i",
+              "start_ms": 104160,
+              "end_ms": 104480
+            },
+            {
+              "word": "mørket",
+              "start_ms": 104480,
+              "end_ms": 105180
+            }
+          ]
         },
         {
           "text": "Over de som har ventet lenge",
-          "start_ms": 71880,
-          "end_ms": 74120
+          "start_ms": 105180,
+          "end_ms": 109760,
+          "words": [
+            {
+              "word": "Over",
+              "start_ms": 105180,
+              "end_ms": 106420
+            },
+            {
+              "word": "de",
+              "start_ms": 106420,
+              "end_ms": 106920
+            },
+            {
+              "word": "som",
+              "start_ms": 106920,
+              "end_ms": 107360
+            },
+            {
+              "word": "har",
+              "start_ms": 107360,
+              "end_ms": 107580
+            },
+            {
+              "word": "ventet",
+              "start_ms": 107580,
+              "end_ms": 108200
+            },
+            {
+              "word": "lenge",
+              "start_ms": 108200,
+              "end_ms": 109760
+            }
+          ]
         },
         {
           "text": "Et lys fra det høye",
-          "start_ms": 74120,
-          "end_ms": 76120
+          "start_ms": 109760,
+          "end_ms": 112640,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 109760,
+              "end_ms": 110260
+            },
+            {
+              "word": "lys",
+              "start_ms": 110260,
+              "end_ms": 111040
+            },
+            {
+              "word": "fra",
+              "start_ms": 111040,
+              "end_ms": 111640
+            },
+            {
+              "word": "det",
+              "start_ms": 111640,
+              "end_ms": 111940
+            },
+            {
+              "word": "høye",
+              "start_ms": 111940,
+              "end_ms": 112640
+            }
+          ]
         },
         {
           "text": "Lyset kommer",
-          "start_ms": 76120,
-          "end_ms": 78120
+          "start_ms": 114179,
+          "end_ms": 116680,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 114179,
+              "end_ms": 115580
+            },
+            {
+              "word": "kommer",
+              "start_ms": 115580,
+              "end_ms": 116680
+            }
+          ]
         }
-      ],
-      "start_ms": 65720,
-      "end_ms": 78120
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Whispered",
+      "label": "Bridge",
+      "start_ms": 118180,
+      "end_ms": 131180,
       "lines": [
         {
           "text": "Og du, barn",
-          "start_ms": 81120,
-          "end_ms": 83120
+          "start_ms": 118180,
+          "end_ms": 120800,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 118180,
+              "end_ms": 119040
+            },
+            {
+              "word": "du,",
+              "start_ms": 119040,
+              "end_ms": 119920
+            },
+            {
+              "word": "barn",
+              "start_ms": 120320,
+              "end_ms": 120800
+            }
+          ]
         },
         {
           "text": "Lille gutten min",
-          "start_ms": 83120,
-          "end_ms": 85120
+          "start_ms": 121540,
+          "end_ms": 123460,
+          "words": [
+            {
+              "word": "Lille",
+              "start_ms": 121540,
+              "end_ms": 122020
+            },
+            {
+              "word": "gutten",
+              "start_ms": 122020,
+              "end_ms": 122800
+            },
+            {
+              "word": "min",
+              "start_ms": 122800,
+              "end_ms": 123460
+            }
+          ]
         },
         {
           "text": "Du skal gå foran",
-          "start_ms": 85120,
-          "end_ms": 87120
+          "start_ms": 124180,
+          "end_ms": 127180,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 124180,
+              "end_ms": 124920
+            },
+            {
+              "word": "skal",
+              "start_ms": 124920,
+              "end_ms": 125620
+            },
+            {
+              "word": "gå",
+              "start_ms": 125620,
+              "end_ms": 126460
+            },
+            {
+              "word": "foran",
+              "start_ms": 126460,
+              "end_ms": 127180
+            }
+          ]
         },
         {
           "text": "Og rydde veien",
-          "start_ms": 87120,
-          "end_ms": 89120
+          "start_ms": 128060,
+          "end_ms": 131180,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 128060,
+              "end_ms": 128740
+            },
+            {
+              "word": "rydde",
+              "start_ms": 128790,
+              "end_ms": 129090,
+              "estimated": true
+            },
+            {
+              "word": "veien",
+              "start_ms": 129720,
+              "end_ms": 131180
+            }
+          ]
         }
-      ],
-      "start_ms": 81120,
-      "end_ms": 89120
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Soft",
+      "label": "Chorus",
+      "start_ms": 147480,
+      "end_ms": 164200,
       "lines": [
         {
           "text": "Lyset kommer",
-          "start_ms": 92120,
-          "end_ms": 94120
+          "start_ms": 147480,
+          "end_ms": 149920,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 147480,
+              "end_ms": 148880
+            },
+            {
+              "word": "kommer",
+              "start_ms": 148880,
+              "end_ms": 149920
+            }
+          ]
         },
         {
           "text": "Sakte, sikkert",
-          "start_ms": 94120,
-          "end_ms": 96120
+          "start_ms": 150580,
+          "end_ms": 153360,
+          "words": [
+            {
+              "word": "Sakte,",
+              "start_ms": 150580,
+              "end_ms": 151420
+            },
+            {
+              "word": "sikkert",
+              "start_ms": 152180,
+              "end_ms": 153360
+            }
+          ]
         },
         {
           "text": "Over mørket",
-          "start_ms": 96120,
-          "end_ms": 98120
+          "start_ms": 153360,
+          "end_ms": 156180,
+          "words": [
+            {
+              "word": "Over",
+              "start_ms": 153360,
+              "end_ms": 154680
+            },
+            {
+              "word": "mørket",
+              "start_ms": 154680,
+              "end_ms": 156180
+            }
+          ]
         },
         {
           "text": "Lyset kommer",
-          "start_ms": 98120,
-          "end_ms": 100120
+          "start_ms": 162100,
+          "end_ms": 164200,
+          "words": [
+            {
+              "word": "Lyset",
+              "start_ms": 162100,
+              "end_ms": 163500
+            },
+            {
+              "word": "kommer",
+              "start_ms": 163500,
+              "end_ms": 164200
+            }
+          ]
         }
-      ],
-      "start_ms": 92120,
-      "end_ms": 100120
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Men stillheten gjorde noe",
+      "section_type": "chorus",
+      "start_ms": 31160,
+      "end_ms": 42460,
+      "key_line": "Men stillheten gjorde noe",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Lyset kommer",
+      "section_type": "chorus",
+      "start_ms": 44720,
+      "end_ms": 64340,
+      "key_line": "Lyset kommer",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Og nå åpner munnen seg",
+      "section_type": "chorus",
+      "start_ms": 86980,
+      "end_ms": 103360,
+      "key_line": "Og nå åpner munnen seg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Lyset kommer",
+      "section_type": "chorus",
+      "start_ms": 99380,
+      "end_ms": 116680,
+      "key_line": "Lyset kommer",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 118180,
+      "end_ms": 131180,
+      "key_line": "Og du, barn",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Lyset kommer",
+      "section_type": "chorus",
+      "start_ms": 147480,
+      "end_ms": 164200,
+      "key_line": "Lyset kommer",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/norwegian/42_luke_01_1-67_transcript.json"
 }

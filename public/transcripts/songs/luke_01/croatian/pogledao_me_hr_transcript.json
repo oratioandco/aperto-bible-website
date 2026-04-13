@@ -7,281 +7,1336 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 180920,
   "audio_file": "/audio/songs/luke_01/croatian/Luke 1_46-56  — Croatian — _Pogledao me_.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.718382+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.920286+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.989,
   "sections": [
     {
       "type": "intro",
       "label": "Intro",
+      "start_ms": 0,
+      "end_ms": 4800,
       "lines": [
         {
           "text": "Pogledao me",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 0,
+          "end_ms": 4800,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 0,
+              "end_ms": 2020
+            },
+            {
+              "word": "me",
+              "start_ms": 4800,
+              "end_ms": 4800
+            }
+          ]
         },
         {
           "text": "Pogledao me",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 0,
+          "end_ms": 4800,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 0,
+              "end_ms": 2020
+            },
+            {
+              "word": "me",
+              "start_ms": 4800,
+              "end_ms": 4800
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 10000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 17740,
+      "end_ms": 35640,
       "lines": [
         {
           "text": "Nitko me nije vidio, nitko me nije znao",
-          "start_ms": 13000,
-          "end_ms": 16120
+          "start_ms": 17740,
+          "end_ms": 22240,
+          "words": [
+            {
+              "word": "Nitko",
+              "start_ms": 17740,
+              "end_ms": 18600
+            },
+            {
+              "word": "me",
+              "start_ms": 17420,
+              "end_ms": 17740
+            },
+            {
+              "word": "nije",
+              "start_ms": 18840,
+              "end_ms": 19380
+            },
+            {
+              "word": "vidio,",
+              "start_ms": 19380,
+              "end_ms": 20100
+            },
+            {
+              "word": "nitko",
+              "start_ms": 20260,
+              "end_ms": 20700
+            },
+            {
+              "word": "me",
+              "start_ms": 20700,
+              "end_ms": 21000
+            },
+            {
+              "word": "nije",
+              "start_ms": 21000,
+              "end_ms": 21520
+            },
+            {
+              "word": "znao",
+              "start_ms": 21520,
+              "end_ms": 22240
+            }
+          ]
         },
         {
           "text": "Mala iz malog mjesta, ime koje nista ne znaci",
-          "start_ms": 16120,
-          "end_ms": 19720
+          "start_ms": 22240,
+          "end_ms": 26200,
+          "words": [
+            {
+              "word": "Mala",
+              "start_ms": 22240,
+              "end_ms": 22820
+            },
+            {
+              "word": "iz",
+              "start_ms": 22820,
+              "end_ms": 23080
+            },
+            {
+              "word": "malog",
+              "start_ms": 23080,
+              "end_ms": 23580
+            },
+            {
+              "word": "mjesta,",
+              "start_ms": 23580,
+              "end_ms": 24100
+            },
+            {
+              "word": "ime",
+              "start_ms": 24340,
+              "end_ms": 24660
+            },
+            {
+              "word": "koje",
+              "start_ms": 24660,
+              "end_ms": 25140
+            },
+            {
+              "word": "nista",
+              "start_ms": 25140,
+              "end_ms": 25680
+            },
+            {
+              "word": "ne",
+              "start_ms": 25680,
+              "end_ms": 25960
+            },
+            {
+              "word": "znaci",
+              "start_ms": 25960,
+              "end_ms": 26200
+            }
+          ]
         },
         {
           "text": "Rekli su: ostani tu, budi tiha, ne trazi vise",
-          "start_ms": 19720,
-          "end_ms": 23320
+          "start_ms": 26520,
+          "end_ms": 31580,
+          "words": [
+            {
+              "word": "Rekli",
+              "start_ms": 26520,
+              "end_ms": 26980
+            },
+            {
+              "word": "su:",
+              "start_ms": 26980,
+              "end_ms": 27300
+            },
+            {
+              "word": "ostani",
+              "start_ms": 27300,
+              "end_ms": 27980
+            },
+            {
+              "word": "tu,",
+              "start_ms": 27980,
+              "end_ms": 28580
+            },
+            {
+              "word": "budi",
+              "start_ms": 29000,
+              "end_ms": 29400
+            },
+            {
+              "word": "tiha,",
+              "start_ms": 29400,
+              "end_ms": 30140
+            },
+            {
+              "word": "ne",
+              "start_ms": 30200,
+              "end_ms": 30400
+            },
+            {
+              "word": "trazi",
+              "start_ms": 30400,
+              "end_ms": 30900
+            },
+            {
+              "word": "vise",
+              "start_ms": 30900,
+              "end_ms": 31580
+            }
+          ]
         },
         {
           "text": "Ali netko me pogledao",
-          "start_ms": 23320,
-          "end_ms": 25320
+          "start_ms": 31580,
+          "end_ms": 33460,
+          "words": [
+            {
+              "word": "Ali",
+              "start_ms": 31580,
+              "end_ms": 32000
+            },
+            {
+              "word": "netko",
+              "start_ms": 32000,
+              "end_ms": 32340
+            },
+            {
+              "word": "me",
+              "start_ms": 32340,
+              "end_ms": 32540
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 32540,
+              "end_ms": 33460
+            }
+          ]
         },
         {
           "text": "Netko me nasao",
-          "start_ms": 25320,
-          "end_ms": 27320
+          "start_ms": 32000,
+          "end_ms": 35640,
+          "words": [
+            {
+              "word": "Netko",
+              "start_ms": 32000,
+              "end_ms": 32340
+            },
+            {
+              "word": "me",
+              "start_ms": 32340,
+              "end_ms": 32540
+            },
+            {
+              "word": "nasao",
+              "start_ms": 34600,
+              "end_ms": 35640
+            }
+          ]
         }
-      ],
-      "start_ms": 13000,
-      "end_ms": 27320
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 35640,
+      "end_ms": 44480,
       "lines": [
         {
           "text": "I sad ne mogu sutjeti",
-          "start_ms": 30320,
-          "end_ms": 32320
+          "start_ms": 35640,
+          "end_ms": 40200,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 35640,
+              "end_ms": 36240
+            },
+            {
+              "word": "sad",
+              "start_ms": 36240,
+              "end_ms": 36420
+            },
+            {
+              "word": "ne",
+              "start_ms": 36420,
+              "end_ms": 36800
+            },
+            {
+              "word": "mogu",
+              "start_ms": 36800,
+              "end_ms": 37240
+            },
+            {
+              "word": "sutjeti",
+              "start_ms": 39420,
+              "end_ms": 40200
+            }
+          ]
         },
         {
           "text": "Sad ne mogu stati",
-          "start_ms": 32320,
-          "end_ms": 34320
+          "start_ms": 40200,
+          "end_ms": 40200,
+          "words": [
+            {
+              "word": "Sad",
+              "start_ms": 40200,
+              "end_ms": 40500,
+              "estimated": true
+            },
+            {
+              "word": "ne",
+              "start_ms": 38540,
+              "end_ms": 38900
+            },
+            {
+              "word": "mogu",
+              "start_ms": 38900,
+              "end_ms": 39420
+            },
+            {
+              "word": "stati",
+              "start_ms": 39420,
+              "end_ms": 40200
+            }
+          ]
         },
         {
           "text": "Sve u meni gori",
-          "start_ms": 34320,
-          "end_ms": 36320
+          "start_ms": 40200,
+          "end_ms": 42200,
+          "words": [
+            {
+              "word": "Sve",
+              "start_ms": 40200,
+              "end_ms": 40660
+            },
+            {
+              "word": "u",
+              "start_ms": 40660,
+              "end_ms": 41020
+            },
+            {
+              "word": "meni",
+              "start_ms": 41020,
+              "end_ms": 41500
+            },
+            {
+              "word": "gori",
+              "start_ms": 41500,
+              "end_ms": 42200
+            }
+          ]
         },
         {
           "text": "Sve u meni ustaje",
-          "start_ms": 36320,
-          "end_ms": 38320
+          "start_ms": 42440,
+          "end_ms": 44480,
+          "words": [
+            {
+              "word": "Sve",
+              "start_ms": 42440,
+              "end_ms": 42800
+            },
+            {
+              "word": "u",
+              "start_ms": 42800,
+              "end_ms": 43060
+            },
+            {
+              "word": "meni",
+              "start_ms": 43060,
+              "end_ms": 43600
+            },
+            {
+              "word": "ustaje",
+              "start_ms": 43600,
+              "end_ms": 44480
+            }
+          ]
         }
-      ],
-      "start_ms": 30320,
-      "end_ms": 38320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 44480,
+      "end_ms": 67240,
       "lines": [
         {
           "text": "Pogledao me, pogledao me",
-          "start_ms": 41320,
-          "end_ms": 43320
+          "start_ms": 44480,
+          "end_ms": 47040,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 44480,
+              "end_ms": 46100
+            },
+            {
+              "word": "me,",
+              "start_ms": 46600,
+              "end_ms": 47040
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 44480,
+              "end_ms": 46100
+            },
+            {
+              "word": "me",
+              "start_ms": 46600,
+              "end_ms": 47040
+            }
+          ]
         },
         {
           "text": "Onu koju nitko ne vidi",
-          "start_ms": 43320,
-          "end_ms": 45320
+          "start_ms": 49700,
+          "end_ms": 52340,
+          "words": [
+            {
+              "word": "Onu",
+              "start_ms": 49700,
+              "end_ms": 50360
+            },
+            {
+              "word": "koju",
+              "start_ms": 50360,
+              "end_ms": 50820
+            },
+            {
+              "word": "nitko",
+              "start_ms": 50820,
+              "end_ms": 51340
+            },
+            {
+              "word": "ne",
+              "start_ms": 51340,
+              "end_ms": 51880
+            },
+            {
+              "word": "vidi",
+              "start_ms": 51880,
+              "end_ms": 52340
+            }
+          ]
         },
         {
           "text": "Pogledao me, pogledao me",
-          "start_ms": 45320,
-          "end_ms": 47320
+          "start_ms": 53519,
+          "end_ms": 55300,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 53519,
+              "end_ms": 54440
+            },
+            {
+              "word": "me,",
+              "start_ms": 54660,
+              "end_ms": 55300
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 53519,
+              "end_ms": 54440
+            },
+            {
+              "word": "me",
+              "start_ms": 54660,
+              "end_ms": 55300
+            }
+          ]
         },
         {
           "text": "I sad sve u meni pjeva",
-          "start_ms": 47320,
-          "end_ms": 49320
+          "start_ms": 57300,
+          "end_ms": 61380,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 57300,
+              "end_ms": 58200
+            },
+            {
+              "word": "sad",
+              "start_ms": 58200,
+              "end_ms": 58560
+            },
+            {
+              "word": "sve",
+              "start_ms": 58560,
+              "end_ms": 58980
+            },
+            {
+              "word": "u",
+              "start_ms": 58980,
+              "end_ms": 59340
+            },
+            {
+              "word": "meni",
+              "start_ms": 59340,
+              "end_ms": 59780
+            },
+            {
+              "word": "pjeva",
+              "start_ms": 59780,
+              "end_ms": 61380
+            }
+          ]
         },
         {
           "text": "Pogledao me",
-          "start_ms": 49320,
-          "end_ms": 51320
+          "start_ms": 61380,
+          "end_ms": 63580,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 61380,
+              "end_ms": 62840
+            },
+            {
+              "word": "me",
+              "start_ms": 63020,
+              "end_ms": 63580
+            }
+          ]
         },
         {
           "text": "I nista vise nije isto",
-          "start_ms": 51320,
-          "end_ms": 53320
+          "start_ms": 64099,
+          "end_ms": 67240,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 64099,
+              "end_ms": 64959
+            },
+            {
+              "word": "nista",
+              "start_ms": 64959,
+              "end_ms": 65459
+            },
+            {
+              "word": "vise",
+              "start_ms": 65459,
+              "end_ms": 66020
+            },
+            {
+              "word": "nije",
+              "start_ms": 66020,
+              "end_ms": 66580
+            },
+            {
+              "word": "isto",
+              "start_ms": 66580,
+              "end_ms": 67240
+            }
+          ]
         }
-      ],
-      "start_ms": 41320,
-      "end_ms": 53320
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 74280,
+      "end_ms": 94920,
       "lines": [
         {
           "text": "Ono sto je napravio sa mnom, radi sa svima",
-          "start_ms": 56320,
-          "end_ms": 59680
+          "start_ms": 74280,
+          "end_ms": 78780,
+          "words": [
+            {
+              "word": "Ono",
+              "start_ms": 74280,
+              "end_ms": 74840
+            },
+            {
+              "word": "sto",
+              "start_ms": 66580,
+              "end_ms": 67240
+            },
+            {
+              "word": "je",
+              "start_ms": 75080,
+              "end_ms": 75380
+            },
+            {
+              "word": "napravio",
+              "start_ms": 75380,
+              "end_ms": 76260
+            },
+            {
+              "word": "sa",
+              "start_ms": 76260,
+              "end_ms": 76640
+            },
+            {
+              "word": "mnom,",
+              "start_ms": 76640,
+              "end_ms": 77120
+            },
+            {
+              "word": "radi",
+              "start_ms": 77500,
+              "end_ms": 77540
+            },
+            {
+              "word": "sa",
+              "start_ms": 76260,
+              "end_ms": 76640
+            },
+            {
+              "word": "svima",
+              "start_ms": 77920,
+              "end_ms": 78780
+            }
+          ]
         },
         {
           "text": "Silne baca dolje, male dize gore",
-          "start_ms": 59680,
-          "end_ms": 62240
+          "start_ms": 78780,
+          "end_ms": 82640,
+          "words": [
+            {
+              "word": "Silne",
+              "start_ms": 78780,
+              "end_ms": 79560
+            },
+            {
+              "word": "baca",
+              "start_ms": 79560,
+              "end_ms": 79960
+            },
+            {
+              "word": "dolje,",
+              "start_ms": 79960,
+              "end_ms": 80980
+            },
+            {
+              "word": "male",
+              "start_ms": 81260,
+              "end_ms": 81500
+            },
+            {
+              "word": "dize",
+              "start_ms": 81500,
+              "end_ms": 82080
+            },
+            {
+              "word": "gore",
+              "start_ms": 82080,
+              "end_ms": 82640
+            }
+          ]
         },
         {
           "text": "Gladne puni, bogate salje praznih ruku",
-          "start_ms": 62240,
-          "end_ms": 65280
+          "start_ms": 82640,
+          "end_ms": 86700,
+          "words": [
+            {
+              "word": "Gladne",
+              "start_ms": 82640,
+              "end_ms": 83700
+            },
+            {
+              "word": "puni,",
+              "start_ms": 83700,
+              "end_ms": 84420
+            },
+            {
+              "word": "bogate",
+              "start_ms": 84520,
+              "end_ms": 85220
+            },
+            {
+              "word": "salje",
+              "start_ms": 85220,
+              "end_ms": 85700
+            },
+            {
+              "word": "praznih",
+              "start_ms": 85780,
+              "end_ms": 86280
+            },
+            {
+              "word": "ruku",
+              "start_ms": 86280,
+              "end_ms": 86700
+            }
+          ]
         },
         {
           "text": "To nije obecanje, to je nacin",
-          "start_ms": 65280,
-          "end_ms": 67600
+          "start_ms": 86700,
+          "end_ms": 90840,
+          "words": [
+            {
+              "word": "To",
+              "start_ms": 86700,
+              "end_ms": 87300
+            },
+            {
+              "word": "nije",
+              "start_ms": 87300,
+              "end_ms": 87920
+            },
+            {
+              "word": "obecanje,",
+              "start_ms": 87920,
+              "end_ms": 89040
+            },
+            {
+              "word": "to",
+              "start_ms": 86700,
+              "end_ms": 87300
+            },
+            {
+              "word": "je",
+              "start_ms": 89640,
+              "end_ms": 90060
+            },
+            {
+              "word": "nacin",
+              "start_ms": 90060,
+              "end_ms": 90840
+            }
+          ]
         },
         {
           "text": "Oduvijek tako, od pocetka",
-          "start_ms": 67600,
-          "end_ms": 69600
+          "start_ms": 91380,
+          "end_ms": 94920,
+          "words": [
+            {
+              "word": "Oduvijek",
+              "start_ms": 91380,
+              "end_ms": 91980
+            },
+            {
+              "word": "tako,",
+              "start_ms": 91980,
+              "end_ms": 93240
+            },
+            {
+              "word": "od",
+              "start_ms": 90840,
+              "end_ms": 91380
+            },
+            {
+              "word": "pocetka",
+              "start_ms": 93620,
+              "end_ms": 94920
+            }
+          ]
         }
-      ],
-      "start_ms": 56320,
-      "end_ms": 69600
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 94920,
+      "end_ms": 117360,
       "lines": [
         {
           "text": "Pogledao me, pogledao me",
-          "start_ms": 72600,
-          "end_ms": 74600
+          "start_ms": 94920,
+          "end_ms": 96820,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 94920,
+              "end_ms": 96140
+            },
+            {
+              "word": "me,",
+              "start_ms": 96160,
+              "end_ms": 96820
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 94920,
+              "end_ms": 96140
+            },
+            {
+              "word": "me",
+              "start_ms": 96160,
+              "end_ms": 96820
+            }
+          ]
         },
         {
           "text": "Onu koju nitko ne vidi",
-          "start_ms": 74600,
-          "end_ms": 76600
+          "start_ms": 99660,
+          "end_ms": 102640,
+          "words": [
+            {
+              "word": "Onu",
+              "start_ms": 99660,
+              "end_ms": 100360
+            },
+            {
+              "word": "koju",
+              "start_ms": 100360,
+              "end_ms": 100820
+            },
+            {
+              "word": "nitko",
+              "start_ms": 100820,
+              "end_ms": 101280
+            },
+            {
+              "word": "ne",
+              "start_ms": 101280,
+              "end_ms": 101760
+            },
+            {
+              "word": "vidi",
+              "start_ms": 101760,
+              "end_ms": 102640
+            }
+          ]
         },
         {
           "text": "Pogledao me, pogledao me",
-          "start_ms": 76600,
-          "end_ms": 78600
+          "start_ms": 103160,
+          "end_ms": 105010,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 103160,
+              "end_ms": 104420
+            },
+            {
+              "word": "me,",
+              "start_ms": 104480,
+              "end_ms": 105010
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 103160,
+              "end_ms": 104420
+            },
+            {
+              "word": "me",
+              "start_ms": 104480,
+              "end_ms": 105010
+            }
+          ]
         },
         {
           "text": "I sad sve u meni pjeva",
-          "start_ms": 78600,
-          "end_ms": 80600
+          "start_ms": 107580,
+          "end_ms": 111040,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 107580,
+              "end_ms": 108100
+            },
+            {
+              "word": "sad",
+              "start_ms": 108100,
+              "end_ms": 108420
+            },
+            {
+              "word": "sve",
+              "start_ms": 108420,
+              "end_ms": 108900
+            },
+            {
+              "word": "u",
+              "start_ms": 108900,
+              "end_ms": 109240
+            },
+            {
+              "word": "meni",
+              "start_ms": 109240,
+              "end_ms": 109660
+            },
+            {
+              "word": "pjeva",
+              "start_ms": 109660,
+              "end_ms": 111040
+            }
+          ]
         },
         {
           "text": "Pogledao me",
-          "start_ms": 80600,
-          "end_ms": 82600
+          "start_ms": 111040,
+          "end_ms": 113480,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 111040,
+              "end_ms": 112740
+            },
+            {
+              "word": "me",
+              "start_ms": 113460,
+              "end_ms": 113480
+            }
+          ]
         },
         {
           "text": "I nista vise nije isto",
-          "start_ms": 82600,
-          "end_ms": 84600
+          "start_ms": 114040,
+          "end_ms": 117360,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 114040,
+              "end_ms": 114800
+            },
+            {
+              "word": "nista",
+              "start_ms": 114800,
+              "end_ms": 115320
+            },
+            {
+              "word": "vise",
+              "start_ms": 115320,
+              "end_ms": 115900
+            },
+            {
+              "word": "nije",
+              "start_ms": 115900,
+              "end_ms": 116400
+            },
+            {
+              "word": "isto",
+              "start_ms": 116400,
+              "end_ms": 117360
+            }
+          ]
         }
-      ],
-      "start_ms": 72600,
-      "end_ms": 84600
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 119040,
+      "end_ms": 145900,
       "lines": [
         {
           "text": "Svaki put kad misle da su sigurni",
-          "start_ms": 87600,
-          "end_ms": 90240
+          "start_ms": 119040,
+          "end_ms": 125040,
+          "words": [
+            {
+              "word": "Svaki",
+              "start_ms": 119040,
+              "end_ms": 120040
+            },
+            {
+              "word": "put",
+              "start_ms": 120040,
+              "end_ms": 120500
+            },
+            {
+              "word": "kad",
+              "start_ms": 120500,
+              "end_ms": 120960
+            },
+            {
+              "word": "misle",
+              "start_ms": 120960,
+              "end_ms": 122040
+            },
+            {
+              "word": "da",
+              "start_ms": 122660,
+              "end_ms": 123780
+            },
+            {
+              "word": "su",
+              "start_ms": 123780,
+              "end_ms": 124060
+            },
+            {
+              "word": "sigurni",
+              "start_ms": 124060,
+              "end_ms": 125040
+            }
+          ]
         },
         {
           "text": "Svaki put kad misle da su zauvijek",
-          "start_ms": 90240,
-          "end_ms": 92960
+          "start_ms": 127240,
+          "end_ms": 135040,
+          "words": [
+            {
+              "word": "Svaki",
+              "start_ms": 127240,
+              "end_ms": 128320
+            },
+            {
+              "word": "put",
+              "start_ms": 128320,
+              "end_ms": 128800
+            },
+            {
+              "word": "kad",
+              "start_ms": 128800,
+              "end_ms": 129259
+            },
+            {
+              "word": "misle",
+              "start_ms": 129259,
+              "end_ms": 130040
+            },
+            {
+              "word": "da",
+              "start_ms": 131180,
+              "end_ms": 132160
+            },
+            {
+              "word": "su",
+              "start_ms": 132160,
+              "end_ms": 132420
+            },
+            {
+              "word": "zauvijek",
+              "start_ms": 132980,
+              "end_ms": 135040
+            }
+          ]
         },
         {
           "text": "On pogleda dolje",
-          "start_ms": 92960,
-          "end_ms": 94960
+          "start_ms": 136260,
+          "end_ms": 138040,
+          "words": [
+            {
+              "word": "On",
+              "start_ms": 136260,
+              "end_ms": 136640
+            },
+            {
+              "word": "pogleda",
+              "start_ms": 136640,
+              "end_ms": 137340
+            },
+            {
+              "word": "dolje",
+              "start_ms": 137340,
+              "end_ms": 138040
+            }
+          ]
         },
         {
           "text": "On pogleda dolje",
-          "start_ms": 94960,
-          "end_ms": 96960
+          "start_ms": 136260,
+          "end_ms": 138040,
+          "words": [
+            {
+              "word": "On",
+              "start_ms": 136260,
+              "end_ms": 136640
+            },
+            {
+              "word": "pogleda",
+              "start_ms": 136640,
+              "end_ms": 137340
+            },
+            {
+              "word": "dolje",
+              "start_ms": 137340,
+              "end_ms": 138040
+            }
+          ]
         },
         {
           "text": "I vidi nas",
-          "start_ms": 96960,
-          "end_ms": 98960
+          "start_ms": 138040,
+          "end_ms": 145900,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 138040,
+              "end_ms": 138340,
+              "estimated": true
+            },
+            {
+              "word": "vidi",
+              "start_ms": 144660,
+              "end_ms": 145540
+            },
+            {
+              "word": "nas",
+              "start_ms": 145540,
+              "end_ms": 145900
+            }
+          ]
         }
-      ],
-      "start_ms": 87600,
-      "end_ms": 98960
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 148920,
+      "end_ms": 171000,
       "lines": [
         {
           "text": "Pogledao me, pogledao me",
-          "start_ms": 101960,
-          "end_ms": 103960
+          "start_ms": 148920,
+          "end_ms": 152560,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 148920,
+              "end_ms": 149960
+            },
+            {
+              "word": "me,",
+              "start_ms": 152560,
+              "end_ms": 152560
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 148920,
+              "end_ms": 149960
+            },
+            {
+              "word": "me",
+              "start_ms": 152560,
+              "end_ms": 152560
+            }
+          ]
         },
         {
           "text": "Onu koju nitko ne vidi",
-          "start_ms": 103960,
-          "end_ms": 105960
+          "start_ms": 157620,
+          "end_ms": 160960,
+          "words": [
+            {
+              "word": "Onu",
+              "start_ms": 157620,
+              "end_ms": 158300
+            },
+            {
+              "word": "koju",
+              "start_ms": 158300,
+              "end_ms": 158760
+            },
+            {
+              "word": "nitko",
+              "start_ms": 158760,
+              "end_ms": 159260
+            },
+            {
+              "word": "ne",
+              "start_ms": 159260,
+              "end_ms": 159780
+            },
+            {
+              "word": "vidi",
+              "start_ms": 159780,
+              "end_ms": 160960
+            }
+          ]
         },
         {
           "text": "Pogledao me, pogledao me",
-          "start_ms": 105960,
-          "end_ms": 107960
+          "start_ms": 160960,
+          "end_ms": 163120,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 160960,
+              "end_ms": 162380
+            },
+            {
+              "word": "me,",
+              "start_ms": 162480,
+              "end_ms": 163120
+            },
+            {
+              "word": "pogledao",
+              "start_ms": 160960,
+              "end_ms": 162380
+            },
+            {
+              "word": "me",
+              "start_ms": 162480,
+              "end_ms": 163120
+            }
+          ]
         },
         {
           "text": "I nista vise nije isto",
-          "start_ms": 107960,
-          "end_ms": 109960
+          "start_ms": 168040,
+          "end_ms": 171000,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 168040,
+              "end_ms": 168620
+            },
+            {
+              "word": "nista",
+              "start_ms": 168620,
+              "end_ms": 169100
+            },
+            {
+              "word": "vise",
+              "start_ms": 169100,
+              "end_ms": 169660
+            },
+            {
+              "word": "nije",
+              "start_ms": 169660,
+              "end_ms": 170260
+            },
+            {
+              "word": "isto",
+              "start_ms": 170260,
+              "end_ms": 171000
+            }
+          ]
         }
-      ],
-      "start_ms": 101960,
-      "end_ms": 109960
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 173680,
+      "end_ms": 175600,
       "lines": [
         {
           "text": "Pogledao me",
-          "start_ms": 112960,
-          "end_ms": 114960
+          "start_ms": 173680,
+          "end_ms": 175600,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 173680,
+              "end_ms": 174840
+            },
+            {
+              "word": "me",
+              "start_ms": 175460,
+              "end_ms": 175600
+            }
+          ]
         },
         {
           "text": "Pogledao me",
-          "start_ms": 114960,
-          "end_ms": 116960
+          "start_ms": 173680,
+          "end_ms": 175600,
+          "words": [
+            {
+              "word": "Pogledao",
+              "start_ms": 173680,
+              "end_ms": 174840
+            },
+            {
+              "word": "me",
+              "start_ms": 175460,
+              "end_ms": 175600
+            }
+          ]
         }
-      ],
-      "start_ms": 112960,
-      "end_ms": 116960
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - I sad ne mogu sutjeti",
+      "section_type": "chorus",
+      "start_ms": 35640,
+      "end_ms": 44480,
+      "key_line": "I sad ne mogu sutjeti",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Pogledao me, pogledao me",
+      "section_type": "chorus",
+      "start_ms": 44480,
+      "end_ms": 67240,
+      "key_line": "Pogledao me, pogledao me",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Pogledao me, pogledao me",
+      "section_type": "chorus",
+      "start_ms": 94920,
+      "end_ms": 117360,
+      "key_line": "Pogledao me, pogledao me",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 119040,
+      "end_ms": 145900,
+      "key_line": "Svaki put kad misle da su sigurni",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Pogledao me, pogledao me",
+      "section_type": "chorus",
+      "start_ms": 148920,
+      "end_ms": 171000,
+      "key_line": "Pogledao me, pogledao me",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/croatian/42_luke_01_1-46_transcript.json"
 }

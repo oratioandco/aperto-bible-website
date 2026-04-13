@@ -7,326 +7,1347 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 141560,
   "audio_file": "/audio/songs/luke_01/slovenian/Luke 1_46-56 — _Prazne roke_ (Slovenian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.316947+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.057330+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.579,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 9179,
+      "end_ms": 27800,
       "lines": [
         {
           "text": "Vse v meni govori",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 9179,
+          "end_ms": 14420,
+          "words": [
+            {
+              "word": "Vse",
+              "start_ms": 9179,
+              "end_ms": 10000
+            },
+            {
+              "word": "v",
+              "start_ms": 10180,
+              "end_ms": 10180
+            },
+            {
+              "word": "meni",
+              "start_ms": 10180,
+              "end_ms": 10620
+            },
+            {
+              "word": "govori",
+              "start_ms": 13240,
+              "end_ms": 14420
+            }
+          ]
         },
         {
           "text": "ne moli, govori",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 12720,
+          "end_ms": 14420,
+          "words": [
+            {
+              "word": "ne",
+              "start_ms": 12720,
+              "end_ms": 12840
+            },
+            {
+              "word": "moli,",
+              "start_ms": 12840,
+              "end_ms": 13240
+            },
+            {
+              "word": "govori",
+              "start_ms": 13240,
+              "end_ms": 14420
+            }
+          ]
         },
         {
           "text": "iz vasi ki je nihce ne najde",
-          "start_ms": 10000,
-          "end_ms": 12240
+          "start_ms": 14420,
+          "end_ms": 17440,
+          "words": [
+            {
+              "word": "iz",
+              "start_ms": 14420,
+              "end_ms": 14880
+            },
+            {
+              "word": "vasi",
+              "start_ms": 14880,
+              "end_ms": 15040
+            },
+            {
+              "word": "ki",
+              "start_ms": 15360,
+              "end_ms": 15360
+            },
+            {
+              "word": "je",
+              "start_ms": 15360,
+              "end_ms": 15540
+            },
+            {
+              "word": "nihce",
+              "start_ms": 15680,
+              "end_ms": 16059
+            },
+            {
+              "word": "ne",
+              "start_ms": 16379,
+              "end_ms": 16379
+            },
+            {
+              "word": "najde",
+              "start_ms": 16379,
+              "end_ms": 17440
+            }
+          ]
         },
         {
           "text": "iz trebuha ki raste",
-          "start_ms": 12240,
-          "end_ms": 14240
+          "start_ms": 18120,
+          "end_ms": 20080,
+          "words": [
+            {
+              "word": "iz",
+              "start_ms": 18120,
+              "end_ms": 18420,
+              "estimated": true
+            },
+            {
+              "word": "trebuha",
+              "start_ms": 18360,
+              "end_ms": 18780
+            },
+            {
+              "word": "ki",
+              "start_ms": 18820,
+              "end_ms": 19000
+            },
+            {
+              "word": "raste",
+              "start_ms": 19000,
+              "end_ms": 20080
+            }
+          ]
         },
         {
           "text": "Pogledal me je",
-          "start_ms": 14240,
-          "end_ms": 16240
+          "start_ms": 20080,
+          "end_ms": 22900,
+          "words": [
+            {
+              "word": "Pogledal",
+              "start_ms": 20080,
+              "end_ms": 21520
+            },
+            {
+              "word": "me",
+              "start_ms": 21520,
+              "end_ms": 21900
+            },
+            {
+              "word": "je",
+              "start_ms": 21900,
+              "end_ms": 22900
+            }
+          ]
         },
         {
           "text": "opazil me je",
-          "start_ms": 16240,
-          "end_ms": 18240
+          "start_ms": 23660,
+          "end_ms": 22900,
+          "words": [
+            {
+              "word": "opazil",
+              "start_ms": 23660,
+              "end_ms": 24260
+            },
+            {
+              "word": "me",
+              "start_ms": 21520,
+              "end_ms": 21900
+            },
+            {
+              "word": "je",
+              "start_ms": 21900,
+              "end_ms": 22900
+            }
+          ]
         },
         {
           "text": "mene, majhno",
-          "start_ms": 18240,
-          "end_ms": 20240
+          "start_ms": 25240,
+          "end_ms": 26300,
+          "words": [
+            {
+              "word": "mene,",
+              "start_ms": 25240,
+              "end_ms": 25800
+            },
+            {
+              "word": "majhno",
+              "start_ms": 25800,
+              "end_ms": 26300
+            }
+          ]
         },
         {
           "text": "in zdaj govorim",
-          "start_ms": 20240,
-          "end_ms": 22240
+          "start_ms": 26300,
+          "end_ms": 27800,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 26300,
+              "end_ms": 26460
+            },
+            {
+              "word": "zdaj",
+              "start_ms": 26460,
+              "end_ms": 26760
+            },
+            {
+              "word": "govorim",
+              "start_ms": 26760,
+              "end_ms": 27800
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22240
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 27800,
+      "end_ms": 31680,
       "lines": [
         {
           "text": "Poslusaj",
-          "start_ms": 25240,
-          "end_ms": 27240
+          "start_ms": 27800,
+          "end_ms": 29380,
+          "words": [
+            {
+              "word": "Poslusaj",
+              "start_ms": 27800,
+              "end_ms": 29380
+            }
+          ]
         },
         {
           "text": "ker to ni govor",
-          "start_ms": 27240,
-          "end_ms": 29240
+          "start_ms": 29880,
+          "end_ms": 31680,
+          "words": [
+            {
+              "word": "ker",
+              "start_ms": 29880,
+              "end_ms": 30080
+            },
+            {
+              "word": "to",
+              "start_ms": 30080,
+              "end_ms": 30520
+            },
+            {
+              "word": "ni",
+              "start_ms": 30520,
+              "end_ms": 30880
+            },
+            {
+              "word": "govor",
+              "start_ms": 30880,
+              "end_ms": 31680
+            }
+          ]
         }
-      ],
-      "start_ms": 25240,
-      "end_ms": 29240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 31680,
+      "end_ms": 51900,
       "lines": [
         {
           "text": "Prazne roke",
-          "start_ms": 32240,
-          "end_ms": 34240
+          "start_ms": 31680,
+          "end_ms": 33220,
+          "words": [
+            {
+              "word": "Prazne",
+              "start_ms": 31680,
+              "end_ms": 32340
+            },
+            {
+              "word": "roke",
+              "start_ms": 32340,
+              "end_ms": 33220
+            }
+          ]
         },
         {
           "text": "bogate domov s praznimi rokami",
-          "start_ms": 34240,
-          "end_ms": 36640
+          "start_ms": 33780,
+          "end_ms": 37000,
+          "words": [
+            {
+              "word": "bogate",
+              "start_ms": 33780,
+              "end_ms": 34300
+            },
+            {
+              "word": "domov",
+              "start_ms": 34300,
+              "end_ms": 34960
+            },
+            {
+              "word": "s",
+              "start_ms": 34960,
+              "end_ms": 35180
+            },
+            {
+              "word": "praznimi",
+              "start_ms": 35180,
+              "end_ms": 36180
+            },
+            {
+              "word": "rokami",
+              "start_ms": 36180,
+              "end_ms": 37000
+            }
+          ]
         },
         {
           "text": "s prestolov",
-          "start_ms": 36640,
-          "end_ms": 38640
+          "start_ms": 34960,
+          "end_ms": 38130,
+          "words": [
+            {
+              "word": "s",
+              "start_ms": 34960,
+              "end_ms": 35180
+            },
+            {
+              "word": "prestolov",
+              "start_ms": 37460,
+              "end_ms": 38130
+            }
+          ]
         },
         {
           "text": "vladajoce vrze s prestolov",
-          "start_ms": 38640,
-          "end_ms": 40720
+          "start_ms": 38400,
+          "end_ms": 38130,
+          "words": [
+            {
+              "word": "vladajoce",
+              "start_ms": 38400,
+              "end_ms": 40360
+            },
+            {
+              "word": "vrze",
+              "start_ms": 40360,
+              "end_ms": 40980
+            },
+            {
+              "word": "s",
+              "start_ms": 41030,
+              "end_ms": 41330,
+              "estimated": true
+            },
+            {
+              "word": "prestolov",
+              "start_ms": 37460,
+              "end_ms": 38130
+            }
+          ]
         },
         {
           "text": "Lacne nasiti",
-          "start_ms": 40720,
-          "end_ms": 42720
+          "start_ms": 42360,
+          "end_ms": 44120,
+          "words": [
+            {
+              "word": "Lacne",
+              "start_ms": 42360,
+              "end_ms": 43040
+            },
+            {
+              "word": "nasiti",
+              "start_ms": 43260,
+              "end_ms": 44120
+            }
+          ]
         },
         {
           "text": "bogate odposlje",
-          "start_ms": 42720,
-          "end_ms": 44720
+          "start_ms": 44980,
+          "end_ms": 46840,
+          "words": [
+            {
+              "word": "bogate",
+              "start_ms": 44980,
+              "end_ms": 45660
+            },
+            {
+              "word": "odposlje",
+              "start_ms": 45980,
+              "end_ms": 46840
+            }
+          ]
         },
         {
           "text": "to ni obljuba",
-          "start_ms": 44720,
-          "end_ms": 46720
+          "start_ms": 47449,
+          "end_ms": 49160,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 47449,
+              "end_ms": 48120
+            },
+            {
+              "word": "ni",
+              "start_ms": 48120,
+              "end_ms": 48380
+            },
+            {
+              "word": "obljuba",
+              "start_ms": 48380,
+              "end_ms": 49160
+            }
+          ]
         },
         {
           "text": "to je opis",
-          "start_ms": 46720,
-          "end_ms": 48720
+          "start_ms": 47449,
+          "end_ms": 51900,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 47449,
+              "end_ms": 48120
+            },
+            {
+              "word": "je",
+              "start_ms": 50680,
+              "end_ms": 50980
+            },
+            {
+              "word": "opis",
+              "start_ms": 50980,
+              "end_ms": 51900
+            }
+          ]
         }
-      ],
-      "start_ms": 32240,
-      "end_ms": 48720
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 52900,
+      "end_ms": 90760,
       "lines": [
         {
           "text": "Napihneni se imajo za nekaj",
-          "start_ms": 51720,
-          "end_ms": 53880
+          "start_ms": 52900,
+          "end_ms": 60260,
+          "words": [
+            {
+              "word": "Napihneni",
+              "start_ms": 52900,
+              "end_ms": 53500
+            },
+            {
+              "word": "se",
+              "start_ms": 56120,
+              "end_ms": 56240
+            },
+            {
+              "word": "imajo",
+              "start_ms": 56290,
+              "end_ms": 56590,
+              "estimated": true
+            },
+            {
+              "word": "za",
+              "start_ms": 56640,
+              "end_ms": 56940,
+              "estimated": true
+            },
+            {
+              "word": "nekaj",
+              "start_ms": 60020,
+              "end_ms": 60260
+            }
+          ]
         },
         {
           "text": "a vsi vedo kaksni so",
-          "start_ms": 53880,
-          "end_ms": 55880
+          "start_ms": 60020,
+          "end_ms": 64380,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 60020,
+              "end_ms": 60260
+            },
+            {
+              "word": "vsi",
+              "start_ms": 63680,
+              "end_ms": 64080
+            },
+            {
+              "word": "vedo",
+              "start_ms": 63300,
+              "end_ms": 63680
+            },
+            {
+              "word": "kaksni",
+              "start_ms": 63730,
+              "end_ms": 64030,
+              "estimated": true
+            },
+            {
+              "word": "so",
+              "start_ms": 64080,
+              "end_ms": 64380,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "raztrosi jih",
-          "start_ms": 55880,
-          "end_ms": 57880
+          "start_ms": 63680,
+          "end_ms": 64330,
+          "words": [
+            {
+              "word": "raztrosi",
+              "start_ms": 63680,
+              "end_ms": 63980,
+              "estimated": true
+            },
+            {
+              "word": "jih",
+              "start_ms": 64030,
+              "end_ms": 64330,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "ne z vojsko",
-          "start_ms": 57880,
-          "end_ms": 59880
+          "start_ms": 67760,
+          "end_ms": 71170,
+          "words": [
+            {
+              "word": "ne",
+              "start_ms": 67760,
+              "end_ms": 68300
+            },
+            {
+              "word": "z",
+              "start_ms": 70380,
+              "end_ms": 70820
+            },
+            {
+              "word": "vojsko",
+              "start_ms": 70870,
+              "end_ms": 71170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "s pogledom na tiste ki jih ne vidijo",
-          "start_ms": 59880,
-          "end_ms": 62760
+          "start_ms": 70820,
+          "end_ms": 83020,
+          "words": [
+            {
+              "word": "s",
+              "start_ms": 70820,
+              "end_ms": 71120,
+              "estimated": true
+            },
+            {
+              "word": "pogledom",
+              "start_ms": 73880,
+              "end_ms": 74380
+            },
+            {
+              "word": "na",
+              "start_ms": 74430,
+              "end_ms": 74730,
+              "estimated": true
+            },
+            {
+              "word": "tiste",
+              "start_ms": 74780,
+              "end_ms": 75080,
+              "estimated": true
+            },
+            {
+              "word": "ki",
+              "start_ms": 75130,
+              "end_ms": 75430,
+              "estimated": true
+            },
+            {
+              "word": "jih",
+              "start_ms": 75480,
+              "end_ms": 75780,
+              "estimated": true
+            },
+            {
+              "word": "ne",
+              "start_ms": 75830,
+              "end_ms": 76130,
+              "estimated": true
+            },
+            {
+              "word": "vidijo",
+              "start_ms": 81780,
+              "end_ms": 83020
+            }
+          ]
         },
         {
           "text": "On ve kdo sedi na dnu",
-          "start_ms": 62760,
-          "end_ms": 64760
+          "start_ms": 83020,
+          "end_ms": 86330,
+          "words": [
+            {
+              "word": "On",
+              "start_ms": 83020,
+              "end_ms": 83320,
+              "estimated": true
+            },
+            {
+              "word": "ve",
+              "start_ms": 83020,
+              "end_ms": 83660
+            },
+            {
+              "word": "kdo",
+              "start_ms": 83710,
+              "end_ms": 84010,
+              "estimated": true
+            },
+            {
+              "word": "sedi",
+              "start_ms": 84060,
+              "end_ms": 84360,
+              "estimated": true
+            },
+            {
+              "word": "na",
+              "start_ms": 85680,
+              "end_ms": 85980
+            },
+            {
+              "word": "dnu",
+              "start_ms": 86030,
+              "end_ms": 86330,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "on ve kdo caka v vrsti",
-          "start_ms": 64760,
-          "end_ms": 66760
+          "start_ms": 85980,
+          "end_ms": 88030,
+          "words": [
+            {
+              "word": "on",
+              "start_ms": 85980,
+              "end_ms": 86280,
+              "estimated": true
+            },
+            {
+              "word": "ve",
+              "start_ms": 86330,
+              "end_ms": 86630,
+              "estimated": true
+            },
+            {
+              "word": "kdo",
+              "start_ms": 86680,
+              "end_ms": 86980,
+              "estimated": true
+            },
+            {
+              "word": "caka",
+              "start_ms": 87030,
+              "end_ms": 87330,
+              "estimated": true
+            },
+            {
+              "word": "v",
+              "start_ms": 87380,
+              "end_ms": 87680,
+              "estimated": true
+            },
+            {
+              "word": "vrsti",
+              "start_ms": 87730,
+              "end_ms": 88030,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "in obrne vse",
-          "start_ms": 66760,
-          "end_ms": 68760
+          "start_ms": 85980,
+          "end_ms": 86980,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 85980,
+              "end_ms": 86280,
+              "estimated": true
+            },
+            {
+              "word": "obrne",
+              "start_ms": 86330,
+              "end_ms": 86630,
+              "estimated": true
+            },
+            {
+              "word": "vse",
+              "start_ms": 86680,
+              "end_ms": 86980,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "kar ste imeli za sveto",
-          "start_ms": 68760,
-          "end_ms": 70760
+          "start_ms": 85980,
+          "end_ms": 90760,
+          "words": [
+            {
+              "word": "kar",
+              "start_ms": 85980,
+              "end_ms": 86280,
+              "estimated": true
+            },
+            {
+              "word": "ste",
+              "start_ms": 85980,
+              "end_ms": 86780
+            },
+            {
+              "word": "imeli",
+              "start_ms": 86830,
+              "end_ms": 87130,
+              "estimated": true
+            },
+            {
+              "word": "za",
+              "start_ms": 87180,
+              "end_ms": 87480,
+              "estimated": true
+            },
+            {
+              "word": "sveto",
+              "start_ms": 89820,
+              "end_ms": 90760
+            }
+          ]
         }
-      ],
-      "start_ms": 51720,
-      "end_ms": 70760
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 89820,
+      "end_ms": 93970,
       "lines": [
         {
           "text": "To ni sanje",
-          "start_ms": 73760,
-          "end_ms": 75760
+          "start_ms": 89820,
+          "end_ms": 93620,
+          "words": [
+            {
+              "word": "To",
+              "start_ms": 89820,
+              "end_ms": 90760
+            },
+            {
+              "word": "ni",
+              "start_ms": 90760,
+              "end_ms": 91020
+            },
+            {
+              "word": "sanje",
+              "start_ms": 93380,
+              "end_ms": 93620
+            }
+          ]
         },
         {
           "text": "to je program",
-          "start_ms": 75760,
-          "end_ms": 77760
+          "start_ms": 93200,
+          "end_ms": 93970,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 93200,
+              "end_ms": 93380
+            },
+            {
+              "word": "je",
+              "start_ms": 93380,
+              "end_ms": 93620
+            },
+            {
+              "word": "program",
+              "start_ms": 93670,
+              "end_ms": 93970,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 73760,
-      "end_ms": 77760
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 93620,
+      "end_ms": 122800,
       "lines": [
         {
           "text": "Prazne roke",
-          "start_ms": 80760,
-          "end_ms": 82760
+          "start_ms": 93620,
+          "end_ms": 94270,
+          "words": [
+            {
+              "word": "Prazne",
+              "start_ms": 93620,
+              "end_ms": 93920,
+              "estimated": true
+            },
+            {
+              "word": "roke",
+              "start_ms": 93970,
+              "end_ms": 94270,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "bogate domov s praznimi rokami",
-          "start_ms": 82760,
-          "end_ms": 85160
+          "start_ms": 93620,
+          "end_ms": 110010,
+          "words": [
+            {
+              "word": "bogate",
+              "start_ms": 93620,
+              "end_ms": 93920,
+              "estimated": true
+            },
+            {
+              "word": "domov",
+              "start_ms": 108780,
+              "end_ms": 108960
+            },
+            {
+              "word": "s",
+              "start_ms": 109010,
+              "end_ms": 109310,
+              "estimated": true
+            },
+            {
+              "word": "praznimi",
+              "start_ms": 109360,
+              "end_ms": 109660,
+              "estimated": true
+            },
+            {
+              "word": "rokami",
+              "start_ms": 109710,
+              "end_ms": 110010,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "s prestolov",
-          "start_ms": 85160,
-          "end_ms": 87160
+          "start_ms": 108960,
+          "end_ms": 109610,
+          "words": [
+            {
+              "word": "s",
+              "start_ms": 108960,
+              "end_ms": 109260,
+              "estimated": true
+            },
+            {
+              "word": "prestolov",
+              "start_ms": 109310,
+              "end_ms": 109610,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "vladajoce vrze s prestolov",
-          "start_ms": 87160,
-          "end_ms": 89240
+          "start_ms": 108960,
+          "end_ms": 116320,
+          "words": [
+            {
+              "word": "vladajoce",
+              "start_ms": 108960,
+              "end_ms": 109260,
+              "estimated": true
+            },
+            {
+              "word": "vrze",
+              "start_ms": 114380,
+              "end_ms": 115620
+            },
+            {
+              "word": "s",
+              "start_ms": 115670,
+              "end_ms": 115970,
+              "estimated": true
+            },
+            {
+              "word": "prestolov",
+              "start_ms": 116020,
+              "end_ms": 116320,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Lacne nasiti",
-          "start_ms": 89240,
-          "end_ms": 91240
+          "start_ms": 115620,
+          "end_ms": 116270,
+          "words": [
+            {
+              "word": "Lacne",
+              "start_ms": 115620,
+              "end_ms": 115920,
+              "estimated": true
+            },
+            {
+              "word": "nasiti",
+              "start_ms": 115970,
+              "end_ms": 116270,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "bogate odposlje",
-          "start_ms": 91240,
-          "end_ms": 93240
+          "start_ms": 115620,
+          "end_ms": 116270,
+          "words": [
+            {
+              "word": "bogate",
+              "start_ms": 115620,
+              "end_ms": 115920,
+              "estimated": true
+            },
+            {
+              "word": "odposlje",
+              "start_ms": 115970,
+              "end_ms": 116270,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "to ni obljuba",
-          "start_ms": 93240,
-          "end_ms": 95240
+          "start_ms": 116120,
+          "end_ms": 121410,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 116120,
+              "end_ms": 116340
+            },
+            {
+              "word": "ni",
+              "start_ms": 120120,
+              "end_ms": 121060
+            },
+            {
+              "word": "obljuba",
+              "start_ms": 121110,
+              "end_ms": 121410,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "to je opis",
-          "start_ms": 95240,
-          "end_ms": 97240
+          "start_ms": 121800,
+          "end_ms": 122800,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 121800,
+              "end_ms": 122100,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 122150,
+              "end_ms": 122450,
+              "estimated": true
+            },
+            {
+              "word": "opis",
+              "start_ms": 122500,
+              "end_ms": 122800,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 80760,
-      "end_ms": 97240
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Spoken Word",
+      "label": "Bridge",
+      "start_ms": 121800,
+      "end_ms": 124970,
       "lines": [
         {
           "text": "Od nekdaj do zdaj",
-          "start_ms": 100240,
-          "end_ms": 102240
+          "start_ms": 121800,
+          "end_ms": 122480,
+          "words": [
+            {
+              "word": "Od",
+              "start_ms": 121800,
+              "end_ms": 122100,
+              "estimated": true
+            },
+            {
+              "word": "nekdaj",
+              "start_ms": 122150,
+              "end_ms": 122450,
+              "estimated": true
+            },
+            {
+              "word": "do",
+              "start_ms": 122500,
+              "end_ms": 122800,
+              "estimated": true
+            },
+            {
+              "word": "zdaj",
+              "start_ms": 122380,
+              "end_ms": 122480
+            }
+          ]
         },
         {
           "text": "ista zgodba",
-          "start_ms": 102240,
-          "end_ms": 104240
+          "start_ms": 127660,
+          "end_ms": 128010,
+          "words": [
+            {
+              "word": "ista",
+              "start_ms": 127660,
+              "end_ms": 127660
+            },
+            {
+              "word": "zgodba",
+              "start_ms": 127710,
+              "end_ms": 128010,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "tisti ki imajo vse",
-          "start_ms": 104240,
-          "end_ms": 106240
+          "start_ms": 127660,
+          "end_ms": 127660,
+          "words": [
+            {
+              "word": "tisti",
+              "start_ms": 127660,
+              "end_ms": 127960,
+              "estimated": true
+            },
+            {
+              "word": "ki",
+              "start_ms": 128010,
+              "end_ms": 128310,
+              "estimated": true
+            },
+            {
+              "word": "imajo",
+              "start_ms": 128360,
+              "end_ms": 128660,
+              "estimated": true
+            },
+            {
+              "word": "vse",
+              "start_ms": 127660,
+              "end_ms": 127660
+            }
+          ]
         },
         {
           "text": "koncajo brez vsega",
-          "start_ms": 106240,
-          "end_ms": 108240
+          "start_ms": 127660,
+          "end_ms": 127660,
+          "words": [
+            {
+              "word": "koncajo",
+              "start_ms": 127660,
+              "end_ms": 127960,
+              "estimated": true
+            },
+            {
+              "word": "brez",
+              "start_ms": 124320,
+              "end_ms": 127660
+            },
+            {
+              "word": "vsega",
+              "start_ms": 127660,
+              "end_ms": 127660
+            }
+          ]
         },
         {
           "text": "in tisti ki nimajo nic",
-          "start_ms": 108240,
-          "end_ms": 110240
+          "start_ms": 124320,
+          "end_ms": 125720,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 124320,
+              "end_ms": 124320
+            },
+            {
+              "word": "tisti",
+              "start_ms": 124370,
+              "end_ms": 124670,
+              "estimated": true
+            },
+            {
+              "word": "ki",
+              "start_ms": 124720,
+              "end_ms": 125020,
+              "estimated": true
+            },
+            {
+              "word": "nimajo",
+              "start_ms": 125070,
+              "end_ms": 125370,
+              "estimated": true
+            },
+            {
+              "word": "nic",
+              "start_ms": 125420,
+              "end_ms": 125720,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "dobijo mizo",
-          "start_ms": 110240,
-          "end_ms": 112240
+          "start_ms": 124320,
+          "end_ms": 124970,
+          "words": [
+            {
+              "word": "dobijo",
+              "start_ms": 124320,
+              "end_ms": 124620,
+              "estimated": true
+            },
+            {
+              "word": "mizo",
+              "start_ms": 124670,
+              "end_ms": 124970,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 100240,
-      "end_ms": 112240
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 122480,
+      "end_ms": 132440,
       "lines": [
         {
           "text": "Prazne roke",
-          "start_ms": 115240,
-          "end_ms": 117240
+          "start_ms": 122480,
+          "end_ms": 123620,
+          "words": [
+            {
+              "word": "Prazne",
+              "start_ms": 122480,
+              "end_ms": 122980
+            },
+            {
+              "word": "roke",
+              "start_ms": 122980,
+              "end_ms": 123620
+            }
+          ]
         },
         {
           "text": "prazne roke",
-          "start_ms": 117240,
-          "end_ms": 119240
+          "start_ms": 122480,
+          "end_ms": 123620,
+          "words": [
+            {
+              "word": "prazne",
+              "start_ms": 122480,
+              "end_ms": 122980
+            },
+            {
+              "word": "roke",
+              "start_ms": 122980,
+              "end_ms": 123620
+            }
+          ]
         },
         {
           "text": "s prestolov",
-          "start_ms": 119240,
-          "end_ms": 121240
+          "start_ms": 124320,
+          "end_ms": 124970,
+          "words": [
+            {
+              "word": "s",
+              "start_ms": 124320,
+              "end_ms": 124620,
+              "estimated": true
+            },
+            {
+              "word": "prestolov",
+              "start_ms": 124670,
+              "end_ms": 124970,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "vse dol s prestolov",
-          "start_ms": 121240,
-          "end_ms": 123240
+          "start_ms": 127660,
+          "end_ms": 132440,
+          "words": [
+            {
+              "word": "vse",
+              "start_ms": 127660,
+              "end_ms": 127660
+            },
+            {
+              "word": "dol",
+              "start_ms": 131160,
+              "end_ms": 131160
+            },
+            {
+              "word": "s",
+              "start_ms": 131160,
+              "end_ms": 131160
+            },
+            {
+              "word": "prestolov",
+              "start_ms": 131780,
+              "end_ms": 132440
+            }
+          ]
         }
-      ],
-      "start_ms": 115240,
-      "end_ms": 123240
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 126240,
-          "end_ms": 128240
-        }
-      ],
-      "start_ms": 126240,
-      "end_ms": 128240
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Poslusaj",
+      "section_type": "chorus",
+      "start_ms": 27800,
+      "end_ms": 31680,
+      "key_line": "Poslusaj",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Prazne roke",
+      "section_type": "chorus",
+      "start_ms": 31680,
+      "end_ms": 51900,
+      "key_line": "Prazne roke",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - To ni sanje",
+      "section_type": "chorus",
+      "start_ms": 89820,
+      "end_ms": 93970,
+      "key_line": "To ni sanje",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Prazne roke",
+      "section_type": "chorus",
+      "start_ms": 93620,
+      "end_ms": 122800,
+      "key_line": "Prazne roke",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 121800,
+      "end_ms": 124970,
+      "key_line": "Od nekdaj do zdaj",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Prazne roke",
+      "section_type": "chorus",
+      "start_ms": 122480,
+      "end_ms": 132440,
+      "key_line": "Prazne roke",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/slovenian/42_luke_01_1-46_transcript.json"
 }

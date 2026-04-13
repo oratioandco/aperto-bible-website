@@ -7,301 +7,1300 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 208960,
   "audio_file": "/audio/songs/luke_01/latvian/Luke 1_26-38 _Seit klusuma pec_ (After the Silence) — Latvian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.137206+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.000165+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.892,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 12559,
+      "end_ms": 35340,
       "lines": [
         {
           "text": "Engelis aizgaja",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 12559,
+          "end_ms": 14880,
+          "words": [
+            {
+              "word": "Engelis",
+              "start_ms": 12559,
+              "end_ms": 13719
+            },
+            {
+              "word": "aizgaja",
+              "start_ms": 13719,
+              "end_ms": 14880
+            }
+          ]
         },
         {
           "text": "Istaba ir tuksa",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 15380,
+          "end_ms": 17480,
+          "words": [
+            {
+              "word": "Istaba",
+              "start_ms": 15380,
+              "end_ms": 15760
+            },
+            {
+              "word": "ir",
+              "start_ms": 15760,
+              "end_ms": 16000
+            },
+            {
+              "word": "tuksa",
+              "start_ms": 16000,
+              "end_ms": 17480
+            }
+          ]
         },
         {
           "text": "Gaiss vel dreb tur, kur vins staveja",
-          "start_ms": 10000,
-          "end_ms": 12880
+          "start_ms": 17480,
+          "end_ms": 23280,
+          "words": [
+            {
+              "word": "Gaiss",
+              "start_ms": 17480,
+              "end_ms": 18660
+            },
+            {
+              "word": "vel",
+              "start_ms": 18660,
+              "end_ms": 18980
+            },
+            {
+              "word": "dreb",
+              "start_ms": 19030,
+              "end_ms": 19330,
+              "estimated": true
+            },
+            {
+              "word": "tur,",
+              "start_ms": 18980,
+              "end_ms": 19880
+            },
+            {
+              "word": "kur",
+              "start_ms": 21160,
+              "end_ms": 21300
+            },
+            {
+              "word": "vins",
+              "start_ms": 21350,
+              "end_ms": 21650,
+              "estimated": true
+            },
+            {
+              "word": "staveja",
+              "start_ms": 21800,
+              "end_ms": 23280
+            }
+          ]
         },
         {
           "text": "Es sezcu uz gridas",
-          "start_ms": 12880,
-          "end_ms": 14880
+          "start_ms": 24540,
+          "end_ms": 26560,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 24540,
+              "end_ms": 24700
+            },
+            {
+              "word": "sezcu",
+              "start_ms": 24700,
+              "end_ms": 25200
+            },
+            {
+              "word": "uz",
+              "start_ms": 25200,
+              "end_ms": 25440
+            },
+            {
+              "word": "gridas",
+              "start_ms": 25440,
+              "end_ms": 26560
+            }
+          ]
         },
         {
           "text": "Rokas man aukstas",
-          "start_ms": 14880,
-          "end_ms": 16880
+          "start_ms": 27740,
+          "end_ms": 29340,
+          "words": [
+            {
+              "word": "Rokas",
+              "start_ms": 27740,
+              "end_ms": 28180
+            },
+            {
+              "word": "man",
+              "start_ms": 28180,
+              "end_ms": 28420
+            },
+            {
+              "word": "aukstas",
+              "start_ms": 28420,
+              "end_ms": 29340
+            }
+          ]
         },
         {
           "text": "Ko es tikko izdariju",
-          "start_ms": 16880,
-          "end_ms": 18880
+          "start_ms": 30340,
+          "end_ms": 35340,
+          "words": [
+            {
+              "word": "Ko",
+              "start_ms": 30340,
+              "end_ms": 31560
+            },
+            {
+              "word": "es",
+              "start_ms": 31560,
+              "end_ms": 31820
+            },
+            {
+              "word": "tikko",
+              "start_ms": 31820,
+              "end_ms": 33220
+            },
+            {
+              "word": "izdariju",
+              "start_ms": 33220,
+              "end_ms": 35340
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 18880
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 36940,
+      "end_ms": 60120,
       "lines": [
         {
           "text": "Aiz loga Nacarete",
-          "start_ms": 21880,
-          "end_ms": 23880
+          "start_ms": 36940,
+          "end_ms": 39940,
+          "words": [
+            {
+              "word": "Aiz",
+              "start_ms": 36940,
+              "end_ms": 37240
+            },
+            {
+              "word": "loga",
+              "start_ms": 37240,
+              "end_ms": 38020
+            },
+            {
+              "word": "Nacarete",
+              "start_ms": 38020,
+              "end_ms": 39940
+            }
+          ]
         },
         {
           "text": "Tads pats ka vakar",
-          "start_ms": 23880,
-          "end_ms": 25880
+          "start_ms": 40060,
+          "end_ms": 42340,
+          "words": [
+            {
+              "word": "Tads",
+              "start_ms": 40060,
+              "end_ms": 40420
+            },
+            {
+              "word": "pats",
+              "start_ms": 40420,
+              "end_ms": 40740
+            },
+            {
+              "word": "ka",
+              "start_ms": 40800,
+              "end_ms": 40980
+            },
+            {
+              "word": "vakar",
+              "start_ms": 40980,
+              "end_ms": 42340
+            }
+          ]
         },
         {
           "text": "Kakis mekle enu pie mura",
-          "start_ms": 25880,
-          "end_ms": 27880
+          "start_ms": 43520,
+          "end_ms": 48710,
+          "words": [
+            {
+              "word": "Kakis",
+              "start_ms": 43520,
+              "end_ms": 43900
+            },
+            {
+              "word": "mekle",
+              "start_ms": 43900,
+              "end_ms": 45580
+            },
+            {
+              "word": "enu",
+              "start_ms": 45580,
+              "end_ms": 46440
+            },
+            {
+              "word": "pie",
+              "start_ms": 46440,
+              "end_ms": 48360
+            },
+            {
+              "word": "mura",
+              "start_ms": 48410,
+              "end_ms": 48710,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Neviens nezina",
-          "start_ms": 27880,
-          "end_ms": 29880
+          "start_ms": 49440,
+          "end_ms": 51120,
+          "words": [
+            {
+              "word": "Neviens",
+              "start_ms": 49440,
+              "end_ms": 50040
+            },
+            {
+              "word": "nezina",
+              "start_ms": 50040,
+              "end_ms": 51120
+            }
+          ]
         },
         {
           "text": "Kas seit tikko notika",
-          "start_ms": 29880,
-          "end_ms": 31880
+          "start_ms": 51600,
+          "end_ms": 54100,
+          "words": [
+            {
+              "word": "Kas",
+              "start_ms": 51600,
+              "end_ms": 52300
+            },
+            {
+              "word": "seit",
+              "start_ms": 52350,
+              "end_ms": 52650,
+              "estimated": true
+            },
+            {
+              "word": "tikko",
+              "start_ms": 52300,
+              "end_ms": 52800
+            },
+            {
+              "word": "notika",
+              "start_ms": 52800,
+              "end_ms": 54100
+            }
+          ]
         },
         {
           "text": "Pasaule turpinas",
-          "start_ms": 31880,
-          "end_ms": 33880
+          "start_ms": 57559,
+          "end_ms": 60120,
+          "words": [
+            {
+              "word": "Pasaule",
+              "start_ms": 57559,
+              "end_ms": 58839
+            },
+            {
+              "word": "turpinas",
+              "start_ms": 58839,
+              "end_ms": 60120
+            }
+          ]
         }
-      ],
-      "start_ms": 21880,
-      "end_ms": 33880
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 61200,
+      "end_ms": 71560,
       "lines": [
         {
           "text": "Es teicu ja",
-          "start_ms": 36880,
-          "end_ms": 38880
+          "start_ms": 61200,
+          "end_ms": 63110,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 61200,
+              "end_ms": 62060
+            },
+            {
+              "word": "teicu",
+              "start_ms": 62060,
+              "end_ms": 62760
+            },
+            {
+              "word": "ja",
+              "start_ms": 62810,
+              "end_ms": 63110,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Es teicu ja",
-          "start_ms": 38880,
-          "end_ms": 40880
+          "start_ms": 61200,
+          "end_ms": 63110,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 61200,
+              "end_ms": 62060
+            },
+            {
+              "word": "teicu",
+              "start_ms": 62060,
+              "end_ms": 62760
+            },
+            {
+              "word": "ja",
+              "start_ms": 62810,
+              "end_ms": 63110,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Un tagad esmu viena ar to",
-          "start_ms": 40880,
-          "end_ms": 42880
+          "start_ms": 68640,
+          "end_ms": 71560,
+          "words": [
+            {
+              "word": "Un",
+              "start_ms": 68640,
+              "end_ms": 68780
+            },
+            {
+              "word": "tagad",
+              "start_ms": 68780,
+              "end_ms": 69240
+            },
+            {
+              "word": "esmu",
+              "start_ms": 69240,
+              "end_ms": 69720
+            },
+            {
+              "word": "viena",
+              "start_ms": 69720,
+              "end_ms": 70480
+            },
+            {
+              "word": "ar",
+              "start_ms": 70480,
+              "end_ms": 70840
+            },
+            {
+              "word": "to",
+              "start_ms": 70840,
+              "end_ms": 71560
+            }
+          ]
         }
-      ],
-      "start_ms": 36880,
-      "end_ms": 42880
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 71920,
+      "end_ms": 91580,
       "lines": [
         {
           "text": "Seit klusuma pec",
-          "start_ms": 45880,
-          "end_ms": 47880
+          "start_ms": 71920,
+          "end_ms": 74240,
+          "words": [
+            {
+              "word": "Seit",
+              "start_ms": 71920,
+              "end_ms": 72180
+            },
+            {
+              "word": "klusuma",
+              "start_ms": 72180,
+              "end_ms": 73600
+            },
+            {
+              "word": "pec",
+              "start_ms": 73600,
+              "end_ms": 74240
+            }
+          ]
         },
         {
           "text": "Es dzirdu savu elpu",
-          "start_ms": 47880,
-          "end_ms": 49880
+          "start_ms": 75640,
+          "end_ms": 77560,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 75640,
+              "end_ms": 75740
+            },
+            {
+              "word": "dzirdu",
+              "start_ms": 75740,
+              "end_ms": 76280
+            },
+            {
+              "word": "savu",
+              "start_ms": 76280,
+              "end_ms": 76920
+            },
+            {
+              "word": "elpu",
+              "start_ms": 76920,
+              "end_ms": 77560
+            }
+          ]
         },
         {
           "text": "Seit klusuma pec",
-          "start_ms": 49880,
-          "end_ms": 51880
+          "start_ms": 78160,
+          "end_ms": 81580,
+          "words": [
+            {
+              "word": "Seit",
+              "start_ms": 78160,
+              "end_ms": 78440
+            },
+            {
+              "word": "klusuma",
+              "start_ms": 78440,
+              "end_ms": 79860
+            },
+            {
+              "word": "pec",
+              "start_ms": 79860,
+              "end_ms": 81580
+            }
+          ]
         },
         {
           "text": "Es joprojam esmu es",
-          "start_ms": 51880,
-          "end_ms": 53880
+          "start_ms": 81580,
+          "end_ms": 84360,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 81580,
+              "end_ms": 82200
+            },
+            {
+              "word": "joprojam",
+              "start_ms": 82500,
+              "end_ms": 83120
+            },
+            {
+              "word": "esmu",
+              "start_ms": 83120,
+              "end_ms": 83880
+            },
+            {
+              "word": "es",
+              "start_ms": 83880,
+              "end_ms": 84360
+            }
+          ]
         },
         {
           "text": "Bet kaut kas ir cits",
-          "start_ms": 53880,
-          "end_ms": 55880
+          "start_ms": 84460,
+          "end_ms": 87580,
+          "words": [
+            {
+              "word": "Bet",
+              "start_ms": 84460,
+              "end_ms": 84720
+            },
+            {
+              "word": "kaut",
+              "start_ms": 84720,
+              "end_ms": 85320
+            },
+            {
+              "word": "kas",
+              "start_ms": 85320,
+              "end_ms": 85780
+            },
+            {
+              "word": "ir",
+              "start_ms": 85780,
+              "end_ms": 86300
+            },
+            {
+              "word": "cits",
+              "start_ms": 86300,
+              "end_ms": 87580
+            }
+          ]
         },
         {
           "text": "Kaut kas ir cits",
-          "start_ms": 55880,
-          "end_ms": 57880
+          "start_ms": 89540,
+          "end_ms": 91580,
+          "words": [
+            {
+              "word": "Kaut",
+              "start_ms": 89540,
+              "end_ms": 89900
+            },
+            {
+              "word": "kas",
+              "start_ms": 89900,
+              "end_ms": 90280
+            },
+            {
+              "word": "ir",
+              "start_ms": 90280,
+              "end_ms": 90620
+            },
+            {
+              "word": "cits",
+              "start_ms": 90620,
+              "end_ms": 91580
+            }
+          ]
         }
-      ],
-      "start_ms": 45880,
-      "end_ms": 57880
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 94440,
+      "end_ms": 114990,
       "lines": [
         {
           "text": "Rit bus jaiet pie akas",
-          "start_ms": 60880,
-          "end_ms": 62880
+          "start_ms": 94440,
+          "end_ms": 97570,
+          "words": [
+            {
+              "word": "Rit",
+              "start_ms": 94440,
+              "end_ms": 94980
+            },
+            {
+              "word": "bus",
+              "start_ms": 94980,
+              "end_ms": 95420
+            },
+            {
+              "word": "jaiet",
+              "start_ms": 95420,
+              "end_ms": 96080
+            },
+            {
+              "word": "pie",
+              "start_ms": 96080,
+              "end_ms": 97220
+            },
+            {
+              "word": "akas",
+              "start_ms": 97270,
+              "end_ms": 97570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Bus jastav cilveku prieksa",
-          "start_ms": 62880,
-          "end_ms": 64960
+          "start_ms": 94980,
+          "end_ms": 100660,
+          "words": [
+            {
+              "word": "Bus",
+              "start_ms": 94980,
+              "end_ms": 95420
+            },
+            {
+              "word": "jastav",
+              "start_ms": 98200,
+              "end_ms": 98960
+            },
+            {
+              "word": "cilveku",
+              "start_ms": 98960,
+              "end_ms": 99500
+            },
+            {
+              "word": "prieksa",
+              "start_ms": 99500,
+              "end_ms": 100660
+            }
+          ]
         },
         {
           "text": "Ar noslepumu, ko neviens vel neredz",
-          "start_ms": 64960,
-          "end_ms": 67760
+          "start_ms": 100700,
+          "end_ms": 104540,
+          "words": [
+            {
+              "word": "Ar",
+              "start_ms": 100700,
+              "end_ms": 100860
+            },
+            {
+              "word": "noslepumu,",
+              "start_ms": 100860,
+              "end_ms": 101920
+            },
+            {
+              "word": "ko",
+              "start_ms": 102140,
+              "end_ms": 102280
+            },
+            {
+              "word": "neviens",
+              "start_ms": 102280,
+              "end_ms": 103000
+            },
+            {
+              "word": "vel",
+              "start_ms": 103000,
+              "end_ms": 103380
+            },
+            {
+              "word": "neredz",
+              "start_ms": 103780,
+              "end_ms": 104540
+            }
+          ]
         },
         {
           "text": "Jazeps vel nezina",
-          "start_ms": 67760,
-          "end_ms": 69760
+          "start_ms": 105900,
+          "end_ms": 108140,
+          "words": [
+            {
+              "word": "Jazeps",
+              "start_ms": 105900,
+              "end_ms": 106360
+            },
+            {
+              "word": "vel",
+              "start_ms": 106360,
+              "end_ms": 106740
+            },
+            {
+              "word": "nezina",
+              "start_ms": 106740,
+              "end_ms": 108140
+            }
+          ]
         },
         {
           "text": "Mana mate vel nezina",
-          "start_ms": 69760,
-          "end_ms": 71760
+          "start_ms": 108140,
+          "end_ms": 111140,
+          "words": [
+            {
+              "word": "Mana",
+              "start_ms": 108140,
+              "end_ms": 108940
+            },
+            {
+              "word": "mate",
+              "start_ms": 108940,
+              "end_ms": 109600
+            },
+            {
+              "word": "vel",
+              "start_ms": 109600,
+              "end_ms": 110020
+            },
+            {
+              "word": "nezina",
+              "start_ms": 110020,
+              "end_ms": 111140
+            }
+          ]
         },
         {
           "text": "Tikai es un tuksa istaba",
-          "start_ms": 71760,
-          "end_ms": 73760
+          "start_ms": 112600,
+          "end_ms": 114990,
+          "words": [
+            {
+              "word": "Tikai",
+              "start_ms": 112600,
+              "end_ms": 113020
+            },
+            {
+              "word": "es",
+              "start_ms": 113020,
+              "end_ms": 113340
+            },
+            {
+              "word": "un",
+              "start_ms": 113340,
+              "end_ms": 113680
+            },
+            {
+              "word": "tuksa",
+              "start_ms": 113680,
+              "end_ms": 114640
+            },
+            {
+              "word": "istaba",
+              "start_ms": 114690,
+              "end_ms": 114990,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 60880,
-      "end_ms": 73760
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 113020,
+      "end_ms": 127070,
       "lines": [
         {
           "text": "Es teicu ja",
-          "start_ms": 76760,
-          "end_ms": 78760
+          "start_ms": 113020,
+          "end_ms": 119450,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 113020,
+              "end_ms": 113340
+            },
+            {
+              "word": "teicu",
+              "start_ms": 118380,
+              "end_ms": 119100
+            },
+            {
+              "word": "ja",
+              "start_ms": 119150,
+              "end_ms": 119450,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Es teicu ja",
-          "start_ms": 78760,
-          "end_ms": 80760
+          "start_ms": 118080,
+          "end_ms": 119450,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 118080,
+              "end_ms": 118380
+            },
+            {
+              "word": "teicu",
+              "start_ms": 118380,
+              "end_ms": 119100
+            },
+            {
+              "word": "ja",
+              "start_ms": 119150,
+              "end_ms": 119450,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Pirms zinaju, kur tas aizved",
-          "start_ms": 80760,
-          "end_ms": 83000
+          "start_ms": 124900,
+          "end_ms": 127070,
+          "words": [
+            {
+              "word": "Pirms",
+              "start_ms": 124900,
+              "end_ms": 125360
+            },
+            {
+              "word": "zinaju,",
+              "start_ms": 125360,
+              "end_ms": 125940
+            },
+            {
+              "word": "kur",
+              "start_ms": 126120,
+              "end_ms": 126280
+            },
+            {
+              "word": "tas",
+              "start_ms": 126280,
+              "end_ms": 126720
+            },
+            {
+              "word": "aizved",
+              "start_ms": 126770,
+              "end_ms": 127070,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 76760,
-      "end_ms": 83000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 128240,
+      "end_ms": 147560,
       "lines": [
         {
           "text": "Seit klusuma pec",
-          "start_ms": 86000,
-          "end_ms": 88000
+          "start_ms": 128240,
+          "end_ms": 131060,
+          "words": [
+            {
+              "word": "Seit",
+              "start_ms": 128240,
+              "end_ms": 128419
+            },
+            {
+              "word": "klusuma",
+              "start_ms": 128419,
+              "end_ms": 129860
+            },
+            {
+              "word": "pec",
+              "start_ms": 129860,
+              "end_ms": 131060
+            }
+          ]
         },
         {
           "text": "Es dzirdu savu elpu",
-          "start_ms": 88000,
-          "end_ms": 90000
+          "start_ms": 131880,
+          "end_ms": 133980,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 131880,
+              "end_ms": 132000
+            },
+            {
+              "word": "dzirdu",
+              "start_ms": 132000,
+              "end_ms": 132560
+            },
+            {
+              "word": "savu",
+              "start_ms": 132560,
+              "end_ms": 133220
+            },
+            {
+              "word": "elpu",
+              "start_ms": 133220,
+              "end_ms": 133980
+            }
+          ]
         },
         {
           "text": "Seit klusuma pec",
-          "start_ms": 90000,
-          "end_ms": 92000
+          "start_ms": 134320,
+          "end_ms": 137560,
+          "words": [
+            {
+              "word": "Seit",
+              "start_ms": 134320,
+              "end_ms": 134700
+            },
+            {
+              "word": "klusuma",
+              "start_ms": 134700,
+              "end_ms": 136180
+            },
+            {
+              "word": "pec",
+              "start_ms": 136180,
+              "end_ms": 137560
+            }
+          ]
         },
         {
           "text": "Es joprojam esmu es",
-          "start_ms": 92000,
-          "end_ms": 94000
+          "start_ms": 137560,
+          "end_ms": 140720,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 137560,
+              "end_ms": 138480
+            },
+            {
+              "word": "joprojam",
+              "start_ms": 138800,
+              "end_ms": 139400
+            },
+            {
+              "word": "esmu",
+              "start_ms": 139400,
+              "end_ms": 140140
+            },
+            {
+              "word": "es",
+              "start_ms": 140140,
+              "end_ms": 140720
+            }
+          ]
         },
         {
           "text": "Bet kaut kas ir cits",
-          "start_ms": 94000,
-          "end_ms": 96000
+          "start_ms": 140800,
+          "end_ms": 143560,
+          "words": [
+            {
+              "word": "Bet",
+              "start_ms": 140800,
+              "end_ms": 141040
+            },
+            {
+              "word": "kaut",
+              "start_ms": 141040,
+              "end_ms": 141620
+            },
+            {
+              "word": "kas",
+              "start_ms": 141620,
+              "end_ms": 142020
+            },
+            {
+              "word": "ir",
+              "start_ms": 142020,
+              "end_ms": 142600
+            },
+            {
+              "word": "cits",
+              "start_ms": 142600,
+              "end_ms": 143560
+            }
+          ]
         },
         {
           "text": "Kaut kas ir cits",
-          "start_ms": 96000,
-          "end_ms": 98000
+          "start_ms": 145800,
+          "end_ms": 147560,
+          "words": [
+            {
+              "word": "Kaut",
+              "start_ms": 145800,
+              "end_ms": 146200
+            },
+            {
+              "word": "kas",
+              "start_ms": 146200,
+              "end_ms": 146560
+            },
+            {
+              "word": "ir",
+              "start_ms": 146560,
+              "end_ms": 146900
+            },
+            {
+              "word": "cits",
+              "start_ms": 146900,
+              "end_ms": 147560
+            }
+          ]
         }
-      ],
-      "start_ms": 86000,
-      "end_ms": 98000
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 150490,
+      "end_ms": 168220,
       "lines": [
         {
           "text": "Vel nav neka",
-          "start_ms": 101000,
-          "end_ms": 103000
+          "start_ms": 150490,
+          "end_ms": 152100,
+          "words": [
+            {
+              "word": "Vel",
+              "start_ms": 150490,
+              "end_ms": 150960
+            },
+            {
+              "word": "nav",
+              "start_ms": 150960,
+              "end_ms": 151260
+            },
+            {
+              "word": "neka",
+              "start_ms": 151260,
+              "end_ms": 152100
+            }
+          ]
         },
         {
           "text": "Nav vedera, nav kauna, nav stasta",
-          "start_ms": 103000,
-          "end_ms": 105640
+          "start_ms": 150960,
+          "end_ms": 156020,
+          "words": [
+            {
+              "word": "Nav",
+              "start_ms": 150960,
+              "end_ms": 151260
+            },
+            {
+              "word": "vedera,",
+              "start_ms": 152860,
+              "end_ms": 153400
+            },
+            {
+              "word": "nav",
+              "start_ms": 153450,
+              "end_ms": 153750,
+              "estimated": true
+            },
+            {
+              "word": "kauna,",
+              "start_ms": 153680,
+              "end_ms": 154220
+            },
+            {
+              "word": "nav",
+              "start_ms": 154270,
+              "end_ms": 154570,
+              "estimated": true
+            },
+            {
+              "word": "stasta",
+              "start_ms": 154780,
+              "end_ms": 156020
+            }
+          ]
         },
         {
           "text": "Ir tikai sis bridis",
-          "start_ms": 105640,
-          "end_ms": 107640
+          "start_ms": 156320,
+          "end_ms": 158140,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 156320,
+              "end_ms": 156340
+            },
+            {
+              "word": "tikai",
+              "start_ms": 156340,
+              "end_ms": 157000
+            },
+            {
+              "word": "sis",
+              "start_ms": 157050,
+              "end_ms": 157350,
+              "estimated": true
+            },
+            {
+              "word": "bridis",
+              "start_ms": 157220,
+              "end_ms": 158140
+            }
+          ]
         },
         {
           "text": "Kur es zinu, ka teicu ja",
-          "start_ms": 107640,
-          "end_ms": 109640
+          "start_ms": 158540,
+          "end_ms": 161950,
+          "words": [
+            {
+              "word": "Kur",
+              "start_ms": 158540,
+              "end_ms": 158860
+            },
+            {
+              "word": "es",
+              "start_ms": 157000,
+              "end_ms": 157220
+            },
+            {
+              "word": "zinu,",
+              "start_ms": 159160,
+              "end_ms": 159720
+            },
+            {
+              "word": "ka",
+              "start_ms": 160040,
+              "end_ms": 160040
+            },
+            {
+              "word": "teicu",
+              "start_ms": 160040,
+              "end_ms": 161600
+            },
+            {
+              "word": "ja",
+              "start_ms": 161650,
+              "end_ms": 161950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Un negribu to atpakal",
-          "start_ms": 109640,
-          "end_ms": 111640
+          "start_ms": 164340,
+          "end_ms": 168220,
+          "words": [
+            {
+              "word": "Un",
+              "start_ms": 164340,
+              "end_ms": 165280
+            },
+            {
+              "word": "negribu",
+              "start_ms": 165280,
+              "end_ms": 166220
+            },
+            {
+              "word": "to",
+              "start_ms": 166270,
+              "end_ms": 166570,
+              "estimated": true
+            },
+            {
+              "word": "atpakal",
+              "start_ms": 167000,
+              "end_ms": 168220
+            }
+          ]
         }
-      ],
-      "start_ms": 101000,
-      "end_ms": 111640
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 169780,
+      "end_ms": 173870,
       "lines": [
         {
           "text": "Lai notiek",
-          "start_ms": 114640,
-          "end_ms": 116640
+          "start_ms": 169780,
+          "end_ms": 171180,
+          "words": [
+            {
+              "word": "Lai",
+              "start_ms": 169780,
+              "end_ms": 170080,
+              "estimated": true
+            },
+            {
+              "word": "notiek",
+              "start_ms": 169780,
+              "end_ms": 171180
+            }
+          ]
         },
         {
           "text": "Klusums pec",
-          "start_ms": 116640,
-          "end_ms": 118640
+          "start_ms": 173060,
+          "end_ms": 173870,
+          "words": [
+            {
+              "word": "Klusums",
+              "start_ms": 173060,
+              "end_ms": 173520
+            },
+            {
+              "word": "pec",
+              "start_ms": 173570,
+              "end_ms": 173870,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 114640,
-      "end_ms": 118640
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Es teicu ja",
+      "section_type": "chorus",
+      "start_ms": 61200,
+      "end_ms": 71560,
+      "key_line": "Es teicu ja",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Seit klusuma pec",
+      "section_type": "chorus",
+      "start_ms": 71920,
+      "end_ms": 91580,
+      "key_line": "Seit klusuma pec",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Es teicu ja",
+      "section_type": "chorus",
+      "start_ms": 113020,
+      "end_ms": 127070,
+      "key_line": "Es teicu ja",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Seit klusuma pec",
+      "section_type": "chorus",
+      "start_ms": 128240,
+      "end_ms": 147560,
+      "key_line": "Seit klusuma pec",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 150490,
+      "end_ms": 168220,
+      "key_line": "Vel nav neka",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/latvian/42_luke_01_1-26_transcript.json"
 }

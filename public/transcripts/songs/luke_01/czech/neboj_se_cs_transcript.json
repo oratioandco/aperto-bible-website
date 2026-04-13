@@ -7,369 +7,1350 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:13-13",
-  "duration_ms": 220000,
+  "duration_ms": 154800,
   "audio_file": "/audio/songs/luke_01/czech/Luke 1_13 _Neboj se_ — Czech.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.737024+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.924886+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.95,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 16540,
+      "end_ms": 33420,
       "lines": [
         {
           "text": "Hele, to nedáš",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 16540,
+          "end_ms": 17690,
+          "words": [
+            {
+              "word": "Hele,",
+              "start_ms": 16540,
+              "end_ms": 17140
+            },
+            {
+              "word": "to",
+              "start_ms": 17240,
+              "end_ms": 17340
+            },
+            {
+              "word": "nedáš",
+              "start_ms": 17390,
+              "end_ms": 17690,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "to je moc velký",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 17240,
+          "end_ms": 17140,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 17240,
+              "end_ms": 17340
+            },
+            {
+              "word": "je",
+              "start_ms": 17390,
+              "end_ms": 17690,
+              "estimated": true
+            },
+            {
+              "word": "moc",
+              "start_ms": 16239,
+              "end_ms": 16540
+            },
+            {
+              "word": "velký",
+              "start_ms": 16540,
+              "end_ms": 17140
+            }
+          ]
         },
         {
           "text": "to není pro tebe",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 17240,
+          "end_ms": 20040,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 17240,
+              "end_ms": 17340
+            },
+            {
+              "word": "není",
+              "start_ms": 17340,
+              "end_ms": 18020
+            },
+            {
+              "word": "pro",
+              "start_ms": 18020,
+              "end_ms": 18360
+            },
+            {
+              "word": "tebe",
+              "start_ms": 18360,
+              "end_ms": 20040
+            }
+          ]
         },
         {
           "text": "slyšíš ten hlas",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 20640,
+          "end_ms": 21860,
+          "words": [
+            {
+              "word": "slyšíš",
+              "start_ms": 20640,
+              "end_ms": 21080
+            },
+            {
+              "word": "ten",
+              "start_ms": 21080,
+              "end_ms": 21400
+            },
+            {
+              "word": "hlas",
+              "start_ms": 21400,
+              "end_ms": 21860
+            }
+          ]
         },
         {
           "text": "tvůj vlastní hlas",
-          "start_ms": 14000,
-          "end_ms": 16000
+          "start_ms": 22280,
+          "end_ms": 21860,
+          "words": [
+            {
+              "word": "tvůj",
+              "start_ms": 22280,
+              "end_ms": 22400
+            },
+            {
+              "word": "vlastní",
+              "start_ms": 22400,
+              "end_ms": 22960
+            },
+            {
+              "word": "hlas",
+              "start_ms": 21400,
+              "end_ms": 21860
+            }
+          ]
         },
         {
           "text": "co ti říká",
-          "start_ms": 16000,
-          "end_ms": 18000
+          "start_ms": 23740,
+          "end_ms": 25000,
+          "words": [
+            {
+              "word": "co",
+              "start_ms": 23740,
+              "end_ms": 23880
+            },
+            {
+              "word": "ti",
+              "start_ms": 23880,
+              "end_ms": 24120
+            },
+            {
+              "word": "říká",
+              "start_ms": 24120,
+              "end_ms": 25000
+            }
+          ]
         },
         {
           "text": "zavři dveře",
-          "start_ms": 18000,
-          "end_ms": 20000
+          "start_ms": 26000,
+          "end_ms": 28760,
+          "words": [
+            {
+              "word": "zavři",
+              "start_ms": 26000,
+              "end_ms": 27500
+            },
+            {
+              "word": "dveře",
+              "start_ms": 27500,
+              "end_ms": 28760
+            }
+          ]
         },
         {
           "text": "a jdi domů",
-          "start_ms": 20000,
-          "end_ms": 22000
+          "start_ms": 28760,
+          "end_ms": 33420,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 28760,
+              "end_ms": 29960
+            },
+            {
+              "word": "jdi",
+              "start_ms": 29960,
+              "end_ms": 30100
+            },
+            {
+              "word": "domů",
+              "start_ms": 30100,
+              "end_ms": 33420
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 28760,
+      "end_ms": 38160,
       "lines": [
         {
           "text": "A pak ten druhej",
-          "start_ms": 25000,
-          "end_ms": 27000
+          "start_ms": 28760,
+          "end_ms": 35000,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 28760,
+              "end_ms": 29960
+            },
+            {
+              "word": "pak",
+              "start_ms": 33800,
+              "end_ms": 33980
+            },
+            {
+              "word": "ten",
+              "start_ms": 33980,
+              "end_ms": 34200
+            },
+            {
+              "word": "druhej",
+              "start_ms": 34200,
+              "end_ms": 35000
+            }
+          ]
         },
         {
           "text": "tichej, skoro neslyšnej",
-          "start_ms": 27000,
-          "end_ms": 29000
+          "start_ms": 35040,
+          "end_ms": 38160,
+          "words": [
+            {
+              "word": "tichej,",
+              "start_ms": 35040,
+              "end_ms": 35720
+            },
+            {
+              "word": "skoro",
+              "start_ms": 35920,
+              "end_ms": 36420
+            },
+            {
+              "word": "neslyšnej",
+              "start_ms": 36420,
+              "end_ms": 38160
+            }
+          ]
         }
-      ],
-      "start_ms": 25000,
-      "end_ms": 29000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 39560,
+      "end_ms": 56160,
       "lines": [
         {
           "text": "Neboj se",
-          "start_ms": 32000,
-          "end_ms": 34000
+          "start_ms": 39560,
+          "end_ms": 41320,
+          "words": [
+            {
+              "word": "Neboj",
+              "start_ms": 39560,
+              "end_ms": 40500
+            },
+            {
+              "word": "se",
+              "start_ms": 40500,
+              "end_ms": 41320
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 34000,
-          "end_ms": 36000
+          "start_ms": 39560,
+          "end_ms": 41320,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 39560,
+              "end_ms": 40500
+            },
+            {
+              "word": "se",
+              "start_ms": 40500,
+              "end_ms": 41320
+            }
+          ]
         },
         {
           "text": "vím, co si říkáš",
-          "start_ms": 36000,
-          "end_ms": 38000
+          "start_ms": 43060,
+          "end_ms": 44600,
+          "words": [
+            {
+              "word": "vím,",
+              "start_ms": 43060,
+              "end_ms": 43400
+            },
+            {
+              "word": "co",
+              "start_ms": 43480,
+              "end_ms": 43640
+            },
+            {
+              "word": "si",
+              "start_ms": 43640,
+              "end_ms": 43860
+            },
+            {
+              "word": "říkáš",
+              "start_ms": 43860,
+              "end_ms": 44600
+            }
+          ]
         },
         {
           "text": "a říkám ti",
-          "start_ms": 38000,
-          "end_ms": 40000
+          "start_ms": 44600,
+          "end_ms": 45770,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 44600,
+              "end_ms": 44700
+            },
+            {
+              "word": "říkám",
+              "start_ms": 44700,
+              "end_ms": 45420
+            },
+            {
+              "word": "ti",
+              "start_ms": 45470,
+              "end_ms": 45770,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 40000,
-          "end_ms": 42000
+          "start_ms": 46460,
+          "end_ms": 51860,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 46460,
+              "end_ms": 47040
+            },
+            {
+              "word": "se",
+              "start_ms": 51480,
+              "end_ms": 51860
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 42000,
-          "end_ms": 44000
+          "start_ms": 51860,
+          "end_ms": 51860,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 51860,
+              "end_ms": 52160,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 51480,
+              "end_ms": 51860
+            }
+          ]
         },
         {
           "text": "neříkám: přestaň se bát",
-          "start_ms": 44000,
-          "end_ms": 46000
+          "start_ms": 49820,
+          "end_ms": 53040,
+          "words": [
+            {
+              "word": "neříkám:",
+              "start_ms": 49820,
+              "end_ms": 50520
+            },
+            {
+              "word": "přestaň",
+              "start_ms": 50760,
+              "end_ms": 51480
+            },
+            {
+              "word": "se",
+              "start_ms": 51480,
+              "end_ms": 51860
+            },
+            {
+              "word": "bát",
+              "start_ms": 51860,
+              "end_ms": 53040
+            }
+          ]
         },
         {
           "text": "říkám: já to vím",
-          "start_ms": 46000,
-          "end_ms": 48000
+          "start_ms": 53960,
+          "end_ms": 56160,
+          "words": [
+            {
+              "word": "říkám:",
+              "start_ms": 53960,
+              "end_ms": 54380
+            },
+            {
+              "word": "já",
+              "start_ms": 54480,
+              "end_ms": 54740
+            },
+            {
+              "word": "to",
+              "start_ms": 54740,
+              "end_ms": 55100
+            },
+            {
+              "word": "vím",
+              "start_ms": 55100,
+              "end_ms": 56160
+            }
+          ]
         }
-      ],
-      "start_ms": 32000,
-      "end_ms": 48000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 57160,
+      "end_ms": 80160,
       "lines": [
         {
           "text": "Hlava počítá důvody",
-          "start_ms": 51000,
-          "end_ms": 53000
+          "start_ms": 57160,
+          "end_ms": 60480,
+          "words": [
+            {
+              "word": "Hlava",
+              "start_ms": 57160,
+              "end_ms": 58400
+            },
+            {
+              "word": "počítá",
+              "start_ms": 58400,
+              "end_ms": 59260
+            },
+            {
+              "word": "důvody",
+              "start_ms": 59260,
+              "end_ms": 60480
+            }
+          ]
         },
         {
           "text": "proč to nejde",
-          "start_ms": 53000,
-          "end_ms": 55000
+          "start_ms": 60880,
+          "end_ms": 63220,
+          "words": [
+            {
+              "word": "proč",
+              "start_ms": 60880,
+              "end_ms": 61260
+            },
+            {
+              "word": "to",
+              "start_ms": 61260,
+              "end_ms": 61560
+            },
+            {
+              "word": "nejde",
+              "start_ms": 61560,
+              "end_ms": 63220
+            }
+          ]
         },
         {
           "text": "prsty na ruce",
-          "start_ms": 55000,
-          "end_ms": 57000
+          "start_ms": 63740,
+          "end_ms": 65540,
+          "words": [
+            {
+              "word": "prsty",
+              "start_ms": 63740,
+              "end_ms": 64099
+            },
+            {
+              "word": "na",
+              "start_ms": 64099,
+              "end_ms": 64420
+            },
+            {
+              "word": "ruce",
+              "start_ms": 64420,
+              "end_ms": 65540
+            }
+          ]
         },
         {
           "text": "jako deset argumentů",
-          "start_ms": 57000,
-          "end_ms": 59000
+          "start_ms": 65540,
+          "end_ms": 68160,
+          "words": [
+            {
+              "word": "jako",
+              "start_ms": 65540,
+              "end_ms": 66340
+            },
+            {
+              "word": "deset",
+              "start_ms": 66340,
+              "end_ms": 67220
+            },
+            {
+              "word": "argumentů",
+              "start_ms": 67220,
+              "end_ms": 68160
+            }
+          ]
         },
         {
           "text": "každej logickej",
-          "start_ms": 59000,
-          "end_ms": 61000
+          "start_ms": 68160,
+          "end_ms": 73160,
+          "words": [
+            {
+              "word": "každej",
+              "start_ms": 68160,
+              "end_ms": 70720
+            },
+            {
+              "word": "logickej",
+              "start_ms": 70720,
+              "end_ms": 73160
+            }
+          ]
         },
         {
           "text": "každej pravdivej",
-          "start_ms": 61000,
-          "end_ms": 63000
+          "start_ms": 68160,
+          "end_ms": 75260,
+          "words": [
+            {
+              "word": "každej",
+              "start_ms": 68160,
+              "end_ms": 70720
+            },
+            {
+              "word": "pravdivej",
+              "start_ms": 74100,
+              "end_ms": 75260
+            }
+          ]
         },
         {
           "text": "a přesto",
-          "start_ms": 63000,
-          "end_ms": 65000
+          "start_ms": 75260,
+          "end_ms": 76180,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 75260,
+              "end_ms": 75480
+            },
+            {
+              "word": "přesto",
+              "start_ms": 75480,
+              "end_ms": 76180
+            }
+          ]
         },
         {
           "text": "něco říká: zůstaň",
-          "start_ms": 65000,
-          "end_ms": 67000
+          "start_ms": 76180,
+          "end_ms": 80160,
+          "words": [
+            {
+              "word": "něco",
+              "start_ms": 76180,
+              "end_ms": 76840
+            },
+            {
+              "word": "říká:",
+              "start_ms": 76840,
+              "end_ms": 78620
+            },
+            {
+              "word": "zůstaň",
+              "start_ms": 78740,
+              "end_ms": 80160
+            }
+          ]
         }
-      ],
-      "start_ms": 51000,
-      "end_ms": 67000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 76180,
+      "end_ms": 87160,
       "lines": [
         {
           "text": "Něco silnějšího",
-          "start_ms": 70000,
-          "end_ms": 72000
+          "start_ms": 76180,
+          "end_ms": 83960,
+          "words": [
+            {
+              "word": "Něco",
+              "start_ms": 76180,
+              "end_ms": 76840
+            },
+            {
+              "word": "silnějšího",
+              "start_ms": 82759,
+              "end_ms": 83960
+            }
+          ]
         },
         {
           "text": "než tvůj seznam důvodů",
-          "start_ms": 72000,
-          "end_ms": 74000
+          "start_ms": 83960,
+          "end_ms": 87160,
+          "words": [
+            {
+              "word": "než",
+              "start_ms": 83960,
+              "end_ms": 84240
+            },
+            {
+              "word": "tvůj",
+              "start_ms": 84240,
+              "end_ms": 84740
+            },
+            {
+              "word": "seznam",
+              "start_ms": 84740,
+              "end_ms": 85380
+            },
+            {
+              "word": "důvodů",
+              "start_ms": 85380,
+              "end_ms": 87160
+            }
+          ]
         }
-      ],
-      "start_ms": 70000,
-      "end_ms": 74000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 88660,
+      "end_ms": 104479,
       "lines": [
         {
           "text": "Neboj se",
-          "start_ms": 77000,
-          "end_ms": 79000
+          "start_ms": 88660,
+          "end_ms": 89940,
+          "words": [
+            {
+              "word": "Neboj",
+              "start_ms": 88660,
+              "end_ms": 89340
+            },
+            {
+              "word": "se",
+              "start_ms": 89340,
+              "end_ms": 89940
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 79000,
-          "end_ms": 81000
+          "start_ms": 88660,
+          "end_ms": 89940,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 88660,
+              "end_ms": 89340
+            },
+            {
+              "word": "se",
+              "start_ms": 89340,
+              "end_ms": 89940
+            }
+          ]
         },
         {
           "text": "vím, co si říkáš",
-          "start_ms": 81000,
-          "end_ms": 83000
+          "start_ms": 91740,
+          "end_ms": 93280,
+          "words": [
+            {
+              "word": "vím,",
+              "start_ms": 91740,
+              "end_ms": 92120
+            },
+            {
+              "word": "co",
+              "start_ms": 92180,
+              "end_ms": 92340
+            },
+            {
+              "word": "si",
+              "start_ms": 92340,
+              "end_ms": 92620
+            },
+            {
+              "word": "říkáš",
+              "start_ms": 92620,
+              "end_ms": 93280
+            }
+          ]
         },
         {
           "text": "a říkám ti",
-          "start_ms": 83000,
-          "end_ms": 85000
+          "start_ms": 93280,
+          "end_ms": 94530,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 93280,
+              "end_ms": 93380
+            },
+            {
+              "word": "říkám",
+              "start_ms": 93380,
+              "end_ms": 94180
+            },
+            {
+              "word": "ti",
+              "start_ms": 94230,
+              "end_ms": 94530,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 85000,
-          "end_ms": 87000
+          "start_ms": 95040,
+          "end_ms": 100620,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 95040,
+              "end_ms": 95800
+            },
+            {
+              "word": "se",
+              "start_ms": 100280,
+              "end_ms": 100620
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 87000,
-          "end_ms": 89000
+          "start_ms": 100620,
+          "end_ms": 100620,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 100620,
+              "end_ms": 100920,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 100280,
+              "end_ms": 100620
+            }
+          ]
         },
         {
           "text": "neříkám: přestaň se bát",
-          "start_ms": 89000,
-          "end_ms": 91000
+          "start_ms": 98620,
+          "end_ms": 101680,
+          "words": [
+            {
+              "word": "neříkám:",
+              "start_ms": 98620,
+              "end_ms": 99420
+            },
+            {
+              "word": "přestaň",
+              "start_ms": 99580,
+              "end_ms": 100280
+            },
+            {
+              "word": "se",
+              "start_ms": 100280,
+              "end_ms": 100620
+            },
+            {
+              "word": "bát",
+              "start_ms": 100620,
+              "end_ms": 101680
+            }
+          ]
         },
         {
           "text": "říkám: já to vím",
-          "start_ms": 91000,
-          "end_ms": 93000
+          "start_ms": 102560,
+          "end_ms": 104479,
+          "words": [
+            {
+              "word": "říkám:",
+              "start_ms": 102560,
+              "end_ms": 103180
+            },
+            {
+              "word": "já",
+              "start_ms": 103260,
+              "end_ms": 103520
+            },
+            {
+              "word": "to",
+              "start_ms": 103520,
+              "end_ms": 103880
+            },
+            {
+              "word": "vím",
+              "start_ms": 103880,
+              "end_ms": 104479
+            }
+          ]
         }
-      ],
-      "start_ms": 77000,
-      "end_ms": 93000
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 106160,
+      "end_ms": 125780,
       "lines": [
         {
           "text": "Ten hlas co říká uteč",
-          "start_ms": 96000,
-          "end_ms": 98000
+          "start_ms": 106160,
+          "end_ms": 108480,
+          "words": [
+            {
+              "word": "Ten",
+              "start_ms": 106160,
+              "end_ms": 106760
+            },
+            {
+              "word": "hlas",
+              "start_ms": 106760,
+              "end_ms": 106980
+            },
+            {
+              "word": "co",
+              "start_ms": 107200,
+              "end_ms": 107220
+            },
+            {
+              "word": "říká",
+              "start_ms": 107220,
+              "end_ms": 108040
+            },
+            {
+              "word": "uteč",
+              "start_ms": 108220,
+              "end_ms": 108480
+            }
+          ]
         },
         {
           "text": "má pravdu",
-          "start_ms": 98000,
-          "end_ms": 100000
+          "start_ms": 108480,
+          "end_ms": 109700,
+          "words": [
+            {
+              "word": "má",
+              "start_ms": 108480,
+              "end_ms": 108760
+            },
+            {
+              "word": "pravdu",
+              "start_ms": 108760,
+              "end_ms": 109700
+            }
+          ]
         },
         {
           "text": "svět je nebezpečnej",
-          "start_ms": 100000,
-          "end_ms": 102000
+          "start_ms": 109940,
+          "end_ms": 111880,
+          "words": [
+            {
+              "word": "svět",
+              "start_ms": 109940,
+              "end_ms": 110320
+            },
+            {
+              "word": "je",
+              "start_ms": 110320,
+              "end_ms": 110620
+            },
+            {
+              "word": "nebezpečnej",
+              "start_ms": 110620,
+              "end_ms": 111880
+            }
+          ]
         },
         {
           "text": "a ty seš malej",
-          "start_ms": 102000,
-          "end_ms": 104000
+          "start_ms": 111880,
+          "end_ms": 114300,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 111880,
+              "end_ms": 112080
+            },
+            {
+              "word": "ty",
+              "start_ms": 112080,
+              "end_ms": 112260
+            },
+            {
+              "word": "seš",
+              "start_ms": 112260,
+              "end_ms": 112760
+            },
+            {
+              "word": "malej",
+              "start_ms": 113960,
+              "end_ms": 114300
+            }
+          ]
         },
         {
           "text": "ale ten druhej hlas",
-          "start_ms": 104000,
-          "end_ms": 106000
+          "start_ms": 113960,
+          "end_ms": 115520,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 113960,
+              "end_ms": 114300
+            },
+            {
+              "word": "ten",
+              "start_ms": 114300,
+              "end_ms": 114580
+            },
+            {
+              "word": "druhej",
+              "start_ms": 114580,
+              "end_ms": 115220
+            },
+            {
+              "word": "hlas",
+              "start_ms": 115220,
+              "end_ms": 115520
+            }
+          ]
         },
         {
           "text": "co říká zůstaň",
-          "start_ms": 106000,
-          "end_ms": 108000
+          "start_ms": 115660,
+          "end_ms": 118940,
+          "words": [
+            {
+              "word": "co",
+              "start_ms": 115660,
+              "end_ms": 115760
+            },
+            {
+              "word": "říká",
+              "start_ms": 115760,
+              "end_ms": 116400
+            },
+            {
+              "word": "zůstaň",
+              "start_ms": 116520,
+              "end_ms": 118940
+            }
+          ]
         },
         {
           "text": "ten nemá argumenty",
-          "start_ms": 108000,
-          "end_ms": 110000
+          "start_ms": 119240,
+          "end_ms": 122500,
+          "words": [
+            {
+              "word": "ten",
+              "start_ms": 119240,
+              "end_ms": 119500
+            },
+            {
+              "word": "nemá",
+              "start_ms": 119500,
+              "end_ms": 120220
+            },
+            {
+              "word": "argumenty",
+              "start_ms": 120220,
+              "end_ms": 122500
+            }
+          ]
         },
         {
           "text": "má jenom",
-          "start_ms": 110000,
-          "end_ms": 112000
+          "start_ms": 123000,
+          "end_ms": 124380,
+          "words": [
+            {
+              "word": "má",
+              "start_ms": 123000,
+              "end_ms": 123080
+            },
+            {
+              "word": "jenom",
+              "start_ms": 123080,
+              "end_ms": 124380
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 112000,
-          "end_ms": 114000
+          "start_ms": 124380,
+          "end_ms": 125780,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 124380,
+              "end_ms": 125160
+            },
+            {
+              "word": "se",
+              "start_ms": 125160,
+              "end_ms": 125780
+            }
+          ]
         }
-      ],
-      "start_ms": 96000,
-      "end_ms": 114000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 124380,
+      "end_ms": 145640,
       "lines": [
         {
           "text": "Neboj se",
-          "start_ms": 117000,
-          "end_ms": 119000
+          "start_ms": 124380,
+          "end_ms": 125780,
+          "words": [
+            {
+              "word": "Neboj",
+              "start_ms": 124380,
+              "end_ms": 125160
+            },
+            {
+              "word": "se",
+              "start_ms": 125160,
+              "end_ms": 125780
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 119000,
-          "end_ms": 121000
+          "start_ms": 124380,
+          "end_ms": 125780,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 124380,
+              "end_ms": 125160
+            },
+            {
+              "word": "se",
+              "start_ms": 125160,
+              "end_ms": 125780
+            }
+          ]
         },
         {
           "text": "vím, co si říkáš",
-          "start_ms": 121000,
-          "end_ms": 123000
+          "start_ms": 129280,
+          "end_ms": 131020,
+          "words": [
+            {
+              "word": "vím,",
+              "start_ms": 129280,
+              "end_ms": 129820
+            },
+            {
+              "word": "co",
+              "start_ms": 129919,
+              "end_ms": 130039
+            },
+            {
+              "word": "si",
+              "start_ms": 130039,
+              "end_ms": 130300
+            },
+            {
+              "word": "říkáš",
+              "start_ms": 130300,
+              "end_ms": 131020
+            }
+          ]
         },
         {
           "text": "a říkám ti",
-          "start_ms": 123000,
-          "end_ms": 125000
+          "start_ms": 131020,
+          "end_ms": 132250,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 131020,
+              "end_ms": 131120
+            },
+            {
+              "word": "říkám",
+              "start_ms": 131120,
+              "end_ms": 131900
+            },
+            {
+              "word": "ti",
+              "start_ms": 131950,
+              "end_ms": 132250,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 125000,
-          "end_ms": 127000
+          "start_ms": 132580,
+          "end_ms": 138420,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 132580,
+              "end_ms": 133440
+            },
+            {
+              "word": "se",
+              "start_ms": 138060,
+              "end_ms": 138420
+            }
+          ]
         },
         {
           "text": "neboj se",
-          "start_ms": 127000,
-          "end_ms": 129000
+          "start_ms": 138420,
+          "end_ms": 138420,
+          "words": [
+            {
+              "word": "neboj",
+              "start_ms": 138420,
+              "end_ms": 138720,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 138060,
+              "end_ms": 138420
+            }
+          ]
         },
         {
           "text": "neříkám: přestaň se bát",
-          "start_ms": 129000,
-          "end_ms": 131000
+          "start_ms": 136380,
+          "end_ms": 140160,
+          "words": [
+            {
+              "word": "neříkám:",
+              "start_ms": 136380,
+              "end_ms": 137200
+            },
+            {
+              "word": "přestaň",
+              "start_ms": 137340,
+              "end_ms": 138060
+            },
+            {
+              "word": "se",
+              "start_ms": 138060,
+              "end_ms": 138420
+            },
+            {
+              "word": "bát",
+              "start_ms": 138420,
+              "end_ms": 140160
+            }
+          ]
         },
         {
           "text": "říkám: já to vím",
-          "start_ms": 131000,
-          "end_ms": 133000
+          "start_ms": 140320,
+          "end_ms": 145640,
+          "words": [
+            {
+              "word": "říkám:",
+              "start_ms": 140320,
+              "end_ms": 140960
+            },
+            {
+              "word": "já",
+              "start_ms": 141040,
+              "end_ms": 141320
+            },
+            {
+              "word": "to",
+              "start_ms": 141320,
+              "end_ms": 141680
+            },
+            {
+              "word": "vím",
+              "start_ms": 141680,
+              "end_ms": 145640
+            }
+          ]
         }
-      ],
-      "start_ms": 117000,
-      "end_ms": 133000
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 145980,
+      "end_ms": 149260,
       "lines": [
         {
           "text": "Říkám: já to vím",
-          "start_ms": 136000,
-          "end_ms": 138000
+          "start_ms": 145980,
+          "end_ms": 149260,
+          "words": [
+            {
+              "word": "Říkám:",
+              "start_ms": 145980,
+              "end_ms": 146680
+            },
+            {
+              "word": "já",
+              "start_ms": 147360,
+              "end_ms": 147860
+            },
+            {
+              "word": "to",
+              "start_ms": 147860,
+              "end_ms": 148200
+            },
+            {
+              "word": "vím",
+              "start_ms": 148200,
+              "end_ms": 149260
+            }
+          ]
         }
-      ],
-      "start_ms": 136000,
-      "end_ms": 138000
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 141000,
-          "end_ms": 143000
-        }
-      ],
-      "start_ms": 141000,
-      "end_ms": 143000
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - A pak ten druhej",
+      "section_type": "chorus",
+      "start_ms": 28760,
+      "end_ms": 38160,
+      "key_line": "A pak ten druhej",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Neboj se",
+      "section_type": "chorus",
+      "start_ms": 39560,
+      "end_ms": 56160,
+      "key_line": "Neboj se",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Něco silnějšího",
+      "section_type": "chorus",
+      "start_ms": 76180,
+      "end_ms": 87160,
+      "key_line": "Něco silnějšího",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Neboj se",
+      "section_type": "chorus",
+      "start_ms": 88660,
+      "end_ms": 104479,
+      "key_line": "Neboj se",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 106160,
+      "end_ms": 125780,
+      "key_line": "Ten hlas co říká uteč",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Neboj se",
+      "section_type": "chorus",
+      "start_ms": 124380,
+      "end_ms": 145640,
+      "key_line": "Neboj se",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/czech/42_luke_01_13_transcript.json"
 }

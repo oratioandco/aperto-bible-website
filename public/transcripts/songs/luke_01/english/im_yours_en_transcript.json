@@ -7,356 +7,1949 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 239160,
   "audio_file": "/audio/songs/luke_01/english/Luke 1_26-38 English (The Annunciation).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.786738+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.941353+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.993,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 10960,
+      "end_ms": 50240,
       "lines": [
         {
           "text": "The words hit me like a wave",
-          "start_ms": 6000,
-          "end_ms": 8240
+          "start_ms": 10960,
+          "end_ms": 15440,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 10960,
+              "end_ms": 12200
+            },
+            {
+              "word": "words",
+              "start_ms": 12200,
+              "end_ms": 12760
+            },
+            {
+              "word": "hit",
+              "start_ms": 12760,
+              "end_ms": 13140
+            },
+            {
+              "word": "me",
+              "start_ms": 13140,
+              "end_ms": 13480
+            },
+            {
+              "word": "like",
+              "start_ms": 13480,
+              "end_ms": 14420
+            },
+            {
+              "word": "a",
+              "start_ms": 14420,
+              "end_ms": 14820
+            },
+            {
+              "word": "wave",
+              "start_ms": 14820,
+              "end_ms": 15440
+            }
+          ]
         },
         {
           "text": "I could barely catch my breath",
-          "start_ms": 8240,
-          "end_ms": 10640
+          "start_ms": 17120,
+          "end_ms": 21080,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 17120,
+              "end_ms": 18360
+            },
+            {
+              "word": "could",
+              "start_ms": 18360,
+              "end_ms": 18620
+            },
+            {
+              "word": "barely",
+              "start_ms": 18620,
+              "end_ms": 19060
+            },
+            {
+              "word": "catch",
+              "start_ms": 19060,
+              "end_ms": 19700
+            },
+            {
+              "word": "my",
+              "start_ms": 19700,
+              "end_ms": 20460
+            },
+            {
+              "word": "breath",
+              "start_ms": 20460,
+              "end_ms": 21080
+            }
+          ]
         },
         {
           "text": "Everything I thought I knew",
-          "start_ms": 10640,
-          "end_ms": 12800
+          "start_ms": 23040,
+          "end_ms": 26280,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 23040,
+              "end_ms": 24280
+            },
+            {
+              "word": "I",
+              "start_ms": 24280,
+              "end_ms": 24900
+            },
+            {
+              "word": "thought",
+              "start_ms": 24900,
+              "end_ms": 25240
+            },
+            {
+              "word": "I",
+              "start_ms": 24280,
+              "end_ms": 24900
+            },
+            {
+              "word": "knew",
+              "start_ms": 25660,
+              "end_ms": 26280
+            }
+          ]
         },
         {
           "text": "Scattered on the floor",
-          "start_ms": 12800,
-          "end_ms": 14800
+          "start_ms": 26280,
+          "end_ms": 28400,
+          "words": [
+            {
+              "word": "Scattered",
+              "start_ms": 26280,
+              "end_ms": 26920
+            },
+            {
+              "word": "on",
+              "start_ms": 26920,
+              "end_ms": 27300
+            },
+            {
+              "word": "the",
+              "start_ms": 27300,
+              "end_ms": 27680
+            },
+            {
+              "word": "floor",
+              "start_ms": 27680,
+              "end_ms": 28400
+            }
+          ]
         },
         {
           "text": "Just a girl in an empty room",
-          "start_ms": 14800,
-          "end_ms": 17040
+          "start_ms": 28400,
+          "end_ms": 34520,
+          "words": [
+            {
+              "word": "Just",
+              "start_ms": 28400,
+              "end_ms": 29880
+            },
+            {
+              "word": "a",
+              "start_ms": 29880,
+              "end_ms": 30220
+            },
+            {
+              "word": "girl",
+              "start_ms": 30220,
+              "end_ms": 30520
+            },
+            {
+              "word": "in",
+              "start_ms": 30520,
+              "end_ms": 30800
+            },
+            {
+              "word": "an",
+              "start_ms": 30800,
+              "end_ms": 31320
+            },
+            {
+              "word": "empty",
+              "start_ms": 31320,
+              "end_ms": 31980
+            },
+            {
+              "word": "room",
+              "start_ms": 31980,
+              "end_ms": 34520
+            }
+          ]
         },
         {
           "text": "Nothing special, nothing more",
-          "start_ms": 17040,
-          "end_ms": 19360
+          "start_ms": 34520,
+          "end_ms": 38880,
+          "words": [
+            {
+              "word": "Nothing",
+              "start_ms": 34520,
+              "end_ms": 35940
+            },
+            {
+              "word": "special,",
+              "start_ms": 35940,
+              "end_ms": 36720
+            },
+            {
+              "word": "nothing",
+              "start_ms": 34520,
+              "end_ms": 35940
+            },
+            {
+              "word": "more",
+              "start_ms": 37700,
+              "end_ms": 38880
+            }
+          ]
         },
         {
           "text": "Then you spoke and the world cracked open",
-          "start_ms": 19360,
-          "end_ms": 22640
+          "start_ms": 40060,
+          "end_ms": 45300,
+          "words": [
+            {
+              "word": "Then",
+              "start_ms": 40060,
+              "end_ms": 41180
+            },
+            {
+              "word": "you",
+              "start_ms": 41180,
+              "end_ms": 41500
+            },
+            {
+              "word": "spoke",
+              "start_ms": 41500,
+              "end_ms": 42060
+            },
+            {
+              "word": "and",
+              "start_ms": 42060,
+              "end_ms": 42320
+            },
+            {
+              "word": "the",
+              "start_ms": 42320,
+              "end_ms": 42600
+            },
+            {
+              "word": "world",
+              "start_ms": 42600,
+              "end_ms": 43000
+            },
+            {
+              "word": "cracked",
+              "start_ms": 43000,
+              "end_ms": 43560
+            },
+            {
+              "word": "open",
+              "start_ms": 43560,
+              "end_ms": 45300
+            }
+          ]
         },
         {
           "text": "Like it never had before",
-          "start_ms": 22640,
-          "end_ms": 24640
+          "start_ms": 45300,
+          "end_ms": 50240,
+          "words": [
+            {
+              "word": "Like",
+              "start_ms": 45300,
+              "end_ms": 46820
+            },
+            {
+              "word": "it",
+              "start_ms": 46820,
+              "end_ms": 47320
+            },
+            {
+              "word": "never",
+              "start_ms": 47320,
+              "end_ms": 48060
+            },
+            {
+              "word": "had",
+              "start_ms": 48060,
+              "end_ms": 48720
+            },
+            {
+              "word": "before",
+              "start_ms": 48720,
+              "end_ms": 50240
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 24640
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 52379,
+      "end_ms": 64319,
       "lines": [
         {
           "text": "How is this even possible",
-          "start_ms": 27640,
-          "end_ms": 29640
+          "start_ms": 52379,
+          "end_ms": 55340,
+          "words": [
+            {
+              "word": "How",
+              "start_ms": 52379,
+              "end_ms": 52940
+            },
+            {
+              "word": "is",
+              "start_ms": 52940,
+              "end_ms": 53200
+            },
+            {
+              "word": "this",
+              "start_ms": 53200,
+              "end_ms": 53600
+            },
+            {
+              "word": "even",
+              "start_ms": 53600,
+              "end_ms": 54180
+            },
+            {
+              "word": "possible",
+              "start_ms": 54180,
+              "end_ms": 55340
+            }
+          ]
         },
         {
           "text": "I don't know what to say",
-          "start_ms": 29640,
-          "end_ms": 31640
+          "start_ms": 55720,
+          "end_ms": 57880,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 55720,
+              "end_ms": 55920
+            },
+            {
+              "word": "don't",
+              "start_ms": 55920,
+              "end_ms": 56180
+            },
+            {
+              "word": "know",
+              "start_ms": 56180,
+              "end_ms": 56480
+            },
+            {
+              "word": "what",
+              "start_ms": 56480,
+              "end_ms": 56920
+            },
+            {
+              "word": "to",
+              "start_ms": 56920,
+              "end_ms": 57320
+            },
+            {
+              "word": "say",
+              "start_ms": 57320,
+              "end_ms": 57880
+            }
+          ]
         },
         {
           "text": "But something in me recognizes you",
-          "start_ms": 31640,
-          "end_ms": 34360
+          "start_ms": 57880,
+          "end_ms": 61360,
+          "words": [
+            {
+              "word": "But",
+              "start_ms": 57880,
+              "end_ms": 58520
+            },
+            {
+              "word": "something",
+              "start_ms": 58520,
+              "end_ms": 59160
+            },
+            {
+              "word": "in",
+              "start_ms": 59160,
+              "end_ms": 59400
+            },
+            {
+              "word": "me",
+              "start_ms": 59400,
+              "end_ms": 59900
+            },
+            {
+              "word": "recognizes",
+              "start_ms": 59900,
+              "end_ms": 60940
+            },
+            {
+              "word": "you",
+              "start_ms": 60940,
+              "end_ms": 61360
+            }
+          ]
         },
         {
           "text": "Like I've known you all my days",
-          "start_ms": 34360,
-          "end_ms": 36840
+          "start_ms": 61360,
+          "end_ms": 64319,
+          "words": [
+            {
+              "word": "Like",
+              "start_ms": 61360,
+              "end_ms": 61580
+            },
+            {
+              "word": "I've",
+              "start_ms": 61580,
+              "end_ms": 61840
+            },
+            {
+              "word": "known",
+              "start_ms": 61840,
+              "end_ms": 62100
+            },
+            {
+              "word": "you",
+              "start_ms": 62100,
+              "end_ms": 62520
+            },
+            {
+              "word": "all",
+              "start_ms": 62520,
+              "end_ms": 62980
+            },
+            {
+              "word": "my",
+              "start_ms": 62980,
+              "end_ms": 63720
+            },
+            {
+              "word": "days",
+              "start_ms": 63720,
+              "end_ms": 64319
+            }
+          ]
         }
-      ],
-      "start_ms": 27640,
-      "end_ms": 36840
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 64879,
+      "end_ms": 90580,
       "lines": [
         {
           "text": "I'm yours, I'm yours",
-          "start_ms": 39840,
-          "end_ms": 41840
+          "start_ms": 64879,
+          "end_ms": 70460,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 64879,
+              "end_ms": 66260
+            },
+            {
+              "word": "yours,",
+              "start_ms": 66260,
+              "end_ms": 67440
+            },
+            {
+              "word": "I'm",
+              "start_ms": 64879,
+              "end_ms": 66260
+            },
+            {
+              "word": "yours",
+              "start_ms": 68920,
+              "end_ms": 70460
+            }
+          ]
         },
         {
           "text": "So here I am",
-          "start_ms": 41840,
-          "end_ms": 43840
+          "start_ms": 70460,
+          "end_ms": 72660,
+          "words": [
+            {
+              "word": "So",
+              "start_ms": 70460,
+              "end_ms": 71120
+            },
+            {
+              "word": "here",
+              "start_ms": 71120,
+              "end_ms": 71660
+            },
+            {
+              "word": "I",
+              "start_ms": 71660,
+              "end_ms": 72160
+            },
+            {
+              "word": "am",
+              "start_ms": 72160,
+              "end_ms": 72660
+            }
+          ]
         },
         {
           "text": "Scared to death but still I'm standing",
-          "start_ms": 43840,
-          "end_ms": 46880
+          "start_ms": 73140,
+          "end_ms": 76160,
+          "words": [
+            {
+              "word": "Scared",
+              "start_ms": 73140,
+              "end_ms": 73220
+            },
+            {
+              "word": "to",
+              "start_ms": 73220,
+              "end_ms": 73600
+            },
+            {
+              "word": "death",
+              "start_ms": 73600,
+              "end_ms": 73980
+            },
+            {
+              "word": "but",
+              "start_ms": 73980,
+              "end_ms": 74320
+            },
+            {
+              "word": "still",
+              "start_ms": 74320,
+              "end_ms": 74620
+            },
+            {
+              "word": "I'm",
+              "start_ms": 74620,
+              "end_ms": 75020
+            },
+            {
+              "word": "standing",
+              "start_ms": 75020,
+              "end_ms": 76160
+            }
+          ]
         },
         {
           "text": "I'm yours, I'm yours",
-          "start_ms": 46880,
-          "end_ms": 48880
+          "start_ms": 74620,
+          "end_ms": 82200,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 74620,
+              "end_ms": 75020
+            },
+            {
+              "word": "yours,",
+              "start_ms": 77820,
+              "end_ms": 78920
+            },
+            {
+              "word": "I'm",
+              "start_ms": 76880,
+              "end_ms": 77820
+            },
+            {
+              "word": "yours",
+              "start_ms": 80440,
+              "end_ms": 82200
+            }
+          ]
         },
         {
           "text": "This is my yes",
-          "start_ms": 48880,
-          "end_ms": 50880
+          "start_ms": 82200,
+          "end_ms": 84260,
+          "words": [
+            {
+              "word": "This",
+              "start_ms": 82200,
+              "end_ms": 82860
+            },
+            {
+              "word": "is",
+              "start_ms": 82860,
+              "end_ms": 83360
+            },
+            {
+              "word": "my",
+              "start_ms": 83360,
+              "end_ms": 83740
+            },
+            {
+              "word": "yes",
+              "start_ms": 83740,
+              "end_ms": 84260
+            }
+          ]
         },
         {
           "text": "Take whatever you're demanding",
-          "start_ms": 50880,
-          "end_ms": 53280
+          "start_ms": 84260,
+          "end_ms": 87300,
+          "words": [
+            {
+              "word": "Take",
+              "start_ms": 84260,
+              "end_ms": 84740
+            },
+            {
+              "word": "whatever",
+              "start_ms": 84740,
+              "end_ms": 85400
+            },
+            {
+              "word": "you're",
+              "start_ms": 85400,
+              "end_ms": 86280
+            },
+            {
+              "word": "demanding",
+              "start_ms": 86280,
+              "end_ms": 87300
+            }
+          ]
         },
         {
           "text": "I'm yours",
-          "start_ms": 53280,
-          "end_ms": 55280
+          "start_ms": 88560,
+          "end_ms": 90580,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 88560,
+              "end_ms": 89680
+            },
+            {
+              "word": "yours",
+              "start_ms": 89680,
+              "end_ms": 90580
+            }
+          ]
         }
-      ],
-      "start_ms": 39840,
-      "end_ms": 55280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 94899,
+      "end_ms": 123180,
       "lines": [
         {
           "text": "I can see what this will cost me",
-          "start_ms": 58280,
-          "end_ms": 60840
+          "start_ms": 94899,
+          "end_ms": 100900,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 94899,
+              "end_ms": 95460
+            },
+            {
+              "word": "can",
+              "start_ms": 95460,
+              "end_ms": 95740
+            },
+            {
+              "word": "see",
+              "start_ms": 95740,
+              "end_ms": 96100
+            },
+            {
+              "word": "what",
+              "start_ms": 96100,
+              "end_ms": 96300
+            },
+            {
+              "word": "this",
+              "start_ms": 96300,
+              "end_ms": 96860
+            },
+            {
+              "word": "will",
+              "start_ms": 96860,
+              "end_ms": 97520
+            },
+            {
+              "word": "cost",
+              "start_ms": 97520,
+              "end_ms": 98080
+            },
+            {
+              "word": "me",
+              "start_ms": 98080,
+              "end_ms": 100900
+            }
+          ]
         },
         {
           "text": "Everything I thought was mine",
-          "start_ms": 60840,
-          "end_ms": 63160
+          "start_ms": 100900,
+          "end_ms": 106260,
+          "words": [
+            {
+              "word": "Everything",
+              "start_ms": 100900,
+              "end_ms": 101580
+            },
+            {
+              "word": "I",
+              "start_ms": 101580,
+              "end_ms": 102080
+            },
+            {
+              "word": "thought",
+              "start_ms": 102080,
+              "end_ms": 102520
+            },
+            {
+              "word": "was",
+              "start_ms": 102520,
+              "end_ms": 103440
+            },
+            {
+              "word": "mine",
+              "start_ms": 103440,
+              "end_ms": 106260
+            }
+          ]
         },
         {
           "text": "The future that I planned so carefully",
-          "start_ms": 63160,
-          "end_ms": 66200
+          "start_ms": 106260,
+          "end_ms": 109740,
+          "words": [
+            {
+              "word": "The",
+              "start_ms": 106260,
+              "end_ms": 106620
+            },
+            {
+              "word": "future",
+              "start_ms": 106620,
+              "end_ms": 107080
+            },
+            {
+              "word": "that",
+              "start_ms": 107080,
+              "end_ms": 107460
+            },
+            {
+              "word": "I",
+              "start_ms": 107460,
+              "end_ms": 108000
+            },
+            {
+              "word": "planned",
+              "start_ms": 108000,
+              "end_ms": 108260
+            },
+            {
+              "word": "so",
+              "start_ms": 108260,
+              "end_ms": 108880
+            },
+            {
+              "word": "carefully",
+              "start_ms": 108880,
+              "end_ms": 109740
+            }
+          ]
         },
         {
           "text": "Is dissolving line by line",
-          "start_ms": 66200,
-          "end_ms": 68280
+          "start_ms": 110220,
+          "end_ms": 111840,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 110220,
+              "end_ms": 110780
+            },
+            {
+              "word": "dissolving",
+              "start_ms": 110780,
+              "end_ms": 111500
+            },
+            {
+              "word": "line",
+              "start_ms": 111500,
+              "end_ms": 111840
+            },
+            {
+              "word": "by",
+              "start_ms": 111840,
+              "end_ms": 112220
+            },
+            {
+              "word": "line",
+              "start_ms": 111500,
+              "end_ms": 111840
+            }
+          ]
         },
         {
           "text": "But before I give you my answer",
-          "start_ms": 68280,
-          "end_ms": 70760
+          "start_ms": 112680,
+          "end_ms": 115220,
+          "words": [
+            {
+              "word": "But",
+              "start_ms": 112680,
+              "end_ms": 112840
+            },
+            {
+              "word": "before",
+              "start_ms": 112840,
+              "end_ms": 113480
+            },
+            {
+              "word": "I",
+              "start_ms": 113480,
+              "end_ms": 113840
+            },
+            {
+              "word": "give",
+              "start_ms": 113840,
+              "end_ms": 114220
+            },
+            {
+              "word": "you",
+              "start_ms": 114220,
+              "end_ms": 114420
+            },
+            {
+              "word": "my",
+              "start_ms": 114420,
+              "end_ms": 114700
+            },
+            {
+              "word": "answer",
+              "start_ms": 114700,
+              "end_ms": 115220
+            }
+          ]
         },
         {
           "text": "I need to know just one thing",
-          "start_ms": 70760,
-          "end_ms": 73080
+          "start_ms": 115220,
+          "end_ms": 118580,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 115220,
+              "end_ms": 115600
+            },
+            {
+              "word": "need",
+              "start_ms": 115600,
+              "end_ms": 115820
+            },
+            {
+              "word": "to",
+              "start_ms": 115820,
+              "end_ms": 116100
+            },
+            {
+              "word": "know",
+              "start_ms": 116100,
+              "end_ms": 116380
+            },
+            {
+              "word": "just",
+              "start_ms": 116380,
+              "end_ms": 116900
+            },
+            {
+              "word": "one",
+              "start_ms": 116900,
+              "end_ms": 117600
+            },
+            {
+              "word": "thing",
+              "start_ms": 117600,
+              "end_ms": 118580
+            }
+          ]
         },
         {
           "text": "Am I someone you'll remember",
-          "start_ms": 73080,
-          "end_ms": 75320
+          "start_ms": 118580,
+          "end_ms": 121040,
+          "words": [
+            {
+              "word": "Am",
+              "start_ms": 118580,
+              "end_ms": 118860
+            },
+            {
+              "word": "I",
+              "start_ms": 118860,
+              "end_ms": 119240
+            },
+            {
+              "word": "someone",
+              "start_ms": 119240,
+              "end_ms": 119780
+            },
+            {
+              "word": "you'll",
+              "start_ms": 119780,
+              "end_ms": 120280
+            },
+            {
+              "word": "remember",
+              "start_ms": 120280,
+              "end_ms": 121040
+            }
+          ]
         },
         {
           "text": "Or just another offering",
-          "start_ms": 75320,
-          "end_ms": 77320
+          "start_ms": 121040,
+          "end_ms": 123180,
+          "words": [
+            {
+              "word": "Or",
+              "start_ms": 121040,
+              "end_ms": 121440
+            },
+            {
+              "word": "just",
+              "start_ms": 121440,
+              "end_ms": 121820
+            },
+            {
+              "word": "another",
+              "start_ms": 121820,
+              "end_ms": 122400
+            },
+            {
+              "word": "offering",
+              "start_ms": 122400,
+              "end_ms": 123180
+            }
+          ]
         }
-      ],
-      "start_ms": 58280,
-      "end_ms": 77320
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 123980,
+      "end_ms": 138060,
       "lines": [
         {
           "text": "How is this even possible",
-          "start_ms": 80320,
-          "end_ms": 82320
+          "start_ms": 123980,
+          "end_ms": 126600,
+          "words": [
+            {
+              "word": "How",
+              "start_ms": 123980,
+              "end_ms": 124320
+            },
+            {
+              "word": "is",
+              "start_ms": 124320,
+              "end_ms": 124500
+            },
+            {
+              "word": "this",
+              "start_ms": 124500,
+              "end_ms": 124900
+            },
+            {
+              "word": "even",
+              "start_ms": 124900,
+              "end_ms": 125440
+            },
+            {
+              "word": "possible",
+              "start_ms": 125440,
+              "end_ms": 126600
+            }
+          ]
         },
         {
           "text": "It doesn't make sense to me",
-          "start_ms": 82320,
-          "end_ms": 84480
+          "start_ms": 126820,
+          "end_ms": 129440,
+          "words": [
+            {
+              "word": "It",
+              "start_ms": 126820,
+              "end_ms": 127020
+            },
+            {
+              "word": "doesn't",
+              "start_ms": 127020,
+              "end_ms": 127400
+            },
+            {
+              "word": "make",
+              "start_ms": 127400,
+              "end_ms": 127740
+            },
+            {
+              "word": "sense",
+              "start_ms": 127740,
+              "end_ms": 128139
+            },
+            {
+              "word": "to",
+              "start_ms": 128139,
+              "end_ms": 128660
+            },
+            {
+              "word": "me",
+              "start_ms": 128660,
+              "end_ms": 129440
+            }
+          ]
         },
         {
           "text": "But something in me already knows",
-          "start_ms": 84480,
-          "end_ms": 87120
+          "start_ms": 129440,
+          "end_ms": 132280,
+          "words": [
+            {
+              "word": "But",
+              "start_ms": 129440,
+              "end_ms": 129919
+            },
+            {
+              "word": "something",
+              "start_ms": 129919,
+              "end_ms": 130400
+            },
+            {
+              "word": "in",
+              "start_ms": 130400,
+              "end_ms": 130639
+            },
+            {
+              "word": "me",
+              "start_ms": 130639,
+              "end_ms": 130940
+            },
+            {
+              "word": "already",
+              "start_ms": 130940,
+              "end_ms": 131560
+            },
+            {
+              "word": "knows",
+              "start_ms": 131560,
+              "end_ms": 132280
+            }
+          ]
         },
         {
           "text": "I belong where you need me to be",
-          "start_ms": 87120,
-          "end_ms": 89680
+          "start_ms": 132280,
+          "end_ms": 138060,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 132280,
+              "end_ms": 132980
+            },
+            {
+              "word": "belong",
+              "start_ms": 132980,
+              "end_ms": 133760
+            },
+            {
+              "word": "where",
+              "start_ms": 133760,
+              "end_ms": 134340
+            },
+            {
+              "word": "you",
+              "start_ms": 134340,
+              "end_ms": 134640
+            },
+            {
+              "word": "need",
+              "start_ms": 134640,
+              "end_ms": 135080
+            },
+            {
+              "word": "me",
+              "start_ms": 135080,
+              "end_ms": 135360
+            },
+            {
+              "word": "to",
+              "start_ms": 135360,
+              "end_ms": 135860
+            },
+            {
+              "word": "be",
+              "start_ms": 135860,
+              "end_ms": 138060
+            }
+          ]
         }
-      ],
-      "start_ms": 80320,
-      "end_ms": 89680
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 138060,
+      "end_ms": 163540,
       "lines": [
         {
           "text": "I'm yours, I'm yours",
-          "start_ms": 92680,
-          "end_ms": 94680
+          "start_ms": 138060,
+          "end_ms": 143080,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 138060,
+              "end_ms": 139000
+            },
+            {
+              "word": "yours,",
+              "start_ms": 139000,
+              "end_ms": 139920
+            },
+            {
+              "word": "I'm",
+              "start_ms": 138060,
+              "end_ms": 139000
+            },
+            {
+              "word": "yours",
+              "start_ms": 141720,
+              "end_ms": 143080
+            }
+          ]
         },
         {
           "text": "So here I am",
-          "start_ms": 94680,
-          "end_ms": 96680
+          "start_ms": 143080,
+          "end_ms": 145440,
+          "words": [
+            {
+              "word": "So",
+              "start_ms": 143080,
+              "end_ms": 143960
+            },
+            {
+              "word": "here",
+              "start_ms": 143960,
+              "end_ms": 144400
+            },
+            {
+              "word": "I",
+              "start_ms": 144400,
+              "end_ms": 144940
+            },
+            {
+              "word": "am",
+              "start_ms": 144940,
+              "end_ms": 145440
+            }
+          ]
         },
         {
           "text": "Scared to death but still I'm standing",
-          "start_ms": 96680,
-          "end_ms": 99720
+          "start_ms": 145720,
+          "end_ms": 148580,
+          "words": [
+            {
+              "word": "Scared",
+              "start_ms": 145720,
+              "end_ms": 146040
+            },
+            {
+              "word": "to",
+              "start_ms": 146040,
+              "end_ms": 146420
+            },
+            {
+              "word": "death",
+              "start_ms": 146420,
+              "end_ms": 146760
+            },
+            {
+              "word": "but",
+              "start_ms": 146760,
+              "end_ms": 147080
+            },
+            {
+              "word": "still",
+              "start_ms": 147080,
+              "end_ms": 147440
+            },
+            {
+              "word": "I'm",
+              "start_ms": 147440,
+              "end_ms": 147860
+            },
+            {
+              "word": "standing",
+              "start_ms": 147860,
+              "end_ms": 148580
+            }
+          ]
         },
         {
           "text": "I'm yours, I'm yours",
-          "start_ms": 99720,
-          "end_ms": 101720
+          "start_ms": 147440,
+          "end_ms": 155020,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 147440,
+              "end_ms": 147860
+            },
+            {
+              "word": "yours,",
+              "start_ms": 150600,
+              "end_ms": 151920
+            },
+            {
+              "word": "I'm",
+              "start_ms": 148580,
+              "end_ms": 150600
+            },
+            {
+              "word": "yours",
+              "start_ms": 153280,
+              "end_ms": 155020
+            }
+          ]
         },
         {
           "text": "This is my yes",
-          "start_ms": 101720,
-          "end_ms": 103720
+          "start_ms": 155020,
+          "end_ms": 156980,
+          "words": [
+            {
+              "word": "This",
+              "start_ms": 155020,
+              "end_ms": 155640
+            },
+            {
+              "word": "is",
+              "start_ms": 155640,
+              "end_ms": 156240
+            },
+            {
+              "word": "my",
+              "start_ms": 156240,
+              "end_ms": 156540
+            },
+            {
+              "word": "yes",
+              "start_ms": 156540,
+              "end_ms": 156980
+            }
+          ]
         },
         {
           "text": "Take whatever you're demanding",
-          "start_ms": 103720,
-          "end_ms": 106120
+          "start_ms": 156980,
+          "end_ms": 160120,
+          "words": [
+            {
+              "word": "Take",
+              "start_ms": 156980,
+              "end_ms": 157580
+            },
+            {
+              "word": "whatever",
+              "start_ms": 157580,
+              "end_ms": 158220
+            },
+            {
+              "word": "you're",
+              "start_ms": 158220,
+              "end_ms": 159080
+            },
+            {
+              "word": "demanding",
+              "start_ms": 159080,
+              "end_ms": 160120
+            }
+          ]
         },
         {
           "text": "I'm yours",
-          "start_ms": 106120,
-          "end_ms": 108120
+          "start_ms": 160120,
+          "end_ms": 163540,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 160120,
+              "end_ms": 162500
+            },
+            {
+              "word": "yours",
+              "start_ms": 162500,
+              "end_ms": 163540
+            }
+          ]
         }
-      ],
-      "start_ms": 92680,
-      "end_ms": 108120
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 163540,
+      "end_ms": 186340,
       "lines": [
         {
           "text": "Before I could give you my yes",
-          "start_ms": 111120,
-          "end_ms": 113520
+          "start_ms": 163540,
+          "end_ms": 167950,
+          "words": [
+            {
+              "word": "Before",
+              "start_ms": 163540,
+              "end_ms": 165200
+            },
+            {
+              "word": "I",
+              "start_ms": 165200,
+              "end_ms": 165600
+            },
+            {
+              "word": "could",
+              "start_ms": 165600,
+              "end_ms": 165940
+            },
+            {
+              "word": "give",
+              "start_ms": 165940,
+              "end_ms": 166680
+            },
+            {
+              "word": "you",
+              "start_ms": 166680,
+              "end_ms": 167180
+            },
+            {
+              "word": "my",
+              "start_ms": 167180,
+              "end_ms": 167600
+            },
+            {
+              "word": "yes",
+              "start_ms": 167650,
+              "end_ms": 167950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "I had to know whose I was",
-          "start_ms": 113520,
-          "end_ms": 115520
+          "start_ms": 168100,
+          "end_ms": 170400,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 168100,
+              "end_ms": 168460
+            },
+            {
+              "word": "had",
+              "start_ms": 168460,
+              "end_ms": 168840
+            },
+            {
+              "word": "to",
+              "start_ms": 168840,
+              "end_ms": 169180
+            },
+            {
+              "word": "know",
+              "start_ms": 169180,
+              "end_ms": 169440
+            },
+            {
+              "word": "whose",
+              "start_ms": 169440,
+              "end_ms": 169920
+            },
+            {
+              "word": "I",
+              "start_ms": 169920,
+              "end_ms": 170140
+            },
+            {
+              "word": "was",
+              "start_ms": 170140,
+              "end_ms": 170400
+            }
+          ]
         },
         {
           "text": "Before I could step into this",
-          "start_ms": 115520,
-          "end_ms": 117840
+          "start_ms": 170400,
+          "end_ms": 173760,
+          "words": [
+            {
+              "word": "Before",
+              "start_ms": 170400,
+              "end_ms": 171000
+            },
+            {
+              "word": "I",
+              "start_ms": 169920,
+              "end_ms": 170140
+            },
+            {
+              "word": "could",
+              "start_ms": 171320,
+              "end_ms": 171700
+            },
+            {
+              "word": "step",
+              "start_ms": 171700,
+              "end_ms": 172400
+            },
+            {
+              "word": "into",
+              "start_ms": 172400,
+              "end_ms": 173140
+            },
+            {
+              "word": "this",
+              "start_ms": 173140,
+              "end_ms": 173760
+            }
+          ]
         },
         {
           "text": "I had to know I belong",
-          "start_ms": 117840,
-          "end_ms": 119840
+          "start_ms": 173760,
+          "end_ms": 176200,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 173760,
+              "end_ms": 174160
+            },
+            {
+              "word": "had",
+              "start_ms": 174160,
+              "end_ms": 174580
+            },
+            {
+              "word": "to",
+              "start_ms": 174580,
+              "end_ms": 174880
+            },
+            {
+              "word": "know",
+              "start_ms": 174880,
+              "end_ms": 175140
+            },
+            {
+              "word": "I",
+              "start_ms": 175140,
+              "end_ms": 175580
+            },
+            {
+              "word": "belong",
+              "start_ms": 175580,
+              "end_ms": 176200
+            }
+          ]
         },
         {
           "text": "And now I know, now I know",
-          "start_ms": 119840,
-          "end_ms": 121920
+          "start_ms": 176200,
+          "end_ms": 175140,
+          "words": [
+            {
+              "word": "And",
+              "start_ms": 176200,
+              "end_ms": 176500,
+              "estimated": true
+            },
+            {
+              "word": "now",
+              "start_ms": 176200,
+              "end_ms": 176900
+            },
+            {
+              "word": "I",
+              "start_ms": 175140,
+              "end_ms": 175580
+            },
+            {
+              "word": "know,",
+              "start_ms": 177520,
+              "end_ms": 178080
+            },
+            {
+              "word": "now",
+              "start_ms": 176200,
+              "end_ms": 176900
+            },
+            {
+              "word": "I",
+              "start_ms": 175140,
+              "end_ms": 175580
+            },
+            {
+              "word": "know",
+              "start_ms": 174880,
+              "end_ms": 175140
+            }
+          ]
         },
         {
           "text": "I've always been yours all along",
-          "start_ms": 121920,
-          "end_ms": 124480
+          "start_ms": 180580,
+          "end_ms": 186340,
+          "words": [
+            {
+              "word": "I've",
+              "start_ms": 180580,
+              "end_ms": 181380
+            },
+            {
+              "word": "always",
+              "start_ms": 181380,
+              "end_ms": 181980
+            },
+            {
+              "word": "been",
+              "start_ms": 181980,
+              "end_ms": 182520
+            },
+            {
+              "word": "yours",
+              "start_ms": 182520,
+              "end_ms": 183620
+            },
+            {
+              "word": "all",
+              "start_ms": 183620,
+              "end_ms": 185020
+            },
+            {
+              "word": "along",
+              "start_ms": 185020,
+              "end_ms": 186340
+            }
+          ]
         }
-      ],
-      "start_ms": 111120,
-      "end_ms": 124480
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 186340,
+      "end_ms": 214840,
       "lines": [
         {
           "text": "I'm yours, I'm yours",
-          "start_ms": 127480,
-          "end_ms": 129480
+          "start_ms": 186340,
+          "end_ms": 191840,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 186340,
+              "end_ms": 188020
+            },
+            {
+              "word": "yours,",
+              "start_ms": 188020,
+              "end_ms": 188900
+            },
+            {
+              "word": "I'm",
+              "start_ms": 186340,
+              "end_ms": 188020
+            },
+            {
+              "word": "yours",
+              "start_ms": 190880,
+              "end_ms": 191840
+            }
+          ]
         },
         {
           "text": "So here I am",
-          "start_ms": 129480,
-          "end_ms": 131480
+          "start_ms": 191840,
+          "end_ms": 195320,
+          "words": [
+            {
+              "word": "So",
+              "start_ms": 191840,
+              "end_ms": 192760
+            },
+            {
+              "word": "here",
+              "start_ms": 192760,
+              "end_ms": 193440
+            },
+            {
+              "word": "I",
+              "start_ms": 193440,
+              "end_ms": 194200
+            },
+            {
+              "word": "am",
+              "start_ms": 194200,
+              "end_ms": 195320
+            }
+          ]
         },
         {
           "text": "Not because I have to",
-          "start_ms": 131480,
-          "end_ms": 133480
+          "start_ms": 195320,
+          "end_ms": 197660,
+          "words": [
+            {
+              "word": "Not",
+              "start_ms": 195320,
+              "end_ms": 195800
+            },
+            {
+              "word": "because",
+              "start_ms": 195800,
+              "end_ms": 196340
+            },
+            {
+              "word": "I",
+              "start_ms": 196340,
+              "end_ms": 196640
+            },
+            {
+              "word": "have",
+              "start_ms": 196640,
+              "end_ms": 197100
+            },
+            {
+              "word": "to",
+              "start_ms": 197100,
+              "end_ms": 197660
+            }
+          ]
         },
         {
           "text": "But because I can",
-          "start_ms": 133480,
-          "end_ms": 135480
+          "start_ms": 197660,
+          "end_ms": 199240,
+          "words": [
+            {
+              "word": "But",
+              "start_ms": 197660,
+              "end_ms": 198040
+            },
+            {
+              "word": "because",
+              "start_ms": 198040,
+              "end_ms": 198540
+            },
+            {
+              "word": "I",
+              "start_ms": 198540,
+              "end_ms": 198860
+            },
+            {
+              "word": "can",
+              "start_ms": 198860,
+              "end_ms": 199240
+            }
+          ]
         },
         {
           "text": "I'm yours, I'm yours",
-          "start_ms": 135480,
-          "end_ms": 137480
+          "start_ms": 199240,
+          "end_ms": 204260,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 199240,
+              "end_ms": 199740
+            },
+            {
+              "word": "yours,",
+              "start_ms": 199740,
+              "end_ms": 201640
+            },
+            {
+              "word": "I'm",
+              "start_ms": 199240,
+              "end_ms": 199740
+            },
+            {
+              "word": "yours",
+              "start_ms": 202620,
+              "end_ms": 204260
+            }
+          ]
         },
         {
           "text": "This is my yes",
-          "start_ms": 137480,
-          "end_ms": 139480
+          "start_ms": 204260,
+          "end_ms": 206160,
+          "words": [
+            {
+              "word": "This",
+              "start_ms": 204260,
+              "end_ms": 204740
+            },
+            {
+              "word": "is",
+              "start_ms": 204740,
+              "end_ms": 205260
+            },
+            {
+              "word": "my",
+              "start_ms": 205260,
+              "end_ms": 205620
+            },
+            {
+              "word": "yes",
+              "start_ms": 205620,
+              "end_ms": 206160
+            }
+          ]
         },
         {
           "text": "Let it be, let it be so",
-          "start_ms": 139480,
-          "end_ms": 141480
+          "start_ms": 206160,
+          "end_ms": 209860,
+          "words": [
+            {
+              "word": "Let",
+              "start_ms": 206160,
+              "end_ms": 206740
+            },
+            {
+              "word": "it",
+              "start_ms": 206740,
+              "end_ms": 206960
+            },
+            {
+              "word": "be,",
+              "start_ms": 206960,
+              "end_ms": 207140
+            },
+            {
+              "word": "let",
+              "start_ms": 206160,
+              "end_ms": 206740
+            },
+            {
+              "word": "it",
+              "start_ms": 206740,
+              "end_ms": 206960
+            },
+            {
+              "word": "be",
+              "start_ms": 207740,
+              "end_ms": 208260
+            },
+            {
+              "word": "so",
+              "start_ms": 208260,
+              "end_ms": 209860
+            }
+          ]
         },
         {
           "text": "I'm yours",
-          "start_ms": 141480,
-          "end_ms": 143480
+          "start_ms": 209860,
+          "end_ms": 214840,
+          "words": [
+            {
+              "word": "I'm",
+              "start_ms": 209860,
+              "end_ms": 211580
+            },
+            {
+              "word": "yours",
+              "start_ms": 211580,
+              "end_ms": 214840
+            }
+          ]
         }
-      ],
-      "start_ms": 127480,
-      "end_ms": 143480
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 215420,
+      "end_ms": 223940,
       "lines": [
         {
           "text": "Let it be",
-          "start_ms": 146480,
-          "end_ms": 148480
+          "start_ms": 215420,
+          "end_ms": 217940,
+          "words": [
+            {
+              "word": "Let",
+              "start_ms": 215420,
+              "end_ms": 216340
+            },
+            {
+              "word": "it",
+              "start_ms": 216340,
+              "end_ms": 216640
+            },
+            {
+              "word": "be",
+              "start_ms": 216640,
+              "end_ms": 217940
+            }
+          ]
         },
         {
           "text": "Let it be so",
-          "start_ms": 148480,
-          "end_ms": 150480
+          "start_ms": 215420,
+          "end_ms": 223940,
+          "words": [
+            {
+              "word": "Let",
+              "start_ms": 215420,
+              "end_ms": 216340
+            },
+            {
+              "word": "it",
+              "start_ms": 216340,
+              "end_ms": 216640
+            },
+            {
+              "word": "be",
+              "start_ms": 216640,
+              "end_ms": 217940
+            },
+            {
+              "word": "so",
+              "start_ms": 222000,
+              "end_ms": 223940
+            }
+          ]
         }
-      ],
-      "start_ms": 146480,
-      "end_ms": 150480
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - How is this even possible",
+      "section_type": "chorus",
+      "start_ms": 52379,
+      "end_ms": 64319,
+      "key_line": "How is this even possible",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - I'm yours, I'm yours",
+      "section_type": "chorus",
+      "start_ms": 64879,
+      "end_ms": 90580,
+      "key_line": "I'm yours, I'm yours",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - How is this even possible",
+      "section_type": "chorus",
+      "start_ms": 123980,
+      "end_ms": 138060,
+      "key_line": "How is this even possible",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - I'm yours, I'm yours",
+      "section_type": "chorus",
+      "start_ms": 138060,
+      "end_ms": 163540,
+      "key_line": "I'm yours, I'm yours",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 163540,
+      "end_ms": 186340,
+      "key_line": "Before I could give you my yes",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - I'm yours, I'm yours",
+      "section_type": "chorus",
+      "start_ms": 186340,
+      "end_ms": 214840,
+      "key_line": "I'm yours, I'm yours",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/english/42_luke_01_1-26_transcript.json"
 }

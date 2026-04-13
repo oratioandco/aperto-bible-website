@@ -7,271 +7,1037 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 238360,
   "audio_file": "/audio/songs/luke_01/russian/Luke 1_67-79 Russian _Рассвет_ — Silence as transformation.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.273855+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.043527+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.908,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Whispered",
+      "label": "Verse 1",
+      "start_ms": 16300,
+      "end_ms": 40500,
       "lines": [
         {
           "text": "Девять месяцев без голоса",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 16300,
+          "end_ms": 22660,
+          "words": [
+            {
+              "word": "Девять",
+              "start_ms": 16300,
+              "end_ms": 17700
+            },
+            {
+              "word": "месяцев",
+              "start_ms": 17700,
+              "end_ms": 18400
+            },
+            {
+              "word": "без",
+              "start_ms": 18400,
+              "end_ms": 18720
+            },
+            {
+              "word": "голоса",
+              "start_ms": 18720,
+              "end_ms": 22660
+            }
+          ]
         },
         {
           "text": "Девять месяцев — и ни слова",
-          "start_ms": 8000,
-          "end_ms": 10160
+          "start_ms": 30000,
+          "end_ms": 35810,
+          "words": [
+            {
+              "word": "Девять",
+              "start_ms": 30000,
+              "end_ms": 30300,
+              "estimated": true
+            },
+            {
+              "word": "месяцев",
+              "start_ms": 17700,
+              "end_ms": 18400
+            },
+            {
+              "word": "—",
+              "start_ms": 18450,
+              "end_ms": 18750,
+              "estimated": true
+            },
+            {
+              "word": "и",
+              "start_ms": 34760,
+              "end_ms": 35460
+            },
+            {
+              "word": "ни",
+              "start_ms": 34760,
+              "end_ms": 35460
+            },
+            {
+              "word": "слова",
+              "start_ms": 35510,
+              "end_ms": 35810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Я стоял в тишине",
-          "start_ms": 10160,
-          "end_ms": 12160
+          "start_ms": 35460,
+          "end_ms": 31840,
+          "words": [
+            {
+              "word": "Я",
+              "start_ms": 35460,
+              "end_ms": 35760,
+              "estimated": true
+            },
+            {
+              "word": "стоял",
+              "start_ms": 35810,
+              "end_ms": 36110,
+              "estimated": true
+            },
+            {
+              "word": "в",
+              "start_ms": 30000,
+              "end_ms": 30000
+            },
+            {
+              "word": "тишине",
+              "start_ms": 30000,
+              "end_ms": 31840
+            }
+          ]
         },
         {
           "text": "И тишина менялась",
-          "start_ms": 12160,
-          "end_ms": 14160
+          "start_ms": 34760,
+          "end_ms": 40500,
+          "words": [
+            {
+              "word": "И",
+              "start_ms": 34760,
+              "end_ms": 35460
+            },
+            {
+              "word": "тишина",
+              "start_ms": 35460,
+              "end_ms": 36860
+            },
+            {
+              "word": "менялась",
+              "start_ms": 36860,
+              "end_ms": 40500
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14160
+      ]
     },
     {
       "type": "verse",
-      "label": "Verse 2] [Soft",
+      "label": "Verse 2",
+      "start_ms": 40500,
+      "end_ms": 56320,
       "lines": [
         {
           "text": "Сначала это было наказание",
-          "start_ms": 17160,
-          "end_ms": 19240
+          "start_ms": 40500,
+          "end_ms": 44400,
+          "words": [
+            {
+              "word": "Сначала",
+              "start_ms": 40500,
+              "end_ms": 41700
+            },
+            {
+              "word": "это",
+              "start_ms": 41700,
+              "end_ms": 42120
+            },
+            {
+              "word": "было",
+              "start_ms": 42120,
+              "end_ms": 42480
+            },
+            {
+              "word": "наказание",
+              "start_ms": 42480,
+              "end_ms": 44400
+            }
+          ]
         },
         {
           "text": "Потом — привычка",
-          "start_ms": 19240,
-          "end_ms": 21240
+          "start_ms": 45000,
+          "end_ms": 47480,
+          "words": [
+            {
+              "word": "Потом",
+              "start_ms": 45000,
+              "end_ms": 45760
+            },
+            {
+              "word": "—",
+              "start_ms": 45810,
+              "end_ms": 46110,
+              "estimated": true
+            },
+            {
+              "word": "привычка",
+              "start_ms": 45760,
+              "end_ms": 47480
+            }
+          ]
         },
         {
           "text": "Потом — что-то другое",
-          "start_ms": 21240,
-          "end_ms": 23240
+          "start_ms": 45000,
+          "end_ms": 52720,
+          "words": [
+            {
+              "word": "Потом",
+              "start_ms": 45000,
+              "end_ms": 45760
+            },
+            {
+              "word": "—",
+              "start_ms": 45810,
+              "end_ms": 46110,
+              "estimated": true
+            },
+            {
+              "word": "что-то",
+              "start_ms": 48180,
+              "end_ms": 48560
+            },
+            {
+              "word": "другое",
+              "start_ms": 48840,
+              "end_ms": 52720
+            }
+          ]
         },
         {
           "text": "Тишина стала учить",
-          "start_ms": 23240,
-          "end_ms": 25240
+          "start_ms": 52720,
+          "end_ms": 56320,
+          "words": [
+            {
+              "word": "Тишина",
+              "start_ms": 52720,
+              "end_ms": 54340
+            },
+            {
+              "word": "стала",
+              "start_ms": 54340,
+              "end_ms": 54900
+            },
+            {
+              "word": "учить",
+              "start_ms": 54900,
+              "end_ms": 56320
+            }
+          ]
         }
-      ],
-      "start_ms": 17160,
-      "end_ms": 25240
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 58620,
+      "end_ms": 81320,
       "lines": [
         {
           "text": "Я думал, мне вернут голос",
-          "start_ms": 28240,
-          "end_ms": 30240
+          "start_ms": 58620,
+          "end_ms": 62460,
+          "words": [
+            {
+              "word": "Я",
+              "start_ms": 58620,
+              "end_ms": 59940
+            },
+            {
+              "word": "думал,",
+              "start_ms": 59940,
+              "end_ms": 60320
+            },
+            {
+              "word": "мне",
+              "start_ms": 60320,
+              "end_ms": 60560
+            },
+            {
+              "word": "вернут",
+              "start_ms": 60560,
+              "end_ms": 61420
+            },
+            {
+              "word": "голос",
+              "start_ms": 61420,
+              "end_ms": 62460
+            }
+          ]
         },
         {
           "text": "И я скажу то, что планировал",
-          "start_ms": 30240,
-          "end_ms": 32480
+          "start_ms": 62460,
+          "end_ms": 68320,
+          "words": [
+            {
+              "word": "И",
+              "start_ms": 62460,
+              "end_ms": 64980
+            },
+            {
+              "word": "я",
+              "start_ms": 64980,
+              "end_ms": 65260
+            },
+            {
+              "word": "скажу",
+              "start_ms": 65260,
+              "end_ms": 65940
+            },
+            {
+              "word": "то,",
+              "start_ms": 65940,
+              "end_ms": 66260
+            },
+            {
+              "word": "что",
+              "start_ms": 66300,
+              "end_ms": 66680
+            },
+            {
+              "word": "планировал",
+              "start_ms": 66680,
+              "end_ms": 68320
+            }
+          ]
         },
         {
           "text": "Я думал, мне вернут голос",
-          "start_ms": 32480,
-          "end_ms": 34480
+          "start_ms": 71020,
+          "end_ms": 75120,
+          "words": [
+            {
+              "word": "Я",
+              "start_ms": 71020,
+              "end_ms": 72340
+            },
+            {
+              "word": "думал,",
+              "start_ms": 72340,
+              "end_ms": 72720
+            },
+            {
+              "word": "мне",
+              "start_ms": 72720,
+              "end_ms": 72960
+            },
+            {
+              "word": "вернут",
+              "start_ms": 72960,
+              "end_ms": 73840
+            },
+            {
+              "word": "голос",
+              "start_ms": 73840,
+              "end_ms": 75120
+            }
+          ]
         },
         {
           "text": "И всё будет как раньше",
-          "start_ms": 34480,
-          "end_ms": 36480
+          "start_ms": 75120,
+          "end_ms": 81320,
+          "words": [
+            {
+              "word": "И",
+              "start_ms": 75120,
+              "end_ms": 77380
+            },
+            {
+              "word": "всё",
+              "start_ms": 77380,
+              "end_ms": 77780
+            },
+            {
+              "word": "будет",
+              "start_ms": 77780,
+              "end_ms": 78340
+            },
+            {
+              "word": "как",
+              "start_ms": 78420,
+              "end_ms": 79080
+            },
+            {
+              "word": "раньше",
+              "start_ms": 79080,
+              "end_ms": 81320
+            }
+          ]
         }
-      ],
-      "start_ms": 28240,
-      "end_ms": 36480
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 84200,
+      "end_ms": 109300,
       "lines": [
         {
           "text": "Рассвет",
-          "start_ms": 39480,
-          "end_ms": 41480
+          "start_ms": 84200,
+          "end_ms": 85520,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 84200,
+              "end_ms": 85520
+            }
+          ]
         },
         {
           "text": "Рассвет идёт",
-          "start_ms": 41480,
-          "end_ms": 43480
+          "start_ms": 84200,
+          "end_ms": 90480,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 84200,
+              "end_ms": 85520
+            },
+            {
+              "word": "идёт",
+              "start_ms": 89580,
+              "end_ms": 90480
+            }
+          ]
         },
         {
           "text": "Не тот, которого я ждал",
-          "start_ms": 43480,
-          "end_ms": 45480
+          "start_ms": 92360,
+          "end_ms": 96320,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 92360,
+              "end_ms": 93680
+            },
+            {
+              "word": "тот,",
+              "start_ms": 93680,
+              "end_ms": 93900
+            },
+            {
+              "word": "которого",
+              "start_ms": 93900,
+              "end_ms": 94860
+            },
+            {
+              "word": "я",
+              "start_ms": 94860,
+              "end_ms": 95400
+            },
+            {
+              "word": "ждал",
+              "start_ms": 95400,
+              "end_ms": 96320
+            }
+          ]
         },
         {
           "text": "Не победа, не армия",
-          "start_ms": 45480,
-          "end_ms": 47480
+          "start_ms": 97320,
+          "end_ms": 99320,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 97320,
+              "end_ms": 97620,
+              "estimated": true
+            },
+            {
+              "word": "победа,",
+              "start_ms": 97780,
+              "end_ms": 98380
+            },
+            {
+              "word": "не",
+              "start_ms": 98430,
+              "end_ms": 98730,
+              "estimated": true
+            },
+            {
+              "word": "армия",
+              "start_ms": 98620,
+              "end_ms": 99320
+            }
+          ]
         },
         {
           "text": "А свет, который просто есть",
-          "start_ms": 47480,
-          "end_ms": 49640
+          "start_ms": 99920,
+          "end_ms": 103360,
+          "words": [
+            {
+              "word": "А",
+              "start_ms": 99920,
+              "end_ms": 100260
+            },
+            {
+              "word": "свет,",
+              "start_ms": 100260,
+              "end_ms": 100460
+            },
+            {
+              "word": "который",
+              "start_ms": 100540,
+              "end_ms": 101000
+            },
+            {
+              "word": "просто",
+              "start_ms": 101000,
+              "end_ms": 101720
+            },
+            {
+              "word": "есть",
+              "start_ms": 101720,
+              "end_ms": 103360
+            }
+          ]
         },
         {
           "text": "Рассвет",
-          "start_ms": 49640,
-          "end_ms": 51640
+          "start_ms": 104780,
+          "end_ms": 106100,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 104780,
+              "end_ms": 106100
+            }
+          ]
         },
         {
           "text": "Рассвет идёт",
-          "start_ms": 51640,
-          "end_ms": 53640
+          "start_ms": 104780,
+          "end_ms": 109300,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 104780,
+              "end_ms": 106100
+            },
+            {
+              "word": "идёт",
+              "start_ms": 108440,
+              "end_ms": 109300
+            }
+          ]
         }
-      ],
-      "start_ms": 39480,
-      "end_ms": 53640
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 111860,
+      "end_ms": 134300,
       "lines": [
         {
           "text": "Я ждал спасения от врагов",
-          "start_ms": 56640,
-          "end_ms": 58640
+          "start_ms": 111860,
+          "end_ms": 116480,
+          "words": [
+            {
+              "word": "Я",
+              "start_ms": 111860,
+              "end_ms": 112560
+            },
+            {
+              "word": "ждал",
+              "start_ms": 112560,
+              "end_ms": 112940
+            },
+            {
+              "word": "спасения",
+              "start_ms": 112940,
+              "end_ms": 114040
+            },
+            {
+              "word": "от",
+              "start_ms": 114040,
+              "end_ms": 114560
+            },
+            {
+              "word": "врагов",
+              "start_ms": 114560,
+              "end_ms": 116480
+            }
+          ]
         },
         {
           "text": "Я ждал, что кто-то придёт и всё исправит",
-          "start_ms": 58640,
-          "end_ms": 61840
+          "start_ms": 117100,
+          "end_ms": 122660,
+          "words": [
+            {
+              "word": "Я",
+              "start_ms": 117100,
+              "end_ms": 118020
+            },
+            {
+              "word": "ждал,",
+              "start_ms": 118020,
+              "end_ms": 118580
+            },
+            {
+              "word": "что",
+              "start_ms": 118620,
+              "end_ms": 118780
+            },
+            {
+              "word": "кто-то",
+              "start_ms": 118780,
+              "end_ms": 119060
+            },
+            {
+              "word": "придёт",
+              "start_ms": 119200,
+              "end_ms": 119880
+            },
+            {
+              "word": "и",
+              "start_ms": 119880,
+              "end_ms": 120160
+            },
+            {
+              "word": "всё",
+              "start_ms": 120160,
+              "end_ms": 120760
+            },
+            {
+              "word": "исправит",
+              "start_ms": 120760,
+              "end_ms": 122660
+            }
+          ]
         },
         {
           "text": "Но тишина переписала меня",
-          "start_ms": 61840,
-          "end_ms": 63840
+          "start_ms": 123940,
+          "end_ms": 127580,
+          "words": [
+            {
+              "word": "Но",
+              "start_ms": 123940,
+              "end_ms": 124640
+            },
+            {
+              "word": "тишина",
+              "start_ms": 124640,
+              "end_ms": 125260
+            },
+            {
+              "word": "переписала",
+              "start_ms": 125260,
+              "end_ms": 126220
+            },
+            {
+              "word": "меня",
+              "start_ms": 126220,
+              "end_ms": 127580
+            }
+          ]
         },
         {
           "text": "И первое слово оказалось — прощение",
-          "start_ms": 63840,
-          "end_ms": 66640
+          "start_ms": 128100,
+          "end_ms": 134300,
+          "words": [
+            {
+              "word": "И",
+              "start_ms": 128100,
+              "end_ms": 129060
+            },
+            {
+              "word": "первое",
+              "start_ms": 129060,
+              "end_ms": 129419
+            },
+            {
+              "word": "слово",
+              "start_ms": 129419,
+              "end_ms": 130639
+            },
+            {
+              "word": "оказалось",
+              "start_ms": 130639,
+              "end_ms": 132160
+            },
+            {
+              "word": "—",
+              "start_ms": 132210,
+              "end_ms": 132510,
+              "estimated": true
+            },
+            {
+              "word": "прощение",
+              "start_ms": 132160,
+              "end_ms": 134300
+            }
+          ]
         }
-      ],
-      "start_ms": 56640,
-      "end_ms": 66640
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 136380,
+      "end_ms": 162920,
       "lines": [
         {
           "text": "Рассвет",
-          "start_ms": 69640,
-          "end_ms": 71640
+          "start_ms": 136380,
+          "end_ms": 137780,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 136380,
+              "end_ms": 137780
+            }
+          ]
         },
         {
           "text": "Рассвет идёт",
-          "start_ms": 71640,
-          "end_ms": 73640
+          "start_ms": 136380,
+          "end_ms": 143160,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 136380,
+              "end_ms": 137780
+            },
+            {
+              "word": "идёт",
+              "start_ms": 142220,
+              "end_ms": 143160
+            }
+          ]
         },
         {
           "text": "Не тот, которого я ждал",
-          "start_ms": 73640,
-          "end_ms": 75640
+          "start_ms": 144920,
+          "end_ms": 149240,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 144920,
+              "end_ms": 146320
+            },
+            {
+              "word": "тот,",
+              "start_ms": 146320,
+              "end_ms": 146500
+            },
+            {
+              "word": "которого",
+              "start_ms": 146560,
+              "end_ms": 147340
+            },
+            {
+              "word": "я",
+              "start_ms": 147340,
+              "end_ms": 148020
+            },
+            {
+              "word": "ждал",
+              "start_ms": 148020,
+              "end_ms": 149240
+            }
+          ]
         },
         {
           "text": "Не меч, не трон",
-          "start_ms": 75640,
-          "end_ms": 77640
+          "start_ms": 149240,
+          "end_ms": 152120,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 149240,
+              "end_ms": 149540,
+              "estimated": true
+            },
+            {
+              "word": "меч,",
+              "start_ms": 149800,
+              "end_ms": 150180
+            },
+            {
+              "word": "не",
+              "start_ms": 150230,
+              "end_ms": 150530,
+              "estimated": true
+            },
+            {
+              "word": "трон",
+              "start_ms": 150540,
+              "end_ms": 152120
+            }
+          ]
         },
         {
           "text": "А дорога мира",
-          "start_ms": 77640,
-          "end_ms": 79640
+          "start_ms": 152920,
+          "end_ms": 155280,
+          "words": [
+            {
+              "word": "А",
+              "start_ms": 152920,
+              "end_ms": 153620
+            },
+            {
+              "word": "дорога",
+              "start_ms": 153620,
+              "end_ms": 154260
+            },
+            {
+              "word": "мира",
+              "start_ms": 154260,
+              "end_ms": 155280
+            }
+          ]
         },
         {
           "text": "Рассвет",
-          "start_ms": 79640,
-          "end_ms": 81640
+          "start_ms": 157720,
+          "end_ms": 159120,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 157720,
+              "end_ms": 159120
+            }
+          ]
         },
         {
           "text": "Рассвет идёт",
-          "start_ms": 81640,
-          "end_ms": 83640
+          "start_ms": 157720,
+          "end_ms": 162920,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 157720,
+              "end_ms": 159120
+            },
+            {
+              "word": "идёт",
+              "start_ms": 161100,
+              "end_ms": 162920
+            }
+          ]
         }
-      ],
-      "start_ms": 69640,
-      "end_ms": 83640
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 167000,
+      "end_ms": 183060,
       "lines": [
         {
           "text": "Послушай, маленький",
-          "start_ms": 86640,
-          "end_ms": 88640
+          "start_ms": 167000,
+          "end_ms": 169100,
+          "words": [
+            {
+              "word": "Послушай,",
+              "start_ms": 167000,
+              "end_ms": 167700
+            },
+            {
+              "word": "маленький",
+              "start_ms": 167700,
+              "end_ms": 169100
+            }
+          ]
         },
         {
           "text": "Ты пойдёшь впереди",
-          "start_ms": 88640,
-          "end_ms": 90640
+          "start_ms": 170540,
+          "end_ms": 172960,
+          "words": [
+            {
+              "word": "Ты",
+              "start_ms": 170540,
+              "end_ms": 171240
+            },
+            {
+              "word": "пойдёшь",
+              "start_ms": 171240,
+              "end_ms": 171720
+            },
+            {
+              "word": "впереди",
+              "start_ms": 171720,
+              "end_ms": 172960
+            }
+          ]
         },
         {
           "text": "Ты откроешь то, что я девять месяцев",
-          "start_ms": 90640,
-          "end_ms": 93520
+          "start_ms": 170540,
+          "end_ms": 178220,
+          "words": [
+            {
+              "word": "Ты",
+              "start_ms": 170540,
+              "end_ms": 171240
+            },
+            {
+              "word": "откроешь",
+              "start_ms": 174080,
+              "end_ms": 174580
+            },
+            {
+              "word": "то,",
+              "start_ms": 174580,
+              "end_ms": 174840
+            },
+            {
+              "word": "что",
+              "start_ms": 174860,
+              "end_ms": 175140
+            },
+            {
+              "word": "я",
+              "start_ms": 175140,
+              "end_ms": 175420
+            },
+            {
+              "word": "девять",
+              "start_ms": 175420,
+              "end_ms": 175920
+            },
+            {
+              "word": "месяцев",
+              "start_ms": 175920,
+              "end_ms": 178220
+            }
+          ]
         },
         {
           "text": "Учился слышать в тишине",
-          "start_ms": 93520,
-          "end_ms": 95520
+          "start_ms": 179120,
+          "end_ms": 183060,
+          "words": [
+            {
+              "word": "Учился",
+              "start_ms": 179120,
+              "end_ms": 180540
+            },
+            {
+              "word": "слышать",
+              "start_ms": 180540,
+              "end_ms": 181380
+            },
+            {
+              "word": "в",
+              "start_ms": 181380,
+              "end_ms": 181600
+            },
+            {
+              "word": "тишине",
+              "start_ms": 181600,
+              "end_ms": 183060
+            }
+          ]
         }
-      ],
-      "start_ms": 86640,
-      "end_ms": 95520
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Fade Out",
+      "label": "Outro",
+      "start_ms": 185180,
+      "end_ms": 186580,
       "lines": [
         {
           "text": "Рассвет",
-          "start_ms": 98520,
-          "end_ms": 100520
+          "start_ms": 185180,
+          "end_ms": 186580,
+          "words": [
+            {
+              "word": "Рассвет",
+              "start_ms": 185180,
+              "end_ms": 186580
+            }
+          ]
         }
-      ],
-      "start_ms": 98520,
-      "end_ms": 100520
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "```",
-          "start_ms": 103520,
-          "end_ms": 105520
-        },
-        {
-          "text": "---",
-          "start_ms": 105520,
-          "end_ms": 107520
-        }
-      ],
-      "start_ms": 103520,
-      "end_ms": 107520
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Я думал, мне вернут голос",
+      "section_type": "chorus",
+      "start_ms": 58620,
+      "end_ms": 81320,
+      "key_line": "Я думал, мне вернут голос",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Рассвет",
+      "section_type": "chorus",
+      "start_ms": 84200,
+      "end_ms": 109300,
+      "key_line": "Рассвет",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Рассвет",
+      "section_type": "chorus",
+      "start_ms": 136380,
+      "end_ms": 162920,
+      "key_line": "Рассвет",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 167000,
+      "end_ms": 183060,
+      "key_line": "Послушай, маленький",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/russian/42_luke_01_1-67_transcript.json"
 }

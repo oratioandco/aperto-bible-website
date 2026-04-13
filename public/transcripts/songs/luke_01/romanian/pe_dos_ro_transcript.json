@@ -7,275 +7,1484 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 161920,
   "audio_file": "/audio/songs/luke_01/romanian/Luke 1_46-56 Pe dos (Romanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.255634+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.040150+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.905,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Melodic Rap",
+      "label": "Verse 1",
+      "start_ms": 20880,
+      "end_ms": 40540,
       "lines": [
         {
           "text": "Tot ce e în mine se bucură",
-          "start_ms": 6000,
-          "end_ms": 8080
+          "start_ms": 20880,
+          "end_ms": 23560,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 20880,
+              "end_ms": 21500
+            },
+            {
+              "word": "ce",
+              "start_ms": 21520,
+              "end_ms": 21920
+            },
+            {
+              "word": "e",
+              "start_ms": 21520,
+              "end_ms": 21920
+            },
+            {
+              "word": "în",
+              "start_ms": 21970,
+              "end_ms": 22270,
+              "estimated": true
+            },
+            {
+              "word": "mine",
+              "start_ms": 22060,
+              "end_ms": 22280
+            },
+            {
+              "word": "se",
+              "start_ms": 22330,
+              "end_ms": 22630,
+              "estimated": true
+            },
+            {
+              "word": "bucură",
+              "start_ms": 22680,
+              "end_ms": 23560
+            }
+          ]
         },
         {
           "text": "nu de frică — de bucurie",
-          "start_ms": 8080,
-          "end_ms": 10080
+          "start_ms": 23560,
+          "end_ms": 25960,
+          "words": [
+            {
+              "word": "nu",
+              "start_ms": 23560,
+              "end_ms": 23820
+            },
+            {
+              "word": "de",
+              "start_ms": 22400,
+              "end_ms": 22680
+            },
+            {
+              "word": "frică",
+              "start_ms": 24160,
+              "end_ms": 24660
+            },
+            {
+              "word": "—",
+              "start_ms": 24710,
+              "end_ms": 25010,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 23820,
+              "end_ms": 24160
+            },
+            {
+              "word": "bucurie",
+              "start_ms": 24920,
+              "end_ms": 25960
+            }
+          ]
         },
         {
           "text": "pentru că cineva m-a văzut",
-          "start_ms": 10080,
-          "end_ms": 12160
+          "start_ms": 25960,
+          "end_ms": 28460,
+          "words": [
+            {
+              "word": "pentru",
+              "start_ms": 25960,
+              "end_ms": 26540
+            },
+            {
+              "word": "că",
+              "start_ms": 26540,
+              "end_ms": 26680
+            },
+            {
+              "word": "cineva",
+              "start_ms": 26680,
+              "end_ms": 27380
+            },
+            {
+              "word": "m-a",
+              "start_ms": 27580,
+              "end_ms": 27740
+            },
+            {
+              "word": "văzut",
+              "start_ms": 27740,
+              "end_ms": 28460
+            }
+          ]
         },
         {
           "text": "pe mine, cea mică, cea din sat",
-          "start_ms": 12160,
-          "end_ms": 14560
+          "start_ms": 28460,
+          "end_ms": 31160,
+          "words": [
+            {
+              "word": "pe",
+              "start_ms": 28460,
+              "end_ms": 28720
+            },
+            {
+              "word": "mine,",
+              "start_ms": 28720,
+              "end_ms": 29000
+            },
+            {
+              "word": "cea",
+              "start_ms": 29000,
+              "end_ms": 29480
+            },
+            {
+              "word": "mică,",
+              "start_ms": 29480,
+              "end_ms": 29980
+            },
+            {
+              "word": "cea",
+              "start_ms": 29000,
+              "end_ms": 29480
+            },
+            {
+              "word": "din",
+              "start_ms": 30440,
+              "end_ms": 30700
+            },
+            {
+              "word": "sat",
+              "start_ms": 30700,
+              "end_ms": 31160
+            }
+          ]
         },
         {
           "text": "un copil neplănuit",
-          "start_ms": 14560,
-          "end_ms": 16560
+          "start_ms": 31160,
+          "end_ms": 33680,
+          "words": [
+            {
+              "word": "un",
+              "start_ms": 31160,
+              "end_ms": 31840
+            },
+            {
+              "word": "copil",
+              "start_ms": 31840,
+              "end_ms": 32360
+            },
+            {
+              "word": "neplănuit",
+              "start_ms": 32360,
+              "end_ms": 33680
+            }
+          ]
         },
         {
           "text": "și o lume care n-are nicio idee",
-          "start_ms": 16560,
-          "end_ms": 19040
+          "start_ms": 33680,
+          "end_ms": 36600,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 33680,
+              "end_ms": 33940
+            },
+            {
+              "word": "o",
+              "start_ms": 33940,
+              "end_ms": 34040
+            },
+            {
+              "word": "lume",
+              "start_ms": 34040,
+              "end_ms": 34320
+            },
+            {
+              "word": "care",
+              "start_ms": 34320,
+              "end_ms": 34660
+            },
+            {
+              "word": "n-are",
+              "start_ms": 34720,
+              "end_ms": 35060
+            },
+            {
+              "word": "nicio",
+              "start_ms": 35060,
+              "end_ms": 35840
+            },
+            {
+              "word": "idee",
+              "start_ms": 35840,
+              "end_ms": 36600
+            }
+          ]
         },
         {
           "text": "dar stați — ascultați ce am de spus",
-          "start_ms": 19040,
-          "end_ms": 21840
+          "start_ms": 36600,
+          "end_ms": 40540,
+          "words": [
+            {
+              "word": "dar",
+              "start_ms": 36600,
+              "end_ms": 37320
+            },
+            {
+              "word": "stați",
+              "start_ms": 37320,
+              "end_ms": 38160
+            },
+            {
+              "word": "—",
+              "start_ms": 38210,
+              "end_ms": 38510,
+              "estimated": true
+            },
+            {
+              "word": "ascultați",
+              "start_ms": 38380,
+              "end_ms": 39100
+            },
+            {
+              "word": "ce",
+              "start_ms": 39100,
+              "end_ms": 39380
+            },
+            {
+              "word": "am",
+              "start_ms": 39380,
+              "end_ms": 39700
+            },
+            {
+              "word": "de",
+              "start_ms": 39700,
+              "end_ms": 40080
+            },
+            {
+              "word": "spus",
+              "start_ms": 40080,
+              "end_ms": 40540
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 21840
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 46040,
+      "end_ms": 57820,
       "lines": [
         {
           "text": "Pe dos, pe dos",
-          "start_ms": 24840,
-          "end_ms": 26840
+          "start_ms": 46040,
+          "end_ms": 47220,
+          "words": [
+            {
+              "word": "Pe",
+              "start_ms": 46040,
+              "end_ms": 46300
+            },
+            {
+              "word": "dos,",
+              "start_ms": 44199,
+              "end_ms": 45120
+            },
+            {
+              "word": "pe",
+              "start_ms": 46040,
+              "end_ms": 46300
+            },
+            {
+              "word": "dos",
+              "start_ms": 46300,
+              "end_ms": 47220
+            }
+          ]
         },
         {
           "text": "totul e pe dos",
-          "start_ms": 26840,
-          "end_ms": 28840
+          "start_ms": 45480,
+          "end_ms": 47220,
+          "words": [
+            {
+              "word": "totul",
+              "start_ms": 45480,
+              "end_ms": 46040
+            },
+            {
+              "word": "e",
+              "start_ms": 46040,
+              "end_ms": 46300
+            },
+            {
+              "word": "pe",
+              "start_ms": 46040,
+              "end_ms": 46300
+            },
+            {
+              "word": "dos",
+              "start_ms": 46300,
+              "end_ms": 47220
+            }
+          ]
         },
         {
           "text": "cei de sus coboară",
-          "start_ms": 28840,
-          "end_ms": 30840
+          "start_ms": 47220,
+          "end_ms": 50120,
+          "words": [
+            {
+              "word": "cei",
+              "start_ms": 47220,
+              "end_ms": 47600
+            },
+            {
+              "word": "de",
+              "start_ms": 47600,
+              "end_ms": 47680
+            },
+            {
+              "word": "sus",
+              "start_ms": 47680,
+              "end_ms": 47860
+            },
+            {
+              "word": "coboară",
+              "start_ms": 47860,
+              "end_ms": 50120
+            }
+          ]
         },
         {
           "text": "cei de jos se ridică",
-          "start_ms": 30840,
-          "end_ms": 32840
+          "start_ms": 50280,
+          "end_ms": 52960,
+          "words": [
+            {
+              "word": "cei",
+              "start_ms": 50280,
+              "end_ms": 50620
+            },
+            {
+              "word": "de",
+              "start_ms": 50620,
+              "end_ms": 50900
+            },
+            {
+              "word": "jos",
+              "start_ms": 50900,
+              "end_ms": 51360
+            },
+            {
+              "word": "se",
+              "start_ms": 51360,
+              "end_ms": 51780
+            },
+            {
+              "word": "ridică",
+              "start_ms": 51780,
+              "end_ms": 52960
+            }
+          ]
         },
         {
           "text": "pe dos, pe dos",
-          "start_ms": 32840,
-          "end_ms": 34840
+          "start_ms": 56760,
+          "end_ms": 57820,
+          "words": [
+            {
+              "word": "pe",
+              "start_ms": 56760,
+              "end_ms": 57000
+            },
+            {
+              "word": "dos,",
+              "start_ms": 54520,
+              "end_ms": 55680
+            },
+            {
+              "word": "pe",
+              "start_ms": 56760,
+              "end_ms": 57000
+            },
+            {
+              "word": "dos",
+              "start_ms": 57000,
+              "end_ms": 57820
+            }
+          ]
         },
         {
           "text": "totul e pe dos",
-          "start_ms": 34840,
-          "end_ms": 36840
+          "start_ms": 56140,
+          "end_ms": 57820,
+          "words": [
+            {
+              "word": "totul",
+              "start_ms": 56140,
+              "end_ms": 56760
+            },
+            {
+              "word": "e",
+              "start_ms": 56760,
+              "end_ms": 57000
+            },
+            {
+              "word": "pe",
+              "start_ms": 56760,
+              "end_ms": 57000
+            },
+            {
+              "word": "dos",
+              "start_ms": 57000,
+              "end_ms": 57820
+            }
+          ]
         }
-      ],
-      "start_ms": 24840,
-      "end_ms": 36840
+      ]
     },
     {
       "type": "verse",
-      "label": "Verse 2] [Melodic Rap",
+      "label": "Verse 2",
+      "start_ms": 60800,
+      "end_ms": 81460,
       "lines": [
         {
           "text": "S-a uitat la mine — la neînsemnătatea mea",
-          "start_ms": 39840,
-          "end_ms": 43120
+          "start_ms": 60800,
+          "end_ms": 64000,
+          "words": [
+            {
+              "word": "S-a",
+              "start_ms": 60800,
+              "end_ms": 61540
+            },
+            {
+              "word": "uitat",
+              "start_ms": 61540,
+              "end_ms": 61880
+            },
+            {
+              "word": "la",
+              "start_ms": 61880,
+              "end_ms": 62120
+            },
+            {
+              "word": "mine",
+              "start_ms": 62120,
+              "end_ms": 62320
+            },
+            {
+              "word": "—",
+              "start_ms": 62370,
+              "end_ms": 62670,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 61880,
+              "end_ms": 62120
+            },
+            {
+              "word": "neînsemnătatea",
+              "start_ms": 62680,
+              "end_ms": 63780
+            },
+            {
+              "word": "mea",
+              "start_ms": 63780,
+              "end_ms": 64000
+            }
+          ]
         },
         {
           "text": "dintr-un sat de două sute de suflete",
-          "start_ms": 43120,
-          "end_ms": 46000
+          "start_ms": 64000,
+          "end_ms": 66680,
+          "words": [
+            {
+              "word": "dintr-un",
+              "start_ms": 64000,
+              "end_ms": 64280
+            },
+            {
+              "word": "sat",
+              "start_ms": 64400,
+              "end_ms": 64560
+            },
+            {
+              "word": "de",
+              "start_ms": 64560,
+              "end_ms": 64840
+            },
+            {
+              "word": "două",
+              "start_ms": 64890,
+              "end_ms": 65190,
+              "estimated": true
+            },
+            {
+              "word": "sute",
+              "start_ms": 65960,
+              "end_ms": 66680
+            },
+            {
+              "word": "de",
+              "start_ms": 65440,
+              "end_ms": 65960
+            },
+            {
+              "word": "suflete",
+              "start_ms": 65960,
+              "end_ms": 66680
+            }
+          ]
         },
         {
           "text": "a făcut ceva mare din nimicul meu",
-          "start_ms": 46000,
-          "end_ms": 48640
+          "start_ms": 66680,
+          "end_ms": 69100,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 66680,
+              "end_ms": 66860
+            },
+            {
+              "word": "făcut",
+              "start_ms": 66860,
+              "end_ms": 67180
+            },
+            {
+              "word": "ceva",
+              "start_ms": 67180,
+              "end_ms": 67740
+            },
+            {
+              "word": "mare",
+              "start_ms": 67740,
+              "end_ms": 67960
+            },
+            {
+              "word": "din",
+              "start_ms": 67960,
+              "end_ms": 68260
+            },
+            {
+              "word": "nimicul",
+              "start_ms": 68260,
+              "end_ms": 68860
+            },
+            {
+              "word": "meu",
+              "start_ms": 68860,
+              "end_ms": 69100
+            }
+          ]
         },
         {
           "text": "i-a risipit pe cei mândri",
-          "start_ms": 48640,
-          "end_ms": 50640
+          "start_ms": 69360,
+          "end_ms": 71500,
+          "words": [
+            {
+              "word": "i-a",
+              "start_ms": 69360,
+              "end_ms": 69420
+            },
+            {
+              "word": "risipit",
+              "start_ms": 69420,
+              "end_ms": 70000
+            },
+            {
+              "word": "pe",
+              "start_ms": 71500,
+              "end_ms": 72020
+            },
+            {
+              "word": "cei",
+              "start_ms": 72020,
+              "end_ms": 72460
+            },
+            {
+              "word": "mândri",
+              "start_ms": 70620,
+              "end_ms": 71500
+            }
+          ]
         },
         {
           "text": "pe cei care se credeau cineva",
-          "start_ms": 50640,
-          "end_ms": 52960
+          "start_ms": 71500,
+          "end_ms": 74140,
+          "words": [
+            {
+              "word": "pe",
+              "start_ms": 71500,
+              "end_ms": 72020
+            },
+            {
+              "word": "cei",
+              "start_ms": 72020,
+              "end_ms": 72460
+            },
+            {
+              "word": "care",
+              "start_ms": 72460,
+              "end_ms": 72640
+            },
+            {
+              "word": "se",
+              "start_ms": 72640,
+              "end_ms": 72880
+            },
+            {
+              "word": "credeau",
+              "start_ms": 72880,
+              "end_ms": 73300
+            },
+            {
+              "word": "cineva",
+              "start_ms": 73300,
+              "end_ms": 74140
+            }
+          ]
         },
         {
           "text": "și mila lui curge — generație de generație",
-          "start_ms": 52960,
-          "end_ms": 56320
+          "start_ms": 74140,
+          "end_ms": 77120,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 74140,
+              "end_ms": 74660
+            },
+            {
+              "word": "mila",
+              "start_ms": 74660,
+              "end_ms": 75040
+            },
+            {
+              "word": "lui",
+              "start_ms": 75040,
+              "end_ms": 75360
+            },
+            {
+              "word": "curge",
+              "start_ms": 75360,
+              "end_ms": 75960
+            },
+            {
+              "word": "—",
+              "start_ms": 76010,
+              "end_ms": 76310,
+              "estimated": true
+            },
+            {
+              "word": "generație",
+              "start_ms": 75960,
+              "end_ms": 77120
+            },
+            {
+              "word": "de",
+              "start_ms": 77120,
+              "end_ms": 77380
+            },
+            {
+              "word": "generație",
+              "start_ms": 75960,
+              "end_ms": 77120
+            }
+          ]
         },
         {
           "text": "peste cei care-l caută",
-          "start_ms": 56320,
-          "end_ms": 58320
+          "start_ms": 78900,
+          "end_ms": 81460,
+          "words": [
+            {
+              "word": "peste",
+              "start_ms": 78900,
+              "end_ms": 79340
+            },
+            {
+              "word": "cei",
+              "start_ms": 79340,
+              "end_ms": 79780
+            },
+            {
+              "word": "care-l",
+              "start_ms": 79780,
+              "end_ms": 80020
+            },
+            {
+              "word": "caută",
+              "start_ms": 80220,
+              "end_ms": 81460
+            }
+          ]
         }
-      ],
-      "start_ms": 39840,
-      "end_ms": 58320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 86040,
+      "end_ms": 99910,
       "lines": [
         {
           "text": "Pe dos, pe dos",
-          "start_ms": 61320,
-          "end_ms": 63320
+          "start_ms": 86040,
+          "end_ms": 86670,
+          "words": [
+            {
+              "word": "Pe",
+              "start_ms": 86040,
+              "end_ms": 86300
+            },
+            {
+              "word": "dos,",
+              "start_ms": 84440,
+              "end_ms": 85180
+            },
+            {
+              "word": "pe",
+              "start_ms": 86040,
+              "end_ms": 86300
+            },
+            {
+              "word": "dos",
+              "start_ms": 86300,
+              "end_ms": 86670
+            }
+          ]
         },
         {
           "text": "totul e pe dos",
-          "start_ms": 63320,
-          "end_ms": 65320
+          "start_ms": 85520,
+          "end_ms": 86670,
+          "words": [
+            {
+              "word": "totul",
+              "start_ms": 85520,
+              "end_ms": 86040
+            },
+            {
+              "word": "e",
+              "start_ms": 86040,
+              "end_ms": 86300
+            },
+            {
+              "word": "pe",
+              "start_ms": 86040,
+              "end_ms": 86300
+            },
+            {
+              "word": "dos",
+              "start_ms": 86300,
+              "end_ms": 86670
+            }
+          ]
         },
         {
           "text": "cei de sus coboară",
-          "start_ms": 65320,
-          "end_ms": 67320
+          "start_ms": 86670,
+          "end_ms": 90150,
+          "words": [
+            {
+              "word": "cei",
+              "start_ms": 86670,
+              "end_ms": 87570
+            },
+            {
+              "word": "de",
+              "start_ms": 87570,
+              "end_ms": 87650
+            },
+            {
+              "word": "sus",
+              "start_ms": 87650,
+              "end_ms": 87870
+            },
+            {
+              "word": "coboară",
+              "start_ms": 87870,
+              "end_ms": 90150
+            }
+          ]
         },
         {
           "text": "cei de jos se ridică",
-          "start_ms": 67320,
-          "end_ms": 69320
+          "start_ms": 90250,
+          "end_ms": 92970,
+          "words": [
+            {
+              "word": "cei",
+              "start_ms": 90250,
+              "end_ms": 90590
+            },
+            {
+              "word": "de",
+              "start_ms": 90590,
+              "end_ms": 90950
+            },
+            {
+              "word": "jos",
+              "start_ms": 90950,
+              "end_ms": 91350
+            },
+            {
+              "word": "se",
+              "start_ms": 91350,
+              "end_ms": 91750
+            },
+            {
+              "word": "ridică",
+              "start_ms": 91750,
+              "end_ms": 92970
+            }
+          ]
         },
         {
           "text": "pe dos, pe dos",
-          "start_ms": 69320,
-          "end_ms": 71320
+          "start_ms": 96710,
+          "end_ms": 99910,
+          "words": [
+            {
+              "word": "pe",
+              "start_ms": 96710,
+              "end_ms": 97010
+            },
+            {
+              "word": "dos,",
+              "start_ms": 94530,
+              "end_ms": 95750
+            },
+            {
+              "word": "pe",
+              "start_ms": 100110,
+              "end_ms": 100390
+            },
+            {
+              "word": "dos",
+              "start_ms": 99590,
+              "end_ms": 99910
+            }
+          ]
         },
         {
           "text": "totul e pe dos",
-          "start_ms": 71320,
-          "end_ms": 73320
+          "start_ms": 99910,
+          "end_ms": 99910,
+          "words": [
+            {
+              "word": "totul",
+              "start_ms": 99910,
+              "end_ms": 100210,
+              "estimated": true
+            },
+            {
+              "word": "e",
+              "start_ms": 99910,
+              "end_ms": 100110
+            },
+            {
+              "word": "pe",
+              "start_ms": 100110,
+              "end_ms": 100390
+            },
+            {
+              "word": "dos",
+              "start_ms": 99590,
+              "end_ms": 99910
+            }
+          ]
         }
-      ],
-      "start_ms": 61320,
-      "end_ms": 73320
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Powerful",
+      "label": "Bridge",
+      "start_ms": 99290,
+      "end_ms": 117890,
       "lines": [
         {
           "text": "I-a dat jos de pe tronuri!",
-          "start_ms": 76320,
-          "end_ms": 78400
+          "start_ms": 99290,
+          "end_ms": 100790,
+          "words": [
+            {
+              "word": "I-a",
+              "start_ms": 99290,
+              "end_ms": 99290
+            },
+            {
+              "word": "dat",
+              "start_ms": 99290,
+              "end_ms": 99590
+            },
+            {
+              "word": "jos",
+              "start_ms": 99590,
+              "end_ms": 99910
+            },
+            {
+              "word": "de",
+              "start_ms": 99910,
+              "end_ms": 100110
+            },
+            {
+              "word": "pe",
+              "start_ms": 100110,
+              "end_ms": 100390
+            },
+            {
+              "word": "tronuri!",
+              "start_ms": 100390,
+              "end_ms": 100790
+            }
+          ]
         },
         {
           "text": "Pe cei flămânzi i-a săturat!",
-          "start_ms": 78400,
-          "end_ms": 80640
+          "start_ms": 100110,
+          "end_ms": 103890,
+          "words": [
+            {
+              "word": "Pe",
+              "start_ms": 100110,
+              "end_ms": 100390
+            },
+            {
+              "word": "cei",
+              "start_ms": 101750,
+              "end_ms": 102030
+            },
+            {
+              "word": "flămânzi",
+              "start_ms": 102030,
+              "end_ms": 102630
+            },
+            {
+              "word": "i-a",
+              "start_ms": 102770,
+              "end_ms": 102830
+            },
+            {
+              "word": "săturat!",
+              "start_ms": 102830,
+              "end_ms": 103890
+            }
+          ]
         },
         {
           "text": "Pe cei bogați — cu mâinile goale!",
-          "start_ms": 80640,
-          "end_ms": 83280
+          "start_ms": 103890,
+          "end_ms": 106770,
+          "words": [
+            {
+              "word": "Pe",
+              "start_ms": 103890,
+              "end_ms": 104250
+            },
+            {
+              "word": "cei",
+              "start_ms": 104250,
+              "end_ms": 104650
+            },
+            {
+              "word": "bogați",
+              "start_ms": 104650,
+              "end_ms": 105450
+            },
+            {
+              "word": "—",
+              "start_ms": 105500,
+              "end_ms": 105800,
+              "estimated": true
+            },
+            {
+              "word": "cu",
+              "start_ms": 105450,
+              "end_ms": 105710
+            },
+            {
+              "word": "mâinile",
+              "start_ms": 105710,
+              "end_ms": 106370
+            },
+            {
+              "word": "goale!",
+              "start_ms": 106370,
+              "end_ms": 106770
+            }
+          ]
         },
         {
           "text": "Guatemala a interzis cântecul ăsta —",
-          "start_ms": 83280,
-          "end_ms": 86160
+          "start_ms": 107949,
+          "end_ms": 113610,
+          "words": [
+            {
+              "word": "Guatemala",
+              "start_ms": 107949,
+              "end_ms": 108750
+            },
+            {
+              "word": "a",
+              "start_ms": 112170,
+              "end_ms": 112210
+            },
+            {
+              "word": "interzis",
+              "start_ms": 112260,
+              "end_ms": 112560,
+              "estimated": true
+            },
+            {
+              "word": "cântecul",
+              "start_ms": 112610,
+              "end_ms": 112910,
+              "estimated": true
+            },
+            {
+              "word": "ăsta",
+              "start_ms": 112960,
+              "end_ms": 113260,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 113310,
+              "end_ms": 113610,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "și s-a ținut de promisiune",
-          "start_ms": 86160,
-          "end_ms": 88240
+          "start_ms": 111589,
+          "end_ms": 113670,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 111589,
+              "end_ms": 111990
+            },
+            {
+              "word": "s-a",
+              "start_ms": 112170,
+              "end_ms": 112210
+            },
+            {
+              "word": "ținut",
+              "start_ms": 112210,
+              "end_ms": 112490
+            },
+            {
+              "word": "de",
+              "start_ms": 112490,
+              "end_ms": 112830
+            },
+            {
+              "word": "promisiune",
+              "start_ms": 112830,
+              "end_ms": 113670
+            }
+          ]
         },
         {
           "text": "de la Avraam până azi",
-          "start_ms": 88240,
-          "end_ms": 90240
+          "start_ms": 112490,
+          "end_ms": 117890,
+          "words": [
+            {
+              "word": "de",
+              "start_ms": 112490,
+              "end_ms": 112830
+            },
+            {
+              "word": "la",
+              "start_ms": 114390,
+              "end_ms": 116010
+            },
+            {
+              "word": "Avraam",
+              "start_ms": 116010,
+              "end_ms": 116870
+            },
+            {
+              "word": "până",
+              "start_ms": 116870,
+              "end_ms": 117310
+            },
+            {
+              "word": "azi",
+              "start_ms": 117310,
+              "end_ms": 117890
+            }
+          ]
         }
-      ],
-      "start_ms": 76320,
-      "end_ms": 90240
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 123390,
+      "end_ms": 134910,
       "lines": [
         {
           "text": "PE DOS! pe dos!",
-          "start_ms": 93240,
-          "end_ms": 95240
+          "start_ms": 123390,
+          "end_ms": 124230,
+          "words": [
+            {
+              "word": "PE",
+              "start_ms": 123390,
+              "end_ms": 123650
+            },
+            {
+              "word": "DOS!",
+              "start_ms": 123650,
+              "end_ms": 124230
+            },
+            {
+              "word": "pe",
+              "start_ms": 123390,
+              "end_ms": 123650
+            },
+            {
+              "word": "dos!",
+              "start_ms": 123650,
+              "end_ms": 124230
+            }
+          ]
         },
         {
           "text": "totul e pe dos!",
-          "start_ms": 95240,
-          "end_ms": 97240
+          "start_ms": 122790,
+          "end_ms": 124230,
+          "words": [
+            {
+              "word": "totul",
+              "start_ms": 122790,
+              "end_ms": 123390
+            },
+            {
+              "word": "e",
+              "start_ms": 123390,
+              "end_ms": 123650
+            },
+            {
+              "word": "pe",
+              "start_ms": 123390,
+              "end_ms": 123650
+            },
+            {
+              "word": "dos!",
+              "start_ms": 123650,
+              "end_ms": 124230
+            }
+          ]
         },
         {
           "text": "cei de sus coboară",
-          "start_ms": 97240,
-          "end_ms": 99240
+          "start_ms": 124530,
+          "end_ms": 127410,
+          "words": [
+            {
+              "word": "cei",
+              "start_ms": 124530,
+              "end_ms": 124910
+            },
+            {
+              "word": "de",
+              "start_ms": 124910,
+              "end_ms": 124990
+            },
+            {
+              "word": "sus",
+              "start_ms": 124990,
+              "end_ms": 125190
+            },
+            {
+              "word": "coboară",
+              "start_ms": 125190,
+              "end_ms": 127410
+            }
+          ]
         },
         {
           "text": "cei de jos se ridică",
-          "start_ms": 99240,
-          "end_ms": 101240
+          "start_ms": 127610,
+          "end_ms": 129690,
+          "words": [
+            {
+              "word": "cei",
+              "start_ms": 127610,
+              "end_ms": 127970
+            },
+            {
+              "word": "de",
+              "start_ms": 127970,
+              "end_ms": 128229
+            },
+            {
+              "word": "jos",
+              "start_ms": 128229,
+              "end_ms": 128690
+            },
+            {
+              "word": "se",
+              "start_ms": 128690,
+              "end_ms": 129110
+            },
+            {
+              "word": "ridică",
+              "start_ms": 129110,
+              "end_ms": 129690
+            }
+          ]
         },
         {
           "text": "pe dos, pe dos",
-          "start_ms": 101240,
-          "end_ms": 103240
+          "start_ms": 134090,
+          "end_ms": 134910,
+          "words": [
+            {
+              "word": "pe",
+              "start_ms": 134090,
+              "end_ms": 134330
+            },
+            {
+              "word": "dos,",
+              "start_ms": 131830,
+              "end_ms": 132990
+            },
+            {
+              "word": "pe",
+              "start_ms": 134090,
+              "end_ms": 134330
+            },
+            {
+              "word": "dos",
+              "start_ms": 134330,
+              "end_ms": 134910
+            }
+          ]
         },
         {
           "text": "totul e pe dos!",
-          "start_ms": 103240,
-          "end_ms": 105240
+          "start_ms": 133390,
+          "end_ms": 134910,
+          "words": [
+            {
+              "word": "totul",
+              "start_ms": 133390,
+              "end_ms": 134090
+            },
+            {
+              "word": "e",
+              "start_ms": 134090,
+              "end_ms": 134330
+            },
+            {
+              "word": "pe",
+              "start_ms": 134090,
+              "end_ms": 134330
+            },
+            {
+              "word": "dos!",
+              "start_ms": 134330,
+              "end_ms": 134910
+            }
+          ]
         }
-      ],
-      "start_ms": 93240,
-      "end_ms": 105240
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 138150,
+      "end_ms": 149470,
       "lines": [
         {
           "text": "Maria a rămas trei luni",
-          "start_ms": 108240,
-          "end_ms": 110240
+          "start_ms": 138150,
+          "end_ms": 150170,
+          "words": [
+            {
+              "word": "Maria",
+              "start_ms": 138150,
+              "end_ms": 139010
+            },
+            {
+              "word": "a",
+              "start_ms": 142790,
+              "end_ms": 142850
+            },
+            {
+              "word": "rămas",
+              "start_ms": 148890,
+              "end_ms": 149470
+            },
+            {
+              "word": "trei",
+              "start_ms": 149520,
+              "end_ms": 149820,
+              "estimated": true
+            },
+            {
+              "word": "luni",
+              "start_ms": 149870,
+              "end_ms": 150170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "apoi s-a întors acasă",
-          "start_ms": 110240,
-          "end_ms": 112240
+          "start_ms": 0,
+          "end_ms": 1350,
+          "words": [
+            {
+              "word": "apoi",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "s-a",
+              "start_ms": 350,
+              "end_ms": 650,
+              "estimated": true
+            },
+            {
+              "word": "întors",
+              "start_ms": 700,
+              "end_ms": 1000,
+              "estimated": true
+            },
+            {
+              "word": "acasă",
+              "start_ms": 1050,
+              "end_ms": 1350,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "dar cântecul... cântecul a rămas",
-          "start_ms": 112240,
-          "end_ms": 114800
+          "start_ms": 0,
+          "end_ms": 149470,
+          "words": [
+            {
+              "word": "dar",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "cântecul...",
+              "start_ms": 148050,
+              "end_ms": 148790
+            },
+            {
+              "word": "cântecul",
+              "start_ms": 148050,
+              "end_ms": 148790
+            },
+            {
+              "word": "a",
+              "start_ms": 148790,
+              "end_ms": 148890
+            },
+            {
+              "word": "rămas",
+              "start_ms": 148890,
+              "end_ms": 149470
+            }
+          ]
         }
-      ],
-      "start_ms": 108240,
-      "end_ms": 114800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Pe dos, pe dos",
+      "section_type": "chorus",
+      "start_ms": 46040,
+      "end_ms": 57820,
+      "key_line": "Pe dos, pe dos",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Pe dos, pe dos",
+      "section_type": "chorus",
+      "start_ms": 86040,
+      "end_ms": 99910,
+      "key_line": "Pe dos, pe dos",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 99290,
+      "end_ms": 117890,
+      "key_line": "I-a dat jos de pe tronuri!",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - PE DOS! pe dos!",
+      "section_type": "chorus",
+      "start_ms": 123390,
+      "end_ms": 134910,
+      "key_line": "PE DOS! pe dos!",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/romanian/42_luke_01_1-46_transcript.json"
 }

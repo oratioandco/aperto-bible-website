@@ -7,279 +7,1399 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:64-79",
-  "duration_ms": 220000,
+  "duration_ms": 271800,
   "audio_file": "/audio/songs/luke_01/it/Luke 1_64-79 — _Nove mesi di silenzio_ — Italian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.124551+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.996176+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.97,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 0,
+      "end_ms": 42300,
       "lines": [
         {
           "text": "Nove mesi senza voce",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 0,
+          "end_ms": 25640,
+          "words": [
+            {
+              "word": "Nove",
+              "start_ms": 0,
+              "end_ms": 2680
+            },
+            {
+              "word": "mesi",
+              "start_ms": 2680,
+              "end_ms": 21120
+            },
+            {
+              "word": "senza",
+              "start_ms": 21120,
+              "end_ms": 21600
+            },
+            {
+              "word": "voce",
+              "start_ms": 21600,
+              "end_ms": 25640
+            }
+          ]
         },
         {
           "text": "nove mesi senza dire niente",
-          "start_ms": 8000,
-          "end_ms": 10160
+          "start_ms": 25640,
+          "end_ms": 35330,
+          "words": [
+            {
+              "word": "nove",
+              "start_ms": 25640,
+              "end_ms": 27260
+            },
+            {
+              "word": "mesi",
+              "start_ms": 27260,
+              "end_ms": 27720
+            },
+            {
+              "word": "senza",
+              "start_ms": 27720,
+              "end_ms": 28260
+            },
+            {
+              "word": "dire",
+              "start_ms": 34720,
+              "end_ms": 34980
+            },
+            {
+              "word": "niente",
+              "start_ms": 35030,
+              "end_ms": 35330,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "solo il rumore dei miei passi",
-          "start_ms": 10160,
-          "end_ms": 12480
+          "start_ms": 34980,
+          "end_ms": 36140,
+          "words": [
+            {
+              "word": "solo",
+              "start_ms": 34980,
+              "end_ms": 35280,
+              "estimated": true
+            },
+            {
+              "word": "il",
+              "start_ms": 34080,
+              "end_ms": 34300
+            },
+            {
+              "word": "rumore",
+              "start_ms": 34300,
+              "end_ms": 34720
+            },
+            {
+              "word": "dei",
+              "start_ms": 34720,
+              "end_ms": 34980
+            },
+            {
+              "word": "miei",
+              "start_ms": 34980,
+              "end_ms": 35560
+            },
+            {
+              "word": "passi",
+              "start_ms": 35560,
+              "end_ms": 36140
+            }
+          ]
         },
         {
           "text": "e il mondo che parlava senza me",
-          "start_ms": 12480,
-          "end_ms": 14960
+          "start_ms": 37060,
+          "end_ms": 42300,
+          "words": [
+            {
+              "word": "e",
+              "start_ms": 37060,
+              "end_ms": 37360
+            },
+            {
+              "word": "il",
+              "start_ms": 37360,
+              "end_ms": 37520
+            },
+            {
+              "word": "mondo",
+              "start_ms": 37520,
+              "end_ms": 37780
+            },
+            {
+              "word": "che",
+              "start_ms": 37780,
+              "end_ms": 39220
+            },
+            {
+              "word": "parlava",
+              "start_ms": 39220,
+              "end_ms": 40640
+            },
+            {
+              "word": "senza",
+              "start_ms": 40640,
+              "end_ms": 41160
+            },
+            {
+              "word": "me",
+              "start_ms": 41160,
+              "end_ms": 42300
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14960
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 44440,
+      "end_ms": 66380,
       "lines": [
         {
           "text": "Ho contato i giorni col respiro",
-          "start_ms": 17960,
-          "end_ms": 20440
+          "start_ms": 44440,
+          "end_ms": 48980,
+          "words": [
+            {
+              "word": "Ho",
+              "start_ms": 44440,
+              "end_ms": 45600
+            },
+            {
+              "word": "contato",
+              "start_ms": 45600,
+              "end_ms": 46140
+            },
+            {
+              "word": "i",
+              "start_ms": 46140,
+              "end_ms": 46400
+            },
+            {
+              "word": "giorni",
+              "start_ms": 46400,
+              "end_ms": 47480
+            },
+            {
+              "word": "col",
+              "start_ms": 47480,
+              "end_ms": 47800
+            },
+            {
+              "word": "respiro",
+              "start_ms": 47800,
+              "end_ms": 48980
+            }
+          ]
         },
         {
           "text": "ho imparato cosa resta quando taci",
-          "start_ms": 20440,
-          "end_ms": 23160
+          "start_ms": 50780,
+          "end_ms": 55980,
+          "words": [
+            {
+              "word": "ho",
+              "start_ms": 50780,
+              "end_ms": 51940
+            },
+            {
+              "word": "imparato",
+              "start_ms": 51940,
+              "end_ms": 53100
+            },
+            {
+              "word": "cosa",
+              "start_ms": 53100,
+              "end_ms": 53460
+            },
+            {
+              "word": "resta",
+              "start_ms": 53460,
+              "end_ms": 54620
+            },
+            {
+              "word": "quando",
+              "start_ms": 54620,
+              "end_ms": 54920
+            },
+            {
+              "word": "taci",
+              "start_ms": 54920,
+              "end_ms": 55980
+            }
+          ]
         },
         {
           "text": "non il vuoto, no, qualcosa cresce",
-          "start_ms": 23160,
-          "end_ms": 25800
+          "start_ms": 57600,
+          "end_ms": 61260,
+          "words": [
+            {
+              "word": "non",
+              "start_ms": 57600,
+              "end_ms": 58760
+            },
+            {
+              "word": "il",
+              "start_ms": 58760,
+              "end_ms": 59020
+            },
+            {
+              "word": "vuoto,",
+              "start_ms": 59020,
+              "end_ms": 59400
+            },
+            {
+              "word": "no,",
+              "start_ms": 59840,
+              "end_ms": 60120
+            },
+            {
+              "word": "qualcosa",
+              "start_ms": 60320,
+              "end_ms": 60680
+            },
+            {
+              "word": "cresce",
+              "start_ms": 60680,
+              "end_ms": 61260
+            }
+          ]
         },
         {
           "text": "dove prima c'era solo fretta",
-          "start_ms": 25800,
-          "end_ms": 28040
+          "start_ms": 62700,
+          "end_ms": 66380,
+          "words": [
+            {
+              "word": "dove",
+              "start_ms": 62700,
+              "end_ms": 63460
+            },
+            {
+              "word": "prima",
+              "start_ms": 63460,
+              "end_ms": 63780
+            },
+            {
+              "word": "c'era",
+              "start_ms": 64060,
+              "end_ms": 65260
+            },
+            {
+              "word": "solo",
+              "start_ms": 65260,
+              "end_ms": 65800
+            },
+            {
+              "word": "fretta",
+              "start_ms": 65800,
+              "end_ms": 66380
+            }
+          ]
         }
-      ],
-      "start_ms": 17960,
-      "end_ms": 28040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 68160,
+      "end_ms": 79980,
       "lines": [
         {
           "text": "E il silenzio non era punizione",
-          "start_ms": 31040,
-          "end_ms": 33520
+          "start_ms": 68160,
+          "end_ms": 72980,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 68160,
+              "end_ms": 69320
+            },
+            {
+              "word": "il",
+              "start_ms": 69320,
+              "end_ms": 69820
+            },
+            {
+              "word": "silenzio",
+              "start_ms": 69820,
+              "end_ms": 70940
+            },
+            {
+              "word": "non",
+              "start_ms": 70940,
+              "end_ms": 71520
+            },
+            {
+              "word": "era",
+              "start_ms": 71520,
+              "end_ms": 71860
+            },
+            {
+              "word": "punizione",
+              "start_ms": 71860,
+              "end_ms": 72980
+            }
+          ]
         },
         {
           "text": "era il tempo che serviva",
-          "start_ms": 33520,
-          "end_ms": 35520
+          "start_ms": 71520,
+          "end_ms": 79980,
+          "words": [
+            {
+              "word": "era",
+              "start_ms": 71520,
+              "end_ms": 71860
+            },
+            {
+              "word": "il",
+              "start_ms": 76480,
+              "end_ms": 76880
+            },
+            {
+              "word": "tempo",
+              "start_ms": 76880,
+              "end_ms": 77800
+            },
+            {
+              "word": "che",
+              "start_ms": 77800,
+              "end_ms": 79300
+            },
+            {
+              "word": "serviva",
+              "start_ms": 79300,
+              "end_ms": 79980
+            }
+          ]
         }
-      ],
-      "start_ms": 31040,
-      "end_ms": 35520
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 81440,
+      "end_ms": 122560,
       "lines": [
         {
           "text": "Nove mesi di silenzio",
-          "start_ms": 38520,
-          "end_ms": 40520
+          "start_ms": 81440,
+          "end_ms": 83980,
+          "words": [
+            {
+              "word": "Nove",
+              "start_ms": 81440,
+              "end_ms": 81980
+            },
+            {
+              "word": "mesi",
+              "start_ms": 81980,
+              "end_ms": 82620
+            },
+            {
+              "word": "di",
+              "start_ms": 82620,
+              "end_ms": 83080
+            },
+            {
+              "word": "silenzio",
+              "start_ms": 83080,
+              "end_ms": 83980
+            }
+          ]
         },
         {
           "text": "per trovare la parola giusta",
-          "start_ms": 40520,
-          "end_ms": 42760
+          "start_ms": 87220,
+          "end_ms": 90980,
+          "words": [
+            {
+              "word": "per",
+              "start_ms": 87220,
+              "end_ms": 88580
+            },
+            {
+              "word": "trovare",
+              "start_ms": 88580,
+              "end_ms": 89420
+            },
+            {
+              "word": "la",
+              "start_ms": 89420,
+              "end_ms": 89840
+            },
+            {
+              "word": "parola",
+              "start_ms": 89840,
+              "end_ms": 90260
+            },
+            {
+              "word": "giusta",
+              "start_ms": 90260,
+              "end_ms": 90980
+            }
+          ]
         },
         {
           "text": "nove mesi senza fiato",
-          "start_ms": 42760,
-          "end_ms": 44760
+          "start_ms": 94380,
+          "end_ms": 97980,
+          "words": [
+            {
+              "word": "nove",
+              "start_ms": 94380,
+              "end_ms": 95740
+            },
+            {
+              "word": "mesi",
+              "start_ms": 95740,
+              "end_ms": 96420
+            },
+            {
+              "word": "senza",
+              "start_ms": 96420,
+              "end_ms": 97100
+            },
+            {
+              "word": "fiato",
+              "start_ms": 97100,
+              "end_ms": 97980
+            }
+          ]
         },
         {
           "text": "per capire cosa dire prima",
-          "start_ms": 44760,
-          "end_ms": 46840
+          "start_ms": 101200,
+          "end_ms": 105980,
+          "words": [
+            {
+              "word": "per",
+              "start_ms": 101200,
+              "end_ms": 102560
+            },
+            {
+              "word": "capire",
+              "start_ms": 102560,
+              "end_ms": 103380
+            },
+            {
+              "word": "cosa",
+              "start_ms": 103380,
+              "end_ms": 103900
+            },
+            {
+              "word": "dire",
+              "start_ms": 103900,
+              "end_ms": 104200
+            },
+            {
+              "word": "prima",
+              "start_ms": 104200,
+              "end_ms": 105980
+            }
+          ]
         },
         {
           "text": "e la prima cosa che esce",
-          "start_ms": 46840,
-          "end_ms": 48840
+          "start_ms": 106680,
+          "end_ms": 110880,
+          "words": [
+            {
+              "word": "e",
+              "start_ms": 106680,
+              "end_ms": 106980,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 106680,
+              "end_ms": 108280
+            },
+            {
+              "word": "prima",
+              "start_ms": 104200,
+              "end_ms": 105980
+            },
+            {
+              "word": "cosa",
+              "start_ms": 103380,
+              "end_ms": 103900
+            },
+            {
+              "word": "che",
+              "start_ms": 109500,
+              "end_ms": 110200
+            },
+            {
+              "word": "esce",
+              "start_ms": 110200,
+              "end_ms": 110880
+            }
+          ]
         },
         {
           "text": "non è un grido, non è rabbia",
-          "start_ms": 48840,
-          "end_ms": 51080
+          "start_ms": 110880,
+          "end_ms": 113560,
+          "words": [
+            {
+              "word": "non",
+              "start_ms": 110880,
+              "end_ms": 111380
+            },
+            {
+              "word": "è",
+              "start_ms": 111380,
+              "end_ms": 111480
+            },
+            {
+              "word": "un",
+              "start_ms": 111480,
+              "end_ms": 111820
+            },
+            {
+              "word": "grido,",
+              "start_ms": 111820,
+              "end_ms": 112280
+            },
+            {
+              "word": "non",
+              "start_ms": 112560,
+              "end_ms": 112660
+            },
+            {
+              "word": "è",
+              "start_ms": 112660,
+              "end_ms": 112880
+            },
+            {
+              "word": "rabbia",
+              "start_ms": 112880,
+              "end_ms": 113560
+            }
+          ]
         },
         {
           "text": "è una luce, è una luce",
-          "start_ms": 51080,
-          "end_ms": 53080
+          "start_ms": 112660,
+          "end_ms": 117740,
+          "words": [
+            {
+              "word": "è",
+              "start_ms": 112660,
+              "end_ms": 112880
+            },
+            {
+              "word": "una",
+              "start_ms": 114740,
+              "end_ms": 115000
+            },
+            {
+              "word": "luce,",
+              "start_ms": 115000,
+              "end_ms": 116000
+            },
+            {
+              "word": "è",
+              "start_ms": 113560,
+              "end_ms": 114740
+            },
+            {
+              "word": "una",
+              "start_ms": 114740,
+              "end_ms": 115000
+            },
+            {
+              "word": "luce",
+              "start_ms": 116720,
+              "end_ms": 117740
+            }
+          ]
         },
         {
           "text": "che non sapevo di avere dentro",
-          "start_ms": 53080,
-          "end_ms": 55480
+          "start_ms": 118399,
+          "end_ms": 122560,
+          "words": [
+            {
+              "word": "che",
+              "start_ms": 118399,
+              "end_ms": 119100
+            },
+            {
+              "word": "non",
+              "start_ms": 119100,
+              "end_ms": 119400
+            },
+            {
+              "word": "sapevo",
+              "start_ms": 119400,
+              "end_ms": 120120
+            },
+            {
+              "word": "di",
+              "start_ms": 120120,
+              "end_ms": 120360
+            },
+            {
+              "word": "avere",
+              "start_ms": 120360,
+              "end_ms": 121500
+            },
+            {
+              "word": "dentro",
+              "start_ms": 121500,
+              "end_ms": 122560
+            }
+          ]
         }
-      ],
-      "start_ms": 38520,
-      "end_ms": 55480
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 125480,
+      "end_ms": 146740,
       "lines": [
         {
           "text": "Ho scritto il nome sulla cera",
-          "start_ms": 58480,
-          "end_ms": 60800
+          "start_ms": 125480,
+          "end_ms": 129019,
+          "words": [
+            {
+              "word": "Ho",
+              "start_ms": 125480,
+              "end_ms": 126180
+            },
+            {
+              "word": "scritto",
+              "start_ms": 126180,
+              "end_ms": 126600
+            },
+            {
+              "word": "il",
+              "start_ms": 126600,
+              "end_ms": 126820
+            },
+            {
+              "word": "nome",
+              "start_ms": 126820,
+              "end_ms": 127240
+            },
+            {
+              "word": "sulla",
+              "start_ms": 127240,
+              "end_ms": 128320
+            },
+            {
+              "word": "cera",
+              "start_ms": 128320,
+              "end_ms": 129019
+            }
+          ]
         },
         {
           "text": "la mano ferma, il cuore no",
-          "start_ms": 60800,
-          "end_ms": 62880
+          "start_ms": 131560,
+          "end_ms": 135739,
+          "words": [
+            {
+              "word": "la",
+              "start_ms": 131560,
+              "end_ms": 132380
+            },
+            {
+              "word": "mano",
+              "start_ms": 132380,
+              "end_ms": 132760
+            },
+            {
+              "word": "ferma,",
+              "start_ms": 132760,
+              "end_ms": 134000
+            },
+            {
+              "word": "il",
+              "start_ms": 134260,
+              "end_ms": 134460
+            },
+            {
+              "word": "cuore",
+              "start_ms": 134460,
+              "end_ms": 135040
+            },
+            {
+              "word": "no",
+              "start_ms": 135040,
+              "end_ms": 135739
+            }
+          ]
         },
         {
           "text": "Giovanni, ho scritto, e in quel momento",
-          "start_ms": 62880,
-          "end_ms": 66000
+          "start_ms": 137060,
+          "end_ms": 141360,
+          "words": [
+            {
+              "word": "Giovanni,",
+              "start_ms": 137060,
+              "end_ms": 138460
+            },
+            {
+              "word": "ho",
+              "start_ms": 138460,
+              "end_ms": 138680
+            },
+            {
+              "word": "scritto,",
+              "start_ms": 138680,
+              "end_ms": 139880
+            },
+            {
+              "word": "e",
+              "start_ms": 139880,
+              "end_ms": 140200
+            },
+            {
+              "word": "in",
+              "start_ms": 140200,
+              "end_ms": 140380
+            },
+            {
+              "word": "quel",
+              "start_ms": 140380,
+              "end_ms": 140540
+            },
+            {
+              "word": "momento",
+              "start_ms": 140540,
+              "end_ms": 141360
+            }
+          ]
         },
         {
           "text": "la voce è tornata come il mare",
-          "start_ms": 66000,
-          "end_ms": 68400
+          "start_ms": 141360,
+          "end_ms": 146740,
+          "words": [
+            {
+              "word": "la",
+              "start_ms": 141360,
+              "end_ms": 142580
+            },
+            {
+              "word": "voce",
+              "start_ms": 142580,
+              "end_ms": 143460
+            },
+            {
+              "word": "è",
+              "start_ms": 143460,
+              "end_ms": 143840
+            },
+            {
+              "word": "tornata",
+              "start_ms": 143840,
+              "end_ms": 145200
+            },
+            {
+              "word": "come",
+              "start_ms": 145200,
+              "end_ms": 145660
+            },
+            {
+              "word": "il",
+              "start_ms": 145660,
+              "end_ms": 146020
+            },
+            {
+              "word": "mare",
+              "start_ms": 146020,
+              "end_ms": 146740
+            }
+          ]
         }
-      ],
-      "start_ms": 58480,
-      "end_ms": 68400
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 148540,
+      "end_ms": 159880,
       "lines": [
         {
           "text": "E il silenzio non era punizione",
-          "start_ms": 71400,
-          "end_ms": 73880
+          "start_ms": 148540,
+          "end_ms": 152880,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 148540,
+              "end_ms": 149240
+            },
+            {
+              "word": "il",
+              "start_ms": 145660,
+              "end_ms": 146020
+            },
+            {
+              "word": "silenzio",
+              "start_ms": 149460,
+              "end_ms": 151020
+            },
+            {
+              "word": "non",
+              "start_ms": 151020,
+              "end_ms": 151400
+            },
+            {
+              "word": "era",
+              "start_ms": 151400,
+              "end_ms": 151700
+            },
+            {
+              "word": "punizione",
+              "start_ms": 151700,
+              "end_ms": 152880
+            }
+          ]
         },
         {
           "text": "era il seme che aspettava",
-          "start_ms": 73880,
-          "end_ms": 75880
+          "start_ms": 151400,
+          "end_ms": 159880,
+          "words": [
+            {
+              "word": "era",
+              "start_ms": 151400,
+              "end_ms": 151700
+            },
+            {
+              "word": "il",
+              "start_ms": 156440,
+              "end_ms": 156860
+            },
+            {
+              "word": "seme",
+              "start_ms": 156860,
+              "end_ms": 157700
+            },
+            {
+              "word": "che",
+              "start_ms": 157700,
+              "end_ms": 158660
+            },
+            {
+              "word": "aspettava",
+              "start_ms": 158660,
+              "end_ms": 159880
+            }
+          ]
         }
-      ],
-      "start_ms": 71400,
-      "end_ms": 75880
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 161200,
+      "end_ms": 202020,
       "lines": [
         {
           "text": "Nove mesi di silenzio",
-          "start_ms": 78880,
-          "end_ms": 80880
+          "start_ms": 161200,
+          "end_ms": 163880,
+          "words": [
+            {
+              "word": "Nove",
+              "start_ms": 161200,
+              "end_ms": 161600
+            },
+            {
+              "word": "mesi",
+              "start_ms": 161600,
+              "end_ms": 162500
+            },
+            {
+              "word": "di",
+              "start_ms": 162500,
+              "end_ms": 162960
+            },
+            {
+              "word": "silenzio",
+              "start_ms": 162960,
+              "end_ms": 163880
+            }
+          ]
         },
         {
           "text": "per trovare la parola giusta",
-          "start_ms": 80880,
-          "end_ms": 83120
+          "start_ms": 167200,
+          "end_ms": 173880,
+          "words": [
+            {
+              "word": "per",
+              "start_ms": 167200,
+              "end_ms": 168360
+            },
+            {
+              "word": "trovare",
+              "start_ms": 168360,
+              "end_ms": 169320
+            },
+            {
+              "word": "la",
+              "start_ms": 169320,
+              "end_ms": 169660
+            },
+            {
+              "word": "parola",
+              "start_ms": 169660,
+              "end_ms": 170140
+            },
+            {
+              "word": "giusta",
+              "start_ms": 170140,
+              "end_ms": 173880
+            }
+          ]
         },
         {
           "text": "nove mesi senza fiato",
-          "start_ms": 83120,
-          "end_ms": 85120
+          "start_ms": 173880,
+          "end_ms": 178360,
+          "words": [
+            {
+              "word": "nove",
+              "start_ms": 173880,
+              "end_ms": 175640
+            },
+            {
+              "word": "mesi",
+              "start_ms": 175640,
+              "end_ms": 176300
+            },
+            {
+              "word": "senza",
+              "start_ms": 176300,
+              "end_ms": 176880
+            },
+            {
+              "word": "fiato",
+              "start_ms": 176880,
+              "end_ms": 178360
+            }
+          ]
         },
         {
           "text": "per capire cosa dire prima",
-          "start_ms": 85120,
-          "end_ms": 87200
+          "start_ms": 181280,
+          "end_ms": 186720,
+          "words": [
+            {
+              "word": "per",
+              "start_ms": 181280,
+              "end_ms": 182440
+            },
+            {
+              "word": "capire",
+              "start_ms": 182440,
+              "end_ms": 183260
+            },
+            {
+              "word": "cosa",
+              "start_ms": 183260,
+              "end_ms": 183780
+            },
+            {
+              "word": "dire",
+              "start_ms": 183780,
+              "end_ms": 184080
+            },
+            {
+              "word": "prima",
+              "start_ms": 184080,
+              "end_ms": 186720
+            }
+          ]
         },
         {
           "text": "e la prima cosa che esce",
-          "start_ms": 87200,
-          "end_ms": 89200
+          "start_ms": 186720,
+          "end_ms": 190720,
+          "words": [
+            {
+              "word": "e",
+              "start_ms": 186720,
+              "end_ms": 187020,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 186720,
+              "end_ms": 188100
+            },
+            {
+              "word": "prima",
+              "start_ms": 184080,
+              "end_ms": 186720
+            },
+            {
+              "word": "cosa",
+              "start_ms": 183260,
+              "end_ms": 183780
+            },
+            {
+              "word": "che",
+              "start_ms": 189400,
+              "end_ms": 189960
+            },
+            {
+              "word": "esce",
+              "start_ms": 189960,
+              "end_ms": 190720
+            }
+          ]
         },
         {
           "text": "non è un grido, non è rabbia",
-          "start_ms": 89200,
-          "end_ms": 91440
+          "start_ms": 190720,
+          "end_ms": 193740,
+          "words": [
+            {
+              "word": "non",
+              "start_ms": 190720,
+              "end_ms": 191240
+            },
+            {
+              "word": "è",
+              "start_ms": 191240,
+              "end_ms": 191380
+            },
+            {
+              "word": "un",
+              "start_ms": 191380,
+              "end_ms": 191680
+            },
+            {
+              "word": "grido,",
+              "start_ms": 191680,
+              "end_ms": 192180
+            },
+            {
+              "word": "non",
+              "start_ms": 192460,
+              "end_ms": 192540
+            },
+            {
+              "word": "è",
+              "start_ms": 192540,
+              "end_ms": 192740
+            },
+            {
+              "word": "rabbia",
+              "start_ms": 192740,
+              "end_ms": 193740
+            }
+          ]
         },
         {
           "text": "è una luce, è una luce",
-          "start_ms": 91440,
-          "end_ms": 93440
+          "start_ms": 192540,
+          "end_ms": 193860,
+          "words": [
+            {
+              "word": "è",
+              "start_ms": 192540,
+              "end_ms": 192740
+            },
+            {
+              "word": "una",
+              "start_ms": 193860,
+              "end_ms": 193860
+            },
+            {
+              "word": "luce,",
+              "start_ms": 193860,
+              "end_ms": 193860
+            },
+            {
+              "word": "è",
+              "start_ms": 193740,
+              "end_ms": 193860
+            },
+            {
+              "word": "una",
+              "start_ms": 193860,
+              "end_ms": 193860
+            },
+            {
+              "word": "luce",
+              "start_ms": 193860,
+              "end_ms": 193860
+            }
+          ]
         },
         {
           "text": "che non sapevo di avere dentro",
-          "start_ms": 93440,
-          "end_ms": 95840
+          "start_ms": 197640,
+          "end_ms": 202020,
+          "words": [
+            {
+              "word": "che",
+              "start_ms": 197640,
+              "end_ms": 198960
+            },
+            {
+              "word": "non",
+              "start_ms": 198960,
+              "end_ms": 199300
+            },
+            {
+              "word": "sapevo",
+              "start_ms": 199300,
+              "end_ms": 199960
+            },
+            {
+              "word": "di",
+              "start_ms": 199960,
+              "end_ms": 200240
+            },
+            {
+              "word": "avere",
+              "start_ms": 200240,
+              "end_ms": 201400
+            },
+            {
+              "word": "dentro",
+              "start_ms": 201400,
+              "end_ms": 202020
+            }
+          ]
         }
-      ],
-      "start_ms": 78880,
-      "end_ms": 95840
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 203620,
+      "end_ms": 211880,
       "lines": [
         {
           "text": "Chi siede nel buio lo sa",
-          "start_ms": 98840,
-          "end_ms": 100840
+          "start_ms": 203620,
+          "end_ms": 207160,
+          "words": [
+            {
+              "word": "Chi",
+              "start_ms": 203620,
+              "end_ms": 204860
+            },
+            {
+              "word": "siede",
+              "start_ms": 204860,
+              "end_ms": 205280
+            },
+            {
+              "word": "nel",
+              "start_ms": 205280,
+              "end_ms": 205520
+            },
+            {
+              "word": "buio",
+              "start_ms": 205520,
+              "end_ms": 206160
+            },
+            {
+              "word": "lo",
+              "start_ms": 206160,
+              "end_ms": 206540
+            },
+            {
+              "word": "sa",
+              "start_ms": 206540,
+              "end_ms": 207160
+            }
+          ]
         },
         {
           "text": "che il buio non dura per sempre",
-          "start_ms": 100840,
-          "end_ms": 103320
+          "start_ms": 207400,
+          "end_ms": 211880,
+          "words": [
+            {
+              "word": "che",
+              "start_ms": 207400,
+              "end_ms": 208400
+            },
+            {
+              "word": "il",
+              "start_ms": 208400,
+              "end_ms": 208620
+            },
+            {
+              "word": "buio",
+              "start_ms": 208620,
+              "end_ms": 208900
+            },
+            {
+              "word": "non",
+              "start_ms": 208900,
+              "end_ms": 209180
+            },
+            {
+              "word": "dura",
+              "start_ms": 209180,
+              "end_ms": 210060
+            },
+            {
+              "word": "per",
+              "start_ms": 210060,
+              "end_ms": 211260
+            },
+            {
+              "word": "sempre",
+              "start_ms": 211260,
+              "end_ms": 211880
+            }
+          ]
         }
-      ],
-      "start_ms": 98840,
-      "end_ms": 103320
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 213640,
+      "end_ms": 214730,
       "lines": [
         {
           "text": "L'alba viene dall'alto",
-          "start_ms": 106320,
-          "end_ms": 108320
+          "start_ms": 213640,
+          "end_ms": 214730,
+          "words": [
+            {
+              "word": "L'alba",
+              "start_ms": 213640,
+              "end_ms": 213960
+            },
+            {
+              "word": "viene",
+              "start_ms": 213960,
+              "end_ms": 214380
+            },
+            {
+              "word": "dall'alto",
+              "start_ms": 214430,
+              "end_ms": 214730,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "l'alba viene dall'alto",
-          "start_ms": 108320,
-          "end_ms": 110320
+          "start_ms": 213640,
+          "end_ms": 214730,
+          "words": [
+            {
+              "word": "l'alba",
+              "start_ms": 213640,
+              "end_ms": 213960
+            },
+            {
+              "word": "viene",
+              "start_ms": 213960,
+              "end_ms": 214380
+            },
+            {
+              "word": "dall'alto",
+              "start_ms": 214430,
+              "end_ms": 214730,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 106320,
-      "end_ms": 110320
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 113320,
-          "end_ms": 115320
-        }
-      ],
-      "start_ms": 113320,
-      "end_ms": 115320
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - E il silenzio non era punizion...",
+      "section_type": "chorus",
+      "start_ms": 68160,
+      "end_ms": 79980,
+      "key_line": "E il silenzio non era punizione",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Nove mesi di silenzio",
+      "section_type": "chorus",
+      "start_ms": 81440,
+      "end_ms": 122560,
+      "key_line": "Nove mesi di silenzio",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - E il silenzio non era punizion...",
+      "section_type": "chorus",
+      "start_ms": 148540,
+      "end_ms": 159880,
+      "key_line": "E il silenzio non era punizione",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Nove mesi di silenzio",
+      "section_type": "chorus",
+      "start_ms": 161200,
+      "end_ms": 202020,
+      "key_line": "Nove mesi di silenzio",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 203620,
+      "end_ms": 211880,
+      "key_line": "Chi siede nel buio lo sa",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/it/42_luke_01_1-64_transcript.json"
 }

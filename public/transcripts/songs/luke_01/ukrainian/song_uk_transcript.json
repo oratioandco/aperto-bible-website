@@ -7,275 +7,993 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:76-79",
-  "duration_ms": 220000,
+  "duration_ms": 187640,
   "audio_file": "/audio/songs/luke_01/ukrainian/Дорога миру (Benedictus) (Luke 1_76-79) — Ukrainian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.435575+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.082693+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.984,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 16979,
+      "end_ms": 42960,
       "lines": [
         {
           "text": "Спи дитино спи",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 16979,
+          "end_ms": 18080,
+          "words": [
+            {
+              "word": "Спи",
+              "start_ms": 16979,
+              "end_ms": 18080
+            },
+            {
+              "word": "дитино",
+              "start_ms": 18240,
+              "end_ms": 18780
+            },
+            {
+              "word": "спи",
+              "start_ms": 16979,
+              "end_ms": 18080
+            }
+          ]
         },
         {
           "text": "Світ за вікном такий темний",
-          "start_ms": 8000,
-          "end_ms": 10160
+          "start_ms": 19940,
+          "end_ms": 22580,
+          "words": [
+            {
+              "word": "Світ",
+              "start_ms": 19940,
+              "end_ms": 20500
+            },
+            {
+              "word": "за",
+              "start_ms": 20500,
+              "end_ms": 20700
+            },
+            {
+              "word": "вікном",
+              "start_ms": 20700,
+              "end_ms": 21120
+            },
+            {
+              "word": "такий",
+              "start_ms": 21120,
+              "end_ms": 21760
+            },
+            {
+              "word": "темний",
+              "start_ms": 21760,
+              "end_ms": 22580
+            }
+          ]
         },
         {
           "text": "Я тримаю тебе",
-          "start_ms": 10160,
-          "end_ms": 12160
+          "start_ms": 23580,
+          "end_ms": 26100,
+          "words": [
+            {
+              "word": "Я",
+              "start_ms": 23580,
+              "end_ms": 24600
+            },
+            {
+              "word": "тримаю",
+              "start_ms": 24600,
+              "end_ms": 25560
+            },
+            {
+              "word": "тебе",
+              "start_ms": 25560,
+              "end_ms": 26100
+            }
+          ]
         },
         {
           "text": "І не знаю що буде завтра",
-          "start_ms": 12160,
-          "end_ms": 14160
+          "start_ms": 26100,
+          "end_ms": 29580,
+          "words": [
+            {
+              "word": "І",
+              "start_ms": 26100,
+              "end_ms": 26620
+            },
+            {
+              "word": "не",
+              "start_ms": 26620,
+              "end_ms": 26880
+            },
+            {
+              "word": "знаю",
+              "start_ms": 26880,
+              "end_ms": 27220
+            },
+            {
+              "word": "що",
+              "start_ms": 27540,
+              "end_ms": 27640
+            },
+            {
+              "word": "буде",
+              "start_ms": 27640,
+              "end_ms": 28080
+            },
+            {
+              "word": "завтра",
+              "start_ms": 28080,
+              "end_ms": 29580
+            }
+          ]
         },
         {
           "text": "Просив Бога про армії",
-          "start_ms": 14160,
-          "end_ms": 16160
+          "start_ms": 30360,
+          "end_ms": 33540,
+          "words": [
+            {
+              "word": "Просив",
+              "start_ms": 30360,
+              "end_ms": 31060
+            },
+            {
+              "word": "Бога",
+              "start_ms": 31060,
+              "end_ms": 31500
+            },
+            {
+              "word": "про",
+              "start_ms": 31500,
+              "end_ms": 31740
+            },
+            {
+              "word": "армії",
+              "start_ms": 31740,
+              "end_ms": 33540
+            }
+          ]
         },
         {
           "text": "Про кінець ворогів",
-          "start_ms": 16160,
-          "end_ms": 18160
+          "start_ms": 31500,
+          "end_ms": 35580,
+          "words": [
+            {
+              "word": "Про",
+              "start_ms": 31500,
+              "end_ms": 31740
+            },
+            {
+              "word": "кінець",
+              "start_ms": 34260,
+              "end_ms": 34920
+            },
+            {
+              "word": "ворогів",
+              "start_ms": 34920,
+              "end_ms": 35580
+            }
+          ]
         },
         {
           "text": "А Він дав мені тебе",
-          "start_ms": 18160,
-          "end_ms": 20160
+          "start_ms": 36420,
+          "end_ms": 39360,
+          "words": [
+            {
+              "word": "А",
+              "start_ms": 36420,
+              "end_ms": 36800
+            },
+            {
+              "word": "Він",
+              "start_ms": 36800,
+              "end_ms": 37060
+            },
+            {
+              "word": "дав",
+              "start_ms": 37060,
+              "end_ms": 37320
+            },
+            {
+              "word": "мені",
+              "start_ms": 37320,
+              "end_ms": 38140
+            },
+            {
+              "word": "тебе",
+              "start_ms": 38140,
+              "end_ms": 39360
+            }
+          ]
         },
         {
           "text": "Маленького пророка",
-          "start_ms": 20160,
-          "end_ms": 22160
+          "start_ms": 39360,
+          "end_ms": 42960,
+          "words": [
+            {
+              "word": "Маленького",
+              "start_ms": 39360,
+              "end_ms": 41800
+            },
+            {
+              "word": "пророка",
+              "start_ms": 41800,
+              "end_ms": 42960
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 42960,
+      "end_ms": 68620,
       "lines": [
         {
           "text": "Світанок іде",
-          "start_ms": 25160,
-          "end_ms": 27160
+          "start_ms": 42960,
+          "end_ms": 46980,
+          "words": [
+            {
+              "word": "Світанок",
+              "start_ms": 42960,
+              "end_ms": 45300
+            },
+            {
+              "word": "іде",
+              "start_ms": 45300,
+              "end_ms": 46980
+            }
+          ]
         },
         {
           "text": "Тихо тихо",
-          "start_ms": 27160,
-          "end_ms": 29160
+          "start_ms": 48940,
+          "end_ms": 50200,
+          "words": [
+            {
+              "word": "Тихо",
+              "start_ms": 48940,
+              "end_ms": 50200
+            },
+            {
+              "word": "тихо",
+              "start_ms": 48940,
+              "end_ms": 50200
+            }
+          ]
         },
         {
           "text": "Світанок іде",
-          "start_ms": 29160,
-          "end_ms": 31160
+          "start_ms": 50200,
+          "end_ms": 53620,
+          "words": [
+            {
+              "word": "Світанок",
+              "start_ms": 50200,
+              "end_ms": 52100
+            },
+            {
+              "word": "іде",
+              "start_ms": 52100,
+              "end_ms": 53620
+            }
+          ]
         },
         {
           "text": "Як дихання",
-          "start_ms": 31160,
-          "end_ms": 33160
+          "start_ms": 53960,
+          "end_ms": 56500,
+          "words": [
+            {
+              "word": "Як",
+              "start_ms": 53960,
+              "end_ms": 54240
+            },
+            {
+              "word": "дихання",
+              "start_ms": 54240,
+              "end_ms": 56500
+            }
+          ]
         },
         {
           "text": "Не з мечем",
-          "start_ms": 33160,
-          "end_ms": 35160
+          "start_ms": 56500,
+          "end_ms": 58580,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 56500,
+              "end_ms": 57320
+            },
+            {
+              "word": "з",
+              "start_ms": 57320,
+              "end_ms": 57460
+            },
+            {
+              "word": "мечем",
+              "start_ms": 57460,
+              "end_ms": 58580
+            }
+          ]
         },
         {
           "text": "Не з вогнем",
-          "start_ms": 35160,
-          "end_ms": 37160
+          "start_ms": 56500,
+          "end_ms": 60460,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 56500,
+              "end_ms": 57320
+            },
+            {
+              "word": "з",
+              "start_ms": 57320,
+              "end_ms": 57460
+            },
+            {
+              "word": "вогнем",
+              "start_ms": 59160,
+              "end_ms": 60460
+            }
+          ]
         },
         {
           "text": "Тільки світло",
-          "start_ms": 37160,
-          "end_ms": 39160
+          "start_ms": 60460,
+          "end_ms": 64080,
+          "words": [
+            {
+              "word": "Тільки",
+              "start_ms": 60460,
+              "end_ms": 62340
+            },
+            {
+              "word": "світло",
+              "start_ms": 62340,
+              "end_ms": 64080
+            }
+          ]
         },
         {
           "text": "Тим хто в темряві",
-          "start_ms": 39160,
-          "end_ms": 41160
+          "start_ms": 64620,
+          "end_ms": 68620,
+          "words": [
+            {
+              "word": "Тим",
+              "start_ms": 64620,
+              "end_ms": 65440
+            },
+            {
+              "word": "хто",
+              "start_ms": 66720,
+              "end_ms": 66960
+            },
+            {
+              "word": "в",
+              "start_ms": 66960,
+              "end_ms": 67240
+            },
+            {
+              "word": "темряві",
+              "start_ms": 67240,
+              "end_ms": 68620
+            }
+          ]
         }
-      ],
-      "start_ms": 25160,
-      "end_ms": 41160
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 71399,
+      "end_ms": 97680,
       "lines": [
         {
           "text": "Ти ще нічого не знаєш",
-          "start_ms": 44160,
-          "end_ms": 46160
+          "start_ms": 71399,
+          "end_ms": 74760,
+          "words": [
+            {
+              "word": "Ти",
+              "start_ms": 71399,
+              "end_ms": 72520
+            },
+            {
+              "word": "ще",
+              "start_ms": 72520,
+              "end_ms": 72800
+            },
+            {
+              "word": "нічого",
+              "start_ms": 72800,
+              "end_ms": 73640
+            },
+            {
+              "word": "не",
+              "start_ms": 73640,
+              "end_ms": 74200
+            },
+            {
+              "word": "знаєш",
+              "start_ms": 74200,
+              "end_ms": 74760
+            }
+          ]
         },
         {
           "text": "Про тінь смерті за дверима",
-          "start_ms": 46160,
-          "end_ms": 48240
+          "start_ms": 75160,
+          "end_ms": 78620,
+          "words": [
+            {
+              "word": "Про",
+              "start_ms": 75160,
+              "end_ms": 75460
+            },
+            {
+              "word": "тінь",
+              "start_ms": 75460,
+              "end_ms": 76160
+            },
+            {
+              "word": "смерті",
+              "start_ms": 76160,
+              "end_ms": 76500
+            },
+            {
+              "word": "за",
+              "start_ms": 76500,
+              "end_ms": 77120
+            },
+            {
+              "word": "дверима",
+              "start_ms": 77120,
+              "end_ms": 78620
+            }
+          ]
         },
         {
           "text": "Про молитви без відповіді",
-          "start_ms": 48240,
-          "end_ms": 50240
+          "start_ms": 79220,
+          "end_ms": 82620,
+          "words": [
+            {
+              "word": "Про",
+              "start_ms": 79220,
+              "end_ms": 79680
+            },
+            {
+              "word": "молитви",
+              "start_ms": 79680,
+              "end_ms": 80520
+            },
+            {
+              "word": "без",
+              "start_ms": 80520,
+              "end_ms": 80940
+            },
+            {
+              "word": "відповіді",
+              "start_ms": 80940,
+              "end_ms": 82620
+            }
+          ]
         },
         {
           "text": "Але ти будеш знати одне",
-          "start_ms": 50240,
-          "end_ms": 52240
+          "start_ms": 83780,
+          "end_ms": 88260,
+          "words": [
+            {
+              "word": "Але",
+              "start_ms": 83780,
+              "end_ms": 84900
+            },
+            {
+              "word": "ти",
+              "start_ms": 84900,
+              "end_ms": 85460
+            },
+            {
+              "word": "будеш",
+              "start_ms": 85460,
+              "end_ms": 85980
+            },
+            {
+              "word": "знати",
+              "start_ms": 85980,
+              "end_ms": 86540
+            },
+            {
+              "word": "одне",
+              "start_ms": 87080,
+              "end_ms": 88260
+            }
+          ]
         },
         {
           "text": "Є дорога",
-          "start_ms": 52240,
-          "end_ms": 54240
+          "start_ms": 88260,
+          "end_ms": 90620,
+          "words": [
+            {
+              "word": "Є",
+              "start_ms": 88260,
+              "end_ms": 89900
+            },
+            {
+              "word": "дорога",
+              "start_ms": 89900,
+              "end_ms": 90620
+            }
+          ]
         },
         {
           "text": "Яку ніхто не шукає",
-          "start_ms": 54240,
-          "end_ms": 56240
+          "start_ms": 91700,
+          "end_ms": 94160,
+          "words": [
+            {
+              "word": "Яку",
+              "start_ms": 91700,
+              "end_ms": 92240
+            },
+            {
+              "word": "ніхто",
+              "start_ms": 92240,
+              "end_ms": 93020
+            },
+            {
+              "word": "не",
+              "start_ms": 93020,
+              "end_ms": 93280
+            },
+            {
+              "word": "шукає",
+              "start_ms": 93280,
+              "end_ms": 94160
+            }
+          ]
         },
         {
           "text": "Бо вона не веде до перемоги",
-          "start_ms": 56240,
-          "end_ms": 58400
+          "start_ms": 94260,
+          "end_ms": 97680,
+          "words": [
+            {
+              "word": "Бо",
+              "start_ms": 94260,
+              "end_ms": 94400
+            },
+            {
+              "word": "вона",
+              "start_ms": 94400,
+              "end_ms": 94760
+            },
+            {
+              "word": "не",
+              "start_ms": 94760,
+              "end_ms": 95120
+            },
+            {
+              "word": "веде",
+              "start_ms": 95120,
+              "end_ms": 95680
+            },
+            {
+              "word": "до",
+              "start_ms": 95680,
+              "end_ms": 96640
+            },
+            {
+              "word": "перемоги",
+              "start_ms": 96640,
+              "end_ms": 97680
+            }
+          ]
         }
-      ],
-      "start_ms": 44160,
-      "end_ms": 58400
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 98400,
+      "end_ms": 123740,
       "lines": [
         {
           "text": "Світанок іде",
-          "start_ms": 61400,
-          "end_ms": 63400
+          "start_ms": 98400,
+          "end_ms": 101900,
+          "words": [
+            {
+              "word": "Світанок",
+              "start_ms": 98400,
+              "end_ms": 100340
+            },
+            {
+              "word": "іде",
+              "start_ms": 100340,
+              "end_ms": 101900
+            }
+          ]
         },
         {
           "text": "Тихо тихо",
-          "start_ms": 63400,
-          "end_ms": 65400
+          "start_ms": 103860,
+          "end_ms": 105100,
+          "words": [
+            {
+              "word": "Тихо",
+              "start_ms": 103860,
+              "end_ms": 105100
+            },
+            {
+              "word": "тихо",
+              "start_ms": 103860,
+              "end_ms": 105100
+            }
+          ]
         },
         {
           "text": "Світанок іде",
-          "start_ms": 65400,
-          "end_ms": 67400
+          "start_ms": 105100,
+          "end_ms": 108520,
+          "words": [
+            {
+              "word": "Світанок",
+              "start_ms": 105100,
+              "end_ms": 107080
+            },
+            {
+              "word": "іде",
+              "start_ms": 107080,
+              "end_ms": 108520
+            }
+          ]
         },
         {
           "text": "Моя дитино",
-          "start_ms": 67400,
-          "end_ms": 69400
+          "start_ms": 108760,
+          "end_ms": 111680,
+          "words": [
+            {
+              "word": "Моя",
+              "start_ms": 108760,
+              "end_ms": 109700
+            },
+            {
+              "word": "дитино",
+              "start_ms": 109700,
+              "end_ms": 111680
+            }
+          ]
         },
         {
           "text": "Не помста",
-          "start_ms": 69400,
-          "end_ms": 71400
+          "start_ms": 111680,
+          "end_ms": 113660,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 111680,
+              "end_ms": 112180
+            },
+            {
+              "word": "помста",
+              "start_ms": 112180,
+              "end_ms": 113660
+            }
+          ]
         },
         {
           "text": "Не кінець",
-          "start_ms": 71400,
-          "end_ms": 73400
+          "start_ms": 111680,
+          "end_ms": 116040,
+          "words": [
+            {
+              "word": "Не",
+              "start_ms": 111680,
+              "end_ms": 112180
+            },
+            {
+              "word": "кінець",
+              "start_ms": 113660,
+              "end_ms": 116040
+            }
+          ]
         },
         {
           "text": "Тільки ранок",
-          "start_ms": 73400,
-          "end_ms": 75400
+          "start_ms": 116300,
+          "end_ms": 118680,
+          "words": [
+            {
+              "word": "Тільки",
+              "start_ms": 116300,
+              "end_ms": 117420
+            },
+            {
+              "word": "ранок",
+              "start_ms": 117420,
+              "end_ms": 118680
+            }
+          ]
         },
         {
           "text": "Тільки мир",
-          "start_ms": 75400,
-          "end_ms": 77400
+          "start_ms": 116300,
+          "end_ms": 123740,
+          "words": [
+            {
+              "word": "Тільки",
+              "start_ms": 116300,
+              "end_ms": 117420
+            },
+            {
+              "word": "мир",
+              "start_ms": 122740,
+              "end_ms": 123740
+            }
+          ]
         }
-      ],
-      "start_ms": 61400,
-      "end_ms": 77400
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 126280,
+      "end_ms": 187680,
       "lines": [
         {
           "text": "Дорога миру",
-          "start_ms": 80400,
-          "end_ms": 82400
+          "start_ms": 126280,
+          "end_ms": 129080,
+          "words": [
+            {
+              "word": "Дорога",
+              "start_ms": 126280,
+              "end_ms": 127680
+            },
+            {
+              "word": "миру",
+              "start_ms": 127680,
+              "end_ms": 129080
+            }
+          ]
         },
         {
           "text": "Звучить як поразка",
-          "start_ms": 82400,
-          "end_ms": 84400
+          "start_ms": 129080,
+          "end_ms": 133040,
+          "words": [
+            {
+              "word": "Звучить",
+              "start_ms": 129080,
+              "end_ms": 130660
+            },
+            {
+              "word": "як",
+              "start_ms": 130660,
+              "end_ms": 131140
+            },
+            {
+              "word": "поразка",
+              "start_ms": 131140,
+              "end_ms": 133040
+            }
+          ]
         },
         {
           "text": "Дорога миру",
-          "start_ms": 84400,
-          "end_ms": 86400
+          "start_ms": 133040,
+          "end_ms": 136120,
+          "words": [
+            {
+              "word": "Дорога",
+              "start_ms": 133040,
+              "end_ms": 134200
+            },
+            {
+              "word": "миру",
+              "start_ms": 134200,
+              "end_ms": 136120
+            }
+          ]
         },
         {
           "text": "Звучить як здача",
-          "start_ms": 86400,
-          "end_ms": 88400
+          "start_ms": 136120,
+          "end_ms": 139360,
+          "words": [
+            {
+              "word": "Звучить",
+              "start_ms": 136120,
+              "end_ms": 137140
+            },
+            {
+              "word": "як",
+              "start_ms": 137140,
+              "end_ms": 137900
+            },
+            {
+              "word": "здача",
+              "start_ms": 137900,
+              "end_ms": 139360
+            }
+          ]
         },
         {
           "text": "Але я тримаю тебе",
-          "start_ms": 88400,
-          "end_ms": 90400
+          "start_ms": 139360,
+          "end_ms": 142360,
+          "words": [
+            {
+              "word": "Але",
+              "start_ms": 139360,
+              "end_ms": 140060
+            },
+            {
+              "word": "я",
+              "start_ms": 140060,
+              "end_ms": 140520
+            },
+            {
+              "word": "тримаю",
+              "start_ms": 140520,
+              "end_ms": 141360
+            },
+            {
+              "word": "тебе",
+              "start_ms": 141360,
+              "end_ms": 142360
+            }
+          ]
         },
         {
           "text": "І знаю",
-          "start_ms": 90400,
-          "end_ms": 92400
+          "start_ms": 142360,
+          "end_ms": 144520,
+          "words": [
+            {
+              "word": "І",
+              "start_ms": 142360,
+              "end_ms": 143420
+            },
+            {
+              "word": "знаю",
+              "start_ms": 143420,
+              "end_ms": 144520
+            }
+          ]
         },
         {
           "text": "Це єдина дорога",
-          "start_ms": 92400,
-          "end_ms": 94400
+          "start_ms": 146060,
+          "end_ms": 186120,
+          "words": [
+            {
+              "word": "Це",
+              "start_ms": 146060,
+              "end_ms": 146760
+            },
+            {
+              "word": "єдина",
+              "start_ms": 146760,
+              "end_ms": 148280
+            },
+            {
+              "word": "дорога",
+              "start_ms": 185680,
+              "end_ms": 186120
+            }
+          ]
         },
         {
           "text": "Яка кудись веде",
-          "start_ms": 94400,
-          "end_ms": 96400
+          "start_ms": 186460,
+          "end_ms": 187680,
+          "words": [
+            {
+              "word": "Яка",
+              "start_ms": 186460,
+              "end_ms": 186980
+            },
+            {
+              "word": "кудись",
+              "start_ms": 187030,
+              "end_ms": 187330,
+              "estimated": true
+            },
+            {
+              "word": "веде",
+              "start_ms": 187380,
+              "end_ms": 187680,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 80400,
-      "end_ms": 96400
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 187560,
+      "end_ms": 187620,
       "lines": [
         {
           "text": "Тільки мир...",
-          "start_ms": 99400,
-          "end_ms": 101400
+          "start_ms": 187560,
+          "end_ms": 187620,
+          "words": [
+            {
+              "word": "Тільки",
+              "start_ms": 187560,
+              "end_ms": 187620
+            },
+            {
+              "word": "мир...",
+              "start_ms": 187620,
+              "end_ms": 187620
+            }
+          ]
         }
-      ],
-      "start_ms": 99400,
-      "end_ms": 101400
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 104400,
-          "end_ms": 106400
-        }
-      ],
-      "start_ms": 104400,
-      "end_ms": 106400
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Світанок іде",
+      "section_type": "chorus",
+      "start_ms": 42960,
+      "end_ms": 68620,
+      "key_line": "Світанок іде",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Світанок іде",
+      "section_type": "chorus",
+      "start_ms": 98400,
+      "end_ms": 123740,
+      "key_line": "Світанок іде",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 126280,
+      "end_ms": 187680,
+      "key_line": "Дорога миру",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/ukrainian/42_luke_01_1-76_transcript.json"
 }

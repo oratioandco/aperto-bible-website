@@ -7,306 +7,1665 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 264800,
   "audio_file": "/audio/songs/luke_01/slovak/Luke 1_46-56 — Magnificat (Slovak).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.298633+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.050713+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.946,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 15960,
+      "end_ms": 45500,
       "lines": [
         {
           "text": "Sedim v kuchyni, je rano, je ticho",
-          "start_ms": 6000,
-          "end_ms": 8720
+          "start_ms": 15960,
+          "end_ms": 19800,
+          "words": [
+            {
+              "word": "Sedim",
+              "start_ms": 15960,
+              "end_ms": 16680
+            },
+            {
+              "word": "v",
+              "start_ms": 16680,
+              "end_ms": 16800
+            },
+            {
+              "word": "kuchyni,",
+              "start_ms": 16800,
+              "end_ms": 17860
+            },
+            {
+              "word": "je",
+              "start_ms": 18080,
+              "end_ms": 18360
+            },
+            {
+              "word": "rano,",
+              "start_ms": 18360,
+              "end_ms": 18760
+            },
+            {
+              "word": "je",
+              "start_ms": 18080,
+              "end_ms": 18360
+            },
+            {
+              "word": "ticho",
+              "start_ms": 19000,
+              "end_ms": 19800
+            }
+          ]
         },
         {
           "text": "za oknom ten isty svet co vcera",
-          "start_ms": 8720,
-          "end_ms": 11200
+          "start_ms": 20040,
+          "end_ms": 23980,
+          "words": [
+            {
+              "word": "za",
+              "start_ms": 20040,
+              "end_ms": 20260
+            },
+            {
+              "word": "oknom",
+              "start_ms": 20260,
+              "end_ms": 20760
+            },
+            {
+              "word": "ten",
+              "start_ms": 20760,
+              "end_ms": 21120
+            },
+            {
+              "word": "isty",
+              "start_ms": 21120,
+              "end_ms": 22060
+            },
+            {
+              "word": "svet",
+              "start_ms": 22060,
+              "end_ms": 22620
+            },
+            {
+              "word": "co",
+              "start_ms": 22820,
+              "end_ms": 22880
+            },
+            {
+              "word": "vcera",
+              "start_ms": 22880,
+              "end_ms": 23980
+            }
+          ]
         },
         {
           "text": "ale nieco sa vo mne otocilo",
-          "start_ms": 11200,
-          "end_ms": 13360
+          "start_ms": 23980,
+          "end_ms": 28380,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 23980,
+              "end_ms": 25120
+            },
+            {
+              "word": "nieco",
+              "start_ms": 25120,
+              "end_ms": 25660
+            },
+            {
+              "word": "sa",
+              "start_ms": 25660,
+              "end_ms": 25980
+            },
+            {
+              "word": "vo",
+              "start_ms": 25980,
+              "end_ms": 26200
+            },
+            {
+              "word": "mne",
+              "start_ms": 26200,
+              "end_ms": 27180
+            },
+            {
+              "word": "otocilo",
+              "start_ms": 27180,
+              "end_ms": 28380
+            }
+          ]
         },
         {
           "text": "nieco, co uz nejde zastavit",
-          "start_ms": 13360,
-          "end_ms": 15520
+          "start_ms": 28740,
+          "end_ms": 32340,
+          "words": [
+            {
+              "word": "nieco,",
+              "start_ms": 28740,
+              "end_ms": 29100
+            },
+            {
+              "word": "co",
+              "start_ms": 29300,
+              "end_ms": 29420
+            },
+            {
+              "word": "uz",
+              "start_ms": 29470,
+              "end_ms": 29770,
+              "estimated": true
+            },
+            {
+              "word": "nejde",
+              "start_ms": 29420,
+              "end_ms": 30060
+            },
+            {
+              "word": "zastavit",
+              "start_ms": 30060,
+              "end_ms": 32340
+            }
+          ]
         },
         {
           "text": "Oni si myslia, ze vsetko je po starom",
-          "start_ms": 15520,
-          "end_ms": 18480
+          "start_ms": 32540,
+          "end_ms": 35920,
+          "words": [
+            {
+              "word": "Oni",
+              "start_ms": 32540,
+              "end_ms": 32780
+            },
+            {
+              "word": "si",
+              "start_ms": 32780,
+              "end_ms": 33040
+            },
+            {
+              "word": "myslia,",
+              "start_ms": 33040,
+              "end_ms": 33740
+            },
+            {
+              "word": "ze",
+              "start_ms": 33790,
+              "end_ms": 34090,
+              "estimated": true
+            },
+            {
+              "word": "vsetko",
+              "start_ms": 33960,
+              "end_ms": 34520
+            },
+            {
+              "word": "je",
+              "start_ms": 34520,
+              "end_ms": 34720
+            },
+            {
+              "word": "po",
+              "start_ms": 34720,
+              "end_ms": 35120
+            },
+            {
+              "word": "starom",
+              "start_ms": 35120,
+              "end_ms": 35920
+            }
+          ]
         },
         {
           "text": "oni si myslia, ze sa nic nemeni",
-          "start_ms": 18480,
-          "end_ms": 20960
+          "start_ms": 36320,
+          "end_ms": 39600,
+          "words": [
+            {
+              "word": "oni",
+              "start_ms": 36320,
+              "end_ms": 36800
+            },
+            {
+              "word": "si",
+              "start_ms": 36800,
+              "end_ms": 36980
+            },
+            {
+              "word": "myslia,",
+              "start_ms": 36980,
+              "end_ms": 37680
+            },
+            {
+              "word": "ze",
+              "start_ms": 37730,
+              "end_ms": 38030,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 37940,
+              "end_ms": 38260
+            },
+            {
+              "word": "nic",
+              "start_ms": 38260,
+              "end_ms": 38560
+            },
+            {
+              "word": "nemeni",
+              "start_ms": 38560,
+              "end_ms": 39600
+            }
+          ]
         },
         {
           "text": "ale ja to citim v kostiach",
-          "start_ms": 20960,
-          "end_ms": 23040
+          "start_ms": 40520,
+          "end_ms": 43320,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 40520,
+              "end_ms": 40840
+            },
+            {
+              "word": "ja",
+              "start_ms": 40840,
+              "end_ms": 41160
+            },
+            {
+              "word": "to",
+              "start_ms": 41160,
+              "end_ms": 41400
+            },
+            {
+              "word": "citim",
+              "start_ms": 41400,
+              "end_ms": 41740
+            },
+            {
+              "word": "v",
+              "start_ms": 41740,
+              "end_ms": 41920
+            },
+            {
+              "word": "kostiach",
+              "start_ms": 41920,
+              "end_ms": 43320
+            }
+          ]
         },
         {
           "text": "ze to uz padlo",
-          "start_ms": 23040,
-          "end_ms": 25040
+          "start_ms": 43520,
+          "end_ms": 45500,
+          "words": [
+            {
+              "word": "ze",
+              "start_ms": 43520,
+              "end_ms": 43820,
+              "estimated": true
+            },
+            {
+              "word": "to",
+              "start_ms": 43780,
+              "end_ms": 44140
+            },
+            {
+              "word": "uz",
+              "start_ms": 44190,
+              "end_ms": 44490,
+              "estimated": true
+            },
+            {
+              "word": "padlo",
+              "start_ms": 44540,
+              "end_ms": 45500
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 25040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 48460,
+      "end_ms": 61880,
       "lines": [
         {
           "text": "Nebola som nic a nikto sa nepytal",
-          "start_ms": 28040,
-          "end_ms": 30680
+          "start_ms": 48460,
+          "end_ms": 55020,
+          "words": [
+            {
+              "word": "Nebola",
+              "start_ms": 48460,
+              "end_ms": 49420
+            },
+            {
+              "word": "som",
+              "start_ms": 49420,
+              "end_ms": 49740
+            },
+            {
+              "word": "nic",
+              "start_ms": 49740,
+              "end_ms": 50180
+            },
+            {
+              "word": "a",
+              "start_ms": 50180,
+              "end_ms": 50520
+            },
+            {
+              "word": "nikto",
+              "start_ms": 50520,
+              "end_ms": 51360
+            },
+            {
+              "word": "sa",
+              "start_ms": 51360,
+              "end_ms": 51780
+            },
+            {
+              "word": "nepytal",
+              "start_ms": 51780,
+              "end_ms": 55020
+            }
+          ]
         },
         {
           "text": "ale ten, co videl odo zaciatku",
-          "start_ms": 30680,
-          "end_ms": 33080
+          "start_ms": 56360,
+          "end_ms": 59220,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 56360,
+              "end_ms": 56500
+            },
+            {
+              "word": "ten,",
+              "start_ms": 56500,
+              "end_ms": 56840
+            },
+            {
+              "word": "co",
+              "start_ms": 57040,
+              "end_ms": 57040
+            },
+            {
+              "word": "videl",
+              "start_ms": 57040,
+              "end_ms": 57720
+            },
+            {
+              "word": "odo",
+              "start_ms": 57720,
+              "end_ms": 58040
+            },
+            {
+              "word": "zaciatku",
+              "start_ms": 58040,
+              "end_ms": 59220
+            }
+          ]
         },
         {
           "text": "ten si ma nasiel",
-          "start_ms": 33080,
-          "end_ms": 35080
+          "start_ms": 59480,
+          "end_ms": 61880,
+          "words": [
+            {
+              "word": "ten",
+              "start_ms": 59480,
+              "end_ms": 59960
+            },
+            {
+              "word": "si",
+              "start_ms": 59960,
+              "end_ms": 60240
+            },
+            {
+              "word": "ma",
+              "start_ms": 60240,
+              "end_ms": 60620
+            },
+            {
+              "word": "nasiel",
+              "start_ms": 60620,
+              "end_ms": 61880
+            }
+          ]
         }
-      ],
-      "start_ms": 28040,
-      "end_ms": 35080
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 63120,
+      "end_ms": 91880,
       "lines": [
         {
           "text": "A ja hovorim, svet naruby",
-          "start_ms": 38080,
-          "end_ms": 40080
+          "start_ms": 63120,
+          "end_ms": 69200,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 63120,
+              "end_ms": 63400
+            },
+            {
+              "word": "ja",
+              "start_ms": 63400,
+              "end_ms": 63880
+            },
+            {
+              "word": "hovorim,",
+              "start_ms": 63880,
+              "end_ms": 66240
+            },
+            {
+              "word": "svet",
+              "start_ms": 66760,
+              "end_ms": 67640
+            },
+            {
+              "word": "naruby",
+              "start_ms": 67640,
+              "end_ms": 69200
+            }
+          ]
         },
         {
           "text": "to, co bolo hore, lezi dolu",
-          "start_ms": 40080,
-          "end_ms": 42240
+          "start_ms": 70680,
+          "end_ms": 74540,
+          "words": [
+            {
+              "word": "to,",
+              "start_ms": 70680,
+              "end_ms": 70900
+            },
+            {
+              "word": "co",
+              "start_ms": 71060,
+              "end_ms": 71160
+            },
+            {
+              "word": "bolo",
+              "start_ms": 71160,
+              "end_ms": 71820
+            },
+            {
+              "word": "hore,",
+              "start_ms": 71820,
+              "end_ms": 72760
+            },
+            {
+              "word": "lezi",
+              "start_ms": 73220,
+              "end_ms": 73860
+            },
+            {
+              "word": "dolu",
+              "start_ms": 73860,
+              "end_ms": 74540
+            }
+          ]
         },
         {
           "text": "svet naruby",
-          "start_ms": 42240,
-          "end_ms": 44240
+          "start_ms": 74540,
+          "end_ms": 77160,
+          "words": [
+            {
+              "word": "svet",
+              "start_ms": 74540,
+              "end_ms": 75460
+            },
+            {
+              "word": "naruby",
+              "start_ms": 75460,
+              "end_ms": 77160
+            }
+          ]
         },
         {
           "text": "to, co bolo ticho, teraz krici",
-          "start_ms": 44240,
-          "end_ms": 46640
+          "start_ms": 78440,
+          "end_ms": 84680,
+          "words": [
+            {
+              "word": "to,",
+              "start_ms": 78440,
+              "end_ms": 78580
+            },
+            {
+              "word": "co",
+              "start_ms": 78760,
+              "end_ms": 78880
+            },
+            {
+              "word": "bolo",
+              "start_ms": 78880,
+              "end_ms": 79540
+            },
+            {
+              "word": "ticho,",
+              "start_ms": 79540,
+              "end_ms": 80560
+            },
+            {
+              "word": "teraz",
+              "start_ms": 82520,
+              "end_ms": 83360
+            },
+            {
+              "word": "krici",
+              "start_ms": 83360,
+              "end_ms": 84680
+            }
+          ]
         },
         {
           "text": "a ja to vidim, aj ked vy este nie",
-          "start_ms": 46640,
-          "end_ms": 49280
+          "start_ms": 86420,
+          "end_ms": 91880,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 86420,
+              "end_ms": 86640
+            },
+            {
+              "word": "ja",
+              "start_ms": 86640,
+              "end_ms": 87020
+            },
+            {
+              "word": "to",
+              "start_ms": 87020,
+              "end_ms": 87460
+            },
+            {
+              "word": "vidim,",
+              "start_ms": 87460,
+              "end_ms": 89360
+            },
+            {
+              "word": "aj",
+              "start_ms": 89880,
+              "end_ms": 90180
+            },
+            {
+              "word": "ked",
+              "start_ms": 90180,
+              "end_ms": 90440
+            },
+            {
+              "word": "vy",
+              "start_ms": 90440,
+              "end_ms": 90720
+            },
+            {
+              "word": "este",
+              "start_ms": 90720,
+              "end_ms": 91160
+            },
+            {
+              "word": "nie",
+              "start_ms": 91160,
+              "end_ms": 91880
+            }
+          ]
         }
-      ],
-      "start_ms": 38080,
-      "end_ms": 49280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 94059,
+      "end_ms": 129070,
       "lines": [
         {
           "text": "Hladni stoja v radoch, cakaju na omrvinky",
-          "start_ms": 52280,
-          "end_ms": 55560
+          "start_ms": 94059,
+          "end_ms": 98020,
+          "words": [
+            {
+              "word": "Hladni",
+              "start_ms": 94059,
+              "end_ms": 94820
+            },
+            {
+              "word": "stoja",
+              "start_ms": 94820,
+              "end_ms": 95220
+            },
+            {
+              "word": "v",
+              "start_ms": 95220,
+              "end_ms": 95440
+            },
+            {
+              "word": "radoch,",
+              "start_ms": 95440,
+              "end_ms": 95820
+            },
+            {
+              "word": "cakaju",
+              "start_ms": 95960,
+              "end_ms": 96600
+            },
+            {
+              "word": "na",
+              "start_ms": 96600,
+              "end_ms": 96840
+            },
+            {
+              "word": "omrvinky",
+              "start_ms": 97180,
+              "end_ms": 98020
+            }
+          ]
         },
         {
           "text": "bohatym preteka zo vsetkych stran",
-          "start_ms": 55560,
-          "end_ms": 58200
+          "start_ms": 98420,
+          "end_ms": 101340,
+          "words": [
+            {
+              "word": "bohatym",
+              "start_ms": 98420,
+              "end_ms": 99180
+            },
+            {
+              "word": "preteka",
+              "start_ms": 99180,
+              "end_ms": 99880
+            },
+            {
+              "word": "zo",
+              "start_ms": 99880,
+              "end_ms": 100080
+            },
+            {
+              "word": "vsetkych",
+              "start_ms": 100080,
+              "end_ms": 100820
+            },
+            {
+              "word": "stran",
+              "start_ms": 100820,
+              "end_ms": 101340
+            }
+          ]
         },
         {
           "text": "ale pocuj, prichadzam ti povedat",
-          "start_ms": 58200,
-          "end_ms": 60760
+          "start_ms": 102740,
+          "end_ms": 105860,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 102740,
+              "end_ms": 103000
+            },
+            {
+              "word": "pocuj,",
+              "start_ms": 103000,
+              "end_ms": 103900
+            },
+            {
+              "word": "prichadzam",
+              "start_ms": 104060,
+              "end_ms": 104720
+            },
+            {
+              "word": "ti",
+              "start_ms": 104720,
+              "end_ms": 104960
+            },
+            {
+              "word": "povedat",
+              "start_ms": 104960,
+              "end_ms": 105860
+            }
+          ]
         },
         {
           "text": "ze sa to uz zmenilo, ze stolicky sa vymenili",
-          "start_ms": 60760,
-          "end_ms": 64280
+          "start_ms": 105920,
+          "end_ms": 110120,
+          "words": [
+            {
+              "word": "ze",
+              "start_ms": 105920,
+              "end_ms": 106220,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 106140,
+              "end_ms": 106440
+            },
+            {
+              "word": "to",
+              "start_ms": 106440,
+              "end_ms": 106700
+            },
+            {
+              "word": "uz",
+              "start_ms": 106750,
+              "end_ms": 107050,
+              "estimated": true
+            },
+            {
+              "word": "zmenilo,",
+              "start_ms": 106700,
+              "end_ms": 107680
+            },
+            {
+              "word": "ze",
+              "start_ms": 107730,
+              "end_ms": 108030,
+              "estimated": true
+            },
+            {
+              "word": "stolicky",
+              "start_ms": 108080,
+              "end_ms": 108660
+            },
+            {
+              "word": "sa",
+              "start_ms": 108660,
+              "end_ms": 109100
+            },
+            {
+              "word": "vymenili",
+              "start_ms": 109100,
+              "end_ms": 110120
+            }
+          ]
         },
         {
           "text": "Ten, co sedel na trone, stoji v rade",
-          "start_ms": 64280,
-          "end_ms": 67160
+          "start_ms": 110120,
+          "end_ms": 114020,
+          "words": [
+            {
+              "word": "Ten,",
+              "start_ms": 110120,
+              "end_ms": 110460
+            },
+            {
+              "word": "co",
+              "start_ms": 110640,
+              "end_ms": 110700
+            },
+            {
+              "word": "sedel",
+              "start_ms": 110700,
+              "end_ms": 111440
+            },
+            {
+              "word": "na",
+              "start_ms": 111440,
+              "end_ms": 111720
+            },
+            {
+              "word": "trone,",
+              "start_ms": 111720,
+              "end_ms": 112400
+            },
+            {
+              "word": "stoji",
+              "start_ms": 113020,
+              "end_ms": 113400
+            },
+            {
+              "word": "v",
+              "start_ms": 113400,
+              "end_ms": 113620
+            },
+            {
+              "word": "rade",
+              "start_ms": 113620,
+              "end_ms": 114020
+            }
+          ]
         },
         {
           "text": "ten, co stal v rade, sedi za stolom",
-          "start_ms": 67160,
-          "end_ms": 69960
+          "start_ms": 114260,
+          "end_ms": 118000,
+          "words": [
+            {
+              "word": "ten,",
+              "start_ms": 114260,
+              "end_ms": 114320
+            },
+            {
+              "word": "co",
+              "start_ms": 114420,
+              "end_ms": 114580
+            },
+            {
+              "word": "stal",
+              "start_ms": 114580,
+              "end_ms": 115260
+            },
+            {
+              "word": "v",
+              "start_ms": 115260,
+              "end_ms": 115580
+            },
+            {
+              "word": "rade,",
+              "start_ms": 115580,
+              "end_ms": 116300
+            },
+            {
+              "word": "sedi",
+              "start_ms": 116640,
+              "end_ms": 116980
+            },
+            {
+              "word": "za",
+              "start_ms": 116980,
+              "end_ms": 117280
+            },
+            {
+              "word": "stolom",
+              "start_ms": 117280,
+              "end_ms": 118000
+            }
+          ]
         },
         {
           "text": "a to nie je fantazia",
-          "start_ms": 69960,
-          "end_ms": 71960
+          "start_ms": 118000,
+          "end_ms": 120160,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 118000,
+              "end_ms": 118260
+            },
+            {
+              "word": "to",
+              "start_ms": 118260,
+              "end_ms": 118540
+            },
+            {
+              "word": "nie",
+              "start_ms": 118540,
+              "end_ms": 118820
+            },
+            {
+              "word": "je",
+              "start_ms": 118820,
+              "end_ms": 119140
+            },
+            {
+              "word": "fantazia",
+              "start_ms": 119140,
+              "end_ms": 120160
+            }
+          ]
         },
         {
           "text": "to sa uz stalo",
-          "start_ms": 71960,
-          "end_ms": 73960
+          "start_ms": 121100,
+          "end_ms": 129070,
+          "words": [
+            {
+              "word": "to",
+              "start_ms": 121100,
+              "end_ms": 121360
+            },
+            {
+              "word": "sa",
+              "start_ms": 121360,
+              "end_ms": 121700
+            },
+            {
+              "word": "uz",
+              "start_ms": 128539,
+              "end_ms": 128720
+            },
+            {
+              "word": "stalo",
+              "start_ms": 128770,
+              "end_ms": 129070,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 52280,
-      "end_ms": 73960
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 128720,
+      "end_ms": 139500,
       "lines": [
         {
           "text": "Povedali, ze som mala, ze som z malej dediny",
-          "start_ms": 76960,
-          "end_ms": 80480
+          "start_ms": 128720,
+          "end_ms": 130419,
+          "words": [
+            {
+              "word": "Povedali,",
+              "start_ms": 128720,
+              "end_ms": 129020,
+              "estimated": true
+            },
+            {
+              "word": "ze",
+              "start_ms": 128539,
+              "end_ms": 128720
+            },
+            {
+              "word": "som",
+              "start_ms": 128360,
+              "end_ms": 128539
+            },
+            {
+              "word": "mala,",
+              "start_ms": 127180,
+              "end_ms": 127680
+            },
+            {
+              "word": "ze",
+              "start_ms": 128539,
+              "end_ms": 128720
+            },
+            {
+              "word": "som",
+              "start_ms": 128360,
+              "end_ms": 128539
+            },
+            {
+              "word": "z",
+              "start_ms": 128539,
+              "end_ms": 128720
+            },
+            {
+              "word": "malej",
+              "start_ms": 128720,
+              "end_ms": 129160
+            },
+            {
+              "word": "dediny",
+              "start_ms": 129160,
+              "end_ms": 130419
+            }
+          ]
         },
         {
           "text": "ale ten, co drzi vsetko",
-          "start_ms": 80480,
-          "end_ms": 82480
+          "start_ms": 133700,
+          "end_ms": 136620,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 133700,
+              "end_ms": 133900
+            },
+            {
+              "word": "ten,",
+              "start_ms": 133900,
+              "end_ms": 134540
+            },
+            {
+              "word": "co",
+              "start_ms": 134920,
+              "end_ms": 135140
+            },
+            {
+              "word": "drzi",
+              "start_ms": 135190,
+              "end_ms": 135490,
+              "estimated": true
+            },
+            {
+              "word": "vsetko",
+              "start_ms": 135840,
+              "end_ms": 136620
+            }
+          ]
         },
         {
           "text": "ten si ma vybral",
-          "start_ms": 82480,
-          "end_ms": 84480
+          "start_ms": 137060,
+          "end_ms": 139500,
+          "words": [
+            {
+              "word": "ten",
+              "start_ms": 137060,
+              "end_ms": 137200
+            },
+            {
+              "word": "si",
+              "start_ms": 137200,
+              "end_ms": 137520
+            },
+            {
+              "word": "ma",
+              "start_ms": 137520,
+              "end_ms": 137840
+            },
+            {
+              "word": "vybral",
+              "start_ms": 137840,
+              "end_ms": 139500
+            }
+          ]
         }
-      ],
-      "start_ms": 76960,
-      "end_ms": 84480
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 140700,
+      "end_ms": 169020,
       "lines": [
         {
           "text": "A ja hovorim, svet naruby",
-          "start_ms": 87480,
-          "end_ms": 89480
+          "start_ms": 140700,
+          "end_ms": 146400,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 140700,
+              "end_ms": 141000
+            },
+            {
+              "word": "ja",
+              "start_ms": 141000,
+              "end_ms": 141220
+            },
+            {
+              "word": "hovorim,",
+              "start_ms": 141220,
+              "end_ms": 143620
+            },
+            {
+              "word": "svet",
+              "start_ms": 144060,
+              "end_ms": 144940
+            },
+            {
+              "word": "naruby",
+              "start_ms": 144940,
+              "end_ms": 146400
+            }
+          ]
         },
         {
           "text": "to, co bolo hore, lezi dolu",
-          "start_ms": 89480,
-          "end_ms": 91640
+          "start_ms": 147880,
+          "end_ms": 151560,
+          "words": [
+            {
+              "word": "to,",
+              "start_ms": 147880,
+              "end_ms": 148160
+            },
+            {
+              "word": "co",
+              "start_ms": 148300,
+              "end_ms": 148440
+            },
+            {
+              "word": "bolo",
+              "start_ms": 148440,
+              "end_ms": 149100
+            },
+            {
+              "word": "hore,",
+              "start_ms": 149100,
+              "end_ms": 150060
+            },
+            {
+              "word": "lezi",
+              "start_ms": 150560,
+              "end_ms": 151120
+            },
+            {
+              "word": "dolu",
+              "start_ms": 151120,
+              "end_ms": 151560
+            }
+          ]
         },
         {
           "text": "svet naruby",
-          "start_ms": 91640,
-          "end_ms": 93640
+          "start_ms": 151560,
+          "end_ms": 154220,
+          "words": [
+            {
+              "word": "svet",
+              "start_ms": 151560,
+              "end_ms": 152740
+            },
+            {
+              "word": "naruby",
+              "start_ms": 152740,
+              "end_ms": 154220
+            }
+          ]
         },
         {
           "text": "to, co bolo ticho, teraz krici",
-          "start_ms": 93640,
-          "end_ms": 96040
+          "start_ms": 155740,
+          "end_ms": 161840,
+          "words": [
+            {
+              "word": "to,",
+              "start_ms": 155740,
+              "end_ms": 155920
+            },
+            {
+              "word": "co",
+              "start_ms": 156060,
+              "end_ms": 156220
+            },
+            {
+              "word": "bolo",
+              "start_ms": 156220,
+              "end_ms": 156860
+            },
+            {
+              "word": "ticho,",
+              "start_ms": 156860,
+              "end_ms": 157620
+            },
+            {
+              "word": "teraz",
+              "start_ms": 159680,
+              "end_ms": 160640
+            },
+            {
+              "word": "krici",
+              "start_ms": 160640,
+              "end_ms": 161840
+            }
+          ]
         },
         {
           "text": "a ja to vidim, aj ked vy este nie",
-          "start_ms": 96040,
-          "end_ms": 98680
+          "start_ms": 163740,
+          "end_ms": 169020,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 163740,
+              "end_ms": 163920
+            },
+            {
+              "word": "ja",
+              "start_ms": 163920,
+              "end_ms": 164300
+            },
+            {
+              "word": "to",
+              "start_ms": 164300,
+              "end_ms": 164740
+            },
+            {
+              "word": "vidim,",
+              "start_ms": 164740,
+              "end_ms": 166620
+            },
+            {
+              "word": "aj",
+              "start_ms": 167260,
+              "end_ms": 167500
+            },
+            {
+              "word": "ked",
+              "start_ms": 167500,
+              "end_ms": 167760
+            },
+            {
+              "word": "vy",
+              "start_ms": 167760,
+              "end_ms": 168000
+            },
+            {
+              "word": "este",
+              "start_ms": 168000,
+              "end_ms": 168460
+            },
+            {
+              "word": "nie",
+              "start_ms": 168460,
+              "end_ms": 169020
+            }
+          ]
         }
-      ],
-      "start_ms": 87480,
-      "end_ms": 98680
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 187620,
+      "end_ms": 206180,
       "lines": [
         {
           "text": "Stale ta ista pravda, stale ten isty prevrat",
-          "start_ms": 101680,
-          "end_ms": 105200
+          "start_ms": 187620,
+          "end_ms": 194960,
+          "words": [
+            {
+              "word": "Stale",
+              "start_ms": 187620,
+              "end_ms": 188580
+            },
+            {
+              "word": "ta",
+              "start_ms": 188630,
+              "end_ms": 188930,
+              "estimated": true
+            },
+            {
+              "word": "ista",
+              "start_ms": 189060,
+              "end_ms": 189820
+            },
+            {
+              "word": "pravda,",
+              "start_ms": 189820,
+              "end_ms": 191460
+            },
+            {
+              "word": "stale",
+              "start_ms": 191900,
+              "end_ms": 192520
+            },
+            {
+              "word": "ten",
+              "start_ms": 192520,
+              "end_ms": 192940
+            },
+            {
+              "word": "isty",
+              "start_ms": 192940,
+              "end_ms": 193620
+            },
+            {
+              "word": "prevrat",
+              "start_ms": 193620,
+              "end_ms": 194960
+            }
+          ]
         },
         {
           "text": "kazda mala, kazdy maly",
-          "start_ms": 105200,
-          "end_ms": 107200
+          "start_ms": 195380,
+          "end_ms": 196140,
+          "words": [
+            {
+              "word": "kazda",
+              "start_ms": 195380,
+              "end_ms": 195800
+            },
+            {
+              "word": "mala,",
+              "start_ms": 195800,
+              "end_ms": 196140
+            },
+            {
+              "word": "kazdy",
+              "start_ms": 195380,
+              "end_ms": 195800
+            },
+            {
+              "word": "maly",
+              "start_ms": 195800,
+              "end_ms": 196140
+            }
+          ]
         },
         {
           "text": "kazdy, koho nikto nevidel",
-          "start_ms": 107200,
-          "end_ms": 109200
+          "start_ms": 195380,
+          "end_ms": 199720,
+          "words": [
+            {
+              "word": "kazdy,",
+              "start_ms": 195380,
+              "end_ms": 195800
+            },
+            {
+              "word": "koho",
+              "start_ms": 197700,
+              "end_ms": 198160
+            },
+            {
+              "word": "nikto",
+              "start_ms": 198160,
+              "end_ms": 198660
+            },
+            {
+              "word": "nevidel",
+              "start_ms": 198660,
+              "end_ms": 199720
+            }
+          ]
         },
         {
           "text": "ma miesto za tym stolom",
-          "start_ms": 109200,
-          "end_ms": 111200
+          "start_ms": 200720,
+          "end_ms": 206180,
+          "words": [
+            {
+              "word": "ma",
+              "start_ms": 200720,
+              "end_ms": 201020,
+              "estimated": true
+            },
+            {
+              "word": "miesto",
+              "start_ms": 201520,
+              "end_ms": 202340
+            },
+            {
+              "word": "za",
+              "start_ms": 202340,
+              "end_ms": 202840
+            },
+            {
+              "word": "tym",
+              "start_ms": 202840,
+              "end_ms": 203300
+            },
+            {
+              "word": "stolom",
+              "start_ms": 203300,
+              "end_ms": 206180
+            }
+          ]
         }
-      ],
-      "start_ms": 101680,
-      "end_ms": 111200
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 206360,
+      "end_ms": 237920,
       "lines": [
         {
           "text": "Svet naruby",
-          "start_ms": 114200,
-          "end_ms": 116200
+          "start_ms": 206360,
+          "end_ms": 208280,
+          "words": [
+            {
+              "word": "Svet",
+              "start_ms": 206360,
+              "end_ms": 206820
+            },
+            {
+              "word": "naruby",
+              "start_ms": 206820,
+              "end_ms": 208280
+            }
+          ]
         },
         {
           "text": "to, co bolo hore, lezi dolu",
-          "start_ms": 116200,
-          "end_ms": 118360
+          "start_ms": 209720,
+          "end_ms": 213840,
+          "words": [
+            {
+              "word": "to,",
+              "start_ms": 209720,
+              "end_ms": 209980
+            },
+            {
+              "word": "co",
+              "start_ms": 210140,
+              "end_ms": 210220
+            },
+            {
+              "word": "bolo",
+              "start_ms": 210220,
+              "end_ms": 210900
+            },
+            {
+              "word": "hore,",
+              "start_ms": 210900,
+              "end_ms": 211900
+            },
+            {
+              "word": "lezi",
+              "start_ms": 212300,
+              "end_ms": 212920
+            },
+            {
+              "word": "dolu",
+              "start_ms": 212920,
+              "end_ms": 213840
+            }
+          ]
         },
         {
           "text": "svet naruby",
-          "start_ms": 118360,
-          "end_ms": 120360
+          "start_ms": 214040,
+          "end_ms": 215940,
+          "words": [
+            {
+              "word": "svet",
+              "start_ms": 214040,
+              "end_ms": 214560
+            },
+            {
+              "word": "naruby",
+              "start_ms": 214560,
+              "end_ms": 215940
+            }
+          ]
         },
         {
           "text": "to, co bolo ticho, teraz krici",
-          "start_ms": 120360,
-          "end_ms": 122760
+          "start_ms": 217520,
+          "end_ms": 221440,
+          "words": [
+            {
+              "word": "to,",
+              "start_ms": 217520,
+              "end_ms": 217700
+            },
+            {
+              "word": "co",
+              "start_ms": 217880,
+              "end_ms": 217980
+            },
+            {
+              "word": "bolo",
+              "start_ms": 217980,
+              "end_ms": 218420
+            },
+            {
+              "word": "ticho,",
+              "start_ms": 218420,
+              "end_ms": 219500
+            },
+            {
+              "word": "teraz",
+              "start_ms": 220020,
+              "end_ms": 220520
+            },
+            {
+              "word": "krici",
+              "start_ms": 220520,
+              "end_ms": 221440
+            }
+          ]
         },
         {
           "text": "a ja to vidim",
-          "start_ms": 122760,
-          "end_ms": 124760
+          "start_ms": 221700,
+          "end_ms": 224120,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 221700,
+              "end_ms": 221900
+            },
+            {
+              "word": "ja",
+              "start_ms": 221900,
+              "end_ms": 222220
+            },
+            {
+              "word": "to",
+              "start_ms": 222220,
+              "end_ms": 222660
+            },
+            {
+              "word": "vidim",
+              "start_ms": 222660,
+              "end_ms": 224120
+            }
+          ]
         },
         {
           "text": "a ja to vidim",
-          "start_ms": 124760,
-          "end_ms": 126760
+          "start_ms": 228120,
+          "end_ms": 234460,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 228120,
+              "end_ms": 229520
+            },
+            {
+              "word": "ja",
+              "start_ms": 229520,
+              "end_ms": 229920
+            },
+            {
+              "word": "to",
+              "start_ms": 229920,
+              "end_ms": 230360
+            },
+            {
+              "word": "vidim",
+              "start_ms": 230360,
+              "end_ms": 234460
+            }
+          ]
         },
         {
           "text": "Svet naruby",
-          "start_ms": 126760,
-          "end_ms": 128760
+          "start_ms": 235400,
+          "end_ms": 237920,
+          "words": [
+            {
+              "word": "Svet",
+              "start_ms": 235400,
+              "end_ms": 235700
+            },
+            {
+              "word": "naruby",
+              "start_ms": 235700,
+              "end_ms": 237920
+            }
+          ]
         }
-      ],
-      "start_ms": 114200,
-      "end_ms": 128760
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 131760,
-          "end_ms": 133760
-        }
-      ],
-      "start_ms": 131760,
-      "end_ms": 133760
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Nebola som nic a nikto sa nepy...",
+      "section_type": "chorus",
+      "start_ms": 48460,
+      "end_ms": 61880,
+      "key_line": "Nebola som nic a nikto sa nepytal",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - A ja hovorim, svet naruby",
+      "section_type": "chorus",
+      "start_ms": 63120,
+      "end_ms": 91880,
+      "key_line": "A ja hovorim, svet naruby",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Povedali, ze som mala, ze som ...",
+      "section_type": "chorus",
+      "start_ms": 128720,
+      "end_ms": 139500,
+      "key_line": "Povedali, ze som mala, ze som z malej dediny",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - A ja hovorim, svet naruby",
+      "section_type": "chorus",
+      "start_ms": 140700,
+      "end_ms": 169020,
+      "key_line": "A ja hovorim, svet naruby",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 187620,
+      "end_ms": 206180,
+      "key_line": "Stale ta ista pravda, stale ten isty prevrat",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Svet naruby",
+      "section_type": "chorus",
+      "start_ms": 206360,
+      "end_ms": 237920,
+      "key_line": "Svet naruby",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/slovak/42_luke_01_1-46_transcript.json"
 }

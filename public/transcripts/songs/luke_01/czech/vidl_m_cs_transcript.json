@@ -7,352 +7,1388 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 168800,
   "audio_file": "/audio/songs/luke_01/czech/Luke 1_46-56 _Viděl mě_ — Czech.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.741339+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.926532+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.677,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 20920,
+      "end_ms": 29980,
       "lines": [
         {
           "text": "Nic se nevyřešilo",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 20920,
+          "end_ms": 23000,
+          "words": [
+            {
+              "word": "Nic",
+              "start_ms": 20920,
+              "end_ms": 21220,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 21270,
+              "end_ms": 21570,
+              "estimated": true
+            },
+            {
+              "word": "nevyřešilo",
+              "start_ms": 21960,
+              "end_ms": 23000
+            }
+          ]
         },
         {
           "text": "Josef ještě neví",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 23280,
+          "end_ms": 25300,
+          "words": [
+            {
+              "word": "Josef",
+              "start_ms": 23280,
+              "end_ms": 23800
+            },
+            {
+              "word": "ještě",
+              "start_ms": 20920,
+              "end_ms": 21960
+            },
+            {
+              "word": "neví",
+              "start_ms": 24320,
+              "end_ms": 25300
+            }
+          ]
         },
         {
           "text": "za oknem je tma",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 25580,
+          "end_ms": 27320,
+          "words": [
+            {
+              "word": "za",
+              "start_ms": 25580,
+              "end_ms": 25800
+            },
+            {
+              "word": "oknem",
+              "start_ms": 25800,
+              "end_ms": 26320
+            },
+            {
+              "word": "je",
+              "start_ms": 26320,
+              "end_ms": 26520
+            },
+            {
+              "word": "tma",
+              "start_ms": 26520,
+              "end_ms": 27320
+            }
+          ]
         },
         {
           "text": "a já tady zpívám",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 27320,
+          "end_ms": 29980,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 27320,
+              "end_ms": 28180
+            },
+            {
+              "word": "já",
+              "start_ms": 28180,
+              "end_ms": 28520
+            },
+            {
+              "word": "tady",
+              "start_ms": 28520,
+              "end_ms": 28920
+            },
+            {
+              "word": "zpívám",
+              "start_ms": 28920,
+              "end_ms": 29980
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 29980,
+      "end_ms": 39500,
       "lines": [
         {
           "text": "Všechno visí ve vzduchu",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 29980,
+          "end_ms": 32920,
+          "words": [
+            {
+              "word": "Všechno",
+              "start_ms": 29980,
+              "end_ms": 30880
+            },
+            {
+              "word": "visí",
+              "start_ms": 30880,
+              "end_ms": 31480
+            },
+            {
+              "word": "ve",
+              "start_ms": 31480,
+              "end_ms": 31680
+            },
+            {
+              "word": "vzduchu",
+              "start_ms": 31680,
+              "end_ms": 32920
+            }
+          ]
         },
         {
           "text": "nic není jistý",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 33000,
+          "end_ms": 34400,
+          "words": [
+            {
+              "word": "nic",
+              "start_ms": 33000,
+              "end_ms": 33220
+            },
+            {
+              "word": "není",
+              "start_ms": 33220,
+              "end_ms": 33820
+            },
+            {
+              "word": "jistý",
+              "start_ms": 33820,
+              "end_ms": 34400
+            }
+          ]
         },
         {
           "text": "žádnej plán, žádná odpověď",
-          "start_ms": 21000,
-          "end_ms": 23080
+          "start_ms": 34480,
+          "end_ms": 37160,
+          "words": [
+            {
+              "word": "žádnej",
+              "start_ms": 34480,
+              "end_ms": 35100
+            },
+            {
+              "word": "plán,",
+              "start_ms": 35100,
+              "end_ms": 35580
+            },
+            {
+              "word": "žádná",
+              "start_ms": 35640,
+              "end_ms": 36320
+            },
+            {
+              "word": "odpověď",
+              "start_ms": 36320,
+              "end_ms": 37160
+            }
+          ]
         },
         {
           "text": "jen tenhle pocit v žebrech",
-          "start_ms": 23080,
-          "end_ms": 25160
+          "start_ms": 37240,
+          "end_ms": 39500,
+          "words": [
+            {
+              "word": "jen",
+              "start_ms": 37240,
+              "end_ms": 37500
+            },
+            {
+              "word": "tenhle",
+              "start_ms": 37500,
+              "end_ms": 38000
+            },
+            {
+              "word": "pocit",
+              "start_ms": 38000,
+              "end_ms": 38400
+            },
+            {
+              "word": "v",
+              "start_ms": 38400,
+              "end_ms": 38520
+            },
+            {
+              "word": "žebrech",
+              "start_ms": 38520,
+              "end_ms": 39500
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 25160
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 39500,
+      "end_ms": 44940,
       "lines": [
         {
           "text": "A přesto",
-          "start_ms": 28160,
-          "end_ms": 30160
+          "start_ms": 39500,
+          "end_ms": 42740,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 39500,
+              "end_ms": 39840
+            },
+            {
+              "word": "přesto",
+              "start_ms": 42180,
+              "end_ms": 42740
+            }
+          ]
         },
         {
           "text": "přesto něco ve mně stoupá",
-          "start_ms": 30160,
-          "end_ms": 32160
+          "start_ms": 42180,
+          "end_ms": 44940,
+          "words": [
+            {
+              "word": "přesto",
+              "start_ms": 42180,
+              "end_ms": 42740
+            },
+            {
+              "word": "něco",
+              "start_ms": 42740,
+              "end_ms": 43360
+            },
+            {
+              "word": "ve",
+              "start_ms": 43360,
+              "end_ms": 43580
+            },
+            {
+              "word": "mně",
+              "start_ms": 43580,
+              "end_ms": 43920
+            },
+            {
+              "word": "stoupá",
+              "start_ms": 43920,
+              "end_ms": 44940
+            }
+          ]
         }
-      ],
-      "start_ms": 28160,
-      "end_ms": 32160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 44940,
+      "end_ms": 65740,
       "lines": [
         {
           "text": "Viděl mě",
-          "start_ms": 35160,
-          "end_ms": 37160
+          "start_ms": 44940,
+          "end_ms": 43920,
+          "words": [
+            {
+              "word": "Viděl",
+              "start_ms": 44940,
+              "end_ms": 45720
+            },
+            {
+              "word": "mě",
+              "start_ms": 43580,
+              "end_ms": 43920
+            }
+          ]
         },
         {
           "text": "a to mi stačí",
-          "start_ms": 37160,
-          "end_ms": 39160
+          "start_ms": 46820,
+          "end_ms": 54320,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 46820,
+              "end_ms": 47500
+            },
+            {
+              "word": "to",
+              "start_ms": 52920,
+              "end_ms": 53620
+            },
+            {
+              "word": "mi",
+              "start_ms": 53670,
+              "end_ms": 53970,
+              "estimated": true
+            },
+            {
+              "word": "stačí",
+              "start_ms": 54020,
+              "end_ms": 54320,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "viděl mě",
-          "start_ms": 39160,
-          "end_ms": 41160
+          "start_ms": 54200,
+          "end_ms": 54850,
+          "words": [
+            {
+              "word": "viděl",
+              "start_ms": 54200,
+              "end_ms": 54500,
+              "estimated": true
+            },
+            {
+              "word": "mě",
+              "start_ms": 54550,
+              "end_ms": 54850,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "dřív než se cokoli stalo",
-          "start_ms": 41160,
-          "end_ms": 43160
+          "start_ms": 54200,
+          "end_ms": 57640,
+          "words": [
+            {
+              "word": "dřív",
+              "start_ms": 54200,
+              "end_ms": 54500,
+              "estimated": true
+            },
+            {
+              "word": "než",
+              "start_ms": 56200,
+              "end_ms": 56360
+            },
+            {
+              "word": "se",
+              "start_ms": 56410,
+              "end_ms": 56710,
+              "estimated": true
+            },
+            {
+              "word": "cokoli",
+              "start_ms": 56760,
+              "end_ms": 57060,
+              "estimated": true
+            },
+            {
+              "word": "stalo",
+              "start_ms": 57380,
+              "end_ms": 57640
+            }
+          ]
         },
         {
           "text": "zpívám teď",
-          "start_ms": 43160,
-          "end_ms": 45160
+          "start_ms": 58720,
+          "end_ms": 61420,
+          "words": [
+            {
+              "word": "zpívám",
+              "start_ms": 58720,
+              "end_ms": 59900
+            },
+            {
+              "word": "teď",
+              "start_ms": 59900,
+              "end_ms": 61420
+            }
+          ]
         },
         {
           "text": "ne protože vím jak to dopadne",
-          "start_ms": 45160,
-          "end_ms": 47480
+          "start_ms": 61740,
+          "end_ms": 63940,
+          "words": [
+            {
+              "word": "ne",
+              "start_ms": 61740,
+              "end_ms": 62040,
+              "estimated": true
+            },
+            {
+              "word": "protože",
+              "start_ms": 61740,
+              "end_ms": 62540
+            },
+            {
+              "word": "vím",
+              "start_ms": 62590,
+              "end_ms": 62890,
+              "estimated": true
+            },
+            {
+              "word": "jak",
+              "start_ms": 62940,
+              "end_ms": 63240,
+              "estimated": true
+            },
+            {
+              "word": "to",
+              "start_ms": 63290,
+              "end_ms": 63590,
+              "estimated": true
+            },
+            {
+              "word": "dopadne",
+              "start_ms": 63640,
+              "end_ms": 63940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "zpívám teď",
-          "start_ms": 47480,
-          "end_ms": 49480
+          "start_ms": 58720,
+          "end_ms": 61420,
+          "words": [
+            {
+              "word": "zpívám",
+              "start_ms": 58720,
+              "end_ms": 59900
+            },
+            {
+              "word": "teď",
+              "start_ms": 59900,
+              "end_ms": 61420
+            }
+          ]
         },
         {
           "text": "protože mě viděl",
-          "start_ms": 49480,
-          "end_ms": 51480
+          "start_ms": 61740,
+          "end_ms": 65740,
+          "words": [
+            {
+              "word": "protože",
+              "start_ms": 61740,
+              "end_ms": 62540
+            },
+            {
+              "word": "mě",
+              "start_ms": 62540,
+              "end_ms": 62920
+            },
+            {
+              "word": "viděl",
+              "start_ms": 62920,
+              "end_ms": 65740
+            }
+          ]
         }
-      ],
-      "start_ms": 35160,
-      "end_ms": 51480
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 72940,
+      "end_ms": 85520,
       "lines": [
         {
           "text": "Možná jsem blázen",
-          "start_ms": 54480,
-          "end_ms": 56480
+          "start_ms": 72940,
+          "end_ms": 75220,
+          "words": [
+            {
+              "word": "Možná",
+              "start_ms": 72940,
+              "end_ms": 73860
+            },
+            {
+              "word": "jsem",
+              "start_ms": 73860,
+              "end_ms": 74140
+            },
+            {
+              "word": "blázen",
+              "start_ms": 74140,
+              "end_ms": 75220
+            }
+          ]
         },
         {
           "text": "že se směju do tmy",
-          "start_ms": 56480,
-          "end_ms": 58480
+          "start_ms": 75360,
+          "end_ms": 77080,
+          "words": [
+            {
+              "word": "že",
+              "start_ms": 75360,
+              "end_ms": 75600
+            },
+            {
+              "word": "se",
+              "start_ms": 75600,
+              "end_ms": 75960
+            },
+            {
+              "word": "směju",
+              "start_ms": 75960,
+              "end_ms": 76460
+            },
+            {
+              "word": "do",
+              "start_ms": 76460,
+              "end_ms": 76660
+            },
+            {
+              "word": "tmy",
+              "start_ms": 76660,
+              "end_ms": 77080
+            }
+          ]
         },
         {
           "text": "možná je to odvaha",
-          "start_ms": 58480,
-          "end_ms": 60480
+          "start_ms": 77240,
+          "end_ms": 79360,
+          "words": [
+            {
+              "word": "možná",
+              "start_ms": 77240,
+              "end_ms": 77820
+            },
+            {
+              "word": "je",
+              "start_ms": 77820,
+              "end_ms": 78060
+            },
+            {
+              "word": "to",
+              "start_ms": 78060,
+              "end_ms": 78460
+            },
+            {
+              "word": "odvaha",
+              "start_ms": 78460,
+              "end_ms": 79360
+            }
+          ]
         },
         {
           "text": "možná je to radost",
-          "start_ms": 60480,
-          "end_ms": 62480
+          "start_ms": 79600,
+          "end_ms": 81780,
+          "words": [
+            {
+              "word": "možná",
+              "start_ms": 79600,
+              "end_ms": 80200
+            },
+            {
+              "word": "je",
+              "start_ms": 80200,
+              "end_ms": 80480
+            },
+            {
+              "word": "to",
+              "start_ms": 80480,
+              "end_ms": 80780
+            },
+            {
+              "word": "radost",
+              "start_ms": 80780,
+              "end_ms": 81780
+            }
+          ]
         },
         {
           "text": "co nepotřebuje důvod",
-          "start_ms": 62480,
-          "end_ms": 64480
+          "start_ms": 82480,
+          "end_ms": 85520,
+          "words": [
+            {
+              "word": "co",
+              "start_ms": 82480,
+              "end_ms": 82860
+            },
+            {
+              "word": "nepotřebuje",
+              "start_ms": 82860,
+              "end_ms": 84360
+            },
+            {
+              "word": "důvod",
+              "start_ms": 84360,
+              "end_ms": 85520
+            }
+          ]
         }
-      ],
-      "start_ms": 54480,
-      "end_ms": 64480
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 85520,
+      "end_ms": 92039,
       "lines": [
         {
           "text": "A přesto",
-          "start_ms": 67480,
-          "end_ms": 69480
+          "start_ms": 85520,
+          "end_ms": 90380,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 85520,
+              "end_ms": 87320
+            },
+            {
+              "word": "přesto",
+              "start_ms": 89720,
+              "end_ms": 90380
+            }
+          ]
         },
         {
           "text": "přesto něco ve mně roste",
-          "start_ms": 69480,
-          "end_ms": 71480
+          "start_ms": 89720,
+          "end_ms": 92039,
+          "words": [
+            {
+              "word": "přesto",
+              "start_ms": 89720,
+              "end_ms": 90380
+            },
+            {
+              "word": "něco",
+              "start_ms": 90380,
+              "end_ms": 91020
+            },
+            {
+              "word": "ve",
+              "start_ms": 91020,
+              "end_ms": 91260
+            },
+            {
+              "word": "mně",
+              "start_ms": 91260,
+              "end_ms": 91580
+            },
+            {
+              "word": "roste",
+              "start_ms": 91580,
+              "end_ms": 92039
+            }
+          ]
         }
-      ],
-      "start_ms": 67480,
-      "end_ms": 71480
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 92040,
+      "end_ms": 131420,
       "lines": [
         {
           "text": "Viděl mě",
-          "start_ms": 74480,
-          "end_ms": 76480
+          "start_ms": 92040,
+          "end_ms": 91580,
+          "words": [
+            {
+              "word": "Viděl",
+              "start_ms": 92040,
+              "end_ms": 93380
+            },
+            {
+              "word": "mě",
+              "start_ms": 91260,
+              "end_ms": 91580
+            }
+          ]
         },
         {
           "text": "a to mi stačí",
-          "start_ms": 76480,
-          "end_ms": 78480
+          "start_ms": 94840,
+          "end_ms": 101540,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 94840,
+              "end_ms": 95060
+            },
+            {
+              "word": "to",
+              "start_ms": 100500,
+              "end_ms": 100840
+            },
+            {
+              "word": "mi",
+              "start_ms": 100890,
+              "end_ms": 101190,
+              "estimated": true
+            },
+            {
+              "word": "stačí",
+              "start_ms": 101240,
+              "end_ms": 101540,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "viděl mě",
-          "start_ms": 78480,
-          "end_ms": 80480
+          "start_ms": 102160,
+          "end_ms": 102810,
+          "words": [
+            {
+              "word": "viděl",
+              "start_ms": 102160,
+              "end_ms": 102460,
+              "estimated": true
+            },
+            {
+              "word": "mě",
+              "start_ms": 102510,
+              "end_ms": 102810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "dřív než se cokoli stalo",
-          "start_ms": 80480,
-          "end_ms": 82480
+          "start_ms": 102160,
+          "end_ms": 105320,
+          "words": [
+            {
+              "word": "dřív",
+              "start_ms": 102160,
+              "end_ms": 102460,
+              "estimated": true
+            },
+            {
+              "word": "než",
+              "start_ms": 103840,
+              "end_ms": 104000
+            },
+            {
+              "word": "se",
+              "start_ms": 104050,
+              "end_ms": 104350,
+              "estimated": true
+            },
+            {
+              "word": "cokoli",
+              "start_ms": 104400,
+              "end_ms": 104700,
+              "estimated": true
+            },
+            {
+              "word": "stalo",
+              "start_ms": 105020,
+              "end_ms": 105320
+            }
+          ]
         },
         {
           "text": "zpívám teď",
-          "start_ms": 82480,
-          "end_ms": 84480
+          "start_ms": 106360,
+          "end_ms": 109220,
+          "words": [
+            {
+              "word": "zpívám",
+              "start_ms": 106360,
+              "end_ms": 107520
+            },
+            {
+              "word": "teď",
+              "start_ms": 107520,
+              "end_ms": 109220
+            }
+          ]
         },
         {
           "text": "ne protože vím jak to dopadne",
-          "start_ms": 84480,
-          "end_ms": 86800
+          "start_ms": 116220,
+          "end_ms": 125450,
+          "words": [
+            {
+              "word": "ne",
+              "start_ms": 116220,
+              "end_ms": 117100
+            },
+            {
+              "word": "protože",
+              "start_ms": 117150,
+              "end_ms": 117450,
+              "estimated": true
+            },
+            {
+              "word": "vím",
+              "start_ms": 123080,
+              "end_ms": 124560
+            },
+            {
+              "word": "jak",
+              "start_ms": 124610,
+              "end_ms": 124910,
+              "estimated": true
+            },
+            {
+              "word": "to",
+              "start_ms": 124820,
+              "end_ms": 125100
+            },
+            {
+              "word": "dopadne",
+              "start_ms": 125150,
+              "end_ms": 125450,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "zpívám teď",
-          "start_ms": 86800,
-          "end_ms": 88800
+          "start_ms": 125100,
+          "end_ms": 125750,
+          "words": [
+            {
+              "word": "zpívám",
+              "start_ms": 125100,
+              "end_ms": 125400,
+              "estimated": true
+            },
+            {
+              "word": "teď",
+              "start_ms": 125450,
+              "end_ms": 125750,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "protože mě viděl",
-          "start_ms": 88800,
-          "end_ms": 90800
+          "start_ms": 125100,
+          "end_ms": 131420,
+          "words": [
+            {
+              "word": "protože",
+              "start_ms": 125100,
+              "end_ms": 125400,
+              "estimated": true
+            },
+            {
+              "word": "mě",
+              "start_ms": 131420,
+              "end_ms": 132020
+            },
+            {
+              "word": "viděl",
+              "start_ms": 130380,
+              "end_ms": 131420
+            }
+          ]
         }
-      ],
-      "start_ms": 74480,
-      "end_ms": 90800
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 131420,
+      "end_ms": 134420,
       "lines": [
         {
           "text": "Nemám odpovědi",
-          "start_ms": 93800,
-          "end_ms": 95800
+          "start_ms": 131420,
+          "end_ms": 132070,
+          "words": [
+            {
+              "word": "Nemám",
+              "start_ms": 131420,
+              "end_ms": 131720,
+              "estimated": true
+            },
+            {
+              "word": "odpovědi",
+              "start_ms": 131770,
+              "end_ms": 132070,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "nemám jistotu",
-          "start_ms": 95800,
-          "end_ms": 97800
+          "start_ms": 131420,
+          "end_ms": 132070,
+          "words": [
+            {
+              "word": "nemám",
+              "start_ms": 131420,
+              "end_ms": 131720,
+              "estimated": true
+            },
+            {
+              "word": "jistotu",
+              "start_ms": 131770,
+              "end_ms": 132070,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "mám jenom tohle",
-          "start_ms": 97800,
-          "end_ms": 99800
+          "start_ms": 131420,
+          "end_ms": 133420,
+          "words": [
+            {
+              "word": "mám",
+              "start_ms": 131420,
+              "end_ms": 131720,
+              "estimated": true
+            },
+            {
+              "word": "jenom",
+              "start_ms": 131770,
+              "end_ms": 132070,
+              "estimated": true
+            },
+            {
+              "word": "tohle",
+              "start_ms": 133120,
+              "end_ms": 133420
+            }
+          ]
         },
         {
           "text": "že mě někdo vidí",
-          "start_ms": 99800,
-          "end_ms": 101800
+          "start_ms": 133420,
+          "end_ms": 131420,
+          "words": [
+            {
+              "word": "že",
+              "start_ms": 133420,
+              "end_ms": 133720,
+              "estimated": true
+            },
+            {
+              "word": "mě",
+              "start_ms": 131420,
+              "end_ms": 132020
+            },
+            {
+              "word": "někdo",
+              "start_ms": 132070,
+              "end_ms": 132370,
+              "estimated": true
+            },
+            {
+              "word": "vidí",
+              "start_ms": 130380,
+              "end_ms": 131420
+            }
+          ]
         },
         {
           "text": "a to je víc",
-          "start_ms": 101800,
-          "end_ms": 103800
+          "start_ms": 132440,
+          "end_ms": 134120,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 132440,
+              "end_ms": 133120
+            },
+            {
+              "word": "to",
+              "start_ms": 133120,
+              "end_ms": 133420
+            },
+            {
+              "word": "je",
+              "start_ms": 133470,
+              "end_ms": 133770,
+              "estimated": true
+            },
+            {
+              "word": "víc",
+              "start_ms": 133820,
+              "end_ms": 134120,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "než celej plán",
-          "start_ms": 103800,
-          "end_ms": 105800
+          "start_ms": 133420,
+          "end_ms": 134420,
+          "words": [
+            {
+              "word": "než",
+              "start_ms": 133420,
+              "end_ms": 133720,
+              "estimated": true
+            },
+            {
+              "word": "celej",
+              "start_ms": 133770,
+              "end_ms": 134070,
+              "estimated": true
+            },
+            {
+              "word": "plán",
+              "start_ms": 134120,
+              "end_ms": 134420,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 93800,
-      "end_ms": 105800
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 135580,
+      "end_ms": 152060,
       "lines": [
         {
           "text": "Viděl mě",
-          "start_ms": 108800,
-          "end_ms": 110800
+          "start_ms": 135580,
+          "end_ms": 137000,
+          "words": [
+            {
+              "word": "Viděl",
+              "start_ms": 135580,
+              "end_ms": 136160
+            },
+            {
+              "word": "mě",
+              "start_ms": 136160,
+              "end_ms": 137000
+            }
+          ]
         },
         {
           "text": "a to mi stačí",
-          "start_ms": 110800,
-          "end_ms": 112800
+          "start_ms": 137120,
+          "end_ms": 139580,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 137120,
+              "end_ms": 137420,
+              "estimated": true
+            },
+            {
+              "word": "to",
+              "start_ms": 138480,
+              "end_ms": 138880
+            },
+            {
+              "word": "mi",
+              "start_ms": 138930,
+              "end_ms": 139230,
+              "estimated": true
+            },
+            {
+              "word": "stačí",
+              "start_ms": 139280,
+              "end_ms": 139580,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "viděl mě",
-          "start_ms": 112800,
-          "end_ms": 114800
+          "start_ms": 140100,
+          "end_ms": 140750,
+          "words": [
+            {
+              "word": "viděl",
+              "start_ms": 140100,
+              "end_ms": 140400,
+              "estimated": true
+            },
+            {
+              "word": "mě",
+              "start_ms": 140450,
+              "end_ms": 140750,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "dřív než se cokoli stalo",
-          "start_ms": 114800,
-          "end_ms": 116800
+          "start_ms": 140100,
+          "end_ms": 143300,
+          "words": [
+            {
+              "word": "dřív",
+              "start_ms": 140100,
+              "end_ms": 140400,
+              "estimated": true
+            },
+            {
+              "word": "než",
+              "start_ms": 141900,
+              "end_ms": 142060
+            },
+            {
+              "word": "se",
+              "start_ms": 142110,
+              "end_ms": 142410,
+              "estimated": true
+            },
+            {
+              "word": "cokoli",
+              "start_ms": 142460,
+              "end_ms": 142760,
+              "estimated": true
+            },
+            {
+              "word": "stalo",
+              "start_ms": 143100,
+              "end_ms": 143300
+            }
+          ]
         },
         {
           "text": "zpívám teď",
-          "start_ms": 116800,
-          "end_ms": 118800
+          "start_ms": 144420,
+          "end_ms": 147120,
+          "words": [
+            {
+              "word": "zpívám",
+              "start_ms": 144420,
+              "end_ms": 145600
+            },
+            {
+              "word": "teď",
+              "start_ms": 145600,
+              "end_ms": 147120
+            }
+          ]
         },
         {
           "text": "ne protože vím jak to dopadne",
-          "start_ms": 118800,
-          "end_ms": 121120
+          "start_ms": 147480,
+          "end_ms": 149660,
+          "words": [
+            {
+              "word": "ne",
+              "start_ms": 147480,
+              "end_ms": 147780,
+              "estimated": true
+            },
+            {
+              "word": "protože",
+              "start_ms": 147480,
+              "end_ms": 148260
+            },
+            {
+              "word": "vím",
+              "start_ms": 148310,
+              "end_ms": 148610,
+              "estimated": true
+            },
+            {
+              "word": "jak",
+              "start_ms": 148660,
+              "end_ms": 148960,
+              "estimated": true
+            },
+            {
+              "word": "to",
+              "start_ms": 149010,
+              "end_ms": 149310,
+              "estimated": true
+            },
+            {
+              "word": "dopadne",
+              "start_ms": 149360,
+              "end_ms": 149660,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "zpívám teď",
-          "start_ms": 121120,
-          "end_ms": 123120
+          "start_ms": 144420,
+          "end_ms": 147120,
+          "words": [
+            {
+              "word": "zpívám",
+              "start_ms": 144420,
+              "end_ms": 145600
+            },
+            {
+              "word": "teď",
+              "start_ms": 145600,
+              "end_ms": 147120
+            }
+          ]
         },
         {
           "text": "protože mě viděl",
-          "start_ms": 123120,
-          "end_ms": 125120
+          "start_ms": 147480,
+          "end_ms": 152060,
+          "words": [
+            {
+              "word": "protože",
+              "start_ms": 147480,
+              "end_ms": 148260
+            },
+            {
+              "word": "mě",
+              "start_ms": 148260,
+              "end_ms": 148660
+            },
+            {
+              "word": "viděl",
+              "start_ms": 148660,
+              "end_ms": 152060
+            }
+          ]
         },
         {
           "text": "protože mě viděl",
-          "start_ms": 125120,
-          "end_ms": 127120
+          "start_ms": 147480,
+          "end_ms": 152060,
+          "words": [
+            {
+              "word": "protože",
+              "start_ms": 147480,
+              "end_ms": 148260
+            },
+            {
+              "word": "mě",
+              "start_ms": 148260,
+              "end_ms": 148660
+            },
+            {
+              "word": "viděl",
+              "start_ms": 148660,
+              "end_ms": 152060
+            }
+          ]
         }
-      ],
-      "start_ms": 108800,
-      "end_ms": 127120
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 157339,
+      "end_ms": 159439,
       "lines": [
         {
           "text": "Zpívám teď",
-          "start_ms": 130120,
-          "end_ms": 132120
+          "start_ms": 157339,
+          "end_ms": 159439,
+          "words": [
+            {
+              "word": "Zpívám",
+              "start_ms": 157339,
+              "end_ms": 158739
+            },
+            {
+              "word": "teď",
+              "start_ms": 158739,
+              "end_ms": 159439
+            }
+          ]
         }
-      ],
-      "start_ms": 130120,
-      "end_ms": 132120
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 135120,
-          "end_ms": 137120
-        }
-      ],
-      "start_ms": 135120,
-      "end_ms": 137120
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - A přesto",
+      "section_type": "chorus",
+      "start_ms": 39500,
+      "end_ms": 44940,
+      "key_line": "A přesto",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Viděl mě",
+      "section_type": "chorus",
+      "start_ms": 44940,
+      "end_ms": 65740,
+      "key_line": "Viděl mě",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - A přesto",
+      "section_type": "chorus",
+      "start_ms": 85520,
+      "end_ms": 92039,
+      "key_line": "A přesto",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Viděl mě",
+      "section_type": "chorus",
+      "start_ms": 92040,
+      "end_ms": 131420,
+      "key_line": "Viděl mě",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 131420,
+      "end_ms": 134420,
+      "key_line": "Nemám odpovědi",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Viděl mě",
+      "section_type": "chorus",
+      "start_ms": 135580,
+      "end_ms": 152060,
+      "key_line": "Viděl mě",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/czech/42_luke_01_46-56_transcript.json"
 }

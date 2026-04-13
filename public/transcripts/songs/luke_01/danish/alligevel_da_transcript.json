@@ -7,256 +7,955 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 116680,
   "audio_file": "/audio/songs/luke_01/danish/Luke 1_26-38 _Alligevel_ — Danish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.753888+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.929054+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.835,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 10280,
+      "end_ms": 22120,
       "lines": [
         {
           "text": "En engel i rummet",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 10280,
+          "end_ms": 13400,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 10280,
+              "end_ms": 11340
+            },
+            {
+              "word": "engel",
+              "start_ms": 11340,
+              "end_ms": 11820
+            },
+            {
+              "word": "i",
+              "start_ms": 11820,
+              "end_ms": 11960
+            },
+            {
+              "word": "rummet",
+              "start_ms": 11960,
+              "end_ms": 13400
+            }
+          ]
         },
         {
           "text": "Det lyder som en joke",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 13400,
+          "end_ms": 15680,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 13400,
+              "end_ms": 13980
+            },
+            {
+              "word": "lyder",
+              "start_ms": 13980,
+              "end_ms": 14320
+            },
+            {
+              "word": "som",
+              "start_ms": 14320,
+              "end_ms": 14640
+            },
+            {
+              "word": "en",
+              "start_ms": 14640,
+              "end_ms": 14940
+            },
+            {
+              "word": "joke",
+              "start_ms": 14940,
+              "end_ms": 15680
+            }
+          ]
         },
         {
           "text": "Men hun stod der alene",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 15680,
+          "end_ms": 19140,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 15680,
+              "end_ms": 16980
+            },
+            {
+              "word": "hun",
+              "start_ms": 16980,
+              "end_ms": 17260
+            },
+            {
+              "word": "stod",
+              "start_ms": 17260,
+              "end_ms": 17580
+            },
+            {
+              "word": "der",
+              "start_ms": 17580,
+              "end_ms": 17900
+            },
+            {
+              "word": "alene",
+              "start_ms": 17900,
+              "end_ms": 19140
+            }
+          ]
         },
         {
           "text": "Og hørte det hele",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 19140,
+          "end_ms": 22120,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 19140,
+              "end_ms": 20400
+            },
+            {
+              "word": "hørte",
+              "start_ms": 20400,
+              "end_ms": 20780
+            },
+            {
+              "word": "det",
+              "start_ms": 20780,
+              "end_ms": 21120
+            },
+            {
+              "word": "hele",
+              "start_ms": 21120,
+              "end_ms": 22120
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 22120,
+      "end_ms": 34980,
       "lines": [
         {
           "text": "Du bliver gravid",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 22120,
+          "end_ms": 24920,
+          "words": [
+            {
+              "word": "Du",
+              "start_ms": 22120,
+              "end_ms": 23580
+            },
+            {
+              "word": "bliver",
+              "start_ms": 23580,
+              "end_ms": 23840
+            },
+            {
+              "word": "gravid",
+              "start_ms": 23840,
+              "end_ms": 24920
+            }
+          ]
         },
         {
           "text": "Han skal hedde Jesus",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 25740,
+          "end_ms": 27960,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 25740,
+              "end_ms": 25880
+            },
+            {
+              "word": "skal",
+              "start_ms": 25880,
+              "end_ms": 26220
+            },
+            {
+              "word": "hedde",
+              "start_ms": 26220,
+              "end_ms": 26860
+            },
+            {
+              "word": "Jesus",
+              "start_ms": 26860,
+              "end_ms": 27960
+            }
+          ]
         },
         {
           "text": "Og hun tænkte: jeg er forlovet",
-          "start_ms": 21000,
-          "end_ms": 23400
+          "start_ms": 28509,
+          "end_ms": 31840,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 28509,
+              "end_ms": 29080
+            },
+            {
+              "word": "hun",
+              "start_ms": 29080,
+              "end_ms": 29440
+            },
+            {
+              "word": "tænkte:",
+              "start_ms": 29440,
+              "end_ms": 30020
+            },
+            {
+              "word": "jeg",
+              "start_ms": 30140,
+              "end_ms": 30560
+            },
+            {
+              "word": "er",
+              "start_ms": 30560,
+              "end_ms": 30860
+            },
+            {
+              "word": "forlovet",
+              "start_ms": 30860,
+              "end_ms": 31840
+            }
+          ]
         },
         {
           "text": "Det her ødelægger alt",
-          "start_ms": 23400,
-          "end_ms": 25400
+          "start_ms": 32280,
+          "end_ms": 34980,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 32280,
+              "end_ms": 32420
+            },
+            {
+              "word": "her",
+              "start_ms": 32420,
+              "end_ms": 32940
+            },
+            {
+              "word": "ødelægger",
+              "start_ms": 32940,
+              "end_ms": 34380
+            },
+            {
+              "word": "alt",
+              "start_ms": 34380,
+              "end_ms": 34980
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 25400
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 34980,
+      "end_ms": 43080,
       "lines": [
         {
           "text": "Hun spurgte: hvordan",
-          "start_ms": 28400,
-          "end_ms": 30400
+          "start_ms": 34980,
+          "end_ms": 36740,
+          "words": [
+            {
+              "word": "Hun",
+              "start_ms": 34980,
+              "end_ms": 35540
+            },
+            {
+              "word": "spurgte:",
+              "start_ms": 35540,
+              "end_ms": 36040
+            },
+            {
+              "word": "hvordan",
+              "start_ms": 36040,
+              "end_ms": 36740
+            }
+          ]
         },
         {
           "text": "Ikke som tvivl",
-          "start_ms": 30400,
-          "end_ms": 32400
+          "start_ms": 37340,
+          "end_ms": 38980,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 37340,
+              "end_ms": 37520
+            },
+            {
+              "word": "som",
+              "start_ms": 37520,
+              "end_ms": 37880
+            },
+            {
+              "word": "tvivl",
+              "start_ms": 37880,
+              "end_ms": 38980
+            }
+          ]
         },
         {
           "text": "Men fordi hun forstod prisen",
-          "start_ms": 32400,
-          "end_ms": 34640
+          "start_ms": 38980,
+          "end_ms": 43080,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 38980,
+              "end_ms": 39300
+            },
+            {
+              "word": "fordi",
+              "start_ms": 39300,
+              "end_ms": 39880
+            },
+            {
+              "word": "hun",
+              "start_ms": 39880,
+              "end_ms": 40260
+            },
+            {
+              "word": "forstod",
+              "start_ms": 40260,
+              "end_ms": 41480
+            },
+            {
+              "word": "prisen",
+              "start_ms": 41480,
+              "end_ms": 43080
+            }
+          ]
         }
-      ],
-      "start_ms": 28400,
-      "end_ms": 34640
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 46440,
+      "end_ms": 56640,
       "lines": [
         {
           "text": "Alligevel",
-          "start_ms": 37640,
-          "end_ms": 39640
+          "start_ms": 46440,
+          "end_ms": 48400,
+          "words": [
+            {
+              "word": "Alligevel",
+              "start_ms": 46440,
+              "end_ms": 48400
+            }
+          ]
         },
         {
           "text": "Alligevel",
-          "start_ms": 39640,
-          "end_ms": 41640
+          "start_ms": 46440,
+          "end_ms": 48400,
+          "words": [
+            {
+              "word": "Alligevel",
+              "start_ms": 46440,
+              "end_ms": 48400
+            }
+          ]
         },
         {
           "text": "Lad det ske",
-          "start_ms": 41640,
-          "end_ms": 43640
+          "start_ms": 48790,
+          "end_ms": 50220,
+          "words": [
+            {
+              "word": "Lad",
+              "start_ms": 48790,
+              "end_ms": 49360
+            },
+            {
+              "word": "det",
+              "start_ms": 49360,
+              "end_ms": 49560
+            },
+            {
+              "word": "ske",
+              "start_ms": 49560,
+              "end_ms": 50220
+            }
+          ]
         },
         {
           "text": "Selv om det koster alt",
-          "start_ms": 43640,
-          "end_ms": 45640
+          "start_ms": 50360,
+          "end_ms": 53000,
+          "words": [
+            {
+              "word": "Selv",
+              "start_ms": 50360,
+              "end_ms": 50840
+            },
+            {
+              "word": "om",
+              "start_ms": 50890,
+              "end_ms": 51190,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 49360,
+              "end_ms": 49560
+            },
+            {
+              "word": "koster",
+              "start_ms": 51080,
+              "end_ms": 51640
+            },
+            {
+              "word": "alt",
+              "start_ms": 51640,
+              "end_ms": 53000
+            }
+          ]
         },
         {
           "text": "Alligevel",
-          "start_ms": 45640,
-          "end_ms": 47640
+          "start_ms": 55500,
+          "end_ms": 56640,
+          "words": [
+            {
+              "word": "Alligevel",
+              "start_ms": 55500,
+              "end_ms": 56640
+            }
+          ]
         }
-      ],
-      "start_ms": 37640,
-      "end_ms": 47640
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 56640,
+      "end_ms": 68020,
       "lines": [
         {
           "text": "Folk ville tale",
-          "start_ms": 50640,
-          "end_ms": 52640
+          "start_ms": 56640,
+          "end_ms": 58960,
+          "words": [
+            {
+              "word": "Folk",
+              "start_ms": 56640,
+              "end_ms": 57400
+            },
+            {
+              "word": "ville",
+              "start_ms": 57400,
+              "end_ms": 57600
+            },
+            {
+              "word": "tale",
+              "start_ms": 57600,
+              "end_ms": 58960
+            }
+          ]
         },
         {
           "text": "Josef ville tvivle",
-          "start_ms": 52640,
-          "end_ms": 54640
+          "start_ms": 59520,
+          "end_ms": 61640,
+          "words": [
+            {
+              "word": "Josef",
+              "start_ms": 59520,
+              "end_ms": 60260
+            },
+            {
+              "word": "ville",
+              "start_ms": 57400,
+              "end_ms": 57600
+            },
+            {
+              "word": "tvivle",
+              "start_ms": 60420,
+              "end_ms": 61640
+            }
+          ]
         },
         {
           "text": "Landsbyen ville dømme",
-          "start_ms": 54640,
-          "end_ms": 56640
+          "start_ms": 62220,
+          "end_ms": 65280,
+          "words": [
+            {
+              "word": "Landsbyen",
+              "start_ms": 62220,
+              "end_ms": 63400
+            },
+            {
+              "word": "ville",
+              "start_ms": 60260,
+              "end_ms": 60420
+            },
+            {
+              "word": "dømme",
+              "start_ms": 63680,
+              "end_ms": 65280
+            }
+          ]
         },
         {
           "text": "Det vidste hun godt",
-          "start_ms": 56640,
-          "end_ms": 58640
+          "start_ms": 65700,
+          "end_ms": 68020,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 65700,
+              "end_ms": 65860
+            },
+            {
+              "word": "vidste",
+              "start_ms": 65860,
+              "end_ms": 66400
+            },
+            {
+              "word": "hun",
+              "start_ms": 66400,
+              "end_ms": 66700
+            },
+            {
+              "word": "godt",
+              "start_ms": 66700,
+              "end_ms": 68020
+            }
+          ]
         }
-      ],
-      "start_ms": 50640,
-      "end_ms": 58640
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 68640,
+      "end_ms": 80180,
       "lines": [
         {
           "text": "Det modigste er ikke",
-          "start_ms": 61640,
-          "end_ms": 63640
+          "start_ms": 68640,
+          "end_ms": 75650,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 68640,
+              "end_ms": 69300
+            },
+            {
+              "word": "modigste",
+              "start_ms": 69300,
+              "end_ms": 70660
+            },
+            {
+              "word": "er",
+              "start_ms": 75040,
+              "end_ms": 75300
+            },
+            {
+              "word": "ikke",
+              "start_ms": 75350,
+              "end_ms": 75650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Fravær af frygt",
-          "start_ms": 63640,
-          "end_ms": 65640
+          "start_ms": 75300,
+          "end_ms": 74460,
+          "words": [
+            {
+              "word": "Fravær",
+              "start_ms": 75300,
+              "end_ms": 75600,
+              "estimated": true
+            },
+            {
+              "word": "af",
+              "start_ms": 75650,
+              "end_ms": 75950,
+              "estimated": true
+            },
+            {
+              "word": "frygt",
+              "start_ms": 72820,
+              "end_ms": 74460
+            }
+          ]
         },
         {
           "text": "Det er at sige ja",
-          "start_ms": 65640,
-          "end_ms": 67640
+          "start_ms": 74460,
+          "end_ms": 76900,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 74460,
+              "end_ms": 75040
+            },
+            {
+              "word": "er",
+              "start_ms": 75040,
+              "end_ms": 75300
+            },
+            {
+              "word": "at",
+              "start_ms": 75300,
+              "end_ms": 75700
+            },
+            {
+              "word": "sige",
+              "start_ms": 75700,
+              "end_ms": 75840
+            },
+            {
+              "word": "ja",
+              "start_ms": 75840,
+              "end_ms": 76900
+            }
+          ]
         },
         {
           "text": "Mens man stadig ryster",
-          "start_ms": 67640,
-          "end_ms": 69640
+          "start_ms": 77400,
+          "end_ms": 80180,
+          "words": [
+            {
+              "word": "Mens",
+              "start_ms": 77400,
+              "end_ms": 77980
+            },
+            {
+              "word": "man",
+              "start_ms": 77980,
+              "end_ms": 78320
+            },
+            {
+              "word": "stadig",
+              "start_ms": 78320,
+              "end_ms": 78940
+            },
+            {
+              "word": "ryster",
+              "start_ms": 78940,
+              "end_ms": 80180
+            }
+          ]
         }
-      ],
-      "start_ms": 61640,
-      "end_ms": 69640
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 84740,
+      "end_ms": 115300,
       "lines": [
         {
           "text": "Alligevel",
-          "start_ms": 72640,
-          "end_ms": 74640
+          "start_ms": 84740,
+          "end_ms": 86060,
+          "words": [
+            {
+              "word": "Alligevel",
+              "start_ms": 84740,
+              "end_ms": 86060
+            }
+          ]
         },
         {
           "text": "Alligevel",
-          "start_ms": 74640,
-          "end_ms": 76640
+          "start_ms": 84740,
+          "end_ms": 86060,
+          "words": [
+            {
+              "word": "Alligevel",
+              "start_ms": 84740,
+              "end_ms": 86060
+            }
+          ]
         },
         {
           "text": "Før hun vidste hvordan det endte",
-          "start_ms": 76640,
-          "end_ms": 79200
+          "start_ms": 88900,
+          "end_ms": 109880,
+          "words": [
+            {
+              "word": "Før",
+              "start_ms": 88900,
+              "end_ms": 89180
+            },
+            {
+              "word": "hun",
+              "start_ms": 89180,
+              "end_ms": 89440
+            },
+            {
+              "word": "vidste",
+              "start_ms": 89490,
+              "end_ms": 89790,
+              "estimated": true
+            },
+            {
+              "word": "hvordan",
+              "start_ms": 89840,
+              "end_ms": 90140,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 90480,
+              "end_ms": 90700
+            },
+            {
+              "word": "endte",
+              "start_ms": 108480,
+              "end_ms": 109880
+            }
+          ]
         },
         {
           "text": "Før nogen lovede at det gik godt",
-          "start_ms": 79200,
-          "end_ms": 81760
+          "start_ms": 109880,
+          "end_ms": 111280,
+          "words": [
+            {
+              "word": "Før",
+              "start_ms": 109880,
+              "end_ms": 110180,
+              "estimated": true
+            },
+            {
+              "word": "nogen",
+              "start_ms": 109880,
+              "end_ms": 110800
+            },
+            {
+              "word": "lovede",
+              "start_ms": 108480,
+              "end_ms": 109880
+            },
+            {
+              "word": "at",
+              "start_ms": 109930,
+              "end_ms": 110230,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 110280,
+              "end_ms": 110580,
+              "estimated": true
+            },
+            {
+              "word": "gik",
+              "start_ms": 110630,
+              "end_ms": 110930,
+              "estimated": true
+            },
+            {
+              "word": "godt",
+              "start_ms": 110980,
+              "end_ms": 111280,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Sagde hun alligevel",
-          "start_ms": 81760,
-          "end_ms": 83760
+          "start_ms": 109880,
+          "end_ms": 115300,
+          "words": [
+            {
+              "word": "Sagde",
+              "start_ms": 109880,
+              "end_ms": 110180,
+              "estimated": true
+            },
+            {
+              "word": "hun",
+              "start_ms": 107740,
+              "end_ms": 107920
+            },
+            {
+              "word": "alligevel",
+              "start_ms": 114320,
+              "end_ms": 115300
+            }
+          ]
         }
-      ],
-      "start_ms": 72640,
-      "end_ms": 83760
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 0,
+      "end_ms": 115300,
       "lines": [
         {
           "text": "Englen gik",
-          "start_ms": 86760,
-          "end_ms": 88760
+          "start_ms": 0,
+          "end_ms": 650,
+          "words": [
+            {
+              "word": "Englen",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "gik",
+              "start_ms": 350,
+              "end_ms": 650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Hun stod alene",
-          "start_ms": 88760,
-          "end_ms": 90760
+          "start_ms": 0,
+          "end_ms": 115300,
+          "words": [
+            {
+              "word": "Hun",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "stod",
+              "start_ms": 350,
+              "end_ms": 650,
+              "estimated": true
+            },
+            {
+              "word": "alene",
+              "start_ms": 114320,
+              "end_ms": 115300
+            }
+          ]
         },
         {
           "text": "Med sit ja i rummet",
-          "start_ms": 90760,
-          "end_ms": 92760
+          "start_ms": 0,
+          "end_ms": 113460,
+          "words": [
+            {
+              "word": "Med",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "sit",
+              "start_ms": 350,
+              "end_ms": 650,
+              "estimated": true
+            },
+            {
+              "word": "ja",
+              "start_ms": 700,
+              "end_ms": 1000,
+              "estimated": true
+            },
+            {
+              "word": "i",
+              "start_ms": 111480,
+              "end_ms": 111760
+            },
+            {
+              "word": "rummet",
+              "start_ms": 111760,
+              "end_ms": 113460
+            }
+          ]
         },
         {
           "text": "Alligevel",
-          "start_ms": 92760,
-          "end_ms": 94760
+          "start_ms": 114320,
+          "end_ms": 115300,
+          "words": [
+            {
+              "word": "Alligevel",
+              "start_ms": 114320,
+              "end_ms": 115300
+            }
+          ]
         }
-      ],
-      "start_ms": 86760,
-      "end_ms": 94760
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 97760,
-          "end_ms": 99760
-        }
-      ],
-      "start_ms": 97760,
-      "end_ms": 99760
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Hun spurgte: hvordan",
+      "section_type": "chorus",
+      "start_ms": 34980,
+      "end_ms": 43080,
+      "key_line": "Hun spurgte: hvordan",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Alligevel",
+      "section_type": "chorus",
+      "start_ms": 46440,
+      "end_ms": 56640,
+      "key_line": "Alligevel",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 68640,
+      "end_ms": 80180,
+      "key_line": "Det modigste er ikke",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Alligevel",
+      "section_type": "chorus",
+      "start_ms": 84740,
+      "end_ms": 115300,
+      "key_line": "Alligevel",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/danish/42_luke_01_1-26_transcript.json"
 }

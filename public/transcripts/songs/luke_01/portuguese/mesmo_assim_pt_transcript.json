@@ -7,197 +7,1259 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 181320,
   "audio_file": "/audio/songs/luke_01/portuguese/Luke 1_26-38 (Portuguese).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.223596+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.031103+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.51,
   "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 7039,
+      "end_ms": 49920,
+      "lines": [
+        {
+          "text": "A aldeia e pequena",
+          "start_ms": 7039,
+          "end_ms": 23720,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 7039,
+              "end_ms": 8440
+            },
+            {
+              "word": "aldeia",
+              "start_ms": 8440,
+              "end_ms": 9380
+            },
+            {
+              "word": "e",
+              "start_ms": 17040,
+              "end_ms": 17740
+            },
+            {
+              "word": "pequena",
+              "start_ms": 23520,
+              "end_ms": 23720
+            }
+          ]
+        },
+        {
+          "text": "Toda a gente sabe o teu nome",
+          "start_ms": 27240,
+          "end_ms": 39680,
+          "words": [
+            {
+              "word": "Toda",
+              "start_ms": 27240,
+              "end_ms": 27720
+            },
+            {
+              "word": "a",
+              "start_ms": 26620,
+              "end_ms": 27240
+            },
+            {
+              "word": "gente",
+              "start_ms": 33060,
+              "end_ms": 33340
+            },
+            {
+              "word": "sabe",
+              "start_ms": 32740,
+              "end_ms": 33060
+            },
+            {
+              "word": "o",
+              "start_ms": 33110,
+              "end_ms": 33410,
+              "estimated": true
+            },
+            {
+              "word": "teu",
+              "start_ms": 32000,
+              "end_ms": 32200
+            },
+            {
+              "word": "nome",
+              "start_ms": 39140,
+              "end_ms": 39680
+            }
+          ]
+        },
+        {
+          "text": "E amanha vao falar",
+          "start_ms": 46400,
+          "end_ms": 47950,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 46400,
+              "end_ms": 46900
+            },
+            {
+              "word": "amanha",
+              "start_ms": 46950,
+              "end_ms": 47250,
+              "estimated": true
+            },
+            {
+              "word": "vao",
+              "start_ms": 47300,
+              "end_ms": 47600,
+              "estimated": true
+            },
+            {
+              "word": "falar",
+              "start_ms": 47650,
+              "end_ms": 47950,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Vao contar o que nao sabem",
+          "start_ms": 46900,
+          "end_ms": 49920,
+          "words": [
+            {
+              "word": "Vao",
+              "start_ms": 46900,
+              "end_ms": 47200,
+              "estimated": true
+            },
+            {
+              "word": "contar",
+              "start_ms": 47250,
+              "end_ms": 47550,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 47800,
+              "end_ms": 48260
+            },
+            {
+              "word": "que",
+              "start_ms": 50320,
+              "end_ms": 50680
+            },
+            {
+              "word": "nao",
+              "start_ms": 50730,
+              "end_ms": 51030,
+              "estimated": true
+            },
+            {
+              "word": "sabem",
+              "start_ms": 49300,
+              "end_ms": 49920
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 49920,
+      "end_ms": 72910,
+      "lines": [
+        {
+          "text": "A tua mae de olhos fechados",
+          "start_ms": 49920,
+          "end_ms": 50700,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 49920,
+              "end_ms": 50220,
+              "estimated": true
+            },
+            {
+              "word": "tua",
+              "start_ms": 48960,
+              "end_ms": 49300
+            },
+            {
+              "word": "mae",
+              "start_ms": 49350,
+              "end_ms": 49650,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 49700,
+              "end_ms": 50000,
+              "estimated": true
+            },
+            {
+              "word": "olhos",
+              "start_ms": 50050,
+              "end_ms": 50350,
+              "estimated": true
+            },
+            {
+              "word": "fechados",
+              "start_ms": 50400,
+              "end_ms": 50700,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "O teu pai sem te olhar",
+          "start_ms": 49920,
+          "end_ms": 66160,
+          "words": [
+            {
+              "word": "O",
+              "start_ms": 49920,
+              "end_ms": 50320
+            },
+            {
+              "word": "teu",
+              "start_ms": 48960,
+              "end_ms": 49300
+            },
+            {
+              "word": "pai",
+              "start_ms": 53400,
+              "end_ms": 54120
+            },
+            {
+              "word": "sem",
+              "start_ms": 64760,
+              "end_ms": 65460
+            },
+            {
+              "word": "te",
+              "start_ms": 65510,
+              "end_ms": 65810,
+              "estimated": true
+            },
+            {
+              "word": "olhar",
+              "start_ms": 65860,
+              "end_ms": 66160,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "As vizinhas a porta",
+          "start_ms": 71560,
+          "end_ms": 72210,
+          "words": [
+            {
+              "word": "As",
+              "start_ms": 71560,
+              "end_ms": 71860
+            },
+            {
+              "word": "vizinhas",
+              "start_ms": 71910,
+              "end_ms": 72210,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 71560,
+              "end_ms": 71860
+            },
+            {
+              "word": "porta",
+              "start_ms": 71910,
+              "end_ms": 72210,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Com a boca cheia de certezas",
+          "start_ms": 70220,
+          "end_ms": 72910,
+          "words": [
+            {
+              "word": "Com",
+              "start_ms": 70220,
+              "end_ms": 70980
+            },
+            {
+              "word": "a",
+              "start_ms": 71560,
+              "end_ms": 71860
+            },
+            {
+              "word": "boca",
+              "start_ms": 71910,
+              "end_ms": 72210,
+              "estimated": true
+            },
+            {
+              "word": "cheia",
+              "start_ms": 72260,
+              "end_ms": 72560,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 71860,
+              "end_ms": 72560
+            },
+            {
+              "word": "certezas",
+              "start_ms": 72610,
+              "end_ms": 72910,
+              "estimated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 75240,
+      "end_ms": 73260,
+      "lines": [
+        {
+          "text": "E tu sabes o preco",
+          "start_ms": 75240,
+          "end_ms": 72610,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 75240,
+              "end_ms": 75540,
+              "estimated": true
+            },
+            {
+              "word": "tu",
+              "start_ms": 70980,
+              "end_ms": 71560
+            },
+            {
+              "word": "sabes",
+              "start_ms": 71610,
+              "end_ms": 71910,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 71960,
+              "end_ms": 72260,
+              "estimated": true
+            },
+            {
+              "word": "preco",
+              "start_ms": 72310,
+              "end_ms": 72610,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Tu sabes o que vem",
+          "start_ms": 70980,
+          "end_ms": 72960,
+          "words": [
+            {
+              "word": "Tu",
+              "start_ms": 70980,
+              "end_ms": 71560
+            },
+            {
+              "word": "sabes",
+              "start_ms": 71610,
+              "end_ms": 71910,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 71960,
+              "end_ms": 72260,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 72310,
+              "end_ms": 72610,
+              "estimated": true
+            },
+            {
+              "word": "vem",
+              "start_ms": 72660,
+              "end_ms": 72960,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Sabes que ninguem vai perceber",
+          "start_ms": 71560,
+          "end_ms": 73260,
+          "words": [
+            {
+              "word": "Sabes",
+              "start_ms": 71560,
+              "end_ms": 71860,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 71910,
+              "end_ms": 72210,
+              "estimated": true
+            },
+            {
+              "word": "ninguem",
+              "start_ms": 72260,
+              "end_ms": 72560,
+              "estimated": true
+            },
+            {
+              "word": "vai",
+              "start_ms": 72610,
+              "end_ms": 72910,
+              "estimated": true
+            },
+            {
+              "word": "perceber",
+              "start_ms": 72960,
+              "end_ms": 73260,
+              "estimated": true
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 75240,
+      "end_ms": 82930,
       "lines": [
         {
           "text": "Mesmo assim",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 75240,
+          "end_ms": 77800,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 75240,
+              "end_ms": 76640
+            },
+            {
+              "word": "assim",
+              "start_ms": 76640,
+              "end_ms": 77800
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 75240,
+          "end_ms": 77800,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 75240,
+              "end_ms": 76640
+            },
+            {
+              "word": "assim",
+              "start_ms": 76640,
+              "end_ms": 77800
+            }
+          ]
         },
         {
           "text": "Digo que sim",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 78800,
+          "end_ms": 83130,
+          "words": [
+            {
+              "word": "Digo",
+              "start_ms": 78800,
+              "end_ms": 79100,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 82280,
+              "end_ms": 82780
+            },
+            {
+              "word": "sim",
+              "start_ms": 82830,
+              "end_ms": 83130,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 82780,
+          "end_ms": 83430,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 82780,
+              "end_ms": 83080,
+              "estimated": true
+            },
+            {
+              "word": "assim",
+              "start_ms": 83130,
+              "end_ms": 83430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Com tudo a arder",
-          "start_ms": 14000,
-          "end_ms": 16000
+          "start_ms": 82780,
+          "end_ms": 82280,
+          "words": [
+            {
+              "word": "Com",
+              "start_ms": 82780,
+              "end_ms": 83080,
+              "estimated": true
+            },
+            {
+              "word": "tudo",
+              "start_ms": 83130,
+              "end_ms": 83430,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 81040,
+              "end_ms": 81560
+            },
+            {
+              "word": "arder",
+              "start_ms": 81560,
+              "end_ms": 82280
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 16000,
-          "end_ms": 18000
+          "start_ms": 82280,
+          "end_ms": 82930,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 82280,
+              "end_ms": 82580,
+              "estimated": true
+            },
+            {
+              "word": "assim",
+              "start_ms": 82630,
+              "end_ms": 82930,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 18000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 81040,
+      "end_ms": 109480,
       "lines": [
         {
           "text": "Ha um mundo inteiro a dizer que nao",
-          "start_ms": 21000,
-          "end_ms": 23800
+          "start_ms": 81040,
+          "end_ms": 95350,
+          "words": [
+            {
+              "word": "Ha",
+              "start_ms": 81040,
+              "end_ms": 81560
+            },
+            {
+              "word": "um",
+              "start_ms": 84400,
+              "end_ms": 84740
+            },
+            {
+              "word": "mundo",
+              "start_ms": 84790,
+              "end_ms": 85090,
+              "estimated": true
+            },
+            {
+              "word": "inteiro",
+              "start_ms": 85140,
+              "end_ms": 85960
+            },
+            {
+              "word": "a",
+              "start_ms": 85960,
+              "end_ms": 86200
+            },
+            {
+              "word": "dizer",
+              "start_ms": 90920,
+              "end_ms": 91320
+            },
+            {
+              "word": "que",
+              "start_ms": 94600,
+              "end_ms": 95000
+            },
+            {
+              "word": "nao",
+              "start_ms": 95050,
+              "end_ms": 95350,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ha uma rua inteira a vigiar",
-          "start_ms": 23800,
-          "end_ms": 25960
+          "start_ms": 95000,
+          "end_ms": 97050,
+          "words": [
+            {
+              "word": "Ha",
+              "start_ms": 95000,
+              "end_ms": 95300,
+              "estimated": true
+            },
+            {
+              "word": "uma",
+              "start_ms": 95350,
+              "end_ms": 95650,
+              "estimated": true
+            },
+            {
+              "word": "rua",
+              "start_ms": 95700,
+              "end_ms": 96000,
+              "estimated": true
+            },
+            {
+              "word": "inteira",
+              "start_ms": 96050,
+              "end_ms": 96350,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 96400,
+              "end_ms": 96700,
+              "estimated": true
+            },
+            {
+              "word": "vigiar",
+              "start_ms": 96750,
+              "end_ms": 97050,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mas ha algo dentro de ti",
-          "start_ms": 25960,
-          "end_ms": 27960
+          "start_ms": 95000,
+          "end_ms": 100030,
+          "words": [
+            {
+              "word": "Mas",
+              "start_ms": 95000,
+              "end_ms": 95300,
+              "estimated": true
+            },
+            {
+              "word": "ha",
+              "start_ms": 95350,
+              "end_ms": 95650,
+              "estimated": true
+            },
+            {
+              "word": "algo",
+              "start_ms": 95700,
+              "end_ms": 96000,
+              "estimated": true
+            },
+            {
+              "word": "dentro",
+              "start_ms": 96050,
+              "end_ms": 96350,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 98640,
+              "end_ms": 99680
+            },
+            {
+              "word": "ti",
+              "start_ms": 99730,
+              "end_ms": 100030,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Maior que qualquer opiniao",
-          "start_ms": 27960,
-          "end_ms": 30040
+          "start_ms": 99680,
+          "end_ms": 109480,
+          "words": [
+            {
+              "word": "Maior",
+              "start_ms": 99680,
+              "end_ms": 99980,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 103160,
+              "end_ms": 103580
+            },
+            {
+              "word": "qualquer",
+              "start_ms": 103160,
+              "end_ms": 103580
+            },
+            {
+              "word": "opiniao",
+              "start_ms": 107540,
+              "end_ms": 109480
+            }
+          ]
         }
-      ],
-      "start_ms": 21000,
-      "end_ms": 30040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 109480,
+      "end_ms": 118650,
       "lines": [
         {
           "text": "E tu sabes o risco",
-          "start_ms": 33040,
-          "end_ms": 35040
+          "start_ms": 109480,
+          "end_ms": 111180,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 109480,
+              "end_ms": 109780,
+              "estimated": true
+            },
+            {
+              "word": "tu",
+              "start_ms": 109830,
+              "end_ms": 110130,
+              "estimated": true
+            },
+            {
+              "word": "sabes",
+              "start_ms": 110180,
+              "end_ms": 110480,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 110530,
+              "end_ms": 110830,
+              "estimated": true
+            },
+            {
+              "word": "risco",
+              "start_ms": 110880,
+              "end_ms": 111180,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Tu sabes o que e",
-          "start_ms": 35040,
-          "end_ms": 37040
+          "start_ms": 109480,
+          "end_ms": 117950,
+          "words": [
+            {
+              "word": "Tu",
+              "start_ms": 109480,
+              "end_ms": 109780,
+              "estimated": true
+            },
+            {
+              "word": "sabes",
+              "start_ms": 109830,
+              "end_ms": 110130,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 110180,
+              "end_ms": 110480,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 117040,
+              "end_ms": 117600
+            },
+            {
+              "word": "e",
+              "start_ms": 117650,
+              "end_ms": 117950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Sabes que vais ficar sozinha",
-          "start_ms": 37040,
-          "end_ms": 39280
+          "start_ms": 117600,
+          "end_ms": 118650,
+          "words": [
+            {
+              "word": "Sabes",
+              "start_ms": 117600,
+              "end_ms": 117900,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 117040,
+              "end_ms": 117600
+            },
+            {
+              "word": "vais",
+              "start_ms": 117650,
+              "end_ms": 117950,
+              "estimated": true
+            },
+            {
+              "word": "ficar",
+              "start_ms": 118000,
+              "end_ms": 118300,
+              "estimated": true
+            },
+            {
+              "word": "sozinha",
+              "start_ms": 118350,
+              "end_ms": 118650,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 33040,
-      "end_ms": 39280
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 118780,
+      "end_ms": 142210,
       "lines": [
         {
           "text": "Mesmo assim",
-          "start_ms": 42280,
-          "end_ms": 44280
+          "start_ms": 118780,
+          "end_ms": 122860,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 118780,
+              "end_ms": 119880
+            },
+            {
+              "word": "assim",
+              "start_ms": 119880,
+              "end_ms": 122860
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 44280,
-          "end_ms": 46280
+          "start_ms": 118780,
+          "end_ms": 122860,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 118780,
+              "end_ms": 119880
+            },
+            {
+              "word": "assim",
+              "start_ms": 119880,
+              "end_ms": 122860
+            }
+          ]
         },
         {
           "text": "Digo que sim",
-          "start_ms": 46280,
-          "end_ms": 48280
+          "start_ms": 122860,
+          "end_ms": 130120,
+          "words": [
+            {
+              "word": "Digo",
+              "start_ms": 122860,
+              "end_ms": 123160,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 137940,
+              "end_ms": 139340
+            },
+            {
+              "word": "sim",
+              "start_ms": 129479,
+              "end_ms": 130120
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 48280,
-          "end_ms": 50280
+          "start_ms": 128079,
+          "end_ms": 130120,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 128079,
+              "end_ms": 129479
+            },
+            {
+              "word": "assim",
+              "start_ms": 129479,
+              "end_ms": 130120
+            }
+          ]
         },
         {
           "text": "Com tudo a arder",
-          "start_ms": 50280,
-          "end_ms": 52280
+          "start_ms": 140940,
+          "end_ms": 142430,
+          "words": [
+            {
+              "word": "Com",
+              "start_ms": 140940,
+              "end_ms": 141380
+            },
+            {
+              "word": "tudo",
+              "start_ms": 141430,
+              "end_ms": 141730,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 141780,
+              "end_ms": 142080,
+              "estimated": true
+            },
+            {
+              "word": "arder",
+              "start_ms": 142130,
+              "end_ms": 142430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 52280,
-          "end_ms": 54280
+          "start_ms": 141560,
+          "end_ms": 142210,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 141560,
+              "end_ms": 141860,
+              "estimated": true
+            },
+            {
+              "word": "assim",
+              "start_ms": 141910,
+              "end_ms": 142210,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 42280,
-      "end_ms": 54280
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 140340,
+      "end_ms": 149760,
       "lines": [
         {
           "text": "Que falem",
-          "start_ms": 57280,
-          "end_ms": 59280
+          "start_ms": 140340,
+          "end_ms": 140220,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 140340,
+              "end_ms": 140940
+            },
+            {
+              "word": "falem",
+              "start_ms": 139340,
+              "end_ms": 140220
+            }
+          ]
         },
         {
           "text": "Que contem",
-          "start_ms": 59280,
-          "end_ms": 61280
+          "start_ms": 137940,
+          "end_ms": 141380,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 137940,
+              "end_ms": 139340
+            },
+            {
+              "word": "contem",
+              "start_ms": 140940,
+              "end_ms": 141380
+            }
+          ]
         },
         {
           "text": "Que julguem o que nao viveram",
-          "start_ms": 61280,
-          "end_ms": 63600
+          "start_ms": 140340,
+          "end_ms": 145100,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 140340,
+              "end_ms": 140940
+            },
+            {
+              "word": "julguem",
+              "start_ms": 142000,
+              "end_ms": 142640
+            },
+            {
+              "word": "o",
+              "start_ms": 142640,
+              "end_ms": 143240
+            },
+            {
+              "word": "que",
+              "start_ms": 141560,
+              "end_ms": 142000
+            },
+            {
+              "word": "nao",
+              "start_ms": 143520,
+              "end_ms": 143980
+            },
+            {
+              "word": "viveram",
+              "start_ms": 143980,
+              "end_ms": 145100
+            }
+          ]
         },
         {
           "text": "Eu ja disse que sim",
-          "start_ms": 63600,
-          "end_ms": 65600
+          "start_ms": 146980,
+          "end_ms": 149760,
+          "words": [
+            {
+              "word": "Eu",
+              "start_ms": 146980,
+              "end_ms": 147680
+            },
+            {
+              "word": "ja",
+              "start_ms": 147730,
+              "end_ms": 148030,
+              "estimated": true
+            },
+            {
+              "word": "disse",
+              "start_ms": 148120,
+              "end_ms": 148540
+            },
+            {
+              "word": "que",
+              "start_ms": 148540,
+              "end_ms": 149060
+            },
+            {
+              "word": "sim",
+              "start_ms": 149060,
+              "end_ms": 149760
+            }
+          ]
         }
-      ],
-      "start_ms": 57280,
-      "end_ms": 65600
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 150180,
+      "end_ms": 162100,
       "lines": [
         {
           "text": "Mesmo assim",
-          "start_ms": 68600,
-          "end_ms": 70600
+          "start_ms": 150180,
+          "end_ms": 152100,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 150180,
+              "end_ms": 151100
+            },
+            {
+              "word": "assim",
+              "start_ms": 151100,
+              "end_ms": 152100
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 70600,
-          "end_ms": 72600
+          "start_ms": 150180,
+          "end_ms": 152100,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 150180,
+              "end_ms": 151100
+            },
+            {
+              "word": "assim",
+              "start_ms": 151100,
+              "end_ms": 152100
+            }
+          ]
         },
         {
           "text": "Digo que sim",
-          "start_ms": 72600,
-          "end_ms": 74600
+          "start_ms": 157060,
+          "end_ms": 159660,
+          "words": [
+            {
+              "word": "Digo",
+              "start_ms": 157060,
+              "end_ms": 157860
+            },
+            {
+              "word": "que",
+              "start_ms": 157860,
+              "end_ms": 158380
+            },
+            {
+              "word": "sim",
+              "start_ms": 158380,
+              "end_ms": 159660
+            }
+          ]
         },
         {
           "text": "Mesmo assim",
-          "start_ms": 74600,
-          "end_ms": 76600
+          "start_ms": 159660,
+          "end_ms": 162100,
+          "words": [
+            {
+              "word": "Mesmo",
+              "start_ms": 159660,
+              "end_ms": 160760
+            },
+            {
+              "word": "assim",
+              "start_ms": 160760,
+              "end_ms": 162100
+            }
+          ]
         }
-      ],
-      "start_ms": 68600,
-      "end_ms": 76600
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - E tu sabes o preco",
+      "section_type": "chorus",
+      "start_ms": 75240,
+      "end_ms": 73260,
+      "key_line": "E tu sabes o preco",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Mesmo assim",
+      "section_type": "chorus",
+      "start_ms": 75240,
+      "end_ms": 82930,
+      "key_line": "Mesmo assim",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - E tu sabes o risco",
+      "section_type": "chorus",
+      "start_ms": 109480,
+      "end_ms": 118650,
+      "key_line": "E tu sabes o risco",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Mesmo assim",
+      "section_type": "chorus",
+      "start_ms": 118780,
+      "end_ms": 142210,
+      "key_line": "Mesmo assim",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 140340,
+      "end_ms": 149760,
+      "key_line": "Que falem",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Mesmo assim",
+      "section_type": "chorus",
+      "start_ms": 150180,
+      "end_ms": 162100,
+      "key_line": "Mesmo assim",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/portuguese/42_luke_01_1-26_transcript.json"
 }

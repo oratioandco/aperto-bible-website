@@ -7,266 +7,919 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 207200,
   "audio_file": "/audio/songs/luke_01/estonian/Luke 1_67-79 Koidutaht korgustest — Zechariah's Dawn — estonian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.820119+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.954054+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.84,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 22940,
+      "end_ms": 33920,
       "lines": [
         {
           "text": "Enne kui laps sündis",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 22940,
+          "end_ms": 26140,
+          "words": [
+            {
+              "word": "Enne",
+              "start_ms": 22940,
+              "end_ms": 24340
+            },
+            {
+              "word": "kui",
+              "start_ms": 24340,
+              "end_ms": 24600
+            },
+            {
+              "word": "laps",
+              "start_ms": 24600,
+              "end_ms": 24960
+            },
+            {
+              "word": "sündis",
+              "start_ms": 24960,
+              "end_ms": 26140
+            }
+          ]
         },
         {
           "text": "oli vaikus",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 26140,
+          "end_ms": 28760,
+          "words": [
+            {
+              "word": "oli",
+              "start_ms": 26140,
+              "end_ms": 27500
+            },
+            {
+              "word": "vaikus",
+              "start_ms": 27500,
+              "end_ms": 28760
+            }
+          ]
         },
         {
           "text": "isa istus tumm",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 28760,
+          "end_ms": 31220,
+          "words": [
+            {
+              "word": "isa",
+              "start_ms": 28760,
+              "end_ms": 29800
+            },
+            {
+              "word": "istus",
+              "start_ms": 29800,
+              "end_ms": 30540
+            },
+            {
+              "word": "tumm",
+              "start_ms": 30540,
+              "end_ms": 31220
+            }
+          ]
         },
         {
           "text": "ja aeg mõõdus",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 31220,
+          "end_ms": 33920,
+          "words": [
+            {
+              "word": "ja",
+              "start_ms": 31220,
+              "end_ms": 32600
+            },
+            {
+              "word": "aeg",
+              "start_ms": 32600,
+              "end_ms": 33220
+            },
+            {
+              "word": "mõõdus",
+              "start_ms": 33220,
+              "end_ms": 33920
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 34540,
+      "end_ms": 44300,
       "lines": [
         {
           "text": "Tallinnas on detsembris",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 34540,
+          "end_ms": 37620,
+          "words": [
+            {
+              "word": "Tallinnas",
+              "start_ms": 34540,
+              "end_ms": 35720
+            },
+            {
+              "word": "on",
+              "start_ms": 35720,
+              "end_ms": 36020
+            },
+            {
+              "word": "detsembris",
+              "start_ms": 36020,
+              "end_ms": 37620
+            }
+          ]
         },
         {
           "text": "kolm tundi valgust",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 37620,
+          "end_ms": 40140,
+          "words": [
+            {
+              "word": "kolm",
+              "start_ms": 37620,
+              "end_ms": 38340
+            },
+            {
+              "word": "tundi",
+              "start_ms": 38340,
+              "end_ms": 38880
+            },
+            {
+              "word": "valgust",
+              "start_ms": 38880,
+              "end_ms": 40140
+            }
+          ]
         },
         {
           "text": "ülejäänud ootad",
-          "start_ms": 21000,
-          "end_ms": 23000
+          "start_ms": 40140,
+          "end_ms": 44300,
+          "words": [
+            {
+              "word": "ülejäänud",
+              "start_ms": 40140,
+              "end_ms": 41720
+            },
+            {
+              "word": "ootad",
+              "start_ms": 43220,
+              "end_ms": 44300
+            }
+          ]
         },
         {
           "text": "ootad ja ootad",
-          "start_ms": 23000,
-          "end_ms": 25000
+          "start_ms": 43220,
+          "end_ms": 44300,
+          "words": [
+            {
+              "word": "ootad",
+              "start_ms": 43220,
+              "end_ms": 44300
+            },
+            {
+              "word": "ja",
+              "start_ms": 44300,
+              "end_ms": 44480
+            },
+            {
+              "word": "ootad",
+              "start_ms": 43220,
+              "end_ms": 44300
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 25000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 45980,
+      "end_ms": 56200,
       "lines": [
         {
           "text": "Aga midagi muutub",
-          "start_ms": 28000,
-          "end_ms": 30000
+          "start_ms": 45980,
+          "end_ms": 48720,
+          "words": [
+            {
+              "word": "Aga",
+              "start_ms": 45980,
+              "end_ms": 46660
+            },
+            {
+              "word": "midagi",
+              "start_ms": 46660,
+              "end_ms": 47220
+            },
+            {
+              "word": "muutub",
+              "start_ms": 47220,
+              "end_ms": 48720
+            }
+          ]
         },
         {
           "text": "pimedas toas",
-          "start_ms": 30000,
-          "end_ms": 32000
+          "start_ms": 48720,
+          "end_ms": 50760,
+          "words": [
+            {
+              "word": "pimedas",
+              "start_ms": 48720,
+              "end_ms": 49320
+            },
+            {
+              "word": "toas",
+              "start_ms": 49320,
+              "end_ms": 50760
+            }
+          ]
         },
         {
           "text": "kahtlus kaob",
-          "start_ms": 32000,
-          "end_ms": 34000
+          "start_ms": 51560,
+          "end_ms": 53600,
+          "words": [
+            {
+              "word": "kahtlus",
+              "start_ms": 51560,
+              "end_ms": 52940
+            },
+            {
+              "word": "kaob",
+              "start_ms": 52940,
+              "end_ms": 53600
+            }
+          ]
         },
         {
           "text": "ja selle asemele",
-          "start_ms": 34000,
-          "end_ms": 36000
+          "start_ms": 53600,
+          "end_ms": 56200,
+          "words": [
+            {
+              "word": "ja",
+              "start_ms": 53600,
+              "end_ms": 53760
+            },
+            {
+              "word": "selle",
+              "start_ms": 53760,
+              "end_ms": 54460
+            },
+            {
+              "word": "asemele",
+              "start_ms": 54460,
+              "end_ms": 56200
+            }
+          ]
         }
-      ],
-      "start_ms": 28000,
-      "end_ms": 36000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 57200,
+      "end_ms": 75920,
       "lines": [
         {
           "text": "Koidutäht kõrgustest",
-          "start_ms": 39000,
-          "end_ms": 41000
+          "start_ms": 57200,
+          "end_ms": 60200,
+          "words": [
+            {
+              "word": "Koidutäht",
+              "start_ms": 57200,
+              "end_ms": 58020
+            },
+            {
+              "word": "kõrgustest",
+              "start_ms": 58600,
+              "end_ms": 60200
+            }
+          ]
         },
         {
           "text": "koidutäht kõrgustest",
-          "start_ms": 41000,
-          "end_ms": 43000
+          "start_ms": 57200,
+          "end_ms": 60200,
+          "words": [
+            {
+              "word": "koidutäht",
+              "start_ms": 57200,
+              "end_ms": 58020
+            },
+            {
+              "word": "kõrgustest",
+              "start_ms": 58600,
+              "end_ms": 60200
+            }
+          ]
         },
         {
           "text": "pärast kõike mis oli pime",
-          "start_ms": 43000,
-          "end_ms": 45000
+          "start_ms": 67200,
+          "end_ms": 70440,
+          "words": [
+            {
+              "word": "pärast",
+              "start_ms": 67200,
+              "end_ms": 68400
+            },
+            {
+              "word": "kõike",
+              "start_ms": 68400,
+              "end_ms": 69000
+            },
+            {
+              "word": "mis",
+              "start_ms": 69100,
+              "end_ms": 69280
+            },
+            {
+              "word": "oli",
+              "start_ms": 69280,
+              "end_ms": 69740
+            },
+            {
+              "word": "pime",
+              "start_ms": 69740,
+              "end_ms": 70440
+            }
+          ]
         },
         {
           "text": "esimene valgus",
-          "start_ms": 45000,
-          "end_ms": 47000
+          "start_ms": 73259,
+          "end_ms": 75920,
+          "words": [
+            {
+              "word": "esimene",
+              "start_ms": 73259,
+              "end_ms": 74660
+            },
+            {
+              "word": "valgus",
+              "start_ms": 74660,
+              "end_ms": 75920
+            }
+          ]
         }
-      ],
-      "start_ms": 39000,
-      "end_ms": 47000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 85280,
+      "end_ms": 96300,
       "lines": [
         {
           "text": "Kirjutan tahvlile",
-          "start_ms": 50000,
-          "end_ms": 52000
+          "start_ms": 85280,
+          "end_ms": 87700,
+          "words": [
+            {
+              "word": "Kirjutan",
+              "start_ms": 85280,
+              "end_ms": 86280
+            },
+            {
+              "word": "tahvlile",
+              "start_ms": 86640,
+              "end_ms": 87700
+            }
+          ]
         },
         {
           "text": "tema nimi on Johannes",
-          "start_ms": 52000,
-          "end_ms": 54000
+          "start_ms": 87860,
+          "end_ms": 90040,
+          "words": [
+            {
+              "word": "tema",
+              "start_ms": 87860,
+              "end_ms": 88060
+            },
+            {
+              "word": "nimi",
+              "start_ms": 88060,
+              "end_ms": 88520
+            },
+            {
+              "word": "on",
+              "start_ms": 88520,
+              "end_ms": 88840
+            },
+            {
+              "word": "Johannes",
+              "start_ms": 88840,
+              "end_ms": 90040
+            }
+          ]
         },
         {
           "text": "mitte ma loodan, mitte ma tahan",
-          "start_ms": 54000,
-          "end_ms": 56480
+          "start_ms": 90920,
+          "end_ms": 94440,
+          "words": [
+            {
+              "word": "mitte",
+              "start_ms": 90920,
+              "end_ms": 91800
+            },
+            {
+              "word": "ma",
+              "start_ms": 91800,
+              "end_ms": 92160
+            },
+            {
+              "word": "loodan,",
+              "start_ms": 92160,
+              "end_ms": 93020
+            },
+            {
+              "word": "mitte",
+              "start_ms": 90920,
+              "end_ms": 91800
+            },
+            {
+              "word": "ma",
+              "start_ms": 91800,
+              "end_ms": 92160
+            },
+            {
+              "word": "tahan",
+              "start_ms": 93860,
+              "end_ms": 94440
+            }
+          ]
         },
         {
           "text": "see on. See on",
-          "start_ms": 56480,
-          "end_ms": 58480
+          "start_ms": 94580,
+          "end_ms": 96300,
+          "words": [
+            {
+              "word": "see",
+              "start_ms": 94580,
+              "end_ms": 94920
+            },
+            {
+              "word": "on.",
+              "start_ms": 95800,
+              "end_ms": 96300
+            },
+            {
+              "word": "See",
+              "start_ms": 95160,
+              "end_ms": 95800
+            },
+            {
+              "word": "on",
+              "start_ms": 95800,
+              "end_ms": 96300
+            }
+          ]
         }
-      ],
-      "start_ms": 50000,
-      "end_ms": 58480
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 96440,
+      "end_ms": 106960,
       "lines": [
         {
           "text": "Ja suu avanes",
-          "start_ms": 61480,
-          "end_ms": 63480
+          "start_ms": 96440,
+          "end_ms": 98560,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 96440,
+              "end_ms": 97020
+            },
+            {
+              "word": "suu",
+              "start_ms": 97020,
+              "end_ms": 97520
+            },
+            {
+              "word": "avanes",
+              "start_ms": 97520,
+              "end_ms": 98560
+            }
+          ]
         },
         {
           "text": "pärast üheksat kuud",
-          "start_ms": 63480,
-          "end_ms": 65480
+          "start_ms": 99180,
+          "end_ms": 101960,
+          "words": [
+            {
+              "word": "pärast",
+              "start_ms": 99180,
+              "end_ms": 99540
+            },
+            {
+              "word": "üheksat",
+              "start_ms": 99540,
+              "end_ms": 100580
+            },
+            {
+              "word": "kuud",
+              "start_ms": 100580,
+              "end_ms": 101960
+            }
+          ]
         },
         {
           "text": "esimene sõna",
-          "start_ms": 65480,
-          "end_ms": 67480
+          "start_ms": 101960,
+          "end_ms": 105120,
+          "words": [
+            {
+              "word": "esimene",
+              "start_ms": 101960,
+              "end_ms": 103760
+            },
+            {
+              "word": "sõna",
+              "start_ms": 103760,
+              "end_ms": 105120
+            }
+          ]
         },
         {
           "text": "polnud kaebus",
-          "start_ms": 67480,
-          "end_ms": 69480
+          "start_ms": 105120,
+          "end_ms": 106960,
+          "words": [
+            {
+              "word": "polnud",
+              "start_ms": 105120,
+              "end_ms": 105920
+            },
+            {
+              "word": "kaebus",
+              "start_ms": 105920,
+              "end_ms": 106960
+            }
+          ]
         }
-      ],
-      "start_ms": 61480,
-      "end_ms": 69480
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 107680,
+      "end_ms": 127000,
       "lines": [
         {
           "text": "Koidutäht kõrgustest",
-          "start_ms": 72480,
-          "end_ms": 74480
+          "start_ms": 107680,
+          "end_ms": 110960,
+          "words": [
+            {
+              "word": "Koidutäht",
+              "start_ms": 107680,
+              "end_ms": 108880
+            },
+            {
+              "word": "kõrgustest",
+              "start_ms": 109460,
+              "end_ms": 110960
+            }
+          ]
         },
         {
           "text": "koidutäht kõrgustest",
-          "start_ms": 74480,
-          "end_ms": 76480
+          "start_ms": 107680,
+          "end_ms": 110960,
+          "words": [
+            {
+              "word": "koidutäht",
+              "start_ms": 107680,
+              "end_ms": 108880
+            },
+            {
+              "word": "kõrgustest",
+              "start_ms": 109460,
+              "end_ms": 110960
+            }
+          ]
         },
         {
           "text": "pärast kõike mis oli pime",
-          "start_ms": 76480,
-          "end_ms": 78480
+          "start_ms": 118720,
+          "end_ms": 122120,
+          "words": [
+            {
+              "word": "pärast",
+              "start_ms": 118720,
+              "end_ms": 119420
+            },
+            {
+              "word": "kõike",
+              "start_ms": 119420,
+              "end_ms": 120000
+            },
+            {
+              "word": "mis",
+              "start_ms": 120320,
+              "end_ms": 120320
+            },
+            {
+              "word": "oli",
+              "start_ms": 120320,
+              "end_ms": 120780
+            },
+            {
+              "word": "pime",
+              "start_ms": 120780,
+              "end_ms": 122120
+            }
+          ]
         },
         {
           "text": "esimene valgus",
-          "start_ms": 78480,
-          "end_ms": 80480
+          "start_ms": 124360,
+          "end_ms": 127000,
+          "words": [
+            {
+              "word": "esimene",
+              "start_ms": 124360,
+              "end_ms": 125760
+            },
+            {
+              "word": "valgus",
+              "start_ms": 125760,
+              "end_ms": 127000
+            }
+          ]
         }
-      ],
-      "start_ms": 72480,
-      "end_ms": 80480
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 133540,
+      "end_ms": 136000,
       "lines": [
         {
           "text": "Ja sina, laps",
-          "start_ms": 83480,
-          "end_ms": 85480
+          "start_ms": 133540,
+          "end_ms": 134540,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 133540,
+              "end_ms": 133840,
+              "estimated": true
+            },
+            {
+              "word": "sina,",
+              "start_ms": 133890,
+              "end_ms": 134190,
+              "estimated": true
+            },
+            {
+              "word": "laps",
+              "start_ms": 134240,
+              "end_ms": 134540,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "sa lähed pimeduse sisse",
-          "start_ms": 85480,
-          "end_ms": 87480
+          "start_ms": 133540,
+          "end_ms": 135700,
+          "words": [
+            {
+              "word": "sa",
+              "start_ms": 133540,
+              "end_ms": 133840,
+              "estimated": true
+            },
+            {
+              "word": "lähed",
+              "start_ms": 135000,
+              "end_ms": 135000
+            },
+            {
+              "word": "pimeduse",
+              "start_ms": 135050,
+              "end_ms": 135350,
+              "estimated": true
+            },
+            {
+              "word": "sisse",
+              "start_ms": 135400,
+              "end_ms": 135700,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "valgustama neid",
-          "start_ms": 87480,
-          "end_ms": 89480
+          "start_ms": 135000,
+          "end_ms": 135650,
+          "words": [
+            {
+              "word": "valgustama",
+              "start_ms": 135000,
+              "end_ms": 135300,
+              "estimated": true
+            },
+            {
+              "word": "neid",
+              "start_ms": 135350,
+              "end_ms": 135650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "kes ei näe",
-          "start_ms": 89480,
-          "end_ms": 91480
+          "start_ms": 135000,
+          "end_ms": 136000,
+          "words": [
+            {
+              "word": "kes",
+              "start_ms": 135000,
+              "end_ms": 135300,
+              "estimated": true
+            },
+            {
+              "word": "ei",
+              "start_ms": 135350,
+              "end_ms": 135650,
+              "estimated": true
+            },
+            {
+              "word": "näe",
+              "start_ms": 135700,
+              "end_ms": 136000,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 83480,
-      "end_ms": 91480
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 135000,
+      "end_ms": 135000,
       "lines": [
         {
           "text": "Juhtima meie jalgu",
-          "start_ms": 94480,
-          "end_ms": 96480
+          "start_ms": 135000,
+          "end_ms": 136000,
+          "words": [
+            {
+              "word": "Juhtima",
+              "start_ms": 135000,
+              "end_ms": 135300,
+              "estimated": true
+            },
+            {
+              "word": "meie",
+              "start_ms": 135350,
+              "end_ms": 135650,
+              "estimated": true
+            },
+            {
+              "word": "jalgu",
+              "start_ms": 135700,
+              "end_ms": 136000,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "rahu teele",
-          "start_ms": 96480,
-          "end_ms": 98480
+          "start_ms": 135000,
+          "end_ms": 135650,
+          "words": [
+            {
+              "word": "rahu",
+              "start_ms": 135000,
+              "end_ms": 135300,
+              "estimated": true
+            },
+            {
+              "word": "teele",
+              "start_ms": 135350,
+              "end_ms": 135650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "koidutäht",
-          "start_ms": 98480,
-          "end_ms": 100480
+          "start_ms": 135000,
+          "end_ms": 135000,
+          "words": [
+            {
+              "word": "koidutäht",
+              "start_ms": 135000,
+              "end_ms": 135000
+            }
+          ]
         },
         {
           "text": "koidutäht",
-          "start_ms": 100480,
-          "end_ms": 102480
+          "start_ms": 135000,
+          "end_ms": 135000,
+          "words": [
+            {
+              "word": "koidutäht",
+              "start_ms": 135000,
+              "end_ms": 135000
+            }
+          ]
         }
-      ],
-      "start_ms": 94480,
-      "end_ms": 102480
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Aga midagi muutub",
+      "section_type": "chorus",
+      "start_ms": 45980,
+      "end_ms": 56200,
+      "key_line": "Aga midagi muutub",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Koidutäht kõrgustest",
+      "section_type": "chorus",
+      "start_ms": 57200,
+      "end_ms": 75920,
+      "key_line": "Koidutäht kõrgustest",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ja suu avanes",
+      "section_type": "chorus",
+      "start_ms": 96440,
+      "end_ms": 106960,
+      "key_line": "Ja suu avanes",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Koidutäht kõrgustest",
+      "section_type": "chorus",
+      "start_ms": 107680,
+      "end_ms": 127000,
+      "key_line": "Koidutäht kõrgustest",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 133540,
+      "end_ms": 136000,
+      "key_line": "Ja sina, laps",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/estonian/42_luke_01_1-67_transcript.json"
 }

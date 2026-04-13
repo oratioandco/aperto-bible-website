@@ -7,360 +7,1507 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 209240,
   "audio_file": "/audio/songs/luke_01/spanish/Luke 1_26-38 (Mary's Yes) — Spanish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.333224+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.062249+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.902,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 22680,
+      "end_ms": 32920,
       "lines": [
         {
           "text": "Nazaret no tiene nada",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 22680,
+          "end_ms": 25200,
+          "words": [
+            {
+              "word": "Nazaret",
+              "start_ms": 22680,
+              "end_ms": 23720
+            },
+            {
+              "word": "no",
+              "start_ms": 23720,
+              "end_ms": 23900
+            },
+            {
+              "word": "tiene",
+              "start_ms": 23900,
+              "end_ms": 24360
+            },
+            {
+              "word": "nada",
+              "start_ms": 24360,
+              "end_ms": 25200
+            }
+          ]
         },
         {
           "text": "Que el mundo quiera ver",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 25200,
+          "end_ms": 27940,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 25200,
+              "end_ms": 25980
+            },
+            {
+              "word": "el",
+              "start_ms": 25980,
+              "end_ms": 26220
+            },
+            {
+              "word": "mundo",
+              "start_ms": 26220,
+              "end_ms": 26480
+            },
+            {
+              "word": "quiera",
+              "start_ms": 26480,
+              "end_ms": 27000
+            },
+            {
+              "word": "ver",
+              "start_ms": 27000,
+              "end_ms": 27940
+            }
+          ]
         },
         {
           "text": "Una calle sin historia",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 27940,
+          "end_ms": 30340,
+          "words": [
+            {
+              "word": "Una",
+              "start_ms": 27940,
+              "end_ms": 28640
+            },
+            {
+              "word": "calle",
+              "start_ms": 28640,
+              "end_ms": 29080
+            },
+            {
+              "word": "sin",
+              "start_ms": 29080,
+              "end_ms": 29500
+            },
+            {
+              "word": "historia",
+              "start_ms": 29500,
+              "end_ms": 30340
+            }
+          ]
         },
         {
           "text": "Una chica sin poder",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 31140,
+          "end_ms": 32920,
+          "words": [
+            {
+              "word": "Una",
+              "start_ms": 31140,
+              "end_ms": 31300
+            },
+            {
+              "word": "chica",
+              "start_ms": 31300,
+              "end_ms": 31720
+            },
+            {
+              "word": "sin",
+              "start_ms": 31720,
+              "end_ms": 32140
+            },
+            {
+              "word": "poder",
+              "start_ms": 32140,
+              "end_ms": 32920
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 32920,
+      "end_ms": 43280,
       "lines": [
         {
           "text": "Pero hoy la luz te encuentra",
-          "start_ms": 17000,
-          "end_ms": 19240
+          "start_ms": 32920,
+          "end_ms": 35640,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 32920,
+              "end_ms": 33840
+            },
+            {
+              "word": "hoy",
+              "start_ms": 33840,
+              "end_ms": 34080
+            },
+            {
+              "word": "la",
+              "start_ms": 34080,
+              "end_ms": 34380
+            },
+            {
+              "word": "luz",
+              "start_ms": 34380,
+              "end_ms": 34600
+            },
+            {
+              "word": "te",
+              "start_ms": 34600,
+              "end_ms": 34920
+            },
+            {
+              "word": "encuentra",
+              "start_ms": 34920,
+              "end_ms": 35640
+            }
+          ]
         },
         {
           "text": "No la buscaste tu",
-          "start_ms": 19240,
-          "end_ms": 21240
+          "start_ms": 36320,
+          "end_ms": 37890,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 36320,
+              "end_ms": 36480
+            },
+            {
+              "word": "la",
+              "start_ms": 36480,
+              "end_ms": 36780
+            },
+            {
+              "word": "buscaste",
+              "start_ms": 36780,
+              "end_ms": 37540
+            },
+            {
+              "word": "tu",
+              "start_ms": 37590,
+              "end_ms": 37890,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Una voz rompe el silencio",
-          "start_ms": 21240,
-          "end_ms": 23240
+          "start_ms": 38620,
+          "end_ms": 40840,
+          "words": [
+            {
+              "word": "Una",
+              "start_ms": 38620,
+              "end_ms": 39120
+            },
+            {
+              "word": "voz",
+              "start_ms": 39120,
+              "end_ms": 39360
+            },
+            {
+              "word": "rompe",
+              "start_ms": 39360,
+              "end_ms": 39740
+            },
+            {
+              "word": "el",
+              "start_ms": 39740,
+              "end_ms": 40000
+            },
+            {
+              "word": "silencio",
+              "start_ms": 40000,
+              "end_ms": 40840
+            }
+          ]
         },
         {
           "text": "Y ya nada es como fue",
-          "start_ms": 23240,
-          "end_ms": 25240
+          "start_ms": 40840,
+          "end_ms": 43280,
+          "words": [
+            {
+              "word": "Y",
+              "start_ms": 40840,
+              "end_ms": 41300
+            },
+            {
+              "word": "ya",
+              "start_ms": 41300,
+              "end_ms": 41600
+            },
+            {
+              "word": "nada",
+              "start_ms": 41600,
+              "end_ms": 41980
+            },
+            {
+              "word": "es",
+              "start_ms": 41980,
+              "end_ms": 42340
+            },
+            {
+              "word": "como",
+              "start_ms": 42340,
+              "end_ms": 42680
+            },
+            {
+              "word": "fue",
+              "start_ms": 42680,
+              "end_ms": 43280
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 25240
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 43860,
+      "end_ms": 55160,
       "lines": [
         {
           "text": "Te tiemblan las manos",
-          "start_ms": 28240,
-          "end_ms": 30240
+          "start_ms": 43860,
+          "end_ms": 46240,
+          "words": [
+            {
+              "word": "Te",
+              "start_ms": 43860,
+              "end_ms": 44320
+            },
+            {
+              "word": "tiemblan",
+              "start_ms": 44320,
+              "end_ms": 44960
+            },
+            {
+              "word": "las",
+              "start_ms": 44960,
+              "end_ms": 45400
+            },
+            {
+              "word": "manos",
+              "start_ms": 45400,
+              "end_ms": 46240
+            }
+          ]
         },
         {
           "text": "Te tiembla la voz",
-          "start_ms": 30240,
-          "end_ms": 32240
+          "start_ms": 46740,
+          "end_ms": 49120,
+          "words": [
+            {
+              "word": "Te",
+              "start_ms": 46740,
+              "end_ms": 46940
+            },
+            {
+              "word": "tiembla",
+              "start_ms": 46940,
+              "end_ms": 47580
+            },
+            {
+              "word": "la",
+              "start_ms": 47580,
+              "end_ms": 48020
+            },
+            {
+              "word": "voz",
+              "start_ms": 48020,
+              "end_ms": 49120
+            }
+          ]
         },
         {
           "text": "Sabes lo que pierdes",
-          "start_ms": 32240,
-          "end_ms": 34240
+          "start_ms": 49120,
+          "end_ms": 51820,
+          "words": [
+            {
+              "word": "Sabes",
+              "start_ms": 49120,
+              "end_ms": 50000
+            },
+            {
+              "word": "lo",
+              "start_ms": 50000,
+              "end_ms": 50340
+            },
+            {
+              "word": "que",
+              "start_ms": 50340,
+              "end_ms": 50620
+            },
+            {
+              "word": "pierdes",
+              "start_ms": 50620,
+              "end_ms": 51820
+            }
+          ]
         },
         {
           "text": "Si contestas hoy",
-          "start_ms": 34240,
-          "end_ms": 36240
+          "start_ms": 51820,
+          "end_ms": 55160,
+          "words": [
+            {
+              "word": "Si",
+              "start_ms": 51820,
+              "end_ms": 52360
+            },
+            {
+              "word": "contestas",
+              "start_ms": 52360,
+              "end_ms": 53500
+            },
+            {
+              "word": "hoy",
+              "start_ms": 53500,
+              "end_ms": 55160
+            }
+          ]
         }
-      ],
-      "start_ms": 28240,
-      "end_ms": 36240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 55160,
+      "end_ms": 73750,
       "lines": [
         {
           "text": "Aun asi, si",
-          "start_ms": 39240,
-          "end_ms": 41240
+          "start_ms": 55160,
+          "end_ms": 56910,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 55160,
+              "end_ms": 55880
+            },
+            {
+              "word": "asi,",
+              "start_ms": 55880,
+              "end_ms": 56560
+            },
+            {
+              "word": "si",
+              "start_ms": 56610,
+              "end_ms": 56910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 41240,
-          "end_ms": 43240
+          "start_ms": 55160,
+          "end_ms": 56910,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 55160,
+              "end_ms": 55880
+            },
+            {
+              "word": "asi,",
+              "start_ms": 55880,
+              "end_ms": 56560
+            },
+            {
+              "word": "si",
+              "start_ms": 56610,
+              "end_ms": 56910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Yo digo que si",
-          "start_ms": 43240,
-          "end_ms": 45240
+          "start_ms": 60380,
+          "end_ms": 63910,
+          "words": [
+            {
+              "word": "Yo",
+              "start_ms": 60380,
+              "end_ms": 60620
+            },
+            {
+              "word": "digo",
+              "start_ms": 60620,
+              "end_ms": 61760
+            },
+            {
+              "word": "que",
+              "start_ms": 61760,
+              "end_ms": 63560
+            },
+            {
+              "word": "si",
+              "start_ms": 63610,
+              "end_ms": 63910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Con las manos temblando",
-          "start_ms": 45240,
-          "end_ms": 47240
+          "start_ms": 64700,
+          "end_ms": 68140,
+          "words": [
+            {
+              "word": "Con",
+              "start_ms": 64700,
+              "end_ms": 65760
+            },
+            {
+              "word": "las",
+              "start_ms": 65760,
+              "end_ms": 66240
+            },
+            {
+              "word": "manos",
+              "start_ms": 66240,
+              "end_ms": 66960
+            },
+            {
+              "word": "temblando",
+              "start_ms": 66960,
+              "end_ms": 68140
+            }
+          ]
         },
         {
           "text": "Con los ojos abiertos",
-          "start_ms": 47240,
-          "end_ms": 49240
+          "start_ms": 68460,
+          "end_ms": 70940,
+          "words": [
+            {
+              "word": "Con",
+              "start_ms": 68460,
+              "end_ms": 68700
+            },
+            {
+              "word": "los",
+              "start_ms": 68700,
+              "end_ms": 69100
+            },
+            {
+              "word": "ojos",
+              "start_ms": 69100,
+              "end_ms": 69740
+            },
+            {
+              "word": "abiertos",
+              "start_ms": 69740,
+              "end_ms": 70940
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 49240,
-          "end_ms": 51240
+          "start_ms": 70940,
+          "end_ms": 73750,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 70940,
+              "end_ms": 72160
+            },
+            {
+              "word": "asi,",
+              "start_ms": 72160,
+              "end_ms": 73400
+            },
+            {
+              "word": "si",
+              "start_ms": 73450,
+              "end_ms": 73750,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 39240,
-      "end_ms": 51240
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 84619,
+      "end_ms": 96020,
       "lines": [
         {
           "text": "Jose va a buscar respuestas",
-          "start_ms": 54240,
-          "end_ms": 56400
+          "start_ms": 84619,
+          "end_ms": 87580,
+          "words": [
+            {
+              "word": "Jose",
+              "start_ms": 84619,
+              "end_ms": 85600
+            },
+            {
+              "word": "va",
+              "start_ms": 85600,
+              "end_ms": 85880
+            },
+            {
+              "word": "a",
+              "start_ms": 85880,
+              "end_ms": 85900
+            },
+            {
+              "word": "buscar",
+              "start_ms": 85900,
+              "end_ms": 86360
+            },
+            {
+              "word": "respuestas",
+              "start_ms": 86360,
+              "end_ms": 87580
+            }
+          ]
         },
         {
           "text": "Que no vas a poder dar",
-          "start_ms": 56400,
-          "end_ms": 58400
+          "start_ms": 87580,
+          "end_ms": 89980,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 87580,
+              "end_ms": 88040
+            },
+            {
+              "word": "no",
+              "start_ms": 88040,
+              "end_ms": 88280
+            },
+            {
+              "word": "vas",
+              "start_ms": 88280,
+              "end_ms": 88560
+            },
+            {
+              "word": "a",
+              "start_ms": 88560,
+              "end_ms": 88820
+            },
+            {
+              "word": "poder",
+              "start_ms": 88820,
+              "end_ms": 89240
+            },
+            {
+              "word": "dar",
+              "start_ms": 89240,
+              "end_ms": 89980
+            }
+          ]
         },
         {
           "text": "Tu familia va a mirarte",
-          "start_ms": 58400,
-          "end_ms": 60400
+          "start_ms": 89980,
+          "end_ms": 92340,
+          "words": [
+            {
+              "word": "Tu",
+              "start_ms": 89980,
+              "end_ms": 90620
+            },
+            {
+              "word": "familia",
+              "start_ms": 90620,
+              "end_ms": 91180
+            },
+            {
+              "word": "va",
+              "start_ms": 91180,
+              "end_ms": 91540
+            },
+            {
+              "word": "a",
+              "start_ms": 91540,
+              "end_ms": 91780
+            },
+            {
+              "word": "mirarte",
+              "start_ms": 91780,
+              "end_ms": 92340
+            }
+          ]
         },
         {
           "text": "Con preguntas que van a quemar",
-          "start_ms": 60400,
-          "end_ms": 62800
+          "start_ms": 92340,
+          "end_ms": 96020,
+          "words": [
+            {
+              "word": "Con",
+              "start_ms": 92340,
+              "end_ms": 92740
+            },
+            {
+              "word": "preguntas",
+              "start_ms": 92740,
+              "end_ms": 93820
+            },
+            {
+              "word": "que",
+              "start_ms": 93820,
+              "end_ms": 94340
+            },
+            {
+              "word": "van",
+              "start_ms": 94340,
+              "end_ms": 95060
+            },
+            {
+              "word": "a",
+              "start_ms": 95060,
+              "end_ms": 95340
+            },
+            {
+              "word": "quemar",
+              "start_ms": 95340,
+              "end_ms": 96020
+            }
+          ]
         }
-      ],
-      "start_ms": 54240,
-      "end_ms": 62800
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 4",
+      "start_ms": 96020,
+      "end_ms": 106140,
       "lines": [
         {
           "text": "La ley dice una cosa",
-          "start_ms": 65800,
-          "end_ms": 67800
+          "start_ms": 96020,
+          "end_ms": 97920,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 96020,
+              "end_ms": 96220
+            },
+            {
+              "word": "ley",
+              "start_ms": 96220,
+              "end_ms": 96520
+            },
+            {
+              "word": "dice",
+              "start_ms": 96520,
+              "end_ms": 96900
+            },
+            {
+              "word": "una",
+              "start_ms": 96900,
+              "end_ms": 97280
+            },
+            {
+              "word": "cosa",
+              "start_ms": 97280,
+              "end_ms": 97920
+            }
+          ]
         },
         {
           "text": "El pueblo dice otra",
-          "start_ms": 67800,
-          "end_ms": 69800
+          "start_ms": 98680,
+          "end_ms": 100660,
+          "words": [
+            {
+              "word": "El",
+              "start_ms": 98680,
+              "end_ms": 98840
+            },
+            {
+              "word": "pueblo",
+              "start_ms": 98840,
+              "end_ms": 99280
+            },
+            {
+              "word": "dice",
+              "start_ms": 99280,
+              "end_ms": 99800
+            },
+            {
+              "word": "otra",
+              "start_ms": 99800,
+              "end_ms": 100660
+            }
+          ]
         },
         {
           "text": "Y tu llevas por dentro",
-          "start_ms": 69800,
-          "end_ms": 71800
+          "start_ms": 100660,
+          "end_ms": 103420,
+          "words": [
+            {
+              "word": "Y",
+              "start_ms": 100660,
+              "end_ms": 101320
+            },
+            {
+              "word": "tu",
+              "start_ms": 101370,
+              "end_ms": 101670,
+              "estimated": true
+            },
+            {
+              "word": "llevas",
+              "start_ms": 101600,
+              "end_ms": 102100
+            },
+            {
+              "word": "por",
+              "start_ms": 102100,
+              "end_ms": 102600
+            },
+            {
+              "word": "dentro",
+              "start_ms": 102600,
+              "end_ms": 103420
+            }
+          ]
         },
         {
           "text": "Lo que nadie soporta",
-          "start_ms": 71800,
-          "end_ms": 73800
+          "start_ms": 103420,
+          "end_ms": 106140,
+          "words": [
+            {
+              "word": "Lo",
+              "start_ms": 103420,
+              "end_ms": 103940
+            },
+            {
+              "word": "que",
+              "start_ms": 103940,
+              "end_ms": 104220
+            },
+            {
+              "word": "nadie",
+              "start_ms": 104220,
+              "end_ms": 104580
+            },
+            {
+              "word": "soporta",
+              "start_ms": 104580,
+              "end_ms": 106140
+            }
+          ]
         }
-      ],
-      "start_ms": 65800,
-      "end_ms": 73800
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 106140,
+      "end_ms": 116700,
       "lines": [
         {
           "text": "Sabiendo el precio",
-          "start_ms": 76800,
-          "end_ms": 78800
+          "start_ms": 106140,
+          "end_ms": 108020,
+          "words": [
+            {
+              "word": "Sabiendo",
+              "start_ms": 106140,
+              "end_ms": 106960
+            },
+            {
+              "word": "el",
+              "start_ms": 106960,
+              "end_ms": 107320
+            },
+            {
+              "word": "precio",
+              "start_ms": 107320,
+              "end_ms": 108020
+            }
+          ]
         },
         {
           "text": "Sabiendo el dolor",
-          "start_ms": 78800,
-          "end_ms": 80800
+          "start_ms": 106140,
+          "end_ms": 110540,
+          "words": [
+            {
+              "word": "Sabiendo",
+              "start_ms": 106140,
+              "end_ms": 106960
+            },
+            {
+              "word": "el",
+              "start_ms": 106960,
+              "end_ms": 107320
+            },
+            {
+              "word": "dolor",
+              "start_ms": 109540,
+              "end_ms": 110540
+            }
+          ]
         },
         {
           "text": "No es fe sin miedo",
-          "start_ms": 80800,
-          "end_ms": 82800
+          "start_ms": 110540,
+          "end_ms": 113160,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 110540,
+              "end_ms": 111600
+            },
+            {
+              "word": "es",
+              "start_ms": 111600,
+              "end_ms": 111900
+            },
+            {
+              "word": "fe",
+              "start_ms": 111950,
+              "end_ms": 112250,
+              "estimated": true
+            },
+            {
+              "word": "sin",
+              "start_ms": 111900,
+              "end_ms": 112280
+            },
+            {
+              "word": "miedo",
+              "start_ms": 112280,
+              "end_ms": 113160
+            }
+          ]
         },
         {
           "text": "Es fe con todo",
-          "start_ms": 82800,
-          "end_ms": 84800
+          "start_ms": 111600,
+          "end_ms": 116700,
+          "words": [
+            {
+              "word": "Es",
+              "start_ms": 111600,
+              "end_ms": 111900
+            },
+            {
+              "word": "fe",
+              "start_ms": 111950,
+              "end_ms": 112250,
+              "estimated": true
+            },
+            {
+              "word": "con",
+              "start_ms": 114480,
+              "end_ms": 115040
+            },
+            {
+              "word": "todo",
+              "start_ms": 115040,
+              "end_ms": 116700
+            }
+          ]
         }
-      ],
-      "start_ms": 76800,
-      "end_ms": 84800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 116700,
+      "end_ms": 135210,
       "lines": [
         {
           "text": "Aun asi, si",
-          "start_ms": 87800,
-          "end_ms": 89800
+          "start_ms": 116700,
+          "end_ms": 118650,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 116700,
+              "end_ms": 117520
+            },
+            {
+              "word": "asi,",
+              "start_ms": 117520,
+              "end_ms": 118300
+            },
+            {
+              "word": "si",
+              "start_ms": 118350,
+              "end_ms": 118650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 89800,
-          "end_ms": 91800
+          "start_ms": 116700,
+          "end_ms": 118650,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 116700,
+              "end_ms": 117520
+            },
+            {
+              "word": "asi,",
+              "start_ms": 117520,
+              "end_ms": 118300
+            },
+            {
+              "word": "si",
+              "start_ms": 118350,
+              "end_ms": 118650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Yo digo que si",
-          "start_ms": 91800,
-          "end_ms": 93800
+          "start_ms": 122040,
+          "end_ms": 125590,
+          "words": [
+            {
+              "word": "Yo",
+              "start_ms": 122040,
+              "end_ms": 122220
+            },
+            {
+              "word": "digo",
+              "start_ms": 122220,
+              "end_ms": 122860
+            },
+            {
+              "word": "que",
+              "start_ms": 122860,
+              "end_ms": 125240
+            },
+            {
+              "word": "si",
+              "start_ms": 125290,
+              "end_ms": 125590,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Con las manos temblando",
-          "start_ms": 93800,
-          "end_ms": 95800
+          "start_ms": 126380,
+          "end_ms": 129740,
+          "words": [
+            {
+              "word": "Con",
+              "start_ms": 126380,
+              "end_ms": 127380
+            },
+            {
+              "word": "las",
+              "start_ms": 127380,
+              "end_ms": 127860
+            },
+            {
+              "word": "manos",
+              "start_ms": 127860,
+              "end_ms": 128620
+            },
+            {
+              "word": "temblando",
+              "start_ms": 128620,
+              "end_ms": 129740
+            }
+          ]
         },
         {
           "text": "Con los ojos abiertos",
-          "start_ms": 95800,
-          "end_ms": 97800
+          "start_ms": 130080,
+          "end_ms": 132640,
+          "words": [
+            {
+              "word": "Con",
+              "start_ms": 130080,
+              "end_ms": 130340
+            },
+            {
+              "word": "los",
+              "start_ms": 130340,
+              "end_ms": 130720
+            },
+            {
+              "word": "ojos",
+              "start_ms": 130720,
+              "end_ms": 131380
+            },
+            {
+              "word": "abiertos",
+              "start_ms": 131380,
+              "end_ms": 132640
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 97800,
-          "end_ms": 99800
+          "start_ms": 132640,
+          "end_ms": 135210,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 132640,
+              "end_ms": 133880
+            },
+            {
+              "word": "asi,",
+              "start_ms": 133880,
+              "end_ms": 134860
+            },
+            {
+              "word": "si",
+              "start_ms": 134910,
+              "end_ms": 135210,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 87800,
-      "end_ms": 99800
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 137700,
+      "end_ms": 147510,
       "lines": [
         {
           "text": "No soy valiente",
-          "start_ms": 102800,
-          "end_ms": 104800
+          "start_ms": 137700,
+          "end_ms": 140480,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 137700,
+              "end_ms": 138740
+            },
+            {
+              "word": "soy",
+              "start_ms": 138740,
+              "end_ms": 139280
+            },
+            {
+              "word": "valiente",
+              "start_ms": 139280,
+              "end_ms": 140480
+            }
+          ]
         },
         {
           "text": "Solo estoy aqui",
-          "start_ms": 104800,
-          "end_ms": 106800
+          "start_ms": 140820,
+          "end_ms": 142580,
+          "words": [
+            {
+              "word": "Solo",
+              "start_ms": 140820,
+              "end_ms": 141040
+            },
+            {
+              "word": "estoy",
+              "start_ms": 141040,
+              "end_ms": 141760
+            },
+            {
+              "word": "aqui",
+              "start_ms": 141760,
+              "end_ms": 142580
+            }
+          ]
         },
         {
           "text": "Con el miedo en el pecho",
-          "start_ms": 106800,
-          "end_ms": 108800
+          "start_ms": 142580,
+          "end_ms": 145340,
+          "words": [
+            {
+              "word": "Con",
+              "start_ms": 142580,
+              "end_ms": 143220
+            },
+            {
+              "word": "el",
+              "start_ms": 143220,
+              "end_ms": 143560
+            },
+            {
+              "word": "miedo",
+              "start_ms": 143560,
+              "end_ms": 144020
+            },
+            {
+              "word": "en",
+              "start_ms": 144020,
+              "end_ms": 144560
+            },
+            {
+              "word": "el",
+              "start_ms": 143220,
+              "end_ms": 143560
+            },
+            {
+              "word": "pecho",
+              "start_ms": 144840,
+              "end_ms": 145340
+            }
+          ]
         },
         {
           "text": "Y la palabra si",
-          "start_ms": 108800,
-          "end_ms": 110800
+          "start_ms": 145340,
+          "end_ms": 147510,
+          "words": [
+            {
+              "word": "Y",
+              "start_ms": 145340,
+              "end_ms": 145720
+            },
+            {
+              "word": "la",
+              "start_ms": 145720,
+              "end_ms": 146040
+            },
+            {
+              "word": "palabra",
+              "start_ms": 146040,
+              "end_ms": 147160
+            },
+            {
+              "word": "si",
+              "start_ms": 147210,
+              "end_ms": 147510,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 102800,
-      "end_ms": 110800
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 147920,
+      "end_ms": 169950,
       "lines": [
         {
           "text": "Aun asi, si",
-          "start_ms": 113800,
-          "end_ms": 115800
+          "start_ms": 147920,
+          "end_ms": 149350,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 147920,
+              "end_ms": 148400
+            },
+            {
+              "word": "asi,",
+              "start_ms": 148400,
+              "end_ms": 149000
+            },
+            {
+              "word": "si",
+              "start_ms": 149050,
+              "end_ms": 149350,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 115800,
-          "end_ms": 117800
+          "start_ms": 147920,
+          "end_ms": 149350,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 147920,
+              "end_ms": 148400
+            },
+            {
+              "word": "asi,",
+              "start_ms": 148400,
+              "end_ms": 149000
+            },
+            {
+              "word": "si",
+              "start_ms": 149050,
+              "end_ms": 149350,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Le pertenezco",
-          "start_ms": 117800,
-          "end_ms": 119800
+          "start_ms": 153100,
+          "end_ms": 154940,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 153100,
+              "end_ms": 153100
+            },
+            {
+              "word": "pertenezco",
+              "start_ms": 153100,
+              "end_ms": 154940
+            }
+          ]
         },
         {
           "text": "No porque no duela",
-          "start_ms": 119800,
-          "end_ms": 121800
+          "start_ms": 154940,
+          "end_ms": 157440,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 154940,
+              "end_ms": 155440
+            },
+            {
+              "word": "porque",
+              "start_ms": 155440,
+              "end_ms": 155920
+            },
+            {
+              "word": "no",
+              "start_ms": 154940,
+              "end_ms": 155440
+            },
+            {
+              "word": "duela",
+              "start_ms": 156380,
+              "end_ms": 157440
+            }
+          ]
         },
         {
           "text": "Porque algo mas grande",
-          "start_ms": 121800,
-          "end_ms": 123800
+          "start_ms": 155440,
+          "end_ms": 162180,
+          "words": [
+            {
+              "word": "Porque",
+              "start_ms": 155440,
+              "end_ms": 155920
+            },
+            {
+              "word": "algo",
+              "start_ms": 158160,
+              "end_ms": 158760
+            },
+            {
+              "word": "mas",
+              "start_ms": 158760,
+              "end_ms": 161040
+            },
+            {
+              "word": "grande",
+              "start_ms": 161040,
+              "end_ms": 162180
+            }
+          ]
         },
         {
           "text": "Me tiene a mi",
-          "start_ms": 123800,
-          "end_ms": 125800
+          "start_ms": 162180,
+          "end_ms": 164830,
+          "words": [
+            {
+              "word": "Me",
+              "start_ms": 162180,
+              "end_ms": 163320
+            },
+            {
+              "word": "tiene",
+              "start_ms": 163320,
+              "end_ms": 163780
+            },
+            {
+              "word": "a",
+              "start_ms": 163780,
+              "end_ms": 164480
+            },
+            {
+              "word": "mi",
+              "start_ms": 164530,
+              "end_ms": 164830,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 125800,
-          "end_ms": 127800
+          "start_ms": 167100,
+          "end_ms": 169950,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 167100,
+              "end_ms": 168840
+            },
+            {
+              "word": "asi,",
+              "start_ms": 168840,
+              "end_ms": 169600
+            },
+            {
+              "word": "si",
+              "start_ms": 169650,
+              "end_ms": 169950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Aun asi, si",
-          "start_ms": 127800,
-          "end_ms": 129800
+          "start_ms": 167100,
+          "end_ms": 169950,
+          "words": [
+            {
+              "word": "Aun",
+              "start_ms": 167100,
+              "end_ms": 168840
+            },
+            {
+              "word": "asi,",
+              "start_ms": 168840,
+              "end_ms": 169600
+            },
+            {
+              "word": "si",
+              "start_ms": 169650,
+              "end_ms": 169950,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 113800,
-      "end_ms": 129800
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 170600,
+      "end_ms": 170900,
       "lines": [
         {
           "text": "Si",
-          "start_ms": 132800,
-          "end_ms": 134800
+          "start_ms": 170600,
+          "end_ms": 170900,
+          "words": [
+            {
+              "word": "Si",
+              "start_ms": 170600,
+              "end_ms": 170900,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 132800,
-      "end_ms": 134800
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 137800,
-          "end_ms": 139800
-        }
-      ],
-      "start_ms": 137800,
-      "end_ms": 139800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Te tiemblan las manos",
+      "section_type": "chorus",
+      "start_ms": 43860,
+      "end_ms": 55160,
+      "key_line": "Te tiemblan las manos",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Aun asi, si",
+      "section_type": "chorus",
+      "start_ms": 55160,
+      "end_ms": 73750,
+      "key_line": "Aun asi, si",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Sabiendo el precio",
+      "section_type": "chorus",
+      "start_ms": 106140,
+      "end_ms": 116700,
+      "key_line": "Sabiendo el precio",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Aun asi, si",
+      "section_type": "chorus",
+      "start_ms": 116700,
+      "end_ms": 135210,
+      "key_line": "Aun asi, si",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 137700,
+      "end_ms": 147510,
+      "key_line": "No soy valiente",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Aun asi, si",
+      "section_type": "chorus",
+      "start_ms": 147920,
+      "end_ms": 169950,
+      "key_line": "Aun asi, si",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/spanish/42_luke_01_1-26_transcript.json"
 }

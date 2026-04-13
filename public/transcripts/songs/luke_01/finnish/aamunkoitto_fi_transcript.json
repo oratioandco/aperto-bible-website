@@ -7,256 +7,876 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 242960,
   "audio_file": "/audio/songs/luke_01/finnish/Aamunkoitto (Luke 1_67-79) — Finnish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.835685+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.956109+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 1.0,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 19440,
+      "end_ms": 46400,
       "lines": [
         {
           "text": "Hiljaisuus opetti häntä",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 19440,
+          "end_ms": 24840,
+          "words": [
+            {
+              "word": "Hiljaisuus",
+              "start_ms": 19440,
+              "end_ms": 20840
+            },
+            {
+              "word": "opetti",
+              "start_ms": 20840,
+              "end_ms": 22160
+            },
+            {
+              "word": "häntä",
+              "start_ms": 22160,
+              "end_ms": 24840
+            }
+          ]
         },
         {
           "text": "Yhdeksän kuukautta ilman sanoja",
-          "start_ms": 8000,
-          "end_ms": 10480
+          "start_ms": 24840,
+          "end_ms": 31660,
+          "words": [
+            {
+              "word": "Yhdeksän",
+              "start_ms": 24840,
+              "end_ms": 26480
+            },
+            {
+              "word": "kuukautta",
+              "start_ms": 26480,
+              "end_ms": 28400
+            },
+            {
+              "word": "ilman",
+              "start_ms": 28400,
+              "end_ms": 29380
+            },
+            {
+              "word": "sanoja",
+              "start_ms": 29380,
+              "end_ms": 31660
+            }
+          ]
         },
         {
           "text": "Kuunteli miten maailma puhuu",
-          "start_ms": 10480,
-          "end_ms": 12720
+          "start_ms": 33300,
+          "end_ms": 39660,
+          "words": [
+            {
+              "word": "Kuunteli",
+              "start_ms": 33300,
+              "end_ms": 34100
+            },
+            {
+              "word": "miten",
+              "start_ms": 34100,
+              "end_ms": 35660
+            },
+            {
+              "word": "maailma",
+              "start_ms": 35660,
+              "end_ms": 37800
+            },
+            {
+              "word": "puhuu",
+              "start_ms": 37800,
+              "end_ms": 39660
+            }
+          ]
         },
         {
           "text": "Kun oma ääni on poissa",
-          "start_ms": 12720,
-          "end_ms": 14720
+          "start_ms": 41200,
+          "end_ms": 46400,
+          "words": [
+            {
+              "word": "Kun",
+              "start_ms": 41200,
+              "end_ms": 41540
+            },
+            {
+              "word": "oma",
+              "start_ms": 41540,
+              "end_ms": 43060
+            },
+            {
+              "word": "ääni",
+              "start_ms": 43060,
+              "end_ms": 44340
+            },
+            {
+              "word": "on",
+              "start_ms": 44340,
+              "end_ms": 44940
+            },
+            {
+              "word": "poissa",
+              "start_ms": 44940,
+              "end_ms": 46400
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14720
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 47400,
+      "end_ms": 64180,
       "lines": [
         {
           "text": "Ja kun lapsi syntyi",
-          "start_ms": 17720,
-          "end_ms": 19720
+          "start_ms": 47400,
+          "end_ms": 52900,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 47400,
+              "end_ms": 49100
+            },
+            {
+              "word": "kun",
+              "start_ms": 49100,
+              "end_ms": 50100
+            },
+            {
+              "word": "lapsi",
+              "start_ms": 50100,
+              "end_ms": 50880
+            },
+            {
+              "word": "syntyi",
+              "start_ms": 50880,
+              "end_ms": 52900
+            }
+          ]
         },
         {
           "text": "Ja nimi kirjoitettiin",
-          "start_ms": 19720,
-          "end_ms": 21720
+          "start_ms": 53260,
+          "end_ms": 56680,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 53260,
+              "end_ms": 53440
+            },
+            {
+              "word": "nimi",
+              "start_ms": 53440,
+              "end_ms": 53880
+            },
+            {
+              "word": "kirjoitettiin",
+              "start_ms": 53880,
+              "end_ms": 56680
+            }
+          ]
         },
         {
           "text": "Johannes, armo",
-          "start_ms": 21720,
-          "end_ms": 23720
+          "start_ms": 56800,
+          "end_ms": 59400,
+          "words": [
+            {
+              "word": "Johannes,",
+              "start_ms": 56800,
+              "end_ms": 57860
+            },
+            {
+              "word": "armo",
+              "start_ms": 57860,
+              "end_ms": 59400
+            }
+          ]
         },
         {
           "text": "Suu aukesi",
-          "start_ms": 23720,
-          "end_ms": 25720
+          "start_ms": 60400,
+          "end_ms": 64180,
+          "words": [
+            {
+              "word": "Suu",
+              "start_ms": 60400,
+              "end_ms": 61740
+            },
+            {
+              "word": "aukesi",
+              "start_ms": 61740,
+              "end_ms": 64180
+            }
+          ]
         }
-      ],
-      "start_ms": 17720,
-      "end_ms": 25720
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 64580,
+      "end_ms": 76060,
       "lines": [
         {
           "text": "Ensimmäiset sanat eivät olleet valitusta",
-          "start_ms": 28720,
-          "end_ms": 31920
+          "start_ms": 64580,
+          "end_ms": 71100,
+          "words": [
+            {
+              "word": "Ensimmäiset",
+              "start_ms": 64580,
+              "end_ms": 66200
+            },
+            {
+              "word": "sanat",
+              "start_ms": 66200,
+              "end_ms": 67160
+            },
+            {
+              "word": "eivät",
+              "start_ms": 67160,
+              "end_ms": 67920
+            },
+            {
+              "word": "olleet",
+              "start_ms": 67920,
+              "end_ms": 69000
+            },
+            {
+              "word": "valitusta",
+              "start_ms": 69000,
+              "end_ms": 71100
+            }
+          ]
         },
         {
           "text": "Ne olivat kiitos",
-          "start_ms": 31920,
-          "end_ms": 33920
+          "start_ms": 72560,
+          "end_ms": 76060,
+          "words": [
+            {
+              "word": "Ne",
+              "start_ms": 72560,
+              "end_ms": 72840
+            },
+            {
+              "word": "olivat",
+              "start_ms": 72840,
+              "end_ms": 73660
+            },
+            {
+              "word": "kiitos",
+              "start_ms": 73660,
+              "end_ms": 76060
+            }
+          ]
         }
-      ],
-      "start_ms": 28720,
-      "end_ms": 33920
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 77720,
+      "end_ms": 107020,
       "lines": [
         {
           "text": "Aamunkoitto nousee",
-          "start_ms": 36920,
-          "end_ms": 38920
+          "start_ms": 77720,
+          "end_ms": 84120,
+          "words": [
+            {
+              "word": "Aamunkoitto",
+              "start_ms": 77720,
+              "end_ms": 79360
+            },
+            {
+              "word": "nousee",
+              "start_ms": 79360,
+              "end_ms": 84120
+            }
+          ]
         },
         {
           "text": "Koska joku muisti meidät",
-          "start_ms": 38920,
-          "end_ms": 40920
+          "start_ms": 84420,
+          "end_ms": 89380,
+          "words": [
+            {
+              "word": "Koska",
+              "start_ms": 84420,
+              "end_ms": 84980
+            },
+            {
+              "word": "joku",
+              "start_ms": 84980,
+              "end_ms": 85880
+            },
+            {
+              "word": "muisti",
+              "start_ms": 85880,
+              "end_ms": 86760
+            },
+            {
+              "word": "meidät",
+              "start_ms": 86760,
+              "end_ms": 89380
+            }
+          ]
         },
         {
           "text": "Aamunkoitto nousee",
-          "start_ms": 40920,
-          "end_ms": 42920
+          "start_ms": 90820,
+          "end_ms": 95420,
+          "words": [
+            {
+              "word": "Aamunkoitto",
+              "start_ms": 90820,
+              "end_ms": 92440
+            },
+            {
+              "word": "nousee",
+              "start_ms": 92440,
+              "end_ms": 95420
+            }
+          ]
         },
         {
           "text": "Niille jotka istuvat varjossa",
-          "start_ms": 42920,
-          "end_ms": 45240
+          "start_ms": 95780,
+          "end_ms": 100000,
+          "words": [
+            {
+              "word": "Niille",
+              "start_ms": 95780,
+              "end_ms": 96440
+            },
+            {
+              "word": "jotka",
+              "start_ms": 96440,
+              "end_ms": 97120
+            },
+            {
+              "word": "istuvat",
+              "start_ms": 97120,
+              "end_ms": 98280
+            },
+            {
+              "word": "varjossa",
+              "start_ms": 98280,
+              "end_ms": 100000
+            }
+          ]
         },
         {
           "text": "Askeleemme löytävät rauhan tien",
-          "start_ms": 45240,
-          "end_ms": 47720
+          "start_ms": 102300,
+          "end_ms": 107020,
+          "words": [
+            {
+              "word": "Askeleemme",
+              "start_ms": 102300,
+              "end_ms": 103700
+            },
+            {
+              "word": "löytävät",
+              "start_ms": 103920,
+              "end_ms": 104860
+            },
+            {
+              "word": "rauhan",
+              "start_ms": 104860,
+              "end_ms": 105880
+            },
+            {
+              "word": "tien",
+              "start_ms": 105880,
+              "end_ms": 107020
+            }
+          ]
         }
-      ],
-      "start_ms": 36920,
-      "end_ms": 47720
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 111039,
+      "end_ms": 130019,
       "lines": [
         {
           "text": "Hän puhui Israelista ja Daavidista",
-          "start_ms": 50720,
-          "end_ms": 53440
+          "start_ms": 111039,
+          "end_ms": 116940,
+          "words": [
+            {
+              "word": "Hän",
+              "start_ms": 111039,
+              "end_ms": 112440
+            },
+            {
+              "word": "puhui",
+              "start_ms": 112440,
+              "end_ms": 113380
+            },
+            {
+              "word": "Israelista",
+              "start_ms": 113380,
+              "end_ms": 114940
+            },
+            {
+              "word": "ja",
+              "start_ms": 114940,
+              "end_ms": 115320
+            },
+            {
+              "word": "Daavidista",
+              "start_ms": 115320,
+              "end_ms": 116940
+            }
+          ]
         },
         {
           "text": "Profeetoista ja liitosta",
-          "start_ms": 53440,
-          "end_ms": 55440
+          "start_ms": 117520,
+          "end_ms": 120020,
+          "words": [
+            {
+              "word": "Profeetoista",
+              "start_ms": 117520,
+              "end_ms": 118760
+            },
+            {
+              "word": "ja",
+              "start_ms": 114940,
+              "end_ms": 115320
+            },
+            {
+              "word": "liitosta",
+              "start_ms": 119100,
+              "end_ms": 120020
+            }
+          ]
         },
         {
           "text": "Mutta sitten hän pysähtyi",
-          "start_ms": 55440,
-          "end_ms": 57440
+          "start_ms": 121500,
+          "end_ms": 124100,
+          "words": [
+            {
+              "word": "Mutta",
+              "start_ms": 121500,
+              "end_ms": 121860
+            },
+            {
+              "word": "sitten",
+              "start_ms": 121860,
+              "end_ms": 122600
+            },
+            {
+              "word": "hän",
+              "start_ms": 122600,
+              "end_ms": 122840
+            },
+            {
+              "word": "pysähtyi",
+              "start_ms": 122840,
+              "end_ms": 124100
+            }
+          ]
         },
         {
           "text": "Ja katsoi vastasyntyneeseen",
-          "start_ms": 57440,
-          "end_ms": 59600
+          "start_ms": 124100,
+          "end_ms": 130019,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 124100,
+              "end_ms": 124520
+            },
+            {
+              "word": "katsoi",
+              "start_ms": 124520,
+              "end_ms": 125700
+            },
+            {
+              "word": "vastasyntyneeseen",
+              "start_ms": 126580,
+              "end_ms": 130019
+            }
+          ]
         }
-      ],
-      "start_ms": 50720,
-      "end_ms": 59600
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 130020,
+      "end_ms": 161700,
       "lines": [
         {
           "text": "Ja sinä, lapsi",
-          "start_ms": 62600,
-          "end_ms": 64600
+          "start_ms": 130020,
+          "end_ms": 134040,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 130020,
+              "end_ms": 131400
+            },
+            {
+              "word": "sinä,",
+              "start_ms": 131400,
+              "end_ms": 132360
+            },
+            {
+              "word": "lapsi",
+              "start_ms": 132500,
+              "end_ms": 134040
+            }
+          ]
         },
         {
           "text": "Sinusta tulee ääni",
-          "start_ms": 64600,
-          "end_ms": 66600
+          "start_ms": 134380,
+          "end_ms": 137920,
+          "words": [
+            {
+              "word": "Sinusta",
+              "start_ms": 134380,
+              "end_ms": 135080
+            },
+            {
+              "word": "tulee",
+              "start_ms": 135080,
+              "end_ms": 135980
+            },
+            {
+              "word": "ääni",
+              "start_ms": 135980,
+              "end_ms": 137920
+            }
+          ]
         },
         {
           "text": "Sinä kuljet edellä",
-          "start_ms": 66600,
-          "end_ms": 68600
+          "start_ms": 138620,
+          "end_ms": 141480,
+          "words": [
+            {
+              "word": "Sinä",
+              "start_ms": 138620,
+              "end_ms": 139120
+            },
+            {
+              "word": "kuljet",
+              "start_ms": 139120,
+              "end_ms": 139800
+            },
+            {
+              "word": "edellä",
+              "start_ms": 139800,
+              "end_ms": 141480
+            }
+          ]
         },
         {
           "text": "Ja valmistat tien",
-          "start_ms": 68600,
-          "end_ms": 70600
+          "start_ms": 141480,
+          "end_ms": 144540,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 141480,
+              "end_ms": 141860
+            },
+            {
+              "word": "valmistat",
+              "start_ms": 141860,
+              "end_ms": 143500
+            },
+            {
+              "word": "tien",
+              "start_ms": 143500,
+              "end_ms": 144540
+            }
+          ]
         },
         {
           "text": "Mutta tänään",
-          "start_ms": 70600,
-          "end_ms": 72600
+          "start_ms": 145540,
+          "end_ms": 148440,
+          "words": [
+            {
+              "word": "Mutta",
+              "start_ms": 145540,
+              "end_ms": 147100
+            },
+            {
+              "word": "tänään",
+              "start_ms": 147100,
+              "end_ms": 148440
+            }
+          ]
         },
         {
           "text": "Olet vain pieni",
-          "start_ms": 72600,
-          "end_ms": 74600
+          "start_ms": 148440,
+          "end_ms": 150500,
+          "words": [
+            {
+              "word": "Olet",
+              "start_ms": 148440,
+              "end_ms": 148900
+            },
+            {
+              "word": "vain",
+              "start_ms": 148900,
+              "end_ms": 149340
+            },
+            {
+              "word": "pieni",
+              "start_ms": 149340,
+              "end_ms": 150500
+            }
+          ]
         },
         {
           "text": "Ja minä katson sinua",
-          "start_ms": 74600,
-          "end_ms": 76600
+          "start_ms": 150620,
+          "end_ms": 154920,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 150620,
+              "end_ms": 150820
+            },
+            {
+              "word": "minä",
+              "start_ms": 150820,
+              "end_ms": 151420
+            },
+            {
+              "word": "katson",
+              "start_ms": 151420,
+              "end_ms": 152140
+            },
+            {
+              "word": "sinua",
+              "start_ms": 152140,
+              "end_ms": 154920
+            }
+          ]
         },
         {
           "text": "Ensimmäistä kertaa ääneen",
-          "start_ms": 76600,
-          "end_ms": 78600
+          "start_ms": 154920,
+          "end_ms": 161700,
+          "words": [
+            {
+              "word": "Ensimmäistä",
+              "start_ms": 154920,
+              "end_ms": 156720
+            },
+            {
+              "word": "kertaa",
+              "start_ms": 156720,
+              "end_ms": 157940
+            },
+            {
+              "word": "ääneen",
+              "start_ms": 157940,
+              "end_ms": 161700
+            }
+          ]
         }
-      ],
-      "start_ms": 62600,
-      "end_ms": 78600
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 162740,
+      "end_ms": 187660,
       "lines": [
         {
           "text": "Aamunkoitto nousee",
-          "start_ms": 81600,
-          "end_ms": 83600
+          "start_ms": 162740,
+          "end_ms": 169240,
+          "words": [
+            {
+              "word": "Aamunkoitto",
+              "start_ms": 162740,
+              "end_ms": 164360
+            },
+            {
+              "word": "nousee",
+              "start_ms": 164360,
+              "end_ms": 169240
+            }
+          ]
         },
         {
           "text": "Koska joku muisti meidät",
-          "start_ms": 83600,
-          "end_ms": 85600
+          "start_ms": 169480,
+          "end_ms": 174700,
+          "words": [
+            {
+              "word": "Koska",
+              "start_ms": 169480,
+              "end_ms": 170080
+            },
+            {
+              "word": "joku",
+              "start_ms": 170080,
+              "end_ms": 170960
+            },
+            {
+              "word": "muisti",
+              "start_ms": 170960,
+              "end_ms": 171880
+            },
+            {
+              "word": "meidät",
+              "start_ms": 171880,
+              "end_ms": 174700
+            }
+          ]
         },
         {
           "text": "Aamunkoitto nousee",
-          "start_ms": 85600,
-          "end_ms": 87600
+          "start_ms": 175960,
+          "end_ms": 180560,
+          "words": [
+            {
+              "word": "Aamunkoitto",
+              "start_ms": 175960,
+              "end_ms": 177600
+            },
+            {
+              "word": "nousee",
+              "start_ms": 177600,
+              "end_ms": 180560
+            }
+          ]
         },
         {
           "text": "Ohjaa askeleemme",
-          "start_ms": 87600,
-          "end_ms": 89600
+          "start_ms": 180860,
+          "end_ms": 184320,
+          "words": [
+            {
+              "word": "Ohjaa",
+              "start_ms": 180860,
+              "end_ms": 181600
+            },
+            {
+              "word": "askeleemme",
+              "start_ms": 181600,
+              "end_ms": 184320
+            }
+          ]
         },
         {
           "text": "Rauhan tielle",
-          "start_ms": 89600,
-          "end_ms": 91600
+          "start_ms": 184320,
+          "end_ms": 187660,
+          "words": [
+            {
+              "word": "Rauhan",
+              "start_ms": 184320,
+              "end_ms": 185400
+            },
+            {
+              "word": "tielle",
+              "start_ms": 185400,
+              "end_ms": 187660
+            }
+          ]
         }
-      ],
-      "start_ms": 81600,
-      "end_ms": 91600
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 235740,
+      "end_ms": 236760,
       "lines": [
         {
           "text": "Aamunkoitto",
-          "start_ms": 94600,
-          "end_ms": 96600
+          "start_ms": 235740,
+          "end_ms": 236760,
+          "words": [
+            {
+              "word": "Aamunkoitto",
+              "start_ms": 235740,
+              "end_ms": 236760
+            }
+          ]
         }
-      ],
-      "start_ms": 94600,
-      "end_ms": 96600
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 99600,
-          "end_ms": 101600
-        }
-      ],
-      "start_ms": 99600,
-      "end_ms": 101600
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ensimmäiset sanat eivät olleet...",
+      "section_type": "chorus",
+      "start_ms": 64580,
+      "end_ms": 76060,
+      "key_line": "Ensimmäiset sanat eivät olleet valitusta",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Aamunkoitto nousee",
+      "section_type": "chorus",
+      "start_ms": 77720,
+      "end_ms": 107020,
+      "key_line": "Aamunkoitto nousee",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 130020,
+      "end_ms": 161700,
+      "key_line": "Ja sinä, lapsi",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Aamunkoitto nousee",
+      "section_type": "chorus",
+      "start_ms": 162740,
+      "end_ms": 187660,
+      "key_line": "Aamunkoitto nousee",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/finnish/42_luke_01_1-67_transcript.json"
 }

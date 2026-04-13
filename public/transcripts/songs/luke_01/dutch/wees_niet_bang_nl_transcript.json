@@ -7,252 +7,1434 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:13-13",
-  "duration_ms": 220000,
+  "duration_ms": 179800,
   "audio_file": "/audio/songs/luke_01/dutch/_Wees niet bang_ — Luke 1_13, 1_30 (Dutch).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.760472+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.937757+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.567,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 10399,
+      "end_ms": 65260,
       "lines": [
         {
           "text": "Je staat daar en je weet het al",
-          "start_ms": 6000,
-          "end_ms": 8480
+          "start_ms": 10399,
+          "end_ms": 14080,
+          "words": [
+            {
+              "word": "Je",
+              "start_ms": 10399,
+              "end_ms": 10960
+            },
+            {
+              "word": "staat",
+              "start_ms": 10960,
+              "end_ms": 11440
+            },
+            {
+              "word": "daar",
+              "start_ms": 11440,
+              "end_ms": 11920
+            },
+            {
+              "word": "en",
+              "start_ms": 11920,
+              "end_ms": 12180
+            },
+            {
+              "word": "je",
+              "start_ms": 12180,
+              "end_ms": 12400
+            },
+            {
+              "word": "weet",
+              "start_ms": 12400,
+              "end_ms": 12660
+            },
+            {
+              "word": "het",
+              "start_ms": 12660,
+              "end_ms": 12920
+            },
+            {
+              "word": "al",
+              "start_ms": 12920,
+              "end_ms": 14080
+            }
+          ]
         },
         {
           "text": "Dit wordt groter dan je aankunt",
-          "start_ms": 8480,
-          "end_ms": 10960
+          "start_ms": 14080,
+          "end_ms": 16480,
+          "words": [
+            {
+              "word": "Dit",
+              "start_ms": 14080,
+              "end_ms": 14660
+            },
+            {
+              "word": "wordt",
+              "start_ms": 14660,
+              "end_ms": 14920
+            },
+            {
+              "word": "groter",
+              "start_ms": 14920,
+              "end_ms": 15380
+            },
+            {
+              "word": "dan",
+              "start_ms": 15380,
+              "end_ms": 15600
+            },
+            {
+              "word": "je",
+              "start_ms": 15600,
+              "end_ms": 15880
+            },
+            {
+              "word": "aankunt",
+              "start_ms": 15880,
+              "end_ms": 16480
+            }
+          ]
         },
         {
           "text": "Je handen trillen, je hoofd zegt nee",
-          "start_ms": 10960,
-          "end_ms": 13840
+          "start_ms": 15600,
+          "end_ms": 20580,
+          "words": [
+            {
+              "word": "Je",
+              "start_ms": 15600,
+              "end_ms": 15880
+            },
+            {
+              "word": "handen",
+              "start_ms": 18040,
+              "end_ms": 18540
+            },
+            {
+              "word": "trillen,",
+              "start_ms": 18540,
+              "end_ms": 19020
+            },
+            {
+              "word": "je",
+              "start_ms": 17500,
+              "end_ms": 18040
+            },
+            {
+              "word": "hoofd",
+              "start_ms": 19320,
+              "end_ms": 19700
+            },
+            {
+              "word": "zegt",
+              "start_ms": 19700,
+              "end_ms": 19920
+            },
+            {
+              "word": "nee",
+              "start_ms": 19920,
+              "end_ms": 20580
+            }
+          ]
         },
         {
           "text": "Je lijf zegt ren maar je staat stil",
-          "start_ms": 13840,
-          "end_ms": 16640
+          "start_ms": 20580,
+          "end_ms": 28660,
+          "words": [
+            {
+              "word": "Je",
+              "start_ms": 20580,
+              "end_ms": 21500
+            },
+            {
+              "word": "lijf",
+              "start_ms": 21500,
+              "end_ms": 21760
+            },
+            {
+              "word": "zegt",
+              "start_ms": 21760,
+              "end_ms": 22000
+            },
+            {
+              "word": "ren",
+              "start_ms": 23500,
+              "end_ms": 25020
+            },
+            {
+              "word": "maar",
+              "start_ms": 25070,
+              "end_ms": 25370,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 27640,
+              "end_ms": 27960
+            },
+            {
+              "word": "staat",
+              "start_ms": 28010,
+              "end_ms": 28310,
+              "estimated": true
+            },
+            {
+              "word": "stil",
+              "start_ms": 28360,
+              "end_ms": 28660,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "En dan zegt iemand iets",
-          "start_ms": 16640,
-          "end_ms": 18640
+          "start_ms": 28940,
+          "end_ms": 45580,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 28940,
+              "end_ms": 30820
+            },
+            {
+              "word": "dan",
+              "start_ms": 35580,
+              "end_ms": 36640
+            },
+            {
+              "word": "zegt",
+              "start_ms": 41740,
+              "end_ms": 41960
+            },
+            {
+              "word": "iemand",
+              "start_ms": 42010,
+              "end_ms": 42310,
+              "estimated": true
+            },
+            {
+              "word": "iets",
+              "start_ms": 45340,
+              "end_ms": 45580
+            }
+          ]
         },
         {
           "text": "Niet wat je verwacht had",
-          "start_ms": 18640,
-          "end_ms": 20640
+          "start_ms": 45340,
+          "end_ms": 61440,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 45340,
+              "end_ms": 45580
+            },
+            {
+              "word": "wat",
+              "start_ms": 48360,
+              "end_ms": 48660
+            },
+            {
+              "word": "je",
+              "start_ms": 48710,
+              "end_ms": 49010,
+              "estimated": true
+            },
+            {
+              "word": "verwacht",
+              "start_ms": 48360,
+              "end_ms": 48660
+            },
+            {
+              "word": "had",
+              "start_ms": 60980,
+              "end_ms": 61440
+            }
+          ]
         },
         {
           "text": "Geen opdracht, geen verwijt",
-          "start_ms": 20640,
-          "end_ms": 22800
+          "start_ms": 63180,
+          "end_ms": 64190,
+          "words": [
+            {
+              "word": "Geen",
+              "start_ms": 63180,
+              "end_ms": 63840
+            },
+            {
+              "word": "opdracht,",
+              "start_ms": 63890,
+              "end_ms": 64190,
+              "estimated": true
+            },
+            {
+              "word": "geen",
+              "start_ms": 63180,
+              "end_ms": 63840
+            },
+            {
+              "word": "verwijt",
+              "start_ms": 63890,
+              "end_ms": 64190,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Geen uitleg, geen plan",
-          "start_ms": 22800,
-          "end_ms": 24800
+          "start_ms": 63180,
+          "end_ms": 65260,
+          "words": [
+            {
+              "word": "Geen",
+              "start_ms": 63180,
+              "end_ms": 63840
+            },
+            {
+              "word": "uitleg,",
+              "start_ms": 63890,
+              "end_ms": 64190,
+              "estimated": true
+            },
+            {
+              "word": "geen",
+              "start_ms": 63180,
+              "end_ms": 63840
+            },
+            {
+              "word": "plan",
+              "start_ms": 64879,
+              "end_ms": 65260
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 24800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 65260,
+      "end_ms": 88450,
       "lines": [
         {
           "text": "Wees niet bang",
-          "start_ms": 27800,
-          "end_ms": 29800
+          "start_ms": 65260,
+          "end_ms": 69720,
+          "words": [
+            {
+              "word": "Wees",
+              "start_ms": 65260,
+              "end_ms": 65560,
+              "estimated": true
+            },
+            {
+              "word": "niet",
+              "start_ms": 68380,
+              "end_ms": 68560
+            },
+            {
+              "word": "bang",
+              "start_ms": 69220,
+              "end_ms": 69720
+            }
+          ]
         },
         {
           "text": "Ik zie je staan, ik zie je schrikken",
-          "start_ms": 29800,
-          "end_ms": 32680
+          "start_ms": 69720,
+          "end_ms": 71120,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 69720,
+              "end_ms": 70020,
+              "estimated": true
+            },
+            {
+              "word": "zie",
+              "start_ms": 70070,
+              "end_ms": 70370,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 70420,
+              "end_ms": 70720,
+              "estimated": true
+            },
+            {
+              "word": "staan,",
+              "start_ms": 69220,
+              "end_ms": 69720
+            },
+            {
+              "word": "ik",
+              "start_ms": 69770,
+              "end_ms": 70070,
+              "estimated": true
+            },
+            {
+              "word": "zie",
+              "start_ms": 70120,
+              "end_ms": 70420,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 70470,
+              "end_ms": 70770,
+              "estimated": true
+            },
+            {
+              "word": "schrikken",
+              "start_ms": 70820,
+              "end_ms": 71120,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Wees niet bang",
-          "start_ms": 32680,
-          "end_ms": 34680
+          "start_ms": 70220,
+          "end_ms": 74430,
+          "words": [
+            {
+              "word": "Wees",
+              "start_ms": 70220,
+              "end_ms": 70520
+            },
+            {
+              "word": "niet",
+              "start_ms": 73200,
+              "end_ms": 74080
+            },
+            {
+              "word": "bang",
+              "start_ms": 74130,
+              "end_ms": 74430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ik begin niet met wat ik wil",
-          "start_ms": 34680,
-          "end_ms": 36920
+          "start_ms": 74080,
+          "end_ms": 91710,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 74080,
+              "end_ms": 74380,
+              "estimated": true
+            },
+            {
+              "word": "begin",
+              "start_ms": 77500,
+              "end_ms": 78200
+            },
+            {
+              "word": "niet",
+              "start_ms": 80860,
+              "end_ms": 81120
+            },
+            {
+              "word": "met",
+              "start_ms": 80860,
+              "end_ms": 81120
+            },
+            {
+              "word": "wat",
+              "start_ms": 86000,
+              "end_ms": 86460
+            },
+            {
+              "word": "ik",
+              "start_ms": 88740,
+              "end_ms": 91360
+            },
+            {
+              "word": "wil",
+              "start_ms": 91410,
+              "end_ms": 91710,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ik begin met jou",
-          "start_ms": 36920,
-          "end_ms": 38920
+          "start_ms": 88740,
+          "end_ms": 88450,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 88740,
+              "end_ms": 91360
+            },
+            {
+              "word": "begin",
+              "start_ms": 91410,
+              "end_ms": 91710,
+              "estimated": true
+            },
+            {
+              "word": "met",
+              "start_ms": 87880,
+              "end_ms": 88100
+            },
+            {
+              "word": "jou",
+              "start_ms": 88150,
+              "end_ms": 88450,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 27800,
-      "end_ms": 38920
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 88100,
+      "end_ms": 98380,
       "lines": [
         {
           "text": "De oude man had het opgegeven",
-          "start_ms": 41920,
-          "end_ms": 44240
+          "start_ms": 88100,
+          "end_ms": 88450,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 88100,
+              "end_ms": 88400,
+              "estimated": true
+            },
+            {
+              "word": "oude",
+              "start_ms": 88450,
+              "end_ms": 88750,
+              "estimated": true
+            },
+            {
+              "word": "man",
+              "start_ms": 88100,
+              "end_ms": 88740
+            },
+            {
+              "word": "had",
+              "start_ms": 88790,
+              "end_ms": 89090,
+              "estimated": true
+            },
+            {
+              "word": "het",
+              "start_ms": 87880,
+              "end_ms": 88100
+            },
+            {
+              "word": "opgegeven",
+              "start_ms": 88150,
+              "end_ms": 88450,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Gebeden tot het stil werd vanbinnen",
-          "start_ms": 44240,
-          "end_ms": 47040
+          "start_ms": 88100,
+          "end_ms": 89150,
+          "words": [
+            {
+              "word": "Gebeden",
+              "start_ms": 88100,
+              "end_ms": 88400,
+              "estimated": true
+            },
+            {
+              "word": "tot",
+              "start_ms": 88450,
+              "end_ms": 88750,
+              "estimated": true
+            },
+            {
+              "word": "het",
+              "start_ms": 87880,
+              "end_ms": 88100
+            },
+            {
+              "word": "stil",
+              "start_ms": 88150,
+              "end_ms": 88450,
+              "estimated": true
+            },
+            {
+              "word": "werd",
+              "start_ms": 88500,
+              "end_ms": 88800,
+              "estimated": true
+            },
+            {
+              "word": "vanbinnen",
+              "start_ms": 88850,
+              "end_ms": 89150,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "De rook steeg op, het licht ging aan",
-          "start_ms": 47040,
-          "end_ms": 49920
+          "start_ms": 88100,
+          "end_ms": 92340,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 88100,
+              "end_ms": 88400,
+              "estimated": true
+            },
+            {
+              "word": "rook",
+              "start_ms": 88450,
+              "end_ms": 88750,
+              "estimated": true
+            },
+            {
+              "word": "steeg",
+              "start_ms": 88800,
+              "end_ms": 89100,
+              "estimated": true
+            },
+            {
+              "word": "op,",
+              "start_ms": 89150,
+              "end_ms": 89450,
+              "estimated": true
+            },
+            {
+              "word": "het",
+              "start_ms": 87880,
+              "end_ms": 88100
+            },
+            {
+              "word": "licht",
+              "start_ms": 88150,
+              "end_ms": 88450,
+              "estimated": true
+            },
+            {
+              "word": "ging",
+              "start_ms": 88500,
+              "end_ms": 88800,
+              "estimated": true
+            },
+            {
+              "word": "aan",
+              "start_ms": 91880,
+              "end_ms": 92340
+            }
+          ]
         },
         {
           "text": "En hij was nergens op voorbereid",
-          "start_ms": 49920,
-          "end_ms": 52480
+          "start_ms": 96980,
+          "end_ms": 99430,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "hij",
+              "start_ms": 97490,
+              "end_ms": 97790,
+              "estimated": true
+            },
+            {
+              "word": "was",
+              "start_ms": 98120,
+              "end_ms": 98380
+            },
+            {
+              "word": "nergens",
+              "start_ms": 98430,
+              "end_ms": 98730,
+              "estimated": true
+            },
+            {
+              "word": "op",
+              "start_ms": 98780,
+              "end_ms": 99080,
+              "estimated": true
+            },
+            {
+              "word": "voorbereid",
+              "start_ms": 99130,
+              "end_ms": 99430,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Het meisje had haar leven uitgetekend",
-          "start_ms": 52480,
-          "end_ms": 55440
+          "start_ms": 97680,
+          "end_ms": 99870,
+          "words": [
+            {
+              "word": "Het",
+              "start_ms": 97680,
+              "end_ms": 98120
+            },
+            {
+              "word": "meisje",
+              "start_ms": 98170,
+              "end_ms": 98470,
+              "estimated": true
+            },
+            {
+              "word": "had",
+              "start_ms": 98520,
+              "end_ms": 98820,
+              "estimated": true
+            },
+            {
+              "word": "haar",
+              "start_ms": 98870,
+              "end_ms": 99170,
+              "estimated": true
+            },
+            {
+              "word": "leven",
+              "start_ms": 99220,
+              "end_ms": 99520,
+              "estimated": true
+            },
+            {
+              "word": "uitgetekend",
+              "start_ms": 99570,
+              "end_ms": 99870,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Klein en veilig en bekend",
-          "start_ms": 55440,
-          "end_ms": 57440
+          "start_ms": 96980,
+          "end_ms": 97440,
+          "words": [
+            {
+              "word": "Klein",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "en",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "veilig",
+              "start_ms": 97490,
+              "end_ms": 97790,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "bekend",
+              "start_ms": 96980,
+              "end_ms": 97440
+            }
+          ]
         },
         {
           "text": "Tot het klopte en ze opendeed",
-          "start_ms": 57440,
-          "end_ms": 59760
+          "start_ms": 97440,
+          "end_ms": 98140,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 97440,
+              "end_ms": 97740,
+              "estimated": true
+            },
+            {
+              "word": "het",
+              "start_ms": 97680,
+              "end_ms": 98120
+            },
+            {
+              "word": "klopte",
+              "start_ms": 98170,
+              "end_ms": 98470,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "ze",
+              "start_ms": 97490,
+              "end_ms": 97790,
+              "estimated": true
+            },
+            {
+              "word": "opendeed",
+              "start_ms": 97840,
+              "end_ms": 98140,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "En alles anders was",
-          "start_ms": 59760,
-          "end_ms": 61760
+          "start_ms": 96980,
+          "end_ms": 98380,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "alles",
+              "start_ms": 97490,
+              "end_ms": 97790,
+              "estimated": true
+            },
+            {
+              "word": "anders",
+              "start_ms": 97840,
+              "end_ms": 98140,
+              "estimated": true
+            },
+            {
+              "word": "was",
+              "start_ms": 98120,
+              "end_ms": 98380
+            }
+          ]
         }
-      ],
-      "start_ms": 41920,
-      "end_ms": 61760
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 98380,
+      "end_ms": 103060,
       "lines": [
         {
           "text": "Wees niet bang",
-          "start_ms": 64760,
-          "end_ms": 66760
+          "start_ms": 98380,
+          "end_ms": 98030,
+          "words": [
+            {
+              "word": "Wees",
+              "start_ms": 98380,
+              "end_ms": 98680,
+              "estimated": true
+            },
+            {
+              "word": "niet",
+              "start_ms": 97440,
+              "end_ms": 97680
+            },
+            {
+              "word": "bang",
+              "start_ms": 97730,
+              "end_ms": 98030,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ik zie je staan, ik zie je schrikken",
-          "start_ms": 66760,
-          "end_ms": 69640
+          "start_ms": 96020,
+          "end_ms": 93880,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 96020,
+              "end_ms": 96980
+            },
+            {
+              "word": "zie",
+              "start_ms": 95020,
+              "end_ms": 95300
+            },
+            {
+              "word": "je",
+              "start_ms": 95350,
+              "end_ms": 95650,
+              "estimated": true
+            },
+            {
+              "word": "staan,",
+              "start_ms": 95700,
+              "end_ms": 96000,
+              "estimated": true
+            },
+            {
+              "word": "ik",
+              "start_ms": 96020,
+              "end_ms": 96980
+            },
+            {
+              "word": "zie",
+              "start_ms": 95020,
+              "end_ms": 95300
+            },
+            {
+              "word": "je",
+              "start_ms": 95350,
+              "end_ms": 95650,
+              "estimated": true
+            },
+            {
+              "word": "schrikken",
+              "start_ms": 93420,
+              "end_ms": 93880
+            }
+          ]
         },
         {
           "text": "Wees niet bang",
-          "start_ms": 69640,
-          "end_ms": 71640
+          "start_ms": 94280,
+          "end_ms": 96020,
+          "words": [
+            {
+              "word": "Wees",
+              "start_ms": 94280,
+              "end_ms": 95020
+            },
+            {
+              "word": "niet",
+              "start_ms": 95020,
+              "end_ms": 95300
+            },
+            {
+              "word": "bang",
+              "start_ms": 95300,
+              "end_ms": 96020
+            }
+          ]
         },
         {
           "text": "Ik begin niet met wat ik wil",
-          "start_ms": 71640,
-          "end_ms": 73880
+          "start_ms": 96020,
+          "end_ms": 99700,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 96020,
+              "end_ms": 96980
+            },
+            {
+              "word": "begin",
+              "start_ms": 96980,
+              "end_ms": 97440
+            },
+            {
+              "word": "niet",
+              "start_ms": 97440,
+              "end_ms": 97680
+            },
+            {
+              "word": "met",
+              "start_ms": 97680,
+              "end_ms": 98120
+            },
+            {
+              "word": "wat",
+              "start_ms": 98120,
+              "end_ms": 98380
+            },
+            {
+              "word": "ik",
+              "start_ms": 98380,
+              "end_ms": 98820
+            },
+            {
+              "word": "wil",
+              "start_ms": 98820,
+              "end_ms": 99700
+            }
+          ]
         },
         {
           "text": "Ik begin met jou",
-          "start_ms": 73880,
-          "end_ms": 75880
+          "start_ms": 98380,
+          "end_ms": 103060,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 98380,
+              "end_ms": 98820
+            },
+            {
+              "word": "begin",
+              "start_ms": 101520,
+              "end_ms": 101840
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "jou",
+              "start_ms": 102220,
+              "end_ms": 103060
+            }
+          ]
         }
-      ],
-      "start_ms": 64760,
-      "end_ms": 75880
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 101840,
+      "end_ms": 103220,
       "lines": [
         {
           "text": "Niet met een wet",
-          "start_ms": 78880,
-          "end_ms": 80880
+          "start_ms": 101840,
+          "end_ms": 102220,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "een",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            },
+            {
+              "word": "wet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            }
+          ]
         },
         {
           "text": "Niet met een lijst",
-          "start_ms": 80880,
-          "end_ms": 82880
+          "start_ms": 101840,
+          "end_ms": 102920,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "een",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            },
+            {
+              "word": "lijst",
+              "start_ms": 102620,
+              "end_ms": 102920,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Niet met bewijs het maar",
-          "start_ms": 82880,
-          "end_ms": 84880
+          "start_ms": 101840,
+          "end_ms": 102570,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "bewijs",
+              "start_ms": 101520,
+              "end_ms": 101840
+            },
+            {
+              "word": "het",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "maar",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Niet met verdien het maar",
-          "start_ms": 84880,
-          "end_ms": 86880
+          "start_ms": 101840,
+          "end_ms": 102570,
+          "words": [
+            {
+              "word": "Niet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "verdien",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            },
+            {
+              "word": "het",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "maar",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Maar met drie woorden",
-          "start_ms": 86880,
-          "end_ms": 88880
+          "start_ms": 102220,
+          "end_ms": 102920,
+          "words": [
+            {
+              "word": "Maar",
+              "start_ms": 102220,
+              "end_ms": 102520,
+              "estimated": true
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "drie",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            },
+            {
+              "word": "woorden",
+              "start_ms": 102620,
+              "end_ms": 102920,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Die je optillen van de grond",
-          "start_ms": 88880,
-          "end_ms": 91120
+          "start_ms": 102220,
+          "end_ms": 104270,
+          "words": [
+            {
+              "word": "Die",
+              "start_ms": 102220,
+              "end_ms": 102520,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 102570,
+              "end_ms": 102870,
+              "estimated": true
+            },
+            {
+              "word": "optillen",
+              "start_ms": 102920,
+              "end_ms": 103220,
+              "estimated": true
+            },
+            {
+              "word": "van",
+              "start_ms": 103270,
+              "end_ms": 103570,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 103620,
+              "end_ms": 103920,
+              "estimated": true
+            },
+            {
+              "word": "grond",
+              "start_ms": 103970,
+              "end_ms": 104270,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Twee keer, voor twee mensen",
-          "start_ms": 91120,
-          "end_ms": 93280
+          "start_ms": 102220,
+          "end_ms": 103920,
+          "words": [
+            {
+              "word": "Twee",
+              "start_ms": 102220,
+              "end_ms": 102520,
+              "estimated": true
+            },
+            {
+              "word": "keer,",
+              "start_ms": 102570,
+              "end_ms": 102870,
+              "estimated": true
+            },
+            {
+              "word": "voor",
+              "start_ms": 102920,
+              "end_ms": 103220,
+              "estimated": true
+            },
+            {
+              "word": "twee",
+              "start_ms": 103270,
+              "end_ms": 103570,
+              "estimated": true
+            },
+            {
+              "word": "mensen",
+              "start_ms": 103620,
+              "end_ms": 103920,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Steeds weer hetzelfde",
-          "start_ms": 93280,
-          "end_ms": 95280
+          "start_ms": 102220,
+          "end_ms": 103220,
+          "words": [
+            {
+              "word": "Steeds",
+              "start_ms": 102220,
+              "end_ms": 102520,
+              "estimated": true
+            },
+            {
+              "word": "weer",
+              "start_ms": 102570,
+              "end_ms": 102870,
+              "estimated": true
+            },
+            {
+              "word": "hetzelfde",
+              "start_ms": 102920,
+              "end_ms": 103220,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 78880,
-      "end_ms": 95280
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 102220,
+      "end_ms": 110400,
       "lines": [
         {
           "text": "Wees niet bang",
-          "start_ms": 98280,
-          "end_ms": 100280
+          "start_ms": 102220,
+          "end_ms": 102570,
+          "words": [
+            {
+              "word": "Wees",
+              "start_ms": 102220,
+              "end_ms": 102520,
+              "estimated": true
+            },
+            {
+              "word": "niet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "bang",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Wees niet bang",
-          "start_ms": 100280,
-          "end_ms": 102280
+          "start_ms": 102220,
+          "end_ms": 102570,
+          "words": [
+            {
+              "word": "Wees",
+              "start_ms": 102220,
+              "end_ms": 102520,
+              "estimated": true
+            },
+            {
+              "word": "niet",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "bang",
+              "start_ms": 102270,
+              "end_ms": 102570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ik begin met jou",
-          "start_ms": 102280,
-          "end_ms": 104280
+          "start_ms": 99700,
+          "end_ms": 103060,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 99700,
+              "end_ms": 101520
+            },
+            {
+              "word": "begin",
+              "start_ms": 101520,
+              "end_ms": 101840
+            },
+            {
+              "word": "met",
+              "start_ms": 101840,
+              "end_ms": 102220
+            },
+            {
+              "word": "jou",
+              "start_ms": 102220,
+              "end_ms": 103060
+            }
+          ]
         },
         {
           "text": "Ik begin met jou",
-          "start_ms": 104280,
-          "end_ms": 106280
+          "start_ms": 107880,
+          "end_ms": 110400,
+          "words": [
+            {
+              "word": "Ik",
+              "start_ms": 107880,
+              "end_ms": 108540
+            },
+            {
+              "word": "begin",
+              "start_ms": 108540,
+              "end_ms": 109000
+            },
+            {
+              "word": "met",
+              "start_ms": 109000,
+              "end_ms": 109340
+            },
+            {
+              "word": "jou",
+              "start_ms": 109340,
+              "end_ms": 110400
+            }
+          ]
         }
-      ],
-      "start_ms": 98280,
-      "end_ms": 106280
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Wees niet bang",
+      "section_type": "chorus",
+      "start_ms": 65260,
+      "end_ms": 88450,
+      "key_line": "Wees niet bang",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Wees niet bang",
+      "section_type": "chorus",
+      "start_ms": 98380,
+      "end_ms": 103060,
+      "key_line": "Wees niet bang",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 101840,
+      "end_ms": 103220,
+      "key_line": "Niet met een wet",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Wees niet bang",
+      "section_type": "chorus",
+      "start_ms": 102220,
+      "end_ms": 110400,
+      "key_line": "Wees niet bang",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/dutch/42_luke_01_1-13_transcript.json"
 }

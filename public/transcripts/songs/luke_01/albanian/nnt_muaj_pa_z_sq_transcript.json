@@ -7,236 +7,1107 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:18-66",
-  "duration_ms": 220000,
+  "duration_ms": 222400,
   "audio_file": "/audio/songs/luke_01/albanian/Luke 1_18-20, 1_57-66 - Nëntë muaj pa zë (albanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.652053+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.899783+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.459,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Whispered",
+      "label": "Verse 1",
+      "start_ms": 22740,
+      "end_ms": 29980,
       "lines": [
         {
           "text": "Si mund ta di?",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 22740,
+          "end_ms": 24090,
+          "words": [
+            {
+              "word": "Si",
+              "start_ms": 22740,
+              "end_ms": 23040,
+              "estimated": true
+            },
+            {
+              "word": "mund",
+              "start_ms": 23090,
+              "end_ms": 23390,
+              "estimated": true
+            },
+            {
+              "word": "ta",
+              "start_ms": 23440,
+              "end_ms": 23740,
+              "estimated": true
+            },
+            {
+              "word": "di?",
+              "start_ms": 23790,
+              "end_ms": 24090,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Kaq thjeshtë, kaq njerëzisht",
-          "start_ms": 8000,
-          "end_ms": 10240
+          "start_ms": 22740,
+          "end_ms": 24090,
+          "words": [
+            {
+              "word": "Kaq",
+              "start_ms": 22740,
+              "end_ms": 23040,
+              "estimated": true
+            },
+            {
+              "word": "thjeshtë,",
+              "start_ms": 23090,
+              "end_ms": 23390,
+              "estimated": true
+            },
+            {
+              "word": "kaq",
+              "start_ms": 23440,
+              "end_ms": 23740,
+              "estimated": true
+            },
+            {
+              "word": "njerëzisht",
+              "start_ms": 23790,
+              "end_ms": 24090,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Një pyetje në errësirë",
-          "start_ms": 10240,
-          "end_ms": 12240
+          "start_ms": 22740,
+          "end_ms": 28460,
+          "words": [
+            {
+              "word": "Një",
+              "start_ms": 22740,
+              "end_ms": 23520
+            },
+            {
+              "word": "pyetje",
+              "start_ms": 23520,
+              "end_ms": 24300
+            },
+            {
+              "word": "në",
+              "start_ms": 24300,
+              "end_ms": 24660
+            },
+            {
+              "word": "errësirë",
+              "start_ms": 27740,
+              "end_ms": 28460
+            }
+          ]
         },
         {
           "text": "Dhe errësira u përgjigj me heshtje",
-          "start_ms": 12240,
-          "end_ms": 14960
+          "start_ms": 28460,
+          "end_ms": 29980,
+          "words": [
+            {
+              "word": "Dhe",
+              "start_ms": 28460,
+              "end_ms": 28760,
+              "estimated": true
+            },
+            {
+              "word": "errësira",
+              "start_ms": 27740,
+              "end_ms": 28460
+            },
+            {
+              "word": "u",
+              "start_ms": 28460,
+              "end_ms": 28620
+            },
+            {
+              "word": "përgjigj",
+              "start_ms": 28880,
+              "end_ms": 29300
+            },
+            {
+              "word": "me",
+              "start_ms": 29300,
+              "end_ms": 29560
+            },
+            {
+              "word": "heshtje",
+              "start_ms": 29560,
+              "end_ms": 29980
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14960
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 29560,
+      "end_ms": 39040,
       "lines": [
         {
           "text": "Heshtja ra si borë",
-          "start_ms": 17960,
-          "end_ms": 19960
+          "start_ms": 29560,
+          "end_ms": 34040,
+          "words": [
+            {
+              "word": "Heshtja",
+              "start_ms": 29560,
+              "end_ms": 29980
+            },
+            {
+              "word": "ra",
+              "start_ms": 32500,
+              "end_ms": 33100
+            },
+            {
+              "word": "si",
+              "start_ms": 32500,
+              "end_ms": 33100
+            },
+            {
+              "word": "borë",
+              "start_ms": 33100,
+              "end_ms": 34040
+            }
+          ]
         },
         {
           "text": "Muaj pas muaji, pa fund",
-          "start_ms": 19960,
-          "end_ms": 21960
+          "start_ms": 34660,
+          "end_ms": 39040,
+          "words": [
+            {
+              "word": "Muaj",
+              "start_ms": 34660,
+              "end_ms": 34860
+            },
+            {
+              "word": "pas",
+              "start_ms": 37760,
+              "end_ms": 38420
+            },
+            {
+              "word": "muaji,",
+              "start_ms": 35340,
+              "end_ms": 36680
+            },
+            {
+              "word": "pa",
+              "start_ms": 37760,
+              "end_ms": 38420
+            },
+            {
+              "word": "fund",
+              "start_ms": 38420,
+              "end_ms": 39040
+            }
+          ]
         }
-      ],
-      "start_ms": 17960,
-      "end_ms": 21960
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 40000,
+      "end_ms": 88850,
       "lines": [
         {
           "text": "Nëntë muaj pa zë",
-          "start_ms": 24960,
-          "end_ms": 26960
+          "start_ms": 40000,
+          "end_ms": 49510,
+          "words": [
+            {
+              "word": "Nëntë",
+              "start_ms": 40000,
+              "end_ms": 41020
+            },
+            {
+              "word": "muaj",
+              "start_ms": 41260,
+              "end_ms": 41740
+            },
+            {
+              "word": "pa",
+              "start_ms": 48820,
+              "end_ms": 49160
+            },
+            {
+              "word": "zë",
+              "start_ms": 49210,
+              "end_ms": 49510,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Duke dëgjuar botën pa mua",
-          "start_ms": 26960,
-          "end_ms": 28960
+          "start_ms": 58900,
+          "end_ms": 69740,
+          "words": [
+            {
+              "word": "Duke",
+              "start_ms": 58900,
+              "end_ms": 59240
+            },
+            {
+              "word": "dëgjuar",
+              "start_ms": 59420,
+              "end_ms": 60740
+            },
+            {
+              "word": "botën",
+              "start_ms": 60790,
+              "end_ms": 61090,
+              "estimated": true
+            },
+            {
+              "word": "pa",
+              "start_ms": 67860,
+              "end_ms": 68140
+            },
+            {
+              "word": "mua",
+              "start_ms": 69420,
+              "end_ms": 69740
+            }
+          ]
         },
         {
           "text": "Nëntë muaj pa zë",
-          "start_ms": 28960,
-          "end_ms": 30960
+          "start_ms": 83380,
+          "end_ms": 84770,
+          "words": [
+            {
+              "word": "Nëntë",
+              "start_ms": 83380,
+              "end_ms": 83720
+            },
+            {
+              "word": "muaj",
+              "start_ms": 83770,
+              "end_ms": 84070,
+              "estimated": true
+            },
+            {
+              "word": "pa",
+              "start_ms": 84120,
+              "end_ms": 84420,
+              "estimated": true
+            },
+            {
+              "word": "zë",
+              "start_ms": 84470,
+              "end_ms": 84770,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Duke mësuar se fjalët nuk janë gjithçka",
-          "start_ms": 30960,
-          "end_ms": 34080
+          "start_ms": 83720,
+          "end_ms": 88850,
+          "words": [
+            {
+              "word": "Duke",
+              "start_ms": 83720,
+              "end_ms": 84020,
+              "estimated": true
+            },
+            {
+              "word": "mësuar",
+              "start_ms": 88500,
+              "end_ms": 90000
+            },
+            {
+              "word": "se",
+              "start_ms": 90050,
+              "end_ms": 90350,
+              "estimated": true
+            },
+            {
+              "word": "fjalët",
+              "start_ms": 90400,
+              "end_ms": 90700,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 90750,
+              "end_ms": 91050,
+              "estimated": true
+            },
+            {
+              "word": "janë",
+              "start_ms": 87740,
+              "end_ms": 88500
+            },
+            {
+              "word": "gjithçka",
+              "start_ms": 88550,
+              "end_ms": 88850,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 24960,
-      "end_ms": 34080
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 88500,
+      "end_ms": 103550,
       "lines": [
         {
           "text": "Elizabeta rritej, fëmija lëvizte",
-          "start_ms": 37080,
-          "end_ms": 39640
+          "start_ms": 88500,
+          "end_ms": 89850,
+          "words": [
+            {
+              "word": "Elizabeta",
+              "start_ms": 88500,
+              "end_ms": 88800,
+              "estimated": true
+            },
+            {
+              "word": "rritej,",
+              "start_ms": 88850,
+              "end_ms": 89150,
+              "estimated": true
+            },
+            {
+              "word": "fëmija",
+              "start_ms": 89200,
+              "end_ms": 89500,
+              "estimated": true
+            },
+            {
+              "word": "lëvizte",
+              "start_ms": 89550,
+              "end_ms": 89850,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Fqinjët flisnin, unë bëja shenja",
-          "start_ms": 39640,
-          "end_ms": 42200
+          "start_ms": 88500,
+          "end_ms": 90350,
+          "words": [
+            {
+              "word": "Fqinjët",
+              "start_ms": 88500,
+              "end_ms": 88800,
+              "estimated": true
+            },
+            {
+              "word": "flisnin,",
+              "start_ms": 88850,
+              "end_ms": 89150,
+              "estimated": true
+            },
+            {
+              "word": "unë",
+              "start_ms": 87740,
+              "end_ms": 88500
+            },
+            {
+              "word": "bëja",
+              "start_ms": 88500,
+              "end_ms": 90000
+            },
+            {
+              "word": "shenja",
+              "start_ms": 90050,
+              "end_ms": 90350,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jeta vazhdonte rreth meje",
-          "start_ms": 42200,
-          "end_ms": 44200
+          "start_ms": 90580,
+          "end_ms": 96220,
+          "words": [
+            {
+              "word": "Jeta",
+              "start_ms": 90580,
+              "end_ms": 90880,
+              "estimated": true
+            },
+            {
+              "word": "vazhdonte",
+              "start_ms": 90930,
+              "end_ms": 91230,
+              "estimated": true
+            },
+            {
+              "word": "rreth",
+              "start_ms": 91280,
+              "end_ms": 91580,
+              "estimated": true
+            },
+            {
+              "word": "meje",
+              "start_ms": 95460,
+              "end_ms": 96220
+            }
+          ]
         },
         {
           "text": "Ndërsa unë mësoja të dëgjoja",
-          "start_ms": 44200,
-          "end_ms": 46440
+          "start_ms": 102500,
+          "end_ms": 103550,
+          "words": [
+            {
+              "word": "Ndërsa",
+              "start_ms": 102500,
+              "end_ms": 102920
+            },
+            {
+              "word": "unë",
+              "start_ms": 102180,
+              "end_ms": 102500
+            },
+            {
+              "word": "mësoja",
+              "start_ms": 102550,
+              "end_ms": 102850,
+              "estimated": true
+            },
+            {
+              "word": "të",
+              "start_ms": 102900,
+              "end_ms": 103200,
+              "estimated": true
+            },
+            {
+              "word": "dëgjoja",
+              "start_ms": 103250,
+              "end_ms": 103550,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 37080,
-      "end_ms": 46440
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 102500,
+      "end_ms": 124240,
       "lines": [
         {
           "text": "Heshtja nuk ishte ndëshkim",
-          "start_ms": 49440,
-          "end_ms": 51520
+          "start_ms": 102500,
+          "end_ms": 116780,
+          "words": [
+            {
+              "word": "Heshtja",
+              "start_ms": 102500,
+              "end_ms": 102800,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 108120,
+              "end_ms": 108460
+            },
+            {
+              "word": "ishte",
+              "start_ms": 108510,
+              "end_ms": 108810,
+              "estimated": true
+            },
+            {
+              "word": "ndëshkim",
+              "start_ms": 116600,
+              "end_ms": 116780
+            }
+          ]
         },
         {
           "text": "Ishte dhoma ku dyshimi vdes",
-          "start_ms": 51520,
-          "end_ms": 53680
+          "start_ms": 122780,
+          "end_ms": 124240,
+          "words": [
+            {
+              "word": "Ishte",
+              "start_ms": 122780,
+              "end_ms": 122840
+            },
+            {
+              "word": "dhoma",
+              "start_ms": 122890,
+              "end_ms": 123190,
+              "estimated": true
+            },
+            {
+              "word": "ku",
+              "start_ms": 123240,
+              "end_ms": 123540,
+              "estimated": true
+            },
+            {
+              "word": "dyshimi",
+              "start_ms": 123590,
+              "end_ms": 123890,
+              "estimated": true
+            },
+            {
+              "word": "vdes",
+              "start_ms": 123940,
+              "end_ms": 124240,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 49440,
-      "end_ms": 53680
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 132140,
+      "end_ms": 190290,
       "lines": [
         {
           "text": "Nëntë muaj pa zë",
-          "start_ms": 56680,
-          "end_ms": 58680
+          "start_ms": 132140,
+          "end_ms": 135260,
+          "words": [
+            {
+              "word": "Nëntë",
+              "start_ms": 132140,
+              "end_ms": 133620
+            },
+            {
+              "word": "muaj",
+              "start_ms": 133620,
+              "end_ms": 134560
+            },
+            {
+              "word": "pa",
+              "start_ms": 134610,
+              "end_ms": 134910,
+              "estimated": true
+            },
+            {
+              "word": "zë",
+              "start_ms": 134960,
+              "end_ms": 135260,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Duke dëgjuar botën pa mua",
-          "start_ms": 58680,
-          "end_ms": 60680
+          "start_ms": 143500,
+          "end_ms": 169960,
+          "words": [
+            {
+              "word": "Duke",
+              "start_ms": 143500,
+              "end_ms": 143800
+            },
+            {
+              "word": "dëgjuar",
+              "start_ms": 143000,
+              "end_ms": 143500
+            },
+            {
+              "word": "botën",
+              "start_ms": 143550,
+              "end_ms": 143850,
+              "estimated": true
+            },
+            {
+              "word": "pa",
+              "start_ms": 169960,
+              "end_ms": 172560
+            },
+            {
+              "word": "mua",
+              "start_ms": 169520,
+              "end_ms": 169960
+            }
+          ]
         },
         {
           "text": "Nëntë muaj pa zë",
-          "start_ms": 60680,
-          "end_ms": 62680
+          "start_ms": 169160,
+          "end_ms": 178450,
+          "words": [
+            {
+              "word": "Nëntë",
+              "start_ms": 169160,
+              "end_ms": 169320
+            },
+            {
+              "word": "muaj",
+              "start_ms": 169520,
+              "end_ms": 169960
+            },
+            {
+              "word": "pa",
+              "start_ms": 177240,
+              "end_ms": 178100
+            },
+            {
+              "word": "zë",
+              "start_ms": 178150,
+              "end_ms": 178450,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Duke mësuar se fjalët nuk janë gjithçka",
-          "start_ms": 62680,
-          "end_ms": 65800
+          "start_ms": 180020,
+          "end_ms": 190290,
+          "words": [
+            {
+              "word": "Duke",
+              "start_ms": 180020,
+              "end_ms": 180320,
+              "estimated": true
+            },
+            {
+              "word": "mësuar",
+              "start_ms": 183620,
+              "end_ms": 183860
+            },
+            {
+              "word": "se",
+              "start_ms": 183910,
+              "end_ms": 184210,
+              "estimated": true
+            },
+            {
+              "word": "fjalët",
+              "start_ms": 188480,
+              "end_ms": 189240
+            },
+            {
+              "word": "nuk",
+              "start_ms": 189290,
+              "end_ms": 189590,
+              "estimated": true
+            },
+            {
+              "word": "janë",
+              "start_ms": 189640,
+              "end_ms": 189940,
+              "estimated": true
+            },
+            {
+              "word": "gjithçka",
+              "start_ms": 189990,
+              "end_ms": 190290,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 56680,
-      "end_ms": 65800
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 189240,
+      "end_ms": 191160,
       "lines": [
         {
           "text": "Emri i tij është Gjon",
-          "start_ms": 68800,
-          "end_ms": 70800
+          "start_ms": 189240,
+          "end_ms": 190940,
+          "words": [
+            {
+              "word": "Emri",
+              "start_ms": 189240,
+              "end_ms": 189540,
+              "estimated": true
+            },
+            {
+              "word": "i",
+              "start_ms": 189590,
+              "end_ms": 189890,
+              "estimated": true
+            },
+            {
+              "word": "tij",
+              "start_ms": 189940,
+              "end_ms": 190240,
+              "estimated": true
+            },
+            {
+              "word": "është",
+              "start_ms": 190290,
+              "end_ms": 190590,
+              "estimated": true
+            },
+            {
+              "word": "Gjon",
+              "start_ms": 190640,
+              "end_ms": 190940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E shkruajta, e shkruajta, e shkruajta",
-          "start_ms": 70800,
-          "end_ms": 73760
+          "start_ms": 189240,
+          "end_ms": 189810,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 189240,
+              "end_ms": 189460
+            },
+            {
+              "word": "shkruajta,",
+              "start_ms": 189510,
+              "end_ms": 189810,
+              "estimated": true
+            },
+            {
+              "word": "e",
+              "start_ms": 189240,
+              "end_ms": 189460
+            },
+            {
+              "word": "shkruajta,",
+              "start_ms": 189510,
+              "end_ms": 189810,
+              "estimated": true
+            },
+            {
+              "word": "e",
+              "start_ms": 189240,
+              "end_ms": 189460
+            },
+            {
+              "word": "shkruajta",
+              "start_ms": 189510,
+              "end_ms": 189810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mora penën dhe e shkruajta",
-          "start_ms": 73760,
-          "end_ms": 75840
+          "start_ms": 189460,
+          "end_ms": 189810,
+          "words": [
+            {
+              "word": "Mora",
+              "start_ms": 189460,
+              "end_ms": 189760,
+              "estimated": true
+            },
+            {
+              "word": "penën",
+              "start_ms": 189810,
+              "end_ms": 190110,
+              "estimated": true
+            },
+            {
+              "word": "dhe",
+              "start_ms": 190160,
+              "end_ms": 190460,
+              "estimated": true
+            },
+            {
+              "word": "e",
+              "start_ms": 189240,
+              "end_ms": 189460
+            },
+            {
+              "word": "shkruajta",
+              "start_ms": 189510,
+              "end_ms": 189810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Atë që goja nuk thoshte",
-          "start_ms": 75840,
-          "end_ms": 77840
+          "start_ms": 189460,
+          "end_ms": 191160,
+          "words": [
+            {
+              "word": "Atë",
+              "start_ms": 189460,
+              "end_ms": 189760,
+              "estimated": true
+            },
+            {
+              "word": "që",
+              "start_ms": 189810,
+              "end_ms": 190110,
+              "estimated": true
+            },
+            {
+              "word": "goja",
+              "start_ms": 190160,
+              "end_ms": 190460,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 190510,
+              "end_ms": 190810,
+              "estimated": true
+            },
+            {
+              "word": "thoshte",
+              "start_ms": 190860,
+              "end_ms": 191160,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 68800,
-      "end_ms": 77840
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 189460,
+      "end_ms": 192000,
       "lines": [
         {
           "text": "Dhe goja mu hap",
-          "start_ms": 80840,
-          "end_ms": 82840
+          "start_ms": 189460,
+          "end_ms": 190810,
+          "words": [
+            {
+              "word": "Dhe",
+              "start_ms": 189460,
+              "end_ms": 189760,
+              "estimated": true
+            },
+            {
+              "word": "goja",
+              "start_ms": 189810,
+              "end_ms": 190110,
+              "estimated": true
+            },
+            {
+              "word": "mu",
+              "start_ms": 190160,
+              "end_ms": 190460,
+              "estimated": true
+            },
+            {
+              "word": "hap",
+              "start_ms": 190510,
+              "end_ms": 190810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nëntë muaj pa zë",
-          "start_ms": 82840,
-          "end_ms": 84840
+          "start_ms": 189460,
+          "end_ms": 184910,
+          "words": [
+            {
+              "word": "Nëntë",
+              "start_ms": 189460,
+              "end_ms": 189760,
+              "estimated": true
+            },
+            {
+              "word": "muaj",
+              "start_ms": 189810,
+              "end_ms": 190110,
+              "estimated": true
+            },
+            {
+              "word": "pa",
+              "start_ms": 183860,
+              "end_ms": 184560
+            },
+            {
+              "word": "zë",
+              "start_ms": 184610,
+              "end_ms": 184910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Fjala e parë: falënderim",
-          "start_ms": 84840,
-          "end_ms": 86840
+          "start_ms": 188480,
+          "end_ms": 184910,
+          "words": [
+            {
+              "word": "Fjala",
+              "start_ms": 188480,
+              "end_ms": 189240
+            },
+            {
+              "word": "e",
+              "start_ms": 189240,
+              "end_ms": 189460
+            },
+            {
+              "word": "parë:",
+              "start_ms": 183860,
+              "end_ms": 184560
+            },
+            {
+              "word": "falënderim",
+              "start_ms": 184610,
+              "end_ms": 184910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nëntë muaj pa zë",
-          "start_ms": 86840,
-          "end_ms": 88840
+          "start_ms": 183360,
+          "end_ms": 184910,
+          "words": [
+            {
+              "word": "Nëntë",
+              "start_ms": 183360,
+              "end_ms": 183620
+            },
+            {
+              "word": "muaj",
+              "start_ms": 183620,
+              "end_ms": 183860
+            },
+            {
+              "word": "pa",
+              "start_ms": 183860,
+              "end_ms": 184560
+            },
+            {
+              "word": "zë",
+              "start_ms": 184610,
+              "end_ms": 184910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Fjala e fundit: këngë",
-          "start_ms": 88840,
-          "end_ms": 90840
+          "start_ms": 188480,
+          "end_ms": 192000,
+          "words": [
+            {
+              "word": "Fjala",
+              "start_ms": 188480,
+              "end_ms": 189240
+            },
+            {
+              "word": "e",
+              "start_ms": 189240,
+              "end_ms": 189460
+            },
+            {
+              "word": "fundit:",
+              "start_ms": 189460,
+              "end_ms": 191320
+            },
+            {
+              "word": "këngë",
+              "start_ms": 191620,
+              "end_ms": 192000
+            }
+          ]
         }
-      ],
-      "start_ms": 80840,
-      "end_ms": 90840
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 93840,
-          "end_ms": 95840
-        }
-      ],
-      "start_ms": 93840,
-      "end_ms": 95840
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Heshtja ra si borë",
+      "section_type": "chorus",
+      "start_ms": 29560,
+      "end_ms": 39040,
+      "key_line": "Heshtja ra si borë",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Nëntë muaj pa zë",
+      "section_type": "chorus",
+      "start_ms": 40000,
+      "end_ms": 88850,
+      "key_line": "Nëntë muaj pa zë",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Heshtja nuk ishte ndëshkim",
+      "section_type": "chorus",
+      "start_ms": 102500,
+      "end_ms": 124240,
+      "key_line": "Heshtja nuk ishte ndëshkim",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Nëntë muaj pa zë",
+      "section_type": "chorus",
+      "start_ms": 132140,
+      "end_ms": 190290,
+      "key_line": "Nëntë muaj pa zë",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 189240,
+      "end_ms": 191160,
+      "key_line": "Emri i tij është Gjon",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Dhe goja mu hap",
+      "section_type": "chorus",
+      "start_ms": 189460,
+      "end_ms": 192000,
+      "key_line": "Dhe goja mu hap",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/albanian/42_luke_01_1-18_transcript.json"
 }

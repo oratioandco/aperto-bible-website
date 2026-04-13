@@ -7,304 +7,1370 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 172280,
   "audio_file": "/audio/songs/luke_01/catalan/Luke 1_46-56 Catalan.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.704716+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.910973+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.978,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 14059,
+      "end_ms": 31760,
       "lines": [
         {
           "text": "Tot el que soc, tot, celebra",
-          "start_ms": 6000,
-          "end_ms": 8240
+          "start_ms": 14059,
+          "end_ms": 18400,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 14059,
+              "end_ms": 15059
+            },
+            {
+              "word": "el",
+              "start_ms": 15059,
+              "end_ms": 16059
+            },
+            {
+              "word": "que",
+              "start_ms": 16059,
+              "end_ms": 16200
+            },
+            {
+              "word": "soc,",
+              "start_ms": 16200,
+              "end_ms": 16880
+            },
+            {
+              "word": "tot,",
+              "start_ms": 17380,
+              "end_ms": 17500
+            },
+            {
+              "word": "celebra",
+              "start_ms": 17500,
+              "end_ms": 18400
+            }
+          ]
         },
         {
           "text": "El meu esperit esclata d'alegria",
-          "start_ms": 8240,
-          "end_ms": 10800
+          "start_ms": 18760,
+          "end_ms": 22040,
+          "words": [
+            {
+              "word": "El",
+              "start_ms": 18760,
+              "end_ms": 18940
+            },
+            {
+              "word": "meu",
+              "start_ms": 18940,
+              "end_ms": 19280
+            },
+            {
+              "word": "esperit",
+              "start_ms": 19280,
+              "end_ms": 20040
+            },
+            {
+              "word": "esclata",
+              "start_ms": 20040,
+              "end_ms": 20680
+            },
+            {
+              "word": "d'alegria",
+              "start_ms": 20940,
+              "end_ms": 22040
+            }
+          ]
         },
         {
           "text": "M'ha mirat, a mi, la petita",
-          "start_ms": 10800,
-          "end_ms": 12960
+          "start_ms": 22580,
+          "end_ms": 25400,
+          "words": [
+            {
+              "word": "M'ha",
+              "start_ms": 22580,
+              "end_ms": 22880
+            },
+            {
+              "word": "mirat,",
+              "start_ms": 22880,
+              "end_ms": 23540
+            },
+            {
+              "word": "a",
+              "start_ms": 23540,
+              "end_ms": 23820
+            },
+            {
+              "word": "mi,",
+              "start_ms": 23820,
+              "end_ms": 24120
+            },
+            {
+              "word": "la",
+              "start_ms": 24180,
+              "end_ms": 24760
+            },
+            {
+              "word": "petita",
+              "start_ms": 24760,
+              "end_ms": 25400
+            }
+          ]
         },
         {
           "text": "I m'ha posat un lloc a taula",
-          "start_ms": 12960,
-          "end_ms": 15200
+          "start_ms": 26160,
+          "end_ms": 31760,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 26160,
+              "end_ms": 26300
+            },
+            {
+              "word": "m'ha",
+              "start_ms": 26440,
+              "end_ms": 26640
+            },
+            {
+              "word": "posat",
+              "start_ms": 26640,
+              "end_ms": 27280
+            },
+            {
+              "word": "un",
+              "start_ms": 27280,
+              "end_ms": 27700
+            },
+            {
+              "word": "lloc",
+              "start_ms": 27700,
+              "end_ms": 28060
+            },
+            {
+              "word": "a",
+              "start_ms": 28060,
+              "end_ms": 28420
+            },
+            {
+              "word": "taula",
+              "start_ms": 31180,
+              "end_ms": 31760
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15200
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 30260,
+      "end_ms": 43080,
       "lines": [
         {
           "text": "Hi havia una taula llarga",
-          "start_ms": 18200,
-          "end_ms": 20200
+          "start_ms": 30260,
+          "end_ms": 33000,
+          "words": [
+            {
+              "word": "Hi",
+              "start_ms": 30260,
+              "end_ms": 30680
+            },
+            {
+              "word": "havia",
+              "start_ms": 30260,
+              "end_ms": 30680
+            },
+            {
+              "word": "una",
+              "start_ms": 30680,
+              "end_ms": 31180
+            },
+            {
+              "word": "taula",
+              "start_ms": 31180,
+              "end_ms": 31760
+            },
+            {
+              "word": "llarga",
+              "start_ms": 31760,
+              "end_ms": 33000
+            }
+          ]
         },
         {
           "text": "Amb cadires per als grans",
-          "start_ms": 20200,
-          "end_ms": 22200
+          "start_ms": 33580,
+          "end_ms": 36500,
+          "words": [
+            {
+              "word": "Amb",
+              "start_ms": 33580,
+              "end_ms": 33880
+            },
+            {
+              "word": "cadires",
+              "start_ms": 33880,
+              "end_ms": 34660
+            },
+            {
+              "word": "per",
+              "start_ms": 34660,
+              "end_ms": 35180
+            },
+            {
+              "word": "als",
+              "start_ms": 35180,
+              "end_ms": 35540
+            },
+            {
+              "word": "grans",
+              "start_ms": 35540,
+              "end_ms": 36500
+            }
+          ]
         },
         {
           "text": "Ara la taula es gira",
-          "start_ms": 22200,
-          "end_ms": 24200
+          "start_ms": 37160,
+          "end_ms": 39340,
+          "words": [
+            {
+              "word": "Ara",
+              "start_ms": 37160,
+              "end_ms": 37680
+            },
+            {
+              "word": "la",
+              "start_ms": 37680,
+              "end_ms": 38160
+            },
+            {
+              "word": "taula",
+              "start_ms": 38160,
+              "end_ms": 38680
+            },
+            {
+              "word": "es",
+              "start_ms": 40220,
+              "end_ms": 40560
+            },
+            {
+              "word": "gira",
+              "start_ms": 38680,
+              "end_ms": 39340
+            }
+          ]
         },
         {
           "text": "I els primers seuen a terra",
-          "start_ms": 24200,
-          "end_ms": 26360
+          "start_ms": 40060,
+          "end_ms": 43080,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 40060,
+              "end_ms": 40220
+            },
+            {
+              "word": "els",
+              "start_ms": 40220,
+              "end_ms": 40560
+            },
+            {
+              "word": "primers",
+              "start_ms": 40560,
+              "end_ms": 41200
+            },
+            {
+              "word": "seuen",
+              "start_ms": 41200,
+              "end_ms": 41920
+            },
+            {
+              "word": "a",
+              "start_ms": 41920,
+              "end_ms": 42440
+            },
+            {
+              "word": "terra",
+              "start_ms": 42440,
+              "end_ms": 43080
+            }
+          ]
         }
-      ],
-      "start_ms": 18200,
-      "end_ms": 26360
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 43660,
+      "end_ms": 56580,
       "lines": [
         {
           "text": "Governants, els fa caure",
-          "start_ms": 29360,
-          "end_ms": 31360
+          "start_ms": 43660,
+          "end_ms": 46280,
+          "words": [
+            {
+              "word": "Governants,",
+              "start_ms": 43660,
+              "end_ms": 44700
+            },
+            {
+              "word": "els",
+              "start_ms": 45200,
+              "end_ms": 45420
+            },
+            {
+              "word": "fa",
+              "start_ms": 45420,
+              "end_ms": 45760
+            },
+            {
+              "word": "caure",
+              "start_ms": 45760,
+              "end_ms": 46280
+            }
+          ]
         },
         {
           "text": "Ja no tallen el pa",
-          "start_ms": 31360,
-          "end_ms": 33360
+          "start_ms": 46280,
+          "end_ms": 49800,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 46280,
+              "end_ms": 47300
+            },
+            {
+              "word": "no",
+              "start_ms": 47300,
+              "end_ms": 48320
+            },
+            {
+              "word": "tallen",
+              "start_ms": 48320,
+              "end_ms": 48960
+            },
+            {
+              "word": "el",
+              "start_ms": 48960,
+              "end_ms": 49380
+            },
+            {
+              "word": "pa",
+              "start_ms": 49380,
+              "end_ms": 49800
+            }
+          ]
         },
         {
           "text": "Els qui passaven fam",
-          "start_ms": 33360,
-          "end_ms": 35360
+          "start_ms": 50160,
+          "end_ms": 53360,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 50160,
+              "end_ms": 50320
+            },
+            {
+              "word": "qui",
+              "start_ms": 50320,
+              "end_ms": 50620
+            },
+            {
+              "word": "passaven",
+              "start_ms": 50620,
+              "end_ms": 52580
+            },
+            {
+              "word": "fam",
+              "start_ms": 52580,
+              "end_ms": 53360
+            }
+          ]
         },
         {
           "text": "Ara mengen primers",
-          "start_ms": 35360,
-          "end_ms": 37360
+          "start_ms": 53860,
+          "end_ms": 56580,
+          "words": [
+            {
+              "word": "Ara",
+              "start_ms": 53860,
+              "end_ms": 54500
+            },
+            {
+              "word": "mengen",
+              "start_ms": 54500,
+              "end_ms": 55960
+            },
+            {
+              "word": "primers",
+              "start_ms": 55960,
+              "end_ms": 56580
+            }
+          ]
         }
-      ],
-      "start_ms": 29360,
-      "end_ms": 37360
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 57520,
+      "end_ms": 75900,
       "lines": [
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 40360,
-          "end_ms": 42360
+          "start_ms": 57520,
+          "end_ms": 60460,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 57520,
+              "end_ms": 57740
+            },
+            {
+              "word": "petits,",
+              "start_ms": 57740,
+              "end_ms": 58560
+            },
+            {
+              "word": "els",
+              "start_ms": 57520,
+              "end_ms": 57740
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 59500,
+              "end_ms": 60460
+            }
+          ]
         },
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 42360,
-          "end_ms": 44360
+          "start_ms": 58600,
+          "end_ms": 60460,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 58600,
+              "end_ms": 59500
+            },
+            {
+              "word": "petits,",
+              "start_ms": 57740,
+              "end_ms": 58560
+            },
+            {
+              "word": "els",
+              "start_ms": 57520,
+              "end_ms": 57740
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 59500,
+              "end_ms": 60460
+            }
+          ]
         },
         {
           "text": "Els rics amb les mans buides",
-          "start_ms": 44360,
-          "end_ms": 46600
+          "start_ms": 58600,
+          "end_ms": 67360,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 58600,
+              "end_ms": 59500
+            },
+            {
+              "word": "rics",
+              "start_ms": 64959,
+              "end_ms": 65379
+            },
+            {
+              "word": "amb",
+              "start_ms": 65379,
+              "end_ms": 65780
+            },
+            {
+              "word": "les",
+              "start_ms": 65780,
+              "end_ms": 66240
+            },
+            {
+              "word": "mans",
+              "start_ms": 66240,
+              "end_ms": 66480
+            },
+            {
+              "word": "buides",
+              "start_ms": 66480,
+              "end_ms": 67360
+            }
+          ]
         },
         {
           "text": "Les taules han girat",
-          "start_ms": 46600,
-          "end_ms": 48600
+          "start_ms": 65780,
+          "end_ms": 70860,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 65780,
+              "end_ms": 66240
+            },
+            {
+              "word": "taules",
+              "start_ms": 68400,
+              "end_ms": 69160
+            },
+            {
+              "word": "han",
+              "start_ms": 69160,
+              "end_ms": 69740
+            },
+            {
+              "word": "girat",
+              "start_ms": 69740,
+              "end_ms": 70860
+            }
+          ]
         },
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 48600,
-          "end_ms": 50600
+          "start_ms": 71160,
+          "end_ms": 75900,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 71160,
+              "end_ms": 71580
+            },
+            {
+              "word": "petits,",
+              "start_ms": 71580,
+              "end_ms": 72400
+            },
+            {
+              "word": "els",
+              "start_ms": 71160,
+              "end_ms": 71580
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 74920,
+              "end_ms": 75900
+            }
+          ]
         }
-      ],
-      "start_ms": 40360,
-      "end_ms": 50600
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 77920,
+      "end_ms": 91320,
       "lines": [
         {
           "text": "Ha fet coses tan grans",
-          "start_ms": 53600,
-          "end_ms": 55600
+          "start_ms": 77920,
+          "end_ms": 81220,
+          "words": [
+            {
+              "word": "Ha",
+              "start_ms": 77920,
+              "end_ms": 78840
+            },
+            {
+              "word": "fet",
+              "start_ms": 78840,
+              "end_ms": 79280
+            },
+            {
+              "word": "coses",
+              "start_ms": 79280,
+              "end_ms": 79940
+            },
+            {
+              "word": "tan",
+              "start_ms": 79940,
+              "end_ms": 80480
+            },
+            {
+              "word": "grans",
+              "start_ms": 80480,
+              "end_ms": 81220
+            }
+          ]
         },
         {
           "text": "En una com jo, tan petita",
-          "start_ms": 55600,
-          "end_ms": 57600
+          "start_ms": 81560,
+          "end_ms": 84500,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 81560,
+              "end_ms": 81640
+            },
+            {
+              "word": "una",
+              "start_ms": 81640,
+              "end_ms": 81920
+            },
+            {
+              "word": "com",
+              "start_ms": 81920,
+              "end_ms": 82340
+            },
+            {
+              "word": "jo,",
+              "start_ms": 82340,
+              "end_ms": 82940
+            },
+            {
+              "word": "tan",
+              "start_ms": 83220,
+              "end_ms": 83640
+            },
+            {
+              "word": "petita",
+              "start_ms": 83640,
+              "end_ms": 84500
+            }
+          ]
         },
         {
           "text": "Els orgullosos? Dispersats",
-          "start_ms": 57600,
-          "end_ms": 59680
+          "start_ms": 84740,
+          "end_ms": 88020,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 84740,
+              "end_ms": 85080
+            },
+            {
+              "word": "orgullosos?",
+              "start_ms": 85080,
+              "end_ms": 86420
+            },
+            {
+              "word": "Dispersats",
+              "start_ms": 86680,
+              "end_ms": 88020
+            }
+          ]
         },
         {
           "text": "Amb tots els seus plans de fum",
-          "start_ms": 59680,
-          "end_ms": 62080
+          "start_ms": 88480,
+          "end_ms": 91320,
+          "words": [
+            {
+              "word": "Amb",
+              "start_ms": 88480,
+              "end_ms": 88740
+            },
+            {
+              "word": "tots",
+              "start_ms": 88740,
+              "end_ms": 89060
+            },
+            {
+              "word": "els",
+              "start_ms": 89060,
+              "end_ms": 89460
+            },
+            {
+              "word": "seus",
+              "start_ms": 89460,
+              "end_ms": 89860
+            },
+            {
+              "word": "plans",
+              "start_ms": 89860,
+              "end_ms": 90280
+            },
+            {
+              "word": "de",
+              "start_ms": 90280,
+              "end_ms": 90900
+            },
+            {
+              "word": "fum",
+              "start_ms": 90900,
+              "end_ms": 91320
+            }
+          ]
         }
-      ],
-      "start_ms": 53600,
-      "end_ms": 62080
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 92260,
+      "end_ms": 104840,
       "lines": [
         {
           "text": "Governants, els fa caure",
-          "start_ms": 65080,
-          "end_ms": 67080
+          "start_ms": 92260,
+          "end_ms": 95020,
+          "words": [
+            {
+              "word": "Governants,",
+              "start_ms": 92260,
+              "end_ms": 93180
+            },
+            {
+              "word": "els",
+              "start_ms": 93660,
+              "end_ms": 93920
+            },
+            {
+              "word": "fa",
+              "start_ms": 93920,
+              "end_ms": 94260
+            },
+            {
+              "word": "caure",
+              "start_ms": 94260,
+              "end_ms": 95020
+            }
+          ]
         },
         {
           "text": "Ja no tallen el pa",
-          "start_ms": 67080,
-          "end_ms": 69080
+          "start_ms": 95520,
+          "end_ms": 98200,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 95520,
+              "end_ms": 95760
+            },
+            {
+              "word": "no",
+              "start_ms": 95760,
+              "end_ms": 96720
+            },
+            {
+              "word": "tallen",
+              "start_ms": 96720,
+              "end_ms": 97340
+            },
+            {
+              "word": "el",
+              "start_ms": 97340,
+              "end_ms": 97800
+            },
+            {
+              "word": "pa",
+              "start_ms": 97800,
+              "end_ms": 98200
+            }
+          ]
         },
         {
           "text": "Els qui passaven fam",
-          "start_ms": 69080,
-          "end_ms": 71080
+          "start_ms": 98540,
+          "end_ms": 101740,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 98540,
+              "end_ms": 98740
+            },
+            {
+              "word": "qui",
+              "start_ms": 98740,
+              "end_ms": 99040
+            },
+            {
+              "word": "passaven",
+              "start_ms": 99040,
+              "end_ms": 100880
+            },
+            {
+              "word": "fam",
+              "start_ms": 100880,
+              "end_ms": 101740
+            }
+          ]
         },
         {
           "text": "Ara mengen primers",
-          "start_ms": 71080,
-          "end_ms": 73080
+          "start_ms": 102280,
+          "end_ms": 104840,
+          "words": [
+            {
+              "word": "Ara",
+              "start_ms": 102280,
+              "end_ms": 102820
+            },
+            {
+              "word": "mengen",
+              "start_ms": 102820,
+              "end_ms": 104300
+            },
+            {
+              "word": "primers",
+              "start_ms": 104300,
+              "end_ms": 104840
+            }
+          ]
         }
-      ],
-      "start_ms": 65080,
-      "end_ms": 73080
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 104840,
+      "end_ms": 124300,
       "lines": [
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 76080,
-          "end_ms": 78080
+          "start_ms": 104840,
+          "end_ms": 108270,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 104840,
+              "end_ms": 106020
+            },
+            {
+              "word": "petits,",
+              "start_ms": 106020,
+              "end_ms": 106840
+            },
+            {
+              "word": "els",
+              "start_ms": 104840,
+              "end_ms": 106020
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 107740,
+              "end_ms": 108270
+            }
+          ]
         },
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 78080,
-          "end_ms": 80080
+          "start_ms": 106900,
+          "end_ms": 108270,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 106900,
+              "end_ms": 107740
+            },
+            {
+              "word": "petits,",
+              "start_ms": 106020,
+              "end_ms": 106840
+            },
+            {
+              "word": "els",
+              "start_ms": 104840,
+              "end_ms": 106020
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 107740,
+              "end_ms": 108270
+            }
+          ]
         },
         {
           "text": "Els rics amb les mans buides",
-          "start_ms": 80080,
-          "end_ms": 82320
+          "start_ms": 106900,
+          "end_ms": 115640,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 106900,
+              "end_ms": 107740
+            },
+            {
+              "word": "rics",
+              "start_ms": 113280,
+              "end_ms": 113620
+            },
+            {
+              "word": "amb",
+              "start_ms": 113620,
+              "end_ms": 114020
+            },
+            {
+              "word": "les",
+              "start_ms": 114020,
+              "end_ms": 114540
+            },
+            {
+              "word": "mans",
+              "start_ms": 114540,
+              "end_ms": 114780
+            },
+            {
+              "word": "buides",
+              "start_ms": 114780,
+              "end_ms": 115640
+            }
+          ]
         },
         {
           "text": "Les taules han girat",
-          "start_ms": 82320,
-          "end_ms": 84320
+          "start_ms": 114020,
+          "end_ms": 119120,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 114020,
+              "end_ms": 114540
+            },
+            {
+              "word": "taules",
+              "start_ms": 116660,
+              "end_ms": 117420
+            },
+            {
+              "word": "han",
+              "start_ms": 117420,
+              "end_ms": 118000
+            },
+            {
+              "word": "girat",
+              "start_ms": 118000,
+              "end_ms": 119120
+            }
+          ]
         },
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 84320,
-          "end_ms": 86320
+          "start_ms": 119420,
+          "end_ms": 124300,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 119420,
+              "end_ms": 119840
+            },
+            {
+              "word": "petits,",
+              "start_ms": 119840,
+              "end_ms": 120660
+            },
+            {
+              "word": "els",
+              "start_ms": 119420,
+              "end_ms": 119840
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 123180,
+              "end_ms": 124300
+            }
+          ]
         }
-      ],
-      "start_ms": 76080,
-      "end_ms": 86320
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 126860,
+      "end_ms": 140040,
       "lines": [
         {
           "text": "Qui menja? Qui passa fam?",
-          "start_ms": 89320,
-          "end_ms": 91320
+          "start_ms": 126860,
+          "end_ms": 129060,
+          "words": [
+            {
+              "word": "Qui",
+              "start_ms": 126860,
+              "end_ms": 127100
+            },
+            {
+              "word": "menja?",
+              "start_ms": 127100,
+              "end_ms": 127640
+            },
+            {
+              "word": "Qui",
+              "start_ms": 126860,
+              "end_ms": 127100
+            },
+            {
+              "word": "passa",
+              "start_ms": 128020,
+              "end_ms": 128479
+            },
+            {
+              "word": "fam?",
+              "start_ms": 128479,
+              "end_ms": 129060
+            }
+          ]
         },
         {
           "text": "Qui seu? Qui queda dret?",
-          "start_ms": 91320,
-          "end_ms": 93320
+          "start_ms": 127780,
+          "end_ms": 132660,
+          "words": [
+            {
+              "word": "Qui",
+              "start_ms": 127780,
+              "end_ms": 128020
+            },
+            {
+              "word": "seu?",
+              "start_ms": 130479,
+              "end_ms": 130960
+            },
+            {
+              "word": "Qui",
+              "start_ms": 130300,
+              "end_ms": 130479
+            },
+            {
+              "word": "queda",
+              "start_ms": 131480,
+              "end_ms": 131920
+            },
+            {
+              "word": "dret?",
+              "start_ms": 131920,
+              "end_ms": 132660
+            }
+          ]
         },
         {
           "text": "Tot canvia",
-          "start_ms": 93320,
-          "end_ms": 95320
+          "start_ms": 132660,
+          "end_ms": 137200,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 132660,
+              "end_ms": 133280
+            },
+            {
+              "word": "canvia",
+              "start_ms": 136080,
+              "end_ms": 137200
+            }
+          ]
         },
         {
           "text": "Tot canvia avui",
-          "start_ms": 95320,
-          "end_ms": 97320
+          "start_ms": 135660,
+          "end_ms": 140040,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 135660,
+              "end_ms": 136080
+            },
+            {
+              "word": "canvia",
+              "start_ms": 136080,
+              "end_ms": 137200
+            },
+            {
+              "word": "avui",
+              "start_ms": 137200,
+              "end_ms": 140040
+            }
+          ]
         }
-      ],
-      "start_ms": 89320,
-      "end_ms": 97320
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 140280,
+      "end_ms": 158690,
       "lines": [
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 100320,
-          "end_ms": 102320
+          "start_ms": 140280,
+          "end_ms": 143160,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 140280,
+              "end_ms": 140480
+            },
+            {
+              "word": "petits,",
+              "start_ms": 140480,
+              "end_ms": 141260
+            },
+            {
+              "word": "els",
+              "start_ms": 140280,
+              "end_ms": 140480
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 142040,
+              "end_ms": 143160
+            }
+          ]
         },
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 102320,
-          "end_ms": 104320
+          "start_ms": 141360,
+          "end_ms": 143160,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 141360,
+              "end_ms": 142040
+            },
+            {
+              "word": "petits,",
+              "start_ms": 140480,
+              "end_ms": 141260
+            },
+            {
+              "word": "els",
+              "start_ms": 140280,
+              "end_ms": 140480
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 142040,
+              "end_ms": 143160
+            }
+          ]
         },
         {
           "text": "Els rics amb les mans buides",
-          "start_ms": 104320,
-          "end_ms": 106560
+          "start_ms": 141360,
+          "end_ms": 149960,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 141360,
+              "end_ms": 142040
+            },
+            {
+              "word": "rics",
+              "start_ms": 147620,
+              "end_ms": 148040
+            },
+            {
+              "word": "amb",
+              "start_ms": 148040,
+              "end_ms": 148400
+            },
+            {
+              "word": "les",
+              "start_ms": 148400,
+              "end_ms": 148860
+            },
+            {
+              "word": "mans",
+              "start_ms": 148860,
+              "end_ms": 149120
+            },
+            {
+              "word": "buides",
+              "start_ms": 149120,
+              "end_ms": 149960
+            }
+          ]
         },
         {
           "text": "Les taules han girat",
-          "start_ms": 106560,
-          "end_ms": 108560
+          "start_ms": 148400,
+          "end_ms": 152900,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 148400,
+              "end_ms": 148860
+            },
+            {
+              "word": "taules",
+              "start_ms": 151000,
+              "end_ms": 151720
+            },
+            {
+              "word": "han",
+              "start_ms": 151720,
+              "end_ms": 152340
+            },
+            {
+              "word": "girat",
+              "start_ms": 152340,
+              "end_ms": 152900
+            }
+          ]
         },
         {
           "text": "Els petits, els aixeca",
-          "start_ms": 108560,
-          "end_ms": 110560
+          "start_ms": 153740,
+          "end_ms": 158040,
+          "words": [
+            {
+              "word": "Els",
+              "start_ms": 153740,
+              "end_ms": 154160
+            },
+            {
+              "word": "petits,",
+              "start_ms": 154160,
+              "end_ms": 155180
+            },
+            {
+              "word": "els",
+              "start_ms": 153740,
+              "end_ms": 154160
+            },
+            {
+              "word": "aixeca",
+              "start_ms": 157480,
+              "end_ms": 158040
+            }
+          ]
         },
         {
           "text": "Per sempre",
-          "start_ms": 110560,
-          "end_ms": 112560
+          "start_ms": 158040,
+          "end_ms": 158690,
+          "words": [
+            {
+              "word": "Per",
+              "start_ms": 158040,
+              "end_ms": 158340,
+              "estimated": true
+            },
+            {
+              "word": "sempre",
+              "start_ms": 158390,
+              "end_ms": 158690,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Per sempre",
-          "start_ms": 112560,
-          "end_ms": 114560
+          "start_ms": 158040,
+          "end_ms": 158690,
+          "words": [
+            {
+              "word": "Per",
+              "start_ms": 158040,
+              "end_ms": 158340,
+              "estimated": true
+            },
+            {
+              "word": "sempre",
+              "start_ms": 158390,
+              "end_ms": 158690,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 100320,
-      "end_ms": 114560
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 117560,
-          "end_ms": 119560
-        }
-      ],
-      "start_ms": 117560,
-      "end_ms": 119560
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Governants, els fa caure",
+      "section_type": "chorus",
+      "start_ms": 43660,
+      "end_ms": 56580,
+      "key_line": "Governants, els fa caure",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Els petits, els aixeca",
+      "section_type": "chorus",
+      "start_ms": 57520,
+      "end_ms": 75900,
+      "key_line": "Els petits, els aixeca",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Governants, els fa caure",
+      "section_type": "chorus",
+      "start_ms": 92260,
+      "end_ms": 104840,
+      "key_line": "Governants, els fa caure",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Els petits, els aixeca",
+      "section_type": "chorus",
+      "start_ms": 104840,
+      "end_ms": 124300,
+      "key_line": "Els petits, els aixeca",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 126860,
+      "end_ms": 140040,
+      "key_line": "Qui menja? Qui passa fam?",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Els petits, els aixeca",
+      "section_type": "chorus",
+      "start_ms": 140280,
+      "end_ms": 158690,
+      "key_line": "Els petits, els aixeca",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/catalan/42_luke_01_1-46_transcript.json"
 }

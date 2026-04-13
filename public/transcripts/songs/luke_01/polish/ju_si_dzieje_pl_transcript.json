@@ -7,278 +7,1246 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-55",
-  "duration_ms": 220000,
+  "duration_ms": 147080,
   "audio_file": "/audio/songs/luke_01/polish/Luke 1_46-55 _Już się dzieje_polish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.216675+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.024171+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.972,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 9360,
+      "end_ms": 32360,
       "lines": [
         {
           "text": "Dziewczyna z Nazaretu, siedemnaście lat",
-          "start_ms": 6000,
-          "end_ms": 9120
+          "start_ms": 9360,
+          "end_ms": 12640,
+          "words": [
+            {
+              "word": "Dziewczyna",
+              "start_ms": 9360,
+              "end_ms": 10040
+            },
+            {
+              "word": "z",
+              "start_ms": 10040,
+              "end_ms": 10040
+            },
+            {
+              "word": "Nazaretu,",
+              "start_ms": 10740,
+              "end_ms": 11320
+            },
+            {
+              "word": "siedemnaście",
+              "start_ms": 11370,
+              "end_ms": 11670,
+              "estimated": true
+            },
+            {
+              "word": "lat",
+              "start_ms": 11900,
+              "end_ms": 12640
+            }
+          ]
         },
         {
           "text": "Wybrała ją, nie kapłana, nie filozofa",
-          "start_ms": 9120,
-          "end_ms": 12080
+          "start_ms": 12640,
+          "end_ms": 15360,
+          "words": [
+            {
+              "word": "Wybrała",
+              "start_ms": 12640,
+              "end_ms": 13420
+            },
+            {
+              "word": "ją,",
+              "start_ms": 13420,
+              "end_ms": 13660
+            },
+            {
+              "word": "nie",
+              "start_ms": 13660,
+              "end_ms": 13920
+            },
+            {
+              "word": "kapłana,",
+              "start_ms": 13920,
+              "end_ms": 14320
+            },
+            {
+              "word": "nie",
+              "start_ms": 13660,
+              "end_ms": 13920
+            },
+            {
+              "word": "filozofa",
+              "start_ms": 14600,
+              "end_ms": 15360
+            }
+          ]
         },
         {
           "text": "Pyta po co, nie dlaczego, rozumie ciężar",
-          "start_ms": 12080,
-          "end_ms": 15280
+          "start_ms": 15360,
+          "end_ms": 18060,
+          "words": [
+            {
+              "word": "Pyta",
+              "start_ms": 15360,
+              "end_ms": 15680
+            },
+            {
+              "word": "po",
+              "start_ms": 15680,
+              "end_ms": 15900
+            },
+            {
+              "word": "co,",
+              "start_ms": 15900,
+              "end_ms": 16020
+            },
+            {
+              "word": "nie",
+              "start_ms": 16140,
+              "end_ms": 16260
+            },
+            {
+              "word": "dlaczego,",
+              "start_ms": 16260,
+              "end_ms": 16840
+            },
+            {
+              "word": "rozumie",
+              "start_ms": 17060,
+              "end_ms": 17400
+            },
+            {
+              "word": "ciężar",
+              "start_ms": 17400,
+              "end_ms": 18060
+            }
+          ]
         },
         {
           "text": "Mówi tak w momencie, kiedy nie ma gwarancji",
-          "start_ms": 15280,
-          "end_ms": 18720
+          "start_ms": 18060,
+          "end_ms": 21060,
+          "words": [
+            {
+              "word": "Mówi",
+              "start_ms": 18060,
+              "end_ms": 18400
+            },
+            {
+              "word": "tak",
+              "start_ms": 18400,
+              "end_ms": 18640
+            },
+            {
+              "word": "w",
+              "start_ms": 18640,
+              "end_ms": 18880
+            },
+            {
+              "word": "momencie,",
+              "start_ms": 18880,
+              "end_ms": 19300
+            },
+            {
+              "word": "kiedy",
+              "start_ms": 19420,
+              "end_ms": 19740
+            },
+            {
+              "word": "nie",
+              "start_ms": 19740,
+              "end_ms": 19940
+            },
+            {
+              "word": "ma",
+              "start_ms": 19940,
+              "end_ms": 20060
+            },
+            {
+              "word": "gwarancji",
+              "start_ms": 20060,
+              "end_ms": 21060
+            }
+          ]
         },
         {
           "text": "Józef może odejść, wioska może odrzucić",
-          "start_ms": 18720,
-          "end_ms": 21840
+          "start_ms": 21060,
+          "end_ms": 23660,
+          "words": [
+            {
+              "word": "Józef",
+              "start_ms": 21060,
+              "end_ms": 21480
+            },
+            {
+              "word": "może",
+              "start_ms": 21480,
+              "end_ms": 21760
+            },
+            {
+              "word": "odejść,",
+              "start_ms": 21760,
+              "end_ms": 22100
+            },
+            {
+              "word": "wioska",
+              "start_ms": 22120,
+              "end_ms": 22460
+            },
+            {
+              "word": "może",
+              "start_ms": 21480,
+              "end_ms": 21760
+            },
+            {
+              "word": "odrzucić",
+              "start_ms": 22800,
+              "end_ms": 23660
+            }
+          ]
         },
         {
           "text": "Ale ona mówi: należę do Pana",
-          "start_ms": 21840,
-          "end_ms": 24080
+          "start_ms": 23660,
+          "end_ms": 26160,
+          "words": [
+            {
+              "word": "Ale",
+              "start_ms": 23660,
+              "end_ms": 24160
+            },
+            {
+              "word": "ona",
+              "start_ms": 24160,
+              "end_ms": 24480
+            },
+            {
+              "word": "mówi:",
+              "start_ms": 24480,
+              "end_ms": 24900
+            },
+            {
+              "word": "należę",
+              "start_ms": 25120,
+              "end_ms": 25440
+            },
+            {
+              "word": "do",
+              "start_ms": 25440,
+              "end_ms": 25720
+            },
+            {
+              "word": "Pana",
+              "start_ms": 25720,
+              "end_ms": 26160
+            }
+          ]
         },
         {
           "text": "I zanim cokolwiek się wydarzy",
-          "start_ms": 24080,
-          "end_ms": 26400
+          "start_ms": 26880,
+          "end_ms": 29200,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 26880,
+              "end_ms": 27220
+            },
+            {
+              "word": "zanim",
+              "start_ms": 27220,
+              "end_ms": 27620
+            },
+            {
+              "word": "cokolwiek",
+              "start_ms": 27620,
+              "end_ms": 28160
+            },
+            {
+              "word": "się",
+              "start_ms": 28160,
+              "end_ms": 28460
+            },
+            {
+              "word": "wydarzy",
+              "start_ms": 28460,
+              "end_ms": 29200
+            }
+          ]
         },
         {
           "text": "Śpiewa o tym, co już jest pewne",
-          "start_ms": 26400,
-          "end_ms": 28880
+          "start_ms": 29200,
+          "end_ms": 32360,
+          "words": [
+            {
+              "word": "Śpiewa",
+              "start_ms": 29200,
+              "end_ms": 30020
+            },
+            {
+              "word": "o",
+              "start_ms": 30020,
+              "end_ms": 30140
+            },
+            {
+              "word": "tym,",
+              "start_ms": 30140,
+              "end_ms": 30300
+            },
+            {
+              "word": "co",
+              "start_ms": 30360,
+              "end_ms": 30540
+            },
+            {
+              "word": "już",
+              "start_ms": 30540,
+              "end_ms": 30780
+            },
+            {
+              "word": "jest",
+              "start_ms": 30780,
+              "end_ms": 31080
+            },
+            {
+              "word": "pewne",
+              "start_ms": 31080,
+              "end_ms": 32360
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 28880
+      ]
     },
     {
       "type": "verse",
       "label": "Hook",
+      "start_ms": 32360,
+      "end_ms": 50200,
       "lines": [
         {
           "text": "Władców strąca z tronów",
-          "start_ms": 31880,
-          "end_ms": 33880
+          "start_ms": 32360,
+          "end_ms": 34920,
+          "words": [
+            {
+              "word": "Władców",
+              "start_ms": 32360,
+              "end_ms": 33120
+            },
+            {
+              "word": "strąca",
+              "start_ms": 33120,
+              "end_ms": 33800
+            },
+            {
+              "word": "z",
+              "start_ms": 33850,
+              "end_ms": 34150,
+              "estimated": true
+            },
+            {
+              "word": "tronów",
+              "start_ms": 33800,
+              "end_ms": 34920
+            }
+          ]
         },
         {
           "text": "Poniżonych podnosi",
-          "start_ms": 33880,
-          "end_ms": 35880
+          "start_ms": 35180,
+          "end_ms": 37480,
+          "words": [
+            {
+              "word": "Poniżonych",
+              "start_ms": 35180,
+              "end_ms": 36300
+            },
+            {
+              "word": "podnosi",
+              "start_ms": 36300,
+              "end_ms": 37480
+            }
+          ]
         },
         {
           "text": "To nie jutro, to teraz",
-          "start_ms": 35880,
-          "end_ms": 37880
+          "start_ms": 37480,
+          "end_ms": 40340,
+          "words": [
+            {
+              "word": "To",
+              "start_ms": 37480,
+              "end_ms": 37880
+            },
+            {
+              "word": "nie",
+              "start_ms": 37880,
+              "end_ms": 38100
+            },
+            {
+              "word": "jutro,",
+              "start_ms": 38100,
+              "end_ms": 38840
+            },
+            {
+              "word": "to",
+              "start_ms": 37480,
+              "end_ms": 37880
+            },
+            {
+              "word": "teraz",
+              "start_ms": 39320,
+              "end_ms": 40340
+            }
+          ]
         },
         {
           "text": "Głodnych syci",
-          "start_ms": 37880,
-          "end_ms": 39880
+          "start_ms": 42680,
+          "end_ms": 43960,
+          "words": [
+            {
+              "word": "Głodnych",
+              "start_ms": 42680,
+              "end_ms": 43320
+            },
+            {
+              "word": "syci",
+              "start_ms": 43320,
+              "end_ms": 43960
+            }
+          ]
         },
         {
           "text": "Bogatych odprawia",
-          "start_ms": 39880,
-          "end_ms": 41880
+          "start_ms": 45780,
+          "end_ms": 47060,
+          "words": [
+            {
+              "word": "Bogatych",
+              "start_ms": 45780,
+              "end_ms": 46420
+            },
+            {
+              "word": "odprawia",
+              "start_ms": 46420,
+              "end_ms": 47060
+            }
+          ]
         },
         {
           "text": "Już się dzieje",
-          "start_ms": 41880,
-          "end_ms": 43880
+          "start_ms": 48020,
+          "end_ms": 50200,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 48020,
+              "end_ms": 48340
+            },
+            {
+              "word": "się",
+              "start_ms": 48340,
+              "end_ms": 48640
+            },
+            {
+              "word": "dzieje",
+              "start_ms": 48640,
+              "end_ms": 50200
+            }
+          ]
         }
-      ],
-      "start_ms": 31880,
-      "end_ms": 43880
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 52980,
+      "end_ms": 74539,
       "lines": [
         {
           "text": "Nie tylko o przyszłość, chodzi o charakter",
-          "start_ms": 46880,
-          "end_ms": 50240
+          "start_ms": 52980,
+          "end_ms": 56060,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 52980,
+              "end_ms": 53620
+            },
+            {
+              "word": "tylko",
+              "start_ms": 53620,
+              "end_ms": 54040
+            },
+            {
+              "word": "o",
+              "start_ms": 54040,
+              "end_ms": 54280
+            },
+            {
+              "word": "przyszłość,",
+              "start_ms": 54280,
+              "end_ms": 54760
+            },
+            {
+              "word": "chodzi",
+              "start_ms": 54820,
+              "end_ms": 55140
+            },
+            {
+              "word": "o",
+              "start_ms": 54040,
+              "end_ms": 54280
+            },
+            {
+              "word": "charakter",
+              "start_ms": 55380,
+              "end_ms": 56060
+            }
+          ]
         },
         {
           "text": "O to, kim jest, nie o to, co zrobi",
-          "start_ms": 50240,
-          "end_ms": 52960
+          "start_ms": 55140,
+          "end_ms": 58540,
+          "words": [
+            {
+              "word": "O",
+              "start_ms": 55140,
+              "end_ms": 55380
+            },
+            {
+              "word": "to,",
+              "start_ms": 56380,
+              "end_ms": 56580
+            },
+            {
+              "word": "kim",
+              "start_ms": 56620,
+              "end_ms": 56880
+            },
+            {
+              "word": "jest,",
+              "start_ms": 56880,
+              "end_ms": 57360
+            },
+            {
+              "word": "nie",
+              "start_ms": 57520,
+              "end_ms": 57600
+            },
+            {
+              "word": "o",
+              "start_ms": 57600,
+              "end_ms": 57700
+            },
+            {
+              "word": "to,",
+              "start_ms": 57700,
+              "end_ms": 57840
+            },
+            {
+              "word": "co",
+              "start_ms": 57840,
+              "end_ms": 58020
+            },
+            {
+              "word": "zrobi",
+              "start_ms": 58020,
+              "end_ms": 58540
+            }
+          ]
         },
         {
           "text": "Nie obiecuje, że bedzie łatwo",
-          "start_ms": 52960,
-          "end_ms": 55280
+          "start_ms": 58540,
+          "end_ms": 61520,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 58540,
+              "end_ms": 59260
+            },
+            {
+              "word": "obiecuje,",
+              "start_ms": 59260,
+              "end_ms": 60200
+            },
+            {
+              "word": "że",
+              "start_ms": 60340,
+              "end_ms": 60540
+            },
+            {
+              "word": "bedzie",
+              "start_ms": 60540,
+              "end_ms": 60840
+            },
+            {
+              "word": "łatwo",
+              "start_ms": 60840,
+              "end_ms": 61520
+            }
+          ]
         },
         {
           "text": "Pokazuje, jak ten świat jest naprawdę zbudowany",
-          "start_ms": 55280,
-          "end_ms": 59040
+          "start_ms": 61520,
+          "end_ms": 64840,
+          "words": [
+            {
+              "word": "Pokazuje,",
+              "start_ms": 61520,
+              "end_ms": 62160
+            },
+            {
+              "word": "jak",
+              "start_ms": 62160,
+              "end_ms": 62540
+            },
+            {
+              "word": "ten",
+              "start_ms": 62540,
+              "end_ms": 62880
+            },
+            {
+              "word": "świat",
+              "start_ms": 62880,
+              "end_ms": 63180
+            },
+            {
+              "word": "jest",
+              "start_ms": 63180,
+              "end_ms": 63420
+            },
+            {
+              "word": "naprawdę",
+              "start_ms": 63420,
+              "end_ms": 63860
+            },
+            {
+              "word": "zbudowany",
+              "start_ms": 63860,
+              "end_ms": 64840
+            }
+          ]
         },
         {
           "text": "Tysiąc lat historii za jej plecami",
-          "start_ms": 59040,
-          "end_ms": 61760
+          "start_ms": 64840,
+          "end_ms": 67280,
+          "words": [
+            {
+              "word": "Tysiąc",
+              "start_ms": 64840,
+              "end_ms": 65140,
+              "estimated": true
+            },
+            {
+              "word": "lat",
+              "start_ms": 65220,
+              "end_ms": 65500
+            },
+            {
+              "word": "historii",
+              "start_ms": 65500,
+              "end_ms": 66100
+            },
+            {
+              "word": "za",
+              "start_ms": 66100,
+              "end_ms": 66460
+            },
+            {
+              "word": "jej",
+              "start_ms": 66460,
+              "end_ms": 66720
+            },
+            {
+              "word": "plecami",
+              "start_ms": 66720,
+              "end_ms": 67280
+            }
+          ]
         },
         {
           "text": "Każdy raz, kiedy poniżeni wstawali",
-          "start_ms": 61760,
-          "end_ms": 64480
+          "start_ms": 67280,
+          "end_ms": 69960,
+          "words": [
+            {
+              "word": "Każdy",
+              "start_ms": 67280,
+              "end_ms": 67720
+            },
+            {
+              "word": "raz,",
+              "start_ms": 67720,
+              "end_ms": 67960
+            },
+            {
+              "word": "kiedy",
+              "start_ms": 68040,
+              "end_ms": 68340
+            },
+            {
+              "word": "poniżeni",
+              "start_ms": 68340,
+              "end_ms": 69300
+            },
+            {
+              "word": "wstawali",
+              "start_ms": 69300,
+              "end_ms": 69960
+            }
+          ]
         },
         {
           "text": "Każdy raz, kiedy potężni padali",
-          "start_ms": 64480,
-          "end_ms": 66960
+          "start_ms": 69960,
+          "end_ms": 72680,
+          "words": [
+            {
+              "word": "Każdy",
+              "start_ms": 69960,
+              "end_ms": 70440
+            },
+            {
+              "word": "raz,",
+              "start_ms": 70440,
+              "end_ms": 71000
+            },
+            {
+              "word": "kiedy",
+              "start_ms": 71280,
+              "end_ms": 71500
+            },
+            {
+              "word": "potężni",
+              "start_ms": 71500,
+              "end_ms": 72200
+            },
+            {
+              "word": "padali",
+              "start_ms": 72200,
+              "end_ms": 72680
+            }
+          ]
         },
         {
           "text": "Mówi: tak to zawsze działało",
-          "start_ms": 66960,
-          "end_ms": 69200
+          "start_ms": 72680,
+          "end_ms": 74539,
+          "words": [
+            {
+              "word": "Mówi:",
+              "start_ms": 72680,
+              "end_ms": 73020
+            },
+            {
+              "word": "tak",
+              "start_ms": 73020,
+              "end_ms": 73300
+            },
+            {
+              "word": "to",
+              "start_ms": 73300,
+              "end_ms": 73540
+            },
+            {
+              "word": "zawsze",
+              "start_ms": 73540,
+              "end_ms": 74040
+            },
+            {
+              "word": "działało",
+              "start_ms": 74040,
+              "end_ms": 74539
+            }
+          ]
         }
-      ],
-      "start_ms": 46880,
-      "end_ms": 69200
+      ]
     },
     {
       "type": "verse",
       "label": "Hook",
+      "start_ms": 75300,
+      "end_ms": 92840,
       "lines": [
         {
           "text": "Władców strąca z tronów",
-          "start_ms": 72200,
-          "end_ms": 74200
+          "start_ms": 75300,
+          "end_ms": 78020,
+          "words": [
+            {
+              "word": "Władców",
+              "start_ms": 75300,
+              "end_ms": 76240
+            },
+            {
+              "word": "strąca",
+              "start_ms": 76240,
+              "end_ms": 76960
+            },
+            {
+              "word": "z",
+              "start_ms": 77010,
+              "end_ms": 77310,
+              "estimated": true
+            },
+            {
+              "word": "tronów",
+              "start_ms": 76960,
+              "end_ms": 78020
+            }
+          ]
         },
         {
           "text": "Poniżonych podnosi",
-          "start_ms": 74200,
-          "end_ms": 76200
+          "start_ms": 78240,
+          "end_ms": 80680,
+          "words": [
+            {
+              "word": "Poniżonych",
+              "start_ms": 78240,
+              "end_ms": 79520
+            },
+            {
+              "word": "podnosi",
+              "start_ms": 79520,
+              "end_ms": 80680
+            }
+          ]
         },
         {
           "text": "To nie jutro, to teraz",
-          "start_ms": 76200,
-          "end_ms": 78200
+          "start_ms": 80680,
+          "end_ms": 83500,
+          "words": [
+            {
+              "word": "To",
+              "start_ms": 80680,
+              "end_ms": 81020
+            },
+            {
+              "word": "nie",
+              "start_ms": 81020,
+              "end_ms": 81240
+            },
+            {
+              "word": "jutro,",
+              "start_ms": 81240,
+              "end_ms": 81960
+            },
+            {
+              "word": "to",
+              "start_ms": 80680,
+              "end_ms": 81020
+            },
+            {
+              "word": "teraz",
+              "start_ms": 82500,
+              "end_ms": 83500
+            }
+          ]
         },
         {
           "text": "Głodnych syci",
-          "start_ms": 78200,
-          "end_ms": 80200
+          "start_ms": 84539,
+          "end_ms": 86840,
+          "words": [
+            {
+              "word": "Głodnych",
+              "start_ms": 84539,
+              "end_ms": 85100
+            },
+            {
+              "word": "syci",
+              "start_ms": 85100,
+              "end_ms": 86840
+            }
+          ]
         },
         {
           "text": "Bogatych odprawia",
-          "start_ms": 80200,
-          "end_ms": 82200
+          "start_ms": 86840,
+          "end_ms": 89840,
+          "words": [
+            {
+              "word": "Bogatych",
+              "start_ms": 86840,
+              "end_ms": 88800
+            },
+            {
+              "word": "odprawia",
+              "start_ms": 88800,
+              "end_ms": 89840
+            }
+          ]
         },
         {
           "text": "Już się dzieje",
-          "start_ms": 82200,
-          "end_ms": 84200
+          "start_ms": 90440,
+          "end_ms": 92840,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 90440,
+              "end_ms": 91500
+            },
+            {
+              "word": "się",
+              "start_ms": 91500,
+              "end_ms": 91820
+            },
+            {
+              "word": "dzieje",
+              "start_ms": 91820,
+              "end_ms": 92840
+            }
+          ]
         }
-      ],
-      "start_ms": 72200,
-      "end_ms": 84200
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 93860,
+      "end_ms": 105330,
       "lines": [
         {
           "text": "Argentyna, Gwatemala, zakazali jej słów",
-          "start_ms": 87200,
-          "end_ms": 90320
+          "start_ms": 93860,
+          "end_ms": 97060,
+          "words": [
+            {
+              "word": "Argentyna,",
+              "start_ms": 93860,
+              "end_ms": 94880
+            },
+            {
+              "word": "Gwatemala,",
+              "start_ms": 95000,
+              "end_ms": 95560
+            },
+            {
+              "word": "zakazali",
+              "start_ms": 95760,
+              "end_ms": 96340
+            },
+            {
+              "word": "jej",
+              "start_ms": 96340,
+              "end_ms": 96520
+            },
+            {
+              "word": "słów",
+              "start_ms": 96520,
+              "end_ms": 97060
+            }
+          ]
         },
         {
           "text": "Bo słowa kobiety były zbyt niebezpieczne",
-          "start_ms": 90320,
-          "end_ms": 93520
+          "start_ms": 97060,
+          "end_ms": 99760,
+          "words": [
+            {
+              "word": "Bo",
+              "start_ms": 97060,
+              "end_ms": 97260
+            },
+            {
+              "word": "słowa",
+              "start_ms": 97260,
+              "end_ms": 97820
+            },
+            {
+              "word": "kobiety",
+              "start_ms": 97820,
+              "end_ms": 98240
+            },
+            {
+              "word": "były",
+              "start_ms": 98240,
+              "end_ms": 98520
+            },
+            {
+              "word": "zbyt",
+              "start_ms": 98520,
+              "end_ms": 99000
+            },
+            {
+              "word": "niebezpieczne",
+              "start_ms": 99000,
+              "end_ms": 99760
+            }
+          ]
         },
         {
           "text": "Dziewczyna z Galilei śpiewała to samo",
-          "start_ms": 93520,
-          "end_ms": 96480
+          "start_ms": 99760,
+          "end_ms": 103080,
+          "words": [
+            {
+              "word": "Dziewczyna",
+              "start_ms": 99760,
+              "end_ms": 100240
+            },
+            {
+              "word": "z",
+              "start_ms": 100240,
+              "end_ms": 100380
+            },
+            {
+              "word": "Galilei",
+              "start_ms": 100380,
+              "end_ms": 101020
+            },
+            {
+              "word": "śpiewała",
+              "start_ms": 101020,
+              "end_ms": 101820
+            },
+            {
+              "word": "to",
+              "start_ms": 101820,
+              "end_ms": 102040
+            },
+            {
+              "word": "samo",
+              "start_ms": 102040,
+              "end_ms": 103080
+            }
+          ]
         },
         {
           "text": "Zanim cokolwiek się stało",
-          "start_ms": 96480,
-          "end_ms": 98480
+          "start_ms": 103080,
+          "end_ms": 105330,
+          "words": [
+            {
+              "word": "Zanim",
+              "start_ms": 103080,
+              "end_ms": 103800
+            },
+            {
+              "word": "cokolwiek",
+              "start_ms": 103800,
+              "end_ms": 104440
+            },
+            {
+              "word": "się",
+              "start_ms": 104440,
+              "end_ms": 104760
+            },
+            {
+              "word": "stało",
+              "start_ms": 104760,
+              "end_ms": 105330
+            }
+          ]
         }
-      ],
-      "start_ms": 87200,
-      "end_ms": 98480
+      ]
     },
     {
       "type": "verse",
       "label": "Hook",
+      "start_ms": 106420,
+      "end_ms": 123680,
       "lines": [
         {
           "text": "Władców strąca z tronów",
-          "start_ms": 101480,
-          "end_ms": 103480
+          "start_ms": 106420,
+          "end_ms": 109040,
+          "words": [
+            {
+              "word": "Władców",
+              "start_ms": 106420,
+              "end_ms": 107260
+            },
+            {
+              "word": "strąca",
+              "start_ms": 107260,
+              "end_ms": 107960
+            },
+            {
+              "word": "z",
+              "start_ms": 108010,
+              "end_ms": 108310,
+              "estimated": true
+            },
+            {
+              "word": "tronów",
+              "start_ms": 107960,
+              "end_ms": 109040
+            }
+          ]
         },
         {
           "text": "Poniżonych podnosi",
-          "start_ms": 103480,
-          "end_ms": 105480
+          "start_ms": 109400,
+          "end_ms": 111070,
+          "words": [
+            {
+              "word": "Poniżonych",
+              "start_ms": 109400,
+              "end_ms": 110500
+            },
+            {
+              "word": "podnosi",
+              "start_ms": 110500,
+              "end_ms": 111070
+            }
+          ]
         },
         {
           "text": "To nie jutro, to teraz",
-          "start_ms": 105480,
-          "end_ms": 107480
+          "start_ms": 111600,
+          "end_ms": 114320,
+          "words": [
+            {
+              "word": "To",
+              "start_ms": 111600,
+              "end_ms": 112020
+            },
+            {
+              "word": "nie",
+              "start_ms": 112020,
+              "end_ms": 112240
+            },
+            {
+              "word": "jutro,",
+              "start_ms": 112240,
+              "end_ms": 112940
+            },
+            {
+              "word": "to",
+              "start_ms": 111600,
+              "end_ms": 112020
+            },
+            {
+              "word": "teraz",
+              "start_ms": 113480,
+              "end_ms": 114320
+            }
+          ]
         },
         {
           "text": "Głodnych syci",
-          "start_ms": 107480,
-          "end_ms": 109480
+          "start_ms": 115320,
+          "end_ms": 117320,
+          "words": [
+            {
+              "word": "Głodnych",
+              "start_ms": 115320,
+              "end_ms": 116100
+            },
+            {
+              "word": "syci",
+              "start_ms": 116100,
+              "end_ms": 117320
+            }
+          ]
         },
         {
           "text": "Bogatych odprawia",
-          "start_ms": 109480,
-          "end_ms": 111480
+          "start_ms": 118060,
+          "end_ms": 121700,
+          "words": [
+            {
+              "word": "Bogatych",
+              "start_ms": 118060,
+              "end_ms": 119780
+            },
+            {
+              "word": "odprawia",
+              "start_ms": 119780,
+              "end_ms": 121700
+            }
+          ]
         },
         {
           "text": "Już się dzieje",
-          "start_ms": 111480,
-          "end_ms": 113480
+          "start_ms": 121860,
+          "end_ms": 123680,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 121860,
+              "end_ms": 122560
+            },
+            {
+              "word": "się",
+              "start_ms": 122560,
+              "end_ms": 122820
+            },
+            {
+              "word": "dzieje",
+              "start_ms": 122820,
+              "end_ms": 123680
+            }
+          ]
         }
-      ],
-      "start_ms": 101480,
-      "end_ms": 113480
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 121860,
+      "end_ms": 123680,
       "lines": [
         {
           "text": "Już się dzieje",
-          "start_ms": 116480,
-          "end_ms": 118480
+          "start_ms": 121860,
+          "end_ms": 123680,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 121860,
+              "end_ms": 122560
+            },
+            {
+              "word": "się",
+              "start_ms": 122560,
+              "end_ms": 122820
+            },
+            {
+              "word": "dzieje",
+              "start_ms": 122820,
+              "end_ms": 123680
+            }
+          ]
         }
-      ],
-      "start_ms": 116480,
-      "end_ms": 118480
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 121480,
-          "end_ms": 123480
-        }
-      ],
-      "start_ms": 121480,
-      "end_ms": 123480
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 93860,
+      "end_ms": 105330,
+      "key_line": "Argentyna, Gwatemala, zakazali jej słów",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/polish/42_luke_01_46-55_transcript.json"
 }

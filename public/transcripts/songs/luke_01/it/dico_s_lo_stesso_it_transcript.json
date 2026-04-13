@@ -7,259 +7,1243 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 165960,
   "audio_file": "/audio/songs/luke_01/it/Luke 1_26-38 — _Dico sì lo stesso_ — Italian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.118114+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.993299+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 1.0,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 12059,
+      "end_ms": 26400,
       "lines": [
         {
           "text": "Le parole mi arrivano addosso",
-          "start_ms": 6000,
-          "end_ms": 8320
+          "start_ms": 12059,
+          "end_ms": 16239,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 12059,
+              "end_ms": 12920
+            },
+            {
+              "word": "parole",
+              "start_ms": 12920,
+              "end_ms": 13580
+            },
+            {
+              "word": "mi",
+              "start_ms": 13580,
+              "end_ms": 13880
+            },
+            {
+              "word": "arrivano",
+              "start_ms": 13880,
+              "end_ms": 14720
+            },
+            {
+              "word": "addosso",
+              "start_ms": 14720,
+              "end_ms": 16239
+            }
+          ]
         },
         {
           "text": "come un vento che non ho chiamato",
-          "start_ms": 8320,
-          "end_ms": 10960
+          "start_ms": 16440,
+          "end_ms": 19240,
+          "words": [
+            {
+              "word": "come",
+              "start_ms": 16440,
+              "end_ms": 16540
+            },
+            {
+              "word": "un",
+              "start_ms": 16540,
+              "end_ms": 16760
+            },
+            {
+              "word": "vento",
+              "start_ms": 16760,
+              "end_ms": 17100
+            },
+            {
+              "word": "che",
+              "start_ms": 17100,
+              "end_ms": 17400
+            },
+            {
+              "word": "non",
+              "start_ms": 17400,
+              "end_ms": 17800
+            },
+            {
+              "word": "ho",
+              "start_ms": 17800,
+              "end_ms": 17980
+            },
+            {
+              "word": "chiamato",
+              "start_ms": 17980,
+              "end_ms": 19240
+            }
+          ]
         },
         {
           "text": "sto ferma sulla soglia di casa",
-          "start_ms": 10960,
-          "end_ms": 13360
+          "start_ms": 19240,
+          "end_ms": 22580,
+          "words": [
+            {
+              "word": "sto",
+              "start_ms": 19240,
+              "end_ms": 19700
+            },
+            {
+              "word": "ferma",
+              "start_ms": 19700,
+              "end_ms": 20200
+            },
+            {
+              "word": "sulla",
+              "start_ms": 20200,
+              "end_ms": 20540
+            },
+            {
+              "word": "soglia",
+              "start_ms": 20540,
+              "end_ms": 21400
+            },
+            {
+              "word": "di",
+              "start_ms": 21400,
+              "end_ms": 21680
+            },
+            {
+              "word": "casa",
+              "start_ms": 21680,
+              "end_ms": 22580
+            }
+          ]
         },
         {
           "text": "col respiro che trema nel petto",
-          "start_ms": 13360,
-          "end_ms": 15840
+          "start_ms": 23180,
+          "end_ms": 26400,
+          "words": [
+            {
+              "word": "col",
+              "start_ms": 23180,
+              "end_ms": 23260
+            },
+            {
+              "word": "respiro",
+              "start_ms": 23260,
+              "end_ms": 23800
+            },
+            {
+              "word": "che",
+              "start_ms": 23800,
+              "end_ms": 24120
+            },
+            {
+              "word": "trema",
+              "start_ms": 24120,
+              "end_ms": 24680
+            },
+            {
+              "word": "nel",
+              "start_ms": 24680,
+              "end_ms": 24940
+            },
+            {
+              "word": "petto",
+              "start_ms": 24940,
+              "end_ms": 26400
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15840
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 26400,
+      "end_ms": 39400,
       "lines": [
         {
           "text": "Lo so cosa diranno domani",
-          "start_ms": 18840,
-          "end_ms": 20840
+          "start_ms": 26400,
+          "end_ms": 29400,
+          "words": [
+            {
+              "word": "Lo",
+              "start_ms": 26400,
+              "end_ms": 26880
+            },
+            {
+              "word": "so",
+              "start_ms": 26880,
+              "end_ms": 27020
+            },
+            {
+              "word": "cosa",
+              "start_ms": 27020,
+              "end_ms": 27400
+            },
+            {
+              "word": "diranno",
+              "start_ms": 27400,
+              "end_ms": 28100
+            },
+            {
+              "word": "domani",
+              "start_ms": 28100,
+              "end_ms": 29400
+            }
+          ]
         },
         {
           "text": "lo so cosa penseranno di me",
-          "start_ms": 20840,
-          "end_ms": 23000
+          "start_ms": 29720,
+          "end_ms": 32840,
+          "words": [
+            {
+              "word": "lo",
+              "start_ms": 29720,
+              "end_ms": 29880
+            },
+            {
+              "word": "so",
+              "start_ms": 29880,
+              "end_ms": 30140
+            },
+            {
+              "word": "cosa",
+              "start_ms": 30140,
+              "end_ms": 30600
+            },
+            {
+              "word": "penseranno",
+              "start_ms": 30600,
+              "end_ms": 31440
+            },
+            {
+              "word": "di",
+              "start_ms": 31440,
+              "end_ms": 31760
+            },
+            {
+              "word": "me",
+              "start_ms": 31760,
+              "end_ms": 32840
+            }
+          ]
         },
         {
           "text": "una ragazza che dice di sì",
-          "start_ms": 23000,
-          "end_ms": 25080
+          "start_ms": 32840,
+          "end_ms": 36100,
+          "words": [
+            {
+              "word": "una",
+              "start_ms": 32840,
+              "end_ms": 33380
+            },
+            {
+              "word": "ragazza",
+              "start_ms": 33380,
+              "end_ms": 33980
+            },
+            {
+              "word": "che",
+              "start_ms": 33980,
+              "end_ms": 34280
+            },
+            {
+              "word": "dice",
+              "start_ms": 34280,
+              "end_ms": 34820
+            },
+            {
+              "word": "di",
+              "start_ms": 34820,
+              "end_ms": 35180
+            },
+            {
+              "word": "sì",
+              "start_ms": 35180,
+              "end_ms": 36100
+            }
+          ]
         },
         {
           "text": "a qualcosa che non sa spiegare",
-          "start_ms": 25080,
-          "end_ms": 27480
+          "start_ms": 36100,
+          "end_ms": 39400,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 36100,
+              "end_ms": 36780
+            },
+            {
+              "word": "qualcosa",
+              "start_ms": 36780,
+              "end_ms": 37260
+            },
+            {
+              "word": "che",
+              "start_ms": 37260,
+              "end_ms": 37680
+            },
+            {
+              "word": "non",
+              "start_ms": 37680,
+              "end_ms": 38020
+            },
+            {
+              "word": "sa",
+              "start_ms": 38020,
+              "end_ms": 38220
+            },
+            {
+              "word": "spiegare",
+              "start_ms": 38220,
+              "end_ms": 39400
+            }
+          ]
         }
-      ],
-      "start_ms": 18840,
-      "end_ms": 27480
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 40160,
+      "end_ms": 50900,
       "lines": [
         {
           "text": "Come è possibile, dimmi",
-          "start_ms": 30480,
-          "end_ms": 32480
+          "start_ms": 40160,
+          "end_ms": 44400,
+          "words": [
+            {
+              "word": "Come",
+              "start_ms": 40160,
+              "end_ms": 40680
+            },
+            {
+              "word": "è",
+              "start_ms": 40680,
+              "end_ms": 41100
+            },
+            {
+              "word": "possibile,",
+              "start_ms": 41100,
+              "end_ms": 42280
+            },
+            {
+              "word": "dimmi",
+              "start_ms": 42280,
+              "end_ms": 44400
+            }
+          ]
         },
         {
           "text": "se non ho ancora deciso chi sono",
-          "start_ms": 32480,
-          "end_ms": 35040
+          "start_ms": 44400,
+          "end_ms": 50900,
+          "words": [
+            {
+              "word": "se",
+              "start_ms": 44400,
+              "end_ms": 45260
+            },
+            {
+              "word": "non",
+              "start_ms": 45260,
+              "end_ms": 45780
+            },
+            {
+              "word": "ho",
+              "start_ms": 45780,
+              "end_ms": 46020
+            },
+            {
+              "word": "ancora",
+              "start_ms": 46020,
+              "end_ms": 47360
+            },
+            {
+              "word": "deciso",
+              "start_ms": 47360,
+              "end_ms": 49000
+            },
+            {
+              "word": "chi",
+              "start_ms": 49000,
+              "end_ms": 49500
+            },
+            {
+              "word": "sono",
+              "start_ms": 49500,
+              "end_ms": 50900
+            }
+          ]
         }
-      ],
-      "start_ms": 30480,
-      "end_ms": 35040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 50900,
+      "end_ms": 76540,
       "lines": [
         {
           "text": "Ma dico sì lo stesso",
-          "start_ms": 38040,
-          "end_ms": 40040
+          "start_ms": 50900,
+          "end_ms": 56180,
+          "words": [
+            {
+              "word": "Ma",
+              "start_ms": 50900,
+              "end_ms": 52400
+            },
+            {
+              "word": "dico",
+              "start_ms": 52400,
+              "end_ms": 53240
+            },
+            {
+              "word": "sì",
+              "start_ms": 53240,
+              "end_ms": 54100
+            },
+            {
+              "word": "lo",
+              "start_ms": 54100,
+              "end_ms": 54600
+            },
+            {
+              "word": "stesso",
+              "start_ms": 54600,
+              "end_ms": 56180
+            }
+          ]
         },
         {
           "text": "senza sapere cosa mi aspetta",
-          "start_ms": 40040,
-          "end_ms": 42280
+          "start_ms": 57940,
+          "end_ms": 62360,
+          "words": [
+            {
+              "word": "senza",
+              "start_ms": 57940,
+              "end_ms": 58060
+            },
+            {
+              "word": "sapere",
+              "start_ms": 58060,
+              "end_ms": 59040
+            },
+            {
+              "word": "cosa",
+              "start_ms": 59040,
+              "end_ms": 59580
+            },
+            {
+              "word": "mi",
+              "start_ms": 59580,
+              "end_ms": 60040
+            },
+            {
+              "word": "aspetta",
+              "start_ms": 60040,
+              "end_ms": 62360
+            }
+          ]
         },
         {
           "text": "dico sì lo stesso",
-          "start_ms": 42280,
-          "end_ms": 44280
+          "start_ms": 62360,
+          "end_ms": 66400,
+          "words": [
+            {
+              "word": "dico",
+              "start_ms": 62360,
+              "end_ms": 63220
+            },
+            {
+              "word": "sì",
+              "start_ms": 63220,
+              "end_ms": 64200
+            },
+            {
+              "word": "lo",
+              "start_ms": 64200,
+              "end_ms": 64819
+            },
+            {
+              "word": "stesso",
+              "start_ms": 64819,
+              "end_ms": 66400
+            }
+          ]
         },
         {
           "text": "col buio davanti e gli occhi aperti",
-          "start_ms": 44280,
-          "end_ms": 47080
+          "start_ms": 67580,
+          "end_ms": 71900,
+          "words": [
+            {
+              "word": "col",
+              "start_ms": 67580,
+              "end_ms": 67720
+            },
+            {
+              "word": "buio",
+              "start_ms": 67720,
+              "end_ms": 68220
+            },
+            {
+              "word": "davanti",
+              "start_ms": 68220,
+              "end_ms": 69140
+            },
+            {
+              "word": "e",
+              "start_ms": 69140,
+              "end_ms": 69280
+            },
+            {
+              "word": "gli",
+              "start_ms": 69280,
+              "end_ms": 69480
+            },
+            {
+              "word": "occhi",
+              "start_ms": 69480,
+              "end_ms": 69860
+            },
+            {
+              "word": "aperti",
+              "start_ms": 69860,
+              "end_ms": 71900
+            }
+          ]
         },
         {
           "text": "dico sì lo stesso",
-          "start_ms": 47080,
-          "end_ms": 49080
+          "start_ms": 72500,
+          "end_ms": 76540,
+          "words": [
+            {
+              "word": "dico",
+              "start_ms": 72500,
+              "end_ms": 73320
+            },
+            {
+              "word": "sì",
+              "start_ms": 73320,
+              "end_ms": 74440
+            },
+            {
+              "word": "lo",
+              "start_ms": 74440,
+              "end_ms": 75020
+            },
+            {
+              "word": "stesso",
+              "start_ms": 75020,
+              "end_ms": 76540
+            }
+          ]
         }
-      ],
-      "start_ms": 38040,
-      "end_ms": 49080
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 76540,
+      "end_ms": 90540,
       "lines": [
         {
           "text": "Giuseppe non capirà subito",
-          "start_ms": 52080,
-          "end_ms": 54160
+          "start_ms": 76540,
+          "end_ms": 80460,
+          "words": [
+            {
+              "word": "Giuseppe",
+              "start_ms": 76540,
+              "end_ms": 77960
+            },
+            {
+              "word": "non",
+              "start_ms": 77960,
+              "end_ms": 78220
+            },
+            {
+              "word": "capirà",
+              "start_ms": 78220,
+              "end_ms": 79080
+            },
+            {
+              "word": "subito",
+              "start_ms": 79080,
+              "end_ms": 80460
+            }
+          ]
         },
         {
           "text": "gli amici parleranno piano",
-          "start_ms": 54160,
-          "end_ms": 56240
+          "start_ms": 80840,
+          "end_ms": 83480,
+          "words": [
+            {
+              "word": "gli",
+              "start_ms": 80840,
+              "end_ms": 80940
+            },
+            {
+              "word": "amici",
+              "start_ms": 80940,
+              "end_ms": 81360
+            },
+            {
+              "word": "parleranno",
+              "start_ms": 81360,
+              "end_ms": 82600
+            },
+            {
+              "word": "piano",
+              "start_ms": 82600,
+              "end_ms": 83480
+            }
+          ]
         },
         {
           "text": "ma c'è qualcosa più grande di loro",
-          "start_ms": 56240,
-          "end_ms": 58960
+          "start_ms": 83480,
+          "end_ms": 87320,
+          "words": [
+            {
+              "word": "ma",
+              "start_ms": 83480,
+              "end_ms": 84280
+            },
+            {
+              "word": "c'è",
+              "start_ms": 84480,
+              "end_ms": 84600
+            },
+            {
+              "word": "qualcosa",
+              "start_ms": 84600,
+              "end_ms": 85100
+            },
+            {
+              "word": "più",
+              "start_ms": 85100,
+              "end_ms": 85480
+            },
+            {
+              "word": "grande",
+              "start_ms": 85480,
+              "end_ms": 86040
+            },
+            {
+              "word": "di",
+              "start_ms": 86040,
+              "end_ms": 86340
+            },
+            {
+              "word": "loro",
+              "start_ms": 86340,
+              "end_ms": 87320
+            }
+          ]
         },
         {
           "text": "più grande anche della paura",
-          "start_ms": 58960,
-          "end_ms": 61200
+          "start_ms": 87920,
+          "end_ms": 90540,
+          "words": [
+            {
+              "word": "più",
+              "start_ms": 87920,
+              "end_ms": 88160
+            },
+            {
+              "word": "grande",
+              "start_ms": 88160,
+              "end_ms": 88500
+            },
+            {
+              "word": "anche",
+              "start_ms": 88500,
+              "end_ms": 88820
+            },
+            {
+              "word": "della",
+              "start_ms": 88820,
+              "end_ms": 89460
+            },
+            {
+              "word": "paura",
+              "start_ms": 89460,
+              "end_ms": 90540
+            }
+          ]
         }
-      ],
-      "start_ms": 52080,
-      "end_ms": 61200
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 91080,
+      "end_ms": 101580,
       "lines": [
         {
           "text": "Come è possibile, dimmi",
-          "start_ms": 64200,
-          "end_ms": 66200
+          "start_ms": 91080,
+          "end_ms": 95600,
+          "words": [
+            {
+              "word": "Come",
+              "start_ms": 91080,
+              "end_ms": 91900
+            },
+            {
+              "word": "è",
+              "start_ms": 91900,
+              "end_ms": 92320
+            },
+            {
+              "word": "possibile,",
+              "start_ms": 92320,
+              "end_ms": 93420
+            },
+            {
+              "word": "dimmi",
+              "start_ms": 93420,
+              "end_ms": 95600
+            }
+          ]
         },
         {
           "text": "se non ho ancora deciso chi sono",
-          "start_ms": 66200,
-          "end_ms": 68760
+          "start_ms": 95600,
+          "end_ms": 101580,
+          "words": [
+            {
+              "word": "se",
+              "start_ms": 95600,
+              "end_ms": 96420
+            },
+            {
+              "word": "non",
+              "start_ms": 96420,
+              "end_ms": 96820
+            },
+            {
+              "word": "ho",
+              "start_ms": 96820,
+              "end_ms": 97080
+            },
+            {
+              "word": "ancora",
+              "start_ms": 97080,
+              "end_ms": 98460
+            },
+            {
+              "word": "deciso",
+              "start_ms": 98460,
+              "end_ms": 100100
+            },
+            {
+              "word": "chi",
+              "start_ms": 100100,
+              "end_ms": 100540
+            },
+            {
+              "word": "sono",
+              "start_ms": 100540,
+              "end_ms": 101580
+            }
+          ]
         }
-      ],
-      "start_ms": 64200,
-      "end_ms": 68760
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 101580,
+      "end_ms": 126200,
       "lines": [
         {
           "text": "Ma dico sì lo stesso",
-          "start_ms": 71760,
-          "end_ms": 73760
+          "start_ms": 101580,
+          "end_ms": 105460,
+          "words": [
+            {
+              "word": "Ma",
+              "start_ms": 101580,
+              "end_ms": 101840
+            },
+            {
+              "word": "dico",
+              "start_ms": 101840,
+              "end_ms": 102660
+            },
+            {
+              "word": "sì",
+              "start_ms": 102660,
+              "end_ms": 103580
+            },
+            {
+              "word": "lo",
+              "start_ms": 103580,
+              "end_ms": 104060
+            },
+            {
+              "word": "stesso",
+              "start_ms": 104060,
+              "end_ms": 105460
+            }
+          ]
         },
         {
           "text": "senza sapere cosa mi aspetta",
-          "start_ms": 73760,
-          "end_ms": 76000
+          "start_ms": 107220,
+          "end_ms": 112020,
+          "words": [
+            {
+              "word": "senza",
+              "start_ms": 107220,
+              "end_ms": 107320
+            },
+            {
+              "word": "sapere",
+              "start_ms": 107320,
+              "end_ms": 108460
+            },
+            {
+              "word": "cosa",
+              "start_ms": 108460,
+              "end_ms": 109000
+            },
+            {
+              "word": "mi",
+              "start_ms": 109000,
+              "end_ms": 109440
+            },
+            {
+              "word": "aspetta",
+              "start_ms": 109440,
+              "end_ms": 112020
+            }
+          ]
         },
         {
           "text": "dico sì lo stesso",
-          "start_ms": 76000,
-          "end_ms": 78000
+          "start_ms": 112020,
+          "end_ms": 115740,
+          "words": [
+            {
+              "word": "dico",
+              "start_ms": 112020,
+              "end_ms": 112880
+            },
+            {
+              "word": "sì",
+              "start_ms": 112880,
+              "end_ms": 113800
+            },
+            {
+              "word": "lo",
+              "start_ms": 113800,
+              "end_ms": 114280
+            },
+            {
+              "word": "stesso",
+              "start_ms": 114280,
+              "end_ms": 115740
+            }
+          ]
         },
         {
           "text": "col buio davanti e gli occhi aperti",
-          "start_ms": 78000,
-          "end_ms": 80800
+          "start_ms": 117020,
+          "end_ms": 121940,
+          "words": [
+            {
+              "word": "col",
+              "start_ms": 117020,
+              "end_ms": 117180
+            },
+            {
+              "word": "buio",
+              "start_ms": 117180,
+              "end_ms": 117700
+            },
+            {
+              "word": "davanti",
+              "start_ms": 117700,
+              "end_ms": 118560
+            },
+            {
+              "word": "e",
+              "start_ms": 118560,
+              "end_ms": 118700
+            },
+            {
+              "word": "gli",
+              "start_ms": 118700,
+              "end_ms": 118880
+            },
+            {
+              "word": "occhi",
+              "start_ms": 118880,
+              "end_ms": 119280
+            },
+            {
+              "word": "aperti",
+              "start_ms": 119280,
+              "end_ms": 121940
+            }
+          ]
         },
         {
           "text": "dico sì lo stesso",
-          "start_ms": 80800,
-          "end_ms": 82800
+          "start_ms": 121940,
+          "end_ms": 126200,
+          "words": [
+            {
+              "word": "dico",
+              "start_ms": 121940,
+              "end_ms": 122720
+            },
+            {
+              "word": "sì",
+              "start_ms": 122720,
+              "end_ms": 123660
+            },
+            {
+              "word": "lo",
+              "start_ms": 123660,
+              "end_ms": 124500
+            },
+            {
+              "word": "stesso",
+              "start_ms": 124500,
+              "end_ms": 126200
+            }
+          ]
         }
-      ],
-      "start_ms": 71760,
-      "end_ms": 82800
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 126200,
+      "end_ms": 139280,
       "lines": [
         {
           "text": "Non è che non ho paura",
-          "start_ms": 85800,
-          "end_ms": 87800
+          "start_ms": 126200,
+          "end_ms": 129660,
+          "words": [
+            {
+              "word": "Non",
+              "start_ms": 126200,
+              "end_ms": 127000
+            },
+            {
+              "word": "è",
+              "start_ms": 127000,
+              "end_ms": 127180
+            },
+            {
+              "word": "che",
+              "start_ms": 127180,
+              "end_ms": 127440
+            },
+            {
+              "word": "non",
+              "start_ms": 126200,
+              "end_ms": 127000
+            },
+            {
+              "word": "ho",
+              "start_ms": 127820,
+              "end_ms": 128080
+            },
+            {
+              "word": "paura",
+              "start_ms": 128080,
+              "end_ms": 129660
+            }
+          ]
         },
         {
           "text": "non è che ho capito tutto",
-          "start_ms": 87800,
-          "end_ms": 89800
+          "start_ms": 127440,
+          "end_ms": 132200,
+          "words": [
+            {
+              "word": "non",
+              "start_ms": 127440,
+              "end_ms": 127820
+            },
+            {
+              "word": "è",
+              "start_ms": 127000,
+              "end_ms": 127180
+            },
+            {
+              "word": "che",
+              "start_ms": 127180,
+              "end_ms": 127440
+            },
+            {
+              "word": "ho",
+              "start_ms": 127820,
+              "end_ms": 128080
+            },
+            {
+              "word": "capito",
+              "start_ms": 131060,
+              "end_ms": 131620
+            },
+            {
+              "word": "tutto",
+              "start_ms": 131620,
+              "end_ms": 132200
+            }
+          ]
         },
         {
           "text": "è che c'è una voce dentro",
-          "start_ms": 89800,
-          "end_ms": 91800
+          "start_ms": 132800,
+          "end_ms": 135720,
+          "words": [
+            {
+              "word": "è",
+              "start_ms": 132800,
+              "end_ms": 133320
+            },
+            {
+              "word": "che",
+              "start_ms": 133320,
+              "end_ms": 133600
+            },
+            {
+              "word": "c'è",
+              "start_ms": 133860,
+              "end_ms": 133900
+            },
+            {
+              "word": "una",
+              "start_ms": 133900,
+              "end_ms": 134200
+            },
+            {
+              "word": "voce",
+              "start_ms": 134200,
+              "end_ms": 134680
+            },
+            {
+              "word": "dentro",
+              "start_ms": 134680,
+              "end_ms": 135720
+            }
+          ]
         },
         {
           "text": "che mi dice fai un passo",
-          "start_ms": 91800,
-          "end_ms": 93800
+          "start_ms": 135720,
+          "end_ms": 139280,
+          "words": [
+            {
+              "word": "che",
+              "start_ms": 135720,
+              "end_ms": 136140
+            },
+            {
+              "word": "mi",
+              "start_ms": 136140,
+              "end_ms": 136480
+            },
+            {
+              "word": "dice",
+              "start_ms": 136480,
+              "end_ms": 137440
+            },
+            {
+              "word": "fai",
+              "start_ms": 137440,
+              "end_ms": 137880
+            },
+            {
+              "word": "un",
+              "start_ms": 137880,
+              "end_ms": 138360
+            },
+            {
+              "word": "passo",
+              "start_ms": 138360,
+              "end_ms": 139280
+            }
+          ]
         }
-      ],
-      "start_ms": 85800,
-      "end_ms": 93800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 139640,
+      "end_ms": 153380,
       "lines": [
         {
           "text": "Dico sì lo stesso",
-          "start_ms": 96800,
-          "end_ms": 98800
+          "start_ms": 139640,
+          "end_ms": 144400,
+          "words": [
+            {
+              "word": "Dico",
+              "start_ms": 139640,
+              "end_ms": 139860
+            },
+            {
+              "word": "sì",
+              "start_ms": 139860,
+              "end_ms": 141200
+            },
+            {
+              "word": "lo",
+              "start_ms": 141200,
+              "end_ms": 143200
+            },
+            {
+              "word": "stesso",
+              "start_ms": 143200,
+              "end_ms": 144400
+            }
+          ]
         },
         {
           "text": "dico sì lo stesso",
-          "start_ms": 98800,
-          "end_ms": 100800
+          "start_ms": 145440,
+          "end_ms": 153380,
+          "words": [
+            {
+              "word": "dico",
+              "start_ms": 145440,
+              "end_ms": 146980
+            },
+            {
+              "word": "sì",
+              "start_ms": 146980,
+              "end_ms": 148560
+            },
+            {
+              "word": "lo",
+              "start_ms": 148560,
+              "end_ms": 150160
+            },
+            {
+              "word": "stesso",
+              "start_ms": 150160,
+              "end_ms": 153380
+            }
+          ]
         }
-      ],
-      "start_ms": 96800,
-      "end_ms": 100800
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 103800,
-          "end_ms": 105800
-        }
-      ],
-      "start_ms": 103800,
-      "end_ms": 105800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Come è possibile, dimmi",
+      "section_type": "chorus",
+      "start_ms": 40160,
+      "end_ms": 50900,
+      "key_line": "Come è possibile, dimmi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Ma dico sì lo stesso",
+      "section_type": "chorus",
+      "start_ms": 50900,
+      "end_ms": 76540,
+      "key_line": "Ma dico sì lo stesso",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Come è possibile, dimmi",
+      "section_type": "chorus",
+      "start_ms": 91080,
+      "end_ms": 101580,
+      "key_line": "Come è possibile, dimmi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Ma dico sì lo stesso",
+      "section_type": "chorus",
+      "start_ms": 101580,
+      "end_ms": 126200,
+      "key_line": "Ma dico sì lo stesso",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 126200,
+      "end_ms": 139280,
+      "key_line": "Non è che non ho paura",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Dico sì lo stesso",
+      "section_type": "chorus",
+      "start_ms": 139640,
+      "end_ms": 153380,
+      "key_line": "Dico sì lo stesso",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/it/42_luke_01_1-26_transcript.json"
 }

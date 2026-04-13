@@ -7,329 +7,1321 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:13-30",
-  "duration_ms": 220000,
+  "duration_ms": 207680,
   "audio_file": "/audio/songs/luke_01/polish/Luke 1_13-30 _Nie bój się_ polish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.207972+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.026114+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 1.0,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 12860,
+      "end_ms": 40720,
       "lines": [
         {
           "text": "Te słowa mają wiek",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 12860,
+          "end_ms": 15200,
+          "words": [
+            {
+              "word": "Te",
+              "start_ms": 12860,
+              "end_ms": 13560
+            },
+            {
+              "word": "słowa",
+              "start_ms": 13560,
+              "end_ms": 14040
+            },
+            {
+              "word": "mają",
+              "start_ms": 14040,
+              "end_ms": 14460
+            },
+            {
+              "word": "wiek",
+              "start_ms": 14460,
+              "end_ms": 15200
+            }
+          ]
         },
         {
           "text": "Wypowiedziane do Sara",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 16379,
+          "end_ms": 18880,
+          "words": [
+            {
+              "word": "Wypowiedziane",
+              "start_ms": 16379,
+              "end_ms": 17640
+            },
+            {
+              "word": "do",
+              "start_ms": 17640,
+              "end_ms": 17920
+            },
+            {
+              "word": "Sara",
+              "start_ms": 17920,
+              "end_ms": 18880
+            }
+          ]
         },
         {
           "text": "Do Hagary w pustyni",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 17640,
+          "end_ms": 22400,
+          "words": [
+            {
+              "word": "Do",
+              "start_ms": 17640,
+              "end_ms": 17920
+            },
+            {
+              "word": "Hagary",
+              "start_ms": 20640,
+              "end_ms": 21180
+            },
+            {
+              "word": "w",
+              "start_ms": 21180,
+              "end_ms": 21300
+            },
+            {
+              "word": "pustyni",
+              "start_ms": 21300,
+              "end_ms": 22400
+            }
+          ]
         },
         {
           "text": "Do Gedeona w winnicy",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 23540,
+          "end_ms": 25740,
+          "words": [
+            {
+              "word": "Do",
+              "start_ms": 23540,
+              "end_ms": 24040
+            },
+            {
+              "word": "Gedeona",
+              "start_ms": 24040,
+              "end_ms": 24780
+            },
+            {
+              "word": "w",
+              "start_ms": 24780,
+              "end_ms": 25040
+            },
+            {
+              "word": "winnicy",
+              "start_ms": 25040,
+              "end_ms": 25740
+            }
+          ]
         },
         {
           "text": "Do starego kapłana",
-          "start_ms": 14000,
-          "end_ms": 16000
+          "start_ms": 27120,
+          "end_ms": 29540,
+          "words": [
+            {
+              "word": "Do",
+              "start_ms": 27120,
+              "end_ms": 27820
+            },
+            {
+              "word": "starego",
+              "start_ms": 27820,
+              "end_ms": 28580
+            },
+            {
+              "word": "kapłana",
+              "start_ms": 28580,
+              "end_ms": 29540
+            }
+          ]
         },
         {
           "text": "Kiedy się bał wpaść w pył",
-          "start_ms": 16000,
-          "end_ms": 18000
+          "start_ms": 30680,
+          "end_ms": 34420,
+          "words": [
+            {
+              "word": "Kiedy",
+              "start_ms": 30680,
+              "end_ms": 31380
+            },
+            {
+              "word": "się",
+              "start_ms": 31380,
+              "end_ms": 31700
+            },
+            {
+              "word": "bał",
+              "start_ms": 31700,
+              "end_ms": 32020
+            },
+            {
+              "word": "wpaść",
+              "start_ms": 32020,
+              "end_ms": 32720
+            },
+            {
+              "word": "w",
+              "start_ms": 32720,
+              "end_ms": 33000
+            },
+            {
+              "word": "pył",
+              "start_ms": 33000,
+              "end_ms": 34420
+            }
+          ]
         },
         {
           "text": "Do dziewczyny z Galilei",
-          "start_ms": 18000,
-          "end_ms": 20000
+          "start_ms": 34339,
+          "end_ms": 37040,
+          "words": [
+            {
+              "word": "Do",
+              "start_ms": 34339,
+              "end_ms": 35040
+            },
+            {
+              "word": "dziewczyny",
+              "start_ms": 35040,
+              "end_ms": 35620
+            },
+            {
+              "word": "z",
+              "start_ms": 35620,
+              "end_ms": 35880
+            },
+            {
+              "word": "Galilei",
+              "start_ms": 35880,
+              "end_ms": 37040
+            }
+          ]
         },
         {
           "text": "Zanim powiedziała tak",
-          "start_ms": 20000,
-          "end_ms": 22000
+          "start_ms": 37340,
+          "end_ms": 40720,
+          "words": [
+            {
+              "word": "Zanim",
+              "start_ms": 37340,
+              "end_ms": 37820
+            },
+            {
+              "word": "powiedziała",
+              "start_ms": 37820,
+              "end_ms": 39280
+            },
+            {
+              "word": "tak",
+              "start_ms": 39280,
+              "end_ms": 40720
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 41820,
+      "end_ms": 48000,
       "lines": [
         {
           "text": "Te same słowa",
-          "start_ms": 25000,
-          "end_ms": 27000
+          "start_ms": 41820,
+          "end_ms": 44000,
+          "words": [
+            {
+              "word": "Te",
+              "start_ms": 41820,
+              "end_ms": 42520
+            },
+            {
+              "word": "same",
+              "start_ms": 42520,
+              "end_ms": 43040
+            },
+            {
+              "word": "słowa",
+              "start_ms": 43040,
+              "end_ms": 44000
+            }
+          ]
         },
         {
           "text": "Do każdego, kto drżał",
-          "start_ms": 27000,
-          "end_ms": 29000
+          "start_ms": 44540,
+          "end_ms": 48000,
+          "words": [
+            {
+              "word": "Do",
+              "start_ms": 44540,
+              "end_ms": 45000
+            },
+            {
+              "word": "każdego,",
+              "start_ms": 45000,
+              "end_ms": 46100
+            },
+            {
+              "word": "kto",
+              "start_ms": 46100,
+              "end_ms": 46640
+            },
+            {
+              "word": "drżał",
+              "start_ms": 46640,
+              "end_ms": 48000
+            }
+          ]
         }
-      ],
-      "start_ms": 25000,
-      "end_ms": 29000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 49459,
+      "end_ms": 76759,
       "lines": [
         {
           "text": "Nie bój się",
-          "start_ms": 32000,
-          "end_ms": 34000
+          "start_ms": 49459,
+          "end_ms": 52020,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 49459,
+              "end_ms": 50160
+            },
+            {
+              "word": "bój",
+              "start_ms": 50160,
+              "end_ms": 50540
+            },
+            {
+              "word": "się",
+              "start_ms": 50540,
+              "end_ms": 52020
+            }
+          ]
         },
         {
           "text": "Już to mówiłem",
-          "start_ms": 34000,
-          "end_ms": 36000
+          "start_ms": 52020,
+          "end_ms": 54000,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 52020,
+              "end_ms": 52920
+            },
+            {
+              "word": "to",
+              "start_ms": 52920,
+              "end_ms": 53220
+            },
+            {
+              "word": "mówiłem",
+              "start_ms": 53220,
+              "end_ms": 54000
+            }
+          ]
         },
         {
           "text": "Nie bój się",
-          "start_ms": 36000,
-          "end_ms": 38000
+          "start_ms": 56699,
+          "end_ms": 58760,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 56699,
+              "end_ms": 57400
+            },
+            {
+              "word": "bój",
+              "start_ms": 57400,
+              "end_ms": 57800
+            },
+            {
+              "word": "się",
+              "start_ms": 57800,
+              "end_ms": 58760
+            }
+          ]
         },
         {
           "text": "I powiem ci znowu",
-          "start_ms": 38000,
-          "end_ms": 40000
+          "start_ms": 58760,
+          "end_ms": 63420,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 58760,
+              "end_ms": 59640
+            },
+            {
+              "word": "powiem",
+              "start_ms": 59640,
+              "end_ms": 60760
+            },
+            {
+              "word": "ci",
+              "start_ms": 60760,
+              "end_ms": 61300
+            },
+            {
+              "word": "znowu",
+              "start_ms": 62720,
+              "end_ms": 63420
+            }
+          ]
         },
         {
           "text": "Nie bój się",
-          "start_ms": 40000,
-          "end_ms": 42000
+          "start_ms": 64120,
+          "end_ms": 66600,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 64120,
+              "end_ms": 64620
+            },
+            {
+              "word": "bój",
+              "start_ms": 64620,
+              "end_ms": 64959
+            },
+            {
+              "word": "się",
+              "start_ms": 64959,
+              "end_ms": 66600
+            }
+          ]
         },
         {
           "text": "Jestem tym samym",
-          "start_ms": 42000,
-          "end_ms": 44000
+          "start_ms": 66600,
+          "end_ms": 68780,
+          "words": [
+            {
+              "word": "Jestem",
+              "start_ms": 66600,
+              "end_ms": 67620
+            },
+            {
+              "word": "tym",
+              "start_ms": 67620,
+              "end_ms": 68080
+            },
+            {
+              "word": "samym",
+              "start_ms": 68080,
+              "end_ms": 68780
+            }
+          ]
         },
         {
           "text": "Który mówił to zawsze",
-          "start_ms": 44000,
-          "end_ms": 46000
+          "start_ms": 72179,
+          "end_ms": 76759,
+          "words": [
+            {
+              "word": "Który",
+              "start_ms": 72179,
+              "end_ms": 73580
+            },
+            {
+              "word": "mówił",
+              "start_ms": 73580,
+              "end_ms": 74980
+            },
+            {
+              "word": "to",
+              "start_ms": 74980,
+              "end_ms": 75740
+            },
+            {
+              "word": "zawsze",
+              "start_ms": 75740,
+              "end_ms": 76759
+            }
+          ]
         }
-      ],
-      "start_ms": 32000,
-      "end_ms": 46000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 78539,
+      "end_ms": 106460,
       "lines": [
         {
           "text": "Strach Zachariasza, kiedy",
-          "start_ms": 49000,
-          "end_ms": 51000
+          "start_ms": 78539,
+          "end_ms": 82220,
+          "words": [
+            {
+              "word": "Strach",
+              "start_ms": 78539,
+              "end_ms": 79940
+            },
+            {
+              "word": "Zachariasza,",
+              "start_ms": 79940,
+              "end_ms": 80820
+            },
+            {
+              "word": "kiedy",
+              "start_ms": 80820,
+              "end_ms": 82220
+            }
+          ]
         },
         {
           "text": "Anioł stanął po prawej",
-          "start_ms": 51000,
-          "end_ms": 53000
+          "start_ms": 82520,
+          "end_ms": 86060,
+          "words": [
+            {
+              "word": "Anioł",
+              "start_ms": 82520,
+              "end_ms": 83220
+            },
+            {
+              "word": "stanął",
+              "start_ms": 83220,
+              "end_ms": 84400
+            },
+            {
+              "word": "po",
+              "start_ms": 84400,
+              "end_ms": 84800
+            },
+            {
+              "word": "prawej",
+              "start_ms": 84800,
+              "end_ms": 86060
+            }
+          ]
         },
         {
           "text": "Strach Marii, kiedy słowo",
-          "start_ms": 53000,
-          "end_ms": 55000
+          "start_ms": 86060,
+          "end_ms": 89400,
+          "words": [
+            {
+              "word": "Strach",
+              "start_ms": 86060,
+              "end_ms": 86720
+            },
+            {
+              "word": "Marii,",
+              "start_ms": 86720,
+              "end_ms": 87520
+            },
+            {
+              "word": "kiedy",
+              "start_ms": 87500,
+              "end_ms": 88200
+            },
+            {
+              "word": "słowo",
+              "start_ms": 88200,
+              "end_ms": 89400
+            }
+          ]
         },
         {
           "text": "Wstrząsnęło nią, nie widok",
-          "start_ms": 55000,
-          "end_ms": 57080
+          "start_ms": 90060,
+          "end_ms": 93200,
+          "words": [
+            {
+              "word": "Wstrząsnęło",
+              "start_ms": 90060,
+              "end_ms": 91000
+            },
+            {
+              "word": "nią,",
+              "start_ms": 91000,
+              "end_ms": 91680
+            },
+            {
+              "word": "nie",
+              "start_ms": 91000,
+              "end_ms": 91680
+            },
+            {
+              "word": "widok",
+              "start_ms": 91680,
+              "end_ms": 93200
+            }
+          ]
         },
         {
           "text": "Dwa lęki, dwa pozdrowienia",
-          "start_ms": 57080,
-          "end_ms": 59160
+          "start_ms": 93200,
+          "end_ms": 96440,
+          "words": [
+            {
+              "word": "Dwa",
+              "start_ms": 93200,
+              "end_ms": 93780
+            },
+            {
+              "word": "lęki,",
+              "start_ms": 93780,
+              "end_ms": 94480
+            },
+            {
+              "word": "dwa",
+              "start_ms": 93200,
+              "end_ms": 93780
+            },
+            {
+              "word": "pozdrowienia",
+              "start_ms": 94800,
+              "end_ms": 96440
+            }
+          ]
         },
         {
           "text": "Jeden głos, jedno zdanie",
-          "start_ms": 59160,
-          "end_ms": 61160
+          "start_ms": 96440,
+          "end_ms": 100500,
+          "words": [
+            {
+              "word": "Jeden",
+              "start_ms": 96440,
+              "end_ms": 97500
+            },
+            {
+              "word": "głos,",
+              "start_ms": 97500,
+              "end_ms": 98360
+            },
+            {
+              "word": "jedno",
+              "start_ms": 98360,
+              "end_ms": 99100
+            },
+            {
+              "word": "zdanie",
+              "start_ms": 99100,
+              "end_ms": 100500
+            }
+          ]
         },
         {
           "text": "Ta sama obietnica",
-          "start_ms": 61160,
-          "end_ms": 63160
+          "start_ms": 100500,
+          "end_ms": 103500,
+          "words": [
+            {
+              "word": "Ta",
+              "start_ms": 100500,
+              "end_ms": 101180
+            },
+            {
+              "word": "sama",
+              "start_ms": 101180,
+              "end_ms": 101900
+            },
+            {
+              "word": "obietnica",
+              "start_ms": 101900,
+              "end_ms": 103500
+            }
+          ]
         },
         {
           "text": "Że się nie zmienia",
-          "start_ms": 63160,
-          "end_ms": 65160
+          "start_ms": 103500,
+          "end_ms": 106460,
+          "words": [
+            {
+              "word": "Że",
+              "start_ms": 103500,
+              "end_ms": 103800
+            },
+            {
+              "word": "się",
+              "start_ms": 103800,
+              "end_ms": 104120
+            },
+            {
+              "word": "nie",
+              "start_ms": 104120,
+              "end_ms": 104480
+            },
+            {
+              "word": "zmienia",
+              "start_ms": 104480,
+              "end_ms": 106460
+            }
+          ]
         }
-      ],
-      "start_ms": 49000,
-      "end_ms": 65160
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 106460,
+      "end_ms": 113620,
       "lines": [
         {
           "text": "Te same słowa",
-          "start_ms": 68160,
-          "end_ms": 70160
+          "start_ms": 106460,
+          "end_ms": 109460,
+          "words": [
+            {
+              "word": "Te",
+              "start_ms": 106460,
+              "end_ms": 107540
+            },
+            {
+              "word": "same",
+              "start_ms": 107540,
+              "end_ms": 107980
+            },
+            {
+              "word": "słowa",
+              "start_ms": 107980,
+              "end_ms": 109460
+            }
+          ]
         },
         {
           "text": "Do każdego, kto wątpi",
-          "start_ms": 70160,
-          "end_ms": 72160
+          "start_ms": 109460,
+          "end_ms": 113620,
+          "words": [
+            {
+              "word": "Do",
+              "start_ms": 109460,
+              "end_ms": 109940
+            },
+            {
+              "word": "każdego,",
+              "start_ms": 109940,
+              "end_ms": 111100
+            },
+            {
+              "word": "kto",
+              "start_ms": 111100,
+              "end_ms": 111740
+            },
+            {
+              "word": "wątpi",
+              "start_ms": 111740,
+              "end_ms": 113620
+            }
+          ]
         }
-      ],
-      "start_ms": 68160,
-      "end_ms": 72160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 113620,
+      "end_ms": 141620,
       "lines": [
         {
           "text": "Nie bój się",
-          "start_ms": 75160,
-          "end_ms": 77160
+          "start_ms": 113620,
+          "end_ms": 116180,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 113620,
+              "end_ms": 115160
+            },
+            {
+              "word": "bój",
+              "start_ms": 115160,
+              "end_ms": 115480
+            },
+            {
+              "word": "się",
+              "start_ms": 115480,
+              "end_ms": 116180
+            }
+          ]
         },
         {
           "text": "Już to mówiłem",
-          "start_ms": 77160,
-          "end_ms": 79160
+          "start_ms": 117179,
+          "end_ms": 119660,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 117179,
+              "end_ms": 117880
+            },
+            {
+              "word": "to",
+              "start_ms": 117880,
+              "end_ms": 118200
+            },
+            {
+              "word": "mówiłem",
+              "start_ms": 118200,
+              "end_ms": 119660
+            }
+          ]
         },
         {
           "text": "Nie bój się",
-          "start_ms": 79160,
-          "end_ms": 81160
+          "start_ms": 121620,
+          "end_ms": 124000,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 121620,
+              "end_ms": 122360
+            },
+            {
+              "word": "bój",
+              "start_ms": 122360,
+              "end_ms": 122760
+            },
+            {
+              "word": "się",
+              "start_ms": 122760,
+              "end_ms": 124000
+            }
+          ]
         },
         {
           "text": "I powiem ci znowu",
-          "start_ms": 81160,
-          "end_ms": 83160
+          "start_ms": 124000,
+          "end_ms": 127620,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 124000,
+              "end_ms": 124940
+            },
+            {
+              "word": "powiem",
+              "start_ms": 124940,
+              "end_ms": 125740
+            },
+            {
+              "word": "ci",
+              "start_ms": 125740,
+              "end_ms": 126280
+            },
+            {
+              "word": "znowu",
+              "start_ms": 126280,
+              "end_ms": 127620
+            }
+          ]
         },
         {
           "text": "Nie bój się",
-          "start_ms": 83160,
-          "end_ms": 85160
+          "start_ms": 129000,
+          "end_ms": 131400,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 129000,
+              "end_ms": 129560
+            },
+            {
+              "word": "bój",
+              "start_ms": 129560,
+              "end_ms": 129979
+            },
+            {
+              "word": "się",
+              "start_ms": 129979,
+              "end_ms": 131400
+            }
+          ]
         },
         {
           "text": "Jestem tym samym",
-          "start_ms": 85160,
-          "end_ms": 87160
+          "start_ms": 131400,
+          "end_ms": 133739,
+          "words": [
+            {
+              "word": "Jestem",
+              "start_ms": 131400,
+              "end_ms": 132580
+            },
+            {
+              "word": "tym",
+              "start_ms": 132580,
+              "end_ms": 133040
+            },
+            {
+              "word": "samym",
+              "start_ms": 133040,
+              "end_ms": 133739
+            }
+          ]
         },
         {
           "text": "Który mówił to zawsze",
-          "start_ms": 87160,
-          "end_ms": 89160
+          "start_ms": 137140,
+          "end_ms": 141620,
+          "words": [
+            {
+              "word": "Który",
+              "start_ms": 137140,
+              "end_ms": 138540
+            },
+            {
+              "word": "mówił",
+              "start_ms": 138540,
+              "end_ms": 139940
+            },
+            {
+              "word": "to",
+              "start_ms": 139940,
+              "end_ms": 140760
+            },
+            {
+              "word": "zawsze",
+              "start_ms": 140760,
+              "end_ms": 141620
+            }
+          ]
         }
-      ],
-      "start_ms": 75160,
-      "end_ms": 89160
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 143920,
+      "end_ms": 157960,
       "lines": [
         {
           "text": "Nie mówię: to nie jest strach",
-          "start_ms": 92160,
-          "end_ms": 94480
+          "start_ms": 143920,
+          "end_ms": 148060,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 143920,
+              "end_ms": 144960
+            },
+            {
+              "word": "mówię:",
+              "start_ms": 144960,
+              "end_ms": 145380
+            },
+            {
+              "word": "to",
+              "start_ms": 145380,
+              "end_ms": 145640
+            },
+            {
+              "word": "nie",
+              "start_ms": 143920,
+              "end_ms": 144960
+            },
+            {
+              "word": "jest",
+              "start_ms": 145920,
+              "end_ms": 146260
+            },
+            {
+              "word": "strach",
+              "start_ms": 146260,
+              "end_ms": 148060
+            }
+          ]
         },
         {
           "text": "Mówię: wiem, że się boisz",
-          "start_ms": 94480,
-          "end_ms": 96480
+          "start_ms": 148060,
+          "end_ms": 151180,
+          "words": [
+            {
+              "word": "Mówię:",
+              "start_ms": 148060,
+              "end_ms": 148960
+            },
+            {
+              "word": "wiem,",
+              "start_ms": 148960,
+              "end_ms": 149360
+            },
+            {
+              "word": "że",
+              "start_ms": 149420,
+              "end_ms": 149620
+            },
+            {
+              "word": "się",
+              "start_ms": 149620,
+              "end_ms": 150040
+            },
+            {
+              "word": "boisz",
+              "start_ms": 150040,
+              "end_ms": 151180
+            }
+          ]
         },
         {
           "text": "I mówię: nie bój się",
-          "start_ms": 96480,
-          "end_ms": 98480
+          "start_ms": 151180,
+          "end_ms": 153920,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 151180,
+              "end_ms": 152120
+            },
+            {
+              "word": "mówię:",
+              "start_ms": 152120,
+              "end_ms": 152560
+            },
+            {
+              "word": "nie",
+              "start_ms": 152600,
+              "end_ms": 152920
+            },
+            {
+              "word": "bój",
+              "start_ms": 152920,
+              "end_ms": 153400
+            },
+            {
+              "word": "się",
+              "start_ms": 153400,
+              "end_ms": 153920
+            }
+          ]
         },
         {
           "text": "Wiem, co to znaczy",
-          "start_ms": 98480,
-          "end_ms": 100480
+          "start_ms": 155579,
+          "end_ms": 157960,
+          "words": [
+            {
+              "word": "Wiem,",
+              "start_ms": 155579,
+              "end_ms": 156100
+            },
+            {
+              "word": "co",
+              "start_ms": 156640,
+              "end_ms": 156760
+            },
+            {
+              "word": "to",
+              "start_ms": 156760,
+              "end_ms": 157120
+            },
+            {
+              "word": "znaczy",
+              "start_ms": 157120,
+              "end_ms": 157960
+            }
+          ]
         }
-      ],
-      "start_ms": 92160,
-      "end_ms": 100480
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 159260,
+      "end_ms": 186980,
       "lines": [
         {
           "text": "Nie bój się",
-          "start_ms": 103480,
-          "end_ms": 105480
+          "start_ms": 159260,
+          "end_ms": 162080,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 159260,
+              "end_ms": 160300
+            },
+            {
+              "word": "bój",
+              "start_ms": 160300,
+              "end_ms": 160660
+            },
+            {
+              "word": "się",
+              "start_ms": 160660,
+              "end_ms": 162080
+            }
+          ]
         },
         {
           "text": "Już to mówiłem",
-          "start_ms": 105480,
-          "end_ms": 107480
+          "start_ms": 162080,
+          "end_ms": 163820,
+          "words": [
+            {
+              "word": "Już",
+              "start_ms": 162080,
+              "end_ms": 162980
+            },
+            {
+              "word": "to",
+              "start_ms": 162980,
+              "end_ms": 163300
+            },
+            {
+              "word": "mówiłem",
+              "start_ms": 163300,
+              "end_ms": 163820
+            }
+          ]
         },
         {
           "text": "Nie bój się",
-          "start_ms": 107480,
-          "end_ms": 109480
+          "start_ms": 166440,
+          "end_ms": 169060,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 166440,
+              "end_ms": 167480
+            },
+            {
+              "word": "bój",
+              "start_ms": 167480,
+              "end_ms": 167880
+            },
+            {
+              "word": "się",
+              "start_ms": 167880,
+              "end_ms": 169060
+            }
+          ]
         },
         {
           "text": "I powiem ci znowu",
-          "start_ms": 109480,
-          "end_ms": 111480
+          "start_ms": 169519,
+          "end_ms": 173540,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 169519,
+              "end_ms": 170040
+            },
+            {
+              "word": "powiem",
+              "start_ms": 170040,
+              "end_ms": 170860
+            },
+            {
+              "word": "ci",
+              "start_ms": 170860,
+              "end_ms": 171380
+            },
+            {
+              "word": "znowu",
+              "start_ms": 172840,
+              "end_ms": 173540
+            }
+          ]
         },
         {
           "text": "Nie bój się",
-          "start_ms": 111480,
-          "end_ms": 113480
+          "start_ms": 174240,
+          "end_ms": 175720,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 174240,
+              "end_ms": 174720
+            },
+            {
+              "word": "bój",
+              "start_ms": 174720,
+              "end_ms": 175020
+            },
+            {
+              "word": "się",
+              "start_ms": 175020,
+              "end_ms": 175720
+            }
+          ]
         },
         {
           "text": "Jestem tym samym",
-          "start_ms": 113480,
-          "end_ms": 115480
+          "start_ms": 177000,
+          "end_ms": 179380,
+          "words": [
+            {
+              "word": "Jestem",
+              "start_ms": 177000,
+              "end_ms": 177700
+            },
+            {
+              "word": "tym",
+              "start_ms": 177700,
+              "end_ms": 178160
+            },
+            {
+              "word": "samym",
+              "start_ms": 178160,
+              "end_ms": 179380
+            }
+          ]
         },
         {
           "text": "Który mówił to zawsze",
-          "start_ms": 115480,
-          "end_ms": 117480
+          "start_ms": 181840,
+          "end_ms": 186980,
+          "words": [
+            {
+              "word": "Który",
+              "start_ms": 181840,
+              "end_ms": 182380
+            },
+            {
+              "word": "mówił",
+              "start_ms": 182380,
+              "end_ms": 183380
+            },
+            {
+              "word": "to",
+              "start_ms": 185100,
+              "end_ms": 185800
+            },
+            {
+              "word": "zawsze",
+              "start_ms": 185800,
+              "end_ms": 186980
+            }
+          ]
         }
-      ],
-      "start_ms": 103480,
-      "end_ms": 117480
+      ]
     },
     {
       "type": "verse",
       "label": "Whispered",
+      "start_ms": 186980,
+      "end_ms": 191860,
       "lines": [
         {
           "text": "Nie bój się",
-          "start_ms": 120480,
-          "end_ms": 122480
+          "start_ms": 186980,
+          "end_ms": 191860,
+          "words": [
+            {
+              "word": "Nie",
+              "start_ms": 186980,
+              "end_ms": 188960
+            },
+            {
+              "word": "bój",
+              "start_ms": 188960,
+              "end_ms": 189460
+            },
+            {
+              "word": "się",
+              "start_ms": 189460,
+              "end_ms": 191860
+            }
+          ]
         }
-      ],
-      "start_ms": 120480,
-      "end_ms": 122480
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 125480,
-          "end_ms": 127480
-        }
-      ],
-      "start_ms": 125480,
-      "end_ms": 127480
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Te same słowa",
+      "section_type": "chorus",
+      "start_ms": 41820,
+      "end_ms": 48000,
+      "key_line": "Te same słowa",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Nie bój się",
+      "section_type": "chorus",
+      "start_ms": 49459,
+      "end_ms": 76759,
+      "key_line": "Nie bój się",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Te same słowa",
+      "section_type": "chorus",
+      "start_ms": 106460,
+      "end_ms": 113620,
+      "key_line": "Te same słowa",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Nie bój się",
+      "section_type": "chorus",
+      "start_ms": 113620,
+      "end_ms": 141620,
+      "key_line": "Nie bój się",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 143920,
+      "end_ms": 157960,
+      "key_line": "Nie mówię: to nie jest strach",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Nie bój się",
+      "section_type": "chorus",
+      "start_ms": 159260,
+      "end_ms": 186980,
+      "key_line": "Nie bój się",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/polish/42_luke_01_13-30_transcript.json"
 }

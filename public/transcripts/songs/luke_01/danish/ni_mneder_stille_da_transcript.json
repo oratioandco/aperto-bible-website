@@ -7,241 +7,1012 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:5-25",
-  "duration_ms": 220000,
+  "duration_ms": 212880,
   "audio_file": "/audio/songs/luke_01/danish/Luke 1_5-25+57-66 _Ni måneder stille_ — Danish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.750026+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.930278+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.947,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 16319,
+      "end_ms": 37520,
       "lines": [
         {
           "text": "Jeg stod i røgen, alene ved alteret",
-          "start_ms": 6000,
-          "end_ms": 8800
+          "start_ms": 16319,
+          "end_ms": 20460,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 16319,
+              "end_ms": 17240
+            },
+            {
+              "word": "stod",
+              "start_ms": 17240,
+              "end_ms": 17720
+            },
+            {
+              "word": "i",
+              "start_ms": 17720,
+              "end_ms": 18060
+            },
+            {
+              "word": "røgen,",
+              "start_ms": 18060,
+              "end_ms": 19640
+            },
+            {
+              "word": "alene",
+              "start_ms": 20020,
+              "end_ms": 20460
+            },
+            {
+              "word": "ved",
+              "start_ms": 20460,
+              "end_ms": 20840
+            },
+            {
+              "word": "alteret",
+              "start_ms": 20020,
+              "end_ms": 20460
+            }
+          ]
         },
         {
           "text": "Så kom der en stemme",
-          "start_ms": 8800,
-          "end_ms": 10800
+          "start_ms": 23420,
+          "end_ms": 27080,
+          "words": [
+            {
+              "word": "Så",
+              "start_ms": 23420,
+              "end_ms": 23640
+            },
+            {
+              "word": "kom",
+              "start_ms": 23640,
+              "end_ms": 24020
+            },
+            {
+              "word": "der",
+              "start_ms": 24020,
+              "end_ms": 24520
+            },
+            {
+              "word": "en",
+              "start_ms": 24520,
+              "end_ms": 24920
+            },
+            {
+              "word": "stemme",
+              "start_ms": 24920,
+              "end_ms": 27080
+            }
+          ]
         },
         {
           "text": "Og jeg spurgte for meget",
-          "start_ms": 10800,
-          "end_ms": 12800
+          "start_ms": 28080,
+          "end_ms": 32000,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 28080,
+              "end_ms": 29540
+            },
+            {
+              "word": "jeg",
+              "start_ms": 29540,
+              "end_ms": 29760
+            },
+            {
+              "word": "spurgte",
+              "start_ms": 29760,
+              "end_ms": 30260
+            },
+            {
+              "word": "for",
+              "start_ms": 30260,
+              "end_ms": 30720
+            },
+            {
+              "word": "meget",
+              "start_ms": 30720,
+              "end_ms": 32000
+            }
+          ]
         },
         {
           "text": "Det kostede mig munden",
-          "start_ms": 12800,
-          "end_ms": 14800
+          "start_ms": 34180,
+          "end_ms": 37520,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 34180,
+              "end_ms": 34260
+            },
+            {
+              "word": "kostede",
+              "start_ms": 34260,
+              "end_ms": 35140
+            },
+            {
+              "word": "mig",
+              "start_ms": 35140,
+              "end_ms": 35620
+            },
+            {
+              "word": "munden",
+              "start_ms": 35620,
+              "end_ms": 37520
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14800
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 40000,
+      "end_ms": 58440,
       "lines": [
         {
           "text": "De ventede udenfor",
-          "start_ms": 17800,
-          "end_ms": 19800
+          "start_ms": 40000,
+          "end_ms": 43520,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 40000,
+              "end_ms": 41400
+            },
+            {
+              "word": "ventede",
+              "start_ms": 41400,
+              "end_ms": 42180
+            },
+            {
+              "word": "udenfor",
+              "start_ms": 42180,
+              "end_ms": 43520
+            }
+          ]
         },
         {
           "text": "Jeg kom ud med tomme læber",
-          "start_ms": 19800,
-          "end_ms": 21880
+          "start_ms": 44640,
+          "end_ms": 48080,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 44640,
+              "end_ms": 44740
+            },
+            {
+              "word": "kom",
+              "start_ms": 44740,
+              "end_ms": 45100
+            },
+            {
+              "word": "ud",
+              "start_ms": 45100,
+              "end_ms": 45380
+            },
+            {
+              "word": "med",
+              "start_ms": 45380,
+              "end_ms": 45740
+            },
+            {
+              "word": "tomme",
+              "start_ms": 45740,
+              "end_ms": 48080
+            },
+            {
+              "word": "læber",
+              "start_ms": 45740,
+              "end_ms": 48080
+            }
+          ]
         },
         {
           "text": "Kunne kun pege, nikke",
-          "start_ms": 21880,
-          "end_ms": 23880
+          "start_ms": 50560,
+          "end_ms": 54560,
+          "words": [
+            {
+              "word": "Kunne",
+              "start_ms": 50560,
+              "end_ms": 51960
+            },
+            {
+              "word": "kun",
+              "start_ms": 51960,
+              "end_ms": 52280
+            },
+            {
+              "word": "pege,",
+              "start_ms": 52280,
+              "end_ms": 53100
+            },
+            {
+              "word": "nikke",
+              "start_ms": 53260,
+              "end_ms": 54560
+            }
+          ]
         },
         {
           "text": "Ni måneder uden et ord",
-          "start_ms": 23880,
-          "end_ms": 25880
+          "start_ms": 55540,
+          "end_ms": 58440,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 55540,
+              "end_ms": 55700
+            },
+            {
+              "word": "måneder",
+              "start_ms": 55700,
+              "end_ms": 56720
+            },
+            {
+              "word": "uden",
+              "start_ms": 56720,
+              "end_ms": 57160
+            },
+            {
+              "word": "et",
+              "start_ms": 57160,
+              "end_ms": 57520
+            },
+            {
+              "word": "ord",
+              "start_ms": 57520,
+              "end_ms": 58440
+            }
+          ]
         }
-      ],
-      "start_ms": 17800,
-      "end_ms": 25880
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 58440,
+      "end_ms": 94280,
       "lines": [
         {
           "text": "Ni måneder stille",
-          "start_ms": 28880,
-          "end_ms": 30880
+          "start_ms": 58440,
+          "end_ms": 70080,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 58440,
+              "end_ms": 59280
+            },
+            {
+              "word": "måneder",
+              "start_ms": 59280,
+              "end_ms": 60660
+            },
+            {
+              "word": "stille",
+              "start_ms": 67840,
+              "end_ms": 70080
+            }
+          ]
         },
         {
           "text": "Ni måneder stille",
-          "start_ms": 30880,
-          "end_ms": 32880
+          "start_ms": 66120,
+          "end_ms": 70080,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 66120,
+              "end_ms": 66400
+            },
+            {
+              "word": "måneder",
+              "start_ms": 59280,
+              "end_ms": 60660
+            },
+            {
+              "word": "stille",
+              "start_ms": 67840,
+              "end_ms": 70080
+            }
+          ]
         },
         {
           "text": "Og det første jeg sagde",
-          "start_ms": 32880,
-          "end_ms": 34880
+          "start_ms": 71960,
+          "end_ms": 77540,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 71960,
+              "end_ms": 73320
+            },
+            {
+              "word": "det",
+              "start_ms": 73320,
+              "end_ms": 73580
+            },
+            {
+              "word": "første",
+              "start_ms": 73580,
+              "end_ms": 74260
+            },
+            {
+              "word": "jeg",
+              "start_ms": 74260,
+              "end_ms": 74880
+            },
+            {
+              "word": "sagde",
+              "start_ms": 74880,
+              "end_ms": 77540
+            }
+          ]
         },
         {
           "text": "Var noget jeg aldrig kunne have sagt før",
-          "start_ms": 34880,
-          "end_ms": 38080
+          "start_ms": 78020,
+          "end_ms": 94280,
+          "words": [
+            {
+              "word": "Var",
+              "start_ms": 78020,
+              "end_ms": 78020
+            },
+            {
+              "word": "noget",
+              "start_ms": 78020,
+              "end_ms": 78380
+            },
+            {
+              "word": "jeg",
+              "start_ms": 78380,
+              "end_ms": 78740
+            },
+            {
+              "word": "aldrig",
+              "start_ms": 78740,
+              "end_ms": 79740
+            },
+            {
+              "word": "kunne",
+              "start_ms": 79740,
+              "end_ms": 80300
+            },
+            {
+              "word": "have",
+              "start_ms": 92660,
+              "end_ms": 93580
+            },
+            {
+              "word": "sagt",
+              "start_ms": 93630,
+              "end_ms": 93930,
+              "estimated": true
+            },
+            {
+              "word": "før",
+              "start_ms": 93980,
+              "end_ms": 94280,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 28880,
-      "end_ms": 38080
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 93580,
+      "end_ms": 100760,
       "lines": [
         {
           "text": "Min kone bar barnet",
-          "start_ms": 41080,
-          "end_ms": 43080
+          "start_ms": 93580,
+          "end_ms": 90500,
+          "words": [
+            {
+              "word": "Min",
+              "start_ms": 93580,
+              "end_ms": 93880,
+              "estimated": true
+            },
+            {
+              "word": "kone",
+              "start_ms": 93930,
+              "end_ms": 94230,
+              "estimated": true
+            },
+            {
+              "word": "bar",
+              "start_ms": 92260,
+              "end_ms": 92660
+            },
+            {
+              "word": "barnet",
+              "start_ms": 89600,
+              "end_ms": 90500
+            }
+          ]
         },
         {
           "text": "Jeg bar tavsheden",
-          "start_ms": 43080,
-          "end_ms": 45080
+          "start_ms": 92120,
+          "end_ms": 96680,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 92120,
+              "end_ms": 92260
+            },
+            {
+              "word": "bar",
+              "start_ms": 89140,
+              "end_ms": 89600
+            },
+            {
+              "word": "tavsheden",
+              "start_ms": 95840,
+              "end_ms": 96680
+            }
+          ]
         },
         {
           "text": "Hun voksede indad",
-          "start_ms": 45080,
-          "end_ms": 47080
+          "start_ms": 95140,
+          "end_ms": 98500,
+          "words": [
+            {
+              "word": "Hun",
+              "start_ms": 95140,
+              "end_ms": 95840
+            },
+            {
+              "word": "voksede",
+              "start_ms": 95840,
+              "end_ms": 96680
+            },
+            {
+              "word": "indad",
+              "start_ms": 96680,
+              "end_ms": 98500
+            }
+          ]
         },
         {
           "text": "Jeg lyttede udad",
-          "start_ms": 47080,
-          "end_ms": 49080
+          "start_ms": 99260,
+          "end_ms": 100760,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 99260,
+              "end_ms": 99440
+            },
+            {
+              "word": "lyttede",
+              "start_ms": 99440,
+              "end_ms": 100160
+            },
+            {
+              "word": "udad",
+              "start_ms": 100160,
+              "end_ms": 100760
+            }
+          ]
         }
-      ],
-      "start_ms": 41080,
-      "end_ms": 49080
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 101400,
+      "end_ms": 125660,
       "lines": [
         {
           "text": "Ni måneder stille",
-          "start_ms": 52080,
-          "end_ms": 54080
+          "start_ms": 101400,
+          "end_ms": 112260,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 101400,
+              "end_ms": 102080
+            },
+            {
+              "word": "måneder",
+              "start_ms": 102080,
+              "end_ms": 103560
+            },
+            {
+              "word": "stille",
+              "start_ms": 110680,
+              "end_ms": 112260
+            }
+          ]
         },
         {
           "text": "Ni måneder stille",
-          "start_ms": 54080,
-          "end_ms": 56080
+          "start_ms": 108780,
+          "end_ms": 112260,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 108780,
+              "end_ms": 109220
+            },
+            {
+              "word": "måneder",
+              "start_ms": 102080,
+              "end_ms": 103560
+            },
+            {
+              "word": "stille",
+              "start_ms": 110680,
+              "end_ms": 112260
+            }
+          ]
         },
         {
           "text": "Og det første jeg sagde",
-          "start_ms": 56080,
-          "end_ms": 58080
+          "start_ms": 115140,
+          "end_ms": 120820,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 115140,
+              "end_ms": 116180
+            },
+            {
+              "word": "det",
+              "start_ms": 116180,
+              "end_ms": 116420
+            },
+            {
+              "word": "første",
+              "start_ms": 116420,
+              "end_ms": 117080
+            },
+            {
+              "word": "jeg",
+              "start_ms": 117080,
+              "end_ms": 117880
+            },
+            {
+              "word": "sagde",
+              "start_ms": 117880,
+              "end_ms": 120820
+            }
+          ]
         },
         {
           "text": "Var et lys fra det høje",
-          "start_ms": 58080,
-          "end_ms": 60080
+          "start_ms": 121280,
+          "end_ms": 125660,
+          "words": [
+            {
+              "word": "Var",
+              "start_ms": 121280,
+              "end_ms": 121380
+            },
+            {
+              "word": "et",
+              "start_ms": 121380,
+              "end_ms": 121740
+            },
+            {
+              "word": "lys",
+              "start_ms": 121740,
+              "end_ms": 122560
+            },
+            {
+              "word": "fra",
+              "start_ms": 122610,
+              "end_ms": 122910,
+              "estimated": true
+            },
+            {
+              "word": "det",
+              "start_ms": 122980,
+              "end_ms": 123500
+            },
+            {
+              "word": "høje",
+              "start_ms": 123500,
+              "end_ms": 125660
+            }
+          ]
         }
-      ],
-      "start_ms": 52080,
-      "end_ms": 60080
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Whispered",
+      "label": "Bridge",
+      "start_ms": 126260,
+      "end_ms": 143430,
       "lines": [
         {
           "text": "Måske var det gaven",
-          "start_ms": 63080,
-          "end_ms": 65080
+          "start_ms": 126260,
+          "end_ms": 128900,
+          "words": [
+            {
+              "word": "Måske",
+              "start_ms": 126260,
+              "end_ms": 127500
+            },
+            {
+              "word": "var",
+              "start_ms": 127500,
+              "end_ms": 127780
+            },
+            {
+              "word": "det",
+              "start_ms": 127780,
+              "end_ms": 128100
+            },
+            {
+              "word": "gaven",
+              "start_ms": 128100,
+              "end_ms": 128900
+            }
+          ]
         },
         {
           "text": "At miste sin stemme",
-          "start_ms": 65080,
-          "end_ms": 67080
+          "start_ms": 130340,
+          "end_ms": 132260,
+          "words": [
+            {
+              "word": "At",
+              "start_ms": 130340,
+              "end_ms": 130699
+            },
+            {
+              "word": "miste",
+              "start_ms": 130699,
+              "end_ms": 131300
+            },
+            {
+              "word": "sin",
+              "start_ms": 131300,
+              "end_ms": 131740
+            },
+            {
+              "word": "stemme",
+              "start_ms": 131740,
+              "end_ms": 132260
+            }
+          ]
         },
         {
           "text": "At stå der med ingenting",
-          "start_ms": 67080,
-          "end_ms": 69080
+          "start_ms": 133440,
+          "end_ms": 137240,
+          "words": [
+            {
+              "word": "At",
+              "start_ms": 133440,
+              "end_ms": 134220
+            },
+            {
+              "word": "stå",
+              "start_ms": 134220,
+              "end_ms": 134580
+            },
+            {
+              "word": "der",
+              "start_ms": 134580,
+              "end_ms": 134920
+            },
+            {
+              "word": "med",
+              "start_ms": 134920,
+              "end_ms": 135240
+            },
+            {
+              "word": "ingenting",
+              "start_ms": 135240,
+              "end_ms": 137240
+            }
+          ]
         },
         {
           "text": "Og finde ud af hvad man egentlig vil sige",
-          "start_ms": 69080,
-          "end_ms": 72360
+          "start_ms": 138240,
+          "end_ms": 143430,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 138240,
+              "end_ms": 139160
+            },
+            {
+              "word": "finde",
+              "start_ms": 139160,
+              "end_ms": 139560
+            },
+            {
+              "word": "ud",
+              "start_ms": 139560,
+              "end_ms": 140140
+            },
+            {
+              "word": "af",
+              "start_ms": 140140,
+              "end_ms": 140520
+            },
+            {
+              "word": "hvad",
+              "start_ms": 140800,
+              "end_ms": 140900
+            },
+            {
+              "word": "man",
+              "start_ms": 140900,
+              "end_ms": 141520
+            },
+            {
+              "word": "egentlig",
+              "start_ms": 141520,
+              "end_ms": 142280
+            },
+            {
+              "word": "vil",
+              "start_ms": 142280,
+              "end_ms": 142740
+            },
+            {
+              "word": "sige",
+              "start_ms": 142740,
+              "end_ms": 143430
+            }
+          ]
         }
-      ],
-      "start_ms": 63080,
-      "end_ms": 72360
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 144320,
+      "end_ms": 172760,
       "lines": [
         {
           "text": "Ni måneder stille",
-          "start_ms": 75360,
-          "end_ms": 77360
+          "start_ms": 144320,
+          "end_ms": 155240,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 144320,
+              "end_ms": 144960
+            },
+            {
+              "word": "måneder",
+              "start_ms": 144960,
+              "end_ms": 146420
+            },
+            {
+              "word": "stille",
+              "start_ms": 153800,
+              "end_ms": 155240
+            }
+          ]
         },
         {
           "text": "Ni måneder stille",
-          "start_ms": 77360,
-          "end_ms": 79360
+          "start_ms": 148480,
+          "end_ms": 155240,
+          "words": [
+            {
+              "word": "Ni",
+              "start_ms": 148480,
+              "end_ms": 152060
+            },
+            {
+              "word": "måneder",
+              "start_ms": 144960,
+              "end_ms": 146420
+            },
+            {
+              "word": "stille",
+              "start_ms": 153800,
+              "end_ms": 155240
+            }
+          ]
         },
         {
           "text": "Hans navn er Johannes",
-          "start_ms": 79360,
-          "end_ms": 81360
+          "start_ms": 158400,
+          "end_ms": 161880,
+          "words": [
+            {
+              "word": "Hans",
+              "start_ms": 158400,
+              "end_ms": 159140
+            },
+            {
+              "word": "navn",
+              "start_ms": 159140,
+              "end_ms": 159900
+            },
+            {
+              "word": "er",
+              "start_ms": 159900,
+              "end_ms": 160220
+            },
+            {
+              "word": "Johannes",
+              "start_ms": 160220,
+              "end_ms": 161880
+            }
+          ]
         },
         {
           "text": "Det skrev jeg på tavlen",
-          "start_ms": 81360,
-          "end_ms": 83360
+          "start_ms": 162620,
+          "end_ms": 165440,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 162620,
+              "end_ms": 162780
+            },
+            {
+              "word": "skrev",
+              "start_ms": 162780,
+              "end_ms": 163200
+            },
+            {
+              "word": "jeg",
+              "start_ms": 163200,
+              "end_ms": 163640
+            },
+            {
+              "word": "på",
+              "start_ms": 163640,
+              "end_ms": 164220
+            },
+            {
+              "word": "tavlen",
+              "start_ms": 164220,
+              "end_ms": 165440
+            }
+          ]
         },
         {
           "text": "Og munden åbnede sig",
-          "start_ms": 83360,
-          "end_ms": 85360
+          "start_ms": 165440,
+          "end_ms": 172760,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 165440,
+              "end_ms": 165740,
+              "estimated": true
+            },
+            {
+              "word": "munden",
+              "start_ms": 165440,
+              "end_ms": 166400
+            },
+            {
+              "word": "åbnede",
+              "start_ms": 166400,
+              "end_ms": 167760
+            },
+            {
+              "word": "sig",
+              "start_ms": 167760,
+              "end_ms": 172760
+            }
+          ]
         }
-      ],
-      "start_ms": 75360,
-      "end_ms": 85360
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 173980,
+      "end_ms": 178720,
       "lines": [
         {
           "text": "Og ordene var nye",
-          "start_ms": 88360,
-          "end_ms": 90360
+          "start_ms": 173980,
+          "end_ms": 178720,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 173980,
+              "end_ms": 174280,
+              "estimated": true
+            },
+            {
+              "word": "ordene",
+              "start_ms": 173980,
+              "end_ms": 174460
+            },
+            {
+              "word": "var",
+              "start_ms": 174460,
+              "end_ms": 174880
+            },
+            {
+              "word": "nye",
+              "start_ms": 174880,
+              "end_ms": 178720
+            }
+          ]
         }
-      ],
-      "start_ms": 88360,
-      "end_ms": 90360
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 93360,
-          "end_ms": 95360
-        }
-      ],
-      "start_ms": 93360,
-      "end_ms": 95360
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ni måneder stille",
+      "section_type": "chorus",
+      "start_ms": 58440,
+      "end_ms": 94280,
+      "key_line": "Ni måneder stille",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Ni måneder stille",
+      "section_type": "chorus",
+      "start_ms": 101400,
+      "end_ms": 125660,
+      "key_line": "Ni måneder stille",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 126260,
+      "end_ms": 143430,
+      "key_line": "Måske var det gaven",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ni måneder stille",
+      "section_type": "chorus",
+      "start_ms": 144320,
+      "end_ms": 172760,
+      "key_line": "Ni måneder stille",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/danish/42_luke_01_1-5_transcript.json"
 }

@@ -7,238 +7,1748 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 198800,
   "audio_file": "/audio/songs/luke_01/catalan/Luke 1_26-38 Catalan.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.701467+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.912580+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.886,
   "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 6980,
+      "end_ms": 35160,
+      "lines": [
+        {
+          "text": "Hi ha tant silenci a Natzaret",
+          "start_ms": 6980,
+          "end_ms": 13520,
+          "words": [
+            {
+              "word": "Hi",
+              "start_ms": 6980,
+              "end_ms": 6980
+            },
+            {
+              "word": "ha",
+              "start_ms": 6980,
+              "end_ms": 11520
+            },
+            {
+              "word": "tant",
+              "start_ms": 11520,
+              "end_ms": 11820
+            },
+            {
+              "word": "silenci",
+              "start_ms": 11820,
+              "end_ms": 12540
+            },
+            {
+              "word": "a",
+              "start_ms": 12540,
+              "end_ms": 12720
+            },
+            {
+              "word": "Natzaret",
+              "start_ms": 12720,
+              "end_ms": 13520
+            }
+          ]
+        },
+        {
+          "text": "que sento el meu propi ale",
+          "start_ms": 13520,
+          "end_ms": 16960,
+          "words": [
+            {
+              "word": "que",
+              "start_ms": 13520,
+              "end_ms": 14620
+            },
+            {
+              "word": "sento",
+              "start_ms": 14620,
+              "end_ms": 15220
+            },
+            {
+              "word": "el",
+              "start_ms": 15220,
+              "end_ms": 15400
+            },
+            {
+              "word": "meu",
+              "start_ms": 15400,
+              "end_ms": 15740
+            },
+            {
+              "word": "propi",
+              "start_ms": 15740,
+              "end_ms": 16260
+            },
+            {
+              "word": "ale",
+              "start_ms": 16260,
+              "end_ms": 16960
+            }
+          ]
+        },
+        {
+          "text": "Les oliveres no es mouen i el cel pesa com pedra",
+          "start_ms": 16960,
+          "end_ms": 22720,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 16960,
+              "end_ms": 17900
+            },
+            {
+              "word": "oliveres",
+              "start_ms": 17900,
+              "end_ms": 18600
+            },
+            {
+              "word": "no",
+              "start_ms": 18600,
+              "end_ms": 18840
+            },
+            {
+              "word": "es",
+              "start_ms": 18840,
+              "end_ms": 19100
+            },
+            {
+              "word": "mouen",
+              "start_ms": 19100,
+              "end_ms": 19920
+            },
+            {
+              "word": "i",
+              "start_ms": 19920,
+              "end_ms": 20100
+            },
+            {
+              "word": "el",
+              "start_ms": 20100,
+              "end_ms": 20300
+            },
+            {
+              "word": "cel",
+              "start_ms": 20300,
+              "end_ms": 20440
+            },
+            {
+              "word": "pesa",
+              "start_ms": 20440,
+              "end_ms": 21000
+            },
+            {
+              "word": "com",
+              "start_ms": 21000,
+              "end_ms": 21380
+            },
+            {
+              "word": "pedra",
+              "start_ms": 21380,
+              "end_ms": 22720
+            }
+          ]
+        },
+        {
+          "text": "Tinc paraules a la boca que no he dit a ningu",
+          "start_ms": 23300,
+          "end_ms": 28640,
+          "words": [
+            {
+              "word": "Tinc",
+              "start_ms": 23300,
+              "end_ms": 24320
+            },
+            {
+              "word": "paraules",
+              "start_ms": 24320,
+              "end_ms": 25020
+            },
+            {
+              "word": "a",
+              "start_ms": 25020,
+              "end_ms": 25320
+            },
+            {
+              "word": "la",
+              "start_ms": 25320,
+              "end_ms": 25500
+            },
+            {
+              "word": "boca",
+              "start_ms": 25500,
+              "end_ms": 25960
+            },
+            {
+              "word": "que",
+              "start_ms": 25960,
+              "end_ms": 26620
+            },
+            {
+              "word": "no",
+              "start_ms": 26620,
+              "end_ms": 26820
+            },
+            {
+              "word": "he",
+              "start_ms": 26820,
+              "end_ms": 26960
+            },
+            {
+              "word": "dit",
+              "start_ms": 26960,
+              "end_ms": 27180
+            },
+            {
+              "word": "a",
+              "start_ms": 27180,
+              "end_ms": 27440
+            },
+            {
+              "word": "ningu",
+              "start_ms": 27440,
+              "end_ms": 28640
+            }
+          ]
+        },
+        {
+          "text": "I de cop una veu dins l'aire em diu el meu nom",
+          "start_ms": 29360,
+          "end_ms": 35160,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 29360,
+              "end_ms": 29760
+            },
+            {
+              "word": "de",
+              "start_ms": 29760,
+              "end_ms": 30040
+            },
+            {
+              "word": "cop",
+              "start_ms": 30040,
+              "end_ms": 30320
+            },
+            {
+              "word": "una",
+              "start_ms": 30320,
+              "end_ms": 30680
+            },
+            {
+              "word": "veu",
+              "start_ms": 30680,
+              "end_ms": 31820
+            },
+            {
+              "word": "dins",
+              "start_ms": 31820,
+              "end_ms": 32299
+            },
+            {
+              "word": "l'aire",
+              "start_ms": 32460,
+              "end_ms": 32680
+            },
+            {
+              "word": "em",
+              "start_ms": 32680,
+              "end_ms": 32980
+            },
+            {
+              "word": "diu",
+              "start_ms": 32980,
+              "end_ms": 33140
+            },
+            {
+              "word": "el",
+              "start_ms": 33140,
+              "end_ms": 33480
+            },
+            {
+              "word": "meu",
+              "start_ms": 33480,
+              "end_ms": 33780
+            },
+            {
+              "word": "nom",
+              "start_ms": 33780,
+              "end_ms": 35160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 36019,
+      "end_ms": 50780,
+      "lines": [
+        {
+          "text": "Podria callar podria fer veure",
+          "start_ms": 36019,
+          "end_ms": 38880,
+          "words": [
+            {
+              "word": "Podria",
+              "start_ms": 36019,
+              "end_ms": 36820
+            },
+            {
+              "word": "callar",
+              "start_ms": 36820,
+              "end_ms": 37520
+            },
+            {
+              "word": "podria",
+              "start_ms": 36019,
+              "end_ms": 36820
+            },
+            {
+              "word": "fer",
+              "start_ms": 38060,
+              "end_ms": 38380
+            },
+            {
+              "word": "veure",
+              "start_ms": 38380,
+              "end_ms": 38880
+            }
+          ]
+        },
+        {
+          "text": "Que no he sentit res que no he vist res",
+          "start_ms": 38880,
+          "end_ms": 42520,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 38880,
+              "end_ms": 39300
+            },
+            {
+              "word": "no",
+              "start_ms": 39300,
+              "end_ms": 39400
+            },
+            {
+              "word": "he",
+              "start_ms": 39400,
+              "end_ms": 39640
+            },
+            {
+              "word": "sentit",
+              "start_ms": 39640,
+              "end_ms": 40280
+            },
+            {
+              "word": "res",
+              "start_ms": 41360,
+              "end_ms": 42520
+            },
+            {
+              "word": "que",
+              "start_ms": 42570,
+              "end_ms": 42870,
+              "estimated": true
+            },
+            {
+              "word": "no",
+              "start_ms": 42920,
+              "end_ms": 43220,
+              "estimated": true
+            },
+            {
+              "word": "he",
+              "start_ms": 41020,
+              "end_ms": 41100
+            },
+            {
+              "word": "vist",
+              "start_ms": 41100,
+              "end_ms": 41360
+            },
+            {
+              "word": "res",
+              "start_ms": 41360,
+              "end_ms": 42520
+            }
+          ]
+        },
+        {
+          "text": "El silenci es segur el silenci es meu",
+          "start_ms": 42520,
+          "end_ms": 46120,
+          "words": [
+            {
+              "word": "El",
+              "start_ms": 42520,
+              "end_ms": 43140
+            },
+            {
+              "word": "silenci",
+              "start_ms": 43140,
+              "end_ms": 43680
+            },
+            {
+              "word": "es",
+              "start_ms": 41360,
+              "end_ms": 42520
+            },
+            {
+              "word": "segur",
+              "start_ms": 43980,
+              "end_ms": 44360
+            },
+            {
+              "word": "el",
+              "start_ms": 44540,
+              "end_ms": 44640
+            },
+            {
+              "word": "silenci",
+              "start_ms": 44640,
+              "end_ms": 45300
+            },
+            {
+              "word": "es",
+              "start_ms": 45350,
+              "end_ms": 45650,
+              "estimated": true
+            },
+            {
+              "word": "meu",
+              "start_ms": 45520,
+              "end_ms": 46120
+            }
+          ]
+        },
+        {
+          "text": "Pero alguna cosa em puja pel coll",
+          "start_ms": 47200,
+          "end_ms": 50780,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 47200,
+              "end_ms": 47600
+            },
+            {
+              "word": "alguna",
+              "start_ms": 47600,
+              "end_ms": 48060
+            },
+            {
+              "word": "cosa",
+              "start_ms": 48060,
+              "end_ms": 48500
+            },
+            {
+              "word": "em",
+              "start_ms": 48500,
+              "end_ms": 48900
+            },
+            {
+              "word": "puja",
+              "start_ms": 48900,
+              "end_ms": 49240
+            },
+            {
+              "word": "pel",
+              "start_ms": 49240,
+              "end_ms": 49740
+            },
+            {
+              "word": "coll",
+              "start_ms": 49740,
+              "end_ms": 50780
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 51879,
+      "end_ms": 71100,
       "lines": [
         {
           "text": "Encara així, sí",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 51879,
+          "end_ms": 54360,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 51879,
+              "end_ms": 52679
+            },
+            {
+              "word": "així,",
+              "start_ms": 52679,
+              "end_ms": 53480
+            },
+            {
+              "word": "sí",
+              "start_ms": 53920,
+              "end_ms": 54360
+            }
+          ]
         },
         {
           "text": "Parlo quan podria callar",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 55540,
+          "end_ms": 57980,
+          "words": [
+            {
+              "word": "Parlo",
+              "start_ms": 55540,
+              "end_ms": 56340
+            },
+            {
+              "word": "quan",
+              "start_ms": 56340,
+              "end_ms": 56620
+            },
+            {
+              "word": "podria",
+              "start_ms": 56620,
+              "end_ms": 57160
+            },
+            {
+              "word": "callar",
+              "start_ms": 57160,
+              "end_ms": 57980
+            }
+          ]
         },
         {
           "text": "Encara així, sí",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 58180,
+          "end_ms": 61580,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 58180,
+              "end_ms": 58720
+            },
+            {
+              "word": "així,",
+              "start_ms": 58720,
+              "end_ms": 59700
+            },
+            {
+              "word": "sí",
+              "start_ms": 60220,
+              "end_ms": 61580
+            }
+          ]
         },
         {
           "text": "Dic que sí en veu alta",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 61580,
+          "end_ms": 64140,
+          "words": [
+            {
+              "word": "Dic",
+              "start_ms": 61580,
+              "end_ms": 62440
+            },
+            {
+              "word": "que",
+              "start_ms": 62440,
+              "end_ms": 62740
+            },
+            {
+              "word": "sí",
+              "start_ms": 60220,
+              "end_ms": 61580
+            },
+            {
+              "word": "en",
+              "start_ms": 61630,
+              "end_ms": 61930,
+              "estimated": true
+            },
+            {
+              "word": "veu",
+              "start_ms": 63240,
+              "end_ms": 63760
+            },
+            {
+              "word": "alta",
+              "start_ms": 63760,
+              "end_ms": 64140
+            }
+          ]
         },
         {
           "text": "Encara així, sí",
-          "start_ms": 14000,
-          "end_ms": 16000
+          "start_ms": 64440,
+          "end_ms": 71100,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 64440,
+              "end_ms": 64980
+            },
+            {
+              "word": "així,",
+              "start_ms": 64980,
+              "end_ms": 66120
+            },
+            {
+              "word": "sí",
+              "start_ms": 71100,
+              "end_ms": 71100
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 71100,
+      "end_ms": 93420,
       "lines": [
         {
           "text": "Com pot ser que jo tingui res a dir",
-          "start_ms": 19000,
-          "end_ms": 21800
+          "start_ms": 71100,
+          "end_ms": 74900,
+          "words": [
+            {
+              "word": "Com",
+              "start_ms": 71100,
+              "end_ms": 71480
+            },
+            {
+              "word": "pot",
+              "start_ms": 71480,
+              "end_ms": 72060
+            },
+            {
+              "word": "ser",
+              "start_ms": 72060,
+              "end_ms": 72680
+            },
+            {
+              "word": "que",
+              "start_ms": 72680,
+              "end_ms": 72840
+            },
+            {
+              "word": "jo",
+              "start_ms": 72840,
+              "end_ms": 73100
+            },
+            {
+              "word": "tingui",
+              "start_ms": 73100,
+              "end_ms": 73660
+            },
+            {
+              "word": "res",
+              "start_ms": 73660,
+              "end_ms": 74040
+            },
+            {
+              "word": "a",
+              "start_ms": 74040,
+              "end_ms": 74360
+            },
+            {
+              "word": "dir",
+              "start_ms": 74360,
+              "end_ms": 74900
+            }
+          ]
         },
         {
           "text": "Si a Natzaret no en parla ningu de nosaltres",
-          "start_ms": 21800,
-          "end_ms": 25320
+          "start_ms": 76780,
+          "end_ms": 81400,
+          "words": [
+            {
+              "word": "Si",
+              "start_ms": 76780,
+              "end_ms": 76880
+            },
+            {
+              "word": "a",
+              "start_ms": 74040,
+              "end_ms": 74360
+            },
+            {
+              "word": "Natzaret",
+              "start_ms": 77060,
+              "end_ms": 77820
+            },
+            {
+              "word": "no",
+              "start_ms": 77820,
+              "end_ms": 78180
+            },
+            {
+              "word": "en",
+              "start_ms": 76880,
+              "end_ms": 77060
+            },
+            {
+              "word": "parla",
+              "start_ms": 78480,
+              "end_ms": 78840
+            },
+            {
+              "word": "ningu",
+              "start_ms": 78840,
+              "end_ms": 79860
+            },
+            {
+              "word": "de",
+              "start_ms": 79860,
+              "end_ms": 80160
+            },
+            {
+              "word": "nosaltres",
+              "start_ms": 80160,
+              "end_ms": 81400
+            }
+          ]
         },
         {
           "text": "Pero em noto la veu que vol sortir",
-          "start_ms": 25320,
-          "end_ms": 28040
+          "start_ms": 83339,
+          "end_ms": 87820,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 83339,
+              "end_ms": 83880
+            },
+            {
+              "word": "em",
+              "start_ms": 83930,
+              "end_ms": 84230,
+              "estimated": true
+            },
+            {
+              "word": "noto",
+              "start_ms": 83880,
+              "end_ms": 84460
+            },
+            {
+              "word": "la",
+              "start_ms": 84460,
+              "end_ms": 84760
+            },
+            {
+              "word": "veu",
+              "start_ms": 84760,
+              "end_ms": 85700
+            },
+            {
+              "word": "que",
+              "start_ms": 85700,
+              "end_ms": 85860
+            },
+            {
+              "word": "vol",
+              "start_ms": 85860,
+              "end_ms": 86380
+            },
+            {
+              "word": "sortir",
+              "start_ms": 86380,
+              "end_ms": 87820
+            }
+          ]
         },
         {
           "text": "Com un riu que trenca una presa vella",
-          "start_ms": 28040,
-          "end_ms": 31000
+          "start_ms": 88700,
+          "end_ms": 93420,
+          "words": [
+            {
+              "word": "Com",
+              "start_ms": 88700,
+              "end_ms": 89580
+            },
+            {
+              "word": "un",
+              "start_ms": 89580,
+              "end_ms": 89860
+            },
+            {
+              "word": "riu",
+              "start_ms": 89860,
+              "end_ms": 90300
+            },
+            {
+              "word": "que",
+              "start_ms": 90300,
+              "end_ms": 90660
+            },
+            {
+              "word": "trenca",
+              "start_ms": 90660,
+              "end_ms": 91180
+            },
+            {
+              "word": "una",
+              "start_ms": 91180,
+              "end_ms": 91820
+            },
+            {
+              "word": "presa",
+              "start_ms": 91820,
+              "end_ms": 92600
+            },
+            {
+              "word": "vella",
+              "start_ms": 92600,
+              "end_ms": 93420
+            }
+          ]
         }
-      ],
-      "start_ms": 19000,
-      "end_ms": 31000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 94900,
+      "end_ms": 123710,
       "lines": [
         {
           "text": "No se parlar com parla un angel",
-          "start_ms": 34000,
-          "end_ms": 36480
+          "start_ms": 94900,
+          "end_ms": 98260,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 94900,
+              "end_ms": 95780
+            },
+            {
+              "word": "se",
+              "start_ms": 95830,
+              "end_ms": 96130,
+              "estimated": true
+            },
+            {
+              "word": "parlar",
+              "start_ms": 95960,
+              "end_ms": 96480
+            },
+            {
+              "word": "com",
+              "start_ms": 96480,
+              "end_ms": 96800
+            },
+            {
+              "word": "parla",
+              "start_ms": 96800,
+              "end_ms": 97240
+            },
+            {
+              "word": "un",
+              "start_ms": 97240,
+              "end_ms": 97540
+            },
+            {
+              "word": "angel",
+              "start_ms": 97540,
+              "end_ms": 98260
+            }
+          ]
         },
         {
           "text": "No tinc la veu de qui te respostes",
-          "start_ms": 36480,
-          "end_ms": 39200
+          "start_ms": 98260,
+          "end_ms": 101960,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 98260,
+              "end_ms": 98520
+            },
+            {
+              "word": "tinc",
+              "start_ms": 98520,
+              "end_ms": 98860
+            },
+            {
+              "word": "la",
+              "start_ms": 98860,
+              "end_ms": 99180
+            },
+            {
+              "word": "veu",
+              "start_ms": 99180,
+              "end_ms": 99540
+            },
+            {
+              "word": "de",
+              "start_ms": 99540,
+              "end_ms": 99780
+            },
+            {
+              "word": "qui",
+              "start_ms": 99780,
+              "end_ms": 100140
+            },
+            {
+              "word": "te",
+              "start_ms": 100190,
+              "end_ms": 100490,
+              "estimated": true
+            },
+            {
+              "word": "respostes",
+              "start_ms": 100360,
+              "end_ms": 101960
+            }
+          ]
         },
         {
           "text": "Nomes tinc aquesta gola seca",
-          "start_ms": 39200,
-          "end_ms": 41440
+          "start_ms": 101960,
+          "end_ms": 105160,
+          "words": [
+            {
+              "word": "Nomes",
+              "start_ms": 101960,
+              "end_ms": 102360
+            },
+            {
+              "word": "tinc",
+              "start_ms": 102360,
+              "end_ms": 102840
+            },
+            {
+              "word": "aquesta",
+              "start_ms": 102840,
+              "end_ms": 103600
+            },
+            {
+              "word": "gola",
+              "start_ms": 103600,
+              "end_ms": 104160
+            },
+            {
+              "word": "seca",
+              "start_ms": 104160,
+              "end_ms": 105160
+            }
+          ]
         },
         {
           "text": "I un sí que em crema a dins la boca",
-          "start_ms": 41440,
-          "end_ms": 44240
+          "start_ms": 105160,
+          "end_ms": 123710,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 105160,
+              "end_ms": 105500
+            },
+            {
+              "word": "un",
+              "start_ms": 105500,
+              "end_ms": 105700
+            },
+            {
+              "word": "sí",
+              "start_ms": 112840,
+              "end_ms": 114020
+            },
+            {
+              "word": "que",
+              "start_ms": 121640,
+              "end_ms": 121980
+            },
+            {
+              "word": "em",
+              "start_ms": 122260,
+              "end_ms": 122460
+            },
+            {
+              "word": "crema",
+              "start_ms": 122260,
+              "end_ms": 122460
+            },
+            {
+              "word": "a",
+              "start_ms": 122510,
+              "end_ms": 122810,
+              "estimated": true
+            },
+            {
+              "word": "dins",
+              "start_ms": 122860,
+              "end_ms": 123160,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 123040,
+              "end_ms": 123360
+            },
+            {
+              "word": "boca",
+              "start_ms": 123410,
+              "end_ms": 123710,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 34000,
-      "end_ms": 44240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 123360,
+      "end_ms": 131419,
       "lines": [
         {
           "text": "Encara així, sí",
-          "start_ms": 47240,
-          "end_ms": 49240
+          "start_ms": 123360,
+          "end_ms": 128860,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 123360,
+              "end_ms": 124280
+            },
+            {
+              "word": "així,",
+              "start_ms": 124280,
+              "end_ms": 125680
+            },
+            {
+              "word": "sí",
+              "start_ms": 128860,
+              "end_ms": 128860
+            }
+          ]
         },
         {
           "text": "Parlo quan podria callar",
-          "start_ms": 49240,
-          "end_ms": 51240
+          "start_ms": 128860,
+          "end_ms": 129920,
+          "words": [
+            {
+              "word": "Parlo",
+              "start_ms": 128860,
+              "end_ms": 129160,
+              "estimated": true
+            },
+            {
+              "word": "quan",
+              "start_ms": 128860,
+              "end_ms": 129220
+            },
+            {
+              "word": "podria",
+              "start_ms": 129270,
+              "end_ms": 129570,
+              "estimated": true
+            },
+            {
+              "word": "callar",
+              "start_ms": 129620,
+              "end_ms": 129920,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Encara així, sí",
-          "start_ms": 51240,
-          "end_ms": 53240
+          "start_ms": 129220,
+          "end_ms": 128860,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 129220,
+              "end_ms": 129520,
+              "estimated": true
+            },
+            {
+              "word": "així,",
+              "start_ms": 124280,
+              "end_ms": 125680
+            },
+            {
+              "word": "sí",
+              "start_ms": 128860,
+              "end_ms": 128860
+            }
+          ]
         },
         {
           "text": "Dic que sí en veu alta",
-          "start_ms": 53240,
-          "end_ms": 55240
+          "start_ms": 130699,
+          "end_ms": 131819,
+          "words": [
+            {
+              "word": "Dic",
+              "start_ms": 130699,
+              "end_ms": 131300
+            },
+            {
+              "word": "que",
+              "start_ms": 130320,
+              "end_ms": 130419
+            },
+            {
+              "word": "sí",
+              "start_ms": 130469,
+              "end_ms": 130769,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 130819,
+              "end_ms": 131119,
+              "estimated": true
+            },
+            {
+              "word": "veu",
+              "start_ms": 131169,
+              "end_ms": 131469,
+              "estimated": true
+            },
+            {
+              "word": "alta",
+              "start_ms": 131519,
+              "end_ms": 131819,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Encara així, sí",
-          "start_ms": 55240,
-          "end_ms": 57240
+          "start_ms": 130419,
+          "end_ms": 131419,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 130419,
+              "end_ms": 130719,
+              "estimated": true
+            },
+            {
+              "word": "així,",
+              "start_ms": 130769,
+              "end_ms": 131069,
+              "estimated": true
+            },
+            {
+              "word": "sí",
+              "start_ms": 131119,
+              "end_ms": 131419,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 47240,
-      "end_ms": 57240
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 130320,
+      "end_ms": 141780,
       "lines": [
         {
           "text": "Que es faci en mi el que has dit",
-          "start_ms": 60240,
-          "end_ms": 62800
+          "start_ms": 130320,
+          "end_ms": 131300,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 130320,
+              "end_ms": 130419
+            },
+            {
+              "word": "es",
+              "start_ms": 130469,
+              "end_ms": 130769,
+              "estimated": true
+            },
+            {
+              "word": "faci",
+              "start_ms": 130819,
+              "end_ms": 131119,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 131169,
+              "end_ms": 131469,
+              "estimated": true
+            },
+            {
+              "word": "mi",
+              "start_ms": 130020,
+              "end_ms": 130160
+            },
+            {
+              "word": "el",
+              "start_ms": 130160,
+              "end_ms": 130320
+            },
+            {
+              "word": "que",
+              "start_ms": 130320,
+              "end_ms": 130419
+            },
+            {
+              "word": "has",
+              "start_ms": 130419,
+              "end_ms": 130699
+            },
+            {
+              "word": "dit",
+              "start_ms": 130699,
+              "end_ms": 131300
+            }
+          ]
         },
         {
           "text": "I ho dic jo no ho diu ningu mes",
-          "start_ms": 62800,
-          "end_ms": 65280
+          "start_ms": 131300,
+          "end_ms": 134660,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 131300,
+              "end_ms": 131640
+            },
+            {
+              "word": "ho",
+              "start_ms": 131640,
+              "end_ms": 131740
+            },
+            {
+              "word": "dic",
+              "start_ms": 131740,
+              "end_ms": 131880
+            },
+            {
+              "word": "jo",
+              "start_ms": 131880,
+              "end_ms": 132180
+            },
+            {
+              "word": "no",
+              "start_ms": 132180,
+              "end_ms": 132380
+            },
+            {
+              "word": "ho",
+              "start_ms": 132380,
+              "end_ms": 132660
+            },
+            {
+              "word": "diu",
+              "start_ms": 132660,
+              "end_ms": 133020
+            },
+            {
+              "word": "ningu",
+              "start_ms": 133020,
+              "end_ms": 133740
+            },
+            {
+              "word": "mes",
+              "start_ms": 133740,
+              "end_ms": 134660
+            }
+          ]
         },
         {
           "text": "Amb la meva veu que tremola",
-          "start_ms": 65280,
-          "end_ms": 67440
+          "start_ms": 134660,
+          "end_ms": 138340,
+          "words": [
+            {
+              "word": "Amb",
+              "start_ms": 134660,
+              "end_ms": 135540
+            },
+            {
+              "word": "la",
+              "start_ms": 135540,
+              "end_ms": 135760
+            },
+            {
+              "word": "meva",
+              "start_ms": 135760,
+              "end_ms": 136080
+            },
+            {
+              "word": "veu",
+              "start_ms": 136080,
+              "end_ms": 136620
+            },
+            {
+              "word": "que",
+              "start_ms": 136620,
+              "end_ms": 136900
+            },
+            {
+              "word": "tremola",
+              "start_ms": 136900,
+              "end_ms": 138340
+            }
+          ]
         },
         {
           "text": "Amb el meu catala de poble",
-          "start_ms": 67440,
-          "end_ms": 69520
+          "start_ms": 138340,
+          "end_ms": 141780,
+          "words": [
+            {
+              "word": "Amb",
+              "start_ms": 138340,
+              "end_ms": 138780
+            },
+            {
+              "word": "el",
+              "start_ms": 138780,
+              "end_ms": 138980
+            },
+            {
+              "word": "meu",
+              "start_ms": 138980,
+              "end_ms": 139220
+            },
+            {
+              "word": "catala",
+              "start_ms": 139220,
+              "end_ms": 140100
+            },
+            {
+              "word": "de",
+              "start_ms": 140100,
+              "end_ms": 140520
+            },
+            {
+              "word": "poble",
+              "start_ms": 140520,
+              "end_ms": 141780
+            }
+          ]
         }
-      ],
-      "start_ms": 60240,
-      "end_ms": 69520
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 142500,
+      "end_ms": 158760,
       "lines": [
         {
           "text": "Encara així, sí",
-          "start_ms": 72520,
-          "end_ms": 74520
+          "start_ms": 142500,
+          "end_ms": 145780,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 142500,
+              "end_ms": 143540
+            },
+            {
+              "word": "així,",
+              "start_ms": 143540,
+              "end_ms": 144620
+            },
+            {
+              "word": "sí",
+              "start_ms": 145200,
+              "end_ms": 145780
+            }
+          ]
         },
         {
           "text": "Parlo quan podria callar",
-          "start_ms": 74520,
-          "end_ms": 76520
+          "start_ms": 146680,
+          "end_ms": 149520,
+          "words": [
+            {
+              "word": "Parlo",
+              "start_ms": 146680,
+              "end_ms": 147660
+            },
+            {
+              "word": "quan",
+              "start_ms": 147660,
+              "end_ms": 147980
+            },
+            {
+              "word": "podria",
+              "start_ms": 147980,
+              "end_ms": 148520
+            },
+            {
+              "word": "callar",
+              "start_ms": 148520,
+              "end_ms": 149520
+            }
+          ]
         },
         {
           "text": "Encara així, sí",
-          "start_ms": 76520,
-          "end_ms": 78520
+          "start_ms": 149520,
+          "end_ms": 152500,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 149520,
+              "end_ms": 150220
+            },
+            {
+              "word": "així,",
+              "start_ms": 150220,
+              "end_ms": 151380
+            },
+            {
+              "word": "sí",
+              "start_ms": 151780,
+              "end_ms": 152500
+            }
+          ]
         },
         {
           "text": "I la veu ja es meva",
-          "start_ms": 78520,
-          "end_ms": 80520
+          "start_ms": 153500,
+          "end_ms": 155860,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 153500,
+              "end_ms": 154280
+            },
+            {
+              "word": "la",
+              "start_ms": 154280,
+              "end_ms": 154520
+            },
+            {
+              "word": "veu",
+              "start_ms": 154520,
+              "end_ms": 154900
+            },
+            {
+              "word": "ja",
+              "start_ms": 154900,
+              "end_ms": 155100
+            },
+            {
+              "word": "es",
+              "start_ms": 155150,
+              "end_ms": 155450,
+              "estimated": true
+            },
+            {
+              "word": "meva",
+              "start_ms": 155560,
+              "end_ms": 155860
+            }
+          ]
         },
         {
           "text": "Encara així, sí",
-          "start_ms": 80520,
-          "end_ms": 82520
+          "start_ms": 155860,
+          "end_ms": 158760,
+          "words": [
+            {
+              "word": "Encara",
+              "start_ms": 155860,
+              "end_ms": 156940
+            },
+            {
+              "word": "així,",
+              "start_ms": 156940,
+              "end_ms": 158180
+            },
+            {
+              "word": "sí",
+              "start_ms": 158180,
+              "end_ms": 158760
+            }
+          ]
         }
-      ],
-      "start_ms": 72520,
-      "end_ms": 82520
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 163420,
+      "end_ms": 180820,
       "lines": [
         {
           "text": "L'angel se'n va i torna el silenci",
-          "start_ms": 85520,
-          "end_ms": 88240
+          "start_ms": 163420,
+          "end_ms": 166580,
+          "words": [
+            {
+              "word": "L'angel",
+              "start_ms": 163420,
+              "end_ms": 164160
+            },
+            {
+              "word": "se'n",
+              "start_ms": 164160,
+              "end_ms": 164440
+            },
+            {
+              "word": "va",
+              "start_ms": 164500,
+              "end_ms": 164680
+            },
+            {
+              "word": "i",
+              "start_ms": 164680,
+              "end_ms": 164880
+            },
+            {
+              "word": "torna",
+              "start_ms": 164880,
+              "end_ms": 165200
+            },
+            {
+              "word": "el",
+              "start_ms": 167240,
+              "end_ms": 167560
+            },
+            {
+              "word": "silenci",
+              "start_ms": 165500,
+              "end_ms": 166580
+            }
+          ]
         },
         {
           "text": "Pero el silenci ara es diferent",
-          "start_ms": 88240,
-          "end_ms": 90720
+          "start_ms": 166580,
+          "end_ms": 169500,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 166580,
+              "end_ms": 167240
+            },
+            {
+              "word": "el",
+              "start_ms": 167240,
+              "end_ms": 167560
+            },
+            {
+              "word": "silenci",
+              "start_ms": 165500,
+              "end_ms": 166580
+            },
+            {
+              "word": "ara",
+              "start_ms": 168140,
+              "end_ms": 168400
+            },
+            {
+              "word": "es",
+              "start_ms": 168450,
+              "end_ms": 168750,
+              "estimated": true
+            },
+            {
+              "word": "diferent",
+              "start_ms": 168780,
+              "end_ms": 169500
+            }
+          ]
         },
         {
           "text": "Perque ja hi ha un sí dit en veu alta",
-          "start_ms": 90720,
-          "end_ms": 93680
+          "start_ms": 170220,
+          "end_ms": 178640,
+          "words": [
+            {
+              "word": "Perque",
+              "start_ms": 170220,
+              "end_ms": 171440
+            },
+            {
+              "word": "ja",
+              "start_ms": 171440,
+              "end_ms": 171760
+            },
+            {
+              "word": "hi",
+              "start_ms": 171760,
+              "end_ms": 171900
+            },
+            {
+              "word": "ha",
+              "start_ms": 171900,
+              "end_ms": 171980
+            },
+            {
+              "word": "un",
+              "start_ms": 171980,
+              "end_ms": 172280
+            },
+            {
+              "word": "sí",
+              "start_ms": 172330,
+              "end_ms": 172630,
+              "estimated": true
+            },
+            {
+              "word": "dit",
+              "start_ms": 172280,
+              "end_ms": 172680
+            },
+            {
+              "word": "en",
+              "start_ms": 177660,
+              "end_ms": 177940
+            },
+            {
+              "word": "veu",
+              "start_ms": 177990,
+              "end_ms": 178290,
+              "estimated": true
+            },
+            {
+              "word": "alta",
+              "start_ms": 178340,
+              "end_ms": 178640,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Que ressona entre aquestes parets",
-          "start_ms": 93680,
-          "end_ms": 96320
+          "start_ms": 176220,
+          "end_ms": 180820,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 176220,
+              "end_ms": 176800
+            },
+            {
+              "word": "ressona",
+              "start_ms": 176800,
+              "end_ms": 177660
+            },
+            {
+              "word": "entre",
+              "start_ms": 177660,
+              "end_ms": 177940
+            },
+            {
+              "word": "aquestes",
+              "start_ms": 177940,
+              "end_ms": 179640
+            },
+            {
+              "word": "parets",
+              "start_ms": 179640,
+              "end_ms": 180820
+            }
+          ]
         }
-      ],
-      "start_ms": 85520,
-      "end_ms": 96320
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 99320,
-          "end_ms": 101320
-        }
-      ],
-      "start_ms": 99320,
-      "end_ms": 101320
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Podria callar podria fer veure",
+      "section_type": "chorus",
+      "start_ms": 36019,
+      "end_ms": 50780,
+      "key_line": "Podria callar podria fer veure",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Encara així, sí",
+      "section_type": "chorus",
+      "start_ms": 51879,
+      "end_ms": 71100,
+      "key_line": "Encara així, sí",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - No se parlar com parla un ange...",
+      "section_type": "chorus",
+      "start_ms": 94900,
+      "end_ms": 123710,
+      "key_line": "No se parlar com parla un angel",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Encara així, sí",
+      "section_type": "chorus",
+      "start_ms": 123360,
+      "end_ms": 131419,
+      "key_line": "Encara així, sí",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 130320,
+      "end_ms": 141780,
+      "key_line": "Que es faci en mi el que has dit",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Encara així, sí",
+      "section_type": "chorus",
+      "start_ms": 142500,
+      "end_ms": 158760,
+      "key_line": "Encara així, sí",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/catalan/42_luke_01_1-26_transcript.json"
 }

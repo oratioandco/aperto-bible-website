@@ -7,269 +7,956 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 185360,
   "audio_file": "/audio/songs/luke_01/lithuanian/_Aušra_ — Luke 1_67-79 (Lithuanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.157606+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.004398+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.975,
   "sections": [
     {
       "type": "verse",
       "label": "Whispered",
+      "start_ms": 8820,
+      "end_ms": 25200,
       "lines": [
         {
           "text": "Dar tamsu",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 8820,
+          "end_ms": 10700,
+          "words": [
+            {
+              "word": "Dar",
+              "start_ms": 8820,
+              "end_ms": 10220
+            },
+            {
+              "word": "tamsu",
+              "start_ms": 10220,
+              "end_ms": 10700
+            }
+          ]
         },
         {
           "text": "dar naktis",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 8820,
+          "end_ms": 17840,
+          "words": [
+            {
+              "word": "dar",
+              "start_ms": 8820,
+              "end_ms": 10220
+            },
+            {
+              "word": "naktis",
+              "start_ms": 14620,
+              "end_ms": 17840
+            }
+          ]
         },
         {
           "text": "bet tu kvėpuoji man ant peties",
-          "start_ms": 10000,
-          "end_ms": 12400
+          "start_ms": 17840,
+          "end_ms": 25200,
+          "words": [
+            {
+              "word": "bet",
+              "start_ms": 17840,
+              "end_ms": 18760
+            },
+            {
+              "word": "tu",
+              "start_ms": 18760,
+              "end_ms": 19040
+            },
+            {
+              "word": "kvėpuoji",
+              "start_ms": 19040,
+              "end_ms": 20780
+            },
+            {
+              "word": "man",
+              "start_ms": 20780,
+              "end_ms": 21560
+            },
+            {
+              "word": "ant",
+              "start_ms": 21560,
+              "end_ms": 23560
+            },
+            {
+              "word": "peties",
+              "start_ms": 23560,
+              "end_ms": 25200
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 12400
+      ]
     },
     {
       "type": "verse",
       "label": "Soft",
+      "start_ms": 26200,
+      "end_ms": 45200,
       "lines": [
         {
           "text": "O tu vaike",
-          "start_ms": 15400,
-          "end_ms": 17400
+          "start_ms": 26200,
+          "end_ms": 31880,
+          "words": [
+            {
+              "word": "O",
+              "start_ms": 26200,
+              "end_ms": 27700
+            },
+            {
+              "word": "tu",
+              "start_ms": 27700,
+              "end_ms": 28020
+            },
+            {
+              "word": "vaike",
+              "start_ms": 28020,
+              "end_ms": 31880
+            }
+          ]
         },
         {
           "text": "toks mažas",
-          "start_ms": 17400,
-          "end_ms": 19400
+          "start_ms": 31880,
+          "end_ms": 34940,
+          "words": [
+            {
+              "word": "toks",
+              "start_ms": 31880,
+              "end_ms": 32980
+            },
+            {
+              "word": "mažas",
+              "start_ms": 32980,
+              "end_ms": 34940
+            }
+          ]
         },
         {
           "text": "toks lengvas",
-          "start_ms": 19400,
-          "end_ms": 21400
+          "start_ms": 31880,
+          "end_ms": 38200,
+          "words": [
+            {
+              "word": "toks",
+              "start_ms": 31880,
+              "end_ms": 32980
+            },
+            {
+              "word": "lengvas",
+              "start_ms": 37400,
+              "end_ms": 38200
+            }
+          ]
         },
         {
           "text": "visas pasaulis dar nežino tavo vardo",
-          "start_ms": 21400,
-          "end_ms": 24280
+          "start_ms": 38840,
+          "end_ms": 45200,
+          "words": [
+            {
+              "word": "visas",
+              "start_ms": 38840,
+              "end_ms": 39660
+            },
+            {
+              "word": "pasaulis",
+              "start_ms": 39660,
+              "end_ms": 40720
+            },
+            {
+              "word": "dar",
+              "start_ms": 40720,
+              "end_ms": 41240
+            },
+            {
+              "word": "nežino",
+              "start_ms": 41240,
+              "end_ms": 43100
+            },
+            {
+              "word": "tavo",
+              "start_ms": 43100,
+              "end_ms": 44120
+            },
+            {
+              "word": "vardo",
+              "start_ms": 44120,
+              "end_ms": 45200
+            }
+          ]
         }
-      ],
-      "start_ms": 15400,
-      "end_ms": 24280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 46200,
+      "end_ms": 63200,
       "lines": [
         {
           "text": "Jie laukė kažko didelio",
-          "start_ms": 27280,
-          "end_ms": 29280
+          "start_ms": 46200,
+          "end_ms": 50200,
+          "words": [
+            {
+              "word": "Jie",
+              "start_ms": 46200,
+              "end_ms": 47720
+            },
+            {
+              "word": "laukė",
+              "start_ms": 47720,
+              "end_ms": 48180
+            },
+            {
+              "word": "kažko",
+              "start_ms": 48180,
+              "end_ms": 48800
+            },
+            {
+              "word": "didelio",
+              "start_ms": 48800,
+              "end_ms": 50200
+            }
+          ]
         },
         {
           "text": "laukė stipraus ir galingojo",
-          "start_ms": 29280,
-          "end_ms": 31440
+          "start_ms": 47720,
+          "end_ms": 55180,
+          "words": [
+            {
+              "word": "laukė",
+              "start_ms": 47720,
+              "end_ms": 48180
+            },
+            {
+              "word": "stipraus",
+              "start_ms": 51800,
+              "end_ms": 52640
+            },
+            {
+              "word": "ir",
+              "start_ms": 52640,
+              "end_ms": 53220
+            },
+            {
+              "word": "galingojo",
+              "start_ms": 53220,
+              "end_ms": 55180
+            }
+          ]
         },
         {
           "text": "o tu tiesiog miegi",
-          "start_ms": 31440,
-          "end_ms": 33440
+          "start_ms": 55180,
+          "end_ms": 58200,
+          "words": [
+            {
+              "word": "o",
+              "start_ms": 55180,
+              "end_ms": 55480,
+              "estimated": true
+            },
+            {
+              "word": "tu",
+              "start_ms": 55180,
+              "end_ms": 55700
+            },
+            {
+              "word": "tiesiog",
+              "start_ms": 55700,
+              "end_ms": 56420
+            },
+            {
+              "word": "miegi",
+              "start_ms": 56420,
+              "end_ms": 58200
+            }
+          ]
         },
         {
           "text": "susirietęs ant mano rankų",
-          "start_ms": 33440,
-          "end_ms": 35440
+          "start_ms": 58740,
+          "end_ms": 63200,
+          "words": [
+            {
+              "word": "susirietęs",
+              "start_ms": 58740,
+              "end_ms": 60640
+            },
+            {
+              "word": "ant",
+              "start_ms": 60640,
+              "end_ms": 61060
+            },
+            {
+              "word": "mano",
+              "start_ms": 61060,
+              "end_ms": 61760
+            },
+            {
+              "word": "rankų",
+              "start_ms": 61760,
+              "end_ms": 63200
+            }
+          ]
         }
-      ],
-      "start_ms": 27280,
-      "end_ms": 35440
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 64239,
+      "end_ms": 80020,
       "lines": [
         {
           "text": "Tu eisi pirma visko",
-          "start_ms": 38440,
-          "end_ms": 40440
+          "start_ms": 64239,
+          "end_ms": 67940,
+          "words": [
+            {
+              "word": "Tu",
+              "start_ms": 64239,
+              "end_ms": 64959
+            },
+            {
+              "word": "eisi",
+              "start_ms": 64959,
+              "end_ms": 65440
+            },
+            {
+              "word": "pirma",
+              "start_ms": 65440,
+              "end_ms": 66360
+            },
+            {
+              "word": "visko",
+              "start_ms": 66360,
+              "end_ms": 67940
+            }
+          ]
         },
         {
           "text": "tu paruoši kelią",
-          "start_ms": 40440,
-          "end_ms": 42440
+          "start_ms": 68920,
+          "end_ms": 72520,
+          "words": [
+            {
+              "word": "tu",
+              "start_ms": 68920,
+              "end_ms": 69620
+            },
+            {
+              "word": "paruoši",
+              "start_ms": 69620,
+              "end_ms": 70660
+            },
+            {
+              "word": "kelią",
+              "start_ms": 70660,
+              "end_ms": 72520
+            }
+          ]
         },
         {
           "text": "bet dabar dar ne",
-          "start_ms": 42440,
-          "end_ms": 44440
+          "start_ms": 72780,
+          "end_ms": 75160,
+          "words": [
+            {
+              "word": "bet",
+              "start_ms": 72780,
+              "end_ms": 72940
+            },
+            {
+              "word": "dabar",
+              "start_ms": 72940,
+              "end_ms": 73680
+            },
+            {
+              "word": "dar",
+              "start_ms": 73680,
+              "end_ms": 74020
+            },
+            {
+              "word": "ne",
+              "start_ms": 74020,
+              "end_ms": 75160
+            }
+          ]
         },
         {
           "text": "dabar dar miegok",
-          "start_ms": 44440,
-          "end_ms": 46440
+          "start_ms": 72940,
+          "end_ms": 80020,
+          "words": [
+            {
+              "word": "dabar",
+              "start_ms": 72940,
+              "end_ms": 73680
+            },
+            {
+              "word": "dar",
+              "start_ms": 73680,
+              "end_ms": 74020
+            },
+            {
+              "word": "miegok",
+              "start_ms": 77320,
+              "end_ms": 80020
+            }
+          ]
         }
-      ],
-      "start_ms": 38440,
-      "end_ms": 46440
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 84680,
+      "end_ms": 96320,
       "lines": [
         {
           "text": "Aušra",
-          "start_ms": 49440,
-          "end_ms": 51440
+          "start_ms": 84680,
+          "end_ms": 85560,
+          "words": [
+            {
+              "word": "Aušra",
+              "start_ms": 84680,
+              "end_ms": 85560
+            }
+          ]
         },
         {
           "text": "aušra ateina tau",
-          "start_ms": 51440,
-          "end_ms": 53440
+          "start_ms": 84680,
+          "end_ms": 87780,
+          "words": [
+            {
+              "word": "aušra",
+              "start_ms": 84680,
+              "end_ms": 85560
+            },
+            {
+              "word": "ateina",
+              "start_ms": 85560,
+              "end_ms": 86360
+            },
+            {
+              "word": "tau",
+              "start_ms": 86360,
+              "end_ms": 87780
+            }
+          ]
         },
         {
           "text": "iš pačių gelmių",
-          "start_ms": 53440,
-          "end_ms": 55440
+          "start_ms": 88940,
+          "end_ms": 91940,
+          "words": [
+            {
+              "word": "iš",
+              "start_ms": 88940,
+              "end_ms": 89720
+            },
+            {
+              "word": "pačių",
+              "start_ms": 89720,
+              "end_ms": 90260
+            },
+            {
+              "word": "gelmių",
+              "start_ms": 90260,
+              "end_ms": 91940
+            }
+          ]
         },
         {
           "text": "iš pačio gerumo",
-          "start_ms": 55440,
-          "end_ms": 57440
+          "start_ms": 88940,
+          "end_ms": 96320,
+          "words": [
+            {
+              "word": "iš",
+              "start_ms": 88940,
+              "end_ms": 89720
+            },
+            {
+              "word": "pačio",
+              "start_ms": 89720,
+              "end_ms": 90260
+            },
+            {
+              "word": "gerumo",
+              "start_ms": 95000,
+              "end_ms": 96320
+            }
+          ]
         }
-      ],
-      "start_ms": 49440,
-      "end_ms": 57440
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 98940,
+      "end_ms": 113840,
       "lines": [
         {
           "text": "Aš tylėjau devynis mėnesius",
-          "start_ms": 60440,
-          "end_ms": 62600
+          "start_ms": 98940,
+          "end_ms": 102940,
+          "words": [
+            {
+              "word": "Aš",
+              "start_ms": 98940,
+              "end_ms": 99700
+            },
+            {
+              "word": "tylėjau",
+              "start_ms": 99700,
+              "end_ms": 100740
+            },
+            {
+              "word": "devynis",
+              "start_ms": 100740,
+              "end_ms": 101940
+            },
+            {
+              "word": "mėnesius",
+              "start_ms": 101940,
+              "end_ms": 102940
+            }
+          ]
         },
         {
           "text": "negalėjau ištarti nė žodžio",
-          "start_ms": 62600,
-          "end_ms": 64760
+          "start_ms": 103580,
+          "end_ms": 107380,
+          "words": [
+            {
+              "word": "negalėjau",
+              "start_ms": 103580,
+              "end_ms": 105240
+            },
+            {
+              "word": "ištarti",
+              "start_ms": 105580,
+              "end_ms": 106320
+            },
+            {
+              "word": "nė",
+              "start_ms": 106370,
+              "end_ms": 106670,
+              "estimated": true
+            },
+            {
+              "word": "žodžio",
+              "start_ms": 106320,
+              "end_ms": 107380
+            }
+          ]
         },
         {
           "text": "ir pirmas žodis kuris grįžta",
-          "start_ms": 64760,
-          "end_ms": 67000
+          "start_ms": 107380,
+          "end_ms": 112160,
+          "words": [
+            {
+              "word": "ir",
+              "start_ms": 107380,
+              "end_ms": 107780
+            },
+            {
+              "word": "pirmas",
+              "start_ms": 107780,
+              "end_ms": 108540
+            },
+            {
+              "word": "žodis",
+              "start_ms": 106320,
+              "end_ms": 107380
+            },
+            {
+              "word": "kuris",
+              "start_ms": 110040,
+              "end_ms": 110540
+            },
+            {
+              "word": "grįžta",
+              "start_ms": 110540,
+              "end_ms": 112160
+            }
+          ]
         },
         {
           "text": "esi tu",
-          "start_ms": 67000,
-          "end_ms": 69000
+          "start_ms": 112160,
+          "end_ms": 113840,
+          "words": [
+            {
+              "word": "esi",
+              "start_ms": 112160,
+              "end_ms": 113120
+            },
+            {
+              "word": "tu",
+              "start_ms": 113120,
+              "end_ms": 113840
+            }
+          ]
         }
-      ],
-      "start_ms": 60440,
-      "end_ms": 69000
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 115940,
+      "end_ms": 134440,
       "lines": [
         {
           "text": "O tu vaike",
-          "start_ms": 72000,
-          "end_ms": 74000
+          "start_ms": 115940,
+          "end_ms": 117940,
+          "words": [
+            {
+              "word": "O",
+              "start_ms": 115940,
+              "end_ms": 116640
+            },
+            {
+              "word": "tu",
+              "start_ms": 113120,
+              "end_ms": 113840
+            },
+            {
+              "word": "vaike",
+              "start_ms": 116980,
+              "end_ms": 117940
+            }
+          ]
         },
         {
           "text": "aš maniau mums reikia pergalės",
-          "start_ms": 74000,
-          "end_ms": 76400
+          "start_ms": 118740,
+          "end_ms": 123120,
+          "words": [
+            {
+              "word": "aš",
+              "start_ms": 118740,
+              "end_ms": 119760
+            },
+            {
+              "word": "maniau",
+              "start_ms": 119760,
+              "end_ms": 120060
+            },
+            {
+              "word": "mums",
+              "start_ms": 120260,
+              "end_ms": 120560
+            },
+            {
+              "word": "reikia",
+              "start_ms": 120560,
+              "end_ms": 121080
+            },
+            {
+              "word": "pergalės",
+              "start_ms": 121080,
+              "end_ms": 123120
+            }
+          ]
         },
         {
           "text": "aš maniau mums reikia laisvės nuo priešų",
-          "start_ms": 76400,
-          "end_ms": 79600
+          "start_ms": 123520,
+          "end_ms": 128880,
+          "words": [
+            {
+              "word": "aš",
+              "start_ms": 123520,
+              "end_ms": 124160
+            },
+            {
+              "word": "maniau",
+              "start_ms": 124160,
+              "end_ms": 124500
+            },
+            {
+              "word": "mums",
+              "start_ms": 124700,
+              "end_ms": 125000
+            },
+            {
+              "word": "reikia",
+              "start_ms": 125000,
+              "end_ms": 125520
+            },
+            {
+              "word": "laisvės",
+              "start_ms": 125520,
+              "end_ms": 126400
+            },
+            {
+              "word": "nuo",
+              "start_ms": 126400,
+              "end_ms": 126660
+            },
+            {
+              "word": "priešų",
+              "start_ms": 126660,
+              "end_ms": 128880
+            }
+          ]
         },
         {
           "text": "o mums reikėjo tik šito ryto",
-          "start_ms": 79600,
-          "end_ms": 81840
+          "start_ms": 128880,
+          "end_ms": 134440,
+          "words": [
+            {
+              "word": "o",
+              "start_ms": 128880,
+              "end_ms": 129440
+            },
+            {
+              "word": "mums",
+              "start_ms": 129440,
+              "end_ms": 129759
+            },
+            {
+              "word": "reikėjo",
+              "start_ms": 129759,
+              "end_ms": 131320
+            },
+            {
+              "word": "tik",
+              "start_ms": 131320,
+              "end_ms": 131640
+            },
+            {
+              "word": "šito",
+              "start_ms": 131640,
+              "end_ms": 132220
+            },
+            {
+              "word": "ryto",
+              "start_ms": 132220,
+              "end_ms": 134440
+            }
+          ]
         }
-      ],
-      "start_ms": 72000,
-      "end_ms": 81840
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 138140,
+      "end_ms": 150120,
       "lines": [
         {
           "text": "Aušra",
-          "start_ms": 84840,
-          "end_ms": 86840
+          "start_ms": 138140,
+          "end_ms": 138700,
+          "words": [
+            {
+              "word": "Aušra",
+              "start_ms": 138140,
+              "end_ms": 138700
+            }
+          ]
         },
         {
           "text": "aušra iš aukštybių",
-          "start_ms": 86840,
-          "end_ms": 88840
+          "start_ms": 138140,
+          "end_ms": 141360,
+          "words": [
+            {
+              "word": "aušra",
+              "start_ms": 138140,
+              "end_ms": 138700
+            },
+            {
+              "word": "iš",
+              "start_ms": 138700,
+              "end_ms": 139040
+            },
+            {
+              "word": "aukštybių",
+              "start_ms": 139040,
+              "end_ms": 141360
+            }
+          ]
         },
         {
           "text": "nušvisti tiems kas sėdi tamsoje",
-          "start_ms": 88840,
-          "end_ms": 91320
+          "start_ms": 141360,
+          "end_ms": 146100,
+          "words": [
+            {
+              "word": "nušvisti",
+              "start_ms": 141360,
+              "end_ms": 142200
+            },
+            {
+              "word": "tiems",
+              "start_ms": 142200,
+              "end_ms": 142860
+            },
+            {
+              "word": "kas",
+              "start_ms": 142980,
+              "end_ms": 143300
+            },
+            {
+              "word": "sėdi",
+              "start_ms": 143300,
+              "end_ms": 143920
+            },
+            {
+              "word": "tamsoje",
+              "start_ms": 143920,
+              "end_ms": 146100
+            }
+          ]
         },
         {
           "text": "nukreipti mūsų žingsnius",
-          "start_ms": 91320,
-          "end_ms": 93320
+          "start_ms": 147120,
+          "end_ms": 150120,
+          "words": [
+            {
+              "word": "nukreipti",
+              "start_ms": 147120,
+              "end_ms": 147960
+            },
+            {
+              "word": "mūsų",
+              "start_ms": 147960,
+              "end_ms": 148640
+            },
+            {
+              "word": "žingsnius",
+              "start_ms": 148640,
+              "end_ms": 150120
+            }
+          ]
         }
-      ],
-      "start_ms": 84840,
-      "end_ms": 93320
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 153540,
+      "end_ms": 163400,
       "lines": [
         {
           "text": "Ramybės keliu",
-          "start_ms": 96320,
-          "end_ms": 98320
+          "start_ms": 153540,
+          "end_ms": 156340,
+          "words": [
+            {
+              "word": "Ramybės",
+              "start_ms": 153540,
+              "end_ms": 154940
+            },
+            {
+              "word": "keliu",
+              "start_ms": 154940,
+              "end_ms": 156340
+            }
+          ]
         },
         {
           "text": "miegok vaike",
-          "start_ms": 98320,
-          "end_ms": 100320
+          "start_ms": 156340,
+          "end_ms": 158120,
+          "words": [
+            {
+              "word": "miegok",
+              "start_ms": 156340,
+              "end_ms": 157260
+            },
+            {
+              "word": "vaike",
+              "start_ms": 157260,
+              "end_ms": 158120
+            }
+          ]
         },
         {
           "text": "aušra jau čia",
-          "start_ms": 100320,
-          "end_ms": 102320
+          "start_ms": 160660,
+          "end_ms": 163400,
+          "words": [
+            {
+              "word": "aušra",
+              "start_ms": 160660,
+              "end_ms": 162060
+            },
+            {
+              "word": "jau",
+              "start_ms": 162110,
+              "end_ms": 162410,
+              "estimated": true
+            },
+            {
+              "word": "čia",
+              "start_ms": 162060,
+              "end_ms": 163400
+            }
+          ]
         }
-      ],
-      "start_ms": 96320,
-      "end_ms": 102320
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 105320,
-          "end_ms": 107320
-        }
-      ],
-      "start_ms": 105320,
-      "end_ms": 107320
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Aušra",
+      "section_type": "chorus",
+      "start_ms": 84680,
+      "end_ms": 96320,
+      "key_line": "Aušra",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 115940,
+      "end_ms": 134440,
+      "key_line": "O tu vaike",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Aušra",
+      "section_type": "chorus",
+      "start_ms": 138140,
+      "end_ms": 150120,
+      "key_line": "Aušra",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/lithuanian/42_luke_01_1-67_transcript.json"
 }

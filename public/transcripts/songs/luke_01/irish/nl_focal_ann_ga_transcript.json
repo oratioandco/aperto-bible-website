@@ -7,261 +7,1571 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 152840,
   "audio_file": "/audio/songs/luke_01/irish/Luke 1_26-38 — _Níl Focal Ann_ (Irish).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.094470+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.990478+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.066,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 14319,
+      "end_ms": 17820,
       "lines": [
         {
           "text": "Ní raibh mé ag fanacht le haingeal",
-          "start_ms": 6000,
-          "end_ms": 8720
+          "start_ms": 14319,
+          "end_ms": 17870,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 14319,
+              "end_ms": 14619,
+              "estimated": true
+            },
+            {
+              "word": "raibh",
+              "start_ms": 16120,
+              "end_ms": 16120
+            },
+            {
+              "word": "mé",
+              "start_ms": 16170,
+              "end_ms": 16470,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 16520,
+              "end_ms": 16820,
+              "estimated": true
+            },
+            {
+              "word": "fanacht",
+              "start_ms": 16870,
+              "end_ms": 17170,
+              "estimated": true
+            },
+            {
+              "word": "le",
+              "start_ms": 17220,
+              "end_ms": 17520,
+              "estimated": true
+            },
+            {
+              "word": "haingeal",
+              "start_ms": 17570,
+              "end_ms": 17870,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ní raibh mé ag guí ar mo ghlúine",
-          "start_ms": 8720,
-          "end_ms": 11280
+          "start_ms": 16120,
+          "end_ms": 16470,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "raibh",
+              "start_ms": 16120,
+              "end_ms": 16120
+            },
+            {
+              "word": "mé",
+              "start_ms": 16170,
+              "end_ms": 16470,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 16520,
+              "end_ms": 16820,
+              "estimated": true
+            },
+            {
+              "word": "guí",
+              "start_ms": 16870,
+              "end_ms": 17170,
+              "estimated": true
+            },
+            {
+              "word": "ar",
+              "start_ms": 17220,
+              "end_ms": 17520,
+              "estimated": true
+            },
+            {
+              "word": "mo",
+              "start_ms": 16120,
+              "end_ms": 16120
+            },
+            {
+              "word": "ghlúine",
+              "start_ms": 16170,
+              "end_ms": 16470,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Bhí mé sa bhaile, gnáth-lá",
-          "start_ms": 11280,
-          "end_ms": 13360
+          "start_ms": 16120,
+          "end_ms": 17820,
+          "words": [
+            {
+              "word": "Bhí",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "bhaile,",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "gnáth-lá",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nuair a d'athraigh an t-aer",
-          "start_ms": 13360,
-          "end_ms": 15520
+          "start_ms": 16120,
+          "end_ms": 17820,
+          "words": [
+            {
+              "word": "Nuair",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "d'athraigh",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "t-aer",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15520
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 16120,
+      "end_ms": 18870,
       "lines": [
         {
           "text": "Dúirt sé rudaí móra",
-          "start_ms": 18520,
-          "end_ms": 20520
+          "start_ms": 16120,
+          "end_ms": 16120,
+          "words": [
+            {
+              "word": "Dúirt",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "rudaí",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "móra",
+              "start_ms": 16120,
+              "end_ms": 16120
+            }
+          ]
         },
         {
           "text": "Cathaoireacha ríoga, ríocht gan chríoch",
-          "start_ms": 20520,
-          "end_ms": 23640
+          "start_ms": 16120,
+          "end_ms": 17820,
+          "words": [
+            {
+              "word": "Cathaoireacha",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "ríoga,",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "ríocht",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "gan",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "chríoch",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ach an rud a stop mé",
-          "start_ms": 23640,
-          "end_ms": 25640
+          "start_ms": 16120,
+          "end_ms": 18170,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "stop",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 17870,
+              "end_ms": 18170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "\"Conas?\" — sin an méid a bhí agam",
-          "start_ms": 25640,
-          "end_ms": 28280
+          "start_ms": 16120,
+          "end_ms": 18870,
+          "words": [
+            {
+              "word": "\"Conas?\"",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "sin",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "méid",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 17870,
+              "end_ms": 18170,
+              "estimated": true
+            },
+            {
+              "word": "bhí",
+              "start_ms": 18220,
+              "end_ms": 18520,
+              "estimated": true
+            },
+            {
+              "word": "agam",
+              "start_ms": 18570,
+              "end_ms": 18870,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 18520,
-      "end_ms": 28280
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 16120,
+      "end_ms": 18520,
       "lines": [
         {
           "text": "Sa Ghaeilge níl focal do \"sea\"",
-          "start_ms": 31280,
-          "end_ms": 33680
+          "start_ms": 16120,
+          "end_ms": 18170,
+          "words": [
+            {
+              "word": "Sa",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "Ghaeilge",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "níl",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "do",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            },
+            {
+              "word": "\"sea\"",
+              "start_ms": 17870,
+              "end_ms": 18170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ní leor focal amháin",
-          "start_ms": 33680,
-          "end_ms": 35680
+          "start_ms": 16120,
+          "end_ms": 16820,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "leor",
+              "start_ms": 16120,
+              "end_ms": 16120
+            },
+            {
+              "word": "focal",
+              "start_ms": 16170,
+              "end_ms": 16470,
+              "estimated": true
+            },
+            {
+              "word": "amháin",
+              "start_ms": 16520,
+              "end_ms": 16820,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Caithfidh tú tú féin a chur ann",
-          "start_ms": 35680,
-          "end_ms": 38160
+          "start_ms": 16120,
+          "end_ms": 18520,
+          "words": [
+            {
+              "word": "Caithfidh",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "tú",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "tú",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "féin",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            },
+            {
+              "word": "chur",
+              "start_ms": 17870,
+              "end_ms": 18170,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 18220,
+              "end_ms": 18520,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 31280,
-      "end_ms": 38160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 16120,
+      "end_ms": 17120,
       "lines": [
         {
           "text": "Níl focal ann",
-          "start_ms": 41160,
-          "end_ms": 43160
+          "start_ms": 16120,
+          "end_ms": 17120,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Níl focal ann don rud seo",
-          "start_ms": 43160,
-          "end_ms": 45160
+          "start_ms": 16120,
+          "end_ms": 18170,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "don",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 17870,
+              "end_ms": 18170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ach dúirt mé é — le mo chorp ar fad",
-          "start_ms": 45160,
-          "end_ms": 47960
+          "start_ms": 16120,
+          "end_ms": 16120,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "dúirt",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "é",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            },
+            {
+              "word": "le",
+              "start_ms": 17870,
+              "end_ms": 18170,
+              "estimated": true
+            },
+            {
+              "word": "mo",
+              "start_ms": 16120,
+              "end_ms": 16120
+            },
+            {
+              "word": "chorp",
+              "start_ms": 16170,
+              "end_ms": 16470,
+              "estimated": true
+            },
+            {
+              "word": "ar",
+              "start_ms": 16520,
+              "end_ms": 16820,
+              "estimated": true
+            },
+            {
+              "word": "fad",
+              "start_ms": 16120,
+              "end_ms": 16120
+            }
+          ]
         },
         {
           "text": "Níl focal ann ach fós",
-          "start_ms": 47960,
-          "end_ms": 49960
+          "start_ms": 16120,
+          "end_ms": 17820,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            },
+            {
+              "word": "ach",
+              "start_ms": 17170,
+              "end_ms": 17470,
+              "estimated": true
+            },
+            {
+              "word": "fós",
+              "start_ms": 17520,
+              "end_ms": 17820,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Go ndéantar liom",
-          "start_ms": 49960,
-          "end_ms": 51960
+          "start_ms": 16120,
+          "end_ms": 17120,
+          "words": [
+            {
+              "word": "Go",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "ndéantar",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "liom",
+              "start_ms": 16820,
+              "end_ms": 17120,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 41160,
-      "end_ms": 51960
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 16120,
+      "end_ms": 30600,
       "lines": [
         {
           "text": "Bhí eagla orm — ní hé sin an cheist",
-          "start_ms": 54960,
-          "end_ms": 57760
+          "start_ms": 16120,
+          "end_ms": 19050,
+          "words": [
+            {
+              "word": "Bhí",
+              "start_ms": 16120,
+              "end_ms": 16420,
+              "estimated": true
+            },
+            {
+              "word": "eagla",
+              "start_ms": 16470,
+              "end_ms": 16770,
+              "estimated": true
+            },
+            {
+              "word": "orm",
+              "start_ms": 16440,
+              "end_ms": 16440
+            },
+            {
+              "word": "—",
+              "start_ms": 16490,
+              "end_ms": 16790,
+              "estimated": true
+            },
+            {
+              "word": "ní",
+              "start_ms": 16840,
+              "end_ms": 17140,
+              "estimated": true
+            },
+            {
+              "word": "hé",
+              "start_ms": 17190,
+              "end_ms": 17490,
+              "estimated": true
+            },
+            {
+              "word": "sin",
+              "start_ms": 17540,
+              "end_ms": 17840,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 18700,
+              "end_ms": 18700
+            },
+            {
+              "word": "cheist",
+              "start_ms": 18750,
+              "end_ms": 19050,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Bhí eagla orm agus dúirt mé é fós",
-          "start_ms": 57760,
-          "end_ms": 60400
+          "start_ms": 18700,
+          "end_ms": 29530,
+          "words": [
+            {
+              "word": "Bhí",
+              "start_ms": 18700,
+              "end_ms": 19000,
+              "estimated": true
+            },
+            {
+              "word": "eagla",
+              "start_ms": 19050,
+              "end_ms": 19350,
+              "estimated": true
+            },
+            {
+              "word": "orm",
+              "start_ms": 27400,
+              "end_ms": 27780
+            },
+            {
+              "word": "agus",
+              "start_ms": 27830,
+              "end_ms": 28130,
+              "estimated": true
+            },
+            {
+              "word": "dúirt",
+              "start_ms": 28180,
+              "end_ms": 28480,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 28530,
+              "end_ms": 28830,
+              "estimated": true
+            },
+            {
+              "word": "é",
+              "start_ms": 28880,
+              "end_ms": 29180,
+              "estimated": true
+            },
+            {
+              "word": "fós",
+              "start_ms": 29230,
+              "end_ms": 29530,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Sin an rud faoi \"sea\" gan focal —",
-          "start_ms": 60400,
-          "end_ms": 63040
+          "start_ms": 27780,
+          "end_ms": 30300,
+          "words": [
+            {
+              "word": "Sin",
+              "start_ms": 27780,
+              "end_ms": 28080,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 28130,
+              "end_ms": 28430,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 28480,
+              "end_ms": 28780,
+              "estimated": true
+            },
+            {
+              "word": "faoi",
+              "start_ms": 28900,
+              "end_ms": 28900
+            },
+            {
+              "word": "\"sea\"",
+              "start_ms": 28950,
+              "end_ms": 29250,
+              "estimated": true
+            },
+            {
+              "word": "gan",
+              "start_ms": 29300,
+              "end_ms": 29600,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29650,
+              "end_ms": 29950,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 30000,
+              "end_ms": 30300,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Is tú féin an freagra",
-          "start_ms": 63040,
-          "end_ms": 65040
+          "start_ms": 28900,
+          "end_ms": 30600,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "tú",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "féin",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "freagra",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 54960,
-      "end_ms": 65040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 28900,
+      "end_ms": 29900,
       "lines": [
         {
           "text": "Níl focal ann",
-          "start_ms": 68040,
-          "end_ms": 70040
+          "start_ms": 28900,
+          "end_ms": 29900,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Níl focal ann don rud seo",
-          "start_ms": 70040,
-          "end_ms": 72040
+          "start_ms": 28900,
+          "end_ms": 30950,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "don",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 30650,
+              "end_ms": 30950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ach dúirt mé é — gach uile pháirt díom",
-          "start_ms": 72040,
-          "end_ms": 75080
+          "start_ms": 28900,
+          "end_ms": 32000,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "dúirt",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "é",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            },
+            {
+              "word": "gach",
+              "start_ms": 30650,
+              "end_ms": 30950,
+              "estimated": true
+            },
+            {
+              "word": "uile",
+              "start_ms": 31000,
+              "end_ms": 31300,
+              "estimated": true
+            },
+            {
+              "word": "pháirt",
+              "start_ms": 31350,
+              "end_ms": 31650,
+              "estimated": true
+            },
+            {
+              "word": "díom",
+              "start_ms": 31700,
+              "end_ms": 32000,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Níl focal ann ach fós",
-          "start_ms": 75080,
-          "end_ms": 77080
+          "start_ms": 28900,
+          "end_ms": 30600,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "ach",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "fós",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Go ndéantar liom",
-          "start_ms": 77080,
-          "end_ms": 79080
+          "start_ms": 28900,
+          "end_ms": 29900,
+          "words": [
+            {
+              "word": "Go",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "ndéantar",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "liom",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 68040,
-      "end_ms": 79080
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Spoken Word",
+      "label": "Bridge",
+      "start_ms": 28900,
+      "end_ms": 30600,
       "lines": [
         {
           "text": "Deir siad nach bhfuil \"sea\" ná \"níl\" sa Ghaeilge",
-          "start_ms": 82080,
-          "end_ms": 85920
+          "start_ms": 28900,
+          "end_ms": 32000,
+          "words": [
+            {
+              "word": "Deir",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "siad",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "nach",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "bhfuil",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "\"sea\"",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            },
+            {
+              "word": "ná",
+              "start_ms": 30650,
+              "end_ms": 30950,
+              "estimated": true
+            },
+            {
+              "word": "\"níl\"",
+              "start_ms": 31000,
+              "end_ms": 31300,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 31350,
+              "end_ms": 31650,
+              "estimated": true
+            },
+            {
+              "word": "Ghaeilge",
+              "start_ms": 31700,
+              "end_ms": 32000,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "B'fhéidir gurb é sin an fáth",
-          "start_ms": 85920,
-          "end_ms": 88160
+          "start_ms": 28900,
+          "end_ms": 28900,
+          "words": [
+            {
+              "word": "B'fhéidir",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "gurb",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "é",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "sin",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            },
+            {
+              "word": "fáth",
+              "start_ms": 28900,
+              "end_ms": 28900
+            }
+          ]
         },
         {
           "text": "Gur thuig mise",
-          "start_ms": 88160,
-          "end_ms": 90160
+          "start_ms": 28900,
+          "end_ms": 28900,
+          "words": [
+            {
+              "word": "Gur",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "thuig",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "mise",
+              "start_ms": 28900,
+              "end_ms": 28900
+            }
+          ]
         },
         {
           "text": "Nár leor focal amháin riamh",
-          "start_ms": 90160,
-          "end_ms": 92320
+          "start_ms": 28900,
+          "end_ms": 30600,
+          "words": [
+            {
+              "word": "Nár",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "leor",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "amháin",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "riamh",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 82080,
-      "end_ms": 92320
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 28900,
+      "end_ms": 29900,
       "lines": [
         {
           "text": "Níl focal ann",
-          "start_ms": 95320,
-          "end_ms": 97320
+          "start_ms": 28900,
+          "end_ms": 29900,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Níl focal ann don rud seo",
-          "start_ms": 97320,
-          "end_ms": 99320
+          "start_ms": 28900,
+          "end_ms": 30950,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "don",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 30650,
+              "end_ms": 30950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ach seo mé — anseo, anois, iomlán",
-          "start_ms": 99320,
-          "end_ms": 101960
+          "start_ms": 28900,
+          "end_ms": 31300,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "anseo,",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            },
+            {
+              "word": "anois,",
+              "start_ms": 30650,
+              "end_ms": 30950,
+              "estimated": true
+            },
+            {
+              "word": "iomlán",
+              "start_ms": 31000,
+              "end_ms": 31300,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Níl focal ann ach fós",
-          "start_ms": 101960,
-          "end_ms": 103960
+          "start_ms": 28900,
+          "end_ms": 30600,
+          "words": [
+            {
+              "word": "Níl",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            },
+            {
+              "word": "ach",
+              "start_ms": 29950,
+              "end_ms": 30250,
+              "estimated": true
+            },
+            {
+              "word": "fós",
+              "start_ms": 30300,
+              "end_ms": 30600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Go ndéantar liom",
-          "start_ms": 103960,
-          "end_ms": 105960
+          "start_ms": 28900,
+          "end_ms": 29900,
+          "words": [
+            {
+              "word": "Go",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "ndéantar",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "liom",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 95320,
-      "end_ms": 105960
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Soft",
+      "label": "Outro",
+      "start_ms": 28900,
+      "end_ms": 29900,
       "lines": [
         {
           "text": "Go ndéantar liom...",
-          "start_ms": 108960,
-          "end_ms": 110960
+          "start_ms": 28900,
+          "end_ms": 29900,
+          "words": [
+            {
+              "word": "Go",
+              "start_ms": 28900,
+              "end_ms": 29200,
+              "estimated": true
+            },
+            {
+              "word": "ndéantar",
+              "start_ms": 29250,
+              "end_ms": 29550,
+              "estimated": true
+            },
+            {
+              "word": "liom...",
+              "start_ms": 29600,
+              "end_ms": 29900,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 108960,
-      "end_ms": 110960
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Sa Ghaeilge níl focal do \"sea\"",
+      "section_type": "chorus",
+      "start_ms": 16120,
+      "end_ms": 18520,
+      "key_line": "Sa Ghaeilge níl focal do \"sea\"",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Níl focal ann",
+      "section_type": "chorus",
+      "start_ms": 16120,
+      "end_ms": 17120,
+      "key_line": "Níl focal ann",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Níl focal ann",
+      "section_type": "chorus",
+      "start_ms": 28900,
+      "end_ms": 29900,
+      "key_line": "Níl focal ann",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 28900,
+      "end_ms": 30600,
+      "key_line": "Deir siad nach bhfuil \"sea\" ná \"níl\" sa Ghaeilge",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Níl focal ann",
+      "section_type": "chorus",
+      "start_ms": 28900,
+      "end_ms": 29900,
+      "key_line": "Níl focal ann",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/irish/42_luke_01_1-26_transcript.json"
 }

@@ -7,243 +7,1229 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 191520,
   "audio_file": "/audio/songs/luke_01/norwegian/La det skje — Mary Says Yes (Luke 1_26-38) - norwegian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.186426+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.015360+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.988,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 14319,
+      "end_ms": 34100,
       "lines": [
         {
           "text": "Rommet er lite og lyset er svakt",
-          "start_ms": 6000,
-          "end_ms": 8560
+          "start_ms": 14319,
+          "end_ms": 18280,
+          "words": [
+            {
+              "word": "Rommet",
+              "start_ms": 14319,
+              "end_ms": 15200
+            },
+            {
+              "word": "er",
+              "start_ms": 15200,
+              "end_ms": 15360
+            },
+            {
+              "word": "lite",
+              "start_ms": 15360,
+              "end_ms": 15920
+            },
+            {
+              "word": "og",
+              "start_ms": 16100,
+              "end_ms": 16300
+            },
+            {
+              "word": "lyset",
+              "start_ms": 16300,
+              "end_ms": 16900
+            },
+            {
+              "word": "er",
+              "start_ms": 16900,
+              "end_ms": 17080
+            },
+            {
+              "word": "svakt",
+              "start_ms": 17080,
+              "end_ms": 18280
+            }
+          ]
         },
         {
           "text": "En stemme som ikke var der før",
-          "start_ms": 8560,
-          "end_ms": 10960
+          "start_ms": 18280,
+          "end_ms": 23720,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 18280,
+              "end_ms": 18900
+            },
+            {
+              "word": "stemme",
+              "start_ms": 18900,
+              "end_ms": 19280
+            },
+            {
+              "word": "som",
+              "start_ms": 19280,
+              "end_ms": 19940
+            },
+            {
+              "word": "ikke",
+              "start_ms": 19940,
+              "end_ms": 20460
+            },
+            {
+              "word": "var",
+              "start_ms": 20460,
+              "end_ms": 21180
+            },
+            {
+              "word": "der",
+              "start_ms": 21180,
+              "end_ms": 21820
+            },
+            {
+              "word": "før",
+              "start_ms": 21820,
+              "end_ms": 23720
+            }
+          ]
         },
         {
           "text": "Hjertet banker som det vet noe jeg ikke vet",
-          "start_ms": 10960,
-          "end_ms": 14400
+          "start_ms": 24740,
+          "end_ms": 28520,
+          "words": [
+            {
+              "word": "Hjertet",
+              "start_ms": 24740,
+              "end_ms": 25620
+            },
+            {
+              "word": "banker",
+              "start_ms": 25620,
+              "end_ms": 25840
+            },
+            {
+              "word": "som",
+              "start_ms": 25840,
+              "end_ms": 26120
+            },
+            {
+              "word": "det",
+              "start_ms": 26480,
+              "end_ms": 26780
+            },
+            {
+              "word": "vet",
+              "start_ms": 26480,
+              "end_ms": 26780
+            },
+            {
+              "word": "noe",
+              "start_ms": 26830,
+              "end_ms": 27130,
+              "estimated": true
+            },
+            {
+              "word": "jeg",
+              "start_ms": 27220,
+              "end_ms": 27520
+            },
+            {
+              "word": "ikke",
+              "start_ms": 27520,
+              "end_ms": 27960
+            },
+            {
+              "word": "vet",
+              "start_ms": 27960,
+              "end_ms": 28520
+            }
+          ]
         },
         {
           "text": "En fremmed som sier mitt navn",
-          "start_ms": 14400,
-          "end_ms": 16720
+          "start_ms": 28520,
+          "end_ms": 34100,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 28520,
+              "end_ms": 28840
+            },
+            {
+              "word": "fremmed",
+              "start_ms": 28840,
+              "end_ms": 29360
+            },
+            {
+              "word": "som",
+              "start_ms": 29360,
+              "end_ms": 29820
+            },
+            {
+              "word": "sier",
+              "start_ms": 29980,
+              "end_ms": 31260
+            },
+            {
+              "word": "mitt",
+              "start_ms": 31260,
+              "end_ms": 31720
+            },
+            {
+              "word": "navn",
+              "start_ms": 31720,
+              "end_ms": 34100
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16720
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 34100,
+      "end_ms": 47940,
       "lines": [
         {
           "text": "Jeg vet hva de kommer til å si",
-          "start_ms": 19720,
-          "end_ms": 22120
+          "start_ms": 34100,
+          "end_ms": 38000,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 34100,
+              "end_ms": 34720
+            },
+            {
+              "word": "vet",
+              "start_ms": 34720,
+              "end_ms": 34920
+            },
+            {
+              "word": "hva",
+              "start_ms": 34920,
+              "end_ms": 35120
+            },
+            {
+              "word": "de",
+              "start_ms": 35120,
+              "end_ms": 35460
+            },
+            {
+              "word": "kommer",
+              "start_ms": 35460,
+              "end_ms": 36220
+            },
+            {
+              "word": "til",
+              "start_ms": 36220,
+              "end_ms": 36660
+            },
+            {
+              "word": "å",
+              "start_ms": 36660,
+              "end_ms": 37040
+            },
+            {
+              "word": "si",
+              "start_ms": 37040,
+              "end_ms": 38000
+            }
+          ]
         },
         {
           "text": "Jeg vet hva det koster",
-          "start_ms": 22120,
-          "end_ms": 24120
+          "start_ms": 38000,
+          "end_ms": 41020,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 38000,
+              "end_ms": 38980
+            },
+            {
+              "word": "vet",
+              "start_ms": 38980,
+              "end_ms": 39660
+            },
+            {
+              "word": "hva",
+              "start_ms": 39660,
+              "end_ms": 40140
+            },
+            {
+              "word": "det",
+              "start_ms": 40140,
+              "end_ms": 40320
+            },
+            {
+              "word": "koster",
+              "start_ms": 40320,
+              "end_ms": 41020
+            }
+          ]
         },
         {
           "text": "Men noe i meg kjenner dette",
-          "start_ms": 24120,
-          "end_ms": 26280
+          "start_ms": 41280,
+          "end_ms": 44320,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 41280,
+              "end_ms": 41420
+            },
+            {
+              "word": "noe",
+              "start_ms": 41420,
+              "end_ms": 41860
+            },
+            {
+              "word": "i",
+              "start_ms": 41860,
+              "end_ms": 42160
+            },
+            {
+              "word": "meg",
+              "start_ms": 42160,
+              "end_ms": 42880
+            },
+            {
+              "word": "kjenner",
+              "start_ms": 42880,
+              "end_ms": 43720
+            },
+            {
+              "word": "dette",
+              "start_ms": 43720,
+              "end_ms": 44320
+            }
+          ]
         },
         {
           "text": "Noe dypere enn frykt",
-          "start_ms": 26280,
-          "end_ms": 28280
+          "start_ms": 44760,
+          "end_ms": 47940,
+          "words": [
+            {
+              "word": "Noe",
+              "start_ms": 44760,
+              "end_ms": 45640
+            },
+            {
+              "word": "dypere",
+              "start_ms": 45640,
+              "end_ms": 46560
+            },
+            {
+              "word": "enn",
+              "start_ms": 46560,
+              "end_ms": 47120
+            },
+            {
+              "word": "frykt",
+              "start_ms": 47120,
+              "end_ms": 47940
+            }
+          ]
         }
-      ],
-      "start_ms": 19720,
-      "end_ms": 28280
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 47940,
+      "end_ms": 70740,
       "lines": [
         {
           "text": "La det skje",
-          "start_ms": 31280,
-          "end_ms": 33280
+          "start_ms": 47940,
+          "end_ms": 53060,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 47940,
+              "end_ms": 48520
+            },
+            {
+              "word": "det",
+              "start_ms": 48520,
+              "end_ms": 48820
+            },
+            {
+              "word": "skje",
+              "start_ms": 52260,
+              "end_ms": 53060
+            }
+          ]
         },
         {
           "text": "La det skje med meg",
-          "start_ms": 33280,
-          "end_ms": 35280
+          "start_ms": 51680,
+          "end_ms": 54740,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 51680,
+              "end_ms": 51900
+            },
+            {
+              "word": "det",
+              "start_ms": 48520,
+              "end_ms": 48820
+            },
+            {
+              "word": "skje",
+              "start_ms": 52260,
+              "end_ms": 53060
+            },
+            {
+              "word": "med",
+              "start_ms": 53060,
+              "end_ms": 53620
+            },
+            {
+              "word": "meg",
+              "start_ms": 53620,
+              "end_ms": 54740
+            }
+          ]
         },
         {
           "text": "Ikke fordi jeg forstår",
-          "start_ms": 35280,
-          "end_ms": 37280
+          "start_ms": 55740,
+          "end_ms": 60740,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 55740,
+              "end_ms": 56820
+            },
+            {
+              "word": "fordi",
+              "start_ms": 56820,
+              "end_ms": 57460
+            },
+            {
+              "word": "jeg",
+              "start_ms": 57460,
+              "end_ms": 58060
+            },
+            {
+              "word": "forstår",
+              "start_ms": 58060,
+              "end_ms": 60740
+            }
+          ]
         },
         {
           "text": "Men fordi jeg velger det",
-          "start_ms": 37280,
-          "end_ms": 39280
+          "start_ms": 62339,
+          "end_ms": 67880,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 62339,
+              "end_ms": 63040
+            },
+            {
+              "word": "fordi",
+              "start_ms": 63040,
+              "end_ms": 64000
+            },
+            {
+              "word": "jeg",
+              "start_ms": 64000,
+              "end_ms": 65640
+            },
+            {
+              "word": "velger",
+              "start_ms": 65640,
+              "end_ms": 66960
+            },
+            {
+              "word": "det",
+              "start_ms": 66960,
+              "end_ms": 67880
+            }
+          ]
         },
         {
           "text": "La det skje",
-          "start_ms": 39280,
-          "end_ms": 41280
+          "start_ms": 67880,
+          "end_ms": 70740,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 67880,
+              "end_ms": 68540
+            },
+            {
+              "word": "det",
+              "start_ms": 66960,
+              "end_ms": 67880
+            },
+            {
+              "word": "skje",
+              "start_ms": 68740,
+              "end_ms": 70740
+            }
+          ]
         }
-      ],
-      "start_ms": 31280,
-      "end_ms": 41280
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 74700,
+      "end_ms": 92620,
       "lines": [
         {
           "text": "Josef vil se det i øynene mine",
-          "start_ms": 44280,
-          "end_ms": 46680
+          "start_ms": 74700,
+          "end_ms": 78740,
+          "words": [
+            {
+              "word": "Josef",
+              "start_ms": 74700,
+              "end_ms": 75400
+            },
+            {
+              "word": "vil",
+              "start_ms": 75400,
+              "end_ms": 75560
+            },
+            {
+              "word": "se",
+              "start_ms": 75560,
+              "end_ms": 76100
+            },
+            {
+              "word": "det",
+              "start_ms": 76100,
+              "end_ms": 77040
+            },
+            {
+              "word": "i",
+              "start_ms": 77040,
+              "end_ms": 77360
+            },
+            {
+              "word": "øynene",
+              "start_ms": 77360,
+              "end_ms": 77940
+            },
+            {
+              "word": "mine",
+              "start_ms": 77940,
+              "end_ms": 78740
+            }
+          ]
         },
         {
           "text": "Landsbyen trenger ikke bevis",
-          "start_ms": 46680,
-          "end_ms": 48920
+          "start_ms": 78740,
+          "end_ms": 82700,
+          "words": [
+            {
+              "word": "Landsbyen",
+              "start_ms": 78740,
+              "end_ms": 79880
+            },
+            {
+              "word": "trenger",
+              "start_ms": 79880,
+              "end_ms": 81000
+            },
+            {
+              "word": "ikke",
+              "start_ms": 81000,
+              "end_ms": 81460
+            },
+            {
+              "word": "bevis",
+              "start_ms": 81460,
+              "end_ms": 82700
+            }
+          ]
         },
         {
           "text": "En mage som vokser er dom nok for dem",
-          "start_ms": 48920,
-          "end_ms": 51880
+          "start_ms": 83700,
+          "end_ms": 88540,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 83700,
+              "end_ms": 84860
+            },
+            {
+              "word": "mage",
+              "start_ms": 84860,
+              "end_ms": 85220
+            },
+            {
+              "word": "som",
+              "start_ms": 85220,
+              "end_ms": 85620
+            },
+            {
+              "word": "vokser",
+              "start_ms": 85620,
+              "end_ms": 86380
+            },
+            {
+              "word": "er",
+              "start_ms": 86380,
+              "end_ms": 86820
+            },
+            {
+              "word": "dom",
+              "start_ms": 85220,
+              "end_ms": 85620
+            },
+            {
+              "word": "nok",
+              "start_ms": 87200,
+              "end_ms": 87580
+            },
+            {
+              "word": "for",
+              "start_ms": 87580,
+              "end_ms": 88080
+            },
+            {
+              "word": "dem",
+              "start_ms": 88080,
+              "end_ms": 88540
+            }
+          ]
         },
         {
           "text": "Men dette er større enn dem",
-          "start_ms": 51880,
-          "end_ms": 54040
+          "start_ms": 88540,
+          "end_ms": 92620,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 88540,
+              "end_ms": 89020
+            },
+            {
+              "word": "dette",
+              "start_ms": 89020,
+              "end_ms": 89800
+            },
+            {
+              "word": "er",
+              "start_ms": 89800,
+              "end_ms": 90680
+            },
+            {
+              "word": "større",
+              "start_ms": 90680,
+              "end_ms": 91520
+            },
+            {
+              "word": "enn",
+              "start_ms": 91520,
+              "end_ms": 92100
+            },
+            {
+              "word": "dem",
+              "start_ms": 92100,
+              "end_ms": 92620
+            }
+          ]
         }
-      ],
-      "start_ms": 44280,
-      "end_ms": 54040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 94470,
+      "end_ms": 107840,
       "lines": [
         {
           "text": "Jeg har ingen garanti",
-          "start_ms": 57040,
-          "end_ms": 59040
+          "start_ms": 94470,
+          "end_ms": 97940,
+          "words": [
+            {
+              "word": "Jeg",
+              "start_ms": 94470,
+              "end_ms": 95040
+            },
+            {
+              "word": "har",
+              "start_ms": 95040,
+              "end_ms": 95600
+            },
+            {
+              "word": "ingen",
+              "start_ms": 95600,
+              "end_ms": 96460
+            },
+            {
+              "word": "garanti",
+              "start_ms": 96460,
+              "end_ms": 97940
+            }
+          ]
         },
         {
           "text": "Ingen vet hvordan det går",
-          "start_ms": 59040,
-          "end_ms": 61040
+          "start_ms": 95600,
+          "end_ms": 101180,
+          "words": [
+            {
+              "word": "Ingen",
+              "start_ms": 95600,
+              "end_ms": 96460
+            },
+            {
+              "word": "vet",
+              "start_ms": 98640,
+              "end_ms": 99380
+            },
+            {
+              "word": "hvordan",
+              "start_ms": 99380,
+              "end_ms": 100040
+            },
+            {
+              "word": "det",
+              "start_ms": 100040,
+              "end_ms": 100520
+            },
+            {
+              "word": "går",
+              "start_ms": 100520,
+              "end_ms": 101180
+            }
+          ]
         },
         {
           "text": "Men noe i meg svarer ja",
-          "start_ms": 61040,
-          "end_ms": 63040
+          "start_ms": 101180,
+          "end_ms": 104580,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 101180,
+              "end_ms": 101600
+            },
+            {
+              "word": "noe",
+              "start_ms": 101600,
+              "end_ms": 102000
+            },
+            {
+              "word": "i",
+              "start_ms": 102000,
+              "end_ms": 102320
+            },
+            {
+              "word": "meg",
+              "start_ms": 102320,
+              "end_ms": 102980
+            },
+            {
+              "word": "svarer",
+              "start_ms": 102980,
+              "end_ms": 103920
+            },
+            {
+              "word": "ja",
+              "start_ms": 103920,
+              "end_ms": 104580
+            }
+          ]
         },
         {
           "text": "Til noe jeg ikke kan se",
-          "start_ms": 63040,
-          "end_ms": 65040
+          "start_ms": 104580,
+          "end_ms": 107840,
+          "words": [
+            {
+              "word": "Til",
+              "start_ms": 104580,
+              "end_ms": 104900
+            },
+            {
+              "word": "noe",
+              "start_ms": 104900,
+              "end_ms": 105220
+            },
+            {
+              "word": "jeg",
+              "start_ms": 105220,
+              "end_ms": 105720
+            },
+            {
+              "word": "ikke",
+              "start_ms": 105720,
+              "end_ms": 106440
+            },
+            {
+              "word": "kan",
+              "start_ms": 106440,
+              "end_ms": 107000
+            },
+            {
+              "word": "se",
+              "start_ms": 107000,
+              "end_ms": 107840
+            }
+          ]
         }
-      ],
-      "start_ms": 57040,
-      "end_ms": 65040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 107840,
+      "end_ms": 129840,
       "lines": [
         {
           "text": "La det skje",
-          "start_ms": 68040,
-          "end_ms": 70040
+          "start_ms": 107840,
+          "end_ms": 113120,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 107840,
+              "end_ms": 108600
+            },
+            {
+              "word": "det",
+              "start_ms": 108600,
+              "end_ms": 108840
+            },
+            {
+              "word": "skje",
+              "start_ms": 112320,
+              "end_ms": 113120
+            }
+          ]
         },
         {
           "text": "La det skje med meg",
-          "start_ms": 70040,
-          "end_ms": 72040
+          "start_ms": 111440,
+          "end_ms": 114300,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 111440,
+              "end_ms": 112000
+            },
+            {
+              "word": "det",
+              "start_ms": 108600,
+              "end_ms": 108840
+            },
+            {
+              "word": "skje",
+              "start_ms": 112320,
+              "end_ms": 113120
+            },
+            {
+              "word": "med",
+              "start_ms": 113120,
+              "end_ms": 113600
+            },
+            {
+              "word": "meg",
+              "start_ms": 113600,
+              "end_ms": 114300
+            }
+          ]
         },
         {
           "text": "Ikke fordi jeg forstår",
-          "start_ms": 72040,
-          "end_ms": 74040
+          "start_ms": 115460,
+          "end_ms": 119840,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 115460,
+              "end_ms": 116860
+            },
+            {
+              "word": "fordi",
+              "start_ms": 116860,
+              "end_ms": 117500
+            },
+            {
+              "word": "jeg",
+              "start_ms": 117500,
+              "end_ms": 118100
+            },
+            {
+              "word": "forstår",
+              "start_ms": 118100,
+              "end_ms": 119840
+            }
+          ]
         },
         {
           "text": "Men fordi jeg velger det",
-          "start_ms": 74040,
-          "end_ms": 76040
+          "start_ms": 122380,
+          "end_ms": 127780,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 122380,
+              "end_ms": 123080
+            },
+            {
+              "word": "fordi",
+              "start_ms": 123080,
+              "end_ms": 124080
+            },
+            {
+              "word": "jeg",
+              "start_ms": 124080,
+              "end_ms": 125640
+            },
+            {
+              "word": "velger",
+              "start_ms": 125640,
+              "end_ms": 127000
+            },
+            {
+              "word": "det",
+              "start_ms": 127000,
+              "end_ms": 127780
+            }
+          ]
         },
         {
           "text": "La det skje",
-          "start_ms": 76040,
-          "end_ms": 78040
+          "start_ms": 127780,
+          "end_ms": 129840,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 127780,
+              "end_ms": 128620
+            },
+            {
+              "word": "det",
+              "start_ms": 127000,
+              "end_ms": 127780
+            },
+            {
+              "word": "skje",
+              "start_ms": 128900,
+              "end_ms": 129840
+            }
+          ]
         }
-      ],
-      "start_ms": 68040,
-      "end_ms": 78040
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 132740,
+      "end_ms": 145899,
       "lines": [
         {
           "text": "Ikke fordi det er trygt",
-          "start_ms": 81040,
-          "end_ms": 83040
+          "start_ms": 132740,
+          "end_ms": 135150,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 132740,
+              "end_ms": 133440
+            },
+            {
+              "word": "fordi",
+              "start_ms": 133440,
+              "end_ms": 134040
+            },
+            {
+              "word": "det",
+              "start_ms": 134040,
+              "end_ms": 134480
+            },
+            {
+              "word": "er",
+              "start_ms": 134480,
+              "end_ms": 134800
+            },
+            {
+              "word": "trygt",
+              "start_ms": 134850,
+              "end_ms": 135150,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ikke fordi jeg er modig",
-          "start_ms": 83040,
-          "end_ms": 85040
+          "start_ms": 135440,
+          "end_ms": 138880,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 135440,
+              "end_ms": 136760
+            },
+            {
+              "word": "fordi",
+              "start_ms": 136760,
+              "end_ms": 137300
+            },
+            {
+              "word": "jeg",
+              "start_ms": 137300,
+              "end_ms": 137780
+            },
+            {
+              "word": "er",
+              "start_ms": 137780,
+              "end_ms": 138180
+            },
+            {
+              "word": "modig",
+              "start_ms": 138180,
+              "end_ms": 138880
+            }
+          ]
         },
         {
           "text": "Bare fordi svaret",
-          "start_ms": 85040,
-          "end_ms": 87040
+          "start_ms": 139180,
+          "end_ms": 142400,
+          "words": [
+            {
+              "word": "Bare",
+              "start_ms": 139180,
+              "end_ms": 140200
+            },
+            {
+              "word": "fordi",
+              "start_ms": 140200,
+              "end_ms": 141120
+            },
+            {
+              "word": "svaret",
+              "start_ms": 141120,
+              "end_ms": 142400
+            }
+          ]
         },
         {
           "text": "Allerede bor i meg",
-          "start_ms": 87040,
-          "end_ms": 89040
+          "start_ms": 142400,
+          "end_ms": 145899,
+          "words": [
+            {
+              "word": "Allerede",
+              "start_ms": 142400,
+              "end_ms": 143960
+            },
+            {
+              "word": "bor",
+              "start_ms": 143960,
+              "end_ms": 144720
+            },
+            {
+              "word": "i",
+              "start_ms": 144720,
+              "end_ms": 145200
+            },
+            {
+              "word": "meg",
+              "start_ms": 145200,
+              "end_ms": 145899
+            }
+          ]
         }
-      ],
-      "start_ms": 81040,
-      "end_ms": 89040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 146080,
+      "end_ms": 157520,
       "lines": [
         {
           "text": "La det skje",
-          "start_ms": 92040,
-          "end_ms": 94040
+          "start_ms": 146080,
+          "end_ms": 151240,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 146080,
+              "end_ms": 146800
+            },
+            {
+              "word": "det",
+              "start_ms": 146800,
+              "end_ms": 147000
+            },
+            {
+              "word": "skje",
+              "start_ms": 150440,
+              "end_ms": 151240
+            }
+          ]
         },
         {
           "text": "La det skje med meg",
-          "start_ms": 94040,
-          "end_ms": 96040
+          "start_ms": 149820,
+          "end_ms": 152480,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 149820,
+              "end_ms": 150160
+            },
+            {
+              "word": "det",
+              "start_ms": 146800,
+              "end_ms": 147000
+            },
+            {
+              "word": "skje",
+              "start_ms": 150440,
+              "end_ms": 151240
+            },
+            {
+              "word": "med",
+              "start_ms": 151240,
+              "end_ms": 151780
+            },
+            {
+              "word": "meg",
+              "start_ms": 151780,
+              "end_ms": 152480
+            }
+          ]
         },
         {
           "text": "Ja, la det skje",
-          "start_ms": 96040,
-          "end_ms": 98040
+          "start_ms": 153300,
+          "end_ms": 157520,
+          "words": [
+            {
+              "word": "Ja,",
+              "start_ms": 153300,
+              "end_ms": 154980
+            },
+            {
+              "word": "la",
+              "start_ms": 156220,
+              "end_ms": 156680
+            },
+            {
+              "word": "det",
+              "start_ms": 156680,
+              "end_ms": 156880
+            },
+            {
+              "word": "skje",
+              "start_ms": 156880,
+              "end_ms": 157520
+            }
+          ]
         }
-      ],
-      "start_ms": 92040,
-      "end_ms": 98040
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Jeg vet hva de kommer til å si",
+      "section_type": "chorus",
+      "start_ms": 34100,
+      "end_ms": 47940,
+      "key_line": "Jeg vet hva de kommer til å si",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - La det skje",
+      "section_type": "chorus",
+      "start_ms": 47940,
+      "end_ms": 70740,
+      "key_line": "La det skje",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Jeg har ingen garanti",
+      "section_type": "chorus",
+      "start_ms": 94470,
+      "end_ms": 107840,
+      "key_line": "Jeg har ingen garanti",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - La det skje",
+      "section_type": "chorus",
+      "start_ms": 107840,
+      "end_ms": 129840,
+      "key_line": "La det skje",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 132740,
+      "end_ms": 145899,
+      "key_line": "Ikke fordi det er trygt",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - La det skje",
+      "section_type": "chorus",
+      "start_ms": 146080,
+      "end_ms": 157520,
+      "key_line": "La det skje",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/norwegian/42_luke_01_1-26_transcript.json"
 }

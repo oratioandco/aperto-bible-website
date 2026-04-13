@@ -7,246 +7,1017 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 139600,
   "audio_file": "/audio/songs/luke_01/albanian/Luke 1_46-56 - Të vegjlit, lart (albanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.655118+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.901196+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.764,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 10760,
+      "end_ms": 19520,
       "lines": [
         {
           "text": "Gjithçka brenda meje",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 10760,
+          "end_ms": 13240,
+          "words": [
+            {
+              "word": "Gjithçka",
+              "start_ms": 10760,
+              "end_ms": 11740
+            },
+            {
+              "word": "brenda",
+              "start_ms": 11740,
+              "end_ms": 12460
+            },
+            {
+              "word": "meje",
+              "start_ms": 12460,
+              "end_ms": 13240
+            }
+          ]
         },
         {
           "text": "Gjithçka që kam qenë",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 10760,
+          "end_ms": 15160,
+          "words": [
+            {
+              "word": "Gjithçka",
+              "start_ms": 10760,
+              "end_ms": 11740
+            },
+            {
+              "word": "që",
+              "start_ms": 11790,
+              "end_ms": 12090,
+              "estimated": true
+            },
+            {
+              "word": "kam",
+              "start_ms": 12140,
+              "end_ms": 12440,
+              "estimated": true
+            },
+            {
+              "word": "qenë",
+              "start_ms": 14460,
+              "end_ms": 15160
+            }
+          ]
         },
         {
           "text": "E vogla, e padukshme",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 15560,
+          "end_ms": 17520,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 15560,
+              "end_ms": 15860,
+              "estimated": true
+            },
+            {
+              "word": "vogla,",
+              "start_ms": 15560,
+              "end_ms": 16260
+            },
+            {
+              "word": "e",
+              "start_ms": 16310,
+              "end_ms": 16610,
+              "estimated": true
+            },
+            {
+              "word": "padukshme",
+              "start_ms": 16700,
+              "end_ms": 17520
+            }
+          ]
         },
         {
           "text": "Por diçka ndryshoi sot",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 17520,
+          "end_ms": 19520,
+          "words": [
+            {
+              "word": "Por",
+              "start_ms": 17520,
+              "end_ms": 17920
+            },
+            {
+              "word": "diçka",
+              "start_ms": 17920,
+              "end_ms": 18500
+            },
+            {
+              "word": "ndryshoi",
+              "start_ms": 18550,
+              "end_ms": 18850,
+              "estimated": true
+            },
+            {
+              "word": "sot",
+              "start_ms": 18920,
+              "end_ms": 19520
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 19520,
+      "end_ms": 27540,
       "lines": [
         {
           "text": "Shikoni, shikoni mirë",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 19520,
+          "end_ms": 27890,
+          "words": [
+            {
+              "word": "Shikoni,",
+              "start_ms": 19520,
+              "end_ms": 21060
+            },
+            {
+              "word": "shikoni",
+              "start_ms": 26340,
+              "end_ms": 27540
+            },
+            {
+              "word": "mirë",
+              "start_ms": 27590,
+              "end_ms": 27890,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Kjo që bota nuk e shikon",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 27540,
+          "end_ms": 27540,
+          "words": [
+            {
+              "word": "Kjo",
+              "start_ms": 27540,
+              "end_ms": 27840,
+              "estimated": true
+            },
+            {
+              "word": "që",
+              "start_ms": 27890,
+              "end_ms": 28190,
+              "estimated": true
+            },
+            {
+              "word": "bota",
+              "start_ms": 28240,
+              "end_ms": 28540,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 25260,
+              "end_ms": 25900
+            },
+            {
+              "word": "e",
+              "start_ms": 25900,
+              "end_ms": 26340
+            },
+            {
+              "word": "shikon",
+              "start_ms": 26340,
+              "end_ms": 27540
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 21000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 27540,
+      "end_ms": 45540,
       "lines": [
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 24000,
-          "end_ms": 26000
+          "start_ms": 27540,
+          "end_ms": 32159,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 27540,
+              "end_ms": 28080
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 28080,
+              "end_ms": 28700
+            },
+            {
+              "word": "lart",
+              "start_ms": 29280,
+              "end_ms": 32159
+            }
+          ]
         },
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 26000,
-          "end_ms": 28000
+          "start_ms": 32159,
+          "end_ms": 32159,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 32159,
+              "end_ms": 32420
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 32420,
+              "end_ms": 33080
+            },
+            {
+              "word": "lart",
+              "start_ms": 29280,
+              "end_ms": 32159
+            }
+          ]
         },
         {
           "text": "Sundimtarët rrëzohen nga froni",
-          "start_ms": 28000,
-          "end_ms": 30400
+          "start_ms": 36100,
+          "end_ms": 38840,
+          "words": [
+            {
+              "word": "Sundimtarët",
+              "start_ms": 36100,
+              "end_ms": 36760
+            },
+            {
+              "word": "rrëzohen",
+              "start_ms": 36760,
+              "end_ms": 37560
+            },
+            {
+              "word": "nga",
+              "start_ms": 37610,
+              "end_ms": 37910,
+              "estimated": true
+            },
+            {
+              "word": "froni",
+              "start_ms": 37800,
+              "end_ms": 38840
+            }
+          ]
         },
         {
           "text": "Krenarët shpërndahen si pluhur",
-          "start_ms": 30400,
-          "end_ms": 32800
+          "start_ms": 38840,
+          "end_ms": 41740,
+          "words": [
+            {
+              "word": "Krenarët",
+              "start_ms": 38840,
+              "end_ms": 39600
+            },
+            {
+              "word": "shpërndahen",
+              "start_ms": 39600,
+              "end_ms": 40760
+            },
+            {
+              "word": "si",
+              "start_ms": 41020,
+              "end_ms": 41100
+            },
+            {
+              "word": "pluhur",
+              "start_ms": 41100,
+              "end_ms": 41740
+            }
+          ]
         },
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 32800,
-          "end_ms": 34800
+          "start_ms": 43060,
+          "end_ms": 45540,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 43060,
+              "end_ms": 43700
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 43700,
+              "end_ms": 44340
+            },
+            {
+              "word": "lart",
+              "start_ms": 44900,
+              "end_ms": 45540
+            }
+          ]
         }
-      ],
-      "start_ms": 24000,
-      "end_ms": 34800
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 46540,
+      "end_ms": 63980,
       "lines": [
         {
           "text": "Të uriturit? Plot",
-          "start_ms": 37800,
-          "end_ms": 39800
+          "start_ms": 46540,
+          "end_ms": 49280,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 46540,
+              "end_ms": 47260
+            },
+            {
+              "word": "uriturit?",
+              "start_ms": 47800,
+              "end_ms": 48180
+            },
+            {
+              "word": "Plot",
+              "start_ms": 48180,
+              "end_ms": 49280
+            }
+          ]
         },
         {
           "text": "Të pasurit? Bosh",
-          "start_ms": 39800,
-          "end_ms": 41800
+          "start_ms": 49280,
+          "end_ms": 51400,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 49280,
+              "end_ms": 49640
+            },
+            {
+              "word": "pasurit?",
+              "start_ms": 49640,
+              "end_ms": 50540
+            },
+            {
+              "word": "Bosh",
+              "start_ms": 50540,
+              "end_ms": 51400
+            }
+          ]
         },
         {
           "text": "Kështu ka qenë gjithmonë",
-          "start_ms": 41800,
-          "end_ms": 43800
+          "start_ms": 51400,
+          "end_ms": 52850,
+          "words": [
+            {
+              "word": "Kështu",
+              "start_ms": 51400,
+              "end_ms": 52000
+            },
+            {
+              "word": "ka",
+              "start_ms": 52050,
+              "end_ms": 52350,
+              "estimated": true
+            },
+            {
+              "word": "qenë",
+              "start_ms": 52380,
+              "end_ms": 52500
+            },
+            {
+              "word": "gjithmonë",
+              "start_ms": 52550,
+              "end_ms": 52850,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Kështu do të jetë",
-          "start_ms": 43800,
-          "end_ms": 45800
+          "start_ms": 51400,
+          "end_ms": 63980,
+          "words": [
+            {
+              "word": "Kështu",
+              "start_ms": 51400,
+              "end_ms": 52000
+            },
+            {
+              "word": "do",
+              "start_ms": 54500,
+              "end_ms": 55160
+            },
+            {
+              "word": "të",
+              "start_ms": 63380,
+              "end_ms": 63980
+            },
+            {
+              "word": "jetë",
+              "start_ms": 63380,
+              "end_ms": 63980
+            }
+          ]
         }
-      ],
-      "start_ms": 37800,
-      "end_ms": 45800
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 62220,
+      "end_ms": 63380,
       "lines": [
         {
           "text": "Shikoni, shikoni mirë",
-          "start_ms": 48800,
-          "end_ms": 50800
+          "start_ms": 62220,
+          "end_ms": 63730,
+          "words": [
+            {
+              "word": "Shikoni,",
+              "start_ms": 62220,
+              "end_ms": 63380
+            },
+            {
+              "word": "shikoni",
+              "start_ms": 62220,
+              "end_ms": 63380
+            },
+            {
+              "word": "mirë",
+              "start_ms": 63430,
+              "end_ms": 63730,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ajo që bota nuk e shikon",
-          "start_ms": 50800,
-          "end_ms": 52800
+          "start_ms": 63380,
+          "end_ms": 63380,
+          "words": [
+            {
+              "word": "Ajo",
+              "start_ms": 63380,
+              "end_ms": 63680,
+              "estimated": true
+            },
+            {
+              "word": "që",
+              "start_ms": 63730,
+              "end_ms": 64030,
+              "estimated": true
+            },
+            {
+              "word": "bota",
+              "start_ms": 64080,
+              "end_ms": 64380,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 61200,
+              "end_ms": 61820
+            },
+            {
+              "word": "e",
+              "start_ms": 61820,
+              "end_ms": 62220
+            },
+            {
+              "word": "shikon",
+              "start_ms": 62220,
+              "end_ms": 63380
+            }
+          ]
         }
-      ],
-      "start_ms": 48800,
-      "end_ms": 52800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 63380,
+      "end_ms": 81340,
       "lines": [
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 55800,
-          "end_ms": 57800
+          "start_ms": 63380,
+          "end_ms": 65830,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 63380,
+              "end_ms": 63980
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 63980,
+              "end_ms": 64580
+            },
+            {
+              "word": "lart",
+              "start_ms": 65180,
+              "end_ms": 65830
+            }
+          ]
         },
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 57800,
-          "end_ms": 59800
+          "start_ms": 68140,
+          "end_ms": 65830,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 68140,
+              "end_ms": 68380
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 68380,
+              "end_ms": 69000
+            },
+            {
+              "word": "lart",
+              "start_ms": 65180,
+              "end_ms": 65830
+            }
+          ]
         },
         {
           "text": "Sundimtarët rrëzohen nga froni",
-          "start_ms": 59800,
-          "end_ms": 62200
+          "start_ms": 71980,
+          "end_ms": 74680,
+          "words": [
+            {
+              "word": "Sundimtarët",
+              "start_ms": 71980,
+              "end_ms": 72680
+            },
+            {
+              "word": "rrëzohen",
+              "start_ms": 72680,
+              "end_ms": 73440
+            },
+            {
+              "word": "nga",
+              "start_ms": 73490,
+              "end_ms": 73790,
+              "estimated": true
+            },
+            {
+              "word": "froni",
+              "start_ms": 73700,
+              "end_ms": 74680
+            }
+          ]
         },
         {
           "text": "Krenarët shpërndahen si pluhur",
-          "start_ms": 62200,
-          "end_ms": 64600
+          "start_ms": 74680,
+          "end_ms": 77630,
+          "words": [
+            {
+              "word": "Krenarët",
+              "start_ms": 74680,
+              "end_ms": 75500
+            },
+            {
+              "word": "shpërndahen",
+              "start_ms": 75500,
+              "end_ms": 76620
+            },
+            {
+              "word": "si",
+              "start_ms": 76900,
+              "end_ms": 76980
+            },
+            {
+              "word": "pluhur",
+              "start_ms": 76980,
+              "end_ms": 77630
+            }
+          ]
         },
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 64600,
-          "end_ms": 66600
+          "start_ms": 78929,
+          "end_ms": 81340,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 78929,
+              "end_ms": 79580
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 79580,
+              "end_ms": 80220
+            },
+            {
+              "word": "lart",
+              "start_ms": 80800,
+              "end_ms": 81340
+            }
+          ]
         }
-      ],
-      "start_ms": 55800,
-      "end_ms": 66600
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Powerful",
+      "label": "Bridge",
+      "start_ms": 91620,
+      "end_ms": 108740,
       "lines": [
         {
           "text": "Nuk jam asgjë, nuk kam asgjë",
-          "start_ms": 69600,
-          "end_ms": 71840
+          "start_ms": 91620,
+          "end_ms": 93130,
+          "words": [
+            {
+              "word": "Nuk",
+              "start_ms": 91620,
+              "end_ms": 92480
+            },
+            {
+              "word": "jam",
+              "start_ms": 92480,
+              "end_ms": 92780
+            },
+            {
+              "word": "asgjë,",
+              "start_ms": 92830,
+              "end_ms": 93130,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 91620,
+              "end_ms": 92480
+            },
+            {
+              "word": "kam",
+              "start_ms": 92480,
+              "end_ms": 92780
+            },
+            {
+              "word": "asgjë",
+              "start_ms": 92830,
+              "end_ms": 93130,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Një fshat pa emër, një vajzë pa fuqi",
-          "start_ms": 71840,
-          "end_ms": 74720
+          "start_ms": 96420,
+          "end_ms": 100060,
+          "words": [
+            {
+              "word": "Një",
+              "start_ms": 96420,
+              "end_ms": 96860
+            },
+            {
+              "word": "fshat",
+              "start_ms": 96860,
+              "end_ms": 97320
+            },
+            {
+              "word": "pa",
+              "start_ms": 97370,
+              "end_ms": 97670,
+              "estimated": true
+            },
+            {
+              "word": "emër,",
+              "start_ms": 97720,
+              "end_ms": 98020,
+              "estimated": true
+            },
+            {
+              "word": "një",
+              "start_ms": 96420,
+              "end_ms": 96860
+            },
+            {
+              "word": "vajzë",
+              "start_ms": 95040,
+              "end_ms": 95600
+            },
+            {
+              "word": "pa",
+              "start_ms": 95650,
+              "end_ms": 95950,
+              "estimated": true
+            },
+            {
+              "word": "fuqi",
+              "start_ms": 99300,
+              "end_ms": 100060
+            }
+          ]
         },
         {
           "text": "Por brenda meje",
-          "start_ms": 74720,
-          "end_ms": 76720
+          "start_ms": 100060,
+          "end_ms": 102300,
+          "words": [
+            {
+              "word": "Por",
+              "start_ms": 100060,
+              "end_ms": 100340
+            },
+            {
+              "word": "brenda",
+              "start_ms": 100340,
+              "end_ms": 101060
+            },
+            {
+              "word": "meje",
+              "start_ms": 101060,
+              "end_ms": 102300
+            }
+          ]
         },
         {
           "text": "Brenda meje rritet një botë e re",
-          "start_ms": 76720,
-          "end_ms": 79280
+          "start_ms": 100340,
+          "end_ms": 108740,
+          "words": [
+            {
+              "word": "Brenda",
+              "start_ms": 100340,
+              "end_ms": 101060
+            },
+            {
+              "word": "meje",
+              "start_ms": 101060,
+              "end_ms": 102300
+            },
+            {
+              "word": "rritet",
+              "start_ms": 104240,
+              "end_ms": 104740
+            },
+            {
+              "word": "një",
+              "start_ms": 104880,
+              "end_ms": 105340
+            },
+            {
+              "word": "botë",
+              "start_ms": 105340,
+              "end_ms": 108040
+            },
+            {
+              "word": "e",
+              "start_ms": 108090,
+              "end_ms": 108390,
+              "estimated": true
+            },
+            {
+              "word": "re",
+              "start_ms": 108440,
+              "end_ms": 108740,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 69600,
-      "end_ms": 79280
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 108240,
+      "end_ms": 126500,
       "lines": [
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 82280,
-          "end_ms": 84280
+          "start_ms": 108240,
+          "end_ms": 113240,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 108240,
+              "end_ms": 108740
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 113520,
+              "end_ms": 114320
+            },
+            {
+              "word": "lart",
+              "start_ms": 113240,
+              "end_ms": 113240
+            }
+          ]
         },
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 84280,
-          "end_ms": 86280
+          "start_ms": 113240,
+          "end_ms": 113240,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 113240,
+              "end_ms": 113520
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 113520,
+              "end_ms": 114320
+            },
+            {
+              "word": "lart",
+              "start_ms": 113240,
+              "end_ms": 113240
+            }
+          ]
         },
         {
           "text": "Premtimi nuk u harrua",
-          "start_ms": 86280,
-          "end_ms": 88280
+          "start_ms": 113240,
+          "end_ms": 119680,
+          "words": [
+            {
+              "word": "Premtimi",
+              "start_ms": 113240,
+              "end_ms": 113540,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 113590,
+              "end_ms": 113890,
+              "estimated": true
+            },
+            {
+              "word": "u",
+              "start_ms": 117980,
+              "end_ms": 118300
+            },
+            {
+              "word": "harrua",
+              "start_ms": 118300,
+              "end_ms": 119680
+            }
+          ]
         },
         {
           "text": "Asgjë nuk është e pamundur",
-          "start_ms": 88280,
-          "end_ms": 90360
+          "start_ms": 119680,
+          "end_ms": 123420,
+          "words": [
+            {
+              "word": "Asgjë",
+              "start_ms": 119680,
+              "end_ms": 119980,
+              "estimated": true
+            },
+            {
+              "word": "nuk",
+              "start_ms": 120030,
+              "end_ms": 120330,
+              "estimated": true
+            },
+            {
+              "word": "është",
+              "start_ms": 120720,
+              "end_ms": 121680
+            },
+            {
+              "word": "e",
+              "start_ms": 121730,
+              "end_ms": 122030,
+              "estimated": true
+            },
+            {
+              "word": "pamundur",
+              "start_ms": 121980,
+              "end_ms": 123420
+            }
+          ]
         },
         {
           "text": "Të vegjlit, lart",
-          "start_ms": 90360,
-          "end_ms": 92360
+          "start_ms": 123800,
+          "end_ms": 126500,
+          "words": [
+            {
+              "word": "Të",
+              "start_ms": 123800,
+              "end_ms": 124460
+            },
+            {
+              "word": "vegjlit,",
+              "start_ms": 124460,
+              "end_ms": 125540
+            },
+            {
+              "word": "lart",
+              "start_ms": 125840,
+              "end_ms": 126500
+            }
+          ]
         }
-      ],
-      "start_ms": 82280,
-      "end_ms": 92360
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 95360,
-          "end_ms": 97360
-        }
-      ],
-      "start_ms": 95360,
-      "end_ms": 97360
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Shikoni, shikoni mirë",
+      "section_type": "chorus",
+      "start_ms": 19520,
+      "end_ms": 27540,
+      "key_line": "Shikoni, shikoni mirë",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Të vegjlit, lart",
+      "section_type": "chorus",
+      "start_ms": 27540,
+      "end_ms": 45540,
+      "key_line": "Të vegjlit, lart",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Shikoni, shikoni mirë",
+      "section_type": "chorus",
+      "start_ms": 62220,
+      "end_ms": 63380,
+      "key_line": "Shikoni, shikoni mirë",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Të vegjlit, lart",
+      "section_type": "chorus",
+      "start_ms": 63380,
+      "end_ms": 81340,
+      "key_line": "Të vegjlit, lart",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 91620,
+      "end_ms": 108740,
+      "key_line": "Nuk jam asgjë, nuk kam asgjë",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Të vegjlit, lart",
+      "section_type": "chorus",
+      "start_ms": 108240,
+      "end_ms": 126500,
+      "key_line": "Të vegjlit, lart",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/albanian/42_luke_01_1-46_transcript.json"
 }

@@ -7,319 +7,1698 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 215640,
   "audio_file": "/audio/songs/luke_01/spanish/Luke 1_46-56 (Magnificat) — Spanish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.337453+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.065286+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.955,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 16040,
+      "end_ms": 51480,
       "lines": [
         {
           "text": "Vengo de un pueblo sin nombre",
-          "start_ms": 6000,
-          "end_ms": 8320
+          "start_ms": 16040,
+          "end_ms": 20360,
+          "words": [
+            {
+              "word": "Vengo",
+              "start_ms": 16040,
+              "end_ms": 17420
+            },
+            {
+              "word": "de",
+              "start_ms": 17420,
+              "end_ms": 17580
+            },
+            {
+              "word": "un",
+              "start_ms": 17580,
+              "end_ms": 17940
+            },
+            {
+              "word": "pueblo",
+              "start_ms": 17940,
+              "end_ms": 18420
+            },
+            {
+              "word": "sin",
+              "start_ms": 18420,
+              "end_ms": 18880
+            },
+            {
+              "word": "nombre",
+              "start_ms": 18880,
+              "end_ms": 20360
+            }
+          ]
         },
         {
           "text": "nadie sabe donde queda",
-          "start_ms": 8320,
-          "end_ms": 10320
+          "start_ms": 20360,
+          "end_ms": 25160,
+          "words": [
+            {
+              "word": "nadie",
+              "start_ms": 20360,
+              "end_ms": 22040
+            },
+            {
+              "word": "sabe",
+              "start_ms": 22040,
+              "end_ms": 22720
+            },
+            {
+              "word": "donde",
+              "start_ms": 22720,
+              "end_ms": 23420
+            },
+            {
+              "word": "queda",
+              "start_ms": 23420,
+              "end_ms": 25160
+            }
+          ]
         },
         {
           "text": "tengo las manos con tierra",
-          "start_ms": 10320,
-          "end_ms": 12400
+          "start_ms": 25160,
+          "end_ms": 28900,
+          "words": [
+            {
+              "word": "tengo",
+              "start_ms": 25160,
+              "end_ms": 26560
+            },
+            {
+              "word": "las",
+              "start_ms": 26560,
+              "end_ms": 27040
+            },
+            {
+              "word": "manos",
+              "start_ms": 27040,
+              "end_ms": 27600
+            },
+            {
+              "word": "con",
+              "start_ms": 27600,
+              "end_ms": 28000
+            },
+            {
+              "word": "tierra",
+              "start_ms": 28000,
+              "end_ms": 28900
+            }
+          ]
         },
         {
           "text": "y la cara contra el suelo",
-          "start_ms": 12400,
-          "end_ms": 14400
+          "start_ms": 28900,
+          "end_ms": 33390,
+          "words": [
+            {
+              "word": "y",
+              "start_ms": 28900,
+              "end_ms": 30940
+            },
+            {
+              "word": "la",
+              "start_ms": 30940,
+              "end_ms": 31300
+            },
+            {
+              "word": "cara",
+              "start_ms": 31300,
+              "end_ms": 31880
+            },
+            {
+              "word": "contra",
+              "start_ms": 31880,
+              "end_ms": 32400
+            },
+            {
+              "word": "el",
+              "start_ms": 32400,
+              "end_ms": 32720
+            },
+            {
+              "word": "suelo",
+              "start_ms": 32720,
+              "end_ms": 33390
+            }
+          ]
         },
         {
           "text": "Pero algo me levanta",
-          "start_ms": 14400,
-          "end_ms": 16400
+          "start_ms": 34949,
+          "end_ms": 39220,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 34949,
+              "end_ms": 35620
+            },
+            {
+              "word": "algo",
+              "start_ms": 35620,
+              "end_ms": 36000
+            },
+            {
+              "word": "me",
+              "start_ms": 36000,
+              "end_ms": 36920
+            },
+            {
+              "word": "levanta",
+              "start_ms": 36920,
+              "end_ms": 39220
+            }
+          ]
         },
         {
           "text": "algo me sacude entera",
-          "start_ms": 16400,
-          "end_ms": 18400
+          "start_ms": 35620,
+          "end_ms": 42210,
+          "words": [
+            {
+              "word": "algo",
+              "start_ms": 35620,
+              "end_ms": 36000
+            },
+            {
+              "word": "me",
+              "start_ms": 36000,
+              "end_ms": 36920
+            },
+            {
+              "word": "sacude",
+              "start_ms": 40880,
+              "end_ms": 41540
+            },
+            {
+              "word": "entera",
+              "start_ms": 41540,
+              "end_ms": 42210
+            }
+          ]
         },
         {
           "text": "como si alguien me mirara",
-          "start_ms": 18400,
-          "end_ms": 20400
+          "start_ms": 43960,
+          "end_ms": 46880,
+          "words": [
+            {
+              "word": "como",
+              "start_ms": 43960,
+              "end_ms": 44760
+            },
+            {
+              "word": "si",
+              "start_ms": 44760,
+              "end_ms": 45080
+            },
+            {
+              "word": "alguien",
+              "start_ms": 45080,
+              "end_ms": 45500
+            },
+            {
+              "word": "me",
+              "start_ms": 45500,
+              "end_ms": 46200
+            },
+            {
+              "word": "mirara",
+              "start_ms": 46200,
+              "end_ms": 46880
+            }
+          ]
         },
         {
           "text": "y dijera: tu, la primera",
-          "start_ms": 20400,
-          "end_ms": 22400
+          "start_ms": 46880,
+          "end_ms": 51480,
+          "words": [
+            {
+              "word": "y",
+              "start_ms": 46880,
+              "end_ms": 47440
+            },
+            {
+              "word": "dijera:",
+              "start_ms": 47440,
+              "end_ms": 48440
+            },
+            {
+              "word": "tu,",
+              "start_ms": 48490,
+              "end_ms": 48790,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 50160,
+              "end_ms": 50560
+            },
+            {
+              "word": "primera",
+              "start_ms": 50560,
+              "end_ms": 51480
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22400
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 51480,
+      "end_ms": 63160,
       "lines": [
         {
           "text": "No por lo que tengo",
-          "start_ms": 25400,
-          "end_ms": 27400
+          "start_ms": 51480,
+          "end_ms": 55240,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 51480,
+              "end_ms": 53460
+            },
+            {
+              "word": "por",
+              "start_ms": 53460,
+              "end_ms": 53760
+            },
+            {
+              "word": "lo",
+              "start_ms": 53760,
+              "end_ms": 54100
+            },
+            {
+              "word": "que",
+              "start_ms": 54100,
+              "end_ms": 54320
+            },
+            {
+              "word": "tengo",
+              "start_ms": 54320,
+              "end_ms": 55240
+            }
+          ]
         },
         {
           "text": "no por lo que soy",
-          "start_ms": 27400,
-          "end_ms": 29400
+          "start_ms": 55620,
+          "end_ms": 57220,
+          "words": [
+            {
+              "word": "no",
+              "start_ms": 55620,
+              "end_ms": 55760
+            },
+            {
+              "word": "por",
+              "start_ms": 55760,
+              "end_ms": 56060
+            },
+            {
+              "word": "lo",
+              "start_ms": 56060,
+              "end_ms": 56340
+            },
+            {
+              "word": "que",
+              "start_ms": 56340,
+              "end_ms": 56620
+            },
+            {
+              "word": "soy",
+              "start_ms": 56620,
+              "end_ms": 57220
+            }
+          ]
         },
         {
           "text": "sino porque me vio",
-          "start_ms": 29400,
-          "end_ms": 31400
+          "start_ms": 57220,
+          "end_ms": 59480,
+          "words": [
+            {
+              "word": "sino",
+              "start_ms": 57220,
+              "end_ms": 58020
+            },
+            {
+              "word": "porque",
+              "start_ms": 58020,
+              "end_ms": 58500
+            },
+            {
+              "word": "me",
+              "start_ms": 58500,
+              "end_ms": 58880
+            },
+            {
+              "word": "vio",
+              "start_ms": 58880,
+              "end_ms": 59480
+            }
+          ]
         },
         {
           "text": "y eso lo cambio todo",
-          "start_ms": 31400,
-          "end_ms": 33400
+          "start_ms": 59480,
+          "end_ms": 63160,
+          "words": [
+            {
+              "word": "y",
+              "start_ms": 59480,
+              "end_ms": 59880
+            },
+            {
+              "word": "eso",
+              "start_ms": 59880,
+              "end_ms": 60140
+            },
+            {
+              "word": "lo",
+              "start_ms": 60140,
+              "end_ms": 60620
+            },
+            {
+              "word": "cambio",
+              "start_ms": 60620,
+              "end_ms": 61280
+            },
+            {
+              "word": "todo",
+              "start_ms": 61280,
+              "end_ms": 63160
+            }
+          ]
         }
-      ],
-      "start_ms": 25400,
-      "end_ms": 33400
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 63800,
+      "end_ms": 81960,
       "lines": [
         {
           "text": "Me vio a mi, a mi, la pequena",
-          "start_ms": 36400,
-          "end_ms": 38720
+          "start_ms": 63800,
+          "end_ms": 67660,
+          "words": [
+            {
+              "word": "Me",
+              "start_ms": 63800,
+              "end_ms": 64300
+            },
+            {
+              "word": "vio",
+              "start_ms": 64300,
+              "end_ms": 64599
+            },
+            {
+              "word": "a",
+              "start_ms": 64599,
+              "end_ms": 64800
+            },
+            {
+              "word": "mi,",
+              "start_ms": 64800,
+              "end_ms": 65239
+            },
+            {
+              "word": "a",
+              "start_ms": 64599,
+              "end_ms": 64800
+            },
+            {
+              "word": "mi,",
+              "start_ms": 64800,
+              "end_ms": 65239
+            },
+            {
+              "word": "la",
+              "start_ms": 66180,
+              "end_ms": 66580
+            },
+            {
+              "word": "pequena",
+              "start_ms": 66580,
+              "end_ms": 67660
+            }
+          ]
         },
         {
           "text": "me vio a mi, la que no contaba",
-          "start_ms": 38720,
-          "end_ms": 41120
+          "start_ms": 67660,
+          "end_ms": 73000,
+          "words": [
+            {
+              "word": "me",
+              "start_ms": 67660,
+              "end_ms": 68860
+            },
+            {
+              "word": "vio",
+              "start_ms": 68860,
+              "end_ms": 69180
+            },
+            {
+              "word": "a",
+              "start_ms": 69180,
+              "end_ms": 69360
+            },
+            {
+              "word": "mi,",
+              "start_ms": 69410,
+              "end_ms": 69710,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 69820,
+              "end_ms": 70300
+            },
+            {
+              "word": "que",
+              "start_ms": 70300,
+              "end_ms": 70700
+            },
+            {
+              "word": "no",
+              "start_ms": 70700,
+              "end_ms": 71140
+            },
+            {
+              "word": "contaba",
+              "start_ms": 71140,
+              "end_ms": 73000
+            }
+          ]
         },
         {
           "text": "me vio a mi, y todo se dio vuelta",
-          "start_ms": 41120,
-          "end_ms": 43760
+          "start_ms": 73000,
+          "end_ms": 76800,
+          "words": [
+            {
+              "word": "me",
+              "start_ms": 73000,
+              "end_ms": 73160
+            },
+            {
+              "word": "vio",
+              "start_ms": 73160,
+              "end_ms": 73660
+            },
+            {
+              "word": "a",
+              "start_ms": 73660,
+              "end_ms": 73880
+            },
+            {
+              "word": "mi,",
+              "start_ms": 73930,
+              "end_ms": 74230,
+              "estimated": true
+            },
+            {
+              "word": "y",
+              "start_ms": 74320,
+              "end_ms": 74760
+            },
+            {
+              "word": "todo",
+              "start_ms": 74760,
+              "end_ms": 75160
+            },
+            {
+              "word": "se",
+              "start_ms": 75160,
+              "end_ms": 75580
+            },
+            {
+              "word": "dio",
+              "start_ms": 75580,
+              "end_ms": 75820
+            },
+            {
+              "word": "vuelta",
+              "start_ms": 75820,
+              "end_ms": 76800
+            }
+          ]
         },
         {
           "text": "los tronos caen, los de abajo cantan",
-          "start_ms": 43760,
-          "end_ms": 46640
+          "start_ms": 76800,
+          "end_ms": 81960,
+          "words": [
+            {
+              "word": "los",
+              "start_ms": 76800,
+              "end_ms": 77680
+            },
+            {
+              "word": "tronos",
+              "start_ms": 77680,
+              "end_ms": 78080
+            },
+            {
+              "word": "caen,",
+              "start_ms": 78080,
+              "end_ms": 79060
+            },
+            {
+              "word": "los",
+              "start_ms": 76800,
+              "end_ms": 77680
+            },
+            {
+              "word": "de",
+              "start_ms": 79580,
+              "end_ms": 79960
+            },
+            {
+              "word": "abajo",
+              "start_ms": 79960,
+              "end_ms": 80320
+            },
+            {
+              "word": "cantan",
+              "start_ms": 80320,
+              "end_ms": 81960
+            }
+          ]
         }
-      ],
-      "start_ms": 36400,
-      "end_ms": 46640
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 82500,
+      "end_ms": 117440,
       "lines": [
         {
           "text": "Los que mandaban, dispersos",
-          "start_ms": 49640,
-          "end_ms": 51800
+          "start_ms": 82500,
+          "end_ms": 87080,
+          "words": [
+            {
+              "word": "Los",
+              "start_ms": 82500,
+              "end_ms": 83280
+            },
+            {
+              "word": "que",
+              "start_ms": 83280,
+              "end_ms": 83680
+            },
+            {
+              "word": "mandaban,",
+              "start_ms": 83680,
+              "end_ms": 84620
+            },
+            {
+              "word": "dispersos",
+              "start_ms": 84620,
+              "end_ms": 87080
+            }
+          ]
         },
         {
           "text": "sus planes hechos ceniza",
-          "start_ms": 51800,
-          "end_ms": 53800
+          "start_ms": 87080,
+          "end_ms": 90320,
+          "words": [
+            {
+              "word": "sus",
+              "start_ms": 87080,
+              "end_ms": 87860
+            },
+            {
+              "word": "planes",
+              "start_ms": 87860,
+              "end_ms": 88420
+            },
+            {
+              "word": "hechos",
+              "start_ms": 88420,
+              "end_ms": 89180
+            },
+            {
+              "word": "ceniza",
+              "start_ms": 89180,
+              "end_ms": 90320
+            }
+          ]
         },
         {
           "text": "los que comian de sobra",
-          "start_ms": 53800,
-          "end_ms": 55800
+          "start_ms": 90320,
+          "end_ms": 95220,
+          "words": [
+            {
+              "word": "los",
+              "start_ms": 90320,
+              "end_ms": 92400
+            },
+            {
+              "word": "que",
+              "start_ms": 92400,
+              "end_ms": 92900
+            },
+            {
+              "word": "comian",
+              "start_ms": 92900,
+              "end_ms": 93720
+            },
+            {
+              "word": "de",
+              "start_ms": 93720,
+              "end_ms": 94100
+            },
+            {
+              "word": "sobra",
+              "start_ms": 94100,
+              "end_ms": 95220
+            }
+          ]
         },
         {
           "text": "hoy salen con las manos limpias",
-          "start_ms": 55800,
-          "end_ms": 58280
+          "start_ms": 95220,
+          "end_ms": 99900,
+          "words": [
+            {
+              "word": "hoy",
+              "start_ms": 95220,
+              "end_ms": 95800
+            },
+            {
+              "word": "salen",
+              "start_ms": 95800,
+              "end_ms": 97180
+            },
+            {
+              "word": "con",
+              "start_ms": 97180,
+              "end_ms": 97840
+            },
+            {
+              "word": "las",
+              "start_ms": 97840,
+              "end_ms": 98200
+            },
+            {
+              "word": "manos",
+              "start_ms": 98200,
+              "end_ms": 98540
+            },
+            {
+              "word": "limpias",
+              "start_ms": 98540,
+              "end_ms": 99900
+            }
+          ]
         },
         {
           "text": "Y los que no tenian nada",
-          "start_ms": 58280,
-          "end_ms": 60280
+          "start_ms": 99900,
+          "end_ms": 104120,
+          "words": [
+            {
+              "word": "Y",
+              "start_ms": 99900,
+              "end_ms": 100060
+            },
+            {
+              "word": "los",
+              "start_ms": 100110,
+              "end_ms": 100410,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 100480,
+              "end_ms": 100900
+            },
+            {
+              "word": "no",
+              "start_ms": 100900,
+              "end_ms": 101680
+            },
+            {
+              "word": "tenian",
+              "start_ms": 101680,
+              "end_ms": 102920
+            },
+            {
+              "word": "nada",
+              "start_ms": 102920,
+              "end_ms": 104120
+            }
+          ]
         },
         {
           "text": "tienen la mesa servida",
-          "start_ms": 60280,
-          "end_ms": 62280
+          "start_ms": 104120,
+          "end_ms": 109080,
+          "words": [
+            {
+              "word": "tienen",
+              "start_ms": 104120,
+              "end_ms": 106320
+            },
+            {
+              "word": "la",
+              "start_ms": 106320,
+              "end_ms": 106720
+            },
+            {
+              "word": "mesa",
+              "start_ms": 106720,
+              "end_ms": 107240
+            },
+            {
+              "word": "servida",
+              "start_ms": 107240,
+              "end_ms": 109080
+            }
+          ]
         },
         {
           "text": "esto no es un cuento viejo",
-          "start_ms": 62280,
-          "end_ms": 64360
+          "start_ms": 110140,
+          "end_ms": 113200,
+          "words": [
+            {
+              "word": "esto",
+              "start_ms": 110140,
+              "end_ms": 110760
+            },
+            {
+              "word": "no",
+              "start_ms": 110760,
+              "end_ms": 111060
+            },
+            {
+              "word": "es",
+              "start_ms": 111060,
+              "end_ms": 111360
+            },
+            {
+              "word": "un",
+              "start_ms": 111360,
+              "end_ms": 111620
+            },
+            {
+              "word": "cuento",
+              "start_ms": 111620,
+              "end_ms": 112140
+            },
+            {
+              "word": "viejo",
+              "start_ms": 112140,
+              "end_ms": 113200
+            }
+          ]
         },
         {
           "text": "esto pasa, aqui, ahora mismo",
-          "start_ms": 64360,
-          "end_ms": 66600
+          "start_ms": 113200,
+          "end_ms": 117440,
+          "words": [
+            {
+              "word": "esto",
+              "start_ms": 113200,
+              "end_ms": 114060
+            },
+            {
+              "word": "pasa,",
+              "start_ms": 114060,
+              "end_ms": 115100
+            },
+            {
+              "word": "aqui,",
+              "start_ms": 115100,
+              "end_ms": 116120
+            },
+            {
+              "word": "ahora",
+              "start_ms": 116480,
+              "end_ms": 116700
+            },
+            {
+              "word": "mismo",
+              "start_ms": 116700,
+              "end_ms": 117440
+            }
+          ]
         }
-      ],
-      "start_ms": 49640,
-      "end_ms": 66600
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 118839,
+      "end_ms": 127760,
       "lines": [
         {
           "text": "No por lo que tengo",
-          "start_ms": 69600,
-          "end_ms": 71600
+          "start_ms": 118839,
+          "end_ms": 120960,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 118839,
+              "end_ms": 119320
+            },
+            {
+              "word": "por",
+              "start_ms": 119320,
+              "end_ms": 119600
+            },
+            {
+              "word": "lo",
+              "start_ms": 119600,
+              "end_ms": 119900
+            },
+            {
+              "word": "que",
+              "start_ms": 119900,
+              "end_ms": 120160
+            },
+            {
+              "word": "tengo",
+              "start_ms": 120160,
+              "end_ms": 120960
+            }
+          ]
         },
         {
           "text": "no por lo que soy",
-          "start_ms": 71600,
-          "end_ms": 73600
+          "start_ms": 121440,
+          "end_ms": 123100,
+          "words": [
+            {
+              "word": "no",
+              "start_ms": 121440,
+              "end_ms": 121560
+            },
+            {
+              "word": "por",
+              "start_ms": 121560,
+              "end_ms": 121860
+            },
+            {
+              "word": "lo",
+              "start_ms": 121860,
+              "end_ms": 122140
+            },
+            {
+              "word": "que",
+              "start_ms": 122140,
+              "end_ms": 122440
+            },
+            {
+              "word": "soy",
+              "start_ms": 122440,
+              "end_ms": 123100
+            }
+          ]
         },
         {
           "text": "sino porque me vio",
-          "start_ms": 73600,
-          "end_ms": 75600
+          "start_ms": 123100,
+          "end_ms": 125240,
+          "words": [
+            {
+              "word": "sino",
+              "start_ms": 123100,
+              "end_ms": 123820
+            },
+            {
+              "word": "porque",
+              "start_ms": 123820,
+              "end_ms": 124280
+            },
+            {
+              "word": "me",
+              "start_ms": 124280,
+              "end_ms": 124620
+            },
+            {
+              "word": "vio",
+              "start_ms": 124620,
+              "end_ms": 125240
+            }
+          ]
         },
         {
           "text": "y eso lo cambio todo",
-          "start_ms": 75600,
-          "end_ms": 77600
+          "start_ms": 125240,
+          "end_ms": 127760,
+          "words": [
+            {
+              "word": "y",
+              "start_ms": 125240,
+              "end_ms": 125620
+            },
+            {
+              "word": "eso",
+              "start_ms": 125620,
+              "end_ms": 125920
+            },
+            {
+              "word": "lo",
+              "start_ms": 125920,
+              "end_ms": 126400
+            },
+            {
+              "word": "cambio",
+              "start_ms": 126400,
+              "end_ms": 127060
+            },
+            {
+              "word": "todo",
+              "start_ms": 127060,
+              "end_ms": 127760
+            }
+          ]
         }
-      ],
-      "start_ms": 69600,
-      "end_ms": 77600
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 129280,
+      "end_ms": 146960,
       "lines": [
         {
           "text": "Me vio a mi, a mi, la pequena",
-          "start_ms": 80600,
-          "end_ms": 82920
+          "start_ms": 129280,
+          "end_ms": 133440,
+          "words": [
+            {
+              "word": "Me",
+              "start_ms": 129280,
+              "end_ms": 130039
+            },
+            {
+              "word": "vio",
+              "start_ms": 130039,
+              "end_ms": 130259
+            },
+            {
+              "word": "a",
+              "start_ms": 130259,
+              "end_ms": 130520
+            },
+            {
+              "word": "mi,",
+              "start_ms": 130520,
+              "end_ms": 130840
+            },
+            {
+              "word": "a",
+              "start_ms": 130259,
+              "end_ms": 130520
+            },
+            {
+              "word": "mi,",
+              "start_ms": 130520,
+              "end_ms": 130840
+            },
+            {
+              "word": "la",
+              "start_ms": 131860,
+              "end_ms": 132220
+            },
+            {
+              "word": "pequena",
+              "start_ms": 132220,
+              "end_ms": 133440
+            }
+          ]
         },
         {
           "text": "me vio a mi, la que no contaba",
-          "start_ms": 82920,
-          "end_ms": 85320
+          "start_ms": 133440,
+          "end_ms": 138000,
+          "words": [
+            {
+              "word": "me",
+              "start_ms": 133440,
+              "end_ms": 134540
+            },
+            {
+              "word": "vio",
+              "start_ms": 134540,
+              "end_ms": 134860
+            },
+            {
+              "word": "a",
+              "start_ms": 134860,
+              "end_ms": 134980
+            },
+            {
+              "word": "mi,",
+              "start_ms": 135030,
+              "end_ms": 135330,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 135600,
+              "end_ms": 135980
+            },
+            {
+              "word": "que",
+              "start_ms": 135980,
+              "end_ms": 136400
+            },
+            {
+              "word": "no",
+              "start_ms": 136400,
+              "end_ms": 136820
+            },
+            {
+              "word": "contaba",
+              "start_ms": 136820,
+              "end_ms": 138000
+            }
+          ]
         },
         {
           "text": "me vio a mi, y todo se dio vuelta",
-          "start_ms": 85320,
-          "end_ms": 87960
+          "start_ms": 138720,
+          "end_ms": 142440,
+          "words": [
+            {
+              "word": "me",
+              "start_ms": 138720,
+              "end_ms": 139080
+            },
+            {
+              "word": "vio",
+              "start_ms": 139080,
+              "end_ms": 139340
+            },
+            {
+              "word": "a",
+              "start_ms": 139340,
+              "end_ms": 139480
+            },
+            {
+              "word": "mi,",
+              "start_ms": 139530,
+              "end_ms": 139830,
+              "estimated": true
+            },
+            {
+              "word": "y",
+              "start_ms": 140060,
+              "end_ms": 140400
+            },
+            {
+              "word": "todo",
+              "start_ms": 140400,
+              "end_ms": 140860
+            },
+            {
+              "word": "se",
+              "start_ms": 140860,
+              "end_ms": 141240
+            },
+            {
+              "word": "dio",
+              "start_ms": 141240,
+              "end_ms": 141460
+            },
+            {
+              "word": "vuelta",
+              "start_ms": 141460,
+              "end_ms": 142440
+            }
+          ]
         },
         {
           "text": "los tronos caen, los de abajo cantan",
-          "start_ms": 87960,
-          "end_ms": 90840
+          "start_ms": 142440,
+          "end_ms": 146960,
+          "words": [
+            {
+              "word": "los",
+              "start_ms": 142440,
+              "end_ms": 143320
+            },
+            {
+              "word": "tronos",
+              "start_ms": 143320,
+              "end_ms": 143740
+            },
+            {
+              "word": "caen,",
+              "start_ms": 143740,
+              "end_ms": 144680
+            },
+            {
+              "word": "los",
+              "start_ms": 142440,
+              "end_ms": 143320
+            },
+            {
+              "word": "de",
+              "start_ms": 145180,
+              "end_ms": 145580
+            },
+            {
+              "word": "abajo",
+              "start_ms": 145580,
+              "end_ms": 145920
+            },
+            {
+              "word": "cantan",
+              "start_ms": 145920,
+              "end_ms": 146960
+            }
+          ]
         }
-      ],
-      "start_ms": 80600,
-      "end_ms": 90840
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 147920,
+      "end_ms": 167920,
       "lines": [
         {
           "text": "Desde Abraham hasta hoy",
-          "start_ms": 93840,
-          "end_ms": 95840
+          "start_ms": 147920,
+          "end_ms": 152220,
+          "words": [
+            {
+              "word": "Desde",
+              "start_ms": 147920,
+              "end_ms": 149060
+            },
+            {
+              "word": "Abraham",
+              "start_ms": 149060,
+              "end_ms": 149880
+            },
+            {
+              "word": "hasta",
+              "start_ms": 149880,
+              "end_ms": 150700
+            },
+            {
+              "word": "hoy",
+              "start_ms": 150700,
+              "end_ms": 152220
+            }
+          ]
         },
         {
           "text": "la misma promesa suena",
-          "start_ms": 95840,
-          "end_ms": 97840
+          "start_ms": 152220,
+          "end_ms": 157020,
+          "words": [
+            {
+              "word": "la",
+              "start_ms": 152220,
+              "end_ms": 153200
+            },
+            {
+              "word": "misma",
+              "start_ms": 153200,
+              "end_ms": 153740
+            },
+            {
+              "word": "promesa",
+              "start_ms": 153740,
+              "end_ms": 154880
+            },
+            {
+              "word": "suena",
+              "start_ms": 154880,
+              "end_ms": 157020
+            }
+          ]
         },
         {
           "text": "que los pequenos importan",
-          "start_ms": 97840,
-          "end_ms": 99840
+          "start_ms": 157020,
+          "end_ms": 161260,
+          "words": [
+            {
+              "word": "que",
+              "start_ms": 157020,
+              "end_ms": 157700
+            },
+            {
+              "word": "los",
+              "start_ms": 157700,
+              "end_ms": 158200
+            },
+            {
+              "word": "pequenos",
+              "start_ms": 158200,
+              "end_ms": 159280
+            },
+            {
+              "word": "importan",
+              "start_ms": 159280,
+              "end_ms": 161260
+            }
+          ]
         },
         {
           "text": "que los invisibles cuentan",
-          "start_ms": 99840,
-          "end_ms": 101920
+          "start_ms": 161260,
+          "end_ms": 167920,
+          "words": [
+            {
+              "word": "que",
+              "start_ms": 161260,
+              "end_ms": 161840
+            },
+            {
+              "word": "los",
+              "start_ms": 161840,
+              "end_ms": 162620
+            },
+            {
+              "word": "invisibles",
+              "start_ms": 162620,
+              "end_ms": 163880
+            },
+            {
+              "word": "cuentan",
+              "start_ms": 163880,
+              "end_ms": 167920
+            }
+          ]
         }
-      ],
-      "start_ms": 93840,
-      "end_ms": 101920
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 167920,
+      "end_ms": 194000,
       "lines": [
         {
           "text": "Me vio a mi, a mi, la pequena",
-          "start_ms": 104920,
-          "end_ms": 107240
+          "start_ms": 167920,
+          "end_ms": 171580,
+          "words": [
+            {
+              "word": "Me",
+              "start_ms": 167920,
+              "end_ms": 168280
+            },
+            {
+              "word": "vio",
+              "start_ms": 168280,
+              "end_ms": 168460
+            },
+            {
+              "word": "a",
+              "start_ms": 168460,
+              "end_ms": 168720
+            },
+            {
+              "word": "mi,",
+              "start_ms": 168720,
+              "end_ms": 169260
+            },
+            {
+              "word": "a",
+              "start_ms": 168460,
+              "end_ms": 168720
+            },
+            {
+              "word": "mi,",
+              "start_ms": 168720,
+              "end_ms": 169260
+            },
+            {
+              "word": "la",
+              "start_ms": 170080,
+              "end_ms": 170500
+            },
+            {
+              "word": "pequena",
+              "start_ms": 170500,
+              "end_ms": 171580
+            }
+          ]
         },
         {
           "text": "me vio a mi, la que no contaba",
-          "start_ms": 107240,
-          "end_ms": 109640
+          "start_ms": 171580,
+          "end_ms": 176480,
+          "words": [
+            {
+              "word": "me",
+              "start_ms": 171580,
+              "end_ms": 172700
+            },
+            {
+              "word": "vio",
+              "start_ms": 172700,
+              "end_ms": 173000
+            },
+            {
+              "word": "a",
+              "start_ms": 173000,
+              "end_ms": 173180
+            },
+            {
+              "word": "mi,",
+              "start_ms": 173230,
+              "end_ms": 173530,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 173800,
+              "end_ms": 174240
+            },
+            {
+              "word": "que",
+              "start_ms": 174240,
+              "end_ms": 174520
+            },
+            {
+              "word": "no",
+              "start_ms": 174520,
+              "end_ms": 175020
+            },
+            {
+              "word": "contaba",
+              "start_ms": 175020,
+              "end_ms": 176480
+            }
+          ]
         },
         {
           "text": "me vio a mi, y todo se dio vuelta",
-          "start_ms": 109640,
-          "end_ms": 112280
+          "start_ms": 176480,
+          "end_ms": 180580,
+          "words": [
+            {
+              "word": "me",
+              "start_ms": 176480,
+              "end_ms": 177180
+            },
+            {
+              "word": "vio",
+              "start_ms": 177180,
+              "end_ms": 177400
+            },
+            {
+              "word": "a",
+              "start_ms": 177400,
+              "end_ms": 177660
+            },
+            {
+              "word": "mi,",
+              "start_ms": 177710,
+              "end_ms": 178010,
+              "estimated": true
+            },
+            {
+              "word": "y",
+              "start_ms": 177960,
+              "end_ms": 178560
+            },
+            {
+              "word": "todo",
+              "start_ms": 178560,
+              "end_ms": 178960
+            },
+            {
+              "word": "se",
+              "start_ms": 178960,
+              "end_ms": 179360
+            },
+            {
+              "word": "dio",
+              "start_ms": 179360,
+              "end_ms": 179580
+            },
+            {
+              "word": "vuelta",
+              "start_ms": 179580,
+              "end_ms": 180580
+            }
+          ]
         },
         {
           "text": "los tronos caen, los de abajo cantan",
-          "start_ms": 112280,
-          "end_ms": 115160
+          "start_ms": 180580,
+          "end_ms": 187240,
+          "words": [
+            {
+              "word": "los",
+              "start_ms": 180580,
+              "end_ms": 181440
+            },
+            {
+              "word": "tronos",
+              "start_ms": 181440,
+              "end_ms": 181860
+            },
+            {
+              "word": "caen,",
+              "start_ms": 181860,
+              "end_ms": 182960
+            },
+            {
+              "word": "los",
+              "start_ms": 180580,
+              "end_ms": 181440
+            },
+            {
+              "word": "de",
+              "start_ms": 183340,
+              "end_ms": 183720
+            },
+            {
+              "word": "abajo",
+              "start_ms": 183720,
+              "end_ms": 184080
+            },
+            {
+              "word": "cantan",
+              "start_ms": 184080,
+              "end_ms": 187240
+            }
+          ]
         },
         {
           "text": "los de abajo cantan",
-          "start_ms": 115160,
-          "end_ms": 117160
+          "start_ms": 187240,
+          "end_ms": 194000,
+          "words": [
+            {
+              "word": "los",
+              "start_ms": 187240,
+              "end_ms": 187800
+            },
+            {
+              "word": "de",
+              "start_ms": 187800,
+              "end_ms": 188180
+            },
+            {
+              "word": "abajo",
+              "start_ms": 188180,
+              "end_ms": 188600
+            },
+            {
+              "word": "cantan",
+              "start_ms": 193080,
+              "end_ms": 194000
+            }
+          ]
         },
         {
           "text": "los de abajo cantan",
-          "start_ms": 117160,
-          "end_ms": 119160
+          "start_ms": 201000,
+          "end_ms": 194000,
+          "words": [
+            {
+              "word": "los",
+              "start_ms": 201000,
+              "end_ms": 201300,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 192320,
+              "end_ms": 192780
+            },
+            {
+              "word": "abajo",
+              "start_ms": 192780,
+              "end_ms": 193080
+            },
+            {
+              "word": "cantan",
+              "start_ms": 193080,
+              "end_ms": 194000
+            }
+          ]
         }
-      ],
-      "start_ms": 104920,
-      "end_ms": 119160
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 201000,
+      "end_ms": 202650,
       "lines": [
         {
           "text": "Me vio a mi",
-          "start_ms": 122160,
-          "end_ms": 124160
+          "start_ms": 201000,
+          "end_ms": 202650,
+          "words": [
+            {
+              "word": "Me",
+              "start_ms": 201000,
+              "end_ms": 201800
+            },
+            {
+              "word": "vio",
+              "start_ms": 201800,
+              "end_ms": 202160
+            },
+            {
+              "word": "a",
+              "start_ms": 202160,
+              "end_ms": 202300
+            },
+            {
+              "word": "mi",
+              "start_ms": 202350,
+              "end_ms": 202650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "a mi",
-          "start_ms": 124160,
-          "end_ms": 126160
+          "start_ms": 202160,
+          "end_ms": 202650,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 202160,
+              "end_ms": 202300
+            },
+            {
+              "word": "mi",
+              "start_ms": 202350,
+              "end_ms": 202650,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 122160,
-      "end_ms": 126160
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 129160,
-          "end_ms": 131160
-        }
-      ],
-      "start_ms": 129160,
-      "end_ms": 131160
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - No por lo que tengo",
+      "section_type": "chorus",
+      "start_ms": 51480,
+      "end_ms": 63160,
+      "key_line": "No por lo que tengo",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Me vio a mi, a mi, la pequena",
+      "section_type": "chorus",
+      "start_ms": 63800,
+      "end_ms": 81960,
+      "key_line": "Me vio a mi, a mi, la pequena",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - No por lo que tengo",
+      "section_type": "chorus",
+      "start_ms": 118839,
+      "end_ms": 127760,
+      "key_line": "No por lo que tengo",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Me vio a mi, a mi, la pequena",
+      "section_type": "chorus",
+      "start_ms": 129280,
+      "end_ms": 146960,
+      "key_line": "Me vio a mi, a mi, la pequena",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 147920,
+      "end_ms": 167920,
+      "key_line": "Desde Abraham hasta hoy",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Me vio a mi, a mi, la pequena",
+      "section_type": "chorus",
+      "start_ms": 167920,
+      "end_ms": 194000,
+      "key_line": "Me vio a mi, a mi, la pequena",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/spanish/42_luke_01_1-46_transcript.json"
 }

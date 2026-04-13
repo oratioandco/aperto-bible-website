@@ -7,278 +7,1592 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 159880,
   "audio_file": "/audio/songs/luke_01/french/Les mains vides (Luke 1_46-56) — French.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.852307+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.964294+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.974,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 10379,
+      "end_ms": 22000,
       "lines": [
         {
           "text": "Je viens d'un bled que t'as jamais cherche sur la carte",
-          "start_ms": 6000,
-          "end_ms": 10400
+          "start_ms": 10379,
+          "end_ms": 13200,
+          "words": [
+            {
+              "word": "Je",
+              "start_ms": 10379,
+              "end_ms": 10860
+            },
+            {
+              "word": "viens",
+              "start_ms": 10860,
+              "end_ms": 11180
+            },
+            {
+              "word": "d'un",
+              "start_ms": 11260,
+              "end_ms": 11460
+            },
+            {
+              "word": "bled",
+              "start_ms": 11460,
+              "end_ms": 11600
+            },
+            {
+              "word": "que",
+              "start_ms": 11600,
+              "end_ms": 11760
+            },
+            {
+              "word": "t'as",
+              "start_ms": 11860,
+              "end_ms": 11960
+            },
+            {
+              "word": "jamais",
+              "start_ms": 11960,
+              "end_ms": 12240
+            },
+            {
+              "word": "cherche",
+              "start_ms": 12240,
+              "end_ms": 12360
+            },
+            {
+              "word": "sur",
+              "start_ms": 12360,
+              "end_ms": 12560
+            },
+            {
+              "word": "la",
+              "start_ms": 12560,
+              "end_ms": 12880
+            },
+            {
+              "word": "carte",
+              "start_ms": 12880,
+              "end_ms": 13200
+            }
+          ]
         },
         {
           "text": "Pas d'argent, pas de nom, pas de place a la table",
-          "start_ms": 10400,
-          "end_ms": 14320
+          "start_ms": 13200,
+          "end_ms": 16100,
+          "words": [
+            {
+              "word": "Pas",
+              "start_ms": 13200,
+              "end_ms": 13440
+            },
+            {
+              "word": "d'argent,",
+              "start_ms": 13580,
+              "end_ms": 13740
+            },
+            {
+              "word": "pas",
+              "start_ms": 13200,
+              "end_ms": 13440
+            },
+            {
+              "word": "de",
+              "start_ms": 14000,
+              "end_ms": 14240
+            },
+            {
+              "word": "nom,",
+              "start_ms": 14240,
+              "end_ms": 14500
+            },
+            {
+              "word": "pas",
+              "start_ms": 13860,
+              "end_ms": 14000
+            },
+            {
+              "word": "de",
+              "start_ms": 14000,
+              "end_ms": 14240
+            },
+            {
+              "word": "place",
+              "start_ms": 15000,
+              "end_ms": 15200
+            },
+            {
+              "word": "a",
+              "start_ms": 15360,
+              "end_ms": 15620
+            },
+            {
+              "word": "la",
+              "start_ms": 15360,
+              "end_ms": 15620
+            },
+            {
+              "word": "table",
+              "start_ms": 15620,
+              "end_ms": 16100
+            }
+          ]
         },
         {
           "text": "Mais j'ai vu quelque chose que les grands voient pas",
-          "start_ms": 14320,
-          "end_ms": 18480
+          "start_ms": 16100,
+          "end_ms": 19060,
+          "words": [
+            {
+              "word": "Mais",
+              "start_ms": 16100,
+              "end_ms": 16620
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 16780,
+              "end_ms": 16880
+            },
+            {
+              "word": "vu",
+              "start_ms": 16880,
+              "end_ms": 17160
+            },
+            {
+              "word": "quelque",
+              "start_ms": 17160,
+              "end_ms": 17580
+            },
+            {
+              "word": "chose",
+              "start_ms": 17580,
+              "end_ms": 17840
+            },
+            {
+              "word": "que",
+              "start_ms": 17840,
+              "end_ms": 18020
+            },
+            {
+              "word": "les",
+              "start_ms": 18020,
+              "end_ms": 18220
+            },
+            {
+              "word": "grands",
+              "start_ms": 18220,
+              "end_ms": 18380
+            },
+            {
+              "word": "voient",
+              "start_ms": 18380,
+              "end_ms": 18660
+            },
+            {
+              "word": "pas",
+              "start_ms": 18660,
+              "end_ms": 19060
+            }
+          ]
         },
         {
           "text": "Depuis leurs tours, depuis leurs trônes, depuis la-haut",
-          "start_ms": 18480,
-          "end_ms": 22880
+          "start_ms": 19060,
+          "end_ms": 22000,
+          "words": [
+            {
+              "word": "Depuis",
+              "start_ms": 19060,
+              "end_ms": 19400
+            },
+            {
+              "word": "leurs",
+              "start_ms": 19400,
+              "end_ms": 19660
+            },
+            {
+              "word": "tours,",
+              "start_ms": 19660,
+              "end_ms": 19980
+            },
+            {
+              "word": "depuis",
+              "start_ms": 19060,
+              "end_ms": 19400
+            },
+            {
+              "word": "leurs",
+              "start_ms": 19400,
+              "end_ms": 19660
+            },
+            {
+              "word": "trônes,",
+              "start_ms": 20660,
+              "end_ms": 21080
+            },
+            {
+              "word": "depuis",
+              "start_ms": 20280,
+              "end_ms": 20400
+            },
+            {
+              "word": "la-haut",
+              "start_ms": 21700,
+              "end_ms": 22000
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22880
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 23300,
+      "end_ms": 31040,
       "lines": [
         {
           "text": "Ils pensaient que ca durerait toujours",
-          "start_ms": 25880,
-          "end_ms": 28920
+          "start_ms": 23300,
+          "end_ms": 25080,
+          "words": [
+            {
+              "word": "Ils",
+              "start_ms": 23300,
+              "end_ms": 23780
+            },
+            {
+              "word": "pensaient",
+              "start_ms": 23780,
+              "end_ms": 24000
+            },
+            {
+              "word": "que",
+              "start_ms": 24000,
+              "end_ms": 24140
+            },
+            {
+              "word": "ca",
+              "start_ms": 24190,
+              "end_ms": 24490,
+              "estimated": true
+            },
+            {
+              "word": "durerait",
+              "start_ms": 24400,
+              "end_ms": 24840
+            },
+            {
+              "word": "toujours",
+              "start_ms": 24840,
+              "end_ms": 25080
+            }
+          ]
         },
         {
           "text": "Que personne bougerait, que personne dirait rien",
-          "start_ms": 28920,
-          "end_ms": 32760
+          "start_ms": 26080,
+          "end_ms": 31040,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 26080,
+              "end_ms": 26560
+            },
+            {
+              "word": "personne",
+              "start_ms": 26560,
+              "end_ms": 27040
+            },
+            {
+              "word": "bougerait,",
+              "start_ms": 27040,
+              "end_ms": 28000
+            },
+            {
+              "word": "que",
+              "start_ms": 26080,
+              "end_ms": 26560
+            },
+            {
+              "word": "personne",
+              "start_ms": 26560,
+              "end_ms": 27040
+            },
+            {
+              "word": "dirait",
+              "start_ms": 29720,
+              "end_ms": 30380
+            },
+            {
+              "word": "rien",
+              "start_ms": 30380,
+              "end_ms": 31040
+            }
+          ]
         }
-      ],
-      "start_ms": 25880,
-      "end_ms": 32760
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 32040,
+      "end_ms": 50420,
       "lines": [
         {
           "text": "Les mains vides",
-          "start_ms": 35760,
-          "end_ms": 37760
+          "start_ms": 32040,
+          "end_ms": 33980,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 32040,
+              "end_ms": 32759
+            },
+            {
+              "word": "mains",
+              "start_ms": 32759,
+              "end_ms": 33140
+            },
+            {
+              "word": "vides",
+              "start_ms": 33140,
+              "end_ms": 33980
+            }
+          ]
         },
         {
           "text": "C'est comme ca qu'ils repartent",
-          "start_ms": 37760,
-          "end_ms": 40240
+          "start_ms": 34540,
+          "end_ms": 36000,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 34540,
+              "end_ms": 34600
+            },
+            {
+              "word": "comme",
+              "start_ms": 34600,
+              "end_ms": 34960
+            },
+            {
+              "word": "ca",
+              "start_ms": 33980,
+              "end_ms": 34540
+            },
+            {
+              "word": "qu'ils",
+              "start_ms": 35420,
+              "end_ms": 35580
+            },
+            {
+              "word": "repartent",
+              "start_ms": 35580,
+              "end_ms": 36000
+            }
+          ]
         },
         {
           "text": "Les mains vides",
-          "start_ms": 40240,
-          "end_ms": 42240
+          "start_ms": 37720,
+          "end_ms": 39340,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 37720,
+              "end_ms": 38200
+            },
+            {
+              "word": "mains",
+              "start_ms": 38200,
+              "end_ms": 38620
+            },
+            {
+              "word": "vides",
+              "start_ms": 38620,
+              "end_ms": 39340
+            }
+          ]
         },
         {
           "text": "Les puissants, les premiers, les forts",
-          "start_ms": 42240,
-          "end_ms": 45280
+          "start_ms": 37720,
+          "end_ms": 42300,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 37720,
+              "end_ms": 38200
+            },
+            {
+              "word": "puissants,",
+              "start_ms": 39800,
+              "end_ms": 40340
+            },
+            {
+              "word": "les",
+              "start_ms": 39580,
+              "end_ms": 39800
+            },
+            {
+              "word": "premiers,",
+              "start_ms": 40620,
+              "end_ms": 40880
+            },
+            {
+              "word": "les",
+              "start_ms": 40460,
+              "end_ms": 40620
+            },
+            {
+              "word": "forts",
+              "start_ms": 41380,
+              "end_ms": 42300
+            }
+          ]
         },
         {
           "text": "Les mains vides",
-          "start_ms": 45280,
-          "end_ms": 47280
+          "start_ms": 41240,
+          "end_ms": 44800,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 41240,
+              "end_ms": 41380
+            },
+            {
+              "word": "mains",
+              "start_ms": 43680,
+              "end_ms": 44060
+            },
+            {
+              "word": "vides",
+              "start_ms": 44060,
+              "end_ms": 44800
+            }
+          ]
         },
         {
           "text": "Et ceux d'en bas, on se releve",
-          "start_ms": 47280,
-          "end_ms": 49680
+          "start_ms": 45060,
+          "end_ms": 47000,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 45060,
+              "end_ms": 45240
+            },
+            {
+              "word": "ceux",
+              "start_ms": 45240,
+              "end_ms": 45380
+            },
+            {
+              "word": "d'en",
+              "start_ms": 45460,
+              "end_ms": 45640
+            },
+            {
+              "word": "bas,",
+              "start_ms": 45640,
+              "end_ms": 45840
+            },
+            {
+              "word": "on",
+              "start_ms": 46160,
+              "end_ms": 46260
+            },
+            {
+              "word": "se",
+              "start_ms": 46260,
+              "end_ms": 46460
+            },
+            {
+              "word": "releve",
+              "start_ms": 46460,
+              "end_ms": 47000
+            }
+          ]
         },
         {
           "text": "C'est deja fait",
-          "start_ms": 49680,
-          "end_ms": 51680
+          "start_ms": 48820,
+          "end_ms": 50420,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 48820,
+              "end_ms": 48900
+            },
+            {
+              "word": "deja",
+              "start_ms": 48950,
+              "end_ms": 49250,
+              "estimated": true
+            },
+            {
+              "word": "fait",
+              "start_ms": 49560,
+              "end_ms": 50420
+            }
+          ]
         }
-      ],
-      "start_ms": 35760,
-      "end_ms": 51680
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 54199,
+      "end_ms": 65099,
       "lines": [
         {
           "text": "Les affames, il les a remplis",
-          "start_ms": 54680,
-          "end_ms": 57000
+          "start_ms": 54199,
+          "end_ms": 57100,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 54199,
+              "end_ms": 54800
+            },
+            {
+              "word": "affames,",
+              "start_ms": 54800,
+              "end_ms": 55320
+            },
+            {
+              "word": "il",
+              "start_ms": 55520,
+              "end_ms": 55740
+            },
+            {
+              "word": "les",
+              "start_ms": 54199,
+              "end_ms": 54800
+            },
+            {
+              "word": "a",
+              "start_ms": 55980,
+              "end_ms": 56140
+            },
+            {
+              "word": "remplis",
+              "start_ms": 56140,
+              "end_ms": 57100
+            }
+          ]
         },
         {
           "text": "Les riches, il les a renvoyes sans rien",
-          "start_ms": 57000,
-          "end_ms": 60120
+          "start_ms": 55740,
+          "end_ms": 59540,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 55740,
+              "end_ms": 55980
+            },
+            {
+              "word": "riches,",
+              "start_ms": 57460,
+              "end_ms": 57820
+            },
+            {
+              "word": "il",
+              "start_ms": 57900,
+              "end_ms": 58060
+            },
+            {
+              "word": "les",
+              "start_ms": 57100,
+              "end_ms": 57460
+            },
+            {
+              "word": "a",
+              "start_ms": 55980,
+              "end_ms": 56140
+            },
+            {
+              "word": "renvoyes",
+              "start_ms": 58380,
+              "end_ms": 58740
+            },
+            {
+              "word": "sans",
+              "start_ms": 58740,
+              "end_ms": 59040
+            },
+            {
+              "word": "rien",
+              "start_ms": 59040,
+              "end_ms": 59540
+            }
+          ]
         },
         {
           "text": "C'est pas un reve, c'est pas un plan",
-          "start_ms": 60120,
-          "end_ms": 63000
+          "start_ms": 60080,
+          "end_ms": 62400,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 60080,
+              "end_ms": 60220
+            },
+            {
+              "word": "pas",
+              "start_ms": 60220,
+              "end_ms": 60420
+            },
+            {
+              "word": "un",
+              "start_ms": 60420,
+              "end_ms": 60560
+            },
+            {
+              "word": "reve,",
+              "start_ms": 60560,
+              "end_ms": 61200
+            },
+            {
+              "word": "c'est",
+              "start_ms": 61540,
+              "end_ms": 61540
+            },
+            {
+              "word": "pas",
+              "start_ms": 61540,
+              "end_ms": 61740
+            },
+            {
+              "word": "un",
+              "start_ms": 61740,
+              "end_ms": 62020
+            },
+            {
+              "word": "plan",
+              "start_ms": 62020,
+              "end_ms": 62400
+            }
+          ]
         },
         {
           "text": "C'est un fait, regarde, c'est deja en train",
-          "start_ms": 63000,
-          "end_ms": 66440
+          "start_ms": 62820,
+          "end_ms": 65099,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 62820,
+              "end_ms": 63000
+            },
+            {
+              "word": "un",
+              "start_ms": 63000,
+              "end_ms": 63280
+            },
+            {
+              "word": "fait,",
+              "start_ms": 63280,
+              "end_ms": 63400
+            },
+            {
+              "word": "regarde,",
+              "start_ms": 63400,
+              "end_ms": 63720
+            },
+            {
+              "word": "c'est",
+              "start_ms": 63860,
+              "end_ms": 63920
+            },
+            {
+              "word": "deja",
+              "start_ms": 63970,
+              "end_ms": 64270,
+              "estimated": true
+            },
+            {
+              "word": "en",
+              "start_ms": 64379,
+              "end_ms": 64680
+            },
+            {
+              "word": "train",
+              "start_ms": 64680,
+              "end_ms": 65099
+            }
+          ]
         }
-      ],
-      "start_ms": 54680,
-      "end_ms": 66440
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 65099,
+      "end_ms": 75820,
       "lines": [
         {
           "text": "Ils ont ri quand j'ai ouvert la bouche",
-          "start_ms": 69440,
-          "end_ms": 72480
+          "start_ms": 65099,
+          "end_ms": 69660,
+          "words": [
+            {
+              "word": "Ils",
+              "start_ms": 65099,
+              "end_ms": 65580
+            },
+            {
+              "word": "ont",
+              "start_ms": 65580,
+              "end_ms": 66000
+            },
+            {
+              "word": "ri",
+              "start_ms": 66000,
+              "end_ms": 66960
+            },
+            {
+              "word": "quand",
+              "start_ms": 66960,
+              "end_ms": 67560
+            },
+            {
+              "word": "j'ai",
+              "start_ms": 67800,
+              "end_ms": 67960
+            },
+            {
+              "word": "ouvert",
+              "start_ms": 67960,
+              "end_ms": 68300
+            },
+            {
+              "word": "la",
+              "start_ms": 68300,
+              "end_ms": 68780
+            },
+            {
+              "word": "bouche",
+              "start_ms": 68780,
+              "end_ms": 69660
+            }
+          ]
         },
         {
           "text": "Une fille de province, qu'est-ce qu'elle en sait",
-          "start_ms": 72480,
-          "end_ms": 76320
+          "start_ms": 69660,
+          "end_ms": 75820,
+          "words": [
+            {
+              "word": "Une",
+              "start_ms": 69660,
+              "end_ms": 70360
+            },
+            {
+              "word": "fille",
+              "start_ms": 70360,
+              "end_ms": 70700
+            },
+            {
+              "word": "de",
+              "start_ms": 70700,
+              "end_ms": 71160
+            },
+            {
+              "word": "province,",
+              "start_ms": 71160,
+              "end_ms": 72200
+            },
+            {
+              "word": "qu'est-ce",
+              "start_ms": 73160,
+              "end_ms": 73480
+            },
+            {
+              "word": "qu'elle",
+              "start_ms": 73680,
+              "end_ms": 73900
+            },
+            {
+              "word": "en",
+              "start_ms": 73900,
+              "end_ms": 74340
+            },
+            {
+              "word": "sait",
+              "start_ms": 74340,
+              "end_ms": 75820
+            }
+          ]
         }
-      ],
-      "start_ms": 69440,
-      "end_ms": 76320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 76280,
+      "end_ms": 93860,
       "lines": [
         {
           "text": "Les mains vides",
-          "start_ms": 79320,
-          "end_ms": 81320
+          "start_ms": 76280,
+          "end_ms": 77820,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 76280,
+              "end_ms": 76440
+            },
+            {
+              "word": "mains",
+              "start_ms": 76440,
+              "end_ms": 76840
+            },
+            {
+              "word": "vides",
+              "start_ms": 76840,
+              "end_ms": 77820
+            }
+          ]
         },
         {
           "text": "C'est comme ca qu'ils repartent",
-          "start_ms": 81320,
-          "end_ms": 83800
+          "start_ms": 78240,
+          "end_ms": 79500,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 78240,
+              "end_ms": 78260
+            },
+            {
+              "word": "comme",
+              "start_ms": 78260,
+              "end_ms": 78580
+            },
+            {
+              "word": "ca",
+              "start_ms": 78020,
+              "end_ms": 78240
+            },
+            {
+              "word": "qu'ils",
+              "start_ms": 79060,
+              "end_ms": 79200
+            },
+            {
+              "word": "repartent",
+              "start_ms": 79200,
+              "end_ms": 79500
+            }
+          ]
         },
         {
           "text": "Les mains vides",
-          "start_ms": 83800,
-          "end_ms": 85800
+          "start_ms": 81259,
+          "end_ms": 83000,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 81259,
+              "end_ms": 81800
+            },
+            {
+              "word": "mains",
+              "start_ms": 81800,
+              "end_ms": 82100
+            },
+            {
+              "word": "vides",
+              "start_ms": 82100,
+              "end_ms": 83000
+            }
+          ]
         },
         {
           "text": "Les puissants, les premiers, les forts",
-          "start_ms": 85800,
-          "end_ms": 88840
+          "start_ms": 81259,
+          "end_ms": 85620,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 81259,
+              "end_ms": 81800
+            },
+            {
+              "word": "puissants,",
+              "start_ms": 83440,
+              "end_ms": 83960
+            },
+            {
+              "word": "les",
+              "start_ms": 83260,
+              "end_ms": 83440
+            },
+            {
+              "word": "premiers,",
+              "start_ms": 84240,
+              "end_ms": 84560
+            },
+            {
+              "word": "les",
+              "start_ms": 84060,
+              "end_ms": 84240
+            },
+            {
+              "word": "forts",
+              "start_ms": 85020,
+              "end_ms": 85620
+            }
+          ]
         },
         {
           "text": "Les mains vides",
-          "start_ms": 88840,
-          "end_ms": 90840
+          "start_ms": 85020,
+          "end_ms": 88460,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 85020,
+              "end_ms": 85020
+            },
+            {
+              "word": "mains",
+              "start_ms": 87340,
+              "end_ms": 87680
+            },
+            {
+              "word": "vides",
+              "start_ms": 87680,
+              "end_ms": 88460
+            }
+          ]
         },
         {
           "text": "Et ceux d'en bas, on se releve",
-          "start_ms": 90840,
-          "end_ms": 93240
+          "start_ms": 88700,
+          "end_ms": 91860,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 88700,
+              "end_ms": 88860
+            },
+            {
+              "word": "ceux",
+              "start_ms": 88860,
+              "end_ms": 89000
+            },
+            {
+              "word": "d'en",
+              "start_ms": 89100,
+              "end_ms": 89260
+            },
+            {
+              "word": "bas,",
+              "start_ms": 89260,
+              "end_ms": 89500
+            },
+            {
+              "word": "on",
+              "start_ms": 89780,
+              "end_ms": 89780
+            },
+            {
+              "word": "se",
+              "start_ms": 89780,
+              "end_ms": 90120
+            },
+            {
+              "word": "releve",
+              "start_ms": 90120,
+              "end_ms": 91860
+            }
+          ]
         },
         {
           "text": "C'est deja fait",
-          "start_ms": 93240,
-          "end_ms": 95240
+          "start_ms": 92400,
+          "end_ms": 93860,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 92400,
+              "end_ms": 92520
+            },
+            {
+              "word": "deja",
+              "start_ms": 92570,
+              "end_ms": 92870,
+              "estimated": true
+            },
+            {
+              "word": "fait",
+              "start_ms": 93160,
+              "end_ms": 93860
+            }
+          ]
         }
-      ],
-      "start_ms": 79320,
-      "end_ms": 95240
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Spoken Word",
+      "label": "Bridge",
+      "start_ms": 95900,
+      "end_ms": 114280,
       "lines": [
         {
           "text": "Mon ame est plus grande que ce qu'ils croient",
-          "start_ms": 98240,
-          "end_ms": 101840
+          "start_ms": 95900,
+          "end_ms": 99360,
+          "words": [
+            {
+              "word": "Mon",
+              "start_ms": 95900,
+              "end_ms": 96440
+            },
+            {
+              "word": "ame",
+              "start_ms": 96440,
+              "end_ms": 96620
+            },
+            {
+              "word": "est",
+              "start_ms": 96620,
+              "end_ms": 96740
+            },
+            {
+              "word": "plus",
+              "start_ms": 96740,
+              "end_ms": 96940
+            },
+            {
+              "word": "grande",
+              "start_ms": 96940,
+              "end_ms": 97140
+            },
+            {
+              "word": "que",
+              "start_ms": 97140,
+              "end_ms": 97280
+            },
+            {
+              "word": "ce",
+              "start_ms": 97280,
+              "end_ms": 97400
+            },
+            {
+              "word": "qu'ils",
+              "start_ms": 97440,
+              "end_ms": 97580
+            },
+            {
+              "word": "croient",
+              "start_ms": 97580,
+              "end_ms": 99360
+            }
+          ]
         },
         {
           "text": "Mon esprit danse sur leurs certitudes",
-          "start_ms": 101840,
-          "end_ms": 104800
+          "start_ms": 99360,
+          "end_ms": 102180,
+          "words": [
+            {
+              "word": "Mon",
+              "start_ms": 99360,
+              "end_ms": 99860
+            },
+            {
+              "word": "esprit",
+              "start_ms": 99860,
+              "end_ms": 100200
+            },
+            {
+              "word": "danse",
+              "start_ms": 100200,
+              "end_ms": 100440
+            },
+            {
+              "word": "sur",
+              "start_ms": 100440,
+              "end_ms": 100640
+            },
+            {
+              "word": "leurs",
+              "start_ms": 100640,
+              "end_ms": 100780
+            },
+            {
+              "word": "certitudes",
+              "start_ms": 100780,
+              "end_ms": 102180
+            }
+          ]
         },
         {
           "text": "Celui qui voit les invisibles",
-          "start_ms": 104800,
-          "end_ms": 107120
+          "start_ms": 102180,
+          "end_ms": 103509,
+          "words": [
+            {
+              "word": "Celui",
+              "start_ms": 102180,
+              "end_ms": 102800
+            },
+            {
+              "word": "qui",
+              "start_ms": 102800,
+              "end_ms": 102940
+            },
+            {
+              "word": "voit",
+              "start_ms": 102940,
+              "end_ms": 103080
+            },
+            {
+              "word": "les",
+              "start_ms": 103080,
+              "end_ms": 103240
+            },
+            {
+              "word": "invisibles",
+              "start_ms": 103240,
+              "end_ms": 103509
+            }
+          ]
         },
         {
           "text": "M'a regardee, moi",
-          "start_ms": 107120,
-          "end_ms": 109120
+          "start_ms": 104420,
+          "end_ms": 106120,
+          "words": [
+            {
+              "word": "M'a",
+              "start_ms": 104420,
+              "end_ms": 104880
+            },
+            {
+              "word": "regardee,",
+              "start_ms": 104880,
+              "end_ms": 105420
+            },
+            {
+              "word": "moi",
+              "start_ms": 106120,
+              "end_ms": 106120
+            }
+          ]
         },
         {
           "text": "Et tout a bascule",
-          "start_ms": 109120,
-          "end_ms": 111120
+          "start_ms": 106460,
+          "end_ms": 107480,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 106460,
+              "end_ms": 106520
+            },
+            {
+              "word": "tout",
+              "start_ms": 106520,
+              "end_ms": 106680
+            },
+            {
+              "word": "a",
+              "start_ms": 108280,
+              "end_ms": 108680
+            },
+            {
+              "word": "bascule",
+              "start_ms": 106820,
+              "end_ms": 107480
+            }
+          ]
         },
         {
           "text": "La promesse faite a nos peres",
-          "start_ms": 111120,
-          "end_ms": 113440
+          "start_ms": 108280,
+          "end_ms": 110260,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 108280,
+              "end_ms": 108680
+            },
+            {
+              "word": "promesse",
+              "start_ms": 108680,
+              "end_ms": 109020
+            },
+            {
+              "word": "faite",
+              "start_ms": 109020,
+              "end_ms": 109200
+            },
+            {
+              "word": "a",
+              "start_ms": 108280,
+              "end_ms": 108680
+            },
+            {
+              "word": "nos",
+              "start_ms": 109340,
+              "end_ms": 109560
+            },
+            {
+              "word": "peres",
+              "start_ms": 109560,
+              "end_ms": 110260
+            }
+          ]
         },
         {
           "text": "Elle tient, elle tient dans mon ventre",
-          "start_ms": 113440,
-          "end_ms": 116480
+          "start_ms": 110780,
+          "end_ms": 114280,
+          "words": [
+            {
+              "word": "Elle",
+              "start_ms": 110780,
+              "end_ms": 111000
+            },
+            {
+              "word": "tient,",
+              "start_ms": 111000,
+              "end_ms": 111700
+            },
+            {
+              "word": "elle",
+              "start_ms": 110780,
+              "end_ms": 111000
+            },
+            {
+              "word": "tient",
+              "start_ms": 111000,
+              "end_ms": 111700
+            },
+            {
+              "word": "dans",
+              "start_ms": 112840,
+              "end_ms": 113280
+            },
+            {
+              "word": "mon",
+              "start_ms": 113280,
+              "end_ms": 113800
+            },
+            {
+              "word": "ventre",
+              "start_ms": 113800,
+              "end_ms": 114280
+            }
+          ]
         }
-      ],
-      "start_ms": 98240,
-      "end_ms": 116480
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 114280,
+      "end_ms": 134720,
       "lines": [
         {
           "text": "Les mains vides",
-          "start_ms": 119480,
-          "end_ms": 121480
+          "start_ms": 114280,
+          "end_ms": 115880,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 114280,
+              "end_ms": 114600
+            },
+            {
+              "word": "mains",
+              "start_ms": 114600,
+              "end_ms": 115000
+            },
+            {
+              "word": "vides",
+              "start_ms": 115000,
+              "end_ms": 115880
+            }
+          ]
         },
         {
           "text": "C'est comme ca qu'ils repartent",
-          "start_ms": 121480,
-          "end_ms": 123960
+          "start_ms": 116420,
+          "end_ms": 118480,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 116420,
+              "end_ms": 116420
+            },
+            {
+              "word": "comme",
+              "start_ms": 116420,
+              "end_ms": 116800
+            },
+            {
+              "word": "ca",
+              "start_ms": 116280,
+              "end_ms": 116420
+            },
+            {
+              "word": "qu'ils",
+              "start_ms": 117240,
+              "end_ms": 117440
+            },
+            {
+              "word": "repartent",
+              "start_ms": 117440,
+              "end_ms": 118480
+            }
+          ]
         },
         {
           "text": "Les mains vides",
-          "start_ms": 123960,
-          "end_ms": 125960
+          "start_ms": 119680,
+          "end_ms": 121220,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 119680,
+              "end_ms": 120040
+            },
+            {
+              "word": "mains",
+              "start_ms": 120040,
+              "end_ms": 120440
+            },
+            {
+              "word": "vides",
+              "start_ms": 120440,
+              "end_ms": 121220
+            }
+          ]
         },
         {
           "text": "Et nous, en bas, les yeux grands ouverts",
-          "start_ms": 125960,
-          "end_ms": 129160
+          "start_ms": 121500,
+          "end_ms": 123960,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 121500,
+              "end_ms": 121600
+            },
+            {
+              "word": "nous,",
+              "start_ms": 121600,
+              "end_ms": 121740
+            },
+            {
+              "word": "en",
+              "start_ms": 121740,
+              "end_ms": 121960
+            },
+            {
+              "word": "bas,",
+              "start_ms": 121960,
+              "end_ms": 122140
+            },
+            {
+              "word": "les",
+              "start_ms": 122260,
+              "end_ms": 122360
+            },
+            {
+              "word": "yeux",
+              "start_ms": 122360,
+              "end_ms": 122540
+            },
+            {
+              "word": "grands",
+              "start_ms": 122540,
+              "end_ms": 122760
+            },
+            {
+              "word": "ouverts",
+              "start_ms": 122760,
+              "end_ms": 123960
+            }
+          ]
         },
         {
           "text": "Les mains vides",
-          "start_ms": 129160,
-          "end_ms": 131160
+          "start_ms": 125100,
+          "end_ms": 126600,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 125100,
+              "end_ms": 125500
+            },
+            {
+              "word": "mains",
+              "start_ms": 125500,
+              "end_ms": 125920
+            },
+            {
+              "word": "vides",
+              "start_ms": 125920,
+              "end_ms": 126600
+            }
+          ]
         },
         {
           "text": "C'est deja fait, c'est deja fait",
-          "start_ms": 131160,
-          "end_ms": 133720
+          "start_ms": 126940,
+          "end_ms": 128080,
+          "words": [
+            {
+              "word": "C'est",
+              "start_ms": 126940,
+              "end_ms": 127020
+            },
+            {
+              "word": "deja",
+              "start_ms": 127070,
+              "end_ms": 127370,
+              "estimated": true
+            },
+            {
+              "word": "fait,",
+              "start_ms": 127520,
+              "end_ms": 128080
+            },
+            {
+              "word": "c'est",
+              "start_ms": 126940,
+              "end_ms": 127020
+            },
+            {
+              "word": "deja",
+              "start_ms": 127070,
+              "end_ms": 127370,
+              "estimated": true
+            },
+            {
+              "word": "fait",
+              "start_ms": 127520,
+              "end_ms": 128080
+            }
+          ]
         },
         {
           "text": "LES MAINS VIDES",
-          "start_ms": 133720,
-          "end_ms": 135720
+          "start_ms": 133239,
+          "end_ms": 134720,
+          "words": [
+            {
+              "word": "LES",
+              "start_ms": 133239,
+              "end_ms": 133640
+            },
+            {
+              "word": "MAINS",
+              "start_ms": 133640,
+              "end_ms": 134040
+            },
+            {
+              "word": "VIDES",
+              "start_ms": 134040,
+              "end_ms": 134720
+            }
+          ]
         }
-      ],
-      "start_ms": 119480,
-      "end_ms": 135720
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ils pensaient que ca durerait ...",
+      "section_type": "chorus",
+      "start_ms": 23300,
+      "end_ms": 31040,
+      "key_line": "Ils pensaient que ca durerait toujours",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Les mains vides",
+      "section_type": "chorus",
+      "start_ms": 32040,
+      "end_ms": 50420,
+      "key_line": "Les mains vides",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ils ont ri quand j'ai ouvert l...",
+      "section_type": "chorus",
+      "start_ms": 65099,
+      "end_ms": 75820,
+      "key_line": "Ils ont ri quand j'ai ouvert la bouche",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Les mains vides",
+      "section_type": "chorus",
+      "start_ms": 76280,
+      "end_ms": 93860,
+      "key_line": "Les mains vides",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 95900,
+      "end_ms": 114280,
+      "key_line": "Mon ame est plus grande que ce qu'ils croient",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Les mains vides",
+      "section_type": "chorus",
+      "start_ms": 114280,
+      "end_ms": 134720,
+      "key_line": "Les mains vides",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/french/42_luke_01_1-46_transcript.json"
 }

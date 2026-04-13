@@ -7,328 +7,1131 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:5-79",
-  "duration_ms": 220000,
+  "duration_ms": 181480,
   "audio_file": "/audio/songs/luke_01/maltese/Luke 1_5-25, 67-79 — Infetaħ — Maltese.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.166145+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.010278+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.797,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 25080,
+      "end_ms": 47560,
       "lines": [
         {
           "text": "Ħalqi magħluq",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 25080,
+          "end_ms": 27880,
+          "words": [
+            {
+              "word": "Ħalqi",
+              "start_ms": 25080,
+              "end_ms": 25380,
+              "estimated": true
+            },
+            {
+              "word": "magħluq",
+              "start_ms": 26480,
+              "end_ms": 27880
+            }
+          ]
         },
         {
           "text": "Mindu dak il-lejl fit-tempju",
-          "start_ms": 8000,
-          "end_ms": 10240
+          "start_ms": 27880,
+          "end_ms": 30820,
+          "words": [
+            {
+              "word": "Mindu",
+              "start_ms": 27880,
+              "end_ms": 28700
+            },
+            {
+              "word": "dak",
+              "start_ms": 31300,
+              "end_ms": 31700
+            },
+            {
+              "word": "il-lejl",
+              "start_ms": 31750,
+              "end_ms": 32050,
+              "estimated": true
+            },
+            {
+              "word": "fit-tempju",
+              "start_ms": 29920,
+              "end_ms": 30820
+            }
+          ]
         },
         {
           "text": "Meta Ġabrijel qalli",
-          "start_ms": 10240,
-          "end_ms": 12240
+          "start_ms": 34940,
+          "end_ms": 34940,
+          "words": [
+            {
+              "word": "Meta",
+              "start_ms": 34940,
+              "end_ms": 35160
+            },
+            {
+              "word": "Ġabrijel",
+              "start_ms": 35210,
+              "end_ms": 35510,
+              "estimated": true
+            },
+            {
+              "word": "qalli",
+              "start_ms": 34820,
+              "end_ms": 34940
+            }
+          ]
         },
         {
           "text": "Dak li ma emminx",
-          "start_ms": 12240,
-          "end_ms": 14240
+          "start_ms": 34180,
+          "end_ms": 36180,
+          "words": [
+            {
+              "word": "Dak",
+              "start_ms": 34180,
+              "end_ms": 34820
+            },
+            {
+              "word": "li",
+              "start_ms": 34820,
+              "end_ms": 34940
+            },
+            {
+              "word": "ma",
+              "start_ms": 34940,
+              "end_ms": 35160
+            },
+            {
+              "word": "emminx",
+              "start_ms": 35160,
+              "end_ms": 36180
+            }
+          ]
         },
         {
           "text": "U issa bilqiegħda fid-dlam",
-          "start_ms": 14240,
-          "end_ms": 16320
+          "start_ms": 36180,
+          "end_ms": 38780,
+          "words": [
+            {
+              "word": "U",
+              "start_ms": 36180,
+              "end_ms": 36480,
+              "estimated": true
+            },
+            {
+              "word": "issa",
+              "start_ms": 36180,
+              "end_ms": 37040
+            },
+            {
+              "word": "bilqiegħda",
+              "start_ms": 37090,
+              "end_ms": 37390,
+              "estimated": true
+            },
+            {
+              "word": "fid-dlam",
+              "start_ms": 38200,
+              "end_ms": 38780
+            }
+          ]
         },
         {
           "text": "B'kliem li ma nistax ngħid",
-          "start_ms": 16320,
-          "end_ms": 18400
+          "start_ms": 38780,
+          "end_ms": 42310,
+          "words": [
+            {
+              "word": "B'kliem",
+              "start_ms": 38780,
+              "end_ms": 39660
+            },
+            {
+              "word": "li",
+              "start_ms": 39660,
+              "end_ms": 39900
+            },
+            {
+              "word": "ma",
+              "start_ms": 39900,
+              "end_ms": 40260
+            },
+            {
+              "word": "nistax",
+              "start_ms": 40260,
+              "end_ms": 41960
+            },
+            {
+              "word": "ngħid",
+              "start_ms": 42010,
+              "end_ms": 42310,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Kollox għadu ġo fija",
-          "start_ms": 18400,
-          "end_ms": 20400
+          "start_ms": 41960,
+          "end_ms": 45360,
+          "words": [
+            {
+              "word": "Kollox",
+              "start_ms": 41960,
+              "end_ms": 42680
+            },
+            {
+              "word": "għadu",
+              "start_ms": 42730,
+              "end_ms": 43030,
+              "estimated": true
+            },
+            {
+              "word": "ġo",
+              "start_ms": 43080,
+              "end_ms": 43380,
+              "estimated": true
+            },
+            {
+              "word": "fija",
+              "start_ms": 43920,
+              "end_ms": 45360
+            }
+          ]
         },
         {
           "text": "Jistenna",
-          "start_ms": 20400,
-          "end_ms": 22400
+          "start_ms": 46580,
+          "end_ms": 47560,
+          "words": [
+            {
+              "word": "Jistenna",
+              "start_ms": 46580,
+              "end_ms": 47560
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22400
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 48820,
+      "end_ms": 65860,
       "lines": [
         {
           "text": "Infetaħ",
-          "start_ms": 25400,
-          "end_ms": 27400
+          "start_ms": 48820,
+          "end_ms": 49800,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 48820,
+              "end_ms": 49800
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 27400,
-          "end_ms": 29400
+          "start_ms": 48820,
+          "end_ms": 49800,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 48820,
+              "end_ms": 49800
+            }
+          ]
         },
         {
           "text": "Dak li kiber fis-skiet",
-          "start_ms": 29400,
-          "end_ms": 31400
+          "start_ms": 52240,
+          "end_ms": 54720,
+          "words": [
+            {
+              "word": "Dak",
+              "start_ms": 52240,
+              "end_ms": 52660
+            },
+            {
+              "word": "li",
+              "start_ms": 52660,
+              "end_ms": 52800
+            },
+            {
+              "word": "kiber",
+              "start_ms": 52800,
+              "end_ms": 53300
+            },
+            {
+              "word": "fis-skiet",
+              "start_ms": 53300,
+              "end_ms": 54720
+            }
+          ]
         },
         {
           "text": "Qed jistenna jitlaq",
-          "start_ms": 31400,
-          "end_ms": 33400
+          "start_ms": 54720,
+          "end_ms": 58540,
+          "words": [
+            {
+              "word": "Qed",
+              "start_ms": 54720,
+              "end_ms": 55020,
+              "estimated": true
+            },
+            {
+              "word": "jistenna",
+              "start_ms": 54720,
+              "end_ms": 56160
+            },
+            {
+              "word": "jitlaq",
+              "start_ms": 56720,
+              "end_ms": 58540
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 33400,
-          "end_ms": 35400
+          "start_ms": 60220,
+          "end_ms": 60860,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 60220,
+              "end_ms": 60860
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 35400,
-          "end_ms": 37400
+          "start_ms": 60220,
+          "end_ms": 60860,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 60220,
+              "end_ms": 60860
+            }
+          ]
         },
         {
           "text": "Fommi mimli b'dak li smajt",
-          "start_ms": 37400,
-          "end_ms": 39480
+          "start_ms": 62300,
+          "end_ms": 65860,
+          "words": [
+            {
+              "word": "Fommi",
+              "start_ms": 62300,
+              "end_ms": 62600,
+              "estimated": true
+            },
+            {
+              "word": "mimli",
+              "start_ms": 63580,
+              "end_ms": 64400
+            },
+            {
+              "word": "b'dak",
+              "start_ms": 64540,
+              "end_ms": 65000
+            },
+            {
+              "word": "li",
+              "start_ms": 64400,
+              "end_ms": 64540
+            },
+            {
+              "word": "smajt",
+              "start_ms": 65220,
+              "end_ms": 65860
+            }
+          ]
         }
-      ],
-      "start_ms": 25400,
-      "end_ms": 39480
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 71100,
+      "end_ms": 92280,
       "lines": [
         {
           "text": "Eliżabetta tgħidli b'għajnejha",
-          "start_ms": 42480,
-          "end_ms": 44880
+          "start_ms": 71100,
+          "end_ms": 72840,
+          "words": [
+            {
+              "word": "Eliżabetta",
+              "start_ms": 71100,
+              "end_ms": 71700
+            },
+            {
+              "word": "tgħidli",
+              "start_ms": 71750,
+              "end_ms": 72050,
+              "estimated": true
+            },
+            {
+              "word": "b'għajnejha",
+              "start_ms": 72200,
+              "end_ms": 72840
+            }
+          ]
         },
         {
           "text": "Li tifhem",
-          "start_ms": 44880,
-          "end_ms": 46880
+          "start_ms": 73400,
+          "end_ms": 74960,
+          "words": [
+            {
+              "word": "Li",
+              "start_ms": 73400,
+              "end_ms": 73740
+            },
+            {
+              "word": "tifhem",
+              "start_ms": 73740,
+              "end_ms": 74960
+            }
+          ]
         },
         {
           "text": "Tifhem x'jfisser",
-          "start_ms": 46880,
-          "end_ms": 48880
+          "start_ms": 73740,
+          "end_ms": 76620,
+          "words": [
+            {
+              "word": "Tifhem",
+              "start_ms": 73740,
+              "end_ms": 74960
+            },
+            {
+              "word": "x'jfisser",
+              "start_ms": 75980,
+              "end_ms": 76620
+            }
+          ]
         },
         {
           "text": "Tkun mimli b'xi ħaġa",
-          "start_ms": 48880,
-          "end_ms": 50880
+          "start_ms": 76620,
+          "end_ms": 78470,
+          "words": [
+            {
+              "word": "Tkun",
+              "start_ms": 76620,
+              "end_ms": 76920,
+              "estimated": true
+            },
+            {
+              "word": "mimli",
+              "start_ms": 76620,
+              "end_ms": 77620
+            },
+            {
+              "word": "b'xi",
+              "start_ms": 77700,
+              "end_ms": 78120
+            },
+            {
+              "word": "ħaġa",
+              "start_ms": 78170,
+              "end_ms": 78470,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Li ma tistax tgħid",
-          "start_ms": 50880,
-          "end_ms": 52880
+          "start_ms": 77620,
+          "end_ms": 81320,
+          "words": [
+            {
+              "word": "Li",
+              "start_ms": 77620,
+              "end_ms": 77700
+            },
+            {
+              "word": "ma",
+              "start_ms": 79780,
+              "end_ms": 80120
+            },
+            {
+              "word": "tistax",
+              "start_ms": 80120,
+              "end_ms": 80820
+            },
+            {
+              "word": "tgħid",
+              "start_ms": 80820,
+              "end_ms": 81320
+            }
+          ]
         },
         {
           "text": "It-tifel jitħarrek ġo fiha",
-          "start_ms": 52880,
-          "end_ms": 54960
+          "start_ms": 81320,
+          "end_ms": 84080,
+          "words": [
+            {
+              "word": "It-tifel",
+              "start_ms": 81320,
+              "end_ms": 82120
+            },
+            {
+              "word": "jitħarrek",
+              "start_ms": 82500,
+              "end_ms": 83080
+            },
+            {
+              "word": "ġo",
+              "start_ms": 83130,
+              "end_ms": 83430,
+              "estimated": true
+            },
+            {
+              "word": "fiha",
+              "start_ms": 83420,
+              "end_ms": 84080
+            }
+          ]
         },
         {
           "text": "It-tifel jitħarrek ġo fija",
-          "start_ms": 54960,
-          "end_ms": 57040
+          "start_ms": 84080,
+          "end_ms": 87020,
+          "words": [
+            {
+              "word": "It-tifel",
+              "start_ms": 84080,
+              "end_ms": 84960
+            },
+            {
+              "word": "jitħarrek",
+              "start_ms": 85240,
+              "end_ms": 85860
+            },
+            {
+              "word": "ġo",
+              "start_ms": 85910,
+              "end_ms": 86210,
+              "estimated": true
+            },
+            {
+              "word": "fija",
+              "start_ms": 86240,
+              "end_ms": 87020
+            }
+          ]
         },
         {
           "text": "Żewġ sigrieti",
-          "start_ms": 57040,
-          "end_ms": 59040
+          "start_ms": 87020,
+          "end_ms": 89580,
+          "words": [
+            {
+              "word": "Żewġ",
+              "start_ms": 87020,
+              "end_ms": 87320,
+              "estimated": true
+            },
+            {
+              "word": "sigrieti",
+              "start_ms": 87820,
+              "end_ms": 89580
+            }
+          ]
         },
         {
           "text": "Jistennew jinfetħu",
-          "start_ms": 59040,
-          "end_ms": 61040
+          "start_ms": 89580,
+          "end_ms": 92280,
+          "words": [
+            {
+              "word": "Jistennew",
+              "start_ms": 89580,
+              "end_ms": 90800
+            },
+            {
+              "word": "jinfetħu",
+              "start_ms": 90800,
+              "end_ms": 92280
+            }
+          ]
         }
-      ],
-      "start_ms": 42480,
-      "end_ms": 61040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 90800,
+      "end_ms": 111430,
       "lines": [
         {
           "text": "Infetaħ",
-          "start_ms": 64040,
-          "end_ms": 66040
+          "start_ms": 90800,
+          "end_ms": 92280,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 90800,
+              "end_ms": 92280
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 66040,
-          "end_ms": 68040
+          "start_ms": 90800,
+          "end_ms": 92280,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 90800,
+              "end_ms": 92280
+            }
+          ]
         },
         {
           "text": "Id-dubju li għalaqi ħalqi",
-          "start_ms": 68040,
-          "end_ms": 70040
+          "start_ms": 97320,
+          "end_ms": 100100,
+          "words": [
+            {
+              "word": "Id-dubju",
+              "start_ms": 97320,
+              "end_ms": 98160
+            },
+            {
+              "word": "li",
+              "start_ms": 98160,
+              "end_ms": 98340
+            },
+            {
+              "word": "għalaqi",
+              "start_ms": 98500,
+              "end_ms": 98880
+            },
+            {
+              "word": "ħalqi",
+              "start_ms": 99100,
+              "end_ms": 100100
+            }
+          ]
         },
         {
           "text": "Ta postu lill-kelma",
-          "start_ms": 70040,
-          "end_ms": 72040
+          "start_ms": 100100,
+          "end_ms": 102860,
+          "words": [
+            {
+              "word": "Ta",
+              "start_ms": 100100,
+              "end_ms": 100640
+            },
+            {
+              "word": "postu",
+              "start_ms": 100640,
+              "end_ms": 101220
+            },
+            {
+              "word": "lill-kelma",
+              "start_ms": 101620,
+              "end_ms": 102860
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 72040,
-          "end_ms": 74040
+          "start_ms": 104679,
+          "end_ms": 106080,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 104679,
+              "end_ms": 106080
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 74040,
-          "end_ms": 76040
+          "start_ms": 104679,
+          "end_ms": 106080,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 104679,
+              "end_ms": 106080
+            }
+          ]
         },
         {
           "text": "L-ewwel ħoss wara disa' xhur",
-          "start_ms": 76040,
-          "end_ms": 78280
+          "start_ms": 108080,
+          "end_ms": 111430,
+          "words": [
+            {
+              "word": "L-ewwel",
+              "start_ms": 108080,
+              "end_ms": 109200
+            },
+            {
+              "word": "ħoss",
+              "start_ms": 109200,
+              "end_ms": 109620
+            },
+            {
+              "word": "wara",
+              "start_ms": 109620,
+              "end_ms": 109940
+            },
+            {
+              "word": "disa'",
+              "start_ms": 109940,
+              "end_ms": 111080
+            },
+            {
+              "word": "xhur",
+              "start_ms": 111130,
+              "end_ms": 111430,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 64040,
-      "end_ms": 78280
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 115080,
+      "end_ms": 136440,
       "lines": [
         {
           "text": "U int ibni",
-          "start_ms": 81280,
-          "end_ms": 83280
+          "start_ms": 115080,
+          "end_ms": 117280,
+          "words": [
+            {
+              "word": "U",
+              "start_ms": 115080,
+              "end_ms": 115380,
+              "estimated": true
+            },
+            {
+              "word": "int",
+              "start_ms": 117280,
+              "end_ms": 118300
+            },
+            {
+              "word": "ibni",
+              "start_ms": 115920,
+              "end_ms": 117280
+            }
+          ]
         },
         {
           "text": "Int li ġejt fis-skiet",
-          "start_ms": 83280,
-          "end_ms": 85280
+          "start_ms": 117280,
+          "end_ms": 120000,
+          "words": [
+            {
+              "word": "Int",
+              "start_ms": 117280,
+              "end_ms": 118300
+            },
+            {
+              "word": "li",
+              "start_ms": 118300,
+              "end_ms": 118360
+            },
+            {
+              "word": "ġejt",
+              "start_ms": 117280,
+              "end_ms": 118300
+            },
+            {
+              "word": "fis-skiet",
+              "start_ms": 118780,
+              "end_ms": 120000
+            }
+          ]
         },
         {
           "text": "Int li ġġorrni",
-          "start_ms": 85280,
-          "end_ms": 87280
+          "start_ms": 120000,
+          "end_ms": 122560,
+          "words": [
+            {
+              "word": "Int",
+              "start_ms": 120000,
+              "end_ms": 121540
+            },
+            {
+              "word": "li",
+              "start_ms": 121540,
+              "end_ms": 121860
+            },
+            {
+              "word": "ġġorrni",
+              "start_ms": 121860,
+              "end_ms": 122560
+            }
+          ]
         },
         {
           "text": "Sa ma kont lest nitkellem",
-          "start_ms": 87280,
-          "end_ms": 89280
+          "start_ms": 122820,
+          "end_ms": 126080,
+          "words": [
+            {
+              "word": "Sa",
+              "start_ms": 122820,
+              "end_ms": 123120,
+              "estimated": true
+            },
+            {
+              "word": "ma",
+              "start_ms": 123170,
+              "end_ms": 123470,
+              "estimated": true
+            },
+            {
+              "word": "kont",
+              "start_ms": 120000,
+              "end_ms": 121540
+            },
+            {
+              "word": "lest",
+              "start_ms": 120000,
+              "end_ms": 121540
+            },
+            {
+              "word": "nitkellem",
+              "start_ms": 124720,
+              "end_ms": 126080
+            }
+          ]
         },
         {
           "text": "Ġwanni ismu",
-          "start_ms": 89280,
-          "end_ms": 91280
+          "start_ms": 127040,
+          "end_ms": 128240,
+          "words": [
+            {
+              "word": "Ġwanni",
+              "start_ms": 127040,
+              "end_ms": 127540
+            },
+            {
+              "word": "ismu",
+              "start_ms": 127540,
+              "end_ms": 128240
+            }
+          ]
         },
         {
           "text": "Mhux proposta",
-          "start_ms": 91280,
-          "end_ms": 93280
+          "start_ms": 129380,
+          "end_ms": 131240,
+          "words": [
+            {
+              "word": "Mhux",
+              "start_ms": 129380,
+              "end_ms": 129979
+            },
+            {
+              "word": "proposta",
+              "start_ms": 129979,
+              "end_ms": 131240
+            }
+          ]
         },
         {
           "text": "Ġwanni ismu",
-          "start_ms": 93280,
-          "end_ms": 95280
+          "start_ms": 132760,
+          "end_ms": 134119,
+          "words": [
+            {
+              "word": "Ġwanni",
+              "start_ms": 132760,
+              "end_ms": 133420
+            },
+            {
+              "word": "ismu",
+              "start_ms": 133420,
+              "end_ms": 134119
+            }
+          ]
         },
         {
           "text": "Fatt",
-          "start_ms": 95280,
-          "end_ms": 97280
+          "start_ms": 135740,
+          "end_ms": 136440,
+          "words": [
+            {
+              "word": "Fatt",
+              "start_ms": 135740,
+              "end_ms": 136440
+            }
+          ]
         }
-      ],
-      "start_ms": 81280,
-      "end_ms": 97280
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 138600,
+      "end_ms": 157540,
       "lines": [
         {
           "text": "Infetaħ",
-          "start_ms": 100280,
-          "end_ms": 102280
+          "start_ms": 138600,
+          "end_ms": 140000,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 138600,
+              "end_ms": 140000
+            }
+          ]
         },
         {
           "text": "Infetaħ",
-          "start_ms": 102280,
-          "end_ms": 104280
+          "start_ms": 138600,
+          "end_ms": 140000,
+          "words": [
+            {
+              "word": "Infetaħ",
+              "start_ms": 138600,
+              "end_ms": 140000
+            }
+          ]
         },
         {
           "text": "Ilsieni nħall",
-          "start_ms": 104280,
-          "end_ms": 106280
+          "start_ms": 141080,
+          "end_ms": 141730,
+          "words": [
+            {
+              "word": "Ilsieni",
+              "start_ms": 141080,
+              "end_ms": 141380,
+              "estimated": true
+            },
+            {
+              "word": "nħall",
+              "start_ms": 141430,
+              "end_ms": 141730,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "U dak li ħareġ",
-          "start_ms": 106280,
-          "end_ms": 108280
+          "start_ms": 145060,
+          "end_ms": 147900,
+          "words": [
+            {
+              "word": "U",
+              "start_ms": 145060,
+              "end_ms": 145760
+            },
+            {
+              "word": "dak",
+              "start_ms": 145760,
+              "end_ms": 146440
+            },
+            {
+              "word": "li",
+              "start_ms": 145760,
+              "end_ms": 146440
+            },
+            {
+              "word": "ħareġ",
+              "start_ms": 146440,
+              "end_ms": 147900
+            }
+          ]
         },
         {
           "text": "Mhux tgergir",
-          "start_ms": 108280,
-          "end_ms": 110280
+          "start_ms": 147900,
+          "end_ms": 150980,
+          "words": [
+            {
+              "word": "Mhux",
+              "start_ms": 147900,
+              "end_ms": 149380
+            },
+            {
+              "word": "tgergir",
+              "start_ms": 149380,
+              "end_ms": 150980
+            }
+          ]
         },
         {
           "text": "Mhux protesta",
-          "start_ms": 110280,
-          "end_ms": 112280
+          "start_ms": 147900,
+          "end_ms": 154220,
+          "words": [
+            {
+              "word": "Mhux",
+              "start_ms": 147900,
+              "end_ms": 149380
+            },
+            {
+              "word": "protesta",
+              "start_ms": 152240,
+              "end_ms": 154220
+            }
+          ]
         },
         {
           "text": "Imma għanja",
-          "start_ms": 112280,
-          "end_ms": 114280
+          "start_ms": 155040,
+          "end_ms": 157540,
+          "words": [
+            {
+              "word": "Imma",
+              "start_ms": 155040,
+              "end_ms": 155740
+            },
+            {
+              "word": "għanja",
+              "start_ms": 155740,
+              "end_ms": 157540
+            }
+          ]
         }
-      ],
-      "start_ms": 100280,
-      "end_ms": 114280
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 159780,
+      "end_ms": 160780,
       "lines": [
         {
           "text": "Id-dawl jitla' mill-għoli",
-          "start_ms": 117280,
-          "end_ms": 119280
+          "start_ms": 159780,
+          "end_ms": 160830,
+          "words": [
+            {
+              "word": "Id-dawl",
+              "start_ms": 159780,
+              "end_ms": 160080,
+              "estimated": true
+            },
+            {
+              "word": "jitla'",
+              "start_ms": 159780,
+              "end_ms": 160480
+            },
+            {
+              "word": "mill-għoli",
+              "start_ms": 160530,
+              "end_ms": 160830,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Id-dawl jitla'",
-          "start_ms": 119280,
-          "end_ms": 121280
+          "start_ms": 160480,
+          "end_ms": 160480,
+          "words": [
+            {
+              "word": "Id-dawl",
+              "start_ms": 160480,
+              "end_ms": 160780,
+              "estimated": true
+            },
+            {
+              "word": "jitla'",
+              "start_ms": 159780,
+              "end_ms": 160480
+            }
+          ]
         },
         {
           "text": "Sliem",
-          "start_ms": 121280,
-          "end_ms": 123280
+          "start_ms": 160480,
+          "end_ms": 160780,
+          "words": [
+            {
+              "word": "Sliem",
+              "start_ms": 160480,
+              "end_ms": 160780,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 117280,
-      "end_ms": 123280
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 126280,
-          "end_ms": 128280
-        }
-      ],
-      "start_ms": 126280,
-      "end_ms": 128280
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Infetaħ",
+      "section_type": "chorus",
+      "start_ms": 48820,
+      "end_ms": 65860,
+      "key_line": "Infetaħ",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Infetaħ",
+      "section_type": "chorus",
+      "start_ms": 90800,
+      "end_ms": 111430,
+      "key_line": "Infetaħ",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 115080,
+      "end_ms": 136440,
+      "key_line": "U int ibni",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Infetaħ",
+      "section_type": "chorus",
+      "start_ms": 138600,
+      "end_ms": 157540,
+      "key_line": "Infetaħ",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/maltese/42_luke_01_1-5_transcript.json"
 }

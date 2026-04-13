@@ -7,195 +7,860 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 191960,
   "audio_file": "/audio/songs/luke_01/lithuanian/_Pamatė mane_ — Luke 1_46-56 (Lithuanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.154841+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.006902+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.94,
   "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 17100,
+      "end_ms": 37420,
+      "lines": [
+        {
+          "text": "Niekas manęs nematė",
+          "start_ms": 17100,
+          "end_ms": 20880,
+          "words": [
+            {
+              "word": "Niekas",
+              "start_ms": 17100,
+              "end_ms": 18500
+            },
+            {
+              "word": "manęs",
+              "start_ms": 18500,
+              "end_ms": 19460
+            },
+            {
+              "word": "nematė",
+              "start_ms": 19460,
+              "end_ms": 20880
+            }
+          ]
+        },
+        {
+          "text": "Niekas manęs nežinojo",
+          "start_ms": 17100,
+          "end_ms": 25200,
+          "words": [
+            {
+              "word": "Niekas",
+              "start_ms": 17100,
+              "end_ms": 18500
+            },
+            {
+              "word": "manęs",
+              "start_ms": 18500,
+              "end_ms": 19460
+            },
+            {
+              "word": "nežinojo",
+              "start_ms": 23680,
+              "end_ms": 25200
+            }
+          ]
+        },
+        {
+          "text": "Mažas taškas žemėlapy",
+          "start_ms": 28080,
+          "end_ms": 30640,
+          "words": [
+            {
+              "word": "Mažas",
+              "start_ms": 28080,
+              "end_ms": 29480
+            },
+            {
+              "word": "taškas",
+              "start_ms": 29480,
+              "end_ms": 29840
+            },
+            {
+              "word": "žemėlapy",
+              "start_ms": 29840,
+              "end_ms": 30640
+            }
+          ]
+        },
+        {
+          "text": "Kurį kažkas ištrynė seniai",
+          "start_ms": 32560,
+          "end_ms": 37420,
+          "words": [
+            {
+              "word": "Kurį",
+              "start_ms": 32560,
+              "end_ms": 32940
+            },
+            {
+              "word": "kažkas",
+              "start_ms": 32940,
+              "end_ms": 34420
+            },
+            {
+              "word": "ištrynė",
+              "start_ms": 34420,
+              "end_ms": 35580
+            },
+            {
+              "word": "seniai",
+              "start_ms": 35580,
+              "end_ms": 37420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 39120,
+      "end_ms": 55420,
+      "lines": [
+        {
+          "text": "Bet kažkas sustojo",
+          "start_ms": 39120,
+          "end_ms": 43160,
+          "words": [
+            {
+              "word": "Bet",
+              "start_ms": 39120,
+              "end_ms": 40520
+            },
+            {
+              "word": "kažkas",
+              "start_ms": 40520,
+              "end_ms": 41060
+            },
+            {
+              "word": "sustojo",
+              "start_ms": 41060,
+              "end_ms": 43160
+            }
+          ]
+        },
+        {
+          "text": "Kažkas pažvelgė žemyn",
+          "start_ms": 40520,
+          "end_ms": 47180,
+          "words": [
+            {
+              "word": "Kažkas",
+              "start_ms": 40520,
+              "end_ms": 41060
+            },
+            {
+              "word": "pažvelgė",
+              "start_ms": 44560,
+              "end_ms": 45800
+            },
+            {
+              "word": "žemyn",
+              "start_ms": 45800,
+              "end_ms": 47180
+            }
+          ]
+        },
+        {
+          "text": "Ir pamatė mane",
+          "start_ms": 47180,
+          "end_ms": 55420,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 47180,
+              "end_ms": 47960
+            },
+            {
+              "word": "pamatė",
+              "start_ms": 47960,
+              "end_ms": 48860
+            },
+            {
+              "word": "mane",
+              "start_ms": 54560,
+              "end_ms": 55420
+            }
+          ]
+        },
+        {
+          "text": "Pamatė mane",
+          "start_ms": 53880,
+          "end_ms": 55420,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 53880,
+              "end_ms": 54560
+            },
+            {
+              "word": "mane",
+              "start_ms": 54560,
+              "end_ms": 55420
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 53880,
+      "end_ms": 70420,
       "lines": [
         {
           "text": "Pamatė mane",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 53880,
+          "end_ms": 55420,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 53880,
+              "end_ms": 54560
+            },
+            {
+              "word": "mane",
+              "start_ms": 54560,
+              "end_ms": 55420
+            }
+          ]
         },
         {
           "text": "Tą mažą, tą niekam nereikalingą",
-          "start_ms": 8000,
-          "end_ms": 10480
+          "start_ms": 57160,
+          "end_ms": 63420,
+          "words": [
+            {
+              "word": "Tą",
+              "start_ms": 57160,
+              "end_ms": 57460,
+              "estimated": true
+            },
+            {
+              "word": "mažą,",
+              "start_ms": 58560,
+              "end_ms": 59900
+            },
+            {
+              "word": "tą",
+              "start_ms": 59950,
+              "end_ms": 60250,
+              "estimated": true
+            },
+            {
+              "word": "niekam",
+              "start_ms": 60460,
+              "end_ms": 61340
+            },
+            {
+              "word": "nereikalingą",
+              "start_ms": 61340,
+              "end_ms": 63420
+            }
+          ]
         },
         {
           "text": "Pamatė mane",
-          "start_ms": 10480,
-          "end_ms": 12480
+          "start_ms": 63960,
+          "end_ms": 66840,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 63960,
+              "end_ms": 65900
+            },
+            {
+              "word": "mane",
+              "start_ms": 65900,
+              "end_ms": 66840
+            }
+          ]
         },
         {
           "text": "Ir viskas manyje užsidegė",
-          "start_ms": 12480,
-          "end_ms": 14480
+          "start_ms": 66840,
+          "end_ms": 70420,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 66840,
+              "end_ms": 67800
+            },
+            {
+              "word": "viskas",
+              "start_ms": 67800,
+              "end_ms": 68280
+            },
+            {
+              "word": "manyje",
+              "start_ms": 65900,
+              "end_ms": 66840
+            },
+            {
+              "word": "užsidegė",
+              "start_ms": 68960,
+              "end_ms": 70420
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14480
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 80740,
+      "end_ms": 95240,
       "lines": [
         {
           "text": "Dabar aš žinau kas vyksta",
-          "start_ms": 17480,
-          "end_ms": 19480
+          "start_ms": 80740,
+          "end_ms": 83880,
+          "words": [
+            {
+              "word": "Dabar",
+              "start_ms": 80740,
+              "end_ms": 81980
+            },
+            {
+              "word": "aš",
+              "start_ms": 81980,
+              "end_ms": 82340
+            },
+            {
+              "word": "žinau",
+              "start_ms": 82340,
+              "end_ms": 82720
+            },
+            {
+              "word": "kas",
+              "start_ms": 82880,
+              "end_ms": 83180
+            },
+            {
+              "word": "vyksta",
+              "start_ms": 83180,
+              "end_ms": 83880
+            }
+          ]
         },
         {
           "text": "Kas visada vyksta",
-          "start_ms": 19480,
-          "end_ms": 21480
+          "start_ms": 82880,
+          "end_ms": 83880,
+          "words": [
+            {
+              "word": "Kas",
+              "start_ms": 82880,
+              "end_ms": 83180
+            },
+            {
+              "word": "visada",
+              "start_ms": 86100,
+              "end_ms": 86940
+            },
+            {
+              "word": "vyksta",
+              "start_ms": 83180,
+              "end_ms": 83880
+            }
+          ]
         },
         {
           "text": "Sostai griūva, planai byra",
-          "start_ms": 21480,
-          "end_ms": 23560
+          "start_ms": 88460,
+          "end_ms": 91860,
+          "words": [
+            {
+              "word": "Sostai",
+              "start_ms": 88460,
+              "end_ms": 88980
+            },
+            {
+              "word": "griūva,",
+              "start_ms": 88980,
+              "end_ms": 89900
+            },
+            {
+              "word": "planai",
+              "start_ms": 90040,
+              "end_ms": 90720
+            },
+            {
+              "word": "byra",
+              "start_ms": 90720,
+              "end_ms": 91860
+            }
+          ]
         },
         {
           "text": "Išdidieji lieka vieni",
-          "start_ms": 23560,
-          "end_ms": 25560
+          "start_ms": 91860,
+          "end_ms": 95240,
+          "words": [
+            {
+              "word": "Išdidieji",
+              "start_ms": 91860,
+              "end_ms": 93700
+            },
+            {
+              "word": "lieka",
+              "start_ms": 93700,
+              "end_ms": 94360
+            },
+            {
+              "word": "vieni",
+              "start_ms": 94360,
+              "end_ms": 95240
+            }
+          ]
         }
-      ],
-      "start_ms": 17480,
-      "end_ms": 25560
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 95240,
+      "end_ms": 112420,
       "lines": [
         {
           "text": "Pamatė mane",
-          "start_ms": 28560,
-          "end_ms": 30560
+          "start_ms": 95240,
+          "end_ms": 96820,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 95240,
+              "end_ms": 96120
+            },
+            {
+              "word": "mane",
+              "start_ms": 96120,
+              "end_ms": 96820
+            }
+          ]
         },
         {
           "text": "Tą mažą, tą niekam nereikalingą",
-          "start_ms": 30560,
-          "end_ms": 33040
+          "start_ms": 99340,
+          "end_ms": 105420,
+          "words": [
+            {
+              "word": "Tą",
+              "start_ms": 99340,
+              "end_ms": 99640,
+              "estimated": true
+            },
+            {
+              "word": "mažą,",
+              "start_ms": 100040,
+              "end_ms": 101400
+            },
+            {
+              "word": "tą",
+              "start_ms": 101450,
+              "end_ms": 101750,
+              "estimated": true
+            },
+            {
+              "word": "niekam",
+              "start_ms": 101960,
+              "end_ms": 102860
+            },
+            {
+              "word": "nereikalingą",
+              "start_ms": 102860,
+              "end_ms": 105420
+            }
+          ]
         },
         {
           "text": "Pamatė mane",
-          "start_ms": 33040,
-          "end_ms": 35040
+          "start_ms": 106100,
+          "end_ms": 108720,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 106100,
+              "end_ms": 107360
+            },
+            {
+              "word": "mane",
+              "start_ms": 107360,
+              "end_ms": 108720
+            }
+          ]
         },
         {
           "text": "Ir viskas manyje užsidegė",
-          "start_ms": 35040,
-          "end_ms": 37040
+          "start_ms": 108720,
+          "end_ms": 112420,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 108720,
+              "end_ms": 109280
+            },
+            {
+              "word": "viskas",
+              "start_ms": 109280,
+              "end_ms": 109740
+            },
+            {
+              "word": "manyje",
+              "start_ms": 107360,
+              "end_ms": 108720
+            },
+            {
+              "word": "užsidegė",
+              "start_ms": 110340,
+              "end_ms": 112420
+            }
+          ]
         }
-      ],
-      "start_ms": 28560,
-      "end_ms": 37040
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 114419,
+      "end_ms": 121980,
       "lines": [
         {
           "text": "Alkanieji valgo",
-          "start_ms": 40040,
-          "end_ms": 42040
+          "start_ms": 114419,
+          "end_ms": 117220,
+          "words": [
+            {
+              "word": "Alkanieji",
+              "start_ms": 114419,
+              "end_ms": 115820
+            },
+            {
+              "word": "valgo",
+              "start_ms": 115820,
+              "end_ms": 117220
+            }
+          ]
         },
         {
           "text": "Turtingieji eina namo",
-          "start_ms": 42040,
-          "end_ms": 44040
+          "start_ms": 117700,
+          "end_ms": 120420,
+          "words": [
+            {
+              "word": "Turtingieji",
+              "start_ms": 117700,
+              "end_ms": 118920
+            },
+            {
+              "word": "eina",
+              "start_ms": 118920,
+              "end_ms": 119500
+            },
+            {
+              "word": "namo",
+              "start_ms": 119500,
+              "end_ms": 120420
+            }
+          ]
         },
         {
           "text": "Tuščiomis",
-          "start_ms": 44040,
-          "end_ms": 46040
+          "start_ms": 121680,
+          "end_ms": 121980,
+          "words": [
+            {
+              "word": "Tuščiomis",
+              "start_ms": 121680,
+              "end_ms": 121980,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Tuščiomis",
-          "start_ms": 46040,
-          "end_ms": 48040
+          "start_ms": 121680,
+          "end_ms": 121980,
+          "words": [
+            {
+              "word": "Tuščiomis",
+              "start_ms": 121680,
+              "end_ms": 121980,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 40040,
-      "end_ms": 48040
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 4",
+      "start_ms": 141360,
+      "end_ms": 155220,
       "lines": [
         {
           "text": "Taip buvo žadėta seniai",
-          "start_ms": 51040,
-          "end_ms": 53040
+          "start_ms": 141360,
+          "end_ms": 144340,
+          "words": [
+            {
+              "word": "Taip",
+              "start_ms": 141360,
+              "end_ms": 141360
+            },
+            {
+              "word": "buvo",
+              "start_ms": 141360,
+              "end_ms": 142000
+            },
+            {
+              "word": "žadėta",
+              "start_ms": 142000,
+              "end_ms": 142840
+            },
+            {
+              "word": "seniai",
+              "start_ms": 142840,
+              "end_ms": 144340
+            }
+          ]
         },
         {
           "text": "Nuo pat pradžių, nuo pirmųjų",
-          "start_ms": 53040,
-          "end_ms": 55280
+          "start_ms": 144340,
+          "end_ms": 148320,
+          "words": [
+            {
+              "word": "Nuo",
+              "start_ms": 144340,
+              "end_ms": 144740
+            },
+            {
+              "word": "pat",
+              "start_ms": 144740,
+              "end_ms": 145000
+            },
+            {
+              "word": "pradžių,",
+              "start_ms": 145000,
+              "end_ms": 146240
+            },
+            {
+              "word": "nuo",
+              "start_ms": 144340,
+              "end_ms": 144740
+            },
+            {
+              "word": "pirmųjų",
+              "start_ms": 146680,
+              "end_ms": 148320
+            }
+          ]
         },
         {
           "text": "Tai ne atsitiktinumas",
-          "start_ms": 55280,
-          "end_ms": 57280
+          "start_ms": 148320,
+          "end_ms": 150100,
+          "words": [
+            {
+              "word": "Tai",
+              "start_ms": 148320,
+              "end_ms": 148760
+            },
+            {
+              "word": "ne",
+              "start_ms": 148760,
+              "end_ms": 149020
+            },
+            {
+              "word": "atsitiktinumas",
+              "start_ms": 149020,
+              "end_ms": 150100
+            }
+          ]
         },
         {
           "text": "Tai visada buvo planas",
-          "start_ms": 57280,
-          "end_ms": 59280
+          "start_ms": 148320,
+          "end_ms": 155220,
+          "words": [
+            {
+              "word": "Tai",
+              "start_ms": 148320,
+              "end_ms": 148760
+            },
+            {
+              "word": "visada",
+              "start_ms": 152720,
+              "end_ms": 153660
+            },
+            {
+              "word": "buvo",
+              "start_ms": 153660,
+              "end_ms": 154140
+            },
+            {
+              "word": "planas",
+              "start_ms": 154140,
+              "end_ms": 155220
+            }
+          ]
         }
-      ],
-      "start_ms": 51040,
-      "end_ms": 59280
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 155220,
+      "end_ms": 171720,
       "lines": [
         {
           "text": "Pamatė mane",
-          "start_ms": 62280,
-          "end_ms": 64280
+          "start_ms": 155220,
+          "end_ms": 157220,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 155220,
+              "end_ms": 156020
+            },
+            {
+              "word": "mane",
+              "start_ms": 156020,
+              "end_ms": 157220
+            }
+          ]
         },
         {
           "text": "Ir aš negaliu tylėti",
-          "start_ms": 64280,
-          "end_ms": 66280
+          "start_ms": 157220,
+          "end_ms": 162720,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 157220,
+              "end_ms": 160240
+            },
+            {
+              "word": "aš",
+              "start_ms": 160240,
+              "end_ms": 160720
+            },
+            {
+              "word": "negaliu",
+              "start_ms": 160720,
+              "end_ms": 161480
+            },
+            {
+              "word": "tylėti",
+              "start_ms": 161480,
+              "end_ms": 162720
+            }
+          ]
         },
         {
           "text": "Pamatė mane",
-          "start_ms": 66280,
-          "end_ms": 68280
+          "start_ms": 162720,
+          "end_ms": 164560,
+          "words": [
+            {
+              "word": "Pamatė",
+              "start_ms": 162720,
+              "end_ms": 163520
+            },
+            {
+              "word": "mane",
+              "start_ms": 163520,
+              "end_ms": 164560
+            }
+          ]
         },
         {
           "text": "Ir viskas manyje dega",
-          "start_ms": 68280,
-          "end_ms": 70280
+          "start_ms": 164560,
+          "end_ms": 171720,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 164560,
+              "end_ms": 167520
+            },
+            {
+              "word": "viskas",
+              "start_ms": 167520,
+              "end_ms": 168700
+            },
+            {
+              "word": "manyje",
+              "start_ms": 163520,
+              "end_ms": 164560
+            },
+            {
+              "word": "dega",
+              "start_ms": 170460,
+              "end_ms": 171720
+            }
+          ]
         }
-      ],
-      "start_ms": 62280,
-      "end_ms": 70280
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 73280,
-          "end_ms": 75280
-        }
-      ],
-      "start_ms": 73280,
-      "end_ms": 75280
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Pamatė mane",
+      "section_type": "chorus",
+      "start_ms": 53880,
+      "end_ms": 70420,
+      "key_line": "Pamatė mane",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Pamatė mane",
+      "section_type": "chorus",
+      "start_ms": 95240,
+      "end_ms": 112420,
+      "key_line": "Pamatė mane",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 114419,
+      "end_ms": 121980,
+      "key_line": "Alkanieji valgo",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Pamatė mane",
+      "section_type": "chorus",
+      "start_ms": 155220,
+      "end_ms": 171720,
+      "key_line": "Pamatė mane",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/lithuanian/42_luke_01_1-46_transcript.json"
 }

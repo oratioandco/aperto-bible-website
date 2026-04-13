@@ -7,263 +7,1624 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 201720,
   "audio_file": "/audio/songs/luke_01/portuguese/Luke 1_46-56 (Portuguese).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.230245+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.033022+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.766,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 14860,
+      "end_ms": 47140,
       "lines": [
         {
           "text": "Ninguem me via",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 14860,
+          "end_ms": 16760,
+          "words": [
+            {
+              "word": "Ninguem",
+              "start_ms": 14860,
+              "end_ms": 15820
+            },
+            {
+              "word": "me",
+              "start_ms": 15820,
+              "end_ms": 16280
+            },
+            {
+              "word": "via",
+              "start_ms": 16280,
+              "end_ms": 16760
+            }
+          ]
         },
         {
           "text": "Eu era a sombra no canto da sala",
-          "start_ms": 8000,
-          "end_ms": 10560
+          "start_ms": 16760,
+          "end_ms": 22200,
+          "words": [
+            {
+              "word": "Eu",
+              "start_ms": 16760,
+              "end_ms": 18820
+            },
+            {
+              "word": "era",
+              "start_ms": 18820,
+              "end_ms": 19300
+            },
+            {
+              "word": "a",
+              "start_ms": 19300,
+              "end_ms": 19500
+            },
+            {
+              "word": "sombra",
+              "start_ms": 19500,
+              "end_ms": 19980
+            },
+            {
+              "word": "no",
+              "start_ms": 19980,
+              "end_ms": 20280
+            },
+            {
+              "word": "canto",
+              "start_ms": 20280,
+              "end_ms": 20920
+            },
+            {
+              "word": "da",
+              "start_ms": 20920,
+              "end_ms": 21360
+            },
+            {
+              "word": "sala",
+              "start_ms": 21360,
+              "end_ms": 22200
+            }
+          ]
         },
         {
           "text": "Ninguem me via",
-          "start_ms": 10560,
-          "end_ms": 12560
+          "start_ms": 23040,
+          "end_ms": 24920,
+          "words": [
+            {
+              "word": "Ninguem",
+              "start_ms": 23040,
+              "end_ms": 23680
+            },
+            {
+              "word": "me",
+              "start_ms": 23680,
+              "end_ms": 24040
+            },
+            {
+              "word": "via",
+              "start_ms": 24040,
+              "end_ms": 24920
+            }
+          ]
         },
         {
           "text": "A rapariga que ninguem chama",
-          "start_ms": 12560,
-          "end_ms": 14800
+          "start_ms": 24920,
+          "end_ms": 29800,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 24920,
+              "end_ms": 26740
+            },
+            {
+              "word": "rapariga",
+              "start_ms": 26740,
+              "end_ms": 27840
+            },
+            {
+              "word": "que",
+              "start_ms": 27840,
+              "end_ms": 28200
+            },
+            {
+              "word": "ninguem",
+              "start_ms": 28200,
+              "end_ms": 28840
+            },
+            {
+              "word": "chama",
+              "start_ms": 28840,
+              "end_ms": 29800
+            }
+          ]
         },
         {
           "text": "Mas alguma coisa mexeu ca dentro",
-          "start_ms": 14800,
-          "end_ms": 17360
+          "start_ms": 29800,
+          "end_ms": 34600,
+          "words": [
+            {
+              "word": "Mas",
+              "start_ms": 29800,
+              "end_ms": 31240
+            },
+            {
+              "word": "alguma",
+              "start_ms": 31240,
+              "end_ms": 31840
+            },
+            {
+              "word": "coisa",
+              "start_ms": 31840,
+              "end_ms": 32740
+            },
+            {
+              "word": "mexeu",
+              "start_ms": 32740,
+              "end_ms": 33460
+            },
+            {
+              "word": "ca",
+              "start_ms": 33460,
+              "end_ms": 33900
+            },
+            {
+              "word": "dentro",
+              "start_ms": 33900,
+              "end_ms": 34600
+            }
+          ]
         },
         {
           "text": "Alguma coisa partiu o silencio",
-          "start_ms": 17360,
-          "end_ms": 19760
+          "start_ms": 34600,
+          "end_ms": 38940,
+          "words": [
+            {
+              "word": "Alguma",
+              "start_ms": 34600,
+              "end_ms": 35880
+            },
+            {
+              "word": "coisa",
+              "start_ms": 35880,
+              "end_ms": 36500
+            },
+            {
+              "word": "partiu",
+              "start_ms": 36500,
+              "end_ms": 37380
+            },
+            {
+              "word": "o",
+              "start_ms": 37380,
+              "end_ms": 37780
+            },
+            {
+              "word": "silencio",
+              "start_ms": 37780,
+              "end_ms": 38940
+            }
+          ]
         },
         {
           "text": "E agora tudo em mim celebra",
-          "start_ms": 19760,
-          "end_ms": 21920
+          "start_ms": 38940,
+          "end_ms": 41720,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 38940,
+              "end_ms": 39500
+            },
+            {
+              "word": "agora",
+              "start_ms": 39500,
+              "end_ms": 39940
+            },
+            {
+              "word": "tudo",
+              "start_ms": 39940,
+              "end_ms": 40300
+            },
+            {
+              "word": "em",
+              "start_ms": 40300,
+              "end_ms": 40480
+            },
+            {
+              "word": "mim",
+              "start_ms": 40480,
+              "end_ms": 40800
+            },
+            {
+              "word": "celebra",
+              "start_ms": 40800,
+              "end_ms": 41720
+            }
+          ]
         },
         {
           "text": "Tudo em mim acorda, tudo em mim incendeia",
-          "start_ms": 21920,
-          "end_ms": 25200
+          "start_ms": 41720,
+          "end_ms": 47140,
+          "words": [
+            {
+              "word": "Tudo",
+              "start_ms": 41720,
+              "end_ms": 42240
+            },
+            {
+              "word": "em",
+              "start_ms": 42240,
+              "end_ms": 42520
+            },
+            {
+              "word": "mim",
+              "start_ms": 42520,
+              "end_ms": 42800
+            },
+            {
+              "word": "acorda,",
+              "start_ms": 42800,
+              "end_ms": 43620
+            },
+            {
+              "word": "tudo",
+              "start_ms": 43620,
+              "end_ms": 44240
+            },
+            {
+              "word": "em",
+              "start_ms": 44240,
+              "end_ms": 44600
+            },
+            {
+              "word": "mim",
+              "start_ms": 44600,
+              "end_ms": 45300
+            },
+            {
+              "word": "incendeia",
+              "start_ms": 45300,
+              "end_ms": 47140
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 25200
-    },
-    {
-      "type": "pre-chorus",
-      "label": "Pre-Chorus",
-      "lines": [
-        {
-          "text": "E eu vejo o que esta a acontecer",
-          "start_ms": 28200,
-          "end_ms": 30760
-        },
-        {
-          "text": "E eu vejo o que ninguem quer ver",
-          "start_ms": 30760,
-          "end_ms": 33320
-        }
-      ],
-      "start_ms": 28200,
-      "end_ms": 33320
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Pre-Chorus",
+      "start_ms": 44240,
+      "end_ms": 60620,
+      "lines": [
+        {
+          "text": "E eu vejo o que esta a acontecer",
+          "start_ms": 44240,
+          "end_ms": 52560,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 44240,
+              "end_ms": 44600
+            },
+            {
+              "word": "eu",
+              "start_ms": 47140,
+              "end_ms": 47900
+            },
+            {
+              "word": "vejo",
+              "start_ms": 47900,
+              "end_ms": 49220
+            },
+            {
+              "word": "o",
+              "start_ms": 49220,
+              "end_ms": 49340
+            },
+            {
+              "word": "que",
+              "start_ms": 49340,
+              "end_ms": 49800
+            },
+            {
+              "word": "esta",
+              "start_ms": 49800,
+              "end_ms": 50480
+            },
+            {
+              "word": "a",
+              "start_ms": 50480,
+              "end_ms": 50920
+            },
+            {
+              "word": "acontecer",
+              "start_ms": 50920,
+              "end_ms": 52560
+            }
+          ]
+        },
+        {
+          "text": "E eu vejo o que ninguem quer ver",
+          "start_ms": 54459,
+          "end_ms": 60620,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 54459,
+              "end_ms": 55800
+            },
+            {
+              "word": "eu",
+              "start_ms": 54459,
+              "end_ms": 55800
+            },
+            {
+              "word": "vejo",
+              "start_ms": 55800,
+              "end_ms": 57100
+            },
+            {
+              "word": "o",
+              "start_ms": 57100,
+              "end_ms": 57380
+            },
+            {
+              "word": "que",
+              "start_ms": 57380,
+              "end_ms": 57740
+            },
+            {
+              "word": "ninguem",
+              "start_ms": 57740,
+              "end_ms": 58660
+            },
+            {
+              "word": "quer",
+              "start_ms": 58660,
+              "end_ms": 59600
+            },
+            {
+              "word": "ver",
+              "start_ms": 59600,
+              "end_ms": 60620
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 61300,
+      "end_ms": 79780,
       "lines": [
         {
           "text": "Os tronos estao a cair",
-          "start_ms": 36320,
-          "end_ms": 38320
+          "start_ms": 61300,
+          "end_ms": 64959,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 61300,
+              "end_ms": 61640
+            },
+            {
+              "word": "tronos",
+              "start_ms": 61640,
+              "end_ms": 62300
+            },
+            {
+              "word": "estao",
+              "start_ms": 62300,
+              "end_ms": 62860
+            },
+            {
+              "word": "a",
+              "start_ms": 62860,
+              "end_ms": 63320
+            },
+            {
+              "word": "cair",
+              "start_ms": 63320,
+              "end_ms": 64959
+            }
+          ]
         },
         {
           "text": "Os tronos estao a cair",
-          "start_ms": 38320,
-          "end_ms": 40320
+          "start_ms": 64959,
+          "end_ms": 68780,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 64959,
+              "end_ms": 65480
+            },
+            {
+              "word": "tronos",
+              "start_ms": 65480,
+              "end_ms": 66220
+            },
+            {
+              "word": "estao",
+              "start_ms": 66220,
+              "end_ms": 66820
+            },
+            {
+              "word": "a",
+              "start_ms": 66820,
+              "end_ms": 67220
+            },
+            {
+              "word": "cair",
+              "start_ms": 67220,
+              "end_ms": 68780
+            }
+          ]
         },
         {
           "text": "E os que tinham fome sentam-se a mesa",
-          "start_ms": 40320,
-          "end_ms": 43280
+          "start_ms": 68780,
+          "end_ms": 73320,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 68780,
+              "end_ms": 69380
+            },
+            {
+              "word": "os",
+              "start_ms": 69380,
+              "end_ms": 69700
+            },
+            {
+              "word": "que",
+              "start_ms": 69700,
+              "end_ms": 70020
+            },
+            {
+              "word": "tinham",
+              "start_ms": 70020,
+              "end_ms": 70400
+            },
+            {
+              "word": "fome",
+              "start_ms": 70400,
+              "end_ms": 71160
+            },
+            {
+              "word": "sentam-se",
+              "start_ms": 71160,
+              "end_ms": 72060
+            },
+            {
+              "word": "a",
+              "start_ms": 72110,
+              "end_ms": 72410,
+              "estimated": true
+            },
+            {
+              "word": "mesa",
+              "start_ms": 72600,
+              "end_ms": 73320
+            }
+          ]
         },
         {
           "text": "E os ricos saem de maos vazias",
-          "start_ms": 43280,
-          "end_ms": 45680
+          "start_ms": 73320,
+          "end_ms": 77180,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 73320,
+              "end_ms": 73780
+            },
+            {
+              "word": "os",
+              "start_ms": 73780,
+              "end_ms": 73980
+            },
+            {
+              "word": "ricos",
+              "start_ms": 73980,
+              "end_ms": 74360
+            },
+            {
+              "word": "saem",
+              "start_ms": 74360,
+              "end_ms": 74920
+            },
+            {
+              "word": "de",
+              "start_ms": 74920,
+              "end_ms": 75260
+            },
+            {
+              "word": "maos",
+              "start_ms": 75260,
+              "end_ms": 75900
+            },
+            {
+              "word": "vazias",
+              "start_ms": 75900,
+              "end_ms": 77180
+            }
+          ]
         },
         {
           "text": "Os tronos estao a cair",
-          "start_ms": 45680,
-          "end_ms": 47680
+          "start_ms": 77180,
+          "end_ms": 79780,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 77180,
+              "end_ms": 77600
+            },
+            {
+              "word": "tronos",
+              "start_ms": 77600,
+              "end_ms": 78060
+            },
+            {
+              "word": "estao",
+              "start_ms": 78060,
+              "end_ms": 78720
+            },
+            {
+              "word": "a",
+              "start_ms": 78720,
+              "end_ms": 79120
+            },
+            {
+              "word": "cair",
+              "start_ms": 79120,
+              "end_ms": 79780
+            }
+          ]
         }
-      ],
-      "start_ms": 36320,
-      "end_ms": 47680
+      ]
     },
     {
       "type": "verse",
-      "label": "Verse 2] [Powerful",
+      "label": "Verse 2",
+      "start_ms": 85720,
+      "end_ms": 124930,
       "lines": [
         {
           "text": "Eu era nada, terra de ninguem",
-          "start_ms": 50680,
-          "end_ms": 53000
+          "start_ms": 85720,
+          "end_ms": 89340,
+          "words": [
+            {
+              "word": "Eu",
+              "start_ms": 85720,
+              "end_ms": 86740
+            },
+            {
+              "word": "era",
+              "start_ms": 86740,
+              "end_ms": 87200
+            },
+            {
+              "word": "nada,",
+              "start_ms": 87200,
+              "end_ms": 87540
+            },
+            {
+              "word": "terra",
+              "start_ms": 87540,
+              "end_ms": 88120
+            },
+            {
+              "word": "de",
+              "start_ms": 88120,
+              "end_ms": 88600
+            },
+            {
+              "word": "ninguem",
+              "start_ms": 88600,
+              "end_ms": 89340
+            }
+          ]
         },
         {
           "text": "Uma promessa que nunca chegava a ninguem",
-          "start_ms": 53000,
-          "end_ms": 56200
+          "start_ms": 89340,
+          "end_ms": 93580,
+          "words": [
+            {
+              "word": "Uma",
+              "start_ms": 89340,
+              "end_ms": 89900
+            },
+            {
+              "word": "promessa",
+              "start_ms": 89900,
+              "end_ms": 90660
+            },
+            {
+              "word": "que",
+              "start_ms": 90660,
+              "end_ms": 91120
+            },
+            {
+              "word": "nunca",
+              "start_ms": 91120,
+              "end_ms": 91820
+            },
+            {
+              "word": "chegava",
+              "start_ms": 91820,
+              "end_ms": 92780
+            },
+            {
+              "word": "a",
+              "start_ms": 92780,
+              "end_ms": 93040
+            },
+            {
+              "word": "ninguem",
+              "start_ms": 93040,
+              "end_ms": 93580
+            }
+          ]
         },
         {
           "text": "Mas ele viu-me, viu mesmo",
-          "start_ms": 56200,
-          "end_ms": 58200
+          "start_ms": 93580,
+          "end_ms": 97920,
+          "words": [
+            {
+              "word": "Mas",
+              "start_ms": 93580,
+              "end_ms": 94140
+            },
+            {
+              "word": "ele",
+              "start_ms": 94140,
+              "end_ms": 94840
+            },
+            {
+              "word": "viu-me,",
+              "start_ms": 95260,
+              "end_ms": 96400
+            },
+            {
+              "word": "viu",
+              "start_ms": 94840,
+              "end_ms": 95260
+            },
+            {
+              "word": "mesmo",
+              "start_ms": 96900,
+              "end_ms": 97920
+            }
+          ]
         },
         {
           "text": "No sitio onde todo o mundo passa sem olhar",
-          "start_ms": 58200,
-          "end_ms": 61560
+          "start_ms": 97920,
+          "end_ms": 101820,
+          "words": [
+            {
+              "word": "No",
+              "start_ms": 97920,
+              "end_ms": 98460
+            },
+            {
+              "word": "sitio",
+              "start_ms": 98460,
+              "end_ms": 99040
+            },
+            {
+              "word": "onde",
+              "start_ms": 99040,
+              "end_ms": 99440
+            },
+            {
+              "word": "todo",
+              "start_ms": 99440,
+              "end_ms": 100000
+            },
+            {
+              "word": "o",
+              "start_ms": 102360,
+              "end_ms": 102560
+            },
+            {
+              "word": "mundo",
+              "start_ms": 102610,
+              "end_ms": 102910,
+              "estimated": true
+            },
+            {
+              "word": "passa",
+              "start_ms": 102960,
+              "end_ms": 103260,
+              "estimated": true
+            },
+            {
+              "word": "sem",
+              "start_ms": 103310,
+              "end_ms": 103610,
+              "estimated": true
+            },
+            {
+              "word": "olhar",
+              "start_ms": 101340,
+              "end_ms": 101820
+            }
+          ]
         },
         {
           "text": "E o braco dele partiu o que parecia eterno",
-          "start_ms": 61560,
-          "end_ms": 64920
+          "start_ms": 102100,
+          "end_ms": 117340,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 102100,
+              "end_ms": 102360
+            },
+            {
+              "word": "o",
+              "start_ms": 102360,
+              "end_ms": 102560
+            },
+            {
+              "word": "braco",
+              "start_ms": 102560,
+              "end_ms": 103020
+            },
+            {
+              "word": "dele",
+              "start_ms": 103020,
+              "end_ms": 103340
+            },
+            {
+              "word": "partiu",
+              "start_ms": 103340,
+              "end_ms": 104280
+            },
+            {
+              "word": "o",
+              "start_ms": 106740,
+              "end_ms": 107000
+            },
+            {
+              "word": "que",
+              "start_ms": 116280,
+              "end_ms": 116640
+            },
+            {
+              "word": "parecia",
+              "start_ms": 116690,
+              "end_ms": 116990,
+              "estimated": true
+            },
+            {
+              "word": "eterno",
+              "start_ms": 117040,
+              "end_ms": 117340,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E o chao tremeu debaixo de quem mandava",
-          "start_ms": 64920,
-          "end_ms": 68040
+          "start_ms": 121580,
+          "end_ms": 124930,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 121580,
+              "end_ms": 122780
+            },
+            {
+              "word": "o",
+              "start_ms": 123980,
+              "end_ms": 124280
+            },
+            {
+              "word": "chao",
+              "start_ms": 124330,
+              "end_ms": 124630,
+              "estimated": true
+            },
+            {
+              "word": "tremeu",
+              "start_ms": 124680,
+              "end_ms": 124980,
+              "estimated": true
+            },
+            {
+              "word": "debaixo",
+              "start_ms": 125030,
+              "end_ms": 125330,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 125380,
+              "end_ms": 125680,
+              "estimated": true
+            },
+            {
+              "word": "quem",
+              "start_ms": 124280,
+              "end_ms": 124580
+            },
+            {
+              "word": "mandava",
+              "start_ms": 124630,
+              "end_ms": 124930,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 50680,
-      "end_ms": 68040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 124580,
+      "end_ms": 137290,
       "lines": [
         {
           "text": "E eu vejo o que esta a acontecer",
-          "start_ms": 71040,
-          "end_ms": 73600
+          "start_ms": 124580,
+          "end_ms": 130549,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 124580,
+              "end_ms": 124880,
+              "estimated": true
+            },
+            {
+              "word": "eu",
+              "start_ms": 124930,
+              "end_ms": 125230,
+              "estimated": true
+            },
+            {
+              "word": "vejo",
+              "start_ms": 122780,
+              "end_ms": 123980
+            },
+            {
+              "word": "o",
+              "start_ms": 123980,
+              "end_ms": 124280
+            },
+            {
+              "word": "que",
+              "start_ms": 124280,
+              "end_ms": 124580
+            },
+            {
+              "word": "esta",
+              "start_ms": 129180,
+              "end_ms": 129800
+            },
+            {
+              "word": "a",
+              "start_ms": 129800,
+              "end_ms": 130199
+            },
+            {
+              "word": "acontecer",
+              "start_ms": 130249,
+              "end_ms": 130549,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E eu vejo o que ninguem quer ver",
-          "start_ms": 73600,
-          "end_ms": 76160
+          "start_ms": 135800,
+          "end_ms": 137290,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 135800,
+              "end_ms": 136420
+            },
+            {
+              "word": "eu",
+              "start_ms": 135800,
+              "end_ms": 136420
+            },
+            {
+              "word": "vejo",
+              "start_ms": 136470,
+              "end_ms": 136770,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 136420,
+              "end_ms": 136640
+            },
+            {
+              "word": "que",
+              "start_ms": 136640,
+              "end_ms": 136940
+            },
+            {
+              "word": "ninguem",
+              "start_ms": 136990,
+              "end_ms": 137290,
+              "estimated": true
+            },
+            {
+              "word": "quer",
+              "start_ms": 136640,
+              "end_ms": 136940
+            },
+            {
+              "word": "ver",
+              "start_ms": 136990,
+              "end_ms": 137290,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 71040,
-      "end_ms": 76160
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 136420,
+      "end_ms": 186140,
       "lines": [
         {
           "text": "Os tronos estao a cair",
-          "start_ms": 79160,
-          "end_ms": 81160
+          "start_ms": 136420,
+          "end_ms": 147160,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 136420,
+              "end_ms": 136640
+            },
+            {
+              "word": "tronos",
+              "start_ms": 140860,
+              "end_ms": 141240
+            },
+            {
+              "word": "estao",
+              "start_ms": 144940,
+              "end_ms": 145540
+            },
+            {
+              "word": "a",
+              "start_ms": 145540,
+              "end_ms": 145960
+            },
+            {
+              "word": "cair",
+              "start_ms": 145960,
+              "end_ms": 147160
+            }
+          ]
         },
         {
           "text": "Os tronos estao a cair",
-          "start_ms": 81160,
-          "end_ms": 83160
+          "start_ms": 149980,
+          "end_ms": 147160,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 149980,
+              "end_ms": 150280,
+              "estimated": true
+            },
+            {
+              "word": "tronos",
+              "start_ms": 150330,
+              "end_ms": 150630,
+              "estimated": true
+            },
+            {
+              "word": "estao",
+              "start_ms": 144940,
+              "end_ms": 145540
+            },
+            {
+              "word": "a",
+              "start_ms": 145540,
+              "end_ms": 145960
+            },
+            {
+              "word": "cair",
+              "start_ms": 145960,
+              "end_ms": 147160
+            }
+          ]
         },
         {
           "text": "E os que tinham fome sentam-se a mesa",
-          "start_ms": 83160,
-          "end_ms": 86120
+          "start_ms": 154360,
+          "end_ms": 169930,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 154360,
+              "end_ms": 154800
+            },
+            {
+              "word": "os",
+              "start_ms": 161700,
+              "end_ms": 162380
+            },
+            {
+              "word": "que",
+              "start_ms": 162430,
+              "end_ms": 162730,
+              "estimated": true
+            },
+            {
+              "word": "tinham",
+              "start_ms": 162780,
+              "end_ms": 163080,
+              "estimated": true
+            },
+            {
+              "word": "fome",
+              "start_ms": 163130,
+              "end_ms": 163430,
+              "estimated": true
+            },
+            {
+              "word": "sentam-se",
+              "start_ms": 163480,
+              "end_ms": 163780,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 169060,
+              "end_ms": 169580
+            },
+            {
+              "word": "mesa",
+              "start_ms": 169630,
+              "end_ms": 169930,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E os ricos saem de maos vazias",
-          "start_ms": 86120,
-          "end_ms": 88520
+          "start_ms": 175140,
+          "end_ms": 183380,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 175140,
+              "end_ms": 175680
+            },
+            {
+              "word": "os",
+              "start_ms": 175680,
+              "end_ms": 175940
+            },
+            {
+              "word": "ricos",
+              "start_ms": 180220,
+              "end_ms": 180580
+            },
+            {
+              "word": "saem",
+              "start_ms": 180580,
+              "end_ms": 181160
+            },
+            {
+              "word": "de",
+              "start_ms": 181160,
+              "end_ms": 181480
+            },
+            {
+              "word": "maos",
+              "start_ms": 181480,
+              "end_ms": 182120
+            },
+            {
+              "word": "vazias",
+              "start_ms": 182120,
+              "end_ms": 183380
+            }
+          ]
         },
         {
           "text": "Os tronos estao a cair",
-          "start_ms": 88520,
-          "end_ms": 90520
+          "start_ms": 183380,
+          "end_ms": 186140,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 183380,
+              "end_ms": 183740
+            },
+            {
+              "word": "tronos",
+              "start_ms": 183740,
+              "end_ms": 184280
+            },
+            {
+              "word": "estao",
+              "start_ms": 184280,
+              "end_ms": 184900
+            },
+            {
+              "word": "a",
+              "start_ms": 184900,
+              "end_ms": 185300
+            },
+            {
+              "word": "cair",
+              "start_ms": 185300,
+              "end_ms": 186140
+            }
+          ]
         }
-      ],
-      "start_ms": 79160,
-      "end_ms": 90520
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 190960,
+      "end_ms": 193110,
       "lines": [
         {
           "text": "Ele prometeu ha muito tempo",
-          "start_ms": 93520,
-          "end_ms": 95680
+          "start_ms": 190960,
+          "end_ms": 186000,
+          "words": [
+            {
+              "word": "Ele",
+              "start_ms": 190960,
+              "end_ms": 191260,
+              "estimated": true
+            },
+            {
+              "word": "prometeu",
+              "start_ms": 191310,
+              "end_ms": 191610,
+              "estimated": true
+            },
+            {
+              "word": "ha",
+              "start_ms": 184900,
+              "end_ms": 185300
+            },
+            {
+              "word": "muito",
+              "start_ms": 185350,
+              "end_ms": 185650,
+              "estimated": true
+            },
+            {
+              "word": "tempo",
+              "start_ms": 185700,
+              "end_ms": 186000,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nao se esqueceu, nao se esqueceu",
-          "start_ms": 95680,
-          "end_ms": 98240
+          "start_ms": 185300,
+          "end_ms": 187350,
+          "words": [
+            {
+              "word": "Nao",
+              "start_ms": 185300,
+              "end_ms": 185600,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 185650,
+              "end_ms": 185950,
+              "estimated": true
+            },
+            {
+              "word": "esqueceu,",
+              "start_ms": 186000,
+              "end_ms": 186300,
+              "estimated": true
+            },
+            {
+              "word": "nao",
+              "start_ms": 186350,
+              "end_ms": 186650,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 186700,
+              "end_ms": 187000,
+              "estimated": true
+            },
+            {
+              "word": "esqueceu",
+              "start_ms": 187050,
+              "end_ms": 187350,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "De geracao em geracao",
-          "start_ms": 98240,
-          "end_ms": 100240
+          "start_ms": 185300,
+          "end_ms": 186650,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 185300,
+              "end_ms": 185600,
+              "estimated": true
+            },
+            {
+              "word": "geracao",
+              "start_ms": 185650,
+              "end_ms": 185950,
+              "estimated": true
+            },
+            {
+              "word": "em",
+              "start_ms": 186000,
+              "end_ms": 186300,
+              "estimated": true
+            },
+            {
+              "word": "geracao",
+              "start_ms": 186350,
+              "end_ms": 186650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "O mesmo fogo, o mesmo chao",
-          "start_ms": 100240,
-          "end_ms": 102320
+          "start_ms": 190960,
+          "end_ms": 193110,
+          "words": [
+            {
+              "word": "O",
+              "start_ms": 190960,
+              "end_ms": 191500
+            },
+            {
+              "word": "mesmo",
+              "start_ms": 192140,
+              "end_ms": 192760
+            },
+            {
+              "word": "fogo,",
+              "start_ms": 192810,
+              "end_ms": 193110,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 190960,
+              "end_ms": 191500
+            },
+            {
+              "word": "mesmo",
+              "start_ms": 192140,
+              "end_ms": 192760
+            },
+            {
+              "word": "chao",
+              "start_ms": 192810,
+              "end_ms": 193110,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 93520,
-      "end_ms": 102320
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 190960,
+      "end_ms": 194240,
       "lines": [
         {
           "text": "Os tronos estao a cair!",
-          "start_ms": 105320,
-          "end_ms": 107320
+          "start_ms": 190960,
+          "end_ms": 194240,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 190960,
+              "end_ms": 191500
+            },
+            {
+              "word": "tronos",
+              "start_ms": 191500,
+              "end_ms": 192140
+            },
+            {
+              "word": "estao",
+              "start_ms": 192140,
+              "end_ms": 192760
+            },
+            {
+              "word": "a",
+              "start_ms": 192760,
+              "end_ms": 193180
+            },
+            {
+              "word": "cair!",
+              "start_ms": 193180,
+              "end_ms": 194240
+            }
+          ]
         },
         {
           "text": "Os tronos estao a cair!",
-          "start_ms": 107320,
-          "end_ms": 109320
+          "start_ms": 0,
+          "end_ms": 194240,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "tronos",
+              "start_ms": 350,
+              "end_ms": 650,
+              "estimated": true
+            },
+            {
+              "word": "estao",
+              "start_ms": 192140,
+              "end_ms": 192760
+            },
+            {
+              "word": "a",
+              "start_ms": 192760,
+              "end_ms": 193180
+            },
+            {
+              "word": "cair!",
+              "start_ms": 193180,
+              "end_ms": 194240
+            }
+          ]
         },
         {
           "text": "E os que tinham fome sentam-se a mesa",
-          "start_ms": 109320,
-          "end_ms": 112280
+          "start_ms": 0,
+          "end_ms": 193530,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 0,
+              "end_ms": 300,
+              "estimated": true
+            },
+            {
+              "word": "os",
+              "start_ms": 350,
+              "end_ms": 650,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 700,
+              "end_ms": 1000,
+              "estimated": true
+            },
+            {
+              "word": "tinham",
+              "start_ms": 1050,
+              "end_ms": 1350,
+              "estimated": true
+            },
+            {
+              "word": "fome",
+              "start_ms": 1400,
+              "end_ms": 1700,
+              "estimated": true
+            },
+            {
+              "word": "sentam-se",
+              "start_ms": 1750,
+              "end_ms": 2050,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 192760,
+              "end_ms": 193180
+            },
+            {
+              "word": "mesa",
+              "start_ms": 193230,
+              "end_ms": 193530,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "E os ricos saem de maos vazias",
-          "start_ms": 112280,
-          "end_ms": 114680
+          "start_ms": 193180,
+          "end_ms": 191850,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 193180,
+              "end_ms": 193480,
+              "estimated": true
+            },
+            {
+              "word": "os",
+              "start_ms": 193530,
+              "end_ms": 193830,
+              "estimated": true
+            },
+            {
+              "word": "ricos",
+              "start_ms": 191500,
+              "end_ms": 192140
+            },
+            {
+              "word": "saem",
+              "start_ms": 192190,
+              "end_ms": 192490,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 192540,
+              "end_ms": 192840,
+              "estimated": true
+            },
+            {
+              "word": "maos",
+              "start_ms": 190960,
+              "end_ms": 191500
+            },
+            {
+              "word": "vazias",
+              "start_ms": 191550,
+              "end_ms": 191850,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Os tronos estao a cair!",
-          "start_ms": 114680,
-          "end_ms": 116680
+          "start_ms": 190960,
+          "end_ms": 194240,
+          "words": [
+            {
+              "word": "Os",
+              "start_ms": 190960,
+              "end_ms": 191500
+            },
+            {
+              "word": "tronos",
+              "start_ms": 191500,
+              "end_ms": 192140
+            },
+            {
+              "word": "estao",
+              "start_ms": 192140,
+              "end_ms": 192760
+            },
+            {
+              "word": "a",
+              "start_ms": 192760,
+              "end_ms": 193180
+            },
+            {
+              "word": "cair!",
+              "start_ms": 193180,
+              "end_ms": 194240
+            }
+          ]
         }
-      ],
-      "start_ms": 105320,
-      "end_ms": 116680
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - E eu vejo o que esta a acontec...",
+      "section_type": "chorus",
+      "start_ms": 44240,
+      "end_ms": 60620,
+      "key_line": "E eu vejo o que esta a acontecer",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Os tronos estao a cair",
+      "section_type": "chorus",
+      "start_ms": 61300,
+      "end_ms": 79780,
+      "key_line": "Os tronos estao a cair",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - E eu vejo o que esta a acontec...",
+      "section_type": "chorus",
+      "start_ms": 124580,
+      "end_ms": 137290,
+      "key_line": "E eu vejo o que esta a acontecer",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Os tronos estao a cair",
+      "section_type": "chorus",
+      "start_ms": 136420,
+      "end_ms": 186140,
+      "key_line": "Os tronos estao a cair",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 190960,
+      "end_ms": 193110,
+      "key_line": "Ele prometeu ha muito tempo",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Os tronos estao a cair!",
+      "section_type": "chorus",
+      "start_ms": 190960,
+      "end_ms": 194240,
+      "key_line": "Os tronos estao a cair!",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/portuguese/42_luke_01_1-46_transcript.json"
 }

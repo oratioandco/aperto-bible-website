@@ -7,253 +7,1291 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 182320,
   "audio_file": "/audio/songs/luke_01/croatian/Luke 1_26-38  — Croatian — _Drhtim, ali da_.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.714740+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.918741+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.639,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 11600,
+      "end_ms": 52860,
       "lines": [
         {
           "text": "Ruke mi miristu na brasno i vodu",
-          "start_ms": 6000,
-          "end_ms": 8560
+          "start_ms": 11600,
+          "end_ms": 17860,
+          "words": [
+            {
+              "word": "Ruke",
+              "start_ms": 11600,
+              "end_ms": 13000
+            },
+            {
+              "word": "mi",
+              "start_ms": 13000,
+              "end_ms": 13240
+            },
+            {
+              "word": "miristu",
+              "start_ms": 13240,
+              "end_ms": 14200
+            },
+            {
+              "word": "na",
+              "start_ms": 15340,
+              "end_ms": 15840
+            },
+            {
+              "word": "brasno",
+              "start_ms": 15840,
+              "end_ms": 16460
+            },
+            {
+              "word": "i",
+              "start_ms": 16460,
+              "end_ms": 16680
+            },
+            {
+              "word": "vodu",
+              "start_ms": 16680,
+              "end_ms": 17860
+            }
+          ]
         },
         {
           "text": "Kosa mi je mokra od jutarnje rose",
-          "start_ms": 8560,
-          "end_ms": 11200
+          "start_ms": 19000,
+          "end_ms": 23900,
+          "words": [
+            {
+              "word": "Kosa",
+              "start_ms": 19000,
+              "end_ms": 19700
+            },
+            {
+              "word": "mi",
+              "start_ms": 16460,
+              "end_ms": 16680
+            },
+            {
+              "word": "je",
+              "start_ms": 19700,
+              "end_ms": 19880
+            },
+            {
+              "word": "mokra",
+              "start_ms": 19880,
+              "end_ms": 21160
+            },
+            {
+              "word": "od",
+              "start_ms": 21160,
+              "end_ms": 21660
+            },
+            {
+              "word": "jutarnje",
+              "start_ms": 21660,
+              "end_ms": 23000
+            },
+            {
+              "word": "rose",
+              "start_ms": 23000,
+              "end_ms": 23900
+            }
+          ]
         },
         {
           "text": "Imam sesnaest ljeta i plan za zivot",
-          "start_ms": 11200,
-          "end_ms": 14000
+          "start_ms": 24980,
+          "end_ms": 31500,
+          "words": [
+            {
+              "word": "Imam",
+              "start_ms": 24980,
+              "end_ms": 25680
+            },
+            {
+              "word": "sesnaest",
+              "start_ms": 25680,
+              "end_ms": 26440
+            },
+            {
+              "word": "ljeta",
+              "start_ms": 26440,
+              "end_ms": 27800
+            },
+            {
+              "word": "i",
+              "start_ms": 28340,
+              "end_ms": 28960
+            },
+            {
+              "word": "plan",
+              "start_ms": 28960,
+              "end_ms": 29520
+            },
+            {
+              "word": "za",
+              "start_ms": 29520,
+              "end_ms": 29840
+            },
+            {
+              "word": "zivot",
+              "start_ms": 29840,
+              "end_ms": 31500
+            }
+          ]
         },
         {
           "text": "I nista od toga vise ne vrijedi",
-          "start_ms": 14000,
-          "end_ms": 16480
+          "start_ms": 31500,
+          "end_ms": 37960,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 31500,
+              "end_ms": 32380
+            },
+            {
+              "word": "nista",
+              "start_ms": 32380,
+              "end_ms": 32900
+            },
+            {
+              "word": "od",
+              "start_ms": 32900,
+              "end_ms": 33180
+            },
+            {
+              "word": "toga",
+              "start_ms": 33180,
+              "end_ms": 34800
+            },
+            {
+              "word": "vise",
+              "start_ms": 35420,
+              "end_ms": 36140
+            },
+            {
+              "word": "ne",
+              "start_ms": 36140,
+              "end_ms": 36380
+            },
+            {
+              "word": "vrijedi",
+              "start_ms": 36380,
+              "end_ms": 37960
+            }
+          ]
         },
         {
           "text": "Glas kaze moje ime",
-          "start_ms": 16480,
-          "end_ms": 18480
+          "start_ms": 37960,
+          "end_ms": 40980,
+          "words": [
+            {
+              "word": "Glas",
+              "start_ms": 37960,
+              "end_ms": 38940
+            },
+            {
+              "word": "kaze",
+              "start_ms": 38940,
+              "end_ms": 39560
+            },
+            {
+              "word": "moje",
+              "start_ms": 39560,
+              "end_ms": 39880
+            },
+            {
+              "word": "ime",
+              "start_ms": 39880,
+              "end_ms": 40980
+            }
+          ]
         },
         {
           "text": "Kao da me poznaje oduvijek",
-          "start_ms": 18480,
-          "end_ms": 20560
+          "start_ms": 40980,
+          "end_ms": 44800,
+          "words": [
+            {
+              "word": "Kao",
+              "start_ms": 40980,
+              "end_ms": 41500
+            },
+            {
+              "word": "da",
+              "start_ms": 41500,
+              "end_ms": 41720
+            },
+            {
+              "word": "me",
+              "start_ms": 41720,
+              "end_ms": 41940
+            },
+            {
+              "word": "poznaje",
+              "start_ms": 41940,
+              "end_ms": 42720
+            },
+            {
+              "word": "oduvijek",
+              "start_ms": 43120,
+              "end_ms": 44800
+            }
+          ]
         },
         {
           "text": "Tijelo mi se tresi, koljena popustaju",
-          "start_ms": 20560,
-          "end_ms": 23520
+          "start_ms": 45360,
+          "end_ms": 49260,
+          "words": [
+            {
+              "word": "Tijelo",
+              "start_ms": 45360,
+              "end_ms": 46080
+            },
+            {
+              "word": "mi",
+              "start_ms": 46080,
+              "end_ms": 46240
+            },
+            {
+              "word": "se",
+              "start_ms": 46240,
+              "end_ms": 46500
+            },
+            {
+              "word": "tresi,",
+              "start_ms": 46500,
+              "end_ms": 47120
+            },
+            {
+              "word": "koljena",
+              "start_ms": 47340,
+              "end_ms": 47960
+            },
+            {
+              "word": "popustaju",
+              "start_ms": 47960,
+              "end_ms": 49260
+            }
+          ]
         },
         {
           "text": "A ja stojim jer nemam kud",
-          "start_ms": 23520,
-          "end_ms": 25520
+          "start_ms": 49260,
+          "end_ms": 52860,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 49260,
+              "end_ms": 49620
+            },
+            {
+              "word": "ja",
+              "start_ms": 49620,
+              "end_ms": 49920
+            },
+            {
+              "word": "stojim",
+              "start_ms": 49920,
+              "end_ms": 50520
+            },
+            {
+              "word": "jer",
+              "start_ms": 50520,
+              "end_ms": 50740
+            },
+            {
+              "word": "nemam",
+              "start_ms": 50740,
+              "end_ms": 51460
+            },
+            {
+              "word": "kud",
+              "start_ms": 51460,
+              "end_ms": 52860
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 25520
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 52860,
+      "end_ms": 66340,
       "lines": [
         {
           "text": "Ovo tijelo ce nositi nesto",
-          "start_ms": 28520,
-          "end_ms": 30600
+          "start_ms": 52860,
+          "end_ms": 56180,
+          "words": [
+            {
+              "word": "Ovo",
+              "start_ms": 52860,
+              "end_ms": 54060
+            },
+            {
+              "word": "tijelo",
+              "start_ms": 54060,
+              "end_ms": 54540
+            },
+            {
+              "word": "ce",
+              "start_ms": 54590,
+              "end_ms": 54890,
+              "estimated": true
+            },
+            {
+              "word": "nositi",
+              "start_ms": 54860,
+              "end_ms": 55560
+            },
+            {
+              "word": "nesto",
+              "start_ms": 55560,
+              "end_ms": 56180
+            }
+          ]
         },
         {
           "text": "Sto nitko u selu nece razumjeti",
-          "start_ms": 30600,
-          "end_ms": 33080
+          "start_ms": 56180,
+          "end_ms": 60460,
+          "words": [
+            {
+              "word": "Sto",
+              "start_ms": 56180,
+              "end_ms": 57040
+            },
+            {
+              "word": "nitko",
+              "start_ms": 57040,
+              "end_ms": 57580
+            },
+            {
+              "word": "u",
+              "start_ms": 57580,
+              "end_ms": 57840
+            },
+            {
+              "word": "selu",
+              "start_ms": 57840,
+              "end_ms": 58260
+            },
+            {
+              "word": "nece",
+              "start_ms": 58260,
+              "end_ms": 59060
+            },
+            {
+              "word": "razumjeti",
+              "start_ms": 59060,
+              "end_ms": 60460
+            }
+          ]
         },
         {
           "text": "Ovaj trbuh ce rasti",
-          "start_ms": 33080,
-          "end_ms": 35080
+          "start_ms": 60460,
+          "end_ms": 62180,
+          "words": [
+            {
+              "word": "Ovaj",
+              "start_ms": 60460,
+              "end_ms": 60800
+            },
+            {
+              "word": "trbuh",
+              "start_ms": 60800,
+              "end_ms": 61240
+            },
+            {
+              "word": "ce",
+              "start_ms": 61290,
+              "end_ms": 61590,
+              "estimated": true
+            },
+            {
+              "word": "rasti",
+              "start_ms": 61540,
+              "end_ms": 62180
+            }
+          ]
         },
         {
           "text": "Prije vjencanja, pred ocima svih",
-          "start_ms": 35080,
-          "end_ms": 37640
+          "start_ms": 62720,
+          "end_ms": 66340,
+          "words": [
+            {
+              "word": "Prije",
+              "start_ms": 62720,
+              "end_ms": 63360
+            },
+            {
+              "word": "vjencanja,",
+              "start_ms": 63360,
+              "end_ms": 64560
+            },
+            {
+              "word": "pred",
+              "start_ms": 64560,
+              "end_ms": 65040
+            },
+            {
+              "word": "ocima",
+              "start_ms": 65040,
+              "end_ms": 65700
+            },
+            {
+              "word": "svih",
+              "start_ms": 65700,
+              "end_ms": 66340
+            }
+          ]
         }
-      ],
-      "start_ms": 28520,
-      "end_ms": 37640
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 66700,
+      "end_ms": 99680,
       "lines": [
         {
           "text": "Drhtim, ali da",
-          "start_ms": 40640,
-          "end_ms": 42640
+          "start_ms": 66700,
+          "end_ms": 81080,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 66700,
+              "end_ms": 67340
+            },
+            {
+              "word": "ali",
+              "start_ms": 76240,
+              "end_ms": 76680
+            },
+            {
+              "word": "da",
+              "start_ms": 80100,
+              "end_ms": 81080
+            }
+          ]
         },
         {
           "text": "Drhtim, ali da",
-          "start_ms": 42640,
-          "end_ms": 44640
+          "start_ms": 88200,
+          "end_ms": 81080,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 88200,
+              "end_ms": 88500,
+              "estimated": true
+            },
+            {
+              "word": "ali",
+              "start_ms": 79460,
+              "end_ms": 80100
+            },
+            {
+              "word": "da",
+              "start_ms": 80100,
+              "end_ms": 81080
+            }
+          ]
         },
         {
           "text": "Ne razumijem, ali ostajem",
-          "start_ms": 44640,
-          "end_ms": 46640
+          "start_ms": 88200,
+          "end_ms": 92400,
+          "words": [
+            {
+              "word": "Ne",
+              "start_ms": 88200,
+              "end_ms": 88500,
+              "estimated": true
+            },
+            {
+              "word": "razumijem,",
+              "start_ms": 88550,
+              "end_ms": 88850,
+              "estimated": true
+            },
+            {
+              "word": "ali",
+              "start_ms": 79460,
+              "end_ms": 80100
+            },
+            {
+              "word": "ostajem",
+              "start_ms": 91740,
+              "end_ms": 92400
+            }
+          ]
         },
         {
           "text": "Drhtim, ali da",
-          "start_ms": 46640,
-          "end_ms": 48640
+          "start_ms": 92400,
+          "end_ms": 99680,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 92400,
+              "end_ms": 92700,
+              "estimated": true
+            },
+            {
+              "word": "ali",
+              "start_ms": 92750,
+              "end_ms": 93050,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 99240,
+              "end_ms": 99680
+            }
+          ]
         }
-      ],
-      "start_ms": 40640,
-      "end_ms": 48640
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 99680,
+      "end_ms": 120700,
       "lines": [
         {
           "text": "Majka ce sutjeti, otac ce gledati u pod",
-          "start_ms": 51640,
-          "end_ms": 54760
+          "start_ms": 99680,
+          "end_ms": 105610,
+          "words": [
+            {
+              "word": "Majka",
+              "start_ms": 99680,
+              "end_ms": 99980,
+              "estimated": true
+            },
+            {
+              "word": "ce",
+              "start_ms": 100030,
+              "end_ms": 100330,
+              "estimated": true
+            },
+            {
+              "word": "sutjeti,",
+              "start_ms": 100380,
+              "end_ms": 100680,
+              "estimated": true
+            },
+            {
+              "word": "otac",
+              "start_ms": 100730,
+              "end_ms": 101030,
+              "estimated": true
+            },
+            {
+              "word": "ce",
+              "start_ms": 101080,
+              "end_ms": 101380,
+              "estimated": true
+            },
+            {
+              "word": "gledati",
+              "start_ms": 100120,
+              "end_ms": 101080
+            },
+            {
+              "word": "u",
+              "start_ms": 104600,
+              "end_ms": 105260
+            },
+            {
+              "word": "pod",
+              "start_ms": 105310,
+              "end_ms": 105610,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Susjede ce brojati mjesece",
-          "start_ms": 54760,
-          "end_ms": 56840
+          "start_ms": 105260,
+          "end_ms": 109530,
+          "words": [
+            {
+              "word": "Susjede",
+              "start_ms": 105260,
+              "end_ms": 105560,
+              "estimated": true
+            },
+            {
+              "word": "ce",
+              "start_ms": 105610,
+              "end_ms": 105910,
+              "estimated": true
+            },
+            {
+              "word": "brojati",
+              "start_ms": 107540,
+              "end_ms": 109180
+            },
+            {
+              "word": "mjesece",
+              "start_ms": 109230,
+              "end_ms": 109530,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "A ja cu hodati kroz selo",
-          "start_ms": 56840,
-          "end_ms": 58840
+          "start_ms": 110960,
+          "end_ms": 119580,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 110960,
+              "end_ms": 111260,
+              "estimated": true
+            },
+            {
+              "word": "ja",
+              "start_ms": 116840,
+              "end_ms": 117540
+            },
+            {
+              "word": "cu",
+              "start_ms": 117590,
+              "end_ms": 117890,
+              "estimated": true
+            },
+            {
+              "word": "hodati",
+              "start_ms": 117940,
+              "end_ms": 118240,
+              "estimated": true
+            },
+            {
+              "word": "kroz",
+              "start_ms": 118290,
+              "end_ms": 118590,
+              "estimated": true
+            },
+            {
+              "word": "selo",
+              "start_ms": 119300,
+              "end_ms": 119580
+            }
+          ]
         },
         {
           "text": "S nekom tezinom u sebi koju ne mogu objasniti",
-          "start_ms": 58840,
-          "end_ms": 62440
+          "start_ms": 119300,
+          "end_ms": 120700,
+          "words": [
+            {
+              "word": "S",
+              "start_ms": 119300,
+              "end_ms": 119580
+            },
+            {
+              "word": "nekom",
+              "start_ms": 119630,
+              "end_ms": 119930,
+              "estimated": true
+            },
+            {
+              "word": "tezinom",
+              "start_ms": 119980,
+              "end_ms": 120280,
+              "estimated": true
+            },
+            {
+              "word": "u",
+              "start_ms": 120330,
+              "end_ms": 120630,
+              "estimated": true
+            },
+            {
+              "word": "sebi",
+              "start_ms": 119300,
+              "end_ms": 119580
+            },
+            {
+              "word": "koju",
+              "start_ms": 119080,
+              "end_ms": 119300
+            },
+            {
+              "word": "ne",
+              "start_ms": 119580,
+              "end_ms": 120000
+            },
+            {
+              "word": "mogu",
+              "start_ms": 120050,
+              "end_ms": 120350,
+              "estimated": true
+            },
+            {
+              "word": "objasniti",
+              "start_ms": 120400,
+              "end_ms": 120700,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 51640,
-      "end_ms": 62440
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 120000,
+      "end_ms": 146230,
       "lines": [
         {
           "text": "Ovo nije lijepa prica o pristanku",
-          "start_ms": 65440,
-          "end_ms": 68080
+          "start_ms": 120000,
+          "end_ms": 124610,
+          "words": [
+            {
+              "word": "Ovo",
+              "start_ms": 120000,
+              "end_ms": 120300,
+              "estimated": true
+            },
+            {
+              "word": "nije",
+              "start_ms": 122540,
+              "end_ms": 123560
+            },
+            {
+              "word": "lijepa",
+              "start_ms": 122540,
+              "end_ms": 123560
+            },
+            {
+              "word": "prica",
+              "start_ms": 123610,
+              "end_ms": 123910,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 123960,
+              "end_ms": 124260,
+              "estimated": true
+            },
+            {
+              "word": "pristanku",
+              "start_ms": 124310,
+              "end_ms": 124610,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ovo je djevojka koja kaze da",
-          "start_ms": 68080,
-          "end_ms": 70320
+          "start_ms": 123560,
+          "end_ms": 129820,
+          "words": [
+            {
+              "word": "Ovo",
+              "start_ms": 123560,
+              "end_ms": 123860,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 122540,
+              "end_ms": 123560
+            },
+            {
+              "word": "djevojka",
+              "start_ms": 121460,
+              "end_ms": 121880
+            },
+            {
+              "word": "koja",
+              "start_ms": 121930,
+              "end_ms": 122230,
+              "estimated": true
+            },
+            {
+              "word": "kaze",
+              "start_ms": 122280,
+              "end_ms": 122580,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 129820,
+              "end_ms": 129820
+            }
+          ]
         },
         {
           "text": "Dok joj se noge tresu",
-          "start_ms": 70320,
-          "end_ms": 72320
+          "start_ms": 130299,
+          "end_ms": 133910,
+          "words": [
+            {
+              "word": "Dok",
+              "start_ms": 130299,
+              "end_ms": 130599,
+              "estimated": true
+            },
+            {
+              "word": "joj",
+              "start_ms": 130649,
+              "end_ms": 130949,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 130999,
+              "end_ms": 131299,
+              "estimated": true
+            },
+            {
+              "word": "noge",
+              "start_ms": 133060,
+              "end_ms": 133560
+            },
+            {
+              "word": "tresu",
+              "start_ms": 133610,
+              "end_ms": 133910,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Dok nista nije sigurno",
-          "start_ms": 72320,
-          "end_ms": 74320
+          "start_ms": 133560,
+          "end_ms": 146230,
+          "words": [
+            {
+              "word": "Dok",
+              "start_ms": 133560,
+              "end_ms": 133860,
+              "estimated": true
+            },
+            {
+              "word": "nista",
+              "start_ms": 139940,
+              "end_ms": 141360
+            },
+            {
+              "word": "nije",
+              "start_ms": 145380,
+              "end_ms": 145880
+            },
+            {
+              "word": "sigurno",
+              "start_ms": 145930,
+              "end_ms": 146230,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 65440,
-      "end_ms": 74320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 145880,
+      "end_ms": 158040,
       "lines": [
         {
           "text": "Drhtim, ali da",
-          "start_ms": 77320,
-          "end_ms": 79320
+          "start_ms": 145880,
+          "end_ms": 146880,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 145880,
+              "end_ms": 146180,
+              "estimated": true
+            },
+            {
+              "word": "ali",
+              "start_ms": 146230,
+              "end_ms": 146530,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 146580,
+              "end_ms": 146880,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Drhtim, ali da",
-          "start_ms": 79320,
-          "end_ms": 81320
+          "start_ms": 145880,
+          "end_ms": 146880,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 145880,
+              "end_ms": 146180,
+              "estimated": true
+            },
+            {
+              "word": "ali",
+              "start_ms": 146230,
+              "end_ms": 146530,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 146580,
+              "end_ms": 146880,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ne razumijem, ali ostajem",
-          "start_ms": 81320,
-          "end_ms": 83320
+          "start_ms": 145380,
+          "end_ms": 148740,
+          "words": [
+            {
+              "word": "Ne",
+              "start_ms": 145380,
+              "end_ms": 145880
+            },
+            {
+              "word": "razumijem,",
+              "start_ms": 145930,
+              "end_ms": 146230,
+              "estimated": true
+            },
+            {
+              "word": "ali",
+              "start_ms": 146280,
+              "end_ms": 146580,
+              "estimated": true
+            },
+            {
+              "word": "ostajem",
+              "start_ms": 148320,
+              "end_ms": 148740
+            }
+          ]
         },
         {
           "text": "Drhtim, ali da",
-          "start_ms": 83320,
-          "end_ms": 85320
+          "start_ms": 155560,
+          "end_ms": 158040,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 155560,
+              "end_ms": 156220
+            },
+            {
+              "word": "ali",
+              "start_ms": 156740,
+              "end_ms": 157420
+            },
+            {
+              "word": "da",
+              "start_ms": 157420,
+              "end_ms": 158040
+            }
+          ]
         }
-      ],
-      "start_ms": 77320,
-      "end_ms": 85320
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 160380,
+      "end_ms": 154380,
       "lines": [
         {
           "text": "Nisam rekla razumijem",
-          "start_ms": 88320,
-          "end_ms": 90320
+          "start_ms": 160380,
+          "end_ms": 161380,
+          "words": [
+            {
+              "word": "Nisam",
+              "start_ms": 160380,
+              "end_ms": 160680,
+              "estimated": true
+            },
+            {
+              "word": "rekla",
+              "start_ms": 160730,
+              "end_ms": 161030,
+              "estimated": true
+            },
+            {
+              "word": "razumijem",
+              "start_ms": 161080,
+              "end_ms": 161380,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Nisam rekla nije me strah",
-          "start_ms": 90320,
-          "end_ms": 92320
+          "start_ms": 160380,
+          "end_ms": 162080,
+          "words": [
+            {
+              "word": "Nisam",
+              "start_ms": 160380,
+              "end_ms": 160680,
+              "estimated": true
+            },
+            {
+              "word": "rekla",
+              "start_ms": 160730,
+              "end_ms": 161030,
+              "estimated": true
+            },
+            {
+              "word": "nije",
+              "start_ms": 161080,
+              "end_ms": 161380,
+              "estimated": true
+            },
+            {
+              "word": "me",
+              "start_ms": 161430,
+              "end_ms": 161730,
+              "estimated": true
+            },
+            {
+              "word": "strah",
+              "start_ms": 161780,
+              "end_ms": 162080,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Rekla sam pripadam",
-          "start_ms": 92320,
-          "end_ms": 94320
+          "start_ms": 160380,
+          "end_ms": 161380,
+          "words": [
+            {
+              "word": "Rekla",
+              "start_ms": 160380,
+              "end_ms": 160680,
+              "estimated": true
+            },
+            {
+              "word": "sam",
+              "start_ms": 160730,
+              "end_ms": 161030,
+              "estimated": true
+            },
+            {
+              "word": "pripadam",
+              "start_ms": 161080,
+              "end_ms": 161380,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "I to je sve sto imam",
-          "start_ms": 94320,
-          "end_ms": 96320
+          "start_ms": 156220,
+          "end_ms": 154380,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 156220,
+              "end_ms": 156740
+            },
+            {
+              "word": "to",
+              "start_ms": 156790,
+              "end_ms": 157090,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 157140,
+              "end_ms": 157440,
+              "estimated": true
+            },
+            {
+              "word": "sve",
+              "start_ms": 157490,
+              "end_ms": 157790,
+              "estimated": true
+            },
+            {
+              "word": "sto",
+              "start_ms": 153660,
+              "end_ms": 154380
+            },
+            {
+              "word": "imam",
+              "start_ms": 153660,
+              "end_ms": 154380
+            }
+          ]
         }
-      ],
-      "start_ms": 88320,
-      "end_ms": 96320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 155560,
+      "end_ms": 158040,
       "lines": [
         {
           "text": "Drhtim, ali da",
-          "start_ms": 99320,
-          "end_ms": 101320
+          "start_ms": 155560,
+          "end_ms": 158040,
+          "words": [
+            {
+              "word": "Drhtim,",
+              "start_ms": 155560,
+              "end_ms": 156220
+            },
+            {
+              "word": "ali",
+              "start_ms": 156740,
+              "end_ms": 157420
+            },
+            {
+              "word": "da",
+              "start_ms": 157420,
+              "end_ms": 158040
+            }
+          ]
         },
         {
           "text": "Drhtim",
-          "start_ms": 101320,
-          "end_ms": 103320
+          "start_ms": 160380,
+          "end_ms": 161260,
+          "words": [
+            {
+              "word": "Drhtim",
+              "start_ms": 160380,
+              "end_ms": 161260
+            }
+          ]
         },
         {
           "text": "Ali da",
-          "start_ms": 103320,
-          "end_ms": 105320
+          "start_ms": 156740,
+          "end_ms": 158040,
+          "words": [
+            {
+              "word": "Ali",
+              "start_ms": 156740,
+              "end_ms": 157420
+            },
+            {
+              "word": "da",
+              "start_ms": 157420,
+              "end_ms": 158040
+            }
+          ]
         }
-      ],
-      "start_ms": 99320,
-      "end_ms": 105320
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ovo tijelo ce nositi nesto",
+      "section_type": "chorus",
+      "start_ms": 52860,
+      "end_ms": 66340,
+      "key_line": "Ovo tijelo ce nositi nesto",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Drhtim, ali da",
+      "section_type": "chorus",
+      "start_ms": 66700,
+      "end_ms": 99680,
+      "key_line": "Drhtim, ali da",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ovo nije lijepa prica o prista...",
+      "section_type": "chorus",
+      "start_ms": 120000,
+      "end_ms": 146230,
+      "key_line": "Ovo nije lijepa prica o pristanku",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Drhtim, ali da",
+      "section_type": "chorus",
+      "start_ms": 145880,
+      "end_ms": 158040,
+      "key_line": "Drhtim, ali da",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 160380,
+      "end_ms": 154380,
+      "key_line": "Nisam rekla razumijem",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Drhtim, ali da",
+      "section_type": "chorus",
+      "start_ms": 155560,
+      "end_ms": 158040,
+      "key_line": "Drhtim, ali da",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/croatian/42_luke_01_1-26_transcript.json"
 }

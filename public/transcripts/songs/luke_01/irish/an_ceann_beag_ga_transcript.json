@@ -7,279 +7,1549 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 162120,
   "audio_file": "/audio/songs/luke_01/irish/Luke 1_46-56 — _An Ceann Beag_ (Irish).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.099839+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.988624+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.546,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Cold",
+      "label": "Verse 1",
+      "start_ms": 30000,
+      "end_ms": 32950,
       "lines": [
         {
           "text": "D'fhéach sé orm",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 30000,
+          "end_ms": 31000,
+          "words": [
+            {
+              "word": "D'fhéach",
+              "start_ms": 30000,
+              "end_ms": 30300,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 30350,
+              "end_ms": 30650,
+              "estimated": true
+            },
+            {
+              "word": "orm",
+              "start_ms": 30700,
+              "end_ms": 31000,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mise",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 30000,
+          "end_ms": 30060,
+          "words": [
+            {
+              "word": "Mise",
+              "start_ms": 30000,
+              "end_ms": 30060
+            }
+          ]
         },
         {
           "text": "An ceann beag",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 30600,
+          "end_ms": 31900,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 30600,
+              "end_ms": 31200
+            },
+            {
+              "word": "ceann",
+              "start_ms": 31250,
+              "end_ms": 31550,
+              "estimated": true
+            },
+            {
+              "word": "beag",
+              "start_ms": 31600,
+              "end_ms": 31900,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "An ceann nach gcuirtear sa chuntas",
-          "start_ms": 12000,
-          "end_ms": 14720
+          "start_ms": 30600,
+          "end_ms": 32950,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 30600,
+              "end_ms": 31200
+            },
+            {
+              "word": "ceann",
+              "start_ms": 31250,
+              "end_ms": 31550,
+              "estimated": true
+            },
+            {
+              "word": "nach",
+              "start_ms": 31600,
+              "end_ms": 31900,
+              "estimated": true
+            },
+            {
+              "word": "gcuirtear",
+              "start_ms": 31950,
+              "end_ms": 32250,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 32300,
+              "end_ms": 32600,
+              "estimated": true
+            },
+            {
+              "word": "chuntas",
+              "start_ms": 32650,
+              "end_ms": 32950,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14720
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 31200,
+      "end_ms": 37220,
       "lines": [
         {
           "text": "Gach lá sa bhaile, ag obair, ag fanacht",
-          "start_ms": 17720,
-          "end_ms": 20840
+          "start_ms": 31200,
+          "end_ms": 33950,
+          "words": [
+            {
+              "word": "Gach",
+              "start_ms": 31200,
+              "end_ms": 31500,
+              "estimated": true
+            },
+            {
+              "word": "lá",
+              "start_ms": 31550,
+              "end_ms": 31850,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 31900,
+              "end_ms": 32200,
+              "estimated": true
+            },
+            {
+              "word": "bhaile,",
+              "start_ms": 32250,
+              "end_ms": 32550,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 32600,
+              "end_ms": 32900,
+              "estimated": true
+            },
+            {
+              "word": "obair,",
+              "start_ms": 32950,
+              "end_ms": 33250,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 33300,
+              "end_ms": 33600,
+              "estimated": true
+            },
+            {
+              "word": "fanacht",
+              "start_ms": 33650,
+              "end_ms": 33950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Gan ainm, gan cháil, gan stair ag éinne",
-          "start_ms": 20840,
-          "end_ms": 23960
+          "start_ms": 30600,
+          "end_ms": 32250,
+          "words": [
+            {
+              "word": "Gan",
+              "start_ms": 30600,
+              "end_ms": 31200
+            },
+            {
+              "word": "ainm,",
+              "start_ms": 31250,
+              "end_ms": 31550,
+              "estimated": true
+            },
+            {
+              "word": "gan",
+              "start_ms": 30600,
+              "end_ms": 31200
+            },
+            {
+              "word": "cháil,",
+              "start_ms": 31250,
+              "end_ms": 31550,
+              "estimated": true
+            },
+            {
+              "word": "gan",
+              "start_ms": 30600,
+              "end_ms": 31200
+            },
+            {
+              "word": "stair",
+              "start_ms": 31250,
+              "end_ms": 31550,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 31600,
+              "end_ms": 31900,
+              "estimated": true
+            },
+            {
+              "word": "éinne",
+              "start_ms": 31950,
+              "end_ms": 32250,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Go dtí go ndearna sé rud nach ndéantar —",
-          "start_ms": 23960,
-          "end_ms": 27160
+          "start_ms": 33020,
+          "end_ms": 36570,
+          "words": [
+            {
+              "word": "Go",
+              "start_ms": 33020,
+              "end_ms": 33440
+            },
+            {
+              "word": "dtí",
+              "start_ms": 33490,
+              "end_ms": 33790,
+              "estimated": true
+            },
+            {
+              "word": "go",
+              "start_ms": 33020,
+              "end_ms": 33440
+            },
+            {
+              "word": "ndearna",
+              "start_ms": 35600,
+              "end_ms": 36220
+            },
+            {
+              "word": "sé",
+              "start_ms": 36270,
+              "end_ms": 36570,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 36620,
+              "end_ms": 36920,
+              "estimated": true
+            },
+            {
+              "word": "nach",
+              "start_ms": 35320,
+              "end_ms": 35600
+            },
+            {
+              "word": "ndéantar",
+              "start_ms": 35600,
+              "end_ms": 36220
+            },
+            {
+              "word": "—",
+              "start_ms": 36270,
+              "end_ms": 36570,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "D'fhéach sé. Orm.",
-          "start_ms": 27160,
-          "end_ms": 29160
+          "start_ms": 36220,
+          "end_ms": 37220,
+          "words": [
+            {
+              "word": "D'fhéach",
+              "start_ms": 36220,
+              "end_ms": 36520,
+              "estimated": true
+            },
+            {
+              "word": "sé.",
+              "start_ms": 36570,
+              "end_ms": 36870,
+              "estimated": true
+            },
+            {
+              "word": "Orm.",
+              "start_ms": 36920,
+              "end_ms": 37220,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 17720,
-      "end_ms": 29160
-    },
-    {
-      "type": "pre-chorus",
-      "label": "Pre-Chorus] [Building",
-      "lines": [
-        {
-          "text": "Agus anois tá gach rud istigh ionam",
-          "start_ms": 32160,
-          "end_ms": 34960
-        },
-        {
-          "text": "Ag éirí, ag éirí, ag éirí",
-          "start_ms": 34960,
-          "end_ms": 36960
-        }
-      ],
-      "start_ms": 32160,
-      "end_ms": 36960
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Fierce",
+      "label": "Pre-Chorus",
+      "start_ms": 40830,
+      "end_ms": 48870,
+      "lines": [
+        {
+          "text": "Agus anois tá gach rud istigh ionam",
+          "start_ms": 40830,
+          "end_ms": 44960,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 40830,
+              "end_ms": 41200
+            },
+            {
+              "word": "anois",
+              "start_ms": 41660,
+              "end_ms": 42520
+            },
+            {
+              "word": "tá",
+              "start_ms": 42570,
+              "end_ms": 42870,
+              "estimated": true
+            },
+            {
+              "word": "gach",
+              "start_ms": 42920,
+              "end_ms": 43220,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 43270,
+              "end_ms": 43570,
+              "estimated": true
+            },
+            {
+              "word": "istigh",
+              "start_ms": 41660,
+              "end_ms": 42520
+            },
+            {
+              "word": "ionam",
+              "start_ms": 44640,
+              "end_ms": 44960
+            }
+          ]
+        },
+        {
+          "text": "Ag éirí, ag éirí, ag éirí",
+          "start_ms": 48300,
+          "end_ms": 48870,
+          "words": [
+            {
+              "word": "Ag",
+              "start_ms": 48300,
+              "end_ms": 48520
+            },
+            {
+              "word": "éirí,",
+              "start_ms": 48570,
+              "end_ms": 48870,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 48300,
+              "end_ms": 48520
+            },
+            {
+              "word": "éirí,",
+              "start_ms": 48570,
+              "end_ms": 48870,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 48300,
+              "end_ms": 48520
+            },
+            {
+              "word": "éirí",
+              "start_ms": 48570,
+              "end_ms": 48870,
+              "estimated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 48300,
+      "end_ms": 68350,
       "lines": [
         {
           "text": "An ceann beag",
-          "start_ms": 39960,
-          "end_ms": 41960
+          "start_ms": 48300,
+          "end_ms": 51220,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 48300,
+              "end_ms": 48520
+            },
+            {
+              "word": "ceann",
+              "start_ms": 48720,
+              "end_ms": 49120
+            },
+            {
+              "word": "beag",
+              "start_ms": 50960,
+              "end_ms": 51220
+            }
+          ]
         },
         {
           "text": "An ceann beag atá ag caint anois",
-          "start_ms": 41960,
-          "end_ms": 44520
+          "start_ms": 50620,
+          "end_ms": 55580,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 50620,
+              "end_ms": 50960
+            },
+            {
+              "word": "ceann",
+              "start_ms": 50620,
+              "end_ms": 50960
+            },
+            {
+              "word": "beag",
+              "start_ms": 50960,
+              "end_ms": 51220
+            },
+            {
+              "word": "atá",
+              "start_ms": 51270,
+              "end_ms": 51570,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 54600,
+              "end_ms": 54880
+            },
+            {
+              "word": "caint",
+              "start_ms": 54930,
+              "end_ms": 55230,
+              "estimated": true
+            },
+            {
+              "word": "anois",
+              "start_ms": 55280,
+              "end_ms": 55580,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Leagann sé na ríthe",
-          "start_ms": 44520,
-          "end_ms": 46520
+          "start_ms": 53340,
+          "end_ms": 55230,
+          "words": [
+            {
+              "word": "Leagann",
+              "start_ms": 53340,
+              "end_ms": 54300
+            },
+            {
+              "word": "sé",
+              "start_ms": 54350,
+              "end_ms": 54650,
+              "estimated": true
+            },
+            {
+              "word": "na",
+              "start_ms": 54600,
+              "end_ms": 54880
+            },
+            {
+              "word": "ríthe",
+              "start_ms": 54930,
+              "end_ms": 55230,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ardaíonn sé na daoine beaga",
-          "start_ms": 46520,
-          "end_ms": 48680
+          "start_ms": 55420,
+          "end_ms": 58340,
+          "words": [
+            {
+              "word": "Ardaíonn",
+              "start_ms": 55420,
+              "end_ms": 56160
+            },
+            {
+              "word": "sé",
+              "start_ms": 56210,
+              "end_ms": 56510,
+              "estimated": true
+            },
+            {
+              "word": "na",
+              "start_ms": 56460,
+              "end_ms": 56760
+            },
+            {
+              "word": "daoine",
+              "start_ms": 56760,
+              "end_ms": 57140
+            },
+            {
+              "word": "beaga",
+              "start_ms": 57500,
+              "end_ms": 58340
+            }
+          ]
         },
         {
           "text": "An ceann beag",
-          "start_ms": 48680,
-          "end_ms": 50680
+          "start_ms": 58340,
+          "end_ms": 61780,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 58340,
+              "end_ms": 58420
+            },
+            {
+              "word": "ceann",
+              "start_ms": 58440,
+              "end_ms": 59200
+            },
+            {
+              "word": "beag",
+              "start_ms": 61080,
+              "end_ms": 61780
+            }
+          ]
         },
         {
           "text": "An ceann beag atá ag canadh",
-          "start_ms": 50680,
-          "end_ms": 52840
+          "start_ms": 60220,
+          "end_ms": 68350,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 60220,
+              "end_ms": 61080
+            },
+            {
+              "word": "ceann",
+              "start_ms": 60220,
+              "end_ms": 61080
+            },
+            {
+              "word": "beag",
+              "start_ms": 61080,
+              "end_ms": 61780
+            },
+            {
+              "word": "atá",
+              "start_ms": 61830,
+              "end_ms": 62130,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 67640,
+              "end_ms": 68000
+            },
+            {
+              "word": "canadh",
+              "start_ms": 68050,
+              "end_ms": 68350,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 39960,
-      "end_ms": 52840
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 67640,
+      "end_ms": 81410,
       "lines": [
         {
           "text": "Na saibhre? Folamh. Chun siúil leo",
-          "start_ms": 55840,
-          "end_ms": 58560
+          "start_ms": 67640,
+          "end_ms": 71100,
+          "words": [
+            {
+              "word": "Na",
+              "start_ms": 67640,
+              "end_ms": 68000
+            },
+            {
+              "word": "saibhre?",
+              "start_ms": 68050,
+              "end_ms": 68350,
+              "estimated": true
+            },
+            {
+              "word": "Folamh.",
+              "start_ms": 68400,
+              "end_ms": 68700,
+              "estimated": true
+            },
+            {
+              "word": "Chun",
+              "start_ms": 69340,
+              "end_ms": 69700
+            },
+            {
+              "word": "siúil",
+              "start_ms": 69750,
+              "end_ms": 70050,
+              "estimated": true
+            },
+            {
+              "word": "leo",
+              "start_ms": 70620,
+              "end_ms": 71100
+            }
+          ]
         },
         {
           "text": "Na hocrach? Líonta go barr",
-          "start_ms": 58560,
-          "end_ms": 60640
+          "start_ms": 71100,
+          "end_ms": 74020,
+          "words": [
+            {
+              "word": "Na",
+              "start_ms": 71100,
+              "end_ms": 71400,
+              "estimated": true
+            },
+            {
+              "word": "hocrach?",
+              "start_ms": 71860,
+              "end_ms": 72300
+            },
+            {
+              "word": "Líonta",
+              "start_ms": 72350,
+              "end_ms": 72650,
+              "estimated": true
+            },
+            {
+              "word": "go",
+              "start_ms": 71440,
+              "end_ms": 71800
+            },
+            {
+              "word": "barr",
+              "start_ms": 73440,
+              "end_ms": 74020
+            }
+          ]
         },
         {
           "text": "Ní aisling atá ann — seo mar atá sé",
-          "start_ms": 60640,
-          "end_ms": 63440
+          "start_ms": 74020,
+          "end_ms": 77460,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 74020,
+              "end_ms": 74320,
+              "estimated": true
+            },
+            {
+              "word": "aisling",
+              "start_ms": 74460,
+              "end_ms": 74920
+            },
+            {
+              "word": "atá",
+              "start_ms": 74970,
+              "end_ms": 75270,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 75320,
+              "end_ms": 75620,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 75670,
+              "end_ms": 75970,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 75840,
+              "end_ms": 76480
+            },
+            {
+              "word": "mar",
+              "start_ms": 76480,
+              "end_ms": 76760
+            },
+            {
+              "word": "atá",
+              "start_ms": 76810,
+              "end_ms": 77110,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 77160,
+              "end_ms": 77460,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Seo mar a bhí sé i gcónaí",
-          "start_ms": 63440,
-          "end_ms": 65440
+          "start_ms": 75840,
+          "end_ms": 81410,
+          "words": [
+            {
+              "word": "Seo",
+              "start_ms": 75840,
+              "end_ms": 76480
+            },
+            {
+              "word": "mar",
+              "start_ms": 76480,
+              "end_ms": 76760
+            },
+            {
+              "word": "a",
+              "start_ms": 76480,
+              "end_ms": 76760
+            },
+            {
+              "word": "bhí",
+              "start_ms": 76810,
+              "end_ms": 77110,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 77160,
+              "end_ms": 77460,
+              "estimated": true
+            },
+            {
+              "word": "i",
+              "start_ms": 80460,
+              "end_ms": 81060
+            },
+            {
+              "word": "gcónaí",
+              "start_ms": 81110,
+              "end_ms": 81410,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 55840,
-      "end_ms": 65440
+      ]
     },
     {
-      "type": "pre-chorus",
-      "label": "Pre-Chorus] [Stomping",
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 81060,
+      "end_ms": 90610,
       "lines": [
         {
           "text": "Gach rud istigh ionam",
-          "start_ms": 68440,
-          "end_ms": 70440
+          "start_ms": 81060,
+          "end_ms": 86580,
+          "words": [
+            {
+              "word": "Gach",
+              "start_ms": 81060,
+              "end_ms": 81360,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 81410,
+              "end_ms": 81710,
+              "estimated": true
+            },
+            {
+              "word": "istigh",
+              "start_ms": 84280,
+              "end_ms": 84280
+            },
+            {
+              "word": "ionam",
+              "start_ms": 86200,
+              "end_ms": 86580
+            }
+          ]
         },
         {
           "text": "Ag éirí, ag éirí, ag éirí",
-          "start_ms": 70440,
-          "end_ms": 72440
+          "start_ms": 89840,
+          "end_ms": 90610,
+          "words": [
+            {
+              "word": "Ag",
+              "start_ms": 89840,
+              "end_ms": 90260
+            },
+            {
+              "word": "éirí,",
+              "start_ms": 90310,
+              "end_ms": 90610,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 89840,
+              "end_ms": 90260
+            },
+            {
+              "word": "éirí,",
+              "start_ms": 90310,
+              "end_ms": 90610,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 89840,
+              "end_ms": 90260
+            },
+            {
+              "word": "éirí",
+              "start_ms": 90310,
+              "end_ms": 90610,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 68440,
-      "end_ms": 72440
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 89840,
+      "end_ms": 106340,
       "lines": [
         {
           "text": "An ceann beag",
-          "start_ms": 75440,
-          "end_ms": 77440
+          "start_ms": 89840,
+          "end_ms": 92860,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 89840,
+              "end_ms": 90260
+            },
+            {
+              "word": "ceann",
+              "start_ms": 90340,
+              "end_ms": 90780
+            },
+            {
+              "word": "beag",
+              "start_ms": 92580,
+              "end_ms": 92860
+            }
+          ]
         },
         {
           "text": "An ceann beag atá ag scairteadh anois",
-          "start_ms": 77440,
-          "end_ms": 80400
+          "start_ms": 92300,
+          "end_ms": 97220,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 92300,
+              "end_ms": 92580
+            },
+            {
+              "word": "ceann",
+              "start_ms": 92300,
+              "end_ms": 92580
+            },
+            {
+              "word": "beag",
+              "start_ms": 92580,
+              "end_ms": 92860
+            },
+            {
+              "word": "atá",
+              "start_ms": 92910,
+              "end_ms": 93210,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 96220,
+              "end_ms": 96520
+            },
+            {
+              "word": "scairteadh",
+              "start_ms": 96570,
+              "end_ms": 96870,
+              "estimated": true
+            },
+            {
+              "word": "anois",
+              "start_ms": 96920,
+              "end_ms": 97220,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Scaipeann sé na pleananna móra",
-          "start_ms": 80400,
-          "end_ms": 82800
+          "start_ms": 96520,
+          "end_ms": 97920,
+          "words": [
+            {
+              "word": "Scaipeann",
+              "start_ms": 96520,
+              "end_ms": 96820,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 96870,
+              "end_ms": 97170,
+              "estimated": true
+            },
+            {
+              "word": "na",
+              "start_ms": 96220,
+              "end_ms": 96520
+            },
+            {
+              "word": "pleananna",
+              "start_ms": 96520,
+              "end_ms": 96820
+            },
+            {
+              "word": "móra",
+              "start_ms": 97340,
+              "end_ms": 97920
+            }
+          ]
         },
         {
           "text": "Cuimhníonn sé ar na daoine dearmadta",
-          "start_ms": 82800,
-          "end_ms": 85680
+          "start_ms": 97920,
+          "end_ms": 101600,
+          "words": [
+            {
+              "word": "Cuimhníonn",
+              "start_ms": 97920,
+              "end_ms": 98220,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 98270,
+              "end_ms": 98570,
+              "estimated": true
+            },
+            {
+              "word": "ar",
+              "start_ms": 99700,
+              "end_ms": 99860
+            },
+            {
+              "word": "na",
+              "start_ms": 100540,
+              "end_ms": 100820
+            },
+            {
+              "word": "daoine",
+              "start_ms": 100870,
+              "end_ms": 101170,
+              "estimated": true
+            },
+            {
+              "word": "dearmadta",
+              "start_ms": 100820,
+              "end_ms": 101600
+            }
+          ]
         },
         {
           "text": "An ceann beag",
-          "start_ms": 85680,
-          "end_ms": 87680
+          "start_ms": 100540,
+          "end_ms": 104680,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 100540,
+              "end_ms": 100820
+            },
+            {
+              "word": "ceann",
+              "start_ms": 102120,
+              "end_ms": 102840
+            },
+            {
+              "word": "beag",
+              "start_ms": 104520,
+              "end_ms": 104680
+            }
+          ]
         },
         {
           "text": "An ceann beag nach stopfaidh",
-          "start_ms": 87680,
-          "end_ms": 89920
+          "start_ms": 104140,
+          "end_ms": 106340,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 104140,
+              "end_ms": 104520
+            },
+            {
+              "word": "ceann",
+              "start_ms": 104140,
+              "end_ms": 104520
+            },
+            {
+              "word": "beag",
+              "start_ms": 104520,
+              "end_ms": 104680
+            },
+            {
+              "word": "nach",
+              "start_ms": 104820,
+              "end_ms": 105100
+            },
+            {
+              "word": "stopfaidh",
+              "start_ms": 105100,
+              "end_ms": 106340
+            }
+          ]
         }
-      ],
-      "start_ms": 75440,
-      "end_ms": 89920
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Voice and Drone",
+      "label": "Bridge",
+      "start_ms": 109399,
+      "end_ms": 123340,
       "lines": [
         {
           "text": "Ní mise a thosaigh é seo",
-          "start_ms": 92920,
-          "end_ms": 94920
+          "start_ms": 109399,
+          "end_ms": 116080,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 109399,
+              "end_ms": 109699,
+              "estimated": true
+            },
+            {
+              "word": "mise",
+              "start_ms": 110020,
+              "end_ms": 110280
+            },
+            {
+              "word": "a",
+              "start_ms": 110280,
+              "end_ms": 110340
+            },
+            {
+              "word": "thosaigh",
+              "start_ms": 110340,
+              "end_ms": 110680
+            },
+            {
+              "word": "é",
+              "start_ms": 110730,
+              "end_ms": 111030,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 115540,
+              "end_ms": 116080
+            }
+          ]
         },
         {
           "text": "Ní mise a chreid go dtarlódh sé",
-          "start_ms": 94920,
-          "end_ms": 97400
+          "start_ms": 117580,
+          "end_ms": 115640,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 117580,
+              "end_ms": 117880,
+              "estimated": true
+            },
+            {
+              "word": "mise",
+              "start_ms": 115540,
+              "end_ms": 116080
+            },
+            {
+              "word": "a",
+              "start_ms": 114940,
+              "end_ms": 115260
+            },
+            {
+              "word": "chreid",
+              "start_ms": 114340,
+              "end_ms": 114640
+            },
+            {
+              "word": "go",
+              "start_ms": 114640,
+              "end_ms": 114940
+            },
+            {
+              "word": "dtarlódh",
+              "start_ms": 114990,
+              "end_ms": 115290,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 115340,
+              "end_ms": 115640,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ach d'fhéach sé orm",
-          "start_ms": 97400,
-          "end_ms": 99400
+          "start_ms": 117580,
+          "end_ms": 119340,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 117580,
+              "end_ms": 118200
+            },
+            {
+              "word": "d'fhéach",
+              "start_ms": 117580,
+              "end_ms": 118200
+            },
+            {
+              "word": "sé",
+              "start_ms": 118250,
+              "end_ms": 118550,
+              "estimated": true
+            },
+            {
+              "word": "orm",
+              "start_ms": 118860,
+              "end_ms": 119340
+            }
+          ]
         },
         {
           "text": "Agus chonaic mé gach rud bun os cionn",
-          "start_ms": 99400,
-          "end_ms": 102360
+          "start_ms": 120100,
+          "end_ms": 123340,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 120100,
+              "end_ms": 120720
+            },
+            {
+              "word": "chonaic",
+              "start_ms": 120920,
+              "end_ms": 121320
+            },
+            {
+              "word": "mé",
+              "start_ms": 121370,
+              "end_ms": 121670,
+              "estimated": true
+            },
+            {
+              "word": "gach",
+              "start_ms": 121720,
+              "end_ms": 122020,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 122070,
+              "end_ms": 122370,
+              "estimated": true
+            },
+            {
+              "word": "bun",
+              "start_ms": 122160,
+              "end_ms": 122460
+            },
+            {
+              "word": "os",
+              "start_ms": 122460,
+              "end_ms": 122920
+            },
+            {
+              "word": "cionn",
+              "start_ms": 122920,
+              "end_ms": 123340
+            }
+          ]
         }
-      ],
-      "start_ms": 92920,
-      "end_ms": 102360
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Wall of Sound",
+      "label": "Chorus",
+      "start_ms": 125940,
+      "end_ms": 138770,
       "lines": [
         {
           "text": "An ceann beag",
-          "start_ms": 105360,
-          "end_ms": 107360
+          "start_ms": 125940,
+          "end_ms": 129120,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 125940,
+              "end_ms": 126560
+            },
+            {
+              "word": "ceann",
+              "start_ms": 126700,
+              "end_ms": 127040
+            },
+            {
+              "word": "beag",
+              "start_ms": 128840,
+              "end_ms": 129120
+            }
+          ]
         },
         {
           "text": "An ceann beag atá ag canadh anois",
-          "start_ms": 107360,
-          "end_ms": 110000
+          "start_ms": 128560,
+          "end_ms": 133030,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 128560,
+              "end_ms": 128840
+            },
+            {
+              "word": "ceann",
+              "start_ms": 128560,
+              "end_ms": 128840
+            },
+            {
+              "word": "beag",
+              "start_ms": 128840,
+              "end_ms": 129120
+            },
+            {
+              "word": "atá",
+              "start_ms": 129170,
+              "end_ms": 129470,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 131100,
+              "end_ms": 131920
+            },
+            {
+              "word": "canadh",
+              "start_ms": 132060,
+              "end_ms": 132680
+            },
+            {
+              "word": "anois",
+              "start_ms": 132730,
+              "end_ms": 133030,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Is é seo a dhéanann sé i gcónaí",
-          "start_ms": 110000,
-          "end_ms": 112480
+          "start_ms": 132680,
+          "end_ms": 133320,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 132680,
+              "end_ms": 132980,
+              "estimated": true
+            },
+            {
+              "word": "é",
+              "start_ms": 133030,
+              "end_ms": 133330,
+              "estimated": true
+            },
+            {
+              "word": "seo",
+              "start_ms": 133380,
+              "end_ms": 133680,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 131100,
+              "end_ms": 131920
+            },
+            {
+              "word": "dhéanann",
+              "start_ms": 131970,
+              "end_ms": 132270,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 132320,
+              "end_ms": 132620,
+              "estimated": true
+            },
+            {
+              "word": "i",
+              "start_ms": 132670,
+              "end_ms": 132970,
+              "estimated": true
+            },
+            {
+              "word": "gcónaí",
+              "start_ms": 133020,
+              "end_ms": 133320,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "An ceann beag ag éirí",
-          "start_ms": 112480,
-          "end_ms": 114480
+          "start_ms": 131100,
+          "end_ms": 138770,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 131100,
+              "end_ms": 131920
+            },
+            {
+              "word": "ceann",
+              "start_ms": 132060,
+              "end_ms": 132680
+            },
+            {
+              "word": "beag",
+              "start_ms": 132680,
+              "end_ms": 132680
+            },
+            {
+              "word": "ag",
+              "start_ms": 138420,
+              "end_ms": 138420
+            },
+            {
+              "word": "éirí",
+              "start_ms": 138470,
+              "end_ms": 138770,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 105360,
-      "end_ms": 114480
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Chant",
+      "label": "Outro",
+      "start_ms": 138420,
+      "end_ms": 139790,
       "lines": [
         {
           "text": "An ceann beag... an ceann beag... an ceann beag...",
-          "start_ms": 117480,
-          "end_ms": 121480
+          "start_ms": 138420,
+          "end_ms": 139790,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 138420,
+              "end_ms": 138420
+            },
+            {
+              "word": "ceann",
+              "start_ms": 138680,
+              "end_ms": 139440
+            },
+            {
+              "word": "beag...",
+              "start_ms": 139490,
+              "end_ms": 139790,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 138420,
+              "end_ms": 138420
+            },
+            {
+              "word": "ceann",
+              "start_ms": 138680,
+              "end_ms": 139440
+            },
+            {
+              "word": "beag...",
+              "start_ms": 139490,
+              "end_ms": 139790,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 138420,
+              "end_ms": 138420
+            },
+            {
+              "word": "ceann",
+              "start_ms": 138680,
+              "end_ms": 139440
+            },
+            {
+              "word": "beag...",
+              "start_ms": 139490,
+              "end_ms": 139790,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 117480,
-      "end_ms": 121480
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Agus anois tá gach rud istigh ...",
+      "section_type": "chorus",
+      "start_ms": 40830,
+      "end_ms": 48870,
+      "key_line": "Agus anois tá gach rud istigh ionam",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - An ceann beag",
+      "section_type": "chorus",
+      "start_ms": 48300,
+      "end_ms": 68350,
+      "key_line": "An ceann beag",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Gach rud istigh ionam",
+      "section_type": "chorus",
+      "start_ms": 81060,
+      "end_ms": 90610,
+      "key_line": "Gach rud istigh ionam",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - An ceann beag",
+      "section_type": "chorus",
+      "start_ms": 89840,
+      "end_ms": 106340,
+      "key_line": "An ceann beag",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 109399,
+      "end_ms": 123340,
+      "key_line": "Ní mise a thosaigh é seo",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - An ceann beag",
+      "section_type": "chorus",
+      "start_ms": 125940,
+      "end_ms": 138770,
+      "key_line": "An ceann beag",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/irish/42_luke_01_1-46_transcript.json"
 }

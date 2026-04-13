@@ -7,309 +7,1303 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 176440,
   "audio_file": "/audio/songs/luke_01/slovak/Luke 1_26-38 — Mary's Yes (Slovak).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.291067+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.046331+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.953,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 12060,
+      "end_ms": 25660,
       "lines": [
         {
           "text": "Mala dedina, zaprasena cesta",
-          "start_ms": 6000,
-          "end_ms": 8240
+          "start_ms": 12060,
+          "end_ms": 15500,
+          "words": [
+            {
+              "word": "Mala",
+              "start_ms": 12060,
+              "end_ms": 12860
+            },
+            {
+              "word": "dedina,",
+              "start_ms": 12860,
+              "end_ms": 13620
+            },
+            {
+              "word": "zaprasena",
+              "start_ms": 13860,
+              "end_ms": 14540
+            },
+            {
+              "word": "cesta",
+              "start_ms": 14540,
+              "end_ms": 15500
+            }
+          ]
         },
         {
           "text": "nikto sa nepyta, kto tu byva",
-          "start_ms": 8240,
-          "end_ms": 10480
+          "start_ms": 15500,
+          "end_ms": 18780,
+          "words": [
+            {
+              "word": "nikto",
+              "start_ms": 15500,
+              "end_ms": 16079
+            },
+            {
+              "word": "sa",
+              "start_ms": 16079,
+              "end_ms": 16379
+            },
+            {
+              "word": "nepyta,",
+              "start_ms": 16379,
+              "end_ms": 16960
+            },
+            {
+              "word": "kto",
+              "start_ms": 17080,
+              "end_ms": 17320
+            },
+            {
+              "word": "tu",
+              "start_ms": 17320,
+              "end_ms": 17720
+            },
+            {
+              "word": "byva",
+              "start_ms": 17720,
+              "end_ms": 18780
+            }
+          ]
         },
         {
           "text": "len prach a ticho a bielizen na snure",
-          "start_ms": 10480,
-          "end_ms": 13440
+          "start_ms": 18780,
+          "end_ms": 21760,
+          "words": [
+            {
+              "word": "len",
+              "start_ms": 18780,
+              "end_ms": 19140
+            },
+            {
+              "word": "prach",
+              "start_ms": 19140,
+              "end_ms": 19560
+            },
+            {
+              "word": "a",
+              "start_ms": 20000,
+              "end_ms": 20260
+            },
+            {
+              "word": "ticho",
+              "start_ms": 19560,
+              "end_ms": 20000
+            },
+            {
+              "word": "a",
+              "start_ms": 20000,
+              "end_ms": 20260
+            },
+            {
+              "word": "bielizen",
+              "start_ms": 20260,
+              "end_ms": 20780
+            },
+            {
+              "word": "na",
+              "start_ms": 20000,
+              "end_ms": 20260
+            },
+            {
+              "word": "snure",
+              "start_ms": 21160,
+              "end_ms": 21760
+            }
+          ]
         },
         {
           "text": "a dievca, ktore este nic netusilo",
-          "start_ms": 13440,
-          "end_ms": 16080
+          "start_ms": 21760,
+          "end_ms": 25660,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 21760,
+              "end_ms": 21980
+            },
+            {
+              "word": "dievca,",
+              "start_ms": 21980,
+              "end_ms": 22600
+            },
+            {
+              "word": "ktore",
+              "start_ms": 22860,
+              "end_ms": 23180
+            },
+            {
+              "word": "este",
+              "start_ms": 23180,
+              "end_ms": 23540
+            },
+            {
+              "word": "nic",
+              "start_ms": 23640,
+              "end_ms": 23980
+            },
+            {
+              "word": "netusilo",
+              "start_ms": 23980,
+              "end_ms": 25660
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16080
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 25660,
+      "end_ms": 38500,
       "lines": [
         {
           "text": "Zaklopanie, ktore necakala",
-          "start_ms": 19080,
-          "end_ms": 21160
+          "start_ms": 25660,
+          "end_ms": 28900,
+          "words": [
+            {
+              "word": "Zaklopanie,",
+              "start_ms": 25660,
+              "end_ms": 26900
+            },
+            {
+              "word": "ktore",
+              "start_ms": 27020,
+              "end_ms": 27640
+            },
+            {
+              "word": "necakala",
+              "start_ms": 27640,
+              "end_ms": 28900
+            }
+          ]
         },
         {
           "text": "hlas, co nepatri do tejto izby",
-          "start_ms": 21160,
-          "end_ms": 23560
+          "start_ms": 28900,
+          "end_ms": 32460,
+          "words": [
+            {
+              "word": "hlas,",
+              "start_ms": 28900,
+              "end_ms": 29440
+            },
+            {
+              "word": "co",
+              "start_ms": 29580,
+              "end_ms": 29680
+            },
+            {
+              "word": "nepatri",
+              "start_ms": 29680,
+              "end_ms": 30500
+            },
+            {
+              "word": "do",
+              "start_ms": 30500,
+              "end_ms": 30940
+            },
+            {
+              "word": "tejto",
+              "start_ms": 30940,
+              "end_ms": 31560
+            },
+            {
+              "word": "izby",
+              "start_ms": 31560,
+              "end_ms": 32460
+            }
+          ]
         },
         {
           "text": "hovori veci, co nemaju zmysel",
-          "start_ms": 23560,
-          "end_ms": 25880
+          "start_ms": 32460,
+          "end_ms": 35380,
+          "words": [
+            {
+              "word": "hovori",
+              "start_ms": 32460,
+              "end_ms": 33280
+            },
+            {
+              "word": "veci,",
+              "start_ms": 33280,
+              "end_ms": 33660
+            },
+            {
+              "word": "co",
+              "start_ms": 33680,
+              "end_ms": 33940
+            },
+            {
+              "word": "nemaju",
+              "start_ms": 33940,
+              "end_ms": 34680
+            },
+            {
+              "word": "zmysel",
+              "start_ms": 34680,
+              "end_ms": 35380
+            }
+          ]
         },
         {
           "text": "a cely svet sa na chvilu zastavi",
-          "start_ms": 25880,
-          "end_ms": 28440
+          "start_ms": 35380,
+          "end_ms": 38500,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 35380,
+              "end_ms": 35720
+            },
+            {
+              "word": "cely",
+              "start_ms": 35720,
+              "end_ms": 36180
+            },
+            {
+              "word": "svet",
+              "start_ms": 36180,
+              "end_ms": 36440
+            },
+            {
+              "word": "sa",
+              "start_ms": 36440,
+              "end_ms": 36760
+            },
+            {
+              "word": "na",
+              "start_ms": 36760,
+              "end_ms": 36920
+            },
+            {
+              "word": "chvilu",
+              "start_ms": 36920,
+              "end_ms": 37340
+            },
+            {
+              "word": "zastavi",
+              "start_ms": 37340,
+              "end_ms": 38500
+            }
+          ]
         }
-      ],
-      "start_ms": 19080,
-      "end_ms": 28440
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 38500,
+      "end_ms": 49420,
       "lines": [
         {
           "text": "Nemam odpovede",
-          "start_ms": 31440,
-          "end_ms": 33440
+          "start_ms": 38500,
+          "end_ms": 42020,
+          "words": [
+            {
+              "word": "Nemam",
+              "start_ms": 38500,
+              "end_ms": 39820
+            },
+            {
+              "word": "odpovede",
+              "start_ms": 39820,
+              "end_ms": 42020
+            }
+          ]
         },
         {
           "text": "nemam istotu",
-          "start_ms": 33440,
-          "end_ms": 35440
+          "start_ms": 38500,
+          "end_ms": 45200,
+          "words": [
+            {
+              "word": "nemam",
+              "start_ms": 38500,
+              "end_ms": 39820
+            },
+            {
+              "word": "istotu",
+              "start_ms": 43060,
+              "end_ms": 45200
+            }
+          ]
         },
         {
           "text": "len ten jeden krok",
-          "start_ms": 35440,
-          "end_ms": 37440
+          "start_ms": 45200,
+          "end_ms": 47400,
+          "words": [
+            {
+              "word": "len",
+              "start_ms": 45200,
+              "end_ms": 45800
+            },
+            {
+              "word": "ten",
+              "start_ms": 45800,
+              "end_ms": 46280
+            },
+            {
+              "word": "jeden",
+              "start_ms": 46280,
+              "end_ms": 46860
+            },
+            {
+              "word": "krok",
+              "start_ms": 46860,
+              "end_ms": 47400
+            }
+          ]
         },
         {
           "text": "do neznama",
-          "start_ms": 37440,
-          "end_ms": 39440
+          "start_ms": 47400,
+          "end_ms": 49420,
+          "words": [
+            {
+              "word": "do",
+              "start_ms": 47400,
+              "end_ms": 47700,
+              "estimated": true
+            },
+            {
+              "word": "neznama",
+              "start_ms": 47860,
+              "end_ms": 49420
+            }
+          ]
         }
-      ],
-      "start_ms": 31440,
-      "end_ms": 39440
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 50300,
+      "end_ms": 75280,
       "lines": [
         {
           "text": "Aj tak ano",
-          "start_ms": 42440,
-          "end_ms": 44440
+          "start_ms": 50300,
+          "end_ms": 56760,
+          "words": [
+            {
+              "word": "Aj",
+              "start_ms": 50300,
+              "end_ms": 51540
+            },
+            {
+              "word": "tak",
+              "start_ms": 51540,
+              "end_ms": 51960
+            },
+            {
+              "word": "ano",
+              "start_ms": 55240,
+              "end_ms": 56760
+            }
+          ]
         },
         {
           "text": "aj tak ano",
-          "start_ms": 44440,
-          "end_ms": 46440
+          "start_ms": 54380,
+          "end_ms": 56760,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 54380,
+              "end_ms": 54820
+            },
+            {
+              "word": "tak",
+              "start_ms": 51540,
+              "end_ms": 51960
+            },
+            {
+              "word": "ano",
+              "start_ms": 55240,
+              "end_ms": 56760
+            }
+          ]
         },
         {
           "text": "neviem co bude zajtra",
-          "start_ms": 46440,
-          "end_ms": 48440
+          "start_ms": 56760,
+          "end_ms": 59620,
+          "words": [
+            {
+              "word": "neviem",
+              "start_ms": 56760,
+              "end_ms": 57400
+            },
+            {
+              "word": "co",
+              "start_ms": 57520,
+              "end_ms": 57640
+            },
+            {
+              "word": "bude",
+              "start_ms": 57640,
+              "end_ms": 58200
+            },
+            {
+              "word": "zajtra",
+              "start_ms": 58200,
+              "end_ms": 59620
+            }
+          ]
         },
         {
           "text": "ale stojim tu",
-          "start_ms": 48440,
-          "end_ms": 50440
+          "start_ms": 60280,
+          "end_ms": 62440,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 60280,
+              "end_ms": 60700
+            },
+            {
+              "word": "stojim",
+              "start_ms": 60700,
+              "end_ms": 61520
+            },
+            {
+              "word": "tu",
+              "start_ms": 61520,
+              "end_ms": 62440
+            }
+          ]
         },
         {
           "text": "aj tak ano",
-          "start_ms": 50440,
-          "end_ms": 52440
+          "start_ms": 62440,
+          "end_ms": 69280,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 62440,
+              "end_ms": 64560
+            },
+            {
+              "word": "tak",
+              "start_ms": 64560,
+              "end_ms": 64959
+            },
+            {
+              "word": "ano",
+              "start_ms": 68200,
+              "end_ms": 69280
+            }
+          ]
         },
         {
           "text": "aj tak ano",
-          "start_ms": 52440,
-          "end_ms": 54440
+          "start_ms": 67140,
+          "end_ms": 69280,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 67140,
+              "end_ms": 67840
+            },
+            {
+              "word": "tak",
+              "start_ms": 64560,
+              "end_ms": 64959
+            },
+            {
+              "word": "ano",
+              "start_ms": 68200,
+              "end_ms": 69280
+            }
+          ]
         },
         {
           "text": "strach mi busi v hrudi",
-          "start_ms": 54440,
-          "end_ms": 56440
+          "start_ms": 69280,
+          "end_ms": 72600,
+          "words": [
+            {
+              "word": "strach",
+              "start_ms": 69280,
+              "end_ms": 70320
+            },
+            {
+              "word": "mi",
+              "start_ms": 70320,
+              "end_ms": 70580
+            },
+            {
+              "word": "busi",
+              "start_ms": 70580,
+              "end_ms": 71200
+            },
+            {
+              "word": "v",
+              "start_ms": 71250,
+              "end_ms": 71550,
+              "estimated": true
+            },
+            {
+              "word": "hrudi",
+              "start_ms": 71200,
+              "end_ms": 72600
+            }
+          ]
         },
         {
           "text": "a ja hovorim",
-          "start_ms": 56440,
-          "end_ms": 58440
+          "start_ms": 73000,
+          "end_ms": 75280,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 73000,
+              "end_ms": 73300
+            },
+            {
+              "word": "ja",
+              "start_ms": 73300,
+              "end_ms": 73880
+            },
+            {
+              "word": "hovorim",
+              "start_ms": 73880,
+              "end_ms": 75280
+            }
+          ]
         }
-      ],
-      "start_ms": 42440,
-      "end_ms": 58440
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 77520,
+      "end_ms": 91020,
       "lines": [
         {
           "text": "Co povie mama, co si Jozef mysli",
-          "start_ms": 61440,
-          "end_ms": 64000
+          "start_ms": 77520,
+          "end_ms": 80680,
+          "words": [
+            {
+              "word": "Co",
+              "start_ms": 77520,
+              "end_ms": 78320
+            },
+            {
+              "word": "povie",
+              "start_ms": 78320,
+              "end_ms": 78740
+            },
+            {
+              "word": "mama,",
+              "start_ms": 78740,
+              "end_ms": 79100
+            },
+            {
+              "word": "co",
+              "start_ms": 77520,
+              "end_ms": 78320
+            },
+            {
+              "word": "si",
+              "start_ms": 79360,
+              "end_ms": 79560
+            },
+            {
+              "word": "Jozef",
+              "start_ms": 79560,
+              "end_ms": 80180
+            },
+            {
+              "word": "mysli",
+              "start_ms": 80180,
+              "end_ms": 80680
+            }
+          ]
         },
         {
           "text": "kto mi uveri, ked to sama nechapem",
-          "start_ms": 64000,
-          "end_ms": 66720
+          "start_ms": 80680,
+          "end_ms": 84020,
+          "words": [
+            {
+              "word": "kto",
+              "start_ms": 80680,
+              "end_ms": 80960
+            },
+            {
+              "word": "mi",
+              "start_ms": 80960,
+              "end_ms": 81260
+            },
+            {
+              "word": "uveri,",
+              "start_ms": 81260,
+              "end_ms": 81980
+            },
+            {
+              "word": "ked",
+              "start_ms": 82020,
+              "end_ms": 82280
+            },
+            {
+              "word": "to",
+              "start_ms": 82280,
+              "end_ms": 82680
+            },
+            {
+              "word": "sama",
+              "start_ms": 82680,
+              "end_ms": 83120
+            },
+            {
+              "word": "nechapem",
+              "start_ms": 83240,
+              "end_ms": 84020
+            }
+          ]
         },
         {
           "text": "ale nieco vo mne vacsie ako ten strach",
-          "start_ms": 66720,
-          "end_ms": 69760
+          "start_ms": 84020,
+          "end_ms": 87420,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 84020,
+              "end_ms": 84420
+            },
+            {
+              "word": "nieco",
+              "start_ms": 84420,
+              "end_ms": 84860
+            },
+            {
+              "word": "vo",
+              "start_ms": 84860,
+              "end_ms": 85060
+            },
+            {
+              "word": "mne",
+              "start_ms": 85060,
+              "end_ms": 85240
+            },
+            {
+              "word": "vacsie",
+              "start_ms": 85240,
+              "end_ms": 85760
+            },
+            {
+              "word": "ako",
+              "start_ms": 86260,
+              "end_ms": 86440
+            },
+            {
+              "word": "ten",
+              "start_ms": 86440,
+              "end_ms": 86840
+            },
+            {
+              "word": "strach",
+              "start_ms": 86840,
+              "end_ms": 87420
+            }
+          ]
         },
         {
           "text": "sa dviha z miesta kde som sa bala dychat",
-          "start_ms": 69760,
-          "end_ms": 72960
+          "start_ms": 89000,
+          "end_ms": 91020,
+          "words": [
+            {
+              "word": "sa",
+              "start_ms": 89000,
+              "end_ms": 89300
+            },
+            {
+              "word": "dviha",
+              "start_ms": 90140,
+              "end_ms": 91020
+            },
+            {
+              "word": "z",
+              "start_ms": 91070,
+              "end_ms": 91370,
+              "estimated": true
+            },
+            {
+              "word": "miesta",
+              "start_ms": 91420,
+              "end_ms": 91720,
+              "estimated": true
+            },
+            {
+              "word": "kde",
+              "start_ms": 91770,
+              "end_ms": 92070,
+              "estimated": true
+            },
+            {
+              "word": "som",
+              "start_ms": 92120,
+              "end_ms": 92420,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 89000,
+              "end_ms": 89300
+            },
+            {
+              "word": "bala",
+              "start_ms": 89300,
+              "end_ms": 90140
+            },
+            {
+              "word": "dychat",
+              "start_ms": 90140,
+              "end_ms": 91020
+            }
+          ]
         }
-      ],
-      "start_ms": 61440,
-      "end_ms": 72960
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 91020,
+      "end_ms": 103540,
       "lines": [
         {
           "text": "Nemam odpovede",
-          "start_ms": 75960,
-          "end_ms": 77960
+          "start_ms": 91020,
+          "end_ms": 94060,
+          "words": [
+            {
+              "word": "Nemam",
+              "start_ms": 91020,
+              "end_ms": 91840
+            },
+            {
+              "word": "odpovede",
+              "start_ms": 91840,
+              "end_ms": 94060
+            }
+          ]
         },
         {
           "text": "nemam istotu",
-          "start_ms": 77960,
-          "end_ms": 79960
+          "start_ms": 91020,
+          "end_ms": 97120,
+          "words": [
+            {
+              "word": "nemam",
+              "start_ms": 91020,
+              "end_ms": 91840
+            },
+            {
+              "word": "istotu",
+              "start_ms": 95100,
+              "end_ms": 97120
+            }
+          ]
         },
         {
           "text": "len ten jeden krok",
-          "start_ms": 79960,
-          "end_ms": 81960
+          "start_ms": 97120,
+          "end_ms": 99420,
+          "words": [
+            {
+              "word": "len",
+              "start_ms": 97120,
+              "end_ms": 97920
+            },
+            {
+              "word": "ten",
+              "start_ms": 97920,
+              "end_ms": 98340
+            },
+            {
+              "word": "jeden",
+              "start_ms": 98340,
+              "end_ms": 98920
+            },
+            {
+              "word": "krok",
+              "start_ms": 98920,
+              "end_ms": 99420
+            }
+          ]
         },
         {
           "text": "do neznama",
-          "start_ms": 81960,
-          "end_ms": 83960
+          "start_ms": 99640,
+          "end_ms": 103540,
+          "words": [
+            {
+              "word": "do",
+              "start_ms": 99640,
+              "end_ms": 99940,
+              "estimated": true
+            },
+            {
+              "word": "neznama",
+              "start_ms": 99860,
+              "end_ms": 103540
+            }
+          ]
         }
-      ],
-      "start_ms": 75960,
-      "end_ms": 83960
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 103540,
+      "end_ms": 127380,
       "lines": [
         {
           "text": "Aj tak ano",
-          "start_ms": 86960,
-          "end_ms": 88960
+          "start_ms": 103540,
+          "end_ms": 108900,
+          "words": [
+            {
+              "word": "Aj",
+              "start_ms": 103540,
+              "end_ms": 103620
+            },
+            {
+              "word": "tak",
+              "start_ms": 103620,
+              "end_ms": 104100
+            },
+            {
+              "word": "ano",
+              "start_ms": 107380,
+              "end_ms": 108900
+            }
+          ]
         },
         {
           "text": "aj tak ano",
-          "start_ms": 88960,
-          "end_ms": 90960
+          "start_ms": 106440,
+          "end_ms": 108900,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 106440,
+              "end_ms": 106840
+            },
+            {
+              "word": "tak",
+              "start_ms": 103620,
+              "end_ms": 104100
+            },
+            {
+              "word": "ano",
+              "start_ms": 107380,
+              "end_ms": 108900
+            }
+          ]
         },
         {
           "text": "neviem co bude zajtra",
-          "start_ms": 90960,
-          "end_ms": 92960
+          "start_ms": 108900,
+          "end_ms": 111800,
+          "words": [
+            {
+              "word": "neviem",
+              "start_ms": 108900,
+              "end_ms": 109520
+            },
+            {
+              "word": "co",
+              "start_ms": 109680,
+              "end_ms": 109760
+            },
+            {
+              "word": "bude",
+              "start_ms": 109760,
+              "end_ms": 110340
+            },
+            {
+              "word": "zajtra",
+              "start_ms": 110340,
+              "end_ms": 111800
+            }
+          ]
         },
         {
           "text": "ale stojim tu",
-          "start_ms": 92960,
-          "end_ms": 94960
+          "start_ms": 112380,
+          "end_ms": 115800,
+          "words": [
+            {
+              "word": "ale",
+              "start_ms": 112380,
+              "end_ms": 112820
+            },
+            {
+              "word": "stojim",
+              "start_ms": 112820,
+              "end_ms": 113700
+            },
+            {
+              "word": "tu",
+              "start_ms": 113700,
+              "end_ms": 115800
+            }
+          ]
         },
         {
           "text": "aj tak ano",
-          "start_ms": 94960,
-          "end_ms": 96960
+          "start_ms": 116120,
+          "end_ms": 121680,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 116120,
+              "end_ms": 116700
+            },
+            {
+              "word": "tak",
+              "start_ms": 116700,
+              "end_ms": 117160
+            },
+            {
+              "word": "ano",
+              "start_ms": 120340,
+              "end_ms": 121680
+            }
+          ]
         },
         {
           "text": "aj tak ano",
-          "start_ms": 96960,
-          "end_ms": 98960
+          "start_ms": 119620,
+          "end_ms": 121680,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 119620,
+              "end_ms": 119960
+            },
+            {
+              "word": "tak",
+              "start_ms": 116700,
+              "end_ms": 117160
+            },
+            {
+              "word": "ano",
+              "start_ms": 120340,
+              "end_ms": 121680
+            }
+          ]
         },
         {
           "text": "strach mi busi v hrudi",
-          "start_ms": 98960,
-          "end_ms": 100960
+          "start_ms": 121680,
+          "end_ms": 124780,
+          "words": [
+            {
+              "word": "strach",
+              "start_ms": 121680,
+              "end_ms": 122460
+            },
+            {
+              "word": "mi",
+              "start_ms": 122460,
+              "end_ms": 122760
+            },
+            {
+              "word": "busi",
+              "start_ms": 122760,
+              "end_ms": 123400
+            },
+            {
+              "word": "v",
+              "start_ms": 123450,
+              "end_ms": 123750,
+              "estimated": true
+            },
+            {
+              "word": "hrudi",
+              "start_ms": 123400,
+              "end_ms": 124780
+            }
+          ]
         },
         {
           "text": "a ja hovorim",
-          "start_ms": 100960,
-          "end_ms": 102960
+          "start_ms": 125240,
+          "end_ms": 127380,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 125240,
+              "end_ms": 125480
+            },
+            {
+              "word": "ja",
+              "start_ms": 125480,
+              "end_ms": 126040
+            },
+            {
+              "word": "hovorim",
+              "start_ms": 126040,
+              "end_ms": 127380
+            }
+          ]
         }
-      ],
-      "start_ms": 86960,
-      "end_ms": 102960
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 128560,
+      "end_ms": 140500,
       "lines": [
         {
           "text": "Ticho po odchode",
-          "start_ms": 105960,
-          "end_ms": 107960
+          "start_ms": 128560,
+          "end_ms": 130960,
+          "words": [
+            {
+              "word": "Ticho",
+              "start_ms": 128560,
+              "end_ms": 129720
+            },
+            {
+              "word": "po",
+              "start_ms": 129720,
+              "end_ms": 130020
+            },
+            {
+              "word": "odchode",
+              "start_ms": 130020,
+              "end_ms": 130960
+            }
+          ]
         },
         {
           "text": "prazdna izba, ten isty prach",
-          "start_ms": 107960,
-          "end_ms": 110200
+          "start_ms": 131300,
+          "end_ms": 134020,
+          "words": [
+            {
+              "word": "prazdna",
+              "start_ms": 131300,
+              "end_ms": 131880
+            },
+            {
+              "word": "izba,",
+              "start_ms": 131880,
+              "end_ms": 132380
+            },
+            {
+              "word": "ten",
+              "start_ms": 132380,
+              "end_ms": 132640
+            },
+            {
+              "word": "isty",
+              "start_ms": 132640,
+              "end_ms": 133400
+            },
+            {
+              "word": "prach",
+              "start_ms": 133400,
+              "end_ms": 134020
+            }
+          ]
         },
         {
           "text": "nic sa nezmenilo",
-          "start_ms": 110200,
-          "end_ms": 112200
+          "start_ms": 134640,
+          "end_ms": 137420,
+          "words": [
+            {
+              "word": "nic",
+              "start_ms": 134640,
+              "end_ms": 136140
+            },
+            {
+              "word": "sa",
+              "start_ms": 136140,
+              "end_ms": 136320
+            },
+            {
+              "word": "nezmenilo",
+              "start_ms": 136320,
+              "end_ms": 137420
+            }
+          ]
         },
         {
           "text": "a vsetko je inak",
-          "start_ms": 112200,
-          "end_ms": 114200
+          "start_ms": 138160,
+          "end_ms": 140500,
+          "words": [
+            {
+              "word": "a",
+              "start_ms": 138160,
+              "end_ms": 138320
+            },
+            {
+              "word": "vsetko",
+              "start_ms": 138320,
+              "end_ms": 138620
+            },
+            {
+              "word": "je",
+              "start_ms": 139040,
+              "end_ms": 139620
+            },
+            {
+              "word": "inak",
+              "start_ms": 139620,
+              "end_ms": 140500
+            }
+          ]
         }
-      ],
-      "start_ms": 105960,
-      "end_ms": 114200
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 141980,
+      "end_ms": 148300,
       "lines": [
         {
           "text": "Aj tak ano",
-          "start_ms": 117200,
-          "end_ms": 119200
+          "start_ms": 141980,
+          "end_ms": 144780,
+          "words": [
+            {
+              "word": "Aj",
+              "start_ms": 141980,
+              "end_ms": 142900
+            },
+            {
+              "word": "tak",
+              "start_ms": 147800,
+              "end_ms": 148300
+            },
+            {
+              "word": "ano",
+              "start_ms": 143280,
+              "end_ms": 144780
+            }
+          ]
         },
         {
           "text": "aj tak",
-          "start_ms": 119200,
-          "end_ms": 121200
+          "start_ms": 141980,
+          "end_ms": 148300,
+          "words": [
+            {
+              "word": "aj",
+              "start_ms": 141980,
+              "end_ms": 142900
+            },
+            {
+              "word": "tak",
+              "start_ms": 147800,
+              "end_ms": 148300
+            }
+          ]
         }
-      ],
-      "start_ms": 117200,
-      "end_ms": 121200
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 124200,
-          "end_ms": 126200
-        }
-      ],
-      "start_ms": 124200,
-      "end_ms": 126200
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Nemam odpovede",
+      "section_type": "chorus",
+      "start_ms": 38500,
+      "end_ms": 49420,
+      "key_line": "Nemam odpovede",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Aj tak ano",
+      "section_type": "chorus",
+      "start_ms": 50300,
+      "end_ms": 75280,
+      "key_line": "Aj tak ano",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Nemam odpovede",
+      "section_type": "chorus",
+      "start_ms": 91020,
+      "end_ms": 103540,
+      "key_line": "Nemam odpovede",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Aj tak ano",
+      "section_type": "chorus",
+      "start_ms": 103540,
+      "end_ms": 127380,
+      "key_line": "Aj tak ano",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 128560,
+      "end_ms": 140500,
+      "key_line": "Ticho po odchode",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/slovak/42_luke_01_1-26_transcript.json"
 }

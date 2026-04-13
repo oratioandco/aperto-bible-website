@@ -7,284 +7,966 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 172480,
   "audio_file": "/audio/songs/luke_01/arabic/AR Luke 1_26-38 — ن (Falyakun _ Let It Be).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.666685+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.904769+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.852,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 13000,
+      "end_ms": 26120,
       "lines": [
         {
           "text": "قبل ما أقول شي",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 13000,
+          "end_ms": 15040,
+          "words": [
+            {
+              "word": "قبل",
+              "start_ms": 13000,
+              "end_ms": 13800
+            },
+            {
+              "word": "ما",
+              "start_ms": 13800,
+              "end_ms": 14100
+            },
+            {
+              "word": "أقول",
+              "start_ms": 14100,
+              "end_ms": 14420
+            },
+            {
+              "word": "شي",
+              "start_ms": 14420,
+              "end_ms": 15040
+            }
+          ]
         },
         {
           "text": "خلّيني أفكّر",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 16000,
+          "end_ms": 18920,
+          "words": [
+            {
+              "word": "خلّيني",
+              "start_ms": 16000,
+              "end_ms": 17540
+            },
+            {
+              "word": "أفكّر",
+              "start_ms": 17540,
+              "end_ms": 18920
+            }
+          ]
         },
         {
           "text": "قبل ما أفتح قلبي",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 18920,
+          "end_ms": 22280,
+          "words": [
+            {
+              "word": "قبل",
+              "start_ms": 18920,
+              "end_ms": 20260
+            },
+            {
+              "word": "ما",
+              "start_ms": 20260,
+              "end_ms": 20540
+            },
+            {
+              "word": "أفتح",
+              "start_ms": 20540,
+              "end_ms": 21040
+            },
+            {
+              "word": "قلبي",
+              "start_ms": 21040,
+              "end_ms": 22280
+            }
+          ]
         },
         {
           "text": "خلّيني أسأل",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 22280,
+          "end_ms": 26120,
+          "words": [
+            {
+              "word": "خلّيني",
+              "start_ms": 22280,
+              "end_ms": 24040
+            },
+            {
+              "word": "أسأل",
+              "start_ms": 24040,
+              "end_ms": 26120
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 32220,
+      "end_ms": 43480,
       "lines": [
         {
           "text": "قال لي لا تخافي",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 32220,
+          "end_ms": 34240,
+          "words": [
+            {
+              "word": "قال",
+              "start_ms": 32220,
+              "end_ms": 33400
+            },
+            {
+              "word": "لي",
+              "start_ms": 33400,
+              "end_ms": 33540
+            },
+            {
+              "word": "لا",
+              "start_ms": 33590,
+              "end_ms": 33890,
+              "estimated": true
+            },
+            {
+              "word": "تخافي",
+              "start_ms": 33940,
+              "end_ms": 34240,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "بس الخوف حقّي",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 35800,
+          "end_ms": 37340,
+          "words": [
+            {
+              "word": "بس",
+              "start_ms": 35800,
+              "end_ms": 36640
+            },
+            {
+              "word": "الخوف",
+              "start_ms": 36690,
+              "end_ms": 36990,
+              "estimated": true
+            },
+            {
+              "word": "حقّي",
+              "start_ms": 37040,
+              "end_ms": 37340,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "قال لي الروح يحلّ",
-          "start_ms": 21000,
-          "end_ms": 23000
+          "start_ms": 36640,
+          "end_ms": 42480,
+          "words": [
+            {
+              "word": "قال",
+              "start_ms": 36640,
+              "end_ms": 36940,
+              "estimated": true
+            },
+            {
+              "word": "لي",
+              "start_ms": 40540,
+              "end_ms": 41780
+            },
+            {
+              "word": "الروح",
+              "start_ms": 41830,
+              "end_ms": 42130,
+              "estimated": true
+            },
+            {
+              "word": "يحلّ",
+              "start_ms": 42180,
+              "end_ms": 42480,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "بس جسمي أنا",
-          "start_ms": 23000,
-          "end_ms": 25000
+          "start_ms": 41780,
+          "end_ms": 43480,
+          "words": [
+            {
+              "word": "بس",
+              "start_ms": 41780,
+              "end_ms": 42080,
+              "estimated": true
+            },
+            {
+              "word": "جسمي",
+              "start_ms": 42130,
+              "end_ms": 42430,
+              "estimated": true
+            },
+            {
+              "word": "أنا",
+              "start_ms": 41780,
+              "end_ms": 43480
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 25000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 45880,
+      "end_ms": 55170,
       "lines": [
         {
           "text": "كيف يكون هالشي",
-          "start_ms": 28000,
-          "end_ms": 30000
+          "start_ms": 45880,
+          "end_ms": 48280,
+          "words": [
+            {
+              "word": "كيف",
+              "start_ms": 45880,
+              "end_ms": 46600
+            },
+            {
+              "word": "يكون",
+              "start_ms": 46600,
+              "end_ms": 47160
+            },
+            {
+              "word": "هالشي",
+              "start_ms": 47160,
+              "end_ms": 48280
+            }
+          ]
         },
         {
           "text": "وأنا لسّا ما عرفت",
-          "start_ms": 30000,
-          "end_ms": 32000
+          "start_ms": 49460,
+          "end_ms": 56050,
+          "words": [
+            {
+              "word": "وأنا",
+              "start_ms": 49460,
+              "end_ms": 49760,
+              "estimated": true
+            },
+            {
+              "word": "لسّا",
+              "start_ms": 49460,
+              "end_ms": 50620
+            },
+            {
+              "word": "ما",
+              "start_ms": 55460,
+              "end_ms": 55700
+            },
+            {
+              "word": "عرفت",
+              "start_ms": 55750,
+              "end_ms": 56050,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "كيف يكون هالشي",
-          "start_ms": 32000,
-          "end_ms": 34000
+          "start_ms": 55700,
+          "end_ms": 56700,
+          "words": [
+            {
+              "word": "كيف",
+              "start_ms": 55700,
+              "end_ms": 56000,
+              "estimated": true
+            },
+            {
+              "word": "يكون",
+              "start_ms": 56050,
+              "end_ms": 56350,
+              "estimated": true
+            },
+            {
+              "word": "هالشي",
+              "start_ms": 56400,
+              "end_ms": 56700,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "السؤال مش ضعف",
-          "start_ms": 34000,
-          "end_ms": 36000
+          "start_ms": 55700,
+          "end_ms": 55170,
+          "words": [
+            {
+              "word": "السؤال",
+              "start_ms": 55700,
+              "end_ms": 56000,
+              "estimated": true
+            },
+            {
+              "word": "مش",
+              "start_ms": 53960,
+              "end_ms": 54820
+            },
+            {
+              "word": "ضعف",
+              "start_ms": 54870,
+              "end_ms": 55170,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 28000,
-      "end_ms": 36000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 51900,
+      "end_ms": 70080,
       "lines": [
         {
           "text": "فليكن",
-          "start_ms": 39000,
-          "end_ms": 41000
+          "start_ms": 51900,
+          "end_ms": 53960,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 51900,
+              "end_ms": 53960
+            }
+          ]
         },
         {
           "text": "مش لأنّي ما فكّرت",
-          "start_ms": 41000,
-          "end_ms": 43000
+          "start_ms": 50620,
+          "end_ms": 57080,
+          "words": [
+            {
+              "word": "مش",
+              "start_ms": 50620,
+              "end_ms": 50880
+            },
+            {
+              "word": "لأنّي",
+              "start_ms": 54820,
+              "end_ms": 55460
+            },
+            {
+              "word": "ما",
+              "start_ms": 55460,
+              "end_ms": 55700
+            },
+            {
+              "word": "فكّرت",
+              "start_ms": 55700,
+              "end_ms": 57080
+            }
+          ]
         },
         {
           "text": "فليكن",
-          "start_ms": 43000,
-          "end_ms": 45000
+          "start_ms": 59420,
+          "end_ms": 60820,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 59420,
+              "end_ms": 60820
+            }
+          ]
         },
         {
           "text": "مش لأنّي ما سألت",
-          "start_ms": 45000,
-          "end_ms": 47000
+          "start_ms": 60820,
+          "end_ms": 65319,
+          "words": [
+            {
+              "word": "مش",
+              "start_ms": 60820,
+              "end_ms": 61480
+            },
+            {
+              "word": "لأنّي",
+              "start_ms": 61480,
+              "end_ms": 62120
+            },
+            {
+              "word": "ما",
+              "start_ms": 62120,
+              "end_ms": 62380
+            },
+            {
+              "word": "سألت",
+              "start_ms": 62380,
+              "end_ms": 65319
+            }
+          ]
         },
         {
           "text": "فليكن",
-          "start_ms": 47000,
-          "end_ms": 49000
+          "start_ms": 65319,
+          "end_ms": 67460,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 65319,
+              "end_ms": 67460
+            }
+          ]
         },
         {
           "text": "لأنّي سمعت واخترت",
-          "start_ms": 49000,
-          "end_ms": 51000
+          "start_ms": 67460,
+          "end_ms": 70080,
+          "words": [
+            {
+              "word": "لأنّي",
+              "start_ms": 67460,
+              "end_ms": 68340
+            },
+            {
+              "word": "سمعت",
+              "start_ms": 68340,
+              "end_ms": 68960
+            },
+            {
+              "word": "واخترت",
+              "start_ms": 68960,
+              "end_ms": 70080
+            }
+          ]
         }
-      ],
-      "start_ms": 39000,
-      "end_ms": 51000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 85480,
+      "end_ms": 98370,
       "lines": [
         {
           "text": "ما قالها وهي نايمة",
-          "start_ms": 54000,
-          "end_ms": 56000
+          "start_ms": 85480,
+          "end_ms": 88080,
+          "words": [
+            {
+              "word": "ما",
+              "start_ms": 85480,
+              "end_ms": 86100
+            },
+            {
+              "word": "قالها",
+              "start_ms": 86100,
+              "end_ms": 86560
+            },
+            {
+              "word": "وهي",
+              "start_ms": 86940,
+              "end_ms": 87300
+            },
+            {
+              "word": "نايمة",
+              "start_ms": 87300,
+              "end_ms": 88080
+            }
+          ]
         },
         {
           "text": "ما قالها وهي خايفة",
-          "start_ms": 56000,
-          "end_ms": 58000
+          "start_ms": 89060,
+          "end_ms": 92360,
+          "words": [
+            {
+              "word": "ما",
+              "start_ms": 89060,
+              "end_ms": 89480
+            },
+            {
+              "word": "قالها",
+              "start_ms": 89480,
+              "end_ms": 89960
+            },
+            {
+              "word": "وهي",
+              "start_ms": 90320,
+              "end_ms": 90660
+            },
+            {
+              "word": "خايفة",
+              "start_ms": 90660,
+              "end_ms": 92360
+            }
+          ]
         },
         {
           "text": "وقفت قدّام المجهول",
-          "start_ms": 58000,
-          "end_ms": 60000
+          "start_ms": 92360,
+          "end_ms": 95500,
+          "words": [
+            {
+              "word": "وقفت",
+              "start_ms": 92360,
+              "end_ms": 93200
+            },
+            {
+              "word": "قدّام",
+              "start_ms": 93200,
+              "end_ms": 93960
+            },
+            {
+              "word": "المجهول",
+              "start_ms": 93960,
+              "end_ms": 95500
+            }
+          ]
         },
         {
           "text": "وسألت كل سؤال عندها",
-          "start_ms": 60000,
-          "end_ms": 62000
+          "start_ms": 95500,
+          "end_ms": 98370,
+          "words": [
+            {
+              "word": "وسألت",
+              "start_ms": 95500,
+              "end_ms": 96500
+            },
+            {
+              "word": "كل",
+              "start_ms": 96500,
+              "end_ms": 96780
+            },
+            {
+              "word": "سؤال",
+              "start_ms": 96780,
+              "end_ms": 97680
+            },
+            {
+              "word": "عندها",
+              "start_ms": 97680,
+              "end_ms": 98370
+            }
+          ]
         }
-      ],
-      "start_ms": 54000,
-      "end_ms": 62000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 98370,
+      "end_ms": 115290,
       "lines": [
         {
           "text": "كيف أحمل هالوعد",
-          "start_ms": 65000,
-          "end_ms": 67000
+          "start_ms": 98370,
+          "end_ms": 101790,
+          "words": [
+            {
+              "word": "كيف",
+              "start_ms": 98370,
+              "end_ms": 99590
+            },
+            {
+              "word": "أحمل",
+              "start_ms": 99590,
+              "end_ms": 100290
+            },
+            {
+              "word": "هالوعد",
+              "start_ms": 100290,
+              "end_ms": 101790
+            }
+          ]
         },
         {
           "text": "وأنا بنت من الناصرة",
-          "start_ms": 67000,
-          "end_ms": 69000
+          "start_ms": 101790,
+          "end_ms": 105670,
+          "words": [
+            {
+              "word": "وأنا",
+              "start_ms": 101790,
+              "end_ms": 103210
+            },
+            {
+              "word": "بنت",
+              "start_ms": 103210,
+              "end_ms": 103830
+            },
+            {
+              "word": "من",
+              "start_ms": 103830,
+              "end_ms": 104270
+            },
+            {
+              "word": "الناصرة",
+              "start_ms": 104270,
+              "end_ms": 105670
+            }
+          ]
         },
         {
           "text": "كيف يكون المستحيل",
-          "start_ms": 69000,
-          "end_ms": 71000
+          "start_ms": 105670,
+          "end_ms": 108370,
+          "words": [
+            {
+              "word": "كيف",
+              "start_ms": 105670,
+              "end_ms": 106370
+            },
+            {
+              "word": "يكون",
+              "start_ms": 106370,
+              "end_ms": 106830
+            },
+            {
+              "word": "المستحيل",
+              "start_ms": 106830,
+              "end_ms": 108370
+            }
+          ]
         },
         {
           "text": "والجواب جوّاي أنا",
-          "start_ms": 71000,
-          "end_ms": 73000
+          "start_ms": 108990,
+          "end_ms": 115290,
+          "words": [
+            {
+              "word": "والجواب",
+              "start_ms": 108990,
+              "end_ms": 110310
+            },
+            {
+              "word": "جوّاي",
+              "start_ms": 110310,
+              "end_ms": 111370
+            },
+            {
+              "word": "أنا",
+              "start_ms": 114690,
+              "end_ms": 115290
+            }
+          ]
         }
-      ],
-      "start_ms": 65000,
-      "end_ms": 73000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 111930,
+      "end_ms": 133370,
       "lines": [
         {
           "text": "فليكن",
-          "start_ms": 76000,
-          "end_ms": 78000
+          "start_ms": 111930,
+          "end_ms": 113570,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 111930,
+              "end_ms": 113570
+            }
+          ]
         },
         {
           "text": "مش لأنّي ما فكّرت",
-          "start_ms": 78000,
-          "end_ms": 80000
+          "start_ms": 113570,
+          "end_ms": 116370,
+          "words": [
+            {
+              "word": "مش",
+              "start_ms": 113570,
+              "end_ms": 114690
+            },
+            {
+              "word": "لأنّي",
+              "start_ms": 114690,
+              "end_ms": 115290
+            },
+            {
+              "word": "ما",
+              "start_ms": 115290,
+              "end_ms": 115530
+            },
+            {
+              "word": "فكّرت",
+              "start_ms": 115530,
+              "end_ms": 116370
+            }
+          ]
         },
         {
           "text": "فليكن",
-          "start_ms": 80000,
-          "end_ms": 82000
+          "start_ms": 119589,
+          "end_ms": 120370,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 119589,
+              "end_ms": 120370
+            }
+          ]
         },
         {
           "text": "مش لأنّي ما سألت",
-          "start_ms": 82000,
-          "end_ms": 84000
+          "start_ms": 120990,
+          "end_ms": 124370,
+          "words": [
+            {
+              "word": "مش",
+              "start_ms": 120990,
+              "end_ms": 121410
+            },
+            {
+              "word": "لأنّي",
+              "start_ms": 121410,
+              "end_ms": 122290
+            },
+            {
+              "word": "ما",
+              "start_ms": 122290,
+              "end_ms": 122630
+            },
+            {
+              "word": "سألت",
+              "start_ms": 122630,
+              "end_ms": 124370
+            }
+          ]
         },
         {
           "text": "فليكن",
-          "start_ms": 84000,
-          "end_ms": 86000
+          "start_ms": 126169,
+          "end_ms": 127570,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 126169,
+              "end_ms": 127570
+            }
+          ]
         },
         {
           "text": "لأنّي سمعت واخترت",
-          "start_ms": 86000,
-          "end_ms": 88000
+          "start_ms": 129109,
+          "end_ms": 133370,
+          "words": [
+            {
+              "word": "لأنّي",
+              "start_ms": 129109,
+              "end_ms": 130509
+            },
+            {
+              "word": "سمعت",
+              "start_ms": 130509,
+              "end_ms": 131850
+            },
+            {
+              "word": "واخترت",
+              "start_ms": 131850,
+              "end_ms": 133370
+            }
+          ]
         }
-      ],
-      "start_ms": 76000,
-      "end_ms": 88000
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 135350,
+      "end_ms": 148810,
       "lines": [
         {
           "text": "بين السؤال والجواب",
-          "start_ms": 91000,
-          "end_ms": 93000
+          "start_ms": 135350,
+          "end_ms": 138370,
+          "words": [
+            {
+              "word": "بين",
+              "start_ms": 135350,
+              "end_ms": 136050
+            },
+            {
+              "word": "السؤال",
+              "start_ms": 136050,
+              "end_ms": 136970
+            },
+            {
+              "word": "والجواب",
+              "start_ms": 136970,
+              "end_ms": 138370
+            }
+          ]
         },
         {
           "text": "عاشت عمر كامل",
-          "start_ms": 93000,
-          "end_ms": 95000
+          "start_ms": 139170,
+          "end_ms": 141870,
+          "words": [
+            {
+              "word": "عاشت",
+              "start_ms": 139170,
+              "end_ms": 140030
+            },
+            {
+              "word": "عمر",
+              "start_ms": 140030,
+              "end_ms": 140590
+            },
+            {
+              "word": "كامل",
+              "start_ms": 140590,
+              "end_ms": 141870
+            }
+          ]
         },
         {
           "text": "بين كيف وفليكن",
-          "start_ms": 95000,
-          "end_ms": 97000
+          "start_ms": 141870,
+          "end_ms": 146110,
+          "words": [
+            {
+              "word": "بين",
+              "start_ms": 141870,
+              "end_ms": 142310
+            },
+            {
+              "word": "كيف",
+              "start_ms": 142310,
+              "end_ms": 143430
+            },
+            {
+              "word": "وفليكن",
+              "start_ms": 143430,
+              "end_ms": 146110
+            }
+          ]
         },
         {
           "text": "كل شي تغيّر",
-          "start_ms": 97000,
-          "end_ms": 99000
+          "start_ms": 146110,
+          "end_ms": 148810,
+          "words": [
+            {
+              "word": "كل",
+              "start_ms": 146110,
+              "end_ms": 147130
+            },
+            {
+              "word": "شي",
+              "start_ms": 147130,
+              "end_ms": 147590
+            },
+            {
+              "word": "تغيّر",
+              "start_ms": 147590,
+              "end_ms": 148810
+            }
+          ]
         }
-      ],
-      "start_ms": 91000,
-      "end_ms": 99000
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 152070,
+      "end_ms": 153470,
       "lines": [
         {
           "text": "فليكن",
-          "start_ms": 102000,
-          "end_ms": 104000
+          "start_ms": 152070,
+          "end_ms": 153470,
+          "words": [
+            {
+              "word": "فليكن",
+              "start_ms": 152070,
+              "end_ms": 153470
+            }
+          ]
         }
-      ],
-      "start_ms": 102000,
-      "end_ms": 104000
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 107000,
-          "end_ms": 109000
-        }
-      ],
-      "start_ms": 107000,
-      "end_ms": 109000
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - كيف يكون هالشي",
+      "section_type": "chorus",
+      "start_ms": 45880,
+      "end_ms": 55170,
+      "key_line": "كيف يكون هالشي",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - فليكن",
+      "section_type": "chorus",
+      "start_ms": 51900,
+      "end_ms": 70080,
+      "key_line": "فليكن",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - كيف أحمل هالوعد",
+      "section_type": "chorus",
+      "start_ms": 98370,
+      "end_ms": 115290,
+      "key_line": "كيف أحمل هالوعد",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - فليكن",
+      "section_type": "chorus",
+      "start_ms": 111930,
+      "end_ms": 133370,
+      "key_line": "فليكن",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 135350,
+      "end_ms": 148810,
+      "key_line": "بين السؤال والجواب",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/arabic/42_luke_01_1-26_transcript.json"
 }

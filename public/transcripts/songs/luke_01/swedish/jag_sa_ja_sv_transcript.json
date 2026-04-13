@@ -7,266 +7,1213 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 182560,
   "audio_file": "/audio/songs/luke_01/swedish/Jag sa ja (Luke 1_26-38) — Swedish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.366025+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.073457+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 1.0,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 17280,
+      "end_ms": 34720,
       "lines": [
         {
           "text": "Rummet var tomt tills det inte var det",
-          "start_ms": 6000,
-          "end_ms": 9040
+          "start_ms": 17280,
+          "end_ms": 20580,
+          "words": [
+            {
+              "word": "Rummet",
+              "start_ms": 17280,
+              "end_ms": 18920
+            },
+            {
+              "word": "var",
+              "start_ms": 18920,
+              "end_ms": 19220
+            },
+            {
+              "word": "tomt",
+              "start_ms": 19220,
+              "end_ms": 19880
+            },
+            {
+              "word": "tills",
+              "start_ms": 19880,
+              "end_ms": 20220
+            },
+            {
+              "word": "det",
+              "start_ms": 20220,
+              "end_ms": 20580
+            },
+            {
+              "word": "inte",
+              "start_ms": 20580,
+              "end_ms": 21280
+            },
+            {
+              "word": "var",
+              "start_ms": 21280,
+              "end_ms": 21940
+            },
+            {
+              "word": "det",
+              "start_ms": 20220,
+              "end_ms": 20580
+            }
+          ]
         },
         {
           "text": "En röst som inte var min",
-          "start_ms": 9040,
-          "end_ms": 11040
+          "start_ms": 22940,
+          "end_ms": 26260,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 22940,
+              "end_ms": 23660
+            },
+            {
+              "word": "röst",
+              "start_ms": 23660,
+              "end_ms": 24320
+            },
+            {
+              "word": "som",
+              "start_ms": 24320,
+              "end_ms": 24820
+            },
+            {
+              "word": "inte",
+              "start_ms": 24820,
+              "end_ms": 25280
+            },
+            {
+              "word": "var",
+              "start_ms": 25280,
+              "end_ms": 25600
+            },
+            {
+              "word": "min",
+              "start_ms": 25600,
+              "end_ms": 26260
+            }
+          ]
         },
         {
           "text": "Han sa saker som bröt alla regler",
-          "start_ms": 11040,
-          "end_ms": 13680
+          "start_ms": 26260,
+          "end_ms": 30940,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 26260,
+              "end_ms": 27300
+            },
+            {
+              "word": "sa",
+              "start_ms": 27300,
+              "end_ms": 27560
+            },
+            {
+              "word": "saker",
+              "start_ms": 27560,
+              "end_ms": 28260
+            },
+            {
+              "word": "som",
+              "start_ms": 28260,
+              "end_ms": 28700
+            },
+            {
+              "word": "bröt",
+              "start_ms": 28700,
+              "end_ms": 29260
+            },
+            {
+              "word": "alla",
+              "start_ms": 29260,
+              "end_ms": 29740
+            },
+            {
+              "word": "regler",
+              "start_ms": 29740,
+              "end_ms": 30940
+            }
+          ]
         },
         {
           "text": "Och jag stod kvar som ett barn",
-          "start_ms": 13680,
-          "end_ms": 16080
+          "start_ms": 30940,
+          "end_ms": 34720,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 30940,
+              "end_ms": 31540
+            },
+            {
+              "word": "jag",
+              "start_ms": 31540,
+              "end_ms": 31780
+            },
+            {
+              "word": "stod",
+              "start_ms": 31780,
+              "end_ms": 32060
+            },
+            {
+              "word": "kvar",
+              "start_ms": 32060,
+              "end_ms": 33140
+            },
+            {
+              "word": "som",
+              "start_ms": 33140,
+              "end_ms": 33660
+            },
+            {
+              "word": "ett",
+              "start_ms": 33660,
+              "end_ms": 34000
+            },
+            {
+              "word": "barn",
+              "start_ms": 34000,
+              "end_ms": 34720
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16080
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 34720,
+      "end_ms": 51800,
       "lines": [
         {
           "text": "Jag räknade kostnaden i mitt huvud",
-          "start_ms": 19080,
-          "end_ms": 21800
+          "start_ms": 34720,
+          "end_ms": 39760,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 34720,
+              "end_ms": 35240
+            },
+            {
+              "word": "räknade",
+              "start_ms": 35240,
+              "end_ms": 35980
+            },
+            {
+              "word": "kostnaden",
+              "start_ms": 35980,
+              "end_ms": 37200
+            },
+            {
+              "word": "i",
+              "start_ms": 37200,
+              "end_ms": 37720
+            },
+            {
+              "word": "mitt",
+              "start_ms": 37720,
+              "end_ms": 38200
+            },
+            {
+              "word": "huvud",
+              "start_ms": 38200,
+              "end_ms": 39760
+            }
+          ]
         },
         {
           "text": "Byn pratar redan om mindre",
-          "start_ms": 21800,
-          "end_ms": 23880
+          "start_ms": 39760,
+          "end_ms": 43380,
+          "words": [
+            {
+              "word": "Byn",
+              "start_ms": 39760,
+              "end_ms": 40440
+            },
+            {
+              "word": "pratar",
+              "start_ms": 40440,
+              "end_ms": 41080
+            },
+            {
+              "word": "redan",
+              "start_ms": 41080,
+              "end_ms": 42000
+            },
+            {
+              "word": "om",
+              "start_ms": 42000,
+              "end_ms": 42420
+            },
+            {
+              "word": "mindre",
+              "start_ms": 42420,
+              "end_ms": 43380
+            }
+          ]
         },
         {
           "text": "En flicka som ingen borde bry sig om",
-          "start_ms": 23880,
-          "end_ms": 26760
+          "start_ms": 43380,
+          "end_ms": 47600,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 43380,
+              "end_ms": 43640
+            },
+            {
+              "word": "flicka",
+              "start_ms": 43640,
+              "end_ms": 44180
+            },
+            {
+              "word": "som",
+              "start_ms": 44180,
+              "end_ms": 44580
+            },
+            {
+              "word": "ingen",
+              "start_ms": 44580,
+              "end_ms": 45200
+            },
+            {
+              "word": "borde",
+              "start_ms": 45200,
+              "end_ms": 45740
+            },
+            {
+              "word": "bry",
+              "start_ms": 45740,
+              "end_ms": 46300
+            },
+            {
+              "word": "sig",
+              "start_ms": 46300,
+              "end_ms": 46780
+            },
+            {
+              "word": "om",
+              "start_ms": 46780,
+              "end_ms": 47600
+            }
+          ]
         },
         {
           "text": "Men alla kommer att minnas",
-          "start_ms": 26760,
-          "end_ms": 28840
+          "start_ms": 47600,
+          "end_ms": 51800,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 47600,
+              "end_ms": 48480
+            },
+            {
+              "word": "alla",
+              "start_ms": 48480,
+              "end_ms": 48840
+            },
+            {
+              "word": "kommer",
+              "start_ms": 48840,
+              "end_ms": 49600
+            },
+            {
+              "word": "att",
+              "start_ms": 49600,
+              "end_ms": 50820
+            },
+            {
+              "word": "minnas",
+              "start_ms": 50820,
+              "end_ms": 51800
+            }
+          ]
         }
-      ],
-      "start_ms": 19080,
-      "end_ms": 28840
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 51800,
+      "end_ms": 60480,
       "lines": [
         {
           "text": "Jag kunde sagt nej",
-          "start_ms": 31840,
-          "end_ms": 33840
+          "start_ms": 51800,
+          "end_ms": 53780,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 51800,
+              "end_ms": 52100
+            },
+            {
+              "word": "kunde",
+              "start_ms": 52100,
+              "end_ms": 52540
+            },
+            {
+              "word": "sagt",
+              "start_ms": 52540,
+              "end_ms": 53020
+            },
+            {
+              "word": "nej",
+              "start_ms": 53020,
+              "end_ms": 53780
+            }
+          ]
         },
         {
           "text": "Jag kunde gått ut",
-          "start_ms": 33840,
-          "end_ms": 35840
+          "start_ms": 54000,
+          "end_ms": 55840,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 54000,
+              "end_ms": 54140
+            },
+            {
+              "word": "kunde",
+              "start_ms": 54140,
+              "end_ms": 54680
+            },
+            {
+              "word": "gått",
+              "start_ms": 54680,
+              "end_ms": 55540
+            },
+            {
+              "word": "ut",
+              "start_ms": 55540,
+              "end_ms": 55840
+            }
+          ]
         },
         {
           "text": "Men munnen var snabbare än hjärnan",
-          "start_ms": 35840,
-          "end_ms": 38560
+          "start_ms": 55840,
+          "end_ms": 60480,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 55840,
+              "end_ms": 56400
+            },
+            {
+              "word": "munnen",
+              "start_ms": 56400,
+              "end_ms": 56820
+            },
+            {
+              "word": "var",
+              "start_ms": 56820,
+              "end_ms": 57260
+            },
+            {
+              "word": "snabbare",
+              "start_ms": 57260,
+              "end_ms": 59020
+            },
+            {
+              "word": "än",
+              "start_ms": 59020,
+              "end_ms": 59380
+            },
+            {
+              "word": "hjärnan",
+              "start_ms": 59380,
+              "end_ms": 60480
+            }
+          ]
         }
-      ],
-      "start_ms": 31840,
-      "end_ms": 38560
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 60480,
+      "end_ms": 79240,
       "lines": [
         {
           "text": "Jag sa ja",
-          "start_ms": 41560,
-          "end_ms": 43560
+          "start_ms": 60480,
+          "end_ms": 61000,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 60480,
+              "end_ms": 61000
+            },
+            {
+              "word": "sa",
+              "start_ms": 61000,
+              "end_ms": 61500
+            },
+            {
+              "word": "ja",
+              "start_ms": 60480,
+              "end_ms": 61000
+            }
+          ]
         },
         {
           "text": "Utan garanti",
-          "start_ms": 43560,
-          "end_ms": 45560
+          "start_ms": 63680,
+          "end_ms": 64959,
+          "words": [
+            {
+              "word": "Utan",
+              "start_ms": 63680,
+              "end_ms": 64180
+            },
+            {
+              "word": "garanti",
+              "start_ms": 64180,
+              "end_ms": 64959
+            }
+          ]
         },
         {
           "text": "Jag sa ja",
-          "start_ms": 45560,
-          "end_ms": 47560
+          "start_ms": 64959,
+          "end_ms": 65220,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 64959,
+              "end_ms": 65220
+            },
+            {
+              "word": "sa",
+              "start_ms": 65220,
+              "end_ms": 65680
+            },
+            {
+              "word": "ja",
+              "start_ms": 64959,
+              "end_ms": 65220
+            }
+          ]
         },
         {
           "text": "Utan säkerhetsnät",
-          "start_ms": 47560,
-          "end_ms": 49560
+          "start_ms": 63680,
+          "end_ms": 69180,
+          "words": [
+            {
+              "word": "Utan",
+              "start_ms": 63680,
+              "end_ms": 64180
+            },
+            {
+              "word": "säkerhetsnät",
+              "start_ms": 67620,
+              "end_ms": 69180
+            }
+          ]
         },
         {
           "text": "Jag sa ja",
-          "start_ms": 49560,
-          "end_ms": 51560
+          "start_ms": 69180,
+          "end_ms": 69420,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 69180,
+              "end_ms": 69420
+            },
+            {
+              "word": "sa",
+              "start_ms": 69420,
+              "end_ms": 69900
+            },
+            {
+              "word": "ja",
+              "start_ms": 69180,
+              "end_ms": 69420
+            }
+          ]
         },
         {
           "text": "Med händerna som skakade",
-          "start_ms": 51560,
-          "end_ms": 53560
+          "start_ms": 70800,
+          "end_ms": 73420,
+          "words": [
+            {
+              "word": "Med",
+              "start_ms": 70800,
+              "end_ms": 71060
+            },
+            {
+              "word": "händerna",
+              "start_ms": 71060,
+              "end_ms": 71820
+            },
+            {
+              "word": "som",
+              "start_ms": 71820,
+              "end_ms": 72040
+            },
+            {
+              "word": "skakade",
+              "start_ms": 72040,
+              "end_ms": 73420
+            }
+          ]
         },
         {
           "text": "Och fötterna som ville springa",
-          "start_ms": 53560,
-          "end_ms": 55960
+          "start_ms": 73420,
+          "end_ms": 77000,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 73420,
+              "end_ms": 74140
+            },
+            {
+              "word": "fötterna",
+              "start_ms": 74140,
+              "end_ms": 74940
+            },
+            {
+              "word": "som",
+              "start_ms": 74940,
+              "end_ms": 75300
+            },
+            {
+              "word": "ville",
+              "start_ms": 75300,
+              "end_ms": 75720
+            },
+            {
+              "word": "springa",
+              "start_ms": 75720,
+              "end_ms": 77000
+            }
+          ]
         },
         {
           "text": "Men jag sa ja",
-          "start_ms": 55960,
-          "end_ms": 57960
+          "start_ms": 77000,
+          "end_ms": 79240,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 77000,
+              "end_ms": 77400
+            },
+            {
+              "word": "jag",
+              "start_ms": 77400,
+              "end_ms": 77860
+            },
+            {
+              "word": "sa",
+              "start_ms": 77860,
+              "end_ms": 78360
+            },
+            {
+              "word": "ja",
+              "start_ms": 78360,
+              "end_ms": 79240
+            }
+          ]
         }
-      ],
-      "start_ms": 41560,
-      "end_ms": 57960
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 94460,
+      "end_ms": 111080,
       "lines": [
         {
           "text": "Det finns inga kartor för det här",
-          "start_ms": 60960,
-          "end_ms": 63600
+          "start_ms": 94460,
+          "end_ms": 98380,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 94460,
+              "end_ms": 95180
+            },
+            {
+              "word": "finns",
+              "start_ms": 95180,
+              "end_ms": 95800
+            },
+            {
+              "word": "inga",
+              "start_ms": 95800,
+              "end_ms": 96400
+            },
+            {
+              "word": "kartor",
+              "start_ms": 96400,
+              "end_ms": 96760
+            },
+            {
+              "word": "för",
+              "start_ms": 96760,
+              "end_ms": 97160
+            },
+            {
+              "word": "det",
+              "start_ms": 97160,
+              "end_ms": 97500
+            },
+            {
+              "word": "här",
+              "start_ms": 97500,
+              "end_ms": 98380
+            }
+          ]
         },
         {
           "text": "Ingen som gått den här vägen före mig",
-          "start_ms": 63600,
-          "end_ms": 66560
+          "start_ms": 98380,
+          "end_ms": 102660,
+          "words": [
+            {
+              "word": "Ingen",
+              "start_ms": 98380,
+              "end_ms": 98920
+            },
+            {
+              "word": "som",
+              "start_ms": 98920,
+              "end_ms": 99320
+            },
+            {
+              "word": "gått",
+              "start_ms": 99320,
+              "end_ms": 99960
+            },
+            {
+              "word": "den",
+              "start_ms": 99960,
+              "end_ms": 100180
+            },
+            {
+              "word": "här",
+              "start_ms": 100180,
+              "end_ms": 100540
+            },
+            {
+              "word": "vägen",
+              "start_ms": 100540,
+              "end_ms": 101240
+            },
+            {
+              "word": "före",
+              "start_ms": 101240,
+              "end_ms": 102000
+            },
+            {
+              "word": "mig",
+              "start_ms": 102000,
+              "end_ms": 102660
+            }
+          ]
         },
         {
           "text": "Bara ett löfte som jag inte kan bevisa",
-          "start_ms": 66560,
-          "end_ms": 69600
+          "start_ms": 102660,
+          "end_ms": 106740,
+          "words": [
+            {
+              "word": "Bara",
+              "start_ms": 102660,
+              "end_ms": 103420
+            },
+            {
+              "word": "ett",
+              "start_ms": 103420,
+              "end_ms": 103680
+            },
+            {
+              "word": "löfte",
+              "start_ms": 103680,
+              "end_ms": 104120
+            },
+            {
+              "word": "som",
+              "start_ms": 104120,
+              "end_ms": 104460
+            },
+            {
+              "word": "jag",
+              "start_ms": 104460,
+              "end_ms": 104840
+            },
+            {
+              "word": "inte",
+              "start_ms": 104840,
+              "end_ms": 105200
+            },
+            {
+              "word": "kan",
+              "start_ms": 105200,
+              "end_ms": 105580
+            },
+            {
+              "word": "bevisa",
+              "start_ms": 105580,
+              "end_ms": 106740
+            }
+          ]
         },
         {
           "text": "Och en kropp som inte är bara min längre",
-          "start_ms": 69600,
-          "end_ms": 72800
+          "start_ms": 106740,
+          "end_ms": 111080,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 106740,
+              "end_ms": 107440
+            },
+            {
+              "word": "en",
+              "start_ms": 107440,
+              "end_ms": 107700
+            },
+            {
+              "word": "kropp",
+              "start_ms": 107700,
+              "end_ms": 108080
+            },
+            {
+              "word": "som",
+              "start_ms": 108080,
+              "end_ms": 108520
+            },
+            {
+              "word": "inte",
+              "start_ms": 108520,
+              "end_ms": 108920
+            },
+            {
+              "word": "är",
+              "start_ms": 108920,
+              "end_ms": 109300
+            },
+            {
+              "word": "bara",
+              "start_ms": 109300,
+              "end_ms": 109700
+            },
+            {
+              "word": "min",
+              "start_ms": 109700,
+              "end_ms": 110040
+            },
+            {
+              "word": "längre",
+              "start_ms": 110040,
+              "end_ms": 111080
+            }
+          ]
         }
-      ],
-      "start_ms": 60960,
-      "end_ms": 72800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 111080,
+      "end_ms": 129940,
       "lines": [
         {
           "text": "Jag sa ja",
-          "start_ms": 75800,
-          "end_ms": 77800
+          "start_ms": 111080,
+          "end_ms": 111580,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 111080,
+              "end_ms": 111580
+            },
+            {
+              "word": "sa",
+              "start_ms": 111580,
+              "end_ms": 112040
+            },
+            {
+              "word": "ja",
+              "start_ms": 111080,
+              "end_ms": 111580
+            }
+          ]
         },
         {
           "text": "Utan garanti",
-          "start_ms": 77800,
-          "end_ms": 79800
+          "start_ms": 114240,
+          "end_ms": 115500,
+          "words": [
+            {
+              "word": "Utan",
+              "start_ms": 114240,
+              "end_ms": 114680
+            },
+            {
+              "word": "garanti",
+              "start_ms": 114680,
+              "end_ms": 115500
+            }
+          ]
         },
         {
           "text": "Jag sa ja",
-          "start_ms": 79800,
-          "end_ms": 81800
+          "start_ms": 115500,
+          "end_ms": 115800,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 115500,
+              "end_ms": 115800
+            },
+            {
+              "word": "sa",
+              "start_ms": 115800,
+              "end_ms": 116260
+            },
+            {
+              "word": "ja",
+              "start_ms": 115500,
+              "end_ms": 115800
+            }
+          ]
         },
         {
           "text": "Utan säkerhetsnät",
-          "start_ms": 81800,
-          "end_ms": 83800
+          "start_ms": 114240,
+          "end_ms": 119740,
+          "words": [
+            {
+              "word": "Utan",
+              "start_ms": 114240,
+              "end_ms": 114680
+            },
+            {
+              "word": "säkerhetsnät",
+              "start_ms": 118120,
+              "end_ms": 119740
+            }
+          ]
         },
         {
           "text": "Jag sa ja",
-          "start_ms": 83800,
-          "end_ms": 85800
+          "start_ms": 119740,
+          "end_ms": 119940,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 119740,
+              "end_ms": 119940
+            },
+            {
+              "word": "sa",
+              "start_ms": 119940,
+              "end_ms": 120500
+            },
+            {
+              "word": "ja",
+              "start_ms": 119740,
+              "end_ms": 119940
+            }
+          ]
         },
         {
           "text": "Med händerna som skakade",
-          "start_ms": 85800,
-          "end_ms": 87800
+          "start_ms": 121320,
+          "end_ms": 124020,
+          "words": [
+            {
+              "word": "Med",
+              "start_ms": 121320,
+              "end_ms": 121580
+            },
+            {
+              "word": "händerna",
+              "start_ms": 121580,
+              "end_ms": 122320
+            },
+            {
+              "word": "som",
+              "start_ms": 122320,
+              "end_ms": 122560
+            },
+            {
+              "word": "skakade",
+              "start_ms": 122560,
+              "end_ms": 124020
+            }
+          ]
         },
         {
           "text": "Och fötterna som ville springa",
-          "start_ms": 87800,
-          "end_ms": 90200
+          "start_ms": 124020,
+          "end_ms": 127540,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 124020,
+              "end_ms": 124700
+            },
+            {
+              "word": "fötterna",
+              "start_ms": 124700,
+              "end_ms": 125460
+            },
+            {
+              "word": "som",
+              "start_ms": 125460,
+              "end_ms": 125840
+            },
+            {
+              "word": "ville",
+              "start_ms": 125840,
+              "end_ms": 126280
+            },
+            {
+              "word": "springa",
+              "start_ms": 126280,
+              "end_ms": 127540
+            }
+          ]
         },
         {
           "text": "Men jag sa ja",
-          "start_ms": 90200,
-          "end_ms": 92200
+          "start_ms": 127540,
+          "end_ms": 129940,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 127540,
+              "end_ms": 127900
+            },
+            {
+              "word": "jag",
+              "start_ms": 127900,
+              "end_ms": 128440
+            },
+            {
+              "word": "sa",
+              "start_ms": 128440,
+              "end_ms": 128900
+            },
+            {
+              "word": "ja",
+              "start_ms": 128900,
+              "end_ms": 129940
+            }
+          ]
         }
-      ],
-      "start_ms": 75800,
-      "end_ms": 92200
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Whispered",
+      "label": "Bridge",
+      "start_ms": 131520,
+      "end_ms": 143120,
       "lines": [
         {
           "text": "Vad har jag gjort",
-          "start_ms": 95200,
-          "end_ms": 97200
+          "start_ms": 131520,
+          "end_ms": 134160,
+          "words": [
+            {
+              "word": "Vad",
+              "start_ms": 131520,
+              "end_ms": 132080
+            },
+            {
+              "word": "har",
+              "start_ms": 132080,
+              "end_ms": 132600
+            },
+            {
+              "word": "jag",
+              "start_ms": 132600,
+              "end_ms": 133160
+            },
+            {
+              "word": "gjort",
+              "start_ms": 133160,
+              "end_ms": 134160
+            }
+          ]
         },
         {
           "text": "Vad har jag gjort",
-          "start_ms": 97200,
-          "end_ms": 99200
+          "start_ms": 136060,
+          "end_ms": 138120,
+          "words": [
+            {
+              "word": "Vad",
+              "start_ms": 136060,
+              "end_ms": 136280
+            },
+            {
+              "word": "har",
+              "start_ms": 136280,
+              "end_ms": 136860
+            },
+            {
+              "word": "jag",
+              "start_ms": 136860,
+              "end_ms": 137460
+            },
+            {
+              "word": "gjort",
+              "start_ms": 137460,
+              "end_ms": 138120
+            }
+          ]
         },
         {
           "text": "Vad har jag gjort",
-          "start_ms": 99200,
-          "end_ms": 101200
+          "start_ms": 139120,
+          "end_ms": 143120,
+          "words": [
+            {
+              "word": "Vad",
+              "start_ms": 139120,
+              "end_ms": 140720
+            },
+            {
+              "word": "har",
+              "start_ms": 140720,
+              "end_ms": 141220
+            },
+            {
+              "word": "jag",
+              "start_ms": 141220,
+              "end_ms": 141700
+            },
+            {
+              "word": "gjort",
+              "start_ms": 141700,
+              "end_ms": 143120
+            }
+          ]
         }
-      ],
-      "start_ms": 95200,
-      "end_ms": 101200
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 141220,
+      "end_ms": 163600,
       "lines": [
         {
           "text": "Jag sa ja",
-          "start_ms": 104200,
-          "end_ms": 106200
+          "start_ms": 141220,
+          "end_ms": 163600,
+          "words": [
+            {
+              "word": "Jag",
+              "start_ms": 141220,
+              "end_ms": 141700
+            },
+            {
+              "word": "sa",
+              "start_ms": 162240,
+              "end_ms": 162640
+            },
+            {
+              "word": "ja",
+              "start_ms": 162640,
+              "end_ms": 163600
+            }
+          ]
         }
-      ],
-      "start_ms": 104200,
-      "end_ms": 106200
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 109200,
-          "end_ms": 111200
-        }
-      ],
-      "start_ms": 109200,
-      "end_ms": 111200
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Jag kunde sagt nej",
+      "section_type": "chorus",
+      "start_ms": 51800,
+      "end_ms": 60480,
+      "key_line": "Jag kunde sagt nej",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Jag sa ja",
+      "section_type": "chorus",
+      "start_ms": 60480,
+      "end_ms": 79240,
+      "key_line": "Jag sa ja",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Jag sa ja",
+      "section_type": "chorus",
+      "start_ms": 111080,
+      "end_ms": 129940,
+      "key_line": "Jag sa ja",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 131520,
+      "end_ms": 143120,
+      "key_line": "Vad har jag gjort",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Jag sa ja",
+      "section_type": "chorus",
+      "start_ms": 141220,
+      "end_ms": 163600,
+      "key_line": "Jag sa ja",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/swedish/42_luke_01_1-26_transcript.json"
 }

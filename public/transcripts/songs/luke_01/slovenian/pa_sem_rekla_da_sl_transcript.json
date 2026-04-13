@@ -7,288 +7,1063 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 191080,
   "audio_file": "/audio/songs/luke_01/slovenian/Luke 1_26-38 — _Pa sem rekla da_ (Slovenian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.305463+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.055412+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.969,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 14960,
+      "end_ms": 42460,
       "lines": [
         {
           "text": "Preden sem rekla da",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 14960,
+          "end_ms": 18160,
+          "words": [
+            {
+              "word": "Preden",
+              "start_ms": 14960,
+              "end_ms": 16320
+            },
+            {
+              "word": "sem",
+              "start_ms": 16320,
+              "end_ms": 16600
+            },
+            {
+              "word": "rekla",
+              "start_ms": 16600,
+              "end_ms": 17260
+            },
+            {
+              "word": "da",
+              "start_ms": 17460,
+              "end_ms": 18160
+            }
+          ]
         },
         {
           "text": "sem vedela",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 16320,
+          "end_ms": 20480,
+          "words": [
+            {
+              "word": "sem",
+              "start_ms": 16320,
+              "end_ms": 16600
+            },
+            {
+              "word": "vedela",
+              "start_ms": 18500,
+              "end_ms": 20480
+            }
+          ]
         },
         {
           "text": "da je svet premajhen",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 17460,
+          "end_ms": 24460,
+          "words": [
+            {
+              "word": "da",
+              "start_ms": 17460,
+              "end_ms": 18160
+            },
+            {
+              "word": "je",
+              "start_ms": 18210,
+              "end_ms": 18510,
+              "estimated": true
+            },
+            {
+              "word": "svet",
+              "start_ms": 22020,
+              "end_ms": 22560
+            },
+            {
+              "word": "premajhen",
+              "start_ms": 22560,
+              "end_ms": 24460
+            }
+          ]
         },
         {
           "text": "za to kar prihaja",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 24460,
+          "end_ms": 29020,
+          "words": [
+            {
+              "word": "za",
+              "start_ms": 24460,
+              "end_ms": 25440
+            },
+            {
+              "word": "to",
+              "start_ms": 24460,
+              "end_ms": 25440
+            },
+            {
+              "word": "kar",
+              "start_ms": 25440,
+              "end_ms": 26080
+            },
+            {
+              "word": "prihaja",
+              "start_ms": 26080,
+              "end_ms": 29020
+            }
+          ]
         },
         {
           "text": "Vedela sem",
-          "start_ms": 14000,
-          "end_ms": 16000
+          "start_ms": 29020,
+          "end_ms": 31240,
+          "words": [
+            {
+              "word": "Vedela",
+              "start_ms": 29020,
+              "end_ms": 30220
+            },
+            {
+              "word": "sem",
+              "start_ms": 30220,
+              "end_ms": 31240
+            }
+          ]
         },
         {
           "text": "da bodo govorili",
-          "start_ms": 16000,
-          "end_ms": 18000
+          "start_ms": 31920,
+          "end_ms": 34800,
+          "words": [
+            {
+              "word": "da",
+              "start_ms": 31920,
+              "end_ms": 32259
+            },
+            {
+              "word": "bodo",
+              "start_ms": 32259,
+              "end_ms": 32820
+            },
+            {
+              "word": "govorili",
+              "start_ms": 32820,
+              "end_ms": 34800
+            }
+          ]
         },
         {
           "text": "da bodo kazali s prstom",
-          "start_ms": 18000,
-          "end_ms": 20000
+          "start_ms": 31920,
+          "end_ms": 39240,
+          "words": [
+            {
+              "word": "da",
+              "start_ms": 31920,
+              "end_ms": 32259
+            },
+            {
+              "word": "bodo",
+              "start_ms": 32259,
+              "end_ms": 32820
+            },
+            {
+              "word": "kazali",
+              "start_ms": 36020,
+              "end_ms": 37380
+            },
+            {
+              "word": "s",
+              "start_ms": 37380,
+              "end_ms": 37700
+            },
+            {
+              "word": "prstom",
+              "start_ms": 37700,
+              "end_ms": 39240
+            }
+          ]
         },
         {
           "text": "na moj trebuh",
-          "start_ms": 20000,
-          "end_ms": 22000
+          "start_ms": 39240,
+          "end_ms": 42460,
+          "words": [
+            {
+              "word": "na",
+              "start_ms": 39240,
+              "end_ms": 40500
+            },
+            {
+              "word": "moj",
+              "start_ms": 40500,
+              "end_ms": 40900
+            },
+            {
+              "word": "trebuh",
+              "start_ms": 40900,
+              "end_ms": 42460
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 22000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 43460,
+      "end_ms": 71120,
       "lines": [
         {
           "text": "Pa sem rekla",
-          "start_ms": 25000,
-          "end_ms": 27000
+          "start_ms": 43460,
+          "end_ms": 46800,
+          "words": [
+            {
+              "word": "Pa",
+              "start_ms": 43460,
+              "end_ms": 44740
+            },
+            {
+              "word": "sem",
+              "start_ms": 44740,
+              "end_ms": 45060
+            },
+            {
+              "word": "rekla",
+              "start_ms": 45060,
+              "end_ms": 46800
+            }
+          ]
         },
         {
           "text": "naj se zgodi",
-          "start_ms": 27000,
-          "end_ms": 29000
+          "start_ms": 47640,
+          "end_ms": 50120,
+          "words": [
+            {
+              "word": "naj",
+              "start_ms": 47640,
+              "end_ms": 47980
+            },
+            {
+              "word": "se",
+              "start_ms": 47980,
+              "end_ms": 48260
+            },
+            {
+              "word": "zgodi",
+              "start_ms": 48260,
+              "end_ms": 50120
+            }
+          ]
         },
         {
           "text": "vedela sem ceno",
-          "start_ms": 29000,
-          "end_ms": 31000
+          "start_ms": 50120,
+          "end_ms": 54280,
+          "words": [
+            {
+              "word": "vedela",
+              "start_ms": 50120,
+              "end_ms": 51940
+            },
+            {
+              "word": "sem",
+              "start_ms": 51940,
+              "end_ms": 52340
+            },
+            {
+              "word": "ceno",
+              "start_ms": 52340,
+              "end_ms": 54280
+            }
+          ]
         },
         {
           "text": "in sem rekla da",
-          "start_ms": 31000,
-          "end_ms": 33000
+          "start_ms": 54280,
+          "end_ms": 57520,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 54280,
+              "end_ms": 54900
+            },
+            {
+              "word": "sem",
+              "start_ms": 51940,
+              "end_ms": 52340
+            },
+            {
+              "word": "rekla",
+              "start_ms": 55220,
+              "end_ms": 56060
+            },
+            {
+              "word": "da",
+              "start_ms": 56660,
+              "end_ms": 57520
+            }
+          ]
         },
         {
           "text": "Tukaj sem",
-          "start_ms": 33000,
-          "end_ms": 35000
+          "start_ms": 58120,
+          "end_ms": 60820,
+          "words": [
+            {
+              "word": "Tukaj",
+              "start_ms": 58120,
+              "end_ms": 59780
+            },
+            {
+              "word": "sem",
+              "start_ms": 59780,
+              "end_ms": 60820
+            }
+          ]
         },
         {
           "text": "z odprtimi dlanmi",
-          "start_ms": 35000,
-          "end_ms": 37000
+          "start_ms": 60820,
+          "end_ms": 64120,
+          "words": [
+            {
+              "word": "z",
+              "start_ms": 60820,
+              "end_ms": 61120,
+              "estimated": true
+            },
+            {
+              "word": "odprtimi",
+              "start_ms": 61740,
+              "end_ms": 62580
+            },
+            {
+              "word": "dlanmi",
+              "start_ms": 62580,
+              "end_ms": 64120
+            }
+          ]
         },
         {
           "text": "brez zascite",
-          "start_ms": 37000,
-          "end_ms": 39000
+          "start_ms": 66180,
+          "end_ms": 68380,
+          "words": [
+            {
+              "word": "brez",
+              "start_ms": 66180,
+              "end_ms": 67040
+            },
+            {
+              "word": "zascite",
+              "start_ms": 67040,
+              "end_ms": 68380
+            }
+          ]
         },
         {
           "text": "brez nacrta",
-          "start_ms": 39000,
-          "end_ms": 41000
+          "start_ms": 66180,
+          "end_ms": 71120,
+          "words": [
+            {
+              "word": "brez",
+              "start_ms": 66180,
+              "end_ms": 67040
+            },
+            {
+              "word": "nacrta",
+              "start_ms": 70280,
+              "end_ms": 71120
+            }
+          ]
         }
-      ],
-      "start_ms": 25000,
-      "end_ms": 41000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 73399,
+      "end_ms": 100720,
       "lines": [
         {
           "text": "Stirinajst let",
-          "start_ms": 44000,
-          "end_ms": 46000
+          "start_ms": 73399,
+          "end_ms": 75260,
+          "words": [
+            {
+              "word": "Stirinajst",
+              "start_ms": 73399,
+              "end_ms": 74800
+            },
+            {
+              "word": "let",
+              "start_ms": 74800,
+              "end_ms": 75260
+            }
+          ]
         },
         {
           "text": "v vasi ki je nihce ne najde",
-          "start_ms": 46000,
-          "end_ms": 48160
+          "start_ms": 75260,
+          "end_ms": 78720,
+          "words": [
+            {
+              "word": "v",
+              "start_ms": 75260,
+              "end_ms": 75560,
+              "estimated": true
+            },
+            {
+              "word": "vasi",
+              "start_ms": 75260,
+              "end_ms": 76120
+            },
+            {
+              "word": "ki",
+              "start_ms": 76420,
+              "end_ms": 76460
+            },
+            {
+              "word": "je",
+              "start_ms": 76460,
+              "end_ms": 76680
+            },
+            {
+              "word": "nihce",
+              "start_ms": 76860,
+              "end_ms": 77500
+            },
+            {
+              "word": "ne",
+              "start_ms": 78020,
+              "end_ms": 78020
+            },
+            {
+              "word": "najde",
+              "start_ms": 78020,
+              "end_ms": 78720
+            }
+          ]
         },
         {
           "text": "zarocena s fantom",
-          "start_ms": 48160,
-          "end_ms": 50160
+          "start_ms": 79720,
+          "end_ms": 83020,
+          "words": [
+            {
+              "word": "zarocena",
+              "start_ms": 79720,
+              "end_ms": 81240
+            },
+            {
+              "word": "s",
+              "start_ms": 81240,
+              "end_ms": 81580
+            },
+            {
+              "word": "fantom",
+              "start_ms": 81580,
+              "end_ms": 83020
+            }
+          ]
         },
         {
           "text": "ki bo moral razumeti",
-          "start_ms": 50160,
-          "end_ms": 52160
+          "start_ms": 83220,
+          "end_ms": 85720,
+          "words": [
+            {
+              "word": "ki",
+              "start_ms": 83220,
+              "end_ms": 83300
+            },
+            {
+              "word": "bo",
+              "start_ms": 83300,
+              "end_ms": 83800
+            },
+            {
+              "word": "moral",
+              "start_ms": 83800,
+              "end_ms": 84700
+            },
+            {
+              "word": "razumeti",
+              "start_ms": 84700,
+              "end_ms": 85720
+            }
+          ]
         },
         {
           "text": "Angel rece: ne boj se",
-          "start_ms": 52160,
-          "end_ms": 54160
+          "start_ms": 86560,
+          "end_ms": 90340,
+          "words": [
+            {
+              "word": "Angel",
+              "start_ms": 86560,
+              "end_ms": 87660
+            },
+            {
+              "word": "rece:",
+              "start_ms": 87660,
+              "end_ms": 88320
+            },
+            {
+              "word": "ne",
+              "start_ms": 88620,
+              "end_ms": 88620
+            },
+            {
+              "word": "boj",
+              "start_ms": 88620,
+              "end_ms": 89160
+            },
+            {
+              "word": "se",
+              "start_ms": 89160,
+              "end_ms": 90340
+            }
+          ]
         },
         {
           "text": "kot da je to dovolj",
-          "start_ms": 54160,
-          "end_ms": 56160
+          "start_ms": 90900,
+          "end_ms": 93259,
+          "words": [
+            {
+              "word": "kot",
+              "start_ms": 90900,
+              "end_ms": 91140
+            },
+            {
+              "word": "da",
+              "start_ms": 91140,
+              "end_ms": 91440
+            },
+            {
+              "word": "je",
+              "start_ms": 91440,
+              "end_ms": 92140
+            },
+            {
+              "word": "to",
+              "start_ms": 92140,
+              "end_ms": 92580
+            },
+            {
+              "word": "dovolj",
+              "start_ms": 92580,
+              "end_ms": 93259
+            }
+          ]
         },
         {
           "text": "kot da tri besede",
-          "start_ms": 56160,
-          "end_ms": 58160
+          "start_ms": 94000,
+          "end_ms": 98100,
+          "words": [
+            {
+              "word": "kot",
+              "start_ms": 94000,
+              "end_ms": 94600
+            },
+            {
+              "word": "da",
+              "start_ms": 94600,
+              "end_ms": 95060
+            },
+            {
+              "word": "tri",
+              "start_ms": 95060,
+              "end_ms": 96240
+            },
+            {
+              "word": "besede",
+              "start_ms": 96240,
+              "end_ms": 98100
+            }
+          ]
         },
         {
           "text": "odtehtajo vse",
-          "start_ms": 58160,
-          "end_ms": 60160
+          "start_ms": 98800,
+          "end_ms": 100720,
+          "words": [
+            {
+              "word": "odtehtajo",
+              "start_ms": 98800,
+              "end_ms": 99960
+            },
+            {
+              "word": "vse",
+              "start_ms": 99960,
+              "end_ms": 100720
+            }
+          ]
         }
-      ],
-      "start_ms": 44000,
-      "end_ms": 60160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 102259,
+      "end_ms": 130019,
       "lines": [
         {
           "text": "Pa sem rekla",
-          "start_ms": 63160,
-          "end_ms": 65160
+          "start_ms": 102259,
+          "end_ms": 105940,
+          "words": [
+            {
+              "word": "Pa",
+              "start_ms": 102259,
+              "end_ms": 103660
+            },
+            {
+              "word": "sem",
+              "start_ms": 103660,
+              "end_ms": 104120
+            },
+            {
+              "word": "rekla",
+              "start_ms": 104120,
+              "end_ms": 105940
+            }
+          ]
         },
         {
           "text": "naj se zgodi",
-          "start_ms": 65160,
-          "end_ms": 67160
+          "start_ms": 106660,
+          "end_ms": 108000,
+          "words": [
+            {
+              "word": "naj",
+              "start_ms": 106660,
+              "end_ms": 106980
+            },
+            {
+              "word": "se",
+              "start_ms": 106980,
+              "end_ms": 107300
+            },
+            {
+              "word": "zgodi",
+              "start_ms": 107300,
+              "end_ms": 108000
+            }
+          ]
         },
         {
           "text": "vedela sem ceno",
-          "start_ms": 67160,
-          "end_ms": 69160
+          "start_ms": 109580,
+          "end_ms": 113260,
+          "words": [
+            {
+              "word": "vedela",
+              "start_ms": 109580,
+              "end_ms": 110980
+            },
+            {
+              "word": "sem",
+              "start_ms": 110980,
+              "end_ms": 111460
+            },
+            {
+              "word": "ceno",
+              "start_ms": 111460,
+              "end_ms": 113260
+            }
+          ]
         },
         {
           "text": "in sem rekla da",
-          "start_ms": 69160,
-          "end_ms": 71160
+          "start_ms": 113260,
+          "end_ms": 116960,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 113260,
+              "end_ms": 113960
+            },
+            {
+              "word": "sem",
+              "start_ms": 110980,
+              "end_ms": 111460
+            },
+            {
+              "word": "rekla",
+              "start_ms": 114300,
+              "end_ms": 115180
+            },
+            {
+              "word": "da",
+              "start_ms": 115660,
+              "end_ms": 116960
+            }
+          ]
         },
         {
           "text": "Tukaj sem",
-          "start_ms": 71160,
-          "end_ms": 73160
+          "start_ms": 116960,
+          "end_ms": 120280,
+          "words": [
+            {
+              "word": "Tukaj",
+              "start_ms": 116960,
+              "end_ms": 118880
+            },
+            {
+              "word": "sem",
+              "start_ms": 118880,
+              "end_ms": 120280
+            }
+          ]
         },
         {
           "text": "z odprtimi dlanmi",
-          "start_ms": 73160,
-          "end_ms": 75160
+          "start_ms": 120280,
+          "end_ms": 122720,
+          "words": [
+            {
+              "word": "z",
+              "start_ms": 120280,
+              "end_ms": 120580,
+              "estimated": true
+            },
+            {
+              "word": "odprtimi",
+              "start_ms": 120820,
+              "end_ms": 121760
+            },
+            {
+              "word": "dlanmi",
+              "start_ms": 121760,
+              "end_ms": 122720
+            }
+          ]
         },
         {
           "text": "brez zascite",
-          "start_ms": 75160,
-          "end_ms": 77160
+          "start_ms": 124999,
+          "end_ms": 127800,
+          "words": [
+            {
+              "word": "brez",
+              "start_ms": 124999,
+              "end_ms": 126399
+            },
+            {
+              "word": "zascite",
+              "start_ms": 126399,
+              "end_ms": 127800
+            }
+          ]
         },
         {
           "text": "brez nacrta",
-          "start_ms": 77160,
-          "end_ms": 79160
+          "start_ms": 124999,
+          "end_ms": 130019,
+          "words": [
+            {
+              "word": "brez",
+              "start_ms": 124999,
+              "end_ms": 126399
+            },
+            {
+              "word": "nacrta",
+              "start_ms": 129320,
+              "end_ms": 130019
+            }
+          ]
         }
-      ],
-      "start_ms": 63160,
-      "end_ms": 79160
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 133280,
+      "end_ms": 150420,
       "lines": [
         {
           "text": "Pravijo ji poniznost",
-          "start_ms": 82160,
-          "end_ms": 84160
+          "start_ms": 133280,
+          "end_ms": 136520,
+          "words": [
+            {
+              "word": "Pravijo",
+              "start_ms": 133280,
+              "end_ms": 134680
+            },
+            {
+              "word": "ji",
+              "start_ms": 136900,
+              "end_ms": 137520
+            },
+            {
+              "word": "poniznost",
+              "start_ms": 135080,
+              "end_ms": 136520
+            }
+          ]
         },
         {
           "text": "jaz ji recem pogum",
-          "start_ms": 84160,
-          "end_ms": 86160
+          "start_ms": 136900,
+          "end_ms": 139720,
+          "words": [
+            {
+              "word": "jaz",
+              "start_ms": 136900,
+              "end_ms": 137520
+            },
+            {
+              "word": "ji",
+              "start_ms": 136900,
+              "end_ms": 137520
+            },
+            {
+              "word": "recem",
+              "start_ms": 137520,
+              "end_ms": 138720
+            },
+            {
+              "word": "pogum",
+              "start_ms": 138720,
+              "end_ms": 139720
+            }
+          ]
         },
         {
           "text": "pravijo ji vera",
-          "start_ms": 86160,
-          "end_ms": 88160
+          "start_ms": 140620,
+          "end_ms": 143820,
+          "words": [
+            {
+              "word": "pravijo",
+              "start_ms": 140620,
+              "end_ms": 142460
+            },
+            {
+              "word": "ji",
+              "start_ms": 144400,
+              "end_ms": 144940
+            },
+            {
+              "word": "vera",
+              "start_ms": 142940,
+              "end_ms": 143820
+            }
+          ]
         },
         {
           "text": "jaz ji recem skok",
-          "start_ms": 88160,
-          "end_ms": 90160
+          "start_ms": 144400,
+          "end_ms": 147420,
+          "words": [
+            {
+              "word": "jaz",
+              "start_ms": 144400,
+              "end_ms": 144940
+            },
+            {
+              "word": "ji",
+              "start_ms": 144400,
+              "end_ms": 144940
+            },
+            {
+              "word": "recem",
+              "start_ms": 144940,
+              "end_ms": 146620
+            },
+            {
+              "word": "skok",
+              "start_ms": 146620,
+              "end_ms": 147420
+            }
+          ]
         },
         {
           "text": "v prazno",
-          "start_ms": 90160,
-          "end_ms": 92160
+          "start_ms": 147420,
+          "end_ms": 150420,
+          "words": [
+            {
+              "word": "v",
+              "start_ms": 147420,
+              "end_ms": 147800
+            },
+            {
+              "word": "prazno",
+              "start_ms": 147800,
+              "end_ms": 150420
+            }
+          ]
         }
-      ],
-      "start_ms": 82160,
-      "end_ms": 92160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 150420,
+      "end_ms": 160220,
       "lines": [
         {
           "text": "Naj se zgodi",
-          "start_ms": 95160,
-          "end_ms": 97160
+          "start_ms": 150420,
+          "end_ms": 153780,
+          "words": [
+            {
+              "word": "Naj",
+              "start_ms": 150420,
+              "end_ms": 151320
+            },
+            {
+              "word": "se",
+              "start_ms": 151320,
+              "end_ms": 151680
+            },
+            {
+              "word": "zgodi",
+              "start_ms": 151680,
+              "end_ms": 153780
+            }
+          ]
         },
         {
           "text": "vedela sem ceno",
-          "start_ms": 97160,
-          "end_ms": 99160
+          "start_ms": 154360,
+          "end_ms": 157720,
+          "words": [
+            {
+              "word": "vedela",
+              "start_ms": 154360,
+              "end_ms": 155320
+            },
+            {
+              "word": "sem",
+              "start_ms": 155320,
+              "end_ms": 155740
+            },
+            {
+              "word": "ceno",
+              "start_ms": 155740,
+              "end_ms": 157720
+            }
+          ]
         },
         {
           "text": "in sem rekla da",
-          "start_ms": 99160,
-          "end_ms": 101160
+          "start_ms": 157720,
+          "end_ms": 160220,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 157720,
+              "end_ms": 158280
+            },
+            {
+              "word": "sem",
+              "start_ms": 155320,
+              "end_ms": 155740
+            },
+            {
+              "word": "rekla",
+              "start_ms": 158760,
+              "end_ms": 159540
+            },
+            {
+              "word": "da",
+              "start_ms": 160220,
+              "end_ms": 160220
+            }
+          ]
         }
-      ],
-      "start_ms": 95160,
-      "end_ms": 101160
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Whispered",
+      "label": "Outro",
+      "start_ms": 160220,
+      "end_ms": 160220,
       "lines": [
         {
           "text": "Da",
-          "start_ms": 104160,
-          "end_ms": 106160
+          "start_ms": 160220,
+          "end_ms": 160220,
+          "words": [
+            {
+              "word": "Da",
+              "start_ms": 160220,
+              "end_ms": 160220
+            }
+          ]
         }
-      ],
-      "start_ms": 104160,
-      "end_ms": 106160
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 109160,
-          "end_ms": 111160
-        }
-      ],
-      "start_ms": 109160,
-      "end_ms": 111160
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Pa sem rekla",
+      "section_type": "chorus",
+      "start_ms": 43460,
+      "end_ms": 71120,
+      "key_line": "Pa sem rekla",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Pa sem rekla",
+      "section_type": "chorus",
+      "start_ms": 102259,
+      "end_ms": 130019,
+      "key_line": "Pa sem rekla",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 133280,
+      "end_ms": 150420,
+      "key_line": "Pravijo ji poniznost",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Naj se zgodi",
+      "section_type": "chorus",
+      "start_ms": 150420,
+      "end_ms": 160220,
+      "key_line": "Naj se zgodi",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/slovenian/42_luke_01_1-26_transcript.json"
 }

@@ -7,266 +7,1329 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 152960,
   "audio_file": "/audio/songs/luke_01/romanian/Luke 1_26-38 Fie (Romanian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.248606+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.036370+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.533,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Soft",
+      "label": "Verse 1",
+      "start_ms": 12160,
+      "end_ms": 25500,
       "lines": [
         {
           "text": "Un sat pe care nimeni nu-l știe",
-          "start_ms": 6000,
-          "end_ms": 8480
+          "start_ms": 12160,
+          "end_ms": 15160,
+          "words": [
+            {
+              "word": "Un",
+              "start_ms": 12160,
+              "end_ms": 12160
+            },
+            {
+              "word": "sat",
+              "start_ms": 12160,
+              "end_ms": 12820
+            },
+            {
+              "word": "pe",
+              "start_ms": 12820,
+              "end_ms": 13140
+            },
+            {
+              "word": "care",
+              "start_ms": 13140,
+              "end_ms": 13400
+            },
+            {
+              "word": "nimeni",
+              "start_ms": 13400,
+              "end_ms": 13960
+            },
+            {
+              "word": "nu-l",
+              "start_ms": 13960,
+              "end_ms": 14140
+            },
+            {
+              "word": "știe",
+              "start_ms": 14320,
+              "end_ms": 15160
+            }
+          ]
         },
         {
           "text": "o fată pe care nimeni n-o vede",
-          "start_ms": 8480,
-          "end_ms": 10880
+          "start_ms": 15480,
+          "end_ms": 18240,
+          "words": [
+            {
+              "word": "o",
+              "start_ms": 15480,
+              "end_ms": 15660
+            },
+            {
+              "word": "fată",
+              "start_ms": 15660,
+              "end_ms": 15980
+            },
+            {
+              "word": "pe",
+              "start_ms": 15980,
+              "end_ms": 16420
+            },
+            {
+              "word": "care",
+              "start_ms": 16420,
+              "end_ms": 16880
+            },
+            {
+              "word": "nimeni",
+              "start_ms": 16880,
+              "end_ms": 17560
+            },
+            {
+              "word": "n-o",
+              "start_ms": 17610,
+              "end_ms": 17910,
+              "estimated": true
+            },
+            {
+              "word": "vede",
+              "start_ms": 17800,
+              "end_ms": 18240
+            }
+          ]
         },
         {
           "text": "logodită, cu viața plănuită",
-          "start_ms": 10880,
-          "end_ms": 13040
+          "start_ms": 19080,
+          "end_ms": 22260,
+          "words": [
+            {
+              "word": "logodită,",
+              "start_ms": 19080,
+              "end_ms": 19960
+            },
+            {
+              "word": "cu",
+              "start_ms": 19960,
+              "end_ms": 20280
+            },
+            {
+              "word": "viața",
+              "start_ms": 20280,
+              "end_ms": 20700
+            },
+            {
+              "word": "plănuită",
+              "start_ms": 20700,
+              "end_ms": 22260
+            }
+          ]
         },
         {
           "text": "și deodată — o voce",
-          "start_ms": 13040,
-          "end_ms": 15040
+          "start_ms": 22260,
+          "end_ms": 25500,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 22260,
+              "end_ms": 22560,
+              "estimated": true
+            },
+            {
+              "word": "deodată",
+              "start_ms": 22840,
+              "end_ms": 24080
+            },
+            {
+              "word": "—",
+              "start_ms": 24130,
+              "end_ms": 24430,
+              "estimated": true
+            },
+            {
+              "word": "o",
+              "start_ms": 24080,
+              "end_ms": 24700
+            },
+            {
+              "word": "voce",
+              "start_ms": 24700,
+              "end_ms": 25500
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 25500,
+      "end_ms": 39480,
       "lines": [
         {
           "text": "Nu te teme, Maria",
-          "start_ms": 18040,
-          "end_ms": 20040
+          "start_ms": 25500,
+          "end_ms": 28080,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 25500,
+              "end_ms": 26080
+            },
+            {
+              "word": "te",
+              "start_ms": 26080,
+              "end_ms": 26400
+            },
+            {
+              "word": "teme,",
+              "start_ms": 26400,
+              "end_ms": 26720
+            },
+            {
+              "word": "Maria",
+              "start_ms": 26720,
+              "end_ms": 28080
+            }
+          ]
         },
         {
           "text": "dar cum să nu mă tem?",
-          "start_ms": 20040,
-          "end_ms": 22040
+          "start_ms": 29200,
+          "end_ms": 31120,
+          "words": [
+            {
+              "word": "dar",
+              "start_ms": 29200,
+              "end_ms": 29300
+            },
+            {
+              "word": "cum",
+              "start_ms": 29300,
+              "end_ms": 29620
+            },
+            {
+              "word": "să",
+              "start_ms": 29670,
+              "end_ms": 29970,
+              "estimated": true
+            },
+            {
+              "word": "nu",
+              "start_ms": 30020,
+              "end_ms": 30320,
+              "estimated": true
+            },
+            {
+              "word": "mă",
+              "start_ms": 30370,
+              "end_ms": 30670,
+              "estimated": true
+            },
+            {
+              "word": "tem?",
+              "start_ms": 30540,
+              "end_ms": 31120
+            }
+          ]
         },
         {
           "text": "tot ce am, tot ce sunt",
-          "start_ms": 22040,
-          "end_ms": 24040
+          "start_ms": 32759,
+          "end_ms": 35420,
+          "words": [
+            {
+              "word": "tot",
+              "start_ms": 32759,
+              "end_ms": 32940
+            },
+            {
+              "word": "ce",
+              "start_ms": 32940,
+              "end_ms": 33200
+            },
+            {
+              "word": "am,",
+              "start_ms": 33200,
+              "end_ms": 33540
+            },
+            {
+              "word": "tot",
+              "start_ms": 32759,
+              "end_ms": 32940
+            },
+            {
+              "word": "ce",
+              "start_ms": 32940,
+              "end_ms": 33200
+            },
+            {
+              "word": "sunt",
+              "start_ms": 34120,
+              "end_ms": 35420
+            }
+          ]
         },
         {
           "text": "depinde de-un singur cuvânt",
-          "start_ms": 24040,
-          "end_ms": 26200
+          "start_ms": 36120,
+          "end_ms": 39480,
+          "words": [
+            {
+              "word": "depinde",
+              "start_ms": 36120,
+              "end_ms": 36520
+            },
+            {
+              "word": "de-un",
+              "start_ms": 36520,
+              "end_ms": 36800
+            },
+            {
+              "word": "singur",
+              "start_ms": 37100,
+              "end_ms": 37880
+            },
+            {
+              "word": "cuvânt",
+              "start_ms": 37880,
+              "end_ms": 39480
+            }
+          ]
         }
-      ],
-      "start_ms": 18040,
-      "end_ms": 26200
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 41820,
+      "end_ms": 62180,
       "lines": [
         {
           "text": "Fie",
-          "start_ms": 29200,
-          "end_ms": 31200
+          "start_ms": 41820,
+          "end_ms": 42180,
+          "words": [
+            {
+              "word": "Fie",
+              "start_ms": 41820,
+              "end_ms": 42180
+            }
+          ]
         },
         {
           "text": "fie cum ai spus",
-          "start_ms": 31200,
-          "end_ms": 33200
+          "start_ms": 41820,
+          "end_ms": 43340,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 41820,
+              "end_ms": 42180
+            },
+            {
+              "word": "cum",
+              "start_ms": 42180,
+              "end_ms": 42460
+            },
+            {
+              "word": "ai",
+              "start_ms": 42460,
+              "end_ms": 42660
+            },
+            {
+              "word": "spus",
+              "start_ms": 42660,
+              "end_ms": 43340
+            }
+          ]
         },
         {
           "text": "fie — chiar dacă mă costă totul",
-          "start_ms": 33200,
-          "end_ms": 35680
+          "start_ms": 48860,
+          "end_ms": 50450,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 48860,
+              "end_ms": 49020
+            },
+            {
+              "word": "—",
+              "start_ms": 49070,
+              "end_ms": 49370,
+              "estimated": true
+            },
+            {
+              "word": "chiar",
+              "start_ms": 49020,
+              "end_ms": 49020
+            },
+            {
+              "word": "dacă",
+              "start_ms": 49020,
+              "end_ms": 49400
+            },
+            {
+              "word": "mă",
+              "start_ms": 49450,
+              "end_ms": 49750,
+              "estimated": true
+            },
+            {
+              "word": "costă",
+              "start_ms": 49800,
+              "end_ms": 50100,
+              "estimated": true
+            },
+            {
+              "word": "totul",
+              "start_ms": 50150,
+              "end_ms": 50450,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "fie — chiar dacă nimeni nu-nțelege",
-          "start_ms": 35680,
-          "end_ms": 38400
+          "start_ms": 56199,
+          "end_ms": 63930,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 56199,
+              "end_ms": 57120
+            },
+            {
+              "word": "—",
+              "start_ms": 57170,
+              "end_ms": 57470,
+              "estimated": true
+            },
+            {
+              "word": "chiar",
+              "start_ms": 58960,
+              "end_ms": 60380
+            },
+            {
+              "word": "dacă",
+              "start_ms": 60430,
+              "end_ms": 60730,
+              "estimated": true
+            },
+            {
+              "word": "nimeni",
+              "start_ms": 62800,
+              "end_ms": 63580
+            },
+            {
+              "word": "nu-nțelege",
+              "start_ms": 63630,
+              "end_ms": 63930,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "fie",
-          "start_ms": 38400,
-          "end_ms": 40400
+          "start_ms": 61480,
+          "end_ms": 62180,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 61480,
+              "end_ms": 62180
+            }
+          ]
         }
-      ],
-      "start_ms": 29200,
-      "end_ms": 40400
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 66540,
+      "end_ms": 79920,
       "lines": [
         {
           "text": "Nazaret nu-i pe nicio hartă",
-          "start_ms": 43400,
-          "end_ms": 45560
+          "start_ms": 66540,
+          "end_ms": 71710,
+          "words": [
+            {
+              "word": "Nazaret",
+              "start_ms": 66540,
+              "end_ms": 67020
+            },
+            {
+              "word": "nu-i",
+              "start_ms": 70240,
+              "end_ms": 70660
+            },
+            {
+              "word": "pe",
+              "start_ms": 70710,
+              "end_ms": 71010,
+              "estimated": true
+            },
+            {
+              "word": "nicio",
+              "start_ms": 71060,
+              "end_ms": 71360,
+              "estimated": true
+            },
+            {
+              "word": "hartă",
+              "start_ms": 71410,
+              "end_ms": 71710,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Iosif nu știe încă nimic",
-          "start_ms": 45560,
-          "end_ms": 47560
+          "start_ms": 68960,
+          "end_ms": 71680,
+          "words": [
+            {
+              "word": "Iosif",
+              "start_ms": 68960,
+              "end_ms": 69240
+            },
+            {
+              "word": "nu",
+              "start_ms": 70240,
+              "end_ms": 70660
+            },
+            {
+              "word": "știe",
+              "start_ms": 70660,
+              "end_ms": 70980
+            },
+            {
+              "word": "încă",
+              "start_ms": 71030,
+              "end_ms": 71330,
+              "estimated": true
+            },
+            {
+              "word": "nimic",
+              "start_ms": 71380,
+              "end_ms": 71680,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "și eu stau aici cu un înger",
-          "start_ms": 47560,
-          "end_ms": 49720
+          "start_ms": 70980,
+          "end_ms": 78170,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 70980,
+              "end_ms": 71280,
+              "estimated": true
+            },
+            {
+              "word": "eu",
+              "start_ms": 69240,
+              "end_ms": 70240
+            },
+            {
+              "word": "stau",
+              "start_ms": 70290,
+              "end_ms": 70590,
+              "estimated": true
+            },
+            {
+              "word": "aici",
+              "start_ms": 70640,
+              "end_ms": 70940,
+              "estimated": true
+            },
+            {
+              "word": "cu",
+              "start_ms": 70990,
+              "end_ms": 71290,
+              "estimated": true
+            },
+            {
+              "word": "un",
+              "start_ms": 77240,
+              "end_ms": 77820
+            },
+            {
+              "word": "înger",
+              "start_ms": 77870,
+              "end_ms": 78170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "care-mi cere totul — și eu",
-          "start_ms": 49720,
-          "end_ms": 51800
+          "start_ms": 77820,
+          "end_ms": 79920,
+          "words": [
+            {
+              "word": "care-mi",
+              "start_ms": 77820,
+              "end_ms": 78120,
+              "estimated": true
+            },
+            {
+              "word": "cere",
+              "start_ms": 78170,
+              "end_ms": 78470,
+              "estimated": true
+            },
+            {
+              "word": "totul",
+              "start_ms": 78520,
+              "end_ms": 78820,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 78870,
+              "end_ms": 79170,
+              "estimated": true
+            },
+            {
+              "word": "și",
+              "start_ms": 79220,
+              "end_ms": 79520,
+              "estimated": true
+            },
+            {
+              "word": "eu",
+              "start_ms": 79480,
+              "end_ms": 79920
+            }
+          ]
         }
-      ],
-      "start_ms": 43400,
-      "end_ms": 51800
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 79920,
+      "end_ms": 132690,
       "lines": [
         {
           "text": "Nu te teme, Maria",
-          "start_ms": 54800,
-          "end_ms": 56800
+          "start_ms": 79920,
+          "end_ms": 87300,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 79920,
+              "end_ms": 80220,
+              "estimated": true
+            },
+            {
+              "word": "te",
+              "start_ms": 79480,
+              "end_ms": 79920
+            },
+            {
+              "word": "teme,",
+              "start_ms": 80380,
+              "end_ms": 81060
+            },
+            {
+              "word": "Maria",
+              "start_ms": 87060,
+              "end_ms": 87300
+            }
+          ]
         },
         {
           "text": "dar cine n-ar tremura?",
-          "start_ms": 56800,
-          "end_ms": 58800
+          "start_ms": 89960,
+          "end_ms": 99820,
+          "words": [
+            {
+              "word": "dar",
+              "start_ms": 89960,
+              "end_ms": 90340
+            },
+            {
+              "word": "cine",
+              "start_ms": 97480,
+              "end_ms": 99120
+            },
+            {
+              "word": "n-ar",
+              "start_ms": 99170,
+              "end_ms": 99470,
+              "estimated": true
+            },
+            {
+              "word": "tremura?",
+              "start_ms": 99520,
+              "end_ms": 99820,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "un da în gura mea",
-          "start_ms": 58800,
-          "end_ms": 60800
+          "start_ms": 115700,
+          "end_ms": 121970,
+          "words": [
+            {
+              "word": "un",
+              "start_ms": 115700,
+              "end_ms": 116340
+            },
+            {
+              "word": "da",
+              "start_ms": 116480,
+              "end_ms": 116720
+            },
+            {
+              "word": "în",
+              "start_ms": 116770,
+              "end_ms": 117070,
+              "estimated": true
+            },
+            {
+              "word": "gura",
+              "start_ms": 120180,
+              "end_ms": 121620
+            },
+            {
+              "word": "mea",
+              "start_ms": 121670,
+              "end_ms": 121970,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "e un cutremur în viața mea",
-          "start_ms": 60800,
-          "end_ms": 62880
+          "start_ms": 123580,
+          "end_ms": 132690,
+          "words": [
+            {
+              "word": "e",
+              "start_ms": 123580,
+              "end_ms": 123860
+            },
+            {
+              "word": "un",
+              "start_ms": 125620,
+              "end_ms": 126280
+            },
+            {
+              "word": "cutremur",
+              "start_ms": 131340,
+              "end_ms": 131640
+            },
+            {
+              "word": "în",
+              "start_ms": 131690,
+              "end_ms": 131990,
+              "estimated": true
+            },
+            {
+              "word": "viața",
+              "start_ms": 132040,
+              "end_ms": 132340,
+              "estimated": true
+            },
+            {
+              "word": "mea",
+              "start_ms": 132390,
+              "end_ms": 132690,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 54800,
-      "end_ms": 62880
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 131120,
+      "end_ms": 144240,
       "lines": [
         {
           "text": "Fie",
-          "start_ms": 65880,
-          "end_ms": 67880
+          "start_ms": 131120,
+          "end_ms": 131340,
+          "words": [
+            {
+              "word": "Fie",
+              "start_ms": 131120,
+              "end_ms": 131340
+            }
+          ]
         },
         {
           "text": "fie cum ai spus",
-          "start_ms": 67880,
-          "end_ms": 69880
+          "start_ms": 131120,
+          "end_ms": 132480,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 131120,
+              "end_ms": 131340
+            },
+            {
+              "word": "cum",
+              "start_ms": 131340,
+              "end_ms": 131640
+            },
+            {
+              "word": "ai",
+              "start_ms": 131640,
+              "end_ms": 131940
+            },
+            {
+              "word": "spus",
+              "start_ms": 131940,
+              "end_ms": 132480
+            }
+          ]
         },
         {
           "text": "fie — chiar dacă mă costă totul",
-          "start_ms": 69880,
-          "end_ms": 72360
+          "start_ms": 132760,
+          "end_ms": 135560,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 132760,
+              "end_ms": 133880
+            },
+            {
+              "word": "—",
+              "start_ms": 133930,
+              "end_ms": 134230,
+              "estimated": true
+            },
+            {
+              "word": "chiar",
+              "start_ms": 134280,
+              "end_ms": 134580,
+              "estimated": true
+            },
+            {
+              "word": "dacă",
+              "start_ms": 134630,
+              "end_ms": 134930,
+              "estimated": true
+            },
+            {
+              "word": "mă",
+              "start_ms": 134980,
+              "end_ms": 135280,
+              "estimated": true
+            },
+            {
+              "word": "costă",
+              "start_ms": 135330,
+              "end_ms": 135630,
+              "estimated": true
+            },
+            {
+              "word": "totul",
+              "start_ms": 135180,
+              "end_ms": 135560
+            }
+          ]
         },
         {
           "text": "fie — chiar dacă nimeni nu-nțelege",
-          "start_ms": 72360,
-          "end_ms": 75080
+          "start_ms": 143280,
+          "end_ms": 145990,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 143280,
+              "end_ms": 144240
+            },
+            {
+              "word": "—",
+              "start_ms": 144290,
+              "end_ms": 144590,
+              "estimated": true
+            },
+            {
+              "word": "chiar",
+              "start_ms": 144640,
+              "end_ms": 144940,
+              "estimated": true
+            },
+            {
+              "word": "dacă",
+              "start_ms": 144990,
+              "end_ms": 145290,
+              "estimated": true
+            },
+            {
+              "word": "nimeni",
+              "start_ms": 145340,
+              "end_ms": 145640,
+              "estimated": true
+            },
+            {
+              "word": "nu-nțelege",
+              "start_ms": 145690,
+              "end_ms": 145990,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "fie",
-          "start_ms": 75080,
-          "end_ms": 77080
+          "start_ms": 143280,
+          "end_ms": 144240,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 143280,
+              "end_ms": 144240
+            }
+          ]
         }
-      ],
-      "start_ms": 65880,
-      "end_ms": 77080
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Building",
+      "label": "Bridge",
+      "start_ms": 144880,
+      "end_ms": 148290,
       "lines": [
         {
           "text": "Nu spun da din resemnare",
-          "start_ms": 80080,
-          "end_ms": 82080
+          "start_ms": 144880,
+          "end_ms": 147940,
+          "words": [
+            {
+              "word": "Nu",
+              "start_ms": 144880,
+              "end_ms": 145180,
+              "estimated": true
+            },
+            {
+              "word": "spun",
+              "start_ms": 145230,
+              "end_ms": 145530,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 146860,
+              "end_ms": 147240
+            },
+            {
+              "word": "din",
+              "start_ms": 147290,
+              "end_ms": 147590,
+              "estimated": true
+            },
+            {
+              "word": "resemnare",
+              "start_ms": 147640,
+              "end_ms": 147940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "spun da din curaj",
-          "start_ms": 82080,
-          "end_ms": 84080
+          "start_ms": 147240,
+          "end_ms": 147940,
+          "words": [
+            {
+              "word": "spun",
+              "start_ms": 147240,
+              "end_ms": 147540,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 146860,
+              "end_ms": 147240
+            },
+            {
+              "word": "din",
+              "start_ms": 147290,
+              "end_ms": 147590,
+              "estimated": true
+            },
+            {
+              "word": "curaj",
+              "start_ms": 147640,
+              "end_ms": 147940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "pentru că știu ce-mi ceri",
-          "start_ms": 84080,
-          "end_ms": 86080
+          "start_ms": 147240,
+          "end_ms": 148940,
+          "words": [
+            {
+              "word": "pentru",
+              "start_ms": 147240,
+              "end_ms": 147540,
+              "estimated": true
+            },
+            {
+              "word": "că",
+              "start_ms": 147590,
+              "end_ms": 147890,
+              "estimated": true
+            },
+            {
+              "word": "știu",
+              "start_ms": 147940,
+              "end_ms": 148240,
+              "estimated": true
+            },
+            {
+              "word": "ce-mi",
+              "start_ms": 148290,
+              "end_ms": 148590,
+              "estimated": true
+            },
+            {
+              "word": "ceri",
+              "start_ms": 148640,
+              "end_ms": 148940,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "și spun da cu ochii deschiși",
-          "start_ms": 86080,
-          "end_ms": 88320
+          "start_ms": 147240,
+          "end_ms": 148290,
+          "words": [
+            {
+              "word": "și",
+              "start_ms": 147240,
+              "end_ms": 147540,
+              "estimated": true
+            },
+            {
+              "word": "spun",
+              "start_ms": 147590,
+              "end_ms": 147890,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 146860,
+              "end_ms": 147240
+            },
+            {
+              "word": "cu",
+              "start_ms": 147290,
+              "end_ms": 147590,
+              "estimated": true
+            },
+            {
+              "word": "ochii",
+              "start_ms": 147640,
+              "end_ms": 147940,
+              "estimated": true
+            },
+            {
+              "word": "deschiși",
+              "start_ms": 147990,
+              "end_ms": 148290,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 80080,
-      "end_ms": 88320
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 147240,
+      "end_ms": 144240,
       "lines": [
         {
           "text": "FIE!",
-          "start_ms": 91320,
-          "end_ms": 93320
+          "start_ms": 147240,
+          "end_ms": 147540,
+          "words": [
+            {
+              "word": "FIE!",
+              "start_ms": 147240,
+              "end_ms": 147540,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "fie cum ai spus!",
-          "start_ms": 93320,
-          "end_ms": 95320
+          "start_ms": 147240,
+          "end_ms": 147590,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 147240,
+              "end_ms": 147540,
+              "estimated": true
+            },
+            {
+              "word": "cum",
+              "start_ms": 147590,
+              "end_ms": 147890,
+              "estimated": true
+            },
+            {
+              "word": "ai",
+              "start_ms": 146860,
+              "end_ms": 147240
+            },
+            {
+              "word": "spus!",
+              "start_ms": 147290,
+              "end_ms": 147590,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "fie — și-mi asum tot ce vine",
-          "start_ms": 95320,
-          "end_ms": 97560
+          "start_ms": 147240,
+          "end_ms": 146860,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 147240,
+              "end_ms": 147540,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 147590,
+              "end_ms": 147890,
+              "estimated": true
+            },
+            {
+              "word": "și-mi",
+              "start_ms": 147940,
+              "end_ms": 148240,
+              "estimated": true
+            },
+            {
+              "word": "asum",
+              "start_ms": 148290,
+              "end_ms": 148590,
+              "estimated": true
+            },
+            {
+              "word": "tot",
+              "start_ms": 148640,
+              "end_ms": 148940,
+              "estimated": true
+            },
+            {
+              "word": "ce",
+              "start_ms": 148990,
+              "end_ms": 149290,
+              "estimated": true
+            },
+            {
+              "word": "vine",
+              "start_ms": 146000,
+              "end_ms": 146860
+            }
+          ]
         },
         {
           "text": "fie — și nu mă mai întorc",
-          "start_ms": 97560,
-          "end_ms": 99560
+          "start_ms": 143280,
+          "end_ms": 139880,
+          "words": [
+            {
+              "word": "fie",
+              "start_ms": 143280,
+              "end_ms": 144240
+            },
+            {
+              "word": "—",
+              "start_ms": 144290,
+              "end_ms": 144590,
+              "estimated": true
+            },
+            {
+              "word": "și",
+              "start_ms": 144640,
+              "end_ms": 144940,
+              "estimated": true
+            },
+            {
+              "word": "nu",
+              "start_ms": 144990,
+              "end_ms": 145290,
+              "estimated": true
+            },
+            {
+              "word": "mă",
+              "start_ms": 145340,
+              "end_ms": 145640,
+              "estimated": true
+            },
+            {
+              "word": "mai",
+              "start_ms": 138660,
+              "end_ms": 139100
+            },
+            {
+              "word": "întorc",
+              "start_ms": 139100,
+              "end_ms": 139880
+            }
+          ]
         },
         {
           "text": "fie!",
-          "start_ms": 99560,
-          "end_ms": 101560
+          "start_ms": 143280,
+          "end_ms": 144240,
+          "words": [
+            {
+              "word": "fie!",
+              "start_ms": 143280,
+              "end_ms": 144240
+            }
+          ]
         }
-      ],
-      "start_ms": 91320,
-      "end_ms": 101560
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Whispered",
+      "label": "Outro",
+      "start_ms": 144880,
+      "end_ms": 148060,
       "lines": [
         {
           "text": "...și îngerul a plecat",
-          "start_ms": 104560,
-          "end_ms": 106560
+          "start_ms": 144880,
+          "end_ms": 148060,
+          "words": [
+            {
+              "word": "...și",
+              "start_ms": 144880,
+              "end_ms": 145180,
+              "estimated": true
+            },
+            {
+              "word": "îngerul",
+              "start_ms": 146000,
+              "end_ms": 146860
+            },
+            {
+              "word": "a",
+              "start_ms": 146860,
+              "end_ms": 147240
+            },
+            {
+              "word": "plecat",
+              "start_ms": 147240,
+              "end_ms": 148060
+            }
+          ]
         }
-      ],
-      "start_ms": 104560,
-      "end_ms": 106560
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Nu te teme, Maria",
+      "section_type": "chorus",
+      "start_ms": 25500,
+      "end_ms": 39480,
+      "key_line": "Nu te teme, Maria",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Fie",
+      "section_type": "chorus",
+      "start_ms": 41820,
+      "end_ms": 62180,
+      "key_line": "Fie",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Nu te teme, Maria",
+      "section_type": "chorus",
+      "start_ms": 79920,
+      "end_ms": 132690,
+      "key_line": "Nu te teme, Maria",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Fie",
+      "section_type": "chorus",
+      "start_ms": 131120,
+      "end_ms": 144240,
+      "key_line": "Fie",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 144880,
+      "end_ms": 148290,
+      "key_line": "Nu spun da din resemnare",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - FIE!",
+      "section_type": "chorus",
+      "start_ms": 147240,
+      "end_ms": 144240,
+      "key_line": "FIE!",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/romanian/42_luke_01_1-26_transcript.json"
 }

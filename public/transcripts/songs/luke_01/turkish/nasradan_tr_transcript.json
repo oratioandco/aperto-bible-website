@@ -7,205 +7,1079 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 126720,
   "audio_file": "/audio/songs/luke_01/turkish/Nasıra'dan (Luke 1_46-56) — Turkish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.403512+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.077679+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.905,
   "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 9900,
+      "end_ms": 23420,
+      "lines": [
+        {
+          "text": "Onlar tapınakta konuşuyor",
+          "start_ms": 9900,
+          "end_ms": 13640,
+          "words": [
+            {
+              "word": "Onlar",
+              "start_ms": 9900,
+              "end_ms": 11300
+            },
+            {
+              "word": "tapınakta",
+              "start_ms": 11300,
+              "end_ms": 12200
+            },
+            {
+              "word": "konuşuyor",
+              "start_ms": 12200,
+              "end_ms": 13640
+            }
+          ]
+        },
+        {
+          "text": "Ben burada konuşuyorum",
+          "start_ms": 13640,
+          "end_ms": 17200,
+          "words": [
+            {
+              "word": "Ben",
+              "start_ms": 13640,
+              "end_ms": 14680
+            },
+            {
+              "word": "burada",
+              "start_ms": 14680,
+              "end_ms": 15580
+            },
+            {
+              "word": "konuşuyorum",
+              "start_ms": 15580,
+              "end_ms": 17200
+            }
+          ]
+        },
+        {
+          "text": "Onlar güç dağıtıyor",
+          "start_ms": 17200,
+          "end_ms": 20200,
+          "words": [
+            {
+              "word": "Onlar",
+              "start_ms": 17200,
+              "end_ms": 18680
+            },
+            {
+              "word": "güç",
+              "start_ms": 18680,
+              "end_ms": 19140
+            },
+            {
+              "word": "dağıtıyor",
+              "start_ms": 19140,
+              "end_ms": 20200
+            }
+          ]
+        },
+        {
+          "text": "Ben sayıyorum: kime gidiyor?",
+          "start_ms": 20200,
+          "end_ms": 23420,
+          "words": [
+            {
+              "word": "Ben",
+              "start_ms": 20200,
+              "end_ms": 20840
+            },
+            {
+              "word": "sayıyorum:",
+              "start_ms": 20840,
+              "end_ms": 22120
+            },
+            {
+              "word": "kime",
+              "start_ms": 22120,
+              "end_ms": 22600
+            },
+            {
+              "word": "gidiyor?",
+              "start_ms": 22600,
+              "end_ms": 23420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 23420,
+      "end_ms": 36940,
+      "lines": [
+        {
+          "text": "Baktım — hep aynı ellerde",
+          "start_ms": 23420,
+          "end_ms": 26300,
+          "words": [
+            {
+              "word": "Baktım",
+              "start_ms": 23420,
+              "end_ms": 24380
+            },
+            {
+              "word": "—",
+              "start_ms": 24430,
+              "end_ms": 24730,
+              "estimated": true
+            },
+            {
+              "word": "hep",
+              "start_ms": 24380,
+              "end_ms": 24660
+            },
+            {
+              "word": "aynı",
+              "start_ms": 24660,
+              "end_ms": 25220
+            },
+            {
+              "word": "ellerde",
+              "start_ms": 25220,
+              "end_ms": 26300
+            }
+          ]
+        },
+        {
+          "text": "Baktım — hep aynı masada",
+          "start_ms": 26300,
+          "end_ms": 30060,
+          "words": [
+            {
+              "word": "Baktım",
+              "start_ms": 26300,
+              "end_ms": 27980
+            },
+            {
+              "word": "—",
+              "start_ms": 28030,
+              "end_ms": 28330,
+              "estimated": true
+            },
+            {
+              "word": "hep",
+              "start_ms": 27980,
+              "end_ms": 28200
+            },
+            {
+              "word": "aynı",
+              "start_ms": 28200,
+              "end_ms": 28680
+            },
+            {
+              "word": "masada",
+              "start_ms": 28680,
+              "end_ms": 30060
+            }
+          ]
+        },
+        {
+          "text": "Ve içimden bir şey dedi:",
+          "start_ms": 30060,
+          "end_ms": 33500,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 30060,
+              "end_ms": 30900
+            },
+            {
+              "word": "içimden",
+              "start_ms": 30900,
+              "end_ms": 31740
+            },
+            {
+              "word": "bir",
+              "start_ms": 31740,
+              "end_ms": 32259
+            },
+            {
+              "word": "şey",
+              "start_ms": 32259,
+              "end_ms": 32600
+            },
+            {
+              "word": "dedi:",
+              "start_ms": 32600,
+              "end_ms": 33500
+            }
+          ]
+        },
+        {
+          "text": "Bu böyle kalmayacak",
+          "start_ms": 33500,
+          "end_ms": 36940,
+          "words": [
+            {
+              "word": "Bu",
+              "start_ms": 33500,
+              "end_ms": 34780
+            },
+            {
+              "word": "böyle",
+              "start_ms": 34780,
+              "end_ms": 35420
+            },
+            {
+              "word": "kalmayacak",
+              "start_ms": 35420,
+              "end_ms": 36940
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 36940,
+      "end_ms": 52490,
       "lines": [
         {
           "text": "Alt üst oldu her şey",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 36940,
+          "end_ms": 39980,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 36940,
+              "end_ms": 37680
+            },
+            {
+              "word": "üst",
+              "start_ms": 37680,
+              "end_ms": 37940
+            },
+            {
+              "word": "oldu",
+              "start_ms": 37940,
+              "end_ms": 38220
+            },
+            {
+              "word": "her",
+              "start_ms": 38220,
+              "end_ms": 38760
+            },
+            {
+              "word": "şey",
+              "start_ms": 38760,
+              "end_ms": 39980
+            }
+          ]
         },
         {
           "text": "Tahtlarından indi güçlüler",
-          "start_ms": 8000,
-          "end_ms": 10080
+          "start_ms": 39980,
+          "end_ms": 43440,
+          "words": [
+            {
+              "word": "Tahtlarından",
+              "start_ms": 39980,
+              "end_ms": 41280
+            },
+            {
+              "word": "indi",
+              "start_ms": 41280,
+              "end_ms": 41740
+            },
+            {
+              "word": "güçlüler",
+              "start_ms": 41740,
+              "end_ms": 43440
+            }
+          ]
         },
         {
           "text": "Açlar sofraya oturdu",
-          "start_ms": 10080,
-          "end_ms": 12080
+          "start_ms": 43440,
+          "end_ms": 46260,
+          "words": [
+            {
+              "word": "Açlar",
+              "start_ms": 43440,
+              "end_ms": 44340
+            },
+            {
+              "word": "sofraya",
+              "start_ms": 44340,
+              "end_ms": 45440
+            },
+            {
+              "word": "oturdu",
+              "start_ms": 45440,
+              "end_ms": 46260
+            }
+          ]
         },
         {
           "text": "Toklar boş döndü",
-          "start_ms": 12080,
-          "end_ms": 14080
+          "start_ms": 46620,
+          "end_ms": 49100,
+          "words": [
+            {
+              "word": "Toklar",
+              "start_ms": 46620,
+              "end_ms": 47800
+            },
+            {
+              "word": "boş",
+              "start_ms": 47800,
+              "end_ms": 48260
+            },
+            {
+              "word": "döndü",
+              "start_ms": 48260,
+              "end_ms": 49100
+            }
+          ]
         },
         {
           "text": "Alt üst — alt üst — alt üst oldu",
-          "start_ms": 14080,
-          "end_ms": 16640
+          "start_ms": 49100,
+          "end_ms": 52490,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 49100,
+              "end_ms": 49420
+            },
+            {
+              "word": "üst",
+              "start_ms": 49420,
+              "end_ms": 52140
+            },
+            {
+              "word": "—",
+              "start_ms": 52190,
+              "end_ms": 52490,
+              "estimated": true
+            },
+            {
+              "word": "alt",
+              "start_ms": 49100,
+              "end_ms": 49420
+            },
+            {
+              "word": "üst",
+              "start_ms": 49420,
+              "end_ms": 52140
+            },
+            {
+              "word": "—",
+              "start_ms": 52190,
+              "end_ms": 52490,
+              "estimated": true
+            },
+            {
+              "word": "alt",
+              "start_ms": 49100,
+              "end_ms": 49420
+            },
+            {
+              "word": "üst",
+              "start_ms": 49420,
+              "end_ms": 52140
+            },
+            {
+              "word": "oldu",
+              "start_ms": 52190,
+              "end_ms": 52490,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16640
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 58360,
+      "end_ms": 66020,
       "lines": [
         {
           "text": "On altı yaşındayım belki",
-          "start_ms": 19640,
-          "end_ms": 21640
+          "start_ms": 58360,
+          "end_ms": 60800,
+          "words": [
+            {
+              "word": "On",
+              "start_ms": 58360,
+              "end_ms": 58660,
+              "estimated": true
+            },
+            {
+              "word": "altı",
+              "start_ms": 49100,
+              "end_ms": 49420
+            },
+            {
+              "word": "yaşındayım",
+              "start_ms": 59500,
+              "end_ms": 60360
+            },
+            {
+              "word": "belki",
+              "start_ms": 60360,
+              "end_ms": 60800
+            }
+          ]
         },
         {
           "text": "Belki on beş — kayıt yok",
-          "start_ms": 21640,
-          "end_ms": 23640
+          "start_ms": 60360,
+          "end_ms": 62400,
+          "words": [
+            {
+              "word": "Belki",
+              "start_ms": 60360,
+              "end_ms": 60800
+            },
+            {
+              "word": "on",
+              "start_ms": 60850,
+              "end_ms": 61150,
+              "estimated": true
+            },
+            {
+              "word": "beş",
+              "start_ms": 61200,
+              "end_ms": 61500,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 61550,
+              "end_ms": 61850,
+              "estimated": true
+            },
+            {
+              "word": "kayıt",
+              "start_ms": 61640,
+              "end_ms": 62200
+            },
+            {
+              "word": "yok",
+              "start_ms": 62200,
+              "end_ms": 62400
+            }
+          ]
         },
         {
           "text": "Ama gördüklerimi biliyorum",
-          "start_ms": 23640,
-          "end_ms": 25720
+          "start_ms": 62400,
+          "end_ms": 64019,
+          "words": [
+            {
+              "word": "Ama",
+              "start_ms": 62400,
+              "end_ms": 62600
+            },
+            {
+              "word": "gördüklerimi",
+              "start_ms": 62600,
+              "end_ms": 63440
+            },
+            {
+              "word": "biliyorum",
+              "start_ms": 63440,
+              "end_ms": 64019
+            }
+          ]
         },
         {
           "text": "Ve gördüklerim yalan değil",
-          "start_ms": 25720,
-          "end_ms": 27800
+          "start_ms": 64019,
+          "end_ms": 66020,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 64019,
+              "end_ms": 64300
+            },
+            {
+              "word": "gördüklerim",
+              "start_ms": 64300,
+              "end_ms": 65200
+            },
+            {
+              "word": "yalan",
+              "start_ms": 65200,
+              "end_ms": 65680
+            },
+            {
+              "word": "değil",
+              "start_ms": 65680,
+              "end_ms": 66020
+            }
+          ]
         }
-      ],
-      "start_ms": 19640,
-      "end_ms": 27800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 66020,
+      "end_ms": 79330,
       "lines": [
         {
           "text": "Alt üst oldu her şey",
-          "start_ms": 30800,
-          "end_ms": 32800
+          "start_ms": 66020,
+          "end_ms": 68660,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 66020,
+              "end_ms": 66640
+            },
+            {
+              "word": "üst",
+              "start_ms": 66640,
+              "end_ms": 67180
+            },
+            {
+              "word": "oldu",
+              "start_ms": 67180,
+              "end_ms": 67720
+            },
+            {
+              "word": "her",
+              "start_ms": 67720,
+              "end_ms": 68360
+            },
+            {
+              "word": "şey",
+              "start_ms": 68360,
+              "end_ms": 68660
+            }
+          ]
         },
         {
           "text": "Tahtlarından indi güçlüler",
-          "start_ms": 32800,
-          "end_ms": 34880
+          "start_ms": 68660,
+          "end_ms": 72180,
+          "words": [
+            {
+              "word": "Tahtlarından",
+              "start_ms": 68660,
+              "end_ms": 70800
+            },
+            {
+              "word": "indi",
+              "start_ms": 70800,
+              "end_ms": 71300
+            },
+            {
+              "word": "güçlüler",
+              "start_ms": 71300,
+              "end_ms": 72180
+            }
+          ]
         },
         {
           "text": "Açlar sofraya oturdu",
-          "start_ms": 34880,
-          "end_ms": 36880
+          "start_ms": 72180,
+          "end_ms": 74760,
+          "words": [
+            {
+              "word": "Açlar",
+              "start_ms": 72180,
+              "end_ms": 73000
+            },
+            {
+              "word": "sofraya",
+              "start_ms": 73000,
+              "end_ms": 74100
+            },
+            {
+              "word": "oturdu",
+              "start_ms": 74100,
+              "end_ms": 74760
+            }
+          ]
         },
         {
           "text": "Toklar boş döndü",
-          "start_ms": 36880,
-          "end_ms": 38880
+          "start_ms": 74760,
+          "end_ms": 76900,
+          "words": [
+            {
+              "word": "Toklar",
+              "start_ms": 74760,
+              "end_ms": 75620
+            },
+            {
+              "word": "boş",
+              "start_ms": 75620,
+              "end_ms": 76060
+            },
+            {
+              "word": "döndü",
+              "start_ms": 76060,
+              "end_ms": 76900
+            }
+          ]
         },
         {
           "text": "Alt üst — alt üst — alt üst oldu",
-          "start_ms": 38880,
-          "end_ms": 41440
+          "start_ms": 76900,
+          "end_ms": 79330,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 76900,
+              "end_ms": 77180
+            },
+            {
+              "word": "üst",
+              "start_ms": 77180,
+              "end_ms": 78980
+            },
+            {
+              "word": "—",
+              "start_ms": 79030,
+              "end_ms": 79330,
+              "estimated": true
+            },
+            {
+              "word": "alt",
+              "start_ms": 76900,
+              "end_ms": 77180
+            },
+            {
+              "word": "üst",
+              "start_ms": 77180,
+              "end_ms": 78980
+            },
+            {
+              "word": "—",
+              "start_ms": 79030,
+              "end_ms": 79330,
+              "estimated": true
+            },
+            {
+              "word": "alt",
+              "start_ms": 76900,
+              "end_ms": 77180
+            },
+            {
+              "word": "üst",
+              "start_ms": 77180,
+              "end_ms": 78980
+            },
+            {
+              "word": "oldu",
+              "start_ms": 79030,
+              "end_ms": 79330,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 30800,
-      "end_ms": 41440
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 79780,
+      "end_ms": 93000,
       "lines": [
         {
           "text": "Herkes diyor \"bir gün\"",
-          "start_ms": 44440,
-          "end_ms": 46440
+          "start_ms": 79780,
+          "end_ms": 81440,
+          "words": [
+            {
+              "word": "Herkes",
+              "start_ms": 79780,
+              "end_ms": 80540
+            },
+            {
+              "word": "diyor",
+              "start_ms": 80540,
+              "end_ms": 80800
+            },
+            {
+              "word": "\"bir",
+              "start_ms": 80800,
+              "end_ms": 81180
+            },
+            {
+              "word": "gün\"",
+              "start_ms": 81180,
+              "end_ms": 81440
+            }
+          ]
         },
         {
           "text": "Ben demiyorum \"bir gün\"",
-          "start_ms": 46440,
-          "end_ms": 48440
+          "start_ms": 81440,
+          "end_ms": 83180,
+          "words": [
+            {
+              "word": "Ben",
+              "start_ms": 81440,
+              "end_ms": 81700
+            },
+            {
+              "word": "demiyorum",
+              "start_ms": 81700,
+              "end_ms": 82540
+            },
+            {
+              "word": "\"bir",
+              "start_ms": 82540,
+              "end_ms": 82900
+            },
+            {
+              "word": "gün\"",
+              "start_ms": 82900,
+              "end_ms": 83180
+            }
+          ]
         },
         {
           "text": "Ben diyorum \"bitti\"",
-          "start_ms": 48440,
-          "end_ms": 50440
+          "start_ms": 83180,
+          "end_ms": 85140,
+          "words": [
+            {
+              "word": "Ben",
+              "start_ms": 83180,
+              "end_ms": 83500
+            },
+            {
+              "word": "diyorum",
+              "start_ms": 83500,
+              "end_ms": 84200
+            },
+            {
+              "word": "\"bitti\"",
+              "start_ms": 84200,
+              "end_ms": 85140
+            }
+          ]
         },
         {
           "text": "Çoktan bitti",
-          "start_ms": 50440,
-          "end_ms": 52440
+          "start_ms": 85140,
+          "end_ms": 85140,
+          "words": [
+            {
+              "word": "Çoktan",
+              "start_ms": 85140,
+              "end_ms": 86000
+            },
+            {
+              "word": "bitti",
+              "start_ms": 84200,
+              "end_ms": 85140
+            }
+          ]
         },
         {
           "text": "Siz hâlâ bekliyorsunuz",
-          "start_ms": 52440,
-          "end_ms": 54440
+          "start_ms": 86680,
+          "end_ms": 90580,
+          "words": [
+            {
+              "word": "Siz",
+              "start_ms": 86680,
+              "end_ms": 87040
+            },
+            {
+              "word": "hâlâ",
+              "start_ms": 87040,
+              "end_ms": 88040
+            },
+            {
+              "word": "bekliyorsunuz",
+              "start_ms": 88040,
+              "end_ms": 90580
+            }
+          ]
         },
         {
           "text": "Ben çoktan gördüm",
-          "start_ms": 54440,
-          "end_ms": 56440
+          "start_ms": 90580,
+          "end_ms": 93000,
+          "words": [
+            {
+              "word": "Ben",
+              "start_ms": 90580,
+              "end_ms": 91220
+            },
+            {
+              "word": "çoktan",
+              "start_ms": 91220,
+              "end_ms": 92140
+            },
+            {
+              "word": "gördüm",
+              "start_ms": 92140,
+              "end_ms": 93000
+            }
+          ]
         }
-      ],
-      "start_ms": 44440,
-      "end_ms": 56440
+      ]
     },
     {
       "type": "chorus",
       "label": "Final Chorus",
+      "start_ms": 93000,
+      "end_ms": 111660,
       "lines": [
         {
           "text": "Alt üst oldu",
-          "start_ms": 59440,
-          "end_ms": 61440
+          "start_ms": 93000,
+          "end_ms": 94680,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 93000,
+              "end_ms": 93640
+            },
+            {
+              "word": "üst",
+              "start_ms": 93640,
+              "end_ms": 94080
+            },
+            {
+              "word": "oldu",
+              "start_ms": 94080,
+              "end_ms": 94680
+            }
+          ]
         },
         {
           "text": "Ve kimse geri koyamaz",
-          "start_ms": 61440,
-          "end_ms": 63440
+          "start_ms": 94680,
+          "end_ms": 97860,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 94680,
+              "end_ms": 96040
+            },
+            {
+              "word": "kimse",
+              "start_ms": 96040,
+              "end_ms": 96420
+            },
+            {
+              "word": "geri",
+              "start_ms": 96420,
+              "end_ms": 96940
+            },
+            {
+              "word": "koyamaz",
+              "start_ms": 96940,
+              "end_ms": 97860
+            }
+          ]
         },
         {
           "text": "Alt üst oldu",
-          "start_ms": 63440,
-          "end_ms": 65440
+          "start_ms": 99780,
+          "end_ms": 102060,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 99780,
+              "end_ms": 100520
+            },
+            {
+              "word": "üst",
+              "start_ms": 100520,
+              "end_ms": 101040
+            },
+            {
+              "word": "oldu",
+              "start_ms": 101040,
+              "end_ms": 102060
+            }
+          ]
         },
         {
           "text": "Ve ben bunu bir köyden söylüyorum",
-          "start_ms": 65440,
-          "end_ms": 68080
+          "start_ms": 102060,
+          "end_ms": 107460,
+          "words": [
+            {
+              "word": "Ve",
+              "start_ms": 102060,
+              "end_ms": 103020
+            },
+            {
+              "word": "ben",
+              "start_ms": 103020,
+              "end_ms": 103420
+            },
+            {
+              "word": "bunu",
+              "start_ms": 103420,
+              "end_ms": 103860
+            },
+            {
+              "word": "bir",
+              "start_ms": 103860,
+              "end_ms": 104360
+            },
+            {
+              "word": "köyden",
+              "start_ms": 104360,
+              "end_ms": 105160
+            },
+            {
+              "word": "söylüyorum",
+              "start_ms": 105160,
+              "end_ms": 107460
+            }
+          ]
         },
         {
           "text": "Nasıra'dan — haritada bile olmayan yerden",
-          "start_ms": 68080,
-          "end_ms": 71360
+          "start_ms": 107460,
+          "end_ms": 111660,
+          "words": [
+            {
+              "word": "Nasıra'dan",
+              "start_ms": 107460,
+              "end_ms": 108620
+            },
+            {
+              "word": "—",
+              "start_ms": 108670,
+              "end_ms": 108970,
+              "estimated": true
+            },
+            {
+              "word": "haritada",
+              "start_ms": 109000,
+              "end_ms": 109460
+            },
+            {
+              "word": "bile",
+              "start_ms": 109460,
+              "end_ms": 110020
+            },
+            {
+              "word": "olmayan",
+              "start_ms": 110020,
+              "end_ms": 110960
+            },
+            {
+              "word": "yerden",
+              "start_ms": 110960,
+              "end_ms": 111660
+            }
+          ]
         }
-      ],
-      "start_ms": 59440,
-      "end_ms": 71360
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 113420,
+      "end_ms": 114980,
       "lines": [
         {
           "text": "Alt üst",
-          "start_ms": 74360,
-          "end_ms": 76360
+          "start_ms": 113420,
+          "end_ms": 114980,
+          "words": [
+            {
+              "word": "Alt",
+              "start_ms": 113420,
+              "end_ms": 114460
+            },
+            {
+              "word": "üst",
+              "start_ms": 114460,
+              "end_ms": 114980
+            }
+          ]
         }
-      ],
-      "start_ms": 74360,
-      "end_ms": 76360
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 79360,
-          "end_ms": 81360
-        }
-      ],
-      "start_ms": 79360,
-      "end_ms": 81360
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Baktım — hep aynı ellerde",
+      "section_type": "chorus",
+      "start_ms": 23420,
+      "end_ms": 36940,
+      "key_line": "Baktım — hep aynı ellerde",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Alt üst oldu her şey",
+      "section_type": "chorus",
+      "start_ms": 36940,
+      "end_ms": 52490,
+      "key_line": "Alt üst oldu her şey",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Alt üst oldu her şey",
+      "section_type": "chorus",
+      "start_ms": 66020,
+      "end_ms": 79330,
+      "key_line": "Alt üst oldu her şey",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 79780,
+      "end_ms": 93000,
+      "key_line": "Herkes diyor \"bir gün\"",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Alt üst oldu",
+      "section_type": "chorus",
+      "start_ms": 93000,
+      "end_ms": 111660,
+      "key_line": "Alt üst oldu",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/turkish/42_luke_01_1-46_transcript.json"
 }

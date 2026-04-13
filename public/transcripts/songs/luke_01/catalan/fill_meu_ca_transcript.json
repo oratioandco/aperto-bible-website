@@ -7,317 +7,1489 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 232360,
   "audio_file": "/audio/songs/luke_01/catalan/Luke 1_67-79 Catalan.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.707303+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.914559+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.871,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 12859,
+      "end_ms": 36800,
       "lines": [
         {
           "text": "Les tres de la nit i no dormo",
-          "start_ms": 6000,
-          "end_ms": 8320
+          "start_ms": 12859,
+          "end_ms": 17030,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 12859,
+              "end_ms": 13159,
+              "estimated": true
+            },
+            {
+              "word": "tres",
+              "start_ms": 13209,
+              "end_ms": 13509,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 14260,
+              "end_ms": 14700
+            },
+            {
+              "word": "la",
+              "start_ms": 12859,
+              "end_ms": 13920
+            },
+            {
+              "word": "nit",
+              "start_ms": 15080,
+              "end_ms": 15700
+            },
+            {
+              "word": "i",
+              "start_ms": 15700,
+              "end_ms": 16140
+            },
+            {
+              "word": "no",
+              "start_ms": 16140,
+              "end_ms": 16500
+            },
+            {
+              "word": "dormo",
+              "start_ms": 16500,
+              "end_ms": 17030
+            }
+          ]
         },
         {
           "text": "Fa mesos que no dormo",
-          "start_ms": 8320,
-          "end_ms": 10320
+          "start_ms": 19160,
+          "end_ms": 23000,
+          "words": [
+            {
+              "word": "Fa",
+              "start_ms": 19160,
+              "end_ms": 19700
+            },
+            {
+              "word": "mesos",
+              "start_ms": 19700,
+              "end_ms": 20880
+            },
+            {
+              "word": "que",
+              "start_ms": 20880,
+              "end_ms": 21900
+            },
+            {
+              "word": "no",
+              "start_ms": 21900,
+              "end_ms": 22420
+            },
+            {
+              "word": "dormo",
+              "start_ms": 22420,
+              "end_ms": 23000
+            }
+          ]
         },
         {
           "text": "Hi ha una cosa creixent al bressol del costat",
-          "start_ms": 10320,
-          "end_ms": 13920
+          "start_ms": 24680,
+          "end_ms": 29980,
+          "words": [
+            {
+              "word": "Hi",
+              "start_ms": 24680,
+              "end_ms": 25020
+            },
+            {
+              "word": "ha",
+              "start_ms": 25020,
+              "end_ms": 25140
+            },
+            {
+              "word": "una",
+              "start_ms": 25140,
+              "end_ms": 25560
+            },
+            {
+              "word": "cosa",
+              "start_ms": 25560,
+              "end_ms": 26280
+            },
+            {
+              "word": "creixent",
+              "start_ms": 26280,
+              "end_ms": 27480
+            },
+            {
+              "word": "al",
+              "start_ms": 27480,
+              "end_ms": 27800
+            },
+            {
+              "word": "bressol",
+              "start_ms": 27800,
+              "end_ms": 28760
+            },
+            {
+              "word": "del",
+              "start_ms": 28760,
+              "end_ms": 29240
+            },
+            {
+              "word": "costat",
+              "start_ms": 29240,
+              "end_ms": 29980
+            }
+          ]
         },
         {
           "text": "I una altra creixent al meu pit",
-          "start_ms": 13920,
-          "end_ms": 16400
+          "start_ms": 30940,
+          "end_ms": 36800,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 30940,
+              "end_ms": 31780
+            },
+            {
+              "word": "una",
+              "start_ms": 31780,
+              "end_ms": 32020
+            },
+            {
+              "word": "altra",
+              "start_ms": 32020,
+              "end_ms": 32600
+            },
+            {
+              "word": "creixent",
+              "start_ms": 32600,
+              "end_ms": 34180
+            },
+            {
+              "word": "al",
+              "start_ms": 34180,
+              "end_ms": 34800
+            },
+            {
+              "word": "meu",
+              "start_ms": 34800,
+              "end_ms": 35520
+            },
+            {
+              "word": "pit",
+              "start_ms": 35520,
+              "end_ms": 36800
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16400
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 36800,
+      "end_ms": 60660,
       "lines": [
         {
           "text": "Miro la foscor pel balco",
-          "start_ms": 19400,
-          "end_ms": 21400
+          "start_ms": 36800,
+          "end_ms": 43040,
+          "words": [
+            {
+              "word": "Miro",
+              "start_ms": 36800,
+              "end_ms": 38040
+            },
+            {
+              "word": "la",
+              "start_ms": 38040,
+              "end_ms": 38440
+            },
+            {
+              "word": "foscor",
+              "start_ms": 38440,
+              "end_ms": 39500
+            },
+            {
+              "word": "pel",
+              "start_ms": 39500,
+              "end_ms": 39880
+            },
+            {
+              "word": "balco",
+              "start_ms": 39880,
+              "end_ms": 43040
+            }
+          ]
         },
         {
           "text": "Compto les hores que falten",
-          "start_ms": 21400,
-          "end_ms": 23560
+          "start_ms": 43040,
+          "end_ms": 48040,
+          "words": [
+            {
+              "word": "Compto",
+              "start_ms": 43040,
+              "end_ms": 43900
+            },
+            {
+              "word": "les",
+              "start_ms": 43900,
+              "end_ms": 44420
+            },
+            {
+              "word": "hores",
+              "start_ms": 44420,
+              "end_ms": 45260
+            },
+            {
+              "word": "que",
+              "start_ms": 45260,
+              "end_ms": 45900
+            },
+            {
+              "word": "falten",
+              "start_ms": 45900,
+              "end_ms": 48040
+            }
+          ]
         },
         {
           "text": "Cada nit mes llarga que l'anterior",
-          "start_ms": 23560,
-          "end_ms": 26280
+          "start_ms": 48040,
+          "end_ms": 53940,
+          "words": [
+            {
+              "word": "Cada",
+              "start_ms": 48040,
+              "end_ms": 48820
+            },
+            {
+              "word": "nit",
+              "start_ms": 48820,
+              "end_ms": 49320
+            },
+            {
+              "word": "mes",
+              "start_ms": 49320,
+              "end_ms": 50120
+            },
+            {
+              "word": "llarga",
+              "start_ms": 50120,
+              "end_ms": 51160
+            },
+            {
+              "word": "que",
+              "start_ms": 51160,
+              "end_ms": 51560
+            },
+            {
+              "word": "l'anterior",
+              "start_ms": 51940,
+              "end_ms": 53940
+            }
+          ]
         },
         {
           "text": "Cada silenci mes dens",
-          "start_ms": 26280,
-          "end_ms": 28280
+          "start_ms": 54500,
+          "end_ms": 60660,
+          "words": [
+            {
+              "word": "Cada",
+              "start_ms": 54500,
+              "end_ms": 55480
+            },
+            {
+              "word": "silenci",
+              "start_ms": 55480,
+              "end_ms": 57640
+            },
+            {
+              "word": "mes",
+              "start_ms": 57690,
+              "end_ms": 57990,
+              "estimated": true
+            },
+            {
+              "word": "dens",
+              "start_ms": 58700,
+              "end_ms": 60660
+            }
+          ]
         }
-      ],
-      "start_ms": 19400,
-      "end_ms": 28280
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 60660,
+      "end_ms": 72630,
       "lines": [
         {
           "text": "Pero avui noto alguna cosa",
-          "start_ms": 31280,
-          "end_ms": 33360
+          "start_ms": 60660,
+          "end_ms": 64040,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 60660,
+              "end_ms": 61620
+            },
+            {
+              "word": "avui",
+              "start_ms": 61620,
+              "end_ms": 62180
+            },
+            {
+              "word": "noto",
+              "start_ms": 62180,
+              "end_ms": 62840
+            },
+            {
+              "word": "alguna",
+              "start_ms": 62840,
+              "end_ms": 63460
+            },
+            {
+              "word": "cosa",
+              "start_ms": 63460,
+              "end_ms": 64040
+            }
+          ]
         },
         {
           "text": "Un canvi a l'aire",
-          "start_ms": 33360,
-          "end_ms": 35360
+          "start_ms": 64040,
+          "end_ms": 72630,
+          "words": [
+            {
+              "word": "Un",
+              "start_ms": 64040,
+              "end_ms": 64340,
+              "estimated": true
+            },
+            {
+              "word": "canvi",
+              "start_ms": 64480,
+              "end_ms": 64879
+            },
+            {
+              "word": "a",
+              "start_ms": 71940,
+              "end_ms": 72280
+            },
+            {
+              "word": "l'aire",
+              "start_ms": 72330,
+              "end_ms": 72630,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 31280,
-      "end_ms": 35360
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 77960,
+      "end_ms": 90340,
       "lines": [
         {
           "text": "Fill meu",
-          "start_ms": 38360,
-          "end_ms": 40360
+          "start_ms": 77960,
+          "end_ms": 78840,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 77960,
+              "end_ms": 78840
+            },
+            {
+              "word": "meu",
+              "start_ms": 77960,
+              "end_ms": 78840
+            }
+          ]
         },
         {
           "text": "He passat la nit sencera vetllant",
-          "start_ms": 40360,
-          "end_ms": 43000
+          "start_ms": 80620,
+          "end_ms": 82140,
+          "words": [
+            {
+              "word": "He",
+              "start_ms": 80620,
+              "end_ms": 80740
+            },
+            {
+              "word": "passat",
+              "start_ms": 80790,
+              "end_ms": 81090,
+              "estimated": true
+            },
+            {
+              "word": "la",
+              "start_ms": 81440,
+              "end_ms": 82240
+            },
+            {
+              "word": "nit",
+              "start_ms": 80740,
+              "end_ms": 81440
+            },
+            {
+              "word": "sencera",
+              "start_ms": 81490,
+              "end_ms": 81790,
+              "estimated": true
+            },
+            {
+              "word": "vetllant",
+              "start_ms": 81840,
+              "end_ms": 82140,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Fill meu",
-          "start_ms": 43000,
-          "end_ms": 45000
+          "start_ms": 81440,
+          "end_ms": 82090,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 81440,
+              "end_ms": 81740,
+              "estimated": true
+            },
+            {
+              "word": "meu",
+              "start_ms": 81790,
+              "end_ms": 82090,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "I encara no he vist la llum",
-          "start_ms": 45000,
-          "end_ms": 47160
+          "start_ms": 81440,
+          "end_ms": 84280,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 81440,
+              "end_ms": 81740,
+              "estimated": true
+            },
+            {
+              "word": "encara",
+              "start_ms": 81790,
+              "end_ms": 82090,
+              "estimated": true
+            },
+            {
+              "word": "no",
+              "start_ms": 80260,
+              "end_ms": 80620
+            },
+            {
+              "word": "he",
+              "start_ms": 80620,
+              "end_ms": 80740
+            },
+            {
+              "word": "vist",
+              "start_ms": 80740,
+              "end_ms": 81440
+            },
+            {
+              "word": "la",
+              "start_ms": 81440,
+              "end_ms": 82240
+            },
+            {
+              "word": "llum",
+              "start_ms": 82240,
+              "end_ms": 84280
+            }
+          ]
         },
         {
           "text": "Pero se que ve",
-          "start_ms": 47160,
-          "end_ms": 49160
+          "start_ms": 84280,
+          "end_ms": 90340,
+          "words": [
+            {
+              "word": "Pero",
+              "start_ms": 84280,
+              "end_ms": 84720
+            },
+            {
+              "word": "se",
+              "start_ms": 84770,
+              "end_ms": 85070,
+              "estimated": true
+            },
+            {
+              "word": "que",
+              "start_ms": 85120,
+              "end_ms": 85560
+            },
+            {
+              "word": "ve",
+              "start_ms": 90020,
+              "end_ms": 90340
+            }
+          ]
         }
-      ],
-      "start_ms": 38360,
-      "end_ms": 49160
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 90340,
+      "end_ms": 102240,
       "lines": [
         {
           "text": "Abans de nosaltres hi va haver promeses",
-          "start_ms": 52160,
-          "end_ms": 55280
+          "start_ms": 90340,
+          "end_ms": 91380,
+          "words": [
+            {
+              "word": "Abans",
+              "start_ms": 90340,
+              "end_ms": 90640,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 90690,
+              "end_ms": 90990,
+              "estimated": true
+            },
+            {
+              "word": "nosaltres",
+              "start_ms": 91040,
+              "end_ms": 91340,
+              "estimated": true
+            },
+            {
+              "word": "hi",
+              "start_ms": 89580,
+              "end_ms": 89840
+            },
+            {
+              "word": "va",
+              "start_ms": 89840,
+              "end_ms": 90020
+            },
+            {
+              "word": "haver",
+              "start_ms": 90020,
+              "end_ms": 90340
+            },
+            {
+              "word": "promeses",
+              "start_ms": 90340,
+              "end_ms": 91380
+            }
+          ]
         },
         {
           "text": "Gent que va caminar a les fosques",
-          "start_ms": 55280,
-          "end_ms": 57920
+          "start_ms": 91380,
+          "end_ms": 93980,
+          "words": [
+            {
+              "word": "Gent",
+              "start_ms": 91380,
+              "end_ms": 91760
+            },
+            {
+              "word": "que",
+              "start_ms": 91760,
+              "end_ms": 92060
+            },
+            {
+              "word": "va",
+              "start_ms": 92060,
+              "end_ms": 92360
+            },
+            {
+              "word": "caminar",
+              "start_ms": 92360,
+              "end_ms": 92940
+            },
+            {
+              "word": "a",
+              "start_ms": 92940,
+              "end_ms": 93180
+            },
+            {
+              "word": "les",
+              "start_ms": 93180,
+              "end_ms": 93400
+            },
+            {
+              "word": "fosques",
+              "start_ms": 93400,
+              "end_ms": 93980
+            }
+          ]
         },
         {
           "text": "Que va aguantar sense veure res",
-          "start_ms": 57920,
-          "end_ms": 60400
+          "start_ms": 93980,
+          "end_ms": 97480,
+          "words": [
+            {
+              "word": "Que",
+              "start_ms": 93980,
+              "end_ms": 94260
+            },
+            {
+              "word": "va",
+              "start_ms": 94260,
+              "end_ms": 94500
+            },
+            {
+              "word": "aguantar",
+              "start_ms": 94500,
+              "end_ms": 95280
+            },
+            {
+              "word": "sense",
+              "start_ms": 95280,
+              "end_ms": 95840
+            },
+            {
+              "word": "veure",
+              "start_ms": 95840,
+              "end_ms": 96320
+            },
+            {
+              "word": "res",
+              "start_ms": 96320,
+              "end_ms": 97480
+            }
+          ]
         },
         {
           "text": "Nomes confiant que vindria el mati",
-          "start_ms": 60400,
-          "end_ms": 63120
+          "start_ms": 97820,
+          "end_ms": 102240,
+          "words": [
+            {
+              "word": "Nomes",
+              "start_ms": 97820,
+              "end_ms": 98260
+            },
+            {
+              "word": "confiant",
+              "start_ms": 98320,
+              "end_ms": 99060
+            },
+            {
+              "word": "que",
+              "start_ms": 99060,
+              "end_ms": 99360
+            },
+            {
+              "word": "vindria",
+              "start_ms": 99360,
+              "end_ms": 100140
+            },
+            {
+              "word": "el",
+              "start_ms": 100140,
+              "end_ms": 100500
+            },
+            {
+              "word": "mati",
+              "start_ms": 100500,
+              "end_ms": 102240
+            }
+          ]
         }
-      ],
-      "start_ms": 52160,
-      "end_ms": 63120
+      ]
     },
     {
       "type": "verse",
       "label": "Build",
+      "start_ms": 102800,
+      "end_ms": 124140,
       "lines": [
         {
           "text": "I tot el que van esperar",
-          "start_ms": 66120,
-          "end_ms": 68120
+          "start_ms": 102800,
+          "end_ms": 107040,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 102800,
+              "end_ms": 103740
+            },
+            {
+              "word": "tot",
+              "start_ms": 103740,
+              "end_ms": 104080
+            },
+            {
+              "word": "el",
+              "start_ms": 104080,
+              "end_ms": 104340
+            },
+            {
+              "word": "que",
+              "start_ms": 104340,
+              "end_ms": 104460
+            },
+            {
+              "word": "van",
+              "start_ms": 104460,
+              "end_ms": 104940
+            },
+            {
+              "word": "esperar",
+              "start_ms": 104940,
+              "end_ms": 107040
+            }
+          ]
         },
         {
           "text": "Tot el que van aguantar al fred",
-          "start_ms": 68120,
-          "end_ms": 70600
+          "start_ms": 108479,
+          "end_ms": 112900,
+          "words": [
+            {
+              "word": "Tot",
+              "start_ms": 108479,
+              "end_ms": 109720
+            },
+            {
+              "word": "el",
+              "start_ms": 109720,
+              "end_ms": 110040
+            },
+            {
+              "word": "que",
+              "start_ms": 110040,
+              "end_ms": 110160
+            },
+            {
+              "word": "van",
+              "start_ms": 110160,
+              "end_ms": 110640
+            },
+            {
+              "word": "aguantar",
+              "start_ms": 110640,
+              "end_ms": 112060
+            },
+            {
+              "word": "al",
+              "start_ms": 112110,
+              "end_ms": 112410,
+              "estimated": true
+            },
+            {
+              "word": "fred",
+              "start_ms": 112280,
+              "end_ms": 112900
+            }
+          ]
         },
         {
           "text": "Desemboca en aquesta habitacio",
-          "start_ms": 70600,
-          "end_ms": 73000
+          "start_ms": 115639,
+          "end_ms": 121000,
+          "words": [
+            {
+              "word": "Desemboca",
+              "start_ms": 115639,
+              "end_ms": 116880
+            },
+            {
+              "word": "en",
+              "start_ms": 116880,
+              "end_ms": 117300
+            },
+            {
+              "word": "aquesta",
+              "start_ms": 117300,
+              "end_ms": 118540
+            },
+            {
+              "word": "habitacio",
+              "start_ms": 118540,
+              "end_ms": 121000
+            }
+          ]
         },
         {
           "text": "Aquesta nit",
-          "start_ms": 73000,
-          "end_ms": 75000
+          "start_ms": 117300,
+          "end_ms": 124140,
+          "words": [
+            {
+              "word": "Aquesta",
+              "start_ms": 117300,
+              "end_ms": 118540
+            },
+            {
+              "word": "nit",
+              "start_ms": 122820,
+              "end_ms": 124140
+            }
+          ]
         }
-      ],
-      "start_ms": 66120,
-      "end_ms": 75000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 126100,
+      "end_ms": 144200,
       "lines": [
         {
           "text": "Fill meu",
-          "start_ms": 78000,
-          "end_ms": 80000
+          "start_ms": 126100,
+          "end_ms": 127340,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 126100,
+              "end_ms": 127340
+            },
+            {
+              "word": "meu",
+              "start_ms": 126100,
+              "end_ms": 127340
+            }
+          ]
         },
         {
           "text": "La foscor no es per sempre",
-          "start_ms": 80000,
-          "end_ms": 82080
+          "start_ms": 127880,
+          "end_ms": 139550,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 127880,
+              "end_ms": 128100
+            },
+            {
+              "word": "foscor",
+              "start_ms": 128100,
+              "end_ms": 128960
+            },
+            {
+              "word": "no",
+              "start_ms": 128960,
+              "end_ms": 129520
+            },
+            {
+              "word": "es",
+              "start_ms": 136940,
+              "end_ms": 137600
+            },
+            {
+              "word": "per",
+              "start_ms": 138360,
+              "end_ms": 139200
+            },
+            {
+              "word": "sempre",
+              "start_ms": 139250,
+              "end_ms": 139550,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Fill meu",
-          "start_ms": 82080,
-          "end_ms": 84080
+          "start_ms": 139200,
+          "end_ms": 139850,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 139200,
+              "end_ms": 139500,
+              "estimated": true
+            },
+            {
+              "word": "meu",
+              "start_ms": 139550,
+              "end_ms": 139850,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "He comptat les hores per tu",
-          "start_ms": 84080,
-          "end_ms": 86240
+          "start_ms": 137600,
+          "end_ms": 140780,
+          "words": [
+            {
+              "word": "He",
+              "start_ms": 137600,
+              "end_ms": 138360
+            },
+            {
+              "word": "comptat",
+              "start_ms": 136020,
+              "end_ms": 136940
+            },
+            {
+              "word": "les",
+              "start_ms": 136940,
+              "end_ms": 137600
+            },
+            {
+              "word": "hores",
+              "start_ms": 137600,
+              "end_ms": 138360
+            },
+            {
+              "word": "per",
+              "start_ms": 138360,
+              "end_ms": 139200
+            },
+            {
+              "word": "tu",
+              "start_ms": 139200,
+              "end_ms": 140780
+            }
+          ]
         },
         {
           "text": "I ja s'acaben",
-          "start_ms": 86240,
-          "end_ms": 88240
+          "start_ms": 140780,
+          "end_ms": 144200,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 140780,
+              "end_ms": 141480
+            },
+            {
+              "word": "ja",
+              "start_ms": 141480,
+              "end_ms": 141860
+            },
+            {
+              "word": "s'acaben",
+              "start_ms": 142260,
+              "end_ms": 144200
+            }
+          ]
         }
-      ],
-      "start_ms": 78000,
-      "end_ms": 88240
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 145080,
+      "end_ms": 163900,
       "lines": [
         {
           "text": "Joan",
-          "start_ms": 91240,
-          "end_ms": 93240
+          "start_ms": 145080,
+          "end_ms": 146020,
+          "words": [
+            {
+              "word": "Joan",
+              "start_ms": 145080,
+              "end_ms": 146020
+            }
+          ]
         },
         {
           "text": "Ho escric a la tauleta",
-          "start_ms": 93240,
-          "end_ms": 95240
+          "start_ms": 147880,
+          "end_ms": 152420,
+          "words": [
+            {
+              "word": "Ho",
+              "start_ms": 147880,
+              "end_ms": 148220
+            },
+            {
+              "word": "escric",
+              "start_ms": 148220,
+              "end_ms": 148780
+            },
+            {
+              "word": "a",
+              "start_ms": 148780,
+              "end_ms": 149420
+            },
+            {
+              "word": "la",
+              "start_ms": 149420,
+              "end_ms": 150340
+            },
+            {
+              "word": "tauleta",
+              "start_ms": 150340,
+              "end_ms": 152420
+            }
+          ]
         },
         {
           "text": "I la veu em torna",
-          "start_ms": 95240,
-          "end_ms": 97240
+          "start_ms": 153800,
+          "end_ms": 158340,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 153800,
+              "end_ms": 154500
+            },
+            {
+              "word": "la",
+              "start_ms": 149420,
+              "end_ms": 150340
+            },
+            {
+              "word": "veu",
+              "start_ms": 155300,
+              "end_ms": 156180
+            },
+            {
+              "word": "em",
+              "start_ms": 156180,
+              "end_ms": 156800
+            },
+            {
+              "word": "torna",
+              "start_ms": 156800,
+              "end_ms": 158340
+            }
+          ]
         },
         {
           "text": "Com si algú obris una porta",
-          "start_ms": 97240,
-          "end_ms": 99400
+          "start_ms": 158900,
+          "end_ms": 163900,
+          "words": [
+            {
+              "word": "Com",
+              "start_ms": 158900,
+              "end_ms": 159540
+            },
+            {
+              "word": "si",
+              "start_ms": 159540,
+              "end_ms": 159820
+            },
+            {
+              "word": "algú",
+              "start_ms": 159820,
+              "end_ms": 160340
+            },
+            {
+              "word": "obris",
+              "start_ms": 160340,
+              "end_ms": 160960
+            },
+            {
+              "word": "una",
+              "start_ms": 160960,
+              "end_ms": 162380
+            },
+            {
+              "word": "porta",
+              "start_ms": 162380,
+              "end_ms": 163900
+            }
+          ]
         }
-      ],
-      "start_ms": 91240,
-      "end_ms": 99400
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 169299,
+      "end_ms": 179740,
       "lines": [
         {
           "text": "Fill meu",
-          "start_ms": 102400,
-          "end_ms": 104400
+          "start_ms": 169299,
+          "end_ms": 170420,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 169299,
+              "end_ms": 170420
+            },
+            {
+              "word": "meu",
+              "start_ms": 169299,
+              "end_ms": 170420
+            }
+          ]
         },
         {
           "text": "El que ve no es nomes per nosaltres",
-          "start_ms": 104400,
-          "end_ms": 107200
+          "start_ms": 171080,
+          "end_ms": 175940,
+          "words": [
+            {
+              "word": "El",
+              "start_ms": 171080,
+              "end_ms": 171260
+            },
+            {
+              "word": "que",
+              "start_ms": 171260,
+              "end_ms": 171440
+            },
+            {
+              "word": "ve",
+              "start_ms": 171440,
+              "end_ms": 171620
+            },
+            {
+              "word": "no",
+              "start_ms": 171620,
+              "end_ms": 171820
+            },
+            {
+              "word": "es",
+              "start_ms": 171870,
+              "end_ms": 172170,
+              "estimated": true
+            },
+            {
+              "word": "nomes",
+              "start_ms": 172020,
+              "end_ms": 172580
+            },
+            {
+              "word": "per",
+              "start_ms": 172580,
+              "end_ms": 173320
+            },
+            {
+              "word": "nosaltres",
+              "start_ms": 173320,
+              "end_ms": 175940
+            }
+          ]
         },
         {
           "text": "Fill meu",
-          "start_ms": 107200,
-          "end_ms": 109200
+          "start_ms": 178620,
+          "end_ms": 179740,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 178620,
+              "end_ms": 179740
+            },
+            {
+              "word": "meu",
+              "start_ms": 178620,
+              "end_ms": 179740
+            }
+          ]
         }
-      ],
-      "start_ms": 102400,
-      "end_ms": 109200
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 180140,
+      "end_ms": 205300,
       "lines": [
         {
           "text": "L'alba",
-          "start_ms": 112200,
-          "end_ms": 114200
+          "start_ms": 180140,
+          "end_ms": 181440,
+          "words": [
+            {
+              "word": "L'alba",
+              "start_ms": 180140,
+              "end_ms": 181440
+            }
+          ]
         },
         {
           "text": "Entra a poc a poc",
-          "start_ms": 114200,
-          "end_ms": 116200
+          "start_ms": 181440,
+          "end_ms": 182720,
+          "words": [
+            {
+              "word": "Entra",
+              "start_ms": 181440,
+              "end_ms": 181980
+            },
+            {
+              "word": "a",
+              "start_ms": 181980,
+              "end_ms": 182160
+            },
+            {
+              "word": "poc",
+              "start_ms": 182160,
+              "end_ms": 182720
+            },
+            {
+              "word": "a",
+              "start_ms": 181980,
+              "end_ms": 182160
+            },
+            {
+              "word": "poc",
+              "start_ms": 182160,
+              "end_ms": 182720
+            }
+          ]
         },
         {
           "text": "Sense pressa",
-          "start_ms": 116200,
-          "end_ms": 118200
+          "start_ms": 187060,
+          "end_ms": 188140,
+          "words": [
+            {
+              "word": "Sense",
+              "start_ms": 187060,
+              "end_ms": 187780
+            },
+            {
+              "word": "pressa",
+              "start_ms": 187780,
+              "end_ms": 188140
+            }
+          ]
         },
         {
           "text": "Toca els qui viuen a l'ombra",
-          "start_ms": 118200,
-          "end_ms": 120440
+          "start_ms": 188500,
+          "end_ms": 194810,
+          "words": [
+            {
+              "word": "Toca",
+              "start_ms": 188500,
+              "end_ms": 188980
+            },
+            {
+              "word": "els",
+              "start_ms": 193500,
+              "end_ms": 193780
+            },
+            {
+              "word": "qui",
+              "start_ms": 193830,
+              "end_ms": 194130,
+              "estimated": true
+            },
+            {
+              "word": "viuen",
+              "start_ms": 194180,
+              "end_ms": 194480,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 194140,
+              "end_ms": 194460
+            },
+            {
+              "word": "l'ombra",
+              "start_ms": 194510,
+              "end_ms": 194810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "I ens posa els peus al cami de la pau",
-          "start_ms": 120440,
-          "end_ms": 123400
+          "start_ms": 194460,
+          "end_ms": 197800,
+          "words": [
+            {
+              "word": "I",
+              "start_ms": 194460,
+              "end_ms": 194760,
+              "estimated": true
+            },
+            {
+              "word": "ens",
+              "start_ms": 193500,
+              "end_ms": 193780
+            },
+            {
+              "word": "posa",
+              "start_ms": 193160,
+              "end_ms": 193500
+            },
+            {
+              "word": "els",
+              "start_ms": 193500,
+              "end_ms": 193780
+            },
+            {
+              "word": "peus",
+              "start_ms": 193780,
+              "end_ms": 194140
+            },
+            {
+              "word": "al",
+              "start_ms": 194140,
+              "end_ms": 194460
+            },
+            {
+              "word": "cami",
+              "start_ms": 194460,
+              "end_ms": 195240
+            },
+            {
+              "word": "de",
+              "start_ms": 195240,
+              "end_ms": 195580
+            },
+            {
+              "word": "la",
+              "start_ms": 195580,
+              "end_ms": 195880
+            },
+            {
+              "word": "pau",
+              "start_ms": 195880,
+              "end_ms": 197800
+            }
+          ]
         },
         {
           "text": "Fill meu",
-          "start_ms": 123400,
-          "end_ms": 125400
+          "start_ms": 202240,
+          "end_ms": 202960,
+          "words": [
+            {
+              "word": "Fill",
+              "start_ms": 202240,
+              "end_ms": 202960
+            },
+            {
+              "word": "meu",
+              "start_ms": 202240,
+              "end_ms": 202960
+            }
+          ]
         },
         {
           "text": "Ja es de dia",
-          "start_ms": 125400,
-          "end_ms": 127400
+          "start_ms": 203600,
+          "end_ms": 205300,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 203600,
+              "end_ms": 204060
+            },
+            {
+              "word": "es",
+              "start_ms": 204110,
+              "end_ms": 204410,
+              "estimated": true
+            },
+            {
+              "word": "de",
+              "start_ms": 204320,
+              "end_ms": 204680
+            },
+            {
+              "word": "dia",
+              "start_ms": 204680,
+              "end_ms": 205300
+            }
+          ]
         }
-      ],
-      "start_ms": 112200,
-      "end_ms": 127400
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 130400,
-          "end_ms": 132400
-        }
-      ],
-      "start_ms": 130400,
-      "end_ms": 132400
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Pero avui noto alguna cosa",
+      "section_type": "chorus",
+      "start_ms": 60660,
+      "end_ms": 72630,
+      "key_line": "Pero avui noto alguna cosa",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Fill meu",
+      "section_type": "chorus",
+      "start_ms": 77960,
+      "end_ms": 90340,
+      "key_line": "Fill meu",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Fill meu",
+      "section_type": "chorus",
+      "start_ms": 126100,
+      "end_ms": 144200,
+      "key_line": "Fill meu",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 145080,
+      "end_ms": 163900,
+      "key_line": "Joan",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Fill meu",
+      "section_type": "chorus",
+      "start_ms": 169299,
+      "end_ms": 179740,
+      "key_line": "Fill meu",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/catalan/42_luke_01_1-67_transcript.json"
 }

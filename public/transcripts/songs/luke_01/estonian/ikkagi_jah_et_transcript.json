@@ -7,286 +7,1185 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:26-38",
-  "duration_ms": 220000,
+  "duration_ms": 183320,
   "audio_file": "/audio/songs/luke_01/estonian/Luke 1_26-38 — Ikkagi jah — Mary's Yes — estonian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.812824+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.951097+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.973,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 12700,
+      "end_ms": 26200,
       "lines": [
         {
           "text": "Vaikus mu toas",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 12700,
+          "end_ms": 15480,
+          "words": [
+            {
+              "word": "Vaikus",
+              "start_ms": 12700,
+              "end_ms": 14100
+            },
+            {
+              "word": "mu",
+              "start_ms": 14100,
+              "end_ms": 14260
+            },
+            {
+              "word": "toas",
+              "start_ms": 14260,
+              "end_ms": 15480
+            }
+          ]
         },
         {
           "text": "tolm langeb valgusribal",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 15920,
+          "end_ms": 18280,
+          "words": [
+            {
+              "word": "tolm",
+              "start_ms": 15920,
+              "end_ms": 16520
+            },
+            {
+              "word": "langeb",
+              "start_ms": 15920,
+              "end_ms": 16520
+            },
+            {
+              "word": "valgusribal",
+              "start_ms": 17160,
+              "end_ms": 18280
+            }
+          ]
         },
         {
           "text": "tavaline hommik, tavaline elu",
-          "start_ms": 10000,
-          "end_ms": 12320
+          "start_ms": 19000,
+          "end_ms": 23160,
+          "words": [
+            {
+              "word": "tavaline",
+              "start_ms": 19000,
+              "end_ms": 20460
+            },
+            {
+              "word": "hommik,",
+              "start_ms": 20460,
+              "end_ms": 21180
+            },
+            {
+              "word": "tavaline",
+              "start_ms": 19000,
+              "end_ms": 20460
+            },
+            {
+              "word": "elu",
+              "start_ms": 22100,
+              "end_ms": 23160
+            }
+          ]
         },
         {
           "text": "kuni miski muutub õhus",
-          "start_ms": 12320,
-          "end_ms": 14320
+          "start_ms": 23320,
+          "end_ms": 26200,
+          "words": [
+            {
+              "word": "kuni",
+              "start_ms": 23320,
+              "end_ms": 23600
+            },
+            {
+              "word": "miski",
+              "start_ms": 23600,
+              "end_ms": 24280
+            },
+            {
+              "word": "muutub",
+              "start_ms": 24280,
+              "end_ms": 25040
+            },
+            {
+              "word": "õhus",
+              "start_ms": 25040,
+              "end_ms": 26200
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14320
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 26200,
+      "end_ms": 38040,
       "lines": [
         {
           "text": "Hääl, mida ma ei tunne",
-          "start_ms": 17320,
-          "end_ms": 19320
+          "start_ms": 26200,
+          "end_ms": 29260,
+          "words": [
+            {
+              "word": "Hääl,",
+              "start_ms": 26200,
+              "end_ms": 27500
+            },
+            {
+              "word": "mida",
+              "start_ms": 27520,
+              "end_ms": 27920
+            },
+            {
+              "word": "ma",
+              "start_ms": 27920,
+              "end_ms": 28140
+            },
+            {
+              "word": "ei",
+              "start_ms": 28140,
+              "end_ms": 28340
+            },
+            {
+              "word": "tunne",
+              "start_ms": 28340,
+              "end_ms": 29260
+            }
+          ]
         },
         {
           "text": "räägib asju, mida ei saa olla",
-          "start_ms": 19320,
-          "end_ms": 21640
+          "start_ms": 29500,
+          "end_ms": 31960,
+          "words": [
+            {
+              "word": "räägib",
+              "start_ms": 29500,
+              "end_ms": 29800
+            },
+            {
+              "word": "asju,",
+              "start_ms": 29800,
+              "end_ms": 30580
+            },
+            {
+              "word": "mida",
+              "start_ms": 30720,
+              "end_ms": 31060
+            },
+            {
+              "word": "ei",
+              "start_ms": 31060,
+              "end_ms": 31220
+            },
+            {
+              "word": "saa",
+              "start_ms": 31220,
+              "end_ms": 31460
+            },
+            {
+              "word": "olla",
+              "start_ms": 31460,
+              "end_ms": 31960
+            }
+          ]
         },
         {
           "text": "mu käed värisevad",
-          "start_ms": 21640,
-          "end_ms": 23640
+          "start_ms": 31960,
+          "end_ms": 35200,
+          "words": [
+            {
+              "word": "mu",
+              "start_ms": 31960,
+              "end_ms": 32580
+            },
+            {
+              "word": "käed",
+              "start_ms": 32580,
+              "end_ms": 32900
+            },
+            {
+              "word": "värisevad",
+              "start_ms": 32900,
+              "end_ms": 35200
+            }
+          ]
         },
         {
           "text": "ja põrand kaob mu jalge alt",
-          "start_ms": 23640,
-          "end_ms": 25800
+          "start_ms": 35200,
+          "end_ms": 38040,
+          "words": [
+            {
+              "word": "ja",
+              "start_ms": 35200,
+              "end_ms": 35640
+            },
+            {
+              "word": "põrand",
+              "start_ms": 35640,
+              "end_ms": 36020
+            },
+            {
+              "word": "kaob",
+              "start_ms": 36020,
+              "end_ms": 36460
+            },
+            {
+              "word": "mu",
+              "start_ms": 36460,
+              "end_ms": 36720
+            },
+            {
+              "word": "jalge",
+              "start_ms": 36720,
+              "end_ms": 38040
+            },
+            {
+              "word": "alt",
+              "start_ms": 36720,
+              "end_ms": 38040
+            }
+          ]
         }
-      ],
-      "start_ms": 17320,
-      "end_ms": 25800
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 38040,
+      "end_ms": 50580,
       "lines": [
         {
           "text": "Ma ei tea mis tuleb",
-          "start_ms": 28800,
-          "end_ms": 30800
+          "start_ms": 38040,
+          "end_ms": 40780,
+          "words": [
+            {
+              "word": "Ma",
+              "start_ms": 38040,
+              "end_ms": 38340
+            },
+            {
+              "word": "ei",
+              "start_ms": 38340,
+              "end_ms": 38540
+            },
+            {
+              "word": "tea",
+              "start_ms": 38540,
+              "end_ms": 38760
+            },
+            {
+              "word": "mis",
+              "start_ms": 38840,
+              "end_ms": 39120
+            },
+            {
+              "word": "tuleb",
+              "start_ms": 39120,
+              "end_ms": 40780
+            }
+          ]
         },
         {
           "text": "ma ei näe mis ees",
-          "start_ms": 30800,
-          "end_ms": 32800
+          "start_ms": 41280,
+          "end_ms": 46940,
+          "words": [
+            {
+              "word": "ma",
+              "start_ms": 41280,
+              "end_ms": 41340
+            },
+            {
+              "word": "ei",
+              "start_ms": 41340,
+              "end_ms": 41520
+            },
+            {
+              "word": "näe",
+              "start_ms": 41520,
+              "end_ms": 41960
+            },
+            {
+              "word": "mis",
+              "start_ms": 42220,
+              "end_ms": 43660
+            },
+            {
+              "word": "ees",
+              "start_ms": 45240,
+              "end_ms": 46940
+            }
+          ]
         },
         {
           "text": "aga midagi mu sees",
-          "start_ms": 32800,
-          "end_ms": 34800
+          "start_ms": 44199,
+          "end_ms": 48810,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 44199,
+              "end_ms": 44580
+            },
+            {
+              "word": "midagi",
+              "start_ms": 44580,
+              "end_ms": 45240
+            },
+            {
+              "word": "mu",
+              "start_ms": 48120,
+              "end_ms": 48460
+            },
+            {
+              "word": "sees",
+              "start_ms": 48510,
+              "end_ms": 48810,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "ei lase mul pöörda",
-          "start_ms": 34800,
-          "end_ms": 36800
+          "start_ms": 46940,
+          "end_ms": 50580,
+          "words": [
+            {
+              "word": "ei",
+              "start_ms": 46940,
+              "end_ms": 47740
+            },
+            {
+              "word": "lase",
+              "start_ms": 47740,
+              "end_ms": 48120
+            },
+            {
+              "word": "mul",
+              "start_ms": 48120,
+              "end_ms": 48460
+            },
+            {
+              "word": "pöörda",
+              "start_ms": 48460,
+              "end_ms": 50580
+            }
+          ]
         }
-      ],
-      "start_ms": 28800,
-      "end_ms": 36800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 50580,
+      "end_ms": 74900,
       "lines": [
         {
           "text": "Ikkagi jah",
-          "start_ms": 39800,
-          "end_ms": 41800
+          "start_ms": 50580,
+          "end_ms": 56560,
+          "words": [
+            {
+              "word": "Ikkagi",
+              "start_ms": 50580,
+              "end_ms": 51740
+            },
+            {
+              "word": "jah",
+              "start_ms": 54820,
+              "end_ms": 56560
+            }
+          ]
         },
         {
           "text": "ikkagi jah",
-          "start_ms": 41800,
-          "end_ms": 43800
+          "start_ms": 53740,
+          "end_ms": 56560,
+          "words": [
+            {
+              "word": "ikkagi",
+              "start_ms": 53740,
+              "end_ms": 54820
+            },
+            {
+              "word": "jah",
+              "start_ms": 54820,
+              "end_ms": 56560
+            }
+          ]
         },
         {
           "text": "ma värisen ja kardan",
-          "start_ms": 43800,
-          "end_ms": 45800
+          "start_ms": 56560,
+          "end_ms": 58720,
+          "words": [
+            {
+              "word": "ma",
+              "start_ms": 56560,
+              "end_ms": 57040
+            },
+            {
+              "word": "värisen",
+              "start_ms": 57040,
+              "end_ms": 57660
+            },
+            {
+              "word": "ja",
+              "start_ms": 54820,
+              "end_ms": 56560
+            },
+            {
+              "word": "kardan",
+              "start_ms": 57920,
+              "end_ms": 58720
+            }
+          ]
         },
         {
           "text": "aga seisan siin",
-          "start_ms": 45800,
-          "end_ms": 47800
+          "start_ms": 59960,
+          "end_ms": 62580,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 59960,
+              "end_ms": 60200
+            },
+            {
+              "word": "seisan",
+              "start_ms": 60200,
+              "end_ms": 60800
+            },
+            {
+              "word": "siin",
+              "start_ms": 60800,
+              "end_ms": 62580
+            }
+          ]
         },
         {
           "text": "ikkagi jah",
-          "start_ms": 47800,
-          "end_ms": 49800
+          "start_ms": 63360,
+          "end_ms": 68380,
+          "words": [
+            {
+              "word": "ikkagi",
+              "start_ms": 63360,
+              "end_ms": 64140
+            },
+            {
+              "word": "jah",
+              "start_ms": 67260,
+              "end_ms": 68380
+            }
+          ]
         },
         {
           "text": "ikkagi jah",
-          "start_ms": 49800,
-          "end_ms": 51800
+          "start_ms": 66400,
+          "end_ms": 68380,
+          "words": [
+            {
+              "word": "ikkagi",
+              "start_ms": 66400,
+              "end_ms": 67260
+            },
+            {
+              "word": "jah",
+              "start_ms": 67260,
+              "end_ms": 68380
+            }
+          ]
         },
         {
           "text": "ma ei tea mis saab",
-          "start_ms": 51800,
-          "end_ms": 53800
+          "start_ms": 68380,
+          "end_ms": 71860,
+          "words": [
+            {
+              "word": "ma",
+              "start_ms": 68380,
+              "end_ms": 69380
+            },
+            {
+              "word": "ei",
+              "start_ms": 69380,
+              "end_ms": 69620
+            },
+            {
+              "word": "tea",
+              "start_ms": 69620,
+              "end_ms": 69880
+            },
+            {
+              "word": "mis",
+              "start_ms": 70020,
+              "end_ms": 70300
+            },
+            {
+              "word": "saab",
+              "start_ms": 70300,
+              "end_ms": 71860
+            }
+          ]
         },
         {
           "text": "aga ma ütlen seda",
-          "start_ms": 53800,
-          "end_ms": 55800
+          "start_ms": 72220,
+          "end_ms": 74900,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 72220,
+              "end_ms": 72400
+            },
+            {
+              "word": "ma",
+              "start_ms": 72400,
+              "end_ms": 72680
+            },
+            {
+              "word": "ütlen",
+              "start_ms": 72680,
+              "end_ms": 73360
+            },
+            {
+              "word": "seda",
+              "start_ms": 73360,
+              "end_ms": 74900
+            }
+          ]
         }
-      ],
-      "start_ms": 39800,
-      "end_ms": 55800
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 74900,
+      "end_ms": 86220,
       "lines": [
         {
           "text": "Mis Joosep mõtleb",
-          "start_ms": 58800,
-          "end_ms": 60800
+          "start_ms": 74900,
+          "end_ms": 77040,
+          "words": [
+            {
+              "word": "Mis",
+              "start_ms": 74900,
+              "end_ms": 75700
+            },
+            {
+              "word": "Joosep",
+              "start_ms": 75700,
+              "end_ms": 76360
+            },
+            {
+              "word": "mõtleb",
+              "start_ms": 76360,
+              "end_ms": 77040
+            }
+          ]
         },
         {
           "text": "mis küla räägib",
-          "start_ms": 60800,
-          "end_ms": 62800
+          "start_ms": 74900,
+          "end_ms": 78760,
+          "words": [
+            {
+              "word": "mis",
+              "start_ms": 74900,
+              "end_ms": 75700
+            },
+            {
+              "word": "küla",
+              "start_ms": 77260,
+              "end_ms": 77900
+            },
+            {
+              "word": "räägib",
+              "start_ms": 77900,
+              "end_ms": 78760
+            }
+          ]
         },
         {
           "text": "keegi ei usu mind",
-          "start_ms": 62800,
-          "end_ms": 64800
+          "start_ms": 78960,
+          "end_ms": 80720,
+          "words": [
+            {
+              "word": "keegi",
+              "start_ms": 78960,
+              "end_ms": 79540
+            },
+            {
+              "word": "ei",
+              "start_ms": 79540,
+              "end_ms": 79680
+            },
+            {
+              "word": "usu",
+              "start_ms": 79680,
+              "end_ms": 80040
+            },
+            {
+              "word": "mind",
+              "start_ms": 80040,
+              "end_ms": 80720
+            }
+          ]
         },
         {
           "text": "sest ma ise ka ei mõista",
-          "start_ms": 64800,
-          "end_ms": 66800
+          "start_ms": 80720,
+          "end_ms": 86220,
+          "words": [
+            {
+              "word": "sest",
+              "start_ms": 80720,
+              "end_ms": 82540
+            },
+            {
+              "word": "ma",
+              "start_ms": 82540,
+              "end_ms": 82800
+            },
+            {
+              "word": "ise",
+              "start_ms": 82800,
+              "end_ms": 83260
+            },
+            {
+              "word": "ka",
+              "start_ms": 83260,
+              "end_ms": 84220
+            },
+            {
+              "word": "ei",
+              "start_ms": 84220,
+              "end_ms": 84840
+            },
+            {
+              "word": "mõista",
+              "start_ms": 84840,
+              "end_ms": 86220
+            }
+          ]
         }
-      ],
-      "start_ms": 58800,
-      "end_ms": 66800
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 86900,
+      "end_ms": 98919,
       "lines": [
         {
           "text": "Mul ei ole vastuseid",
-          "start_ms": 69800,
-          "end_ms": 71800
+          "start_ms": 86900,
+          "end_ms": 90480,
+          "words": [
+            {
+              "word": "Mul",
+              "start_ms": 86900,
+              "end_ms": 88000
+            },
+            {
+              "word": "ei",
+              "start_ms": 84220,
+              "end_ms": 84840
+            },
+            {
+              "word": "ole",
+              "start_ms": 88220,
+              "end_ms": 88540
+            },
+            {
+              "word": "vastuseid",
+              "start_ms": 88540,
+              "end_ms": 90480
+            }
+          ]
         },
         {
           "text": "mul ei ole kindlust",
-          "start_ms": 71800,
-          "end_ms": 73800
+          "start_ms": 90920,
+          "end_ms": 92900,
+          "words": [
+            {
+              "word": "mul",
+              "start_ms": 90920,
+              "end_ms": 91120
+            },
+            {
+              "word": "ei",
+              "start_ms": 91120,
+              "end_ms": 91340
+            },
+            {
+              "word": "ole",
+              "start_ms": 91340,
+              "end_ms": 91800
+            },
+            {
+              "word": "kindlust",
+              "start_ms": 91800,
+              "end_ms": 92900
+            }
+          ]
         },
         {
           "text": "aga midagi mu sees",
-          "start_ms": 73800,
-          "end_ms": 75800
+          "start_ms": 93420,
+          "end_ms": 98300,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 93420,
+              "end_ms": 94340
+            },
+            {
+              "word": "midagi",
+              "start_ms": 94340,
+              "end_ms": 94960
+            },
+            {
+              "word": "mu",
+              "start_ms": 95010,
+              "end_ms": 95310,
+              "estimated": true
+            },
+            {
+              "word": "sees",
+              "start_ms": 97760,
+              "end_ms": 98300
+            }
+          ]
         },
         {
           "text": "on suurem kui see hirm",
-          "start_ms": 75800,
-          "end_ms": 77800
+          "start_ms": 98300,
+          "end_ms": 98919,
+          "words": [
+            {
+              "word": "on",
+              "start_ms": 98300,
+              "end_ms": 98600,
+              "estimated": true
+            },
+            {
+              "word": "suurem",
+              "start_ms": 96740,
+              "end_ms": 97480
+            },
+            {
+              "word": "kui",
+              "start_ms": 97480,
+              "end_ms": 97760
+            },
+            {
+              "word": "see",
+              "start_ms": 97760,
+              "end_ms": 98300
+            },
+            {
+              "word": "hirm",
+              "start_ms": 98300,
+              "end_ms": 98919
+            }
+          ]
         }
-      ],
-      "start_ms": 69800,
-      "end_ms": 77800
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 100580,
+      "end_ms": 113040,
       "lines": [
         {
           "text": "Ikkagi jah",
-          "start_ms": 80800,
-          "end_ms": 82800
+          "start_ms": 100580,
+          "end_ms": 105940,
+          "words": [
+            {
+              "word": "Ikkagi",
+              "start_ms": 100580,
+              "end_ms": 101520
+            },
+            {
+              "word": "jah",
+              "start_ms": 104540,
+              "end_ms": 105940
+            }
+          ]
         },
         {
           "text": "ikkagi jah",
-          "start_ms": 82800,
-          "end_ms": 84800
+          "start_ms": 103380,
+          "end_ms": 105940,
+          "words": [
+            {
+              "word": "ikkagi",
+              "start_ms": 103380,
+              "end_ms": 104540
+            },
+            {
+              "word": "jah",
+              "start_ms": 104540,
+              "end_ms": 105940
+            }
+          ]
         },
         {
           "text": "ma ei tea mis saab",
-          "start_ms": 84800,
-          "end_ms": 86800
+          "start_ms": 105940,
+          "end_ms": 109120,
+          "words": [
+            {
+              "word": "ma",
+              "start_ms": 105940,
+              "end_ms": 106700
+            },
+            {
+              "word": "ei",
+              "start_ms": 106700,
+              "end_ms": 106960
+            },
+            {
+              "word": "tea",
+              "start_ms": 106960,
+              "end_ms": 107200
+            },
+            {
+              "word": "mis",
+              "start_ms": 107360,
+              "end_ms": 107660
+            },
+            {
+              "word": "saab",
+              "start_ms": 107660,
+              "end_ms": 109120
+            }
+          ]
         },
         {
           "text": "aga ma ütlen seda",
-          "start_ms": 86800,
-          "end_ms": 88800
+          "start_ms": 109580,
+          "end_ms": 113040,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 109580,
+              "end_ms": 109740
+            },
+            {
+              "word": "ma",
+              "start_ms": 109740,
+              "end_ms": 110020
+            },
+            {
+              "word": "ütlen",
+              "start_ms": 110020,
+              "end_ms": 110680
+            },
+            {
+              "word": "seda",
+              "start_ms": 110680,
+              "end_ms": 113040
+            }
+          ]
         }
-      ],
-      "start_ms": 80800,
-      "end_ms": 88800
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 113040,
+      "end_ms": 121070,
       "lines": [
         {
           "text": "See pole alistumine",
-          "start_ms": 91800,
-          "end_ms": 93800
+          "start_ms": 113040,
+          "end_ms": 115200,
+          "words": [
+            {
+              "word": "See",
+              "start_ms": 113040,
+              "end_ms": 113540
+            },
+            {
+              "word": "pole",
+              "start_ms": 113540,
+              "end_ms": 113800
+            },
+            {
+              "word": "alistumine",
+              "start_ms": 113800,
+              "end_ms": 115200
+            }
+          ]
         },
         {
           "text": "see pole pimedasse hüpe",
-          "start_ms": 93800,
-          "end_ms": 95800
+          "start_ms": 113040,
+          "end_ms": 118900,
+          "words": [
+            {
+              "word": "see",
+              "start_ms": 113040,
+              "end_ms": 113540
+            },
+            {
+              "word": "pole",
+              "start_ms": 113540,
+              "end_ms": 113800
+            },
+            {
+              "word": "pimedasse",
+              "start_ms": 116920,
+              "end_ms": 117360
+            },
+            {
+              "word": "hüpe",
+              "start_ms": 117720,
+              "end_ms": 118900
+            }
+          ]
         },
         {
           "text": "see on mu enda sõna",
-          "start_ms": 95800,
-          "end_ms": 97800
+          "start_ms": 117540,
+          "end_ms": 121260,
+          "words": [
+            {
+              "word": "see",
+              "start_ms": 117540,
+              "end_ms": 117720
+            },
+            {
+              "word": "on",
+              "start_ms": 119700,
+              "end_ms": 119920
+            },
+            {
+              "word": "mu",
+              "start_ms": 119920,
+              "end_ms": 120140
+            },
+            {
+              "word": "enda",
+              "start_ms": 120140,
+              "end_ms": 120720
+            },
+            {
+              "word": "sõna",
+              "start_ms": 120720,
+              "end_ms": 121260
+            }
+          ]
         },
         {
           "text": "mu enda valik",
-          "start_ms": 97800,
-          "end_ms": 99800
+          "start_ms": 119920,
+          "end_ms": 122880,
+          "words": [
+            {
+              "word": "mu",
+              "start_ms": 119920,
+              "end_ms": 120140
+            },
+            {
+              "word": "enda",
+              "start_ms": 120140,
+              "end_ms": 120720
+            },
+            {
+              "word": "valik",
+              "start_ms": 122300,
+              "end_ms": 122880
+            }
+          ]
         },
         {
           "text": "mu enda hääl",
-          "start_ms": 99800,
-          "end_ms": 101800
+          "start_ms": 121480,
+          "end_ms": 121070,
+          "words": [
+            {
+              "word": "mu",
+              "start_ms": 121480,
+              "end_ms": 121680
+            },
+            {
+              "word": "enda",
+              "start_ms": 120140,
+              "end_ms": 120720
+            },
+            {
+              "word": "hääl",
+              "start_ms": 120770,
+              "end_ms": 121070,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 91800,
-      "end_ms": 101800
+      ]
     },
     {
       "type": "outro",
       "label": "Outro",
+      "start_ms": 137700,
+      "end_ms": 149300,
       "lines": [
         {
           "text": "Ikkagi jah",
-          "start_ms": 104800,
-          "end_ms": 106800
+          "start_ms": 137700,
+          "end_ms": 139840,
+          "words": [
+            {
+              "word": "Ikkagi",
+              "start_ms": 137700,
+              "end_ms": 138780
+            },
+            {
+              "word": "jah",
+              "start_ms": 138780,
+              "end_ms": 139840
+            }
+          ]
         },
         {
           "text": "vaikus tagasi mu toas",
-          "start_ms": 106800,
-          "end_ms": 108800
+          "start_ms": 139900,
+          "end_ms": 143300,
+          "words": [
+            {
+              "word": "vaikus",
+              "start_ms": 139900,
+              "end_ms": 140360
+            },
+            {
+              "word": "tagasi",
+              "start_ms": 140360,
+              "end_ms": 141380
+            },
+            {
+              "word": "mu",
+              "start_ms": 141380,
+              "end_ms": 141720
+            },
+            {
+              "word": "toas",
+              "start_ms": 141720,
+              "end_ms": 143300
+            }
+          ]
         },
         {
           "text": "aga mina olen teine",
-          "start_ms": 108800,
-          "end_ms": 110800
+          "start_ms": 143300,
+          "end_ms": 149300,
+          "words": [
+            {
+              "word": "aga",
+              "start_ms": 143300,
+              "end_ms": 144220
+            },
+            {
+              "word": "mina",
+              "start_ms": 144220,
+              "end_ms": 145260
+            },
+            {
+              "word": "olen",
+              "start_ms": 145260,
+              "end_ms": 147240
+            },
+            {
+              "word": "teine",
+              "start_ms": 147240,
+              "end_ms": 149300
+            }
+          ]
         }
-      ],
-      "start_ms": 104800,
-      "end_ms": 110800
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ma ei tea mis tuleb",
+      "section_type": "chorus",
+      "start_ms": 38040,
+      "end_ms": 50580,
+      "key_line": "Ma ei tea mis tuleb",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Ikkagi jah",
+      "section_type": "chorus",
+      "start_ms": 50580,
+      "end_ms": 74900,
+      "key_line": "Ikkagi jah",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Mul ei ole vastuseid",
+      "section_type": "chorus",
+      "start_ms": 86900,
+      "end_ms": 98919,
+      "key_line": "Mul ei ole vastuseid",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Ikkagi jah",
+      "section_type": "chorus",
+      "start_ms": 100580,
+      "end_ms": 113040,
+      "key_line": "Ikkagi jah",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 113040,
+      "end_ms": 121070,
+      "key_line": "See pole alistumine",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/estonian/42_luke_01_1-26_transcript.json"
 }

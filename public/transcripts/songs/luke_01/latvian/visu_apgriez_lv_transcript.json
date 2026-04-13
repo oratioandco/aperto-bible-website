@@ -7,303 +7,1318 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 197320,
   "audio_file": "/audio/songs/luke_01/latvian/Luke 1_46-56 _Visu apgriez_ (Turn It All Upside Down) — Latvian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.143369+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.001758+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.867,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 9640,
+      "end_ms": 39960,
       "lines": [
         {
           "text": "Troni ir tikai kresli",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 9640,
+          "end_ms": 12520,
+          "words": [
+            {
+              "word": "Troni",
+              "start_ms": 9640,
+              "end_ms": 10340
+            },
+            {
+              "word": "ir",
+              "start_ms": 10340,
+              "end_ms": 10640
+            },
+            {
+              "word": "tikai",
+              "start_ms": 10640,
+              "end_ms": 11260
+            },
+            {
+              "word": "kresli",
+              "start_ms": 11260,
+              "end_ms": 12520
+            }
+          ]
         },
         {
           "text": "Kroni ir tikai metals",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 13600,
+          "end_ms": 16700,
+          "words": [
+            {
+              "word": "Kroni",
+              "start_ms": 13600,
+              "end_ms": 14300
+            },
+            {
+              "word": "ir",
+              "start_ms": 14300,
+              "end_ms": 14520
+            },
+            {
+              "word": "tikai",
+              "start_ms": 14520,
+              "end_ms": 15220
+            },
+            {
+              "word": "metals",
+              "start_ms": 15220,
+              "end_ms": 16700
+            }
+          ]
         },
         {
           "text": "Kas sez augsa, tas nesedes ilgi",
-          "start_ms": 10000,
-          "end_ms": 12480
+          "start_ms": 20720,
+          "end_ms": 20720,
+          "words": [
+            {
+              "word": "Kas",
+              "start_ms": 20720,
+              "end_ms": 21140
+            },
+            {
+              "word": "sez",
+              "start_ms": 21190,
+              "end_ms": 21490,
+              "estimated": true
+            },
+            {
+              "word": "augsa,",
+              "start_ms": 21600,
+              "end_ms": 22340
+            },
+            {
+              "word": "tas",
+              "start_ms": 20720,
+              "end_ms": 21140
+            },
+            {
+              "word": "nesedes",
+              "start_ms": 18660,
+              "end_ms": 19540
+            },
+            {
+              "word": "ilgi",
+              "start_ms": 19540,
+              "end_ms": 20720
+            }
+          ]
         },
         {
           "text": "Kas stav apaksa, gaida savu bridi",
-          "start_ms": 12480,
-          "end_ms": 15120
+          "start_ms": 20720,
+          "end_ms": 24800,
+          "words": [
+            {
+              "word": "Kas",
+              "start_ms": 20720,
+              "end_ms": 21140
+            },
+            {
+              "word": "stav",
+              "start_ms": 21140,
+              "end_ms": 21600
+            },
+            {
+              "word": "apaksa,",
+              "start_ms": 21600,
+              "end_ms": 22340
+            },
+            {
+              "word": "gaida",
+              "start_ms": 22390,
+              "end_ms": 22690,
+              "estimated": true
+            },
+            {
+              "word": "savu",
+              "start_ms": 22800,
+              "end_ms": 23700
+            },
+            {
+              "word": "bridi",
+              "start_ms": 23700,
+              "end_ms": 24800
+            }
+          ]
         },
         {
           "text": "Izsalkusie zina garsu",
-          "start_ms": 15120,
-          "end_ms": 17120
+          "start_ms": 25860,
+          "end_ms": 27960,
+          "words": [
+            {
+              "word": "Izsalkusie",
+              "start_ms": 25860,
+              "end_ms": 26280
+            },
+            {
+              "word": "zina",
+              "start_ms": 26280,
+              "end_ms": 27000
+            },
+            {
+              "word": "garsu",
+              "start_ms": 27000,
+              "end_ms": 27960
+            }
+          ]
         },
         {
           "text": "Ko bagatie nekad nesapratis",
-          "start_ms": 17120,
-          "end_ms": 19280
+          "start_ms": 27960,
+          "end_ms": 31920,
+          "words": [
+            {
+              "word": "Ko",
+              "start_ms": 27960,
+              "end_ms": 29260
+            },
+            {
+              "word": "bagatie",
+              "start_ms": 29260,
+              "end_ms": 30000
+            },
+            {
+              "word": "nekad",
+              "start_ms": 30000,
+              "end_ms": 30460
+            },
+            {
+              "word": "nesapratis",
+              "start_ms": 30460,
+              "end_ms": 31920
+            }
+          ]
         },
         {
           "text": "Tuksas rokas prot satvert vairak",
-          "start_ms": 19280,
-          "end_ms": 21840
+          "start_ms": 32580,
+          "end_ms": 36240,
+          "words": [
+            {
+              "word": "Tuksas",
+              "start_ms": 32580,
+              "end_ms": 33480
+            },
+            {
+              "word": "rokas",
+              "start_ms": 33480,
+              "end_ms": 34180
+            },
+            {
+              "word": "prot",
+              "start_ms": 34180,
+              "end_ms": 35180
+            },
+            {
+              "word": "satvert",
+              "start_ms": 34180,
+              "end_ms": 35180
+            },
+            {
+              "word": "vairak",
+              "start_ms": 35180,
+              "end_ms": 36240
+            }
+          ]
         },
         {
           "text": "Neka pilnas kabatas",
-          "start_ms": 21840,
-          "end_ms": 23840
+          "start_ms": 37400,
+          "end_ms": 39960,
+          "words": [
+            {
+              "word": "Neka",
+              "start_ms": 37400,
+              "end_ms": 38320
+            },
+            {
+              "word": "pilnas",
+              "start_ms": 38320,
+              "end_ms": 38780
+            },
+            {
+              "word": "kabatas",
+              "start_ms": 38780,
+              "end_ms": 39960
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 23840
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 40800,
+      "end_ms": 43810,
       "lines": [
         {
           "text": "Vins jau ta dara",
-          "start_ms": 26840,
-          "end_ms": 28840
+          "start_ms": 40800,
+          "end_ms": 47280,
+          "words": [
+            {
+              "word": "Vins",
+              "start_ms": 40800,
+              "end_ms": 42280
+            },
+            {
+              "word": "jau",
+              "start_ms": 42280,
+              "end_ms": 43040
+            },
+            {
+              "word": "ta",
+              "start_ms": 43040,
+              "end_ms": 43460
+            },
+            {
+              "word": "dara",
+              "start_ms": 46360,
+              "end_ms": 47280
+            }
+          ]
         },
         {
           "text": "Vienmer ta darijis",
-          "start_ms": 28840,
-          "end_ms": 30840
+          "start_ms": 44960,
+          "end_ms": 43810,
+          "words": [
+            {
+              "word": "Vienmer",
+              "start_ms": 44960,
+              "end_ms": 45980
+            },
+            {
+              "word": "ta",
+              "start_ms": 43040,
+              "end_ms": 43460
+            },
+            {
+              "word": "darijis",
+              "start_ms": 43510,
+              "end_ms": 43810,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 26840,
-      "end_ms": 30840
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 47900,
+      "end_ms": 73220,
       "lines": [
         {
           "text": "Visu apgriez",
-          "start_ms": 33840,
-          "end_ms": 35840
+          "start_ms": 47900,
+          "end_ms": 49760,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 47900,
+              "end_ms": 49000
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 49000,
+              "end_ms": 49760
+            }
+          ]
         },
         {
           "text": "Augsu uz leju, leju uz augsu",
-          "start_ms": 35840,
-          "end_ms": 38080
+          "start_ms": 49760,
+          "end_ms": 50620,
+          "words": [
+            {
+              "word": "Augsu",
+              "start_ms": 49760,
+              "end_ms": 50620
+            },
+            {
+              "word": "uz",
+              "start_ms": 50620,
+              "end_ms": 50920
+            },
+            {
+              "word": "leju,",
+              "start_ms": 50920,
+              "end_ms": 51800
+            },
+            {
+              "word": "leju",
+              "start_ms": 50920,
+              "end_ms": 51800
+            },
+            {
+              "word": "uz",
+              "start_ms": 50620,
+              "end_ms": 50920
+            },
+            {
+              "word": "augsu",
+              "start_ms": 49760,
+              "end_ms": 50620
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 38080,
-          "end_ms": 40080
+          "start_ms": 47900,
+          "end_ms": 49760,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 47900,
+              "end_ms": 49000
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 49000,
+              "end_ms": 49760
+            }
+          ]
         },
         {
           "text": "Lepnos izkaisa ka puteklus",
-          "start_ms": 40080,
-          "end_ms": 42160
+          "start_ms": 57600,
+          "end_ms": 61980,
+          "words": [
+            {
+              "word": "Lepnos",
+              "start_ms": 57600,
+              "end_ms": 58520
+            },
+            {
+              "word": "izkaisa",
+              "start_ms": 58800,
+              "end_ms": 60040
+            },
+            {
+              "word": "ka",
+              "start_ms": 60120,
+              "end_ms": 60860
+            },
+            {
+              "word": "puteklus",
+              "start_ms": 60860,
+              "end_ms": 61980
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 42160,
-          "end_ms": 44160
+          "start_ms": 63380,
+          "end_ms": 65540,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 63380,
+              "end_ms": 64680
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 64680,
+              "end_ms": 65540
+            }
+          ]
         },
         {
           "text": "Mazos cel augsa, lielos noliek",
-          "start_ms": 44160,
-          "end_ms": 46560
+          "start_ms": 65540,
+          "end_ms": 69820,
+          "words": [
+            {
+              "word": "Mazos",
+              "start_ms": 65540,
+              "end_ms": 66360
+            },
+            {
+              "word": "cel",
+              "start_ms": 66360,
+              "end_ms": 66740
+            },
+            {
+              "word": "augsa,",
+              "start_ms": 66740,
+              "end_ms": 67580
+            },
+            {
+              "word": "lielos",
+              "start_ms": 67760,
+              "end_ms": 68320
+            },
+            {
+              "word": "noliek",
+              "start_ms": 68320,
+              "end_ms": 69820
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 46560,
-          "end_ms": 48560
+          "start_ms": 71180,
+          "end_ms": 73220,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 71180,
+              "end_ms": 72520
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 72520,
+              "end_ms": 73220
+            }
+          ]
         }
-      ],
-      "start_ms": 33840,
-      "end_ms": 48560
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 85020,
+      "end_ms": 105560,
       "lines": [
         {
           "text": "Ne pravietis, ne priesteris",
-          "start_ms": 51560,
-          "end_ms": 53720
+          "start_ms": 85020,
+          "end_ms": 85650,
+          "words": [
+            {
+              "word": "Ne",
+              "start_ms": 85020,
+              "end_ms": 85300
+            },
+            {
+              "word": "pravietis,",
+              "start_ms": 85350,
+              "end_ms": 85650,
+              "estimated": true
+            },
+            {
+              "word": "ne",
+              "start_ms": 85020,
+              "end_ms": 85300
+            },
+            {
+              "word": "priesteris",
+              "start_ms": 85350,
+              "end_ms": 85650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Marija no Nacaretes",
-          "start_ms": 53720,
-          "end_ms": 55720
+          "start_ms": 85300,
+          "end_ms": 86300,
+          "words": [
+            {
+              "word": "Marija",
+              "start_ms": 85300,
+              "end_ms": 85600,
+              "estimated": true
+            },
+            {
+              "word": "no",
+              "start_ms": 85650,
+              "end_ms": 85950,
+              "estimated": true
+            },
+            {
+              "word": "Nacaretes",
+              "start_ms": 86000,
+              "end_ms": 86300,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jauna meitene, neviena meita",
-          "start_ms": 55720,
-          "end_ms": 57960
+          "start_ms": 83500,
+          "end_ms": 90270,
+          "words": [
+            {
+              "word": "Jauna",
+              "start_ms": 83500,
+              "end_ms": 84300
+            },
+            {
+              "word": "meitene,",
+              "start_ms": 84300,
+              "end_ms": 85020
+            },
+            {
+              "word": "neviena",
+              "start_ms": 89220,
+              "end_ms": 89920
+            },
+            {
+              "word": "meita",
+              "start_ms": 89970,
+              "end_ms": 90270,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Vina saka to, ko neviens neuzdrukstas",
-          "start_ms": 57960,
-          "end_ms": 60920
+          "start_ms": 91760,
+          "end_ms": 101330,
+          "words": [
+            {
+              "word": "Vina",
+              "start_ms": 91760,
+              "end_ms": 92620
+            },
+            {
+              "word": "saka",
+              "start_ms": 92670,
+              "end_ms": 92970,
+              "estimated": true
+            },
+            {
+              "word": "to,",
+              "start_ms": 96300,
+              "end_ms": 96780
+            },
+            {
+              "word": "ko",
+              "start_ms": 96880,
+              "end_ms": 97080
+            },
+            {
+              "word": "neviens",
+              "start_ms": 100200,
+              "end_ms": 100980
+            },
+            {
+              "word": "neuzdrukstas",
+              "start_ms": 101030,
+              "end_ms": 101330,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Vins paskatijas uz vinu",
-          "start_ms": 60920,
-          "end_ms": 62920
+          "start_ms": 107619,
+          "end_ms": 109020,
+          "words": [
+            {
+              "word": "Vins",
+              "start_ms": 107619,
+              "end_ms": 109020
+            },
+            {
+              "word": "paskatijas",
+              "start_ms": 109070,
+              "end_ms": 109370,
+              "estimated": true
+            },
+            {
+              "word": "uz",
+              "start_ms": 109420,
+              "end_ms": 109720,
+              "estimated": true
+            },
+            {
+              "word": "vinu",
+              "start_ms": 107619,
+              "end_ms": 109020
+            }
+          ]
         },
         {
           "text": "Pamanija to, ko pasaule neredz",
-          "start_ms": 62920,
-          "end_ms": 65320
+          "start_ms": 109020,
+          "end_ms": 110720,
+          "words": [
+            {
+              "word": "Pamanija",
+              "start_ms": 109020,
+              "end_ms": 109320,
+              "estimated": true
+            },
+            {
+              "word": "to,",
+              "start_ms": 109370,
+              "end_ms": 109670,
+              "estimated": true
+            },
+            {
+              "word": "ko",
+              "start_ms": 109720,
+              "end_ms": 110020,
+              "estimated": true
+            },
+            {
+              "word": "pasaule",
+              "start_ms": 110070,
+              "end_ms": 110370,
+              "estimated": true
+            },
+            {
+              "word": "neredz",
+              "start_ms": 110420,
+              "end_ms": 110720,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Un tagad vinas balss",
-          "start_ms": 65320,
-          "end_ms": 67320
+          "start_ms": 109020,
+          "end_ms": 109370,
+          "words": [
+            {
+              "word": "Un",
+              "start_ms": 109020,
+              "end_ms": 109320,
+              "estimated": true
+            },
+            {
+              "word": "tagad",
+              "start_ms": 109800,
+              "end_ms": 110180
+            },
+            {
+              "word": "vinas",
+              "start_ms": 107619,
+              "end_ms": 109020
+            },
+            {
+              "word": "balss",
+              "start_ms": 109070,
+              "end_ms": 109370,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ir viss, kas vajadzigs",
-          "start_ms": 67320,
-          "end_ms": 69320
+          "start_ms": 109020,
+          "end_ms": 105560,
+          "words": [
+            {
+              "word": "Ir",
+              "start_ms": 109020,
+              "end_ms": 109320,
+              "estimated": true
+            },
+            {
+              "word": "viss,",
+              "start_ms": 107619,
+              "end_ms": 109020
+            },
+            {
+              "word": "kas",
+              "start_ms": 103980,
+              "end_ms": 104160
+            },
+            {
+              "word": "vajadzigs",
+              "start_ms": 104160,
+              "end_ms": 105560
+            }
+          ]
         }
-      ],
-      "start_ms": 51560,
-      "end_ms": 69320
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 107619,
+      "end_ms": 110530,
       "lines": [
         {
           "text": "Vins jau ta dara",
-          "start_ms": 72320,
-          "end_ms": 74320
+          "start_ms": 107619,
+          "end_ms": 113940,
+          "words": [
+            {
+              "word": "Vins",
+              "start_ms": 107619,
+              "end_ms": 109020
+            },
+            {
+              "word": "jau",
+              "start_ms": 109020,
+              "end_ms": 109800
+            },
+            {
+              "word": "ta",
+              "start_ms": 109800,
+              "end_ms": 110180
+            },
+            {
+              "word": "dara",
+              "start_ms": 113120,
+              "end_ms": 113940
+            }
+          ]
         },
         {
           "text": "Vienmer ta darijis",
-          "start_ms": 74320,
-          "end_ms": 76320
+          "start_ms": 111800,
+          "end_ms": 110530,
+          "words": [
+            {
+              "word": "Vienmer",
+              "start_ms": 111800,
+              "end_ms": 112840
+            },
+            {
+              "word": "ta",
+              "start_ms": 109800,
+              "end_ms": 110180
+            },
+            {
+              "word": "darijis",
+              "start_ms": 110230,
+              "end_ms": 110530,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 72320,
-      "end_ms": 76320
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 114640,
+      "end_ms": 140240,
       "lines": [
         {
           "text": "Visu apgriez",
-          "start_ms": 79320,
-          "end_ms": 81320
+          "start_ms": 114640,
+          "end_ms": 116500,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 114640,
+              "end_ms": 115680
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 115680,
+              "end_ms": 116500
+            }
+          ]
         },
         {
           "text": "Augsu uz leju, leju uz augsu",
-          "start_ms": 81320,
-          "end_ms": 83560
+          "start_ms": 116500,
+          "end_ms": 117360,
+          "words": [
+            {
+              "word": "Augsu",
+              "start_ms": 116500,
+              "end_ms": 117360
+            },
+            {
+              "word": "uz",
+              "start_ms": 117360,
+              "end_ms": 117660
+            },
+            {
+              "word": "leju,",
+              "start_ms": 117660,
+              "end_ms": 118520
+            },
+            {
+              "word": "leju",
+              "start_ms": 117660,
+              "end_ms": 118520
+            },
+            {
+              "word": "uz",
+              "start_ms": 117360,
+              "end_ms": 117660
+            },
+            {
+              "word": "augsu",
+              "start_ms": 116500,
+              "end_ms": 117360
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 83560,
-          "end_ms": 85560
+          "start_ms": 114640,
+          "end_ms": 116500,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 114640,
+              "end_ms": 115680
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 115680,
+              "end_ms": 116500
+            }
+          ]
         },
         {
           "text": "Lepnos izkaisa ka puteklus",
-          "start_ms": 85560,
-          "end_ms": 87640
+          "start_ms": 124340,
+          "end_ms": 128240,
+          "words": [
+            {
+              "word": "Lepnos",
+              "start_ms": 124340,
+              "end_ms": 125200
+            },
+            {
+              "word": "izkaisa",
+              "start_ms": 125460,
+              "end_ms": 126660
+            },
+            {
+              "word": "ka",
+              "start_ms": 126820,
+              "end_ms": 127540
+            },
+            {
+              "word": "puteklus",
+              "start_ms": 127540,
+              "end_ms": 128240
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 87640,
-          "end_ms": 89640
+          "start_ms": 129979,
+          "end_ms": 132120,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 129979,
+              "end_ms": 131340
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 131340,
+              "end_ms": 132120
+            }
+          ]
         },
         {
           "text": "Mazos cel augsa, lielos noliek",
-          "start_ms": 89640,
-          "end_ms": 92040
+          "start_ms": 132120,
+          "end_ms": 136120,
+          "words": [
+            {
+              "word": "Mazos",
+              "start_ms": 132120,
+              "end_ms": 133000
+            },
+            {
+              "word": "cel",
+              "start_ms": 133000,
+              "end_ms": 133340
+            },
+            {
+              "word": "augsa,",
+              "start_ms": 133340,
+              "end_ms": 134180
+            },
+            {
+              "word": "lielos",
+              "start_ms": 134360,
+              "end_ms": 134940
+            },
+            {
+              "word": "noliek",
+              "start_ms": 134940,
+              "end_ms": 136120
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 92040,
-          "end_ms": 94040
+          "start_ms": 138240,
+          "end_ms": 140240,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 138240,
+              "end_ms": 139000
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 139000,
+              "end_ms": 140240
+            }
+          ]
         }
-      ],
-      "start_ms": 79320,
-      "end_ms": 94040
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 141540,
+      "end_ms": 156460,
       "lines": [
         {
           "text": "Tas vienmer ta bijis",
-          "start_ms": 97040,
-          "end_ms": 99040
+          "start_ms": 141540,
+          "end_ms": 144120,
+          "words": [
+            {
+              "word": "Tas",
+              "start_ms": 141540,
+              "end_ms": 142240
+            },
+            {
+              "word": "vienmer",
+              "start_ms": 142240,
+              "end_ms": 142940
+            },
+            {
+              "word": "ta",
+              "start_ms": 141540,
+              "end_ms": 142240
+            },
+            {
+              "word": "bijis",
+              "start_ms": 143340,
+              "end_ms": 144120
+            }
+          ]
         },
         {
           "text": "Kops pirmas dienas",
-          "start_ms": 99040,
-          "end_ms": 101040
+          "start_ms": 145640,
+          "end_ms": 148120,
+          "words": [
+            {
+              "word": "Kops",
+              "start_ms": 145640,
+              "end_ms": 146340
+            },
+            {
+              "word": "pirmas",
+              "start_ms": 146340,
+              "end_ms": 147160
+            },
+            {
+              "word": "dienas",
+              "start_ms": 147160,
+              "end_ms": 148120
+            }
+          ]
         },
         {
           "text": "Vins neatstaj nevienu",
-          "start_ms": 101040,
-          "end_ms": 103040
+          "start_ms": 148920,
+          "end_ms": 153120,
+          "words": [
+            {
+              "word": "Vins",
+              "start_ms": 148920,
+              "end_ms": 150120
+            },
+            {
+              "word": "neatstaj",
+              "start_ms": 150120,
+              "end_ms": 150560
+            },
+            {
+              "word": "nevienu",
+              "start_ms": 150800,
+              "end_ms": 153120
+            }
+          ]
         },
         {
           "text": "Kas stav apaksa",
-          "start_ms": 103040,
-          "end_ms": 105040
+          "start_ms": 153820,
+          "end_ms": 156460,
+          "words": [
+            {
+              "word": "Kas",
+              "start_ms": 153820,
+              "end_ms": 154280
+            },
+            {
+              "word": "stav",
+              "start_ms": 154280,
+              "end_ms": 155060
+            },
+            {
+              "word": "apaksa",
+              "start_ms": 155060,
+              "end_ms": 156460
+            }
+          ]
         }
-      ],
-      "start_ms": 97040,
-      "end_ms": 105040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 170600,
+      "end_ms": 196060,
       "lines": [
         {
           "text": "Visu apgriez",
-          "start_ms": 108040,
-          "end_ms": 110040
+          "start_ms": 170600,
+          "end_ms": 172860,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 170600,
+              "end_ms": 172000
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 172000,
+              "end_ms": 172860
+            }
+          ]
         },
         {
           "text": "Augsu uz leju, leju uz augsu",
-          "start_ms": 110040,
-          "end_ms": 112280
+          "start_ms": 172860,
+          "end_ms": 173680,
+          "words": [
+            {
+              "word": "Augsu",
+              "start_ms": 172860,
+              "end_ms": 173680
+            },
+            {
+              "word": "uz",
+              "start_ms": 173680,
+              "end_ms": 173940
+            },
+            {
+              "word": "leju,",
+              "start_ms": 173940,
+              "end_ms": 174860
+            },
+            {
+              "word": "leju",
+              "start_ms": 173940,
+              "end_ms": 174860
+            },
+            {
+              "word": "uz",
+              "start_ms": 173680,
+              "end_ms": 173940
+            },
+            {
+              "word": "augsu",
+              "start_ms": 172860,
+              "end_ms": 173680
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 112280,
-          "end_ms": 114280
+          "start_ms": 170600,
+          "end_ms": 172860,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 170600,
+              "end_ms": 172000
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 172000,
+              "end_ms": 172860
+            }
+          ]
         },
         {
           "text": "Lepnos izkaisa ka puteklus",
-          "start_ms": 114280,
-          "end_ms": 116360
+          "start_ms": 180560,
+          "end_ms": 184480,
+          "words": [
+            {
+              "word": "Lepnos",
+              "start_ms": 180560,
+              "end_ms": 181460
+            },
+            {
+              "word": "izkaisa",
+              "start_ms": 181760,
+              "end_ms": 182900
+            },
+            {
+              "word": "ka",
+              "start_ms": 183060,
+              "end_ms": 183780
+            },
+            {
+              "word": "puteklus",
+              "start_ms": 183780,
+              "end_ms": 184480
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 116360,
-          "end_ms": 118360
+          "start_ms": 186220,
+          "end_ms": 188280,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 186220,
+              "end_ms": 187440
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 187440,
+              "end_ms": 188280
+            }
+          ]
         },
         {
           "text": "Mazos cel augsa, lielos noliek",
-          "start_ms": 118360,
-          "end_ms": 120760
+          "start_ms": 188280,
+          "end_ms": 192280,
+          "words": [
+            {
+              "word": "Mazos",
+              "start_ms": 188280,
+              "end_ms": 189140
+            },
+            {
+              "word": "cel",
+              "start_ms": 189140,
+              "end_ms": 189580
+            },
+            {
+              "word": "augsa,",
+              "start_ms": 189580,
+              "end_ms": 190380
+            },
+            {
+              "word": "lielos",
+              "start_ms": 190600,
+              "end_ms": 191120
+            },
+            {
+              "word": "noliek",
+              "start_ms": 191120,
+              "end_ms": 192280
+            }
+          ]
         },
         {
           "text": "Visu apgriez",
-          "start_ms": 120760,
-          "end_ms": 122760
+          "start_ms": 194460,
+          "end_ms": 196060,
+          "words": [
+            {
+              "word": "Visu",
+              "start_ms": 194460,
+              "end_ms": 195180
+            },
+            {
+              "word": "apgriez",
+              "start_ms": 195180,
+              "end_ms": 196060
+            }
+          ]
         }
-      ],
-      "start_ms": 108040,
-      "end_ms": 122760
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Vins jau ta dara",
+      "section_type": "chorus",
+      "start_ms": 40800,
+      "end_ms": 43810,
+      "key_line": "Vins jau ta dara",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Visu apgriez",
+      "section_type": "chorus",
+      "start_ms": 47900,
+      "end_ms": 73220,
+      "key_line": "Visu apgriez",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Vins jau ta dara",
+      "section_type": "chorus",
+      "start_ms": 107619,
+      "end_ms": 110530,
+      "key_line": "Vins jau ta dara",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Visu apgriez",
+      "section_type": "chorus",
+      "start_ms": 114640,
+      "end_ms": 140240,
+      "key_line": "Visu apgriez",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 141540,
+      "end_ms": 156460,
+      "key_line": "Tas vienmer ta bijis",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Visu apgriez",
+      "section_type": "chorus",
+      "start_ms": 170600,
+      "end_ms": 196060,
+      "key_line": "Visu apgriez",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/latvian/42_luke_01_1-46_transcript.json"
 }

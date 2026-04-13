@@ -7,321 +7,1178 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:67-79",
-  "duration_ms": 220000,
+  "duration_ms": 294320,
   "audio_file": "/audio/songs/luke_01/slovenian/Luke 1_67-79 — _Zora_ (Slovenian).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.322061+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.059121+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.701,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Whispered",
+      "label": "Verse 1",
+      "start_ms": 32080,
+      "end_ms": 70980,
       "lines": [
         {
           "text": "Devet mesecev",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 32080,
+          "end_ms": 34540,
+          "words": [
+            {
+              "word": "Devet",
+              "start_ms": 32080,
+              "end_ms": 33480
+            },
+            {
+              "word": "mesecev",
+              "start_ms": 33480,
+              "end_ms": 34540
+            }
+          ]
         },
         {
           "text": "brez besed",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 37440,
+          "end_ms": 39120,
+          "words": [
+            {
+              "word": "brez",
+              "start_ms": 37440,
+              "end_ms": 38420
+            },
+            {
+              "word": "besed",
+              "start_ms": 38420,
+              "end_ms": 39120
+            }
+          ]
         },
         {
           "text": "naucil sem se",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 40620,
+          "end_ms": 39120,
+          "words": [
+            {
+              "word": "naucil",
+              "start_ms": 40620,
+              "end_ms": 42020
+            },
+            {
+              "word": "sem",
+              "start_ms": 42020,
+              "end_ms": 42260
+            },
+            {
+              "word": "se",
+              "start_ms": 38420,
+              "end_ms": 39120
+            }
+          ]
         },
         {
           "text": "kaj pomeni tisina",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 44780,
+          "end_ms": 48420,
+          "words": [
+            {
+              "word": "kaj",
+              "start_ms": 44780,
+              "end_ms": 44960
+            },
+            {
+              "word": "pomeni",
+              "start_ms": 44960,
+              "end_ms": 46480
+            },
+            {
+              "word": "tisina",
+              "start_ms": 46480,
+              "end_ms": 48420
+            }
+          ]
         },
         {
           "text": "Mislil sem da vem vse",
-          "start_ms": 14000,
-          "end_ms": 16000
+          "start_ms": 48420,
+          "end_ms": 56000,
+          "words": [
+            {
+              "word": "Mislil",
+              "start_ms": 48420,
+              "end_ms": 50060
+            },
+            {
+              "word": "sem",
+              "start_ms": 53300,
+              "end_ms": 53900
+            },
+            {
+              "word": "da",
+              "start_ms": 53950,
+              "end_ms": 54250,
+              "estimated": true
+            },
+            {
+              "word": "vem",
+              "start_ms": 54220,
+              "end_ms": 56000
+            },
+            {
+              "word": "vse",
+              "start_ms": 54220,
+              "end_ms": 56000
+            }
+          ]
         },
         {
           "text": "stal sem pred vsemi",
-          "start_ms": 16000,
-          "end_ms": 18000
+          "start_ms": 56000,
+          "end_ms": 56000,
+          "words": [
+            {
+              "word": "stal",
+              "start_ms": 56000,
+              "end_ms": 56300,
+              "estimated": true
+            },
+            {
+              "word": "sem",
+              "start_ms": 53300,
+              "end_ms": 53900
+            },
+            {
+              "word": "pred",
+              "start_ms": 53900,
+              "end_ms": 54220
+            },
+            {
+              "word": "vsemi",
+              "start_ms": 54220,
+              "end_ms": 56000
+            }
+          ]
         },
         {
           "text": "in odsel brez glasu",
-          "start_ms": 18000,
-          "end_ms": 20000
+          "start_ms": 56000,
+          "end_ms": 70980,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 56000,
+              "end_ms": 57460
+            },
+            {
+              "word": "odsel",
+              "start_ms": 68900,
+              "end_ms": 70280
+            },
+            {
+              "word": "brez",
+              "start_ms": 70330,
+              "end_ms": 70630,
+              "estimated": true
+            },
+            {
+              "word": "glasu",
+              "start_ms": 70680,
+              "end_ms": 70980,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 20000
+      ]
     },
     {
       "type": "verse",
-      "label": "Verse 2] [Soft",
+      "label": "Verse 2",
+      "start_ms": 73420,
+      "end_ms": 97080,
       "lines": [
         {
           "text": "V temi sem sedel",
-          "start_ms": 23000,
-          "end_ms": 25000
+          "start_ms": 73420,
+          "end_ms": 71000,
+          "words": [
+            {
+              "word": "V",
+              "start_ms": 73420,
+              "end_ms": 73640
+            },
+            {
+              "word": "temi",
+              "start_ms": 73690,
+              "end_ms": 73990,
+              "estimated": true
+            },
+            {
+              "word": "sem",
+              "start_ms": 74040,
+              "end_ms": 74340,
+              "estimated": true
+            },
+            {
+              "word": "sedel",
+              "start_ms": 70280,
+              "end_ms": 71000
+            }
+          ]
         },
         {
           "text": "ne hodil, sedel",
-          "start_ms": 25000,
-          "end_ms": 27000
+          "start_ms": 68640,
+          "end_ms": 71000,
+          "words": [
+            {
+              "word": "ne",
+              "start_ms": 68640,
+              "end_ms": 68900
+            },
+            {
+              "word": "hodil,",
+              "start_ms": 68900,
+              "end_ms": 70280
+            },
+            {
+              "word": "sedel",
+              "start_ms": 70280,
+              "end_ms": 71000
+            }
+          ]
         },
         {
           "text": "ujet v svoji gotovosti",
-          "start_ms": 27000,
-          "end_ms": 29000
+          "start_ms": 72360,
+          "end_ms": 76000,
+          "words": [
+            {
+              "word": "ujet",
+              "start_ms": 72360,
+              "end_ms": 73420
+            },
+            {
+              "word": "v",
+              "start_ms": 73420,
+              "end_ms": 73640
+            },
+            {
+              "word": "svoji",
+              "start_ms": 73640,
+              "end_ms": 74560
+            },
+            {
+              "word": "gotovosti",
+              "start_ms": 74560,
+              "end_ms": 76000
+            }
+          ]
         },
         {
           "text": "ki je bila premajhna",
-          "start_ms": 29000,
-          "end_ms": 31000
+          "start_ms": 77780,
+          "end_ms": 80840,
+          "words": [
+            {
+              "word": "ki",
+              "start_ms": 77780,
+              "end_ms": 78340
+            },
+            {
+              "word": "je",
+              "start_ms": 78340,
+              "end_ms": 78560
+            },
+            {
+              "word": "bila",
+              "start_ms": 78560,
+              "end_ms": 79200
+            },
+            {
+              "word": "premajhna",
+              "start_ms": 79200,
+              "end_ms": 80840
+            }
+          ]
         },
         {
           "text": "In pocasi",
-          "start_ms": 31000,
-          "end_ms": 33000
+          "start_ms": 80840,
+          "end_ms": 83000,
+          "words": [
+            {
+              "word": "In",
+              "start_ms": 80840,
+              "end_ms": 81560
+            },
+            {
+              "word": "pocasi",
+              "start_ms": 82020,
+              "end_ms": 83000
+            }
+          ]
         },
         {
           "text": "v tisini",
-          "start_ms": 33000,
-          "end_ms": 35000
+          "start_ms": 83000,
+          "end_ms": 87460,
+          "words": [
+            {
+              "word": "v",
+              "start_ms": 83000,
+              "end_ms": 85420
+            },
+            {
+              "word": "tisini",
+              "start_ms": 85420,
+              "end_ms": 87460
+            }
+          ]
         },
         {
           "text": "se je zacelo premikati",
-          "start_ms": 35000,
-          "end_ms": 37000
+          "start_ms": 87460,
+          "end_ms": 91560,
+          "words": [
+            {
+              "word": "se",
+              "start_ms": 87460,
+              "end_ms": 89040
+            },
+            {
+              "word": "je",
+              "start_ms": 89040,
+              "end_ms": 89320
+            },
+            {
+              "word": "zacelo",
+              "start_ms": 89540,
+              "end_ms": 90860
+            },
+            {
+              "word": "premikati",
+              "start_ms": 90860,
+              "end_ms": 91560
+            }
+          ]
         },
         {
           "text": "nekaj kar ni bilo moje",
-          "start_ms": 37000,
-          "end_ms": 39000
+          "start_ms": 93100,
+          "end_ms": 97080,
+          "words": [
+            {
+              "word": "nekaj",
+              "start_ms": 93100,
+              "end_ms": 94500
+            },
+            {
+              "word": "kar",
+              "start_ms": 94500,
+              "end_ms": 95620
+            },
+            {
+              "word": "ni",
+              "start_ms": 94500,
+              "end_ms": 95620
+            },
+            {
+              "word": "bilo",
+              "start_ms": 95620,
+              "end_ms": 96220
+            },
+            {
+              "word": "moje",
+              "start_ms": 96220,
+              "end_ms": 97080
+            }
+          ]
         }
-      ],
-      "start_ms": 23000,
-      "end_ms": 39000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 97080,
+      "end_ms": 105000,
       "lines": [
         {
           "text": "Iz globine hvaleznosti",
-          "start_ms": 42000,
-          "end_ms": 44000
+          "start_ms": 97080,
+          "end_ms": 100160,
+          "words": [
+            {
+              "word": "Iz",
+              "start_ms": 97080,
+              "end_ms": 98560
+            },
+            {
+              "word": "globine",
+              "start_ms": 98560,
+              "end_ms": 99460
+            },
+            {
+              "word": "hvaleznosti",
+              "start_ms": 99460,
+              "end_ms": 100160
+            }
+          ]
         },
         {
           "text": "iz same globine",
-          "start_ms": 44000,
-          "end_ms": 46000
+          "start_ms": 97080,
+          "end_ms": 105000,
+          "words": [
+            {
+              "word": "iz",
+              "start_ms": 97080,
+              "end_ms": 98560
+            },
+            {
+              "word": "same",
+              "start_ms": 102600,
+              "end_ms": 103400
+            },
+            {
+              "word": "globine",
+              "start_ms": 103400,
+              "end_ms": 105000
+            }
+          ]
         }
-      ],
-      "start_ms": 42000,
-      "end_ms": 46000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 109540,
+      "end_ms": 133940,
       "lines": [
         {
           "text": "Zora",
-          "start_ms": 49000,
-          "end_ms": 51000
+          "start_ms": 109540,
+          "end_ms": 110200,
+          "words": [
+            {
+              "word": "Zora",
+              "start_ms": 109540,
+              "end_ms": 110200
+            }
+          ]
         },
         {
           "text": "zora z visave",
-          "start_ms": 51000,
-          "end_ms": 53000
+          "start_ms": 109540,
+          "end_ms": 111000,
+          "words": [
+            {
+              "word": "zora",
+              "start_ms": 109540,
+              "end_ms": 110200
+            },
+            {
+              "word": "z",
+              "start_ms": 110250,
+              "end_ms": 110550,
+              "estimated": true
+            },
+            {
+              "word": "visave",
+              "start_ms": 110200,
+              "end_ms": 111000
+            }
+          ]
         },
         {
           "text": "zasvetila bo tistim",
-          "start_ms": 53000,
-          "end_ms": 55000
+          "start_ms": 113899,
+          "end_ms": 117160,
+          "words": [
+            {
+              "word": "zasvetila",
+              "start_ms": 113899,
+              "end_ms": 115300
+            },
+            {
+              "word": "bo",
+              "start_ms": 115300,
+              "end_ms": 115860
+            },
+            {
+              "word": "tistim",
+              "start_ms": 115860,
+              "end_ms": 117160
+            }
+          ]
         },
         {
           "text": "ki sedijo v temi",
-          "start_ms": 55000,
-          "end_ms": 57000
+          "start_ms": 118080,
+          "end_ms": 122500,
+          "words": [
+            {
+              "word": "ki",
+              "start_ms": 118080,
+              "end_ms": 118280
+            },
+            {
+              "word": "sedijo",
+              "start_ms": 118280,
+              "end_ms": 119540
+            },
+            {
+              "word": "v",
+              "start_ms": 119540,
+              "end_ms": 120080
+            },
+            {
+              "word": "temi",
+              "start_ms": 120080,
+              "end_ms": 122500
+            }
+          ]
         },
         {
           "text": "Zora",
-          "start_ms": 57000,
-          "end_ms": 59000
+          "start_ms": 122500,
+          "end_ms": 124460,
+          "words": [
+            {
+              "word": "Zora",
+              "start_ms": 122500,
+              "end_ms": 124460
+            }
+          ]
         },
         {
           "text": "in noge napotila",
-          "start_ms": 59000,
-          "end_ms": 61000
+          "start_ms": 124460,
+          "end_ms": 128500,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 124460,
+              "end_ms": 124760,
+              "estimated": true
+            },
+            {
+              "word": "noge",
+              "start_ms": 125540,
+              "end_ms": 126140
+            },
+            {
+              "word": "napotila",
+              "start_ms": 126140,
+              "end_ms": 128500
+            }
+          ]
         },
         {
           "text": "na pot miru",
-          "start_ms": 61000,
-          "end_ms": 63000
+          "start_ms": 128500,
+          "end_ms": 133940,
+          "words": [
+            {
+              "word": "na",
+              "start_ms": 128500,
+              "end_ms": 130120
+            },
+            {
+              "word": "pot",
+              "start_ms": 130120,
+              "end_ms": 130639
+            },
+            {
+              "word": "miru",
+              "start_ms": 130639,
+              "end_ms": 133940
+            }
+          ]
         }
-      ],
-      "start_ms": 49000,
-      "end_ms": 63000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 141000,
+      "end_ms": 185260,
       "lines": [
         {
           "text": "Spregovoril sem",
-          "start_ms": 66000,
-          "end_ms": 68000
+          "start_ms": 141000,
+          "end_ms": 152740,
+          "words": [
+            {
+              "word": "Spregovoril",
+              "start_ms": 141000,
+              "end_ms": 141300,
+              "estimated": true
+            },
+            {
+              "word": "sem",
+              "start_ms": 141060,
+              "end_ms": 152740
+            }
+          ]
         },
         {
           "text": "in prve besede",
-          "start_ms": 68000,
-          "end_ms": 70000
+          "start_ms": 152740,
+          "end_ms": 163340,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 152740,
+              "end_ms": 153040,
+              "estimated": true
+            },
+            {
+              "word": "prve",
+              "start_ms": 153090,
+              "end_ms": 153390,
+              "estimated": true
+            },
+            {
+              "word": "besede",
+              "start_ms": 163340,
+              "end_ms": 163340
+            }
+          ]
         },
         {
           "text": "niso bile pojasnilo",
-          "start_ms": 70000,
-          "end_ms": 72000
+          "start_ms": 163340,
+          "end_ms": 164510,
+          "words": [
+            {
+              "word": "niso",
+              "start_ms": 163340,
+              "end_ms": 163640,
+              "estimated": true
+            },
+            {
+              "word": "bile",
+              "start_ms": 164120,
+              "end_ms": 164160
+            },
+            {
+              "word": "pojasnilo",
+              "start_ms": 164210,
+              "end_ms": 164510,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "niso bile pritozba",
-          "start_ms": 72000,
-          "end_ms": 74000
+          "start_ms": 164160,
+          "end_ms": 164510,
+          "words": [
+            {
+              "word": "niso",
+              "start_ms": 164160,
+              "end_ms": 164460,
+              "estimated": true
+            },
+            {
+              "word": "bile",
+              "start_ms": 164120,
+              "end_ms": 164160
+            },
+            {
+              "word": "pritozba",
+              "start_ms": 164210,
+              "end_ms": 164510,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Prve besede so bile",
-          "start_ms": 74000,
-          "end_ms": 76000
+          "start_ms": 164160,
+          "end_ms": 164160,
+          "words": [
+            {
+              "word": "Prve",
+              "start_ms": 164160,
+              "end_ms": 164460,
+              "estimated": true
+            },
+            {
+              "word": "besede",
+              "start_ms": 164510,
+              "end_ms": 164810,
+              "estimated": true
+            },
+            {
+              "word": "so",
+              "start_ms": 164860,
+              "end_ms": 165160,
+              "estimated": true
+            },
+            {
+              "word": "bile",
+              "start_ms": 164120,
+              "end_ms": 164160
+            }
+          ]
         },
         {
           "text": "hvala",
-          "start_ms": 76000,
-          "end_ms": 78000
+          "start_ms": 164160,
+          "end_ms": 164460,
+          "words": [
+            {
+              "word": "hvala",
+              "start_ms": 164160,
+              "end_ms": 164460,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "ker tisina te nauci",
-          "start_ms": 78000,
-          "end_ms": 80000
+          "start_ms": 164160,
+          "end_ms": 170980,
+          "words": [
+            {
+              "word": "ker",
+              "start_ms": 164160,
+              "end_ms": 164460,
+              "estimated": true
+            },
+            {
+              "word": "tisina",
+              "start_ms": 164510,
+              "end_ms": 164810,
+              "estimated": true
+            },
+            {
+              "word": "te",
+              "start_ms": 164860,
+              "end_ms": 165160,
+              "estimated": true
+            },
+            {
+              "word": "nauci",
+              "start_ms": 170980,
+              "end_ms": 170980
+            }
+          ]
         },
         {
           "text": "kaj je vredno reci",
-          "start_ms": 80000,
-          "end_ms": 82000
+          "start_ms": 180579,
+          "end_ms": 185260,
+          "words": [
+            {
+              "word": "kaj",
+              "start_ms": 180579,
+              "end_ms": 181980
+            },
+            {
+              "word": "je",
+              "start_ms": 181980,
+              "end_ms": 182520
+            },
+            {
+              "word": "vredno",
+              "start_ms": 182520,
+              "end_ms": 184560
+            },
+            {
+              "word": "reci",
+              "start_ms": 184560,
+              "end_ms": 185260
+            }
+          ]
         }
-      ],
-      "start_ms": 66000,
-      "end_ms": 82000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 189480,
+      "end_ms": 227830,
       "lines": [
         {
           "text": "Zora",
-          "start_ms": 85000,
-          "end_ms": 87000
+          "start_ms": 189480,
+          "end_ms": 190200,
+          "words": [
+            {
+              "word": "Zora",
+              "start_ms": 189480,
+              "end_ms": 190200
+            }
+          ]
         },
         {
           "text": "zora z visave",
-          "start_ms": 87000,
-          "end_ms": 89000
+          "start_ms": 189480,
+          "end_ms": 190980,
+          "words": [
+            {
+              "word": "zora",
+              "start_ms": 189480,
+              "end_ms": 190200
+            },
+            {
+              "word": "z",
+              "start_ms": 190250,
+              "end_ms": 190550,
+              "estimated": true
+            },
+            {
+              "word": "visave",
+              "start_ms": 190200,
+              "end_ms": 190980
+            }
+          ]
         },
         {
           "text": "zasvetila bo tistim",
-          "start_ms": 89000,
-          "end_ms": 91000
+          "start_ms": 193840,
+          "end_ms": 196700,
+          "words": [
+            {
+              "word": "zasvetila",
+              "start_ms": 193840,
+              "end_ms": 195240
+            },
+            {
+              "word": "bo",
+              "start_ms": 195240,
+              "end_ms": 195800
+            },
+            {
+              "word": "tistim",
+              "start_ms": 195800,
+              "end_ms": 196700
+            }
+          ]
         },
         {
           "text": "ki sedijo v temi",
-          "start_ms": 91000,
-          "end_ms": 93000
+          "start_ms": 197820,
+          "end_ms": 200880,
+          "words": [
+            {
+              "word": "ki",
+              "start_ms": 197820,
+              "end_ms": 198180
+            },
+            {
+              "word": "sedijo",
+              "start_ms": 198180,
+              "end_ms": 199660
+            },
+            {
+              "word": "v",
+              "start_ms": 199660,
+              "end_ms": 200080
+            },
+            {
+              "word": "temi",
+              "start_ms": 200080,
+              "end_ms": 200880
+            }
+          ]
         },
         {
           "text": "Zora",
-          "start_ms": 93000,
-          "end_ms": 95000
+          "start_ms": 203019,
+          "end_ms": 204420,
+          "words": [
+            {
+              "word": "Zora",
+              "start_ms": 203019,
+              "end_ms": 204420
+            }
+          ]
         },
         {
           "text": "in noge napotila",
-          "start_ms": 95000,
-          "end_ms": 97000
+          "start_ms": 217160,
+          "end_ms": 218740,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 217160,
+              "end_ms": 218040
+            },
+            {
+              "word": "noge",
+              "start_ms": 218090,
+              "end_ms": 218390,
+              "estimated": true
+            },
+            {
+              "word": "napotila",
+              "start_ms": 218440,
+              "end_ms": 218740,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "na pot miru",
-          "start_ms": 97000,
-          "end_ms": 99000
+          "start_ms": 218040,
+          "end_ms": 227830,
+          "words": [
+            {
+              "word": "na",
+              "start_ms": 218040,
+              "end_ms": 218340,
+              "estimated": true
+            },
+            {
+              "word": "pot",
+              "start_ms": 226560,
+              "end_ms": 227480
+            },
+            {
+              "word": "miru",
+              "start_ms": 227530,
+              "end_ms": 227830,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 85000,
-      "end_ms": 99000
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 225080,
+      "end_ms": 294300,
       "lines": [
         {
           "text": "In ti, otrok",
-          "start_ms": 102000,
-          "end_ms": 104000
+          "start_ms": 225080,
+          "end_ms": 227830,
+          "words": [
+            {
+              "word": "In",
+              "start_ms": 225080,
+              "end_ms": 226060
+            },
+            {
+              "word": "ti,",
+              "start_ms": 226560,
+              "end_ms": 227480
+            },
+            {
+              "word": "otrok",
+              "start_ms": 227530,
+              "end_ms": 227830,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "ti bos hodil naprej",
-          "start_ms": 104000,
-          "end_ms": 106000
+          "start_ms": 228580,
+          "end_ms": 232800,
+          "words": [
+            {
+              "word": "ti",
+              "start_ms": 228580,
+              "end_ms": 228880,
+              "estimated": true
+            },
+            {
+              "word": "bos",
+              "start_ms": 228930,
+              "end_ms": 229230,
+              "estimated": true
+            },
+            {
+              "word": "hodil",
+              "start_ms": 229280,
+              "end_ms": 229580,
+              "estimated": true
+            },
+            {
+              "word": "naprej",
+              "start_ms": 230300,
+              "end_ms": 232800
+            }
+          ]
         },
         {
           "text": "in iskal pot",
-          "start_ms": 106000,
-          "end_ms": 108000
+          "start_ms": 238399,
+          "end_ms": 285020,
+          "words": [
+            {
+              "word": "in",
+              "start_ms": 238399,
+              "end_ms": 238699,
+              "estimated": true
+            },
+            {
+              "word": "iskal",
+              "start_ms": 238749,
+              "end_ms": 239049,
+              "estimated": true
+            },
+            {
+              "word": "pot",
+              "start_ms": 284760,
+              "end_ms": 285020
+            }
+          ]
         },
         {
           "text": "ki je jaz nisem nasel",
-          "start_ms": 108000,
-          "end_ms": 110000
+          "start_ms": 285020,
+          "end_ms": 294300,
+          "words": [
+            {
+              "word": "ki",
+              "start_ms": 285020,
+              "end_ms": 285320,
+              "estimated": true
+            },
+            {
+              "word": "je",
+              "start_ms": 294300,
+              "end_ms": 294300
+            },
+            {
+              "word": "jaz",
+              "start_ms": 294350,
+              "end_ms": 294650,
+              "estimated": true
+            },
+            {
+              "word": "nisem",
+              "start_ms": 294700,
+              "end_ms": 295000,
+              "estimated": true
+            },
+            {
+              "word": "nasel",
+              "start_ms": 294300,
+              "end_ms": 294300
+            }
+          ]
         }
-      ],
-      "start_ms": 102000,
-      "end_ms": 110000
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Crescendo",
+      "label": "Outro",
+      "start_ms": 294300,
+      "end_ms": 295300,
       "lines": [
         {
           "text": "Zora",
-          "start_ms": 113000,
-          "end_ms": 115000
+          "start_ms": 294300,
+          "end_ms": 294600,
+          "words": [
+            {
+              "word": "Zora",
+              "start_ms": 294300,
+              "end_ms": 294600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "zora",
-          "start_ms": 115000,
-          "end_ms": 117000
+          "start_ms": 294300,
+          "end_ms": 294600,
+          "words": [
+            {
+              "word": "zora",
+              "start_ms": 294300,
+              "end_ms": 294600,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "zora z visave",
-          "start_ms": 117000,
-          "end_ms": 119000
+          "start_ms": 294300,
+          "end_ms": 295300,
+          "words": [
+            {
+              "word": "zora",
+              "start_ms": 294300,
+              "end_ms": 294600,
+              "estimated": true
+            },
+            {
+              "word": "z",
+              "start_ms": 294650,
+              "end_ms": 294950,
+              "estimated": true
+            },
+            {
+              "word": "visave",
+              "start_ms": 295000,
+              "end_ms": 295300,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 113000,
-      "end_ms": 119000
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 122000,
-          "end_ms": 124000
-        }
-      ],
-      "start_ms": 122000,
-      "end_ms": 124000
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Iz globine hvaleznosti",
+      "section_type": "chorus",
+      "start_ms": 97080,
+      "end_ms": 105000,
+      "key_line": "Iz globine hvaleznosti",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Zora",
+      "section_type": "chorus",
+      "start_ms": 109540,
+      "end_ms": 133940,
+      "key_line": "Zora",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Zora",
+      "section_type": "chorus",
+      "start_ms": 189480,
+      "end_ms": 227830,
+      "key_line": "Zora",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 225080,
+      "end_ms": 294300,
+      "key_line": "In ti, otrok",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/slovenian/42_luke_01_1-67_transcript.json"
 }

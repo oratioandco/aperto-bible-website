@@ -7,273 +7,1186 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 189920,
   "audio_file": "/audio/songs/luke_01/norwegian/Han så meg — Magnificat (Luke 1_46-56)- norwegian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.189733+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.013932+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.885,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 16359,
+      "end_ms": 32100,
       "lines": [
         {
           "text": "De sa hun var ingen",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 16359,
+          "end_ms": 20480,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 16359,
+              "end_ms": 16659,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 17439,
+              "end_ms": 18520
+            },
+            {
+              "word": "hun",
+              "start_ms": 18720,
+              "end_ms": 18740
+            },
+            {
+              "word": "var",
+              "start_ms": 18740,
+              "end_ms": 19260
+            },
+            {
+              "word": "ingen",
+              "start_ms": 19260,
+              "end_ms": 20480
+            }
+          ]
         },
         {
           "text": "En jente fra ingensteds",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 20480,
+          "end_ms": 24480,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 20480,
+              "end_ms": 21340
+            },
+            {
+              "word": "jente",
+              "start_ms": 21340,
+              "end_ms": 21840
+            },
+            {
+              "word": "fra",
+              "start_ms": 21840,
+              "end_ms": 22400
+            },
+            {
+              "word": "ingensteds",
+              "start_ms": 22400,
+              "end_ms": 24480
+            }
+          ]
         },
         {
           "text": "Men Gud har en vane",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 24480,
+          "end_ms": 28680,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 24480,
+              "end_ms": 26560
+            },
+            {
+              "word": "Gud",
+              "start_ms": 26560,
+              "end_ms": 26960
+            },
+            {
+              "word": "har",
+              "start_ms": 26960,
+              "end_ms": 27200
+            },
+            {
+              "word": "en",
+              "start_ms": 27200,
+              "end_ms": 27400
+            },
+            {
+              "word": "vane",
+              "start_ms": 27400,
+              "end_ms": 28680
+            }
+          ]
         },
         {
           "text": "Med å se de ingen ser",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 28680,
+          "end_ms": 32100,
+          "words": [
+            {
+              "word": "Med",
+              "start_ms": 28680,
+              "end_ms": 29380
+            },
+            {
+              "word": "å",
+              "start_ms": 29380,
+              "end_ms": 29840
+            },
+            {
+              "word": "se",
+              "start_ms": 31400,
+              "end_ms": 32100
+            },
+            {
+              "word": "de",
+              "start_ms": 30180,
+              "end_ms": 30820
+            },
+            {
+              "word": "ingen",
+              "start_ms": 30820,
+              "end_ms": 31400
+            },
+            {
+              "word": "ser",
+              "start_ms": 31400,
+              "end_ms": 32100
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 34839,
+      "end_ms": 44980,
       "lines": [
         {
           "text": "Noe snur seg",
-          "start_ms": 17000,
-          "end_ms": 19000
+          "start_ms": 34839,
+          "end_ms": 36980,
+          "words": [
+            {
+              "word": "Noe",
+              "start_ms": 34839,
+              "end_ms": 35139,
+              "estimated": true
+            },
+            {
+              "word": "snur",
+              "start_ms": 35540,
+              "end_ms": 36180
+            },
+            {
+              "word": "seg",
+              "start_ms": 36180,
+              "end_ms": 36980
+            }
+          ]
         },
         {
           "text": "Noe stort begynner her",
-          "start_ms": 19000,
-          "end_ms": 21000
+          "start_ms": 38400,
+          "end_ms": 41420,
+          "words": [
+            {
+              "word": "Noe",
+              "start_ms": 38400,
+              "end_ms": 38700,
+              "estimated": true
+            },
+            {
+              "word": "stort",
+              "start_ms": 39100,
+              "end_ms": 39580
+            },
+            {
+              "word": "begynner",
+              "start_ms": 39580,
+              "end_ms": 40720
+            },
+            {
+              "word": "her",
+              "start_ms": 40720,
+              "end_ms": 41420
+            }
+          ]
         },
         {
           "text": "Fra bunnen og opp",
-          "start_ms": 21000,
-          "end_ms": 23000
+          "start_ms": 42480,
+          "end_ms": 44980,
+          "words": [
+            {
+              "word": "Fra",
+              "start_ms": 42480,
+              "end_ms": 43180
+            },
+            {
+              "word": "bunnen",
+              "start_ms": 43180,
+              "end_ms": 44040
+            },
+            {
+              "word": "og",
+              "start_ms": 44090,
+              "end_ms": 44390,
+              "estimated": true
+            },
+            {
+              "word": "opp",
+              "start_ms": 44040,
+              "end_ms": 44980
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 23000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 46500,
+      "end_ms": 70360,
       "lines": [
         {
           "text": "Han så meg",
-          "start_ms": 26000,
-          "end_ms": 28000
+          "start_ms": 46500,
+          "end_ms": 49600,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 46500,
+              "end_ms": 47900
+            },
+            {
+              "word": "så",
+              "start_ms": 47950,
+              "end_ms": 48250,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 48520,
+              "end_ms": 49600
+            }
+          ]
         },
         {
           "text": "Han så meg",
-          "start_ms": 28000,
-          "end_ms": 30000
+          "start_ms": 46500,
+          "end_ms": 49600,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 46500,
+              "end_ms": 47900
+            },
+            {
+              "word": "så",
+              "start_ms": 47950,
+              "end_ms": 48250,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 48520,
+              "end_ms": 49600
+            }
+          ]
         },
         {
           "text": "Den lille, den ubetydelige",
-          "start_ms": 30000,
-          "end_ms": 32080
+          "start_ms": 51260,
+          "end_ms": 55220,
+          "words": [
+            {
+              "word": "Den",
+              "start_ms": 51260,
+              "end_ms": 51640
+            },
+            {
+              "word": "lille,",
+              "start_ms": 51640,
+              "end_ms": 52160
+            },
+            {
+              "word": "den",
+              "start_ms": 51260,
+              "end_ms": 51640
+            },
+            {
+              "word": "ubetydelige",
+              "start_ms": 53740,
+              "end_ms": 55220
+            }
+          ]
         },
         {
           "text": "Og alt snudde",
-          "start_ms": 32080,
-          "end_ms": 34080
+          "start_ms": 55220,
+          "end_ms": 57370,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 55220,
+              "end_ms": 56420
+            },
+            {
+              "word": "alt",
+              "start_ms": 56420,
+              "end_ms": 57020
+            },
+            {
+              "word": "snudde",
+              "start_ms": 57070,
+              "end_ms": 57370,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Troner faller",
-          "start_ms": 34080,
-          "end_ms": 36080
+          "start_ms": 57720,
+          "end_ms": 59280,
+          "words": [
+            {
+              "word": "Troner",
+              "start_ms": 57720,
+              "end_ms": 58580
+            },
+            {
+              "word": "faller",
+              "start_ms": 58580,
+              "end_ms": 59280
+            }
+          ]
         },
         {
           "text": "Sultne spiser",
-          "start_ms": 36080,
-          "end_ms": 38080
+          "start_ms": 59840,
+          "end_ms": 61360,
+          "words": [
+            {
+              "word": "Sultne",
+              "start_ms": 59840,
+              "end_ms": 60660
+            },
+            {
+              "word": "spiser",
+              "start_ms": 60660,
+              "end_ms": 61360
+            }
+          ]
         },
         {
           "text": "Rike går hjem uten noe",
-          "start_ms": 38080,
-          "end_ms": 40080
+          "start_ms": 63420,
+          "end_ms": 67740,
+          "words": [
+            {
+              "word": "Rike",
+              "start_ms": 63420,
+              "end_ms": 64540
+            },
+            {
+              "word": "går",
+              "start_ms": 64540,
+              "end_ms": 65080
+            },
+            {
+              "word": "hjem",
+              "start_ms": 65080,
+              "end_ms": 65780
+            },
+            {
+              "word": "uten",
+              "start_ms": 66160,
+              "end_ms": 67040
+            },
+            {
+              "word": "noe",
+              "start_ms": 67040,
+              "end_ms": 67740
+            }
+          ]
         },
         {
           "text": "Han så meg",
-          "start_ms": 40080,
-          "end_ms": 42080
+          "start_ms": 68380,
+          "end_ms": 70360,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 68380,
+              "end_ms": 68720
+            },
+            {
+              "word": "så",
+              "start_ms": 68770,
+              "end_ms": 69070,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 69660,
+              "end_ms": 70360
+            }
+          ]
         }
-      ],
-      "start_ms": 26000,
-      "end_ms": 42080
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 73020,
+      "end_ms": 88880,
       "lines": [
         {
           "text": "Makthaverne sitter trygt i dag",
-          "start_ms": 45080,
-          "end_ms": 47480
+          "start_ms": 73020,
+          "end_ms": 76720,
+          "words": [
+            {
+              "word": "Makthaverne",
+              "start_ms": 73020,
+              "end_ms": 74420
+            },
+            {
+              "word": "sitter",
+              "start_ms": 74420,
+              "end_ms": 75140
+            },
+            {
+              "word": "trygt",
+              "start_ms": 75140,
+              "end_ms": 75920
+            },
+            {
+              "word": "i",
+              "start_ms": 75920,
+              "end_ms": 76380
+            },
+            {
+              "word": "dag",
+              "start_ms": 76380,
+              "end_ms": 76720
+            }
+          ]
         },
         {
           "text": "Med sine planer og sine porter",
-          "start_ms": 47480,
-          "end_ms": 49880
+          "start_ms": 76720,
+          "end_ms": 80240,
+          "words": [
+            {
+              "word": "Med",
+              "start_ms": 76720,
+              "end_ms": 77040
+            },
+            {
+              "word": "sine",
+              "start_ms": 77040,
+              "end_ms": 77460
+            },
+            {
+              "word": "planer",
+              "start_ms": 77460,
+              "end_ms": 78440
+            },
+            {
+              "word": "og",
+              "start_ms": 78440,
+              "end_ms": 78620
+            },
+            {
+              "word": "sine",
+              "start_ms": 77040,
+              "end_ms": 77460
+            },
+            {
+              "word": "porter",
+              "start_ms": 79400,
+              "end_ms": 80240
+            }
+          ]
         },
         {
           "text": "Men det er alltid sånn det går",
-          "start_ms": 49880,
-          "end_ms": 52280
+          "start_ms": 81220,
+          "end_ms": 85020,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 81220,
+              "end_ms": 82180
+            },
+            {
+              "word": "det",
+              "start_ms": 82180,
+              "end_ms": 82620
+            },
+            {
+              "word": "er",
+              "start_ms": 82620,
+              "end_ms": 82860
+            },
+            {
+              "word": "alltid",
+              "start_ms": 82860,
+              "end_ms": 83320
+            },
+            {
+              "word": "sånn",
+              "start_ms": 83320,
+              "end_ms": 84200
+            },
+            {
+              "word": "det",
+              "start_ms": 84200,
+              "end_ms": 84500
+            },
+            {
+              "word": "går",
+              "start_ms": 84500,
+              "end_ms": 85020
+            }
+          ]
         },
         {
           "text": "De trygge mister grepet først",
-          "start_ms": 52280,
-          "end_ms": 54600
+          "start_ms": 85120,
+          "end_ms": 88880,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 85120,
+              "end_ms": 85420
+            },
+            {
+              "word": "trygge",
+              "start_ms": 85420,
+              "end_ms": 85880
+            },
+            {
+              "word": "mister",
+              "start_ms": 85880,
+              "end_ms": 86700
+            },
+            {
+              "word": "grepet",
+              "start_ms": 86700,
+              "end_ms": 87600
+            },
+            {
+              "word": "først",
+              "start_ms": 87600,
+              "end_ms": 88880
+            }
+          ]
         }
-      ],
-      "start_ms": 45080,
-      "end_ms": 54600
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 88880,
+      "end_ms": 98740,
       "lines": [
         {
           "text": "Noe snur seg",
-          "start_ms": 57600,
-          "end_ms": 59600
+          "start_ms": 88880,
+          "end_ms": 91020,
+          "words": [
+            {
+              "word": "Noe",
+              "start_ms": 88880,
+              "end_ms": 89180,
+              "estimated": true
+            },
+            {
+              "word": "snur",
+              "start_ms": 89360,
+              "end_ms": 90140
+            },
+            {
+              "word": "seg",
+              "start_ms": 90140,
+              "end_ms": 91020
+            }
+          ]
         },
         {
           "text": "Noe gammelt brister her",
-          "start_ms": 59600,
-          "end_ms": 61600
+          "start_ms": 92360,
+          "end_ms": 95280,
+          "words": [
+            {
+              "word": "Noe",
+              "start_ms": 92360,
+              "end_ms": 92660,
+              "estimated": true
+            },
+            {
+              "word": "gammelt",
+              "start_ms": 93060,
+              "end_ms": 93860
+            },
+            {
+              "word": "brister",
+              "start_ms": 93860,
+              "end_ms": 94580
+            },
+            {
+              "word": "her",
+              "start_ms": 94580,
+              "end_ms": 95280
+            }
+          ]
         },
         {
           "text": "Fra bunnen og opp",
-          "start_ms": 61600,
-          "end_ms": 63600
+          "start_ms": 96600,
+          "end_ms": 98740,
+          "words": [
+            {
+              "word": "Fra",
+              "start_ms": 96600,
+              "end_ms": 97300
+            },
+            {
+              "word": "bunnen",
+              "start_ms": 97300,
+              "end_ms": 97960
+            },
+            {
+              "word": "og",
+              "start_ms": 98010,
+              "end_ms": 98310,
+              "estimated": true
+            },
+            {
+              "word": "opp",
+              "start_ms": 97960,
+              "end_ms": 98740
+            }
+          ]
         }
-      ],
-      "start_ms": 57600,
-      "end_ms": 63600
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 98740,
+      "end_ms": 122020,
       "lines": [
         {
           "text": "Han så meg",
-          "start_ms": 66600,
-          "end_ms": 68600
+          "start_ms": 98740,
+          "end_ms": 101440,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 98740,
+              "end_ms": 99840
+            },
+            {
+              "word": "så",
+              "start_ms": 99890,
+              "end_ms": 100190,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 100480,
+              "end_ms": 101440
+            }
+          ]
         },
         {
           "text": "Han så meg",
-          "start_ms": 68600,
-          "end_ms": 70600
+          "start_ms": 98740,
+          "end_ms": 101440,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 98740,
+              "end_ms": 99840
+            },
+            {
+              "word": "så",
+              "start_ms": 99890,
+              "end_ms": 100190,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 100480,
+              "end_ms": 101440
+            }
+          ]
         },
         {
           "text": "Den lille, den ubetydelige",
-          "start_ms": 70600,
-          "end_ms": 72680
+          "start_ms": 103140,
+          "end_ms": 107160,
+          "words": [
+            {
+              "word": "Den",
+              "start_ms": 103140,
+              "end_ms": 103500
+            },
+            {
+              "word": "lille,",
+              "start_ms": 103500,
+              "end_ms": 103960
+            },
+            {
+              "word": "den",
+              "start_ms": 103140,
+              "end_ms": 103500
+            },
+            {
+              "word": "ubetydelige",
+              "start_ms": 105560,
+              "end_ms": 107160
+            }
+          ]
         },
         {
           "text": "Og alt snudde",
-          "start_ms": 72680,
-          "end_ms": 74680
+          "start_ms": 107160,
+          "end_ms": 109250,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 107160,
+              "end_ms": 108220
+            },
+            {
+              "word": "alt",
+              "start_ms": 108220,
+              "end_ms": 108900
+            },
+            {
+              "word": "snudde",
+              "start_ms": 108950,
+              "end_ms": 109250,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Troner faller",
-          "start_ms": 74680,
-          "end_ms": 76680
+          "start_ms": 109560,
+          "end_ms": 111100,
+          "words": [
+            {
+              "word": "Troner",
+              "start_ms": 109560,
+              "end_ms": 110400
+            },
+            {
+              "word": "faller",
+              "start_ms": 110400,
+              "end_ms": 111100
+            }
+          ]
         },
         {
           "text": "Sultne spiser",
-          "start_ms": 76680,
-          "end_ms": 78680
+          "start_ms": 111680,
+          "end_ms": 113280,
+          "words": [
+            {
+              "word": "Sultne",
+              "start_ms": 111680,
+              "end_ms": 112480
+            },
+            {
+              "word": "spiser",
+              "start_ms": 112480,
+              "end_ms": 113280
+            }
+          ]
         },
         {
           "text": "Rike går hjem uten noe",
-          "start_ms": 78680,
-          "end_ms": 80680
+          "start_ms": 115619,
+          "end_ms": 120180,
+          "words": [
+            {
+              "word": "Rike",
+              "start_ms": 115619,
+              "end_ms": 116320
+            },
+            {
+              "word": "går",
+              "start_ms": 116320,
+              "end_ms": 116840
+            },
+            {
+              "word": "hjem",
+              "start_ms": 116840,
+              "end_ms": 117960
+            },
+            {
+              "word": "uten",
+              "start_ms": 117960,
+              "end_ms": 118840
+            },
+            {
+              "word": "noe",
+              "start_ms": 118840,
+              "end_ms": 120180
+            }
+          ]
         },
         {
           "text": "Han så meg",
-          "start_ms": 80680,
-          "end_ms": 82680
+          "start_ms": 120180,
+          "end_ms": 122020,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 120180,
+              "end_ms": 120460
+            },
+            {
+              "word": "så",
+              "start_ms": 120510,
+              "end_ms": 120810,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 121100,
+              "end_ms": 122020
+            }
+          ]
         }
-      ],
-      "start_ms": 66600,
-      "end_ms": 82680
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 123560,
+      "end_ms": 140900,
       "lines": [
         {
           "text": "Ikke fordi jeg fortjente det",
-          "start_ms": 85680,
-          "end_ms": 87920
+          "start_ms": 123560,
+          "end_ms": 127940,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 123560,
+              "end_ms": 124740
+            },
+            {
+              "word": "fordi",
+              "start_ms": 124740,
+              "end_ms": 125460
+            },
+            {
+              "word": "jeg",
+              "start_ms": 125460,
+              "end_ms": 125900
+            },
+            {
+              "word": "fortjente",
+              "start_ms": 125900,
+              "end_ms": 126960
+            },
+            {
+              "word": "det",
+              "start_ms": 126960,
+              "end_ms": 127940
+            }
+          ]
         },
         {
           "text": "Ikke fordi jeg var stor nok",
-          "start_ms": 87920,
-          "end_ms": 90080
+          "start_ms": 127940,
+          "end_ms": 131980,
+          "words": [
+            {
+              "word": "Ikke",
+              "start_ms": 127940,
+              "end_ms": 128740
+            },
+            {
+              "word": "fordi",
+              "start_ms": 128740,
+              "end_ms": 129660
+            },
+            {
+              "word": "jeg",
+              "start_ms": 129660,
+              "end_ms": 130060
+            },
+            {
+              "word": "var",
+              "start_ms": 130060,
+              "end_ms": 130380
+            },
+            {
+              "word": "stor",
+              "start_ms": 130380,
+              "end_ms": 131140
+            },
+            {
+              "word": "nok",
+              "start_ms": 131140,
+              "end_ms": 131980
+            }
+          ]
         },
         {
           "text": "Han bare så ned",
-          "start_ms": 90080,
-          "end_ms": 92080
+          "start_ms": 131980,
+          "end_ms": 134019,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 131980,
+              "end_ms": 132360
+            },
+            {
+              "word": "bare",
+              "start_ms": 132360,
+              "end_ms": 132900
+            },
+            {
+              "word": "så",
+              "start_ms": 132900,
+              "end_ms": 133240
+            },
+            {
+              "word": "ned",
+              "start_ms": 133240,
+              "end_ms": 134019
+            }
+          ]
         },
         {
           "text": "Og fikk øye på meg",
-          "start_ms": 92080,
-          "end_ms": 94080
+          "start_ms": 135540,
+          "end_ms": 140900,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 135540,
+              "end_ms": 136240
+            },
+            {
+              "word": "fikk",
+              "start_ms": 136240,
+              "end_ms": 136620
+            },
+            {
+              "word": "øye",
+              "start_ms": 136620,
+              "end_ms": 137000
+            },
+            {
+              "word": "på",
+              "start_ms": 137000,
+              "end_ms": 137320
+            },
+            {
+              "word": "meg",
+              "start_ms": 137320,
+              "end_ms": 140900
+            }
+          ]
         }
-      ],
-      "start_ms": 85680,
-      "end_ms": 94080
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Chorus",
+      "start_ms": 140900,
+      "end_ms": 155040,
       "lines": [
         {
           "text": "Han så meg",
-          "start_ms": 97080,
-          "end_ms": 99080
+          "start_ms": 140900,
+          "end_ms": 142860,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 140900,
+              "end_ms": 141340
+            },
+            {
+              "word": "så",
+              "start_ms": 143620,
+              "end_ms": 143940
+            },
+            {
+              "word": "meg",
+              "start_ms": 141900,
+              "end_ms": 142860
+            }
+          ]
         },
         {
           "text": "Og alt snudde",
-          "start_ms": 99080,
-          "end_ms": 101080
+          "start_ms": 142860,
+          "end_ms": 144290,
+          "words": [
+            {
+              "word": "Og",
+              "start_ms": 142860,
+              "end_ms": 143620
+            },
+            {
+              "word": "alt",
+              "start_ms": 143620,
+              "end_ms": 143940
+            },
+            {
+              "word": "snudde",
+              "start_ms": 143990,
+              "end_ms": 144290,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Troner faller",
-          "start_ms": 101080,
-          "end_ms": 103080
+          "start_ms": 144760,
+          "end_ms": 146860,
+          "words": [
+            {
+              "word": "Troner",
+              "start_ms": 144760,
+              "end_ms": 145460
+            },
+            {
+              "word": "faller",
+              "start_ms": 145460,
+              "end_ms": 146860
+            }
+          ]
         },
         {
           "text": "Sultne spiser",
-          "start_ms": 103080,
-          "end_ms": 105080
+          "start_ms": 148660,
+          "end_ms": 151320,
+          "words": [
+            {
+              "word": "Sultne",
+              "start_ms": 148660,
+              "end_ms": 149720
+            },
+            {
+              "word": "spiser",
+              "start_ms": 149720,
+              "end_ms": 151320
+            }
+          ]
         },
         {
           "text": "Han så meg",
-          "start_ms": 105080,
-          "end_ms": 107080
+          "start_ms": 152860,
+          "end_ms": 155040,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 152860,
+              "end_ms": 153740
+            },
+            {
+              "word": "så",
+              "start_ms": 153790,
+              "end_ms": 154090,
+              "estimated": true
+            },
+            {
+              "word": "meg",
+              "start_ms": 154420,
+              "end_ms": 155040
+            }
+          ]
         }
-      ],
-      "start_ms": 97080,
-      "end_ms": 107080
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Noe snur seg",
+      "section_type": "chorus",
+      "start_ms": 34839,
+      "end_ms": 44980,
+      "key_line": "Noe snur seg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Han så meg",
+      "section_type": "chorus",
+      "start_ms": 46500,
+      "end_ms": 70360,
+      "key_line": "Han så meg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Noe snur seg",
+      "section_type": "chorus",
+      "start_ms": 88880,
+      "end_ms": 98740,
+      "key_line": "Noe snur seg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Han så meg",
+      "section_type": "chorus",
+      "start_ms": 98740,
+      "end_ms": 122020,
+      "key_line": "Han så meg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 123560,
+      "end_ms": 140900,
+      "key_line": "Ikke fordi jeg fortjente det",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Han så meg",
+      "section_type": "chorus",
+      "start_ms": 140900,
+      "end_ms": 155040,
+      "key_line": "Han så meg",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/norwegian/42_luke_01_1-46_transcript.json"
 }

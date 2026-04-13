@@ -7,281 +7,1150 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 187040,
   "audio_file": "/audio/songs/luke_01/swedish/Allt faller (Luke 1_46-56)— Swedish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.375725+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:48.070318+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.905,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 10560,
+      "end_ms": 24220,
       "lines": [
         {
           "text": "Stå still och lyssna",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 10560,
+          "end_ms": 14520,
+          "words": [
+            {
+              "word": "Stå",
+              "start_ms": 10560,
+              "end_ms": 11640
+            },
+            {
+              "word": "still",
+              "start_ms": 11640,
+              "end_ms": 12340
+            },
+            {
+              "word": "och",
+              "start_ms": 12340,
+              "end_ms": 13020
+            },
+            {
+              "word": "lyssna",
+              "start_ms": 13020,
+              "end_ms": 14520
+            }
+          ]
         },
         {
           "text": "Hör du det",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 14940,
+          "end_ms": 16500,
+          "words": [
+            {
+              "word": "Hör",
+              "start_ms": 14940,
+              "end_ms": 15060
+            },
+            {
+              "word": "du",
+              "start_ms": 15060,
+              "end_ms": 15240
+            },
+            {
+              "word": "det",
+              "start_ms": 16420,
+              "end_ms": 16500
+            }
+          ]
         },
         {
           "text": "Det låter som nåt som går sönder",
-          "start_ms": 10000,
-          "end_ms": 12560
+          "start_ms": 16420,
+          "end_ms": 19860,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 16420,
+              "end_ms": 16500
+            },
+            {
+              "word": "låter",
+              "start_ms": 16500,
+              "end_ms": 17060
+            },
+            {
+              "word": "som",
+              "start_ms": 17060,
+              "end_ms": 17680
+            },
+            {
+              "word": "nåt",
+              "start_ms": 17680,
+              "end_ms": 17960
+            },
+            {
+              "word": "som",
+              "start_ms": 17060,
+              "end_ms": 17680
+            },
+            {
+              "word": "går",
+              "start_ms": 18280,
+              "end_ms": 18540
+            },
+            {
+              "word": "sönder",
+              "start_ms": 18540,
+              "end_ms": 19860
+            }
+          ]
         },
         {
           "text": "Men det är nåt som börjar",
-          "start_ms": 12560,
-          "end_ms": 14560
+          "start_ms": 20620,
+          "end_ms": 24220,
+          "words": [
+            {
+              "word": "Men",
+              "start_ms": 20620,
+              "end_ms": 20940
+            },
+            {
+              "word": "det",
+              "start_ms": 20940,
+              "end_ms": 21460
+            },
+            {
+              "word": "är",
+              "start_ms": 21460,
+              "end_ms": 22400
+            },
+            {
+              "word": "nåt",
+              "start_ms": 22400,
+              "end_ms": 22880
+            },
+            {
+              "word": "som",
+              "start_ms": 22880,
+              "end_ms": 23400
+            },
+            {
+              "word": "börjar",
+              "start_ms": 23400,
+              "end_ms": 24220
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14560
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 33320,
+      "end_ms": 48400,
       "lines": [
         {
           "text": "En flicka utan makt",
-          "start_ms": 17560,
-          "end_ms": 19560
+          "start_ms": 33320,
+          "end_ms": 37260,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 33320,
+              "end_ms": 34220
+            },
+            {
+              "word": "flicka",
+              "start_ms": 34220,
+              "end_ms": 35000
+            },
+            {
+              "word": "utan",
+              "start_ms": 35000,
+              "end_ms": 35420
+            },
+            {
+              "word": "makt",
+              "start_ms": 35420,
+              "end_ms": 37260
+            }
+          ]
         },
         {
           "text": "Med en sång som ingen bad om",
-          "start_ms": 19560,
-          "end_ms": 21800
+          "start_ms": 37260,
+          "end_ms": 38500,
+          "words": [
+            {
+              "word": "Med",
+              "start_ms": 37260,
+              "end_ms": 37760
+            },
+            {
+              "word": "en",
+              "start_ms": 37760,
+              "end_ms": 37940
+            },
+            {
+              "word": "sång",
+              "start_ms": 37940,
+              "end_ms": 38120
+            },
+            {
+              "word": "som",
+              "start_ms": 38120,
+              "end_ms": 38500
+            },
+            {
+              "word": "ingen",
+              "start_ms": 38500,
+              "end_ms": 38860
+            },
+            {
+              "word": "bad",
+              "start_ms": 38860,
+              "end_ms": 39280
+            },
+            {
+              "word": "om",
+              "start_ms": 38120,
+              "end_ms": 38500
+            }
+          ]
         },
         {
           "text": "Ställer sig upp mitt i ingenting",
-          "start_ms": 21800,
-          "end_ms": 24360
+          "start_ms": 39560,
+          "end_ms": 45440,
+          "words": [
+            {
+              "word": "Ställer",
+              "start_ms": 39560,
+              "end_ms": 39880
+            },
+            {
+              "word": "sig",
+              "start_ms": 39880,
+              "end_ms": 40240
+            },
+            {
+              "word": "upp",
+              "start_ms": 40240,
+              "end_ms": 40700
+            },
+            {
+              "word": "mitt",
+              "start_ms": 44300,
+              "end_ms": 44740
+            },
+            {
+              "word": "i",
+              "start_ms": 44790,
+              "end_ms": 45090,
+              "estimated": true
+            },
+            {
+              "word": "ingenting",
+              "start_ms": 45140,
+              "end_ms": 45440,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Och säger att allt redan förändrats",
-          "start_ms": 24360,
-          "end_ms": 27160
+          "start_ms": 42960,
+          "end_ms": 48400,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 42960,
+              "end_ms": 43860
+            },
+            {
+              "word": "säger",
+              "start_ms": 43860,
+              "end_ms": 44300
+            },
+            {
+              "word": "att",
+              "start_ms": 44300,
+              "end_ms": 44740
+            },
+            {
+              "word": "allt",
+              "start_ms": 44740,
+              "end_ms": 45760
+            },
+            {
+              "word": "redan",
+              "start_ms": 45760,
+              "end_ms": 46740
+            },
+            {
+              "word": "förändrats",
+              "start_ms": 46740,
+              "end_ms": 48400
+            }
+          ]
         }
-      ],
-      "start_ms": 17560,
-      "end_ms": 27160
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 49880,
+      "end_ms": 58980,
       "lines": [
         {
           "text": "Dom som sitter högst upp",
-          "start_ms": 30160,
-          "end_ms": 32160
+          "start_ms": 49880,
+          "end_ms": 52000,
+          "words": [
+            {
+              "word": "Dom",
+              "start_ms": 49880,
+              "end_ms": 50200
+            },
+            {
+              "word": "som",
+              "start_ms": 49880,
+              "end_ms": 50200
+            },
+            {
+              "word": "sitter",
+              "start_ms": 50200,
+              "end_ms": 50740
+            },
+            {
+              "word": "högst",
+              "start_ms": 50740,
+              "end_ms": 51560
+            },
+            {
+              "word": "upp",
+              "start_ms": 51560,
+              "end_ms": 52000
+            }
+          ]
         },
         {
           "text": "Ser inte ner",
-          "start_ms": 32160,
-          "end_ms": 34160
+          "start_ms": 52000,
+          "end_ms": 53820,
+          "words": [
+            {
+              "word": "Ser",
+              "start_ms": 52000,
+              "end_ms": 52620
+            },
+            {
+              "word": "inte",
+              "start_ms": 52620,
+              "end_ms": 53160
+            },
+            {
+              "word": "ner",
+              "start_ms": 53160,
+              "end_ms": 53820
+            }
+          ]
         },
         {
           "text": "Dom som har mest",
-          "start_ms": 34160,
-          "end_ms": 36160
+          "start_ms": 54780,
+          "end_ms": 56460,
+          "words": [
+            {
+              "word": "Dom",
+              "start_ms": 54780,
+              "end_ms": 55280
+            },
+            {
+              "word": "som",
+              "start_ms": 54780,
+              "end_ms": 55280
+            },
+            {
+              "word": "har",
+              "start_ms": 55280,
+              "end_ms": 55620
+            },
+            {
+              "word": "mest",
+              "start_ms": 55620,
+              "end_ms": 56460
+            }
+          ]
         },
         {
           "text": "Räknar inte",
-          "start_ms": 36160,
-          "end_ms": 38160
+          "start_ms": 56460,
+          "end_ms": 58980,
+          "words": [
+            {
+              "word": "Räknar",
+              "start_ms": 56460,
+              "end_ms": 57960
+            },
+            {
+              "word": "inte",
+              "start_ms": 57960,
+              "end_ms": 58980
+            }
+          ]
         }
-      ],
-      "start_ms": 30160,
-      "end_ms": 38160
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 59760,
+      "end_ms": 87830,
       "lines": [
         {
           "text": "Allt faller",
-          "start_ms": 41160,
-          "end_ms": 43160
+          "start_ms": 59760,
+          "end_ms": 61120,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 59760,
+              "end_ms": 60520
+            },
+            {
+              "word": "faller",
+              "start_ms": 60520,
+              "end_ms": 61120
+            }
+          ]
         },
         {
           "text": "Troner och fasader",
-          "start_ms": 43160,
-          "end_ms": 45160
+          "start_ms": 61380,
+          "end_ms": 64060,
+          "words": [
+            {
+              "word": "Troner",
+              "start_ms": 61380,
+              "end_ms": 62040
+            },
+            {
+              "word": "och",
+              "start_ms": 62040,
+              "end_ms": 62440
+            },
+            {
+              "word": "fasader",
+              "start_ms": 62440,
+              "end_ms": 64060
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 45160,
-          "end_ms": 47160
+          "start_ms": 64459,
+          "end_ms": 65900,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 64459,
+              "end_ms": 65200
+            },
+            {
+              "word": "faller",
+              "start_ms": 65200,
+              "end_ms": 65900
+            }
+          ]
         },
         {
           "text": "Det som såg permanent ut",
-          "start_ms": 47160,
-          "end_ms": 49160
+          "start_ms": 66120,
+          "end_ms": 68820,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 66120,
+              "end_ms": 66460
+            },
+            {
+              "word": "som",
+              "start_ms": 66460,
+              "end_ms": 67020
+            },
+            {
+              "word": "såg",
+              "start_ms": 67020,
+              "end_ms": 67900
+            },
+            {
+              "word": "permanent",
+              "start_ms": 67900,
+              "end_ms": 68240
+            },
+            {
+              "word": "ut",
+              "start_ms": 68240,
+              "end_ms": 68820
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 49160,
-          "end_ms": 51160
+          "start_ms": 69180,
+          "end_ms": 70520,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 69180,
+              "end_ms": 69880
+            },
+            {
+              "word": "faller",
+              "start_ms": 69880,
+              "end_ms": 70520
+            }
+          ]
         },
         {
           "text": "Och den som ingen räknade",
-          "start_ms": 51160,
-          "end_ms": 53160
+          "start_ms": 70720,
+          "end_ms": 73340,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 70720,
+              "end_ms": 70880
+            },
+            {
+              "word": "den",
+              "start_ms": 70880,
+              "end_ms": 71140
+            },
+            {
+              "word": "som",
+              "start_ms": 71140,
+              "end_ms": 71580
+            },
+            {
+              "word": "ingen",
+              "start_ms": 71580,
+              "end_ms": 72080
+            },
+            {
+              "word": "räknade",
+              "start_ms": 72080,
+              "end_ms": 73340
+            }
+          ]
         },
         {
           "text": "Står kvar när dammet lagt sig",
-          "start_ms": 53160,
-          "end_ms": 55480
+          "start_ms": 83260,
+          "end_ms": 87540,
+          "words": [
+            {
+              "word": "Står",
+              "start_ms": 83260,
+              "end_ms": 83740
+            },
+            {
+              "word": "kvar",
+              "start_ms": 83790,
+              "end_ms": 84090,
+              "estimated": true
+            },
+            {
+              "word": "när",
+              "start_ms": 84140,
+              "end_ms": 84440,
+              "estimated": true
+            },
+            {
+              "word": "dammet",
+              "start_ms": 86060,
+              "end_ms": 86840
+            },
+            {
+              "word": "lagt",
+              "start_ms": 86890,
+              "end_ms": 87190,
+              "estimated": true
+            },
+            {
+              "word": "sig",
+              "start_ms": 87240,
+              "end_ms": 87540,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 55480,
-          "end_ms": 57480
+          "start_ms": 87180,
+          "end_ms": 87830,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 87180,
+              "end_ms": 87480,
+              "estimated": true
+            },
+            {
+              "word": "faller",
+              "start_ms": 87530,
+              "end_ms": 87830,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 41160,
-      "end_ms": 57480
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 84740,
+      "end_ms": 96800,
       "lines": [
         {
           "text": "Han såg mig innan nån annan gjorde det",
-          "start_ms": 60480,
-          "end_ms": 63520
+          "start_ms": 84740,
+          "end_ms": 92240,
+          "words": [
+            {
+              "word": "Han",
+              "start_ms": 84740,
+              "end_ms": 85120
+            },
+            {
+              "word": "såg",
+              "start_ms": 85170,
+              "end_ms": 85470,
+              "estimated": true
+            },
+            {
+              "word": "mig",
+              "start_ms": 83740,
+              "end_ms": 84060
+            },
+            {
+              "word": "innan",
+              "start_ms": 84060,
+              "end_ms": 84740
+            },
+            {
+              "word": "nån",
+              "start_ms": 84790,
+              "end_ms": 85090,
+              "estimated": true
+            },
+            {
+              "word": "annan",
+              "start_ms": 84060,
+              "end_ms": 84740
+            },
+            {
+              "word": "gjorde",
+              "start_ms": 85120,
+              "end_ms": 86060
+            },
+            {
+              "word": "det",
+              "start_ms": 92020,
+              "end_ms": 92240
+            }
+          ]
         },
         {
           "text": "Den lilla, den obetydliga",
-          "start_ms": 63520,
-          "end_ms": 65520
+          "start_ms": 92020,
+          "end_ms": 90940,
+          "words": [
+            {
+              "word": "Den",
+              "start_ms": 92020,
+              "end_ms": 92240
+            },
+            {
+              "word": "lilla,",
+              "start_ms": 92290,
+              "end_ms": 92590,
+              "estimated": true
+            },
+            {
+              "word": "den",
+              "start_ms": 92020,
+              "end_ms": 92240
+            },
+            {
+              "word": "obetydliga",
+              "start_ms": 88820,
+              "end_ms": 90940
+            }
+          ]
         },
         {
           "text": "Och det räckte",
-          "start_ms": 65520,
-          "end_ms": 67520
+          "start_ms": 91740,
+          "end_ms": 93820,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 91740,
+              "end_ms": 92020
+            },
+            {
+              "word": "det",
+              "start_ms": 92020,
+              "end_ms": 92240
+            },
+            {
+              "word": "räckte",
+              "start_ms": 92240,
+              "end_ms": 93820
+            }
+          ]
         },
         {
           "text": "Mer behövdes inte",
-          "start_ms": 67520,
-          "end_ms": 69520
+          "start_ms": 94540,
+          "end_ms": 96800,
+          "words": [
+            {
+              "word": "Mer",
+              "start_ms": 94540,
+              "end_ms": 94900
+            },
+            {
+              "word": "behövdes",
+              "start_ms": 94900,
+              "end_ms": 95800
+            },
+            {
+              "word": "inte",
+              "start_ms": 95800,
+              "end_ms": 96800
+            }
+          ]
         }
-      ],
-      "start_ms": 60480,
-      "end_ms": 69520
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 96800,
+      "end_ms": 120440,
       "lines": [
         {
           "text": "Allt faller",
-          "start_ms": 72520,
-          "end_ms": 74520
+          "start_ms": 96800,
+          "end_ms": 98860,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 96800,
+              "end_ms": 98320
+            },
+            {
+              "word": "faller",
+              "start_ms": 98320,
+              "end_ms": 98860
+            }
+          ]
         },
         {
           "text": "Troner och fasader",
-          "start_ms": 74520,
-          "end_ms": 76520
+          "start_ms": 99140,
+          "end_ms": 101720,
+          "words": [
+            {
+              "word": "Troner",
+              "start_ms": 99140,
+              "end_ms": 99860
+            },
+            {
+              "word": "och",
+              "start_ms": 99860,
+              "end_ms": 100220
+            },
+            {
+              "word": "fasader",
+              "start_ms": 100220,
+              "end_ms": 101720
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 76520,
-          "end_ms": 78520
+          "start_ms": 102420,
+          "end_ms": 103660,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 102420,
+              "end_ms": 103000
+            },
+            {
+              "word": "faller",
+              "start_ms": 103000,
+              "end_ms": 103660
+            }
+          ]
         },
         {
           "text": "Det som såg permanent ut",
-          "start_ms": 78520,
-          "end_ms": 80520
+          "start_ms": 103920,
+          "end_ms": 106580,
+          "words": [
+            {
+              "word": "Det",
+              "start_ms": 103920,
+              "end_ms": 104220
+            },
+            {
+              "word": "som",
+              "start_ms": 104220,
+              "end_ms": 104760
+            },
+            {
+              "word": "såg",
+              "start_ms": 104760,
+              "end_ms": 105400
+            },
+            {
+              "word": "permanent",
+              "start_ms": 105400,
+              "end_ms": 106040
+            },
+            {
+              "word": "ut",
+              "start_ms": 106040,
+              "end_ms": 106580
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 80520,
-          "end_ms": 82520
+          "start_ms": 107000,
+          "end_ms": 108320,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 107000,
+              "end_ms": 107680
+            },
+            {
+              "word": "faller",
+              "start_ms": 107680,
+              "end_ms": 108320
+            }
+          ]
         },
         {
           "text": "Och den som ingen räknade",
-          "start_ms": 82520,
-          "end_ms": 84520
+          "start_ms": 108500,
+          "end_ms": 111200,
+          "words": [
+            {
+              "word": "Och",
+              "start_ms": 108500,
+              "end_ms": 108680
+            },
+            {
+              "word": "den",
+              "start_ms": 108680,
+              "end_ms": 108920
+            },
+            {
+              "word": "som",
+              "start_ms": 108920,
+              "end_ms": 109360
+            },
+            {
+              "word": "ingen",
+              "start_ms": 109360,
+              "end_ms": 109840
+            },
+            {
+              "word": "räknade",
+              "start_ms": 109840,
+              "end_ms": 111200
+            }
+          ]
         },
         {
           "text": "Står kvar när dammet lagt sig",
-          "start_ms": 84520,
-          "end_ms": 86840
+          "start_ms": 111200,
+          "end_ms": 114280,
+          "words": [
+            {
+              "word": "Står",
+              "start_ms": 111200,
+              "end_ms": 111500,
+              "estimated": true
+            },
+            {
+              "word": "kvar",
+              "start_ms": 111660,
+              "end_ms": 111940
+            },
+            {
+              "word": "när",
+              "start_ms": 111940,
+              "end_ms": 112260
+            },
+            {
+              "word": "dammet",
+              "start_ms": 112260,
+              "end_ms": 113100
+            },
+            {
+              "word": "lagt",
+              "start_ms": 113100,
+              "end_ms": 113700
+            },
+            {
+              "word": "sig",
+              "start_ms": 113700,
+              "end_ms": 114280
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 86840,
-          "end_ms": 88840
+          "start_ms": 114280,
+          "end_ms": 120440,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 114280,
+              "end_ms": 116020
+            },
+            {
+              "word": "faller",
+              "start_ms": 116020,
+              "end_ms": 120440
+            }
+          ]
         }
-      ],
-      "start_ms": 72520,
-      "end_ms": 88840
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 120600,
+      "end_ms": 136340,
       "lines": [
         {
           "text": "Hungriga äter sig mätta",
-          "start_ms": 91840,
-          "end_ms": 93840
+          "start_ms": 120600,
+          "end_ms": 122920,
+          "words": [
+            {
+              "word": "Hungriga",
+              "start_ms": 120600,
+              "end_ms": 121620
+            },
+            {
+              "word": "äter",
+              "start_ms": 121620,
+              "end_ms": 122220
+            },
+            {
+              "word": "sig",
+              "start_ms": 122270,
+              "end_ms": 122570,
+              "estimated": true
+            },
+            {
+              "word": "mätta",
+              "start_ms": 122620,
+              "end_ms": 122920,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Rika går hem utan nåt",
-          "start_ms": 93840,
-          "end_ms": 95840
+          "start_ms": 124360,
+          "end_ms": 128160,
+          "words": [
+            {
+              "word": "Rika",
+              "start_ms": 124360,
+              "end_ms": 125760
+            },
+            {
+              "word": "går",
+              "start_ms": 125760,
+              "end_ms": 126220
+            },
+            {
+              "word": "hem",
+              "start_ms": 126220,
+              "end_ms": 126660
+            },
+            {
+              "word": "utan",
+              "start_ms": 126660,
+              "end_ms": 127340
+            },
+            {
+              "word": "nåt",
+              "start_ms": 127340,
+              "end_ms": 128160
+            }
+          ]
         },
         {
           "text": "Så ser det ut",
-          "start_ms": 95840,
-          "end_ms": 97840
+          "start_ms": 128419,
+          "end_ms": 133760,
+          "words": [
+            {
+              "word": "Så",
+              "start_ms": 128419,
+              "end_ms": 128639
+            },
+            {
+              "word": "ser",
+              "start_ms": 128639,
+              "end_ms": 129199
+            },
+            {
+              "word": "det",
+              "start_ms": 129199,
+              "end_ms": 129600
+            },
+            {
+              "word": "ut",
+              "start_ms": 129600,
+              "end_ms": 133760
+            }
+          ]
         },
         {
           "text": "Från botten",
-          "start_ms": 97840,
-          "end_ms": 99840
+          "start_ms": 133760,
+          "end_ms": 136340,
+          "words": [
+            {
+              "word": "Från",
+              "start_ms": 133760,
+              "end_ms": 134320
+            },
+            {
+              "word": "botten",
+              "start_ms": 134320,
+              "end_ms": 136340
+            }
+          ]
         }
-      ],
-      "start_ms": 91840,
-      "end_ms": 99840
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Powerful",
+      "label": "Outro",
+      "start_ms": 150619,
+      "end_ms": 153420,
       "lines": [
         {
           "text": "Allt faller",
-          "start_ms": 102840,
-          "end_ms": 104840
+          "start_ms": 150619,
+          "end_ms": 153420,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 150619,
+              "end_ms": 152019
+            },
+            {
+              "word": "faller",
+              "start_ms": 152019,
+              "end_ms": 153420
+            }
+          ]
         },
         {
           "text": "Allt faller",
-          "start_ms": 104840,
-          "end_ms": 106840
+          "start_ms": 150619,
+          "end_ms": 153420,
+          "words": [
+            {
+              "word": "Allt",
+              "start_ms": 150619,
+              "end_ms": 152019
+            },
+            {
+              "word": "faller",
+              "start_ms": 152019,
+              "end_ms": 153420
+            }
+          ]
         }
-      ],
-      "start_ms": 102840,
-      "end_ms": 106840
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 109840,
-          "end_ms": 111840
-        }
-      ],
-      "start_ms": 109840,
-      "end_ms": 111840
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Dom som sitter högst upp",
+      "section_type": "chorus",
+      "start_ms": 49880,
+      "end_ms": 58980,
+      "key_line": "Dom som sitter högst upp",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Allt faller",
+      "section_type": "chorus",
+      "start_ms": 59760,
+      "end_ms": 87830,
+      "key_line": "Allt faller",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Allt faller",
+      "section_type": "chorus",
+      "start_ms": 96800,
+      "end_ms": 120440,
+      "key_line": "Allt faller",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 120600,
+      "end_ms": 136340,
+      "key_line": "Hungriga äter sig mätta",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/swedish/42_luke_01_1-46_transcript.json"
 }

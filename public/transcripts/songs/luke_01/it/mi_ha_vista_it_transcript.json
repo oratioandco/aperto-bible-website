@@ -7,251 +7,1163 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 190680,
   "audio_file": "/audio/songs/luke_01/it/Luke 1_46-56 — _Mi ha vista_ — Italian.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.121335+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.994779+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.497,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Breathy",
+      "label": "Verse 1",
+      "start_ms": 23299,
+      "end_ms": 54720,
       "lines": [
         {
           "text": "Nessuno sa dove sta Nazaret",
-          "start_ms": 6000,
-          "end_ms": 8160
+          "start_ms": 23299,
+          "end_ms": 26700,
+          "words": [
+            {
+              "word": "Nessuno",
+              "start_ms": 23299,
+              "end_ms": 24540
+            },
+            {
+              "word": "sa",
+              "start_ms": 24540,
+              "end_ms": 25040
+            },
+            {
+              "word": "dove",
+              "start_ms": 25040,
+              "end_ms": 25660
+            },
+            {
+              "word": "sta",
+              "start_ms": 24540,
+              "end_ms": 25040
+            },
+            {
+              "word": "Nazaret",
+              "start_ms": 26080,
+              "end_ms": 26700
+            }
+          ]
         },
         {
           "text": "Nessuno chiede il mio nome per strada",
-          "start_ms": 8160,
-          "end_ms": 11120
+          "start_ms": 28320,
+          "end_ms": 40460,
+          "words": [
+            {
+              "word": "Nessuno",
+              "start_ms": 28320,
+              "end_ms": 29620
+            },
+            {
+              "word": "chiede",
+              "start_ms": 29620,
+              "end_ms": 30320
+            },
+            {
+              "word": "il",
+              "start_ms": 33520,
+              "end_ms": 33660
+            },
+            {
+              "word": "mio",
+              "start_ms": 33710,
+              "end_ms": 34010,
+              "estimated": true
+            },
+            {
+              "word": "nome",
+              "start_ms": 39400,
+              "end_ms": 39760
+            },
+            {
+              "word": "per",
+              "start_ms": 39810,
+              "end_ms": 40110,
+              "estimated": true
+            },
+            {
+              "word": "strada",
+              "start_ms": 40160,
+              "end_ms": 40460,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Porto l'acqua, piego i panni",
-          "start_ms": 11120,
-          "end_ms": 13360
+          "start_ms": 39760,
+          "end_ms": 45930,
+          "words": [
+            {
+              "word": "Porto",
+              "start_ms": 39760,
+              "end_ms": 40060,
+              "estimated": true
+            },
+            {
+              "word": "l'acqua,",
+              "start_ms": 40110,
+              "end_ms": 40410,
+              "estimated": true
+            },
+            {
+              "word": "piego",
+              "start_ms": 40460,
+              "end_ms": 40760,
+              "estimated": true
+            },
+            {
+              "word": "i",
+              "start_ms": 45260,
+              "end_ms": 45580
+            },
+            {
+              "word": "panni",
+              "start_ms": 45630,
+              "end_ms": 45930,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Sono quella che non guardi",
-          "start_ms": 13360,
-          "end_ms": 15440
+          "start_ms": 45580,
+          "end_ms": 54720,
+          "words": [
+            {
+              "word": "Sono",
+              "start_ms": 45580,
+              "end_ms": 45880,
+              "estimated": true
+            },
+            {
+              "word": "quella",
+              "start_ms": 44520,
+              "end_ms": 45260
+            },
+            {
+              "word": "che",
+              "start_ms": 50500,
+              "end_ms": 50980
+            },
+            {
+              "word": "non",
+              "start_ms": 51030,
+              "end_ms": 51330,
+              "estimated": true
+            },
+            {
+              "word": "guardi",
+              "start_ms": 54120,
+              "end_ms": 54720
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 15440
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 54720,
+      "end_ms": 60640,
       "lines": [
         {
           "text": "Ma qualcosa si è spezzato stanotte",
-          "start_ms": 18440,
-          "end_ms": 21160
+          "start_ms": 54720,
+          "end_ms": 55520,
+          "words": [
+            {
+              "word": "Ma",
+              "start_ms": 54720,
+              "end_ms": 55020,
+              "estimated": true
+            },
+            {
+              "word": "qualcosa",
+              "start_ms": 53100,
+              "end_ms": 54120
+            },
+            {
+              "word": "si",
+              "start_ms": 54170,
+              "end_ms": 54470,
+              "estimated": true
+            },
+            {
+              "word": "è",
+              "start_ms": 54520,
+              "end_ms": 54820,
+              "estimated": true
+            },
+            {
+              "word": "spezzato",
+              "start_ms": 54870,
+              "end_ms": 55170,
+              "estimated": true
+            },
+            {
+              "word": "stanotte",
+              "start_ms": 55220,
+              "end_ms": 55520,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Un silenzio che pesava da sempre",
-          "start_ms": 21160,
-          "end_ms": 23720
+          "start_ms": 54120,
+          "end_ms": 53100,
+          "words": [
+            {
+              "word": "Un",
+              "start_ms": 54120,
+              "end_ms": 54420,
+              "estimated": true
+            },
+            {
+              "word": "silenzio",
+              "start_ms": 54470,
+              "end_ms": 54770,
+              "estimated": true
+            },
+            {
+              "word": "che",
+              "start_ms": 54820,
+              "end_ms": 55120,
+              "estimated": true
+            },
+            {
+              "word": "pesava",
+              "start_ms": 55170,
+              "end_ms": 55470,
+              "estimated": true
+            },
+            {
+              "word": "da",
+              "start_ms": 51780,
+              "end_ms": 52200
+            },
+            {
+              "word": "sempre",
+              "start_ms": 52200,
+              "end_ms": 53100
+            }
+          ]
         },
         {
           "text": "Qualcuno ha guardato in basso",
-          "start_ms": 23720,
-          "end_ms": 26040
+          "start_ms": 53100,
+          "end_ms": 56100,
+          "words": [
+            {
+              "word": "Qualcuno",
+              "start_ms": 53100,
+              "end_ms": 54120
+            },
+            {
+              "word": "ha",
+              "start_ms": 54120,
+              "end_ms": 54120
+            },
+            {
+              "word": "guardato",
+              "start_ms": 54120,
+              "end_ms": 54720
+            },
+            {
+              "word": "in",
+              "start_ms": 54720,
+              "end_ms": 55080
+            },
+            {
+              "word": "basso",
+              "start_ms": 55080,
+              "end_ms": 56100
+            }
+          ]
         },
         {
           "text": "Proprio qui, proprio me",
-          "start_ms": 26040,
-          "end_ms": 28040
+          "start_ms": 56620,
+          "end_ms": 60640,
+          "words": [
+            {
+              "word": "Proprio",
+              "start_ms": 56620,
+              "end_ms": 57320
+            },
+            {
+              "word": "qui,",
+              "start_ms": 57320,
+              "end_ms": 58400
+            },
+            {
+              "word": "proprio",
+              "start_ms": 56620,
+              "end_ms": 57320
+            },
+            {
+              "word": "me",
+              "start_ms": 59700,
+              "end_ms": 60640
+            }
+          ]
         }
-      ],
-      "start_ms": 18440,
-      "end_ms": 28040
-    },
-    {
-      "type": "pre-chorus",
-      "label": "Pre-Chorus",
-      "lines": [
-        {
-          "text": "E adesso tremo",
-          "start_ms": 31040,
-          "end_ms": 33040
-        },
-        {
-          "text": "Non di paura",
-          "start_ms": 33040,
-          "end_ms": 35040
-        },
-        {
-          "text": "Tremo perché so",
-          "start_ms": 35040,
-          "end_ms": 37040
-        },
-        {
-          "text": "Cosa cambia quando vieni vista",
-          "start_ms": 37040,
-          "end_ms": 39440
-        }
-      ],
-      "start_ms": 31040,
-      "end_ms": 39440
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Powerful",
+      "label": "Pre-Chorus",
+      "start_ms": 62980,
+      "end_ms": 74600,
+      "lines": [
+        {
+          "text": "E adesso tremo",
+          "start_ms": 62980,
+          "end_ms": 69360,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 62980,
+              "end_ms": 64379
+            },
+            {
+              "word": "adesso",
+              "start_ms": 64379,
+              "end_ms": 64879
+            },
+            {
+              "word": "tremo",
+              "start_ms": 68640,
+              "end_ms": 69360
+            }
+          ]
+        },
+        {
+          "text": "Non di paura",
+          "start_ms": 69360,
+          "end_ms": 68100,
+          "words": [
+            {
+              "word": "Non",
+              "start_ms": 69360,
+              "end_ms": 69660,
+              "estimated": true
+            },
+            {
+              "word": "di",
+              "start_ms": 66940,
+              "end_ms": 67280
+            },
+            {
+              "word": "paura",
+              "start_ms": 67280,
+              "end_ms": 68100
+            }
+          ]
+        },
+        {
+          "text": "Tremo perché so",
+          "start_ms": 68640,
+          "end_ms": 71100,
+          "words": [
+            {
+              "word": "Tremo",
+              "start_ms": 68640,
+              "end_ms": 69360
+            },
+            {
+              "word": "perché",
+              "start_ms": 69360,
+              "end_ms": 70060
+            },
+            {
+              "word": "so",
+              "start_ms": 70060,
+              "end_ms": 71100
+            }
+          ]
+        },
+        {
+          "text": "Cosa cambia quando vieni vista",
+          "start_ms": 71100,
+          "end_ms": 74600,
+          "words": [
+            {
+              "word": "Cosa",
+              "start_ms": 71100,
+              "end_ms": 71820
+            },
+            {
+              "word": "cambia",
+              "start_ms": 71820,
+              "end_ms": 72580
+            },
+            {
+              "word": "quando",
+              "start_ms": 72580,
+              "end_ms": 73140
+            },
+            {
+              "word": "vieni",
+              "start_ms": 73140,
+              "end_ms": 73900
+            },
+            {
+              "word": "vista",
+              "start_ms": 73900,
+              "end_ms": 74600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 74660,
+      "end_ms": 114370,
       "lines": [
         {
           "text": "Mi ha vista, mi ha vista",
-          "start_ms": 42440,
-          "end_ms": 44440
+          "start_ms": 74660,
+          "end_ms": 74600,
+          "words": [
+            {
+              "word": "Mi",
+              "start_ms": 74660,
+              "end_ms": 75160
+            },
+            {
+              "word": "ha",
+              "start_ms": 75210,
+              "end_ms": 75510,
+              "estimated": true
+            },
+            {
+              "word": "vista,",
+              "start_ms": 75160,
+              "end_ms": 76400
+            },
+            {
+              "word": "mi",
+              "start_ms": 74660,
+              "end_ms": 75160
+            },
+            {
+              "word": "ha",
+              "start_ms": 75210,
+              "end_ms": 75510,
+              "estimated": true
+            },
+            {
+              "word": "vista",
+              "start_ms": 73900,
+              "end_ms": 74600
+            }
+          ]
         },
         {
           "text": "La piccola, l'insignificante",
-          "start_ms": 44440,
-          "end_ms": 46680
+          "start_ms": 78940,
+          "end_ms": 83940,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 78940,
+              "end_ms": 80220
+            },
+            {
+              "word": "piccola,",
+              "start_ms": 80220,
+              "end_ms": 82060
+            },
+            {
+              "word": "l'insignificante",
+              "start_ms": 82980,
+              "end_ms": 83940
+            }
+          ]
         },
         {
           "text": "Mi ha vista, mi ha vista",
-          "start_ms": 46680,
-          "end_ms": 48680
+          "start_ms": 90800,
+          "end_ms": 96320,
+          "words": [
+            {
+              "word": "Mi",
+              "start_ms": 90800,
+              "end_ms": 91340
+            },
+            {
+              "word": "ha",
+              "start_ms": 91390,
+              "end_ms": 91690,
+              "estimated": true
+            },
+            {
+              "word": "vista,",
+              "start_ms": 95320,
+              "end_ms": 96320
+            },
+            {
+              "word": "mi",
+              "start_ms": 94980,
+              "end_ms": 95320
+            },
+            {
+              "word": "ha",
+              "start_ms": 95370,
+              "end_ms": 95670,
+              "estimated": true
+            },
+            {
+              "word": "vista",
+              "start_ms": 95320,
+              "end_ms": 96320
+            }
+          ]
         },
         {
           "text": "E tutto in me esplode",
-          "start_ms": 48680,
-          "end_ms": 50680
+          "start_ms": 103640,
+          "end_ms": 106650,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 103640,
+              "end_ms": 105040
+            },
+            {
+              "word": "tutto",
+              "start_ms": 105090,
+              "end_ms": 105390,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 105440,
+              "end_ms": 105740,
+              "estimated": true
+            },
+            {
+              "word": "me",
+              "start_ms": 106160,
+              "end_ms": 106300
+            },
+            {
+              "word": "esplode",
+              "start_ms": 106350,
+              "end_ms": 106650,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ogni cellula celebra",
-          "start_ms": 50680,
-          "end_ms": 52680
+          "start_ms": 109800,
+          "end_ms": 115950,
+          "words": [
+            {
+              "word": "Ogni",
+              "start_ms": 109800,
+              "end_ms": 110160
+            },
+            {
+              "word": "cellula",
+              "start_ms": 115080,
+              "end_ms": 115600
+            },
+            {
+              "word": "celebra",
+              "start_ms": 115650,
+              "end_ms": 115950,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mi ha vista",
-          "start_ms": 52680,
-          "end_ms": 54680
+          "start_ms": 115600,
+          "end_ms": 114370,
+          "words": [
+            {
+              "word": "Mi",
+              "start_ms": 115600,
+              "end_ms": 115900,
+              "estimated": true
+            },
+            {
+              "word": "ha",
+              "start_ms": 113820,
+              "end_ms": 114020
+            },
+            {
+              "word": "vista",
+              "start_ms": 114070,
+              "end_ms": 114370,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 42440,
-      "end_ms": 54680
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 122840,
+      "end_ms": 133030,
       "lines": [
         {
           "text": "Le madri prima di me lo sapevano",
-          "start_ms": 57680,
-          "end_ms": 60240
+          "start_ms": 122840,
+          "end_ms": 126120,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 122840,
+              "end_ms": 124020
+            },
+            {
+              "word": "madri",
+              "start_ms": 124070,
+              "end_ms": 124370,
+              "estimated": true
+            },
+            {
+              "word": "prima",
+              "start_ms": 124420,
+              "end_ms": 124720,
+              "estimated": true
+            },
+            {
+              "word": "di",
+              "start_ms": 124770,
+              "end_ms": 125070,
+              "estimated": true
+            },
+            {
+              "word": "me",
+              "start_ms": 125120,
+              "end_ms": 125420,
+              "estimated": true
+            },
+            {
+              "word": "lo",
+              "start_ms": 125470,
+              "end_ms": 125770,
+              "estimated": true
+            },
+            {
+              "word": "sapevano",
+              "start_ms": 125820,
+              "end_ms": 126120,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Sara rideva, Anna piangeva",
-          "start_ms": 60240,
-          "end_ms": 62320
+          "start_ms": 129000,
+          "end_ms": 132030,
+          "words": [
+            {
+              "word": "Sara",
+              "start_ms": 129000,
+              "end_ms": 130039
+            },
+            {
+              "word": "rideva,",
+              "start_ms": 130089,
+              "end_ms": 130389,
+              "estimated": true
+            },
+            {
+              "word": "Anna",
+              "start_ms": 131360,
+              "end_ms": 131680
+            },
+            {
+              "word": "piangeva",
+              "start_ms": 131730,
+              "end_ms": 132030,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ognuna invisibile",
-          "start_ms": 62320,
-          "end_ms": 64320
+          "start_ms": 131680,
+          "end_ms": 132330,
+          "words": [
+            {
+              "word": "Ognuna",
+              "start_ms": 131680,
+              "end_ms": 131980,
+              "estimated": true
+            },
+            {
+              "word": "invisibile",
+              "start_ms": 132030,
+              "end_ms": 132330,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ognuna guardata alla fine",
-          "start_ms": 64320,
-          "end_ms": 66320
+          "start_ms": 131680,
+          "end_ms": 133030,
+          "words": [
+            {
+              "word": "Ognuna",
+              "start_ms": 131680,
+              "end_ms": 131980,
+              "estimated": true
+            },
+            {
+              "word": "guardata",
+              "start_ms": 132030,
+              "end_ms": 132330,
+              "estimated": true
+            },
+            {
+              "word": "alla",
+              "start_ms": 132380,
+              "end_ms": 132680,
+              "estimated": true
+            },
+            {
+              "word": "fine",
+              "start_ms": 132730,
+              "end_ms": 133030,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 57680,
-      "end_ms": 66320
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Soft",
+      "label": "Bridge",
+      "start_ms": 131680,
+      "end_ms": 151840,
       "lines": [
         {
           "text": "Da ora in poi",
-          "start_ms": 69320,
-          "end_ms": 71320
+          "start_ms": 131680,
+          "end_ms": 133030,
+          "words": [
+            {
+              "word": "Da",
+              "start_ms": 131680,
+              "end_ms": 131980,
+              "estimated": true
+            },
+            {
+              "word": "ora",
+              "start_ms": 132030,
+              "end_ms": 132330,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 132380,
+              "end_ms": 132680,
+              "estimated": true
+            },
+            {
+              "word": "poi",
+              "start_ms": 132730,
+              "end_ms": 133030,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Tutte le generazioni",
-          "start_ms": 71320,
-          "end_ms": 73320
+          "start_ms": 131680,
+          "end_ms": 132680,
+          "words": [
+            {
+              "word": "Tutte",
+              "start_ms": 131680,
+              "end_ms": 131980,
+              "estimated": true
+            },
+            {
+              "word": "le",
+              "start_ms": 132030,
+              "end_ms": 132330,
+              "estimated": true
+            },
+            {
+              "word": "generazioni",
+              "start_ms": 132380,
+              "end_ms": 132680,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Diranno che sono stata colmata",
-          "start_ms": 73320,
-          "end_ms": 75720
+          "start_ms": 131680,
+          "end_ms": 145220,
+          "words": [
+            {
+              "word": "Diranno",
+              "start_ms": 131680,
+              "end_ms": 131980,
+              "estimated": true
+            },
+            {
+              "word": "che",
+              "start_ms": 132560,
+              "end_ms": 132740
+            },
+            {
+              "word": "sono",
+              "start_ms": 132790,
+              "end_ms": 133090,
+              "estimated": true
+            },
+            {
+              "word": "stata",
+              "start_ms": 138280,
+              "end_ms": 139220
+            },
+            {
+              "word": "colmata",
+              "start_ms": 143420,
+              "end_ms": 145220
+            }
+          ]
         },
         {
           "text": "Non per quello che ho fatto",
-          "start_ms": 75720,
-          "end_ms": 77880
+          "start_ms": 145920,
+          "end_ms": 153920,
+          "words": [
+            {
+              "word": "Non",
+              "start_ms": 145920,
+              "end_ms": 146220,
+              "estimated": true
+            },
+            {
+              "word": "per",
+              "start_ms": 146270,
+              "end_ms": 146570,
+              "estimated": true
+            },
+            {
+              "word": "quello",
+              "start_ms": 146620,
+              "end_ms": 146920,
+              "estimated": true
+            },
+            {
+              "word": "che",
+              "start_ms": 146970,
+              "end_ms": 147270,
+              "estimated": true
+            },
+            {
+              "word": "ho",
+              "start_ms": 147320,
+              "end_ms": 147620,
+              "estimated": true
+            },
+            {
+              "word": "fatto",
+              "start_ms": 153480,
+              "end_ms": 153920
+            }
+          ]
         },
         {
           "text": "Per quello che lui ha visto",
-          "start_ms": 77880,
-          "end_ms": 80040
+          "start_ms": 153920,
+          "end_ms": 151840,
+          "words": [
+            {
+              "word": "Per",
+              "start_ms": 153920,
+              "end_ms": 154220,
+              "estimated": true
+            },
+            {
+              "word": "quello",
+              "start_ms": 154270,
+              "end_ms": 154570,
+              "estimated": true
+            },
+            {
+              "word": "che",
+              "start_ms": 154620,
+              "end_ms": 154920,
+              "estimated": true
+            },
+            {
+              "word": "lui",
+              "start_ms": 154970,
+              "end_ms": 155270,
+              "estimated": true
+            },
+            {
+              "word": "ha",
+              "start_ms": 155320,
+              "end_ms": 155620,
+              "estimated": true
+            },
+            {
+              "word": "visto",
+              "start_ms": 150960,
+              "end_ms": 151840
+            }
+          ]
         }
-      ],
-      "start_ms": 69320,
-      "end_ms": 80040
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Chorus",
+      "start_ms": 153920,
+      "end_ms": 155900,
       "lines": [
         {
           "text": "MI HA VISTA, mi ha vista",
-          "start_ms": 83040,
-          "end_ms": 85040
+          "start_ms": 153920,
+          "end_ms": 158480,
+          "words": [
+            {
+              "word": "MI",
+              "start_ms": 153920,
+              "end_ms": 154380
+            },
+            {
+              "word": "HA",
+              "start_ms": 154430,
+              "end_ms": 154730,
+              "estimated": true
+            },
+            {
+              "word": "VISTA,",
+              "start_ms": 157860,
+              "end_ms": 158480
+            },
+            {
+              "word": "mi",
+              "start_ms": 156800,
+              "end_ms": 157860
+            },
+            {
+              "word": "ha",
+              "start_ms": 157910,
+              "end_ms": 158210,
+              "estimated": true
+            },
+            {
+              "word": "vista",
+              "start_ms": 157860,
+              "end_ms": 158480
+            }
+          ]
         },
         {
           "text": "La piccola, l'insignificante",
-          "start_ms": 85040,
-          "end_ms": 87280
+          "start_ms": 166579,
+          "end_ms": 167579,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 166579,
+              "end_ms": 166879,
+              "estimated": true
+            },
+            {
+              "word": "piccola,",
+              "start_ms": 166929,
+              "end_ms": 167229,
+              "estimated": true
+            },
+            {
+              "word": "l'insignificante",
+              "start_ms": 167279,
+              "end_ms": 167579,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Mi ha vista, mi ha vista",
-          "start_ms": 87280,
-          "end_ms": 89280
+          "start_ms": 156800,
+          "end_ms": 158480,
+          "words": [
+            {
+              "word": "Mi",
+              "start_ms": 156800,
+              "end_ms": 157860
+            },
+            {
+              "word": "ha",
+              "start_ms": 157910,
+              "end_ms": 158210,
+              "estimated": true
+            },
+            {
+              "word": "vista,",
+              "start_ms": 157860,
+              "end_ms": 158480
+            },
+            {
+              "word": "mi",
+              "start_ms": 156800,
+              "end_ms": 157860
+            },
+            {
+              "word": "ha",
+              "start_ms": 157910,
+              "end_ms": 158210,
+              "estimated": true
+            },
+            {
+              "word": "vista",
+              "start_ms": 157860,
+              "end_ms": 158480
+            }
+          ]
         },
         {
           "text": "E tutto in me esplode",
-          "start_ms": 89280,
-          "end_ms": 91280
+          "start_ms": 166579,
+          "end_ms": 155900,
+          "words": [
+            {
+              "word": "E",
+              "start_ms": 166579,
+              "end_ms": 166879,
+              "estimated": true
+            },
+            {
+              "word": "tutto",
+              "start_ms": 166929,
+              "end_ms": 167229,
+              "estimated": true
+            },
+            {
+              "word": "in",
+              "start_ms": 167279,
+              "end_ms": 167579,
+              "estimated": true
+            },
+            {
+              "word": "me",
+              "start_ms": 167629,
+              "end_ms": 167929,
+              "estimated": true
+            },
+            {
+              "word": "esplode",
+              "start_ms": 154380,
+              "end_ms": 155900
+            }
+          ]
         }
-      ],
-      "start_ms": 83040,
-      "end_ms": 91280
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Whispered",
+      "label": "Outro",
+      "start_ms": 153920,
+      "end_ms": 158480,
       "lines": [
         {
           "text": "Mi ha vista",
-          "start_ms": 94280,
-          "end_ms": 96280
+          "start_ms": 153920,
+          "end_ms": 158480,
+          "words": [
+            {
+              "word": "Mi",
+              "start_ms": 153920,
+              "end_ms": 154380
+            },
+            {
+              "word": "ha",
+              "start_ms": 154430,
+              "end_ms": 154730,
+              "estimated": true
+            },
+            {
+              "word": "vista",
+              "start_ms": 157860,
+              "end_ms": 158480
+            }
+          ]
         }
-      ],
-      "start_ms": 94280,
-      "end_ms": 96280
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 99280,
-          "end_ms": 101280
-        }
-      ],
-      "start_ms": 99280,
-      "end_ms": 101280
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - E adesso tremo",
+      "section_type": "chorus",
+      "start_ms": 62980,
+      "end_ms": 74600,
+      "key_line": "E adesso tremo",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Mi ha vista, mi ha vista",
+      "section_type": "chorus",
+      "start_ms": 74660,
+      "end_ms": 114370,
+      "key_line": "Mi ha vista, mi ha vista",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 131680,
+      "end_ms": 151840,
+      "key_line": "Da ora in poi",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - MI HA VISTA, mi ha vista",
+      "section_type": "chorus",
+      "start_ms": 153920,
+      "end_ms": 155900,
+      "key_line": "MI HA VISTA, mi ha vista",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/it/42_luke_01_1-46_transcript.json"
 }

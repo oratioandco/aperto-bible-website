@@ -7,243 +7,1199 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:76-79",
-  "duration_ms": 220000,
+  "duration_ms": 176480,
   "audio_file": "/audio/songs/luke_01/irish/Luke 1_76-79 — _Agus Tusa, a Linbh_ (Irish).mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:41.112878+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.987051+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.376,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Hushed",
+      "label": "Verse 1",
+      "start_ms": 8039,
+      "end_ms": 26480,
       "lines": [
         {
           "text": "Naoi mí",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 8039,
+          "end_ms": 8689,
+          "words": [
+            {
+              "word": "Naoi",
+              "start_ms": 8039,
+              "end_ms": 8339,
+              "estimated": true
+            },
+            {
+              "word": "mí",
+              "start_ms": 8389,
+              "end_ms": 8689,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Naoi mí gan focal",
-          "start_ms": 8000,
-          "end_ms": 10000
+          "start_ms": 8039,
+          "end_ms": 14600,
+          "words": [
+            {
+              "word": "Naoi",
+              "start_ms": 8039,
+              "end_ms": 8339,
+              "estimated": true
+            },
+            {
+              "word": "mí",
+              "start_ms": 8389,
+              "end_ms": 8689,
+              "estimated": true
+            },
+            {
+              "word": "gan",
+              "start_ms": 8739,
+              "end_ms": 9039,
+              "estimated": true
+            },
+            {
+              "word": "focal",
+              "start_ms": 12740,
+              "end_ms": 14600
+            }
+          ]
         },
         {
           "text": "Agus anois — tusa",
-          "start_ms": 10000,
-          "end_ms": 12000
+          "start_ms": 14600,
+          "end_ms": 17200,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 14600,
+              "end_ms": 14900,
+              "estimated": true
+            },
+            {
+              "word": "anois",
+              "start_ms": 14950,
+              "end_ms": 15250,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 15300,
+              "end_ms": 15600,
+              "estimated": true
+            },
+            {
+              "word": "tusa",
+              "start_ms": 16379,
+              "end_ms": 17200
+            }
+          ]
         },
         {
           "text": "An chéad rud a deirim",
-          "start_ms": 12000,
-          "end_ms": 14000
+          "start_ms": 23960,
+          "end_ms": 26480,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 23960,
+              "end_ms": 25080
+            },
+            {
+              "word": "chéad",
+              "start_ms": 25130,
+              "end_ms": 25430,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 25480,
+              "end_ms": 25780,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 25830,
+              "end_ms": 26130,
+              "estimated": true
+            },
+            {
+              "word": "deirim",
+              "start_ms": 26180,
+              "end_ms": 26480,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14000
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 25080,
+      "end_ms": 43730,
       "lines": [
         {
           "text": "Bhí mé ag caint faoi rudaí móra",
-          "start_ms": 17000,
-          "end_ms": 19480
+          "start_ms": 25080,
+          "end_ms": 27500,
+          "words": [
+            {
+              "word": "Bhí",
+              "start_ms": 25080,
+              "end_ms": 25380,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 25430,
+              "end_ms": 25730,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 25780,
+              "end_ms": 26080,
+              "estimated": true
+            },
+            {
+              "word": "caint",
+              "start_ms": 23960,
+              "end_ms": 25080
+            },
+            {
+              "word": "faoi",
+              "start_ms": 22000,
+              "end_ms": 22760
+            },
+            {
+              "word": "rudaí",
+              "start_ms": 22810,
+              "end_ms": 23110,
+              "estimated": true
+            },
+            {
+              "word": "móra",
+              "start_ms": 26440,
+              "end_ms": 27500
+            }
+          ]
         },
         {
           "text": "Stair, gealltanais, pleananna",
-          "start_ms": 19480,
-          "end_ms": 21800
+          "start_ms": 28500,
+          "end_ms": 34600,
+          "words": [
+            {
+              "word": "Stair,",
+              "start_ms": 28500,
+              "end_ms": 29600
+            },
+            {
+              "word": "gealltanais,",
+              "start_ms": 29650,
+              "end_ms": 29950,
+              "estimated": true
+            },
+            {
+              "word": "pleananna",
+              "start_ms": 33120,
+              "end_ms": 34600
+            }
+          ]
         },
         {
           "text": "Ach tá mé ag féachaint anuas",
-          "start_ms": 21800,
-          "end_ms": 24040
+          "start_ms": 35500,
+          "end_ms": 38470,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 35500,
+              "end_ms": 36720
+            },
+            {
+              "word": "tá",
+              "start_ms": 36770,
+              "end_ms": 37070,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 37120,
+              "end_ms": 37420,
+              "estimated": true
+            },
+            {
+              "word": "ag",
+              "start_ms": 37470,
+              "end_ms": 37770,
+              "estimated": true
+            },
+            {
+              "word": "féachaint",
+              "start_ms": 37820,
+              "end_ms": 38120,
+              "estimated": true
+            },
+            {
+              "word": "anuas",
+              "start_ms": 38170,
+              "end_ms": 38470,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Ar rud beag, te, beo",
-          "start_ms": 24040,
-          "end_ms": 26040
+          "start_ms": 36720,
+          "end_ms": 43730,
+          "words": [
+            {
+              "word": "Ar",
+              "start_ms": 36720,
+              "end_ms": 37020,
+              "estimated": true
+            },
+            {
+              "word": "rud",
+              "start_ms": 42320,
+              "end_ms": 42680
+            },
+            {
+              "word": "beag,",
+              "start_ms": 42730,
+              "end_ms": 43030,
+              "estimated": true
+            },
+            {
+              "word": "te,",
+              "start_ms": 43080,
+              "end_ms": 43380,
+              "estimated": true
+            },
+            {
+              "word": "beo",
+              "start_ms": 43430,
+              "end_ms": 43730,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 17000,
-      "end_ms": 26040
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus] [Gentle",
-      "lines": [
-        {
-          "text": "Agus tusa, a linbh",
-          "start_ms": 29040,
-          "end_ms": 31040
-        },
-        {
-          "text": "Tusa a bheidh ann",
-          "start_ms": 31040,
-          "end_ms": 33040
-        },
-        {
-          "text": "Roimh gach rud",
-          "start_ms": 33040,
-          "end_ms": 35040
-        },
-        {
-          "text": "Le hullmhú a dhéanamh",
-          "start_ms": 35040,
-          "end_ms": 37040
-        },
-        {
-          "text": "Agus tusa, a linbh",
-          "start_ms": 37040,
-          "end_ms": 39040
-        }
-      ],
-      "start_ms": 29040,
-      "end_ms": 39040
-    },
-    {
-      "type": "verse",
-      "label": "Verse 3",
-      "lines": [
-        {
-          "text": "Dúirt siad go mbeadh sé dodhéanta",
-          "start_ms": 42040,
-          "end_ms": 44680
-        },
-        {
-          "text": "Dúirt siad go rabhmar rósean",
-          "start_ms": 44680,
-          "end_ms": 46920
-        },
-        {
-          "text": "Ach seo tú — ocht lá",
-          "start_ms": 46920,
-          "end_ms": 48920
-        },
-        {
-          "text": "Agus tá an domhan difriúil",
-          "start_ms": 48920,
-          "end_ms": 51000
-        }
-      ],
-      "start_ms": 42040,
-      "end_ms": 51000
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 42680,
+      "end_ms": 61280,
       "lines": [
         {
           "text": "Agus tusa, a linbh",
-          "start_ms": 54000,
-          "end_ms": 56000
+          "start_ms": 42680,
+          "end_ms": 50220,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 42680,
+              "end_ms": 42980,
+              "estimated": true
+            },
+            {
+              "word": "tusa,",
+              "start_ms": 47420,
+              "end_ms": 48300
+            },
+            {
+              "word": "a",
+              "start_ms": 46339,
+              "end_ms": 47040
+            },
+            {
+              "word": "linbh",
+              "start_ms": 48800,
+              "end_ms": 50220
+            }
+          ]
         },
         {
-          "text": "Is tusa an breacadh",
-          "start_ms": 56000,
-          "end_ms": 58000
+          "text": "Tusa a bheidh ann",
+          "start_ms": 47420,
+          "end_ms": 47740,
+          "words": [
+            {
+              "word": "Tusa",
+              "start_ms": 47420,
+              "end_ms": 48300
+            },
+            {
+              "word": "a",
+              "start_ms": 46339,
+              "end_ms": 47040
+            },
+            {
+              "word": "bheidh",
+              "start_ms": 47090,
+              "end_ms": 47390,
+              "estimated": true
+            },
+            {
+              "word": "ann",
+              "start_ms": 47440,
+              "end_ms": 47740,
+              "estimated": true
+            }
+          ]
         },
         {
-          "text": "An chéad sholas tar éis na hoíche",
-          "start_ms": 58000,
-          "end_ms": 60640
+          "text": "Roimh gach rud",
+          "start_ms": 47040,
+          "end_ms": 55560,
+          "words": [
+            {
+              "word": "Roimh",
+              "start_ms": 47040,
+              "end_ms": 47340,
+              "estimated": true
+            },
+            {
+              "word": "gach",
+              "start_ms": 53740,
+              "end_ms": 54100
+            },
+            {
+              "word": "rud",
+              "start_ms": 54420,
+              "end_ms": 55560
+            }
+          ]
         },
         {
-          "text": "An fáth ar fhan mé",
-          "start_ms": 60640,
-          "end_ms": 62640
+          "text": "Le hullmhú a dhéanamh",
+          "start_ms": 55560,
+          "end_ms": 59590,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 55560,
+              "end_ms": 55860,
+              "estimated": true
+            },
+            {
+              "word": "hullmhú",
+              "start_ms": 55910,
+              "end_ms": 56210,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 58640,
+              "end_ms": 59240
+            },
+            {
+              "word": "dhéanamh",
+              "start_ms": 59290,
+              "end_ms": 59590,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Agus tusa, a linbh",
-          "start_ms": 62640,
-          "end_ms": 64640
+          "start_ms": 59240,
+          "end_ms": 61280,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 59240,
+              "end_ms": 59540,
+              "estimated": true
+            },
+            {
+              "word": "tusa,",
+              "start_ms": 59580,
+              "end_ms": 60360
+            },
+            {
+              "word": "a",
+              "start_ms": 58640,
+              "end_ms": 59240
+            },
+            {
+              "word": "linbh",
+              "start_ms": 60820,
+              "end_ms": 61280
+            }
+          ]
         }
-      ],
-      "start_ms": 54000,
-      "end_ms": 64640
+      ]
     },
     {
-      "type": "bridge",
-      "label": "Bridge] [Piano Only",
+      "type": "verse",
+      "label": "Verse 3",
+      "start_ms": 66619,
+      "end_ms": 91990,
       "lines": [
         {
-          "text": "Dúirt mé \"conas?\"",
-          "start_ms": 67640,
-          "end_ms": 69640
+          "text": "Dúirt siad go mbeadh sé dodhéanta",
+          "start_ms": 66619,
+          "end_ms": 80010,
+          "words": [
+            {
+              "word": "Dúirt",
+              "start_ms": 66619,
+              "end_ms": 66919,
+              "estimated": true
+            },
+            {
+              "word": "siad",
+              "start_ms": 70260,
+              "end_ms": 70820
+            },
+            {
+              "word": "go",
+              "start_ms": 78200,
+              "end_ms": 78960
+            },
+            {
+              "word": "mbeadh",
+              "start_ms": 79010,
+              "end_ms": 79310,
+              "estimated": true
+            },
+            {
+              "word": "sé",
+              "start_ms": 79360,
+              "end_ms": 79660,
+              "estimated": true
+            },
+            {
+              "word": "dodhéanta",
+              "start_ms": 79710,
+              "end_ms": 80010,
+              "estimated": true
+            }
+          ]
         },
         {
-          "text": "Ciúnaíodh mé",
-          "start_ms": 69640,
-          "end_ms": 71640
+          "text": "Dúirt siad go rabhmar rósean",
+          "start_ms": 78960,
+          "end_ms": 79660,
+          "words": [
+            {
+              "word": "Dúirt",
+              "start_ms": 78960,
+              "end_ms": 79260,
+              "estimated": true
+            },
+            {
+              "word": "siad",
+              "start_ms": 79310,
+              "end_ms": 79610,
+              "estimated": true
+            },
+            {
+              "word": "go",
+              "start_ms": 78200,
+              "end_ms": 78960
+            },
+            {
+              "word": "rabhmar",
+              "start_ms": 79010,
+              "end_ms": 79310,
+              "estimated": true
+            },
+            {
+              "word": "rósean",
+              "start_ms": 79360,
+              "end_ms": 79660,
+              "estimated": true
+            }
+          ]
         },
         {
-          "text": "D'fhoghlaim mé sa tost",
-          "start_ms": 71640,
-          "end_ms": 73640
+          "text": "Ach seo tú — ocht lá",
+          "start_ms": 80450,
+          "end_ms": 83780,
+          "words": [
+            {
+              "word": "Ach",
+              "start_ms": 80450,
+              "end_ms": 81050
+            },
+            {
+              "word": "seo",
+              "start_ms": 81100,
+              "end_ms": 81400,
+              "estimated": true
+            },
+            {
+              "word": "tú",
+              "start_ms": 81450,
+              "end_ms": 81750,
+              "estimated": true
+            },
+            {
+              "word": "—",
+              "start_ms": 81800,
+              "end_ms": 82100,
+              "estimated": true
+            },
+            {
+              "word": "ocht",
+              "start_ms": 82790,
+              "end_ms": 83430
+            },
+            {
+              "word": "lá",
+              "start_ms": 83480,
+              "end_ms": 83780,
+              "estimated": true
+            }
+          ]
         },
         {
-          "text": "Go raibh an freagra ag teacht",
-          "start_ms": 73640,
-          "end_ms": 75960
-        },
-        {
-          "text": "Ní i bhfocail ach i gcorp beag te",
-          "start_ms": 75960,
-          "end_ms": 78600
+          "text": "Agus tá an domhan difriúil",
+          "start_ms": 83430,
+          "end_ms": 91990,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 83430,
+              "end_ms": 83730,
+              "estimated": true
+            },
+            {
+              "word": "tá",
+              "start_ms": 83780,
+              "end_ms": 84080,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 84130,
+              "end_ms": 84430,
+              "estimated": true
+            },
+            {
+              "word": "domhan",
+              "start_ms": 84480,
+              "end_ms": 84780,
+              "estimated": true
+            },
+            {
+              "word": "difriúil",
+              "start_ms": 88510,
+              "end_ms": 91990
+            }
+          ]
         }
-      ],
-      "start_ms": 67640,
-      "end_ms": 78600
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [With Strings",
+      "label": "Chorus",
+      "start_ms": 91990,
+      "end_ms": 123200,
       "lines": [
         {
           "text": "Agus tusa, a linbh",
-          "start_ms": 81600,
-          "end_ms": 83600
+          "start_ms": 91990,
+          "end_ms": 95070,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 91990,
+              "end_ms": 92290,
+              "estimated": true
+            },
+            {
+              "word": "tusa,",
+              "start_ms": 92590,
+              "end_ms": 93350
+            },
+            {
+              "word": "a",
+              "start_ms": 91990,
+              "end_ms": 92410
+            },
+            {
+              "word": "linbh",
+              "start_ms": 94010,
+              "end_ms": 95070
+            }
+          ]
+        },
+        {
+          "text": "Is tusa an breacadh",
+          "start_ms": 95070,
+          "end_ms": 98530,
+          "words": [
+            {
+              "word": "Is",
+              "start_ms": 95070,
+              "end_ms": 95370,
+              "estimated": true
+            },
+            {
+              "word": "tusa",
+              "start_ms": 92590,
+              "end_ms": 93350
+            },
+            {
+              "word": "an",
+              "start_ms": 93400,
+              "end_ms": 93700,
+              "estimated": true
+            },
+            {
+              "word": "breacadh",
+              "start_ms": 97270,
+              "end_ms": 98530
+            }
+          ]
+        },
+        {
+          "text": "An chéad sholas tar éis na hoíche",
+          "start_ms": 98530,
+          "end_ms": 101550,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 98530,
+              "end_ms": 98830,
+              "estimated": true
+            },
+            {
+              "word": "chéad",
+              "start_ms": 98880,
+              "end_ms": 99180,
+              "estimated": true
+            },
+            {
+              "word": "sholas",
+              "start_ms": 99590,
+              "end_ms": 99830
+            },
+            {
+              "word": "tar",
+              "start_ms": 99880,
+              "end_ms": 100180,
+              "estimated": true
+            },
+            {
+              "word": "éis",
+              "start_ms": 100230,
+              "end_ms": 100530,
+              "estimated": true
+            },
+            {
+              "word": "na",
+              "start_ms": 100790,
+              "end_ms": 101030
+            },
+            {
+              "word": "hoíche",
+              "start_ms": 101030,
+              "end_ms": 101550
+            }
+          ]
+        },
+        {
+          "text": "An fáth ar fhan mé",
+          "start_ms": 101550,
+          "end_ms": 107160,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 101550,
+              "end_ms": 101850,
+              "estimated": true
+            },
+            {
+              "word": "fáth",
+              "start_ms": 101900,
+              "end_ms": 102200,
+              "estimated": true
+            },
+            {
+              "word": "ar",
+              "start_ms": 102410,
+              "end_ms": 102770
+            },
+            {
+              "word": "fhan",
+              "start_ms": 106290,
+              "end_ms": 106810
+            },
+            {
+              "word": "mé",
+              "start_ms": 106860,
+              "end_ms": 107160,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Agus tusa, a linbh",
+          "start_ms": 121510,
+          "end_ms": 123200,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 121510,
+              "end_ms": 122150
+            },
+            {
+              "word": "tusa,",
+              "start_ms": 122200,
+              "end_ms": 122500,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 122550,
+              "end_ms": 122850,
+              "estimated": true
+            },
+            {
+              "word": "linbh",
+              "start_ms": 122900,
+              "end_ms": 123200,
+              "estimated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "start_ms": 122150,
+      "end_ms": 134580,
+      "lines": [
+        {
+          "text": "Dúirt mé \"conas?\"",
+          "start_ms": 122150,
+          "end_ms": 123150,
+          "words": [
+            {
+              "word": "Dúirt",
+              "start_ms": 122150,
+              "end_ms": 122450,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 122500,
+              "end_ms": 122800,
+              "estimated": true
+            },
+            {
+              "word": "\"conas?\"",
+              "start_ms": 122850,
+              "end_ms": 123150,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Ciúnaíodh mé",
+          "start_ms": 122150,
+          "end_ms": 122800,
+          "words": [
+            {
+              "word": "Ciúnaíodh",
+              "start_ms": 122150,
+              "end_ms": 122450,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 122500,
+              "end_ms": 122800,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "D'fhoghlaim mé sa tost",
+          "start_ms": 122150,
+          "end_ms": 126140,
+          "words": [
+            {
+              "word": "D'fhoghlaim",
+              "start_ms": 122150,
+              "end_ms": 122450,
+              "estimated": true
+            },
+            {
+              "word": "mé",
+              "start_ms": 122500,
+              "end_ms": 122800,
+              "estimated": true
+            },
+            {
+              "word": "sa",
+              "start_ms": 122850,
+              "end_ms": 123150,
+              "estimated": true
+            },
+            {
+              "word": "tost",
+              "start_ms": 125630,
+              "end_ms": 126140
+            }
+          ]
+        },
+        {
+          "text": "Go raibh an freagra ag teacht",
+          "start_ms": 126710,
+          "end_ms": 130229,
+          "words": [
+            {
+              "word": "Go",
+              "start_ms": 126710,
+              "end_ms": 127010,
+              "estimated": true
+            },
+            {
+              "word": "raibh",
+              "start_ms": 127060,
+              "end_ms": 127360,
+              "estimated": true
+            },
+            {
+              "word": "an",
+              "start_ms": 127410,
+              "end_ms": 127710,
+              "estimated": true
+            },
+            {
+              "word": "freagra",
+              "start_ms": 127630,
+              "end_ms": 128470
+            },
+            {
+              "word": "ag",
+              "start_ms": 128520,
+              "end_ms": 128820,
+              "estimated": true
+            },
+            {
+              "word": "teacht",
+              "start_ms": 128470,
+              "end_ms": 130229
+            }
+          ]
+        },
+        {
+          "text": "Ní i bhfocail ach i gcorp beag te",
+          "start_ms": 130229,
+          "end_ms": 134580,
+          "words": [
+            {
+              "word": "Ní",
+              "start_ms": 130229,
+              "end_ms": 130529,
+              "estimated": true
+            },
+            {
+              "word": "i",
+              "start_ms": 132470,
+              "end_ms": 132790
+            },
+            {
+              "word": "bhfocail",
+              "start_ms": 132840,
+              "end_ms": 133140,
+              "estimated": true
+            },
+            {
+              "word": "ach",
+              "start_ms": 137590,
+              "end_ms": 138270
+            },
+            {
+              "word": "i",
+              "start_ms": 138320,
+              "end_ms": 138620,
+              "estimated": true
+            },
+            {
+              "word": "gcorp",
+              "start_ms": 138670,
+              "end_ms": 138970,
+              "estimated": true
+            },
+            {
+              "word": "beag",
+              "start_ms": 134050,
+              "end_ms": 134230
+            },
+            {
+              "word": "te",
+              "start_ms": 134280,
+              "end_ms": 134580,
+              "estimated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 134230,
+      "end_ms": 148230,
+      "lines": [
+        {
+          "text": "Agus tusa, a linbh",
+          "start_ms": 134230,
+          "end_ms": 140310,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 134230,
+              "end_ms": 134530,
+              "estimated": true
+            },
+            {
+              "word": "tusa,",
+              "start_ms": 138550,
+              "end_ms": 139050
+            },
+            {
+              "word": "a",
+              "start_ms": 137590,
+              "end_ms": 138270
+            },
+            {
+              "word": "linbh",
+              "start_ms": 139810,
+              "end_ms": 140310
+            }
+          ]
         },
         {
           "text": "Breacadh an lae ag teacht",
-          "start_ms": 83600,
-          "end_ms": 85600
+          "start_ms": 140310,
+          "end_ms": 143090,
+          "words": [
+            {
+              "word": "Breacadh",
+              "start_ms": 140310,
+              "end_ms": 141390
+            },
+            {
+              "word": "an",
+              "start_ms": 141440,
+              "end_ms": 141740,
+              "estimated": true
+            },
+            {
+              "word": "lae",
+              "start_ms": 141670,
+              "end_ms": 143090
+            },
+            {
+              "word": "ag",
+              "start_ms": 143140,
+              "end_ms": 143440,
+              "estimated": true
+            },
+            {
+              "word": "teacht",
+              "start_ms": 141670,
+              "end_ms": 143090
+            }
+          ]
         },
         {
           "text": "An dorchadas ag bogadh",
-          "start_ms": 85600,
-          "end_ms": 87600
+          "start_ms": 143090,
+          "end_ms": 146310,
+          "words": [
+            {
+              "word": "An",
+              "start_ms": 143090,
+              "end_ms": 143390,
+              "estimated": true
+            },
+            {
+              "word": "dorchadas",
+              "start_ms": 144590,
+              "end_ms": 144910
+            },
+            {
+              "word": "ag",
+              "start_ms": 144960,
+              "end_ms": 145260,
+              "estimated": true
+            },
+            {
+              "word": "bogadh",
+              "start_ms": 145430,
+              "end_ms": 146310
+            }
+          ]
         },
         {
           "text": "Agus tusa — síocháin",
-          "start_ms": 87600,
-          "end_ms": 89600
+          "start_ms": 146310,
+          "end_ms": 148230,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 146310,
+              "end_ms": 146610,
+              "estimated": true
+            },
+            {
+              "word": "tusa",
+              "start_ms": 147050,
+              "end_ms": 147530
+            },
+            {
+              "word": "—",
+              "start_ms": 147580,
+              "end_ms": 147880,
+              "estimated": true
+            },
+            {
+              "word": "síocháin",
+              "start_ms": 147930,
+              "end_ms": 148230,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Agus tusa — síocháin",
-          "start_ms": 89600,
-          "end_ms": 91600
+          "start_ms": 147530,
+          "end_ms": 148230,
+          "words": [
+            {
+              "word": "Agus",
+              "start_ms": 147530,
+              "end_ms": 147830,
+              "estimated": true
+            },
+            {
+              "word": "tusa",
+              "start_ms": 147050,
+              "end_ms": 147530
+            },
+            {
+              "word": "—",
+              "start_ms": 147580,
+              "end_ms": 147880,
+              "estimated": true
+            },
+            {
+              "word": "síocháin",
+              "start_ms": 147930,
+              "end_ms": 148230,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 81600,
-      "end_ms": 91600
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Fading",
+      "label": "Outro",
+      "start_ms": 146310,
+      "end_ms": 147060,
       "lines": [
         {
           "text": "A linbh... a linbh...",
-          "start_ms": 94600,
-          "end_ms": 96600
+          "start_ms": 146310,
+          "end_ms": 147060,
+          "words": [
+            {
+              "word": "A",
+              "start_ms": 146310,
+              "end_ms": 146710
+            },
+            {
+              "word": "linbh...",
+              "start_ms": 146760,
+              "end_ms": 147060,
+              "estimated": true
+            },
+            {
+              "word": "a",
+              "start_ms": 146310,
+              "end_ms": 146710
+            },
+            {
+              "word": "linbh...",
+              "start_ms": 146760,
+              "end_ms": 147060,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 94600,
-      "end_ms": 96600
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Agus tusa, a linbh",
+      "section_type": "chorus",
+      "start_ms": 42680,
+      "end_ms": 61280,
+      "key_line": "Agus tusa, a linbh",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Agus tusa, a linbh",
+      "section_type": "chorus",
+      "start_ms": 91990,
+      "end_ms": 123200,
+      "key_line": "Agus tusa, a linbh",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 122150,
+      "end_ms": 134580,
+      "key_line": "Dúirt mé \"conas?\"",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Agus tusa, a linbh",
+      "section_type": "chorus",
+      "start_ms": 134230,
+      "end_ms": 148230,
+      "key_line": "Agus tusa, a linbh",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/irish/42_luke_01_1-76_transcript.json"
 }

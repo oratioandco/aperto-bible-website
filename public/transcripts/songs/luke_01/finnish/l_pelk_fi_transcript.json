@@ -7,261 +7,1024 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:5-38",
-  "duration_ms": 220000,
+  "duration_ms": 214880,
   "audio_file": "/audio/songs/luke_01/finnish/Älä pelkää (Luke 1_5-38) — Finnish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.829258+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.957281+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.897,
   "sections": [
     {
       "type": "verse",
       "label": "Verse 1",
+      "start_ms": 14360,
+      "end_ms": 37080,
       "lines": [
         {
           "text": "Temppelissä seisoo mies",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 14360,
+          "end_ms": 17680,
+          "words": [
+            {
+              "word": "Temppelissä",
+              "start_ms": 14360,
+              "end_ms": 15760
+            },
+            {
+              "word": "seisoo",
+              "start_ms": 15760,
+              "end_ms": 16720
+            },
+            {
+              "word": "mies",
+              "start_ms": 16720,
+              "end_ms": 17680
+            }
+          ]
         },
         {
           "text": "Joka on odottanut koko elämänsä",
-          "start_ms": 8000,
-          "end_ms": 10480
+          "start_ms": 19840,
+          "end_ms": 25400,
+          "words": [
+            {
+              "word": "Joka",
+              "start_ms": 19840,
+              "end_ms": 20560
+            },
+            {
+              "word": "on",
+              "start_ms": 20560,
+              "end_ms": 20880
+            },
+            {
+              "word": "odottanut",
+              "start_ms": 20880,
+              "end_ms": 22560
+            },
+            {
+              "word": "koko",
+              "start_ms": 22560,
+              "end_ms": 23720
+            },
+            {
+              "word": "elämänsä",
+              "start_ms": 23720,
+              "end_ms": 25400
+            }
+          ]
         },
         {
           "text": "Savu nousee, lamppu palaa",
-          "start_ms": 10480,
-          "end_ms": 12480
+          "start_ms": 26400,
+          "end_ms": 32180,
+          "words": [
+            {
+              "word": "Savu",
+              "start_ms": 26400,
+              "end_ms": 28020
+            },
+            {
+              "word": "nousee,",
+              "start_ms": 28020,
+              "end_ms": 29340
+            },
+            {
+              "word": "lamppu",
+              "start_ms": 29680,
+              "end_ms": 30220
+            },
+            {
+              "word": "palaa",
+              "start_ms": 30220,
+              "end_ms": 32180
+            }
+          ]
         },
         {
           "text": "Ja pelko putoaa hänen päälleen",
-          "start_ms": 12480,
-          "end_ms": 14880
+          "start_ms": 32180,
+          "end_ms": 37080,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 32180,
+              "end_ms": 33140
+            },
+            {
+              "word": "pelko",
+              "start_ms": 33140,
+              "end_ms": 33880
+            },
+            {
+              "word": "putoaa",
+              "start_ms": 33880,
+              "end_ms": 35000
+            },
+            {
+              "word": "hänen",
+              "start_ms": 35000,
+              "end_ms": 35740
+            },
+            {
+              "word": "päälleen",
+              "start_ms": 35740,
+              "end_ms": 37080
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 14880
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 2",
+      "start_ms": 39260,
+      "end_ms": 62260,
       "lines": [
         {
           "text": "Nasaretissa istuu tyttö",
-          "start_ms": 17880,
-          "end_ms": 19880
+          "start_ms": 39260,
+          "end_ms": 44360,
+          "words": [
+            {
+              "word": "Nasaretissa",
+              "start_ms": 39260,
+              "end_ms": 40640
+            },
+            {
+              "word": "istuu",
+              "start_ms": 40640,
+              "end_ms": 41560
+            },
+            {
+              "word": "tyttö",
+              "start_ms": 41560,
+              "end_ms": 44360
+            }
+          ]
         },
         {
           "text": "Jonka nimeä kukaan ei muista",
-          "start_ms": 19880,
-          "end_ms": 22120
+          "start_ms": 45140,
+          "end_ms": 50440,
+          "words": [
+            {
+              "word": "Jonka",
+              "start_ms": 45140,
+              "end_ms": 45620
+            },
+            {
+              "word": "nimeä",
+              "start_ms": 45620,
+              "end_ms": 47180
+            },
+            {
+              "word": "kukaan",
+              "start_ms": 47180,
+              "end_ms": 48540
+            },
+            {
+              "word": "ei",
+              "start_ms": 48540,
+              "end_ms": 48860
+            },
+            {
+              "word": "muista",
+              "start_ms": 48860,
+              "end_ms": 50440
+            }
+          ]
         },
         {
           "text": "Ei savua, ei lamppua",
-          "start_ms": 22120,
-          "end_ms": 24120
+          "start_ms": 48540,
+          "end_ms": 56260,
+          "words": [
+            {
+              "word": "Ei",
+              "start_ms": 48540,
+              "end_ms": 48860
+            },
+            {
+              "word": "savua,",
+              "start_ms": 52880,
+              "end_ms": 53980
+            },
+            {
+              "word": "ei",
+              "start_ms": 51440,
+              "end_ms": 52880
+            },
+            {
+              "word": "lamppua",
+              "start_ms": 54760,
+              "end_ms": 56260
+            }
+          ]
         },
         {
           "text": "Vain ikkuna ja hiljainen huone",
-          "start_ms": 24120,
-          "end_ms": 26520
+          "start_ms": 56740,
+          "end_ms": 62260,
+          "words": [
+            {
+              "word": "Vain",
+              "start_ms": 56740,
+              "end_ms": 56880
+            },
+            {
+              "word": "ikkuna",
+              "start_ms": 56880,
+              "end_ms": 58240
+            },
+            {
+              "word": "ja",
+              "start_ms": 58240,
+              "end_ms": 58740
+            },
+            {
+              "word": "hiljainen",
+              "start_ms": 58740,
+              "end_ms": 60100
+            },
+            {
+              "word": "huone",
+              "start_ms": 60100,
+              "end_ms": 62260
+            }
+          ]
         }
-      ],
-      "start_ms": 17880,
-      "end_ms": 26520
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 64060,
+      "end_ms": 73260,
       "lines": [
         {
           "text": "Sama viesti, sama pelko",
-          "start_ms": 29520,
-          "end_ms": 31520
+          "start_ms": 64060,
+          "end_ms": 67680,
+          "words": [
+            {
+              "word": "Sama",
+              "start_ms": 64060,
+              "end_ms": 64420
+            },
+            {
+              "word": "viesti,",
+              "start_ms": 64420,
+              "end_ms": 65540
+            },
+            {
+              "word": "sama",
+              "start_ms": 64060,
+              "end_ms": 64420
+            },
+            {
+              "word": "pelko",
+              "start_ms": 66340,
+              "end_ms": 67680
+            }
+          ]
         },
         {
           "text": "Eri ihminen, sama lause",
-          "start_ms": 31520,
-          "end_ms": 33520
+          "start_ms": 68120,
+          "end_ms": 73260,
+          "words": [
+            {
+              "word": "Eri",
+              "start_ms": 68120,
+              "end_ms": 68640
+            },
+            {
+              "word": "ihminen,",
+              "start_ms": 68640,
+              "end_ms": 70680
+            },
+            {
+              "word": "sama",
+              "start_ms": 71300,
+              "end_ms": 71620
+            },
+            {
+              "word": "lause",
+              "start_ms": 71620,
+              "end_ms": 73260
+            }
+          ]
         }
-      ],
-      "start_ms": 29520,
-      "end_ms": 33520
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 74260,
+      "end_ms": 104020,
       "lines": [
         {
           "text": "Älä pelkää",
-          "start_ms": 36520,
-          "end_ms": 38520
+          "start_ms": 74260,
+          "end_ms": 78240,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 74260,
+              "end_ms": 75540
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 75540,
+              "end_ms": 78240
+            }
+          ]
         },
         {
           "text": "En tiedä miten sen tekee",
-          "start_ms": 38520,
-          "end_ms": 40520
+          "start_ms": 80220,
+          "end_ms": 84260,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 80220,
+              "end_ms": 80460
+            },
+            {
+              "word": "tiedä",
+              "start_ms": 80460,
+              "end_ms": 81400
+            },
+            {
+              "word": "miten",
+              "start_ms": 81400,
+              "end_ms": 82220
+            },
+            {
+              "word": "sen",
+              "start_ms": 82220,
+              "end_ms": 83060
+            },
+            {
+              "word": "tekee",
+              "start_ms": 83060,
+              "end_ms": 84260
+            }
+          ]
         },
         {
           "text": "Älä pelkää",
-          "start_ms": 40520,
-          "end_ms": 42520
+          "start_ms": 85260,
+          "end_ms": 89180,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 85260,
+              "end_ms": 86880
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 86880,
+              "end_ms": 89180
+            }
+          ]
         },
         {
           "text": "Se on kaikki mitä meillä on",
-          "start_ms": 42520,
-          "end_ms": 44680
+          "start_ms": 90520,
+          "end_ms": 94260,
+          "words": [
+            {
+              "word": "Se",
+              "start_ms": 90520,
+              "end_ms": 90540
+            },
+            {
+              "word": "on",
+              "start_ms": 90540,
+              "end_ms": 90880
+            },
+            {
+              "word": "kaikki",
+              "start_ms": 90880,
+              "end_ms": 91960
+            },
+            {
+              "word": "mitä",
+              "start_ms": 91960,
+              "end_ms": 92600
+            },
+            {
+              "word": "meillä",
+              "start_ms": 92600,
+              "end_ms": 93420
+            },
+            {
+              "word": "on",
+              "start_ms": 93420,
+              "end_ms": 94260
+            }
+          ]
         },
         {
           "text": "Kaksi sanaa pimeässä",
-          "start_ms": 44680,
-          "end_ms": 46680
+          "start_ms": 95840,
+          "end_ms": 99460,
+          "words": [
+            {
+              "word": "Kaksi",
+              "start_ms": 95840,
+              "end_ms": 96420
+            },
+            {
+              "word": "sanaa",
+              "start_ms": 96420,
+              "end_ms": 97640
+            },
+            {
+              "word": "pimeässä",
+              "start_ms": 97640,
+              "end_ms": 99460
+            }
+          ]
         },
         {
           "text": "Älä pelkää",
-          "start_ms": 46680,
-          "end_ms": 48680
+          "start_ms": 101580,
+          "end_ms": 104020,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 101580,
+              "end_ms": 101980
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 101980,
+              "end_ms": 104020
+            }
+          ]
         }
-      ],
-      "start_ms": 36520,
-      "end_ms": 48680
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 105020,
+      "end_ms": 134300,
       "lines": [
         {
           "text": "Hän oli liian vanha uskomaan",
-          "start_ms": 51680,
-          "end_ms": 53920
+          "start_ms": 105020,
+          "end_ms": 112960,
+          "words": [
+            {
+              "word": "Hän",
+              "start_ms": 105020,
+              "end_ms": 106760
+            },
+            {
+              "word": "oli",
+              "start_ms": 106760,
+              "end_ms": 107080
+            },
+            {
+              "word": "liian",
+              "start_ms": 107080,
+              "end_ms": 107860
+            },
+            {
+              "word": "vanha",
+              "start_ms": 107860,
+              "end_ms": 108760
+            },
+            {
+              "word": "uskomaan",
+              "start_ms": 108760,
+              "end_ms": 112960
+            }
+          ]
         },
         {
           "text": "Hän oli liian nuori tietämään",
-          "start_ms": 53920,
-          "end_ms": 56240
+          "start_ms": 113960,
+          "end_ms": 118300,
+          "words": [
+            {
+              "word": "Hän",
+              "start_ms": 113960,
+              "end_ms": 114340
+            },
+            {
+              "word": "oli",
+              "start_ms": 114340,
+              "end_ms": 114580
+            },
+            {
+              "word": "liian",
+              "start_ms": 114580,
+              "end_ms": 115340
+            },
+            {
+              "word": "nuori",
+              "start_ms": 115340,
+              "end_ms": 116280
+            },
+            {
+              "word": "tietämään",
+              "start_ms": 116280,
+              "end_ms": 118300
+            }
+          ]
         },
         {
           "text": "Mutta pelko oli sama",
-          "start_ms": 56240,
-          "end_ms": 58240
+          "start_ms": 119300,
+          "end_ms": 123040,
+          "words": [
+            {
+              "word": "Mutta",
+              "start_ms": 119300,
+              "end_ms": 120920
+            },
+            {
+              "word": "pelko",
+              "start_ms": 120920,
+              "end_ms": 121740
+            },
+            {
+              "word": "oli",
+              "start_ms": 121740,
+              "end_ms": 122180
+            },
+            {
+              "word": "sama",
+              "start_ms": 122180,
+              "end_ms": 123040
+            }
+          ]
         },
         {
           "text": "Sanat olivat samat",
-          "start_ms": 58240,
-          "end_ms": 60240
+          "start_ms": 124280,
+          "end_ms": 127700,
+          "words": [
+            {
+              "word": "Sanat",
+              "start_ms": 124280,
+              "end_ms": 125000
+            },
+            {
+              "word": "olivat",
+              "start_ms": 125000,
+              "end_ms": 125840
+            },
+            {
+              "word": "samat",
+              "start_ms": 125840,
+              "end_ms": 127700
+            }
+          ]
         },
         {
           "text": "Ja kumpikin oli yksin",
-          "start_ms": 60240,
-          "end_ms": 62240
+          "start_ms": 127700,
+          "end_ms": 134300,
+          "words": [
+            {
+              "word": "Ja",
+              "start_ms": 127700,
+              "end_ms": 128699
+            },
+            {
+              "word": "kumpikin",
+              "start_ms": 128699,
+              "end_ms": 130600
+            },
+            {
+              "word": "oli",
+              "start_ms": 130600,
+              "end_ms": 131300
+            },
+            {
+              "word": "yksin",
+              "start_ms": 131300,
+              "end_ms": 134300
+            }
+          ]
         }
-      ],
-      "start_ms": 51680,
-      "end_ms": 62240
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 134300,
+      "end_ms": 188120,
       "lines": [
         {
           "text": "Älä pelkää",
-          "start_ms": 65240,
-          "end_ms": 67240
+          "start_ms": 134300,
+          "end_ms": 138600,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 134300,
+              "end_ms": 135800
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 135800,
+              "end_ms": 138600
+            }
+          ]
         },
         {
           "text": "En tiedä miten sen tekee",
-          "start_ms": 67240,
-          "end_ms": 69240
+          "start_ms": 140520,
+          "end_ms": 144300,
+          "words": [
+            {
+              "word": "En",
+              "start_ms": 140520,
+              "end_ms": 140700
+            },
+            {
+              "word": "tiedä",
+              "start_ms": 140700,
+              "end_ms": 141660
+            },
+            {
+              "word": "miten",
+              "start_ms": 141660,
+              "end_ms": 142520
+            },
+            {
+              "word": "sen",
+              "start_ms": 142520,
+              "end_ms": 143320
+            },
+            {
+              "word": "tekee",
+              "start_ms": 143320,
+              "end_ms": 144300
+            }
+          ]
         },
         {
           "text": "Älä pelkää",
-          "start_ms": 69240,
-          "end_ms": 71240
+          "start_ms": 146860,
+          "end_ms": 148860,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 146860,
+              "end_ms": 147180
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 147180,
+              "end_ms": 148860
+            }
+          ]
         },
         {
           "text": "Se on kaikki mitä meillä on",
-          "start_ms": 71240,
-          "end_ms": 73400
+          "start_ms": 150540,
+          "end_ms": 167540,
+          "words": [
+            {
+              "word": "Se",
+              "start_ms": 150540,
+              "end_ms": 150880
+            },
+            {
+              "word": "on",
+              "start_ms": 150880,
+              "end_ms": 151280
+            },
+            {
+              "word": "kaikki",
+              "start_ms": 151280,
+              "end_ms": 152120
+            },
+            {
+              "word": "mitä",
+              "start_ms": 152120,
+              "end_ms": 152860
+            },
+            {
+              "word": "meillä",
+              "start_ms": 152860,
+              "end_ms": 153700
+            },
+            {
+              "word": "on",
+              "start_ms": 167120,
+              "end_ms": 167540
+            }
+          ]
         },
         {
           "text": "Kaksi sanaa pimeässä",
-          "start_ms": 73400,
-          "end_ms": 75400
+          "start_ms": 170820,
+          "end_ms": 188120,
+          "words": [
+            {
+              "word": "Kaksi",
+              "start_ms": 170820,
+              "end_ms": 171560
+            },
+            {
+              "word": "sanaa",
+              "start_ms": 171560,
+              "end_ms": 172900
+            },
+            {
+              "word": "pimeässä",
+              "start_ms": 183120,
+              "end_ms": 188120
+            }
+          ]
         },
         {
           "text": "Älä pelkää",
-          "start_ms": 75400,
-          "end_ms": 77400
+          "start_ms": 181380,
+          "end_ms": 188120,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 181380,
+              "end_ms": 183120
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 183120,
+              "end_ms": 188120
+            }
+          ]
         }
-      ],
-      "start_ms": 65240,
-      "end_ms": 77400
+      ]
     },
     {
       "type": "bridge",
-      "label": "Bridge] [Breathy",
+      "label": "Bridge",
+      "start_ms": 183120,
+      "end_ms": 199990,
       "lines": [
         {
           "text": "Ehkä pelko on se paikka",
-          "start_ms": 80400,
-          "end_ms": 82400
+          "start_ms": 183120,
+          "end_ms": 189170,
+          "words": [
+            {
+              "word": "Ehkä",
+              "start_ms": 183120,
+              "end_ms": 188120
+            },
+            {
+              "word": "pelko",
+              "start_ms": 183120,
+              "end_ms": 188120
+            },
+            {
+              "word": "on",
+              "start_ms": 188170,
+              "end_ms": 188470,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 188520,
+              "end_ms": 188820,
+              "estimated": true
+            },
+            {
+              "word": "paikka",
+              "start_ms": 188870,
+              "end_ms": 189170,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Jossa kaikki alkaa",
-          "start_ms": 82400,
-          "end_ms": 84400
+          "start_ms": 190020,
+          "end_ms": 198640,
+          "words": [
+            {
+              "word": "Jossa",
+              "start_ms": 190020,
+              "end_ms": 190320,
+              "estimated": true
+            },
+            {
+              "word": "kaikki",
+              "start_ms": 196260,
+              "end_ms": 196800
+            },
+            {
+              "word": "alkaa",
+              "start_ms": 196800,
+              "end_ms": 198640
+            }
+          ]
         },
         {
           "text": "Ei se johon pysähdyt",
-          "start_ms": 84400,
-          "end_ms": 86400
+          "start_ms": 198640,
+          "end_ms": 199990,
+          "words": [
+            {
+              "word": "Ei",
+              "start_ms": 198640,
+              "end_ms": 198940,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 198990,
+              "end_ms": 199290,
+              "estimated": true
+            },
+            {
+              "word": "johon",
+              "start_ms": 199340,
+              "end_ms": 199640,
+              "estimated": true
+            },
+            {
+              "word": "pysähdyt",
+              "start_ms": 199690,
+              "end_ms": 199990,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Vaan se mistä lähdet",
-          "start_ms": 86400,
-          "end_ms": 88400
+          "start_ms": 198640,
+          "end_ms": 199990,
+          "words": [
+            {
+              "word": "Vaan",
+              "start_ms": 198640,
+              "end_ms": 198940,
+              "estimated": true
+            },
+            {
+              "word": "se",
+              "start_ms": 198990,
+              "end_ms": 199290,
+              "estimated": true
+            },
+            {
+              "word": "mistä",
+              "start_ms": 199340,
+              "end_ms": 199640,
+              "estimated": true
+            },
+            {
+              "word": "lähdet",
+              "start_ms": 199690,
+              "end_ms": 199990,
+              "estimated": true
+            }
+          ]
         }
-      ],
-      "start_ms": 80400,
-      "end_ms": 88400
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 198640,
+      "end_ms": 200000,
       "lines": [
         {
           "text": "Älä pelkää",
-          "start_ms": 91400,
-          "end_ms": 93400
+          "start_ms": 198640,
+          "end_ms": 192380,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 198640,
+              "end_ms": 198940,
+              "estimated": true
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 190820,
+              "end_ms": 192380
+            }
+          ]
         },
         {
           "text": "Älä pelkää",
-          "start_ms": 93400,
-          "end_ms": 95400
+          "start_ms": 190020,
+          "end_ms": 188120,
+          "words": [
+            {
+              "word": "Älä",
+              "start_ms": 190020,
+              "end_ms": 190820
+            },
+            {
+              "word": "pelkää",
+              "start_ms": 183120,
+              "end_ms": 188120
+            }
+          ]
         },
         {
           "text": "Kaksi sanaa pimeässä",
-          "start_ms": 95400,
-          "end_ms": 97400
+          "start_ms": 196260,
+          "end_ms": 200000,
+          "words": [
+            {
+              "word": "Kaksi",
+              "start_ms": 196260,
+              "end_ms": 196800
+            },
+            {
+              "word": "sanaa",
+              "start_ms": 196800,
+              "end_ms": 198640
+            },
+            {
+              "word": "pimeässä",
+              "start_ms": 198640,
+              "end_ms": 200000
+            }
+          ]
         }
-      ],
-      "start_ms": 91400,
-      "end_ms": 97400
-    },
-    {
-      "type": "outro",
-      "label": "End",
-      "lines": [
-        {
-          "text": "---",
-          "start_ms": 100400,
-          "end_ms": 102400
-        }
-      ],
-      "start_ms": 100400,
-      "end_ms": 102400
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Sama viesti, sama pelko",
+      "section_type": "chorus",
+      "start_ms": 64060,
+      "end_ms": 73260,
+      "key_line": "Sama viesti, sama pelko",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Älä pelkää",
+      "section_type": "chorus",
+      "start_ms": 74260,
+      "end_ms": 104020,
+      "key_line": "Älä pelkää",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Älä pelkää",
+      "section_type": "chorus",
+      "start_ms": 134300,
+      "end_ms": 188120,
+      "key_line": "Älä pelkää",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 183120,
+      "end_ms": 199990,
+      "key_line": "Ehkä pelko on se paikka",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Älä pelkää",
+      "section_type": "chorus",
+      "start_ms": 198640,
+      "end_ms": 200000,
+      "key_line": "Älä pelkää",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/finnish/42_luke_01_1-5_transcript.json"
 }

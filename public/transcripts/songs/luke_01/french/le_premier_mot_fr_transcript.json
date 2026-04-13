@@ -7,271 +7,1395 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:64-79",
-  "duration_ms": 220000,
+  "duration_ms": 222920,
   "audio_file": "/audio/songs/luke_01/french/Le premier mot (Luke 1_64-79)— French.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.856674+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.962645+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.974,
   "sections": [
     {
       "type": "verse",
-      "label": "Verse 1] [Whispered",
+      "label": "Verse 1",
+      "start_ms": 26400,
+      "end_ms": 43840,
       "lines": [
         {
           "text": "Neuf mois sans un mot",
-          "start_ms": 6000,
-          "end_ms": 8000
+          "start_ms": 26400,
+          "end_ms": 28160,
+          "words": [
+            {
+              "word": "Neuf",
+              "start_ms": 26400,
+              "end_ms": 27800
+            },
+            {
+              "word": "mois",
+              "start_ms": 27800,
+              "end_ms": 28160
+            },
+            {
+              "word": "sans",
+              "start_ms": 28160,
+              "end_ms": 28500
+            },
+            {
+              "word": "un",
+              "start_ms": 28550,
+              "end_ms": 28850,
+              "estimated": true
+            },
+            {
+              "word": "mot",
+              "start_ms": 27800,
+              "end_ms": 28160
+            }
+          ]
         },
         {
           "text": "Neuf mois a regarder le monde bouger",
-          "start_ms": 8000,
-          "end_ms": 10880
+          "start_ms": 26400,
+          "end_ms": 35820,
+          "words": [
+            {
+              "word": "Neuf",
+              "start_ms": 26400,
+              "end_ms": 27800
+            },
+            {
+              "word": "mois",
+              "start_ms": 27800,
+              "end_ms": 28160
+            },
+            {
+              "word": "a",
+              "start_ms": 28210,
+              "end_ms": 28510,
+              "estimated": true
+            },
+            {
+              "word": "regarder",
+              "start_ms": 31960,
+              "end_ms": 32940
+            },
+            {
+              "word": "le",
+              "start_ms": 32940,
+              "end_ms": 33200
+            },
+            {
+              "word": "monde",
+              "start_ms": 33200,
+              "end_ms": 33600
+            },
+            {
+              "word": "bouger",
+              "start_ms": 33600,
+              "end_ms": 35820
+            }
+          ]
         },
         {
           "text": "Sans pouvoir dire ce que je voyais",
-          "start_ms": 10880,
-          "end_ms": 13600
+          "start_ms": 35820,
+          "end_ms": 39000,
+          "words": [
+            {
+              "word": "Sans",
+              "start_ms": 35820,
+              "end_ms": 36340
+            },
+            {
+              "word": "pouvoir",
+              "start_ms": 36340,
+              "end_ms": 36760
+            },
+            {
+              "word": "dire",
+              "start_ms": 36760,
+              "end_ms": 37180
+            },
+            {
+              "word": "ce",
+              "start_ms": 37180,
+              "end_ms": 37460
+            },
+            {
+              "word": "que",
+              "start_ms": 37460,
+              "end_ms": 37600
+            },
+            {
+              "word": "je",
+              "start_ms": 37600,
+              "end_ms": 37880
+            },
+            {
+              "word": "voyais",
+              "start_ms": 37880,
+              "end_ms": 39000
+            }
+          ]
         },
         {
           "text": "La bouche fermee, les yeux grands ouverts",
-          "start_ms": 13600,
-          "end_ms": 16880
+          "start_ms": 39000,
+          "end_ms": 43840,
+          "words": [
+            {
+              "word": "La",
+              "start_ms": 39000,
+              "end_ms": 39460
+            },
+            {
+              "word": "bouche",
+              "start_ms": 39460,
+              "end_ms": 39720
+            },
+            {
+              "word": "fermee,",
+              "start_ms": 39720,
+              "end_ms": 40880
+            },
+            {
+              "word": "les",
+              "start_ms": 41080,
+              "end_ms": 41240
+            },
+            {
+              "word": "yeux",
+              "start_ms": 41240,
+              "end_ms": 41400
+            },
+            {
+              "word": "grands",
+              "start_ms": 41400,
+              "end_ms": 41760
+            },
+            {
+              "word": "ouverts",
+              "start_ms": 41760,
+              "end_ms": 43840
+            }
+          ]
         }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16880
+      ]
     },
     {
       "type": "verse",
-      "label": "Verse 2] [Soft",
+      "label": "Verse 2",
+      "start_ms": 43840,
+      "end_ms": 58500,
       "lines": [
         {
           "text": "Les gens parlaient autour de moi",
-          "start_ms": 19880,
-          "end_ms": 22440
+          "start_ms": 43840,
+          "end_ms": 47500,
+          "words": [
+            {
+              "word": "Les",
+              "start_ms": 43840,
+              "end_ms": 45100
+            },
+            {
+              "word": "gens",
+              "start_ms": 45100,
+              "end_ms": 45320
+            },
+            {
+              "word": "parlaient",
+              "start_ms": 45320,
+              "end_ms": 45800
+            },
+            {
+              "word": "autour",
+              "start_ms": 45800,
+              "end_ms": 46340
+            },
+            {
+              "word": "de",
+              "start_ms": 46340,
+              "end_ms": 46580
+            },
+            {
+              "word": "moi",
+              "start_ms": 46580,
+              "end_ms": 47500
+            }
+          ]
         },
         {
           "text": "De choses petites, de choses qui passent",
-          "start_ms": 22440,
-          "end_ms": 25640
+          "start_ms": 46340,
+          "end_ms": 52080,
+          "words": [
+            {
+              "word": "De",
+              "start_ms": 46340,
+              "end_ms": 46580
+            },
+            {
+              "word": "choses",
+              "start_ms": 47960,
+              "end_ms": 48420
+            },
+            {
+              "word": "petites,",
+              "start_ms": 48420,
+              "end_ms": 49220
+            },
+            {
+              "word": "de",
+              "start_ms": 47500,
+              "end_ms": 47960
+            },
+            {
+              "word": "choses",
+              "start_ms": 47960,
+              "end_ms": 48420
+            },
+            {
+              "word": "qui",
+              "start_ms": 50260,
+              "end_ms": 50680
+            },
+            {
+              "word": "passent",
+              "start_ms": 50680,
+              "end_ms": 52080
+            }
+          ]
         },
         {
           "text": "Et moi, j'avais un ocean dans la gorge",
-          "start_ms": 25640,
-          "end_ms": 28680
+          "start_ms": 52080,
+          "end_ms": 54860,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 52080,
+              "end_ms": 52380
+            },
+            {
+              "word": "moi,",
+              "start_ms": 52380,
+              "end_ms": 52740
+            },
+            {
+              "word": "j'avais",
+              "start_ms": 53060,
+              "end_ms": 53260
+            },
+            {
+              "word": "un",
+              "start_ms": 53260,
+              "end_ms": 53580
+            },
+            {
+              "word": "ocean",
+              "start_ms": 53580,
+              "end_ms": 53980
+            },
+            {
+              "word": "dans",
+              "start_ms": 53980,
+              "end_ms": 54180
+            },
+            {
+              "word": "la",
+              "start_ms": 54180,
+              "end_ms": 54480
+            },
+            {
+              "word": "gorge",
+              "start_ms": 54480,
+              "end_ms": 54860
+            }
+          ]
         },
         {
           "text": "Qui attendait, qui attendait",
-          "start_ms": 28680,
-          "end_ms": 30920
+          "start_ms": 54860,
+          "end_ms": 58500,
+          "words": [
+            {
+              "word": "Qui",
+              "start_ms": 54860,
+              "end_ms": 55260
+            },
+            {
+              "word": "attendait,",
+              "start_ms": 55260,
+              "end_ms": 56300
+            },
+            {
+              "word": "qui",
+              "start_ms": 54860,
+              "end_ms": 55260
+            },
+            {
+              "word": "attendait",
+              "start_ms": 57200,
+              "end_ms": 58500
+            }
+          ]
         }
-      ],
-      "start_ms": 19880,
-      "end_ms": 30920
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 59500,
+      "end_ms": 68720,
       "lines": [
         {
           "text": "Et puis un jour, la bouche s'est ouverte",
-          "start_ms": 33920,
-          "end_ms": 37120
+          "start_ms": 59500,
+          "end_ms": 64720,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 59500,
+              "end_ms": 60020
+            },
+            {
+              "word": "puis",
+              "start_ms": 60020,
+              "end_ms": 60240
+            },
+            {
+              "word": "un",
+              "start_ms": 60240,
+              "end_ms": 60420
+            },
+            {
+              "word": "jour,",
+              "start_ms": 60420,
+              "end_ms": 61080
+            },
+            {
+              "word": "la",
+              "start_ms": 61380,
+              "end_ms": 61560
+            },
+            {
+              "word": "bouche",
+              "start_ms": 61560,
+              "end_ms": 61900
+            },
+            {
+              "word": "s'est",
+              "start_ms": 62100,
+              "end_ms": 62340
+            },
+            {
+              "word": "ouverte",
+              "start_ms": 62340,
+              "end_ms": 64720
+            }
+          ]
         },
         {
           "text": "Et ce qui est sorti...",
-          "start_ms": 37120,
-          "end_ms": 39120
+          "start_ms": 65660,
+          "end_ms": 68720,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 65660,
+              "end_ms": 66580
+            },
+            {
+              "word": "ce",
+              "start_ms": 64720,
+              "end_ms": 65300
+            },
+            {
+              "word": "qui",
+              "start_ms": 65300,
+              "end_ms": 65660
+            },
+            {
+              "word": "est",
+              "start_ms": 65660,
+              "end_ms": 66580
+            },
+            {
+              "word": "sorti...",
+              "start_ms": 66580,
+              "end_ms": 68720
+            }
+          ]
         }
-      ],
-      "start_ms": 33920,
-      "end_ms": 39120
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 68720,
+      "end_ms": 96320,
       "lines": [
         {
           "text": "Le premier mot",
-          "start_ms": 42120,
-          "end_ms": 44120
+          "start_ms": 68720,
+          "end_ms": 71200,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 68720,
+              "end_ms": 69580
+            },
+            {
+              "word": "premier",
+              "start_ms": 69580,
+              "end_ms": 70080
+            },
+            {
+              "word": "mot",
+              "start_ms": 70080,
+              "end_ms": 71200
+            }
+          ]
         },
         {
           "text": "Apres tout ce silence",
-          "start_ms": 44120,
-          "end_ms": 46120
+          "start_ms": 72740,
+          "end_ms": 75720,
+          "words": [
+            {
+              "word": "Apres",
+              "start_ms": 72740,
+              "end_ms": 73740
+            },
+            {
+              "word": "tout",
+              "start_ms": 73740,
+              "end_ms": 74340
+            },
+            {
+              "word": "ce",
+              "start_ms": 74340,
+              "end_ms": 74580
+            },
+            {
+              "word": "silence",
+              "start_ms": 74580,
+              "end_ms": 75720
+            }
+          ]
         },
         {
           "text": "Le premier mot",
-          "start_ms": 46120,
-          "end_ms": 48120
+          "start_ms": 75720,
+          "end_ms": 78960,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 75720,
+              "end_ms": 76920
+            },
+            {
+              "word": "premier",
+              "start_ms": 76920,
+              "end_ms": 77380
+            },
+            {
+              "word": "mot",
+              "start_ms": 77380,
+              "end_ms": 78960
+            }
+          ]
         },
         {
           "text": "C'etait pas une plainte, c'etait pas un cri",
-          "start_ms": 48120,
-          "end_ms": 51560
+          "start_ms": 79840,
+          "end_ms": 83460,
+          "words": [
+            {
+              "word": "C'etait",
+              "start_ms": 79840,
+              "end_ms": 80060
+            },
+            {
+              "word": "pas",
+              "start_ms": 80060,
+              "end_ms": 80620
+            },
+            {
+              "word": "une",
+              "start_ms": 80620,
+              "end_ms": 81080
+            },
+            {
+              "word": "plainte,",
+              "start_ms": 81080,
+              "end_ms": 81520
+            },
+            {
+              "word": "c'etait",
+              "start_ms": 81720,
+              "end_ms": 82000
+            },
+            {
+              "word": "pas",
+              "start_ms": 82000,
+              "end_ms": 82500
+            },
+            {
+              "word": "un",
+              "start_ms": 82500,
+              "end_ms": 82940
+            },
+            {
+              "word": "cri",
+              "start_ms": 82940,
+              "end_ms": 83460
+            }
+          ]
         },
         {
           "text": "Le premier mot",
-          "start_ms": 51560,
-          "end_ms": 53560
+          "start_ms": 83460,
+          "end_ms": 86320,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 83460,
+              "end_ms": 84180
+            },
+            {
+              "word": "premier",
+              "start_ms": 84180,
+              "end_ms": 84660
+            },
+            {
+              "word": "mot",
+              "start_ms": 84660,
+              "end_ms": 86320
+            }
+          ]
         },
         {
           "text": "C'etait plus grand que moi",
-          "start_ms": 53560,
-          "end_ms": 55640
+          "start_ms": 87060,
+          "end_ms": 89320,
+          "words": [
+            {
+              "word": "C'etait",
+              "start_ms": 87060,
+              "end_ms": 87340
+            },
+            {
+              "word": "plus",
+              "start_ms": 87340,
+              "end_ms": 87580
+            },
+            {
+              "word": "grand",
+              "start_ms": 87580,
+              "end_ms": 88000
+            },
+            {
+              "word": "que",
+              "start_ms": 88000,
+              "end_ms": 88340
+            },
+            {
+              "word": "moi",
+              "start_ms": 88340,
+              "end_ms": 89320
+            }
+          ]
         },
         {
           "text": "C'etait la lumiere qui parlait",
-          "start_ms": 55640,
-          "end_ms": 58040
+          "start_ms": 91760,
+          "end_ms": 96320,
+          "words": [
+            {
+              "word": "C'etait",
+              "start_ms": 91760,
+              "end_ms": 92040
+            },
+            {
+              "word": "la",
+              "start_ms": 92040,
+              "end_ms": 93200
+            },
+            {
+              "word": "lumiere",
+              "start_ms": 93200,
+              "end_ms": 94020
+            },
+            {
+              "word": "qui",
+              "start_ms": 94020,
+              "end_ms": 95200
+            },
+            {
+              "word": "parlait",
+              "start_ms": 95200,
+              "end_ms": 96320
+            }
+          ]
         }
-      ],
-      "start_ms": 42120,
-      "end_ms": 58040
+      ]
     },
     {
       "type": "verse",
       "label": "Verse 3",
+      "start_ms": 98740,
+      "end_ms": 112560,
       "lines": [
         {
           "text": "Et toi, petit, toi dans tes langes",
-          "start_ms": 61040,
-          "end_ms": 63760
+          "start_ms": 98740,
+          "end_ms": 101720,
+          "words": [
+            {
+              "word": "Et",
+              "start_ms": 98740,
+              "end_ms": 99460
+            },
+            {
+              "word": "toi,",
+              "start_ms": 99460,
+              "end_ms": 99700
+            },
+            {
+              "word": "petit,",
+              "start_ms": 99700,
+              "end_ms": 100360
+            },
+            {
+              "word": "toi",
+              "start_ms": 99460,
+              "end_ms": 99700
+            },
+            {
+              "word": "dans",
+              "start_ms": 100800,
+              "end_ms": 101100
+            },
+            {
+              "word": "tes",
+              "start_ms": 101100,
+              "end_ms": 101260
+            },
+            {
+              "word": "langes",
+              "start_ms": 101260,
+              "end_ms": 101720
+            }
+          ]
         },
         {
           "text": "On t'appellera la voix qui prepare",
-          "start_ms": 63760,
-          "end_ms": 66480
+          "start_ms": 102100,
+          "end_ms": 105560,
+          "words": [
+            {
+              "word": "On",
+              "start_ms": 102100,
+              "end_ms": 102540
+            },
+            {
+              "word": "t'appellera",
+              "start_ms": 102780,
+              "end_ms": 103300
+            },
+            {
+              "word": "la",
+              "start_ms": 103300,
+              "end_ms": 103680
+            },
+            {
+              "word": "voix",
+              "start_ms": 103680,
+              "end_ms": 104160
+            },
+            {
+              "word": "qui",
+              "start_ms": 104160,
+              "end_ms": 104440
+            },
+            {
+              "word": "prepare",
+              "start_ms": 104440,
+              "end_ms": 105560
+            }
+          ]
         },
         {
           "text": "Tu marcheras devant la lumiere",
-          "start_ms": 66480,
-          "end_ms": 68880
+          "start_ms": 105560,
+          "end_ms": 108620,
+          "words": [
+            {
+              "word": "Tu",
+              "start_ms": 105560,
+              "end_ms": 106240
+            },
+            {
+              "word": "marcheras",
+              "start_ms": 106240,
+              "end_ms": 107020
+            },
+            {
+              "word": "devant",
+              "start_ms": 107020,
+              "end_ms": 107420
+            },
+            {
+              "word": "la",
+              "start_ms": 107420,
+              "end_ms": 107860
+            },
+            {
+              "word": "lumiere",
+              "start_ms": 107860,
+              "end_ms": 108620
+            }
+          ]
         },
         {
           "text": "Pour montrer le chemin a ceux qui voient pas",
-          "start_ms": 68880,
-          "end_ms": 72400
+          "start_ms": 108620,
+          "end_ms": 112560,
+          "words": [
+            {
+              "word": "Pour",
+              "start_ms": 108620,
+              "end_ms": 108980
+            },
+            {
+              "word": "montrer",
+              "start_ms": 108980,
+              "end_ms": 109440
+            },
+            {
+              "word": "le",
+              "start_ms": 109440,
+              "end_ms": 109860
+            },
+            {
+              "word": "chemin",
+              "start_ms": 109860,
+              "end_ms": 110400
+            },
+            {
+              "word": "a",
+              "start_ms": 110450,
+              "end_ms": 110750,
+              "estimated": true
+            },
+            {
+              "word": "ceux",
+              "start_ms": 110920,
+              "end_ms": 111520
+            },
+            {
+              "word": "qui",
+              "start_ms": 111520,
+              "end_ms": 111800
+            },
+            {
+              "word": "voient",
+              "start_ms": 111800,
+              "end_ms": 112100
+            },
+            {
+              "word": "pas",
+              "start_ms": 112100,
+              "end_ms": 112560
+            }
+          ]
         }
-      ],
-      "start_ms": 61040,
-      "end_ms": 72400
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 114220,
+      "end_ms": 120560,
       "lines": [
         {
           "text": "L'aube d'en haut vient nous visiter",
-          "start_ms": 75400,
-          "end_ms": 78200
+          "start_ms": 114220,
+          "end_ms": 116840,
+          "words": [
+            {
+              "word": "L'aube",
+              "start_ms": 114220,
+              "end_ms": 114680
+            },
+            {
+              "word": "d'en",
+              "start_ms": 114730,
+              "end_ms": 115030,
+              "estimated": true
+            },
+            {
+              "word": "haut",
+              "start_ms": 115080,
+              "end_ms": 115380,
+              "estimated": true
+            },
+            {
+              "word": "vient",
+              "start_ms": 115280,
+              "end_ms": 115580
+            },
+            {
+              "word": "nous",
+              "start_ms": 115580,
+              "end_ms": 115880
+            },
+            {
+              "word": "visiter",
+              "start_ms": 115880,
+              "end_ms": 116840
+            }
+          ]
         },
         {
           "text": "Pour eclairer ceux qui sont dans le noir",
-          "start_ms": 78200,
-          "end_ms": 81400
+          "start_ms": 116840,
+          "end_ms": 120560,
+          "words": [
+            {
+              "word": "Pour",
+              "start_ms": 116840,
+              "end_ms": 117220
+            },
+            {
+              "word": "eclairer",
+              "start_ms": 117220,
+              "end_ms": 118680
+            },
+            {
+              "word": "ceux",
+              "start_ms": 118680,
+              "end_ms": 119000
+            },
+            {
+              "word": "qui",
+              "start_ms": 119000,
+              "end_ms": 119240
+            },
+            {
+              "word": "sont",
+              "start_ms": 119240,
+              "end_ms": 119680
+            },
+            {
+              "word": "dans",
+              "start_ms": 119680,
+              "end_ms": 119980
+            },
+            {
+              "word": "le",
+              "start_ms": 119980,
+              "end_ms": 120220
+            },
+            {
+              "word": "noir",
+              "start_ms": 120220,
+              "end_ms": 120560
+            }
+          ]
         }
-      ],
-      "start_ms": 75400,
-      "end_ms": 81400
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 119980,
+      "end_ms": 147820,
       "lines": [
         {
           "text": "Le premier mot",
-          "start_ms": 84400,
-          "end_ms": 86400
+          "start_ms": 119980,
+          "end_ms": 122500,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 119980,
+              "end_ms": 120220
+            },
+            {
+              "word": "premier",
+              "start_ms": 121060,
+              "end_ms": 121320
+            },
+            {
+              "word": "mot",
+              "start_ms": 121320,
+              "end_ms": 122500
+            }
+          ]
         },
         {
           "text": "Apres tout ce silence",
-          "start_ms": 86400,
-          "end_ms": 88400
+          "start_ms": 123780,
+          "end_ms": 126700,
+          "words": [
+            {
+              "word": "Apres",
+              "start_ms": 123780,
+              "end_ms": 124660
+            },
+            {
+              "word": "tout",
+              "start_ms": 124660,
+              "end_ms": 125180
+            },
+            {
+              "word": "ce",
+              "start_ms": 125180,
+              "end_ms": 125420
+            },
+            {
+              "word": "silence",
+              "start_ms": 125420,
+              "end_ms": 126700
+            }
+          ]
         },
         {
           "text": "Le premier mot",
-          "start_ms": 88400,
-          "end_ms": 90400
+          "start_ms": 126700,
+          "end_ms": 129560,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 126700,
+              "end_ms": 127780
+            },
+            {
+              "word": "premier",
+              "start_ms": 127780,
+              "end_ms": 128259
+            },
+            {
+              "word": "mot",
+              "start_ms": 128259,
+              "end_ms": 129560
+            }
+          ]
         },
         {
           "text": "C'etait pas une plainte, c'etait pas un cri",
-          "start_ms": 90400,
-          "end_ms": 93840
+          "start_ms": 130740,
+          "end_ms": 134420,
+          "words": [
+            {
+              "word": "C'etait",
+              "start_ms": 130740,
+              "end_ms": 131000
+            },
+            {
+              "word": "pas",
+              "start_ms": 131000,
+              "end_ms": 131540
+            },
+            {
+              "word": "une",
+              "start_ms": 131540,
+              "end_ms": 131980
+            },
+            {
+              "word": "plainte,",
+              "start_ms": 131980,
+              "end_ms": 132400
+            },
+            {
+              "word": "c'etait",
+              "start_ms": 132620,
+              "end_ms": 132840
+            },
+            {
+              "word": "pas",
+              "start_ms": 132840,
+              "end_ms": 133440
+            },
+            {
+              "word": "un",
+              "start_ms": 133440,
+              "end_ms": 133840
+            },
+            {
+              "word": "cri",
+              "start_ms": 133840,
+              "end_ms": 134420
+            }
+          ]
         },
         {
           "text": "Le premier mot",
-          "start_ms": 93840,
-          "end_ms": 95840
+          "start_ms": 134420,
+          "end_ms": 137380,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 134420,
+              "end_ms": 135080
+            },
+            {
+              "word": "premier",
+              "start_ms": 135080,
+              "end_ms": 135560
+            },
+            {
+              "word": "mot",
+              "start_ms": 135560,
+              "end_ms": 137380
+            }
+          ]
         },
         {
           "text": "C'etait plus grand que moi",
-          "start_ms": 95840,
-          "end_ms": 97920
+          "start_ms": 138080,
+          "end_ms": 139820,
+          "words": [
+            {
+              "word": "C'etait",
+              "start_ms": 138080,
+              "end_ms": 138220
+            },
+            {
+              "word": "plus",
+              "start_ms": 138220,
+              "end_ms": 138600
+            },
+            {
+              "word": "grand",
+              "start_ms": 138600,
+              "end_ms": 138920
+            },
+            {
+              "word": "que",
+              "start_ms": 138920,
+              "end_ms": 139220
+            },
+            {
+              "word": "moi",
+              "start_ms": 139220,
+              "end_ms": 139820
+            }
+          ]
         },
         {
           "text": "C'etait l'aube qui arrivait",
-          "start_ms": 97920,
-          "end_ms": 100080
+          "start_ms": 142560,
+          "end_ms": 147820,
+          "words": [
+            {
+              "word": "C'etait",
+              "start_ms": 142560,
+              "end_ms": 142860
+            },
+            {
+              "word": "l'aube",
+              "start_ms": 143920,
+              "end_ms": 144300
+            },
+            {
+              "word": "qui",
+              "start_ms": 144300,
+              "end_ms": 145840
+            },
+            {
+              "word": "arrivait",
+              "start_ms": 145840,
+              "end_ms": 147820
+            }
+          ]
         }
-      ],
-      "start_ms": 84400,
-      "end_ms": 100080
+      ]
     },
     {
       "type": "bridge",
       "label": "Bridge",
+      "start_ms": 148680,
+      "end_ms": 163140,
       "lines": [
         {
           "text": "Le silence m'a appris",
-          "start_ms": 103080,
-          "end_ms": 105080
+          "start_ms": 148680,
+          "end_ms": 152000,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 148680,
+              "end_ms": 149000
+            },
+            {
+              "word": "silence",
+              "start_ms": 149000,
+              "end_ms": 149660
+            },
+            {
+              "word": "m'a",
+              "start_ms": 149920,
+              "end_ms": 150160
+            },
+            {
+              "word": "appris",
+              "start_ms": 150160,
+              "end_ms": 152000
+            }
+          ]
         },
         {
           "text": "Ce que le bruit cache",
-          "start_ms": 105080,
-          "end_ms": 107080
+          "start_ms": 152000,
+          "end_ms": 154500,
+          "words": [
+            {
+              "word": "Ce",
+              "start_ms": 152000,
+              "end_ms": 152520
+            },
+            {
+              "word": "que",
+              "start_ms": 152520,
+              "end_ms": 152880
+            },
+            {
+              "word": "le",
+              "start_ms": 152880,
+              "end_ms": 153180
+            },
+            {
+              "word": "bruit",
+              "start_ms": 153180,
+              "end_ms": 153460
+            },
+            {
+              "word": "cache",
+              "start_ms": 153460,
+              "end_ms": 154500
+            }
+          ]
         },
         {
           "text": "Le silence m'a montre",
-          "start_ms": 107080,
-          "end_ms": 109080
+          "start_ms": 152880,
+          "end_ms": 157980,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 152880,
+              "end_ms": 153180
+            },
+            {
+              "word": "silence",
+              "start_ms": 156300,
+              "end_ms": 156960
+            },
+            {
+              "word": "m'a",
+              "start_ms": 157160,
+              "end_ms": 157480
+            },
+            {
+              "word": "montre",
+              "start_ms": 157480,
+              "end_ms": 157980
+            }
+          ]
         },
         {
           "text": "Ce que les mots seuls trouvent pas",
-          "start_ms": 109080,
-          "end_ms": 111800
+          "start_ms": 158580,
+          "end_ms": 163140,
+          "words": [
+            {
+              "word": "Ce",
+              "start_ms": 158580,
+              "end_ms": 158940
+            },
+            {
+              "word": "que",
+              "start_ms": 158940,
+              "end_ms": 159280
+            },
+            {
+              "word": "les",
+              "start_ms": 159280,
+              "end_ms": 159560
+            },
+            {
+              "word": "mots",
+              "start_ms": 159560,
+              "end_ms": 160060
+            },
+            {
+              "word": "seuls",
+              "start_ms": 160060,
+              "end_ms": 160480
+            },
+            {
+              "word": "trouvent",
+              "start_ms": 160480,
+              "end_ms": 161060
+            },
+            {
+              "word": "pas",
+              "start_ms": 161060,
+              "end_ms": 163140
+            }
+          ]
         }
-      ],
-      "start_ms": 103080,
-      "end_ms": 111800
+      ]
     },
     {
       "type": "outro",
-      "label": "Outro] [Powerful",
+      "label": "Outro",
+      "start_ms": 163140,
+      "end_ms": 175660,
       "lines": [
         {
           "text": "Le premier mot...",
-          "start_ms": 114800,
-          "end_ms": 116800
+          "start_ms": 163140,
+          "end_ms": 165820,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 163140,
+              "end_ms": 163920
+            },
+            {
+              "word": "premier",
+              "start_ms": 163920,
+              "end_ms": 164360
+            },
+            {
+              "word": "mot...",
+              "start_ms": 164360,
+              "end_ms": 165820
+            }
+          ]
         },
         {
           "text": "L'aube arrive, l'aube arrive",
-          "start_ms": 116800,
-          "end_ms": 119040
+          "start_ms": 168100,
+          "end_ms": 170959,
+          "words": [
+            {
+              "word": "L'aube",
+              "start_ms": 168100,
+              "end_ms": 168380
+            },
+            {
+              "word": "arrive,",
+              "start_ms": 168380,
+              "end_ms": 169100
+            },
+            {
+              "word": "l'aube",
+              "start_ms": 168100,
+              "end_ms": 168380
+            },
+            {
+              "word": "arrive",
+              "start_ms": 170320,
+              "end_ms": 170959
+            }
+          ]
         },
         {
           "text": "Le premier mot...",
-          "start_ms": 119040,
-          "end_ms": 121040
+          "start_ms": 172420,
+          "end_ms": 175660,
+          "words": [
+            {
+              "word": "Le",
+              "start_ms": 172420,
+              "end_ms": 173700
+            },
+            {
+              "word": "premier",
+              "start_ms": 173700,
+              "end_ms": 174080
+            },
+            {
+              "word": "mot...",
+              "start_ms": 174080,
+              "end_ms": 175660
+            }
+          ]
         }
-      ],
-      "start_ms": 114800,
-      "end_ms": 121040
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Et puis un jour, la bouche s'e...",
+      "section_type": "chorus",
+      "start_ms": 59500,
+      "end_ms": 68720,
+      "key_line": "Et puis un jour, la bouche s'est ouverte",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Le premier mot",
+      "section_type": "chorus",
+      "start_ms": 68720,
+      "end_ms": 96320,
+      "key_line": "Le premier mot",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - L'aube d'en haut vient nous vi...",
+      "section_type": "chorus",
+      "start_ms": 114220,
+      "end_ms": 120560,
+      "key_line": "L'aube d'en haut vient nous visiter",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Le premier mot",
+      "section_type": "chorus",
+      "start_ms": 119980,
+      "end_ms": 147820,
+      "key_line": "Le premier mot",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 148680,
+      "end_ms": 163140,
+      "key_line": "Le silence m'a appris",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/french/42_luke_01_1-64_transcript.json"
 }

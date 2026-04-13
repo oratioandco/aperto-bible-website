@@ -7,215 +7,1080 @@
   "book": "luke",
   "chapter": 1,
   "verses": "1:46-56",
-  "duration_ms": 220000,
+  "duration_ms": 132720,
   "audio_file": "/audio/songs/luke_01/finnish/Tyhjin käsin (Luke 1_46-56) — Finnish.mp3",
   "lyrics_source": "FINAL_OUTPUT",
-  "generated_at": "2026-04-12T16:53:40.831832+00:00",
-  "alignment_tool": "estimated",
-  "alignment_confidence": 0.5,
+  "generated_at": "2026-04-13T18:45:47.958573+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.899,
   "sections": [
     {
-      "type": "chorus",
-      "label": "Chorus",
-      "lines": [
-        {
-          "text": "Tyhjin käsin, tyhjin käsin",
-          "start_ms": 6000,
-          "end_ms": 8080
-        },
-        {
-          "text": "Rikkaat lähtee tyhjin käsin",
-          "start_ms": 8080,
-          "end_ms": 10240
-        },
-        {
-          "text": "Nälkäiset saa pöydän täyteen",
-          "start_ms": 10240,
-          "end_ms": 12480
-        },
-        {
-          "text": "Valtaistuimet kaatuu",
-          "start_ms": 12480,
-          "end_ms": 14480
-        },
-        {
-          "text": "Tyhjin käsin",
-          "start_ms": 14480,
-          "end_ms": 16480
-        }
-      ],
-      "start_ms": 6000,
-      "end_ms": 16480
-    },
-    {
       "type": "verse",
-      "label": "Verse 2] [Powerful",
+      "label": "Verse 1",
+      "start_ms": 9219,
+      "end_ms": 29260,
       "lines": [
         {
-          "text": "Hajotti ylpeät, ne jotka luuli",
-          "start_ms": 19480,
-          "end_ms": 21880
+          "text": "Hän katsoi minuun, vähäistä",
+          "start_ms": 9219,
+          "end_ms": 12620,
+          "words": [
+            {
+              "word": "Hän",
+              "start_ms": 9219,
+              "end_ms": 10140
+            },
+            {
+              "word": "katsoi",
+              "start_ms": 10140,
+              "end_ms": 10820
+            },
+            {
+              "word": "minuun,",
+              "start_ms": 10820,
+              "end_ms": 11440
+            },
+            {
+              "word": "vähäistä",
+              "start_ms": 11440,
+              "end_ms": 12620
+            }
+          ]
         },
         {
-          "text": "Että heidän nimensä riittää",
-          "start_ms": 21880,
-          "end_ms": 24040
+          "text": "Palvelijaa, ei ketään",
+          "start_ms": 12900,
+          "end_ms": 15200,
+          "words": [
+            {
+              "word": "Palvelijaa,",
+              "start_ms": 12900,
+              "end_ms": 13780
+            },
+            {
+              "word": "ei",
+              "start_ms": 13780,
+              "end_ms": 14100
+            },
+            {
+              "word": "ketään",
+              "start_ms": 14100,
+              "end_ms": 15200
+            }
+          ]
         },
         {
-          "text": "Syöksi vallanpitäjät alas",
-          "start_ms": 24040,
-          "end_ms": 26040
+          "text": "Kylä jota kartta ei tunne",
+          "start_ms": 15200,
+          "end_ms": 17340,
+          "words": [
+            {
+              "word": "Kylä",
+              "start_ms": 15200,
+              "end_ms": 15660
+            },
+            {
+              "word": "jota",
+              "start_ms": 15660,
+              "end_ms": 16079
+            },
+            {
+              "word": "kartta",
+              "start_ms": 16079,
+              "end_ms": 16480
+            },
+            {
+              "word": "ei",
+              "start_ms": 16480,
+              "end_ms": 16700
+            },
+            {
+              "word": "tunne",
+              "start_ms": 16700,
+              "end_ms": 17340
+            }
+          ]
         },
         {
-          "text": "Nosti ne joita ei nähty",
-          "start_ms": 26040,
-          "end_ms": 28040
+          "text": "Tyttö jota kukaan ei kysy",
+          "start_ms": 18040,
+          "end_ms": 20340,
+          "words": [
+            {
+              "word": "Tyttö",
+              "start_ms": 18040,
+              "end_ms": 18320
+            },
+            {
+              "word": "jota",
+              "start_ms": 18320,
+              "end_ms": 18580
+            },
+            {
+              "word": "kukaan",
+              "start_ms": 18580,
+              "end_ms": 19100
+            },
+            {
+              "word": "ei",
+              "start_ms": 19100,
+              "end_ms": 19300
+            },
+            {
+              "word": "kysy",
+              "start_ms": 19300,
+              "end_ms": 20340
+            }
+          ]
         },
         {
-          "text": "Ei tämä ole rukous",
-          "start_ms": 28040,
-          "end_ms": 30040
+          "text": "Mutta jotain tapahtui",
+          "start_ms": 20340,
+          "end_ms": 22060,
+          "words": [
+            {
+              "word": "Mutta",
+              "start_ms": 20340,
+              "end_ms": 20800
+            },
+            {
+              "word": "jotain",
+              "start_ms": 20800,
+              "end_ms": 21220
+            },
+            {
+              "word": "tapahtui",
+              "start_ms": 21220,
+              "end_ms": 22060
+            }
+          ]
         },
         {
-          "text": "Tämä on fakta",
-          "start_ms": 30040,
-          "end_ms": 32040
+          "text": "Jotain mikä ei kysy lupaa",
+          "start_ms": 20800,
+          "end_ms": 25260,
+          "words": [
+            {
+              "word": "Jotain",
+              "start_ms": 20800,
+              "end_ms": 21220
+            },
+            {
+              "word": "mikä",
+              "start_ms": 22540,
+              "end_ms": 22760
+            },
+            {
+              "word": "ei",
+              "start_ms": 22760,
+              "end_ms": 23040
+            },
+            {
+              "word": "kysy",
+              "start_ms": 23040,
+              "end_ms": 23600
+            },
+            {
+              "word": "lupaa",
+              "start_ms": 23600,
+              "end_ms": 25260
+            }
+          ]
         },
         {
-          "text": "Näin hän toimii",
-          "start_ms": 32040,
-          "end_ms": 34040
+          "text": "Ei odota vuoroa",
+          "start_ms": 22760,
+          "end_ms": 27320,
+          "words": [
+            {
+              "word": "Ei",
+              "start_ms": 22760,
+              "end_ms": 23040
+            },
+            {
+              "word": "odota",
+              "start_ms": 25700,
+              "end_ms": 26240
+            },
+            {
+              "word": "vuoroa",
+              "start_ms": 26240,
+              "end_ms": 27320
+            }
+          ]
         },
         {
-          "text": "Aina on toiminut",
-          "start_ms": 34040,
-          "end_ms": 36040
+          "text": "Ei tarkista statusta",
+          "start_ms": 25260,
+          "end_ms": 29260,
+          "words": [
+            {
+              "word": "Ei",
+              "start_ms": 25260,
+              "end_ms": 25700
+            },
+            {
+              "word": "tarkista",
+              "start_ms": 27580,
+              "end_ms": 28220
+            },
+            {
+              "word": "statusta",
+              "start_ms": 28220,
+              "end_ms": 29260
+            }
+          ]
         }
-      ],
-      "start_ms": 19480,
-      "end_ms": 36040
+      ]
     },
     {
-      "type": "pre-chorus",
+      "type": "chorus",
       "label": "Pre-Chorus",
+      "start_ms": 30919,
+      "end_ms": 35900,
       "lines": [
         {
           "text": "Kaikki minussa tietää",
-          "start_ms": 39040,
-          "end_ms": 41040
+          "start_ms": 30919,
+          "end_ms": 34480,
+          "words": [
+            {
+              "word": "Kaikki",
+              "start_ms": 30919,
+              "end_ms": 32159
+            },
+            {
+              "word": "minussa",
+              "start_ms": 32159,
+              "end_ms": 32780
+            },
+            {
+              "word": "tietää",
+              "start_ms": 32780,
+              "end_ms": 34480
+            }
+          ]
         },
         {
           "text": "Tämä on totta",
-          "start_ms": 41040,
-          "end_ms": 43040
+          "start_ms": 34800,
+          "end_ms": 35900,
+          "words": [
+            {
+              "word": "Tämä",
+              "start_ms": 34800,
+              "end_ms": 34960
+            },
+            {
+              "word": "on",
+              "start_ms": 34960,
+              "end_ms": 35320
+            },
+            {
+              "word": "totta",
+              "start_ms": 35320,
+              "end_ms": 35900
+            }
+          ]
         }
-      ],
-      "start_ms": 39040,
-      "end_ms": 43040
+      ]
     },
     {
       "type": "chorus",
       "label": "Chorus",
+      "start_ms": 39800,
+      "end_ms": 54820,
       "lines": [
         {
           "text": "Tyhjin käsin, tyhjin käsin",
-          "start_ms": 46040,
-          "end_ms": 48120
+          "start_ms": 39800,
+          "end_ms": 54820,
+          "words": [
+            {
+              "word": "Tyhjin",
+              "start_ms": 39800,
+              "end_ms": 40419
+            },
+            {
+              "word": "käsin,",
+              "start_ms": 52340,
+              "end_ms": 53580
+            },
+            {
+              "word": "tyhjin",
+              "start_ms": 53580,
+              "end_ms": 54820
+            },
+            {
+              "word": "käsin",
+              "start_ms": 53580,
+              "end_ms": 54820
+            }
+          ]
         },
         {
           "text": "Rikkaat lähtee tyhjin käsin",
-          "start_ms": 48120,
-          "end_ms": 50280
+          "start_ms": 45060,
+          "end_ms": 54820,
+          "words": [
+            {
+              "word": "Rikkaat",
+              "start_ms": 45060,
+              "end_ms": 45680
+            },
+            {
+              "word": "lähtee",
+              "start_ms": 43100,
+              "end_ms": 43840
+            },
+            {
+              "word": "tyhjin",
+              "start_ms": 53580,
+              "end_ms": 54820
+            },
+            {
+              "word": "käsin",
+              "start_ms": 53580,
+              "end_ms": 54820
+            }
+          ]
         },
         {
           "text": "Nälkäiset saa pöydän täyteen",
-          "start_ms": 50280,
-          "end_ms": 52520
+          "start_ms": 56260,
+          "end_ms": 57610,
+          "words": [
+            {
+              "word": "Nälkäiset",
+              "start_ms": 56260,
+              "end_ms": 56560,
+              "estimated": true
+            },
+            {
+              "word": "saa",
+              "start_ms": 56610,
+              "end_ms": 56910,
+              "estimated": true
+            },
+            {
+              "word": "pöydän",
+              "start_ms": 56960,
+              "end_ms": 57260,
+              "estimated": true
+            },
+            {
+              "word": "täyteen",
+              "start_ms": 57310,
+              "end_ms": 57610,
+              "estimated": true
+            }
+          ]
         },
         {
           "text": "Valtaistuimet kaatuu",
-          "start_ms": 52520,
-          "end_ms": 54520
+          "start_ms": 56260,
+          "end_ms": 45680,
+          "words": [
+            {
+              "word": "Valtaistuimet",
+              "start_ms": 56260,
+              "end_ms": 56560,
+              "estimated": true
+            },
+            {
+              "word": "kaatuu",
+              "start_ms": 45060,
+              "end_ms": 45680
+            }
+          ]
         },
         {
           "text": "Tyhjin käsin",
-          "start_ms": 54520,
-          "end_ms": 56520
+          "start_ms": 53580,
+          "end_ms": 54820,
+          "words": [
+            {
+              "word": "Tyhjin",
+              "start_ms": 53580,
+              "end_ms": 54820
+            },
+            {
+              "word": "käsin",
+              "start_ms": 53580,
+              "end_ms": 54820
+            }
+          ]
         }
-      ],
-      "start_ms": 46040,
-      "end_ms": 56520
+      ]
     },
     {
-      "type": "bridge",
-      "label": "Bridge] [Soft",
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 56260,
+      "end_ms": 72660,
       "lines": [
         {
-          "text": "Hän katsoi minuun",
-          "start_ms": 59520,
-          "end_ms": 61520
+          "text": "Hajotti ylpeät, ne jotka luuli",
+          "start_ms": 56260,
+          "end_ms": 59140,
+          "words": [
+            {
+              "word": "Hajotti",
+              "start_ms": 56260,
+              "end_ms": 57100
+            },
+            {
+              "word": "ylpeät,",
+              "start_ms": 57100,
+              "end_ms": 57920
+            },
+            {
+              "word": "ne",
+              "start_ms": 57920,
+              "end_ms": 58100
+            },
+            {
+              "word": "jotka",
+              "start_ms": 58160,
+              "end_ms": 58420
+            },
+            {
+              "word": "luuli",
+              "start_ms": 58420,
+              "end_ms": 59140
+            }
+          ]
         },
         {
-          "text": "Siihen riitti",
-          "start_ms": 61520,
-          "end_ms": 63520
+          "text": "Että heidän nimensä riittää",
+          "start_ms": 59340,
+          "end_ms": 61640,
+          "words": [
+            {
+              "word": "Että",
+              "start_ms": 59340,
+              "end_ms": 59500
+            },
+            {
+              "word": "heidän",
+              "start_ms": 59500,
+              "end_ms": 59860
+            },
+            {
+              "word": "nimensä",
+              "start_ms": 59860,
+              "end_ms": 60460
+            },
+            {
+              "word": "riittää",
+              "start_ms": 60460,
+              "end_ms": 61640
+            }
+          ]
         },
         {
-          "text": "Hän muisti lupauksen",
-          "start_ms": 63520,
-          "end_ms": 65520
+          "text": "Syöksi vallanpitäjät alas",
+          "start_ms": 61640,
+          "end_ms": 64400,
+          "words": [
+            {
+              "word": "Syöksi",
+              "start_ms": 61640,
+              "end_ms": 62340
+            },
+            {
+              "word": "vallanpitäjät",
+              "start_ms": 63060,
+              "end_ms": 63820
+            },
+            {
+              "word": "alas",
+              "start_ms": 63820,
+              "end_ms": 64400
+            }
+          ]
         },
         {
-          "text": "Se riitti",
-          "start_ms": 65520,
-          "end_ms": 67520
+          "text": "Nosti ne joita ei nähty",
+          "start_ms": 64459,
+          "end_ms": 66540,
+          "words": [
+            {
+              "word": "Nosti",
+              "start_ms": 64459,
+              "end_ms": 64860
+            },
+            {
+              "word": "ne",
+              "start_ms": 64860,
+              "end_ms": 65040
+            },
+            {
+              "word": "joita",
+              "start_ms": 65040,
+              "end_ms": 65519
+            },
+            {
+              "word": "ei",
+              "start_ms": 65519,
+              "end_ms": 65720
+            },
+            {
+              "word": "nähty",
+              "start_ms": 65720,
+              "end_ms": 66540
+            }
+          ]
+        },
+        {
+          "text": "Ei tämä ole rukous",
+          "start_ms": 65519,
+          "end_ms": 68220,
+          "words": [
+            {
+              "word": "Ei",
+              "start_ms": 65519,
+              "end_ms": 65720
+            },
+            {
+              "word": "tämä",
+              "start_ms": 66960,
+              "end_ms": 67280
+            },
+            {
+              "word": "ole",
+              "start_ms": 67280,
+              "end_ms": 67560
+            },
+            {
+              "word": "rukous",
+              "start_ms": 67560,
+              "end_ms": 68220
+            }
+          ]
+        },
+        {
+          "text": "Tämä on fakta",
+          "start_ms": 66960,
+          "end_ms": 69480,
+          "words": [
+            {
+              "word": "Tämä",
+              "start_ms": 66960,
+              "end_ms": 67280
+            },
+            {
+              "word": "on",
+              "start_ms": 68580,
+              "end_ms": 68920
+            },
+            {
+              "word": "fakta",
+              "start_ms": 68920,
+              "end_ms": 69480
+            }
+          ]
+        },
+        {
+          "text": "Näin hän toimii",
+          "start_ms": 69480,
+          "end_ms": 70800,
+          "words": [
+            {
+              "word": "Näin",
+              "start_ms": 69480,
+              "end_ms": 70140
+            },
+            {
+              "word": "hän",
+              "start_ms": 69480,
+              "end_ms": 70140
+            },
+            {
+              "word": "toimii",
+              "start_ms": 70140,
+              "end_ms": 70800
+            }
+          ]
+        },
+        {
+          "text": "Aina on toiminut",
+          "start_ms": 71040,
+          "end_ms": 72660,
+          "words": [
+            {
+              "word": "Aina",
+              "start_ms": 71040,
+              "end_ms": 71300
+            },
+            {
+              "word": "on",
+              "start_ms": 71300,
+              "end_ms": 71560
+            },
+            {
+              "word": "toiminut",
+              "start_ms": 71560,
+              "end_ms": 72660
+            }
+          ]
         }
-      ],
-      "start_ms": 59520,
-      "end_ms": 67520
+      ]
     },
     {
       "type": "chorus",
-      "label": "Chorus] [Belted",
+      "label": "Pre-Chorus",
+      "start_ms": 72660,
+      "end_ms": 77200,
+      "lines": [
+        {
+          "text": "Kaikki minussa tietää",
+          "start_ms": 72660,
+          "end_ms": 75820,
+          "words": [
+            {
+              "word": "Kaikki",
+              "start_ms": 72660,
+              "end_ms": 73460
+            },
+            {
+              "word": "minussa",
+              "start_ms": 73460,
+              "end_ms": 74060
+            },
+            {
+              "word": "tietää",
+              "start_ms": 74060,
+              "end_ms": 75820
+            }
+          ]
+        },
+        {
+          "text": "Tämä on totta",
+          "start_ms": 76140,
+          "end_ms": 77200,
+          "words": [
+            {
+              "word": "Tämä",
+              "start_ms": 76140,
+              "end_ms": 76280
+            },
+            {
+              "word": "on",
+              "start_ms": 76280,
+              "end_ms": 76640
+            },
+            {
+              "word": "totta",
+              "start_ms": 76640,
+              "end_ms": 77200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 81100,
+      "end_ms": 98420,
       "lines": [
         {
           "text": "Tyhjin käsin, tyhjin käsin",
-          "start_ms": 70520,
-          "end_ms": 72600
+          "start_ms": 81100,
+          "end_ms": 98420,
+          "words": [
+            {
+              "word": "Tyhjin",
+              "start_ms": 81100,
+              "end_ms": 82420
+            },
+            {
+              "word": "käsin,",
+              "start_ms": 95619,
+              "end_ms": 97020
+            },
+            {
+              "word": "tyhjin",
+              "start_ms": 97020,
+              "end_ms": 98420
+            },
+            {
+              "word": "käsin",
+              "start_ms": 97020,
+              "end_ms": 98420
+            }
+          ]
         },
         {
           "text": "Rikkaat lähtee tyhjin käsin",
-          "start_ms": 72600,
-          "end_ms": 74760
+          "start_ms": 86280,
+          "end_ms": 98420,
+          "words": [
+            {
+              "word": "Rikkaat",
+              "start_ms": 86280,
+              "end_ms": 87420
+            },
+            {
+              "word": "lähtee",
+              "start_ms": 84380,
+              "end_ms": 85160
+            },
+            {
+              "word": "tyhjin",
+              "start_ms": 97020,
+              "end_ms": 98420
+            },
+            {
+              "word": "käsin",
+              "start_ms": 97020,
+              "end_ms": 98420
+            }
+          ]
         },
         {
           "text": "Nälkäiset saa pöydän täyteen",
-          "start_ms": 74760,
-          "end_ms": 77000
+          "start_ms": 98420,
+          "end_ms": 99770,
+          "words": [
+            {
+              "word": "Nälkäiset",
+              "start_ms": 98420,
+              "end_ms": 98720,
+              "estimated": true
+            },
+            {
+              "word": "saa",
+              "start_ms": 98770,
+              "end_ms": 99070,
+              "estimated": true
+            },
+            {
+              "word": "pöydän",
+              "start_ms": 99120,
+              "end_ms": 99420,
+              "estimated": true
+            },
+            {
+              "word": "täyteen",
+              "start_ms": 99470,
+              "end_ms": 99770,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Valtaistuimet kaatuu",
+          "start_ms": 98420,
+          "end_ms": 87420,
+          "words": [
+            {
+              "word": "Valtaistuimet",
+              "start_ms": 98420,
+              "end_ms": 98720,
+              "estimated": true
+            },
+            {
+              "word": "kaatuu",
+              "start_ms": 86280,
+              "end_ms": 87420
+            }
+          ]
         },
         {
           "text": "Tyhjin käsin",
-          "start_ms": 77000,
-          "end_ms": 79000
+          "start_ms": 97020,
+          "end_ms": 98420,
+          "words": [
+            {
+              "word": "Tyhjin",
+              "start_ms": 97020,
+              "end_ms": 98420
+            },
+            {
+              "word": "käsin",
+              "start_ms": 97020,
+              "end_ms": 98420
+            }
+          ]
         }
-      ],
-      "start_ms": 70520,
-      "end_ms": 79000
+      ]
     },
     {
-      "type": "outro",
-      "label": "End",
+      "type": "bridge",
+      "label": "Bridge",
+      "start_ms": 98420,
+      "end_ms": 108040,
       "lines": [
         {
-          "text": "---",
-          "start_ms": 82000,
-          "end_ms": 84000
+          "text": "Hän katsoi minuun",
+          "start_ms": 98420,
+          "end_ms": 100600,
+          "words": [
+            {
+              "word": "Hän",
+              "start_ms": 98420,
+              "end_ms": 99180
+            },
+            {
+              "word": "katsoi",
+              "start_ms": 99180,
+              "end_ms": 99900
+            },
+            {
+              "word": "minuun",
+              "start_ms": 99900,
+              "end_ms": 100600
+            }
+          ]
+        },
+        {
+          "text": "Siihen riitti",
+          "start_ms": 100840,
+          "end_ms": 103080,
+          "words": [
+            {
+              "word": "Siihen",
+              "start_ms": 100840,
+              "end_ms": 100920
+            },
+            {
+              "word": "riitti",
+              "start_ms": 100920,
+              "end_ms": 103080
+            }
+          ]
+        },
+        {
+          "text": "Hän muisti lupauksen",
+          "start_ms": 103080,
+          "end_ms": 105860,
+          "words": [
+            {
+              "word": "Hän",
+              "start_ms": 103080,
+              "end_ms": 104360
+            },
+            {
+              "word": "muisti",
+              "start_ms": 104360,
+              "end_ms": 104880
+            },
+            {
+              "word": "lupauksen",
+              "start_ms": 104880,
+              "end_ms": 105860
+            }
+          ]
+        },
+        {
+          "text": "Se riitti",
+          "start_ms": 106220,
+          "end_ms": 108040,
+          "words": [
+            {
+              "word": "Se",
+              "start_ms": 106220,
+              "end_ms": 106220
+            },
+            {
+              "word": "riitti",
+              "start_ms": 106220,
+              "end_ms": 108040
+            }
+          ]
         }
-      ],
-      "start_ms": 82000,
-      "end_ms": 84000
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 112060,
+      "end_ms": 120040,
+      "lines": [
+        {
+          "text": "Tyhjin käsin, tyhjin käsin",
+          "start_ms": 112060,
+          "end_ms": 120040,
+          "words": [
+            {
+              "word": "Tyhjin",
+              "start_ms": 112060,
+              "end_ms": 113400
+            },
+            {
+              "word": "käsin,",
+              "start_ms": 129899,
+              "end_ms": 131299
+            },
+            {
+              "word": "tyhjin",
+              "start_ms": 116480,
+              "end_ms": 120040
+            },
+            {
+              "word": "käsin",
+              "start_ms": 116480,
+              "end_ms": 120040
+            }
+          ]
+        },
+        {
+          "text": "Rikkaat lähtee tyhjin käsin",
+          "start_ms": 129899,
+          "end_ms": 120040,
+          "words": [
+            {
+              "word": "Rikkaat",
+              "start_ms": 129899,
+              "end_ms": 130199,
+              "estimated": true
+            },
+            {
+              "word": "lähtee",
+              "start_ms": 115360,
+              "end_ms": 116480
+            },
+            {
+              "word": "tyhjin",
+              "start_ms": 116480,
+              "end_ms": 120040
+            },
+            {
+              "word": "käsin",
+              "start_ms": 116480,
+              "end_ms": 120040
+            }
+          ]
+        },
+        {
+          "text": "Nälkäiset saa pöydän täyteen",
+          "start_ms": 129899,
+          "end_ms": 116480,
+          "words": [
+            {
+              "word": "Nälkäiset",
+              "start_ms": 129899,
+              "end_ms": 130199,
+              "estimated": true
+            },
+            {
+              "word": "saa",
+              "start_ms": 130249,
+              "end_ms": 130549,
+              "estimated": true
+            },
+            {
+              "word": "pöydän",
+              "start_ms": 114880,
+              "end_ms": 115360
+            },
+            {
+              "word": "täyteen",
+              "start_ms": 115360,
+              "end_ms": 116480
+            }
+          ]
+        },
+        {
+          "text": "Tyhjin käsin",
+          "start_ms": 116480,
+          "end_ms": 120040,
+          "words": [
+            {
+              "word": "Tyhjin",
+              "start_ms": 116480,
+              "end_ms": 120040
+            },
+            {
+              "word": "käsin",
+              "start_ms": 116480,
+              "end_ms": 120040
+            }
+          ]
+        }
+      ]
     }
   ],
-  "hooks": [],
-  "intro_clips": []
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Kaikki minussa tietää",
+      "section_type": "chorus",
+      "start_ms": 30919,
+      "end_ms": 35900,
+      "key_line": "Kaikki minussa tietää",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Tyhjin käsin, tyhjin käsin",
+      "section_type": "chorus",
+      "start_ms": 39800,
+      "end_ms": 54820,
+      "key_line": "Tyhjin käsin, tyhjin käsin",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Kaikki minussa tietää",
+      "section_type": "chorus",
+      "start_ms": 72660,
+      "end_ms": 77200,
+      "key_line": "Kaikki minussa tietää",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Tyhjin käsin, tyhjin käsin",
+      "section_type": "chorus",
+      "start_ms": 81100,
+      "end_ms": 98420,
+      "key_line": "Tyhjin käsin, tyhjin käsin",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 98420,
+      "end_ms": 108040,
+      "key_line": "Hän katsoi minuun",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Tyhjin käsin, tyhjin käsin",
+      "section_type": "chorus",
+      "start_ms": 112060,
+      "end_ms": 120040,
+      "key_line": "Tyhjin käsin, tyhjin käsin",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "intro_clips": [],
+  "source_transcript": "audio/songs/luke_01/finnish/42_luke_01_1-46_transcript.json"
 }
