@@ -306,7 +306,9 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
     padding: 0.75rem;
     min-width: 0;
   }
-  .panel-right-header {
+
+  /* :global() because these elements are injected by JS and won't carry Astro's scope attribute */
+  :global(.panel-right-header) {
     font-family: 'Switzer', sans-serif;
     font-size: 0.62rem;
     font-weight: 700;
@@ -315,7 +317,7 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
     color: #8B7355;
     padding: 0.25rem 0.5rem 0.5rem;
   }
-  .pericope-item {
+  :global(.pericope-item) {
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
@@ -324,9 +326,9 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
     text-decoration: none;
     transition: background 0.1s ease;
   }
-  .pericope-item:hover { background: rgba(139, 115, 85, 0.08); }
-  .pericope-item.active-pericope { background: rgba(139, 115, 85, 0.12); }
-  .pericope-verses {
+  :global(.pericope-item:hover) { background: rgba(139, 115, 85, 0.08); }
+  :global(.pericope-item.active-pericope) { background: rgba(139, 115, 85, 0.12); }
+  :global(.pericope-verses) {
     font-family: 'Switzer', sans-serif;
     font-size: 0.62rem;
     font-weight: 600;
@@ -334,7 +336,7 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
     text-transform: uppercase;
     color: #9A8A7A;
   }
-  .pericope-title {
+  :global(.pericope-title) {
     font-family: 'Softcore', Georgia, serif;
     font-size: 0.9rem;
     color: #3D3530;
@@ -342,7 +344,7 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
   }
 
   /* Right pane empty state */
-  .panel-right-hint {
+  :global(.panel-right-hint) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -396,7 +398,7 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
     .book-nav-arrow { color: #E8DDD0; }
     .narrative-chapter-item:not(.active) .narrative-ch-label { color: #E8DDD0; }
     .narrative-chapter-item:not(.active) .narrative-ch-num { color: #E8DDD0; }
-    .pericope-title { color: #E8DDD0; }
+    :global(.pericope-title) { color: #E8DDD0; }
   }
 </style>
 
