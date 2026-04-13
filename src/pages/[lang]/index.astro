@@ -105,48 +105,40 @@ const lukeNames: Record<string, string> = {
       <p class="hero-tagline">
         {t('home.tagline')}
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
-        <a href={`${base}${lang}/luke/1`} class="hero-btn">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap items-center">
+        <a href={`/${lang}/luke/`} class="hero-btn">
           {t('home.readLuke')}
         </a>
+        {(['de', 'en', 'pl'].includes(lang)) && (
+          <div class="chapter-dropdown-wrap" id="chapterDropdownWrap">
+            <button class="hero-btn hero-btn-secondary" id="chapterDropdownBtn" aria-expanded="false" aria-haspopup="true">
+              Browse Chapters
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-left:0.4em;vertical-align:middle"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="chapter-dropdown" id="chapterDropdown" role="menu">
+              {[
+                { label: 'Prologue', chapters: [1, 2] },
+                { label: 'Galilee', chapters: [3, 4, 5, 6, 7, 8, 9] },
+                { label: 'The Journey', chapters: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] },
+                { label: 'Jerusalem', chapters: [20, 21, 22, 23, 24] },
+              ].map(section => (
+                <div class="chapter-section">
+                  <div class="chapter-section-label">{section.label}</div>
+                  <div class="chapter-links">
+                    {section.chapters.map(n => (
+                      <a href={`/${lang}/luke/${n}`} class="chapter-link" role="menuitem">
+                        {n}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   </section>
-
-  <!-- Image marquee strip -->
-  <div class="image-marquee" aria-hidden="true">
-    <div class="marquee-track">
-      {[
-        '/images/luke/1/luke_01_annunciation.png',
-        '/images/luke/1/luke_01_magnificat.png',
-        '/images/luke/2/luke_02_nativity.png',
-        '/images/luke/2/luke_02_shepherds.png',
-        '/images/luke/3/luke_03_jesus_baptism.png',
-        '/images/luke/4/luke_04_rejection-nazareth.png',
-        '/images/luke/7/luke_07_sinful-woman.png',
-        '/images/luke/9/luke_09_transfiguration.png',
-        '/images/luke/10/luke_10_good-samaritan.png',
-        '/images/luke/24/luke_24_empty_tomb.png',
-        '/images/luke/1/luke_01_visitation.png',
-        '/images/luke/2/luke_02_simeon.png',
-      ].concat([
-        '/images/luke/1/luke_01_annunciation.png',
-        '/images/luke/1/luke_01_magnificat.png',
-        '/images/luke/2/luke_02_nativity.png',
-        '/images/luke/2/luke_02_shepherds.png',
-        '/images/luke/3/luke_03_jesus_baptism.png',
-        '/images/luke/4/luke_04_rejection-nazareth.png',
-        '/images/luke/7/luke_07_sinful-woman.png',
-        '/images/luke/9/luke_09_transfiguration.png',
-        '/images/luke/10/luke_10_good-samaritan.png',
-        '/images/luke/24/luke_24_empty_tomb.png',
-        '/images/luke/1/luke_01_visitation.png',
-        '/images/luke/2/luke_02_simeon.png',
-      ]).map((src) => (
-        <img src={src} alt="" class="marquee-img" loading="lazy" />
-      ))}
-    </div>
-  </div>
 
   <style>
     /* Prevent blurred video from bleeding horizontally */
@@ -249,6 +241,84 @@ const lukeNames: Record<string, string> = {
     .hero-btn:hover {
       background-color: rgba(255, 251, 245, 0.26);
       border-color: rgba(255, 251, 245, 0.55);
+    }
+
+    .hero-btn-secondary {
+      background-color: transparent;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: inherit;
+      letter-spacing: inherit;
+    }
+
+    .chapter-dropdown-wrap {
+      position: relative;
+      display: inline-block;
+    }
+
+    .chapter-dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+      width: 320px;
+      background: #FFFBF5;
+      border-radius: 12px;
+      border: 1px solid rgba(139, 115, 85, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+      padding: 1rem;
+      z-index: 100;
+      text-align: left;
+    }
+
+    .chapter-dropdown.open {
+      display: block;
+    }
+
+    .chapter-section {
+      margin-bottom: 0.75rem;
+    }
+
+    .chapter-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .chapter-section-label {
+      font-family: 'Switzer', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #8B7355;
+      margin-bottom: 0.4rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid rgba(139, 115, 85, 0.12);
+    }
+
+    .chapter-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .chapter-link {
+      font-family: 'Switzer', sans-serif;
+      font-size: 0.82rem;
+      color: #3D3530;
+      text-decoration: none;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid rgba(139, 115, 85, 0.15);
+      transition: background 0.15s, color 0.15s;
+      min-width: 2rem;
+      text-align: center;
+    }
+
+    .chapter-link:hover {
+      background: #8B7355;
+      color: #FFFBF5;
+      border-color: #8B7355;
     }
 
     .video-hero::before {
@@ -371,6 +441,41 @@ const lukeNames: Record<string, string> = {
     </div>
   </section>
 
+  <!-- Image marquee strip -->
+  <div class="image-marquee" aria-hidden="true">
+    <div class="marquee-track">
+      {[
+        '/images/luke/1/luke_01_annunciation.png',
+        '/images/luke/1/luke_01_magnificat.png',
+        '/images/luke/2/luke_02_nativity.png',
+        '/images/luke/2/luke_02_shepherds.png',
+        '/images/luke/3/luke_03_jesus_baptism.png',
+        '/images/luke/4/luke_04_rejection-nazareth.png',
+        '/images/luke/7/luke_07_sinful-woman.png',
+        '/images/luke/9/luke_09_transfiguration.png',
+        '/images/luke/10/luke_10_good-samaritan.png',
+        '/images/luke/24/luke_24_empty_tomb.png',
+        '/images/luke/1/luke_01_visitation.png',
+        '/images/luke/2/luke_02_simeon.png',
+      ].concat([
+        '/images/luke/1/luke_01_annunciation.png',
+        '/images/luke/1/luke_01_magnificat.png',
+        '/images/luke/2/luke_02_nativity.png',
+        '/images/luke/2/luke_02_shepherds.png',
+        '/images/luke/3/luke_03_jesus_baptism.png',
+        '/images/luke/4/luke_04_rejection-nazareth.png',
+        '/images/luke/7/luke_07_sinful-woman.png',
+        '/images/luke/9/luke_09_transfiguration.png',
+        '/images/luke/10/luke_10_good-samaritan.png',
+        '/images/luke/24/luke_24_empty_tomb.png',
+        '/images/luke/1/luke_01_visitation.png',
+        '/images/luke/2/luke_02_simeon.png',
+      ]).map((src) => (
+        <img src={src} alt="" class="marquee-img" loading="lazy" />
+      ))}
+    </div>
+  </div>
+
   <section class="py-24 px-8 md:px-16 lg:px-24">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl mb-8 headline-mixed">{t('home.startReading')}</h2>
@@ -410,5 +515,23 @@ const lukeNames: Record<string, string> = {
         window.open('https://tally.so/r/b58vj1', '_blank');
       }
     });
+
+    // Chapter dropdown
+    var btn = document.getElementById('chapterDropdownBtn');
+    var dropdown = document.getElementById('chapterDropdown');
+    if (btn && dropdown) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var isOpen = dropdown.classList.contains('open');
+        dropdown.classList.toggle('open', !isOpen);
+        btn.setAttribute('aria-expanded', String(!isOpen));
+      });
+      document.addEventListener('click', function(e) {
+        if (!document.getElementById('chapterDropdownWrap')?.contains(e.target)) {
+          dropdown.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
   </script>
 </BaseLayout>
