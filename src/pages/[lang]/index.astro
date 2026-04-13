@@ -105,37 +105,10 @@ const lukeNames: Record<string, string> = {
       <p class="hero-tagline">
         {t('home.tagline')}
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap items-center">
+      <div class="flex justify-center items-center">
         <a href={`/${lang}/luke/`} class="hero-btn">
           {t('home.readLuke')}
         </a>
-        {(['de', 'en', 'pl'].includes(lang)) && (
-          <div class="chapter-dropdown-wrap" id="chapterDropdownWrap">
-            <button class="hero-btn hero-btn-secondary" id="chapterDropdownBtn" aria-expanded="false" aria-haspopup="true">
-              Browse Chapters
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-left:0.4em;vertical-align:middle"><path d="M6 9l6 6 6-6"/></svg>
-            </button>
-            <div class="chapter-dropdown" id="chapterDropdown" role="menu">
-              {[
-                { label: 'Prologue', chapters: [1, 2] },
-                { label: 'Galilee', chapters: [3, 4, 5, 6, 7, 8, 9] },
-                { label: 'The Journey', chapters: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] },
-                { label: 'Jerusalem', chapters: [20, 21, 22, 23, 24] },
-              ].map(section => (
-                <div class="chapter-section">
-                  <div class="chapter-section-label">{section.label}</div>
-                  <div class="chapter-links">
-                    {section.chapters.map(n => (
-                      <a href={`/${lang}/luke/${n}`} class="chapter-link" role="menuitem">
-                        {n}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </div>
   </section>
@@ -158,15 +131,14 @@ const lukeNames: Record<string, string> = {
       clip-path: inset(0);
     }
 
-    /* Bottom fade-out to page background */
+    /* Bottom fade + right-edge darkening vignette */
     .video-hero::after {
       content: '';
       position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 220px;
-      background: linear-gradient(to bottom, transparent 0%, #FFFBF5 100%);
+      inset: 0;
+      background:
+        linear-gradient(to bottom, transparent 50%, #FFFBF5 100%),
+        linear-gradient(to left, rgba(10, 6, 4, 0.6) 0%, transparent 18%);
       z-index: 4;
       pointer-events: none;
     }
@@ -241,81 +213,6 @@ const lukeNames: Record<string, string> = {
     .hero-btn:hover {
       background-color: rgba(255, 251, 245, 0.26);
       border-color: rgba(255, 251, 245, 0.55);
-    }
-
-    .hero-btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4em;
-      white-space: nowrap;
-      background-color: transparent;
-      cursor: pointer;
-      font-family: inherit;
-      font-size: inherit;
-      letter-spacing: inherit;
-    }
-
-    .chapter-dropdown-wrap {
-      display: inline-block;
-    }
-
-    /* All dropdown styles :global because the element is moved to <body> via JS */
-    :global(#chapterDropdown) {
-      display: none;
-      position: fixed;
-      width: 320px;
-      background: #FFFBF5;
-      border-radius: 12px;
-      border: 1px solid rgba(139, 115, 85, 0.2);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
-      padding: 1rem;
-      z-index: 9999;
-      text-align: left;
-    }
-
-    :global(#chapterDropdown .chapter-section) {
-      margin-bottom: 0.75rem;
-    }
-
-    :global(#chapterDropdown .chapter-section:last-child) {
-      margin-bottom: 0;
-    }
-
-    :global(#chapterDropdown .chapter-section-label) {
-      font-family: 'Switzer', sans-serif;
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #8B7355;
-      margin-bottom: 0.4rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid rgba(139, 115, 85, 0.12);
-    }
-
-    :global(#chapterDropdown .chapter-links) {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-    }
-
-    :global(#chapterDropdown .chapter-link) {
-      font-family: 'Switzer', sans-serif;
-      font-size: 0.82rem;
-      color: #3D3530;
-      text-decoration: none;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-      border: 1px solid rgba(139, 115, 85, 0.15);
-      transition: background 0.15s, color 0.15s;
-      min-width: 2rem;
-      text-align: center;
-    }
-
-    :global(#chapterDropdown .chapter-link:hover) {
-      background: #8B7355;
-      color: #FFFBF5;
-      border-color: #8B7355;
     }
 
     .video-hero::before {
@@ -512,49 +409,5 @@ const lukeNames: Record<string, string> = {
         window.open('https://tally.so/r/b58vj1', '_blank');
       }
     });
-
-    // Chapter dropdown — appended to <body> to escape clip-path:inset(0) on .video-hero
-    var btn = document.getElementById('chapterDropdownBtn');
-    var dropdown = document.getElementById('chapterDropdown');
-    if (btn && dropdown) {
-      // Move to body so no ancestor clip-path/overflow can clip it
-      document.body.appendChild(dropdown);
-
-      function positionDropdown() {
-        var rect = btn.getBoundingClientRect();
-        var dropW = 320;
-        var left = rect.left + rect.width / 2 - dropW / 2;
-        if (left + dropW > window.innerWidth - 12) left = window.innerWidth - dropW - 12;
-        if (left < 12) left = 12;
-        dropdown.style.top = (rect.bottom + 10) + 'px';
-        dropdown.style.left = left + 'px';
-      }
-
-      btn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        var isOpen = dropdown.style.display === 'block';
-        if (!isOpen) {
-          positionDropdown();
-          dropdown.style.display = 'block';
-          btn.setAttribute('aria-expanded', 'true');
-        } else {
-          dropdown.style.display = 'none';
-          btn.setAttribute('aria-expanded', 'false');
-        }
-      });
-      document.addEventListener('click', function(e) {
-        if (e.target !== btn && !btn.contains(e.target) && !dropdown.contains(e.target)) {
-          dropdown.style.display = 'none';
-          btn.setAttribute('aria-expanded', 'false');
-        }
-      });
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-          dropdown.style.display = 'none';
-          btn.setAttribute('aria-expanded', 'false');
-          btn.focus();
-        }
-      });
-    }
   </script>
 </BaseLayout>

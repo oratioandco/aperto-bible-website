@@ -174,21 +174,6 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     <span class="breadcrumb-ref">{chapter}:{pericope.verses}</span>
   </nav>
 
-  <!-- Hero image -->
-  {pericope.image && (
-    <div class="pericope-hero" style={`background-color: ${pericope.color};`}>
-      <img
-        src={`/images/luke/${chapter}/${pericope.image}`}
-        alt={pericope.imageAlt || ''}
-        class="pericope-hero-img"
-      />
-      <div class="pericope-hero-overlay">
-        <p class="pericope-hero-ref">{bookName} {chapter}:{pericope.verses}</p>
-        <h1 class="pericope-hero-title">{pericope.title}</h1>
-      </div>
-    </div>
-  )}
-
   <!-- Verse content -->
   <div class="pericope-content-wrapper">
     <PericopeCard
@@ -261,44 +246,6 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     letter-spacing: 0.05em;
     color: var(--color-accent);
     opacity: 0.7;
-  }
-
-  .pericope-hero {
-    position: relative;
-    height: 50vh;
-    min-height: 300px;
-    max-height: 500px;
-    overflow: hidden;
-  }
-  .pericope-hero-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.7;
-  }
-  .pericope-hero-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 2rem;
-    background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%);
-    color: white;
-  }
-  .pericope-hero-ref {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    margin-bottom: 0.5rem;
-  }
-  .pericope-hero-title {
-    font-family: 'Softcore', Georgia, serif;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 150;
-    line-height: 1.1;
-    color: white;
   }
 
   .pericope-nav {

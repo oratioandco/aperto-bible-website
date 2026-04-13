@@ -61,6 +61,14 @@ def get_prompts_file(chapter: int) -> Path:
     return PROMPTS_DIR / f"luke-{chapter}-image-prompts.json"
 
 
+def get_cover_prompt_file() -> Path:
+    return PROMPTS_DIR / "luke-cover-image-prompt.json"
+
+
+def get_cover_output_dir() -> Path:
+    return PROJECT_DIR / "public/images/luke"
+
+
 def get_output_dir(chapter: int) -> Path:
     return PROJECT_DIR / f"public/images/luke/{chapter}"
 
@@ -234,6 +242,35 @@ def wire_image_fields(images: list, chapter: int) -> None:
     print(f"  ✓ Wired image fields in {updated_files} pericope JSON files")
 
 
+def generate_cover(client, force: bool = False) -> bool:
+    prompts_file = get_cover_prompt_file()
+    if not prompts_file.exists():
+        print(f"  ✗ Cover prompt file not found: {prompts_file}")
+        return False
+
+    with open(prompts_file) as f:
+        data = json.load(f)
+
+    style_prefix = data.get("style_notes", "")
+    color_palette = data.get("color_palette", "")
+    cover = data.get("cover") or {}
+    if not cover.get("prompt") or not cover.get("filename"):
+        print("  ✗ Cover prompt file missing required fields (cover.prompt / cover.filename)")
+        return False
+
+    output_dir = get_cover_output_dir()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / cover["filename"]
+
+    if output_path.exists() and not force:
+        print(f"  ⏭  Cover already exists at {output_path} (use --force to regenerate)")
+        return True
+
+    full_prompt = f"{style_prefix}. Color palette: {color_palette}. {cover['prompt']}"
+    print(f"Generating book cover: {cover['filename']}")
+    return generate_image(client, full_prompt, cover["filename"], output_dir)
+
+
 def generate_chapter(client, chapter: int, single_index=None, alts_only: bool = False) -> tuple:
     prompts_file = get_prompts_file(chapter)
     if not prompts_file.exists():
@@ -293,8 +330,10 @@ def main():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--chapter", type=int, help="Chapter number (e.g. 1, 2)")
     group.add_argument("--all", action="store_true", help="Generate all chapters with prompt files")
+    group.add_argument("--cover", action="store_true", help="Generate the book-level cover image")
     parser.add_argument("--single", type=int, help="Generate only one image by index (0-based), skips alt translation")
     parser.add_argument("--alts-only", action="store_true", help="Only translate/update alt texts, skip image generation")
+    parser.add_argument("--force", action="store_true", help="Regenerate even if the output file already exists (cover only)")
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -303,6 +342,13 @@ def main():
         sys.exit(1)
 
     client = genai.Client(api_key=api_key)
+
+    if args.cover:
+        ok = generate_cover(client, force=args.force)
+        print(f"\n{'='*50}")
+        print(f"Cover {'generated' if ok else 'failed'}")
+        print(f"Output: {get_cover_output_dir() / 'cover.png'}")
+        sys.exit(0 if ok else 1)
 
     if args.all:
         chapters = sorted(set(
