@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../components/PericopeCard.astro';
+import ChapterNav from '../../../components/ChapterNav.astro';
 import chapterData from '../../../content/luke-2-pl.json';
 import pericopes from '../../../content/luke-2-pericopes-pl.json';
 
@@ -33,6 +34,10 @@ const base = '';
     <p class="text-xl md:text-2xl text-warm-gray max-w-2xl mb-16">
       Narodziny w stajni. Pasterze jako świadkowie. Starzec widzi zbawienie.
     </p>
+
+    <div class="mb-8">
+      <ChapterNav currentChapter={2} lang="pl" />
+    </div>
 
     <!-- Table of Contents with Headlines -->
     <nav class="toc max-w-2xl w-full">
