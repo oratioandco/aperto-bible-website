@@ -244,6 +244,10 @@ const lukeNames: Record<string, string> = {
     }
 
     .hero-btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4em;
+      white-space: nowrap;
       background-color: transparent;
       cursor: pointer;
       font-family: inherit;
@@ -252,23 +256,20 @@ const lukeNames: Record<string, string> = {
     }
 
     .chapter-dropdown-wrap {
-      position: relative;
       display: inline-block;
     }
 
+    /* position: fixed so it escapes overflow:hidden + clip-path on .video-hero */
     .chapter-dropdown {
       display: none;
-      position: absolute;
-      top: calc(100% + 10px);
-      left: 50%;
-      transform: translateX(-50%);
+      position: fixed;
       width: 320px;
       background: #FFFBF5;
       border-radius: 12px;
       border: 1px solid rgba(139, 115, 85, 0.2);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
       padding: 1rem;
-      z-index: 100;
+      z-index: 9999;
       text-align: left;
     }
 
@@ -516,18 +517,39 @@ const lukeNames: Record<string, string> = {
       }
     });
 
-    // Chapter dropdown
+    // Chapter dropdown — position: fixed so it escapes clip-path on .video-hero
     var btn = document.getElementById('chapterDropdownBtn');
     var dropdown = document.getElementById('chapterDropdown');
     if (btn && dropdown) {
+      function positionDropdown() {
+        var rect = btn.getBoundingClientRect();
+        var dropW = 320;
+        var left = rect.left + rect.width / 2 - dropW / 2;
+        if (left + dropW > window.innerWidth - 12) left = window.innerWidth - dropW - 12;
+        if (left < 12) left = 12;
+        dropdown.style.top = (rect.bottom + 10) + 'px';
+        dropdown.style.left = left + 'px';
+      }
       btn.addEventListener('click', function(e) {
         e.stopPropagation();
         var isOpen = dropdown.classList.contains('open');
-        dropdown.classList.toggle('open', !isOpen);
-        btn.setAttribute('aria-expanded', String(!isOpen));
+        if (!isOpen) {
+          positionDropdown();
+          dropdown.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        } else {
+          dropdown.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
       });
       document.addEventListener('click', function(e) {
-        if (!document.getElementById('chapterDropdownWrap')?.contains(e.target)) {
+        if (e.target !== btn && !btn.contains(e.target) && !dropdown.contains(e.target)) {
+          dropdown.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
           dropdown.classList.remove('open');
           btn.setAttribute('aria-expanded', 'false');
         }
