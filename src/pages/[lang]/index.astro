@@ -87,6 +87,7 @@ const lukeNames: Record<string, string> = {
     <video
       class="video-bg"
       src={`${base}videos/hero.mp4`}
+      poster={`${base}images/homepage_hero_blue_hour_low.png`}
       autoplay
       loop
       muted
@@ -231,9 +232,25 @@ const lukeNames: Record<string, string> = {
       border-color: rgba(255, 251, 245, 0.55);
     }
 
+    .video-hero::before {
+      content: '';
+      position: absolute;
+      inset: -30px;
+      width: calc(100% + 60px);
+      height: calc(100% + 60px);
+      background-image: url('/images/homepage_hero_blue_hour_low.png');
+      background-size: cover;
+      background-position: center;
+      filter: blur(30px);
+      -webkit-filter: blur(30px);
+      z-index: 0;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
     @media (prefers-reduced-motion: reduce) {
       .video-bg { display: none; }
-      .video-hero { background-color: #1a1008; }
+      .video-hero::before { opacity: 1; }
     }
 
     /* Image marquee */
