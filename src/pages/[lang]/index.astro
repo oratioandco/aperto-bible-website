@@ -161,11 +161,13 @@ const lukeNames: Record<string, string> = {
 
     .video-bg {
       position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
+      inset: -30px;
+      width: calc(100% + 60px);
+      height: calc(100% + 60px);
       object-fit: cover;
       object-position: center center;
+      filter: blur(30px);
+      -webkit-filter: blur(30px);
       z-index: 0;
     }
 
