@@ -1,30 +1,31 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import ChapterNav from '../../../components/ChapterNav.astro';
+import BookNav from '../../../components/BookNav.astro';
 import pericopes from '../../../content/luke-15-pericopes-en.json';
 
-const base = '';
+const chapter = 15;
+const prevChapter = 14;
+const nextChapter = 16;
 ---
 
 <BaseLayout title="Luke 15" lang="en" description="Luke Chapter 15">
-  <!-- Chapter Header -->
+  <BookNav currentChapter={15} lang="en" />
+
   <header class="chapter-header">
     <p class="passage-reference">The Gospel of Luke</p>
     <h1 class="headline-mixed">
       <span class="cap">C</span>hapter 15
     </h1>
     <p class="chapter-subtitle">Lost and found: sheep, coin, son.</p>
-    <ChapterNav currentChapter={15} lang="en" />
   </header>
 
-  <!-- Pericope Grid -->
   <section class="pericope-grid-section">
     <div class="pericope-grid">
       {pericopes.pericopes.map((p) => (
-        <a href={`${base}/en/luke/15/${p.id}`} class="pericope-thumb">
+        <a href={`/en/luke/15/${p.id}`} class="pericope-thumb">
           {p.image && (
             <div class="pericope-thumb-img-wrap">
-              <img src={`/images/luke/15/${p.image}`} alt={p.imageAlt || p.title} class="pericope-thumb-img" />
+              <img src={`/images/luke/15/${p.image}`} alt={p.imageAlt || p.title} class="pericope-thumb-img" loading="lazy" />
             </div>
           )}
           <div class="pericope-thumb-info" style={`background-color: ${p.color};`}>
@@ -37,101 +38,159 @@ const base = '';
   </section>
 
   <footer class="chapter-footer">
-    <ChapterNav currentChapter={15} lang="en" />
-    <p class="mt-12 text-sm" style="color: var(--color-warm-gray);">
-      Translation: Aperto Bible (AB-EN) | License: CC BY-SA 4.0
-    </p>
+    <div class="chapter-footer-nav">
+            <a href="/en/luke/14" class="footer-nav-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        Chapter 14
+      </a>
+            <a href="/en/luke/16" class="footer-nav-btn">
+        Chapter 16
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </a>
+    </div>
+    <p class="license-note">Translation: Aperto Bible (AB-EN) | License: CC BY-SA 4.0</p>
   </footer>
 </BaseLayout>
 
 <style>
   .chapter-header {
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 3rem 2rem 2.5rem;
     text-align: center;
-    padding: 4rem 2rem;
     background: linear-gradient(180deg, #FFFBF5 0%, #F5EBE0 100%);
+    border-bottom: 1px solid rgba(139, 115, 85, 0.12);
+  }
+  .passage-reference {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #8B7355);
+    margin-bottom: 0.5rem;
   }
   .chapter-subtitle {
     font-family: 'Switzer', sans-serif;
-    font-size: 1.1rem;
-    color: var(--color-warm-gray);
+    font-size: 1rem;
+    color: var(--color-warm-gray, #9A8A7A);
     max-width: 36rem;
-    margin-bottom: 2rem;
+    margin: 0.5rem auto 0;
+    line-height: 1.6;
   }
   .headline-mixed {
     font-family: 'Softcore', Georgia, serif;
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2.5rem, 7vw, 5rem);
     color: #6B5A4A;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
   }
   .headline-mixed .cap {
     font-family: 'Silvera', serif;
     color: #9A8570;
     font-size: 1.1em;
   }
+
   .pericope-grid-section {
-    padding: 3rem 2rem;
+    padding: 2.5rem 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
   }
   .pericope-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.25rem;
+    align-items: start;
   }
   .pericope-thumb {
-    border-radius: 16px;
+    border-radius: 14px;
     overflow: hidden;
     text-decoration: none;
-    border: 1px solid var(--color-border);
-    transition: all 0.25s ease;
-    display: block;
+    border: 1px solid var(--color-border, rgba(139,115,85,0.15));
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    display: flex;
+    flex-direction: column;
   }
   .pericope-thumb:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
   }
   .pericope-thumb-img-wrap {
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
+    flex-shrink: 0;
   }
   .pericope-thumb-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease;
+    transition: transform 0.35s ease;
+    display: block;
   }
-  .pericope-thumb:hover .pericope-thumb-img {
-    transform: scale(1.04);
-  }
+  .pericope-thumb:hover .pericope-thumb-img { transform: scale(1.04); }
   .pericope-thumb-info {
-    padding: 1rem 1.25rem;
+    padding: 0.875rem 1.125rem 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 72px;
   }
   .pericope-thumb-verses {
     display: block;
     font-family: 'Switzer', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--color-warm-gray);
-    margin-bottom: 0.35rem;
+    color: var(--color-warm-gray, #9A8A7A);
+    margin-bottom: 0.3rem;
   }
   .pericope-thumb-title {
-    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     font-family: 'Softcore', Georgia, serif;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 150;
-    color: var(--color-charcoal);
-    line-height: 1.3;
+    color: var(--color-charcoal, #3D3530);
+    line-height: 1.35;
   }
+
   .chapter-footer {
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem;
     text-align: center;
     background: #F5E6DC;
+    border-top: 1px solid rgba(139, 115, 85, 0.12);
+  }
+  .chapter-footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .footer-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.25rem;
+    border-radius: 9999px;
+    background: white;
+    color: #6B5A4A;
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid rgba(139, 115, 85, 0.2);
+    transition: all 0.2s ease;
+  }
+  .footer-nav-btn:hover {
+    background: #8B7355;
+    color: white;
+    border-color: #8B7355;
+  }
+  .license-note {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.8rem;
+    color: var(--color-warm-gray, #9A8A7A);
   }
 </style>
