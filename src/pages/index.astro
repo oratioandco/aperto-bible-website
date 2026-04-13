@@ -41,13 +41,17 @@ const lukeNames = {
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
         <a href={`${base}${lang}/luke/1`} class="hero-btn">
-          {t('home.readLuke')} ({lukeNames[lang]})
+          {t('home.readLuke')}
         </a>
       </div>
     </div>
   </section>
 
   <style>
+    :global(body) {
+      overflow-x: hidden;
+    }
+
     .video-hero {
       position: relative;
       width: 100%;
@@ -56,6 +60,7 @@ const lukeNames = {
       align-items: center;
       justify-content: center;
       overflow: hidden;
+      clip-path: inset(0);
     }
 
     .video-hero::after {
