@@ -103,8 +103,11 @@ const chapWordMap: Record<string, string> = {
 };
 const chapWord = chapWordMap[lang] ?? 'Chapter';
 
-// Chapter subtitle (English editorial teasers; other languages TBD)
+// Chapter subtitle (editorial teasers)
 const subtitle = lang === 'en' ? enChapterSubtitles[chapterNum] : null;
+
+// Book intro card (expandable) — from JSON if present
+const bookIntro: { teaser: string; body: string } | null = data?.bookIntro ?? null;
 
 const totalChapters = 24;
 const prevChapter = chapterNum > 1 ? chapterNum - 1 : null;
@@ -130,15 +133,7 @@ const licenseNote = licenseMap[lang] ?? `Translation: Aperto Bible (AB-${lang.to
     </h1>
 
     {subtitle && (
-      <details class="chapter-intro">
-        <summary class="chapter-intro-teaser">
-          {subtitle}
-          <svg class="intro-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-        </summary>
-        <p class="chapter-intro-expanded">
-          {subtitle}
-        </p>
-      </details>
+      <p class="chapter-subtitle">{subtitle}</p>
     )}
 
     {chapterPodcast && (
@@ -157,6 +152,26 @@ const licenseNote = licenseMap[lang] ?? `Translation: Aperto Bible (AB-${lang.to
 
   <section class="pericope-grid-section">
     <div class="pericope-grid">
+      {bookIntro && (
+        <details class="book-intro-card">
+          <summary class="book-intro-summary">
+            <div class="book-intro-icon">
+              <span class="material-symbols-rounded">menu_book</span>
+            </div>
+            <div class="book-intro-summary-text">
+              <span class="book-intro-label">Introduction</span>
+              <span class="book-intro-teaser">{bookIntro.teaser}</span>
+            </div>
+            <svg class="book-intro-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <div class="book-intro-body">
+            {bookIntro.body.split('\n\n').map((para: string) => (
+              <p>{para}</p>
+            ))}
+          </div>
+        </details>
+      )}
+
       {pericopes.map((p: any) => (
         <a href={`/${lang}/luke/${chapterNum}/${p.id}`} class="pericope-thumb">
           {p.image && (
@@ -218,47 +233,13 @@ const licenseNote = licenseMap[lang] ?? `Translation: Aperto Bible (AB-${lang.to
     margin-bottom: 0.75rem;
     line-height: 1.1;
   }
-
-  /* Collapsible chapter intro */
-  .chapter-intro {
-    max-width: 34rem;
-    margin: 0 auto 1.5rem;
-    text-align: left;
-  }
-  .chapter-intro-teaser {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4rem;
+  .chapter-subtitle {
     font-family: 'Switzer', sans-serif;
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--color-warm-gray, #9A8A7A);
+    max-width: 36rem;
+    margin: 0 auto 0.5rem;
     line-height: 1.6;
-    cursor: pointer;
-    list-style: none;
-    text-align: center;
-  }
-  .chapter-intro-teaser::-webkit-details-marker { display: none; }
-  .intro-chevron {
-    flex-shrink: 0;
-    transition: transform 0.2s ease;
-    color: var(--color-accent, #8B7355);
-    opacity: 0.6;
-  }
-  .chapter-intro[open] .intro-chevron { transform: rotate(180deg); }
-  .chapter-intro[open] .chapter-intro-teaser {
-    opacity: 0.5;
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
-  }
-  .chapter-intro-expanded {
-    font-family: 'Switzer', sans-serif;
-    font-size: 1.05rem;
-    color: var(--color-charcoal, #3D3530);
-    line-height: 1.7;
-    text-align: center;
-    max-width: 32rem;
-    margin: 0 auto;
   }
 
   .chapter-podcast-btn {
@@ -289,8 +270,89 @@ const licenseNote = licenseMap[lang] ?? `Translation: Aperto Bible (AB-${lang.to
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1.25rem;
-    align-items: start;
+    align-items: stretch;
   }
+
+  /* ── Book intro card ── */
+  .book-intro-card {
+    grid-column: 1 / -1;
+    border-radius: 14px;
+    border: 1px solid var(--color-border, rgba(139,115,85,0.15));
+    background: var(--color-paper, #FFFBF5);
+    overflow: hidden;
+  }
+  .book-intro-summary {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .book-intro-summary::-webkit-details-marker { display: none; }
+  .book-intro-summary:hover { background: rgba(139, 115, 85, 0.04); }
+  .book-intro-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: var(--color-beige, #F5EDE0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .book-intro-icon .material-symbols-rounded {
+    font-size: 1.1rem;
+    color: var(--color-accent, #8B7355);
+  }
+  .book-intro-summary-text {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .book-intro-label {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #8B7355);
+  }
+  .book-intro-teaser {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 150;
+    color: var(--color-charcoal, #3D3530);
+    line-height: 1.4;
+  }
+  .book-intro-chevron {
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+    color: var(--color-accent, #8B7355);
+    opacity: 0.5;
+    transition: transform 0.2s ease;
+  }
+  .book-intro-card[open] .book-intro-chevron { transform: rotate(180deg); }
+  .book-intro-body {
+    padding: 0 1.5rem 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    border-top: 1px solid var(--color-border, rgba(139,115,85,0.12));
+  }
+  .book-intro-body p {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.925rem;
+    line-height: 1.75;
+    color: var(--color-text, #3C3530);
+    margin: 0;
+    padding-top: 0.85rem;
+  }
+  .book-intro-body p:first-child { padding-top: 1rem; }
+
   .pericope-thumb {
     border-radius: 14px;
     overflow: hidden;
