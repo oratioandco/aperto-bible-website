@@ -150,6 +150,22 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   description={`${bookName} ${chapter}:${pericope.verses} — ${pericope.title}`}
 >
 
+  <!-- Reading mode toggle -->
+  <div class="read-mode-bar" id="readModeBar" role="toolbar" aria-label="Reading mode">
+    <button class="rmode-btn" data-mode="text" title="Text only">
+      <span class="material-symbols-rounded">text_fields</span>
+      <span class="rmode-label">Text</span>
+    </button>
+    <button class="rmode-btn" data-mode="amplified" title="With context">
+      <span class="material-symbols-rounded">auto_fix_high</span>
+      <span class="rmode-label">Amplified</span>
+    </button>
+    <button class="rmode-btn" data-mode="study" title="Study mode">
+      <span class="material-symbols-rounded">view_column</span>
+      <span class="rmode-label">Study</span>
+    </button>
+  </div>
+
   <!-- Breadcrumb -->
   <nav class="pericope-breadcrumb">
     <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
@@ -336,6 +352,182 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     .pericope-nav-btn { padding: 0.75rem 1rem; }
     .pericope-nav-title { font-size: 0.875rem; }
   }
+
+  /* ── Reading mode toggle bar ── */
+  .read-mode-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    padding: 0.5rem 1rem;
+    background: var(--color-paper, #FFFBF5);
+    border-bottom: 1px solid var(--color-border, #F0E8DF);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+  }
+  .rmode-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: inherit;
+    color: var(--color-warm-gray, #9A8F85);
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .rmode-btn .material-symbols-rounded { font-size: 1rem; }
+  .rmode-btn:hover {
+    background: var(--color-beige, #F5EDE0);
+    color: var(--color-charcoal, #2C2C2C);
+  }
+  .rmode-btn.active {
+    background: var(--color-beige, #F5EDE0);
+    border-color: var(--color-border, #E0D5C5);
+    color: var(--color-accent, #8B7355);
+    font-weight: 600;
+  }
+
+  /* ── Study panel (hidden by default, shown in study mode) ── */
+  :global(.study-panel) { display: none; }
+
+  /* ── Text-only mode ── */
+  :global([data-read-mode="text"] .amplification) {
+    display: none;
+  }
+  :global([data-read-mode="text"] .footnote-inline) {
+    pointer-events: none;
+  }
+  :global([data-read-mode="text"] .footnote-trigger) {
+    border-bottom: none !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    cursor: text;
+  }
+  :global([data-read-mode="text"] .fn-btn),
+  :global([data-read-mode="text"] .mobile-fn-btn) {
+    display: none;
+  }
+  :global([data-read-mode="text"] .additional-notes) {
+    display: none;
+  }
+
+  /* ── Study mode ── */
+  :global([data-read-mode="study"] .study-panel) {
+    display: block;
+    padding: 1.5rem;
+    background: var(--color-beige, #F5EDE0);
+    border-radius: 12px;
+    border: 1px solid var(--color-border, #E0D5C5);
+    margin: 2rem 1.5rem;
+  }
+  :global(.study-panel-heading) {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #8B7355);
+    margin-bottom: 1.25rem;
+  }
+  :global(.study-panel-heading .material-symbols-rounded) { font-size: 1rem; }
+  :global(.study-panel-empty) {
+    font-size: 0.875rem;
+    color: var(--color-text-muted, #9A8F85);
+    font-style: italic;
+  }
+  :global(.study-notes-list) {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  :global(.study-note) {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--color-border, #E0D5C5);
+  }
+  :global(.study-note:last-child) { border-bottom: none; padding-bottom: 0; }
+  :global(.study-note-meta) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+  }
+  :global(.study-note-ref) {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted, #9A8F85);
+    text-transform: uppercase;
+  }
+  :global(.study-note-cat) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted, #9A8F85);
+  }
+  :global(.study-note-cat .material-symbols-rounded) { font-size: 0.8rem; }
+  :global(.study-note-keyword) {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-accent, #8B7355);
+    margin-bottom: 0.25rem;
+  }
+  :global(.study-note-content) {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--color-text, #3C3530);
+  }
+
+  /* ── Desktop study mode: side-by-side layout ── */
+  @media (min-width: 1024px) {
+    :global([data-read-mode="study"] .pericope-card .editorial-container) {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      column-gap: 0;
+      max-width: none;
+      padding-right: 0;
+    }
+    :global([data-read-mode="study"] .editorial-header),
+    :global([data-read-mode="study"] .editorial-image),
+    :global([data-read-mode="study"] .verses-container),
+    :global([data-read-mode="study"] .additional-notes),
+    :global([data-read-mode="study"] .media-section),
+    :global([data-read-mode="study"] .feedback-row) {
+      grid-column: 1;
+      max-width: none !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    :global([data-read-mode="study"] .study-panel) {
+      grid-column: 2;
+      grid-row: 1 / span 20;
+      margin: 0;
+      border-radius: 0;
+      border-top: none;
+      border-bottom: none;
+      border-right: none;
+      border-left: 1px solid var(--color-border, #E0D5C5);
+      background: var(--color-beige, #F5EDE0);
+      position: sticky;
+      top: 48px;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+      padding: 2rem 1.5rem;
+    }
+  }
 </style>
 
 <script is:inline>
@@ -409,6 +601,42 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     document.addEventListener('DOMContentLoaded', initFootnotePopovers);
   } else {
     initFootnotePopovers();
+  }
+})();
+
+// ── Reading mode toggle ──────────────────────────────────────────
+(function () {
+  var MODES = ['text', 'amplified', 'study'];
+  var STORAGE_KEY = 'aperto-read-mode';
+
+  function applyMode(mode) {
+    if (!MODES.includes(mode)) mode = 'amplified';
+    document.body.setAttribute('data-read-mode', mode);
+    // Update button states
+    document.querySelectorAll('.rmode-btn').forEach(function (btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-mode') === mode);
+    });
+    // Study panel aria
+    var panel = document.querySelector('.study-panel');
+    if (panel) panel.setAttribute('aria-hidden', mode !== 'study' ? 'true' : 'false');
+  }
+
+  function init() {
+    var saved = localStorage.getItem(STORAGE_KEY) || 'amplified';
+    applyMode(saved);
+    document.querySelectorAll('.rmode-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var mode = btn.getAttribute('data-mode');
+        localStorage.setItem(STORAGE_KEY, mode);
+        applyMode(mode);
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();
 </script>
