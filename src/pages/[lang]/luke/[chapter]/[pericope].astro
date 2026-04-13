@@ -1,0 +1,414 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PericopeCard from '../../../../components/PericopeCard.astro';
+import { useTranslations } from '../../../../i18n/utils';
+
+// ---------------------------------------------------------------------------
+// Load all pericope metadata + verse content via import.meta.glob
+// This avoids 700+ manual imports and supports any language/chapter added later
+// ---------------------------------------------------------------------------
+
+// Pericope metadata files: luke-N-pericopes-LANG.json
+const allMetaModules = import.meta.glob('../../../../content/luke-*-pericopes-*.json', { eager: true });
+
+// Verse content files: luke-N-LANG.json  (excludes pericopes files via filter below)
+const allContentModules = import.meta.glob('../../../../content/luke-*-??.json', { eager: true });
+const allContentModules3 = import.meta.glob('../../../../content/luke-*-???.json', { eager: true });
+
+// Helper: parse chapter + lang from a filename path
+function parseMeta(path: string): { chapter: number; lang: string } | null {
+  const m = path.match(/luke-(\d+)-pericopes-([a-z]+)\.json$/);
+  return m ? { chapter: parseInt(m[1]), lang: m[2] } : null;
+}
+
+function parseContent(path: string): { chapter: number; lang: string } | null {
+  // Must NOT contain "pericopes"
+  if (path.includes('pericopes')) return null;
+  const m = path.match(/luke-(\d+)-([a-z]+)\.json$/);
+  return m ? { chapter: parseInt(m[1]), lang: m[2] } : null;
+}
+
+// Build lookup: metaByLangChapter[lang][chapter] = pericope metadata object
+const metaByLangChapter: Record<string, Record<number, any>> = {};
+for (const [path, mod] of Object.entries(allMetaModules)) {
+  const parsed = parseMeta(path);
+  if (!parsed) continue;
+  const { chapter, lang } = parsed;
+  if (!metaByLangChapter[lang]) metaByLangChapter[lang] = {};
+  metaByLangChapter[lang][chapter] = (mod as any).default ?? mod;
+}
+
+// Build lookup: contentByLangChapter[lang][chapter] = verse content object
+const allContentAll = { ...allContentModules, ...allContentModules3 };
+const contentByLangChapter: Record<string, Record<number, any>> = {};
+for (const [path, mod] of Object.entries(allContentAll)) {
+  const parsed = parseContent(path);
+  if (!parsed) continue;
+  const { chapter, lang } = parsed;
+  if (!contentByLangChapter[lang]) contentByLangChapter[lang] = {};
+  contentByLangChapter[lang][chapter] = (mod as any).default ?? mod;
+}
+
+// ---------------------------------------------------------------------------
+// getStaticPaths — one route per (lang, chapter, pericope) combination
+// ---------------------------------------------------------------------------
+export function getStaticPaths() {
+  // Re-derive inside getStaticPaths (Astro requires self-contained closures)
+  const metaModules = import.meta.glob('../../../../content/luke-*-pericopes-*.json', { eager: true });
+
+  function parseMeta(path: string) {
+    const m = path.match(/luke-(\d+)-pericopes-([a-z]+)\.json$/);
+    return m ? { chapter: parseInt(m[1]), lang: m[2] } : null;
+  }
+
+  // Group metadata by lang → sorted chapter list
+  const metaMap: Record<string, Array<{ chapter: number; data: any }>> = {};
+  for (const [path, mod] of Object.entries(metaModules)) {
+    const parsed = parseMeta(path);
+    if (!parsed) continue;
+    const { chapter, lang } = parsed;
+    if (!metaMap[lang]) metaMap[lang] = [];
+    metaMap[lang].push({ chapter, data: (mod as any).default ?? mod });
+  }
+
+  // Build a flat global list per language: [{...pericope, chapter, lang}, ...]
+  // Used for prev/next navigation
+  const globalByLang: Record<string, Array<any>> = {};
+  for (const [lang, chapters] of Object.entries(metaMap)) {
+    const sorted = chapters.sort((a, b) => a.chapter - b.chapter);
+    globalByLang[lang] = [];
+    for (const { chapter, data } of sorted) {
+      for (const p of data.pericopes) {
+        globalByLang[lang].push({ ...p, chapter, lang });
+      }
+    }
+  }
+
+  // Emit one path per pericope per language
+  const paths: any[] = [];
+  for (const [lang, flat] of Object.entries(globalByLang)) {
+    for (let idx = 0; idx < flat.length; idx++) {
+      const p = flat[idx];
+      const chapterMeta = metaMap[lang].find(c => c.chapter === p.chapter)!;
+      paths.push({
+        params: { lang, chapter: String(p.chapter), pericope: p.id },
+        props: {
+          lang,
+          pericope: p,
+          chapter: p.chapter,
+          chapterPericopes: chapterMeta.data.pericopes,
+          prevPericope: idx > 0 ? flat[idx - 1] : null,
+          nextPericope: idx < flat.length - 1 ? flat[idx + 1] : null,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+// ---------------------------------------------------------------------------
+// Page-level data
+// ---------------------------------------------------------------------------
+const { lang, pericope, chapter, prevPericope, nextPericope } = Astro.props;
+const t = useTranslations(lang);
+
+// Verse content: prefer language-specific file, fall back to English
+function getContent(lang: string, chapter: number): any {
+  return (
+    contentByLangChapter[lang]?.[chapter] ??
+    contentByLangChapter['en']?.[chapter] ??
+    null
+  );
+}
+
+function getVersesForPericope(verseRange: string, sections: any[]): any[] {
+  const allVerses: any[] = [];
+  sections.forEach(s => s.verses.forEach((v: any) => allVerses.push(v)));
+  const parts = verseRange.split('-').map(Number);
+  const start = parts[0];
+  const end = parts[1] ?? parts[0];
+  return allVerses.filter(v => {
+    const n = v.number.includes('-')
+      ? parseInt(v.number.split('-')[0])
+      : parseInt(v.number);
+    return n >= start && n <= end;
+  });
+}
+
+const chapterContent = getContent(lang, chapter);
+const verseData = chapterContent
+  ? getVersesForPericope(pericope.verses, chapterContent.sections)
+  : [];
+
+// Book name for breadcrumb (use i18n if available, else Luke)
+const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 'Luke';
+---
+
+<BaseLayout
+  title={`${pericope.title} — ${bookName} ${chapter}`}
+  lang={lang}
+  description={`${bookName} ${chapter}:${pericope.verses} — ${pericope.title}`}
+>
+
+  <!-- Breadcrumb -->
+  <nav class="pericope-breadcrumb">
+    <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{pericope.title}</span>
+    <span class="breadcrumb-ref">{chapter}:{pericope.verses}</span>
+  </nav>
+
+  <!-- Hero image -->
+  {pericope.image && (
+    <div class="pericope-hero" style={`background-color: ${pericope.color};`}>
+      <img
+        src={`/images/luke/${chapter}/${pericope.image}`}
+        alt={pericope.imageAlt || ''}
+        class="pericope-hero-img"
+      />
+      <div class="pericope-hero-overlay">
+        <p class="pericope-hero-ref">{bookName} {chapter}:{pericope.verses}</p>
+        <h1 class="pericope-hero-title">{pericope.title}</h1>
+      </div>
+    </div>
+  )}
+
+  <!-- Verse content -->
+  <div class="pericope-content-wrapper">
+    <PericopeCard
+      id={pericope.id}
+      title={pericope.title}
+      subtitle={pericope.subtitle || ''}
+      verses={pericope.verses}
+      color={pericope.color}
+      accentColor={pericope.accentColor}
+      verseData={verseData}
+      image={pericope.image}
+      imageAlt={pericope.imageAlt || ''}
+      media={pericope.media || {}}
+      exegesis={pericope.exegesis}
+      lang={lang}
+      chapter={chapter}
+      isFirst={true}
+      layoutIndex={0}
+    />
+  </div>
+
+  <!-- Prev / Next navigation -->
+  <nav class="pericope-nav">
+    {prevPericope ? (
+      <a href={`/${lang}/luke/${prevPericope.chapter}/${prevPericope.id}`} class="pericope-nav-btn pericope-nav-prev">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        <div class="pericope-nav-label">
+          <span class="pericope-nav-meta">{bookName} {prevPericope.chapter}:{prevPericope.verses}</span>
+          <span class="pericope-nav-title">{prevPericope.title}</span>
+        </div>
+      </a>
+    ) : <div />}
+    {nextPericope ? (
+      <a href={`/${lang}/luke/${nextPericope.chapter}/${nextPericope.id}`} class="pericope-nav-btn pericope-nav-next">
+        <div class="pericope-nav-label pericope-nav-label-right">
+          <span class="pericope-nav-meta">{bookName} {nextPericope.chapter}:{nextPericope.verses}</span>
+          <span class="pericope-nav-title">{nextPericope.title}</span>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
+    ) : <div />}
+  </nav>
+
+</BaseLayout>
+
+<style>
+  .pericope-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 0.85rem;
+    color: var(--color-warm-gray);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .pericope-breadcrumb a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .pericope-breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { opacity: 0.4; }
+  .breadcrumb-ref {
+    margin-left: auto;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+    opacity: 0.7;
+  }
+
+  .pericope-hero {
+    position: relative;
+    height: 50vh;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: hidden;
+  }
+  .pericope-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+  .pericope-hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%);
+    color: white;
+  }
+  .pericope-hero-ref {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+  }
+  .pericope-hero-title {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 150;
+    line-height: 1.1;
+    color: white;
+  }
+
+  .pericope-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem 2rem;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-paper);
+  }
+  .pericope-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-charcoal);
+    background: white;
+    border: 1px solid var(--color-border);
+    transition: all 0.2s ease;
+    max-width: 45%;
+    flex: 1;
+  }
+  .pericope-nav-btn:hover {
+    border-color: var(--color-accent);
+    background: var(--color-cream);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+  .pericope-nav-next { flex-direction: row-reverse; }
+  .pericope-nav-label { display: flex; flex-direction: column; gap: 0.25rem; }
+  .pericope-nav-label-right { text-align: right; }
+  .pericope-nav-meta {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    opacity: 0.7;
+  }
+  .pericope-nav-title {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  @media (max-width: 640px) {
+    .pericope-breadcrumb { padding: 0.75rem 1rem; }
+    .pericope-nav { padding: 2rem 1rem; }
+    .pericope-nav-btn { padding: 0.75rem 1rem; }
+    .pericope-nav-title { font-size: 0.875rem; }
+  }
+</style>
+
+<script is:inline>
+(function () {
+  function initFootnotePopovers() {
+    document.querySelectorAll('.fn-btn').forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var targetId = btn.getAttribute('data-fn-id');
+        var popover = document.getElementById(targetId);
+        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+          if (p.id !== targetId) p.classList.add('hidden');
+        });
+        if (popover && popover.classList.contains('hidden')) {
+          var rect = btn.getBoundingClientRect();
+          var scrollY = window.scrollY;
+          var top = rect.bottom + scrollY + 8;
+          var left = rect.left;
+          if (left + 320 > window.innerWidth) left = window.innerWidth - 340;
+          if (left < 20) left = 20;
+          popover.style.top = top + 'px';
+          popover.style.left = left + 'px';
+          popover.classList.remove('hidden');
+        } else if (popover) {
+          popover.classList.add('hidden');
+        }
+      };
+    });
+    document.querySelectorAll('.mobile-fn-btn').forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var targetId = btn.getAttribute('data-fn-id');
+        var popover = document.getElementById(targetId);
+        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+          if (p.id !== targetId) p.classList.add('hidden');
+        });
+        if (popover) popover.classList.toggle('hidden');
+      };
+    });
+    document.querySelectorAll('.fn-close').forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var popover = btn.closest('.fn-popover, .fn-popover-mobile');
+        if (popover) popover.classList.add('hidden');
+      };
+    });
+  }
+  document.addEventListener('click', function (e) {
+    if (
+      !e.target.closest('.fn-popover') &&
+      !e.target.closest('.fn-popover-mobile') &&
+      !e.target.closest('.fn-btn') &&
+      !e.target.closest('.mobile-fn-btn')
+    ) {
+      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+        p.classList.add('hidden');
+      });
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+        p.classList.add('hidden');
+      });
+    }
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFootnotePopovers);
+  } else {
+    initFootnotePopovers();
+  }
+})();
+</script>
