@@ -639,17 +639,17 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
         {lang === 'de' ? 'Studiennotizen' : lang === 'fr' ? "Notes d\u2019\u00e9tude" : 'Study Notes'}
       </p>
       {allFootnotes.length === 0 ? (
-        <p class="study-panel-empty">No annotations for this passage.</p>
+        <p class="study-panel-empty">{lang === 'de' ? 'Keine Anmerkungen für diesen Abschnitt.' : 'No annotations for this passage.'}</p>
       ) : (
         <ul class="study-notes-list">
           {allFootnotes.map((fn) => (
             <li class="study-note" data-category={fn.category.toLowerCase()}>
               <div class="study-note-meta">
-                <span class="study-note-ref">{fn.ref}</span>
-                <span class={`study-note-cat study-note-cat-${fn.category.toLowerCase()}`}>
+                <div class="study-note-icon">
                   <span class="material-symbols-rounded">{categoryIcons[fn.category.toLowerCase()] || 'info'}</span>
-                  {getCategoryLabel(fn.category.toLowerCase())}
-                </span>
+                </div>
+                <span class="study-note-cat">{getCategoryLabel(fn.category.toLowerCase())}</span>
+                <span class="study-note-ref">{fn.ref}</span>
               </div>
               <p class="study-note-keyword">{fn.keyword}</p>
               <p class="study-note-content">{fn.content}</p>

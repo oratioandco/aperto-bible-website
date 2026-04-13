@@ -62,8 +62,24 @@ const chapterLabels: Record<number, string> = {
   22: 'Last Supper and Betrayal', 23: 'Trial and Cross', 24: 'Resurrection',
 };
 
-const chapWord = lang === 'de' ? 'Kapitel' : 'Chapter';
-const bookName = lang === 'de' ? 'Lukas' : 'Luke';
+const chapWordMap: Record<string, string> = {
+  ar: 'الفصل', bg: 'Глава', ca: 'Capítol', cs: 'Kapitola', da: 'Kapitel',
+  de: 'Kapitel', el: 'Κεφάλαιο', es: 'Capítulo', et: 'Peatükk', fi: 'Luku',
+  fr: 'Chapitre', ga: 'Caibidil', hr: 'Poglavlje', hu: 'Fejezet', it: 'Capitolo',
+  lt: 'Skyrius', lv: 'Nodaļa', mt: 'Kapitlu', nb: 'Kapittel', nl: 'Hoofdstuk',
+  pl: 'Rozdział', pt: 'Capítulo', ro: 'Capitol', ru: 'Глава', sk: 'Kapitola',
+  sl: 'Poglavje', sq: 'Kapitulli', sv: 'Kapitel', tr: 'Bölüm', uk: 'Розділ',
+};
+const bookNameMap: Record<string, string> = {
+  ar: 'لوقا', bg: 'Лука', ca: 'Lluc', cs: 'Lukáš', da: 'Lukas',
+  de: 'Lukas', el: 'Λουκάς', es: 'Lucas', et: 'Luuka', fi: 'Luukas',
+  fr: 'Luc', ga: 'Lúcás', hr: 'Luka', hu: 'Lukács', it: 'Luca',
+  lt: 'Lukas', lv: 'Lūkas', mt: 'Luqa', nb: 'Lukas', nl: 'Lucas',
+  pl: 'Łukasz', pt: 'Lucas', ro: 'Luca', ru: 'Лука', sk: 'Lukáš',
+  sl: 'Luka', sq: 'Luka', sv: 'Lukas', tr: 'Luka', uk: 'Лука',
+};
+const chapWord = chapWordMap[lang] ?? 'Chapter';
+const bookName = bookNameMap[lang] ?? 'Luke';
 ---
 
 <nav class="book-nav">
@@ -77,8 +93,12 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
       </button>
 
       <div class="chapter-picker-panel" id="book-nav-panel" role="dialog" aria-label="Chapter navigation">
-        <!-- Left pane: narrative sections + chapters -->
+        <!-- Left pane: book overview + narrative sections + chapters -->
         <div class="panel-left" id="panel-left">
+          <a href={`/${lang}/${book}`} class="book-overview-link">
+            <span class="material-symbols-rounded">menu_book</span>
+            <span>{bookName}</span>
+          </a>
           {narrativeSections.map(section => (
             <div class="narrative-section">
               <div class="narrative-section-header">
@@ -220,6 +240,24 @@ const bookName = lang === 'de' ? 'Lukas' : 'Luke';
     padding: 0.625rem;
     border-right: 1px solid rgba(139, 115, 85, 0.1);
   }
+
+  .book-overview-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.625rem 0.6rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.775rem;
+    font-weight: 600;
+    color: #8B7355;
+    border-bottom: 1px solid rgba(139, 115, 85, 0.12);
+    margin-bottom: 0.25rem;
+    transition: background 0.1s ease;
+  }
+  .book-overview-link:hover { background: rgba(139, 115, 85, 0.08); }
+  .book-overview-link .material-symbols-rounded { font-size: 1rem; }
 
   .narrative-section + .narrative-section {
     border-top: 1px solid rgba(139, 115, 85, 0.1);
