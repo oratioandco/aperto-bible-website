@@ -81,35 +81,31 @@ const lukeNames: Record<string, string> = {
 ---
 
 <BaseLayout title={t('nav.home')} lang={lang}>
-  <!-- Alpha Notice Banner -->
-  <div class="px-4 py-3 text-center" style="background-color: #F5E6DC;">
-    <p class="text-sm" style="color: #5A5A5A;">
-      <span class="font-medium" style="color: #8B7355;">{t('home.alphaNotice')}</span> — {t('home.alphaText')}
-    </p>
-  </div>
-
-  <!-- Hero Image -->
-  <div class="w-full overflow-hidden" style="max-height: 52vh;">
-    <img
-      src={`${base}images/homepage_hero.png`}
-      alt=""
+  <!-- Video Hero -->
+  <section class="video-hero">
+    <!-- Background video -->
+    <video
+      class="video-bg"
+      src={`${base}videos/hero.mp4`}
+      autoplay
+      loop
+      muted
+      playsinline
+      preload="metadata"
       aria-hidden="true"
-      class="w-full object-cover"
-      style="object-position: center 40%;"
-    />
-  </div>
-
-  <section class="hero min-h-[80vh] flex items-center justify-center px-8 md:px-16 lg:px-24">
-    <div class="blob blob-1" aria-hidden="true"></div>
-    <div class="blob blob-2" aria-hidden="true"></div>
-    <div class="blob blob-3" aria-hidden="true"></div>
-    <div class="hero-content max-w-4xl mx-auto text-center">
-      <h1 class="hero-wordmark mb-8 tracking-tight logo" style="color: var(--color-headline);">aperto</h1>
-      <p class="text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-12" style="color: #5A5A5A;">
+    ></video>
+    <!-- Color overlay -->
+    <div class="video-overlay" aria-hidden="true"></div>
+    <!-- Grain overlay -->
+    <div class="video-grain" aria-hidden="true" style={`background-image: url(${base}images/grain.gif)`}></div>
+    <!-- Content -->
+    <div class="video-hero-content">
+      <h1 class="hero-wordmark tracking-tight logo">aperto</h1>
+      <p class="hero-tagline">
         {t('home.tagline')}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
-        <a href={`${base}${lang}/luke/1`} class="px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
+        <a href={`${base}${lang}/luke/1`} class="hero-btn">
           {t('home.readLuke')} ({lukeNames[lang]})
         </a>
       </div>
@@ -152,70 +148,90 @@ const lukeNames: Record<string, string> = {
   </div>
 
   <style>
-    /* Hero blob animation */
-    .hero {
+    /* Video Hero */
+    .video-hero {
       position: relative;
+      width: 100%;
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       overflow: hidden;
     }
 
-    .blob {
+    .video-bg {
       position: absolute;
-      border-radius: 50%;
-      filter: blur(90px);
-      will-change: transform;
-      pointer-events: none;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      z-index: 0;
     }
 
-    .blob-1 {
-      width: 700px;
-      height: 700px;
-      background: radial-gradient(ellipse, rgba(210, 100, 70, 0.32) 0%, transparent 70%);
-      top: -180px;
-      left: -160px;
-      animation: drift1 22s ease-in-out infinite alternate;
+    .video-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(18, 10, 5, 0.38);
+      z-index: 1;
     }
 
-    .blob-2 {
-      width: 550px;
-      height: 550px;
-      background: radial-gradient(ellipse, rgba(180, 110, 150, 0.28) 0%, transparent 70%);
-      bottom: -120px;
-      right: -100px;
-      animation: drift2 29s ease-in-out infinite alternate;
-    }
-
-    .blob-3 {
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(ellipse, rgba(240, 170, 80, 0.32) 0%, transparent 70%);
-      top: 30%;
-      left: 55%;
-      animation: drift3 37s ease-in-out infinite alternate;
-    }
-
-    .hero-content {
-      position: relative;
+    .video-grain {
+      position: absolute;
+      inset: 0;
+      opacity: 0.09;
+      background-repeat: repeat;
+      background-size: 128px auto;
       z-index: 2;
     }
 
+    .video-hero-content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      padding: 2rem;
+      max-width: 56rem;
+      margin: 0 auto;
+    }
+
     .hero-wordmark {
-      font-size: clamp(5rem, 14vw, 13rem);
+      font-size: clamp(5rem, 16vw, 14rem);
       line-height: 1;
+      color: #FFFBF5;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 2px 32px rgba(0,0,0,0.25);
     }
 
-    @keyframes drift1 {
-      0%   { transform: translate(0, 0) scale(1); }
-      100% { transform: translate(90px, 70px) scale(1.12); }
+    .hero-tagline {
+      font-size: clamp(1rem, 2.2vw, 1.4rem);
+      line-height: 1.6;
+      color: rgba(255, 251, 245, 0.82);
+      max-width: 36rem;
+      margin: 0 auto 2.5rem;
     }
 
-    @keyframes drift2 {
-      0%   { transform: translate(0, 0) scale(1); }
-      100% { transform: translate(-70px, -90px) scale(1.08); }
+    .hero-btn {
+      display: inline-block;
+      padding: 0.9rem 2.2rem;
+      border-radius: 6px;
+      font-weight: 500;
+      background-color: rgba(255, 251, 245, 0.15);
+      color: #FFFBF5;
+      border: 1px solid rgba(255, 251, 245, 0.35);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: background-color 0.2s, border-color 0.2s;
+      text-decoration: none;
     }
 
-    @keyframes drift3 {
-      0%   { transform: translate(0, 0) scale(1); }
-      100% { transform: translate(-50px, 60px) scale(0.92); }
+    .hero-btn:hover {
+      background-color: rgba(255, 251, 245, 0.26);
+      border-color: rgba(255, 251, 245, 0.55);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .video-bg { display: none; }
+      .video-hero { background-color: #1a1008; }
     }
 
     /* Image marquee */
@@ -248,7 +264,6 @@ const lukeNames: Record<string, string> = {
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .blob { animation: none; }
       .marquee-track { animation: none; }
     }
 

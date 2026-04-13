@@ -19,26 +19,110 @@ const lukeNames = {
 ---
 
 <BaseLayout title={t('nav.home')} lang={lang}>
-  <!-- Alpha Notice Banner -->
-  <div class="px-4 py-3 text-center" style="background-color: #F5E6DC;">
-    <p class="text-sm" style="color: #5A5A5A;">
-      <span class="font-medium" style="color: #8B7355;">{t('home.alphaNotice')}</span> — {t('home.alphaText')}
-    </p>
-  </div>
-
-  <section class="hero min-h-[70vh] flex items-center justify-center px-8 md:px-16 lg:px-24">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl md:text-7xl lg:text-8xl mb-8 tracking-tight logo" style="color: var(--color-headline);">aperto</h1>
-      <p class="text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-12" style="color: #5A5A5A;">
+  <!-- Video Hero -->
+  <section class="video-hero">
+    <video
+      class="video-bg"
+      src={`${base}videos/hero.mp4`}
+      autoplay
+      loop
+      muted
+      playsinline
+      preload="metadata"
+      aria-hidden="true"
+    ></video>
+    <div class="video-overlay" aria-hidden="true"></div>
+    <div class="video-grain" aria-hidden="true" style={`background-image: url(${base}images/grain.gif)`}></div>
+    <div class="video-hero-content">
+      <h1 class="hero-wordmark tracking-tight logo">aperto</h1>
+      <p class="hero-tagline">
         {t('home.tagline')}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
-        <a href={`${base}${lang}/luke/1`} class="px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
+        <a href={`${base}${lang}/luke/1`} class="hero-btn">
           {t('home.readLuke')} ({lukeNames[lang]})
         </a>
       </div>
     </div>
   </section>
+
+  <style>
+    .video-hero {
+      position: relative;
+      width: 100%;
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .video-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      z-index: 0;
+    }
+    .video-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(18, 10, 5, 0.38);
+      z-index: 1;
+    }
+    .video-grain {
+      position: absolute;
+      inset: 0;
+      opacity: 0.09;
+      background-repeat: repeat;
+      background-size: 128px auto;
+      z-index: 2;
+    }
+    .video-hero-content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      padding: 2rem;
+      max-width: 56rem;
+      margin: 0 auto;
+    }
+    .hero-wordmark {
+      font-size: clamp(5rem, 16vw, 14rem);
+      line-height: 1;
+      color: #FFFBF5;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 2px 32px rgba(0,0,0,0.25);
+    }
+    .hero-tagline {
+      font-size: clamp(1rem, 2.2vw, 1.4rem);
+      line-height: 1.6;
+      color: rgba(255, 251, 245, 0.82);
+      max-width: 36rem;
+      margin: 0 auto 2.5rem;
+    }
+    .hero-btn {
+      display: inline-block;
+      padding: 0.9rem 2.2rem;
+      border-radius: 6px;
+      font-weight: 500;
+      background-color: rgba(255, 251, 245, 0.15);
+      color: #FFFBF5;
+      border: 1px solid rgba(255, 251, 245, 0.35);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: background-color 0.2s, border-color 0.2s;
+      text-decoration: none;
+    }
+    .hero-btn:hover {
+      background-color: rgba(255, 251, 245, 0.26);
+      border-color: rgba(255, 251, 245, 0.55);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .video-bg { display: none; }
+      .video-hero { background-color: #1a1008; }
+    }
+  </style>
 
   <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: rgba(245, 230, 220, 0.3);">
     <div class="max-w-4xl mx-auto">
