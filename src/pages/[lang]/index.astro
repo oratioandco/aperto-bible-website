@@ -80,7 +80,7 @@ const lukeNames: Record<string, string> = {
 };
 ---
 
-<BaseLayout title={t('nav.home')} lang={lang}>
+<BaseLayout title={t('nav.home')} lang={lang} heroPage={true}>
   <!-- Video Hero -->
   <section class="video-hero">
     <!-- Background video -->
@@ -153,11 +153,24 @@ const lukeNames: Record<string, string> = {
     .video-hero {
       position: relative;
       width: 100%;
-      min-height: 92vh;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       overflow: hidden;
+    }
+
+    /* Bottom fade-out to page background */
+    .video-hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 220px;
+      background: linear-gradient(to bottom, transparent 0%, #FFFBF5 100%);
+      z-index: 4;
+      pointer-events: none;
     }
 
     .video-bg {

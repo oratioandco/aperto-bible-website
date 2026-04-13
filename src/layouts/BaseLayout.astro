@@ -7,9 +7,10 @@ interface Props {
   title: string;
   description?: string;
   lang?: string;
+  heroPage?: boolean;
 }
 
-const { title, description, lang = defaultLang } = Astro.props;
+const { title, description, lang = defaultLang, heroPage = false } = Astro.props;
 const t = useTranslations(lang);
 const isRTL = lang === 'ar';
 const languages = getAllLanguages();
@@ -39,6 +40,15 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
     <title>{title} | Aperto</title>
     <script async src="https://tally.so/widgets/embed.js"></script>
     <style>
+      .header-hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        background: transparent;
+      }
+
       .grain-overlay {
         position: fixed;
         top: -50%;
@@ -56,22 +66,25 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
   </head>
   <body class="min-h-screen" style="background-color: #FFFBF5;">
     <div class="grain-overlay" aria-hidden="true"></div>
-    <header class="px-4 md:px-16 lg:px-24 py-4 md:py-8" style="border-bottom: 1px solid #F5E6DC;">
+    <header
+      class={`px-4 md:px-16 lg:px-24 py-4 md:py-8${heroPage ? ' header-hero' : ''}`}
+      style={heroPage ? '' : 'border-bottom: 1px solid #F5E6DC;'}
+    >
       <nav class="max-w-6xl mx-auto flex justify-between items-center">
-        <a href={`${base}${lang}/`} class="logo text-xl md:text-2xl" style="color: #2C2C2C;">
+        <a href={`${base}${lang}/`} class="logo text-xl md:text-2xl" style={heroPage ? 'color: #FFFBF5;' : 'color: #2C2C2C;'}>
           aperto
         </a>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex gap-6 items-center">
-          <a href={`${base}${lang}/about`} class="transition-colors hover:opacity-70" style="color: #9A8F85;">{t('nav.about')}</a>
-          <a href={`${base}${lang}/process`} class="transition-colors hover:opacity-70" style="color: #9A8F85;">{t('nav.process')}</a>
+          <a href={`${base}${lang}/about`} class="transition-colors hover:opacity-70" style={heroPage ? 'color: rgba(255,251,245,0.75);' : 'color: #9A8F85;'}>{t('nav.about')}</a>
+          <a href={`${base}${lang}/process`} class="transition-colors hover:opacity-70" style={heroPage ? 'color: rgba(255,251,245,0.75);' : 'color: #9A8F85;'}>{t('nav.process')}</a>
 
           <!-- Language Switcher Dropdown -->
-          <div class="relative" id="lang-dropdown">
+          <div class="relative" id="lang-dropdown" style="z-index: 100;">
             <button
               class="flex items-center gap-1 px-2 py-1 rounded transition-all hover:bg-gray-100"
-              style="border: 1px solid #F5E6DC; color: #2C2C2C;"
+              style={heroPage ? 'border: 1px solid rgba(255,251,245,0.35); color: #FFFBF5;' : 'border: 1px solid #F5E6DC; color: #2C2C2C;'}
               aria-label="Select language"
             >
               <span class="text-sm font-medium">{lang.toUpperCase()}</span>
@@ -79,7 +92,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </button>
-            <div class="absolute right-0 mt-2 py-2 w-40 rounded-lg shadow-lg hidden" style="background-color: #FFFBF5; border: 1px solid #F5E6DC;" id="lang-menu">
+            <div class="absolute right-0 mt-2 py-2 w-40 rounded-lg shadow-lg hidden" style="background-color: #FFFBF5; border: 1px solid #F5E6DC; z-index: 100;" id="lang-menu">
               {languages.map(({ code, name }) => (
                 <a
                   href={pageType === 'reader' ? `${base}${code}/luke/1` : `${base}${code}/${pageType === 'home' ? '' : pageType}`}
@@ -96,7 +109,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
           <a
             href={`${base}${lang}/luke/1`}
             class="px-4 py-2 rounded-lg transition-all hover:opacity-90"
-            style="background-color: #2C2C2C; color: #FFFBF5;"
+            style={heroPage ? 'background-color: rgba(255,251,245,0.15); color: #FFFBF5; border: 1px solid rgba(255,251,245,0.35); backdrop-filter: blur(8px);' : 'background-color: #2C2C2C; color: #FFFBF5;'}
           >
             {t('nav.read')}
           </a>
@@ -104,7 +117,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
 
         <!-- Mobile Menu Button -->
         <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Open menu">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="w-6 h-6" fill="none" stroke={heroPage ? '#FFFBF5' : 'currentColor'} viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
