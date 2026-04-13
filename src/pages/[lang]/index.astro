@@ -259,8 +259,8 @@ const lukeNames: Record<string, string> = {
       display: inline-block;
     }
 
-    /* position: fixed so it escapes overflow:hidden + clip-path on .video-hero */
-    .chapter-dropdown {
+    /* All dropdown styles :global because the element is moved to <body> via JS */
+    :global(#chapterDropdown) {
       display: none;
       position: fixed;
       width: 320px;
@@ -273,19 +273,15 @@ const lukeNames: Record<string, string> = {
       text-align: left;
     }
 
-    .chapter-dropdown.open {
-      display: block;
-    }
-
-    .chapter-section {
+    :global(#chapterDropdown .chapter-section) {
       margin-bottom: 0.75rem;
     }
 
-    .chapter-section:last-child {
+    :global(#chapterDropdown .chapter-section:last-child) {
       margin-bottom: 0;
     }
 
-    .chapter-section-label {
+    :global(#chapterDropdown .chapter-section-label) {
       font-family: 'Switzer', sans-serif;
       font-size: 0.65rem;
       font-weight: 700;
@@ -297,13 +293,13 @@ const lukeNames: Record<string, string> = {
       border-bottom: 1px solid rgba(139, 115, 85, 0.12);
     }
 
-    .chapter-links {
+    :global(#chapterDropdown .chapter-links) {
       display: flex;
       flex-wrap: wrap;
       gap: 0.3rem;
     }
 
-    .chapter-link {
+    :global(#chapterDropdown .chapter-link) {
       font-family: 'Switzer', sans-serif;
       font-size: 0.82rem;
       color: #3D3530;
@@ -316,7 +312,7 @@ const lukeNames: Record<string, string> = {
       text-align: center;
     }
 
-    .chapter-link:hover {
+    :global(#chapterDropdown .chapter-link:hover) {
       background: #8B7355;
       color: #FFFBF5;
       border-color: #8B7355;
@@ -530,31 +526,31 @@ const lukeNames: Record<string, string> = {
         var left = rect.left + rect.width / 2 - dropW / 2;
         if (left + dropW > window.innerWidth - 12) left = window.innerWidth - dropW - 12;
         if (left < 12) left = 12;
-        dropdown.style.top = (rect.bottom + window.scrollY + 10) + 'px';
+        dropdown.style.top = (rect.bottom + 10) + 'px';
         dropdown.style.left = left + 'px';
       }
 
       btn.addEventListener('click', function(e) {
         e.stopPropagation();
-        var isOpen = dropdown.classList.contains('open');
+        var isOpen = dropdown.style.display === 'block';
         if (!isOpen) {
           positionDropdown();
-          dropdown.classList.add('open');
+          dropdown.style.display = 'block';
           btn.setAttribute('aria-expanded', 'true');
         } else {
-          dropdown.classList.remove('open');
+          dropdown.style.display = 'none';
           btn.setAttribute('aria-expanded', 'false');
         }
       });
       document.addEventListener('click', function(e) {
         if (e.target !== btn && !btn.contains(e.target) && !dropdown.contains(e.target)) {
-          dropdown.classList.remove('open');
+          dropdown.style.display = 'none';
           btn.setAttribute('aria-expanded', 'false');
         }
       });
       document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') {
-          dropdown.classList.remove('open');
+          dropdown.style.display = 'none';
           btn.setAttribute('aria-expanded', 'false');
           btn.focus();
         }
