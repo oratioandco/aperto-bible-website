@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HomepageDevotional from '../../components/HomepageDevotional.astro';
 import { useTranslations } from '../../i18n/utils';
+
+const pericopeModules = import.meta.glob('../../content/luke-1-pericopes-*.json', { eager: true });
 
 export function getStaticPaths() {
   return [
@@ -43,6 +46,23 @@ const t = useTranslations(lang);
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Pick whatever morning + evening devotional this language has wired on Luke 1.
+// Different languages have their single reflexionen on different pericopes
+// (verkuendigung / magnificat / annunciation / benedictus / ...), so walk the
+// pericopes array and grab the first entry of each kind.
+type DevotionalEntry = { title: string; mp3: string; duration?: string };
+const pericopeData = (pericopeModules[`../../content/luke-1-pericopes-${lang}.json`] as any)?.default;
+let morningDevotional: DevotionalEntry | null = null;
+let eveningDevotional: DevotionalEntry | null = null;
+if (pericopeData?.pericopes) {
+  for (const p of pericopeData.pericopes) {
+    const m = p?.media || {};
+    if (!morningDevotional && m.devotional?.mp3) morningDevotional = m.devotional;
+    if (!eveningDevotional && m.reflexionen?.mp3) eveningDevotional = m.reflexionen;
+    if (morningDevotional && eveningDevotional) break;
+  }
+}
 
 // Language-specific book names for Luke
 const lukeNames: Record<string, string> = {
@@ -308,6 +328,8 @@ const lukeNames: Record<string, string> = {
       }
     }
   </style>
+
+  <HomepageDevotional lang={lang} morning={morningDevotional} evening={eveningDevotional} />
 
   <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: rgba(245, 230, 220, 0.3);">
     <div class="max-w-4xl mx-auto">

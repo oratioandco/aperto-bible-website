@@ -1,0 +1,403 @@
+---
+interface DevotionalEntry {
+  title: string;
+  mp3: string;
+  duration?: string;
+}
+
+interface Props {
+  lang: string;
+  morning: DevotionalEntry | null;
+  evening: DevotionalEntry | null;
+}
+
+const { lang, morning, evening } = Astro.props as Props;
+
+if (!morning && !evening) return null;
+
+const morningLabelMap: Record<string, string> = {
+  ar: 'الصباح', bg: 'Сутрин', ca: 'Matí', cs: 'Ráno', da: 'Morgen',
+  de: 'Morgen', el: 'Πρωί', en: 'Morning', es: 'Mañana', et: 'Hommik',
+  fi: 'Aamu', fr: 'Matin', ga: 'Maidin', hr: 'Jutro', hu: 'Reggel',
+  it: 'Mattina', lt: 'Rytas', lv: 'Rīts', mt: 'Filgħodu', nb: 'Morgen',
+  nl: 'Ochtend', pl: 'Rano', pt: 'Manhã', ro: 'Dimineață', ru: 'Утро',
+  sk: 'Ráno', sl: 'Jutro', sq: 'Mëngjes', sv: 'Morgon', tr: 'Sabah',
+  uk: 'Ранок',
+};
+
+const eveningLabelMap: Record<string, string> = {
+  ar: 'المساء', bg: 'Вечер', ca: 'Vespre', cs: 'Večer', da: 'Aften',
+  de: 'Abend', el: 'Βράδυ', en: 'Evening', es: 'Tarde', et: 'Õhtu',
+  fi: 'Ilta', fr: 'Soir', ga: 'Tráthnóna', hr: 'Večer', hu: 'Este',
+  it: 'Sera', lt: 'Vakaras', lv: 'Vakars', mt: 'Filgħaxija', nb: 'Kveld',
+  nl: 'Avond', pl: 'Wieczór', pt: 'Noite', ro: 'Seară', ru: 'Вечер',
+  sk: 'Večer', sl: 'Večer', sq: 'Mbrëmje', sv: 'Kväll', tr: 'Akşam',
+  uk: 'Вечір',
+};
+
+const eyebrowMap: Record<string, string> = {
+  ar: 'صلاة اليوم', bg: 'Молитва за днес', ca: "Pregària d'avui",
+  cs: 'Modlitba na dnes', da: 'Dagens andagt', de: 'Andacht für heute',
+  el: 'Προσευχή της ημέρας', en: 'A moment with today', es: 'Oración del día',
+  et: 'Tänane palvus', fi: 'Päivän hartaus', fr: 'Méditation du jour',
+  ga: 'Machnamh an lae', hr: 'Molitva za danas', hu: 'A mai áhítat',
+  it: 'Preghiera del giorno', lt: 'Šios dienos malda', lv: 'Šodienas lūgšana',
+  mt: 'Talba tal-ġurnata', nb: 'Dagens andakt', nl: 'Bezinning voor vandaag',
+  pl: 'Modlitwa na dziś', pt: 'Oração do dia', ro: 'Rugăciune pentru azi',
+  ru: 'Молитва на сегодня', sk: 'Modlitba na dnes', sl: 'Molitev za danes',
+  sq: 'Lutja e sotme', sv: 'Dagens andakt', tr: 'Günün meditasyonu',
+  uk: 'Молитва на сьогодні',
+};
+
+const playLabelMap: Record<string, string> = {
+  ar: 'استمع', bg: 'Слушай', ca: 'Escolta', cs: 'Poslouchat', da: 'Lyt',
+  de: 'Anhören', el: 'Άκου', en: 'Listen', es: 'Escuchar', et: 'Kuula',
+  fi: 'Kuuntele', fr: 'Écouter', ga: 'Éist', hr: 'Slušaj', hu: 'Meghallgatás',
+  it: 'Ascolta', lt: 'Klausyti', lv: 'Klausīties', mt: 'Isma', nb: 'Lytt',
+  nl: 'Luisteren', pl: 'Posłuchaj', pt: 'Ouvir', ro: 'Ascultă', ru: 'Слушать',
+  sk: 'Počúvať', sl: 'Poslušaj', sq: 'Dëgjo', sv: 'Lyssna', tr: 'Dinle',
+  uk: 'Слухати',
+};
+
+const morningLabel = morningLabelMap[lang] || 'Morning';
+const eveningLabel = eveningLabelMap[lang] || 'Evening';
+const eyebrow = eyebrowMap[lang] || 'A moment with today';
+const playLabel = playLabelMap[lang] || 'Listen';
+
+const morningMp3 = morning ? `/audio/devotionals/${morning.mp3}` : '';
+const eveningMp3 = evening ? `/audio/devotionals/${evening.mp3}` : '';
+---
+
+<section class="home-devotional" aria-label={eyebrow}>
+  <div
+    class="devotional-card"
+    data-morning-title={morning?.title || ''}
+    data-morning-mp3={morningMp3}
+    data-morning-duration={morning?.duration || ''}
+    data-evening-title={evening?.title || ''}
+    data-evening-mp3={eveningMp3}
+    data-evening-duration={evening?.duration || ''}
+    data-lang={lang}
+  >
+    <div class="devotional-cover">
+      <img
+        class="cover-morning"
+        src="/images/covers/morgen.png"
+        alt={morningLabel}
+        loading="eager"
+      />
+      <img
+        class="cover-evening"
+        src="/images/covers/abend.png"
+        alt={eveningLabel}
+        loading="eager"
+      />
+    </div>
+
+    <div class="devotional-body">
+      <span class="devotional-eyebrow">{eyebrow}</span>
+
+      <h2 class="devotional-title">
+        <span class="title-morning">{morning?.title || ''}</span>
+        <span class="title-evening">{evening?.title || ''}</span>
+      </h2>
+
+      <div class="devotional-meta">
+        <span class="meta-morning">{morning?.duration || ''}</span>
+        <span class="meta-evening">{evening?.duration || ''}</span>
+      </div>
+
+      <div class="devotional-controls">
+        <button class="devotional-play" type="button" aria-label={playLabel}>
+          <span class="material-symbols-rounded">play_arrow</span>
+          <span class="play-text">{playLabel}</span>
+        </button>
+
+        <div class="devotional-toggle" role="tablist" aria-label={eyebrow}>
+          <button
+            type="button"
+            class="toggle-btn toggle-morning"
+            role="tab"
+            aria-label={morningLabel}
+            title={morningLabel}
+            disabled={!morning}
+          >
+            <span class="material-symbols-rounded">wb_sunny</span>
+            <span class="toggle-text">{morningLabel}</span>
+          </button>
+          <button
+            type="button"
+            class="toggle-btn toggle-evening"
+            role="tab"
+            aria-label={eveningLabel}
+            title={eveningLabel}
+            disabled={!evening}
+          >
+            <span class="material-symbols-rounded">bedtime</span>
+            <span class="toggle-text">{eveningLabel}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .home-devotional {
+    padding: 4rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFFBF5 0%, rgba(245, 230, 220, 0.35) 100%);
+  }
+
+  .devotional-card {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    max-width: 720px;
+    width: 100%;
+    padding: 2rem;
+    background: #FFFBF5;
+    border: 1px solid var(--color-border, #E0D5C5);
+    border-radius: 20px;
+    box-shadow: 0 18px 48px rgba(70, 45, 20, 0.09);
+    position: relative;
+  }
+
+  .devotional-cover {
+    position: relative;
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+    background: var(--color-beige, #F5EDE0);
+  }
+
+  .devotional-cover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.35s ease;
+  }
+
+  .devotional-card[data-period="morning"] .cover-evening,
+  .devotional-card[data-period="evening"] .cover-morning {
+    opacity: 0;
+  }
+
+  .devotional-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .devotional-eyebrow {
+    font-family: var(--font-ui, "Switzer", system-ui, sans-serif);
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--color-accent, #8B7355);
+    opacity: 0.85;
+  }
+
+  .devotional-title {
+    font-family: var(--font-bible, "Softcore", Georgia, serif);
+    font-size: clamp(1.4rem, 3.2vw, 1.9rem);
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--color-charcoal, #2C2C2C);
+    margin: 0.2rem 0 0.1rem;
+    min-height: 1.2em;
+  }
+
+  .devotional-title .title-morning,
+  .devotional-title .title-evening {
+    display: none;
+  }
+
+  .devotional-card[data-period="morning"] .title-morning,
+  .devotional-card[data-period="evening"] .title-evening {
+    display: inline;
+  }
+
+  .devotional-meta {
+    font-family: var(--font-ui, "Switzer", system-ui, sans-serif);
+    font-size: 0.8rem;
+    color: var(--color-text-muted, #6A6A6A);
+    min-height: 1.2em;
+  }
+
+  .meta-morning,
+  .meta-evening { display: none; }
+
+  .devotional-card[data-period="morning"] .meta-morning,
+  .devotional-card[data-period="evening"] .meta-evening {
+    display: inline;
+  }
+
+  .devotional-controls {
+    margin-top: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .devotional-play {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.7rem 1.4rem 0.7rem 1rem;
+    border-radius: 999px;
+    border: none;
+    background: var(--color-accent, #8B7355);
+    color: #FFFBF5;
+    cursor: pointer;
+    font-family: var(--font-ui, "Switzer", system-ui, sans-serif);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s;
+    box-shadow: 0 6px 18px rgba(139, 115, 85, 0.32);
+  }
+
+  .devotional-play:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 22px rgba(139, 115, 85, 0.42);
+  }
+
+  .devotional-play .material-symbols-rounded {
+    font-size: 1.3rem;
+  }
+
+  .devotional-toggle {
+    display: inline-flex;
+    padding: 0.25rem;
+    gap: 0.2rem;
+    background: var(--color-beige, #F5EDE0);
+    border-radius: 999px;
+    border: 1px solid var(--color-border, #E0D5C5);
+  }
+
+  .toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: var(--font-ui, "Switzer", system-ui, sans-serif);
+    font-size: 0.78rem;
+    color: var(--color-warm-gray, #9A8F85);
+    transition: background 0.18s, color 0.18s;
+  }
+
+  .toggle-btn:hover:not(:disabled):not(.active) {
+    color: var(--color-charcoal, #2C2C2C);
+  }
+
+  .toggle-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+
+  .toggle-btn .material-symbols-rounded {
+    font-size: 1.05rem;
+  }
+
+  .devotional-card[data-period="morning"] .toggle-morning,
+  .devotional-card[data-period="evening"] .toggle-evening {
+    background: #FFFBF5;
+    color: var(--color-charcoal, #2C2C2C);
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Responsive: stack on narrow screens */
+  @media (max-width: 640px) {
+    .home-devotional {
+      padding: 2.5rem 1rem;
+    }
+    .devotional-card {
+      flex-direction: column;
+      gap: 1.25rem;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .devotional-cover {
+      width: 150px;
+      height: 150px;
+    }
+    .devotional-controls {
+      justify-content: center;
+    }
+    .devotional-eyebrow,
+    .devotional-meta { display: block; }
+    .toggle-text { display: none; }
+    .toggle-btn { padding: 0.55rem 0.75rem; }
+  }
+</style>
+
+<script>
+  function initHomeDevotional() {
+    const card = document.querySelector<HTMLElement>('.devotional-card');
+    if (!card) return;
+
+    const hasMorning = !!card.dataset.morningMp3;
+    const hasEvening = !!card.dataset.eveningMp3;
+
+    const hour = new Date().getHours();
+    const timeOfDayPreference = hour < 15 ? 'morning' : 'evening';
+
+    let period: 'morning' | 'evening';
+    if (timeOfDayPreference === 'morning' && hasMorning) period = 'morning';
+    else if (timeOfDayPreference === 'evening' && hasEvening) period = 'evening';
+    else period = hasMorning ? 'morning' : 'evening';
+
+    const setPeriod = (p: 'morning' | 'evening') => {
+      period = p;
+      card.dataset.period = p;
+    };
+
+    setPeriod(period);
+
+    const morningBtn = card.querySelector<HTMLButtonElement>('.toggle-morning');
+    const eveningBtn = card.querySelector<HTMLButtonElement>('.toggle-evening');
+    morningBtn?.addEventListener('click', () => { if (hasMorning) setPeriod('morning'); });
+    eveningBtn?.addEventListener('click', () => { if (hasEvening) setPeriod('evening'); });
+
+    const playBtn = card.querySelector<HTMLButtonElement>('.devotional-play');
+    playBtn?.addEventListener('click', () => {
+      const isMorning = period === 'morning';
+      const mp3 = isMorning ? card.dataset.morningMp3 : card.dataset.eveningMp3;
+      const title = isMorning ? card.dataset.morningTitle : card.dataset.eveningTitle;
+      const coverArt = isMorning ? '/images/covers/morgen.png' : '/images/covers/abend.png';
+      if (!mp3) return;
+
+      window.dispatchEvent(new CustomEvent('playAudio', {
+        detail: {
+          type: isMorning ? 'devotional' : 'reflexionen',
+          mp3,
+          title: title || 'Aperto',
+          artist: 'Aperto Bible',
+          coverArt,
+        },
+      }));
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHomeDevotional);
+  } else {
+    initHomeDevotional();
+  }
+  document.addEventListener('astro:page-load', initHomeDevotional);
+</script>
