@@ -496,7 +496,7 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 
 // ── Study panel scroll sync + mobile bottom-sheet ──────────────────────
 (function () {
-  var STICKY_OFFSET = 72; // sticky breadcrumb height
+  var STICKY_OFFSET = 56; // sticky breadcrumb height (actual ~48-52px)
   var activeVerseNum = null;
 
   function clearHighlights() {
