@@ -129,20 +129,26 @@ def match_source(public_data: dict, src_index: dict):
     return None
 
 
-def sync_one(public_path: Path, src_index: dict, write: bool) -> str:
+def sync_one(public_path: Path, src_index: dict, write: bool, force: bool = False) -> str:
     try:
         public_data = load_json(public_path)
     except Exception as exc:
         return f"ERR load {public_path.name}: {exc}"
 
-    if public_data.get("alignment_tool") == "whisper-large-v3":
+    already_rich = public_data.get("alignment_tool") == "whisper-large-v3"
+    match = match_source(public_data, src_index)
+    src_sanitized = match and match[1].get("sanitized") and not public_data.get("sanitized")
+    if already_rich and not force and not src_sanitized:
         return f"skip {public_path.name} (already rich)"
 
-    match = match_source(public_data, src_index)
+
     if not match:
         return f"MISS {public_path.name} (no rich source)"
 
     src_path, src_data = match
+
+    if src_data.get("sanitized"):
+        public_data["sanitized"] = True
 
     for field in FIELDS_TO_REPLACE:
         if field in src_data:
