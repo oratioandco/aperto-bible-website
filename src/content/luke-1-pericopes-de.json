@@ -62,8 +62,8 @@
           }
         ],
         "devotional": {
-          "title": "Meditation",
-          "mp3": "daily_devotional_01_05-25_de.mp3",
+          "title": "Morgenandacht",
+          "mp3": "luke_01/german/42_luke_1_05-25_morgen_de.mp3",
           "duration": "5 min"
         }
       },
@@ -103,9 +103,14 @@
           "duration": "3 min"
         },
         "devotional": {
-          "title": "Morning Devotional",
+          "title": "Morgenandacht",
           "mp3": "luke_01/german/42_luke_1_26-38_morgen_de.mp3",
           "duration": "5 min"
+        },
+        "reflexionen": {
+          "title": "Abendandacht",
+          "mp3": "luke_01/german/42_luke_01_26-38_reflexionen_de.mp3",
+          "duration": "11 min"
         },
         "spiritualPractice": {
           "title": "Geistliche Übung",
@@ -132,11 +137,6 @@
           "title": "Podcast",
           "mp3": "luke_01/de/42_luke_01_39-45_podcast_de.mp3",
           "duration": "3 min"
-        },
-        "devotional": {
-          "title": "Meditation",
-          "mp3": "daily_devotional_01_39-45_de.mp3",
-          "duration": "5 min"
         }
       },
       "imageAlt": "Ein schmaler Feldweg, der sich in der goldenen Stunde durch trockenes, goldenes Hügelgras schlängelt und über eine Anhöhe verschwindet"
@@ -175,9 +175,14 @@
           "duration": "3 min"
         },
         "devotional": {
-          "title": "Morning Devotional",
+          "title": "Morgenandacht",
           "mp3": "luke_01/german/42_luke_1_46-56_morgen_de.mp3",
           "duration": "5 min"
+        },
+        "reflexionen": {
+          "title": "Abendandacht",
+          "mp3": "luke_01/german/42_luke_1_46-56_reflexionen_de.mp3",
+          "duration": "11 min"
         },
         "spiritualPractice": {
           "title": "Geistliche Übung",
@@ -237,7 +242,7 @@
           "duration": "3 min"
         },
         "devotional": {
-          "title": "Morning Devotional",
+          "title": "Morgenandacht",
           "mp3": "luke_01/german/42_luke_1_67-79_morgen_de.mp3",
           "duration": "5 min"
         },

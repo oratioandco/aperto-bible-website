@@ -35,6 +35,7 @@ interface Props {
     podcast?: { title: string; duration?: string; description?: string; scriptFile?: string; mp3?: string };
     audioBible?: { title: string; mp3: string; transcriptPath?: string };
     devotional?: { title: string; mp3: string; duration?: string };
+    reflexionen?: { title: string; mp3: string; duration?: string };
     spiritualPractice?: { title: string; mp3: string; duration?: string };
   };
   exegesis?: {
@@ -465,31 +466,31 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                   </div>
                   <div class="media-card-text">
                     <span class="media-card-label">{
-                      lang === 'da' ? 'Morgensang' :
-                      lang === 'de' ? 'Morgenlied' :
-                      lang === 'es' ? 'Canción de la mañana' :
-                      lang === 'fr' ? 'Chant du matin' :
-                      lang === 'it' ? 'Canto del mattino' :
-                      lang === 'pl' ? 'Poranna pieśń' :
-                      lang === 'pt' ? 'Canção da manhã' :
-                      lang === 'sv' ? 'Morgonsång' :
-                      lang === 'tr' ? 'Sabah şarkısı' :
-                      lang === 'uk' ? 'Ранковий пісня' :
-                      'Morning Song'
+                      lang === 'da' ? 'Morgenandagt' :
+                      lang === 'de' ? 'Morgenandacht' :
+                      lang === 'es' ? 'Devocional matutino' :
+                      lang === 'fr' ? 'Méditation du matin' :
+                      lang === 'it' ? 'Meditazione del mattino' :
+                      lang === 'pl' ? 'Poranna refleksja' :
+                      lang === 'pt' ? 'Devocional matinal' :
+                      lang === 'sv' ? 'Morgonandakt' :
+                      lang === 'tr' ? 'Sabah ibadeti' :
+                      lang === 'uk' ? 'Ранкова молитва' :
+                      'Morning Devotional'
                     }</span>
                     <span class="media-card-title">{media.devotional.title}</span>
                     <span class="media-card-description">{
-                      lang === 'da' ? 'Start din dag med en sang' :
-                      lang === 'de' ? 'Starten Sie Ihren Tag mit einem Lied' :
-                      lang === 'es' ? 'Empieza tu día con una canción' :
-                      lang === 'fr' ? 'Commencez votre journée avec une chanson' :
-                      lang === 'it' ? 'Inizia la tua giornata con una canzone' :
-                      lang === 'pl' ? 'Zacznij dzień od piosenki' :
-                      lang === 'pt' ? 'Comece seu dia com uma música' :
-                      lang === 'sv' ? 'Starta din dag med en sång' :
-                      lang === 'tr' ? 'Günüze bir şarkı ile başla' :
-                      lang === 'uk' ? 'Почніть свій день з піснею' :
-                      'Start your day with a song'
+                      lang === 'da' ? 'En tekst og en sang til at begynde din dag' :
+                      lang === 'de' ? 'Ein Bibeltext und ein Lied für den Start in den Tag' :
+                      lang === 'es' ? 'Un pasaje y una canción para comenzar el día' :
+                      lang === 'fr' ? 'Un passage et un chant pour commencer la journée' :
+                      lang === 'it' ? 'Un brano e un canto per iniziare la giornata' :
+                      lang === 'pl' ? 'Fragment i pieśń na początek dnia' :
+                      lang === 'pt' ? 'Uma passagem e uma canção para começar o dia' :
+                      lang === 'sv' ? 'En text och en sång för att börja dagen' :
+                      lang === 'tr' ? 'Güne başlamak için bir pasaj ve bir şarkı' :
+                      lang === 'uk' ? 'Уривок і пісня, щоб почати день' :
+                      'A passage and a song to begin your day'
                     }</span>
                   </div>
                 </div>
@@ -508,6 +509,89 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                   <button
                     class="media-share-btn"
                     data-share={`#devotional-${id}`}
+                    type="button"
+                    aria-label="Share"
+                    title="Share"
+                  >
+                    <span class="material-symbols-rounded">share</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {media.reflexionen && (
+            <div class="media-card media-card-reflexionen" id={`reflexionen-${id}`}>
+              <div class="media-card-inner">
+                <div class="media-card-header">
+                  <div class="media-icon-wrapper media-icon-reflexionen">
+                    <span class="material-symbols-rounded text-xl">bedtime</span>
+                  </div>
+                  <div class="media-card-text">
+                    <span class="media-card-label">{
+                      lang === 'sq' ? 'Reflektim mbrëmjeje' :
+                      lang === 'ar' ? 'تأمل المساء' :
+                      lang === 'bg' ? 'Вечерен размисъл' :
+                      lang === 'ca' ? 'Reflexió del vespre' :
+                      lang === 'cs' ? 'Večerní rozjímání' :
+                      lang === 'da' ? 'Aftenandagt' :
+                      lang === 'de' ? 'Abendandacht' :
+                      lang === 'el' ? 'Βραδινός στοχασμός' :
+                      lang === 'es' ? 'Reflexión vespertina' :
+                      lang === 'et' ? 'Õhtumõtisklus' :
+                      lang === 'fi' ? 'Iltahartaus' :
+                      lang === 'fr' ? 'Méditation du soir' :
+                      lang === 'ga' ? 'Machnamh tráthnóna' :
+                      lang === 'hr' ? 'Večernje razmišljanje' :
+                      lang === 'hu' ? 'Esti elmélkedés' :
+                      lang === 'it' ? 'Meditazione della sera' :
+                      lang === 'lt' ? 'Vakaro apmąstymas' :
+                      lang === 'lv' ? 'Vakara pārdomas' :
+                      lang === 'mt' ? 'Riflessjoni ta\' filgħaxija' :
+                      lang === 'nb' ? 'Kveldsandakt' :
+                      lang === 'nl' ? 'Avondoverdenking' :
+                      lang === 'pl' ? 'Wieczorna refleksja' :
+                      lang === 'pt' ? 'Reflexão da noite' :
+                      lang === 'ro' ? 'Reflecție de seară' :
+                      lang === 'ru' ? 'Вечернее размышление' :
+                      lang === 'sk' ? 'Večerné zamyslenie' :
+                      lang === 'sl' ? 'Večerni razmislek' :
+                      lang === 'sv' ? 'Kvällsandakt' :
+                      lang === 'tr' ? 'Akşam tefekkürü' :
+                      lang === 'uk' ? 'Вечірня молитва' :
+                      'Evening Reflection'
+                    }</span>
+                    <span class="media-card-title">{media.reflexionen.title}</span>
+                    <span class="media-card-description">{
+                      lang === 'da' ? 'En stille stund til at slutte din dag' :
+                      lang === 'de' ? 'Eine stille Betrachtung zum Tagesausklang' :
+                      lang === 'es' ? 'Una pausa contemplativa para terminar el día' :
+                      lang === 'fr' ? 'Un temps contemplatif pour clore la journée' :
+                      lang === 'it' ? 'Un momento contemplativo per concludere la giornata' :
+                      lang === 'pl' ? 'Chwila kontemplacji na zakończenie dnia' :
+                      lang === 'pt' ? 'Um momento contemplativo para encerrar o dia' :
+                      lang === 'sv' ? 'En stilla stund för att avsluta dagen' :
+                      lang === 'tr' ? 'Günü kapatmak için sessiz bir an' :
+                      lang === 'uk' ? 'Тиха мить, щоб завершити день' :
+                      'A quiet moment to close your day'
+                    }</span>
+                  </div>
+                </div>
+                <div class="media-card-actions">
+                  <button
+                    class="media-play-btn"
+                    data-type="reflexionen"
+                    data-mp3={`/audio/devotionals/${media.reflexionen.mp3}`}
+                    data-title={media.reflexionen.title}
+                    data-artist={title}
+                    data-cover-art="/images/covers/abend.png"
+                    type="button"
+                  >
+                    <span class="material-symbols-rounded">play_arrow</span>
+                  </button>
+                  <button
+                    class="media-share-btn"
+                    data-share={`#reflexionen-${id}`}
                     type="button"
                     aria-label="Share"
                     title="Share"
@@ -1000,6 +1084,11 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
   .media-icon-devotional {
     background: linear-gradient(135deg, #FFF3E0, #FFE0B2);
     color: #E65100;
+  }
+
+  .media-icon-reflexionen {
+    background: linear-gradient(135deg, #E3F2FD, #BBDEFB);
+    color: #1565C0;
   }
 
   .media-icon-spiritual {
