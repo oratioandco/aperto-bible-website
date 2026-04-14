@@ -832,28 +832,33 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
     color: white;
   }
 
-  /* Image - offset left, right edge aligns with text */
+  /* Image - full-width edge-to-edge on mobile (cancel .editorial-container px-6) */
   .editorial-image {
-    max-width: 85%;
-    margin-left: -2%;
+    max-width: none;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  .editorial-image img {
+    border-radius: 0;
   }
 
   @media (min-width: 768px) {
+    /* Desktop: image offset left, right edge aligns with text column */
     .editorial-image {
       max-width: calc(20% + 36rem); /* left offset + text width */
       margin-left: 0;
       margin-right: auto;
     }
+    .editorial-image img {
+      border-radius: 4px;
+    }
   }
 
-  .editorial-image img {
-    border-radius: 4px;
-  }
-
-  /* RTL (Arabic): mirror the editorial layout — image right, text offset from right */
+  /* RTL (Arabic): mirror the editorial layout on desktop; mobile stays full-width */
   :global([dir="rtl"]) .editorial-image {
-    margin-left: 2%;
-    margin-right: -2%;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
   }
 
   :global([dir="rtl"]) .editorial-header,
