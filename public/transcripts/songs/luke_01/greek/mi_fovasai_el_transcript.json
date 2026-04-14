@@ -1,0 +1,1167 @@
+{
+  "schema_version": "1.0",
+  "song_id": "mi_fovasai_el",
+  "title": "Μη φοβάσαι",
+  "artist": "Aperto Bible",
+  "language": "el",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "12-30",
+  "duration_ms": 244280,
+  "audio_file": "/audio/songs/luke_01/greek/Μη φοβάσαι (Luke 1_12-30) — Greek.mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-14T04:42:27.289239+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.979,
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 25580,
+      "end_ms": 48700,
+      "lines": [
+        {
+          "text": "Στέκεται κάποιος στο δωμάτιο",
+          "start_ms": 25580,
+          "end_ms": 29000,
+          "words": [
+            {
+              "word": "Στέκεται",
+              "start_ms": 25580,
+              "end_ms": 26980
+            },
+            {
+              "word": "κάποιος",
+              "start_ms": 26980,
+              "end_ms": 27880
+            },
+            {
+              "word": "στο",
+              "start_ms": 27880,
+              "end_ms": 28120
+            },
+            {
+              "word": "δωμάτιο",
+              "start_ms": 28120,
+              "end_ms": 29000
+            }
+          ]
+        },
+        {
+          "text": "κι εσύ δεν τον περίμενες",
+          "start_ms": 31160,
+          "end_ms": 36000,
+          "words": [
+            {
+              "word": "κι",
+              "start_ms": 31160,
+              "end_ms": 32560
+            },
+            {
+              "word": "εσύ",
+              "start_ms": 32560,
+              "end_ms": 33260
+            },
+            {
+              "word": "δεν",
+              "start_ms": 33260,
+              "end_ms": 33480
+            },
+            {
+              "word": "τον",
+              "start_ms": 33480,
+              "end_ms": 33920
+            },
+            {
+              "word": "περίμενες",
+              "start_ms": 33920,
+              "end_ms": 36000
+            }
+          ]
+        },
+        {
+          "text": "Ο αέρας αλλάζει",
+          "start_ms": 38380,
+          "end_ms": 41780,
+          "words": [
+            {
+              "word": "Ο",
+              "start_ms": 38380,
+              "end_ms": 39080
+            },
+            {
+              "word": "αέρας",
+              "start_ms": 39080,
+              "end_ms": 40440
+            },
+            {
+              "word": "αλλάζει",
+              "start_ms": 40440,
+              "end_ms": 41780
+            }
+          ]
+        },
+        {
+          "text": "Τα χέρια σου τρέμουν",
+          "start_ms": 42020,
+          "end_ms": 44000,
+          "words": [
+            {
+              "word": "Τα",
+              "start_ms": 42020,
+              "end_ms": 42260
+            },
+            {
+              "word": "χέρια",
+              "start_ms": 42260,
+              "end_ms": 42900
+            },
+            {
+              "word": "σου",
+              "start_ms": 42900,
+              "end_ms": 43240
+            },
+            {
+              "word": "τρέμουν",
+              "start_ms": 43240,
+              "end_ms": 44000
+            }
+          ]
+        },
+        {
+          "text": "κι ακόμα δεν μίλησε",
+          "start_ms": 44880,
+          "end_ms": 48700,
+          "words": [
+            {
+              "word": "κι",
+              "start_ms": 44880,
+              "end_ms": 45320
+            },
+            {
+              "word": "ακόμα",
+              "start_ms": 45320,
+              "end_ms": 46420
+            },
+            {
+              "word": "δεν",
+              "start_ms": 46420,
+              "end_ms": 46800
+            },
+            {
+              "word": "μίλησε",
+              "start_ms": 46800,
+              "end_ms": 48700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 52080,
+      "end_ms": 74180,
+      "lines": [
+        {
+          "text": "Ταράχτηκε βαθιά",
+          "start_ms": 52080,
+          "end_ms": 54180,
+          "words": [
+            {
+              "word": "Ταράχτηκε",
+              "start_ms": 52080,
+              "end_ms": 53480
+            },
+            {
+              "word": "βαθιά",
+              "start_ms": 53480,
+              "end_ms": 54180
+            }
+          ]
+        },
+        {
+          "text": "σκεφτόταν τι σημαίνει",
+          "start_ms": 56700,
+          "end_ms": 60180,
+          "words": [
+            {
+              "word": "σκεφτόταν",
+              "start_ms": 56700,
+              "end_ms": 58100
+            },
+            {
+              "word": "τι",
+              "start_ms": 58100,
+              "end_ms": 58760
+            },
+            {
+              "word": "σημαίνει",
+              "start_ms": 58760,
+              "end_ms": 60180
+            }
+          ]
+        },
+        {
+          "text": "ο φόβος πέφτει πάνω σου",
+          "start_ms": 63020,
+          "end_ms": 67060,
+          "words": [
+            {
+              "word": "ο",
+              "start_ms": 63020,
+              "end_ms": 63600
+            },
+            {
+              "word": "φόβος",
+              "start_ms": 63600,
+              "end_ms": 64300
+            },
+            {
+              "word": "πέφτει",
+              "start_ms": 64300,
+              "end_ms": 65140
+            },
+            {
+              "word": "πάνω",
+              "start_ms": 65140,
+              "end_ms": 66080
+            },
+            {
+              "word": "σου",
+              "start_ms": 66080,
+              "end_ms": 67060
+            }
+          ]
+        },
+        {
+          "text": "σαν κάτι που δεν φεύγει",
+          "start_ms": 68180,
+          "end_ms": 74180,
+          "words": [
+            {
+              "word": "σαν",
+              "start_ms": 68180,
+              "end_ms": 69840
+            },
+            {
+              "word": "κάτι",
+              "start_ms": 69840,
+              "end_ms": 70380
+            },
+            {
+              "word": "που",
+              "start_ms": 70380,
+              "end_ms": 71100
+            },
+            {
+              "word": "δεν",
+              "start_ms": 71100,
+              "end_ms": 71500
+            },
+            {
+              "word": "φεύγει",
+              "start_ms": 71500,
+              "end_ms": 74180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 77399,
+      "end_ms": 99200,
+      "lines": [
+        {
+          "text": "Μη φοβάσαι",
+          "start_ms": 77399,
+          "end_ms": 80200,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 77399,
+              "end_ms": 78800
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 78800,
+              "end_ms": 80200
+            }
+          ]
+        },
+        {
+          "text": "Δεν λέει σταμάτα να φοβάσαι",
+          "start_ms": 81200,
+          "end_ms": 86200,
+          "words": [
+            {
+              "word": "Δεν",
+              "start_ms": 81200,
+              "end_ms": 81980
+            },
+            {
+              "word": "λέει",
+              "start_ms": 81980,
+              "end_ms": 82380
+            },
+            {
+              "word": "σταμάτα",
+              "start_ms": 82380,
+              "end_ms": 83540
+            },
+            {
+              "word": "να",
+              "start_ms": 83540,
+              "end_ms": 83860
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 83860,
+              "end_ms": 86200
+            }
+          ]
+        },
+        {
+          "text": "Μη φοβάσαι",
+          "start_ms": 89759,
+          "end_ms": 86200,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 89759,
+              "end_ms": 91160
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 83860,
+              "end_ms": 86200
+            }
+          ]
+        },
+        {
+          "text": "Λέει ξέρω, ξέρω",
+          "start_ms": 92600,
+          "end_ms": 95720,
+          "words": [
+            {
+              "word": "Λέει",
+              "start_ms": 92600,
+              "end_ms": 93300
+            },
+            {
+              "word": "ξέρω,",
+              "start_ms": 93300,
+              "end_ms": 94280
+            },
+            {
+              "word": "ξέρω",
+              "start_ms": 94640,
+              "end_ms": 95720
+            }
+          ]
+        },
+        {
+          "text": "και σ' ακούω",
+          "start_ms": 95720,
+          "end_ms": 99200,
+          "words": [
+            {
+              "word": "και",
+              "start_ms": 95720,
+              "end_ms": 96140
+            },
+            {
+              "word": "σ'",
+              "start_ms": 96140,
+              "end_ms": 96380
+            },
+            {
+              "word": "ακούω",
+              "start_ms": 96440,
+              "end_ms": 99200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 100220,
+      "end_ms": 122580,
+      "lines": [
+        {
+          "text": "Μια κοπέλα σε χωριό μικρό",
+          "start_ms": 100220,
+          "end_ms": 104580,
+          "words": [
+            {
+              "word": "Μια",
+              "start_ms": 100220,
+              "end_ms": 100920
+            },
+            {
+              "word": "κοπέλα",
+              "start_ms": 100920,
+              "end_ms": 102020
+            },
+            {
+              "word": "σε",
+              "start_ms": 102020,
+              "end_ms": 102320
+            },
+            {
+              "word": "χωριό",
+              "start_ms": 102320,
+              "end_ms": 103000
+            },
+            {
+              "word": "μικρό",
+              "start_ms": 103000,
+              "end_ms": 104580
+            }
+          ]
+        },
+        {
+          "text": "μια ερώτηση στα χείλη",
+          "start_ms": 105580,
+          "end_ms": 109960,
+          "words": [
+            {
+              "word": "μια",
+              "start_ms": 105580,
+              "end_ms": 107180
+            },
+            {
+              "word": "ερώτηση",
+              "start_ms": 107180,
+              "end_ms": 108380
+            },
+            {
+              "word": "στα",
+              "start_ms": 108380,
+              "end_ms": 108780
+            },
+            {
+              "word": "χείλη",
+              "start_ms": 108780,
+              "end_ms": 109960
+            }
+          ]
+        },
+        {
+          "text": "Πώς θα γίνει αυτό",
+          "start_ms": 110039,
+          "end_ms": 112420,
+          "words": [
+            {
+              "word": "Πώς",
+              "start_ms": 110039,
+              "end_ms": 110740
+            },
+            {
+              "word": "θα",
+              "start_ms": 110740,
+              "end_ms": 111040
+            },
+            {
+              "word": "γίνει",
+              "start_ms": 111040,
+              "end_ms": 111580
+            },
+            {
+              "word": "αυτό",
+              "start_ms": 111580,
+              "end_ms": 112420
+            }
+          ]
+        },
+        {
+          "text": "αν δεν ξέρω τον δρόμο",
+          "start_ms": 113100,
+          "end_ms": 116240,
+          "words": [
+            {
+              "word": "αν",
+              "start_ms": 113100,
+              "end_ms": 113300
+            },
+            {
+              "word": "δεν",
+              "start_ms": 113300,
+              "end_ms": 113620
+            },
+            {
+              "word": "ξέρω",
+              "start_ms": 113620,
+              "end_ms": 114480
+            },
+            {
+              "word": "τον",
+              "start_ms": 114480,
+              "end_ms": 114880
+            },
+            {
+              "word": "δρόμο",
+              "start_ms": 114880,
+              "end_ms": 116240
+            }
+          ]
+        },
+        {
+          "text": "αν δεν βλέπω ως το τέλος",
+          "start_ms": 117179,
+          "end_ms": 122580,
+          "words": [
+            {
+              "word": "αν",
+              "start_ms": 117179,
+              "end_ms": 117880
+            },
+            {
+              "word": "δεν",
+              "start_ms": 117880,
+              "end_ms": 118160
+            },
+            {
+              "word": "βλέπω",
+              "start_ms": 118160,
+              "end_ms": 120160
+            },
+            {
+              "word": "ως",
+              "start_ms": 120160,
+              "end_ms": 120960
+            },
+            {
+              "word": "το",
+              "start_ms": 120960,
+              "end_ms": 121200
+            },
+            {
+              "word": "τέλος",
+              "start_ms": 121200,
+              "end_ms": 122580
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Pre-Chorus",
+      "start_ms": 128399,
+      "end_ms": 149200,
+      "lines": [
+        {
+          "text": "Ταράχτηκε βαθιά",
+          "start_ms": 128399,
+          "end_ms": 131200,
+          "words": [
+            {
+              "word": "Ταράχτηκε",
+              "start_ms": 128399,
+              "end_ms": 129799
+            },
+            {
+              "word": "βαθιά",
+              "start_ms": 129799,
+              "end_ms": 131200
+            }
+          ]
+        },
+        {
+          "text": "πιο βαθιά κι απ' τον πρώτο",
+          "start_ms": 131200,
+          "end_ms": 135180,
+          "words": [
+            {
+              "word": "πιο",
+              "start_ms": 131200,
+              "end_ms": 131900
+            },
+            {
+              "word": "βαθιά",
+              "start_ms": 129799,
+              "end_ms": 131200
+            },
+            {
+              "word": "κι",
+              "start_ms": 132840,
+              "end_ms": 133240
+            },
+            {
+              "word": "απ'",
+              "start_ms": 133240,
+              "end_ms": 133420
+            },
+            {
+              "word": "τον",
+              "start_ms": 133420,
+              "end_ms": 133660
+            },
+            {
+              "word": "πρώτο",
+              "start_ms": 133660,
+              "end_ms": 135180
+            }
+          ]
+        },
+        {
+          "text": "μα η απάντηση δεν ήρθε",
+          "start_ms": 137200,
+          "end_ms": 141020,
+          "words": [
+            {
+              "word": "μα",
+              "start_ms": 137200,
+              "end_ms": 138080
+            },
+            {
+              "word": "η",
+              "start_ms": 138080,
+              "end_ms": 138340
+            },
+            {
+              "word": "απάντηση",
+              "start_ms": 138340,
+              "end_ms": 139320
+            },
+            {
+              "word": "δεν",
+              "start_ms": 139320,
+              "end_ms": 139660
+            },
+            {
+              "word": "ήρθε",
+              "start_ms": 139660,
+              "end_ms": 141020
+            }
+          ]
+        },
+        {
+          "text": "να διώξει αυτό το φόβο",
+          "start_ms": 143060,
+          "end_ms": 149200,
+          "words": [
+            {
+              "word": "να",
+              "start_ms": 143060,
+              "end_ms": 143760
+            },
+            {
+              "word": "διώξει",
+              "start_ms": 143760,
+              "end_ms": 144380
+            },
+            {
+              "word": "αυτό",
+              "start_ms": 144380,
+              "end_ms": 145620
+            },
+            {
+              "word": "το",
+              "start_ms": 145620,
+              "end_ms": 146000
+            },
+            {
+              "word": "φόβο",
+              "start_ms": 146000,
+              "end_ms": 149200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 150620,
+      "end_ms": 175200,
+      "lines": [
+        {
+          "text": "Μη φοβάσαι",
+          "start_ms": 150620,
+          "end_ms": 154540,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 150620,
+              "end_ms": 151800
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 151800,
+              "end_ms": 154540
+            }
+          ]
+        },
+        {
+          "text": "Δεν λέει σταμάτα να φοβάσαι",
+          "start_ms": 155200,
+          "end_ms": 159740,
+          "words": [
+            {
+              "word": "Δεν",
+              "start_ms": 155200,
+              "end_ms": 156260
+            },
+            {
+              "word": "λέει",
+              "start_ms": 156260,
+              "end_ms": 156700
+            },
+            {
+              "word": "σταμάτα",
+              "start_ms": 156700,
+              "end_ms": 157720
+            },
+            {
+              "word": "να",
+              "start_ms": 157720,
+              "end_ms": 158180
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 158180,
+              "end_ms": 159740
+            }
+          ]
+        },
+        {
+          "text": "Μη φοβάσαι",
+          "start_ms": 163720,
+          "end_ms": 159740,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 163720,
+              "end_ms": 165120
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 158180,
+              "end_ms": 159740
+            }
+          ]
+        },
+        {
+          "text": "Λέει ξέρω, ξέρω",
+          "start_ms": 166880,
+          "end_ms": 170040,
+          "words": [
+            {
+              "word": "Λέει",
+              "start_ms": 166880,
+              "end_ms": 167580
+            },
+            {
+              "word": "ξέρω,",
+              "start_ms": 167580,
+              "end_ms": 168580
+            },
+            {
+              "word": "ξέρω",
+              "start_ms": 168980,
+              "end_ms": 170040
+            }
+          ]
+        },
+        {
+          "text": "και σ' ακούω",
+          "start_ms": 170040,
+          "end_ms": 175200,
+          "words": [
+            {
+              "word": "και",
+              "start_ms": 170040,
+              "end_ms": 170440
+            },
+            {
+              "word": "σ'",
+              "start_ms": 170440,
+              "end_ms": 170760
+            },
+            {
+              "word": "ακούω",
+              "start_ms": 170760,
+              "end_ms": 175200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "start_ms": 176180,
+      "end_ms": 202580,
+      "lines": [
+        {
+          "text": "Ας γίνει",
+          "start_ms": 176180,
+          "end_ms": 184280,
+          "words": [
+            {
+              "word": "Ας",
+              "start_ms": 176180,
+              "end_ms": 177040
+            },
+            {
+              "word": "γίνει",
+              "start_ms": 183180,
+              "end_ms": 184280
+            }
+          ]
+        },
+        {
+          "text": "είπε μέσα στον φόβο",
+          "start_ms": 184280,
+          "end_ms": 181200,
+          "words": [
+            {
+              "word": "είπε",
+              "start_ms": 184280,
+              "end_ms": 184580,
+              "estimated": true
+            },
+            {
+              "word": "μέσα",
+              "start_ms": 184630,
+              "end_ms": 184930,
+              "estimated": true
+            },
+            {
+              "word": "στον",
+              "start_ms": 184980,
+              "end_ms": 185280,
+              "estimated": true
+            },
+            {
+              "word": "φόβο",
+              "start_ms": 179900,
+              "end_ms": 181200
+            }
+          ]
+        },
+        {
+          "text": "Ας γίνει",
+          "start_ms": 182320,
+          "end_ms": 184280,
+          "words": [
+            {
+              "word": "Ας",
+              "start_ms": 182320,
+              "end_ms": 183180
+            },
+            {
+              "word": "γίνει",
+              "start_ms": 183180,
+              "end_ms": 184280
+            }
+          ]
+        },
+        {
+          "text": "χωρίς να ξέρει πώς",
+          "start_ms": 184280,
+          "end_ms": 187660,
+          "words": [
+            {
+              "word": "χωρίς",
+              "start_ms": 184280,
+              "end_ms": 185000
+            },
+            {
+              "word": "να",
+              "start_ms": 185000,
+              "end_ms": 185280
+            },
+            {
+              "word": "ξέρει",
+              "start_ms": 185280,
+              "end_ms": 186540
+            },
+            {
+              "word": "πώς",
+              "start_ms": 186540,
+              "end_ms": 187660
+            }
+          ]
+        },
+        {
+          "text": "Ο φόβος δεν έφυγε",
+          "start_ms": 188660,
+          "end_ms": 193680,
+          "words": [
+            {
+              "word": "Ο",
+              "start_ms": 188660,
+              "end_ms": 189360
+            },
+            {
+              "word": "φόβος",
+              "start_ms": 189360,
+              "end_ms": 190500
+            },
+            {
+              "word": "δεν",
+              "start_ms": 190500,
+              "end_ms": 190940
+            },
+            {
+              "word": "έφυγε",
+              "start_ms": 190940,
+              "end_ms": 193680
+            }
+          ]
+        },
+        {
+          "text": "Αυτή απλά προχώρησε",
+          "start_ms": 194380,
+          "end_ms": 202580,
+          "words": [
+            {
+              "word": "Αυτή",
+              "start_ms": 194380,
+              "end_ms": 195080
+            },
+            {
+              "word": "απλά",
+              "start_ms": 195080,
+              "end_ms": 197080
+            },
+            {
+              "word": "προχώρησε",
+              "start_ms": 197080,
+              "end_ms": 202580
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 203660,
+      "end_ms": 232420,
+      "lines": [
+        {
+          "text": "Μη φοβάσαι",
+          "start_ms": 203660,
+          "end_ms": 207800,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 203660,
+              "end_ms": 204440
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 204440,
+              "end_ms": 207800
+            }
+          ]
+        },
+        {
+          "text": "Δεν λέει σταμάτα να φοβάσαι",
+          "start_ms": 208300,
+          "end_ms": 213020,
+          "words": [
+            {
+              "word": "Δεν",
+              "start_ms": 208300,
+              "end_ms": 209000
+            },
+            {
+              "word": "λέει",
+              "start_ms": 209000,
+              "end_ms": 209320
+            },
+            {
+              "word": "σταμάτα",
+              "start_ms": 209320,
+              "end_ms": 210360
+            },
+            {
+              "word": "να",
+              "start_ms": 210360,
+              "end_ms": 210840
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 210840,
+              "end_ms": 213020
+            }
+          ]
+        },
+        {
+          "text": "Μη φοβάσαι",
+          "start_ms": 216200,
+          "end_ms": 213020,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 216200,
+              "end_ms": 217600
+            },
+            {
+              "word": "φοβάσαι",
+              "start_ms": 210840,
+              "end_ms": 213020
+            }
+          ]
+        },
+        {
+          "text": "Λέει ξέρω, ξέρω",
+          "start_ms": 219000,
+          "end_ms": 223240,
+          "words": [
+            {
+              "word": "Λέει",
+              "start_ms": 219000,
+              "end_ms": 220240
+            },
+            {
+              "word": "ξέρω,",
+              "start_ms": 220240,
+              "end_ms": 221220
+            },
+            {
+              "word": "ξέρω",
+              "start_ms": 221480,
+              "end_ms": 223240
+            }
+          ]
+        },
+        {
+          "text": "και σ' ακούω",
+          "start_ms": 223240,
+          "end_ms": 232420,
+          "words": [
+            {
+              "word": "και",
+              "start_ms": 223240,
+              "end_ms": 225680
+            },
+            {
+              "word": "σ'",
+              "start_ms": 225680,
+              "end_ms": 226360
+            },
+            {
+              "word": "ακούω",
+              "start_ms": 226420,
+              "end_ms": 232420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "label": "Outro",
+      "start_ms": 238519,
+      "end_ms": 241320,
+      "lines": [
+        {
+          "text": "Μη φοβάσαι...",
+          "start_ms": 238519,
+          "end_ms": 241320,
+          "words": [
+            {
+              "word": "Μη",
+              "start_ms": 238519,
+              "end_ms": 239920
+            },
+            {
+              "word": "φοβάσαι...",
+              "start_ms": 239920,
+              "end_ms": 241320
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Ταράχτηκε βαθιά",
+      "section_type": "chorus",
+      "start_ms": 52080,
+      "end_ms": 74180,
+      "key_line": "Ταράχτηκε βαθιά",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Μη φοβάσαι",
+      "section_type": "chorus",
+      "start_ms": 77399,
+      "end_ms": 99200,
+      "key_line": "Μη φοβάσαι",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Ταράχτηκε βαθιά",
+      "section_type": "chorus",
+      "start_ms": 128399,
+      "end_ms": 149200,
+      "key_line": "Ταράχτηκε βαθιά",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_4",
+      "description": "Chorus - Μη φοβάσαι",
+      "section_type": "chorus",
+      "start_ms": 150620,
+      "end_ms": 175200,
+      "key_line": "Μη φοβάσαι",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 176180,
+      "end_ms": 202580,
+      "key_line": "Ας γίνει",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_5",
+      "description": "Chorus - Μη φοβάσαι",
+      "section_type": "chorus",
+      "start_ms": 203660,
+      "end_ms": 232420,
+      "key_line": "Μη φοβάσαι",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "source_transcript": "audio/songs/luke_01/greek/42_luke_01_1-12_transcript.json"
+}

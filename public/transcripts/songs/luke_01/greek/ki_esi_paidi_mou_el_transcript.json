@@ -1,0 +1,1074 @@
+{
+  "schema_version": "1.0",
+  "song_id": "ki_esi_paidi_mou_el",
+  "title": "Κι εσύ, παιδί μου",
+  "artist": "Aperto Bible",
+  "language": "el",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "76-79",
+  "duration_ms": 238800,
+  "audio_file": "/audio/songs/luke_01/greek/Κι εσύ, παιδί μου (Luke 1_76-79)— Greek.mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-14T04:42:27.296659+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.957,
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 18140,
+      "end_ms": 47980,
+      "lines": [
+        {
+          "text": "Εννιά μήνες χωρίς φωνή",
+          "start_ms": 18140,
+          "end_ms": 23820,
+          "words": [
+            {
+              "word": "Εννιά",
+              "start_ms": 18140,
+              "end_ms": 19540
+            },
+            {
+              "word": "μήνες",
+              "start_ms": 19540,
+              "end_ms": 20640
+            },
+            {
+              "word": "χωρίς",
+              "start_ms": 20640,
+              "end_ms": 21640
+            },
+            {
+              "word": "φωνή",
+              "start_ms": 21640,
+              "end_ms": 23820
+            }
+          ]
+        },
+        {
+          "text": "Εννιά μήνες να κάθεσαι",
+          "start_ms": 26140,
+          "end_ms": 29980,
+          "words": [
+            {
+              "word": "Εννιά",
+              "start_ms": 26140,
+              "end_ms": 27540
+            },
+            {
+              "word": "μήνες",
+              "start_ms": 27540,
+              "end_ms": 28280
+            },
+            {
+              "word": "να",
+              "start_ms": 28280,
+              "end_ms": 28580
+            },
+            {
+              "word": "κάθεσαι",
+              "start_ms": 28580,
+              "end_ms": 29980
+            }
+          ]
+        },
+        {
+          "text": "μ' αυτό που δεν μπορείς να πεις",
+          "start_ms": 32920,
+          "end_ms": 39380,
+          "words": [
+            {
+              "word": "μ'",
+              "start_ms": 32920,
+              "end_ms": 33220,
+              "estimated": true
+            },
+            {
+              "word": "αυτό",
+              "start_ms": 34320,
+              "end_ms": 34860
+            },
+            {
+              "word": "που",
+              "start_ms": 34860,
+              "end_ms": 35260
+            },
+            {
+              "word": "δεν",
+              "start_ms": 35260,
+              "end_ms": 35660
+            },
+            {
+              "word": "μπορείς",
+              "start_ms": 35660,
+              "end_ms": 36640
+            },
+            {
+              "word": "να",
+              "start_ms": 36640,
+              "end_ms": 37000
+            },
+            {
+              "word": "πεις",
+              "start_ms": 37000,
+              "end_ms": 39380
+            }
+          ]
+        },
+        {
+          "text": "Η σιωπή δεν ήταν τιμωρία",
+          "start_ms": 39380,
+          "end_ms": 43480,
+          "words": [
+            {
+              "word": "Η",
+              "start_ms": 39380,
+              "end_ms": 39880
+            },
+            {
+              "word": "σιωπή",
+              "start_ms": 39880,
+              "end_ms": 40740
+            },
+            {
+              "word": "δεν",
+              "start_ms": 40740,
+              "end_ms": 41180
+            },
+            {
+              "word": "ήταν",
+              "start_ms": 41180,
+              "end_ms": 42100
+            },
+            {
+              "word": "τιμωρία",
+              "start_ms": 42100,
+              "end_ms": 43480
+            }
+          ]
+        },
+        {
+          "text": "Ήταν σχηματισμός",
+          "start_ms": 41180,
+          "end_ms": 47980,
+          "words": [
+            {
+              "word": "Ήταν",
+              "start_ms": 41180,
+              "end_ms": 42100
+            },
+            {
+              "word": "σχηματισμός",
+              "start_ms": 45340,
+              "end_ms": 47980
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 53540,
+      "end_ms": 79760,
+      "lines": [
+        {
+          "text": "Ζήτησε πινακίδιο",
+          "start_ms": 53540,
+          "end_ms": 56340,
+          "words": [
+            {
+              "word": "Ζήτησε",
+              "start_ms": 53540,
+              "end_ms": 54940
+            },
+            {
+              "word": "πινακίδιο",
+              "start_ms": 54940,
+              "end_ms": 56340
+            }
+          ]
+        },
+        {
+          "text": "κι έγραψε ένα όνομα",
+          "start_ms": 57960,
+          "end_ms": 62340,
+          "words": [
+            {
+              "word": "κι",
+              "start_ms": 57960,
+              "end_ms": 59360
+            },
+            {
+              "word": "έγραψε",
+              "start_ms": 59360,
+              "end_ms": 60440
+            },
+            {
+              "word": "ένα",
+              "start_ms": 60440,
+              "end_ms": 61020
+            },
+            {
+              "word": "όνομα",
+              "start_ms": 61020,
+              "end_ms": 62340
+            }
+          ]
+        },
+        {
+          "text": "Ιωάννης",
+          "start_ms": 66059,
+          "end_ms": 67460,
+          "words": [
+            {
+              "word": "Ιωάννης",
+              "start_ms": 66059,
+              "end_ms": 67460
+            }
+          ]
+        },
+        {
+          "text": "Κι αμέσως — άνοιξε το στόμα",
+          "start_ms": 67460,
+          "end_ms": 71340,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 67460,
+              "end_ms": 67680
+            },
+            {
+              "word": "αμέσως",
+              "start_ms": 67680,
+              "end_ms": 68740
+            },
+            {
+              "word": "—",
+              "start_ms": 68790,
+              "end_ms": 69090,
+              "estimated": true
+            },
+            {
+              "word": "άνοιξε",
+              "start_ms": 68740,
+              "end_ms": 69660
+            },
+            {
+              "word": "το",
+              "start_ms": 69660,
+              "end_ms": 70000
+            },
+            {
+              "word": "στόμα",
+              "start_ms": 70000,
+              "end_ms": 71340
+            }
+          ]
+        },
+        {
+          "text": "Κι αυτό που βγήκε",
+          "start_ms": 72000,
+          "end_ms": 75340,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 72000,
+              "end_ms": 72880
+            },
+            {
+              "word": "αυτό",
+              "start_ms": 72880,
+              "end_ms": 73140
+            },
+            {
+              "word": "που",
+              "start_ms": 73140,
+              "end_ms": 73380
+            },
+            {
+              "word": "βγήκε",
+              "start_ms": 73380,
+              "end_ms": 75340
+            }
+          ]
+        },
+        {
+          "text": "δεν ήταν παράπονο",
+          "start_ms": 75340,
+          "end_ms": 79760,
+          "words": [
+            {
+              "word": "δεν",
+              "start_ms": 75340,
+              "end_ms": 76460
+            },
+            {
+              "word": "ήταν",
+              "start_ms": 76460,
+              "end_ms": 77140
+            },
+            {
+              "word": "παράπονο",
+              "start_ms": 77140,
+              "end_ms": 79760
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 81320,
+      "end_ms": 115760,
+      "lines": [
+        {
+          "text": "Κι εσύ, παιδί μου",
+          "start_ms": 81320,
+          "end_ms": 85840,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 81320,
+              "end_ms": 82720
+            },
+            {
+              "word": "εσύ,",
+              "start_ms": 82720,
+              "end_ms": 84120
+            },
+            {
+              "word": "παιδί",
+              "start_ms": 84300,
+              "end_ms": 85120
+            },
+            {
+              "word": "μου",
+              "start_ms": 85120,
+              "end_ms": 85840
+            }
+          ]
+        },
+        {
+          "text": "Κι εσύ, μικρό μου",
+          "start_ms": 86760,
+          "end_ms": 90200,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 86760,
+              "end_ms": 87500
+            },
+            {
+              "word": "εσύ,",
+              "start_ms": 87500,
+              "end_ms": 88120
+            },
+            {
+              "word": "μικρό",
+              "start_ms": 88180,
+              "end_ms": 88940
+            },
+            {
+              "word": "μου",
+              "start_ms": 88940,
+              "end_ms": 90200
+            }
+          ]
+        },
+        {
+          "text": "Μετά από όλα τα μεγάλα",
+          "start_ms": 96680,
+          "end_ms": 96680,
+          "words": [
+            {
+              "word": "Μετά",
+              "start_ms": 96680,
+              "end_ms": 97820
+            },
+            {
+              "word": "από",
+              "start_ms": 97870,
+              "end_ms": 98170,
+              "estimated": true
+            },
+            {
+              "word": "όλα",
+              "start_ms": 98220,
+              "end_ms": 98520,
+              "estimated": true
+            },
+            {
+              "word": "τα",
+              "start_ms": 93420,
+              "end_ms": 93900
+            },
+            {
+              "word": "μεγάλα",
+              "start_ms": 93900,
+              "end_ms": 96680
+            }
+          ]
+        },
+        {
+          "text": "μετά τις υποσχέσεις και τους βασιλιάδες",
+          "start_ms": 96680,
+          "end_ms": 104820,
+          "words": [
+            {
+              "word": "μετά",
+              "start_ms": 96680,
+              "end_ms": 97820
+            },
+            {
+              "word": "τις",
+              "start_ms": 97820,
+              "end_ms": 99000
+            },
+            {
+              "word": "υποσχέσεις",
+              "start_ms": 99000,
+              "end_ms": 100760
+            },
+            {
+              "word": "και",
+              "start_ms": 101380,
+              "end_ms": 102400
+            },
+            {
+              "word": "τους",
+              "start_ms": 102400,
+              "end_ms": 102740
+            },
+            {
+              "word": "βασιλιάδες",
+              "start_ms": 102740,
+              "end_ms": 104820
+            }
+          ]
+        },
+        {
+          "text": "κοιτάζω κάτω",
+          "start_ms": 104820,
+          "end_ms": 107600,
+          "words": [
+            {
+              "word": "κοιτάζω",
+              "start_ms": 104820,
+              "end_ms": 105980
+            },
+            {
+              "word": "κάτω",
+              "start_ms": 105980,
+              "end_ms": 107600
+            }
+          ]
+        },
+        {
+          "text": "στο πρόσωπό σου",
+          "start_ms": 110760,
+          "end_ms": 115760,
+          "words": [
+            {
+              "word": "στο",
+              "start_ms": 110760,
+              "end_ms": 111660
+            },
+            {
+              "word": "πρόσωπό",
+              "start_ms": 111660,
+              "end_ms": 113060
+            },
+            {
+              "word": "σου",
+              "start_ms": 113060,
+              "end_ms": 115760
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "start_ms": 117340,
+      "end_ms": 148140,
+      "lines": [
+        {
+          "text": "Από τα σπλάχνα",
+          "start_ms": 117340,
+          "end_ms": 120160,
+          "words": [
+            {
+              "word": "Από",
+              "start_ms": 117340,
+              "end_ms": 118040
+            },
+            {
+              "word": "τα",
+              "start_ms": 118040,
+              "end_ms": 118280
+            },
+            {
+              "word": "σπλάχνα",
+              "start_ms": 118280,
+              "end_ms": 120160
+            }
+          ]
+        },
+        {
+          "text": "της αγάπης του Θεού μας",
+          "start_ms": 120160,
+          "end_ms": 125960,
+          "words": [
+            {
+              "word": "της",
+              "start_ms": 120160,
+              "end_ms": 121940
+            },
+            {
+              "word": "αγάπης",
+              "start_ms": 121940,
+              "end_ms": 123140
+            },
+            {
+              "word": "του",
+              "start_ms": 123140,
+              "end_ms": 123340
+            },
+            {
+              "word": "Θεού",
+              "start_ms": 123340,
+              "end_ms": 124440
+            },
+            {
+              "word": "μας",
+              "start_ms": 124440,
+              "end_ms": 125960
+            }
+          ]
+        },
+        {
+          "text": "η αυγή από ψηλά",
+          "start_ms": 126760,
+          "end_ms": 130639,
+          "words": [
+            {
+              "word": "η",
+              "start_ms": 126760,
+              "end_ms": 127640
+            },
+            {
+              "word": "αυγή",
+              "start_ms": 127640,
+              "end_ms": 128479
+            },
+            {
+              "word": "από",
+              "start_ms": 128479,
+              "end_ms": 128900
+            },
+            {
+              "word": "ψηλά",
+              "start_ms": 128900,
+              "end_ms": 130639
+            }
+          ]
+        },
+        {
+          "text": "θα μας επισκεφτεί",
+          "start_ms": 130639,
+          "end_ms": 135080,
+          "words": [
+            {
+              "word": "θα",
+              "start_ms": 130639,
+              "end_ms": 131740
+            },
+            {
+              "word": "μας",
+              "start_ms": 131740,
+              "end_ms": 132300
+            },
+            {
+              "word": "επισκεφτεί",
+              "start_ms": 132300,
+              "end_ms": 135080
+            }
+          ]
+        },
+        {
+          "text": "Να φωτίσει αυτούς",
+          "start_ms": 135560,
+          "end_ms": 140080,
+          "words": [
+            {
+              "word": "Να",
+              "start_ms": 135560,
+              "end_ms": 136260
+            },
+            {
+              "word": "φωτίσει",
+              "start_ms": 136260,
+              "end_ms": 137100
+            },
+            {
+              "word": "αυτούς",
+              "start_ms": 137100,
+              "end_ms": 140080
+            }
+          ]
+        },
+        {
+          "text": "που κάθονται στο σκοτάδι",
+          "start_ms": 141680,
+          "end_ms": 148140,
+          "words": [
+            {
+              "word": "που",
+              "start_ms": 141680,
+              "end_ms": 142180
+            },
+            {
+              "word": "κάθονται",
+              "start_ms": 142180,
+              "end_ms": 143900
+            },
+            {
+              "word": "στο",
+              "start_ms": 143900,
+              "end_ms": 144540
+            },
+            {
+              "word": "σκοτάδι",
+              "start_ms": 144540,
+              "end_ms": 148140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 148140,
+      "end_ms": 180200,
+      "lines": [
+        {
+          "text": "Κι εσύ, παιδί μου",
+          "start_ms": 148140,
+          "end_ms": 151820,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 148140,
+              "end_ms": 148620
+            },
+            {
+              "word": "εσύ,",
+              "start_ms": 148620,
+              "end_ms": 150260
+            },
+            {
+              "word": "παιδί",
+              "start_ms": 150440,
+              "end_ms": 151180
+            },
+            {
+              "word": "μου",
+              "start_ms": 151180,
+              "end_ms": 151820
+            }
+          ]
+        },
+        {
+          "text": "Κι εσύ, μικρό μου",
+          "start_ms": 152900,
+          "end_ms": 156120,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 152900,
+              "end_ms": 153600
+            },
+            {
+              "word": "εσύ,",
+              "start_ms": 153600,
+              "end_ms": 154200
+            },
+            {
+              "word": "μικρό",
+              "start_ms": 154260,
+              "end_ms": 155120
+            },
+            {
+              "word": "μου",
+              "start_ms": 155120,
+              "end_ms": 156120
+            }
+          ]
+        },
+        {
+          "text": "Μετά από όλα τα μεγάλα",
+          "start_ms": 162560,
+          "end_ms": 162560,
+          "words": [
+            {
+              "word": "Μετά",
+              "start_ms": 162560,
+              "end_ms": 163780
+            },
+            {
+              "word": "από",
+              "start_ms": 163830,
+              "end_ms": 164130,
+              "estimated": true
+            },
+            {
+              "word": "όλα",
+              "start_ms": 164180,
+              "end_ms": 164480,
+              "estimated": true
+            },
+            {
+              "word": "τα",
+              "start_ms": 159400,
+              "end_ms": 159860
+            },
+            {
+              "word": "μεγάλα",
+              "start_ms": 159860,
+              "end_ms": 162560
+            }
+          ]
+        },
+        {
+          "text": "μετά τις υποσχέσεις και τους βασιλιάδες",
+          "start_ms": 162560,
+          "end_ms": 170960,
+          "words": [
+            {
+              "word": "μετά",
+              "start_ms": 162560,
+              "end_ms": 163780
+            },
+            {
+              "word": "τις",
+              "start_ms": 163780,
+              "end_ms": 164460
+            },
+            {
+              "word": "υποσχέσεις",
+              "start_ms": 164460,
+              "end_ms": 166560
+            },
+            {
+              "word": "και",
+              "start_ms": 167300,
+              "end_ms": 168580
+            },
+            {
+              "word": "τους",
+              "start_ms": 168580,
+              "end_ms": 168940
+            },
+            {
+              "word": "βασιλιάδες",
+              "start_ms": 168940,
+              "end_ms": 170960
+            }
+          ]
+        },
+        {
+          "text": "κοιτάζω κάτω",
+          "start_ms": 170960,
+          "end_ms": 173560,
+          "words": [
+            {
+              "word": "κοιτάζω",
+              "start_ms": 170960,
+              "end_ms": 172200
+            },
+            {
+              "word": "κάτω",
+              "start_ms": 172200,
+              "end_ms": 173560
+            }
+          ]
+        },
+        {
+          "text": "στο πρόσωπό σου",
+          "start_ms": 176100,
+          "end_ms": 180200,
+          "words": [
+            {
+              "word": "στο",
+              "start_ms": 176100,
+              "end_ms": 176880
+            },
+            {
+              "word": "πρόσωπό",
+              "start_ms": 176880,
+              "end_ms": 178600
+            },
+            {
+              "word": "σου",
+              "start_ms": 178600,
+              "end_ms": 180200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "start_ms": 182160,
+      "end_ms": 205560,
+      "lines": [
+        {
+          "text": "Να οδηγήσει τα βήματά μας",
+          "start_ms": 182160,
+          "end_ms": 185540,
+          "words": [
+            {
+              "word": "Να",
+              "start_ms": 182160,
+              "end_ms": 182860
+            },
+            {
+              "word": "οδηγήσει",
+              "start_ms": 182860,
+              "end_ms": 183380
+            },
+            {
+              "word": "τα",
+              "start_ms": 183380,
+              "end_ms": 183540
+            },
+            {
+              "word": "βήματά",
+              "start_ms": 183540,
+              "end_ms": 184020
+            },
+            {
+              "word": "μας",
+              "start_ms": 184020,
+              "end_ms": 185540
+            }
+          ]
+        },
+        {
+          "text": "στο δρόμο της ειρήνης",
+          "start_ms": 185900,
+          "end_ms": 188560,
+          "words": [
+            {
+              "word": "στο",
+              "start_ms": 185900,
+              "end_ms": 186600
+            },
+            {
+              "word": "δρόμο",
+              "start_ms": 186600,
+              "end_ms": 187080
+            },
+            {
+              "word": "της",
+              "start_ms": 187080,
+              "end_ms": 187240
+            },
+            {
+              "word": "ειρήνης",
+              "start_ms": 187240,
+              "end_ms": 188560
+            }
+          ]
+        },
+        {
+          "text": "Βήματα, όχι πτήσεις",
+          "start_ms": 189560,
+          "end_ms": 192880,
+          "words": [
+            {
+              "word": "Βήματα,",
+              "start_ms": 189560,
+              "end_ms": 190780
+            },
+            {
+              "word": "όχι",
+              "start_ms": 191240,
+              "end_ms": 191400
+            },
+            {
+              "word": "πτήσεις",
+              "start_ms": 191400,
+              "end_ms": 192880
+            }
+          ]
+        },
+        {
+          "text": "Δρόμο, όχι προορισμό",
+          "start_ms": 193560,
+          "end_ms": 196420,
+          "words": [
+            {
+              "word": "Δρόμο,",
+              "start_ms": 193560,
+              "end_ms": 194380
+            },
+            {
+              "word": "όχι",
+              "start_ms": 191240,
+              "end_ms": 191400
+            },
+            {
+              "word": "προορισμό",
+              "start_ms": 195040,
+              "end_ms": 196420
+            }
+          ]
+        },
+        {
+          "text": "Αρκετό φως",
+          "start_ms": 196420,
+          "end_ms": 198780,
+          "words": [
+            {
+              "word": "Αρκετό",
+              "start_ms": 196420,
+              "end_ms": 197380
+            },
+            {
+              "word": "φως",
+              "start_ms": 197380,
+              "end_ms": 198780
+            }
+          ]
+        },
+        {
+          "text": "για το επόμενο βήμα",
+          "start_ms": 201340,
+          "end_ms": 205560,
+          "words": [
+            {
+              "word": "για",
+              "start_ms": 201340,
+              "end_ms": 202040
+            },
+            {
+              "word": "το",
+              "start_ms": 202040,
+              "end_ms": 202360
+            },
+            {
+              "word": "επόμενο",
+              "start_ms": 202360,
+              "end_ms": 203400
+            },
+            {
+              "word": "βήμα",
+              "start_ms": 203400,
+              "end_ms": 205560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "label": "Outro",
+      "start_ms": 206240,
+      "end_ms": 221640,
+      "lines": [
+        {
+          "text": "Κι εσύ, παιδί μου...",
+          "start_ms": 206240,
+          "end_ms": 212620,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 206240,
+              "end_ms": 206800
+            },
+            {
+              "word": "εσύ,",
+              "start_ms": 206800,
+              "end_ms": 210480
+            },
+            {
+              "word": "παιδί",
+              "start_ms": 210800,
+              "end_ms": 211820
+            },
+            {
+              "word": "μου...",
+              "start_ms": 211820,
+              "end_ms": 212620
+            }
+          ]
+        },
+        {
+          "text": "Κι εσύ...",
+          "start_ms": 213620,
+          "end_ms": 221640,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 213620,
+              "end_ms": 215180
+            },
+            {
+              "word": "εσύ...",
+              "start_ms": 215180,
+              "end_ms": 221640
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Κι εσύ, παιδί μου",
+      "section_type": "chorus",
+      "start_ms": 81320,
+      "end_ms": 115760,
+      "key_line": "Κι εσύ, παιδί μου",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Κι εσύ, παιδί μου",
+      "section_type": "chorus",
+      "start_ms": 148140,
+      "end_ms": 180200,
+      "key_line": "Κι εσύ, παιδί μου",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 182160,
+      "end_ms": 205560,
+      "key_line": "Να οδηγήσει τα βήματά μας",
+      "recommended_for": [
+        "social_clip"
+      ]
+    }
+  ],
+  "source_transcript": "audio/songs/luke_01/greek/42_luke_01_1-76_transcript.json"
+}

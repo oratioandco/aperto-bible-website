@@ -1,0 +1,1052 @@
+{
+  "schema_version": "1.0",
+  "song_id": "me_koitakse_el",
+  "title": "Με κοίταξε",
+  "artist": "Aperto Bible",
+  "language": "el",
+  "book": "luke",
+  "chapter": 1,
+  "verses": "46-55",
+  "duration_ms": 189160,
+  "audio_file": "/audio/songs/luke_01/greek/Με κοίταξε (Luke 1_46-55) — Greek (1).mp3",
+  "lyrics_source": "FINAL_OUTPUT",
+  "generated_at": "2026-04-14T04:42:27.292707+00:00",
+  "alignment_tool": "whisper-large-v3",
+  "alignment_confidence": 0.898,
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "start_ms": 12900,
+      "end_ms": 47000,
+      "lines": [
+        {
+          "text": "Δεν με ήξερε κανείς",
+          "start_ms": 12900,
+          "end_ms": 16040,
+          "words": [
+            {
+              "word": "Δεν",
+              "start_ms": 12900,
+              "end_ms": 14060
+            },
+            {
+              "word": "με",
+              "start_ms": 14060,
+              "end_ms": 14340
+            },
+            {
+              "word": "ήξερε",
+              "start_ms": 14340,
+              "end_ms": 14920
+            },
+            {
+              "word": "κανείς",
+              "start_ms": 14920,
+              "end_ms": 16040
+            }
+          ]
+        },
+        {
+          "text": "στο χωριό με ξέρανε ως κοπέλα",
+          "start_ms": 16820,
+          "end_ms": 21480,
+          "words": [
+            {
+              "word": "στο",
+              "start_ms": 16820,
+              "end_ms": 17780
+            },
+            {
+              "word": "χωριό",
+              "start_ms": 17780,
+              "end_ms": 18580
+            },
+            {
+              "word": "με",
+              "start_ms": 18580,
+              "end_ms": 18800
+            },
+            {
+              "word": "ξέρανε",
+              "start_ms": 18800,
+              "end_ms": 19520
+            },
+            {
+              "word": "ως",
+              "start_ms": 19520,
+              "end_ms": 19920
+            },
+            {
+              "word": "κοπέλα",
+              "start_ms": 19920,
+              "end_ms": 21480
+            }
+          ]
+        },
+        {
+          "text": "Δρόμοι χωματένιοι",
+          "start_ms": 22000,
+          "end_ms": 24400,
+          "words": [
+            {
+              "word": "Δρόμοι",
+              "start_ms": 22000,
+              "end_ms": 23060
+            },
+            {
+              "word": "χωματένιοι",
+              "start_ms": 23900,
+              "end_ms": 24400
+            }
+          ]
+        },
+        {
+          "text": "σπίτι μικρό",
+          "start_ms": 24620,
+          "end_ms": 25940,
+          "words": [
+            {
+              "word": "σπίτι",
+              "start_ms": 24620,
+              "end_ms": 25100
+            },
+            {
+              "word": "μικρό",
+              "start_ms": 25320,
+              "end_ms": 25940
+            }
+          ]
+        },
+        {
+          "text": "τίποτα που ν' αξίζει αναφοράς",
+          "start_ms": 26000,
+          "end_ms": 30860,
+          "words": [
+            {
+              "word": "τίποτα",
+              "start_ms": 26000,
+              "end_ms": 27000
+            },
+            {
+              "word": "που",
+              "start_ms": 27000,
+              "end_ms": 27360
+            },
+            {
+              "word": "ν'",
+              "start_ms": 27410,
+              "end_ms": 27710,
+              "estimated": true
+            },
+            {
+              "word": "αξίζει",
+              "start_ms": 27620,
+              "end_ms": 28340
+            },
+            {
+              "word": "αναφοράς",
+              "start_ms": 28540,
+              "end_ms": 30860
+            }
+          ]
+        },
+        {
+          "text": "Κι ένα πρωί χτύπησε κάτι",
+          "start_ms": 30860,
+          "end_ms": 35000,
+          "words": [
+            {
+              "word": "Κι",
+              "start_ms": 30860,
+              "end_ms": 31260
+            },
+            {
+              "word": "ένα",
+              "start_ms": 31260,
+              "end_ms": 31560
+            },
+            {
+              "word": "πρωί",
+              "start_ms": 31560,
+              "end_ms": 32580
+            },
+            {
+              "word": "χτύπησε",
+              "start_ms": 32580,
+              "end_ms": 33640
+            },
+            {
+              "word": "κάτι",
+              "start_ms": 33640,
+              "end_ms": 35000
+            }
+          ]
+        },
+        {
+          "text": "μέσα στο στήθος μου",
+          "start_ms": 35000,
+          "end_ms": 37800,
+          "words": [
+            {
+              "word": "μέσα",
+              "start_ms": 35000,
+              "end_ms": 35620
+            },
+            {
+              "word": "στο",
+              "start_ms": 35620,
+              "end_ms": 35920
+            },
+            {
+              "word": "στήθος",
+              "start_ms": 35920,
+              "end_ms": 36840
+            },
+            {
+              "word": "μου",
+              "start_ms": 36840,
+              "end_ms": 37800
+            }
+          ]
+        },
+        {
+          "text": "Κάτι σαν γιορτή",
+          "start_ms": 38860,
+          "end_ms": 42160,
+          "words": [
+            {
+              "word": "Κάτι",
+              "start_ms": 38860,
+              "end_ms": 39560
+            },
+            {
+              "word": "σαν",
+              "start_ms": 39560,
+              "end_ms": 39900
+            },
+            {
+              "word": "γιορτή",
+              "start_ms": 39900,
+              "end_ms": 42160
+            }
+          ]
+        },
+        {
+          "text": "κάτι σαν σεισμός",
+          "start_ms": 38860,
+          "end_ms": 47000,
+          "words": [
+            {
+              "word": "κάτι",
+              "start_ms": 38860,
+              "end_ms": 39560
+            },
+            {
+              "word": "σαν",
+              "start_ms": 39560,
+              "end_ms": 39900
+            },
+            {
+              "word": "σεισμός",
+              "start_ms": 43700,
+              "end_ms": 47000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 47560,
+      "end_ms": 66400,
+      "lines": [
+        {
+          "text": "Με κοίταξε",
+          "start_ms": 47560,
+          "end_ms": 50920,
+          "words": [
+            {
+              "word": "Με",
+              "start_ms": 47560,
+              "end_ms": 48400
+            },
+            {
+              "word": "κοίταξε",
+              "start_ms": 48400,
+              "end_ms": 50920
+            }
+          ]
+        },
+        {
+          "text": "Πρόσεξε εμένα",
+          "start_ms": 50920,
+          "end_ms": 54280,
+          "words": [
+            {
+              "word": "Πρόσεξε",
+              "start_ms": 50920,
+              "end_ms": 52520
+            },
+            {
+              "word": "εμένα",
+              "start_ms": 52520,
+              "end_ms": 54280
+            }
+          ]
+        },
+        {
+          "text": "Τη μικρή, την αφανή",
+          "start_ms": 55280,
+          "end_ms": 56630,
+          "words": [
+            {
+              "word": "Τη",
+              "start_ms": 55280,
+              "end_ms": 55580,
+              "estimated": true
+            },
+            {
+              "word": "μικρή,",
+              "start_ms": 55630,
+              "end_ms": 55930,
+              "estimated": true
+            },
+            {
+              "word": "την",
+              "start_ms": 55980,
+              "end_ms": 56280,
+              "estimated": true
+            },
+            {
+              "word": "αφανή",
+              "start_ms": 56330,
+              "end_ms": 56630,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Και τώρα τα πάντα αλλάζουν",
+          "start_ms": 62600,
+          "end_ms": 66400,
+          "words": [
+            {
+              "word": "Και",
+              "start_ms": 62600,
+              "end_ms": 63340
+            },
+            {
+              "word": "τώρα",
+              "start_ms": 63340,
+              "end_ms": 64300
+            },
+            {
+              "word": "τα",
+              "start_ms": 64300,
+              "end_ms": 65060
+            },
+            {
+              "word": "πάντα",
+              "start_ms": 65060,
+              "end_ms": 65700
+            },
+            {
+              "word": "αλλάζουν",
+              "start_ms": 65700,
+              "end_ms": 66400
+            }
+          ]
+        },
+        {
+          "text": "Τα πάντα αλλάζουν",
+          "start_ms": 64300,
+          "end_ms": 66400,
+          "words": [
+            {
+              "word": "Τα",
+              "start_ms": 64300,
+              "end_ms": 65060
+            },
+            {
+              "word": "πάντα",
+              "start_ms": 65060,
+              "end_ms": 65700
+            },
+            {
+              "word": "αλλάζουν",
+              "start_ms": 65700,
+              "end_ms": 66400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "start_ms": 80060,
+      "end_ms": 105660,
+      "lines": [
+        {
+          "text": "Σηκώνει το μπράτσο",
+          "start_ms": 80060,
+          "end_ms": 83220,
+          "words": [
+            {
+              "word": "Σηκώνει",
+              "start_ms": 80060,
+              "end_ms": 81720
+            },
+            {
+              "word": "το",
+              "start_ms": 81720,
+              "end_ms": 81940
+            },
+            {
+              "word": "μπράτσο",
+              "start_ms": 81940,
+              "end_ms": 83220
+            }
+          ]
+        },
+        {
+          "text": "σκορπίζει τους αλαζόνες",
+          "start_ms": 83220,
+          "end_ms": 86720,
+          "words": [
+            {
+              "word": "σκορπίζει",
+              "start_ms": 83220,
+              "end_ms": 84300
+            },
+            {
+              "word": "τους",
+              "start_ms": 84300,
+              "end_ms": 84760
+            },
+            {
+              "word": "αλαζόνες",
+              "start_ms": 84760,
+              "end_ms": 86720
+            }
+          ]
+        },
+        {
+          "text": "Κατεβάζει ισχυρούς",
+          "start_ms": 87280,
+          "end_ms": 90140,
+          "words": [
+            {
+              "word": "Κατεβάζει",
+              "start_ms": 87280,
+              "end_ms": 89100
+            },
+            {
+              "word": "ισχυρούς",
+              "start_ms": 89100,
+              "end_ms": 90140
+            }
+          ]
+        },
+        {
+          "text": "ανεβάζει τους μικρούς",
+          "start_ms": 90140,
+          "end_ms": 92160,
+          "words": [
+            {
+              "word": "ανεβάζει",
+              "start_ms": 90140,
+              "end_ms": 90980
+            },
+            {
+              "word": "τους",
+              "start_ms": 90980,
+              "end_ms": 91220
+            },
+            {
+              "word": "μικρούς",
+              "start_ms": 91220,
+              "end_ms": 92160
+            }
+          ]
+        },
+        {
+          "text": "Γεμίζει πεινασμένους",
+          "start_ms": 92160,
+          "end_ms": 94780,
+          "words": [
+            {
+              "word": "Γεμίζει",
+              "start_ms": 92160,
+              "end_ms": 93060
+            },
+            {
+              "word": "πεινασμένους",
+              "start_ms": 93060,
+              "end_ms": 94780
+            }
+          ]
+        },
+        {
+          "text": "αδειάζει πλούσιους",
+          "start_ms": 94780,
+          "end_ms": 97180,
+          "words": [
+            {
+              "word": "αδειάζει",
+              "start_ms": 94780,
+              "end_ms": 95780
+            },
+            {
+              "word": "πλούσιους",
+              "start_ms": 95780,
+              "end_ms": 97180
+            }
+          ]
+        },
+        {
+          "text": "Δεν είναι υπόσχεση",
+          "start_ms": 97180,
+          "end_ms": 99660,
+          "words": [
+            {
+              "word": "Δεν",
+              "start_ms": 97180,
+              "end_ms": 98100
+            },
+            {
+              "word": "είναι",
+              "start_ms": 98100,
+              "end_ms": 98320
+            },
+            {
+              "word": "υπόσχεση",
+              "start_ms": 98320,
+              "end_ms": 99660
+            }
+          ]
+        },
+        {
+          "text": "Είναι ήδη",
+          "start_ms": 98100,
+          "end_ms": 101720,
+          "words": [
+            {
+              "word": "Είναι",
+              "start_ms": 98100,
+              "end_ms": 98320
+            },
+            {
+              "word": "ήδη",
+              "start_ms": 100400,
+              "end_ms": 101720
+            }
+          ]
+        },
+        {
+          "text": "Πάντα ήταν έτσι",
+          "start_ms": 101720,
+          "end_ms": 105660,
+          "words": [
+            {
+              "word": "Πάντα",
+              "start_ms": 101720,
+              "end_ms": 102880
+            },
+            {
+              "word": "ήταν",
+              "start_ms": 102880,
+              "end_ms": 103400
+            },
+            {
+              "word": "έτσι",
+              "start_ms": 103400,
+              "end_ms": 105660
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 107180,
+      "end_ms": 126580,
+      "lines": [
+        {
+          "text": "Με κοίταξε",
+          "start_ms": 107180,
+          "end_ms": 109660,
+          "words": [
+            {
+              "word": "Με",
+              "start_ms": 107180,
+              "end_ms": 107940
+            },
+            {
+              "word": "κοίταξε",
+              "start_ms": 107940,
+              "end_ms": 109660
+            }
+          ]
+        },
+        {
+          "text": "Πρόσεξε εμένα",
+          "start_ms": 110460,
+          "end_ms": 113660,
+          "words": [
+            {
+              "word": "Πρόσεξε",
+              "start_ms": 110460,
+              "end_ms": 112000
+            },
+            {
+              "word": "εμένα",
+              "start_ms": 112000,
+              "end_ms": 113660
+            }
+          ]
+        },
+        {
+          "text": "Τη μικρή, την αφανή",
+          "start_ms": 115100,
+          "end_ms": 116450,
+          "words": [
+            {
+              "word": "Τη",
+              "start_ms": 115100,
+              "end_ms": 115400,
+              "estimated": true
+            },
+            {
+              "word": "μικρή,",
+              "start_ms": 115450,
+              "end_ms": 115750,
+              "estimated": true
+            },
+            {
+              "word": "την",
+              "start_ms": 115800,
+              "end_ms": 116100,
+              "estimated": true
+            },
+            {
+              "word": "αφανή",
+              "start_ms": 116150,
+              "end_ms": 116450,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Και τώρα τα πάντα αλλάζουν",
+          "start_ms": 122140,
+          "end_ms": 126580,
+          "words": [
+            {
+              "word": "Και",
+              "start_ms": 122140,
+              "end_ms": 122840
+            },
+            {
+              "word": "τώρα",
+              "start_ms": 122840,
+              "end_ms": 123740
+            },
+            {
+              "word": "τα",
+              "start_ms": 123740,
+              "end_ms": 124400
+            },
+            {
+              "word": "πάντα",
+              "start_ms": 124400,
+              "end_ms": 125360
+            },
+            {
+              "word": "αλλάζουν",
+              "start_ms": 125360,
+              "end_ms": 126580
+            }
+          ]
+        },
+        {
+          "text": "Τα πάντα αλλάζουν",
+          "start_ms": 123740,
+          "end_ms": 126580,
+          "words": [
+            {
+              "word": "Τα",
+              "start_ms": 123740,
+              "end_ms": 124400
+            },
+            {
+              "word": "πάντα",
+              "start_ms": 124400,
+              "end_ms": 125360
+            },
+            {
+              "word": "αλλάζουν",
+              "start_ms": 125360,
+              "end_ms": 126580
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bridge",
+      "label": "Bridge",
+      "start_ms": 132260,
+      "end_ms": 148100,
+      "lines": [
+        {
+          "text": "Όλα μέσα μου γιορτάζουν",
+          "start_ms": 132260,
+          "end_ms": 135380,
+          "words": [
+            {
+              "word": "Όλα",
+              "start_ms": 132260,
+              "end_ms": 133100
+            },
+            {
+              "word": "μέσα",
+              "start_ms": 133100,
+              "end_ms": 133600
+            },
+            {
+              "word": "μου",
+              "start_ms": 133600,
+              "end_ms": 133880
+            },
+            {
+              "word": "γιορτάζουν",
+              "start_ms": 133880,
+              "end_ms": 135380
+            }
+          ]
+        },
+        {
+          "text": "Δεν είναι ωραία λόγια",
+          "start_ms": 135380,
+          "end_ms": 137600,
+          "words": [
+            {
+              "word": "Δεν",
+              "start_ms": 135380,
+              "end_ms": 135820
+            },
+            {
+              "word": "είναι",
+              "start_ms": 135820,
+              "end_ms": 136060
+            },
+            {
+              "word": "ωραία",
+              "start_ms": 136060,
+              "end_ms": 136700
+            },
+            {
+              "word": "λόγια",
+              "start_ms": 136700,
+              "end_ms": 137600
+            }
+          ]
+        },
+        {
+          "text": "Είναι μια κοπέλα",
+          "start_ms": 135820,
+          "end_ms": 139580,
+          "words": [
+            {
+              "word": "Είναι",
+              "start_ms": 135820,
+              "end_ms": 136060
+            },
+            {
+              "word": "μια",
+              "start_ms": 138140,
+              "end_ms": 138440
+            },
+            {
+              "word": "κοπέλα",
+              "start_ms": 138440,
+              "end_ms": 139580
+            }
+          ]
+        },
+        {
+          "text": "που κανείς δεν ρώτησε",
+          "start_ms": 139580,
+          "end_ms": 142880,
+          "words": [
+            {
+              "word": "που",
+              "start_ms": 139580,
+              "end_ms": 140080
+            },
+            {
+              "word": "κανείς",
+              "start_ms": 140080,
+              "end_ms": 140580
+            },
+            {
+              "word": "δεν",
+              "start_ms": 140580,
+              "end_ms": 140820
+            },
+            {
+              "word": "ρώτησε",
+              "start_ms": 140820,
+              "end_ms": 142880
+            }
+          ]
+        },
+        {
+          "text": "να λέει στους θρόνους",
+          "start_ms": 142880,
+          "end_ms": 146620,
+          "words": [
+            {
+              "word": "να",
+              "start_ms": 142880,
+              "end_ms": 143480
+            },
+            {
+              "word": "λέει",
+              "start_ms": 143480,
+              "end_ms": 144240
+            },
+            {
+              "word": "στους",
+              "start_ms": 144240,
+              "end_ms": 144680
+            },
+            {
+              "word": "θρόνους",
+              "start_ms": 144680,
+              "end_ms": 146620
+            }
+          ]
+        },
+        {
+          "text": "πέστε",
+          "start_ms": 146620,
+          "end_ms": 148100,
+          "words": [
+            {
+              "word": "πέστε",
+              "start_ms": 146620,
+              "end_ms": 148100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "start_ms": 148100,
+      "end_ms": 168040,
+      "lines": [
+        {
+          "text": "Με κοίταξε",
+          "start_ms": 148100,
+          "end_ms": 150579,
+          "words": [
+            {
+              "word": "Με",
+              "start_ms": 148100,
+              "end_ms": 149040
+            },
+            {
+              "word": "κοίταξε",
+              "start_ms": 149040,
+              "end_ms": 150579
+            }
+          ]
+        },
+        {
+          "text": "Πρόσεξε εμένα",
+          "start_ms": 151340,
+          "end_ms": 153920,
+          "words": [
+            {
+              "word": "Πρόσεξε",
+              "start_ms": 151340,
+              "end_ms": 153140
+            },
+            {
+              "word": "εμένα",
+              "start_ms": 153140,
+              "end_ms": 153920
+            }
+          ]
+        },
+        {
+          "text": "Τη μικρή, την αφανή",
+          "start_ms": 156580,
+          "end_ms": 157930,
+          "words": [
+            {
+              "word": "Τη",
+              "start_ms": 156580,
+              "end_ms": 156880,
+              "estimated": true
+            },
+            {
+              "word": "μικρή,",
+              "start_ms": 156930,
+              "end_ms": 157230,
+              "estimated": true
+            },
+            {
+              "word": "την",
+              "start_ms": 157280,
+              "end_ms": 157580,
+              "estimated": true
+            },
+            {
+              "word": "αφανή",
+              "start_ms": 157630,
+              "end_ms": 157930,
+              "estimated": true
+            }
+          ]
+        },
+        {
+          "text": "Και τώρα τα πάντα αλλάζουν",
+          "start_ms": 163200,
+          "end_ms": 168040,
+          "words": [
+            {
+              "word": "Και",
+              "start_ms": 163200,
+              "end_ms": 164000
+            },
+            {
+              "word": "τώρα",
+              "start_ms": 164000,
+              "end_ms": 164980
+            },
+            {
+              "word": "τα",
+              "start_ms": 164980,
+              "end_ms": 165740
+            },
+            {
+              "word": "πάντα",
+              "start_ms": 165740,
+              "end_ms": 166540
+            },
+            {
+              "word": "αλλάζουν",
+              "start_ms": 166540,
+              "end_ms": 168040
+            }
+          ]
+        },
+        {
+          "text": "Τα πάντα αλλάζουν",
+          "start_ms": 164980,
+          "end_ms": 168040,
+          "words": [
+            {
+              "word": "Τα",
+              "start_ms": 164980,
+              "end_ms": 165740
+            },
+            {
+              "word": "πάντα",
+              "start_ms": 165740,
+              "end_ms": 166540
+            },
+            {
+              "word": "αλλάζουν",
+              "start_ms": 166540,
+              "end_ms": 168040
+            }
+          ]
+        },
+        {
+          "text": "ΤΑ ΠΑΝΤΑ ΑΛΛΑΖΟΥΝ",
+          "start_ms": 164980,
+          "end_ms": 168040,
+          "words": [
+            {
+              "word": "ΤΑ",
+              "start_ms": 164980,
+              "end_ms": 165740
+            },
+            {
+              "word": "ΠΑΝΤΑ",
+              "start_ms": 165740,
+              "end_ms": 166540
+            },
+            {
+              "word": "ΑΛΛΑΖΟΥΝ",
+              "start_ms": 166540,
+              "end_ms": 168040
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "id": "chorus_main",
+      "description": "Chorus - Με κοίταξε",
+      "section_type": "chorus",
+      "start_ms": 47560,
+      "end_ms": 66400,
+      "key_line": "Με κοίταξε",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "description": "Chorus - Με κοίταξε",
+      "section_type": "chorus",
+      "start_ms": 107180,
+      "end_ms": 126580,
+      "key_line": "Με κοίταξε",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    },
+    {
+      "id": "bridge_climax",
+      "description": "Bridge - emotional peak",
+      "section_type": "bridge",
+      "start_ms": 132260,
+      "end_ms": 148100,
+      "key_line": "Όλα μέσα μου γιορτάζουν",
+      "recommended_for": [
+        "social_clip"
+      ]
+    },
+    {
+      "id": "chorus_3",
+      "description": "Chorus - Με κοίταξε",
+      "section_type": "chorus",
+      "start_ms": 148100,
+      "end_ms": 168040,
+      "key_line": "Με κοίταξε",
+      "recommended_for": [
+        "devotional_intro",
+        "social_clip",
+        "app_preview"
+      ]
+    }
+  ],
+  "source_transcript": "audio/songs/luke_01/greek/42_luke_01_1-46_transcript.json"
+}
