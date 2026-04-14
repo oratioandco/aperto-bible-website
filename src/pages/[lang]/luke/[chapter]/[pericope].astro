@@ -112,6 +112,44 @@ export function getStaticPaths() {
 const { lang, pericope, chapter, prevPericope, nextPericope } = Astro.props;
 const t = useTranslations(lang);
 
+// ── Reading mode labels (localized) ──────────────────────────────
+// plain   = verse text only (no amplifications, no footnote markers)
+// reading = default; verse text + inline amplifications + footnote indicators
+// study   = side-panel with detailed study notes
+const modePlainMap: Record<string, string> = {
+  ar: 'مبسّط', bg: 'Прост', ca: 'Simple', cs: 'Prostý', da: 'Ren',
+  de: 'Pur', el: 'Απλό', en: 'Plain', es: 'Simple', et: 'Lihtne',
+  fi: 'Pelkkä', fr: 'Épuré', ga: 'Simplí', hr: 'Čisto', hu: 'Egyszerű',
+  it: 'Semplice', lt: 'Paprastas', lv: 'Vienkāršs', mt: 'Sempliċi', nb: 'Ren',
+  nl: 'Puur', pl: 'Czysty', pt: 'Simples', ro: 'Simplu', ru: 'Простой',
+  sk: 'Prostý', sl: 'Preprosto', sq: 'I thjeshtë', sv: 'Ren', tr: 'Sade',
+  uk: 'Простий',
+};
+
+const modeReadingMap: Record<string, string> = {
+  ar: 'قراءة', bg: 'Четене', ca: 'Lectura', cs: 'Čtení', da: 'Læsning',
+  de: 'Lesen', el: 'Ανάγνωση', en: 'Reading', es: 'Lectura', et: 'Lugemine',
+  fi: 'Lukeminen', fr: 'Lecture', ga: 'Léamh', hr: 'Čitanje', hu: 'Olvasás',
+  it: 'Lettura', lt: 'Skaitymas', lv: 'Lasīšana', mt: 'Qari', nb: 'Lesing',
+  nl: 'Lezen', pl: 'Czytanie', pt: 'Leitura', ro: 'Lectură', ru: 'Чтение',
+  sk: 'Čítanie', sl: 'Branje', sq: 'Lexim', sv: 'Läsning', tr: 'Okuma',
+  uk: 'Читання',
+};
+
+const modeStudyMap: Record<string, string> = {
+  ar: 'دراسة', bg: 'Изучаване', ca: 'Estudi', cs: 'Studium', da: 'Studie',
+  de: 'Studium', el: 'Μελέτη', en: 'Study', es: 'Estudio', et: 'Uurimine',
+  fi: 'Opiskelu', fr: 'Étude', ga: 'Staidéar', hr: 'Proučavanje', hu: 'Tanulás',
+  it: 'Studio', lt: 'Studijos', lv: 'Studijas', mt: 'Studju', nb: 'Studier',
+  nl: 'Studie', pl: 'Studium', pt: 'Estudo', ro: 'Studiu', ru: 'Изучение',
+  sk: 'Štúdium', sl: 'Študij', sq: 'Studim', sv: 'Studier', tr: 'Çalışma',
+  uk: 'Вивчення',
+};
+
+const modePlainLabel = modePlainMap[lang] || 'Plain';
+const modeReadingLabel = modeReadingMap[lang] || 'Reading';
+const modeStudyLabel = modeStudyMap[lang] || 'Study';
+
 // Verse content: prefer language-specific file, fall back to English
 function getContent(lang: string, chapter: number): any {
   return (
@@ -160,17 +198,17 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 
   <!-- Reading mode toggle (floating pill, bottom-center) -->
   <div class="read-mode-bar" id="readModeBar" role="toolbar" aria-label="Reading mode">
-    <button class="rmode-btn" data-mode="text" title="Text only">
+    <button class="rmode-btn" data-mode="plain" title={modePlainLabel} aria-label={modePlainLabel}>
       <span class="material-symbols-rounded">text_fields</span>
-      <span class="rmode-label">Text</span>
+      <span class="rmode-label">{modePlainLabel}</span>
     </button>
-    <button class="rmode-btn" data-mode="amplified" title="With context">
-      <span class="material-symbols-rounded">auto_fix_high</span>
-      <span class="rmode-label">Amplified</span>
+    <button class="rmode-btn" data-mode="reading" title={modeReadingLabel} aria-label={modeReadingLabel}>
+      <span class="material-symbols-rounded">auto_stories</span>
+      <span class="rmode-label">{modeReadingLabel}</span>
     </button>
-    <button class="rmode-btn" data-mode="study" title="Study mode">
+    <button class="rmode-btn" data-mode="study" title={modeStudyLabel} aria-label={modeStudyLabel}>
       <span class="material-symbols-rounded">view_column</span>
-      <span class="rmode-label">Study</span>
+      <span class="rmode-label">{modeStudyLabel}</span>
     </button>
   </div>
 
@@ -460,11 +498,13 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 
 // ── Reading mode toggle ──────────────────────────────────────────
 (function () {
-  var MODES = ['text', 'amplified', 'study'];
+  var MODES = ['plain', 'reading', 'study'];
   var STORAGE_KEY = 'aperto-read-mode';
+  // Migrate legacy keys from previous naming (text → plain, amplified → reading)
+  var LEGACY_MAP = { text: 'plain', amplified: 'reading' };
 
   function applyMode(mode) {
-    if (!MODES.includes(mode)) mode = 'amplified';
+    if (!MODES.includes(mode)) mode = 'reading';
     document.body.setAttribute('data-read-mode', mode);
     // Update button states
     document.querySelectorAll('.rmode-btn').forEach(function (btn) {
@@ -476,7 +516,11 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
 
   function init() {
-    var saved = localStorage.getItem(STORAGE_KEY) || 'amplified';
+    var saved = localStorage.getItem(STORAGE_KEY) || 'reading';
+    if (LEGACY_MAP[saved]) {
+      saved = LEGACY_MAP[saved];
+      localStorage.setItem(STORAGE_KEY, saved);
+    }
     applyMode(saved);
     document.querySelectorAll('.rmode-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {

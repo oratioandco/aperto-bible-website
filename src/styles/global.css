@@ -608,7 +608,7 @@ audio::-webkit-media-controls-panel {
 
 /* ═══════════════════════════════════════════════════════════════
    READING MODES  (controlled via data-read-mode on <body>)
-   Default mode: "amplified"
+   Default mode: "reading"
    ═══════════════════════════════════════════════════════════════ */
 
 /* Study panel: hidden by default, revealed in study mode */
@@ -624,24 +624,24 @@ audio::-webkit-media-controls-panel {
     transition: background 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* ── Text-only mode ── */
-[data-read-mode="text"] .amplification {
+/* ── Plain mode (verse text only) ── */
+[data-read-mode="plain"] .amplification {
     display: none;
 }
-[data-read-mode="text"] .footnote-inline {
+[data-read-mode="plain"] .footnote-inline {
     pointer-events: none;
 }
-[data-read-mode="text"] .footnote-trigger {
+[data-read-mode="plain"] .footnote-trigger {
     border-bottom: none !important;
     text-decoration: none !important;
     color: inherit !important;
     cursor: text;
 }
-[data-read-mode="text"] .fn-btn,
-[data-read-mode="text"] .mobile-fn-btn {
+[data-read-mode="plain"] .fn-btn,
+[data-read-mode="plain"] .mobile-fn-btn {
     display: none;
 }
-[data-read-mode="text"] .additional-notes {
+[data-read-mode="plain"] .additional-notes {
     display: none;
 }
 
