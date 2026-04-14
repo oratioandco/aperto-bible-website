@@ -350,75 +350,6 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
       <div class="media-section max-w-xl ml-auto mr-auto md:mr-0 md:ml-[20%] mt-16">
         <div class="media-grid grid grid-cols-1 md:grid-cols-2 gap-4">
 
-          {media.audioBible && (
-            <div class="media-card media-card-audio group" id={`audiobible-${id}`}>
-              <div class="media-card-inner">
-                <div class="media-card-header">
-                  <div class="media-icon-wrapper">
-                    <span class="material-symbols-rounded text-xl">auto_stories</span>
-                  </div>
-                  <div class="media-card-text">
-                    <span class="media-card-label">{t('reader.audioBible')}</span>
-                    <span class="media-card-title">{media.audioBible.title}</span>
-                  </div>
-                </div>
-                <div class="media-card-actions">
-                  <button
-                    class="media-play-btn"
-                    data-type="audiobible"
-                    data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
-                    data-title={media.audioBible.title}
-                    data-cover-art="/images/covers/default.png"
-                    data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
-                    data-start-ms={audioBibleStart || 0}
-                    data-has-lyrics={audioBibleHasTranscript ? 'true' : 'false'}
-                    type="button"
-                  >
-                    <span class="material-symbols-rounded">play_arrow</span>
-                  </button>
-                  <button
-                    class="media-share-btn"
-                    data-share={`#audiobible-${id}`}
-                    type="button"
-                    aria-label="Share"
-                    title="Share"
-                  >
-                    <span class="material-symbols-rounded">share</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {media.practice && (
-            <button
-              class="media-card media-card-practice group"
-              onclick={`document.getElementById('${practiceModalId}').showModal()`}
-              type="button"
-            >
-              <div class="media-card-inner">
-                <div class="media-card-header">
-                  <div class="media-icon-wrapper media-icon-practice">
-                    <span class="material-symbols-rounded text-xl">self_improvement</span>
-                  </div>
-                  <div class="media-card-text">
-                    <span class="media-card-label">{lang === 'de' ? 'Geistliche Übung' : 'Spiritual Practice'}</span>
-                    <span class="media-card-title">{media.practice.title}</span>
-                  </div>
-                </div>
-                <div class="media-card-arrow">
-                  <span class="material-symbols-rounded">arrow_forward</span>
-                </div>
-              </div>
-            </button>
-          )}
-
-          {songs.map((song) => (
-            <div class="col-span-1 md:col-span-2">
-              <SongPlayer song={song} lang={lang} />
-            </div>
-          ))}
-
           {media.podcast && media.podcast.mp3 && (
             <div class="media-card media-card-podcast" id={`podcast-${id}`}>
               <div class="media-card-inner">
@@ -456,6 +387,12 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
               </div>
             </div>
           )}
+
+          {songs.map((song) => (
+            <div class="col-span-1 md:col-span-2">
+              <SongPlayer song={song} lang={lang} />
+            </div>
+          ))}
 
           {media.devotional && (
             <div class="media-card media-card-devotional" id={`devotional-${id}`}>
@@ -697,6 +634,69 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                 </div>
               </div>
             </a>
+          )}
+
+          {media.audioBible && (
+            <div class="media-card media-card-audio group" id={`audiobible-${id}`}>
+              <div class="media-card-inner">
+                <div class="media-card-header">
+                  <div class="media-icon-wrapper">
+                    <span class="material-symbols-rounded text-xl">auto_stories</span>
+                  </div>
+                  <div class="media-card-text">
+                    <span class="media-card-label">{t('reader.audioBible')}</span>
+                    <span class="media-card-title">{media.audioBible.title}</span>
+                  </div>
+                </div>
+                <div class="media-card-actions">
+                  <button
+                    class="media-play-btn"
+                    data-type="audiobible"
+                    data-mp3={`/audio/audiobible/${media.audioBible.mp3}`}
+                    data-title={media.audioBible.title}
+                    data-cover-art="/images/covers/default.png"
+                    data-transcript={audioBibleHasTranscript ? resolvedAudioBibleTranscriptPath : ''}
+                    data-start-ms={audioBibleStart || 0}
+                    data-has-lyrics={audioBibleHasTranscript ? 'true' : 'false'}
+                    type="button"
+                  >
+                    <span class="material-symbols-rounded">play_arrow</span>
+                  </button>
+                  <button
+                    class="media-share-btn"
+                    data-share={`#audiobible-${id}`}
+                    type="button"
+                    aria-label="Share"
+                    title="Share"
+                  >
+                    <span class="material-symbols-rounded">share</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {media.practice && (
+            <button
+              class="media-card media-card-practice group"
+              onclick={`document.getElementById('${practiceModalId}').showModal()`}
+              type="button"
+            >
+              <div class="media-card-inner">
+                <div class="media-card-header">
+                  <div class="media-icon-wrapper media-icon-practice">
+                    <span class="material-symbols-rounded text-xl">self_improvement</span>
+                  </div>
+                  <div class="media-card-text">
+                    <span class="media-card-label">{lang === 'de' ? 'Geistliche Übung' : 'Spiritual Practice'}</span>
+                    <span class="media-card-title">{media.practice.title}</span>
+                  </div>
+                </div>
+                <div class="media-card-arrow">
+                  <span class="material-symbols-rounded">arrow_forward</span>
+                </div>
+              </div>
+            </button>
           )}
 
         </div>
