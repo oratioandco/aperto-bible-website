@@ -150,7 +150,15 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   description={`${bookName} ${chapter}:${pericope.verses} — ${pericope.title}`}
 >
 
-  <!-- Reading mode toggle -->
+  <!-- Breadcrumb (sticky) -->
+  <nav class="pericope-breadcrumb">
+    <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{pericope.title}</span>
+    <span class="breadcrumb-ref">{chapter}:{pericope.verses}</span>
+  </nav>
+
+  <!-- Reading mode toggle (floating pill, bottom-center) -->
   <div class="read-mode-bar" id="readModeBar" role="toolbar" aria-label="Reading mode">
     <button class="rmode-btn" data-mode="text" title="Text only">
       <span class="material-symbols-rounded">text_fields</span>
@@ -165,14 +173,6 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
       <span class="rmode-label">Study</span>
     </button>
   </div>
-
-  <!-- Breadcrumb -->
-  <nav class="pericope-breadcrumb">
-    <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>{pericope.title}</span>
-    <span class="breadcrumb-ref">{chapter}:{pericope.verses}</span>
-  </nav>
 
   <!-- Verse content -->
   <div class="pericope-content-wrapper">
@@ -228,10 +228,16 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1rem 2rem;
+    padding: 0.9rem 2rem;
     font-size: 0.85rem;
     color: var(--color-warm-gray);
     border-bottom: 1px solid var(--color-border);
+    background: rgba(255, 251, 245, 0.92);
+    backdrop-filter: saturate(140%) blur(8px);
+    -webkit-backdrop-filter: saturate(140%) blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 40;
   }
   .pericope-breadcrumb a {
     color: var(--color-accent);
@@ -300,44 +306,79 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     .pericope-nav-title { font-size: 0.875rem; }
   }
 
-  /* ── Reading mode toggle bar ── */
+  /* ── Reading mode toggle — floating pill at bottom-center ── */
   /* (Reading mode body/panel CSS lives in global.css) */
   .read-mode-bar {
-    display: flex;
+    position: fixed;
+    left: 50%;
+    bottom: 1.25rem;
+    transform: translateX(-50%);
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 0.25rem;
-    padding: 0.5rem 1rem;
-    background: var(--color-paper, #FFFBF5);
-    border-bottom: 1px solid var(--color-border, #F0E8DF);
-    position: sticky;
-    top: 0;
-    z-index: 30;
+    padding: 0.35rem;
+    background: rgba(255, 251, 245, 0.94);
+    border: 1px solid var(--color-border, #E0D5C5);
+    border-radius: 999px;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.05);
+    backdrop-filter: saturate(150%) blur(10px);
+    -webkit-backdrop-filter: saturate(150%) blur(10px);
+    z-index: 950;
+    transition: bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  /* Lift above mini-player when it's visible */
+  :global(body:has(.mini-player.visible)) .read-mode-bar {
+    bottom: 96px;
+  }
+  /* Lift above mobile study bottom-sheet peek */
+  :global(body[data-read-mode="study"]:has(.study-panel)) .read-mode-bar {
+    bottom: 130px;
+  }
+  :global(body[data-read-mode="study"]:has(.mini-player.visible)) .read-mode-bar {
+    bottom: 218px;
+  }
+  @media (min-width: 1024px) {
+    :global(body[data-read-mode="study"]:has(.study-panel)) .read-mode-bar {
+      bottom: 1.25rem;
+    }
+    :global(body[data-read-mode="study"]:has(.mini-player.visible)) .read-mode-bar {
+      bottom: 96px;
+    }
+  }
+  /* Hide entirely when mini-player is expanded fullscreen */
+  :global(body:has(.mini-player.expanded)) .read-mode-bar {
+    display: none;
   }
   .rmode-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    padding: 0.4rem 0.9rem;
-    border-radius: 6px;
-    border: 1px solid transparent;
+    gap: 0.4rem;
+    padding: 0.55rem 1rem;
+    border-radius: 999px;
+    border: none;
     background: transparent;
     cursor: pointer;
     font-size: 0.8rem;
     font-family: inherit;
     color: var(--color-warm-gray, #9A8F85);
-    transition: background 0.15s, color 0.15s, border-color 0.15s;
+    transition: background 0.15s, color 0.15s;
   }
-  .rmode-btn .material-symbols-rounded { font-size: 1rem; }
+  .rmode-btn .material-symbols-rounded { font-size: 1.1rem; }
   .rmode-btn:hover {
-    background: var(--color-beige, #F5EDE0);
     color: var(--color-charcoal, #2C2C2C);
   }
   .rmode-btn.active {
-    background: var(--color-beige, #F5EDE0);
-    border-color: var(--color-border, #E0D5C5);
-    color: var(--color-accent, #8B7355);
+    background: var(--color-accent, #8B7355);
+    color: white;
     font-weight: 600;
+  }
+  .rmode-btn.active .material-symbols-rounded {
+    color: white;
+  }
+  @media (max-width: 520px) {
+    .rmode-btn { padding: 0.55rem 0.8rem; }
+    .rmode-btn .rmode-label { display: none; }
+    .rmode-btn.active .rmode-label { display: inline; }
   }
 
 
@@ -453,39 +494,50 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
 })();
 
-// ── Study panel scroll sync ──────────────────────────────────────────
+// ── Study panel scroll sync + mobile bottom-sheet ──────────────────────
 (function () {
-  var STICKY_OFFSET = 88; // sticky read-mode bar height
+  var STICKY_OFFSET = 72; // sticky breadcrumb height
   var activeVerseNum = null;
+
+  function clearHighlights() {
+    document.querySelectorAll('.study-note.active-note').forEach(function (n) {
+      n.classList.remove('active-note');
+    });
+    document.querySelectorAll('.footnote-inline.active-fn').forEach(function (n) {
+      n.classList.remove('active-fn');
+    });
+  }
 
   function setActiveVerse(verseNum) {
     if (verseNum === activeVerseNum) return;
     activeVerseNum = verseNum;
 
-    document.querySelectorAll('.study-note.active-note').forEach(function (n) {
-      n.classList.remove('active-note');
-    });
+    clearHighlights();
     if (!verseNum) return;
 
-    var matching = document.querySelectorAll('.study-note[data-verse="' + verseNum + '"]');
-    if (!matching.length) return;
+    var matchingNotes = document.querySelectorAll('.study-note[data-verse="' + verseNum + '"]');
+    matchingNotes.forEach(function (n) { n.classList.add('active-note'); });
 
-    matching.forEach(function (n) { n.classList.add('active-note'); });
+    // Also highlight inline footnote triggers for this verse
+    var inlineFns = document.querySelectorAll('.footnote-inline[data-verse="' + verseNum + '"]');
+    inlineFns.forEach(function (el) { el.classList.add('active-fn'); });
 
-    // Scroll the first matching note into the panel viewport
+    // Scroll the first matching note into the panel viewport (desktop side panel)
     var panel = document.querySelector('.study-panel');
-    if (panel && matching[0]) {
-      var noteTop = matching[0].offsetTop;
-      var panelScroll = panel.scrollTop;
-      var panelHeight = panel.clientHeight;
-      if (noteTop < panelScroll || noteTop > panelScroll + panelHeight - 60) {
-        panel.scrollTo({ top: noteTop - 24, behavior: 'smooth' });
+    if (panel && matchingNotes[0] && !panel.classList.contains('expanded')) {
+      // Only auto-scroll the desktop panel (not the mobile peek which only shows one)
+      if (window.matchMedia('(min-width: 1024px)').matches) {
+        var noteTop = matchingNotes[0].offsetTop;
+        var panelScroll = panel.scrollTop;
+        var panelHeight = panel.clientHeight;
+        if (noteTop < panelScroll || noteTop > panelScroll + panelHeight - 60) {
+          panel.scrollTo({ top: noteTop - 24, behavior: 'smooth' });
+        }
       }
     }
   }
 
   function syncScroll() {
-    // Only active in study mode with panel visible
     if (document.body.getAttribute('data-read-mode') !== 'study') return;
     if (!document.querySelector('.study-panel')) return;
 
@@ -504,20 +556,30 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 
   function init() {
     window.addEventListener('scroll', syncScroll, { passive: true });
-    // Re-sync when mode changes to study
     document.querySelectorAll('.rmode-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
         if (btn.getAttribute('data-mode') === 'study') {
           setTimeout(syncScroll, 50);
         } else {
-          // Clear highlights when leaving study mode
-          document.querySelectorAll('.study-note.active-note').forEach(function (n) {
-            n.classList.remove('active-note');
-          });
+          clearHighlights();
           activeVerseNum = null;
+          // Collapse bottom sheet when leaving study mode
+          var panel = document.querySelector('.study-panel.expanded');
+          if (panel) panel.classList.remove('expanded');
         }
       });
     });
+
+    // Mobile bottom-sheet: tap handle to toggle peek/expanded
+    var panel = document.querySelector('.study-panel');
+    var handle = document.querySelector('.study-panel-handle');
+    if (panel && handle) {
+      handle.addEventListener('click', function () {
+        var isExpanded = panel.classList.toggle('expanded');
+        handle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      });
+    }
+
     syncScroll();
   }
 

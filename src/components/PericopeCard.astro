@@ -132,8 +132,13 @@ function getCategoryLabel(category: string): string {
   return category;
 }
 
+function fnKey(verseNum: any, keyword: string): string {
+  const slug = keyword.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+  return `${verseNum}-${slug}`;
+}
+
 // Process verse text to add inline footnote tooltips
-function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html: string; unmatchedFootnotes: Footnote[] } {
+function processVerseWithFootnotes(text: string, footnotes: Footnote[], verseNum: any): { html: string; unmatchedFootnotes: Footnote[] } {
   if (!footnotes || footnotes.length === 0) {
     return { html: text, unmatchedFootnotes: [] };
   }
@@ -157,6 +162,7 @@ function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html:
       const category = fn.category.toLowerCase();
       const categoryLabel = getCategoryLabel(category);
       const icon = categoryIcons[category] || 'info';
+      const key = fnKey(verseNum, fn.keyword);
 
       // Escape HTML in content to prevent XSS
       const escapedContent = fn.content
@@ -171,7 +177,7 @@ function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html:
         .replace(/"/g, '&quot;');
 
       // Create tooltip wrapper
-      const replacement = `<span class="footnote-inline" tabindex="0"><span class="footnote-trigger">${originalKeyword}</span><span class="footnote-tooltip"><span class="footnote-tooltip-header"><span class="material-symbols-rounded footnote-tooltip-icon">${icon}</span><span class="footnote-tooltip-category footnote-category-${category}">${categoryLabel}</span></span><span class="footnote-tooltip-keyword">${escapedKeyword}</span><span class="footnote-tooltip-content">${escapedContent}</span></span></span>`;
+      const replacement = `<span class="footnote-inline" data-verse="${verseNum}" data-fn-key="${key}" tabindex="0"><span class="footnote-trigger">${originalKeyword}</span><span class="footnote-tooltip"><span class="footnote-tooltip-header"><span class="material-symbols-rounded footnote-tooltip-icon">${icon}</span><span class="footnote-tooltip-category footnote-category-${category}">${categoryLabel}</span></span><span class="footnote-tooltip-keyword">${escapedKeyword}</span><span class="footnote-tooltip-content">${escapedContent}</span></span></span>`;
 
       // Replace first occurrence only
       processed = processed.replace(keywordRegex, replacement);
@@ -187,7 +193,7 @@ function processVerseWithFootnotes(text: string, footnotes: Footnote[]): { html:
 
 // Process all verses and collect unmatched footnotes
 const processedVerses = verseData.map((verse) => {
-  const result = processVerseWithFootnotes(verse.text, verse.footnotes || []);
+  const result = processVerseWithFootnotes(verse.text, verse.footnotes || [], verse.number);
   return {
     ...verse,
     processedText: result.html,
@@ -720,6 +726,9 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
 
     <!-- Study panel — visible only when data-read-mode="study" -->
     <aside class="study-panel" aria-label="Study Notes">
+      <button class="study-panel-handle" type="button" aria-label="Toggle study notes" aria-expanded="false">
+        <span class="study-panel-handle-grip"></span>
+      </button>
       <p class="study-panel-heading">
         <span class="material-symbols-rounded">menu_book</span>
         {lang === 'de' ? 'Studiennotizen' : lang === 'fr' ? "Notes d\u2019\u00e9tude" : 'Study Notes'}
@@ -729,7 +738,12 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
       ) : (
         <ul class="study-notes-list">
           {allFootnotes.map((fn) => (
-            <li class="study-note" data-category={fn.category.toLowerCase()} data-verse={String(fn.verseNum)}>
+            <li
+              class="study-note"
+              data-category={fn.category.toLowerCase()}
+              data-verse={String(fn.verseNum)}
+              data-fn-key={fnKey(fn.verseNum, fn.keyword)}
+            >
               <div class="study-note-meta">
                 <div class="study-note-icon">
                   <span class="material-symbols-rounded">{categoryIcons[fn.category.toLowerCase()] || 'info'}</span>
