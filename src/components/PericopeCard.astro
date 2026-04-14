@@ -477,7 +477,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                       lang === 'tr' ? 'Sabah ibadeti' :
                       lang === 'uk' ? 'Ранкова молитва' :
                       'Morning Devotional'
-                    }</span>
+                    }{media.devotional.duration ? ` · ${media.devotional.duration}` : ''}</span>
                     <span class="media-card-title">{media.devotional.title}</span>
                     <span class="media-card-description">{
                       lang === 'da' ? 'En tekst og en sang til at begynde din dag' :
@@ -560,7 +560,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                       lang === 'tr' ? 'Akşam tefekkürü' :
                       lang === 'uk' ? 'Вечірня молитва' :
                       'Evening Reflection'
-                    }</span>
+                    }{media.reflexionen.duration ? ` · ${media.reflexionen.duration}` : ''}</span>
                     <span class="media-card-title">{media.reflexionen.title}</span>
                     <span class="media-card-description">{
                       lang === 'da' ? 'En stille stund til at slutte din dag' :

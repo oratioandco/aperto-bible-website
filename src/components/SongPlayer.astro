@@ -1,4 +1,6 @@
 ---
+import { useTranslations } from '../i18n/utils';
+
 interface Song {
   title: string;
   mp3: string;
@@ -6,6 +8,7 @@ interface Song {
   description?: string;
   transcriptPath?: string;
   coverArt?: string;
+  duration?: string;
 }
 
 interface Props {
@@ -14,6 +17,9 @@ interface Props {
 }
 
 const { song, lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
+const tagline = t('reader.song.tagline');
+const artist = t('reader.song.artist');
 
 // Generate unique IDs
 const playerId = `player-${Math.random().toString(36).substr(2, 9)}`;
@@ -25,6 +31,10 @@ const coverArt = song.coverArt || '/images/covers/default.png';
 
 // Clean title - remove (Karaoke) suffix
 const cleanTitle = song.title.replace(' (Karaoke)', '').replace('(Karaoke)', '');
+
+// Build meta line: genre · duration
+const metaParts = [song.genre, song.duration].filter(Boolean);
+const meta = metaParts.join(' · ');
 
 // Create share URL from song title
 const slug = cleanTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -42,8 +52,9 @@ const shareUrl = `#${slug}`;
 
       <!-- Song Info -->
       <div class="song-info">
-        <span class="song-genre">{song.genre || 'Song'}</span>
+        <span class="song-tagline">{tagline}</span>
         <span class="song-title">{cleanTitle}</span>
+        {meta && <span class="song-meta">{meta}</span>}
         {song.description && <span class="song-description">{song.description}</span>}
       </div>
 
@@ -55,6 +66,7 @@ const shareUrl = `#${slug}`;
           data-player-id={playerId}
           data-cover-art={coverArt}
           data-title={cleanTitle}
+          data-artist={artist}
           data-mp3={`/audio/songs/${song.mp3}`}
           data-transcript={song.transcriptPath || ''}
           data-has-lyrics={hasTranscript ? 'true' : 'false'}
@@ -123,15 +135,15 @@ const shareUrl = `#${slug}`;
     min-width: 0;
   }
 
-  .song-genre {
+  .song-tagline {
     font-family: 'Switzer', -apple-system, sans-serif;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.05em;
     color: var(--color-text-muted);
     display: block;
-    margin-bottom: 0.25rem;
+    margin-bottom: 1px;
   }
 
   .song-title {
@@ -142,6 +154,15 @@ const shareUrl = `#${slug}`;
     display: block;
     margin-bottom: 0.25rem;
     line-height: 1.3;
+  }
+
+  .song-meta {
+    font-family: 'Switzer', -apple-system, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    display: block;
+    margin-bottom: 0.25rem;
   }
 
   .song-description {
@@ -296,6 +317,7 @@ const shareUrl = `#${slug}`;
     const coverArt = trigger.getAttribute('data-cover-art');
     const title = trigger.getAttribute('data-title');
     const mp3 = trigger.getAttribute('data-mp3');
+    const artist = trigger.getAttribute('data-artist') || 'Aperto Collective';
     const transcriptPath = trigger.getAttribute('data-transcript');
     const hasLyrics = trigger.getAttribute('data-has-lyrics') === 'true';
 
@@ -305,7 +327,7 @@ const shareUrl = `#${slug}`;
         type: 'song',
         mp3,
         title,
-        artist: 'Aperto Bible',
+        artist,
         coverArt,
         transcriptPath: transcriptPath || undefined,
         hasLyrics
