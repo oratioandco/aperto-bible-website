@@ -68,7 +68,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
     <div class="grain-overlay" aria-hidden="true"></div>
     <header
       class={`px-4 md:px-16 lg:px-24 py-4 md:py-8${heroPage ? ' header-hero' : ''}`}
-      style={heroPage ? 'position: relative; z-index: 1001;' : 'border-bottom: 1px solid #F5E6DC; position: relative; z-index: 1001;'}
+      style={heroPage ? 'z-index: 1001;' : 'border-bottom: 1px solid #F5E6DC; position: relative; z-index: 1001;'}
     >
       <nav class="max-w-6xl mx-auto flex justify-between items-center">
         <a href={`${base}${lang}/`} class="logo text-xl md:text-2xl" style={heroPage ? 'color: #FFFBF5;' : 'color: #2C2C2C;'}>
