@@ -161,13 +161,17 @@ const lukeNames: Record<string, string> = {
       pointer-events: none;
     }
 
-    /* Expand well past the clip region so the blur's transparent fringe
-       (blur radius ≈ 3× the 30px sigma) never reaches the visible area. */
+    /* Bulletproof fullscreen video: 130% size, centered via translate.
+       The 15% overhang on every side hides the blur's transparent fringe
+       (blur radius ≈ 3× the 30px sigma) outside the parent's overflow clip.
+       Avoids over-constrained left/right/width absolute-positioning quirks. */
     .video-bg {
       position: absolute;
-      inset: -120px;
-      width: calc(100% + 240px);
-      height: calc(100% + 240px);
+      top: 50%;
+      left: 50%;
+      width: 130%;
+      height: 130%;
+      transform: translate(-50%, -50%);
       object-fit: cover;
       object-position: center center;
       filter: blur(30px);
@@ -238,9 +242,11 @@ const lukeNames: Record<string, string> = {
     .video-hero::before {
       content: '';
       position: absolute;
-      inset: -120px;
-      width: calc(100% + 240px);
-      height: calc(100% + 240px);
+      top: 50%;
+      left: 50%;
+      width: 130%;
+      height: 130%;
+      transform: translate(-50%, -50%);
       background-image: url('/images/homepage_hero_blue_hour_low.png');
       background-size: cover;
       background-position: center;
