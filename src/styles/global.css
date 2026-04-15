@@ -90,8 +90,8 @@
     /* Fonts */
     --font-bible: "Softcore", Georgia, serif;
     --font-ui: "Switzer", system-ui, sans-serif;
-    --font-headline-lower: "Stoned Youth", serif;
-    --font-headline-caps: "Silvera", serif;
+    --font-headline-lower: "Fraunces", Georgia, serif;
+    --font-headline-caps: "Fraunces", Georgia, serif;
     --font-logo: "Raygun", sans-serif;
 }
 
@@ -130,31 +130,39 @@ h3 {
     line-height: 1.4;
 }
 
-/* Bible passage headlines use Stoned Youth / Silvera mix */
+/* Headlines use Fraunces variable serif (opsz + wght + SOFT axes) */
 .bible-headline {
     font-family: var(--font-headline-lower);
-    font-weight: 150;
-    letter-spacing: 0.5px;
+    font-weight: 300;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+    letter-spacing: -0.01em;
     color: var(--color-headline);
 }
 
 .bible-headline .cap {
     font-family: var(--font-headline-caps);
+    font-weight: 500;
+    font-variation-settings: "opsz" 144, "SOFT" 0;
     text-transform: uppercase;
-    font-size: 1.15em;
+    font-size: 1.05em;
     line-height: 0.9;
     color: var(--color-headline-caps);
 }
 
 .headline-mixed {
     font-family: var(--font-headline-lower);
+    font-weight: 300;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+    letter-spacing: -0.01em;
     color: var(--color-headline);
 }
 
 .headline-mixed .cap {
     font-family: var(--font-headline-caps);
+    font-weight: 500;
+    font-variation-settings: "opsz" 144, "SOFT" 0;
     text-transform: uppercase;
-    font-size: 1.08em;
+    font-size: 1.02em;
     line-height: 0.9;
     color: var(--color-headline-caps);
 }

@@ -1,0 +1,393 @@
+---
+// Standalone font comparison page — Fraunces vs Literata vs current Stoned Youth/Silvera
+// Not linked from anywhere; visit /font-test directly.
+// Shows homepage headline copy in 6 languages with several axis settings.
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font test — Fraunces vs Literata</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fraunces: opsz 9-144, wght 100-900, SOFT 0-100 axis -->
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,200..700,0..100&display=swap" rel="stylesheet">
+    <!-- Literata: opsz 7-72, wght 200-900 -->
+    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200..900&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --cream: #FFFBF5;
+        --charcoal: #2C2C2C;
+        --muted: #6A6A6A;
+        --accent: #8B7355;
+        --border: #E0D5C5;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0; padding: 0;
+        background: var(--cream);
+        color: var(--charcoal);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+      .page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4rem 2rem 6rem;
+      }
+      .doc-title {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: var(--accent);
+        margin: 0 0 0.5rem;
+      }
+      .doc-h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0 0 2.5rem;
+      }
+      .legend {
+        display: flex;
+        gap: 1.5rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+      }
+      .legend code { background: #F5EDE0; padding: 2px 6px; border-radius: 3px; font-size: 0.78rem; }
+
+      .section {
+        margin-bottom: 5rem;
+        padding-bottom: 4rem;
+        border-bottom: 1px solid var(--border);
+      }
+      .section:last-child { border-bottom: 0; }
+
+      .section-eyebrow {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--accent);
+        margin: 0 0 0.4rem;
+      }
+      .section-title {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 0 0 2rem;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+      @media (max-width: 760px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+      .col-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: var(--accent);
+        margin: 0 0 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border);
+      }
+
+      /* ── Font test classes ─────────────────────────────────────── */
+      .fraunces {
+        font-family: "Fraunces", Georgia, serif;
+      }
+      .literata {
+        font-family: "Literata", Georgia, serif;
+      }
+
+      /* Display: large, low-weight, soft optical size */
+      .display-fraunces {
+        font-family: "Fraunces", serif;
+        font-variation-settings: "opsz" 144, "wght" 300, "SOFT" 50;
+        font-size: clamp(3rem, 7vw, 5.5rem);
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+        margin: 0 0 1rem;
+        font-weight: 300;
+      }
+      .display-literata {
+        font-family: "Literata", serif;
+        font-variation-settings: "opsz" 72, "wght" 300;
+        font-size: clamp(3rem, 7vw, 5.5rem);
+        line-height: 1.05;
+        letter-spacing: -0.015em;
+        margin: 0 0 1rem;
+        font-weight: 300;
+      }
+
+      /* Section heading: medium */
+      .h2-fraunces {
+        font-family: "Fraunces", serif;
+        font-variation-settings: "opsz" 72, "wght" 350, "SOFT" 30;
+        font-size: clamp(1.75rem, 3.4vw, 2.6rem);
+        line-height: 1.2;
+        margin: 0 0 1rem;
+        font-weight: 350;
+        letter-spacing: -0.01em;
+      }
+      .h2-literata {
+        font-family: "Literata", serif;
+        font-variation-settings: "opsz" 36, "wght" 350;
+        font-size: clamp(1.75rem, 3.4vw, 2.6rem);
+        line-height: 1.2;
+        margin: 0 0 1rem;
+        font-weight: 350;
+        letter-spacing: -0.005em;
+      }
+
+      /* Tagline body */
+      .body-fraunces {
+        font-family: "Fraunces", serif;
+        font-variation-settings: "opsz" 14, "wght" 300, "SOFT" 100;
+        font-size: 1.05rem;
+        line-height: 1.65;
+        color: var(--muted);
+        max-width: 32rem;
+        margin: 0;
+      }
+      .body-literata {
+        font-family: "Literata", serif;
+        font-variation-settings: "opsz" 14, "wght" 350;
+        font-size: 1.05rem;
+        line-height: 1.65;
+        color: var(--muted);
+        max-width: 32rem;
+        margin: 0;
+      }
+
+      /* Small label like a button */
+      .btn-sample {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        background: #8B7355;
+        color: var(--cream);
+        margin-top: 1.25rem;
+        font-size: 0.95rem;
+        letter-spacing: 0.01em;
+      }
+
+      /* Lang sample blocks */
+      .lang-row {
+        display: grid;
+        grid-template-columns: 80px 1fr 1fr;
+        gap: 1.5rem;
+        align-items: baseline;
+        padding: 0.9rem 0;
+        border-bottom: 1px solid #F5E6DC;
+      }
+      .lang-row:last-child { border: 0; }
+      .lang-tag {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--accent);
+      }
+      .lang-fraunces {
+        font-family: "Fraunces", serif;
+        font-variation-settings: "opsz" 72, "wght" 350, "SOFT" 30;
+        font-size: 1.6rem;
+        line-height: 1.25;
+      }
+      .lang-literata {
+        font-family: "Literata", serif;
+        font-variation-settings: "opsz" 36, "wght" 350;
+        font-size: 1.6rem;
+        line-height: 1.25;
+      }
+
+      /* Axis playground */
+      .axis-row {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+      }
+      .axis-card {
+        flex: 1;
+        min-width: 220px;
+      }
+      .axis-meta {
+        font-size: 0.7rem;
+        color: var(--muted);
+        font-family: -apple-system, monospace;
+        margin-bottom: 0.4rem;
+      }
+      .axis-sample {
+        font-size: 2.4rem;
+        line-height: 1.1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <p class="doc-title">Font test</p>
+      <h1 class="doc-h1">Fraunces vs Literata — homepage headline copy</h1>
+
+      <p class="legend">
+        <span><strong>Goal:</strong> replace the current Stoned Youth + Silvera headline pair with a single variable serif that covers all 31 languages.</span>
+        <span><strong>Both fonts have:</strong> Latin, Latin Extended, Cyrillic, Greek, Vietnamese.</span>
+        <span><strong>Arabic:</strong> needs a separate stack regardless.</span>
+      </p>
+
+      <!-- ─────────────────────────────────────────────────────────── -->
+      <section class="section">
+        <p class="section-eyebrow">1 — Hero wordmark + tagline (English)</p>
+        <h2 class="section-title">The big homepage moment</h2>
+
+        <div class="grid">
+          <div>
+            <p class="col-label">Fraunces · opsz 144 · wght 300 · SOFT 50</p>
+            <h1 class="display-fraunces">aperto</h1>
+            <p class="body-fraunces">A fresh translation that welcomes everyone to the conversation — whether you're deeply rooted in faith, exploring from the outside, or somewhere in between.</p>
+            <div class="btn-sample">Read Luke 1</div>
+          </div>
+          <div>
+            <p class="col-label">Literata · opsz 72 · wght 300</p>
+            <h1 class="display-literata">aperto</h1>
+            <p class="body-literata">A fresh translation that welcomes everyone to the conversation — whether you're deeply rooted in faith, exploring from the outside, or somewhere in between.</p>
+            <div class="btn-sample">Read Luke 1</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────────────────────────────────────── -->
+      <section class="section">
+        <p class="section-eyebrow">2 — Section headlines</p>
+        <h2 class="section-title">"A Different Kind of Bible" / "Start Reading"</h2>
+
+        <div class="grid">
+          <div>
+            <p class="col-label">Fraunces</p>
+            <h2 class="h2-fraunces">A Different Kind of Bible</h2>
+            <h2 class="h2-fraunces">Start Reading</h2>
+            <h2 class="h2-fraunces">Get Involved</h2>
+          </div>
+          <div>
+            <p class="col-label">Literata</p>
+            <h2 class="h2-literata">A Different Kind of Bible</h2>
+            <h2 class="h2-literata">Start Reading</h2>
+            <h2 class="h2-literata">Get Involved</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────────────────────────────────────── -->
+      <section class="section">
+        <p class="section-eyebrow">3 — Multilingual stress test</p>
+        <h2 class="section-title">Same headline, eight languages with diacritics, Cyrillic, and Greek</h2>
+
+        <div class="grid">
+          <div>
+            <p class="col-label">Fraunces</p>
+            <div class="lang-row"><span class="lang-tag">EN</span><span class="lang-fraunces">A Different Kind of Bible</span></div>
+            <div class="lang-row"><span class="lang-tag">DE</span><span class="lang-fraunces">Eine andere Art von Bibel</span></div>
+            <div class="lang-row"><span class="lang-tag">FR</span><span class="lang-fraunces">Une Bible différente</span></div>
+            <div class="lang-row"><span class="lang-tag">PL</span><span class="lang-fraunces">Inny rodzaj Biblii</span></div>
+            <div class="lang-row"><span class="lang-tag">CS</span><span class="lang-fraunces">Jiný druh Bible</span></div>
+            <div class="lang-row"><span class="lang-tag">HU</span><span class="lang-fraunces">Másfajta Biblia</span></div>
+            <div class="lang-row"><span class="lang-tag">UK</span><span class="lang-fraunces">Інша Біблія</span></div>
+            <div class="lang-row"><span class="lang-tag">EL</span><span class="lang-fraunces">Μια διαφορετική Βίβλος</span></div>
+          </div>
+          <div>
+            <p class="col-label">Literata</p>
+            <div class="lang-row"><span class="lang-tag">EN</span><span class="lang-literata">A Different Kind of Bible</span></div>
+            <div class="lang-row"><span class="lang-tag">DE</span><span class="lang-literata">Eine andere Art von Bibel</span></div>
+            <div class="lang-row"><span class="lang-tag">FR</span><span class="lang-literata">Une Bible différente</span></div>
+            <div class="lang-row"><span class="lang-tag">PL</span><span class="lang-literata">Inny rodzaj Biblii</span></div>
+            <div class="lang-row"><span class="lang-tag">CS</span><span class="lang-literata">Jiný druh Bible</span></div>
+            <div class="lang-row"><span class="lang-tag">HU</span><span class="lang-literata">Másfajta Biblia</span></div>
+            <div class="lang-row"><span class="lang-tag">UK</span><span class="lang-literata">Інша Біблія</span></div>
+            <div class="lang-row"><span class="lang-tag">EL</span><span class="lang-literata">Μια διαφορετική Βίβλος</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────────────────────────────────────── -->
+      <section class="section">
+        <p class="section-eyebrow">4 — Variable axis playground</p>
+        <h2 class="section-title">Same word, different axis settings — to find your unique treatment</h2>
+
+        <div class="grid">
+          <div>
+            <p class="col-label">Fraunces — opsz × SOFT</p>
+            <div class="axis-row">
+              <div class="axis-card">
+                <div class="axis-meta">opsz 144 · wght 200 · SOFT 100</div>
+                <div class="axis-sample fraunces" style='font-variation-settings: "opsz" 144, "wght" 200, "SOFT" 100;'>aperto</div>
+              </div>
+              <div class="axis-card">
+                <div class="axis-meta">opsz 144 · wght 300 · SOFT 50</div>
+                <div class="axis-sample fraunces" style='font-variation-settings: "opsz" 144, "wght" 300, "SOFT" 50;'>aperto</div>
+              </div>
+              <div class="axis-card">
+                <div class="axis-meta">opsz 144 · wght 400 · SOFT 0</div>
+                <div class="axis-sample fraunces" style='font-variation-settings: "opsz" 144, "wght" 400, "SOFT" 0;'>aperto</div>
+              </div>
+              <div class="axis-card">
+                <div class="axis-meta">opsz 9 · wght 600 · SOFT 100</div>
+                <div class="axis-sample fraunces" style='font-variation-settings: "opsz" 9, "wght" 600, "SOFT" 100;'>aperto</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="col-label">Literata — opsz × wght</p>
+            <div class="axis-row">
+              <div class="axis-card">
+                <div class="axis-meta">opsz 72 · wght 200</div>
+                <div class="axis-sample literata" style='font-variation-settings: "opsz" 72, "wght" 200;'>aperto</div>
+              </div>
+              <div class="axis-card">
+                <div class="axis-meta">opsz 72 · wght 300</div>
+                <div class="axis-sample literata" style='font-variation-settings: "opsz" 72, "wght" 300;'>aperto</div>
+              </div>
+              <div class="axis-card">
+                <div class="axis-meta">opsz 72 · wght 500</div>
+                <div class="axis-sample literata" style='font-variation-settings: "opsz" 72, "wght" 500;'>aperto</div>
+              </div>
+              <div class="axis-card">
+                <div class="axis-meta">opsz 7 · wght 700</div>
+                <div class="axis-sample literata" style='font-variation-settings: "opsz" 7, "wght" 700;'>aperto</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────────────────────────────────────── -->
+      <section class="section">
+        <p class="section-eyebrow">5 — Devotional card title (real homepage usage)</p>
+        <h2 class="section-title">"A moment with today" eyebrow + reflexionen title</h2>
+
+        <div class="grid">
+          <div>
+            <p class="col-label">Fraunces</p>
+            <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.16em; color: var(--accent);">A moment with today</p>
+            <div class="fraunces" style='font-size: 1.9rem; font-variation-settings: "opsz" 36, "wght" 300, "SOFT" 50; line-height: 1.2; margin-top: 0.3rem;'>Morgenandacht</div>
+            <div class="fraunces" style='font-size: 1.9rem; font-variation-settings: "opsz" 36, "wght" 300, "SOFT" 50; line-height: 1.2;'>Утренний размышление</div>
+            <div class="fraunces" style='font-size: 1.9rem; font-variation-settings: "opsz" 36, "wght" 300, "SOFT" 50; line-height: 1.2;'>Πρωινός στοχασμός</div>
+          </div>
+          <div>
+            <p class="col-label">Literata</p>
+            <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.16em; color: var(--accent);">A moment with today</p>
+            <div class="literata" style='font-size: 1.9rem; font-variation-settings: "opsz" 24, "wght" 350; line-height: 1.2; margin-top: 0.3rem;'>Morgenandacht</div>
+            <div class="literata" style='font-size: 1.9rem; font-variation-settings: "opsz" 24, "wght" 350; line-height: 1.2;'>Утренний размышление</div>
+            <div class="literata" style='font-size: 1.9rem; font-variation-settings: "opsz" 24, "wght" 350; line-height: 1.2;'>Πρωινός στοχασμός</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
