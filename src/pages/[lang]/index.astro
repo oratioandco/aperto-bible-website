@@ -151,23 +151,23 @@ const lukeNames: Record<string, string> = {
       clip-path: inset(0);
     }
 
-    /* Bottom fade + right-edge darkening vignette */
+    /* Bottom fade only — left/right stay clean */
     .video-hero::after {
       content: '';
       position: absolute;
       inset: 0;
-      background:
-        linear-gradient(to bottom, transparent 50%, #FFFBF5 100%),
-        linear-gradient(to left, rgba(10, 6, 4, 0.6) 0%, transparent 18%);
+      background: linear-gradient(to bottom, transparent 50%, #FFFBF5 100%);
       z-index: 4;
       pointer-events: none;
     }
 
+    /* Expand well past the clip region so the blur's transparent fringe
+       (blur radius ≈ 3× the 30px sigma) never reaches the visible area. */
     .video-bg {
       position: absolute;
-      inset: -30px;
-      width: calc(100% + 60px);
-      height: calc(100% + 60px);
+      inset: -120px;
+      width: calc(100% + 240px);
+      height: calc(100% + 240px);
       object-fit: cover;
       object-position: center center;
       filter: blur(30px);
@@ -238,9 +238,9 @@ const lukeNames: Record<string, string> = {
     .video-hero::before {
       content: '';
       position: absolute;
-      inset: -30px;
-      width: calc(100% + 60px);
-      height: calc(100% + 60px);
+      inset: -120px;
+      width: calc(100% + 240px);
+      height: calc(100% + 240px);
       background-image: url('/images/homepage_hero_blue_hour_low.png');
       background-size: cover;
       background-position: center;
