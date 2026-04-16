@@ -33,21 +33,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "Stoned Youth";
-    src: url("/fonts/StonedYouthRegular.woff2") format("woff2");
-    font-weight: normal;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Silvera";
-    src: url("/fonts/SilveraRegular.woff2") format("woff2");
-    font-weight: normal;
-    font-display: swap;
-    font-style: normal;
-}
 
 @font-face {
     font-family: "Raygun";
@@ -81,7 +66,6 @@
 
     /* Headlines */
     --color-headline: #5a4a3a;
-    --color-headline-caps: #8a7a6a;
 
     /* UI accents */
     --color-border: rgba(139, 115, 85, 0.15);
@@ -90,8 +74,7 @@
     /* Fonts */
     --font-bible: "Softcore", Georgia, serif;
     --font-ui: "Switzer", system-ui, sans-serif;
-    --font-headline-lower: "Fraunces", Georgia, serif;
-    --font-headline-caps: "Fraunces", Georgia, serif;
+    --font-headline: "Fraunces", Georgia, serif;
     --font-logo: "Raygun", sans-serif;
 }
 
@@ -131,40 +114,13 @@ h3 {
 }
 
 /* Headlines use Fraunces variable serif (opsz + wght + SOFT axes) */
-.bible-headline {
-    font-family: var(--font-headline-lower);
-    font-weight: 300;
-    font-variation-settings: "opsz" 144, "SOFT" 50;
-    letter-spacing: -0.01em;
-    color: var(--color-headline);
-}
-
-.bible-headline .cap {
-    font-family: var(--font-headline-caps);
-    font-weight: 500;
-    font-variation-settings: "opsz" 144, "SOFT" 0;
-    text-transform: uppercase;
-    font-size: 1.05em;
-    line-height: 0.9;
-    color: var(--color-headline-caps);
-}
-
+.bible-headline,
 .headline-mixed {
-    font-family: var(--font-headline-lower);
+    font-family: var(--font-headline);
     font-weight: 300;
     font-variation-settings: "opsz" 144, "SOFT" 50;
     letter-spacing: -0.01em;
     color: var(--color-headline);
-}
-
-.headline-mixed .cap {
-    font-family: var(--font-headline-caps);
-    font-weight: 500;
-    font-variation-settings: "opsz" 144, "SOFT" 0;
-    text-transform: uppercase;
-    font-size: 1.02em;
-    line-height: 0.9;
-    color: var(--color-headline-caps);
 }
 
 .verse-text {
