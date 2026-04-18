@@ -505,7 +505,7 @@
         },
         {
           "number": "47",
-          "text": "Το πνεύμα μου χαίρεται <span class=\"poetry-line-2\">γι' αυτόν που με σώζει.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Το πνεύμα μου <span class=\"poetry-line-2\">αναπνέει γι' αυτόν που με σώζει.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -513,8 +513,15 @@
         },
         {
           "number": "48",
-          "text": "Με κοίταξε. <span class=\"poetry-line-2\"><span class=\"amplification\">Πρόσεξε εμένα</span> —</span><span class=\"poetry-line-2\">τη μικρή, την αφανή.</span><span class=\"poetry-line-1\">Από τώρα θα λένε όλοι:</span><span class=\"poetry-line-2\">μακάρια αυτή.</span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "Με κοίταξε. <span class=\"poetry-line-2\"><span class=\"amplification\">Πρόσεξε εμένα</span> —</span><span class=\"poetry-line-2\">εμένα, τη μικρή.</span><span class=\"poetry-line-1\">Από τώρα θα λένε:</span><span class=\"poetry-line-2\">αυτή τα πήρε όλα.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:48",
+              "category": "text",
+              "keyword": "αυτή τα πήρε όλα (μακαριοῦσίν με)",
+              "content": "Στα αρχαία: «πᾶσαι αἱ γενεαὶ» (όλες οι γενιές) θα τη λένε «μακαρία» — ευλογημένη, τυχερή, αυτή που τα πήρε όλα. «Αυτή τα πήρε όλα» — η λαϊκή ελληνική έκφραση αποδίδει ακριβώς αυτό το νόημα: κάποια που η ζωή τη σημάδεψε με κάτι μεγάλο."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 2,
           "lines": []
@@ -544,7 +551,7 @@
         },
         {
           "number": "51",
-          "text": "Σηκώνει το μπράτσο του. <span class=\"poetry-line-1\">Σκορπίζει τους αλαζόνες</span><span class=\"poetry-line-2\">μ' ό,τι σκέφτονταν.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Σηκώνει το μπράτσο του. <span class=\"poetry-line-1\">Σκορπίζει τους αλαζόνες</span><span class=\"poetry-line-2\">μέσα στις σκέψεις τους.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -560,7 +567,7 @@
         },
         {
           "number": "53",
-          "text": "Τους πεινασμένους γεμίζει. <span class=\"poetry-line-1\">Τους πλούσιους διώχνει αδειανούς.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Γεμίζει τους πεινασμένους. <span class=\"poetry-line-1\">Τους πλούσιους — αδειανούς.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:51-53",
@@ -590,10 +597,10 @@
         },
         {
           "number": "55",
-          "text": "όπως το υποσχέθηκε <span class=\"poetry-line-1\">στον Αβραάμ και στους απογόνους του,</span><span class=\"poetry-line-1\">για πάντα. </span><span class=\"paragraph-break\"></span>",
+          "text": "όπως το υποσχέθηκε <span class=\"poetry-line-2\">στον Αβραάμ και στους απογόνους του,</span><span class=\"poetry-line-1\">για πάντα. </span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
@@ -725,21 +732,28 @@
         },
         {
           "number": "68",
-          "text": "«Δοξασμένος ο Θεός του Ισραήλ. <span class=\"poetry-line-1\">Επισκέφτηκε τον λαό του.</span><span class=\"poetry-line-1\">Του έφερε λύτρωση.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "«Δοξασμένος ο Θεός του Ισραήλ. <span class=\"poetry-line-1\">Ήρθε στον λαό του.</span><span class=\"poetry-line-1\">Τον έλυσε.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:68",
+              "category": "text",
+              "keyword": "Δοξασμένος (εὐλογητός)",
+              "content": "Στα αρχαία: εὐλογητός — «Ευλογητός Κύριος ο Θεός του Ισραήλ» είναι η τυπική μορφή berakah, αναγνωρίσιμη σε κάθε ορθόδοξο εσπερινό. «Δοξασμένος» αποδίδει το βάθος της λέξης χωρίς να πυροδοτεί τη λειτουργική αντανάκλαση."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "69",
-          "text": "Μέσα στο σπίτι του Δαβίδ, του δούλου του, <span class=\"poetry-line-2\">σήκωσε σωτήρα για μας —</span><span class=\"poetry-line-1\"></span>",
+          "text": "Από το σπίτι του Δαβίδ, του δούλου του, <span class=\"poetry-line-2\">σήκωσε δύναμη σωτηρίας για μας —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:69",
               "category": "text",
-              "keyword": "σωτήρα (κέρας σωτηρίας)",
-              "content": "Στα αρχαία: κέρας σωτηρίας — «κέρατο σωτηρίας». Στον αρχαίο κόσμο, το κέρατο ταύρου συμβόλιζε δύναμη και μάχη. Ο Ζαχαρίας μιλά για δυνατό σωτήρα, όχι αφηρημένη σωτηρία."
+              "keyword": "δύναμη σωτηρίας (κέρας σωτηρίας)",
+              "content": "Στα αρχαία: κέρας σωτηρίας — «κέρατο σωτηρίας». Στον αρχαίο κόσμο, το κέρατο ταύρου συμβόλιζε δύναμη και μάχη. Ο Ζαχαρίας μιλά για δυνατό σωτήρα, όχι αφηρημένη σωτηρία. «Δύναμη σωτηρίας» αποδίδει αυτή τη φυσική δυναμικότητα."
             }
           ],
           "isPoetry": true,
@@ -756,7 +770,7 @@
         },
         {
           "number": "71",
-          "text": "Σωτηρία από τους εχθρούς μας. <span class=\"poetry-line-1\">Από τα χέρια όσων μας μισούν.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Ελευθερία από τους εχθρούς μας. <span class=\"poetry-line-1\">Από τα χέρια όσων μας μισούν.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -764,7 +778,7 @@
         },
         {
           "number": "72",
-          "text": "Έδειξε αγάπη στους πατέρες μας. <span class=\"poetry-line-1\">Θυμήθηκε τη διαθήκη του, την ιερή —</span><span class=\"poetry-line-1\"></span>",
+          "text": "Έδειξε αγάπη στους πατέρες μας. <span class=\"poetry-line-1\">Θυμήθηκε τη διαθήκη του —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -780,7 +794,7 @@
         },
         {
           "number": "74",
-          "text": "Να μας ελευθερώσει <span class=\"poetry-line-2\">από τα χέρια των εχθρών μας,</span><span class=\"poetry-line-1\">ώστε να τον λατρεύουμε</span><span class=\"poetry-line-1\"></span>",
+          "text": "Να μας ελευθερώσει <span class=\"poetry-line-2\">από τα χέρια των εχθρών μας,</span><span class=\"poetry-line-1\">να ζούμε μπροστά του</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -788,23 +802,30 @@
         },
         {
           "number": "75",
-          "text": "χωρίς φόβο, <span class=\"poetry-line-1\">σωστοί κι αφοσιωμένοι μπροστά του,</span><span class=\"poetry-line-1\">όλες τις μέρες μας.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "χωρίς φόβο, <span class=\"poetry-line-2\">ακέραιοι, όλες τις μέρες μας.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:74-75",
+              "category": "text",
+              "keyword": "να ζούμε μπροστά του ακέραιοι (λατρεύειν αὐτῷ ἐν ὁσιότητι καὶ δικαιοσύνῃ)",
+              "content": "Στα αρχαία: «να τον λατρεύουμε με οσιότητα και δικαιοσύνη». «Λατρεύω» στα σημερινά ελληνικά είναι ζωντανό (λατρεύω τη μουσική), αλλά σε συνδυασμό με «τον Κύριο» πυροδοτεί λειτουργικό ύφος. «Να ζούμε μπροστά του ακέραιοι» αποδίδει την ολική αφιέρωση χωρίς εκκλησιαστική επίστρωση."
+            }
+          ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "76",
-          "text": "Κι εσύ, παιδί μου — <span class=\"poetry-line-1\">θα σε πουν προφήτη του Υψίστου.</span><span class=\"poetry-line-1\">Θα προπορευτείς μπροστά από τον Κύριο</span><span class=\"poetry-line-1\"></span>",
+          "text": "Κι εσύ, παιδί μου — <span class=\"poetry-line-2\">θα σε πουν προφήτη του Υψίστου.</span><span class=\"poetry-line-1\">Θα τρέξεις μπροστά από τον Κύριο</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "77",
-          "text": "να δώσεις στον λαό του τη γνώση <span class=\"poetry-line-2\">πως η σωτηρία έρχεται</span><span class=\"poetry-line-2\">με συγχώρεση.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "να δώσεις στον λαό του <span class=\"poetry-line-2\">τη γνώση πως η σωτηρία έρχεται</span><span class=\"poetry-line-2\">με συγχώρεση.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -833,12 +854,12 @@
         },
         {
           "number": "79",
-          "text": "να φωτίσει αυτούς που κάθονται <span class=\"poetry-line-2\">στο σκοτάδι και στη σκιά του θανάτου,</span><span class=\"poetry-line-1\">να οδηγήσει τα βήματά μας</span><span class=\"poetry-line-2\">στο δρόμο της ειρήνης.»</span>",
+          "text": "να φωτίσει όσους κάθονται <span class=\"poetry-line-2\">στο σκοτάδι, στη σκιά του θανάτου,</span><span class=\"poetry-line-1\">να οδηγήσει τα βήματά μας</span><span class=\"poetry-line-2\">στο δρόμο της ειρήνης.»</span>",
           "footnotes": [
             {
               "ref": "1:78-79",
               "category": "leben",
-              "keyword": "σκοτάδι και σκιά θανάτου",
+              "keyword": "στο σκοτάδι, στη σκιά του θανάτου",
               "content": "Ο Ζαχαρίας, μετά από εννιά μήνες σιωπής, μιλά για φως. Η εικόνα δεν είναι αφηρημένη — «κάθονται στο σκοτάδι» σημαίνει ανθρώπους παγιδευμένους, ακίνητους. Κατάθλιψη, πένθος, απώλεια νοήματος — η σύγχρονη γλώσσα αναγνωρίζει αυτήν τη «σκιά». Η υπόσχεση δεν είναι ότι το σκοτάδι εξαφανίζεται μαγικά, αλλά ότι μέσα στο σκοτάδι εμφανίζεται αυγή — αρκετό φως για το επόμενο βήμα."
             }
           ],

@@ -112,31 +112,21 @@ export function getStaticPaths() {
 const { lang, pericope, chapter, prevPericope, nextPericope } = Astro.props;
 const t = useTranslations(lang);
 
-// ── Reading mode labels (localized) ──────────────────────────────
-// plain   = verse text only (no amplifications, no footnote markers)
-// reading = default; verse text + inline amplifications + footnote indicators
-// study   = side-panel with detailed study notes
-const modePlainMap: Record<string, string> = {
-  ar: 'مبسّط', bg: 'Прост', ca: 'Simple', cs: 'Prostý', da: 'Ren',
-  de: 'Pur', el: 'Απλό', en: 'Plain', es: 'Simple', et: 'Lihtne',
-  fi: 'Pelkkä', fr: 'Épuré', ga: 'Simplí', hr: 'Čisto', hu: 'Egyszerű',
-  it: 'Semplice', lt: 'Paprastas', lv: 'Vienkāršs', mt: 'Sempliċi', nb: 'Ren',
-  nl: 'Puur', pl: 'Czysty', pt: 'Simples', ro: 'Simplu', ru: 'Простой',
-  sk: 'Prostý', sl: 'Preprosto', sq: 'I thjeshtë', sv: 'Ren', tr: 'Sade',
-  uk: 'Простий',
+// ── Reading toggle labels (localized) ────────────────────────────
+// Two independent toggles:
+//   zen   — distraction-free: hides images, media, footnotes; KEEPS amplification
+//   study — scholarly: shows study panel + footnote highlighting
+const zenLabelMap: Record<string, string> = {
+  ar: 'زِن', bg: 'Дзен', ca: 'Zen', cs: 'Zen', da: 'Zen',
+  de: 'Zen', el: 'Zen', en: 'Zen', es: 'Zen', et: 'Zen',
+  fi: 'Zen', fr: 'Zen', ga: 'Zen', hr: 'Zen', hu: 'Zen',
+  it: 'Zen', lt: 'Zen', lv: 'Zen', mt: 'Zen', nb: 'Zen',
+  nl: 'Zen', pl: 'Zen', pt: 'Zen', ro: 'Zen', ru: 'Дзен',
+  sk: 'Zen', sl: 'Zen', sq: 'Zen', sv: 'Zen', tr: 'Zen',
+  uk: 'Дзен',
 };
 
-const modeReadingMap: Record<string, string> = {
-  ar: 'قراءة', bg: 'Четене', ca: 'Lectura', cs: 'Čtení', da: 'Læsning',
-  de: 'Lesen', el: 'Ανάγνωση', en: 'Reading', es: 'Lectura', et: 'Lugemine',
-  fi: 'Lukeminen', fr: 'Lecture', ga: 'Léamh', hr: 'Čitanje', hu: 'Olvasás',
-  it: 'Lettura', lt: 'Skaitymas', lv: 'Lasīšana', mt: 'Qari', nb: 'Lesing',
-  nl: 'Lezen', pl: 'Czytanie', pt: 'Leitura', ro: 'Lectură', ru: 'Чтение',
-  sk: 'Čítanie', sl: 'Branje', sq: 'Lexim', sv: 'Läsning', tr: 'Okuma',
-  uk: 'Читання',
-};
-
-const modeStudyMap: Record<string, string> = {
+const studyLabelMap: Record<string, string> = {
   ar: 'دراسة', bg: 'Изучаване', ca: 'Estudi', cs: 'Studium', da: 'Studie',
   de: 'Studium', el: 'Μελέτη', en: 'Study', es: 'Estudio', et: 'Uurimine',
   fi: 'Opiskelu', fr: 'Étude', ga: 'Staidéar', hr: 'Proučavanje', hu: 'Tanulás',
@@ -146,9 +136,8 @@ const modeStudyMap: Record<string, string> = {
   uk: 'Вивчення',
 };
 
-const modePlainLabel = modePlainMap[lang] || 'Plain';
-const modeReadingLabel = modeReadingMap[lang] || 'Reading';
-const modeStudyLabel = modeStudyMap[lang] || 'Study';
+const zenLabel = zenLabelMap[lang] || 'Zen';
+const studyLabel = studyLabelMap[lang] || 'Study';
 
 // Verse content: prefer language-specific file, fall back to English
 function getContent(lang: string, chapter: number): any {
@@ -196,19 +185,15 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     <span class="breadcrumb-ref">{chapter}:{pericope.verses}</span>
   </nav>
 
-  <!-- Reading mode toggle (floating pill, bottom-center) -->
+  <!-- Reading toggles (floating pill, bottom-center) -->
   <div class="read-mode-bar" id="readModeBar" role="toolbar" aria-label="Reading mode">
-    <button class="rmode-btn" data-mode="plain" title={modePlainLabel} aria-label={modePlainLabel}>
-      <span class="material-symbols-rounded">text_fields</span>
-      <span class="rmode-label">{modePlainLabel}</span>
+    <button class="rmode-btn" data-toggle="zen" title={zenLabel} aria-label={zenLabel} aria-pressed="false">
+      <span class="material-symbols-rounded">spa</span>
+      <span class="rmode-label">{zenLabel}</span>
     </button>
-    <button class="rmode-btn" data-mode="reading" title={modeReadingLabel} aria-label={modeReadingLabel}>
-      <span class="material-symbols-rounded">auto_stories</span>
-      <span class="rmode-label">{modeReadingLabel}</span>
-    </button>
-    <button class="rmode-btn" data-mode="study" title={modeStudyLabel} aria-label={modeStudyLabel}>
-      <span class="material-symbols-rounded">view_column</span>
-      <span class="rmode-label">{modeStudyLabel}</span>
+    <button class="rmode-btn" data-toggle="study" title={studyLabel} aria-label={studyLabel} aria-pressed="false">
+      <span class="material-symbols-rounded">school</span>
+      <span class="rmode-label">{studyLabel}</span>
     </button>
   </div>
 
@@ -369,17 +354,17 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     bottom: 96px;
   }
   /* Lift above mobile study bottom-sheet peek */
-  :global(body[data-read-mode="study"]:has(.study-panel)) .read-mode-bar {
+  :global(body[data-study="true"]:has(.study-panel)) .read-mode-bar {
     bottom: 130px;
   }
-  :global(body[data-read-mode="study"]:has(.mini-player.visible)) .read-mode-bar {
+  :global(body[data-study="true"]:has(.mini-player.visible)) .read-mode-bar {
     bottom: 218px;
   }
   @media (min-width: 1024px) {
-    :global(body[data-read-mode="study"]:has(.study-panel)) .read-mode-bar {
+    :global(body[data-study="true"]:has(.study-panel)) .read-mode-bar {
       bottom: 1.25rem;
     }
-    :global(body[data-read-mode="study"]:has(.mini-player.visible)) .read-mode-bar {
+    :global(body[data-study="true"]:has(.mini-player.visible)) .read-mode-bar {
       bottom: 96px;
     }
   }
@@ -415,8 +400,6 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
   @media (max-width: 520px) {
     .rmode-btn { padding: 0.55rem 0.8rem; }
-    .rmode-btn .rmode-label { display: none; }
-    .rmode-btn.active .rmode-label { display: inline; }
   }
 
 
@@ -496,37 +479,64 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
 })();
 
-// ── Reading mode toggle ──────────────────────────────────────────
+// ── Reading toggles (zen + study, independent) ──────────────────
 (function () {
-  var MODES = ['plain', 'reading', 'study'];
-  var STORAGE_KEY = 'aperto-read-mode';
-  // Migrate legacy keys from previous naming (text → plain, amplified → reading)
-  var LEGACY_MAP = { text: 'plain', amplified: 'reading' };
+  var ZEN_KEY = 'aperto-zen';
+  var STUDY_KEY = 'aperto-study';
+  // Migrate from old three-mode system
+  var OLD_KEY = 'aperto-read-mode';
 
-  function applyMode(mode) {
-    if (!MODES.includes(mode)) mode = 'reading';
-    document.body.setAttribute('data-read-mode', mode);
+  function applyToggles(zen, study) {
+    if (zen) {
+      document.body.setAttribute('data-zen', 'true');
+    } else {
+      document.body.removeAttribute('data-zen');
+    }
+    if (study) {
+      document.body.setAttribute('data-study', 'true');
+    } else {
+      document.body.removeAttribute('data-study');
+    }
     // Update button states
     document.querySelectorAll('.rmode-btn').forEach(function (btn) {
-      btn.classList.toggle('active', btn.getAttribute('data-mode') === mode);
+      var key = btn.getAttribute('data-toggle');
+      var isOn = (key === 'zen' && zen) || (key === 'study' && study);
+      btn.classList.toggle('active', isOn);
+      btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
     });
     // Study panel aria
     var panel = document.querySelector('.study-panel');
-    if (panel) panel.setAttribute('aria-hidden', mode !== 'study' ? 'true' : 'false');
+    if (panel) panel.setAttribute('aria-hidden', study ? 'false' : 'true');
   }
 
   function init() {
-    var saved = localStorage.getItem(STORAGE_KEY) || 'reading';
-    if (LEGACY_MAP[saved]) {
-      saved = LEGACY_MAP[saved];
-      localStorage.setItem(STORAGE_KEY, saved);
+    // Migrate legacy three-mode value
+    var legacy = localStorage.getItem(OLD_KEY);
+    if (legacy) {
+      if (legacy === 'plain' || legacy === 'text') {
+        localStorage.setItem(ZEN_KEY, 'true');
+      }
+      if (legacy === 'study') {
+        localStorage.setItem(STUDY_KEY, 'true');
+      }
+      localStorage.removeItem(OLD_KEY);
     }
-    applyMode(saved);
+
+    var zen = localStorage.getItem(ZEN_KEY) === 'true';
+    var study = localStorage.getItem(STUDY_KEY) === 'true';
+    applyToggles(zen, study);
+
     document.querySelectorAll('.rmode-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var mode = btn.getAttribute('data-mode');
-        localStorage.setItem(STORAGE_KEY, mode);
-        applyMode(mode);
+        var key = btn.getAttribute('data-toggle');
+        if (key === 'zen') {
+          zen = !zen;
+          localStorage.setItem(ZEN_KEY, zen ? 'true' : 'false');
+        } else if (key === 'study') {
+          study = !study;
+          localStorage.setItem(STUDY_KEY, study ? 'true' : 'false');
+        }
+        applyToggles(zen, study);
       });
     });
   }
@@ -582,7 +592,7 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
 
   function syncScroll() {
-    if (document.body.getAttribute('data-read-mode') !== 'study') return;
+    if (document.body.getAttribute('data-study') !== 'true') return;
     if (!document.querySelector('.study-panel')) return;
 
     var anchors = document.querySelectorAll('[data-verse-anchor]');
@@ -600,17 +610,19 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 
   function init() {
     window.addEventListener('scroll', syncScroll, { passive: true });
-    document.querySelectorAll('.rmode-btn').forEach(function (btn) {
+    document.querySelectorAll('.rmode-btn[data-toggle="study"]').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        if (btn.getAttribute('data-mode') === 'study') {
-          setTimeout(syncScroll, 50);
-        } else {
-          clearHighlights();
-          activeVerseNum = null;
-          // Collapse bottom sheet when leaving study mode
-          var panel = document.querySelector('.study-panel.expanded');
-          if (panel) panel.classList.remove('expanded');
-        }
+        // After toggle applies, check new state
+        setTimeout(function () {
+          if (document.body.getAttribute('data-study') === 'true') {
+            syncScroll();
+          } else {
+            clearHighlights();
+            activeVerseNum = null;
+            var panel = document.querySelector('.study-panel.expanded');
+            if (panel) panel.classList.remove('expanded');
+          }
+        }, 50);
       });
     });
 

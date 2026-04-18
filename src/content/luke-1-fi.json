@@ -574,7 +574,7 @@
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span><span class=\"amplification\">Kaikki minussa</span> ylistää Jumalaa. <span class=\"poetry-line-1\"></span>",
+          "text": "<span class=\"paragraph-break\"></span>Kaikki minussa ylistää Jumalaa. <span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -582,20 +582,20 @@
         },
         {
           "number": "47",
-          "text": "Henkeni riemuitsee<span class=\"amplification\">.</span> <span class=\"poetry-line-1\"></span>",
+          "text": "Henkeni riemuitsee <span class=\"poetry-line-2\">hänen tähden, joka pelastaa minut.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "48",
-          "text": "Hän katsoi minuun. <span class=\"poetry-line-2\"><span class=\"amplification\">Palvelijaansa. Vähäistä.</span></span><span class=\"poetry-line-1\">Tästä lähtien kaikki sukupolvet</span><span class=\"poetry-line-2\">sanovat minua onnelliseksi.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Hän katsoi tänne. <span class=\"poetry-line-2\"><span class=\"amplification\">Pieneen. Vähäiseen.</span></span><span class=\"poetry-line-1\">Tästä lähtien kaikki sukupolvet</span><span class=\"poetry-line-2\">sanovat minua onnelliseksi.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:48",
               "category": "text",
-              "keyword": "vähäistä",
+              "keyword": "vähäiseen",
               "content": "Kreikan ταπείνωσις (tapeinōsis) = sosiaalinen vähäisyys, matala asema — EI hengellinen nöyryys hyveenä. Maria nimeää asemansa: hän on alhaista syntyperää, ja Jumala katsoi häneen silti. Tämä on sosiaalinen vallankumous, ei hurskausharjoitus."
             }
           ],
@@ -613,7 +613,7 @@
         },
         {
           "number": "50",
-          "text": "Laupeus sukupolvesta toiseen — <span class=\"poetry-line-2\">niille, jotka pelkäävät häntä.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Laupeutensa hän antaa <span class=\"poetry-line-2\">niille, jotka kunnioittavat häntä —</span><span class=\"poetry-line-1\">sukupolvesta toiseen.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:50",
@@ -628,7 +628,7 @@
         },
         {
           "number": "51",
-          "text": "Hän käytti voimaansa. <span class=\"poetry-line-1\">Hajotti ylpeät<span class=\"amplification\">.</span></span><span class=\"poetry-line-1\"></span>",
+          "text": "Hän käytti voimaansa. <span class=\"poetry-line-1\">Hajotti ylpeät.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:51-53",
@@ -659,7 +659,7 @@
         },
         {
           "number": "54",
-          "text": "Hän auttoi Israelia<span class=\"amplification\">.</span> <span class=\"poetry-line-1\">Muisti lupauksensa<span class=\"amplification\">.</span></span><span class=\"poetry-line-1\"></span>",
+          "text": "Hän auttoi Israelia, palvelijaansa. <span class=\"poetry-line-1\">Muisti laupeutensa.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -802,13 +802,13 @@
         },
         {
           "number": "68",
-          "text": "Ylistetty olkoon Israelin Jumala. <span class=\"poetry-line-1\">Hän on tullut.</span><span class=\"poetry-line-1\">Hän on vapauttanut kansansa.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Ylistetty on Israelin Jumala. <span class=\"poetry-line-1\">Hän tuli.</span><span class=\"poetry-line-1\">Hän vapautti kansansa.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:68",
               "category": "kontext",
-              "keyword": "Ylistetty olkoon",
-              "content": "Berakah — juutalainen siunausrukous, joka alkaa aina \"Ylistetty olkoon Herra, Israelin Jumala.\" Tuttu muoto synagogajumalanpalveluksesta ja Psalmien kirjasta (Ps. 41:14; 72:18; 106:48). Sakarias puhuu profeettojen kieltä, ei vapaata rukousta."
+              "keyword": "Ylistetty on",
+              "content": "Berakah — juutalainen siunausrukous, joka alkaa aina \"Ylistetty olkoon Herra, Israelin Jumala.\" Tuttu muoto synagogajumalanpalveluksesta ja Psalmien kirjasta (Ps. 41:14; 72:18; 106:48). Sakarias puhuu profeettojen kieltä, ei vapaata rukousta. Aperto kääntää deklaratiivisesti (\"on\") liturgisen optatiivi-muodon (\"olkoon\") sijaan — säilyttää heprealaisen ylistyksen faktatoteamuksena."
             }
           ],
           "isPoetry": true,
@@ -817,7 +817,7 @@
         },
         {
           "number": "69",
-          "text": "Daavidin suvusta hän nosti meille pelastajan. <span class=\"poetry-line-2\"><span class=\"amplification\">Voimallisen.</span></span><span class=\"poetry-line-1\"></span>",
+          "text": "Daavidin suvusta hän nosti meille pelastajan, <span class=\"poetry-line-2\">voimallisen.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:69",
@@ -832,15 +832,15 @@
         },
         {
           "number": "70",
-          "text": "Niin kuin profeetat lupasivat — <span class=\"amplification\">kauan sitten.</span> <span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Niin kuin profeetat lupasivat — <span class=\"poetry-line-2\">kauan sitten.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "71",
-          "text": "Pelastuksen vihollistemme käsistä. <span class=\"poetry-line-1\">Vapautuksen<span class=\"amplification\">vihan vallasta</span>.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Pelastuksen vihollistemme käsistä. <span class=\"poetry-line-1\">Vapautuksen kaikesta, mikä vihaa meitä.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -848,7 +848,7 @@
         },
         {
           "number": "72",
-          "text": "<span class=\"amplification\">Laupeutta isillemme.</span> <span class=\"poetry-line-1\">Pyhän liittonsa hän muisti.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Laupeutta isillemme. <span class=\"poetry-line-1\">Pyhän liittonsa hän muisti.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -864,7 +864,7 @@
         },
         {
           "number": "74",
-          "text": "vapaina vihollistemme käsistä <span class=\"poetry-line-2\">saamme palvella häntä.</span><span class=\"poetry-line-1\"></span>",
+          "text": "vapaina vihollistemme käsistä <span class=\"poetry-line-2\">saamme palvella häntä —</span><span class=\"poetry-line-1\">pelotta,</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -872,8 +872,15 @@
         },
         {
           "number": "75",
-          "text": "<span class=\"amplification\">Pelotta. Pyhyydessä.</span> <span class=\"poetry-line-2\">Kaikkina päivinämme.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "pyhyydessä ja oikeudessa, <span class=\"poetry-line-2\">hänen edessään,</span><span class=\"poetry-line-2\">kaikkina päivinämme.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:75",
+              "category": "text",
+              "keyword": "pyhyydessä ja oikeudessa",
+              "content": "Kreikan ἐν ὁσιότητι καὶ δικαιοσύνῃ = \"pyhyydessä ja vanhurskaudessa.\" \"Vanhurskaus\" on kirkkokielen sana; \"oikeus\" ja \"oikeudenmukaisuus\" kantavat saman merkityksen yleissuomessa. \"Hänen edessään\" vastaa kreikan ἐνώπιον αὐτοῦ."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 2,
           "lines": []
@@ -895,7 +902,7 @@
         },
         {
           "number": "77",
-          "text": "Sinä annat hänen kansalleen tuntea pelastuksen. <span class=\"poetry-line-2\">Syntien anteeksiannon.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Sinä annat hänen kansalleen tuntea pelastuksen — <span class=\"poetry-line-2\">syntien anteeksiannon.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,

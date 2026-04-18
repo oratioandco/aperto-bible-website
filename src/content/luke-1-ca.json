@@ -527,12 +527,12 @@
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-1\">M'ha mirat.</span><span class=\"poetry-line-2\">A mi — la petita, la que ningú no coneixia.</span><span class=\"poetry-line-1\">I d'ara endavant? Tothom dirà:</span><span class=\"poetry-line-2\">Quina dona tan afortunada. <span class=\"amplification\">De debò.</span></span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">M'ha mirat.</span><span class=\"poetry-line-2\">Jo — la sense nom. <span class=\"amplification\">La petita.</span></span><span class=\"poetry-line-1\">I d'ara endavant? Tothom dirà:</span><span class=\"poetry-line-2\">Quina dona tan afortunada. <span class=\"amplification\">De debò.</span></span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:48",
               "category": "text",
-              "keyword": "la petita, la que ningú no coneixia",
+              "keyword": "la sense nom, la petita",
               "content": "La mirada de Déu sobre Maria és el contrari de la valoració social: jove, dona, pobra, soltera — als marges de la importància en el seu món. Lluc mostra repetidament: l'atenció de Déu es dirigeix especialment als qui la societat passa per alt (cf. 1:25; 4:18; 7:22). Grec ταπείνωσις: no «humilitat» com a virtut moral, sinó posició social — «la baixa», «la petita», «la que no compta»."
             }
           ],
@@ -746,13 +746,19 @@
         },
         {
           "number": "68",
-          "text": "«Beneït sigui el Senyor, el Déu d'Israel — <span class=\"poetry-line-2\">perquè ha visitat el seu poble</span><span class=\"poetry-line-2\">i l'ha alliberat.</span><span class=\"poetry-break\"></span>",
+          "text": "«Beneït sigui el Senyor, el Déu d'Israel — <span class=\"poetry-line-2\">perquè ha visitat el seu poble</span><span class=\"poetry-line-2\">i l'ha rescatat.</span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:68",
               "category": "kontext",
               "keyword": "Beneït sigui el Senyor, el Déu d'Israel",
               "content": "Fórmula d'una berakà — la pregària jueva de benedicció. «Beneït sigui el Senyor» és l'obertura estàndard de la pregària jueva, encara avui en ús a les sinagogues. Zacaries prega com a jueu fidel, omplert de l'Esperit, profetitzant des de la tradició del seu poble."
+            },
+            {
+              "ref": "1:68",
+              "category": "text",
+              "keyword": "l'ha rescatat",
+              "content": "Grec λύτρωσιν — «redempció», literalment alliberament per rescat. Imatge de l'Èxode: Déu rescata el seu poble com a go'el, el familiar que paga per alliberar qui ha caigut en captivitat. No és només «alliberament» genèric sinó intervenció costosa."
             }
           ],
           "isPoetry": true,
@@ -761,13 +767,13 @@
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Ens ha donat un poder de salvació</span><span class=\"poetry-line-2\">a la casa de David, el seu servent.</span>",
+          "text": "<span class=\"poetry-line-1\">Ens ha donat una força de salvació</span><span class=\"poetry-line-2\">a la casa de David, el seu servent.</span>",
           "footnotes": [
             {
               "ref": "1:69",
               "category": "text",
-              "keyword": "un poder de salvació",
-              "content": "Grec κέρας σωτηρίας — literalment «corn de salvació». El corn era el recipient amb què s'ungia els reis d'Israel (1 Samuel 16:1). «Un poder de salvació» transmet el sentit: força salvadora d'origen reial."
+              "keyword": "una força de salvació",
+              "content": "Grec κέρας σωτηρίας — literalment «corn de salvació». El corn era el recipient amb què s'ungia els reis d'Israel (1 Samuel 16:1). «Una força de salvació» transmet el sentit: poder salvador d'origen reial."
             }
           ],
           "isPoetry": true,
@@ -784,7 +790,7 @@
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">salvació dels nostres enemics,</span><span class=\"poetry-line-2\">de la mà de tots els qui ens odien.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">que ens salvaria dels nostres enemics,</span><span class=\"poetry-line-2\">de la mà de tots els qui ens odien.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -800,7 +806,7 @@
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">el jurament que va fer a Abraham, el nostre pare:</span>",
+          "text": "<span class=\"poetry-line-1\">el jurament que va fer a Abraham,</span><span class=\"poetry-line-2\">el nostre pare:</span>",
           "footnotes": [
             {
               "ref": "1:73",
@@ -823,10 +829,10 @@
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-2\">en santedat i justícia,</span><span class=\"poetry-line-2\">tots els dies de la nostra vida.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">en santedat i justícia,</span><span class=\"poetry-line-2\">tots els dies de la nostra vida.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 2,
+          "poetryLevel": 1,
           "lines": []
         },
         {

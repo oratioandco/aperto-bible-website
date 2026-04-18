@@ -557,7 +557,7 @@
               "ref": "1:46-48",
               "category": "leben",
               "keyword": "Jis pažvelgė į mane",
-              "content": "Būti pastebėtam — viena giliausių žmogiškų reikmių. Marija gieda apie Dievą, kuris pažvelgė į „tą mažą, apie kurią niekas nežino.\" Šiuolaikiniame pasaulyje, kur vertė matuojama pasiekimais ir matomumu, ši idėja veikia priešinga kryptimi: verta ne todėl, kad pastebėta — pastebėta todėl, kad verta. Tai ne pasyvus laukimas dėmesio, o atradimas: kažkas jau žiūri."
+              "content": "Būti pastebėtam — viena giliausių žmogiškų reikmių. Marija gieda apie Dievą, kuris pažvelgė į nepastebimą, nereikšmingą mergaitę. Šiuolaikiniame pasaulyje, kur vertė matuojama pasiekimais ir matomumu, ši idėja veikia priešinga kryptimi: verta ne todėl, kad pastebėta — pastebėta todėl, kad verta. Tai ne pasyvus laukimas dėmesio, o atradimas: kažkas jau žiūri."
             }
           ],
           "isPoetry": true,
@@ -574,15 +574,22 @@
         },
         {
           "number": "48",
-          "text": "Jis pažvelgė į mane. <span class=\"poetry-line-2\">Pastebėjo mane —</span><span class=\"poetry-line-2\"><span class=\"amplification\">tą mažą, apie kurią niekas nežino</span>.</span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "Jis pažvelgė į mane — <span class=\"poetry-line-2\">į nematytą, nepastebėtą.</span><span class=\"poetry-line-2\">Nuo šiol visos kartos</span><span class=\"poetry-line-2\">vadins mane laimingą.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:48",
+              "category": "text",
+              "keyword": "nematytą, nepastebėtą",
+              "content": "Graikiškai ταπείνωσις (tapeinōsis) — žemas socialinis statusas, ne dorybė. Marija nebuvo kilmingoji, ne iš garsios šeimos — ji buvo nereikšminga jauna moteris iš provincijos miestelio. Dievo žvilgsnis keičia ne jos padėtį, bet tai, kas matoma."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "49",
-          "text": "<span class=\"amplification\">Nuo dabar</span> visos kartos <span class=\"amplification\">sakys:</span> <span class=\"poetry-line-2\"><span class=\"amplification\">ji gavo dovaną</span>.</span><span class=\"poetry-line-1\">Galingasis padarė man didžių dalykų.</span><span class=\"poetry-line-2\">Jo vardas — šventas.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Galingasis padarė man didžių dalykų. <span class=\"poetry-line-2\">Jo vardas — šventas.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -590,7 +597,7 @@
         },
         {
           "number": "50",
-          "text": "Jo gerumas siekia kartą po kartos, <span class=\"poetry-line-2\">tiems, kurie jo bijo.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "Jo gerumas siekia kartą po kartos — <span class=\"poetry-line-2\">tiems, kurie jo bijo.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -598,13 +605,13 @@
         },
         {
           "number": "51",
-          "text": "<span class=\"amplification\">Jis</span> rodo rankos galią. <span class=\"poetry-line-2\">Išdidžiuosius išblaško <span class=\"amplification\">su visais jų planais</span>.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Jis rodo rankos galią: <span class=\"poetry-line-2\">išdidžiuosius išblaško su jų planais.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:51-53",
               "category": "text",
-              "keyword": "rodo... nuveria... pripildo... paleidžia",
-              "content": "Graikų kalboje šie veiksmažodžiai stovi praeities laiku (aoristai), bet čia jie vadinami gnominiais aoristais — aprašo tai, ką Dievas VISADA daro, ne vienkartinį istorinį veiksmą. Todėl verčiame esamuoju laiku. Tai Dievo būdas — nuolatinis, ne praeities."
+              "keyword": "išblaško... nuveria... pripildo... paleidžia",
+              "content": "Graikų kalboje šie veiksmažodžiai stovi praeities laiku (aoristai), bet čia jie vadinami gnominiais aoristais — aprašo tai, ką Dievas VISADA daro, ne vienkartinį istorinį veiksmą. Verčiame esamuoju laiku. Tai Dievo būdas — nuolatinis."
             },
             {
               "ref": "1:51-53",
@@ -635,7 +642,7 @@
         },
         {
           "number": "54",
-          "text": "<span class=\"amplification\">Jis</span> nepamiršo Izraelio, savo tarno. <span class=\"poetry-line-2\">Prisiminė savo gerumą —</span><span class=\"poetry-line-1\"></span>",
+          "text": "Prisiminė Izraelį, savo tarną — <span class=\"poetry-line-2\">prisiminė savo gerumą,</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -643,7 +650,7 @@
         },
         {
           "number": "55",
-          "text": "kaip žadėjo mūsų protėviams, <span class=\"poetry-line-2\">Abraomui ir jo palikuonims per amžius. </span><span class=\"paragraph-break\"></span>",
+          "text": "kaip žadėjo mūsų protėviams: <span class=\"poetry-line-2\">Abraomui ir jo palikuonims — per amžius. </span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -778,20 +785,27 @@
         },
         {
           "number": "68",
-          "text": "Šlovė Viešpačiui, Izraelio Dievui — <span class=\"poetry-line-2\">jis aplankė ir išlaisvino savo tautą.</span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "Šlovė Viešpačiui, Izraelio Dievui — <span class=\"poetry-line-2\">aplankė ir išlaisvino savo tautą.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:68",
+              "category": "kontext",
+              "keyword": "Šlovė Viešpačiui",
+              "content": "Benedictus — žydų berakah (palaiminimo) malda: „Palaimintas Viešpats...\" Tai liturginė forma, kurią Zacharijas, kaip kunigas, žinojo mintinai. Po devynių mėnesių tylos pirmieji jo žodžiai — ne skundas, ne pasakojimas apie tai, ką patyrė, o šlovinimas. Tyla kažką jame pertvarkė."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "69",
-          "text": "Dovydo, savo tarno, namuose <span class=\"poetry-line-2\">jis iškėlė galybę, kuri gelbsti.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Dovydo, savo tarno, namuose <span class=\"poetry-line-2\">iškėlė galią, kuri gelbsti.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:69",
               "category": "text",
-              "keyword": "galybę, kuri gelbsti",
+              "keyword": "galią, kuri gelbsti",
               "content": "Graikiškai κέρας σωτηρίας — pažodžiui „išgelbėjimo ragas.\" Senovės simbolika: ragas reiškė galią, stiprybę, karališkumą (plg. Ps 18:3; 1 Sam 2:1). Mirusi metafora lietuvių kalboje — verčiame prasmę: galia, kuri gelbsti."
             }
           ],
@@ -801,7 +815,7 @@
         },
         {
           "number": "70",
-          "text": "Taip jis žadėjo per savo šventų pranašų lūpas <span class=\"poetry-line-2\">nuo seniausių laikų:</span><span class=\"poetry-line-1\"></span>",
+          "text": "Taip žadėjo per savo šventų pranašų lūpas <span class=\"poetry-line-2\">nuo seniausių laikų:</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -809,7 +823,7 @@
         },
         {
           "number": "71",
-          "text": "išgelbėjimą nuo priešų <span class=\"poetry-line-2\">ir nuo visų, kurie mūsų nekenčia.</span><span class=\"poetry-line-1\"></span>",
+          "text": "išgelbėjimą nuo priešų, <span class=\"poetry-line-2\">nuo visų, kurie mūsų nekenčia.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -817,7 +831,7 @@
         },
         {
           "number": "72",
-          "text": "Jis parodė gerumą mūsų protėviams, <span class=\"poetry-line-2\">prisiminė savo šventąją sandorą —</span><span class=\"poetry-line-1\"></span>",
+          "text": "Parodė gerumą mūsų protėviams, <span class=\"poetry-line-2\">prisiminė šventą sandorą, kurią sudarė —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -825,7 +839,7 @@
         },
         {
           "number": "73",
-          "text": "priesaiką, kurią davė <span class=\"poetry-line-2\">mūsų tėvui Abraomui:</span><span class=\"poetry-line-1\"></span>",
+          "text": "priesaiką, duotą <span class=\"poetry-line-2\">mūsų tėvui Abraomui:</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -833,7 +847,7 @@
         },
         {
           "number": "74",
-          "text": "kad išvaduoti iš priešų rankų <span class=\"poetry-line-2\">galėtume jam tarnauti be baimės,</span><span class=\"poetry-line-1\"></span>",
+          "text": "išvaduoti iš priešų rankų — <span class=\"poetry-line-2\">tarnauti jam be baimės,</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -841,7 +855,7 @@
         },
         {
           "number": "75",
-          "text": "šventi ir teisūs jo akivaizdoje <span class=\"poetry-line-2\">per visas savo dienas.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "text": "gyventi šventai ir teisiai jo akivaizdoje <span class=\"poetry-line-2\">per visas savo dienas.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -849,15 +863,22 @@
         },
         {
           "number": "76",
-          "text": "O tu, vaike, <span class=\"poetry-line-2\">būsi vadinamas Aukščiausiojo pranašu.</span><span class=\"poetry-line-1\">Tu eisi pirma Viešpaties</span><span class=\"poetry-line-2\">paruošti jam kelio.</span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
+          "text": "O tu, vaike — <span class=\"poetry-line-2\">būsi vadinamas Aukščiausiojo pranašu.</span><span class=\"poetry-line-1\">Eisi pirma —</span><span class=\"poetry-line-2\">paruošti kelio.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:76-77",
+              "category": "kontext",
+              "keyword": "O tu, vaike",
+              "content": "Zacharijas posūkyje kreipiasi tiesiai į naujagimį Joną. Jis kalba apie Jėzų (eil. 68–75), o dabar — apie savo sūnų. Jono vaidmuo: paruošti kelią. Tai ne garbė sau — tai tarnystė kitam, didesniam."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "77",
-          "text": "Tu duosi jo tautai pažinti išgelbėjimą — <span class=\"poetry-line-2\">atleidžiant nuodėmes.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Jo tautai — pažinti išgelbėjimą: <span class=\"poetry-line-2\">atleidžiamos nuodėmės.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:77",
@@ -872,7 +893,7 @@
         },
         {
           "number": "78",
-          "text": "Iš pačių Dievo gelmių, <span class=\"poetry-line-2\">iš jo gerumo —</span><span class=\"poetry-line-1\">aušra iš aukštybių mus aplankys,</span><span class=\"poetry-line-1\"></span>",
+          "text": "Iš pačių Dievo gelmių — <span class=\"poetry-line-2\">iš jo gerumo —</span><span class=\"poetry-line-1\">aušra iš aukštybių mus aplankys.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:78",
@@ -887,7 +908,7 @@
         },
         {
           "number": "79",
-          "text": "nušvisti tiems, <span class=\"poetry-line-1\">kas sėdi tamsoje</span><span class=\"poetry-line-2\">ir mirties šešėlyje,</span><span class=\"poetry-line-1\">nukreipti mūsų žingsnius</span><span class=\"poetry-line-2\">ramybės keliu.</span>",
+          "text": "Nušvis tiems, <span class=\"poetry-line-2\">kas sėdi tamsoje</span><span class=\"poetry-line-2\">ir mirties šešėlyje.</span><span class=\"poetry-line-1\">Nukreips mūsų žingsnius</span><span class=\"poetry-line-2\">ramybės keliu.</span>",
           "footnotes": [
             {
               "ref": "1:79",
@@ -903,7 +924,7 @@
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         }
       ]

@@ -545,13 +545,13 @@
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>Alles in mir feiert Gott.",
+          "text": "<span class=\"paragraph-break\"></span>Alles in mir — <span class=\"poetry-line-2\">alles! —</span><span class=\"poetry-line-1\">feiert Gott.</span>",
           "footnotes": [
             {
               "ref": "1:46",
               "category": "text",
               "keyword": "feiert",
-              "content": "Griechisch μεγαλύνει — wörtlich „macht groß“. Traditionell: „preist“, „lobt“, „erhebt“. Aperto: „feiert“ — um die explosive Freude zu erfassen, nicht stille Andacht. Der Gesamtkontext (Marias Situation, der soeben bestätigte Gruß Elisabets) deutet auf unkontrollierte Jubel-Reaktion, nicht auf geordneten Lobpreis."
+              "content": "Griechisch μεγαλύνει — wörtlich „macht groß”. Traditionell: „preist”, „lobt”, „erhebt”. Aperto: „feiert” — um die explosive Freude zu erfassen, nicht stille Andacht. Der Gesamtkontext (Marias Situation, der soeben bestätigte Gruß Elisabets) deutet auf unkontrollierte Jubel-Reaktion, nicht auf geordneten Lobpreis."
             },
             {
               "ref": "1:46-55",
@@ -560,21 +560,21 @@
               "content": "Das Magnificat wird seit dem 5. Jahrhundert täglich in der Vesper (Abendgebet) der Kirche gebetet. Lutheraner, Anglikanern, Katholiken und orthodoxe Christen singen es gemeinsam. In der Befreiungstheologie (Gustavo Gutiérrez) wurde es zum Schlüsseltext der Option für die Armen. In Argentinien und Guatemala wurde es zeitweise von Diktaturen verboten, weil es als politisch subversiv galt. Kein anderes Marienlied hat so viele Kulturen so tief geprägt."
             }
           ],
-          "isPoetry": false,
-          "poetryLevel": 0,
+          "isPoetry": true,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Mein Geist jauchzt —</span>",
+          "text": "<span class=\"poetry-line-2\">Mein ganzer Geist jauchzt.</span><span class=\"poetry-line-1\">Gott, mein Retter.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-2\">denn Gott, mein Retter, hat mich angesehen.</span><span class=\"poetry-line-1\">Mich. Die Kleine. <span class=\"amplification\">Die Unbedeutende.</span></span><span class=\"poetry-line-2\">Und von jetzt an werden alle sagen:</span><span class=\"poetry-line-1\">Gesegnet diese Frau.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Er hat mich angesehen.</span><span class=\"poetry-line-2\">Mich. Die Kleine.</span><span class=\"poetry-line-1\"><span class=\"amplification\">Die Übersehene.</span></span><span class=\"poetry-line-2\">Und von jetzt an werden alle sagen:</span><span class=\"poetry-line-1\">Gesegnet. Richtig gesegnet.</span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:48",
@@ -586,16 +586,16 @@
               "ref": "1:48",
               "category": "kontext",
               "keyword": "alle werden mich selig preisen",
-              "content": "Dieser Vers markiert eine der zentralen Interpretationsdifferenzen zwischen christlichen Traditionen. Die katholische und orthodoxe Überlieferung sieht in Marias einzigartiger Rolle als Mutter Gottes (Θεοτόκος — Gottesgebärerin, Konzil von Ephesus 431) eine bleibende besondere Würde: Das Seligpreisen aller Generationen begründet die Marienverehrung, die in Liturgie, Gebet und Kunst bis heute lebendig ist. Die protestantische Überlieferung liest Maria als Paradebeispiel des glaubenden Menschen: Sie empfängt, antwortet, vertraut — und darin ist sie Vorbild für jeden Christen, nicht Gegenstand von Verehrung. Beide Lesarten finden einen Halt im Text: Maria ist historisch einzigartig (ihre Rolle in der Heilsgeschichte ist unwiederholbar) und spirituell exemplarisch (ihr Ja aus Glauben ist nachahmbar). Die Kirchengeschichte zeigt: Die Frage, was genau mit diesem „Seligpreisen“ gemeint ist, hat Traditionen getrennt und verbindet die, die in der Tiefe des Textes lesen."
+              "content": "Dieser Vers markiert eine der zentralen Interpretationsdifferenzen zwischen christlichen Traditionen. Die katholische und orthodoxe Überlieferung sieht in Marias einzigartiger Rolle als Mutter Gottes (Θεοτόκος — Gottesgebärerin, Konzil von Ephesus 431) eine bleibende besondere Würde: Das Seligpreisen aller Generationen begründet die Marienverehrung, die in Liturgie, Gebet und Kunst bis heute lebendig ist. Die protestantische Überlieferung liest Maria als Paradebeispiel des glaubenden Menschen: Sie empfängt, antwortet, vertraut — und darin ist sie Vorbild für jeden Christen, nicht Gegenstand von Verehrung. Beide Lesarten finden einen Halt im Text: Maria ist historisch einzigartig (ihre Rolle in der Heilsgeschichte ist unwiederholbar) und spirituell exemplarisch (ihr Ja aus Glauben ist nachahmbar). Die Kirchengeschichte zeigt: Die Frage, was genau mit diesem „Seligpreisen” gemeint ist, hat Traditionen getrennt und verbindet die, die in der Tiefe des Textes lesen."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 2,
+          "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">Denn der Mächtige hat Großes an mir getan.</span><span class=\"poetry-line-2\">Sein Name — heilig.</span>",
+          "text": "<span class=\"poetry-line-1\">Der Mächtige hat Großes an mir getan.</span><span class=\"poetry-line-2\">Sein Name: heilig.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -603,7 +603,7 @@
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Sein Erbarmen gilt von Generation zu Generation</span><span class=\"poetry-line-2\">denen, die ihn fürchten.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Sein Erbarmen von Generation zu Generation —</span><span class=\"poetry-line-2\">für alle, die ihn fürchten.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -611,13 +611,13 @@
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Die Stolzen?</span><span class=\"poetry-line-2\">Er jagt sie auseinander in all ihren Plänen.</span>",
+          "text": "<span class=\"poetry-line-1\">Die Stolzen?</span><span class=\"poetry-line-2\">Er jagt sie auseinander,</span><span class=\"poetry-line-1\">in all ihren Plänen.</span>",
           "footnotes": [
             {
               "ref": "1:51-53",
               "category": "text",
               "keyword": "Die Stolzen... Herrscher... Die Hungrigen",
-              "content": "Die griechischen Verben in V.51-53 stehen im Aorist — der deutschen Vergangenheitsform entsprechend. Das Problem: Viele Ausleger verstehen sie als „gnomic aorist“ — Gottes charakteristisches, zeitloses Handeln, nicht ein abgeschlossenes Ereignis. Maria beschreibt, was Gott immer tut, nicht was er einmal tat. Aperto übersetzt im Präsens (Gegenwartsform), um diese Kraft zu transportieren: Gott stürzt Herrscher — das ist sein Wesen. Nicht: er hat sie gestürzt."
+              "content": "Die griechischen Verben in V.51-53 stehen im Aorist — der deutschen Vergangenheitsform entsprechend. Das Problem: Viele Ausleger verstehen sie als „gnomic aorist” — Gottes charakteristisches, zeitloses Handeln, nicht ein abgeschlossenes Ereignis. Maria beschreibt, was Gott immer tut, nicht was er einmal tat. Aperto übersetzt im Präsens (Gegenwartsform), um diese Kraft zu transportieren: Gott stürzt Herrscher — das ist sein Wesen. Nicht: er hat sie gestürzt."
             }
           ],
           "isPoetry": true,
@@ -626,23 +626,23 @@
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Herrscher stürzt er vom Thron.</span><span class=\"poetry-line-2\">Die Kleinen hebt er hoch.</span>",
+          "text": "<span class=\"poetry-line-2\">Herrscher stürzt er vom Thron.</span><span class=\"poetry-line-1\">Die Kleinen hebt er hoch.</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">Die Hungrigen beschenkt er mit allem.</span><span class=\"poetry-line-2\">Die Reichen schickt er leer fort.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-2\">Die Hungrigen füllt er —</span><span class=\"poetry-line-1\">mit allem.</span><span class=\"poetry-line-2\">Die Reichen schickt er fort. Leer.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Er hat Israel nicht vergessen —</span><span class=\"poetry-line-2\">hat sein Versprechen gehalten,</span>",
+          "text": "<span class=\"poetry-line-1\">Er hat Israel nicht vergessen —</span><span class=\"poetry-line-2\">hat sein Versprechen gehalten.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -650,7 +650,7 @@
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">das er Abraham gegeben hat</span><span class=\"poetry-line-2\">und seinen Nachkommen.</span><span class=\"poetry-line-1\">Für immer. </span><span class=\"paragraph-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Das er Abraham gegeben hat</span><span class=\"poetry-line-2\">und seinen Nachkommen.</span><span class=\"poetry-line-1\">Für immer. </span><span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:55",
@@ -792,19 +792,19 @@
         },
         {
           "number": "68",
-          "text": "„Gelobt sei der Herr, Gott Israels — <span class=\"poetry-line-2\">er hat sein Volk aufgesucht und befreit.</span><span class=\"poetry-break\"></span>",
+          "text": "„Gepriesen sei der Herr, Gott Israels — <span class=\"poetry-line-2\">er hat sein Volk aufgesucht.</span><span class=\"poetry-line-1\">Er hat befreit.</span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:68",
               "category": "kontext",
-              "keyword": "Gelobt sei",
-              "content": "Das Benedictus beginnt mit der Berakah-Form: „Gepriesen/Gelobt sei...“ (Εὐλογητός) — das klassische jüdische Lobpreisgebet, das Gott für sein Handeln preist. Zacharias überträgt diese uralte liturgische Form auf das, was er erlebt hat. Das Benedictus wird seitdem täglich im Morgengebet gebetet (Laudes), in katholischen, orthodoxen und lutherischen Traditionen gleichermaßen."
+              "keyword": "Gepriesen sei",
+              "content": "Das Benedictus beginnt mit der Berakah-Form: „Gepriesen/Gelobt sei...” (Εὐλογητός) — das klassische jüdische Lobpreisgebet, das Gott für sein Handeln preist. Zacharias überträgt diese uralte liturgische Form auf das, was er erlebt hat. Das Benedictus wird seitdem täglich im Morgengebet gebetet (Laudes), in katholischen, orthodoxen und lutherischen Traditionen gleichermaßen."
             },
             {
               "ref": "1:68",
               "category": "text",
               "keyword": "aufgesucht",
-              "content": "Griechisch ἐπεσκέψατο — von ἐπισκέπτομαι, „besuchen, sich um jemanden sorgen, nach jemandem sehen“. Stärker als „sich gekümmert“ (passiv). Aperto: „aufgesucht“ — aktiv, gezielt, initiativ. Gott geht zu seinem Volk hin; er wartet nicht."
+              "content": "Griechisch ἐπεσκέψατο — von ἐπισκέπτομαι, „besuchen, sich um jemanden sorgen, nach jemandem sehen”. Stärker als „sich gekümmert” (passiv). Aperto: „aufgesucht” — aktiv, gezielt, initiativ. Gott geht zu seinem Volk hin; er wartet nicht."
             }
           ],
           "isPoetry": true,
@@ -813,7 +813,7 @@
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Einen starken Retter hat er uns gegeben —</span><span class=\"poetry-line-2\">aus Davids Haus,</span>",
+          "text": "<span class=\"poetry-line-1\">Einen Retter hat er uns gegeben, stark —</span><span class=\"poetry-line-2\">aus Davids Haus,</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -821,7 +821,7 @@
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">wie er durch seine Propheten</span><span class=\"poetry-line-2\">von Anfang an geredet hat.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">wie er es durch seine Propheten gesagt hat,</span><span class=\"poetry-line-2\">von Anfang an.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -829,7 +829,7 @@
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">Er hat gerettet.</span>",
+          "text": "<span class=\"poetry-line-1\">Gerettet — aus der Hand unserer Feinde.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -860,7 +860,7 @@
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-2\">dass wir ihm dienen dürfen,</span><span class=\"poetry-line-1\">frei von Angst,</span>",
+          "text": "<span class=\"poetry-line-2\">dass wir ihm dienen dürfen.</span><span class=\"poetry-line-1\">Frei von Angst.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -868,7 +868,7 @@
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-2\">heilig und gerecht,</span><span class=\"poetry-line-1\">unser Leben lang.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-2\">Heilig und gerecht,</span><span class=\"poetry-line-1\">unser ganzes Leben.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -876,7 +876,7 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Und du, mein Kind —</span><span class=\"poetry-break\"></span><span class=\"poetry-line-2\">du wirst Prophet des Höchsten heißen.</span><span class=\"poetry-line-1\">Du wirst dem Herrn den Weg bereiten,</span>",
+          "text": "<span class=\"poetry-line-1\">Und du, mein Kind —</span><span class=\"poetry-line-2\">du wirst Prophet des Höchsten sein.</span><span class=\"poetry-line-1\">Du wirst dem Herrn den Weg bereiten,</span>",
           "footnotes": [
             {
               "ref": "1:76",
@@ -891,27 +891,34 @@
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-2\">seinem Volk <span class=\"amplification\">die Augen öffnen</span> —</span><span class=\"poetry-line-1\">dass Rettung kommt, dass Schuld vergeht —</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-2\">seinem Volk die Erkenntnis der Rettung bringen —</span><span class=\"poetry-line-1\">dass die Schulden vergehen.</span>",
+          "footnotes": [
+            {
+              "ref": "1:77",
+              "category": "text",
+              "keyword": "die Erkenntnis der Rettung bringen",
+              "content": "Griechisch δοῦναι γνῶσιν σωτηρίας τῷ λαῷ αὐτοῦ — wörtlich „dem Volk Erkenntnis der Rettung geben”. Die frühere Übersetzung hatte diesen Ausdruck irrtümlich als Amplifikation (\\add...\\add*) markiert. Er ist Übersetzung, kein Zusatz. Johannes' Aufgabe ist es, seinem Volk die Erkenntnis zu vermitteln, dass Rettung naht — und zwar durch Vergebung der Schuld."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-2\">aus dem Innersten seines Erbarmens.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Denn das Licht aus der Höhe wird kommen,</span>",
+          "text": "<span class=\"poetry-line-2\">Aus dem Innersten seines Erbarmens.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Denn ein Licht aus der Höhe wird kommen,</span>",
           "footnotes": [
             {
               "ref": "1:78",
               "category": "text",
-              "keyword": "aus dem Innersten seines Erbarmens",
-              "content": "Griechisch σπλάγχνα ἐλέους — wörtlich „Eingeweide/Innereien des Erbarmens“. σπλάγχνα bezeichnete das Körperzentrum der Gefühle — Magen, Darm, der Ort, wo man Erbarmen „spürt“. Traditionelle Übersetzungen: „herzliche Barmherzigkeit“ (Luther), „zärtliche Liebe“ (EÜ). Aperto: „das Innerste seines Erbarmens“ — um die körperliche Tiefe zu erhalten."
+              "keyword": "Aus dem Innersten seines Erbarmens",
+              "content": "Griechisch σπλάγχνα ἐλέους — wörtlich „Eingeweide/Innereien des Erbarmens”. σπλάγχνα bezeichnete das Körperzentrum der Gefühle — Magen, Darm, der Ort, wo man Erbarmen „spürt”. Traditionelle Übersetzungen: „herzliche Barmherzigkeit” (Luther), „zärtliche Liebe” (EÜ). Aperto: „das Innerste seines Erbarmens” — um die körperliche Tiefe zu erhalten."
             },
             {
-              "ref": "1:78",
+              "ref": "1:78-79",
               "category": "text",
-              "keyword": "das Licht aus der Höhe",
-              "content": "Griechisch ἀνατολή (anatole) bedeutet sowohl „Aufgang/Aufgehen“ (die aufgehende Sonne, vgl. Mal 4:2) als auch — in der Septuaginta — den messianischen „Spross“ oder „Zweig“ (Jer 23:5 LXX; Sach 6:12). Zacharias hält beide Bilder gleichzeitig: Das Licht bricht an — und der verheißene Davidide erscheint. Maria trägt ihn."
+              "keyword": "ein Licht aus der Höhe",
+              "content": "Griechisch ἀνατολή (anatole) bedeutet sowohl „Aufgang/Aufgehen” (die aufgehende Sonne, vgl. Mal 4:2) als auch — in der Septuaginta — den messianischen „Spross” oder „Zweig” (Jer 23:5 LXX; Sach 6:12). Zacharias hält beide Bilder gleichzeitig: Das Licht bricht an — und der verheißene Davidide erscheint. Maria trägt ihn."
             }
           ],
           "isPoetry": true,
@@ -920,7 +927,7 @@
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-2\">um denen zu leuchten,</span><span class=\"poetry-line-1\">die im Dunkel sitzen, im Schatten des Todes —</span><span class=\"poetry-line-2\">um unsere Füße auf den Weg des Friedens zu lenken.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Frieden.“</span>",
+          "text": "<span class=\"poetry-line-2\">um denen zu leuchten,</span><span class=\"poetry-line-1\">die im Dunkel sitzen und im Schatten des Todes —</span><span class=\"poetry-line-2\">um unsere Füße auf den Weg des Friedens zu lenken.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Frieden.”</span>",
           "footnotes": [
             {
               "ref": "1:79",

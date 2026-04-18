@@ -6,7 +6,7 @@ BIBLE_DIR="/Users/ttreppmann/StudioProjects/aperto-bible"
 
 cd "$WEBSITE_DIR"
 
-LANGS=(de en fr pl tr es it da sv uk pt nl ro cs el hu bg hr fi sk lt sl lv et ga mt nb ru ar ca)
+LANGS=(de en fr pl tr es it da sv uk pt nl ro cs el hu bg hr fi sk lt sl lv et ga mt nb ru ar ca sq)
 
 for lang in "${LANGS[@]}"; do
     echo "Parsing $lang..."

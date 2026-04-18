@@ -587,7 +587,7 @@
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">روحي تهتف فرحًا</span>",
+          "text": "<span class=\"poetry-line-1\">روحي تهتف فرحًا</span><span class=\"poetry-line-2\">لأنّ الله، منقذي،</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -595,7 +595,7 @@
         },
         {
           "number": "48",
-          "text": "نظر إليّ. <span class=\"poetry-line-1\">إليّ أنا.<span class=\"amplification\">الصغيرة. التي لا يعرفها أحد.</span></span><span class=\"poetry-line-2\">ومن الآن، سيقول كلّ جيل:</span><span class=\"poetry-line-1\">هذه أُعطيت كلّ شيء.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">نظر إليّ.</span><span class=\"poetry-line-2\">إليّ أنا.</span><span class=\"poetry-line-1\">ومن الآن، سيقول كلّ جيل:</span><span class=\"poetry-line-2\">هذه أُعطيت كلّ شيء.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -626,7 +626,7 @@
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">المتكبّرون؟</span><span class=\"poetry-line-2\">شتّتهم بكلّ ما دبّروا.</span>",
+          "text": "<span class=\"poetry-line-1\">المتكبّرون؟</span><span class=\"poetry-line-2\">شتّتهم — بكلّ ما دبّروا.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -665,7 +665,7 @@
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">الذي أعطاه لإبراهيم</span><span class=\"poetry-line-2\">ولنسله.</span><span class=\"poetry-line-1\">إلى الأبد. </span><span class=\"paragraph-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">الذي قطعه لإبراهيم</span><span class=\"poetry-line-2\">ولنسله.</span><span class=\"poetry-line-1\">إلى الأبد. </span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -786,7 +786,7 @@
         },
         {
           "number": "68",
-          "text": "مباركٌ الله، إله إسرائيل. <span class=\"poetry-line-2\">لأنّه التفت إلى شعبه وحرّره.</span>",
+          "text": "مباركٌ الله، إله إسرائيل. <span class=\"poetry-line-2\">التفت إلى شعبه وحرّره.</span>",
           "footnotes": [
             {
               "ref": "1:68",
@@ -801,7 +801,7 @@
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">أقام لنا قوّة خلاصٍ</span><span class=\"poetry-line-2\">من بيت داود.</span>",
+          "text": "<span class=\"poetry-line-1\">أقام لنا قوّة خلاصٍ</span><span class=\"poetry-line-2\">من بيت داود،</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -864,15 +864,22 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">وأنتَ، يا صغيري —<span class=\"amplification\">يتحوّل زكريّا الآن إلى ابنه الرضيع —</span></span><span class=\"poetry-line-2\">ستُدعى نبيّ العليّ.</span><span class=\"poetry-line-1\">لأنّك ستسير أمام الربّ</span><span class=\"poetry-line-2\">تُعدّ له الطريق.</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">وأنتَ، يا صغيري —</span><span class=\"poetry-line-2\">ستُدعى نبيّ العليّ.</span><span class=\"poetry-line-1\">ستسير أمام الربّ</span><span class=\"poetry-line-2\">تُعدّ له الطريق.</span>",
+          "footnotes": [
+            {
+              "ref": "1:76",
+              "category": "kontext",
+              "keyword": "يا صغيري",
+              "content": "هنا يتحوّل زكريّا من الحديث عن إسرائيل والخلاص الكوني إلى مخاطبة ابنه الرضيع مباشرةً — أبٌ يرى في طفله ما لا يراه أحد بعد."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">تُعلّم شعبه</span><span class=\"poetry-line-2\">أنّ الخلاص في مغفرة خطاياهم.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">تُعرّف شعبه</span><span class=\"poetry-line-2\">أنّ الخلاص يأتيهم — في مغفرة ما صنعوا.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -880,13 +887,13 @@
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\">بسبب رحمة إلهنا العميقة —</span><span class=\"poetry-line-2\">سيزورنا فجرٌ من العلاء،</span>",
+          "text": "<span class=\"poetry-line-1\">من حنان إلهنا العميق —</span><span class=\"poetry-line-2\">سيزورنا فجرٌ من العلاء،</span>",
           "footnotes": [
             {
               "ref": "1:78",
               "category": "text",
-              "keyword": "رحمة عميقة (σπλάγχνα ἐλέους)",
-              "content": "حرفيًّا «أحشاء الرحمة». تعبير جسدي، كأنّ رحمة الله تخرج من أعماقه. ليست شفقة باردة — بل تعاطف يهزّ الكيان."
+              "keyword": "حنان عميق (σπλάγχνα ἐλέους)",
+              "content": "حرفيًّا «أحشاء الرحمة». تعبير جسدي عميق — رحمة تخرج من الأحشاء لا من الرأس. «حنان» في العربية يحمل هذا الثقل الجسدي بشكل أدقّ: دفء يهزّ الكيان، لا شفقة باردة."
             },
             {
               "ref": "1:78",

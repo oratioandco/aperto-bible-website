@@ -544,13 +544,13 @@
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>Atëherë Maria tha: <span class=\"poetry-line-1\">Gjithçka brenda meje e madhëron Perëndinë.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Atëherë Maria tha: <span class=\"poetry-line-1\">E lartësoj Perëndinë — <span class=\"amplification\">me gjithçka jam.</span></span>",
           "footnotes": [
             {
               "ref": "1:46",
               "category": "text",
-              "keyword": "e madhëron",
-              "content": "Greqisht μεγαλύνει — fjalë për fjalë «e bën të madh.» Maria nuk thotë thjesht diçka të mirë për Perëndinë — e madhëron, e bën më të pranishëm në botën e saj."
+              "keyword": "E lartësoj",
+              "content": "Greqisht μεγαλύνει — fjalë për fjalë «e bën të madh.» Maria nuk thotë thjesht diçka të mirë për Perëndinë — e madhëron, e bën më të pranishëm në botën e saj. Folja është në kohën e tashme: jo «e madhërova» por «e madhëroj» — veprim i vazhdueshëm."
             }
           ],
           "isPoetry": true,
@@ -559,7 +559,7 @@
         },
         {
           "number": "47",
-          "text": "<span class=\"poetry-line-1\">Fryma ime gëzohet —</span>",
+          "text": "<span class=\"poetry-line-1\">Fryma ime gëzohet —</span><span class=\"poetry-line-2\">te ai që shpëton. Prej tij!</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -567,15 +567,15 @@
         },
         {
           "number": "48",
-          "text": "<span class=\"poetry-line-2\">sepse Perëndia, Shpëtimtari im, m'u kthye.</span><span class=\"poetry-line-1\">Mua. Të vogëlën. <span class=\"amplification\">Asaj që bota nuk e shikon.</span></span><span class=\"poetry-line-2\">Dhe tani gjithë brezat do të thonë:</span><span class=\"poetry-line-1\">E lumur kjo grua.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Ai pa tek unë.</span><span class=\"poetry-line-2\">Mua — të panjohurën. <span class=\"amplification\">Asaj pa emër.</span></span><span class=\"poetry-line-1\">Tani e tutje çdo brez do të thotë:</span><span class=\"poetry-line-2\">E lumtur. <span class=\"amplification\">Me të vërtetë e lumtur.</span></span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 2,
+          "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">I Fuqishmi bëri gjëra të mëdha për mua.</span><span class=\"poetry-line-2\">Emri i tij: i shenjtë.</span>",
+          "text": "<span class=\"poetry-line-1\">I Fuqishmi bëri gjëra të mëdha —</span><span class=\"poetry-line-2\">emri i tij: i shenjtë.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -583,7 +583,7 @@
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Mëshira e tij shkon brez pas brezi</span><span class=\"poetry-line-2\">tek ata që i druhen.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Mëshira e tij: brez pas brezi</span><span class=\"poetry-line-2\">tek ata që i druhen.</span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:46-50",
@@ -604,13 +604,13 @@
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Krahu i tij veproi me fuqi.</span><span class=\"poetry-line-1\">Krenarët? I shpërndan. Me gjithë planet.</span>",
+          "text": "<span class=\"poetry-line-1\">Krahu i tij veproi me fuqi.</span><span class=\"poetry-line-1\">Krenarët — i shpërndan, me gjithë mendimet e tyre.</span>",
           "footnotes": [
             {
               "ref": "1:51-53",
               "category": "text",
               "keyword": "Krenarët... Sundimtarët... Të uriturit",
-              "content": "Foljet greke në vargjet 51-53 janë në aorist — por shumë studiues i kuptojnë si «aorist gnomic» — veprimtari karakteristike e Perëndisë, jo ngjarje e mbyllur në të kaluarën. Aperto përdor kohën e tashme: ky ËSHTË natyra e Perëndisë."
+              "content": "Foljet greke në vargjet 51-53 janë në aorist — por shumë studiues i kuptojnë si «aorist gnomic» — veprimtari karakteristike e Perëndisë, jo ngjarje e mbyllur në të kaluarën. Aperto përdor aoristin si gjuhë poetike e faktit të kryer: kjo është ajo që Perëndia ka bërë — dhe vazhdon ta bëjë."
             }
           ],
           "isPoetry": true,
@@ -619,7 +619,7 @@
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Sundimtarët — i rrëzon nga froni.</span><span class=\"poetry-line-2\">Të vegjlit — lart.</span>",
+          "text": "<span class=\"poetry-line-1\">Sundimtarët — nga froni.</span><span class=\"poetry-line-2\">Të vegjlit — lart.</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -635,23 +635,23 @@
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Nuk e harroi Israelin —</span><span class=\"poetry-line-2\">premtimin e mbajti,</span>",
-          "footnotes": [],
+          "text": "<span class=\"poetry-line-1\">Nuk e harroi Izraelin, shërbëtorin e tij —</span><span class=\"poetry-line-2\">mëshirën ndaj tij e mbajti mend,</span>",
+          "footnotes": [
+            {
+              "ref": "1:54-55",
+              "category": "text",
+              "keyword": "Abrahamit",
+              "content": "Besëlidhja e Abrahamit (Zanafilla 17:7; 22:17-18): besnikëria e përjetshme e Perëndisë ndaj pasardhësve të Izraelit. Maria e sheh ardhjen e Jezusit jo si fillim të ri, por si përmbushje të një premtimi të lashtë. Magnificat është thellësisht hebraik — nderon besnikërinë e Perëndisë nëpër shekuj."
+            }
+          ],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">atë premtim — Abrahamit,</span><span class=\"poetry-line-2\">pasardhësve të tij.</span><span class=\"poetry-line-1\">Për gjithmonë. </span><span class=\"paragraph-break\"></span>",
-          "footnotes": [
-            {
-              "ref": "1:55",
-              "category": "text",
-              "keyword": "Abrahamit",
-              "content": "Besëlidhja e Abrahamit (Zanafilla 17:7; 22:17-18): besnikëria e përjetshme e Perëndisë ndaj pasardhësve të Izraelit. Maria e sheh ardhjen e Jezusit jo si fillim të ri, por si përmbushje të një premtimi të lashtë. Magnificat është thellësisht hebraik — nderon besnikërinë e Perëndisë nëpër shekuj."
-            }
-          ],
+          "text": "<span class=\"poetry-line-1\">ashtu siç premtoi etërve tanë —</span><span class=\"poetry-line-2\">Abrahamit dhe brezave të tij.</span><span class=\"poetry-line-1\">Për gjithmonë. </span><span class=\"paragraph-break\"></span>",
+          "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
           "lines": []
@@ -800,7 +800,7 @@
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Ngriti fuqi shpëtimi</span><span class=\"poetry-line-2\">nga shtëpia e Davidit, shërbëtorit të tij.</span>",
+          "text": "<span class=\"poetry-line-1\">Ngriti fuqi shpëtimi</span><span class=\"poetry-line-2\">nga shtëpia e Davidit, shërbëtorit të tij —</span>",
           "footnotes": [
             {
               "ref": "1:69",
@@ -815,7 +815,7 @@
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">Ashtu siç tha nëpërmjet profetëve —</span><span class=\"poetry-line-2\">që nga lashtësia:</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">ashtu siç tha nëpërmjet profetëve të tij</span><span class=\"poetry-line-2\">që nga lashtësia:</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -839,7 +839,7 @@
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">betimin e Abrahamit:</span>",
+          "text": "<span class=\"poetry-line-1\">betimin ndaj Abrahamit:</span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -847,15 +847,15 @@
         },
         {
           "number": "74",
-          "text": "se do të na nxirrte nga frika, <span class=\"poetry-line-2\">të lirë për t'i shërbyer,</span>",
+          "text": "<span class=\"poetry-line-1\">se do të na nxirrte nga dora e armikut,</span><span class=\"poetry-line-2\">të lirë për t'i shërbyer,</span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 2,
+          "poetryLevel": 1,
           "lines": []
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-1\">shenjtërisht e drejtësisht para tij,</span><span class=\"poetry-line-2\">gjithë ditët e jetës sonë.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">pa frikë —</span><span class=\"poetry-line-2\">shenjtërisht e drejtësisht para tij,</span><span class=\"poetry-line-1\">gjithë ditët e jetës sonë.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -863,7 +863,7 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">Dhe ti, bir.</span><span class=\"poetry-line-1\">Ti — <span class=\"amplification\">fëmija im —</span> do të quhesh profet i Më të Lartit.</span><span class=\"poetry-line-2\">Do të ecësh para Zotit</span><span class=\"poetry-line-2\">për t'i hapur rrugë.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Dhe ti, bir.</span><span class=\"poetry-line-1\">Ti do të quhesh profet i Më të Lartit —</span><span class=\"poetry-line-2\">do të ecësh para Zotit</span><span class=\"poetry-line-2\">për t'i hapur rrugën.</span><span class=\"poetry-break\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 1,
@@ -871,7 +871,7 @@
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Do t'u mësosh njerëzve çfarë do të thotë shpëtimi:</span><span class=\"poetry-line-2\">falje mëkatesh.</span><span class=\"poetry-break\"></span>",
+          "text": "<span class=\"poetry-line-1\">Do t'u tregosh njerëzve shpëtimin:</span><span class=\"poetry-line-2\">falje mëkatesh.</span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:77",
@@ -886,7 +886,7 @@
         },
         {
           "number": "78",
-          "text": "<span class=\"poetry-line-1\">Sepse Perëndia ynë — nga thellësia e mëshirës së tij —</span><span class=\"poetry-line-2\">do të na dërgojë agimin nga lart.</span>",
+          "text": "<span class=\"poetry-line-1\">Sepse Perëndia ynë —</span><span class=\"poetry-line-2\">nga thellësia e mëshirës së tij —</span><span class=\"poetry-line-1\">do të na dërgojë agimin nga lart.</span><span class=\"poetry-break\"></span>",
           "footnotes": [
             {
               "ref": "1:78",
@@ -898,7 +898,7 @@
               "ref": "1:78",
               "category": "text",
               "keyword": "agimin",
-              "content": "Greqisht ἀνατολή — «lindje/agim.» Fjala mban dy kuptime: dielli që lind DHE dega mesianike që lëshon."
+              "content": "Greqisht ἀνατολή — «lindje/agim.» Fjala mban dy kuptime: dielli që lind DHE dega mesianike. Imazhi i agimit mban të dyja: dritë fizike dhe ardhja e Mesias si «degë» e premtuar (Jeremia 23:5; Zakaria 6:12)."
             }
           ],
           "isPoetry": true,
@@ -907,7 +907,7 @@
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">Dritë —</span><span class=\"poetry-line-2\">për ata që rrinë në errësirë,</span><span class=\"poetry-line-2\">në hijen e vdekjes.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Për të na drejtuar hapat</span><span class=\"poetry-line-2\">në rrugën e paqes.</span>",
+          "text": "<span class=\"poetry-line-1\">Dritë —</span><span class=\"poetry-line-2\">për ata që rrinë në errësirë,</span><span class=\"poetry-line-2\">në hijen e vdekjes —</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">për të na udhëhequr hapat</span><span class=\"poetry-line-2\">në rrugën e paqes.</span>",
           "footnotes": [
             {
               "ref": "1:79",
