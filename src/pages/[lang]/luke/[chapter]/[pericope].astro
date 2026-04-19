@@ -112,20 +112,7 @@ export function getStaticPaths() {
 const { lang, pericope, chapter, prevPericope, nextPericope } = Astro.props;
 const t = useTranslations(lang);
 
-// ── Reading toggle labels (localized) ────────────────────────────
-// Two independent toggles:
-//   zen   — distraction-free: hides images, media, footnotes; KEEPS amplification
-//   study — scholarly: shows study panel + footnote highlighting
-const zenLabelMap: Record<string, string> = {
-  ar: 'زِن', bg: 'Дзен', ca: 'Zen', cs: 'Zen', da: 'Zen',
-  de: 'Zen', el: 'Zen', en: 'Zen', es: 'Zen', et: 'Zen',
-  fi: 'Zen', fr: 'Zen', ga: 'Zen', hr: 'Zen', hu: 'Zen',
-  it: 'Zen', lt: 'Zen', lv: 'Zen', mt: 'Zen', nb: 'Zen',
-  nl: 'Zen', pl: 'Zen', pt: 'Zen', ro: 'Zen', ru: 'Дзен',
-  sk: 'Zen', sl: 'Zen', sq: 'Zen', sv: 'Zen', tr: 'Zen',
-  uk: 'Дзен',
-};
-
+// ── Study toggle label (localized) ────────────────────────────
 const studyLabelMap: Record<string, string> = {
   ar: 'دراسة', bg: 'Изучаване', ca: 'Estudi', cs: 'Studium', da: 'Studie',
   de: 'Studium', el: 'Μελέτη', en: 'Study', es: 'Estudio', et: 'Uurimine',
@@ -136,7 +123,6 @@ const studyLabelMap: Record<string, string> = {
   uk: 'Вивчення',
 };
 
-const zenLabel = zenLabelMap[lang] || 'Zen';
 const studyLabel = studyLabelMap[lang] || 'Study';
 
 // Verse content: prefer language-specific file, fall back to English
@@ -177,25 +163,32 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   description={`${bookName} ${chapter}:${pericope.verses} — ${pericope.title}`}
 >
 
-  <!-- Breadcrumb (sticky) -->
-  <nav class="pericope-breadcrumb">
-    <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>{pericope.title}</span>
-    <span class="breadcrumb-ref">{chapter}:{pericope.verses}</span>
-  </nav>
+  <!-- Top bar: prev + breadcrumb + study toggle + next -->
+  <nav class="pericope-topbar">
+    {prevPericope ? (
+      <a href={`/${lang}/luke/${prevPericope.chapter}/${prevPericope.id}`} class="topbar-arrow" title={`${bookName} ${prevPericope.chapter}:${prevPericope.verses}`}>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </a>
+    ) : <span class="topbar-arrow is-disabled"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></span>}
 
-  <!-- Reading toggles (floating pill, bottom-center) -->
-  <div class="read-mode-bar" id="readModeBar" role="toolbar" aria-label="Reading mode">
-    <button class="rmode-btn" data-toggle="zen" title={zenLabel} aria-label={zenLabel} aria-pressed="false">
-      <span class="material-symbols-rounded">spa</span>
-      <span class="rmode-label">{zenLabel}</span>
-    </button>
-    <button class="rmode-btn" data-toggle="study" title={studyLabel} aria-label={studyLabel} aria-pressed="false">
-      <span class="material-symbols-rounded">school</span>
-      <span class="rmode-label">{studyLabel}</span>
-    </button>
-  </div>
+    <div class="topbar-breadcrumb">
+      <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="topbar-title">{pericope.title}</span>
+      <span class="topbar-ref">{chapter}:{pericope.verses}</span>
+    </div>
+
+    <div class="topbar-actions">
+      <button class="topbar-study-btn" id="studyToggle" title={studyLabel} aria-label={studyLabel} aria-pressed="false">
+        <span class="material-symbols-rounded">school</span>
+      </button>
+      {nextPericope ? (
+        <a href={`/${lang}/luke/${nextPericope.chapter}/${nextPericope.id}`} class="topbar-arrow" title={`${bookName} ${nextPericope.chapter}:${nextPericope.verses}`}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </a>
+      ) : <span class="topbar-arrow is-disabled"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></span>}
+    </div>
+  </nav>
 
   <!-- Verse content -->
   <div class="pericope-content-wrapper">
@@ -247,11 +240,13 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 </BaseLayout>
 
 <style>
-  .pericope-breadcrumb {
+  /* ── Top bar: breadcrumb + nav arrows + study toggle ── */
+  .pericope-topbar {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.9rem 2rem;
+    gap: 0.25rem;
+    padding: 0 2rem;
+    height: 52px;
     font-size: 0.85rem;
     color: var(--color-warm-gray);
     border-bottom: 1px solid var(--color-border);
@@ -262,21 +257,91 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     top: 0;
     z-index: 40;
   }
-  .pericope-breadcrumb a {
+
+  /* Prev/next arrows (same style as BookNav) */
+  .topbar-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    color: var(--color-charcoal, #3D3530);
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+    flex-shrink: 0;
+  }
+  .topbar-arrow:hover {
+    background: rgba(139, 115, 85, 0.08);
+    border-color: rgba(139, 115, 85, 0.2);
+  }
+  .topbar-arrow.is-disabled { opacity: 0.2; pointer-events: none; }
+
+  /* Breadcrumb center */
+  .topbar-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .topbar-breadcrumb a {
     color: var(--color-accent);
     text-decoration: none;
+    white-space: nowrap;
   }
-  .pericope-breadcrumb a:hover { text-decoration: underline; }
-  .breadcrumb-sep { opacity: 0.4; }
-  .breadcrumb-ref {
-    margin-left: auto;
+  .topbar-breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { opacity: 0.4; flex-shrink: 0; }
+  .topbar-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .topbar-ref {
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.05em;
     color: var(--color-accent);
     opacity: 0.7;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
+  /* Actions (study toggle + next arrow) */
+  .topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+
+  /* Study toggle button */
+  .topbar-study-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-warm-gray, #9A8F85);
+    transition: all 0.15s ease;
+  }
+  .topbar-study-btn:hover {
+    background: rgba(139, 115, 85, 0.08);
+    color: var(--color-charcoal, #2C2C2C);
+  }
+  .topbar-study-btn.active {
+    background: var(--color-accent, #8B7355);
+    color: white;
+  }
+
+  /* Bottom prev/next cards */
   .pericope-nav {
     display: flex;
     justify-content: space-between;
@@ -323,86 +388,12 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
 
   @media (max-width: 640px) {
-    .pericope-breadcrumb { padding: 0.75rem 1rem; }
+    .pericope-topbar { padding: 0 1rem; }
     .pericope-nav { padding: 2rem 1rem; }
     .pericope-nav-btn { padding: 0.75rem 1rem; }
     .pericope-nav-title { font-size: 0.875rem; }
+    .topbar-title { max-width: 120px; }
   }
-
-  /* ── Reading mode toggle — floating pill at bottom-center ── */
-  /* (Reading mode body/panel CSS lives in global.css) */
-  .read-mode-bar {
-    position: fixed;
-    left: 50%;
-    bottom: 1.25rem;
-    transform: translateX(-50%);
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
-    padding: 0.35rem;
-    background: rgba(255, 251, 245, 0.94);
-    border: 1px solid var(--color-border, #E0D5C5);
-    border-radius: 999px;
-    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.05);
-    backdrop-filter: saturate(150%) blur(10px);
-    -webkit-backdrop-filter: saturate(150%) blur(10px);
-    z-index: 950;
-    transition: bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  /* Lift above mini-player when it's visible */
-  :global(body:has(.mini-player.visible)) .read-mode-bar {
-    bottom: 96px;
-  }
-  /* Lift above mobile study bottom-sheet peek */
-  :global(body[data-study="true"]:has(.study-panel)) .read-mode-bar {
-    bottom: 130px;
-  }
-  :global(body[data-study="true"]:has(.mini-player.visible)) .read-mode-bar {
-    bottom: 218px;
-  }
-  @media (min-width: 1024px) {
-    :global(body[data-study="true"]:has(.study-panel)) .read-mode-bar {
-      bottom: 1.25rem;
-    }
-    :global(body[data-study="true"]:has(.mini-player.visible)) .read-mode-bar {
-      bottom: 96px;
-    }
-  }
-  /* Hide entirely when mini-player is expanded fullscreen */
-  :global(body:has(.mini-player.expanded)) .read-mode-bar {
-    display: none;
-  }
-  .rmode-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.55rem 1rem;
-    border-radius: 999px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    font-size: 0.8rem;
-    font-family: inherit;
-    color: var(--color-warm-gray, #9A8F85);
-    transition: background 0.15s, color 0.15s;
-  }
-  .rmode-btn .material-symbols-rounded { font-size: 1.1rem; }
-  .rmode-btn:hover {
-    color: var(--color-charcoal, #2C2C2C);
-  }
-  .rmode-btn.active {
-    background: var(--color-accent, #8B7355);
-    color: white;
-    font-weight: 600;
-  }
-  .rmode-btn.active .material-symbols-rounded {
-    color: white;
-  }
-  @media (max-width: 520px) {
-    .rmode-btn { padding: 0.55rem 0.8rem; }
-  }
-
-
 </style>
 
 <script is:inline>
@@ -479,66 +470,51 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
   }
 })();
 
-// ── Reading toggles (zen + study, independent) ──────────────────
+// ── Study toggle ──────────────────────────────────────────────
 (function () {
-  var ZEN_KEY = 'aperto-zen';
   var STUDY_KEY = 'aperto-study';
   // Migrate from old three-mode system
   var OLD_KEY = 'aperto-read-mode';
+  var ZEN_KEY = 'aperto-zen';
 
-  function applyToggles(zen, study) {
-    if (zen) {
-      document.body.setAttribute('data-zen', 'true');
-    } else {
-      document.body.removeAttribute('data-zen');
-    }
+  function applyStudy(study) {
     if (study) {
       document.body.setAttribute('data-study', 'true');
     } else {
       document.body.removeAttribute('data-study');
     }
-    // Update button states
-    document.querySelectorAll('.rmode-btn').forEach(function (btn) {
-      var key = btn.getAttribute('data-toggle');
-      var isOn = (key === 'zen' && zen) || (key === 'study' && study);
-      btn.classList.toggle('active', isOn);
-      btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
-    });
-    // Study panel aria
+    // Also clear legacy zen attribute if present
+    document.body.removeAttribute('data-zen');
+
+    var btn = document.getElementById('studyToggle');
+    if (btn) {
+      btn.classList.toggle('active', study);
+      btn.setAttribute('aria-pressed', study ? 'true' : 'false');
+    }
     var panel = document.querySelector('.study-panel');
     if (panel) panel.setAttribute('aria-hidden', study ? 'false' : 'true');
   }
 
   function init() {
-    // Migrate legacy three-mode value
+    // Migrate legacy keys
     var legacy = localStorage.getItem(OLD_KEY);
     if (legacy) {
-      if (legacy === 'plain' || legacy === 'text') {
-        localStorage.setItem(ZEN_KEY, 'true');
-      }
-      if (legacy === 'study') {
-        localStorage.setItem(STUDY_KEY, 'true');
-      }
+      if (legacy === 'study') localStorage.setItem(STUDY_KEY, 'true');
       localStorage.removeItem(OLD_KEY);
     }
+    localStorage.removeItem(ZEN_KEY);
 
-    var zen = localStorage.getItem(ZEN_KEY) === 'true';
     var study = localStorage.getItem(STUDY_KEY) === 'true';
-    applyToggles(zen, study);
+    applyStudy(study);
 
-    document.querySelectorAll('.rmode-btn').forEach(function (btn) {
+    var btn = document.getElementById('studyToggle');
+    if (btn) {
       btn.addEventListener('click', function () {
-        var key = btn.getAttribute('data-toggle');
-        if (key === 'zen') {
-          zen = !zen;
-          localStorage.setItem(ZEN_KEY, zen ? 'true' : 'false');
-        } else if (key === 'study') {
-          study = !study;
-          localStorage.setItem(STUDY_KEY, study ? 'true' : 'false');
-        }
-        applyToggles(zen, study);
+        study = !study;
+        localStorage.setItem(STUDY_KEY, study ? 'true' : 'false');
+        applyStudy(study);
       });
-    });
+    }
   }
 
   if (document.readyState === 'loading') {
@@ -610,8 +586,9 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
 
   function init() {
     window.addEventListener('scroll', syncScroll, { passive: true });
-    document.querySelectorAll('.rmode-btn[data-toggle="study"]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
+    var studyBtn = document.getElementById('studyToggle');
+    if (studyBtn) {
+      studyBtn.addEventListener('click', function () {
         // After toggle applies, check new state
         setTimeout(function () {
           if (document.body.getAttribute('data-study') === 'true') {
@@ -624,7 +601,7 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
           }
         }, 50);
       });
-    });
+    }
 
     // Mobile bottom-sheet: tap handle to toggle peek/expanded
     var panel = document.querySelector('.study-panel');
