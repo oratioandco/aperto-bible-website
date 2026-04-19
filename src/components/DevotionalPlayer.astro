@@ -1,4 +1,6 @@
 ---
+import { useTranslations } from '../i18n/utils';
+
 interface Devotional {
   title: string;
   mp3: string;
@@ -12,6 +14,7 @@ interface Props {
 }
 
 const { devotional, lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
 
 // Generate unique IDs
 const playerId = `devotional-${Math.random().toString(36).substr(2, 9)}`;
@@ -19,23 +22,7 @@ const playerId = `devotional-${Math.random().toString(36).substr(2, 9)}`;
 // Cover art for devotionals
 const coverArt = devotional.coverArt || '/images/covers/morgen.png';
 
-// Language-specific labels
-const labels = {
-  'da': { label: 'Morgeneration', genre: 'Meditation' },
-  'de': { label: 'Morgengeneration', genre: 'Meditation' },
-  'en': { label: 'Morning Devotional', genre: 'Meditation' },
-  'es': { label: 'Devocional matutino', genre: 'Meditación' },
-  'fr': { label: 'Dévotion du matin', genre: 'Méditation' },
-  'it': { label: 'Devoto del mattino', genre: 'Meditazione' },
-  'pl': { label: 'Porannea dewocja', genre: 'Medytacja' },
-  'pt': { label: 'Devocional matinal', genre: 'Meditação' },
-  'sv': { label: 'Morgonandakt', genre: 'Meditation' },
-  'tr': { label: 'Sabah ibadeti', genre: 'Meditasyon' },
-  'uk': { label: 'Раннє благочестя', genre: 'Медитація' }
-};
-
-const label = labels[lang]?.label || labels['en'].label;
-const genre = labels[lang]?.genre || labels['en'].genre;
+const label = t('reader.devotional.morning.label');
 ---
 
 <div class="devotional-player" data-player-id={playerId}>
