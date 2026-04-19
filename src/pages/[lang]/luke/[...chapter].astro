@@ -102,6 +102,32 @@ const gospelLabelMap: Record<string, string> = {
 };
 const gospelLabel = gospelLabelMap[lang] ?? 'The Gospel of Luke';
 
+// ---------------------------------------------------------------------------
+// Book switcher — discover which books have intros for this language
+// ---------------------------------------------------------------------------
+const psalmsIntroMods = import.meta.glob('../../../content/introductions-psalms/*.md', { eager: true });
+const hasPsalms = Object.keys(psalmsIntroMods).some(k => k.endsWith(`/${lang}.md`));
+
+const psalmsBookLabels: Record<string, { name: string; label: string }> = {
+  de: { name: 'Psalmen', label: 'Das Buch der Psalmen' },
+  en: { name: 'Psalms', label: 'The Book of Psalms' },
+  pl: { name: 'Psalmy', label: 'Księga Psalmów' },
+};
+
+const booksAllLabel: Record<string, string> = {
+  de: 'Bücher', en: 'Books', pl: 'Księgi',
+};
+const booksLabel = booksAllLabel[lang] ?? 'Books';
+
+type BookEntry = { id: string; name: string; label: string; active: boolean };
+const booksInLang: BookEntry[] = [
+  { id: 'luke', name: bookName, label: gospelLabel, active: true },
+  ...(hasPsalms && psalmsBookLabels[lang]
+    ? [{ id: 'psalms', ...psalmsBookLabels[lang], active: false }]
+    : []),
+];
+const hasMultipleBooks = booksInLang.length > 1;
+
 // Compact pericope data for JS: { 1: [{id,title,verses,image,imageAlt,color}], ... }
 const chaptersData: Record<number, { title: string; pericopes: any[] }> = {};
 for (let ch = 1; ch <= 24; ch++) {
@@ -148,37 +174,64 @@ const introHtml = getIntroHtml(lang);
     <!-- Master panel -->
     <aside class="book-master" id="book-master">
 
-      <div class="master-book-title">
-        <p class="master-gospel-label">{gospelLabel}</p>
-        <h1 class="master-book-name">{bookName}</h1>
-      </div>
-
-      <!-- Introduction entry -->
-      <button class:list={["master-item", "master-intro-btn", !initialChapter && "is-active"]} data-panel="intro" id="intro-btn">
-        <span class="master-item-icon material-symbols-rounded">menu_book</span>
-        <span class="master-item-label">{introLabel}</span>
-      </button>
-
-      <!-- Narrative sections -->
-      {narrativeSections.map(section => (
-        <div class="master-section">
-          <div class="master-section-header">
-            <span class="master-section-title">{section.title}</span>
-            <span class="master-section-sub">{section.subtitle}</span>
+      {hasMultipleBooks ? (
+        <button class="master-book-title master-book-title-btn" id="book-switcher-btn" aria-expanded="false" aria-controls="master-books-view">
+          <div class="master-book-title-text">
+            <p class="master-gospel-label">{gospelLabel}</p>
+            <h1 class="master-book-name">{bookName}</h1>
           </div>
-          {section.chapters.filter(ch => chaptersData[ch]).map(ch => (
-            <button
-              class:list={["master-item", "master-chapter-btn", initialChapter === ch && "is-active"]}
-              data-panel={`ch-${ch}`}
-              data-chapter={ch}
-            >
-              <span class="master-ch-num">{ch}</span>
-              <span class="master-ch-label">{chapterLabels[ch] ?? ''}</span>
-              <svg class="master-ch-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
-            </button>
+          <svg class="master-book-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+      ) : (
+        <div class="master-book-title">
+          <p class="master-gospel-label">{gospelLabel}</p>
+          <h1 class="master-book-name">{bookName}</h1>
+        </div>
+      )}
+
+      {hasMultipleBooks && (
+        <div class="master-books-view" id="master-books-view" hidden>
+          <p class="master-books-label">{booksLabel}</p>
+          {booksInLang.map(b => (
+            <a href={`/${lang}/${b.id}/`} class:list={["master-book-item", b.active && "is-active"]}>
+              <span class="master-book-item-icon material-symbols-rounded">menu_book</span>
+              <span class="master-book-item-text">
+                <span class="master-book-item-name">{b.name}</span>
+                <span class="master-book-item-label">{b.label}</span>
+              </span>
+            </a>
           ))}
         </div>
-      ))}
+      )}
+
+      <div class="master-chapters-view" id="master-chapters-view">
+        <!-- Introduction entry -->
+        <button class:list={["master-item", "master-intro-btn", !initialChapter && "is-active"]} data-panel="intro" id="intro-btn">
+          <span class="master-item-icon material-symbols-rounded">menu_book</span>
+          <span class="master-item-label">{introLabel}</span>
+        </button>
+
+        <!-- Narrative sections -->
+        {narrativeSections.map(section => (
+          <div class="master-section">
+            <div class="master-section-header">
+              <span class="master-section-title">{section.title}</span>
+              <span class="master-section-sub">{section.subtitle}</span>
+            </div>
+            {section.chapters.filter(ch => chaptersData[ch]).map(ch => (
+              <button
+                class:list={["master-item", "master-chapter-btn", initialChapter === ch && "is-active"]}
+                data-panel={`ch-${ch}`}
+                data-chapter={ch}
+              >
+                <span class="master-ch-num">{ch}</span>
+                <span class="master-ch-label">{chapterLabels[ch] ?? ''}</span>
+                <svg class="master-ch-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            ))}
+          </div>
+        ))}
+      </div>
     </aside>
 
     <!-- Detail panel -->
@@ -244,6 +297,33 @@ const introHtml = getIntroHtml(lang);
     padding: 1.5rem 1rem 1rem;
     border-bottom: 1px solid rgba(139, 115, 85, 0.1);
   }
+  .master-book-title-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background 0.12s ease;
+    font-family: inherit;
+  }
+  .master-book-title-btn:hover {
+    background: rgba(139, 115, 85, 0.05);
+  }
+  .master-book-title-text {
+    flex: 1;
+    min-width: 0;
+  }
+  .master-book-chevron {
+    flex-shrink: 0;
+    color: var(--color-accent, #8B7355);
+    transition: transform 0.18s ease;
+  }
+  .master-book-title-btn[aria-expanded="true"] .master-book-chevron {
+    transform: rotate(180deg);
+  }
   .master-gospel-label {
     font-family: 'Switzer', sans-serif;
     font-size: 0.6rem;
@@ -259,6 +339,65 @@ const introHtml = getIntroHtml(lang);
     font-weight: 150;
     color: var(--color-charcoal, #3D3530);
     line-height: 1.1;
+  }
+
+  /* ── Books view (shown when switcher is open) ── */
+  .master-books-view {
+    padding: 0.75rem 0.625rem 0.5rem;
+    border-bottom: 1px solid rgba(139, 115, 85, 0.1);
+  }
+  .master-books-label {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #8B7355);
+    padding: 0.35rem 0.5rem 0.4rem;
+  }
+  .master-book-item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.12s ease;
+  }
+  .master-book-item:hover { background: rgba(139, 115, 85, 0.08); }
+  .master-book-item.is-active { background: rgba(139, 115, 85, 0.12); }
+  .master-book-item-icon {
+    font-size: 1.1rem;
+    color: var(--color-accent, #8B7355);
+    flex-shrink: 0;
+  }
+  .master-book-item-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .master-book-item-name {
+    font-family: 'Softcore', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-charcoal, #3D3530);
+    line-height: 1.2;
+  }
+  .master-book-item.is-active .master-book-item-name {
+    color: var(--color-accent, #8B7355);
+    font-weight: 600;
+  }
+  .master-book-item-label {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.7rem;
+    color: var(--color-warm-gray, #9A8A7A);
+    margin-top: 0.1rem;
+  }
+
+  /* Books-mode: hide chapter list */
+  .book-master.is-books-mode #master-chapters-view {
+    display: none;
   }
 
   /* Master items */
@@ -581,6 +720,23 @@ const introHtml = getIntroHtml(lang);
 
 <script define:vars={{ chaptersData, lang, chapWord, initialChapter }}>
 (function () {
+  // Book switcher toggle (shown when multiple books are available)
+  var switcherBtn = document.getElementById('book-switcher-btn');
+  var booksView = document.getElementById('master-books-view');
+  var masterAside = document.getElementById('book-master');
+  if (switcherBtn && booksView && masterAside) {
+    switcherBtn.addEventListener('click', function () {
+      var isOpen = switcherBtn.getAttribute('aria-expanded') === 'true';
+      switcherBtn.setAttribute('aria-expanded', String(!isOpen));
+      masterAside.classList.toggle('is-books-mode', !isOpen);
+      if (isOpen) {
+        booksView.setAttribute('hidden', '');
+      } else {
+        booksView.removeAttribute('hidden');
+      }
+    });
+  }
+
   var activePanel = initialChapter ? ('ch-' + initialChapter) : 'intro';
 
   var masterBtns = document.querySelectorAll('.master-item');

@@ -155,6 +155,28 @@ const verseData = chapterContent
 
 // Book name for breadcrumb (use i18n if available, else Luke)
 const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 'Luke';
+
+// ── Book switcher — discover books with intros for this language ─────────
+const psalmsIntroMods = import.meta.glob('../../../../content/introductions-psalms/*.md', { eager: true });
+const hasPsalms = Object.keys(psalmsIntroMods).some(k => k.endsWith(`/${lang}.md`));
+
+const psalmsBookNameMap: Record<string, string> = {
+  de: 'Psalmen', en: 'Psalms', pl: 'Psalmy',
+};
+
+type BookSwitchItem = { id: string; name: string; active: boolean };
+const switcherBooks: BookSwitchItem[] = [
+  { id: 'luke', name: bookName, active: true },
+  ...(hasPsalms && psalmsBookNameMap[lang]
+    ? [{ id: 'psalms', name: psalmsBookNameMap[lang], active: false }]
+    : []),
+];
+const hasMultipleBooks = switcherBooks.length > 1;
+
+const booksLabelMap: Record<string, string> = {
+  de: 'Bücher', en: 'Books', pl: 'Księgi',
+};
+const booksLabel = booksLabelMap[lang] ?? 'Books';
 ---
 
 <BaseLayout
@@ -172,7 +194,36 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     ) : <span class="topbar-arrow is-disabled"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></span>}
 
     <div class="topbar-breadcrumb">
-      <a href={`/${lang}/luke/${chapter}`}>{bookName} {chapter}</a>
+      {hasMultipleBooks ? (
+        <div class="topbar-book-switcher">
+          <button
+            class="topbar-book-btn"
+            id="topbar-book-btn"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-label={`${booksLabel} — ${bookName}`}
+          >
+            <span>{bookName}</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="topbar-book-menu" id="topbar-book-menu" role="menu">
+            <p class="topbar-book-menu-label">{booksLabel}</p>
+            {switcherBooks.map(b => (
+              <a
+                href={`/${lang}/${b.id}/`}
+                class:list={["topbar-book-menu-item", b.active && "is-active"]}
+                role="menuitem"
+              >
+                <span class="material-symbols-rounded">menu_book</span>
+                <span>{b.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <span class="topbar-book-name">{bookName}</span>
+      )}
+      <a href={`/${lang}/luke/${chapter}`} class="topbar-chapter-link">{chapter}</a>
       <span class="breadcrumb-sep">›</span>
       <span class="topbar-title">{pericope.title}</span>
       <span class="topbar-ref">{chapter}:{pericope.verses}</span>
@@ -306,6 +357,104 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
     color: var(--color-accent);
     opacity: 0.7;
     white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Book switcher (replaces plain book name when multiple books exist) */
+  .topbar-book-switcher {
+    position: relative;
+    flex-shrink: 0;
+    margin-right: -0.25rem;
+  }
+  .topbar-book-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.4rem 0.25rem 0.5rem;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: var(--color-accent);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .topbar-book-btn:hover {
+    background: rgba(139, 115, 85, 0.08);
+    border-color: rgba(139, 115, 85, 0.2);
+  }
+  .topbar-book-btn[aria-expanded="true"] {
+    background: rgba(139, 115, 85, 0.12);
+    border-color: rgba(139, 115, 85, 0.25);
+  }
+  .topbar-book-btn svg { transition: transform 0.18s ease; opacity: 0.6; }
+  .topbar-book-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
+
+  .topbar-book-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 220px;
+    background: var(--color-paper, #FFFBF5);
+    border: 1px solid rgba(139, 115, 85, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    padding: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0s linear 0.15s;
+    z-index: 50;
+  }
+  .topbar-book-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .topbar-book-menu-label {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #8B7355);
+    padding: 0.35rem 0.5rem 0.4rem;
+  }
+  .topbar-book-menu-item {
+    display: flex !important;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.45rem 0.625rem;
+    border-radius: 8px;
+    color: var(--color-charcoal, #3D3530) !important;
+    text-decoration: none !important;
+    transition: background 0.12s ease;
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.875rem;
+  }
+  .topbar-book-menu-item:hover {
+    background: rgba(139, 115, 85, 0.08);
+    text-decoration: none !important;
+  }
+  .topbar-book-menu-item.is-active {
+    background: rgba(139, 115, 85, 0.12);
+    color: var(--color-accent, #8B7355) !important;
+    font-weight: 600;
+  }
+  .topbar-book-menu-item .material-symbols-rounded {
+    font-size: 1rem;
+    color: var(--color-accent, #8B7355);
+    flex-shrink: 0;
+  }
+  .topbar-book-name {
+    color: var(--color-accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .topbar-chapter-link {
     flex-shrink: 0;
   }
 
@@ -515,6 +664,49 @@ const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 
         applyStudy(study);
       });
     }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+
+// ── Topbar book switcher menu ────────────────────────────────────────
+(function () {
+  function init() {
+    var btn = document.getElementById('topbar-book-btn');
+    var menu = document.getElementById('topbar-book-menu');
+    if (!btn || !menu) return;
+
+    function close() {
+      btn.setAttribute('aria-expanded', 'false');
+      menu.classList.remove('open');
+    }
+    function open() {
+      btn.setAttribute('aria-expanded', 'true');
+      menu.classList.add('open');
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var isOpen = btn.getAttribute('aria-expanded') === 'true';
+      if (isOpen) close(); else open();
+    });
+
+    document.addEventListener('click', function (e) {
+      if (btn.getAttribute('aria-expanded') !== 'true') return;
+      if (e.target.closest('#topbar-book-menu') || e.target.closest('#topbar-book-btn')) return;
+      close();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+        close();
+        btn.focus();
+      }
+    });
   }
 
   if (document.readyState === 'loading') {
