@@ -1,60 +1,53 @@
 # Luuka evangeelium -- Sissejuhatus
 
+Kõige radikaalsem, mida Luukas ütleb, on see: need, kes tegelikult kuuluvad, on alati teised kui need, keda sa ootad.
+
+Karjased -- esimese sajandi Juudamaa madalaim sotsiaalne kiht, töö pärast rituaalselt ebapuhas ja enamikust ruumidest välja jäetud -- on esimesed, kes sünnist kuulevad. Samaarlane, rahvagrupist, mida juudid kõige enam põlgasid, saab inimliku sündsuse definitsiooniks. Maksukoguja -- okupatsioonivõimu kaastööline, omaenda rahva vihatud -- võetakse vastu enne, kui religioosne eliit üldse sõna saab. Naised, kes ei tohtinud üheski kohtuasjas tunnistada, on ülestõusmise esimesed tunnistajad.
+
+See pole juhus. See on Luuka argument, mille ta juba esimeses peatükis välja ütleb: *"Ta tõukas võimsad troonidelt ja ülendas väikesed."* See üks lause on võti kogu raamatule.
+
 ## Mis laadi raamat see on?
 
-Kes avab evangeeliumi esimest korda, ootab midagi valesti. Kas ajalehe reportaaži -- pealtnägijate tunnistused, kontrollitavad faktid -- või usulist propagandat, mis on maskeeritud ajalooks. Luukas ei ole kumbagi.
+Enamik inimesi, kes evangeeliumi kätte võtab, toob kaasa valed ootused -- kas ajalehe reportaaži pealtnägijate ja faktidega, või usulist propagandat, maskeeritud ajalooks. Luukas pole kumbagi.
 
-Luukas kirjutas žanris, mida antiikmaailmas nimetati *bios* -- ühe inimese elu. Plutarchos kirjutas neid. Suetonius ja Tacitus samuti. Reeglid olid algsetele lugejatele selged: sa valid episoodid, mis destilleerivad ühe elu olemuse. Sa korrastad materjali mitte kalendri järgi, vaid argumendi järgi. Sa koostad kõnesid -- mitte võltsimisena, vaid tunnustatud kirjandusliku praktikana. Mida see inimene oleks selles olukorras öelnud? Kõik antiikaja ajalookirjutajad tegid nii. Nende lugejad teadsid seda.
+Luukas kirjutas žanris, mida antiikmaailmas nimetati *bios* -- ühe inimese elu. Plutarchos kirjutas neid. Suetonius, Tacitus. Reeglid olid algsetele lugejatele selged: valid episoodid, mis destilleerivad inimese olemuse. Korrastad materjali argumendi, mitte kalendri järgi. Kirjutad kõned -- mitte pettusena, vaid tunnustatud kirjandusliku praktikana: mida see inimene oleks selles olukorras öelnud? Kõik antiikaja ajalookirjutajad tegid nii. Nende lugejad teadsid seda.
 
-Luukas ütleb seda ise esimestes neljas lauses. Ta on uurinud, konsulteerinud allikaid, rääkinud pealtnägijatega ja kirjutab nüüd "korrastatud jutustuse" inimesele nimega Teofilos. Korrastatud ei tähenda kronoloogiline. See tähendab: jutustatud kavatsusega.
+Luukas ütleb seda ise esimestes neljas lauses. Ta on uurinud, konsulteerinud allikaid, rääkinud pealtnägijatega ja kirjutab nüüd "korrastatud jutustuse" inimesele nimega Teofilos. Korrastatud tähendab: jutustatud kavatsusega -- mitte kronoloogiline, mitte ammendav. Valik *on* argument.
 
-## Kes selle kirjutas
+Autor ei nimeta end kunagi. "Luukas" pärineb teise sajandi traditsioonist -- võimalik, et arst, keda Pauluse kirjades põgusalt mainitakse. Mida tekst ise näitab: haritud kirjutaja, hea kreeka keel, juudi pühakirjade sügav tundmine nende kreekakeelses tõlkes, tõenäoliselt ise mittejuut. Kirjutatud aastate 80 ja 95 vahel, umbes viiskümmend aastat pärast sündmusi, lugejatele, kes polnud kunagi Juudamaal käinud. On jätk: Apostlite teod on sama projekti teine osa.
 
-Autor ei nimeta end kunagi. "Luukas" pärineb teise sajandi traditsioonist -- võimalik, et arst, keda Pauluse kirjades põgusalt mainitakse. Omistus võib olla õige. Võib ka olla vale. Teadlased ei ole üksmeelel. Mida tekst ise näitab: autor oli haritud, kirjutas head kreeka keelt, tundis juudi pühakirju nende kreekakeelses tõlkes ja oli tõenäoliselt ise mittejuut. Ta kirjutas lugejatele, kes polnud kunagi Juudamaal käinud ja vajasid kõige selgitamist -- kombed, võimusuhted, religioosne loogika.
-
-Tõenäoline dateering jääb aastate 80--95 pKr vahele, umbes viiskümmend aastat pärast sündmusi. Ja on jätk: Apostlite tegude raamat on sama projekti teine osa.
-
-## Kuidas antiikne biograafia töötab
+## Kuidas seda lugeda
 
 Kolm asja, mida algsed lugejad teadsid ja mida sinagi peaksid teadma.
 
-Esiteks: kõned antiiktekstides ei ole protokollid. Ükski antiikaja autor ei väitnud, et ta edastab sõna-sõnalt, mida keegi ütles. Ta esitas seda, mida inimene oleks tõenäoliselt selles olukorras öelnud -- kontsentreeritult, teravdatult, järelduseni viiduna. Thukydides tegi seda. Luukas tegi seda. See polnud pettus. See oli teistsugune leping autori ja lugeja vahel.
+Kõned antiiktekstides ei ole protokollid. Ükski antiikaja autor ei väitnud, et ta edastab sõna-sõnalt, mida keegi ütles. Nad esitasid seda, mida inimene oleks tõenäoliselt selles olukorras öelnud -- tihendatult, teravdatult, järelduseni viiduna. Thukydides tunnistas seda otse. Luukas töötab samamoodi. See polnud pettus. See oli teistsugune leping autori ja lugeja vahel.
 
-Teiseks: arvudel on tihti sümboolne kaal. Kaksteist apostlit, seitsekümmend saadikut, nelikümmend päeva kõrbes -- need pole juhused, vaid tähenduskandjad, mida juudi haridusega publik oleks kohe ära tundnud.
+Arvudel on tihti sümboolne kaal. Kaksteist apostlit, seitsekümmend saadikut, nelikümmend päeva kõrbes -- need on tähenduskandjad, mida juudi haridusega publik oleks kohe ära tundnud, mitte juhused.
 
-Kolmandaks: valik on tõlgendus. Luukas ei jutusta kõike, mis juhtus. Ta valib, tihendab, jätab välja -- ja just selles valikus elab tema argument.
+Valik on tõlgendus. Luukas ei jutusta kõike, mis juhtus. Ta valib, tihendab, jätab välja -- ja just selles valikus elab tema argument. Kui midagi on Luukal, aga mitte teistes evangeeliumides, tasub küsida, miks. Enamasti teeb see tööd.
 
-## Keskne idee
+## Kuidas lugu liigub
 
-Luukasel on argument. Seda saab öelda ühe lausega: kõrvaleseisja on alati see, kes tegelikult kuulub.
+Jutustus järgib geograafiat. See algab templis Jeruusalemmas, liigub põhja poole maapiirkonda Galileasse ja pöördub siis pikas, aeglases kaares tagasi Jeruusalemma. Kaar, mis kulgeb peatükkidest 9 kuni 19, on raamatu süda: Jeesus teel linna, kus ta teab, mis teda ootab. Teel õpetab ta, räägib lugusid, tervendab, vaidleb. Luukas ei kiirusta. Teekond pole eelmäng päris loole -- teekond *on* lugu.
 
-Karjased -- esimese sajandi Juudamaa madalaim sotsiaalne kiht -- on esimesed, kes sünnist kuulevad. Samaarlane, rahvagrupist, mida juudid kõige enam põlgasid, saab kaastunde definitsiooniks. Maksukoguja -- koostööline okupatsioonivõimuga, omaenda rahva vihatud -- võetakse vastu enne, kui religioosne eliit üldse sõna saab. Naised, kes ei tohtinud üheski kohtuasjas tunnistada, on ülestõusmise esimesed tunnistajad.
+Raamat algab kahe sünnilooga kõrvuti: prohveti oma ja selle oma, kes kõike muudab. Lõpp ei ole triumf, vaid söömaaeg, tühi haud ja juhis oodata. Lõpp, mis avab.
 
-See pole juhus. See on süsteemne. Juba esimeses peatükis ütleb üks tegelastest: "Ta tõukas võimsad troonidelt ja ülendas väikesed." See lause on võti kogu raamatule.
+## Mida tähele panna
 
-## Kuidas raamat liigub
+Luukal on rohkem naisi ja aktiivsemates rollides kui üheski teises evangeeliumis. Maarja ei võta lihtsalt sõnumit vastu -- ta vastab lauluga, mis on poliitiliselt kõige teravam kõne kogu Uues Testamendis. Eliisabet on prohvet. Anna on prohvet. Naiste rühm rahastab kogu liikumist, nimepidi nimetatud. Naised on ülestõusmise esimesed tunnistajad. Loe neid kokku. Märka, mida nad ütlevad ja teevad -- mitte ainult, et nad kohal on.
 
-Jutustus järgib geograafiat. See algab templis Jeruusalemmas -- religioosse ja poliitilise võimu keskuses -- liigub põhja poole maapiirkonda Galileasse ja pöördub siis aeglaselt tagasi Jeruusalemma. Kaar, mis kulgeb peatükkidest 9 kuni 19, on raamatu tuum: Jeesus teel linna, kus ta teab, mis teda ootab. Teekonnal ta õpetab, räägib tähendamissõnu, tervendab, arutleb. Luukas ei kiirusta. Reis pole päris loo eelmäng -- reis *ongi* lugu.
+Jälgi, mida raha teeb. Luukas on neljast evangeeliumist kõige otsesõnulisemalt majanduslik. Õnnistused siin ei ütle "õnnelikud on vaimult vaesed" -- nad ütlevad *õnnelikud on vaesed*, punkt. Raamatus on hädad rikaste üle, mida enamik Piibli omanikest pole kunagi lugenud. Küsi, kui loed: mida see tekst arvab, et rikkus inimesega teeb?
 
-Esimesed peatükid jutustavad kaht sündi kõrvuti: prohveti oma ja selle oma, kes kõike muudab. Siis Galilea -- tervendamised, konfliktid autoriteetidega, ootamatu kogukonna kujunemine. Pikk tee Jeruusalemma süvendab küsimust, kes kuulub Jumala projekti. Ja lõpuks: mitte triumf, vaid söömaaeg, tühi haud ja juhis oodata.
+Pane tähele, kes mängib kangelast lugudes, kus kangelast vajatakse. See ei ole peaaegu kunagi see, keda ootad. Inimene, kes määratleb, mida tähendab ligimest armastada, on samaarlane -- rahvagrupp, keda raamatu esialgne juudi publik kõige rohkem põlgas. Ainus pidalitõbine, kes tänama tagasi tuleb, on samuti samaarlane. Sõdur, kelle usk Jeesust hämmastab, on Rooma okupant. Kui Luukal on vaja näidata, mis on õige tegu, sirutab ta iga kord käe ringist välja.
+
+Ja küsi kogu raamatu vältel: *keda Jeesus märkab?* Tema pilk langeb inimestele, kelle esimese sajandi ühiskond tegi nähtamatuks. Järgi seda pilku.
 
 ## Miks seda praegu lugeda
 
-Eestis on Piibliga kummaline lugu. Nõukogude aeg lõikas institutsionaalse religiooni enamiku perede elust välja. Teie vanemate põlvkond kasvas ilma selleta. Teie põlvkond kasvas ilma teadmiseta, et see üldse olemas on. Kirikud on arhitektuur, mitte praktika. Jõulud on pühad, mitte pühapäev.
+Eestis on Piibliga kummaline lugu. Nõukogude aeg lõikas institutsionaalse religiooni enamiku perede elust välja. Vanemate põlvkond kasvas ilma selleta. Teie põlvkond kasvas ilma teadmata, et see üldse on olemas. Kirikud on arhitektuur, mitte praktika. Jõulud on pühad, mitte pühapäev.
 
-See tähendab, et teil on midagi, mida enamikul lugejatel pole: värsked silmad. Sakslased kannavad Lutherpiibli kõlamälestust kaasas. Taanlased teavad jõuluevangeeliumit peast. Tšehhid on Piibli vastu iroonilised. Teie -- te lihtsalt ei tea seda teksti. See on eelis.
+See tähendab, et teil on midagi, mida enamikul lugejatel pole: värsked silmad. Luukas kirjutas inimestele, kes ei teadnud seda ka. Tema lugejad olid haritud kreeklased ja roomlased, kes esitasid praktilist küsimust: kes see inimene oli ja miks ta viiskümmend aastat hiljem ikka veel loeb? Kui sa loed seda ilma kirikutaustata -- ilma leeritundideta, ilma koguduse kogemuseta, ilma institutsionaalse pagasita -- oled sa täpselt see publik, kellele see algselt kirjutati.
 
-Sest Luukas kirjutas inimestele, kes ei teadnud seda ka. Tema lugejad olid haritud kreeklased ja roomlased, kes esitasid praktilise küsimuse: kes see inimene oli ja miks ta viiskümmend aastat hiljem ikka veel loeb? Kui sa loed seda teksti ilma kirikutaustata -- ilma leeritundideta, ilma koguduse kogemuseta, ilma institutsionaalse pagasita -- oled sa täpselt see publik, kellele see algselt kirjutati.
+Tekst räägib asjadest, mis pole kuhugi kadunud. Kes kuulub ja kes mitte. Mida rikkus inimesega teeb. Kuidas võim end õigustab. Kas andeksandmine on nõrkus või tugevus. Need pole esimese sajandi küsimused. Need on Telliskivi küsimused.
 
-Ja tekst ise räägib asjadest, mis pole kuhugi kadunud. Kes kuulub ja kes mitte. Mida rikkus inimesega teeb. Kuidas võim end õigustab. Kas andeksandmine on nõrkus või tugevus. Need pole esimese sajandi küsimused. Need on Telliskivi küsimused.
-
-## Sellest tõlkest
-
-Eestis on Piibel tõlgitud kolm korda. 1739. aasta Piibel on eesti kirjakeele monument, aga selle keel on muuseumiesemete keel -- ilus ja kauge. 1968/1997 tõlge on mõistetavam, aga loeb nagu kiriku komisjoni dokument. Mõlemad saadavad sama signaali: see pole sulle.
-
-Aperto tõlgib Luuka evangeeliumi tänapäevasesse eesti kirjanduskeelde. Mitte piiblieesti, mitte komisjonieesti, mitte kõnekeelt. Keelt, mis on täpne ja elus -- sellist, mille kõrval Kivirähk või Õnnepalu tunneksid end koduselt. Mitte selleks, et teksti kahandada, vaid selleks, et kuulda seda selgemalt. Luukas kirjutas omal ajal selges, otseses, elavas keeles. Me teeme sedasama.
-
----
-
-**Sõnade arv**: ~960
-**Kasutatud teadlased**: Fitzmyer (Anchor Bible), Bovon (Hermeneia), Bock (Baker Exegetical)
+Ava see.

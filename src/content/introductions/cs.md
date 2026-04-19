@@ -1,57 +1,49 @@
 # Lukáš — Úvod
 
-## Co to vlastně je za text?
+Ta nejradikálnější věta celé Lukášovy knihy zazní už v první kapitole — a nezpívá ji žádný vůdce, ani prorok. Zpívá ji mladá, neprovdaná žena z galilejské vesnice, odkud nikdo nic neznamená: *Svrhl mocné z trůnů a povýšil ponížené. Hladové nasytil, bohaté poslal pryč s prázdnou.* V jazyce prvního století to není zbožné přání. Je to politické vyhlášení.
 
-Kdo otevře evangelium poprvé, většinou přichází s nesprávnou představou. Buď čeká reportáž — fakta, data, ověřitelné informace —, nebo náboženskou propagandu v historickém kostýmu. Obojí je vedle.
+V téhle jedné větě je teze celé knihy: kdo na první pohled stojí venku, stojí ve skutečnosti uprostřed. Do ní se rozloží skoro každý další příběh.
 
-To, co Lukáš napsal, patří k antickému žánru zvanému *bios* — životopis. Psali je Plutarchos, Sueton, Tacitus. Pravidla tohoto žánru jsou jiná, než na co jsme zvyklí, ale byla jasná: autor vybírá scény, které zhušťují podstatu jednoho života. Řadí materiál ne podle kalendáře, ale podle argumentu. Komponuje řeči — ne jako podvrh, ale jako uznávanou literární praxi. Co by tato osoba v této situaci řekla? Tak pracovali všichni antičtí historikové a jejich publikum to vědělo.
+## Co je to za text
 
-Lukáš sám v prvních čtyřech větách říká, co má v plánu: prozkoumal zdroje, vyslechl svědky, a teď píše „uspořádaný výklad" pro jistého Theofila. Uspořádaný neznamená chronologický. Znamená to: vyprávěný se záměrem.
+Kdo otevře evangelium poprvé, obvykle přichází se špatným očekáváním. Buď čeká reportáž s ověřitelnými fakty, nebo náboženskou propagandu v historickém kostýmu. Lukáš nedělá ani jedno.
 
-## Kdo to napsal
+To, co napsal, patří k antickému žánru zvanému *bios* — životopis. Psali je Plutarchos, Suetonius, Tacitus. Pravidla dnes znějí cize, ale tehdy byla jasná: autor vybírá scény, které zhustí smysl jednoho života. Řadí materiál ne podle kalendáře, ale podle argumentu. Komponuje řeči — ne jako podvrh, ale jako uznávanou literární praxi: co by tahle osoba v téhle situaci řekla? Tak pracovali všichni antičtí historici a publikum to vědělo.
 
-Autor se nikde nejmenuje. „Lukáš" je jméno, které mu přisoudila tradice druhého století — snad lékař, který se mihne v Pavlových dopisech. Přisouzení může být správné, ale nemusí, a odborníci se dodnes neshodnou. Nevíme, kdo to napsal. To je poctivá odpověď.
+Lukáš to sám říká v prvních čtyřech větách: prozkoumal zdroje, vyslechl svědky, a teď píše „uspořádaný výklad" pro jistého Teofila. Uspořádaný neznamená chronologický. Znamená: vyprávěný se záměrem.
 
-Co text prozrazuje sám: jeho autor byl vzdělaný, psal stylisticky jisté řečtiny, znal židovské texty v jejich řeckém překladu a pravděpodobně nebyl Žid. Psal pro čtenáře, kteří Judeu nikdy nenavštívili — vysvětluje jim zvyky, mocenské poměry, náboženskou logiku. Jako průvodce pro cizince.
+Autor se nikde nejmenuje. „Lukáš" je jméno, které mu přisoudila tradice druhého století — snad lékař mihnoucí se v Pavlových dopisech; kritický výzkum jistotu nenabízí. Co text prozrazuje sám: vzdělaný pisatel, jistá řečtina, znalost židovských spisů v řeckém překladu, pravděpodobně nežidovský původ. Vznik mezi lety 80 a 95, tedy asi padesát let po událostech. A existuje pokračování: Skutky apoštolů jsou druhý díl téhož projektu.
 
-Pravděpodobná doba vzniku: mezi lety 80 a 95 našeho letopočtu, tedy zhruba padesát let po událostech. A existuje pokračování — Skutky apoštolů jsou druhý díl téhož projektu. Lukáš vyprávěl příběh, který Velikonocemi nekončí.
+## Jak číst antický text
 
-## Jak fungují antické texty
+Tři věci, které tehdejší publikum vědělo a které dnešní čtenář potřebuje.
 
-Tři věci, které tehdejší publikum vědělo a které moderní čtenář potřebuje dostat:
+Řeči nejsou stenogramy. Žádný antický autor netvrdil, že doslova zapsal, co kdo řekl. Zapsal, co by ta osoba pravděpodobně řekla — zhustil, přiostřil, dovedl k pointě. Tak pracoval Thúkydides, tak Lukáš. Není to podvod, je to jiná dohoda mezi autorem a čtenářem.
 
-Za prvé: řeči v antických textech nejsou přepisy. Žádný antický autor netvrdil, že doslova zaznamenal, co kdo řekl. Zaznamenal, co by ta osoba v dané situaci pravděpodobně řekla — zhustil, přiostřil, dovedl k pointě. Platilo to pro Thúkýdida stejně jako pro Lukáše. Není to podvod. Je to jiná dohoda mezi autorem a čtenářem.
+Čísla mají často symbolickou funkci. Dvanáct apoštolů, sedmdesát vyslanců, čtyřicet dní na poušti — nejde o náhodná čísla, ale o nositele významu, které židovsky vzdělané publikum rozpoznalo okamžitě.
 
-Za druhé: čísla mají symbolickou funkci. Dvanáct apoštolů, sedmdesát vyslanců, čtyřicet dní na poušti — to nejsou náhodná čísla, ale nositelé významu, které židovské publikum okamžitě rozpoznalo.
-
-Za třetí: výběr je interpretace. Lukáš nevyprávěl všechno, co se stalo. Vybíral, zhušťoval, vynechával — a právě v tom výběru je jeho argument.
-
-## Klíčová myšlenka
-
-Každá kniha má tezi. Lukášova se dá říct jednou větou: kdo vypadá, že stojí venku, stojí ve skutečnosti uprostřed.
-
-Pastýři — nejnižší profesní vrstva v Judei prvního století — se jako první dozvídají o narození. Samaritán, z etnické skupiny, kterou Židé nejhlouběji pohrdali, se stává ztělesněním soucitu. Celník — kolaborant okupační moci, vlastní komunitou zavržený — je zachráněn dříve, než se náboženská elita vůbec dostane ke slovu. Ženy, které před žádným soudem nemohly svědčit, jako první dosvědčují vzkříšení.
-
-To není náhodné. Je to systematické. Lukáš důsledně převrací, kdo patří dovnitř. Už v první kapitole zaznívá: „Mocné svrhl z trůnů a ponížené pozvedl." Tahle jedna věta je klíč k celé knize. Kdo si ji zapamatuje, zjistí, že se do ní téměř každý příběh rozloží.
+Výběr je interpretace. Lukáš nevypráví všechno, co se stalo — vybírá, zhušťuje, vynechává. A právě v tom výběru je jeho argument. Když se něco objevuje u Lukáše a u ostatních evangelistů ne, stojí za to ptát se proč. Obvykle to má důvod.
 
 ## Jak se příběh pohybuje
 
-Vyprávění sleduje zeměpis. Začíná v jeruzalémském chrámu — náboženském i politickém centru —, posouvá se na galilejský sever a pak se dlouhým, pomalým obloukem vrací zpět do Jeruzaléma. Tenhle oblouk, táhnoucí se přes kapitoly 9 až 19, je srdcem knihy: Ježíš jde vstříc městu, kde ví, co ho čeká. Cestou učí, vypráví podobenství, uzdravuje, hádá se. Lukáš nespěchá. Cesta není předehra k vlastnímu ději — cesta *je* děj.
+Vyprávění sleduje zeměpis. Začíná v jeruzalémském chrámu — náboženském i politickém centru —, posouvá se na galilejský sever a pak se dlouhým, pomalým obloukem vrací zpět do Jeruzaléma. Právě tenhle oblouk, táhnoucí se přes kapitoly 9 až 19, je srdcem knihy: Ježíš jde vstříc městu, o kterém ví, co ho tam čeká. Cestou učí, vypráví podobenství, uzdravuje, hádá se. Lukáš nespěchá. Cesta není předehra k ději — cesta *je* děj. Začátek přináší dvě nemožná narození a zkoušku na poušti; konec nepřináší triumf, ale poslední večeři, prázdný hrob a pokyn čekat. Konec, který se otevírá.
 
-Začátek přináší dvě nemožná narození a zkoušku na poušti. Prostřední část — galilejské působení — ukazuje člověka, který se dotýká nedotknutelných a jí s nesprávnými lidmi. Dlouhá pouť do Jeruzaléma obsahuje skoro všechny slavné příběhy: milosrdný Samaritán, marnotratný syn, Zacheus na stromě. Na konci nestojí triumf, ale poslední večeře, prázdný hrob a pokyn čekat. Konec, který se otevírá.
+## Co stojí za pozornost
 
-## Proč číst tenhle text teď
+Lukáš má víc žen v aktivních rolích než kterékoli jiné evangelium. Marie nejen přijímá zprávu — odpovídá písní, která je politicky nejostřejším textem Nového zákona. Alžběta je prorokyně, Anna je prorokyně. Skupina žen financuje celé hnutí a text je uvádí jmenovitě. Ženy jsou první, kdo svědčí o vzkříšení. Stojí za to je počítat — a všímat si, co říkají a dělají, ne jen toho, že se tam objevují.
 
-V Česku nemá Bible problém s tím, že ji lidé odmítají. Má problém s tím, že pro ně neexistuje. Osmdesát procent populace se náboženstvím nezabývá — ne z hněvu, ne z vzdoru, prostě proto, že to nikdy nebylo téma. Hospodský ateismus není postoj. Je to defaultní stav.
+Nespouštěj z očí peníze. Lukáš je ze čtyř evangelií ekonomicky nejotevřenější. Blahoslavenství tu neříká „blahoslavení chudí duchem" — říká *blahoslavení chudí*, bez přídavku. Kniha obsahuje varování bohatým, která většina majitelů Bible nikdy nečetla. Ptej se cestou: co podle tohohle textu dělá bohatství s člověkem?
 
-Jenže to, co si většina lidí o bibli myslí — pokud si vůbec něco myslí —, vychází z úlomků: vánoční příběh ze školky, kousek z hodiny dějepisu, obecná představa, že je to kniha o tom, jak máte být hodní. Kdo pak skutečně čte Lukáše, tahle jistota rychle padne. Jeho text je političtější, než byste čekali. Radikálnější. Podivnější. Převracení, která popisuje, nejsou nevinné příběhy z nedělní školy — jsou to systematické útoky na představu, kdo si zaslouží moc, kdo patří dovnitř a co bohatství dělá s člověkem. To nejsou otázky prvního století. To jsou otázky, které v Praze, Brně nebo Ostravě nejsou o nic víc vyřešené než tehdy v Galileji.
+Kdo v Lukášových příbězích hraje hrdinu, skoro nikdy není ten, koho bys čekal. Definici lásky k bližnímu dává Samaritán — z etnické skupiny, kterou tehdejší židovské publikum nejhlouběji pohrdalo. Jediný malomocný, který se vrátí poděkovat, je taky Samaritán. Voják, jehož důvěra Ježíše překvapí, je římský okupant. Kdykoli Lukáš potřebuje ukázat, jak vypadá správné jednání, volí někoho zvenčí.
 
-Lukáš psal pro čtenáře, kteří neměli žádný důvod čemukoli z toho věřit. Jeho publikum byli vzdělaní Řekové a Římané s jednou střízlivou otázkou: Kdo byl ten člověk a proč je padesát let poté stále relevantní? — Kdo tento text otevírá bez církevního zázemí a bez zájmu o nějakou instituci, je přesně to publikum, pro které byl napsán.
+A jedna otázka prochází celou knihou: *Koho si Ježíš všímá?* Jeho pohled padá na lidi, které tehdejší společnost udělala neviditelnými. Jít za jeho pohledem je asi nejkratší cesta, jak téhle knize rozumět.
 
-## O tomto překladu
+## Proč to číst teď
 
-Česká Bible má svou historii. Bible kralická vytvořila literární češtinu — a její jazyk je krásný, ale čtyři sta let starý. Český ekumenický překlad je korektní a bezkrevný. Bible21 se snaží být přístupnější, ale stále mluví jazykem, který pozná jen ten, kdo chodí do kostela.
+V Česku nemá Bible problém s odmítáním. Má problém s tím, že pro většinu lidí neexistuje. Zhruba osmdesát procent populace se náboženstvím nezabývá — ne ze vzdoru, ne z hněvu, prostě proto, že to nikdy nebylo téma. Hospodský ateismus není postoj. Je to defaultní stav.
 
-Bible Aperto překládá Lukáše do současné literární češtiny — prózy, která chce být čtena jako literatura, a právě proto otevírá jiný přístup k textu. Žádné archaismy, které simulují slavnostnost. Žádný výborový jazyk, který je správný a mrtvý. Tahle čeština dýchá — je přesná, ale živá, spisovná, ale ne strnulá. Číst evangelium a nebýt u toho v rozpacích. To je záměr.
+Co si většina lidí o Bibli myslí — pokud si vůbec něco myslí —, pochází z úlomků: vánoční vystoupení ze školky, kousek z dějepisu, představa, že jde o knihu o tom, jak má člověk být hodný. Kdo Lukáše skutečně otevře, o tuhle jistotu rychle přijde. Jeho text je političtější, než by čekal. Radikálnější. Podivnější. Převracení, o kterých mluví, jsou systematické útoky na představu, kdo si zaslouží moc, kdo patří dovnitř a co bohatství dělá s člověkem. V Praze, Brně nebo Ostravě ty otázky nejsou o nic víc vyřešené než tehdy v Galileji.
 
-Přečtěte si to a usoudíte sami. Víc po vás Lukáš nechce.
+Lukáš psal pro čtenáře, kteří neměli žádný důvod čemukoli z toho věřit. Jeho publikum tvořili vzdělaní Řekové a Římané s jednou střízlivou otázkou: Kdo byl ten člověk a proč je padesát let poté stále důležitý? Kdo otevírá tenhle text bez církevního zázemí a bez vazby na jakoukoli instituci, je přesně to publikum, pro které byl napsán.
+
+Otevři ho.

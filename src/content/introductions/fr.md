@@ -1,55 +1,47 @@
 # Luc — Introduction
 
-## Quel type de livre est-ce ?
+Une jeune femme enceinte, non mariée, dans un village de Galilée — un endroit où personne n'avait voix au chapitre — chante un cantique que Luc place au début de son livre : *Il a renversé les puissants de leurs trônes et élevé les humbles. Il a comblé de biens les affamés et renvoyé les riches les mains vides.* Ce qui sonne comme un psaume est une déclaration politique. Elle n'est pas là par hasard.
 
-On arrive souvent devant un evangile avec les mauvaises attentes. Soit on attend un reportage — des faits verifiables, des dates, des sources croisees — soit on s'attend a de la propagande religieuse deguisee en recit. Luc ne fait ni l'un ni l'autre.
+Dans cette seule phrase tient la thèse du livre : celui qui paraît dehors se trouve, à y regarder de près, au centre. Presque chaque récit qui suit s'y résout.
 
-Ce qu'il ecrit appartient a un genre antique : le *bios*, la biographie. Plutarque en a ecrit. Suetone aussi. En France, on connait ces auteurs. Ce sont des classiques. Le *bios* ne fonctionne pas comme une biographie moderne. L'auteur choisit des scenes. Il les ordonne non par chronologie, mais par argument. Il compose des discours — pas par tromperie, mais parce que c'etait la convention. Thucydide faisait pareil. Et son public le savait.
+## Quel genre de livre est-ce ?
 
-Luc le dit lui-meme des les quatre premiers versets : il a enquete, consulte des temoins, evalue des sources, et il ecrit maintenant un « recit ordonne » pour un certain Theophile. Ordonne ne veut pas dire chronologique. Ca veut dire : raconte avec une intention.
+On arrive souvent devant un évangile avec les mauvaises attentes. Soit un compte rendu factuel — faits vérifiables, sources croisées. Soit de la propagande religieuse déguisée en histoire. Luc ne fait ni l'un ni l'autre.
 
-## Qui l'a ecrit
+Ce qu'il a écrit appartient à un genre antique qu'on appelait le *bios* — une vie. Plutarque en a composé, Suétone, Tacite. Les règles étaient connues : on choisit des scènes qui condensent l'essentiel ; on ordonne la matière non selon le calendrier, mais selon l'argument ; on compose des discours — pas comme falsification, mais comme pratique littéraire reconnue. Luc le dit lui-même dès ses quatre premiers versets : il a enquêté, interrogé des témoins, et il écrit un « récit ordonné » pour un certain Théophile. Ordonné ne veut pas dire chronologique : raconté avec une intention. La sélection est l'argument.
 
-L'auteur ne se nomme jamais. « Luc » est un nom attribue par la tradition du deuxieme siecle — peut-etre le medecin mentionne brievement dans les lettres de Paul. Peut-etre pas. La recherche historico-critique n'a pas tranche.
+L'auteur ne se nomme jamais. « Luc » est une attribution du deuxième siècle — peut-être le médecin mentionné dans les lettres de Paul, peut-être pas. Le texte révèle un homme cultivé, un grec soigné, une connaissance des Écritures juives dans leur version grecque, et probablement pas juif. Il écrit entre 80 et 95 de notre ère, pour des lecteurs qui n'avaient jamais mis les pieds en Judée. Il y a une suite : les Actes des Apôtres sont le deuxième volume du même projet.
 
-Ce que le texte revele : son auteur etait cultive, ecrivait un grec soigne, connaissait les Ecritures juives dans leur traduction grecque, et n'etait probablement pas juif lui-meme. Il ecrivait pour des lecteurs qui n'avaient jamais mis les pieds en Judee et a qui il fallait tout expliquer — coutumes, rapports de pouvoir, logique religieuse. Date probable : entre 80 et 95 de notre ere, soit environ cinquante ans apres les evenements. Il a aussi ecrit une suite : les Actes des Apotres. Pour Luc, l'histoire ne s'arrete pas a Paques.
+## Comment lire un texte antique
 
-## Comment fonctionnent les textes antiques
+Les discours ne sont pas des transcriptions. Aucun auteur antique n'a prétendu citer mot pour mot. Il restituait ce que cette personne aurait dit dans cette situation — condensé, mis en forme. Thucydide travaillait ainsi, Luc pareil. Un autre contrat entre auteur et lecteur, pas une tromperie.
 
-Trois choses que le premier public savait et qu'un lecteur d'aujourd'hui doit avoir en tete.
+Les chiffres pèsent souvent symboliquement. Douze apôtres, soixante-dix envoyés, quarante jours au désert — des signaux qu'un public juif décodait immédiatement.
 
-Premierement : les discours ne sont pas des transcriptions. Aucun auteur antique ne pretendait citer mot pour mot. Il restituait ce que cette personne aurait probablement dit dans cette situation — condense, aiguise, mis en forme. C'etait vrai pour Thucydide comme pour Luc. Ce n'est pas de la falsification. C'est un autre contrat entre auteur et lecteur.
+Choisir, c'est interpréter. Luc ne raconte pas tout. Il sélectionne, condense, omet — et sa thèse loge dans cette sélection. Quand quelque chose apparaît chez Luc et nulle part ailleurs, il y a une raison.
 
-Deuxiemement : les chiffres fonctionnent souvent comme des symboles. Douze apotres, soixante-dix envoyes, quarante jours au desert — ce ne sont pas des hasards. Ce sont des signaux que le public juif de l'epoque decodait immediatement.
+## Comment l'histoire avance
 
-Troisiemement : choisir, c'est argumenter. Luc ne raconte pas tout ce qui s'est passe. Il selectionne, condense, omet. Et c'est precisement dans ce choix que se construit sa these.
+L'histoire suit une géographie. Elle commence au Temple de Jérusalem, se déplace vers la Galilée rurale au nord, puis revient dans un arc long et lent vers Jérusalem. Cet arc, qui s'étend des chapitres 9 à 19, est le cœur du livre : Jésus marche vers une ville où il sait ce qui l'attend. En chemin, il enseigne, guérit, se dispute. Luc n'est pas pressé. La marche n'est pas le prélude à l'action — la marche *est* l'action. À la fin, pas de triomphe. Un repas, un tombeau vide, la consigne d'attendre. Une fin qui s'ouvre.
 
-## L'idee centrale
+## Ce qui retient l'attention
 
-Chaque livre a un argument. Celui de Luc tient en une phrase : celui qui semble etre dehors est en realite au centre.
+Luc donne plus de place aux femmes, avec des rôles plus actifs, que n'importe quel autre évangile. Marie ne reçoit pas seulement un message : elle répond par un cantique qui est le discours le plus politiquement chargé du Nouveau Testament. Élisabeth est prophétesse. Anne aussi. Un groupe de femmes finance le mouvement entier, et Luc les nomme. Des femmes sont les premiers témoins de la résurrection. Les compter. Remarquer ce qu'elles disent et font, pas seulement qu'elles apparaissent.
 
-Des bergers — la profession la plus basse en Judee au premier siecle — apprennent les premiers la naissance. Un Samaritain, issu du peuple le plus meprise par les Juifs, incarne la compassion. Un collecteur d'impots, collaborateur de l'occupant romain et rejete par sa propre communaute, est sauve avant meme que l'elite religieuse ait pris la parole. Des femmes, qui n'avaient aucun droit legal de temoigner devant un tribunal, sont les premiers temoins de la resurrection.
+Ne pas quitter l'argent des yeux. Luc est le plus directement économique des quatre évangiles. Les Béatitudes, chez lui, ne disent pas « heureux les pauvres en esprit » — elles disent *heureux vous, les pauvres*, sans réserve. Le livre contient des menaces contre les riches que la plupart des possesseurs de bible n'ont jamais lues. Une question court sous chaque page : que fait la richesse à un être humain ?
 
-Ce n'est pas accidentel. C'est systematique. Luc inverse methodiquement les hierarchies. Des le premier chapitre, Marie chante : « Il a renverse les puissants de leurs trones et eleve les humbles. » Cette phrase est la cle de tout le livre. Chaque recit s'y rapporte.
+Remarquer qui joue le héros quand un héros est nécessaire. Presque jamais celui qu'on attendait. Celui qui définit ce que veut dire aimer son prochain est un Samaritain — le groupe le plus méprisé par le public juif du livre. L'unique lépreux qui revient pour remercier est samaritain lui aussi. Le soldat dont la foi étonne Jésus est un occupant romain. Quand Luc montre l'action juste, il tend la main hors du cercle, chaque fois.
 
-## Comment l'histoire se deploie
-
-L'histoire suit une geographie. Elle commence dans le Temple de Jerusalem — le centre religieux et politique —, se deplace vers le nord, en Galilee, puis revient vers Jerusalem dans un arc long et lent. Cet arc, qui s'etend sur les chapitres 9 a 19, est le coeur du livre : Jesus marche vers une ville ou il sait ce qui l'attend. En chemin, il enseigne, raconte des paraboles, guerit, se dispute avec les autorites. Luc ne se presse pas. Le voyage n'est pas le chemin vers l'action — le voyage *est* l'action.
-
-A la fin, pas de triomphe. Un repas, une tombe vide, et la consigne d'attendre. Une fin qui s'ouvre.
+Garder cette question à travers tout le livre : *qui Jésus voit-il ?* Son regard tombe sur les invisibles de son siècle. Suivre ce regard est peut-être le chemin le plus direct pour comprendre le texte.
 
 ## Pourquoi le lire maintenant
 
-En France, la Bible a un probleme specifique : elle appartient a un monde qu'on a quitte. Depuis 1905, la laicite structure la vie publique. La religion est privee, au mieux. Suspecte, souvent. L'Eglise catholique porte un poids historique — siecles d'autorite, compromissions avec le pouvoir, conservatisme social. Le reflexe est clair : ce qui sonne religieux est soit archaique, soit manipulateur. On ferme le livre.
+En France, la Bible a un problème spécifique : elle appartient à un monde qu'on a quitté. Depuis 1905, la laïcité structure la vie publique. La religion est privée, au mieux. Suspecte, souvent. L'Église catholique porte un poids historique — siècles d'autorité, compromissions avec le pouvoir, conservatisme social. Ce qui sonne religieux est soit archaïque, soit manipulateur. On ferme le livre.
 
-Sauf que Luc n'ecrit pas pour les croyants. Il ecrit pour des lecteurs cultives du monde greco-romain qui n'avaient aucune raison d'accorder du credit a cette histoire. Son public ressemblait au notre : sceptique, eduque, habitue a evaluer les arguments. Sa methode n'est ni la peur ni l'autorite. C'est la coherence narrative et l'authenticite humaine.
+Sauf que Luc n'écrivait pas pour des croyants. Il écrivait pour des lecteurs cultivés du monde gréco-romain qui n'avaient aucune raison d'accorder le moindre crédit à cette histoire. Son public ressemblait au nôtre : sceptique, éduqué, habitué à évaluer les arguments. Sa méthode n'est ni la peur ni l'autorité — c'est la cohérence narrative et la justesse humaine.
 
-Et puis il y a les questions. La richesse : qu'est-ce qu'elle fait a un etre humain ? Le pouvoir : a quoi ressemblerait une vie qui n'est pas dominee par lui ? L'exclusion : qui decide qui est dedans et qui est dehors ? Ce ne sont pas des questions du premier siecle. Ce sont les notres. A Paris, a Lyon, a Bordeaux, on vit avec ces tensions chaque jour. Luc ne les resout pas. Il les pose avec une precision qui derange.
+Les questions qu'il pose sont les nôtres. La richesse : qu'est-ce qu'elle fait à un être humain ? Le pouvoir : à quoi ressemble une vie qui ne lui est pas soumise ? L'exclusion : qui décide qui est dedans ? Luc ne les résout pas. Il les pose avec une précision qui dérange.
 
-Emmanuel Carrere a ecrit *Le Royaume* en 2014 — une enquete litteraire d'un sceptique sur les debuts du christianisme. Des centaines de milliers de lecteurs francais l'ont lu. Ce n'etait pas un acte de foi. C'etait de la curiosite intellectuelle. Luc merite la meme curiosite.
+En 2014, Emmanuel Carrère a publié *Le Royaume* — une enquête littéraire d'un sceptique sur les débuts du christianisme. Des centaines de milliers de lecteurs l'ont lu. Ce n'était pas un acte de foi. C'était de la curiosité intellectuelle. Luc mérite la même.
 
-## A propos de cette traduction
-
-La Louis Segond — avec ses « L'Eternel », ses « Voici » et ses « En verite, en verite » — sonne aujourd'hui comme une piece de musee. La TOB est un travail de comite, correct et sans vie. La Bible de Jerusalem parle aux scholars. Aucune de ces traductions n'a ete ecrite pour un lecteur francais de 2026 qui decouvre des livres dans *Le Monde des Livres* ou en ecoutant France Culture.
-
-La Bible Aperto traduit Luc en francais contemporain, litteraire, precis. Pas de fausse solennite. Pas d'archaisme pour simuler le sacre. Pas de distance qui mettrait le texte derriere une vitre. Le meme souci de precision que vous attendez d'un roman de Carrere ou d'un recit d'Ernaux. Ce n'est pas de la litterature *a la place* de l'engagement spirituel — c'est de la litterature *comme vehicule* de cet engagement. Parce que la qualite du langage ouvre l'acces au texte. Et le texte, lui, a quelque chose a dire.
+Ouvre-le.

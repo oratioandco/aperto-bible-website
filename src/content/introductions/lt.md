@@ -1,55 +1,53 @@
 # Luko evangelija — Įvadas
 
+Štai pats radikaliausias dalykas, kurį Lukas sako: tie, kurie priklauso, visada kitokie nei tie, kurių tikiesi.
+
+Piemenys — žemiausios padėties darbininkai pirmojo amžiaus Judėjoje, iš daugumos visuomeninių erdvių atstumti, nes jų darbas laikytas rituališkai nešvariu — pirmieji sužino apie gimimą. Samarietis, iš etninės grupės, kurią žydai labiausiai niekino, tampa tuo, kas apibrėžia žmogiškumą. Mokesčių rinkėjas — okupantų kolaborantas, savos bendruomenės atstumtasis — priimamas atgal dar prieš tai, kai religiniai profesionalai spėja ištarti pirmą žodį. Moterys, negalėjusios liudyti jokiame teisme, pirmosios liudija prisikėlimą.
+
+Tai ne atsitiktinumas. Tai Luko tezė, jau pirmame skyriuje pasakyta: *„Jis nuvertė galinguosius nuo sostų ir išaukštino mažuosius."* Šis sakinys — raktas į visą knygą.
+
 ## Kokia tai knyga?
 
-Kas ateina į galvą, kai girdi žodį „evangelija"? Galbūt — kunigo balsas, skaitantis iš ambonos. Galbūt — vaikystės katechezė, kuri baigėsi pirmąja komunija ir užsimiršo. Galbūt tiesiog žodis, kuris nieko nesako.
+Dauguma skaitytojų, paimančių į rankas evangeliją, atsineša neteisingus lūkesčius — arba faktinį reportažą žurnalistiniu tikslumu, arba religinę propagandą, persirengusią istorija. Lukas nėra nei viena, nei kita.
 
-Bet Lukas rašė ne evangeliją ta prasme, kuria mes šį žodį suprantame. Jis rašė tai, ką antikinis pasaulis vadino *bios* — gyvenimo aprašymą. Tai žanras, kurį naudojo Plutarchas, Svetonijus, Tacitas. Žanro taisyklės buvo aiškios: autorius pasirenka epizodus, kurie atskleidžia žmogaus esmę. Sudėlioja juos ne chronologine tvarka, o pagal argumentą. Komponuoja kalbas — ne dėl suklastojimo, o pagal visuotinai priimtą literatūrinę konvenciją: ką šis žmogus būtų pasakęs tokioje situacijoje? Taip dirbo visi antikos istorikai. Jų auditorija tai žinojo.
+Tai, ką Lukas parašė, priklauso antikiniam žanrui, vadinamam *bios* — gyvenimo aprašymui. Tokius rašė Plutarchas, Svetonijus, Tacitas. Žanro taisyklės buvo aiškios: autorius pasirenka epizodus, kurie atskleidžia žmogaus esmę. Medžiagą dėlioja ne pagal kalendorių, o pagal argumentą. Kalbas komponuoja — ne kaip klastotę, o pagal pripažintą literatūrinę praktiką: ką šis žmogus tokioje situacijoje būtų pasakęs? Taip dirbo kiekvienas antikos istorikas, ir jų skaitytojai tai žinojo.
 
-Luko pirmieji keturi sakiniai tai ir pasako: jis tyrė, apklausė liudytojus, palygino šaltinius ir dabar rašo „tvarkingą pasakojimą" tam tikram Teofilui. „Tvarkingas" nereiškia „chronologiškas". Reiškia: pasakojamas su tikslu.
+Lukas pats tai pasako pirmaisiais keturiais sakiniais. Jis tyrė, rinko šaltinius, kalbėjosi su liudytojais ir dabar rašo „tvarkingą pasakojimą" tam tikram Teofiliui. „Tvarkingas" reiškia: pasakojamas su tikslu — ne chronologiškas, ne išsamus. Atranka ir yra argumentas.
 
-## Kas tai parašė?
-
-Autorius niekur neįvardija savęs. „Lukas" — vardas, priskiriamas antro amžiaus tradicijos, galbūt gydytojas, trumpai paminėtas Pauliaus laiškuose. Priskyrimas gali būti tikslus, gali ir ne — tyrinėtojai nesutaria. Ką pats tekstas atskleidžia: autorius buvo išsilavinęs, rašė stilingą graikų kalbą, puikiai pažino žydų raštus graikiškame vertime ir greičiausiai pats nebuvo žydas. Rašė skaitytojams, kurie Judėjos niekada nebuvo matę ir kuriems reikėjo viską paaiškinti — papročius, galios santykius, religinę logiką. Tai jau sako kažką apie jo auditoriją: ne bendruomenė, o smalsuoliai iš šalies.
-
-Tikėtinas parašymo laikas — tarp 80 ir 95 metų po mūsų eros pradžios, maždaug penkiasdešimt metų po aprašomų įvykių. Ir yra tęsinys: Apaštalų darbai yra antroji to paties projekto dalis. Luko pasakojimas Velykomis nesibaigia.
+Autorius savęs niekur neįvardija. „Lukas" — antrojo amžiaus tradicijos priskyrimas, galbūt tas pats gydytojas, trumpai paminėtas Pauliaus laiškuose. Ką atskleidžia pats tekstas: autorius išsilavinęs, rašo nugludintą graikų kalbą, puikiai pažįsta žydų raštus graikiškame vertime, greičiausiai pats nėra žydas. Rašė skaitytojams, kurie Judėjos niekada nebuvo matę. Tikėtinas laikas — tarp 80 ir 95 metų, maždaug penkiasdešimt metų po aprašomų įvykių. Yra ir tęsinys: Apaštalų darbai — to paties projekto antroji dalis.
 
 ## Kaip skaityti antikinį tekstą
 
-Trys dalykai, kuriuos pirmoji auditorija žinojo savaime, bet šiandieninis skaitytojas turi sužinoti.
+Trys dalykai, kuriuos pirmieji skaitytojai žinojo savaime.
 
-Pirma: kalbos antikiniuose tekstuose nėra stenogramos. Nė vienas antikos autorius netvirtino, kad žodis žodin perteikia tai, ką kažkas pasakė. Jis perteikia tai, ką tas žmogus tokioje situacijoje greičiausiai būtų pasakęs — sutelktai, ryškiai, tiksliai. Tai galiojo Tukididui lygiai taip pat kaip Lukui. Tai ne klastojimas. Tai kita sutartis tarp autoriaus ir skaitytojo, ir ji galioja visame tekste.
+Kalbos antikiniuose tekstuose nėra stenogramos. Nė vienas antikos autorius netvirtino, kad žodis žodin pateikia tai, ką kažkas ištarė. Jis pateikia tai, ką tas žmogus tokioje situacijoje greičiausiai būtų pasakęs — sutelktai, ryškiai, iki taško. Tukididas tai pasakė atvirai; Lukas dirbo tuo pačiu būdu. Tai ne apgaulė. Tai kita sutartis tarp autoriaus ir skaitytojo.
 
-Antra: skaičiai dažnai veikia simboliškai. Dvylika apaštalų, septyniasdešimt pasiuntinių, keturiasdešimt dienų dykumoje — tai ne atsitiktiniai skaičiai, o reikšmės nešėjai, kuriuos žydiškai išsilavinusi auditorija atpažindavo iš karto.
+Skaičiai dažnai veikia simboliškai. Dvylika apaštalų, septyniasdešimt pasiuntinių, keturiasdešimt dienų dykumoje — reikšmės nešėjai, kuriuos žydiškai išsilavinusi auditorija atpažindavo iš karto.
 
-Trečia: atranka yra interpretacija. Lukas nepasakoja visko, kas nutiko. Jis renkasi, tankina, praleidžia — ir būtent toje atrankoje slypi jo argumentas.
-
-## Pagrindinė mintis
-
-Kiekviena knyga turi tezę. Luko tezę galima pasakyti vienu sakiniu: tas, kuris atrodo esąs lauke, iš tiesų stovi centre.
-
-Piemenys — žemiausia profesinė grupė pirmojo amžiaus Judėjoje — pirmieji sužino apie gimimą. Samarietis, iš tos tautos, kurią žydai labiausiai niekino, tampa gailestingumo įsikūnijimu. Mokesčių rinkėjas — okupantų kolaborantas, savos bendruomenės atstumtasis — išgelbstimas dar prieš tai, kai religinė elitas spėja prabilti. Moterys, kurios jokiame teisme negalėjo liudyti, pirmosios liudija prisikėlimą.
-
-Tai ne atsitiktinumas. Tai sistema. Jau pirmame skyriuje skamba: „Jis nuvertė galinguosius nuo sostų ir išaukštino mažuosius." Šis sakinys yra raktas visai knygai. Kas jį atsimena, pastebės, kad beveik kiekviena istorija jame atsispindi.
+Atranka yra interpretacija. Lukas nepasakoja visko, kas nutiko. Renkasi, tankina, praleidžia — ir būtent toje atrankoje slypi jo argumentas. Kai kas nors pasirodo pas Luką, bet ne pas kitus evangelistus, verta klausti: kodėl? Dažniausiai tai dirba jo argumentui.
 
 ## Kaip juda pasakojimas
 
-Istorija seka geografiją. Ji prasideda Jeruzalės šventykloje — religiniame ir politiniame centre — juda į Galilėjos šiaurę ir grįžta atgal ilgu, lėtu lanku. Tas lankas, apimantis maždaug 9–19 skyrius, yra knygos širdis: Jėzus eina link miesto, kuriame žino, kas jo laukia. Pakeliui moko, pasakoja palyginimus, gydo, ginčijasi. Lukas neskuba. Kelionė nėra kelio iki tikrosios istorijos — kelionė ir yra istorija.
+Istorija seka geografiją. Prasideda Jeruzalės šventykloje, juda į kaimišką Galilėjos šiaurę ir grįžta ilgu, lėtu lanku atgal. Tas lankas — maždaug nuo 9 iki 19 skyriaus — yra knygos širdis: Jėzus eina link miesto, kuriame žino, kas jo laukia. Pakeliui moko, pasakoja palyginimus, gydo, ginčijasi. Lukas neskuba. Kelionė nėra įžanga į tikrąjį veiksmą — kelionė ir yra veiksmas.
 
-Pradžioje — du neįmanomi gimimai, vienas senos moters, kitas jaunos. Paskui pasiruošimas: krikštas, genealogija, bandymas dykumoje. Tada Galilėja: gydymai, ginčai su farisėjais, mokinių pašaukimas. Paskui ta ilga kelionė į pietus — su palyginimais, kurie keičia perspektyvą. Ir galiausiai Jeruzalė: konfrontacija, suėmimas, kryžius, tuščias kapas.
+Knyga prasideda dviem gimimo istorijomis, pasakojamomis šalia: pranašo ir to, kuris viską pakeis. Baigiasi ne triumfu, o vakariene, tuščiu kapu ir nurodymu palaukti. Pabaiga, kuri atsiveria.
 
-Pabaigoje — ne triumfas, o vakarienė, kelyje atpažintas nepažįstamasis ir nurodymais palaukti. Pabaiga, kuri atsiveria.
+## Ką verta pastebėti
+
+Lukas turi daugiau veikiančių moterų nei bet kuri kita evangelija. Marija ne tik priima žinią — ji atsako giesme, kuri yra politiškiausia kalba visame Naujajame Testamente. Elžbieta — pranašė. Ona — pranašė. Moterų grupė finansuoja visą judėjimą, ir Lukas jas įvardija vardais. Moterys — pirmosios prisikėlimo liudytojos. Skaitydamas skaičiuok jas. Stebėk, ką jos sako ir daro, o ne tik tai, kad jos pasirodo.
+
+Stebėk, ką daro pinigai. Lukas — ekonomiškai tiesiausia iš keturių evangelijų. Palaiminimai čia neskelbia „palaiminti dvasios vargdieniai" — jie sako *palaiminti vargdieniai*, taškas. Knygoje esama „vai jums" turtingiesiems, kurių dauguma Biblijos turėtojų niekada nėra skaitę. Klausk skaitydamas: ką šis tekstas mano apie tai, ką turtas daro žmogui?
+
+Pastebėk, kas istorijose tampa herojumi, kai herojaus prireikia. Beveik niekada tai nėra tas, kurio tikiesi. Žmogus, apibrėžiantis, ką reiškia mylėti artimą, yra samarietis — iš etninės grupės, kurią pirmoji auditorija labiausiai niekino. Vienintelis raupsuotasis, sugrįžtantis padėkoti, taip pat samarietis. Kareivis, kurio tikėjimas nustebina Jėzų, yra romėnas okupantas. Kai Lukui reikia parodyti, kaip atrodo teisingas veiksmas, jis kiekvieną kartą pasiekia už rato.
+
+Ir per visą knygą laikyk šį klausimą: *ką Jėzus pastebi?* Jo žvilgsnis krinta ant žmonių, kuriuos pirmojo amžiaus visuomenė padarė nematomus. Sek tuo žvilgsniu.
 
 ## Kodėl skaityti šiandien?
 
-Lietuvoje Biblija turi specifinę problemą: ji atrodo pažįstama. Kalėdų eglutė, Velykų margučiai, senelės maldaknygė ant stalo, galbūt keletas prisimintų eilučių iš bažnytinių skaitymų. Gal religijos pamoka mokykloje, kuri paliko prisiminimą, kad „Bibliją jau žinai." To pakanka nuspręsti, kad žinai, kas ten parašyta, ir kad tai ne tau.
+Lietuvoje Biblija turi specifinę problemą: ji atrodo pažįstama. Kalėdų eglutė, Velykų margučiai, senelės maldaknygė ant stalo, keletas prisimintų eilučių iš bažnytinių skaitymų. Religijos pamoka mokykloje, palikusi įspūdį, kad „Bibliją jau žinai." To pakanka nuspręsti, kad žinai, kas ten parašyta, ir kad tai ne tau.
 
-Bet kas iš tikrųjų skaito — tą tikrumą greitai praranda. Luko knyga yra politiškesnė nei tikiesi. Radikalesnė. Keistesnė. Tos apvertimus, kuriuos jis aprašo, nėra nekaltų pasakojimų iš vaikų Biblijos — tai sisteminis kvestionavimas, kas nusipelno galios, kas priklauso bendruomenei ir ką turtas daro žmogui. Tai ne pirmojo amžiaus klausimai. Tai klausimai, kurie Vilniuje, Kaune ar Klaipėdoje lygiai taip pat neatsakyti kaip anuomet Galilėjoje.
+Kas iš tikrųjų skaito — tą tikrumą praranda greitai. Lukas yra politiškesnis nei tikiesi. Radikalesnis. Keistesnis. Apvertimai, kuriuos jis aprašo, nėra nekaltos istorijos iš vaikiškos Biblijos — tai sisteminis kvestionavimas, kas nusipelno galios, kas priklauso bendruomenei ir ką turtas daro žmogui. Tai ne pirmojo amžiaus klausimai. Tai klausimai, kurie Vilniuje, Kaune ar Klaipėdoje lygiai taip pat neatsakyti kaip anuomet Galilėjoje.
 
-Lukas rašė skaitytojams, kurie neturėjo priežasties niekuo iš to tikėti. Jo auditorija buvo išsilavinę graikai ir romėnai, kurie kėlė blaivų klausimą: kas buvo šis žmogus ir kodėl po penkiasdešimt metų jis vis dar aktualus? — Kas šį tekstą skaito be bažnytinio fono, be Pirmosios Komunijos prisiminimų, be sekmadienio mišių įpročio — tas yra būtent ta auditorija, kuriai jis buvo rašytas.
+Jei skaitai be bažnytinio fono — be konfesijos, be Pirmosios Komunijos prisiminimų, be jokios institucinės praeities — tu ir esi ta auditorija, kuriai ši knyga buvo parašyta. Lukas rašė žmonėms, neturėjusiems jokios priežasties kuo nors iš to tikėti. Jo skaitytojai buvo išsilavinę graikai ir romėnai, kėlę praktišką klausimą: kas buvo šis žmogus ir kodėl po penkiasdešimties metų jis vis dar aktualus?
 
-## Apie šį vertimą
-
-Kavaliausko Naujasis Testamentas suformavo tai, kaip lietuviškai skamba evangelija. Bet jo formuluotės — „Ir štai", „atsiliepęs tarė", „iš tiesų sakau jums" — šiandien pirmiausia signalizuoja vieną dalyką: tai ne tau. Ne todėl, kad tekstas būtų nereikšmingas, o todėl, kad kalba užrakina jį tame laike, kuriam jis nepriklauso.
-
-Aperto Biblija verčia Luką į šiuolaikinę lietuvių literatūrinę kalbą — prozą, kuri pretenduoja būti rimta literatūra ir kuri būtent todėl atveria kitokį kelią į tekstą. Jokių archaizmų, kurie imituoja šventumą. Jokio bažnytinio tono, kuris gyvena tik sakykloje. Tai, ką Lukas darė savo laiku — papasakoti istoriją taip, kaip žmonės iš tiesų mąsto, klausia ir pasakoja — mes darome lietuviškai. Dabar, šiandien.
+Atsiversk.

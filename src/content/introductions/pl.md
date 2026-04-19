@@ -1,55 +1,47 @@
 # Łukasz — Wprowadzenie
 
-## Jaki to rodzaj tekstu?
+Młoda, niezamężna kobieta w galilejskiej wiosce — w miejscu, gdzie nikt się nie liczy — śpiewa pieśń, którą Łukasz stawia na pierwszych stronach swojej książki: *Strącił władców z tronów, a podniósł poniżonych. Głodnych nakarmił dobrami, bogatych odprawił z pustymi rękami.* To, co brzmi jak psalm, jest w istocie deklaracją polityczną. I nie znalazło się tam przypadkiem.
 
-Kto sięga po Ewangelię po raz pierwszy — albo po długiej przerwie — przynosi ze sobą oczekiwania, które zwykle nie pasują do tego, co znajdzie. Jedni spodziewają się reportażu: dat, faktów, weryfikowalnych szczegółów. Inni zakładają, że to propaganda religijna, w której cel jest z góry przesądzony. Łukasz nie robi ani jednego, ani drugiego.
+W tym jednym zdaniu mieści się teza całej książki: ten, kto wydaje się być na zewnątrz, naprawdę stoi w centrum. Niemal każda następna historia w to się rozwiązuje.
 
-To, co napisał, należy do antycznego gatunku zwanego *bios* — życiorysu. Pisali tak Plutarch, Swetoniusz, Tacyt. Zasady tej formy były jasne, choć dziś trzeba je sobie przypomnieć. Autor wybiera sceny, które kondensują sens życia. Porządkuje materiał nie według kalendarza, lecz według argumentu. Komponuje mowy — nie po to, żeby sfałszować, lecz dlatego, że taka była umowa między pisarzem a czytelnikiem: oddaj to, co ta osoba powiedziałaby w tej sytuacji. Tak pracowali wszyscy antyczni historycy i ich publiczność to wiedziała.
+## Co to za tekst
 
-Sam Łukasz w pierwszych czterech zdaniach mówi, co zamierza: przebadał źródła, przesłuchał świadków i pisze teraz „uporządkowaną relację" dla pewnego Teofila. Uporządkowaną — to nie znaczy chronologiczną. To znaczy: opowiedzianą z planem.
+Kto sięga po Ewangelię po raz pierwszy — albo po długiej przerwie — przynosi zwykle fałszywe oczekiwania. Albo spodziewa się reportażu z weryfikowalnymi faktami, albo zakłada, że to religijna propaganda przebrana za historię. Łukasz nie robi ani jednego, ani drugiego.
 
-## Kto to napisał?
+To, co napisał, należy do antycznego gatunku zwanego *bios* — życiorysu. Pisali w nim Plutarch, Swetoniusz, Tacyt. Reguły są dziś obce, ale wtedy były jasne: wybierasz sceny, które kondensują sens życia. Porządkujesz materiał nie według kalendarza, lecz według argumentu. Komponujesz mowy — nie po to, by sfałszować, lecz dlatego, że taka była umowa: oddaj to, co dana osoba w danej sytuacji powiedziałaby. Tak pracowali wszyscy antyczni historycy i ich publiczność to wiedziała.
 
-Autor nigdzie się nie przedstawia. „Łukasz" to imię, które przypisała mu tradycja drugiego wieku — być może lekarz, o którym kilka razy wspominają listy Pawła. Może tak było, a może nie. Badania historyczno-krytyczne nie dają jednoznacznej odpowiedzi. Sam tekst zdradza tyle: jego autor był wykształcony, pisał pewną ręką po grecku, znał żydowskie pisma w greckim przekładzie i prawdopodobnie nie był Żydem. Pisał dla ludzi, którzy nigdy nie postawili stopy w Judei — i którym trzeba było tłumaczyć wszystko: obyczaje, struktury władzy, logikę religijną.
-
-Prawdopodobny czas powstania to lata 80–95 naszej ery, czyli około pięćdziesięciu lat po opisywanych wydarzeniach. I jest ciąg dalszy: Dzieje Apostolskie to drugi tom tego samego projektu. Łukasz opowiada historię, która nie kończy się na Wielkanoc.
+Autor nigdzie się nie przedstawia. „Łukasz" to imię z tradycji drugiego wieku — być może lekarz wspomniany u Pawła; badania historyczno-krytyczne nie dają pewności. Sam tekst zdradza tyle: pisał wykształcony człowiek, biegły w grece, znający żydowskie pisma w przekładzie greckim, prawdopodobnie nie-Żyd. Powstał między 80. a 95. rokiem, dla ludzi, którzy nigdy nie postawili stopy w Judei. I jest ciąg dalszy: Dzieje Apostolskie to drugi tom tego samego projektu.
 
 ## Jak czytać antyczny tekst
 
-Trzy rzeczy, które pierwsi czytelnicy wiedzieli — a które trzeba sobie uświadomić, zanim zacznie się czytać.
+Trzy rzeczy, które pierwsi czytelnicy wiedzieli — i które trzeba sobie uświadomić.
 
-Po pierwsze: mowy w antycznych tekstach nie są stenogramami. Żaden antyczny pisarz nie twierdził, że cytuje dosłownie. Oddawał to, co dana osoba w danej sytuacji prawdopodobnie powiedziałaby — w skondensowanej, wyostrzonej formie. Tak robił Tukidydes, tak robił Łukasz. To nie manipulacja. To inna umowa między autorem a czytelnikiem.
+Mowy nie są stenogramami. Żaden antyczny pisarz nie twierdził, że cytuje dosłownie; oddawał to, co dana osoba prawdopodobnie powiedziałaby, w formie skondensowanej i wyostrzonej. Tak robił Tukidydes, tak Łukasz. To inna umowa między autorem a czytelnikiem, nie oszustwo.
 
-Po drugie: liczby często działają symbolicznie. Dwunastu apostołów, siedemdziesięciu wysłanników, czterdzieści dni na pustyni — to nie przypadkowe wartości, lecz nośniki znaczenia, które żydowski czytelnik rozpoznawał natychmiast.
+Liczby często działają symbolicznie. Dwunastu apostołów, siedemdziesięciu wysłanników, czterdzieści dni na pustyni — to nośniki znaczenia, które żydowski czytelnik rozpoznawał natychmiast.
 
-Po trzecie: wybór to interpretacja. Łukasz nie opowiada wszystkiego, co się wydarzyło. Wybiera, kondensuje, pomija — i właśnie w tej selekcji kryje się jego argument.
+Wybór jest interpretacją. Łukasz nie opowiada wszystkiego — wybiera, kondensuje, pomija. I właśnie w tej selekcji żyje jego argument.
 
-## O co tak naprawdę chodzi
+## Jak biegnie ta historia
 
-Każda książka ma tezę. Teza Łukasza mieści się w jednym zdaniu: ten, kto wydaje się być na zewnątrz, w rzeczywistości stoi w centrum.
+Opowieść podąża za geografią. Zaczyna się w jerozolimskiej świątyni, przenosi się na galilejską północ i wraca do Jerozolimy długim, powolnym łukiem. Ten łuk, od rozdziału dziewiątego do dziewiętnastego, jest sercem książki: Jezus idzie ku miastu, w którym wie, co go czeka. Po drodze naucza, opowiada przypowieści, uzdrawia, spiera się. Łukasz się nie spieszy — wędrówka *jest* akcją. Na końcu nie ma triumfu: jest posiłek, pusty grób i polecenie, by czekać. Zakończenie, które się otwiera.
 
-Pasterze — najniżej w hierarchii społecznej w Judei pierwszego wieku — jako pierwsi dowiadują się o narodzinach. Samarytanin, przedstawiciel grupy, którą Żydzi najbardziej pogardzali, zostaje wzorem miłosierdzia. Celnik, kolaborant z okupantem, zostaje przyjęty, zanim elita religijna zdąży się odezwać. Kobiety, których zeznania nie miały wartości przed żadnym sądem, jako pierwsze świadczą o zmartwychwstaniu.
+## Co warto zauważyć
 
-To nie przypadek — to system. Łukasz konsekwentnie odwraca pytanie, kto należy. Już w pierwszym rozdziale pada zdanie: „Strącił władców z tronów, a wywyższył pokornych." Ten jeden wers jest kluczem do całej książki. Kto go zapamięta, zobaczy, że niemal każda kolejna historia w nim się rozwiązuje.
+Łukasz ma więcej kobiet w aktywnych rolach niż którakolwiek inna ewangelia. Maria nie tylko przyjmuje wieść — odpowiada pieśnią, która jest najostrzejszym politycznie tekstem Nowego Testamentu. Elżbieta jest prorokinią, Anna jest prorokinią. Grupa kobiet finansuje cały ruch i wymieniana jest po imieniu. Kobiety jako pierwsze świadczą o zmartwychwstaniu. Czytając, warto je liczyć — i zwracać uwagę na to, co mówią i robią, nie tylko na to, że się pojawiają.
 
-## Jak przebiega opowieść
+Nie spuszczać też z oczu pieniędzy. Łukasz jest z czterech ewangelii ekonomicznie najbardziej bezpośredni. Błogosławieństwa nie mówią tu „błogosławieni ubodzy duchem" — mówią *błogosławieni ubodzy*, bez dodatków. Książka zawiera biada wobec bogatych, których większość posiadaczy Biblii nigdy nie czytała. Co według tego tekstu bogactwo robi z człowiekiem?
 
-Historia podąża za geografią. Zaczyna się w świątyni jerozolimskiej — centrum religijnym i politycznym — przenosi się na galilejską północ i powraca do Jerozolimy długim, powolnym łukiem. Ten łuk, rozciągający się od rozdziału dziewiątego do dziewiętnastego, jest sercem książki: Jezus idzie w stronę miasta, w którym wie, co go czeka. Po drodze naucza, opowiada przypowieści, uzdrawia, spiera się. Łukasz się nie spieszy. Wędrówka nie jest drogą do właściwej akcji — wędrówka *jest* akcją.
+Kto występuje w roli bohatera, kiedy bohater jest potrzebny, prawie nigdy nie jest tym, kogo by się oczekiwało. Definicję miłości bliźniego daje Samarytanin — przedstawiciel grupy etnicznej, którą żydowska publiczność najbardziej pogardzała. Jedyny trędowaty, który wraca podziękować, też jest Samarytaninem. Żołnierz, którego wiara zdumiewa Jezusa, jest rzymskim okupantem. Kiedy Łukasz chce pokazać, jak wygląda właściwe działanie, za każdym razem sięga poza krąg.
 
-Na końcu nie ma triumfu. Jest posiłek, pusty grób i polecenie, żeby czekać. Zakończenie, które się otwiera.
+I jedno pytanie, które przewija się przez całą książkę: *Kogo dostrzega Jezus?* Jego wzrok pada na ludzi, których społeczeństwo pierwszego wieku uczyniło niewidzialnymi. Pójście za tym wzrokiem to być może najkrótsza droga do zrozumienia tej książki.
 
-## Po co czytać ten tekst teraz?
+## Dlaczego czytać to teraz
 
-W Polsce Biblia ma specyficzny problem — i nie jest to obojętność. Wiele osób dorastało z fragmentami Ewangelii w kościele, z kolędami, z katechezą w szkole, z jasnogórskim pielgrzymowaniem w tle. Wystarczająco dużo, żeby uznać, że się wie, co w niej jest. Za mało, żeby naprawdę wiedzieć.
+W Polsce Biblia ma swój specyficzny problem — i nie jest nim obojętność. Wielu z nas dorastało z fragmentami Ewangelii w kościele, z kolędami, z katechezą w szkole, z Jasną Górą w tle. Wystarczająco dużo, by uznać, że się wie, co w niej jest. Za mało, by naprawdę wiedzieć.
 
-A potem coś się zmieniło. Instytucja, która przez pokolenia niosła polską kulturę — pod zaborami, w czasie wojny, w opozycji wobec komunizmu — wybrała stronę w bieżącej polityce. Dla wielu młodych Polaków to było nie tylko rozczarowanie, ale zdrada: Kościół, który był kiedyś sumieniem narodu, stał się partyjnym sojusznikiem. Efekt? Pokolenie, które nie jest po prostu obojętne, jak Czesi, ani po prostu wierzące, jak babcie — ale skomplikowane: zranione, wściekłe, czasem wciąż przyciągane do tradycji, w której wyrosło.
+A potem coś się zmieniło. Instytucja, która przez pokolenia niosła polską kulturę — pod zaborami, w wojnie, w opozycji wobec komunizmu — wybrała stronę w bieżącej polityce. Dla wielu młodych Polek i Polaków było to nie tylko rozczarowanie, ale zdrada. Powstało pokolenie, które nie jest po prostu obojętne, jak Czesi, ani po prostu wierzące, jak babcie — skomplikowane, zranione, czasem wściekłe, czasem wciąż przyciągane do tradycji, w której wyrosło.
 
-Łukasz pisał dla ludzi, którzy nie mieli powodu czemukolwiek z tego wierzyć. Jego publicznością byli wykształceni Grecy i Rzymianie, którzy zadawali trzeźwe pytanie: kim był ten człowiek i dlaczego pięćdziesiąt lat później wciąż o nim mówią? Kto czyta ten tekst bez kościelnego bagażu — albo właśnie z nim, ale szukając czegoś innego niż to, co słyszał z ambony — jest bliżej pierwotnego czytelnika, niż się spodziewał.
+Łukasz pisał właśnie dla takich. Jego publiczność stanowili wykształceni Grecy i Rzymianie, którzy zadawali trzeźwe pytanie: kim był ten człowiek i dlaczego pięćdziesiąt lat później wciąż się o nim mówi? Kto czyta ten tekst bez kościelnego bagażu — albo z nim, ale szukając czegoś innego niż to, co słyszał z ambony — jest bliżej pierwotnego czytelnika, niż się spodziewa. Książka okazuje się bardziej polityczna, niż się pamięta. Bardziej radykalna. Bardziej dziwna.
 
-Książka okazuje się bardziej polityczna, niż się pamięta. Bardziej radykalna. Bardziej dziwna. Odwrócenia, które opisuje, nie są łagodnymi opowiastkami z lekcji religii — to systematyczne pytania o to, kto zasługuje na władzę, kto należy do wspólnoty i co bogactwo robi z człowiekiem. To pytania, na które w Warszawie, Krakowie czy Wrocławiu nikt jeszcze nie odpowiedział — tak samo jak w Galilei dwa tysiące lat temu.
-
-## O tym przekładzie
-
-Biblia Tysiąclecia ukształtowała to, jak Polacy słyszą Biblię. Jej frazy — *I stało się...*, *albowiem*, *Oto Ja, służebnica Pańska* — weszły do liturgii i do kulturowej pamięci. Ale właśnie dlatego sygnalizują: to jest kościelny tekst, to nie jest dla ciebie. Nie dlatego, że treść jest nieistotna, lecz dlatego, że język zamyka ją w instytucji, do której ten czytelnik nie ma zaufania.
-
-Biblia Aperto tłumaczy Łukasza na współczesną polszczyznę literacką — prozę, która ma ambicję być czytana jako literatura i która właśnie dlatego otwiera inny dostęp do tekstu. Bez archaizmów udających powagę. Bez komitetowego języka, który jest poprawny, ale martwy. Zamiast tego — to, co zrobiłby sam Łukasz, gdyby pisał dzisiaj: opowieść w języku, w którym ludzie naprawdę myślą, kłócą się i opowiadają sobie historie. Teraz, tutaj, po polsku.
+Otwórz ją.

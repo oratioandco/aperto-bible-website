@@ -1,53 +1,53 @@
 # Lukas -- Inleiding
 
+Het radicaalste wat Lukas zegt: wie erbij hoort, is bijna nooit wie je verwacht.
+
+Herders -- de laagste beroepsgroep in het Judea van de eerste eeuw, uit de meeste sociale ruimtes geweerd omdat hun werk hen ritueel onrein maakte -- horen als eersten van de geboorte. Een Samaritaan, uit het volk dat joden het diepst verachtten, wordt het beeld van menselijk fatsoen. Een tollenaar -- collaborateur van de bezettingsmacht, gehaat door zijn eigen gemeenschap -- wordt thuis ontvangen nog voor de religieuze elite een woord kan zeggen. Vrouwen, die voor geen enkele rechtbank als getuigen werden toegelaten, zijn de eersten die de opstanding bevestigen.
+
+Dat is geen toeval. Het is Lukas' argument, al in hoofdstuk 1 op tafel gelegd: *"Hij heeft machtigen van hun troon gehaald en de kleinen verheven."* Die ene zin is de sleutel tot het hele boek.
+
 ## Wat voor tekst is dit?
 
-De meeste mensen die voor het eerst een evangelie oppakken, verwachten het verkeerde. Of ze denken: journalistiek verslag, ooggetuigenprotocol, controleerbare feiten. Of ze denken: religieuze propaganda vermomd als geschiedenis. Geen van beide klopt.
+Wie voor het eerst een evangelie oppakt, verwacht meestal het verkeerde -- een journalistiek verslag met controleerbare feiten, of religieuze propaganda vermomd als geschiedenis. Lukas is geen van beide.
 
-Wat Lukas schreef, valt onder een genre dat de Grieken *bios* noemden -- een levensbeschrijving. Plutarchus schreef ze, Suetonius, Tacitus. De regels van dit genre zijn ons vreemd geworden, maar ze waren helder: je kiest scènes die het wezen van een leven verdichten. Je ordent niet op chronologie, maar op argument. Je componeert toespraken -- niet als vervalsing, maar als erkende literaire praktijk. Wat zou deze persoon in deze situatie gezegd hebben? Zo werkten alle antieke geschiedschrijvers, en hun publiek wist dat.
+Wat hij schreef, valt onder een antiek genre dat de Grieken *bios* noemden -- een leven. Plutarchus schreef ze. Suetonius, Tacitus. De afspraken waren voor het oorspronkelijke publiek glashelder: je kiest scènes die het wezen van een persoon verdichten. Je ordent niet op kalender, maar op argument. Je componeert toespraken -- geen vervalsing, maar erkende literaire praktijk: wat zou deze persoon in deze situatie waarschijnlijk hebben gezegd? Zo werkten alle antieke geschiedschrijvers, en hun lezers wisten dat.
 
-Lukas zegt in zijn eerste vier verzen precies wat hij van plan is: hij heeft onderzoek gedaan, bronnen bekeken, ooggetuigen bevraagd, en schrijft nu een "geordend verslag" voor een zekere Theofilus. Geordend betekent hier niet chronologisch. Het betekent: met een bedoeling verteld.
+Lukas zegt het in zijn eerste vier verzen zelf. Hij heeft onderzoek gedaan, ooggetuigen bevraagd, en schrijft een "geordend verslag" voor een zekere Theofilus. Geordend betekent: met een bedoeling verteld -- niet chronologisch, niet uitputtend. De keuze is het argument.
 
-## Wie schreef dit?
+De auteur noemt zichzelf nergens. "Lukas" gaat terug op een traditie uit de tweede eeuw -- mogelijk de arts die kort opduikt in de brieven van Paulus. Wat de tekst zelf laat zien: verzorgd Grieks, diepe kennis van de joodse geschriften in hun Griekse vertaling, waarschijnlijk zelf geen jood. Geschreven tussen 80 en 95 van onze jaartelling voor lezers die Judea nooit hadden gezien, zo'n vijftig jaar na de gebeurtenissen. Er is een vervolg: het boek Handelingen is het tweede deel van hetzelfde project.
 
-De auteur noemt zichzelf nergens. "Lukas" is een naam die een traditie uit de tweede eeuw hem toeschrijft -- mogelijk de arts die kort opduikt in de brieven van Paulus. Dat zou kunnen kloppen, maar het hoeft niet, en de wetenschap is verdeeld. Wat de tekst zelf laat zien: de schrijver was ontwikkeld, schreef zorgvuldig Grieks, kende de joodse geschriften in hun Griekse vertaling en was waarschijnlijk zelf geen jood. Hij schreef voor lezers die Judea nooit hadden gezien en aan wie hij alles moest uitleggen -- gebruiken, machtsverhoudingen, religieuze logica.
-
-Het boek is waarschijnlijk geschreven tussen 80 en 95 van onze jaartelling, zo'n vijftig jaar na de gebeurtenissen. En er is een vervolg: het boek Handelingen is het tweede deel van hetzelfde project. Lukas vertelt een verhaal dat met Pasen niet eindigt.
-
-## Hoe je een antieke tekst moet lezen
+## Hoe je dit leest
 
 Drie dingen die het eerste publiek wist en die je als hedendaagse lezer moet meebrengen.
 
-Ten eerste: toespraken in antieke teksten zijn geen opnames. Geen antieke schrijver beweerde woordelijk weer te geven wat iemand had gezegd. Hij gaf weer wat deze persoon in deze situatie waarschijnlijk zou hebben gezegd -- verdicht, aangescherpt, to the point. Dat gold voor Thucydides en het gold voor Lukas. Geen bedrog. Een andere afspraak tussen schrijver en lezer.
+Toespraken zijn geen opnames. Geen antieke schrijver beweerde woordelijk weer te geven wat iemand had gezegd. Hij gaf weer wat deze persoon waarschijnlijk had gezegd -- verdicht, aangescherpt. Thucydides zei het openlijk; Lukas werkte hetzelfde. Geen bedrog. Een ander contract tussen schrijver en lezer.
 
-Ten tweede: getallen zijn vaak symbolisch. Twaalf apostelen, zeventig gezanten, veertig dagen in de woestijn -- dat zijn geen toevalligheden, maar betekenisdragers die een joods publiek onmiddellijk herkende.
+Getallen dragen vaak symbolisch gewicht. Twaalf apostelen, zeventig gezanten, veertig dagen in de woestijn -- geen toevalligheden, maar betekenisdragers die een joods geschoold publiek onmiddellijk herkende.
 
-Ten derde: selectie is interpretatie. Lukas vertelt niet alles wat er is gebeurd. Hij kiest, verdicht, laat weg -- en precies in die keuze zit zijn argument.
-
-## Waar het eigenlijk over gaat
-
-Elk boek heeft een these. Die van Lukas past in één zin: wie buiten lijkt te staan, staat bij nader inzien in het centrum.
-
-Herders -- de laagste beroepsgroep in het Judea van de eerste eeuw -- horen als eersten van de geboorte. Een Samaritaan, uit het volk dat joden het diepst verachtten, wordt het beeld van barmhartigheid. Een tollenaar -- collaborateur van de bezettingsmacht, veracht door zijn eigen gemeenschap -- wordt gered, nog voor de religieuze elite aan het woord komt. Vrouwen, die voor geen enkele rechtbank als getuigen werden toegelaten, zijn de eersten die de opstanding bevestigen.
-
-Dat is niet toevallig. Het is systematisch. Al in het eerste hoofdstuk staat het: "Hij heeft machtigen van hun troon gehaald en de kleinen verheven." Die ene zin is de sleutel tot het hele boek. Wie hem onthoudt, zal merken dat vrijwel elk verhaal erop terugkomt.
+Selectie is interpretatie. Lukas vertelt niet alles wat er is gebeurd. Hij kiest, verdicht, laat weg -- en juist in die keuze leeft zijn argument. Wanneer iets bij Lukas staat en niet bij de andere evangelisten, vraag je af waarom. Meestal doet het werk.
 
 ## Hoe het verhaal beweegt
 
-Het verhaal volgt een geografie. Het begint in de tempel van Jeruzalem -- het religieuze en politieke centrum -- beweegt naar het Galilese noorden, en keert dan in een lange, langzame boog terug naar Jeruzalem. Die boog, die zich over de hoofdstukken 9 tot 19 uitstrekt, is het hart van het boek: Jezus loopt naar een stad waar hij weet wat hem te wachten staat. Onderweg onderwijst hij, vertelt hij gelijkenissen, geneest hij, maakt hij ruzie. Lukas heeft geen haast. De reis is niet de weg naar de eigenlijke handeling -- de reis *is* de handeling.
+Het verhaal volgt een geografie. Het begint in de tempel van Jeruzalem, beweegt naar het Galilese platteland, en keert dan in een lange, langzame boog terug naar Jeruzalem. Die boog, die zich over de hoofdstukken 9 tot 19 uitstrekt, is het hart van het boek: Jezus loopt naar een stad waar hij weet wat hem te wachten staat. Onderweg onderwijst hij, vertelt hij gelijkenissen, geneest hij, maakt hij ruzie. Lukas heeft geen haast. De reis is niet de aanloop naar de handeling -- de reis *is* de handeling.
 
-Aan het einde staat geen triomf, maar een maaltijd, een leeg graf, en de opdracht om te wachten. Een einde dat zich opent.
+Het boek opent met twee geboorteverhalen die parallel verteld worden: een profeet, en de mens die alles zal veranderen. Het eindigt niet met een triomf maar met een maaltijd, een leeg graf, en de opdracht om te wachten. Een einde dat zich opent.
 
-## Waarom dit nu lezen?
+## Wat opvalt
 
-In Nederland heeft de Bijbel een specifiek probleem: men denkt hem te kennen. De kerstgeschiedenis, een paar gelijkenissen die ergens zijn blijven hangen uit het godsdienstonderwijs, de grote lijn uit culturele osmose -- het is genoeg voor het idee dat je weet wat erin staat en dat het je niet raakt. Ontzuiling achter de rug, kerk op zondag al twee generaties niet meer, doe maar normaal.
+Lukas heeft meer vrouwen, met meer eigen handelen, dan welk ander evangelie ook. Maria krijgt geen boodschap die ze passief ondergaat -- ze antwoordt met een lied dat tot de politiek meest geladen toespraken van het Nieuwe Testament hoort. Elisabeth is een profetes. Anna is een profetes. Een groep vrouwen financiert de hele beweging en wordt met naam genoemd terwijl ze het doet. Vrouwen zijn de eerste getuigen van de opstanding. Tel ze terwijl je leest. Let op wat ze zeggen en doen, niet alleen dat ze er zijn.
 
-Wie dan werkelijk leest, raakt die zekerheid snel kwijt. Dit boek is politieker dan je verwacht. Radicaler. Vreemder. De omkeringen die Lukas beschrijft zijn niet de onschuldige verhalen uit de kinderbijbel -- het zijn systematische ondervragingen van wie macht verdient, wie erbij hoort en wat rijkdom met een mens doet. Dat zijn geen vragen van de eerste eeuw. Dat zijn vragen die in Amsterdam, Rotterdam of Utrecht net zo onbeantwoord zijn als destijds in Galilea.
+Let op wat geld doet. Lukas is van de vier evangelisten het meest expliciet over economie. De zaligsprekingen luiden hier niet "zalig de armen van geest" -- ze zeggen *zalig de armen*, punt. Het boek bevat weeklachten over de rijken die de meeste bijbelbezitters nooit hebben gelezen. Vraag je terwijl je leest af: wat denkt deze tekst dat rijkdom met een mens doet?
 
-Lukas schreef voor lezers die geen enkele reden hadden om hier iets van te geloven. Zijn publiek bestond uit ontwikkelde Grieken en Romeinen die een nuchtere vraag stelden: wie was deze man, en waarom is hij vijftig jaar later nog steeds relevant? -- Wie deze tekst leest zonder kerkelijke achtergrond, zonder doopcertificaat in de la, is precies het publiek waarvoor hij geschreven werd.
+Let op wie de held is in de verhalen waar een held nodig is. Het is bijna nooit wie je verwacht. Wie laat zien wat naastenliefde betekent, is een Samaritaan -- het volk dat door het oorspronkelijke joodse publiek het diepst werd veracht. De ene melaatse die terugkeert om bedankt te zeggen, is óók een Samaritaan. De soldaat wiens vertrouwen Jezus verbaast, is een Romeinse bezetter. Wanneer Lukas moet laten zien hoe goed handelen eruitziet, reikt hij elke keer buiten de eigen kring.
 
-## Over deze vertaling
+En houd deze vraag het hele boek door vast: *naar wie kijkt Jezus?* Zijn blik valt op mensen die de samenleving van de eerste eeuw onzichtbaar had gemaakt. Volg die blik.
 
-De Statenvertaling heeft het Nederlands mede gevormd. Maar de formuleringen -- *ende zie*, *het geschiedde*, *voorwaar, ik zeg u* -- signaleren vandaag vooral één ding: dit is niet voor jou. Niet omdat de tekst irrelevant zou zijn, maar omdat de taal hem opsluit in een verleden waar hij niet thuishoort. De NBV21 is moderner, maar draagt nog steeds het gewicht van commissietaal -- correct, voorzichtig, zonder scherpe randen.
+## Waarom dit nu lezen
 
-Aperto Bijbel vertaalt Lukas in hedendaags, literair Nederlands -- proza dat als literatuur serieus genomen wil worden, en dat juist daardoor een andere toegang tot de tekst opent. Geen archaïsmen die plechtigheid simuleren. Geen kerkentaal die afstand schept. Maar ook geen afstandelijke academische tekst die de lezer buiten houdt. Wat hier staat, wil gelezen worden -- als literatuur, als geschiedenis, als een stem die iets te zeggen heeft. Nu, vandaag.
+In Nederland heeft de Bijbel een specifiek probleem: bekendheid zonder werkelijk gelezen te zijn. Het kerstverhaal in een musical op de basisschool, een paar gelijkenissen die zijn blijven hangen uit het godsdienstonderwijs -- genoeg voor het idee dat je weet wat erin staat. Genoeg voor de zekerheid dat het je niets te zeggen heeft. Ontzuiling achter de rug, kerk op zondag al twee generaties niet meer, doe maar normaal.
+
+Wie Lukas werkelijk leest, raakt die zekerheid snel kwijt. Het boek is politieker dan je verwacht. Radicaler. Vreemder. De omkeringen die Lukas beschrijft zijn niet de onschuldige verhalen uit een kinderbijbel -- het zijn systematische ondervragingen van wie macht verdient, wie erbij hoort en wat rijkdom met een mens doet. Dat zijn geen vragen van de eerste eeuw. Het zijn vragen die in Amsterdam, Rotterdam of Utrecht net zo onbeantwoord zijn als destijds in Galilea.
+
+Wie zonder kerkelijke achtergrond leest -- zonder zuil, zonder belijdenis, zonder enige institutionele ballast -- is precies het publiek waarvoor dit boek geschreven is. Lukas schreef voor mensen die geen enkele reden hadden om hier iets van te geloven. Ontwikkelde Grieken en Romeinen die een nuchtere vraag stelden: wie was deze man, en waarom doet hij vijftig jaar later nog ertoe?
+
+Sla het open.

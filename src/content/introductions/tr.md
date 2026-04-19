@@ -1,59 +1,53 @@
 # Luka — Giriş
 
+Birinci yüzyıl Yahudiye'sinde çobanlar en düşük meslek grubuydu — yaptıkları iş onları ritüel açıdan kirli sayılan insanlara dönüştürdüğü için kasaba hayatının çoğundan dışlanmışlardı. İsa'nın doğumunu ilk duyanlar onlar oluyor. Bir Samiriyeli — Yahudilerin en derinden küçümsediği etnik grubun bir üyesi — insani dürüstlüğün tanımı haline geliyor. Bir vergi tahsildarı, işgalci imparatorluğun işbirlikçisi, kendi halkının nefret ettiği biri, din adamları ağzını açmadan evine kabul ediliyor. Hiçbir mahkemede tanıklığı geçersiz sayılan kadınlar, dirilişin ilk tanıkları oluyor.
+
+Rastlantı değil; Luka'nın tezi bu. Daha birinci bölümde Meryem söylüyor: *"Güçlüleri tahttan indirdi, alçakgönüllüleri yükseltti."* Kitabın anahtarı bu tek cümle.
+
 ## Bu Nasıl Bir Kitap?
 
-Bir İncil metnini ilk kez eline alan çoğu okuyucu yanlış beklentilerle gelir. Ya bir gazetecilik raporu bekler — tanık ifadeleri, doğrulanabilir olgular, kronolojik düzen — ya da dini propaganda bekler, tarih kılığına girmiş. Luka'nın yaptığı ikisi de değil.
+İlk kez bir İncil'i eline alan çoğu okur yanlış beklentilerle gelir — ya gazetecilik titizliğinde bir rapor ya da tarih kılığına girmiş bir propaganda bekler. Luka'nın yazdığı ikisi de değil.
 
-Luka'nın yazdığı metin, antik dünyada *bios* denen bir türe ait: bir yaşam anlatısı. Plutarkhos böyle yazdı, Suetonius böyle yazdı, Tacitus böyle yazdı. Bu türün kuralları bugün bize yabancı gelir ama o dönemde açıktı: Bir hayatın özünü yoğunlaştıran sahneler seçilir. Malzeme takvime göre değil, bir argümana göre düzenlenir. Konuşmalar yazarın kaleminden çıkar — bu bir sahtecilik değil, kabul görmüş bir edebi gelenek: Bu kişi bu durumda ne söylerdi? Bütün antik tarihçiler böyle çalışırdı ve okurları bunu bilirdi.
+Metin, antik dünyada *bios* denen bir türe ait: yaşam anlatısı. Plutarkhos böyle yazmıştı, Suetonius, Tacitus da. Türün kuralları zamanın okuruna açıktı: bir insanın özünü yoğunlaştıran sahneler seçilir. Malzeme takvime göre değil, argümana göre düzenlenir. Konuşmalar yazarın kaleminden çıkar — sahtecilik değil, kabul görmüş bir edebi gelenek: bu kişi bu anda büyük olasılıkla ne söylerdi? Bütün antik tarihçiler böyle çalışıyordu, okurları da bunu biliyordu.
 
-Luka ilk dört ayette ne yapmak istediğini söylüyor: Araştırmış, kaynakları değerlendirmiş, görgü tanıklarına danışmış ve şimdi Theophilos adlı birine "düzenli bir anlatı" sunuyor. Düzenli demek kronolojik demek değil. Bir niyetle anlatılmış demek.
+Luka ilk dört ayette niyetini söylüyor: araştırmış, kaynakları değerlendirmiş, görgü tanıklarına danışmış ve Theophilos adlı birine "düzenli bir anlatı" sunuyor. Düzenli, kronolojik değil — bir niyetle anlatılmış demek.
 
-## Bunu Kim Yazdı?
-
-Yazar kendini hiçbir yerde adıyla tanıtmıyor. "Luka" adı ikinci yüzyıldan gelen bir geleneğe dayanır — belki Pavlus'un mektuplarında kısaca adı geçen hekim. Bu atıf doğru olabilir, olmayabilir de; tarihsel-eleştirel araştırma bu konuda uzlaşamamış durumda. Metnin kendisinin ele verdiği şu: Yazarı eğitimli, stilistik açıdan güçlü Yunanca yazan, Yahudi kutsal metinlerini Yunanca çevirilerinden bilen ve muhtemelen Yahudi olmayan biri. Yahudiye'yi hiç görmemiş okurlar için yazıyordu — gelenekleri, güç ilişkilerini, dini mantığı hepsini açıklamak zorundaydı.
-
-Muhtemel yazılış tarihi milattan sonra 80 ile 95 arasında, yani olaylardan yaklaşık elli yıl sonra. Ve bir devamı var: Elçilerin İşleri aynı projenin ikinci cildi. Luka, Paskalya'yla bitmeyen bir hikaye anlatıyor.
+Yazar kendini adıyla vermez. "Luka" adı ikinci yüzyıldan gelen bir geleneğe dayanır — belki Pavlus'un mektuplarında kısaca geçen hekim; belki başka biri. Tarihsel-eleştirel araştırma uzlaşmış değil. Metnin ele verdiği: iyi eğitimli, pürüzsüz bir Yunancayla yazan, Yahudi kutsal metinlerini Yunanca çevirisinden bilen, muhtemelen Yahudi olmayan biri. Yahudiye'yi hiç görmemiş okurlar için yazıyor — her şeyi açıklamak zorunda. Tahmini yazılış tarihi milattan sonra 80 ile 95 arası. Ve bir devamı var: Elçilerin İşleri aynı projenin ikinci cildi.
 
 ## Antik Metin Nasıl Okunur?
 
-Üç şey var ki ilk okurlar bunları biliyordu — bugünün okuru da bilmeli:
+Zamanın okuru üç şeyi biliyordu; bugünün okurunun da bilmesi gerekiyor.
 
-Birincisi: Antik metinlerdeki konuşmalar ses kaydı değil. Hiçbir antik yazar birinin söylediklerini kelimesi kelimesine aktardığını iddia etmedi. Aktardığı, o kişinin o durumda büyük olasılıkla söylemiş olacağı şeydi — yoğunlaştırılmış, keskinleştirilmış, öze indirilmiş. Bu Thukydides için de geçerliydi, Luka için de. Kandırmaca değil. Yazar ile okur arasında farklı bir anlaşma.
+Antik metinlerde konuşmalar ses kaydı değildir. Hiçbir antik yazar birini kelime kelime aktardığını iddia etmedi. Aktardığı şey, o kişinin o anda büyük olasılıkla söyleyeceği şeydi — yoğunlaştırılmış, keskinleştirilmiş, öze indirilmiş. Thukydides böyle çalışıyordu, Luka da. Yazar ile okur arasında farklı bir anlaşma vardı.
 
-İkincisi: Sayılar genellikle simgesel işlev görür. On iki elçi, yetmiş öğrenci, çölde kırk gün — bunlar rastgele rakamlar değil, Yahudi geleneğine aşina bir okuyucunun anında çözeceği anlam taşıyıcıları.
+Sayılar çoğunlukla simgeseldir. On iki elçi, yetmiş öğrenci, çölde kırk gün — Yahudi geleneğine aşina bir okurun anında çözeceği anlam taşıyıcılarıdır; rastgele rakamlar değil.
 
-Üçüncüsü: Seçim yorumdur. Luka olan biten her şeyi anlatmıyor. Seçiyor, yoğunlaştırıyor, çıkarıyor — ve tam da bu seçimde argümanı yatıyor.
-
-## Asıl Mesele Ne?
-
-Her kitabın bir tezi vardır. Luka'nınki tek cümlede söylenebilir: Dışarıda görünen, yakından bakınca merkezde duruyor.
-
-Çobanlar — birinci yüzyıl Yahudiye'sinin en düşük meslek grubu — doğumu ilk duyanlar. Bir Samiriyeli, Yahudilerin en derinden küçümsediği topluluktan biri, merhametin simgesi oluyor. Bir vergi tahsildarı — işgal gücünün işbirlikçisi, kendi toplumu tarafından dışlanmış — din seçkinleri ağzını açmadan kurtarılıyor. Kadınlar, hiçbir mahkemede tanıklığı kabul edilmeyen kadınlar, dirilişin ilk tanıkları oluyor.
-
-Bu rastlantı değil, sistematik. Luka sürekli olarak kimin ait olduğunu ters yüz ediyor. Daha ilk bölümde Meryem şöyle söylüyor: "Güçlüleri tahttan indirdi, alçakgönüllüleri yükseltti." Bu tek cümle bütün kitabın anahtarı. Bunu aklında tutan, neredeyse her hikayenin bu cümleye döndüğünü fark edecek.
+Seçim yorumdur. Luka olan biten her şeyi anlatmaz. Seçer, yoğunlaştırır, çıkarır — argüman tam bu seçimde yatar. Luka'da olup da diğer İncillerde olmayan bir şey gördüğünüzde sorun: bu neden burada? Genellikle bir iş görüyordur.
 
 ## Anlatı Nasıl İlerliyor?
 
-Hikaye bir coğrafyayı izliyor. Kudüs Tapınağı'nda başlıyor — dini ve siyasi merkez — oradan kuzeyde Celile'ye çıkıyor ve sonra uzun, yavaş bir yay çizerek Kudüs'e geri dönüyor. 9. ile 19. bölümler arasına yayılan bu yay, kitabın kalbi: İsa, onu neyin beklediğini bilerek bir şehre doğru yürüyor. Yolda öğretiyor, öyküler anlatıyor, iyileştiriyor, tartışıyor. Luka acele etmiyor. Yolculuk asıl olaya giden yol değil — yolculuk *asıl olay*.
+Hikaye bir coğrafyayı izler. Kudüs Tapınağı'nda başlar — dini ve siyasi merkez — kuzeyde Celile'ye çıkar ve uzun, yavaş bir yay çizerek Kudüs'e döner. 9. ile 19. bölümler arasına yayılan bu yay, kitabın kalbidir: İsa, kendisini neyin beklediğini bilerek bir şehre doğru yürüyor. Yolda öğretiyor, öyküler anlatıyor, iyileştiriyor, tartışıyor. Luka acele etmez. Yolculuk asıl olaya giden yol değil — yolculuk *asıl olay*.
 
-Sonunda bir zafer yok. Bir yemek var, boş bir mezar ve bekleme talimatı. Açılan bir son.
+Kitap iki doğum öyküsüyle, yan yana, açılır: bir peygamber ve her şeyi değiştirecek olan. Sonunda zafer yok. Bir yemek var, boş bir mezar ve bekleme talimatı. Açılan bir son.
+
+## Neye Dikkat Etmeli
+
+Luka'da diğer tüm İncillerden fazla kadın var, ve her biri aktif bir rolde. Meryem bir mesajı almakla kalmıyor — Yeni Ahit'teki en politik konuşmayla karşılık veriyor. Elizabet bir peygamber. Anna bir peygamber. Hareketin tamamını finanse eden bir kadın grubu var; isimleriyle anılıyorlar. Dirilişin ilk tanıkları kadınlar. Okurken sayın; ne söylediklerine, ne yaptıklarına bakın — sadece orada olmalarına değil.
+
+Paranın ne yaptığına dikkat edin. Luka, dört İncil içinde ekonomik açıdan en açık sözlü olanı. Buradaki Ne Mutlu'lar "ruhen yoksul olanlara ne mutlu" demiyor; *yoksullara ne mutlu* diyor, nokta. Zenginlere karşı öyle sert sözler var ki çoğu İncil sahibi onları hiç okumamıştır. Okurken sorun: bu metin, zenginliğin insana ne yaptığını düşünüyor?
+
+Bir kahraman gerektiğinde kahramanı kimin oynadığını fark edin. Neredeyse hiçbir zaman beklediğiniz kişi değildir. Komşu sevgisinin ne demek olduğunu tanımlayan bir Samiriyeli — kitabın ilk Yahudi okurunun en küçümsediği etnik grup. Dönüp teşekkür eden tek cüzzamlı yine Samiriyeli. İmanı İsa'yı şaşırtan asker, Romalı bir işgalci. Luka doğru eylemi göstermek istediğinde her seferinde dairenin dışına uzanır.
+
+Ve bir soruyu kitap boyunca yanınızda taşıyın: *İsa kimi fark ediyor?* Bakışı, birinci yüzyıl toplumunun görünmez kıldığı insanlara düşer. O bakışı takip edin.
 
 ## Bu Kitabı Şimdi Neden Okumalı?
 
-Türkiye'de bir kitabı "kutsal" olarak sunmak, onu okunamaz kılmanın en etkili yoludur. Bu topraklarda dini metinlerle ilişki karmaşıktır: İslami gelenek canlıdır ama kurumsal dine mesafe de derindir. İncil denen şey ise çoğu kişi için ya misyoner broşürlerinin malzemesidir ya da Kur'an'ın bahsettiği ama ayrıntısını vermediği gizemli bir metin. İkisi de okumak için yeterli motivasyon değil.
+Türkiye'de — ve Berlin'de, Rotterdam'da, Viyana'da yaşayan Türk diasporasında — dini metinlerle ilişki karmaşıktır. İslami gelenek canlı ama kurumsal dine mesafe derin. İncil denen metin ise çoğu kişi için ya misyoner broşürlerinin malzemesi, ya Kur'an'ın bahsedip ayrıntısını vermediği gizemli bir kitap. İkisi de bir metni eline almak için yeterli neden değil.
 
-Ama Luka tam olarak bu tür bir okuyucu için yazıyordu — hiçbir şeye inanmak zorunda olmayan, ama bakacak kadar meraklı biri. Eğitimli Yunanlar ve Romalılar için yazıyordu, soğukkanlı bir soru soran insanlar: Bu adam kimdi ve elli yıl sonra neden hâlâ konuşuluyor?
+Oysa Luka tam da böyle bir okur için yazıyordu — hiçbir şeye inanmak zorunda olmayan ama bakacak kadar meraklı biri. Eğitimli Yunanlar ve Romalılar için yazıyordu; soğukkanlı bir soru soran insanlar: bu adam kimdi, ve elli yıl sonra neden hâlâ konuşuluyor?
 
-Luka'nın İsa'sı tanıdık isimleri taşıyor. Cebrail, Meryem, İbrahim, Musa, Davut — bunlar Kur'an'dan bildiğiniz isimler. Ama Luka farklı bir hikaye anlatıyor. Meryem'in kendi sözleriyle söylediği bir şarkı var burada — Kur'an'ın vermediği bir ses. Vergi tahsildarlarıyla yenen, cüzzamlılara dokunan, kadınları öğrenci olarak kabul eden bir İsa var. Ve bir çarmıh var — İslam geleneğinin reddettiği, Luka'nın ise hikayenin merkezine koyduğu bir olay.
+Luka'nın İsa'sı tanıdık isimler taşır. Cebrail, Meryem, İbrahim, Musa, Davut — Kur'an'dan bildiğiniz isimler. Ama Luka farklı bir hikaye anlatıyor. Meryem'in kendi sözleriyle söylediği bir şarkı var burada — Kur'an'ın vermediği bir ses. Vergi tahsildarlarıyla yemek yiyen, cüzzamlılara dokunan, kadınları öğrenci olarak kabul eden bir İsa var. Ve bir çarmıh var, İslam geleneğinin reddettiği ama Luka'nın hikayenin merkezine koyduğu. Bunlar tartışma malzemesi değil; aynı isimlerin, farklı bir perspektiften anlatılması.
 
-Bu farklılıklar tartışma malzemesi değil. Aynı isimlerin, aynı coğrafyanın farklı bir perspektiften anlatılması. Bir Beyoğlu kafesinde oturup rahatça okuyabileceğiniz bir metin — ne bir kilise ayini gibi ne de bir din değiştirme girişimi gibi.
+İsa'nın güç hakkında söyledikleri — gücü reddetmek, zenginliğin insanı nasıl esir aldığı, gerçekten kime ait olduğumuz — bunlar birinci yüzyılın soruları değil. İstanbul'da, Ankara'da, Berlin'de de aynı derecede cevapsız.
 
-İsa'nın güç hakkında söyledikleri — gücü reddetmek, zenginliğin insanı nasıl esir aldığı, kimin gerçekten ait olduğu — bunlar birinci yüzyılın soruları değil yalnızca. İstanbul'da, Ankara'da, Berlin'de aynı derecede cevapsız.
-
-## Bu Çeviri Hakkında
-
-Türkçede İncil çevirilerinin bir ortak sorunu var: Hepsi Hristiyanlar için yazılmış. İster misyoner geleneğinden gelsin ister ekümenik komitelerden, hepsinde "Hristiyan Türkçesi" diye bir ses duyulur — günlük hayatta kimsenin kullanmadığı bir dil. "Tanrı" kelimesini "Allah" yerine tercih eden, doğal konuşma dilinden kopuk, Türk okuyucunun rafında Elif Şafak'ın yanında duramayacak metinler.
-
-Aperto İncil farklı bir şey yapmaya çalışıyor. Luka'yı gerçekten konuştuğunuz Türkçeye çeviriyoruz — yapay bir "kutsal dil"e değil. Allah, Allah; İsa, İsa; Meryem, Meryem. Bu isimleri Kur'an'dan tanıyorsunuz, biz de öyle kullanıyoruz. Metni edebi ciddiyetle ele alıyoruz: Şafak'ın romanlarının yanında durabilecek bir düzyazı, ama aynı zamanda yüksek sesle okunduğunda nefes alan, hareket eden bir anlatı.
-
-Ne ekliyoruz, ne çıkarıyoruz. Luka'nın söylediğini söylüyoruz — çağdaş, titiz, canlı bir Türkçeyle.
+Aç ve oku.

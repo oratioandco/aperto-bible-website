@@ -1,57 +1,51 @@
 # Luka — Hyrje
 
+Ja gjëja më radikale që thotë Luka: ata që i përkasin, janë gjithmonë të tjerët nga sa pret.
+
+Barinjtë — punëtorët me statusin më të ulët në Judenë e shekullit të parë — janë të parët që dëgjojnë për lindjen. Një samaritan, nga grupi etnik më i urryer nga hebrenjtë, bëhet përkufizimi i mirësisë njerëzore. Një tagrambledhës — bashkëpunëtor me perandorinë pushtuese, i urryer nga komuniteti i vet — mirëpritet në shtëpi para se profesionistët fetarë të thonë një fjalë. Gratë, që nuk mund të dëshmonin në asnjë gjykatë, janë dëshmitaret e para të ringjalljes.
+
+Kjo nuk është rastësi. Është teza e Lukës, e shpallur që në kapitullin e parë: *«Të pushtetshmit i rrëzoi nga fronet, të përulurit i lartësoi.»* Ajo fjali e vetme është çelësi i gjithë librit.
+
 ## Çfarë lloj libri është ky?
 
-Shumica e njerëzve që e hapin këtë libër për herë të parë sjellin me vete pritshmëri të gabuara. Ose presin gazetari — fakte të verifikueshme, raportim nga vendi i ngjarjes — ose presin propagandë fetare të maskuar si tregim. Asnjëra nuk e përshkruan atë që bëri Luka.
+Shumica e atyre që hapin një ungjill sjellin pritje të gabuara — ose raportim faktik me saktësi gazetareske, ose propagandë fetare të maskuar si histori. Luka nuk është asnjëra.
 
-Luka shkroi një *bios* — biografinë antike. Plutarku i shkroi, Svetoniusi, Taciti. Rregullat e këtij zhanri janë të huaja për ne, por për lexuesit antikë ishin të qarta: zgjidheshin episodet që ngjeshonin thelbin e jetës së dikujt. Materiali rreshtohej sipas argumentit, jo sipas kalendarit. Fjalimet ndërtoheshin — jo si mashtrim, por si praktikë e njohur letrare. Çfarë do të kishte thënë ky njeri në këtë situatë? Kështu punonin të gjithë historianët antikë dhe publiku i tyre e dinte.
+Ajo që shkroi është zhanër antik: një *bios*, një jetë. Plutarku shkroi të tilla. Svetoniusi, Taciti. Rregullat ishin të qarta: zgjedh episode që ngjeshin thelbin e një njeriu; rreshto materialin jo sipas kalendarit por sipas argumentit; ndërto fjalimet — jo si falsifikim, por si praktikë letrare e pranuar. Luka e thotë vetë në rreshtat e parë: ka hetuar burime, ka pyetur dëshmitarë, dhe tani shkruan një «paraqitje të rregullt» për dikë të quajtur Theofili. E rregullt do të thotë e treguar me qëllim. Përzgjedhja është argumenti.
 
-Vetë Luka, në rreshtat e parë, thotë çfarë do të bëjë: ka hetuar, ka shqyrtuar burimet, ka biseduar me dëshmitarë dhe tani shkruan një «paraqitje të rregullt» për dikë të quajtur Theofili. E rregullt nuk do të thotë kronologjike. Do të thotë: e treguar me qëllim.
-
-## Kush e shkroi?
-
-Autori nuk e emëron veten askund. «Luka» është emri që i mvesh tradita e shekullit të dytë — ndoshta mjeku që shfaqet shkurt në letrat e Palit. Atribuimi mund të jetë i saktë, por nuk është i sigurt, dhe debati shkencor vazhdon. Ajo që teksti vetë zbulon: autori ishte i arsimuar, shkruante me greqishten më të mirë nga katër ungjijtë, njihte shkrimet hebraike në versionin e tyre grek dhe me shumë gjasa nuk ishte hebre. Shkruante për lexues që s'kishin shkelur kurrë në Jude dhe të cilëve u duhej shpjeguar gjithçka — zakonet, marrëdhëniet e pushtetit, logjikën fetare.
-
-Me shumë gjasa u shkrua midis viteve 80 dhe 95, rreth pesëdhjetë vjet pas ngjarjeve. Dhe ka vazhdim: Veprat e Apostujve janë pjesa e dytë e të njëjtit projekt. Tregimi i Lukës nuk mbaron me Pashkën.
+Autori nuk e emëron veten askund. «Luka» është emri që i ka dhënë tradita e shekullit të dytë — ndoshta mjeku që përmendet shkurt në letrat e Palit. Atribuimi mund të jetë i saktë, por nuk është i sigurt. Ajo që teksti zbulon: shkrues i arsimuar, greqishtja më e kulluar nga katër ungjijtë, njohës i shkrimeve hebraike, me shumë gjasa jo hebre. Shkruar midis viteve 80 dhe 95, pesëdhjetë vjet pas ngjarjeve. Ka vazhdim: Veprat e Apostujve janë vëllimi i dytë i të njëjtit projekt.
 
 ## Si lexohen tekstet antike
 
-Tri gjëra që publiku origjinal i dinte, dhe që lexuesi bashkëkohor duhet t'i ketë parasysh:
+Tri gjëra që publiku origjinal i dinte dhe që të duhen që të mos lexosh gabim.
 
-**Fjalimet nuk janë transkriptime.** Kur Luka citon Jezusin, kjo nuk është regjistrim fjalë për fjalë. Kështu punonin të gjithë historianët antikë — Tit Livi, Josif Flavi, Taciti. Ata rikrijionin thelbin e asaj që u tha, jo fjalët e sakta. Kjo nuk është falsifikim. Është marrëveshje tjetër midis autorit dhe lexuesit.
+Fjalimet nuk janë transkriptime. Asnjë autor antik nuk pretendonte të riprodhonte fjalë për fjalë atë që u tha — jepnin thelbin, të distiluar e të mprehur. Nuk ishte mashtrim; ishte marrëveshje tjetër midis shkruesit dhe lexuesit.
 
-**Kronologjia i shërben argumentit.** Luka i tregon disa ngjarje në rend tjetër nga Marku ose Mateu — jo sepse gabon, por sepse i rreshton për efekt. Skena në Nazaret, për shembull, qëndron në fillim të shërbesës te Luka, ndonëse të tjerët e vendosin më vonë. Ai do të thotë: ja programi, ja deklarata.
+Numrat shpesh mbajnë peshë simbolike. Dymbëdhjetë apostuj, shtatëdhjetë të dërguar, dyzet ditë në shkretëtirë — bartës kuptimi që një publik me formim hebraik i njihte menjëherë.
 
-**Numrat shpesh funksionojnë si simbol.** Dymbëdhjetë apostuj, shtatëdhjetë dishepuj, dyzetë ditë në shkretëtirë — nuk ka nevojë t'i marrësh fjalë për fjalë. Lexuesit origjinalë e kuptonin: kjo është gjuhë kuptimi.
-
-## Ideja qendrore
-
-Çdo libër ka një tezë. Teza e Lukës mund të thuhet me një fjali: ai që duket se është jashtë, në të vërtetë qëndron në qendër.
-
-Barinjtë — shtresa më e ulët e Judesë së shekullit të parë — dëgjojnë të parët për lindjen. Samaritani, anëtar i një populli të përbuzur thellësisht nga hebrenjtë, bëhet mishërim i dhembshurisë. Tagrambledhësi — bashkëpunëtor i pushtuesit, i përbuzur nga komuniteti i vet — shpëtohet, ndërsa elita fetare nuk ka folur akoma. Gratë, dëshmia e të cilave asnjë gjykatë nuk e pranonte, dëshmojnë të parat për ringjalljen.
-
-Kjo nuk është rastësi, por sistem. Luka përmbys vazhdimisht se kush i përket. Që në kapitullin e parë thuhet: «Të pushtetëhmit i rrëzoi nga fronet, të përulësurit i lartësoi.» Kjo fjali e vetme është çelësi i gjithë librit. Kush e mban në mendje, do të zbulojë se pothuajse çdo tregim brenda tij zgjidhet nëpërmjet saj.
+Përzgjedhja është interpretim. Luka zgjedh, ngjesh, heq — dhe në këtë përzgjedhje jeton argumenti i tij. Kur diçka shfaqet te Luka por jo te ungjijtë e tjerë, pyet pse. Zakonisht po bën punë.
 
 ## Si lëviz tregimi
 
-Tregimi ndjek gjeografinë. Fillon në tempullin e Jerusalemit — qendrën fetare dhe politike — lëviz drejt veriut galileas, pastaj kthehet me një hark të ngadaltë drejt Jerusalemit. Ky hark, që shtrihet nga kapitulli i nëntë deri te i nëntëmbëdhjetëi, është zemra e librit: Jezusi ecën drejt qytetit ku e di çfarë e pret. Gjatë rrugës mëson, tregon shëmbëlltyra, shëron, debaton. Luka nuk ngutet. Udhëtimi nuk është rruga drejt veprimit kryesor — udhëtimi *është* veprimi kryesor.
+Tregimi ndjek një gjeografi. Nis në tempullin e Jerusalemit, lëviz drejt veriut rural galileas, pastaj kthehet me një hark të gjatë e të ngadaltë drejt Jerusalemit. Ky hark, që shtrihet nëpër kapitujt nëntë deri nëntëmbëdhjetë, është zemra e librit: Jezusi që ecën drejt një qyteti ku e di çfarë e pret. Gjatë rrugës mëson, rrëfen, shëron, debaton. Udhëtimi nuk është hyrje për veprimin — udhëtimi *është* veprimi.
 
-Në fund nuk qëndron triumfi, por një darkë e përbashkët, një varr i zbrazët dhe një porosi për të pritur. Një mbyllje që hapet.
+Libri hapet me dy tregime lindjeje të treguara krah për krah dhe mbyllet jo me triumf, por me një darkë, një varr të zbrazët, një porosi për të pritur. Një mbyllje që hapet.
+
+## Ç'të mbash parasysh
+
+Luka ka më shumë gra me role më aktive se çdo ungjill tjetër. Maria nuk mjaftohet duke marrë një lajm — përgjigjet me një këngë që është fjalimi politikisht më i ngarkuar i Dhjatës së Re. Elizabeta është profete. Ana është profete. Një grup grash financon gjithë lëvizjen dhe janë të emëruara duke e bërë. Gratë janë dëshmitaret e para të ringjalljes. Ndërsa lexon, numëroji.
+
+Shiko se ç'bën paraja. Luka është më ekonomikisht i qartë nga të katër ungjijtë. Lumturitë këtu nuk thonë «të lumtur të varfrit në shpirt» — thonë *të lumtur të varfrit*, pa zbutje. Libri përmban mjerime ndaj të pasurve që shumica e zotëruesve të Biblës s'i kanë lexuar kurrë. Pyet, ndërsa shkon: çfarë mendon ky tekst se bën pasuria me një njeri?
+
+Vëri re kush bëhet hero kur duhet një hero. Pothuajse kurrë nuk është ai që pret. Njeriu që përkufizon çfarë do të thotë të duash të afërmin është samaritan. I vetmi lebroz që kthehet për të falënderuar është po ashtu samaritan. Ushtari, besimi i të cilit mahnit Jezusin, është pushtues romak. Kur Lukës i duhet të tregojë një veprim të drejtë, ai del jashtë rrethit çdo herë.
+
+Dhe mbaje këtë pyetje përgjatë librit: *kë vëren Jezusi?* Vështrimi i tij bie mbi njerëz që shoqëria e shekullit të parë i kishte bërë të padukshëm. Ndiqe atë vështrim.
 
 ## Pse ta lexosh tani?
 
-Jeton në Tiranë — ose në Prishtinë, Durrës, Shkodër — dhe kalon përditë pranë xhamive e kishave pa hyrë. Ndoshta gjyshërit e tu ishin myslimanë, ndoshta katolikë, ndoshta ortodoksë — por gjatë komunizmit u mbyllën të gjitha, u shkatërruan ose u kthyen në depo drithërash. Shqipëria bëri atë që asnjë shtet tjetër në Europë nuk e bëri: e ndaloi fenë. Tërësisht. Zyrtarisht. Për njëzetë e katër vjet.
+Jeton në Tiranë — ose në Prishtinë, Durrës, Shkodër, ose në diasporë — dhe kalon çdo ditë pranë xhamive e kishave pa hyrë. Ndoshta gjyshërit e tu ishin myslimanë, ndoshta katolikë, ndoshta ortodoksë — por gjatë komunizmit u mbyllën të gjitha, u shkatërruan ose u kthyen në depo drithërash. Shqipëria bëri atë që asnjë shtet tjetër në Europë nuk e bëri: e ndaloi fenë. Tërësisht. Zyrtarisht. Për njëzet e katër vjet.
 
-Rezultati është se ti, me shumë gjasa, nuk ke formim fetar. Nuk ke kujtime fëmijërie nga kisha apo xhamia. Nuk e njeh Biblën as si tekst fetar, as si tekst letrar. Mund të dish diçka rreth saj — nga filmat, nga letërsia perëndimore, nga biseda — por nuk e ke lexuar.
+Rezultati është se ti, me shumë gjasa, nuk ke formim fetar. Nuk e njeh Biblën as si tekst fetar, as si tekst letrar. Kjo, çuditërisht, të vendos në pozicionin e saktë: Luka shkroi pikërisht për lexues pa formim fetar hebraik. Publiku i tij ishin grekë e romakë të arsimuar që pyesnin ftohtë: kush ishte ky njeri, dhe pse pesëdhjetë vjet më vonë akoma ka rëndësi?
 
-Kjo, çuditërisht, të vendos në pozicionin e saktë. Luka shkroi për lexues pa formim fetar hebraik. Publiku i tij ishin grekë e romakë të arsimuar që pyesnin ftohtë: kush ishte ky njeri dhe pse pesëdhjetë vjet më vonë akoma ka rëndësi? — Kush e lexon këtë tekst pa kornizë institucionale, pa praktikë fetare dhe pa identitet konfesional automatik, është pikërisht publiku për të cilin u shkrua.
+Pyetjet që Luka ngre — kush i përket shoqërisë, çfarë i bën pushteti njeriut, ku qëndron drejtësia kur institucionet dështojnë — nuk janë pyetje të shekullit të parë. Janë pyetje që në Tiranën e sotme, në Prishtinën e sotme, në Milanon ose Cyrihun e diasporës, mbeten pa përgjigje.
 
-Dhe pyetjet që Luka ngre — kush i përket shoqërisë, çfarë i bën pushteti njeriut, ku qëndron drejtësia kur institucionet dështojnë — nuk janë pyetje të shekullit të parë. Janë pyetje që në Tiranën e sotme, në Prishtinën e sotme, në diasporën e Milanos ose Cyrihut, mbeten pa përgjigje.
-
-## Rreth këtij përkthimi
-
-Tradita shqiptare e Biblës është e varfër. Përkthimi i Kristoforidhit i vitit 1872 ishte pionier, por gjuha e tij tani tingëllon arkaike. Përkthimi i 1994-ës nga UBS ekziston, por lexohet si dokument institucional — me fjali të ndërtuara sipas greqishtes, me fjalor kishtarak dhe me ton që sinjalizon qartë: kjo është për brenda mureve të kishës.
-
-Aperto Bibla e përkthen Lukën në shqipen letrare bashkëkohore — prozë që ka ambicien të lexohet si letërsi, jo si ritual. Pa arkaizma që simulojnë solemnitet. Pa gjuhë institucionale që tingëllon korrekte por e vdekur. Qëllimi nuk është të prodhojë një tekst që zëvendëson kishën ose xhaminë — por të hapë një dritare drejt një tradite kulturore që ka formuar Perëndimin, me fjalë që tingëllojnë si shqipja e sotme. Shqipja e Kadaresë, e Donesit, e Ypit — jo shqipja e formulave kishtarake.
-
-Kjo nuk është letërsi kundër spiritualitetit. Është letërsi si mjet i angazhimit — me tekstin, me pyetjet e tij, me mundësinë që ai, edhe sot, ka diçka për të thënë.
+Hape.

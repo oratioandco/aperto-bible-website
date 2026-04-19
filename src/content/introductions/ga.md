@@ -1,51 +1,47 @@
 # Lúcás — Réamhrá
 
+Bean óg, torrach, gan pósadh, i sráidbhaile i nGailíl — áit nach raibh aon ghuth ag duine ar bith — canann amhrán a leagann Lúcás ag tús a leabhair: *"Chaith sé na cumhachtaigh anuas ón ríchathaoir agus d'ardaigh sé na hísle. Líon sé na hocracha le rudaí maithe agus sheol sé na saibhre folamh uaidh."* Rud a bhfuil cuma salm air — is ráiteas polaitiúil é. Níl sé ansin de thimpiste.
+
+San aon abairt sin, tá téis an leabhair ar fad gafa: an té a mheastar a bheith lasmuigh, tá sé — nuair a fhéachtar go grinn — sa lár. Réitíonn beagnach gach scéal ina dhiaidh sa treo céanna.
+
 ## Cén Sórt Leabhair é Seo?
 
-Nuair a thógann tú an téacs seo, ní nuachtán ón gcéad aois atá agat. Ní bolscaireacht reiligiúnach ach oiread. Tá sé ina sheánra ar leith — rud ar thug na Gréagaigh *bios* air: beathaisnéis roghnaitheach. Scríobh Plutarch ina leithéid, Tacitus, Suetóinias. Bhí rialacha soiléire ann: roghnaíonn tú eachtraí a nochtann fíor-bhrí saoil duine. Eagraíonn tú an t-ábhar de réir argóna, ní de réir féilire. Cumtar óráidí — ní mar bhréag, ach mar nós liteartha a thuig gach léitheoir: cad a déarfadh an duine seo sa chás seo? Sin mar a d'oibrigh gach staraí sa tseanré, agus bhí a fhios ag a lucht éisteachta é.
+Bíonn ionchas contráilte ag formhór léitheoirí Soiscéil: cuntas fíorasach iriseoireachta, nó bolscaireacht reiligiúnach faoi bhréag-stair. Níl ceachtar acu ceart.
 
-Deir Lúcás féin sna chéad cheithre véarsa cad atá á dhéanamh aige: rinne sé taighde, scrúdaigh sé foinsí, chuir sé agallamh ar fhinnéithe, agus anois tá sé ag scríobh "cuntas eagraithe" do dhuine darb ainm Teofailis. Eagraithe — ní a chiallaíonn "de réir dátaí." A chiallaíonn: insíodh le hintinn.
+Baineann an rud a scríobh Lúcás le seánra seanársa darb ainm *bios* — saol. Scríobh Plutarch a leithéid, Tacitus, Suetóinias. Bhí na rialacha ag an lucht léite bunaidh: roghnaítear eachtraí a nochtann fíor-bhrí saoil duine; eagraítear an t-ábhar de réir argóna, ní féilire; cumtar óráidí — ní mar bhréag, ach mar nós liteartha a d'aithin gach léitheoir. Deir Lúcás féin sna chéad cheithre véarsa cad atá á dhéanamh aige: rinne sé taighde, scrúdaigh sé foinsí, chuir sé agallamh ar fhinnéithe, agus tá "cuntas eagraithe" á scríobh aige do dhuine darb ainm Teofailis. Eagraithe — ní hionann sin agus de réir dátaí. Ciallaíonn sé: insithe le hintinn. Is é an roghnú an argóint.
 
-## Cé a Scríobh É?
+Ní luann an t-údar é féin choíche. Tháinig "Lúcás" ó thraidisiún an dara haois — b'fhéidir an dochtúir i litreacha Phóil, b'fhéidir nach é. Léiríonn an téacs duine oilte, Gréigis líofa, eolas domhain ar scrioptúir na nGiúdach sa leagan Gréigise, is dócha nach Giúdach é féin. Scríobh sé idir 80 agus 95 AD, do léitheoirí nach raibh cos curtha acu i Iúdáia riamh. Tá dara imleabhar ann: Gníomhartha na nAspal.
 
-Ní luann an t-údar é féin in áit ar bith. "Lúcás" — ainm a cheangail traidisiún an dara haois leis, b'fhéidir an dochtúir a luaitear go gairid i litreacha Phóil. B'fhéidir go bhfuil sé ceart; b'fhéidir nach bhfuil. Níl an scoláireacht cinnte. An méid a insíonn an téacs féin dúinn: duine oilte a bhí ann, a raibh Gréigis líofa aige, a raibh eolas aige ar scrioptúir na nGiúdach sa leagan Gréigise, agus is dócha nach Giúdach é féin a bhí ann. Scríobh sé do léitheoirí nach raibh cos riamh curtha acu i Iúdáia — daoine ar ghá gach rud a mhíniú dóibh: nósanna, cumhacht, loighic reiligiúnach.
+## Conas a Léitear Téacs Ársa
 
-Is dócha gur scríobhadh é idir 80 agus 95 AD — tuairim is caoga bliain tar éis na n-imeachtaí. Agus tá leabhar eile ann: Gníomhartha na nAspal, an dara himleabhar den tionscadal céanna. Ní chríochnaíonn scéal Lúcáis ag an gCáisc.
+Ní miontuairiscí iad na hóráidí. Níor mhaígh údar ársa ar bith focal ar fhocal a chur i mbéal duine. Thug sé cuntas ar an méid a déarfadh an duine sin sa chás sin — dlúthaithe, géaraithe, tugtha go dtí an pointe. Rinne Thucidídéas mar a chéile. Ní calaois é ach comhaontú eile idir scríbhneoir agus léitheoir.
 
-## Conas a Léitear Téacs ón tSeanré
+Bíonn meáchan siombalach ag na huimhreacha. Dháréag aspal, seachtó teachtaire, daichead lá san bhfásach — comharthaí a dhíchódódh lucht léite Giúdach ar an toirt.
 
-Trí rud a thuig an chéad lucht éisteachta, agus a chaithfidh léitheoir an lae inniu a thuiscint freisin:
-
-Ar dtús, ní miontuairiscí iad óráidí i dtéacsanna ársa. Níor mhaígh údar ar bith go raibh sé ag athchur focal ar fhocal. Thug sé cuntas ar an méid a déarfadh an duine sin sa chás sin — dlúthaithe, géaraithe, cruinnithe go dtí an pointe. Bhí sé amhlaidh ag Thucidídéas agus ag Lúcás araon. Ní calaois é. Comhaontú difriúil idir údar agus léitheoir atá ann.
-
-Ansin, bíonn uimhreacha siombalach go minic. Dháréag aspal, seachtó teachtaire, daichead lá san bhfásach — ní uimhreacha randamacha iad seo, ach comharthaí brí a d'aithneodh lucht éisteachta Giúdach láithreach.
-
-Agus ar deireadh, is léiriú é roghnú. Ní insíonn Lúcás gach rud a tharla. Roghnaíonn sé, dlúthaíonn sé, fágann sé ar lár — agus is san roghnú sin atá a argóint.
-
-## An Smaoineamh Lárnach
-
-Tá téis ag gach leabhar. Téis Lúcáis i bhfocal amháin: an duine atá lasmuigh, tá sé — nuair a fhéachann tú i gceart — sa lár.
-
-Aoirí — an dream ab ísle sa tsochaí i Iúdáia an chéad aois — is iad an chéad dream a chloiseann faoin mbreith. Samáratánach, duine den dream a bhí fuaite ag Giúdaigh, a éiríonn ina siombail na trócaire. Poibleacánach — comhoibrí leis an gcumhacht ghabhálach, fuaite ag a mhuintir féin — sábháltar é sula bhfaigheann an lucht reiligiúnach deis labhartha. Mná, nach raibh cead acu fianaise a thabhairt os comhair cúirte, is iad an chéad fhinnéithe ar an aiséirí.
-
-Ní trí thimpiste é seo ach go córasach. Casann Lúcás bun os cionn cé a bhaineann leis an scéal. Sa chéad chaibidil féin: "Chaith sé na cumhachtaigh anuas ón ríchathaoir agus d'ardaigh sé na hísle." An abairt sin an eochair don leabhar iomlán.
+Is é an roghnú an léirmhíniú. Ní insíonn Lúcás gach rud. Roghnaíonn sé, dlúthaíonn sé, fágann sé ar lár — agus sa roghnú sin a mhaireann a argóint. Nuair a thagann rud i Lúcás nach bhfuil sna Soiscéil eile, bíonn fáth leis.
 
 ## Conas a Bhogann an Scéal
 
-Leanann an scéal tíreolaíocht. Tosaíonn sé i dTeampall Iarúsailéim — lárionad na cumhachta reiligiúnach agus polaitiúil — bogann amach go tuaisceart na Gailíle, agus filleann ansin i gcuar fada mall ar ais go hIarúsailéim. An cuar sin, a shíneann ó chaibidil 9 go 19, croí an leabhair atá ann: tá Íosa ag siúl i dtreo cathrach ina bhfuil a fhios aige cad atá roimhe. Ar an mbealach, múineann sé, insíonn sé parabalóidí, leigheasann, argóintíonn. Níl deifir ar Lúcás. Ní hé an turas an bealach go dtí an fíor-eachtra — is é an turas féin an eachtra.
+Leanann an scéal tíreolaíocht. Tosaíonn sé i dTeampall Iarúsailéim, bogann amach go tuaisceart tuaithe na Gailíle, agus filleann ansin i gcuar fada mall ar ais go hIarúsailéim. An cuar sin, a shíneann ó chaibidil 9 go 19, croí an leabhair atá ann: Íosa ag siúl i dtreo cathrach ina bhfuil a fhios aige cad atá roimhe. Ar an mbealach, múineann sé, insíonn sé scéalta, leigheasann, argóintíonn. Níl deifir ar Lúcás. Ní hé an turas an bealach go dtí an fíor-eachtra — *is é an turas féin an eachtra*. Ag an deireadh, níl bua ann. Béile. Uaigh fholamh. Treoir fanacht. Deireadh a osclaíonn.
 
-Ag an deireadh, ní bua atá ann ach béile, uaigh fholamh, agus treoir fanacht. Deireadh a osclaíonn.
+## Cad a Thabharfaidh tú faoi Deara
 
-## Cén Fáth É a Léamh Anois?
+Tá tuilleadh ban le ról níos gníomhaí i Lúcás ná in aon Soiscéal eile. Ní ghlacann Muire teachtaireacht go simplí — freagraíonn sí le hamhrán is é an óráid is polaitiúla sa Tiomna Nua. Fáidh í Eilís. Fáidh í Anna. Maoiníonn grúpa ban an ghluaiseacht iomlán, agus ainmníonn Lúcás iad. Is mná iad na chéad fhinnéithe ar an aiséirí. Agus tú ag léamh, comhair iad — agus breathnaigh cad a deir siad agus a dhéanann siad, ní amháin go mbíonn siad i láthair.
 
-In Éirinn, tá gaol casta ag an mBíobla agus ag an eaglais le saol na ndaoine — go háirithe do ghlúin a d'fhás aníos le scéalta na Magdalene Laundries, Tuam, agus na scoileanna tionsclaíocha. Is é an instinct nádúrtha casadh ar shiúl. Agus tá gach ceart ag an léitheoir é sin a dhéanamh.
+Ná bain do shúil den airgead. Is é Lúcás an Soiscéal is oscailte ó thaobh an gheilleagair de. Sna Beannachtaí anseo, ní deirtear "is beannaithe iad na boicht sa spiorad" — deirtear *is beannaithe sibhse, a bhoicht*, lán stop. Tá mallachtaí ann i gcoinne na saibhre nach bhfaca an chuid is mó d'úinéirí Bíobla riamh. Ceist a ritheann faoi gach leathanach: cad a dhéanann an saibhreas le duine?
 
-Ach is fiú an téacs seo a scarúint ón institiúid. Ní teach sagairt é Lúcás. Is scéalaí é. Agus a scéal — faoi chumhacht agus cé a bhaineann léi, faoi shaibhreas agus cad a dhéanann sé le duine, faoin duine atá brúite go himeall agus cad a tharlóidh nuair a thugtar aghaidh air — ní ceisteanna ón gcéad aois amháin iad. Is ceisteanna iad atá gan freagra fós i mBaile Átha Cliath, i nGaillimh, i gCorcaigh.
+Tabhair faoi deara cé a imríonn ról an ghaiscígh nuair a bhíonn gaisce ag teastáil. Is beag riamh é an duine a shamhlófá. Samáratánach a shainmhíníonn cad is comharsanúlacht ann — an dream ba mhó fuath ag lucht léite Giúdach bunaidh an leabhair. Samáratánach freisin an t-aon lobhar a fhilleann chun buíochas a ghabháil. Saighdiúir Rómhánach gabhálach a chuireann ionadh ar Íosa lena chreideamh. Nuair a theastaíonn ó Lúcás an gníomh ceart a thaispeáint, síneann sé lámh thar an gciorcal amach — gach uile uair.
 
-Scríobh Lúcás do dhaoine nach raibh aon chúis acu aon ní de seo a chreidiúint. A lucht léitheoireachta: Gréagaigh agus Rómhánaigh oilte a chuir ceist shimplí: Cé a bhí an duine seo, agus cén fáth go bhfuil sé fós ábhartha caoga bliain ina dhiaidh? Duine ar bith a léann an téacs seo gan chúlra eaglaise — sin díreach an lucht léitheoireachta ar scríobhadh dóibh é.
+Coinnigh an cheist seo ar feadh an leabhair uile: *cé a fheiceann Íosa?* Tuirlingíonn a shúil ar na dofheicthe. B'fhéidir gurb é leanúint na féachana sin an bealach is dírí chun an téacs a thuiscint.
 
-## Faoin Aistriúchán Seo
+## Cén Fáth é a Léamh Anois?
 
-Tá stair ag an mBíobla Gaeilge — An Bíobla Naofa, na leaganacha Protastúnacha éagsúla — ach is cuma cé acu, baineann siad go léir le clár áirithe: séipéal, scoil, catacaism. An Ghaeilge iontu, tá sí cruinn go leor, ach ní Gaeilge bheo atá ann. Ní Gaeilge a léifeá le do thoil féin.
+In Éirinn, tá an Bíobla ceangailte le saol ar iompaíodh uaidh. Ní hamháin le Críostaíocht oifigiúil a chaill a greim, ach le fíor-scannail — Magdalene Laundries, Tuam, na scoileanna tionsclaíocha. Is é an instinct nádúrtha an leabhar a dhúnadh. Tá an ceart uile ag an léitheoir.
 
-Is é atá ag Aperto ná Lúcás i nGaeilge liteartha chomhaimseartha — an Ghaeilge a scríobhann Doireann Ní Ghríofa, Micheál Ó Conghaile, Pádraig Ó Cíobháin. Gaeilge a bhfuil anáil inti. Ní Gaeilge na scoile, ní Gaeilge na hoifige, ní Gaeilge na heaglaise. Gaeilge bheo. An rud a rinne gach mór-aistritheoir riamh: an téacs a thabhairt isteach sa teanga ina maireann daoine iarbhír — ina smaoiníonn siad, ina n-argóintíonn siad, ina n-insíonn siad scéalta. An Ghaeilge sin, an Ghaeilge atá beo, is í an t-aon Ghaeilge atá fiúntach don obair seo.
+Ach ní do chreidmhigh a scríobh Lúcás. Scríobh sé do léitheoirí oilte sa saol Gréigeach-Rómhánach nach raibh aon chúis acu creidiúint ina raibh sé ag insint. Amhrasach, léannta, cleachtaithe ar argóintí a mheas — cosúil linne. Ní hé an t-údarás a mhodh, ní hí an eagla — ach leanúnachas scéil agus géire shúil ar iompar daonna.
+
+A cheisteanna — is linne iad fós. An saibhreas: cad a dhéanann sé le duine? An chumhacht: cén chuma a bheadh ar shaol nach bhfuil faoina smacht? An eisiamh: cé a chinneann cé atá istigh? Ní réitíonn Lúcás iad. Cuireann sé iad le cruinneas a bhaineann siar asat.
+
+Má tá tú ag léamh gan cúlra eaglaise — gan ainmníocht, gan rang cóineartaithe, gan aon chuid den lastas institiúideach — is tú díreach an lucht léite ar scríobhadh dóibh é.
+
+Oscail é.
