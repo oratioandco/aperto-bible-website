@@ -1,0 +1,39 @@
+{
+  "book": "Psalms",
+  "chapter": 23,
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
+  "aspect_ratio": "16:9",
+  "color_palette": "Bleached linen, weathered stone, faded terracotta, dry grass, bone white, ash gray, deep shadow — all heavily desaturated with analog film warmth",
+  "images": [
+    {
+      "id": "the-shepherd",
+      "filename": "psalms_023_shepherd.png",
+      "pericopeId": "the-shepherd",
+      "title": "The Shepherd",
+      "verses": "1-3",
+      "concept": "Pastoral provision and being-led — green pasture, still water, restored soul",
+      "imageAlt": "Bright pale shoots of low grass beside a still shallow pool reflecting late afternoon sky, a faint trodden path leading toward the water",
+      "prompt": "35mm analog film photograph, low close view of bright pale grass shoots beside a still shallow pool of water reflecting late afternoon sky, the faint trodden path of bent grass visible leading toward but not into the pool, soft amber low-angle light, heavy Kodak Portra 400 grain, muted palette of bleached green, warm cream, pale sky-blue water, the stillness of the pool the only sound, no figures, presence implied through absence, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "in-the-valley",
+      "filename": "psalms_023_valley.png",
+      "pericopeId": "in-the-valley",
+      "title": "In the Valley",
+      "verses": "4",
+      "concept": "Threshold-passage through the darkest valley — walking through, not staying; companion presence implied",
+      "imageAlt": "A narrow worn path threading between two weathered stone walls in deep shadow, with a single sharp blade of late golden light cutting across the far end",
+      "prompt": "35mm analog film photograph, narrow worn-stone path threading between two weathered stone walls in deep shadow, a single sharp blade of late golden light cutting across the path at the far vanishing point, the path empty but recently walked — faint dust still settling, no people, heavy Kodak Portra 400 grain, deeply muted palette of bone, shadow, weathered ochre, the meeting of darkness and one line of light, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "at-the-table",
+      "filename": "psalms_023_table.png",
+      "pericopeId": "at-the-table",
+      "title": "At the Table",
+      "verses": "5-6",
+      "concept": "Hospitality and abundance set against threat — a table prepared, cup overflowing, dwelling secured",
+      "imageAlt": "Overhead view of a simple wooden table set near an open doorway, a ceramic bowl of oil and a clay cup overfilled with wine, evening amber light",
+      "prompt": "35mm analog film photograph, overhead view of a simple wooden table set near an open doorway facing outdoors, a single ceramic bowl filled with golden oil catching low evening light, a clay cup overfilled with wine staining the wood slightly, the threshold of the doorway visible behind the table, no figures, the setting itself the welcome, Kodak Portra 400 grain, warm muted palette of clay, weathered wood, bleached linen, evening amber, the abundance quiet, Alabaster Books aesthetic, 16:9"
+    }
+  ]
+}

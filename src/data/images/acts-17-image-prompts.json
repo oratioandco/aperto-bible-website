@@ -1,0 +1,49 @@
+{
+  "book": "Acts",
+  "chapter": 17,
+  "style_notes": "Analog 35mm film photography, Kodak Portra 400 grain structure, heavily muted desaturated palette. Abstract and conceptual — never literal, never illustrative. No people, no faces, no obvious religious iconography. Evoke emotional and theological truth through texture, light, shadow, and negative space alone. Think Alabaster Books meets Kinfolk magazine: spare, intimate, unhurried. Objects minimal or absent. Light does the storytelling.",
+  "aspect_ratio": "16:9",
+  "color_palette": "Warm pale stone, scattered terracotta, dust, ochre wall light, cream papyrus, cool morning light, weathered marble, faded engraving — heavily desaturated with analog film warmth",
+  "images": [
+    {
+      "id": "thessalonica",
+      "filename": "acts_017_thessalonica.png",
+      "pericopeId": "aufruhr-in-thessalonich",
+      "title": "Aufruhr in Thessalonich",
+      "verses": "1-9",
+      "concept": "Urban accusation — the city in tension, the public conflict implied in absence",
+      "imageAlt": "A narrow paved Greco-Roman alley with a fallen wooden market trestle and a few scattered bronze coins on rough cobblestones",
+      "prompt": "35mm analog film photograph, low view down a narrow paved Greco-Roman alley with rough cobblestones, a fallen wooden market trestle and a few scattered bronze coins on the ground, the alley empty but the disturbance fresh, harsh midday Mediterranean light, deep contrasting shadow against bright ochre wall, no figures, heavy Kodak Portra 400 grain, muted palette of warm pale stone, scattered terracotta, dust, ochre wall light, the public conflict implied in absence, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "berea",
+      "filename": "acts_017_berea.png",
+      "pericopeId": "beroea",
+      "title": "Berea — Daily in the Scriptures",
+      "verses": "10-15",
+      "concept": "Patient inquiry — the open scroll, the weight of careful reading",
+      "imageAlt": "Overhead view of an open papyrus scroll on a smooth stone bench, edges weighted by a small smooth river stone, cool morning light",
+      "prompt": "35mm analog film photograph, close overhead view of an open papyrus scroll on a smooth stone bench, edges weighted by a small smooth river stone, cool clean morning light across the scroll, no figures, the page itself the subject, heavy Kodak Portra 400 grain, muted palette of cream papyrus, warm stone, cool pale morning light, the patience of inquiry, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "athens",
+      "filename": "acts_017_athens.png",
+      "pericopeId": "paulus-in-athen",
+      "title": "Paul in Athens",
+      "verses": "16-21",
+      "concept": "A city full of altars — religious surplus, the foreign observer's gaze",
+      "imageAlt": "A small weathered marble altar at a quiet Athenian street corner, faded carved Greek letters partially visible, late afternoon shadow",
+      "prompt": "35mm analog film photograph, mid-distance view of a small weathered marble altar in a quiet Athenian street corner with faded carved Greek letters partially visible across its face, no offerings on the altar, late afternoon shadow falling across the carved stone at a steep angle, the surrounding city quiet, no figures, heavy Kodak Portra 400 grain, muted palette of weathered marble, deep shadow, faded ochre wall, the city's many gods one of many forgotten ones, Alabaster Books aesthetic, 16:9"
+    },
+    {
+      "id": "areopagus",
+      "filename": "acts_017_areopagus.png",
+      "pericopeId": "areopag",
+      "title": "The Address on the Areopagus",
+      "verses": "22-34",
+      "concept": "The place where the address was given — high open stone, the city below, late amber light",
+      "imageAlt": "The bare gray-pink limestone of Mars Hill at golden hour with the silhouetted Acropolis temple visible distantly behind",
+      "prompt": "35mm analog film photograph, low ground view of the bare gray-pink limestone rock of Mars Hill rising in late afternoon, with the silhouetted Acropolis temple visible in the distance behind, the worn footpaths of millennia visible on the rock face, no figures, deep amber-golden hour light, heavy Kodak Portra 400 grain, muted palette of weathered stone, golden hour amber, deep shadow valley below, the place where the address was given still empty, Alabaster Books aesthetic, 16:9"
+    }
+  ]
+}

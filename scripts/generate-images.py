@@ -55,26 +55,26 @@ LANG_NAMES = {
 }
 
 
-def get_prompts_file(chapter: int) -> Path:
-    if chapter == 1:
+def get_prompts_file(chapter: int, book: str = "luke") -> Path:
+    if book == "luke" and chapter == 1:
         return PROMPTS_DIR / "luke-1-image-prompts-v2.json"
-    return PROMPTS_DIR / f"luke-{chapter}-image-prompts.json"
+    return PROMPTS_DIR / f"{book}-{chapter}-image-prompts.json"
 
 
-def get_cover_prompt_file() -> Path:
-    return PROMPTS_DIR / "luke-cover-image-prompt.json"
+def get_cover_prompt_file(book: str = "luke") -> Path:
+    return PROMPTS_DIR / f"{book}-cover-image-prompt.json"
 
 
-def get_cover_output_dir() -> Path:
-    return PROJECT_DIR / "public/images/luke"
+def get_cover_output_dir(book: str = "luke") -> Path:
+    return PROJECT_DIR / f"public/images/{book}"
 
 
-def get_output_dir(chapter: int) -> Path:
-    return PROJECT_DIR / f"public/images/luke/{chapter}"
+def get_output_dir(chapter: int, book: str = "luke") -> Path:
+    return PROJECT_DIR / f"public/images/{book}/{chapter}"
 
 
-def get_pericopes_file(chapter: int, lang: str) -> Path:
-    return CONTENT_DIR / f"luke-{chapter}-pericopes-{lang}.json"
+def get_pericopes_file(chapter: int, lang: str, book: str = "luke") -> Path:
+    return CONTENT_DIR / f"{book}-{chapter}-pericopes-{lang}.json"
 
 
 def generate_image(client, prompt: str, filename: str, output_dir: Path) -> bool:
@@ -145,7 +145,7 @@ Rules:
     return json.loads(raw)
 
 
-def translate_alts(client, images: list, chapter: int) -> None:
+def translate_alts(client, images: list, chapter: int, book: str = "luke") -> None:
     """Translate imageAlt texts into all languages and write into pericope JSON files."""
     alts = {img["filename"]: img["imageAlt"] for img in images if img.get("imageAlt")}
     if not alts:
@@ -170,7 +170,7 @@ def translate_alts(client, images: list, chapter: int) -> None:
     # Write into each pericope JSON file
     updated_files = 0
     for lang in ALL_LANGS:
-        pericopes_file = get_pericopes_file(chapter, lang)
+        pericopes_file = get_pericopes_file(chapter, lang, book)
         if not pericopes_file.exists():
             continue
 
@@ -200,7 +200,7 @@ def translate_alts(client, images: list, chapter: int) -> None:
     print(f"  ✓ Updated imageAlt in {updated_files} pericope JSON files")
 
 
-def wire_image_fields(images: list, chapter: int) -> None:
+def wire_image_fields(images: list, chapter: int, book: str = "luke") -> None:
     """Write image filename and update .jpeg→.png into all per-language pericope JSON files."""
     # Build pericopeId → filename map
     pericope_to_file = {
@@ -214,7 +214,7 @@ def wire_image_fields(images: list, chapter: int) -> None:
 
     updated_files = 0
     for lang in ALL_LANGS:
-        pericopes_file = get_pericopes_file(chapter, lang)
+        pericopes_file = get_pericopes_file(chapter, lang, book)
         if not pericopes_file.exists():
             continue
 
@@ -242,8 +242,8 @@ def wire_image_fields(images: list, chapter: int) -> None:
     print(f"  ✓ Wired image fields in {updated_files} pericope JSON files")
 
 
-def generate_cover(client, force: bool = False) -> bool:
-    prompts_file = get_cover_prompt_file()
+def generate_cover(client, force: bool = False, book: str = "luke") -> bool:
+    prompts_file = get_cover_prompt_file(book)
     if not prompts_file.exists():
         print(f"  ✗ Cover prompt file not found: {prompts_file}")
         return False
@@ -258,7 +258,7 @@ def generate_cover(client, force: bool = False) -> bool:
         print("  ✗ Cover prompt file missing required fields (cover.prompt / cover.filename)")
         return False
 
-    output_dir = get_cover_output_dir()
+    output_dir = get_cover_output_dir(book)
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / cover["filename"]
 
@@ -271,13 +271,13 @@ def generate_cover(client, force: bool = False) -> bool:
     return generate_image(client, full_prompt, cover["filename"], output_dir)
 
 
-def generate_chapter(client, chapter: int, single_index=None, alts_only: bool = False) -> tuple:
-    prompts_file = get_prompts_file(chapter)
+def generate_chapter(client, chapter: int, single_index=None, alts_only: bool = False, book: str = "luke") -> tuple:
+    prompts_file = get_prompts_file(chapter, book)
     if not prompts_file.exists():
         print(f"  ✗ Prompts file not found: {prompts_file}")
         return 0, 0
 
-    output_dir = get_output_dir(chapter)
+    output_dir = get_output_dir(chapter, book)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(prompts_file) as f:
@@ -288,9 +288,9 @@ def generate_chapter(client, chapter: int, single_index=None, alts_only: bool = 
     images = data["images"]
 
     if alts_only:
-        print(f"Wiring image fields and translating alt texts for Luke {chapter} (skipping image generation)...")
-        wire_image_fields(images, chapter)
-        translate_alts(client, images, chapter)
+        print(f"Wiring image fields and translating alt texts for {book.title()} {chapter} (skipping image generation)...")
+        wire_image_fields(images, chapter, book)
+        translate_alts(client, images, chapter, book)
         return 0, 0
 
     target_images = [images[single_index]] if single_index is not None else images
@@ -319,14 +319,16 @@ def generate_chapter(client, chapter: int, single_index=None, alts_only: bool = 
 
     # Always wire image fields and translate alts after full chapter generation
     if single_index is None:
-        wire_image_fields(images, chapter)
-        translate_alts(client, images, chapter)
+        wire_image_fields(images, chapter, book)
+        translate_alts(client, images, chapter, book)
 
     return success_count, len(target_images)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate pericope images for Luke chapters")
+    parser = argparse.ArgumentParser(description="Generate pericope images for Bible chapters")
+    parser.add_argument("--book", default="luke",
+                        help="Book slug (luke, psalms, acts) — default luke")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--chapter", type=int, help="Chapter number (e.g. 1, 2)")
     group.add_argument("--all", action="store_true", help="Generate all chapters with prompt files")
@@ -344,29 +346,29 @@ def main():
     client = genai.Client(api_key=api_key)
 
     if args.cover:
-        ok = generate_cover(client, force=args.force)
+        ok = generate_cover(client, force=args.force, book=args.book)
         print(f"\n{'='*50}")
         print(f"Cover {'generated' if ok else 'failed'}")
-        print(f"Output: {get_cover_output_dir() / 'cover.png'}")
+        print(f"Output: {get_cover_output_dir(args.book) / 'cover.png'}")
         sys.exit(0 if ok else 1)
 
     if args.all:
         chapters = sorted(set(
             int(m.group(1))
-            for f in sorted(PROMPTS_DIR.glob("luke-*-image-prompts*.json"))
-            if (m := re.search(r"luke-(\d+)-image-prompts", f.name))
+            for f in sorted(PROMPTS_DIR.glob(f"{args.book}-*-image-prompts*.json"))
+            if (m := re.search(rf"{args.book}-(\d+)-image-prompts", f.name))
         ))
         if not chapters:
-            print(f"No prompts files found in {PROMPTS_DIR}")
+            print(f"No prompts files found for book={args.book} in {PROMPTS_DIR}")
             sys.exit(1)
 
-        print(f"Found prompts for {len(chapters)} chapters: {chapters}\n")
+        print(f"Found prompts for {len(chapters)} {args.book} chapters: {chapters}\n")
         total_success, total_images = 0, 0
         for chapter in chapters:
             print(f"\n{'='*50}")
-            print(f"Luke Chapter {chapter}")
+            print(f"{args.book.title()} Chapter {chapter}")
             print(f"{'='*50}")
-            s, t = generate_chapter(client, chapter, alts_only=args.alts_only)
+            s, t = generate_chapter(client, chapter, alts_only=args.alts_only, book=args.book)
             total_success += s
             total_images += t
 
@@ -374,11 +376,11 @@ def main():
         print(f"All chapters complete: {total_success}/{total_images} images generated")
 
     else:
-        s, t = generate_chapter(client, args.chapter, args.single, alts_only=args.alts_only)
+        s, t = generate_chapter(client, args.chapter, args.single, alts_only=args.alts_only, book=args.book)
         if not args.alts_only:
             print(f"\n{'='*50}")
-            print(f"Luke {args.chapter} complete: {s}/{t} images generated")
-            print(f"Output: {get_output_dir(args.chapter)}")
+            print(f"{args.book.title()} {args.chapter} complete: {s}/{t} images generated")
+            print(f"Output: {get_output_dir(args.chapter, args.book)}")
 
 
 if __name__ == "__main__":

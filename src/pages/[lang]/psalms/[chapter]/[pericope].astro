@@ -1,0 +1,812 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PericopeCard from '../../../../components/PericopeCard.astro';
+import { useTranslations } from '../../../../i18n/utils';
+
+// ---------------------------------------------------------------------------
+// Load all pericope metadata + verse content via import.meta.glob
+// ---------------------------------------------------------------------------
+
+// Pericope metadata files: psalms-N-pericopes-LANG.json
+const allMetaModules = import.meta.glob('../../../../content/psalms-*-pericopes-*.json', { eager: true });
+
+// Verse content files: psalms-N-LANG.json  (excludes pericopes files via filter below)
+const allContentModules = import.meta.glob('../../../../content/psalms-*-??.json', { eager: true });
+const allContentModules3 = import.meta.glob('../../../../content/psalms-*-???.json', { eager: true });
+
+function parseMeta(path: string): { chapter: number; lang: string } | null {
+  const m = path.match(/psalms-(\d+)-pericopes-([a-z]+)\.json$/);
+  return m ? { chapter: parseInt(m[1]), lang: m[2] } : null;
+}
+
+function parseContent(path: string): { chapter: number; lang: string } | null {
+  if (path.includes('pericopes')) return null;
+  const m = path.match(/psalms-(\d+)-([a-z]+)\.json$/);
+  return m ? { chapter: parseInt(m[1]), lang: m[2] } : null;
+}
+
+const metaByLangChapter: Record<string, Record<number, any>> = {};
+for (const [path, mod] of Object.entries(allMetaModules)) {
+  const parsed = parseMeta(path);
+  if (!parsed) continue;
+  const { chapter, lang } = parsed;
+  if (!metaByLangChapter[lang]) metaByLangChapter[lang] = {};
+  metaByLangChapter[lang][chapter] = (mod as any).default ?? mod;
+}
+
+const allContentAll = { ...allContentModules, ...allContentModules3 };
+const contentByLangChapter: Record<string, Record<number, any>> = {};
+for (const [path, mod] of Object.entries(allContentAll)) {
+  const parsed = parseContent(path);
+  if (!parsed) continue;
+  const { chapter, lang } = parsed;
+  if (!contentByLangChapter[lang]) contentByLangChapter[lang] = {};
+  contentByLangChapter[lang][chapter] = (mod as any).default ?? mod;
+}
+
+// ---------------------------------------------------------------------------
+// getStaticPaths — one route per (lang, chapter, pericope) combination
+// ---------------------------------------------------------------------------
+export function getStaticPaths() {
+  const metaModules = import.meta.glob('../../../../content/psalms-*-pericopes-*.json', { eager: true });
+
+  function parseMeta(path: string) {
+    const m = path.match(/psalms-(\d+)-pericopes-([a-z]+)\.json$/);
+    return m ? { chapter: parseInt(m[1]), lang: m[2] } : null;
+  }
+
+  const metaMap: Record<string, Array<{ chapter: number; data: any }>> = {};
+  for (const [path, mod] of Object.entries(metaModules)) {
+    const parsed = parseMeta(path);
+    if (!parsed) continue;
+    const { chapter, lang } = parsed;
+    if (!metaMap[lang]) metaMap[lang] = [];
+    metaMap[lang].push({ chapter, data: (mod as any).default ?? mod });
+  }
+
+  const globalByLang: Record<string, Array<any>> = {};
+  for (const [lang, chapters] of Object.entries(metaMap)) {
+    const sorted = chapters.sort((a, b) => a.chapter - b.chapter);
+    globalByLang[lang] = [];
+    for (const { chapter, data } of sorted) {
+      for (const p of data.pericopes) {
+        globalByLang[lang].push({ ...p, chapter, lang });
+      }
+    }
+  }
+
+  const paths: any[] = [];
+  for (const [lang, flat] of Object.entries(globalByLang)) {
+    for (let idx = 0; idx < flat.length; idx++) {
+      const p = flat[idx];
+      const chapterMeta = metaMap[lang].find(c => c.chapter === p.chapter)!;
+      paths.push({
+        params: { lang, chapter: String(p.chapter), pericope: p.id },
+        props: {
+          lang,
+          pericope: p,
+          chapter: p.chapter,
+          chapterPericopes: chapterMeta.data.pericopes,
+          prevPericope: idx > 0 ? flat[idx - 1] : null,
+          nextPericope: idx < flat.length - 1 ? flat[idx + 1] : null,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+// ---------------------------------------------------------------------------
+// Page-level data
+// ---------------------------------------------------------------------------
+const { lang, pericope, chapter, prevPericope, nextPericope } = Astro.props;
+const t = useTranslations(lang);
+
+const studyLabelMap: Record<string, string> = {
+  ar: 'دراسة', bg: 'Изучаване', ca: 'Estudi', cs: 'Studium', da: 'Studie',
+  de: 'Studium', el: 'Μελέτη', en: 'Study', es: 'Estudio', et: 'Uurimine',
+  fi: 'Opiskelu', fr: 'Étude', ga: 'Staidéar', hr: 'Proučavanje', hu: 'Tanulás',
+  it: 'Studio', lt: 'Studijos', lv: 'Studijas', mt: 'Studju', nb: 'Studier',
+  nl: 'Studie', pl: 'Studium', pt: 'Estudo', ro: 'Studiu', ru: 'Изучение',
+  sk: 'Štúdium', sl: 'Študij', sq: 'Studim', sv: 'Studier', tr: 'Çalışma',
+  uk: 'Вивчення',
+};
+
+const studyLabel = studyLabelMap[lang] || 'Study';
+
+function getContent(lang: string, chapter: number): any {
+  return (
+    contentByLangChapter[lang]?.[chapter] ??
+    contentByLangChapter['en']?.[chapter] ??
+    null
+  );
+}
+
+function getVersesForPericope(verseRange: string, sections: any[]): any[] {
+  const allVerses: any[] = [];
+  sections.forEach(s => s.verses.forEach((v: any) => allVerses.push(v)));
+  const parts = verseRange.split('-').map(Number);
+  const start = parts[0];
+  const end = parts[1] ?? parts[0];
+  return allVerses.filter(v => {
+    const n = v.number.includes('-')
+      ? parseInt(v.number.split('-')[0])
+      : parseInt(v.number);
+    return n >= start && n <= end;
+  });
+}
+
+const chapterContent = getContent(lang, chapter);
+const verseData = chapterContent
+  ? getVersesForPericope(pericope.verses, chapterContent.sections)
+  : [];
+
+// Book name for breadcrumb — localized
+const bookNameMap: Record<string, string> = {
+  de: 'Psalmen', en: 'Psalms', pl: 'Psalmy', fr: 'Psaumes', es: 'Salmos',
+  it: 'Salmi', pt: 'Salmos', nl: 'Psalmen', da: 'Salmernes Bog',
+  sv: 'Psaltaren', nb: 'Salmenes bok',
+};
+const bookName = bookNameMap[lang] ?? 'Psalms';
+
+// ── Book switcher — discover other books with intros for this language ──
+const lukeIntroMods = import.meta.glob('../../../../content/introductions/*.md', { eager: true });
+const hasLuke = Object.keys(lukeIntroMods).some(k => k.endsWith(`/${lang}.md`));
+
+const actsIntroMods = import.meta.glob('../../../../content/introductions-acts/*.md', { eager: true });
+const hasActs = Object.keys(actsIntroMods).some(k => k.endsWith(`/${lang}.md`));
+
+const lukeBookNameMap: Record<string, string> = {
+  ar: 'لوقا', bg: 'Лука', ca: 'Lluc', cs: 'Lukáš', da: 'Lukas',
+  de: 'Lukas', el: 'Λουκάς', en: 'Luke', es: 'Lucas', fr: 'Luc',
+  it: 'Luca', nb: 'Lukas', nl: 'Lucas', pl: 'Łukasz', pt: 'Lucas',
+  sv: 'Lukas',
+};
+
+const actsBookNameMap: Record<string, string> = {
+  de: 'Apostelgeschichte', en: 'Acts', pl: 'Dzieje Apostolskie',
+  fr: 'Actes', es: 'Hechos', it: 'Atti', pt: 'Atos',
+  nl: 'Handelingen', da: 'Apostlenes Gerninger',
+  sv: 'Apostlagärningarna', nb: 'Apostlenes gjerninger',
+};
+
+type BookSwitchItem = { id: string; name: string; active: boolean };
+const switcherBooks: BookSwitchItem[] = [
+  ...(hasLuke && lukeBookNameMap[lang]
+    ? [{ id: 'luke', name: lukeBookNameMap[lang], active: false }]
+    : []),
+  { id: 'psalms', name: bookName, active: true },
+  ...(hasActs && actsBookNameMap[lang]
+    ? [{ id: 'acts', name: actsBookNameMap[lang], active: false }]
+    : []),
+];
+const hasMultipleBooks = switcherBooks.length > 1;
+
+const booksLabelMap: Record<string, string> = {
+  de: 'Bücher', en: 'Books', pl: 'Księgi',
+};
+const booksLabel = booksLabelMap[lang] ?? 'Books';
+---
+
+<BaseLayout
+  title={`${pericope.title} — ${bookName} ${chapter}`}
+  lang={lang}
+  description={`${bookName} ${chapter}:${pericope.verses} — ${pericope.title}`}
+>
+
+  <!-- Top bar: prev + breadcrumb + study toggle + next -->
+  <nav class="pericope-topbar">
+    {prevPericope ? (
+      <a href={`/${lang}/psalms/${prevPericope.chapter}/${prevPericope.id}`} class="topbar-arrow" title={`${bookName} ${prevPericope.chapter}:${prevPericope.verses}`}>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </a>
+    ) : <span class="topbar-arrow is-disabled"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></span>}
+
+    <div class="topbar-breadcrumb">
+      {hasMultipleBooks ? (
+        <div class="topbar-book-switcher">
+          <button
+            class="topbar-book-btn"
+            id="topbar-book-btn"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-label={`${booksLabel} — ${bookName}`}
+          >
+            <span>{bookName}</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="topbar-book-menu" id="topbar-book-menu" role="menu">
+            <p class="topbar-book-menu-label">{booksLabel}</p>
+            {switcherBooks.map(b => (
+              <a
+                href={`/${lang}/${b.id}/`}
+                class:list={["topbar-book-menu-item", b.active && "is-active"]}
+                role="menuitem"
+              >
+                <span class="material-symbols-rounded">menu_book</span>
+                <span>{b.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <span class="topbar-book-name">{bookName}</span>
+      )}
+      <a href={`/${lang}/psalms/${chapter}`} class="topbar-chapter-link">{chapter}</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="topbar-title">{pericope.title}</span>
+      <span class="topbar-ref">{chapter}:{pericope.verses}</span>
+    </div>
+
+    <div class="topbar-actions">
+      <button class="topbar-study-btn" id="studyToggle" title={studyLabel} aria-label={studyLabel} aria-pressed="false">
+        <span class="material-symbols-rounded">school</span>
+      </button>
+      {nextPericope ? (
+        <a href={`/${lang}/psalms/${nextPericope.chapter}/${nextPericope.id}`} class="topbar-arrow" title={`${bookName} ${nextPericope.chapter}:${nextPericope.verses}`}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </a>
+      ) : <span class="topbar-arrow is-disabled"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></span>}
+    </div>
+  </nav>
+
+  <!-- Verse content -->
+  <div class="pericope-content-wrapper">
+    <PericopeCard
+      id={pericope.id}
+      title={pericope.title}
+      subtitle={pericope.subtitle || ''}
+      verses={pericope.verses}
+      color={pericope.color}
+      accentColor={pericope.accentColor}
+      verseData={verseData}
+      image={pericope.image}
+      imageAlt={pericope.imageAlt || ''}
+      media={pericope.media || {}}
+      exegesis={pericope.exegesis}
+      lang={lang}
+      chapter={chapter}
+      isFirst={true}
+      layoutIndex={0}
+    />
+  </div>
+
+  <!-- Prev / Next navigation -->
+  <nav class="pericope-nav">
+    {prevPericope ? (
+      <a href={`/${lang}/psalms/${prevPericope.chapter}/${prevPericope.id}`} class="pericope-nav-btn pericope-nav-prev">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        <div class="pericope-nav-label">
+          <span class="pericope-nav-meta">{bookName} {prevPericope.chapter}:{prevPericope.verses}</span>
+          <span class="pericope-nav-title">{prevPericope.title}</span>
+        </div>
+      </a>
+    ) : <div />}
+    {nextPericope ? (
+      <a href={`/${lang}/psalms/${nextPericope.chapter}/${nextPericope.id}`} class="pericope-nav-btn pericope-nav-next">
+        <div class="pericope-nav-label pericope-nav-label-right">
+          <span class="pericope-nav-meta">{bookName} {nextPericope.chapter}:{nextPericope.verses}</span>
+          <span class="pericope-nav-title">{nextPericope.title}</span>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
+    ) : <div />}
+  </nav>
+
+</BaseLayout>
+
+<style>
+  /* ── Top bar: breadcrumb + nav arrows + study toggle ── */
+  .pericope-topbar {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0 2rem;
+    height: 52px;
+    font-size: 0.85rem;
+    color: var(--color-warm-gray);
+    border-bottom: 1px solid var(--color-border);
+    background: rgba(255, 251, 245, 0.92);
+    backdrop-filter: saturate(140%) blur(8px);
+    -webkit-backdrop-filter: saturate(140%) blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 40;
+  }
+
+  .topbar-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    color: var(--color-charcoal, #3D3530);
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+    flex-shrink: 0;
+  }
+  .topbar-arrow:hover {
+    background: rgba(139, 115, 85, 0.08);
+    border-color: rgba(139, 115, 85, 0.2);
+  }
+  .topbar-arrow.is-disabled { opacity: 0.2; pointer-events: none; }
+
+  .topbar-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .topbar-breadcrumb a {
+    color: var(--color-accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .topbar-breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { opacity: 0.4; flex-shrink: 0; }
+  .topbar-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .topbar-ref {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+    opacity: 0.7;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .topbar-book-switcher {
+    position: relative;
+    flex-shrink: 0;
+    margin-right: -0.25rem;
+  }
+  .topbar-book-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.4rem 0.25rem 0.5rem;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: var(--color-accent);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .topbar-book-btn:hover {
+    background: rgba(139, 115, 85, 0.08);
+    border-color: rgba(139, 115, 85, 0.2);
+  }
+  .topbar-book-btn[aria-expanded="true"] {
+    background: rgba(139, 115, 85, 0.12);
+    border-color: rgba(139, 115, 85, 0.25);
+  }
+  .topbar-book-btn svg { transition: transform 0.18s ease; opacity: 0.6; }
+  .topbar-book-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
+
+  .topbar-book-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 220px;
+    background: var(--color-paper, #FFFBF5);
+    border: 1px solid rgba(139, 115, 85, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    padding: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0s linear 0.15s;
+    z-index: 50;
+  }
+  .topbar-book-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .topbar-book-menu-label {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #8B7355);
+    padding: 0.35rem 0.5rem 0.4rem;
+  }
+  .topbar-book-menu-item {
+    display: flex !important;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.45rem 0.625rem;
+    border-radius: 8px;
+    color: var(--color-charcoal, #3D3530) !important;
+    text-decoration: none !important;
+    transition: background 0.12s ease;
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.875rem;
+  }
+  .topbar-book-menu-item:hover {
+    background: rgba(139, 115, 85, 0.08);
+    text-decoration: none !important;
+  }
+  .topbar-book-menu-item.is-active {
+    background: rgba(139, 115, 85, 0.12);
+    color: var(--color-accent, #8B7355) !important;
+    font-weight: 600;
+  }
+  .topbar-book-menu-item .material-symbols-rounded {
+    font-size: 1rem;
+    color: var(--color-accent, #8B7355);
+    flex-shrink: 0;
+  }
+  .topbar-book-name {
+    color: var(--color-accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .topbar-chapter-link {
+    flex-shrink: 0;
+  }
+
+  .topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+
+  .topbar-study-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-warm-gray, #9A8F85);
+    transition: all 0.15s ease;
+  }
+  .topbar-study-btn:hover {
+    background: rgba(139, 115, 85, 0.08);
+    color: var(--color-charcoal, #2C2C2C);
+  }
+  .topbar-study-btn.active {
+    background: var(--color-accent, #8B7355);
+    color: white;
+  }
+
+  .pericope-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem 2rem;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-paper);
+  }
+  .pericope-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-charcoal);
+    background: white;
+    border: 1px solid var(--color-border);
+    transition: all 0.2s ease;
+    max-width: 45%;
+    flex: 1;
+  }
+  .pericope-nav-btn:hover {
+    border-color: var(--color-accent);
+    background: var(--color-cream);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+  .pericope-nav-next { flex-direction: row-reverse; }
+  .pericope-nav-label { display: flex; flex-direction: column; gap: 0.25rem; }
+  .pericope-nav-label-right { text-align: right; }
+  .pericope-nav-meta {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    opacity: 0.7;
+  }
+  .pericope-nav-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  @media (max-width: 640px) {
+    .pericope-topbar { padding: 0 1rem; }
+    .pericope-nav { padding: 2rem 1rem; }
+    .pericope-nav-btn { padding: 0.75rem 1rem; }
+    .pericope-nav-title { font-size: 0.875rem; }
+    .topbar-title { max-width: 120px; }
+  }
+</style>
+
+<script is:inline>
+(function () {
+  function initFootnotePopovers() {
+    document.querySelectorAll('.fn-btn').forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var targetId = btn.getAttribute('data-fn-id');
+        var popover = document.getElementById(targetId);
+        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+          if (p.id !== targetId) p.classList.add('hidden');
+        });
+        if (popover && popover.classList.contains('hidden')) {
+          var rect = btn.getBoundingClientRect();
+          var scrollY = window.scrollY;
+          var top = rect.bottom + scrollY + 8;
+          var left = rect.left;
+          if (left + 320 > window.innerWidth) left = window.innerWidth - 340;
+          if (left < 20) left = 20;
+          popover.style.top = top + 'px';
+          popover.style.left = left + 'px';
+          popover.classList.remove('hidden');
+        } else if (popover) {
+          popover.classList.add('hidden');
+        }
+      };
+    });
+    document.querySelectorAll('.mobile-fn-btn').forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var targetId = btn.getAttribute('data-fn-id');
+        var popover = document.getElementById(targetId);
+        document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+          if (p.id !== targetId) p.classList.add('hidden');
+        });
+        if (popover) popover.classList.toggle('hidden');
+      };
+    });
+    document.querySelectorAll('.fn-close').forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var popover = btn.closest('.fn-popover, .fn-popover-mobile');
+        if (popover) popover.classList.add('hidden');
+      };
+    });
+  }
+  document.addEventListener('click', function (e) {
+    if (
+      !e.target.closest('.fn-popover') &&
+      !e.target.closest('.fn-popover-mobile') &&
+      !e.target.closest('.fn-btn') &&
+      !e.target.closest('.mobile-fn-btn')
+    ) {
+      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+        p.classList.add('hidden');
+      });
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.fn-popover, .fn-popover-mobile').forEach(function (p) {
+        p.classList.add('hidden');
+      });
+    }
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFootnotePopovers);
+  } else {
+    initFootnotePopovers();
+  }
+})();
+
+// ── Study toggle ──────────────────────────────────────────────
+(function () {
+  var STUDY_KEY = 'aperto-study';
+  var OLD_KEY = 'aperto-read-mode';
+  var ZEN_KEY = 'aperto-zen';
+
+  function applyStudy(study) {
+    if (study) {
+      document.body.setAttribute('data-study', 'true');
+    } else {
+      document.body.removeAttribute('data-study');
+    }
+    document.body.removeAttribute('data-zen');
+
+    var btn = document.getElementById('studyToggle');
+    if (btn) {
+      btn.classList.toggle('active', study);
+      btn.setAttribute('aria-pressed', study ? 'true' : 'false');
+    }
+    var panel = document.querySelector('.study-panel');
+    if (panel) panel.setAttribute('aria-hidden', study ? 'false' : 'true');
+  }
+
+  function init() {
+    var legacy = localStorage.getItem(OLD_KEY);
+    if (legacy) {
+      if (legacy === 'study') localStorage.setItem(STUDY_KEY, 'true');
+      localStorage.removeItem(OLD_KEY);
+    }
+    localStorage.removeItem(ZEN_KEY);
+
+    var study = localStorage.getItem(STUDY_KEY) === 'true';
+    applyStudy(study);
+
+    var btn = document.getElementById('studyToggle');
+    if (btn) {
+      btn.addEventListener('click', function () {
+        study = !study;
+        localStorage.setItem(STUDY_KEY, study ? 'true' : 'false');
+        applyStudy(study);
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+
+// ── Topbar book switcher menu ────────────────────────────────────────
+(function () {
+  function init() {
+    var btn = document.getElementById('topbar-book-btn');
+    var menu = document.getElementById('topbar-book-menu');
+    if (!btn || !menu) return;
+
+    function close() {
+      btn.setAttribute('aria-expanded', 'false');
+      menu.classList.remove('open');
+    }
+    function open() {
+      btn.setAttribute('aria-expanded', 'true');
+      menu.classList.add('open');
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var isOpen = btn.getAttribute('aria-expanded') === 'true';
+      if (isOpen) close(); else open();
+    });
+
+    document.addEventListener('click', function (e) {
+      if (btn.getAttribute('aria-expanded') !== 'true') return;
+      if (e.target.closest('#topbar-book-menu') || e.target.closest('#topbar-book-btn')) return;
+      close();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+        close();
+        btn.focus();
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+
+// ── Study panel scroll sync + mobile bottom-sheet ──────────────────────
+(function () {
+  var STICKY_OFFSET = 56;
+  var activeVerseNum = null;
+
+  function clearHighlights() {
+    document.querySelectorAll('.study-note.active-note').forEach(function (n) {
+      n.classList.remove('active-note');
+    });
+    document.querySelectorAll('.footnote-inline.active-fn').forEach(function (n) {
+      n.classList.remove('active-fn');
+    });
+  }
+
+  function setActiveVerse(verseNum) {
+    if (verseNum === activeVerseNum) return;
+    activeVerseNum = verseNum;
+
+    clearHighlights();
+    if (!verseNum) return;
+
+    var matchingNotes = document.querySelectorAll('.study-note[data-verse="' + verseNum + '"]');
+    matchingNotes.forEach(function (n) { n.classList.add('active-note'); });
+
+    var inlineFns = document.querySelectorAll('.footnote-inline[data-verse="' + verseNum + '"]');
+    inlineFns.forEach(function (el) { el.classList.add('active-fn'); });
+
+    var panel = document.querySelector('.study-panel');
+    if (panel && matchingNotes[0] && !panel.classList.contains('expanded')) {
+      if (window.matchMedia('(min-width: 1024px)').matches) {
+        var noteTop = matchingNotes[0].offsetTop;
+        var panelScroll = panel.scrollTop;
+        var panelHeight = panel.clientHeight;
+        if (noteTop < panelScroll || noteTop > panelScroll + panelHeight - 60) {
+          panel.scrollTo({ top: noteTop - 24, behavior: 'smooth' });
+        }
+      }
+    }
+  }
+
+  function syncScroll() {
+    if (document.body.getAttribute('data-study') !== 'true') return;
+    if (!document.querySelector('.study-panel')) return;
+
+    var anchors = document.querySelectorAll('[data-verse-anchor]');
+    var best = null;
+    for (var i = 0; i < anchors.length; i++) {
+      var top = anchors[i].getBoundingClientRect().top;
+      if (top <= STICKY_OFFSET) {
+        best = anchors[i];
+      }
+    }
+    if (best) {
+      setActiveVerse(best.getAttribute('data-verse-anchor'));
+    }
+  }
+
+  function init() {
+    window.addEventListener('scroll', syncScroll, { passive: true });
+    var studyBtn = document.getElementById('studyToggle');
+    if (studyBtn) {
+      studyBtn.addEventListener('click', function () {
+        setTimeout(function () {
+          if (document.body.getAttribute('data-study') === 'true') {
+            syncScroll();
+          } else {
+            clearHighlights();
+            activeVerseNum = null;
+            var panel = document.querySelector('.study-panel.expanded');
+            if (panel) panel.classList.remove('expanded');
+          }
+        }, 50);
+      });
+    }
+
+    var panel = document.querySelector('.study-panel');
+    var handle = document.querySelector('.study-panel-handle');
+    if (panel && handle) {
+      handle.addEventListener('click', function () {
+        var isExpanded = panel.classList.toggle('expanded');
+        handle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      });
+    }
+
+    syncScroll();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
