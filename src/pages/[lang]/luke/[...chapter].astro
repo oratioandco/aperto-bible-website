@@ -139,11 +139,25 @@ for (let ch = 1; ch <= 24; ch++) {
   chapterLabels[ch] = chapterLabelsForLang?.[String(ch)] ?? '';
 }
 
+// Trial-set view: in the languages where the Aperto trial set has been
+// produced (de/en/pl), show ONLY the trial-sampler Luke chapters in the
+// sidebar — the other 22 are translation-complete but kept out of the
+// reader-facing list while the trial is the headline content. Other
+// languages still surface whatever chapters they have content for
+// (typically just Luke 1).
+const TRIAL_LANGS = new Set(['de', 'en', 'pl']);
+const TRIAL_LUKE_CHAPTERS = new Set([1, 15]);
+const isTrialView = TRIAL_LANGS.has(lang);
+
 // Native-availability map: which chapters exist in THIS language's own files.
 // Used for the sidebar disabled state — falls back to EN only for the detail panel.
 const hasNativeChapter: Record<number, boolean> = {};
 for (let ch = 1; ch <= 24; ch++) {
-  hasNativeChapter[ch] = !!metaByLangChapter[lang]?.[ch]?.pericopes?.length;
+  const hasContent = !!metaByLangChapter[lang]?.[ch]?.pericopes?.length;
+  // Trial-view: clamp visibility to the sampler chapters only.
+  hasNativeChapter[ch] = isTrialView
+    ? hasContent && TRIAL_LUKE_CHAPTERS.has(ch)
+    : hasContent;
 }
 
 // Compact pericope data for JS: { 1: [{id,title,verses,image,imageAlt,color}], ... }
@@ -167,13 +181,26 @@ for (let ch = 1; ch <= 24; ch++) {
   };
 }
 
-// Narrative sections — now localized per language
-const narrativeSections = [
-  { title: sectionLabelsForLang?.prologue ?? 'Prologue',   subtitle: `${chapWord} 1–2`,   chapters: [1, 2] },
-  { title: sectionLabelsForLang?.galilee  ?? 'Galilee',    subtitle: `${chapWord} 3–9`,   chapters: [3, 4, 5, 6, 7, 8, 9] },
-  { title: sectionLabelsForLang?.journey  ?? 'The Journey', subtitle: `${chapWord} 10–19`, chapters: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] },
-  { title: sectionLabelsForLang?.jerusalem ?? 'Jerusalem', subtitle: `${chapWord} 20–24`, chapters: [20, 21, 22, 23, 24] },
-];
+// Narrative sections — now localized per language. In trial-view (de/en/pl)
+// collapse to a single "Sampler" section listing only the trial chapters
+// instead of showing 22 disabled siblings next to the 2 active ones.
+const samplerSectionLabel: Record<string, string> = {
+  de: 'Auswahl', en: 'Sampler', pl: 'Wybór',
+};
+const narrativeSections = isTrialView
+  ? [
+      {
+        title: samplerSectionLabel[lang] ?? 'Sampler',
+        subtitle: '',
+        chapters: [...TRIAL_LUKE_CHAPTERS].sort((a, b) => a - b),
+      },
+    ]
+  : [
+      { title: sectionLabelsForLang?.prologue ?? 'Prologue',   subtitle: `${chapWord} 1–2`,   chapters: [1, 2] },
+      { title: sectionLabelsForLang?.galilee  ?? 'Galilee',    subtitle: `${chapWord} 3–9`,   chapters: [3, 4, 5, 6, 7, 8, 9] },
+      { title: sectionLabelsForLang?.journey  ?? 'The Journey', subtitle: `${chapWord} 10–19`, chapters: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] },
+      { title: sectionLabelsForLang?.jerusalem ?? 'Jerusalem', subtitle: `${chapWord} 20–24`, chapters: [20, 21, 22, 23, 24] },
+    ];
 
 const introHtml = getIntroHtml(lang);
 ---
