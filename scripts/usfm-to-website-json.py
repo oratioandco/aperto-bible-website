@@ -14,12 +14,57 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 
+# Per-book metadata: USFM book code + chapter zero-padding width + book-name
+# translations + output filename slug. Extending this dict + adding entries
+# below should be the only change needed to onboard a new book.
+BOOK_META = {
+    'luke': {
+        'usfm_code': '42LUK',
+        'chapter_pad': 2,
+        'slug': 'luke',
+        'names': {
+            'de': 'Lukas', 'en': 'Luke', 'fr': 'Luc', 'es': 'Lucas', 'it': 'Luca',
+            'pt': 'Lucas', 'pl': 'Łukasz', 'sv': 'Lukas', 'da': 'Lukas', 'tr': 'Luka',
+            'uk': 'Лука', 'nl': 'Lucas', 'ro': 'Luca', 'cs': 'Lukáš', 'el': 'Λουκάς',
+            'hu': 'Lukács', 'bg': 'Лука', 'hr': 'Luka', 'fi': 'Luukas', 'sk': 'Lukáš',
+            'lt': 'Luko', 'sl': 'Luka', 'lv': 'Lūka', 'et': 'Luuka', 'ga': 'Lúcás',
+            'mt': 'Luqa', 'nb': 'Lukas', 'ru': 'Луки', 'ar': 'لوقا', 'ca': 'Lluc',
+        },
+    },
+    'psalms': {
+        'usfm_code': '19PSA',
+        'chapter_pad': 3,  # Psalms USFM filenames use 3-digit chapter padding
+        'slug': 'psalms',
+        'names': {
+            'de': 'Psalmen', 'en': 'Psalms', 'pl': 'Psalmy', 'fr': 'Psaumes',
+            'es': 'Salmos', 'it': 'Salmi', 'pt': 'Salmos', 'nl': 'Psalmen',
+            'da': 'Salmernes Bog', 'sv': 'Psaltaren', 'nb': 'Salmenes bok',
+        },
+    },
+    'acts': {
+        'usfm_code': '44ACT',
+        'chapter_pad': 2,
+        'slug': 'acts',
+        'names': {
+            'de': 'Apostelgeschichte', 'en': 'Acts', 'pl': 'Dzieje Apostolskie',
+            'fr': 'Actes', 'es': 'Hechos', 'it': 'Atti', 'pt': 'Atos',
+            'nl': 'Handelingen', 'da': 'Apostlenes Gerninger',
+            'sv': 'Apostlagärningarna', 'nb': 'Apostlenes gjerninger',
+        },
+    },
+}
+
+
 class USFMToWebsiteConverter:
     """Convert USFM files to website JSON format"""
 
-    def __init__(self, usfm_dir: Path, output_dir: Path):
+    def __init__(self, usfm_dir: Path, output_dir: Path, book: str = 'luke'):
         self.usfm_dir = usfm_dir
         self.output_dir = output_dir
+        if book not in BOOK_META:
+            raise ValueError(f"Unknown book {book!r}; supported: {list(BOOK_META)}")
+        self.book = book
+        self.book_meta = BOOK_META[book]
 
     def get_usfm_path(self, chapter: int, language: str) -> Path:
         """Get the USFM file path for a chapter"""
@@ -37,7 +82,9 @@ class USFMToWebsiteConverter:
             'uk': 'AB-UK',
         }
         folder = lang_map.get(language, f'AB-{language.upper()}')
-        return self.usfm_dir / folder / f"42LUK{chapter:02d}_ab-{language}.usfm"
+        pad = self.book_meta['chapter_pad']
+        code = self.book_meta['usfm_code']
+        return self.usfm_dir / folder / f"{code}{chapter:0{pad}d}_ab-{language}.usfm"
 
     def parse_footnote(self, footnote_text: str) -> Dict:
         """Parse a USFM footnote into structured format"""
@@ -51,8 +98,12 @@ class USFMToWebsiteConverter:
         category_key = category_match.group(1).strip() if category_match else ""
         # Get keyword from \fq (e.g., "Die Wüste", "Vierzig Tage")
         keyword = keyword_match.group(1).strip() if keyword_match else category_key
-        # Get content from \ft
+        # Get content from \ft; strip any nested \fq...\fq* emphasis markers
+        # (USFM "footnote-quote" highlighting that the website renderer doesn't
+        # consume — would otherwise display as literal "\fq ...\fq*" in the UI).
         content = content_match.group(1).strip() if content_match else ""
+        content = re.sub(r'\\fq\s+', '', content)
+        content = re.sub(r'\\fq\*', '', content)
 
         # Determine category from \fk value
         category_key_upper = category_key.upper()
@@ -274,15 +325,8 @@ class USFMToWebsiteConverter:
 
     def convert_usfm_to_website_json(self, usfm_content: str, chapter: int, language: str) -> Dict:
         """Convert USFM content to website JSON format"""
-        # Book name translations
-        book_names = {
-            'de': 'Lukas', 'en': 'Luke', 'fr': 'Luc', 'es': 'Lucas', 'it': 'Luca',
-            'pt': 'Lucas', 'pl': 'Łukasz', 'sv': 'Lukas', 'da': 'Lukas', 'tr': 'Luka',
-            'uk': 'Лука', 'nl': 'Lucas', 'ro': 'Luca', 'cs': 'Lukáš', 'el': 'Λουκάς',
-            'hu': 'Lukács', 'bg': 'Лука', 'hr': 'Luka', 'fi': 'Luukas', 'sk': 'Lukáš',
-            'lt': 'Luko', 'sl': 'Luka', 'lv': 'Lūka', 'et': 'Luuka', 'ga': 'Lúcás',
-            'mt': 'Luqa', 'nb': 'Lukas', 'ru': 'Луки', 'ar': 'لوقا', 'ca': 'Lluc'
-        }
+        # Book name translations (sourced from this book's BOOK_META entry)
+        book_names = self.book_meta['names']
 
         # Extract sections with verse ranges
         section_info = self.extract_sections_from_usfm(usfm_content)
@@ -375,8 +419,9 @@ class USFMToWebsiteConverter:
 
         result = self.convert_usfm_to_website_json(usfm_content, chapter, language)
 
-        # Write output
-        output_path = self.output_dir / f"luke-{chapter}-{language}.json"
+        # Write output: {book-slug}-{chapter}-{language}.json
+        slug = self.book_meta['slug']
+        output_path = self.output_dir / f"{slug}-{chapter}-{language}.json"
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
 
@@ -386,10 +431,13 @@ class USFMToWebsiteConverter:
 
 def main():
     parser = argparse.ArgumentParser(description='Convert USFM to website JSON format')
+    parser.add_argument('--book', default='luke', choices=list(BOOK_META.keys()),
+                        help='Book slug (luke, psalms, acts)')
     parser.add_argument('--chapter', type=int, help='Single chapter to convert')
     parser.add_argument('--chapters', help='Chapter range (e.g., 4-24)')
     parser.add_argument('--language', default='de', help='Language code (de, en, etc.)')
-    parser.add_argument('--usfm-dir', default='../aperto-bible/usfm', help='USFM directory')
+    parser.add_argument('--usfm-dir', default='../aperto-bible-dev/usfm',
+                        help='USFM directory (default: ../aperto-bible-dev/usfm)')
     parser.add_argument('--output-dir', default='src/content', help='Output directory')
 
     args = parser.parse_args()
@@ -398,7 +446,7 @@ def main():
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    converter = USFMToWebsiteConverter(usfm_dir, output_dir)
+    converter = USFMToWebsiteConverter(usfm_dir, output_dir, book=args.book)
 
     # Determine chapters to convert
     chapters = []
@@ -413,7 +461,8 @@ def main():
         print("Please specify --chapter or --chapters")
         return
 
-    print(f"\nConverting Luke chapters {chapters[0]}-{chapters[-1]} ({args.language})...\n")
+    book_label = BOOK_META[args.book]['names'].get(args.language, args.book.title())
+    print(f"\nConverting {book_label} chapters {chapters[0]}-{chapters[-1]} ({args.language})...\n")
 
     for chapter in chapters:
         converter.convert_chapter(chapter, args.language)
