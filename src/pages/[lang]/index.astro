@@ -405,21 +405,72 @@ const lukeNames: Record<string, string> = {
     </div>
   </div>
 
-  <section class="py-24 px-8 md:px-16 lg:px-24">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl mb-8 headline-mixed">{t('home.startReading')}</h2>
-      <p class="text-lg leading-relaxed mb-12" style="color: #6A6A6A;">
-        {t('home.startReadingDesc')}
-      </p>
-      <a
-        href={`${base}${lang}/luke/1`}
-        class="inline-block px-8 py-4 rounded font-medium transition-all hover:opacity-90"
-        style="background-color: #8B7355; color: #FFFBF5;"
-      >
-        {lukeNames[lang]} 1
-      </a>
-    </div>
-  </section>
+  {/* Trial-sampler grid: shows all 6 sample chapters in DE/EN/PL.
+       Other languages keep the original single-CTA-to-Luke-1 layout. */}
+  {(['de', 'en', 'pl'].includes(lang)) ? (
+    <section class="py-24 px-8 md:px-16 lg:px-24">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl mb-4 headline-mixed">{t('home.startReading')}</h2>
+          <p class="text-lg leading-relaxed max-w-2xl mx-auto" style="color: #6A6A6A;">
+            {t('home.startReadingDesc')}
+          </p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {([
+            { href: 'luke/1',     label: lang === 'de' ? 'Lukas 1' : lang === 'pl' ? 'Łukasz 1' : 'Luke 1',
+              sub: lang === 'de' ? 'Verkündigung & Geburt' : lang === 'pl' ? 'Zwiastowanie i narodziny' : 'Annunciation & Birth',
+              img: '/images/luke/1/luke_01_annunciation.png' },
+            { href: 'luke/15',    label: lang === 'de' ? 'Lukas 15' : lang === 'pl' ? 'Łukasz 15' : 'Luke 15',
+              sub: lang === 'de' ? 'Die verlorenen Söhne' : lang === 'pl' ? 'Zagubieni synowie' : 'The Lost Sons',
+              img: '/images/luke/15/luke_15_prodigal-son.png' },
+            { href: 'psalms/23',  label: lang === 'pl' ? 'Psalm 23' : 'Psalm 23',
+              sub: lang === 'de' ? 'Der Herr ist mein Hirte' : lang === 'pl' ? 'Pan jest moim pasterzem' : 'The Lord Is My Shepherd',
+              img: '/images/psalms/23/psalms_023_shepherd.png' },
+            { href: 'psalms/137', label: 'Psalm 137',
+              sub: lang === 'de' ? 'An Babels Strömen' : lang === 'pl' ? 'Nad rzekami Babilonu' : 'By the Rivers of Babylon',
+              img: '/images/psalms/137/psalms_137_rivers.png' },
+            { href: 'psalms/139', label: 'Psalm 139',
+              sub: lang === 'de' ? 'Du hast mich erforscht' : lang === 'pl' ? 'Przenikasz i znasz mnie' : 'You Have Searched Me',
+              img: '/images/psalms/139/psalms_139_searched.png' },
+            { href: 'acts/17',    label: lang === 'de' ? 'Apostelgeschichte 17' : lang === 'pl' ? 'Dzieje 17' : 'Acts 17',
+              sub: lang === 'de' ? 'Rede auf dem Areopag' : lang === 'pl' ? 'Mowa na Areopagu' : 'Speech on the Areopagus',
+              img: '/images/acts/17/acts_017_areopagus.png' },
+          ]).map((c) => (
+            <a
+              href={`${base}${lang}/${c.href}`}
+              class="trial-card group block rounded-lg overflow-hidden transition-all hover:shadow-lg"
+              style="background-color: #FFFBF5; border: 1px solid rgba(139, 115, 85, 0.15);"
+            >
+              <div class="aspect-[4/3] overflow-hidden" style="background-color: #F5E6DC;">
+                <img src={c.img} alt="" class="w-full h-full object-cover transition-transform group-hover:scale-105" loading="lazy" />
+              </div>
+              <div class="p-5">
+                <h3 class="text-xl mb-1" style="color: #2A2A2A;">{c.label}</h3>
+                <p class="text-sm" style="color: #6A6A6A;">{c.sub}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="py-24 px-8 md:px-16 lg:px-24">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl mb-8 headline-mixed">{t('home.startReading')}</h2>
+        <p class="text-lg leading-relaxed mb-12" style="color: #6A6A6A;">
+          {t('home.startReadingDesc')}
+        </p>
+        <a
+          href={`${base}${lang}/luke/1`}
+          class="inline-block px-8 py-4 rounded font-medium transition-all hover:opacity-90"
+          style="background-color: #8B7355; color: #FFFBF5;"
+        >
+          {lukeNames[lang]} 1
+        </a>
+      </div>
+    </section>
+  )}
 
   <!-- Get Involved -->
   <section class="get-involved-section py-24 px-8 md:px-16 lg:px-24">
