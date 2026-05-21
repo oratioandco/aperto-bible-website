@@ -126,9 +126,15 @@ const lukeNames: Record<string, string> = {
         {t('home.tagline')}
       </p>
       <div class="flex justify-center items-center">
-        <a href={`/${lang}/luke/`} class="hero-btn">
-          {t('home.readLuke')}
-        </a>
+        {(['de', 'en', 'pl'].includes(lang)) ? (
+          <a href="#sample-chapters" class="hero-btn">
+            {lang === 'de' ? 'Probekapitel ansehen' : lang === 'pl' ? 'Zobacz rozdziały próbne' : 'Browse sample chapters'}
+          </a>
+        ) : (
+          <a href={`/${lang}/luke/`} class="hero-btn">
+            {t('home.readLuke')}
+          </a>
+        )}
       </div>
     </div>
   </section>
@@ -408,7 +414,7 @@ const lukeNames: Record<string, string> = {
   {/* Trial-sampler grid: shows all 6 sample chapters in DE/EN/PL.
        Other languages keep the original single-CTA-to-Luke-1 layout. */}
   {(['de', 'en', 'pl'].includes(lang)) ? (
-    <section class="py-24 px-8 md:px-16 lg:px-24">
+    <section id="sample-chapters" class="py-24 px-8 md:px-16 lg:px-24">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-12">
           <h2 class="text-3xl md:text-4xl mb-4 headline-mixed">{t('home.startReading')}</h2>
