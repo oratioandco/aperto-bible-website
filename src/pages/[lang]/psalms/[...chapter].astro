@@ -844,6 +844,16 @@ const introHtml = getIntroHtml(lang);
     var data = chaptersData[ch];
     if (!data) return;
 
+    // Single-pericope chapters (psalms) — skip the card-grid intermediate
+    // and navigate straight to the full reading page. The card-grid is
+    // designed for multi-pericope narratives (Luke, Acts); a 1-card grid
+    // is awkward for lyric poetry that should be read as one whole.
+    if (data.pericopes.length === 1) {
+      var p = data.pericopes[0];
+      window.location.href = '/' + lang + '/psalms/' + ch + '/' + p.id;
+      return;
+    }
+
     headerContainer.innerHTML =
       '<p class="chapter-detail-ref">' + escHtml(data.ref) + '</p>' +
       '<h2>' + escHtml(data.title) + '</h2>';
