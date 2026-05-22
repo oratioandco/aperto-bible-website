@@ -141,9 +141,9 @@ h3 {
     opacity: 0.6;
 }
 
-/* Amplification styling - distinct green-gray tone */
+/* Amplification styling - distinct green-gray tone + italic (translator-supplied convention) */
 .amplification {
-    font-style: normal;
+    font-style: italic;
     font-size: 1em;
     color: var(--color-amplification);
 }
