@@ -43,6 +43,7 @@ interface Props {
     label: string;
   };
   lang: string;
+  book?: 'luke' | 'acts' | 'psalms';
   chapter?: number;
   isFirst?: boolean;
   layoutIndex?: number;
@@ -51,7 +52,7 @@ interface Props {
   audioBibleTranscriptPath?: string;
 }
 
-const { id, title, subtitle, verses, image, imageAlt, verseData, media, exegesis, lang, chapter = 1, isFirst, layoutIndex = 0, audioBibleStart, audioBibleMp3, audioBibleTranscriptPath } = Astro.props;
+const { id, title, subtitle, verses, image, imageAlt, verseData, media, exegesis, lang, book = 'luke', chapter = 1, isFirst, layoutIndex = 0, audioBibleStart, audioBibleMp3, audioBibleTranscriptPath } = Astro.props;
 const t = useTranslations(lang);
 
 // Determine if audiobible has karaoke capability
@@ -69,8 +70,8 @@ const base = '';
 // New languages have localized exegesis, others fall back to English
 const localizedExegesisLangs = ['da', 'es', 'it', 'pt', 'sv', 'uk'];
 const exegesisBasePath = localizedExegesisLangs.includes(lang)
-  ? `${base}/${lang}/exegesis/luke/${chapter}`
-  : `${base}/exegesis/luke/${chapter}`;
+  ? `${base}/${lang}/exegesis/${book}/${chapter}`
+  : `${base}/exegesis/${book}/${chapter}`;
 
 const songs: Song[] = media.songs || (media.song ? [{ ...media.song, genre: '' }] : []);
 const hasMedia = media.practice || songs.length > 0 || media.podcast || exegesis || media.audioBible;
@@ -284,7 +285,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
     {image && (
       <figure class="editorial-image mb-10">
         <img
-          src={`${base}/images/luke/${chapter}/${image}`}
+          src={`${base}/images/${book}/${chapter}/${image}`}
           alt={imageAlt || title}
           class="w-full aspect-video object-cover rounded"
           loading="lazy"
