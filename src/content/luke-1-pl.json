@@ -8,13 +8,13 @@
       "verses": [
         {
           "number": "1",
-          "text": "<span class=\"paragraph-break\"></span>Wielu już podjęło się spisania tego, co się wydarzyło.",
+          "text": "<span class=\"paragraph-break\"></span>Wielu już podjęło się przed nami spisania uporządkowanej relacji o tym wszystkim, co dokonało się i wypełniło wśród nas",
           "footnotes": [
             {
               "ref": "1:1-4",
               "category": "kultur",
-              "keyword": "podjęło się spisania",
-              "content": "Łukasz podkreśla swoją metodę historyczną: przesłuchał naocznych świadków, zbadał źródła, uporządkował materiał — zgodnie ze standardami antycznej historiografii (por. Tukidydes, Józef Flawiusz). Ponad 5800 zachowanych greckich rękopisów Nowego Testamentu przewyższa liczbę manuskryptów każdego innego dzieła starożytnego (Homer: ok. 1900)."
+              "keyword": "uporządkowana relacja",
+              "content": "Wersety 1–4 tworzą po grecku jedno długie, kunsztownie zbudowane zdanie okresowe — formę otwarcia, którą posługiwali się wielcy historycy starożytni: Tukidydes, Polibiusz, Józef Flawiusz, Diodor. Łukasz świadomie wpisuje się w ten gatunek: nie pisze pobożnej legendy, lecz uporządkowane sprawozdanie historyczne, oparte na świadectwie i krytycznym badaniu źródeł. Greckie πεπληροφορημένων (perfectum) podkreśla, że chodzi o wydarzenia \\it dokonane i wypełnione\\it* — nie o przypadkowe fakty. Ponad 5800 zachowanych greckich rękopisów Nowego Testamentu daje temu dziełu mocniejszą bazę tekstową niż jakiemukolwiek innemu pismu starożytnemu (Homer: ok. 1900)."
             }
           ],
           "isPoetry": false,
@@ -23,21 +23,28 @@
         },
         {
           "number": "2",
-          "text": "Przekazali nam tę historię naoczni świadkowie od pierwszej chwili i opowiedzieli ją innym.",
-          "footnotes": [],
+          "text": "— tak, jak przekazali nam ci, którzy od samego początku byli naocznymi świadkami i którzy później stali się sługami tego słowa —",
+          "footnotes": [
+            {
+              "ref": "1:2",
+              "category": "text",
+              "keyword": "naoczni świadkowie",
+              "content": "Greckie αὐτόπται to techniczny termin antycznej historiografii, używany m.in. przez Polibiusza i Józefa Flawiusza: świadek, który widział na własne oczy. Łukasz nie pisze ze słyszenia ani z natchnionego widzenia — opiera się na zeznaniach ludzi, którzy byli przy tym osobiście."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "3",
-          "text": "Postanowiłem i ja, szanowny Teofilu, dokładnie zbadać wszystko od początku i przedstawić ci to po kolei.",
+          "text": "postanowiłem i ja, prześledziwszy dokładnie wszystko od samego początku, spisać to po kolei dla ciebie, dostojny Teofilu,",
           "footnotes": [
             {
               "ref": "1:3",
-              "category": "text",
-              "keyword": "szanowny Teofilu",
-              "content": "κράτιστε (kratiste) — tytuł honorowy dla wysokich urzędników rzymskich lub wpływowych osób. Teofil (gr. „miłujący Boga”) to prawdopodobnie imię własne, symboliczny adresat lub jedno i drugie. Tytuł sygnalizuje: to pismo kierowane jest do wykształconego, społecznie ustalonego czytelnika."
+              "category": "kultur",
+              "keyword": "dostojny Teofilu",
+              "content": "Greckie κράτιστε (\\it kratiste\\it*) to oficjalny tytuł honorowy używany wobec wysokich rangą urzędników rzymskich — Łukasz używa go również wobec Feliksa i Festusa w Dziejach Apostolskich (Dz 23,26; 24,3; 26,25). Teofil (gr. „miłujący Boga\") jest więc człowiekiem wykształconym, prawdopodobnie z klasy patronów, być może patronem samego Łukasza. Honoryfik sygnalizuje społeczny rejestr otwarcia: pismo kierowane jest do dorosłego, ustalonego społecznie czytelnika, nie do prozelity."
             }
           ],
           "isPoetry": false,
@@ -46,8 +53,15 @@
         },
         {
           "number": "4",
-          "text": "Chodzi o to, żebyś miał pewność co do tego, czego cię nauczono.",
-          "footnotes": [],
+          "text": "abyś miał pewny grunt pod tym, czego cię nauczono.",
+          "footnotes": [
+            {
+              "ref": "1:4",
+              "category": "text",
+              "keyword": "pewny grunt",
+              "content": "Greckie ἀσφάλεια (\\it asfaleia\\it*) nie znaczy „dowód\", „pewność absolutna\" ani „niezbity argument\". Etymologicznie: \\it a-sfallō\\it* — „nie poślizgnąć się, nie upaść\". To grunt, na którym można stanąć — solidne oparcie, nie agresywna pewność, która zamyka pytania. Łukasz nie chce uciszyć wątpiącego czytelnika ułożoną z góry tezą; chce dać mu pod stopy coś trwałego, na czym może oprzeć dalsze szukanie. Różnica między dawnym tłumaczeniem („abyś się przekonał o pewności\" — BT) a Aperto polega na tonie: Łukasz zaprasza do dochodzenia, nie wydaje wyroku."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
@@ -59,19 +73,19 @@
       "verses": [
         {
           "number": "5",
-          "text": "<span class=\"paragraph-break\"></span>Było to za panowania Heroda, króla Judei. Żył tam kapłan imieniem Zachariasz, z kapłańskiej grupy Abiasza. Jego żona miała na imię Elżbieta i pochodziła z rodu Aarona. <span class=\"amplification\">Oboje z kapłańskich rodzin. Oboje obdarzeni tym, co w ich świecie powinno oznaczać Boże błogosławieństwo.</span>",
+          "text": "<span class=\"paragraph-break\"></span>Za panowania Heroda, króla Judei, żył w niej kapłan imieniem Zachariasz, z kapłańskiej zmiany Abiasza. Jego żona pochodziła z rodu Aarona i miała na imię Elżbieta.<span class=\"amplification\">Oboje z kapłańskich rodzin — dom, któremu we wsi wszyscy mieli powód zazdrościć błogosławieństwa.</span>",
           "footnotes": [
             {
               "ref": "1:5",
               "category": "kultur",
-              "keyword": "Herod",
-              "content": "Herod Wielki, pan. 37–4 p.n.e., mianowany przez Rzym. Pod jego rządami zarówno Świątynia Jerozolimska (przez niego masywnie rozbudowana), jak i kapłaństwo znajdowały się pod presją polityczną."
+              "keyword": "Heroda",
+              "content": "Herod Wielki, król Judei z mianowania Rzymu, panował w latach 37–4 p.n.e. — Idumejczyk, klient cesarstwa, budowniczy drugiej Świątyni Jerozolimskiej. Pod jego rządami kapłaństwo żyło w stałej politycznej niepewności: prawowici arcykapłani bywali odwoływani, a urząd kupowany. Łukasz otwiera narrację w realnym, twardym świecie okupacji — nie w nigdzie i nigdy."
             },
             {
               "ref": "1:5",
               "category": "kultur",
               "keyword": "zmiana Abiasza",
-              "content": "Kapłaństwo jerozolimskie dzieliło się na 24 zmiany, które rotacyjnie służyły w Świątyni (por. 1 Krn 24). Zmiana Abiasza była ósmą z kolei. Każda zmiana służyła dwa razy w roku przez tydzień."
+              "content": "Kapłaństwo jerozolimskie dzieliło się — od czasów Dawida (1 Krn 24) — na dwadzieścia cztery zmiany, które rotacyjnie pełniły służbę w Świątyni: każda po dwa tygodnie w roku. Zmiana Abiasza była ósma z kolei. To informacja techniczna, nie liturgiczna ozdoba — Łukasz lokuje Zachariasza w konkretnym, dającym się zweryfikować systemie."
             }
           ],
           "isPoetry": false,
@@ -80,21 +94,28 @@
         },
         {
           "number": "6",
-          "text": "Oboje żyli tak, jak Bóg tego oczekiwał — przestrzegali wszystkich przykazań<span class=\"amplification\">— każde przykazanie zachowane, każdy przepis spełniony</span>.",
-          "footnotes": [],
+          "text": "Oboje żyli przed Bogiem sprawiedliwie i nikt nie mógłby im niczego zarzucić — przestrzegali każdego przykazania, każdego nakazu Pana.",
+          "footnotes": [
+            {
+              "ref": "1:6",
+              "category": "text",
+              "keyword": "sprawiedliwie... nikt nie mógłby im niczego zarzucić",
+              "content": "Łukasz używa dwóch różnych greckich słów: δίκαιοι — „sprawiedliwi\" w sensie przymierza, wierni Bogu w relacji; oraz ἄμεμπτοι — „bez zarzutu\", nikt nie mógł im postawić formalnego zarzutu naruszenia Prawa. To nie jest moralna doskonałość, lecz konsekwentna wierność. Łukasz przygotowuje czytelnika na zderzenie z następnym wersetem."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "7",
-          "text": "<span class=\"amplification\">A jednak.</span> Elżbieta była bezdzietna. <span class=\"amplification\">To nie był prywatny smutek. To była hańba. Pytanie, które wisiało w powietrzu: co zrobili nie tak, że Bóg ich tak karze?</span> Oboje byli już starzy.<span class=\"paragraph-break\"></span>",
+          "text": "<span class=\"amplification\">A jednak.</span> Nie mieli dziecka — Elżbieta była bezpłodna, a oboje już posunięci w latach. <span class=\"amplification\">To nie był prywatny smutek. To była hańba — pytanie, które wisiało nad ich domem od dziesięcioleci: co zrobili nie tak.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:7",
               "category": "kultur",
-              "keyword": "bezdzietna",
-              "content": "W kulturze śródziemnomorskiej I wieku bezdzietność oznaczała publiczną hańbę, nie tylko prywatny smutek. Niezadane na głos pytanie: co zrobili, że Bóg ich tak karze? Tekst podkreśla, że Elżbieta i Zachariasz żyli „bez zarzutu” — bezdzietność nie była wynikiem grzechu."
+              "keyword": "bezpłodna",
+              "content": "W kulturze śródziemnomorskiej I wieku bezdzietność nie była prywatnym smutkiem — była publiczną hańbą. Niewypowiedziane wprost, lecz powszechnie zakładane pytanie brzmiało: co takiego zrobili, że Bóg ich tak karze? Werset 6 mówi „nikt nie mógłby im niczego zarzucić\" — i właśnie dlatego ich sytuacja jest dla pierwszych słuchaczy szokująca. Wierność nie kupuje sprawiedliwości społecznej; Elżbieta nosiła to piętno przez dziesięciolecia."
             }
           ],
           "isPoetry": false,
@@ -103,7 +124,7 @@
         },
         {
           "number": "8",
-          "text": "Pewnego dnia nadeszła kolej zmiany Zachariasza i pełnił służbę kapłańską przed Bogiem.",
+          "text": "Pewnego razu, gdy w kolejności przypadła jego zmiana, Zachariasz pełnił służbę kapłańską przed Bogiem.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -111,13 +132,13 @@
         },
         {
           "number": "9",
-          "text": "Wyciągnięto losy — i na Zachariasza padło, by wejść do przybytku Pana i złożyć ofiarę z kadzidła. <span class=\"amplification\">To się zdarzało raz w życiu. Wielu kapłanów nigdy nie doczekało tego momentu.</span>",
+          "text": "Według zwyczaju kapłańskiego wyciągnięto losy — i jemu wypadło wejść do przybytku Pana i złożyć ofiarę z kadzidła. <span class=\"amplification\">Moment, na który kapłan czeka całe życie. Wielu nie doczekuje nigdy.</span>",
           "footnotes": [
             {
               "ref": "1:9",
               "category": "kultur",
-              "keyword": "losy padły na Zachariasza",
-              "content": "Ofiara kadzielna w Świątyni była najwyższym zaszczytem dla zwykłego kapłana — i przypadała raz w życiu, drogą losowania. Wielu kapłanów nigdy nie przeżywało tego momentu. Gr. ἔλαχε (otrzymał przez los) niesie ze sobą ciężar Bożego wybrania — nie przypadku."
+              "keyword": "wypadło wejść",
+              "content": "Złożenie ofiary kadzielnej w Miejscu Świętym było najwyższym zaszczytem, jaki mógł przypaść zwykłemu kapłanowi — przypadał losowi i tylko raz w życiu. Wielu kapłanów nie doczekało tego momentu nigdy. Misznajska tradycja (\\it Tamid\\it* 5,2) zachowała szczegóły procedury. Greckie ἔλαχε niesie ze sobą podtekst Bożego wybrania, nie ślepego trafu."
             }
           ],
           "isPoetry": false,
@@ -126,7 +147,7 @@
         },
         {
           "number": "10",
-          "text": "Na zewnątrz lud modlił się. <span class=\"amplification\">W środku — sam Zachariasz. Sam. Przed nim złoty ołtarz kadzielny. Siedmioramienny świecznik rzucał migotliwe światło. Za ciężką zasłoną — miejsce najświętsze.</span><span class=\"paragraph-break\"></span>",
+          "text": "Cały lud modlił się na zewnątrz, w godzinie kadzielnej. <span class=\"amplification\">Wewnątrz — sam Zachariasz. Złoty ołtarz przed nim, dym kadzidła unosił się powoli, siedmioramienny świecznik kładł migotliwe światło na zasłonę. Cisza.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -134,13 +155,13 @@
         },
         {
           "number": "11",
-          "text": "Wówczas ukazał mu się anioł od Pana. Pojawił się obok ołtarza kadzielnego<span class=\"amplification\">— tam, skąd przychodzi błogosławieństwo</span>.",
+          "text": "Wtedy ukazał mu się anioł Pana — stał po prawej stronie ołtarza kadzielnego<span class=\"amplification\">— po stronie, z której przychodzi błogosławieństwo</span>.",
           "footnotes": [
             {
               "ref": "1:11",
               "category": "unglaublich",
-              "keyword": "anioł",
-              "content": "Ukazanie się anioła należy do najtrudniejszych aspektów Biblii dla współczesnych czytelników. Tekst zakłada obraz świata, w którym Bóg komunikuje się przez posłańców. Możliwe interpretacje: (1) symboliczna — literacki środek wyrazu wewnętrznego doświadczenia; (2) psychologiczna — intensywne doświadczenie wizyjne; (3) dosłowna — realne spotkanie z istotą duchową. Jezus sam mówił o aniołach jako realnych (Łk 4,10; Mt 18,10). Wspólny mianownik: została odebrana wiadomość, która zmieniła wszystko."
+              "keyword": "anioł Pana",
+              "content": "Ukazanie się anioła to dla współczesnego czytelnika pierwsze poważne miejsce zatrzymania. Tekst zakłada świat, w którym Bóg komunikuje się przez posłańców. Możliwe odczytania: (1) symboliczne — literacki środek wyrażenia wewnętrznego doświadczenia; (2) wizyjne — intensywne wewnętrzne doświadczenie odebrane jako realne; (3) dosłowne — realne spotkanie z istotą duchową. Sam Jezus mówił o aniołach jako bytach realnych (Łk 4,10; Mt 18,10). Wspólny mianownik wszystkich trzech lektur: w tym momencie odebrana została wiadomość, która zmieniła wszystko, czego Zachariasz dotąd po cichu się trzymał."
             }
           ],
           "isPoetry": false,
@@ -149,13 +170,13 @@
         },
         {
           "number": "12",
-          "text": "Strach padł na Zachariasza.<span class=\"paragraph-break\"></span>",
+          "text": "Strach spadł na Zachariasza.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:12",
               "category": "text",
-              "keyword": "strach padł",
-              "content": "φόβος ἐπέπεσεν αὐτῷ — dosłownie: „strach spadł na niego”. Płaskie tłumaczenia: „przestraszył się”, „zląkł się”. Różnica: w polskim „przestraszyć się” jest reakcją wewnętrzną. W grece strach jest czymś, co pada z zewnątrz — fizycznym, obezwładniającym."
+              "keyword": "strach spadł",
+              "content": "Greckie φόβος ἐπέπεσεν αὐτῷ — dosłownie „strach spadł na niego\". Płaskie tłumaczenia: „przestraszył się\", „zląkł się\". Różnica: w polszczyźnie strach jest reakcją wewnętrzną. W grece jest czymś, co spada z zewnątrz — fizycznym, obezwładniającym ciężarem."
             }
           ],
           "isPoetry": false,
@@ -164,15 +185,22 @@
         },
         {
           "number": "13",
-          "text": "Ale anioł powiedział: „Nie bój się, Zachariaszu. Bóg wysłuchał twojej modlitwy. Elżbieta, twoja żona, urodzi ci syna — dasz mu na imię Jan.<span class=\"paragraph-break\"></span>",
-          "footnotes": [],
+          "text": "Ale anioł przemówił: „Nie bój się, Zachariaszu. Twoja modlitwa została wysłuchana. Twoja żona Elżbieta urodzi ci syna — i nadasz mu imię Jan.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:13",
+              "category": "text",
+              "keyword": "została wysłuchana",
+              "content": "Greckie εἰσηκούσθη to aoryst strony biernej — w gramatyce hebrajskiej i greckiej tzw. \\it passivum divinum\\it* (boskie passivum): forma wskazująca, że działającym jest Bóg, choć nie wymienia się Jego imienia wprost. Modlitwę usłyszał Bóg."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "14",
-          "text": "Będzie twoją radością — i radością wielu.",
+          "text": "Będzie dla ciebie radością i weselem — i wielu będzie się cieszyć z jego narodzin.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -180,13 +208,13 @@
         },
         {
           "number": "15",
-          "text": "Będzie wielki w oczach Pana. Nie tknie wina ani niczego mocnego. Już przed urodzeniem Duch Święty będzie w nim obecny.",
+          "text": "Bo będzie wielki w oczach Pana. Nie tknie wina ani niczego mocnego, a Duch Święty napełni go już w łonie matki.",
           "footnotes": [
             {
               "ref": "1:15",
               "category": "kultur",
-              "keyword": "wina ani mocnego napoju",
-              "content": "Echo ślubów naziratu (Lb 6,3), przez które człowiek był wydzielony dla Boga poprzez wstrzemięźliwość. Samson i Samuel byli również nazireuszami. Abstynencja Jana nie jest indywidualnym programem ascetycznym, lecz znakiem: od łona matki jest przeznaczony do tej konkretnej misji."
+              "keyword": "nie tknie wina ani niczego mocnego",
+              "content": "Echo ślubów nazirejskich (Lb 6,3), przez które człowiek był wydzielony dla Boga przez wstrzemięźliwość od wina, ostrzyżenia i dotykania zmarłych. Samson i Samuel są klasycznymi nazirejczykami Starego Testamentu. Abstynencja Jana nie jest jego osobistym programem ascetycznym — jest znakiem, że już od łona matki został przeznaczony do tej konkretnej misji."
             }
           ],
           "isPoetry": false,
@@ -195,7 +223,7 @@
         },
         {
           "number": "16",
-          "text": "Wielu synów Izraela nawróci do Pana, ich Boga.",
+          "text": "Wielu synów Izraela zawróci do Pana, ich Boga.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -203,13 +231,13 @@
         },
         {
           "number": "17",
-          "text": "Sam pójdzie przed nim w duchu i mocy Eliasza, żeby pogodzić ojców z dziećmi, a zbuntowanych nauczyć mądrości — żeby przygotować ludzi na przyjście Pana na jego przyjście.”<span class=\"paragraph-break\"></span>",
+          "text": "Sam pójdzie przed Nim w duchu i mocy Eliasza, aby zwrócić serca ojców ku dzieciom, a nieposłusznych — ku mądrości sprawiedliwych. Aby przygotować Panu lud gotowy.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:17",
               "category": "kontext",
               "keyword": "w duchu i mocy Eliasza",
-              "content": "Nawiązanie do Ml 3,1 i 3,23-24: prorok Eliasz miał powrócić przed wielkim dniem Pana, aby zwrócić serca. Jan nie jest Eliaszem, lecz nosi jego ducha i moc. Jezus potwierdza tę identyfikację (Łk 7,27; Mt 11,14)."
+              "content": "Nawiązanie do Ml 3,1 i 3,23–24 (w katolickim podziale 4,5–6): prorok Eliasz miał powrócić przed wielkim dniem Pana, by zwrócić serca ojców ku dzieciom. Jan nie jest Eliaszem reinkarnowanym — niesie jego ducha i jego moc. Sam Jezus potwierdzi tę tożsamość (Łk 7,27; Mt 11,14). Pięćset lat między ostatnim prorokiem a Janem zostaje tu zasklepione jednym zdaniem."
             }
           ],
           "isPoetry": false,
@@ -218,7 +246,7 @@
         },
         {
           "number": "18",
-          "text": "Zachariasz powiedział: „Po czym to poznam? Jestem stary. Moja żona też.”<span class=\"paragraph-break\"></span>",
+          "text": "Zachariasz odpowiedział aniołowi: „Po czym to poznam? Ja jestem stary. I moja żona już w podeszłym wieku.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -226,13 +254,13 @@
         },
         {
           "number": "19",
-          "text": "Anioł odpowiedział: „Ja jestem Gabriel. Stoję przed Bogiem. Zostałem posłany, żebyś to usłyszał.",
+          "text": "Anioł odrzekł: „Ja jestem Gabriel. Stoję przed obliczem Boga. Zostałem posłany, by ci to powiedzieć i przynieść tę dobrą nowinę.",
           "footnotes": [
             {
               "ref": "1:19",
               "category": "kontext",
               "keyword": "Gabriel",
-              "content": "Jeden z archaniołów, znany z Księgi Daniela (Dn 8–9). Imię oznacza „mocarz Boży” lub „mąż Boży”. Jego słowa „stoję przed obliczem Boga” wskazują na najwyższy dostęp do Bożego tronu — jego autorytet jest absolutny."
+              "content": "Jeden z dwóch wymienionych z imienia archaniołów Biblii (drugi to Michał). Występuje w Księdze Daniela (Dn 8,16; 9,21), gdzie tłumaczy proroctwo o siedemdziesięciu tygodniach. Imię oznacza „mocarz Boży\" lub „mąż Boży\". Słowa „stoję przed Bogiem\" wskazują najwyższy stopień bliskości Bożego tronu. Pięćset lat dzielących Daniela od Zachariasza zostaje zmostkowanych jednym i tym samym posłańcem."
             }
           ],
           "isPoetry": false,
@@ -241,15 +269,22 @@
         },
         {
           "number": "20",
-          "text": "Ale nie zaufałeś temu, co ci powiedziałem. Więc nie będziesz mógł powiedzieć słowa, aż do dnia, kiedy to się stanie.”<span class=\"paragraph-break\"></span>",
-          "footnotes": [],
+          "text": "A teraz — będziesz milczał, niezdolny do mówienia, aż do dnia, gdy się to spełni. Bo nie uwierzyłeś moim słowom, a one spełnią się w swoim czasie.\"<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:20",
+              "category": "unglaublich",
+              "keyword": "będziesz milczał",
+              "content": "Niemota Zachariasza nie jest karą w pospolitym sensie — jest formą, którą Bóg nadaje czemuś, czego Zachariasz nie potrafił udźwignąć. Dziewięć miesięcy ciszy stwarza w nim przestrzeń, której nie miał, dopóki mógł mówić. Pierwsze słowa po zerwaniu milczenia (1,64) nie są skargą ani wyjaśnianiem — są chwałą. Cisza nie była wymazaniem, lecz formacją."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "21",
-          "text": "Ludzie na zewnątrz czekali. <span class=\"amplification\">Czekali za długo.</span>",
+          "text": "Tymczasem lud czekał na Zachariasza. <span class=\"amplification\">Czekał zbyt długo.</span> Dziwili się, że tak długo jest w przybytku.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -257,7 +292,7 @@
         },
         {
           "number": "22",
-          "text": "Kiedy Zachariasz wyszedł, nie mógł mówić. Pokazywał im gestami. Zrozumieli, że miał widzenie w przybytku.",
+          "text": "Kiedy wyszedł, nie mógł do nich mówić. Zrozumieli, że w przybytku miał widzenie. Pokazywał im na migi — i pozostawał niemy.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -265,7 +300,7 @@
         },
         {
           "number": "23",
-          "text": "Kiedy skończyła się jego służba, wrócił do domu.<span class=\"paragraph-break\"></span>",
+          "text": "A gdy upłynęły dni jego służby, wrócił do swojego domu.<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -273,7 +308,7 @@
         },
         {
           "number": "24",
-          "text": "Niedługo potem Elżbieta zaszła w ciążę. Przez pięć miesięcy ukrywała się.",
+          "text": "Po jakimś czasie Elżbieta, jego żona, zaszła w ciążę i przez pięć miesięcy ukrywała się, mówiąc:",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -281,13 +316,13 @@
         },
         {
           "number": "25",
-          "text": "A potem powiedziała: „To Bóg zrobił dla mnie. Spojrzał na mnie — i zdjął moją hańbę wśród ludzi.”",
+          "text": "„To Pan dla mnie zrobił. Spojrzał — i zdjął ze mnie hańbę wśród ludzi.\"",
           "footnotes": [
             {
               "ref": "1:25",
               "category": "leben",
-              "keyword": "zdjął moją hańbę",
-              "content": "Reakcja Elżbiety na ciążę to nie tylko osobista ulga, lecz przywrócenie społecznej godności. Sformułowanie „wejrzał na mnie” (ἐπεῖδεν) – to samo pojawia się w Magnificat (1,48). Boży wzrok skierowany ku pomijanym to powracający motyw Ewangelii Łukasza. W jej świecie bezdzietność była wyrokiem społecznym, który kobieta nosiła całe życie – nie czymś, co mogła sama naprawić. To, że Bóg oddaje tu nie tylko dziecko, lecz pozycję, jest właściwym ruchem tekstu. – Pytanie, z którym można usiąść bez teologicznego wstępu: jaką formę „hańby” nosisz, która tak naprawdę nie jest twoja, lecz społecznym przypisaniem? Gdzie statystyka, pozycja, nieosiągnięty plan życiowy wydały o tobie wyrok, który po cichu przyjąłeś? Bezpłodność jest do dziś jednym z najtrudniej komunikowanych doświadczeń – pary po zapłodnieniu in vitro, samotne kobiety po czterdziestce, mężczyźni z niewypowiedzianą diagnozą. – Dla wierzących wers otwiera ruch wyzwolenia, który ćwiczony jest zarówno w żydowskiej tradycji teszuwy, jak i w chrześcijańskiej praktyce confessio: rozróżnić to, co naprawdę na nas ciąży, od tego, co świat nam narzucił. Forma kontemplacyjna: ignacjański rachunek sumienia, wieczorem zapytany – gdzie zostałem dzisiaj poniżony przez wyrok, który nie pochodził od Boga? – Wers otwiera też wymiar relacyjny i społeczny. Gdzie pozwalamy ludziom z ich cichą „hańbą” zostać samymi – we własnej parafii, w kręgu znajomych, w rodzinie? A potem jest poziom strukturalny: bezrobotni, uchodźcy, byli więźniowie noszą podobne społeczne piętno, którego nikt głośno nie nazywa. Duchowa tradycja zna głęboko praktykę uwagi wobec pomijanych – wers Łukasza pokazuje, że ta uwaga zaczyna się od spojrzenia, nie od rozwiązania. – W tym tygodniu: zadzwoń do kogoś, o kim wiesz, że niesie teraz formę „nie-osiągniętego” – i po prostu bądź, bez oferowania wyjaśnienia."
+              "keyword": "zdjął ze mnie hańbę",
+              "content": "Reakcja Elżbiety to nie tylko prywatna ulga; to przywrócenie społecznej godności. Greckie ἐπεῖδεν — „spojrzał\" — pojawi się ponownie w Magnificat (1,48), gdzie Maria mówi tego samego o sobie. Boży wzrok, skierowany ku pomijanym, to powracający motyw Ewangelii Łukasza. W jej świecie bezdzietność była społecznym wyrokiem, który kobieta nosiła całe życie — nie czymś, co mogła sama naprawić. To, że Bóg oddaje tu nie tylko dziecko, lecz pozycję, jest właściwym ruchem tekstu. — Pytanie, z którym można usiąść bez teologicznego wstępu: jaką formę hańby nosisz, która nie jest twoja, lecz została ci społecznie przypisana? Gdzie statystyka, status, niespełniony plan życiowy wydały o tobie wyrok, który po cichu przyjąłeś? Bezpłodność do dziś należy do najtrudniej komunikowanych doświadczeń — pary po nieudanym \\it in vitro\\it*, kobiety samotne po czterdziestce, mężczyźni z niewypowiedzianą diagnozą. Podobnie wygląda to z bezrobociem długoterminowym, ze stygmatem psychiatrycznym, z byciem rozwiedzionym w katolickiej rodzinie. — Dla wierzących wers otwiera ruch wyzwolenia, który ćwiczy się i w żydowskiej teszuwie, i w chrześcijańskim \\it confessio\\it*: rozróżnić to, co naprawdę na nas ciąży, od tego, co świat nam narzucił. Ignacjański rachunek sumienia, robiony wieczorem nie po to, by się oskarżać, lecz by zobaczyć, gdzie zostałem dzisiaj poniżony przez wyrok, który nie pochodził od Boga — daje konkretne narzędzie. — Wokół nas ten wers stawia inne pytanie: kogo zostawiamy w jego cichej „hańbie\"? W parafii, w rodzinie, w pracy? Czyjej obecności unikamy, bo czujemy, że jej życie jakoś „nie wyszło\"? Duchowa tradycja zna głęboko praktykę uwagi wobec pomijanych — wers Łukasza pokazuje, że ta uwaga zaczyna się od spojrzenia, nie od rozwiązania. — W tym tygodniu: zadzwoń do kogoś, o kim wiesz, że niesie teraz formę „nie-osiągniętego\" — i po prostu bądź, bez oferowania wyjaśnienia."
             }
           ],
           "isPoetry": false,
@@ -301,21 +336,34 @@
       "verses": [
         {
           "number": "26",
-          "text": "<span class=\"paragraph-break\"></span>W szóstym miesiącu Bóg posłał anioła Gabriela. <span class=\"amplification\">Nie do Jerozolimy. Nie do Świątyni.</span> Do Galilei — do wioski zwanej Nazaret.",
-          "footnotes": [],
+          "text": "<span class=\"paragraph-break\"></span>W szóstym miesiącu Bóg posłał anioła Gabriela do miasta w Galilei zwanego Nazaret.<span class=\"amplification\">Nie do Jerozolimy. Nie do Świątyni. Do wioski, której prawie nikt nie umiał wskazać na mapie.</span>",
+          "footnotes": [
+            {
+              "ref": "1:26",
+              "category": "kultur",
+              "keyword": "Nazaret",
+              "content": "Mała galilejska wioska — według ustaleń archeologicznych Kena Darka (2020) liczyła ok. 200–400 mieszkańców. Leżała w cieniu zhellenizowanego, znacznie większego Sefforis, oddalonego o niecałe 6 km. Nie istniała żadna gminna pamięć o niej w Starym Testamencie ani w pismach Józefa Flawiusza. Łukasz świadomie przesuwa scenę: z monumentalnej Świątyni Heroda do wsi, której nikt nie wymieniał z szacunkiem."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "27",
-          "text": "Do dziewicy zaręczonej z człowiekiem imieniem Józef, z rodu Dawida. Dziewczyna miała na imię Maria.<span class=\"paragraph-break\"></span>",
+          "text": "Do dziewczyny zaręczonej z człowiekiem imieniem Józef, z rodu Dawida.<span class=\"amplification\">Zaręczyny w tym świecie były wiążące prawnie — Maria była już żoną Józefa, choć mieszkała jeszcze u rodziców. Ciąża w tym okresie mogła zostać uznana za cudzołóstwo.</span> Dziewczyna miała na imię Maria.<span class=\"paragraph-break\"></span>",
           "footnotes": [
+            {
+              "ref": "1:27",
+              "category": "text",
+              "keyword": "dziewczyny",
+              "content": "Greckie παρθένος (\\it parthenos\\it*) znaczy „młoda kobieta, panna\" — najczęściej z konotacją seksualnej niewinności, ale niekoniecznie. Tradycja Tysiąclatki tłumaczy „Dziewica\" jako wielkomiarski tytuł maryjny — to teologiczne czytanie, które wyprzedza tekst. W tym wersecie słowo jest opisowe, nie tytularne. Werset 34 („nie spałam z mężczyzną\") wyjaśni resztę dosłownie."
+            },
             {
               "ref": "1:27",
               "category": "kultur",
               "keyword": "zaręczonej",
-              "content": "Zaręczyny (ἐμνηστευμένην) w świecie żydowskim I wieku były prawnie wiążące — nie były tylko obietnicą, lecz już związkiem małżeńskim. Ich zerwanie wymagałoby rozwodu. Maria żyła jeszcze w domu rodziców, ale prawnie była już żoną Józefa. Ciąża w tym okresie mogła zostać uznana za cudzołóstwo."
+              "content": "Zaręczyny (ἐμνηστευμένην) w I-wiecznym judaizmie miały moc prawną zbliżoną do współczesnego małżeństwa. Zerwanie wymagało formalnego rozwodu. Dziewczyny zaręczano typowo w wieku 12–14 lat; współżycie zaczynało się dopiero po przeprowadzeniu narzeczonej do domu męża. Niewierność w okresie zaręczyn była cudzołóstwem — karanym kamienowaniem (Pwt 22,23–24). Społeczne i prawne ryzyko dla Marii i jej rodziny było realne, nie metaforyczne."
             }
           ],
           "isPoetry": false,
@@ -324,21 +372,28 @@
         },
         {
           "number": "28",
-          "text": "Anioł przyszedł do niej i powiedział: „Bóg spojrzał na ciebie z niezwykłą przychylnością. Jest przy tobie.”",
-          "footnotes": [],
+          "text": "Anioł wszedł do niej i powiedział: „Bóg spojrzał na ciebie z niezwykłą przychylnością. Jest przy tobie.\"",
+          "footnotes": [
+            {
+              "ref": "1:28",
+              "category": "text",
+              "keyword": "spojrzał na ciebie z niezwykłą przychylnością",
+              "content": "Greckie κεχαριτωμένη (\\it kecharitōmenē\\it*) to perfectum strony biernej od χαριτόω — „obdarzać łaską\". Forma znaczy: „ta, której Bóg już udzielił łaski i nadal jej udziela\" — dokonane działanie Boga, które trwa. Łacińska tradycja Wulgaty oddała to jako \\it gratia plena\\it* („pełna łaski\"), a stąd wyrosło wielowiekowe maryjne dziedzictwo dogmatyczne, czyniące z tej formuły tytuł Marii. Aperto idzie wcześniej: oddaje κεχαριτωμένη jako \\it boskie działanie\\it*, nie jako maryjny \\it tytuł\\it*. „Pełna łaski\" zamyka tekst w późniejszą dogmatykę, której wers Łukasza nie unosi; popularnoewangelickie „wysoce uprzywilejowana\" gubi dokonany aspekt łaski i brzmi jak premia. Aperto: Bóg już spojrzał i nadal patrzy."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "29",
-          "text": "Te słowa nią wstrząsnęły. Co to...?<span class=\"paragraph-break\"></span>",
+          "text": "Te słowa nią wstrząsnęły. Zastanawiała się, co właściwie miało znaczyć takie powitanie.<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:29",
               "category": "text",
               "keyword": "wstrząsnęły",
-              "content": "διεταράχθη — od ταράσσω, „gwałtownie wstrząsnąć, poruszyć do głębi”. Silniejszy czasownik niż u Zachariasza (1,12). Łukasz pokazuje: Maria nie przeraża się widokiem anioła, lecz pozdrowienie — myśli, co ono może znaczyć. Płaskie tłumaczenia: „zaniepokoiła się”, „zmieszała się”. Różnica: to słowa, nie widok, ją poruszają — i poruszenie jest głębsze."
+              "content": "Greckie διεταράχθη — od ταράσσω z intensyfikującym przedrostkiem δια-, „gwałtownie wstrząsnąć, poruszyć do głębi\". Silniejszy czasownik niż użyty wobec Zachariasza (1,12). Łukasz pokazuje: Marii nie przeraża widok anioła — wstrząsa nią \\it pozdrowienie\\it*. Myśli, co ono ma znaczyć. Reakcja Marii jest głębsza, bo jej źródłem są słowa."
             }
           ],
           "isPoetry": false,
@@ -347,7 +402,7 @@
         },
         {
           "number": "30",
-          "text": "„Nie bój się, Mario” — powiedział anioł. „Bóg patrzy na ciebie z życzliwością.",
+          "text": "„Nie bój się, Mario\" — powiedział anioł. „Bóg spojrzał na ciebie z życzliwością.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -355,21 +410,28 @@
         },
         {
           "number": "31",
-          "text": "Poczniesz i urodzisz syna. Dasz mu na imię Jezus.",
-          "footnotes": [],
+          "text": "Poczniesz i urodzisz syna, i nadasz mu imię Jezus.",
+          "footnotes": [
+            {
+              "ref": "1:31",
+              "category": "text",
+              "keyword": "Jezus",
+              "content": "Greckie Ἰησοῦς to transkrypcja hebrajskiego \\it Jeszua\\it* (skrócona forma \\it Jehoszua\\it*) — „JHWH zbawia, JHWH ratuje\". Imię nie jest dekoracją; jest streszczeniem misji. To, co Bóg ma uczynić przez tego człowieka, jest zapisane już w jego imieniu — Mateusz uczyni to wprost zdaniem („on zbawi swój lud od jego grzechów\", Mt 1,21), Łukasz zostawia czytelnikowi do dosłyszenia."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "32",
-          "text": "Będzie wielki. Będą go nazywać Synem Najwyższego. Bóg osadzi go w królewskiej linii Dawida.",
+          "text": "Będzie wielki. Będą Go nazywać Synem Najwyższego. Pan Bóg da Mu tron Jego ojca, Dawida.",
           "footnotes": [
             {
               "ref": "1:32-33",
               "category": "kontext",
               "keyword": "tron Dawida",
-              "content": "Obietnica Natana (2 Sm 7,12-16): Bóg przysiągł Dawidowi, że jego dom i królestwo będą trwać na wieki. Żydowskie oczekiwanie mesjańskie w I wieku spodziewało się króla z rodu Dawida, który wyzwoli Izrael politycznie. Łukasz pokazuje: Jezus wypełnia tę nadzieję — ale inaczej niż się spodziewano."
+              "content": "Obietnica Natana złożona Dawidowi (2 Sm 7,12–16): Bóg przysiągł, że dom i królestwo Dawida będą trwać na wieki. Żydowskie oczekiwanie mesjańskie I wieku spodziewało się króla z rodu Dawida, który zrzuci rzymską okupację i przywróci Izraelowi polityczną niezależność. Łukasz potwierdza tę tradycję — ale ostrożnie. To samo dziecko, którego tron zapowiada Gabriel, skończy na rzymskim krzyżu. Wypełnienie nadziei dawidowej nie pójdzie po linii, którą politycznie zakładano."
             }
           ],
           "isPoetry": false,
@@ -378,7 +440,7 @@
         },
         {
           "number": "33",
-          "text": "Będzie panował nad potomkami Jakuba na wieki. Jego królestwu nie będzie końca.”<span class=\"paragraph-break\"></span>",
+          "text": "Będzie panował nad domem Jakuba na wieki, a Jego królestwu nie będzie końca.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -386,7 +448,7 @@
         },
         {
           "number": "34",
-          "text": "Maria zapytała: „Jak to się stanie, skoro nie spałam z mężczyzną?”<span class=\"paragraph-break\"></span>",
+          "text": "Maria zapytała: „Jak to się stanie, skoro nie spałam z mężczyzną?\"<span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -394,19 +456,19 @@
         },
         {
           "number": "35",
-          "text": "Anioł odpowiedział: „Duch Święty zstąpi na ciebie i moc Najwyższego cię ogarnie. Dlatego to, co się narodzi, będzie święte — będzie nazwane Synem Bożym.",
+          "text": "Anioł odpowiedział: „Duch Święty zstąpi na ciebie i moc Najwyższego cię osłoni<span class=\"amplification\">— tak, jak obłok kiedyś okrył Namiot Spotkania.</span> Dlatego to, co się narodzi — święte — będzie nazwane Synem Bożym.",
           "footnotes": [
             {
               "ref": "1:35",
               "category": "text",
-              "keyword": "osłoni cię swoim cieniem",
-              "content": "ἐπισκιάσει — „ocienić, okryć cieniem”, ten sam czasownik co w Wj 40,35, gdzie obecność Boża (Szekina) wypełniła Namiot Spotkania. Anioł stawia Marię na równi ze Świątynią: tak jak obłok oznaczał Boże zamieszkanie, tak Duch Boży zamieszka teraz w niej. Maria = nowa Świątynia."
+              "keyword": "osłoni",
+              "content": "Greckie ἐπισκιάσει (\\it episkiasei\\it*) — „okryje cieniem, ocieni\". Ten sam czasownik pojawia się w Wj 40,35 LXX, gdy obecność Boża (Szekina) wypełnia Namiot Spotkania, i Mojżesz nie może wejść. Anioł stawia Marię w tej samej teologicznej pozycji co Namiot: jak obłok oznaczał Boże zamieszkanie wśród Izraela, tak Duch zamieszka teraz w niej. Maria — nowe miejsce Bożej obecności. Język jest celowo zasłonięty: opisuje stwórczą moc Boga, nie fizyczny akt."
             },
             {
               "ref": "1:35",
               "category": "unglaublich",
               "keyword": "Duch Święty zstąpi na ciebie",
-              "content": "Dziewicze poczęcie jest jednym z najbardziej dyskutowanych punktów wiary. Łukasz nie podaje biologicznych szczegółów — używa języka Świątyni (Szekina). Interpretacje: teologiczno-dosłowna (historyczne dziewicze poczęcie, tradycja chrześcijańska od I w.; Wyznanie Wiary); symboliczna (stwierdzenie o wyjątkowym pochodzeniu Jezusa od Boga); historyczno-krytyczna (konstrukcja teologiczna). Wspólny mianownik: pochodzenie Jezusa nie jest przypadkowe — tekst łączy je bezpośrednio z działaniem Boga."
+              "content": "Dziewicze poczęcie jest jednym z najbardziej dyskutowanych punktów chrześcijańskiej wiary. Łukasz nie podaje biologicznych szczegółów — sięga po język Świątyni (Szekina). Możliwe odczytania: (1) historyczno-dosłowne — dziewicze poczęcie jako wydarzenie historyczne, tradycja chrześcijańska od I wieku, Wyznanie Wiary Nicejskie, wszystkie główne tradycje; (2) teologiczno-symboliczne — orzeczenie o wyjątkowym, bezpośrednim Bożym pochodzeniu Jezusa, bez biologicznego twierdzenia; (3) historyczno-krytyczne — narracja teologiczna powstała w celu wyrażenia statusu Chrystusa. Wspólny mianownik wszystkich trzech: pochodzenie Jezusa jest bezpośrednio związane z Bożą inicjatywą. To, jak czytelnik zintegruje to twierdzenie, zależy od jego ramy poznawczej — tekst tu nie rozstrzyga za niego."
             }
           ],
           "isPoetry": false,
@@ -415,7 +477,7 @@
         },
         {
           "number": "36",
-          "text": "I posłuchaj: Elżbieta, twoja krewna — <span class=\"amplification\">ta bezdzietna —</span> jest w szóstym miesiącu.",
+          "text": "I posłuchaj: Elżbieta, twoja krewna,<span class=\"amplification\">ta, o której mówiono, że nie może mieć dzieci,</span> też jest w ciąży, w swoim wieku — to już szósty miesiąc.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -423,13 +485,13 @@
         },
         {
           "number": "37",
-          "text": "Bo dla Boga nie ma nic niemożliwego.”<span class=\"paragraph-break\"></span>",
+          "text": "Bo dla Boga nie ma rzeczy niemożliwej.\"<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:37",
               "category": "kontext",
-              "keyword": "nie ma nic niemożliwego",
-              "content": "Echo Rdz 18,14, gdzie Bóg mówi do Sary: „Czy jest coś, co byłoby niemożliwe dla Pana?” Maria słyszy te same słowa, które słyszała matriarchini Izraela."
+              "keyword": "nie ma rzeczy niemożliwej",
+              "content": "Bezpośrednie echo Rdz 18,14, gdzie Bóg pyta Abrahama o Sarę: „Czy jest coś, co byłoby niemożliwe dla Pana?\" Maria słyszy dokładnie te same słowa, które słyszała matriarchini Izraela. Łukasz wpisuje Marię w łańcuch matriarch z niemożliwą ciążą — Sary, Rebeki, Racheli, Anny, Elżbiety. Jej sytuacja nie jest bez precedensu; jest jego kulminacją."
             }
           ],
           "isPoetry": false,
@@ -438,13 +500,25 @@
         },
         {
           "number": "38",
-          "text": "<span class=\"amplification\">Maria wiedziała, co to znaczy: niezamężna i brzemienna. Hańba. Wyrok.</span> A mimo to powiedziała: „Należę do Pana. Niech tak się stanie, jak powiedziałeś.” Anioł odszedł.",
+          "text": "<span class=\"amplification\">Maria wiedziała, co to znaczy: niezamężna i w ciąży. Hańba. Wyrok.</span> Mimo to powiedziała: „Należę do Pana. Niech tak się stanie, jak powiedziałeś.\" I anioł odszedł.",
           "footnotes": [
             {
               "ref": "1:38",
               "category": "text",
               "keyword": "Należę do Pana",
-              "content": "δούλη κυρίου — dosłownie „niewolnica/służebnica Pana”. Tradycyjne tłumaczenia: „Jestem służebnicą Pańska” (BT). Aperto: „Należę do Pana” — zachowuje całkowite oddanie, ale brzmi jak osoba, nie jak formuła liturgiczna. Marii „tak” to jedno z najodważniejszych w historii. Mówi je bez gwarancji: Józef mógłby ją oddalić, rodzina — wstydzić się, wioska — odrzucić. Tryb życzący γένοιτό wyraża zdecydowane pragnienie — nie bierne znoszenie, lecz aktywną zgodę."
+              "content": "Greckie ἡ δούλη κυρίου — dosłownie „niewolnica/służebnica Pana\". Polskie tłumaczenie biblijne nosi tu mocne piętno liturgiczne: „służebnica Pańska\" (Tysiąclatka) brzmi jak formuła z modlitewnika, nie jak słowa konkretnej dziewczyny w określonej godzinie. Aperto: „Należę do Pana\" — zachowuje całkowite oddanie (δούλη znaczy radykalną przynależność, kobieta-niewolnica), ale brzmi jak osoba, nie formuła. Wybór nie jest unikiem teologii — jest ostrością. Maria mówi to bez gwarancji: Józef może ją oddalić, rodzina się jej wstydzić, wieś odrzucić. To jedno z najodważniejszych „tak\" w historii."
+            },
+            {
+              "ref": "1:38",
+              "category": "text",
+              "keyword": "Niech tak się stanie",
+              "content": "Greckie γένοιτο to optativus — rzadki w Nowym Testamencie tryb życzący. Nie jest to bierne poddanie („cokolwiek się stanie\") ani rozkaz („stań się\") — jest to aktywne, wolne życzenie, zgoda przyjęta dobrowolnie. Maria wyraża wolę, nie rezygnację."
+            },
+            {
+              "ref": "1:38",
+              "category": "leben",
+              "keyword": "Niech tak się stanie",
+              "content": "„Tak\" Marii nie jest pobożną formułą, lecz aktem wolnej zgody na coś, czego konsekwencji jeszcze nie zna. Tradycja maryjna w Polsce — od Jana Pawła II, przez kard. Wyszyńskiego, po liturgię Zwiastowania — czyta to jako paradygmat: odwaga \\it fiat\\it*, w której człowiek oddaje siebie Bogu, zanim ma w ręku gwarancje. — Pytanie, które działa bez religijnego wstępu: kiedy ostatnio powiedziałeś „tak\" na coś, czego końca nie znałeś? Małżeństwu, dziecku, decyzji zawodowej, której wszyscy odradzali? Powiedzieć „tak\" bez wyników badań, bez napisanego scenariusza, bez zapewnienia, że nie skończy się hańbą — to gest, do którego współczesna kultura, ufundowana na ryzyku skalkulowanym, jest słabo przygotowana. Maria działa odwrotnie. — Dla wierzących wers otwiera szczególną duchową architekturę. Ignacjańska tradycja \\it indyferentnej dyspozycji\\it* — gotowości do każdego ruchu, do którego Bóg wezwie — kierowała się tym samym tonem co γένοιτο. Reguła benedyktyńska zaczyna się od \\it obsculta, fili\\it* — „słuchaj, synu\" — i kończy się ślubem stałości. Jedno i drugie żyje z tej samej intuicji co Maria: posłuszeństwo Bogu jest aktywne, nie pasywne; jest wyborem, nie kapitulacją. — Polski katolicyzm zna ten gest głęboko. Trzeźwa wytrwałość matek w stanie wojennym, decyzja Maksymiliana Kolbe oddającego życie za współwięźnia, wybór wielu zwyczajnych ludzi, którzy w czasach komunizmu nie zaparli się wiary — wszystko to są echa Mariinego γένοιτο. Nie spektakularne gesty, lecz cicha gotowość. — Praktycznie: większość naszych „tak\" jest ostrożna, ze schowanym „ale\". Co się stanie, jeśli przez tydzień powiesz „tak\" tak, jak Maria — bez gwarancji, lecz bez warunków? Bez zapewnień, że to się opłaci? — W tym tygodniu: rozpoznaj jedno „tak\", które zatrzymujesz w oczekiwaniu na pewność, i spróbuj je wypowiedzieć mimo to."
             }
           ],
           "isPoetry": false,
@@ -458,7 +532,7 @@
       "verses": [
         {
           "number": "39",
-          "text": "<span class=\"paragraph-break\"></span>Maria wyruszyła natychmiast. Pospiesznie — w góry Judei.",
+          "text": "<span class=\"paragraph-break\"></span>Maria wyruszyła zaraz. Spiesznie — w górzysty kraj Judei.<span class=\"amplification\">Kilka dni drogi z Galilei.</span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -466,7 +540,7 @@
         },
         {
           "number": "40",
-          "text": "Weszła do domu Zachariasza. Pozdrowiła Elżbietę.",
+          "text": "Weszła do domu Zachariasza i pozdrowiła Elżbietę.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -474,19 +548,19 @@
         },
         {
           "number": "41",
-          "text": "I kiedy Elżbieta usłyszała głos Marii — dziecko poruszyło się w niej gwałtownie. Duch Święty napełnił Elżbietę.",
+          "text": "Gdy tylko Elżbieta usłyszała pozdrowienie Marii, dziecko poruszyło się w niej gwałtownie, a ją samą napełnił Duch Święty.",
           "footnotes": [
             {
               "ref": "1:41",
               "category": "text",
-              "keyword": "podskoczyło",
-              "content": "ἐσκίρτησεν — ten sam czasownik, co w Ps 114,4 o „tańczących górach”. Płaskie tłumaczenia: „poruszyło się”, „drgnęło”. Ten czasownik jest jednoznaczny: dziecko reaguje gwałtownym ruchem radości, nie zwykłym poruszeniem."
+              "keyword": "poruszyło się gwałtownie",
+              "content": "Greckie ἐσκίρτησεν — „skoczyć, podskoczyć z radości\". Ten sam czasownik w Septuagincie opisuje „tańczące góry\" (Ps 114,4). Płaskie tłumaczenia („poruszyło się\", „drgnęło\") gubią ostrość obrazu. To nie zwykłe poruszenie płodu — to taneczna reakcja radości."
             },
             {
               "ref": "1:41",
               "category": "unglaublich",
-              "keyword": "dziecko podskoczyło",
-              "content": "Nienarodzone dziecko „rozpoznaje” obecność nienarodzonego Jezusa — dla współczesnych czytelników to jedno z najtrudniejszych miejsc narracji. Interpretacje: (1) literacka — Łukasz konstruuje paralelę między Janem a Jezusem, ruch dziecka to narracyjny środek wyrazu; (2) biologiczna — silne ruchy płodu w szóstym miesiącu są normalne, Elżbieta interpretuje je teologicznie; (3) pneumatologiczna — Duch Święty działa przez nienarodzone dziecko, co jest zapowiedzią 1,15 („już w łonie matki napełni go Duch Święty”). Wspólny mianownik: narracja Łukasza traktuje życie prenatalne jako przestrzeń Bożego działania."
+              "keyword": "dziecko poruszyło się gwałtownie",
+              "content": "Nienarodzone dziecko „rozpoznaje\" obecność nienarodzonego Jezusa — dla współczesnego czytelnika jedno z najtrudniejszych miejsc tej narracji. Możliwe odczytania: (1) literackie — Łukasz konstruuje paralelę Jan/Jezus, ruch dziecka to literacki znak; (2) biologiczne — silne ruchy płodu w szóstym miesiącu są normalne; Elżbieta interpretuje je teologicznie; (3) pneumatologiczne — Duch Święty działa przez nienarodzone dziecko, zgodnie z zapowiedzią 1,15. Wspólny mianownik: narracja Łukasza traktuje życie prenatalne jako przestrzeń Bożej obecności."
             }
           ],
           "isPoetry": false,
@@ -495,13 +569,13 @@
         },
         {
           "number": "42",
-          "text": "Zawołała donośnym głosem<span class=\"amplification\">— jak prorokini</span>: „Spośród wszystkich kobiet to ty jesteś szczęśliwa — i błogosławione jest dziecko, które nosisz!<span class=\"paragraph-break\"></span>",
+          "text": "I zawołała donośnym głosem<span class=\"amplification\">— jak prorokini</span>: „Błogosławiona jesteś między kobietami i błogosławiony owoc twojego łona!<span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:42",
               "category": "text",
               "keyword": "donośnym głosem",
-              "content": "ἀνεφώνησεν κραυγῇ μεγάλῃ — „krzyknęła wielkim krzykiem”. To nie jest delikatne powitanie. Elżbieta krzyczy — z prorocką mocą. Duch napełnia, i natychmiast przychodzi prorockie słowo."
+              "content": "Greckie ἀνεφώνησεν κραυγῇ μεγάλῃ — „zawołała wielkim krzykiem\". To nie jest delikatne powitanie. Elżbieta krzyczy z prorocką mocą. Duch napełnia — i natychmiast wybucha prorockie słowo."
             }
           ],
           "isPoetry": false,
@@ -510,13 +584,13 @@
         },
         {
           "number": "43",
-          "text": "Jak to się stało, że matka mojego Pana przychodzi do mnie?",
+          "text": "Skąd mi to, że przychodzi do mnie matka mojego Pana?",
           "footnotes": [
             {
               "ref": "1:43",
               "category": "kontext",
               "keyword": "matka mojego Pana",
-              "content": "Tytuł niesie zarówno mesjańskie, jak i boskie konotacje. Starsza kobieta, żona kapłana, z niedowierzaniem pochyla się przed nastolatką z Galilei. Echo 2 Sm 6,9, gdzie Dawid pyta: „Jak może przyjść do mnie Arka Pańska?” Maria = nowa Arka Przymierza."
+              "content": "To pierwsze użycie tytułu κύριος (Pan) o Jezusie w Ewangelii Łukasza — i pierwszy chrystologiczny \\it kyrios\\it* w całej Ewangelii. Dotąd κύριος odsyłał czytelnika do JHWH (gr. konwencja Septuaginty); od tej chwili to słowo zaczyna nieść drugi referent — przyszłego Pana, jeszcze nienarodzonego. Elżbieta rozpoznaje to, czego Maria sama nie nazwała. Echo wybrzmiewa: 2 Sm 6,9, gdy Dawid pyta przed Arką Przymierza: „Jak Arka Pańska może przyjść do mnie?\" Maria — nowa Arka. Cała późniejsza tradycja \\it Theotokos\\it* (Sobór Efeski, 431) wyrasta z tego jednego zdania."
             }
           ],
           "isPoetry": false,
@@ -525,7 +599,7 @@
         },
         {
           "number": "44",
-          "text": "Kiedy cię usłyszałam, dziecko podskoczyło we mnie z radości.",
+          "text": "Bo gdy tylko twoje pozdrowienie zabrzmiało w moich uszach — dziecko w moim łonie podskoczyło z radości.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -533,13 +607,13 @@
         },
         {
           "number": "45",
-          "text": "Masz szczęście, że uwierzyłaś — bo spełni się to, co Pan ci powiedział.”",
+          "text": "A masz szczęście, że uwierzyłaś — bo spełni się to, co ci powiedział Pan.\"",
           "footnotes": [
             {
               "ref": "1:45",
               "category": "leben",
-              "keyword": "Szczęśliwa jesteś, że uwierzyłaś",
-              "content": "Pierwsze błogosławieństwo (makaryzm) w Ewangelii Łukasza. Ukryty kontrast: Maria uwierzyła – Zachariasz wątpił (1,18-20). Elżbieta błogosławi Marię za wiarę, nie za status. Wiara jest tu aktem odwagi, nie pobożnym nawykiem. Łukasz buduje delikatną architekturę: starsza kobieta, która sama doświadcza cudu, rozpoznaje wiarę u młodszej, zanim ta sama zdąży ją nazwać. Wiara potrzebuje świadków – ludzi, którzy ją widzą, zanim my sami się jej dopatrzymy. – Pytanie, które działa bez religijnego wstępu: kto w twoim życiu rozpoznał coś prawdziwego o tobie, zanim ty sam to zobaczyłeś? Nauczyciel, który zauważył talent. Przyjaciel, który nie odszedł, kiedy ty siebie odpisałeś. Ktoś, kto powiedział „widzę cię” w momencie, gdy nie potrafiłeś być ze sobą sam. Wers Elżbiety przypomina, że wiara – także w siebie samego, także w drugiego człowieka – rzadko rodzi się sama. Potrzebuje świadectwa. – Dla wierzących wers otwiera praktykę, którą tradycja monastyczna nazywa wzajemnym błogosławieństwem. Reguła benedyktyńska wymagała, by mnisi błogosławili sobie nawzajem przed wyjściem do pracy – nie formalnie, lecz z konkretnego rozpoznania: widzę, kim jesteś, i chcę, by ci dziś było dobrze. Praktyka kierownictwa duchowego (ignacjańska, karmelitańska, prawosławna tradycja starcostwa) opiera się na tej samej intuicji: ktoś musi widzieć w nas wiarę, której sami często nie potrafimy nazwać. – Relacyjnie wers stawia wymagające pytanie. Wobec kogo jesteś takim świadkiem? Kogo błogosławisz – nie pobożnie, ale w sensie Elżbiety: wskazując konkretnie na coś dobrego, co w nim widzisz? W kulturze, w której krytyka jest darmowa, a uznanie – kosztowne, ten gest jest formą oporu. – Eklezjalnie warto zauważyć: Łukasz oddaje tę pierwszą beatyfikację kobiecie. Dwie kobiety w pokoju, jedna młodsza, druga starsza, jedna w skandalicznej sytuacji, druga w społecznie odzyskanej – i to one rozpoznają, co Bóg robi, zanim ktokolwiek inny to zauważy. Tradycja feministycznej egzegezy (Schüssler Fiorenza) słusznie wskazuje, że to nie marginalia. To centrum sceny. – W tym tygodniu: powiedz jednej osobie konkretnie, co dobrego w niej widzisz – nie ogólnie, lecz nazwij rzecz."
+              "keyword": "masz szczęście, że uwierzyłaś",
+              "content": "Pierwsze błogosławieństwo (makaryzm) w Ewangelii Łukasza — proto-Kazanie na równinie. Greckie μακαρία to inna rodzina słowna niż εὐλογημένη w wersecie 42: „błogosławiona\" w sensie szczęścia, pomyślności, dobrego losu. Aperto rozróżnia obie kategorie. Ukryty kontrast: Maria uwierzyła — Zachariasz wątpił (1,18–20). Elżbieta błogosławi Marię za wiarę, nie za status. Wiara jest tu aktem odwagi, nie pobożnym nawykiem. Łukasz buduje delikatną architekturę: starsza kobieta, która sama doświadcza cudu, rozpoznaje wiarę u młodszej, zanim ta sama zdąży ją nazwać. Wiara potrzebuje świadków — ludzi, którzy ją widzą, zanim my sami się jej dopatrzymy. — Pytanie, które działa bez religijnego wstępu: kto w twoim życiu rozpoznał coś prawdziwego o tobie, zanim ty sam to zobaczyłeś? Nauczyciel, który zauważył talent. Przyjaciel, który nie odszedł, kiedy ty siebie odpisałeś. Ktoś, kto powiedział „widzę cię\" w momencie, gdy nie potrafiłeś być ze sobą sam. Wers Elżbiety przypomina, że wiara — także w siebie samego, także w drugiego człowieka — rzadko rodzi się sama. Potrzebuje świadectwa. — Dla wierzących wers otwiera praktykę, którą tradycja monastyczna nazywa wzajemnym błogosławieństwem. Reguła benedyktyńska wymagała, by mnisi błogosławili sobie nawzajem przed wyjściem do pracy — nie formalnie, lecz z konkretnego rozpoznania: widzę, kim jesteś, i chcę, by ci dziś było dobrze. Praktyka kierownictwa duchowego (ignacjańska, karmelitańska, prawosławna tradycja starcostwa) opiera się na tej samej intuicji: ktoś musi widzieć w nas wiarę, której sami często nie potrafimy nazwać. — Wobec kogo jesteś takim świadkiem? Kogo błogosławisz — nie pobożnie, ale w sensie Elżbiety: wskazując konkretnie na coś dobrego, co w nim widzisz? W kulturze, w której krytyka jest darmowa, a uznanie kosztowne, ten gest jest formą oporu. — Łukasz oddaje tę pierwszą beatyfikację kobiecie. Dwie kobiety w pokoju, jedna młodsza, druga starsza, jedna w skandalicznej sytuacji, druga w społecznie odzyskanej — i to one rozpoznają, co Bóg robi, zanim ktokolwiek inny to zauważy. — W tym tygodniu: powiedz jednej osobie konkretnie, co dobrego w niej widzisz — nie ogólnie, lecz nazwij rzecz."
             }
           ],
           "isPoetry": false,
@@ -553,13 +627,34 @@
       "verses": [
         {
           "number": "46",
-          "text": "<span class=\"paragraph-break\"></span>Wszystko we mnie — wszystko! — wielbi Pana. <span class=\"poetry-line-1\"></span>",
+          "text": "<span class=\"paragraph-break\"></span>Wszystko we mnie — wszystko! — wielbi Pana, <span class=\"poetry-line-2\">mój duch eksploduje radością —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:46",
+              "category": "kontext",
+              "keyword": "Wszystko we mnie wielbi Pana",
+              "content": "Greckie Μεγαλύνει ἡ ψυχή μου τὸν κύριον — „wielbi dusza moja Pana\". Czasownik μεγαλύνω dosłownie „czyni wielkim\". Magnificat (od łacińskiego początku \\it Magnificat anima mea Dominum\\it*) jest modlony codziennie przy nieszporach (\\it Vesperae\\it*) w tradycji katolickiej, prawosławnej i anglikańskiej. Pieśń jest wzorowana na pieśni Anny (1 Sm 2,1–10), matki Samuela. W XX wieku Magnificat był zakazywany przez wojskowe junty Ameryki Łacińskiej (Argentyna, Salwador, Gwatemala) jako tekst politycznie wywrotowy — głównie wersety 51–53. W teologii wyzwolenia (Gustavo Gutiérrez) stał się kluczowym tekstem opcji na rzecz ubogich. W Polsce w czasach zaborów i komunizmu śpiewano go jako modlitwę ludu, którego nikt na górze nie chciał słyszeć."
+            },
+            {
+              "ref": "1:47",
               "category": "text",
-              "keyword": "wielbi",
-              "content": "μεγαλύνει — dosłownie „czyni wielkim”. Tradycyjnie: „wielbi”, „wychwala”. Magnificat (od łacińskiego „Magnificat anima mea Dominum”) jest modlony codziennie podczas Nieszporów (Vesperae) w tradycji katolickiej. W teologii wyzwolenia (Gustavo Gutiérrez) stał się kluczowym tekstem opcji na rzecz ubogich. W Argentynie i Gwatemali był przez dyktatury zakazywany jako politycznie wywrotowy."
+              "keyword": "mój duch eksploduje radością",
+              "content": "Greckie ἠγαλλίασεν — „radować się gwałtownie, krzyczeć z radości\". To nie cicha pogoda ducha; to ekstatyczna eksplozja. Łukasz świadomie wybiera mocniejszy z dwóch dostępnych greckich czasowników radości."
+            }
+          ],
+          "isPoetry": true,
+          "poetryLevel": 2,
+          "lines": []
+        },
+        {
+          "number": "47",
+          "text": "w Bogu, który mnie ratuje. <span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:47",
+              "category": "text",
+              "keyword": "który mnie ratuje",
+              "content": "Greckie σωτῆρι — „zbawca, wybawca\". Aperto wybiera „ratuje\" zamiast liturgicznego „zbawia\": ratunek jest konkretny, fizyczny, w kontekście odwrócenia politycznego Magnificat — wyraźniejszy niż abstrakcyjne „zbawienie\"."
             }
           ],
           "isPoetry": true,
@@ -567,28 +662,20 @@
           "lines": []
         },
         {
-          "number": "47",
-          "text": "Mój duch wyrywa się z radości <span class=\"poetry-line-2\">w Bogu, który mnie ratuje.</span><span class=\"poetry-line-1\"></span>",
-          "footnotes": [],
-          "isPoetry": true,
-          "poetryLevel": 2,
-          "lines": []
-        },
-        {
           "number": "48",
-          "text": "Bo spojrzał na mnie w mojej niskości.<span class=\"amplification\">Na mnie — nikomu nieznaną.</span> <span class=\"poetry-line-1\">I odtąd każde pokolenie będzie mówić:</span><span class=\"poetry-line-2\">Szczęśliwa.</span><span class=\"poetry-break\"></span>",
+          "text": "Bo spojrzał na mnie. Mnie — niezauważoną, nikomu nieznaną. <span class=\"poetry-line-1\">I od tej chwili każde pokolenie nazwie mnie szczęśliwą.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:48",
               "category": "text",
-              "keyword": "poniżenie",
-              "content": "ταπείνωσιν — nie pokora jako cnota, lecz społeczne poniżenie. Maria jest niska społecznie: młoda, kobieta, wieśniaczka, z nic nieznaczącego Nazaretu. Boży wzrok kieruje się ku tym, których świat pomija."
+              "keyword": "spojrzał na mnie. Mnie — niezauważoną.",
+              "content": "Greckie ταπείνωσιν — nie „pokora\" jako cnota, lecz \\it społeczna pozycja\\it*: niskość, bycie niezauważanym. Maria jest młoda, kobieta, wieśniaczka z nieistotnej miejscowości. Tekst nazywa to, co wszyscy w jej świecie i tak widzieli. Boży wzrok kieruje się ku tym, których społeczeństwo pomija — powracający motyw Łukasza (1,25; 1,48; 4,18; 7,22)."
             },
             {
               "ref": "1:48",
               "category": "kontext",
-              "keyword": "wszystkie pokolenia",
-              "content": "Ten werset wyznacza jedną z centralnych różnic interpretacyjnych między tradycjami chrześcijańskimi. Tradycja katolicka i prawosławna widzi w wyjątkowej roli Marii jako Matki Bożej (Θεοτόκος — Sobór Efeski 431) trwałą szczególną godność. Tradycja protestancka czyta Marię jako wzór wierzącego człowieka. Obie lektury mają oparcie w tekście."
+              "keyword": "każde pokolenie nazwie mnie szczęśliwą",
+              "content": "Ten werset wyznacza jedną z głównych różnic interpretacyjnych między tradycjami chrześcijańskimi. Tradycja katolicka i prawosławna widzi tu fundament szczególnej godności Marii jako Matki Bożej (Θεοτόκος — Sobór Efeski 431). Tradycja protestancka czyta Marię jako wzór wierzącego człowieka. Obie lektury mają oparcie w tekście. Aperto stara się nie zamykać tekstu w żadną z tych dwóch tradycji — werset mówi tylko, że Maria została wyróżniona Bożym spojrzeniem, a późniejsze pokolenia rozpoznają, że to spojrzenie było wyróżnieniem."
             }
           ],
           "isPoetry": true,
@@ -597,97 +684,91 @@
         },
         {
           "number": "49",
-          "text": "<span class=\"poetry-line-1\">Bo wielkie rzeczy zrobił dla mnie Ten Mocny.</span><span class=\"poetry-line-2\">Jego imię — Święte.</span>",
-          "footnotes": [
-            {
-              "ref": "1:49",
-              "category": "text",
-              "keyword": "Ten Mocny",
-              "content": "ὁ δυνατός — „ten, który ma moc / mocarny”. Tradycyjne tłumaczenia: „Wszechmocny”. Aperto: „Ten Mocny” — zachowuje siłę obrazu bez liturgicznego rezonansu."
-            }
-          ],
+          "text": "Bo zrobił dla mnie wielkie rzeczy — On, Ten Mocny. <span class=\"poetry-line-2\">Święte jest Jego imię.</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "50",
-          "text": "<span class=\"poetry-line-1\">Jego miłosierdzie przechodzi z pokolenia na pokolenie</span><span class=\"poetry-line-2\">dla tych, którzy Go szanują.</span><span class=\"poetry-break\"></span>",
+          "text": "Jego miłosierdzie z pokolenia na pokolenie — <span class=\"poetry-line-2\">nad tymi, którzy się Go boją.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:50",
               "category": "text",
-              "keyword": "potrafią drżeć",
-              "content": "φοβουμένοις αὐτόν — „bojących się go”. Tradycyjne: „którzy się go boją”. Aperto: „którzy potrafią drżeć” — zachowuje fizykalność bojaźni Bożej bez liturgicznej formuły."
+              "keyword": "którzy się Go boją",
+              "content": "Greckie φοβουμένοις αὐτόν — „bojących się go\". Tradycyjne tłumaczenie zachowane: bojaźń Boża w Starym Testamencie i u Łukasza nie znaczy przerażenia ani neurotycznego lęku, lecz fundamentalne nastawienie czci, otwartości, gotowości słuchać. Aperto trzyma się tradycyjnej formy, bo każda zamiana („szanować\" jest zbyt płaska, „drżeć przed Bogiem\" zbyt mistyczna) traci centrum tego pojęcia."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "51",
-          "text": "<span class=\"poetry-line-1\">Pokazał swoją siłę.</span><span class=\"poetry-line-2\">Rozproszył tych, którzy myśleli, że wiedzą lepiej.</span>",
+          "text": "Pokazał, co umie. Ramieniem. <span class=\"poetry-line-2\">Rozproszył pyszniących się — w samych ich własnych planach.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:51-53",
               "category": "text",
-              "keyword": "Pokazał... Rozproszył... Władców...",
-              "content": "Greckie czasowniki w w. 51-53 stoją w aoryście — formie czasu przeszłego. Jednak wielu komentatorów rozumie je jako „aoryst gnomiczny” — opisujący typowe, ponadczasowe działanie Boga: to, co Bóg zawsze czyni. Maria opisuje Boży charakter, nie jednorazowe wydarzenie. Aperto tłumaczy w czasie przeszłym (dokonanym), oddając konkretność każdego aktu."
-            },
-            {
-              "ref": "1:51-53",
-              "category": "leben",
-              "keyword": "Władców — z tronów. / Tych z dołu — do góry.",
-              "content": "Magnificat konfrontuje każdą epokę z pytaniem: po której stronie Bożego odwrócenia stoisz? Teologia wyzwolenia (Gutiérrez) czyta te wersety jako Boży program na rzecz ubogich. Tradycja monastyczna słyszy w nich wezwanie do wewnętrznej pokory – strącenie „władców” wewnątrz nas samych. Obie lektury mają oparcie w tekście. W Ameryce Łacińskiej Magnificat był zakazywany przez reżimy wojskowe (Argentyna, Salwador, Gwatemala) jako tekst politycznie wywrotowy – nie przypadkowo. – Pytanie, które działa dla każdego czytelnika, niezależnie od światopoglądu: w których obszarach życia jesteś tym, którego się podnosi, a w których tym, czyj tron jest zagrożony? Uczciwa odpowiedź rzadko jest prosta. Senior w pracy jest młodszym we własnej rodzinie. Osoba bezpieczna finansowo jest tą, której zdrowie odmawia posłuszeństwa. Uprzywilejowany w jednym społeczeństwie jest niepewnym w innym. Magnificat nie spłaszcza tych warstw – nazywa je. – Dla wierzących Magnificat jest jednym z najczęściej odmawianych psalmów chrześcijaństwa. Śpiewany codziennie w nieszporach przez katolików, anglikanów i prawosławnych – od stuleci. To powtórzenie nie jest sentymentalne. Jest formacyjne. Mówić te słowa codziennie znaczy powoli być nimi przekształcanym, stawać się kimś, dla kogo Boże odwrócenie brzmi jak dom, nie jak zagrożenie. – Polski kontekst dodaje wymiaru: pieśń ta była śpiewana w czasach zaborów i komunizmu jako modlitwa ludu, który nie miał głosu. Tradycja kard. Wyszyńskiego i Solidarności karmiła się tym samym tekstem – nie jako ideologią, lecz jako duchową architekturą oporu wobec aroganckich systemów. – Wokacyjnie wers stawia pytanie strukturalne każdemu, czyja praca dotyka władzy: gdzie w mojej działalności zawodowej jestem w pozycji podnoszenia tych pomijanych albo trzymania ich w dole? Decyzje kadrowe, awanse, architektura spotkań, kwestia tego, kto dostaje głos. – W tym tygodniu: przeczytaj Magnificat na głos jeden raz. Zauważ, które wersety cię pocieszają, a które każą się wzdrygnąć."
+              "keyword": "Pokazał... Strącił... Posadził...",
+              "content": "Greckie czasowniki w wersach 51–53 stoją w aoryście — formie greckiego czasu przeszłego. Komentatorzy nazywają je „aorystem gnomicznym\": opisują typowe, ponadczasowe działanie Boga, to, co Bóg \\it zawsze\\it* czyni, a nie jednorazowe wydarzenie w przeszłości. Maria opisuje charakter Boga, nie historyczny epizod. Niektóre nowsze przekłady oddają to w czasie teraźniejszym; Aperto pozostaje przy czasie dokonanym, oddając konkretność każdego aktu — ale czytelnik powinien wiedzieć, że nie chodzi o „kiedyś\", lecz o „Bóg robi to zawsze\"."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "52",
-          "text": "<span class=\"poetry-line-1\">Władców — z tronów.</span><span class=\"poetry-line-2\">Tych z dołu — do góry.</span>",
+          "text": "Władców — z tronów. <span class=\"poetry-line-2\">Maluczkich — w górę.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "53",
-          "text": "<span class=\"poetry-line-1\">Głodnych — do syta.</span><span class=\"poetry-line-2\">Bogatych — z niczym.</span><span class=\"poetry-break\"></span>",
-          "footnotes": [],
+          "text": "Głodnych — do syta, dobrocią. <span class=\"poetry-line-2\">Bogatych odprawił. Z niczym.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:51-53",
+              "category": "leben",
+              "keyword": "Władców — z tronów. Maluczkich — w górę.",
+              "content": "Magnificat stawia każdą epokę przed pytaniem: po której stronie Bożego odwrócenia stoisz? Teologia wyzwolenia (Gutiérrez, Sobrino) czyta te wersety jako Boży program konkretnej, materialnej sprawiedliwości. Tradycja monastyczna (Augustyn, Bernard z Clairvaux, Tomasz a Kempis) słyszy w nich wezwanie do wewnętrznej pokory — strącenia „władców\" wewnątrz nas samych. Obie lektury mają oparcie w tekście; Łukasz pisze tak, że żadna z nich sama nie wystarczy. — W XX wieku Magnificat był zakazywany przez wojskowe reżimy Ameryki Łacińskiej — Argentyna lat siedemdziesiątych, Salwador, Gwatemala. Nie przypadkiem. Reżimy oparte na lęku rozpoznają od razu, kiedy tekst nazywa po imieniu właśnie ich zachowanie. — Pytanie, które działa dla każdego czytelnika, niezależnie od światopoglądu: w których obszarach życia jesteś tym, kogo się podnosi, a w których tym, czyj tron jest zagrożony? Uczciwa odpowiedź rzadko jest prosta. Senior w pracy bywa najmłodszym we własnej rodzinie. Osoba bezpieczna finansowo bywa tą, której zdrowie odmawia posłuszeństwa. Uprzywilejowany w jednym społeczeństwie staje się niepewnym w innym. Magnificat tych warstw nie spłaszcza — nazywa je. — Dla wierzących Magnificat jest jednym z najczęściej odmawianych psalmów chrześcijaństwa. Śpiewany codziennie w nieszporach przez katolików, anglikanów i prawosławnych — od kilkunastu wieków. To powtórzenie nie jest sentymentalne. Jest formacyjne. Mówić te słowa codziennie znaczy powoli stawać się kimś, dla kogo Boże odwrócenie brzmi jak dom, nie jak zagrożenie. — Polski kontekst dodaje wymiaru: pieśń ta była śpiewana w czasach zaborów i komunizmu jako modlitwa ludu, który nie miał głosu. Duchowość kard. Wyszyńskiego i Solidarności karmiła się tym samym tekstem — nie jako ideologią, lecz jako duchową architekturą oporu wobec aroganckich systemów. — Wokacyjnie wers stawia pytanie strukturalne każdemu, czyja praca dotyka władzy: gdzie w mojej działalności zawodowej jestem w pozycji podnoszenia tych pomijanych albo trzymania ich w dole? Decyzje kadrowe, awanse, architektura spotkań, kwestia tego, kto dostaje głos. — W tym tygodniu: przeczytaj Magnificat raz na głos. Zauważ, które wersety cię pocieszają, a które każą się wzdrygnąć."
+            }
+          ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "54",
-          "text": "<span class=\"poetry-line-1\">Stanął po stronie Izraela, swojego sługi —</span><span class=\"poetry-line-2\">bo pamiętał o swoim miłosierdziu.</span>",
+          "text": "Stanął po stronie Izraela — swojego sługi. <span class=\"poetry-line-2\">Pamiętał o miłosierdziu.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "55",
-          "text": "<span class=\"poetry-line-1\">Jak obiecał naszym ojcom:</span><span class=\"poetry-line-2\">Abrahamowi i jego potomstwu.</span><span class=\"poetry-line-1\">Na zawsze. </span><span class=\"paragraph-break\"></span>",
+          "text": "Tak jak obiecał naszym ojcom. <span class=\"poetry-line-2\">Abrahamowi i jego potomstwu.</span><span class=\"poetry-line-1\">Na zawsze. </span><span class=\"paragraph-break\"></span>",
           "footnotes": [
             {
               "ref": "1:55",
               "category": "kontext",
-              "keyword": "naszym ojcom",
-              "content": "Przymierze z Abrahamem (Rdz 17,7; 22,17-18): wieczna wierność Boga wobec potomków Abrahama. Maria widzi przyjście Jezusa nie jako nowy początek, lecz jako wypełnienie prastarej obietnicy. Magnificat jest głęboko żydowski — celebruje Bożą wierność na przestrzeni wieków."
+              "keyword": "tak jak obiecał naszym ojcom",
+              "content": "Przymierze z Abrahamem (Rdz 17,7; 22,17–18): wieczna wierność Boga wobec potomków Abrahama. Maria widzi przyjście Jezusa nie jako nowy początek, lecz jako wypełnienie obietnicy, której Bóg zaczynał dochowywać setki lat przed jej urodzeniem. Magnificat jest głęboko żydowski — celebruje wierność Boga w czasie, nie przerywa historii."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "56",
-          "text": "Maria została u Elżbiety blisko trzy miesiące. Potem wróciła do domu.",
+          "text": "Maria została u Elżbiety jakieś trzy miesiące, a potem wróciła do swojego domu.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -700,7 +781,7 @@
       "verses": [
         {
           "number": "57",
-          "text": "<span class=\"paragraph-break\"></span>Elżbieta urodziła syna, gdy nadszedł jej czas.",
+          "text": "<span class=\"paragraph-break\"></span>Nadszedł czas Elżbiety i urodziła syna.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -708,21 +789,28 @@
         },
         {
           "number": "58",
-          "text": "Kiedy sąsiedzi i krewni usłyszeli, co Pan dla niej uczynił — cieszyli się z nią.<span class=\"paragraph-break\"></span>",
-          "footnotes": [],
+          "text": "Sąsiedzi i krewni dowiedzieli się, że Pan okazał jej wielkie miłosierdzie — i cieszyli się razem z nią.<span class=\"paragraph-break\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:58",
+              "category": "text",
+              "keyword": "okazał wielkie miłosierdzie",
+              "content": "Greckie ἐμεγάλυνεν κύριος τὸ ἔλεος αὐτοῦ — „uczynił wielkim swoje miłosierdzie\". Łukasz świadomie powtarza tu czasownik μεγαλύνω z otwarcia Magnificat (1,46: Μεγαλύνει — „wielbi\"). Maria wielbiła Boga, który czyni wielkie rzeczy; teraz sąsiedzi widzą, jak Bóg powiększa swoje miłosierdzie wśród nich. To samo słowo — opisuje to, co Bóg robi, i to, co człowiek w odpowiedzi mówi."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "59",
-          "text": "Ósmego dnia<span class=\"amplification\">— przy obrzezaniu —</span> chcieli go nazwać Zachariasz, po ojcu. <span class=\"amplification\">Tak się robiło.</span>",
+          "text": "Ósmego dnia<span class=\"amplification\">— przy obrzezaniu —</span> przyszli i chcieli nazwać go po ojcu — Zachariasz.",
           "footnotes": [
             {
               "ref": "1:59",
               "category": "kultur",
-              "keyword": "Ósmego dnia",
-              "content": "Obrzezanie ósmego dnia było znakiem przymierza z Abrahamem (Rdz 17,12). Jednocześnie przy obrzezaniu nadawano dziecku imię — było to wydarzenie wspólnotowe. Łukasz pokazuje, jak społeczność chce nazwać dziecko zgodnie z tradycją rodzinną."
+              "keyword": "ósmego dnia",
+              "content": "Obrzezanie ósmego dnia było znakiem przymierza zawartego z Abrahamem (Rdz 17,12). Przy tej samej ceremonii nadawano dziecku imię — było to wydarzenie wspólnotowe, prawie tak ważne jak narodziny. Łukasz pokazuje, jak społeczność rodziny i wsi próbuje nazwać dziecko zgodnie z dziedzicznym zwyczajem, co prowadzi do sporu z Elżbietą."
             }
           ],
           "isPoetry": false,
@@ -731,13 +819,13 @@
         },
         {
           "number": "60",
-          "text": "Ale jego matka powiedziała: „Nie! Na imię mu Jan.”",
+          "text": "Ale matka powiedziała: „Nie. Będzie nazywał się Jan.\"",
           "footnotes": [
             {
               "ref": "1:60",
               "category": "text",
               "keyword": "Jan",
-              "content": "Hebr. Jochanan — „PAN okazał łaskę”. Elżbieta obstaje przy imieniu wyznaczonym przez anioła, wbrew sprzeciwowi rodziny. Słowo, które w sobie zamyka znaczenie tych dziewięciu miesięcy."
+              "content": "Hebrajskie \\it Jochanan\\it* — „JHWH okazał łaskę\". Imię to teologiczne streszczenie całej tej narracji: dziecko narodzone z bezpłodnej kobiety, w starości, po dziewięciu miesiącach milczenia ojca. Elżbieta obstaje przy imieniu wyznaczonym przez anioła wbrew sprzeciwowi rodziny — i to ona, nie Zachariasz, jest tu pierwszą, która wypowiada na głos znaczenie, które trzymało rodzinę przez te dziewięć miesięcy."
             }
           ],
           "isPoetry": false,
@@ -746,7 +834,7 @@
         },
         {
           "number": "61",
-          "text": "<span class=\"amplification\">Zdziwili się.</span> W rodzinie nikt nie nosił takiego imienia.",
+          "text": "<span class=\"amplification\">Zdziwili się.</span> „W twojej rodzinie nikt nie nosi takiego imienia.\"",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -754,7 +842,7 @@
         },
         {
           "number": "62",
-          "text": "Zwrócili się do ojca — gestami<span class=\"amplification\">, bo mówić nie mógł</span>. Pytali, jakie imię chce dać dziecku.",
+          "text": "Zaczęli więc pytać ojca na migi<span class=\"amplification\">— bo mówić nie mógł</span>, jak chce nazwać dziecko.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -762,7 +850,7 @@
         },
         {
           "number": "63",
-          "text": "Poprosił o tabliczkę. Napisał: Ma na imię Jan. <span class=\"amplification\">Zdumienie.</span><span class=\"paragraph-break\"></span>",
+          "text": "Poprosił o tabliczkę i napisał: „Jan ma na imię.\" <span class=\"amplification\">Zdumienie obeszło wszystkich.</span><span class=\"paragraph-break\"></span>",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -770,15 +858,22 @@
         },
         {
           "number": "64",
-          "text": "I w tym momencie — odzyskał mowę. <span class=\"amplification\">A pierwszym, co powiedział, była chwała Bogu.</span>",
-          "footnotes": [],
+          "text": "I w tym momencie<span class=\"amplification\">— po dziewięciu miesiącach milczenia —</span> otworzyły się jego usta i język. Mówił. A jego pierwsze słowa były chwałą.",
+          "footnotes": [
+            {
+              "ref": "1:64",
+              "category": "unglaublich",
+              "keyword": "w tym momencie",
+              "content": "Greckie παραχρῆμα — „natychmiast, w tej samej chwili\" — to Łukaszowe słowo na nagłe Boże działanie (Łk 4,39; 5,25; 8,44.47.55; 18,43; 22,60). Cisza nie kończy się stopniowo — pęka. Pierwsze słowa po dziewięciu miesiącach milczenia nie są ulgą, nie są wyjaśnianiem ani skargą — są chwałą. Łuk teologiczny: milczenie nałożone za niewiarę, milczenie złamane w momencie posłusznego nadania imienia, pierwsze wypowiedziane słowa — błogosławieństwo. Tekst nie komentuje tego ruchu; pozwala mu wybrzmieć."
+            }
+          ],
           "isPoetry": false,
           "poetryLevel": 0,
           "lines": []
         },
         {
           "number": "65",
-          "text": "Lęk ogarnął całą okolicę. W górach Judei ludzie opowiadali sobie tę historię.",
+          "text": "Strach ogarnął wszystkich w okolicy. W całych górach Judei opowiadano sobie tę historię.",
           "footnotes": [],
           "isPoetry": false,
           "poetryLevel": 0,
@@ -786,13 +881,13 @@
         },
         {
           "number": "66",
-          "text": "Każdy, kto ją słyszał, zachowywał ją w pamięci. I pytali: Kim będzie to dziecko? Bo Bóg był przy nim.",
+          "text": "Każdy, kto słyszał, brał ją sobie do serca i pytał: „Kim będzie to dziecko?\" Bo ręka Pana była z nim.",
           "footnotes": [
             {
               "ref": "1:66",
               "category": "text",
-              "keyword": "ręka Pana",
-              "content": "Hebrajski idiom oznaczający Bożą moc i przychylność. Łukasz zostawia pytanie „Kim będzie to dziecko?” bez odpowiedzi — napięcie narracyjne sięga aż do rozdziału 3, kiedy Jan wystąpi publicznie."
+              "keyword": "ręka Pana była z nim",
+              "content": "Hebrajski idiom dobrze znany ze Starego Testamentu (np. 1 Sm 5,6; 2 Sm 3,12) oznaczający Bożą moc i przychylność spoczywającą na konkretnym człowieku. Łukasz zostawia pytanie „Kim będzie to dziecko?\" bez bezpośredniej odpowiedzi — napięcie narracyjne sięga aż do rozdziału 3, gdzie Jan wystąpi publicznie nad Jordanem."
             }
           ],
           "isPoetry": false,
@@ -806,13 +901,13 @@
       "verses": [
         {
           "number": "67",
-          "text": "<span class=\"paragraph-break\"></span>Zachariasza napełnił Duch Święty. I prorokował: <span class=\"poetry-line-1\"></span>",
+          "text": "<span class=\"paragraph-break\"></span>Zachariasza, jego ojca, napełnił Duch Święty — i zaczął prorokować: <span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:67",
               "category": "unglaublich",
               "keyword": "napełnił Duch Święty",
-              "content": "Zachariasz po dziewięciu miesiącach wymuszonego milczenia wypowiada prorocze słowa, których w tej formie nie mógł się nauczyć na pamięć. Interpretacje: (1) czas milczenia pozwolił dojrzeć czemuś w głębi — Duch wykorzystał ciszę jako przygotowanie; (2) kiedy napisał właściwe imię, coś się rozwiązało — zgodność z wolą Bożą umożliwiła mówienie; (3) dosłownie: Duch Święty działał przez niego. Wspólny mianownik: Benedictus niesie głębię, której dziewięć miesięcy milczenia nie wyjaśnia samo w sobie."
+              "content": "Po dziewięciu miesiącach wymuszonego milczenia Zachariasz wypowiada prorocze słowa, których nie można nauczyć się na pamięć. Możliwe odczytania: (1) czas milczenia pozwolił dojrzeć czemuś w głębi — Duch wykorzystał ciszę jako przygotowanie; (2) gdy napisał właściwe imię, coś się rozwiązało — zgodność z wolą Bożą umożliwiła mówienie; (3) Duch Święty działał przez niego wprost. Wspólny mianownik: Benedictus niesie głębię, której same dziewięć miesięcy milczenia nie wyjaśnia."
             }
           ],
           "isPoetry": true,
@@ -821,25 +916,19 @@
         },
         {
           "number": "68",
-          "text": "Chwała Panu, Bogu Izraela — <span class=\"poetry-line-2\">bo zajął się swoim ludem.</span><span class=\"poetry-line-1\">Przyniósł mu wyzwolenie.</span><span class=\"poetry-break\"></span>",
+          "text": "Błogosławiony Pan, Bóg Izraela — <span class=\"poetry-line-2\">bo nawiedził swój lud i odkupił go.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:68",
               "category": "kontext",
-              "keyword": "Błogosławiony",
-              "content": "Benedictus rozpoczyna się formą berachy: „Błogosławiony/Pochwalony...” (Εὐλογητός) — klasyczną żydowską modlitwą pochwalną, w której Bóg jest chwalony za swoje dzieła. Zachariasz przenosi tę prastarą formę liturgiczną na to, czego doświadczył. Benedictus jest od wieków modlone codziennie w Jutrzni (Laudes) w tradycji katolickiej, prawosławnej i luterańskiej."
+              "keyword": "Błogosławiony Pan, Bóg Izraela",
+              "content": "Benedictus (od łacińskiego początku \\it Benedictus Dominus Deus Israel\\it*) zaczyna się klasyczną żydowską formą \\it berachy\\it* — modlitwy pochwalnej, w której najpierw nazywa się Boga, potem wymienia Jego dzieła. To forma, której Zachariasz, kapłan, używał codziennie. Benedictus jest od wieków modlony codziennie podczas Jutrzni (\\it Laudes\\it*) w tradycji katolickiej, prawosławnej, luterańskiej i anglikańskiej."
             },
             {
               "ref": "1:68",
               "category": "text",
-              "keyword": "zajął się swoim ludem",
-              "content": "ἐπεσκέψατο — „odwiedził, zatroszczył się, wejrzał”. Silniejsze niż „zaopiekował się”. Bóg aktywnie idzie do swojego ludu — nie czeka."
-            },
-            {
-              "ref": "1:68",
-              "category": "text",
-              "keyword": "wyzwolenie",
-              "content": "λύτρωσιν — „wykup, uwolnienie”. Język Exodusu: oswobodzenie z niewoli. Aperto: „wyzwolenie” — zachowuje polityczny ciężar słowa bez skostnienia liturgicznego."
+              "keyword": "nawiedził",
+              "content": "Greckie ἐπεσκέψατο — „nawiedził, zatroszczył się, wejrzał\". Aperto wybiera „nawiedził\" zamiast słabszego „odwiedził\": Bóg czynnie idzie do swojego ludu, nie tylko bierze pod uwagę z dystansu. To samo słowo wróci w wersecie 78. Greckie λύτρωσιν — „odkupienie, wykup\" — to język wyjściowy: oswobodzenie z niewoli, język Exodusu. Aperto trzyma słowo „odkupić\" z jego polityczną wagą."
             }
           ],
           "isPoetry": true,
@@ -848,44 +937,44 @@
         },
         {
           "number": "69",
-          "text": "<span class=\"poetry-line-1\">Dał nam potężnego wybawcę</span><span class=\"poetry-line-2\">w domu swego sługi Dawida —</span>",
+          "text": "Wzbudził dla nas potężnego wybawcę <span class=\"poetry-line-2\">w domu Dawida, swojego sługi.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:69",
               "category": "text",
-              "keyword": "potężne ocalenie",
-              "content": "κέρας σωτηρίας — dosłownie „róg zbawienia”. Idiom starotestamentowy: róg zwierzęcia symbolizował siłę i władzę królewską (por. 1 Sm 2,1.10; Ps 18,3). „Róg zbawienia” to obraz Bożej mocy, która ratuje i chroni."
+              "keyword": "potężnego wybawcę",
+              "content": "Greckie κέρας σωτηρίας — dosłownie „róg zbawienia\". Idiom starotestamentowy (1 Sm 2,1.10; Ps 18,3; 2 Sm 22,3): róg byka symbolizował siłę, władzę królewską, militarną moc. Pod rzymską okupacją obraz „rogu zbawienia\" miał polityczny ładunek — był to język oporu. Tłumaczenie „potężny wybawca\" zachowuje siłę bez zaciemniającego dla współczesnego ucha obrazu byczego rogu; przypis utrzymuje pełnię obrazu."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "70",
-          "text": "<span class=\"poetry-line-1\">tak jak obiecał od wieków</span><span class=\"poetry-line-2\">ustami swoich proroków.</span><span class=\"poetry-break\"></span>",
+          "text": "Tak, jak obiecywał od dawna <span class=\"poetry-line-2\">— ustami swoich świętych proroków.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "71",
-          "text": "<span class=\"poetry-line-1\">Ratunek przed wrogami.</span><span class=\"poetry-line-2\">Przed ręką tych, którzy nas nienawidzą.</span><span class=\"poetry-line-1\"></span>",
+          "text": "Ratunek od naszych wrogów, <span class=\"poetry-line-2\">z ręki tych, którzy nas nienawidzą.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "72",
-          "text": "Był wierny naszym przodkom. <span class=\"poetry-line-2\">Pamiętał o swoim przymierzu —</span>",
+          "text": "Okazał miłosierdzie naszym ojcom <span class=\"poetry-line-2\">i pamiętał o swoim świętym przymierzu —</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:72-73",
               "category": "leben",
               "keyword": "przymierze... przysięga",
-              "content": "Benedictus wymienia Bożą wierność na przestrzeni pokoleń jako podstawę zaufania. Dla ludzi żyjących w niepewności – zawodowej, rodzinnej, egzystencjalnej – ta perspektywa jest radykalna: charakter Boga nie zmienia się wraz z okolicznościami. To nie naiwny optymizm, lecz teologiczne przekonanie oparte na wykazanej historii. Zdania zbudowane są w stylu hebrajskim: Bóg działa, ponieważ powiedział, że będzie działał. Słowo i czyn pokrywają się. – Pytanie, od którego można zacząć bez teologicznego języka: komu dotrzymujesz słowa, nawet o tym nie myśląc? Które relacje w twoim życiu funkcjonują dlatego, że wzrosła pewna niewidoczna pod radarem niezawodność? Zaufanie jest dziś rzadkim zasobem – politycznie, gospodarczo, w przyjaźniach. Wers zaprasza do pewnej inwentaryzacji: jaką niezawodność doświadczyłem, która dziś mnie niesie, choć już jej nie zauważam? – Dla wierzących Benedictus otwiera praktykę, która żyje w wielu tradycjach. Żydowska tradycja berachot – ćwiczenie codziennego dziękowania Bogu za konkretne wierności – ma chrześcijańskie rodzeństwo w liturgii godzin, w benedyktyńskim oficjum, w ignacjańskim rachunku sumienia. Wszystkim wspólne jest rozpoznanie: zaufanie nie jest podejmowane jako decyzja, lecz przypominane. Kto regularnie spogląda wstecz, widzi wzory niewidoczne w codzienności. – Wokacyjnie wers ma poważną stronę. Zawody pracujące z obietnicami – lekarki, nauczyciele, prawnicy, księża, rodzice – wiedzą, jak krucha jest architektura zaufania. Złamana obietnica kosztuje lata budowania. Benedictus przypomina, że świat trzyma się wiernością, nie efektywnością. – Wspólnotowo: pokolenia trzymające sobie wierność są niewidoczną strukturą każdego Kościoła, każdej rodziny, każdego miasta. Tradycja liturgiczna – chrzestni, przysięga małżeńska, święcenia – traktuje to poważnie: obietnice składa się publicznie, ponieważ muszą być publicznie niesione. Polski katolicyzm zna głęboko ten gest pokoleniowej wierności – modlitwa za zmarłych, pamięć rodzin, przekaz wiary z dziadków. – W tym tygodniu: spełnij stare zobowiązanie, którego nigdy formalnie nie złożyłeś, lecz o którym druga osoba pamięta."
+              "content": "Benedictus wymienia Bożą wierność na przestrzeni pokoleń jako podstawę zaufania. Dla ludzi żyjących w niepewności — zawodowej, rodzinnej, egzystencjalnej — to perspektywa radykalna: charakter Boga nie zmienia się wraz z okolicznościami. To nie naiwny optymizm, lecz teologiczne przekonanie oparte na wykazanej historii. Zdania zbudowane są w stylu hebrajskim: Bóg działa, ponieważ powiedział, że będzie działał. Słowo i czyn pokrywają się. — Pytanie, od którego można zacząć bez teologicznego języka: komu dotrzymujesz słowa, nawet o tym nie myśląc? Które relacje w twoim życiu funkcjonują dlatego, że wzrosła w nich niewidoczna, niezauważana niezawodność? Zaufanie jest dziś rzadkim zasobem — politycznie, gospodarczo, w przyjaźniach. Wers zaprasza do pewnej inwentaryzacji: jaką niezawodność doświadczyłem, która dziś mnie niesie, choć już jej nie zauważam? — Dla wierzących Benedictus otwiera praktykę żyjącą w wielu tradycjach. Żydowska tradycja \\it berachot\\it* — ćwiczenie codziennego dziękowania Bogu za konkretne wierności — ma chrześcijańskie rodzeństwo w liturgii godzin, w benedyktyńskim oficjum, w ignacjańskim rachunku sumienia. Wszystkim wspólne jest rozpoznanie: zaufanie nie jest podejmowane jako decyzja, lecz przypominane. Kto regularnie spogląda wstecz, widzi wzory niewidoczne w codzienności. — Wokacyjnie wers ma poważną stronę. Zawody pracujące z obietnicami — lekarki, nauczyciele, prawnicy, kapłani, rodzice — wiedzą, jak krucha jest architektura zaufania. Złamana obietnica kosztuje lata budowania. Benedictus przypomina, że świat trzyma się wiernością, nie efektywnością. — Wspólnotowo: pokolenia trzymające sobie wierność są niewidoczną strukturą każdego Kościoła, każdej rodziny, każdego miasta. Tradycja liturgiczna — chrzestni, przysięga małżeńska, święcenia — traktuje to poważnie: obietnice składa się publicznie, ponieważ muszą być publicznie niesione. Polski katolicyzm zna głęboko ten gest pokoleniowej wierności — modlitwa za zmarłych, pamięć rodzinna, przekaz wiary z dziadków. — W tym tygodniu: dotrzymaj starego zobowiązania, którego nigdy formalnie nie złożyłeś, lecz o którym druga osoba pamięta."
             }
           ],
           "isPoetry": true,
@@ -894,15 +983,22 @@
         },
         {
           "number": "73",
-          "text": "<span class=\"poetry-line-1\">o przysiędze złożonej Abrahamowi:</span>",
-          "footnotes": [],
+          "text": "o przysiędze złożonej Abrahamowi, naszemu ojcu. <span class=\"poetry-line-2\">Że da nam:</span><span class=\"poetry-line-1\"></span>",
+          "footnotes": [
+            {
+              "ref": "1:73",
+              "category": "kontext",
+              "keyword": "przysiędze złożonej Abrahamowi",
+              "content": "Bezpośrednie nawiązanie do Rdz 22,16–18 — przysięga Boga złożona Abrahamowi po próbie Izaaka. Benedictus rysuje wielki łuk: od Abrahama, przez proroków, przez Dawida, przez Jana, do tego, kto przyjdzie. Cała historia Izraela trzymana jest tu jednym Bożym słowem, na które Bóg już raz przysiągł."
+            }
+          ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "74",
-          "text": "<span class=\"poetry-line-2\">że uwolnieni z rąk wrogów</span><span class=\"poetry-line-1\">będziemy mu służyć bez lęku —</span>",
+          "text": "uwolnionym z ręki wrogów — <span class=\"poetry-line-2\">służyć Mu bez lęku,</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [],
           "isPoetry": true,
           "poetryLevel": 2,
@@ -910,13 +1006,13 @@
         },
         {
           "number": "75",
-          "text": "<span class=\"poetry-line-2\">w czystości i w prawości,</span><span class=\"poetry-line-1\">przez całe nasze życie.</span><span class=\"poetry-break\"></span>",
+          "text": "w świętości i sprawiedliwości przed Nim <span class=\"poetry-line-2\">— przez wszystkie nasze dni.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:75",
               "category": "text",
-              "keyword": "w czystości i w prawości",
-              "content": "ἐν ὁσιότητι καὶ δικαιοσύνῃ — „w pobożności i sprawiedliwości”. Aperto: „czystość” dla ὁσιότης (pełnia wobec Boga), „prawość” dla δικαιοσύνη (uczciwość wobec ludzi)."
+              "keyword": "w świętości i sprawiedliwości",
+              "content": "Greckie ἐν ὁσιότητι καὶ δικαιοσύνῃ — dwa odrębne słowa, dwie różne wartości. ὁσιότης (\\it hosiotēs\\it*) to świętość, pełnia wobec Boga; δικαιοσύνη (\\it dikaiosynē\\it*) — sprawiedliwość, uczciwość wobec ludzi. Razem opisują pełną postawę życia: wierność i Bogu, i drugiemu człowiekowi."
             }
           ],
           "isPoetry": true,
@@ -925,49 +1021,49 @@
         },
         {
           "number": "76",
-          "text": "<span class=\"poetry-line-1\">I ty, dziecko —</span><span class=\"poetry-break\"></span><span class=\"poetry-line-2\">ty będziesz nazywany prorokiem Najwyższego.</span><span class=\"poetry-line-1\">Pójdziesz przed Panem —</span><span class=\"poetry-line-2\">żeby przygotować mu drogę.</span>",
+          "text": "A ty, dziecko — <span class=\"poetry-line-2\">ty będziesz prorokiem Najwyższego.</span><span class=\"poetry-line-1\">Pójdziesz przed Panem —</span><span class=\"poetry-line-2\">by przygotować Mu drogi.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:76",
               "category": "text",
-              "keyword": "I ty, dziecko —",
-              "content": "Zwrot z myślnikiem to decydujący moment zmiany tonu. Wersety 68-75 to wielka perspektywa przymierza (trzecia osoba: Izrael, Abraham, ojcowie). Od w. 76 Zachariasz zwraca się do swojego nowonarodzonego syna: druga osoba, zbliżenie, ojciec do dziecka. Pierwsze słowa, które ojciec mówi do długo oczekiwanego syna, po dziewięciu miesiącach milczenia."
+              "keyword": "A ty, dziecko",
+              "content": "Tu zachodzi najbardziej intymny zwrot w całym rozdziale. Wersety 68–75 były wielką perspektywą przymierza — trzecia osoba: Izrael, Abraham, ojcowie. Od wersetu 76 Zachariasz odwraca się do swojego nowonarodzonego syna: druga osoba liczby pojedynczej. Ojciec do dziecka. Pierwsze słowa, które ojciec mówi do długo wyczekiwanego syna, po dziewięciu miesiącach milczenia. Czuły dystans z wersetów 68–75 ustępuje przed tą chwilą; cała kosmiczna architektura przymierza zatrzymuje się przed pojedynczą twarzą."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "77",
-          "text": "<span class=\"poetry-line-1\">Żeby jego lud poznał ratunek —</span><span class=\"poetry-line-2\">przez wybaczenie win.</span><span class=\"poetry-line-1\"></span>",
+          "text": "By dać Jego ludowi poznanie zbawienia — <span class=\"poetry-line-2\">w odpuszczeniu ich win.</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:77",
               "category": "text",
-              "keyword": "przebaczenie win",
-              "content": "ἄφεσιν ἁμαρτιῶν — tradycyjnie „odpuszczenie grzechów”. Aperto: „przebaczenie win” — bliższe współczesnemu polskiemu. „Wina” (fault, offense) jest bardziej dostępna niż liturgiczne „grzech” dla świeckiego czytelnika."
+              "keyword": "odpuszczenie win",
+              "content": "Greckie ἄφεσιν ἁμαρτιῶν — tradycyjnie „odpuszczenie grzechów\". Aperto pozostawia „odpuszczenie\", bo to słowo niesie precyzyjny ładunek: ἄφεσις znaczy też „uwolnienie, puszczenie wolno\" (jak niewolnika). „Wina\" zamiast „grzech\" jest bardziej dostępna współczesnemu, świeckiemu czytelnikowi — i odpowiada szerszemu polu znaczeniowemu greckiego ἁμαρτία (chybienie, zboczenie z drogi)."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         },
         {
           "number": "78",
-          "text": "Z głębi Bożej czułości <span class=\"poetry-line-2\">dotrze do nas Świt z wysoka —</span>",
+          "text": "Przez wnętrze miłosierdzia naszego Boga, <span class=\"poetry-line-2\">w którym nawiedzi nas Świt z wysoka,</span><span class=\"poetry-line-1\"></span>",
           "footnotes": [
             {
               "ref": "1:78",
               "category": "text",
-              "keyword": "z samego środka miłosierdzia",
-              "content": "σπλάγχνα ἐλέους — dosłownie „wnętrzności/trzewia miłosierdzia”. σπλάγχνα to centrum emocji w ciele — żołądek, jelita, to miejsce, gdzie miłosierdzie się „czuje”. Tradycyjne tłumaczenia: „głębokie miłosierdzie”, „tkliwa litość”. Aperto: „z samego środka miłosierdzia” — by zachować cielesną głębię. Boże miłosierdzie nie jest abstrakcją — to trzewia, które się ściskają."
+              "keyword": "wnętrze miłosierdzia",
+              "content": "Greckie σπλάγχνα ἐλέους — dosłownie „wnętrzności miłosierdzia\". σπλάγχνα (\\it splanchna\\it*) to dla starożytnych centrum emocji w ciele: żołądek, jelita, wątroba — miejsce, w którym czuje się litość, zanim się o niej pomyśli. Współczesne odpowiedniki: „głębokie miłosierdzie\", „tkliwa litość\" — gubią cielesność. Aperto: „wnętrze miłosierdzia\" — by zachować fizyczną głębię. Boże miłosierdzie nie jest tu abstrakcją; to coś, co Boga ściska w środku, jak człowieka ściska na widok cierpiącego."
             },
             {
               "ref": "1:78",
               "category": "text",
               "keyword": "Świt z wysoka",
-              "content": "ἀνατολή ἐξ ὕψους (anatole ex hypsous) — „wschód/świt z wysoka”. ἀνατολή oznacza zarówno „wschód/świt” (wschodzące słońce, por. Ml 3,20), jak i — w Septuagincie — mesjański „odrośl” lub „latorośl” (Jr 23,5 LXX; Za 6,12). Zachariasz trzyma oba obrazy jednocześnie: światło wschodzi — i obiecany Dawidowy potomek się pojawia."
+              "content": "Greckie ἀνατολή ἐξ ὕψους (\\it anatolē ex hypsous\\it*) — „wschód/świt z wysokości\". ἀνατολή oznacza jednocześnie „wschód słońca, świt\" (wschodzące światło, por. Ml 3,20) i — w Septuagincie — mesjańską „latorośl, odrośl\" (Jr 23,5 LXX; Za 3,8; 6,12 LXX). Zachariasz trzyma oba obrazy naraz: światło wschodzi nad ludźmi w cieniu — i obiecany Dawidowy potomek się pojawia. Tłumaczenie samym „wschodem\" gubi obraz świtu, samym „świtem\" — mesjańską latorośl. Aperto: „Świt z wysoka\" — z dużej litery, by zachować podwójny ładunek."
             }
           ],
           "isPoetry": true,
@@ -976,23 +1072,23 @@
         },
         {
           "number": "79",
-          "text": "<span class=\"poetry-line-1\">by oświecić tych,</span><span class=\"poetry-line-2\">którzy siedzą w ciemności</span><span class=\"poetry-line-1\">i w cieniu śmierci,</span><span class=\"poetry-line-2\">i skierować nasze stopy</span><span class=\"poetry-line-1\">na drogę pokoju.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Pokoju.</span>",
+          "text": "by oświecić tych, <span class=\"poetry-line-2\">którzy siedzą w ciemności</span><span class=\"poetry-line-1\">i w cieniu śmierci,</span><span class=\"poetry-line-2\">i pokierować naszymi stopami</span><span class=\"poetry-line-1\">na drogę pokoju.</span><span class=\"poetry-break\"></span><span class=\"poetry-line-1\">Pokoju.</span>",
           "footnotes": [
             {
               "ref": "1:79",
               "category": "kontext",
-              "keyword": "w ciemności i cieniu śmierci",
-              "content": "Echo Iz 9,1 i Ps 23,4 — najgłębsza ludzka rozpacz. Obraz ciemności i cienia śmierci należy do najsilniejszych w Starym Testamencie."
+              "keyword": "w ciemności i w cieniu śmierci",
+              "content": "Echo Iz 9,1 („naród kroczący w ciemności ujrzał światłość wielką\") i Ps 23,4 („chociażbym chodził ciemną doliną\"). Benedictus zaczyna od wrogów (1,71) i nienawiści — a kończy na świetle, drodze i pokoju. Trajektoria jest zamierzona: tekst nie kończy zwycięstwem militarnym, tylko przewodnictwem. Zachariasz przesuwa polityczne oczekiwanie — które przez wersety 71–74 było silne — ku innej kategorii: pokój."
             },
             {
               "ref": "1:79",
               "category": "leben",
               "keyword": "Pokoju",
-              "content": "Ostatnie słowo Benedictus – celowo postawione na końcu. Hebrajskie szalom to nie tylko brak konfliktu, lecz pełnia: zdrowie, dobrostan, właściwe relacje między ludźmi i Bogiem. Zachariasz wybiera to słowo jako podsumowanie wszystkiego, co oznacza przyjście Mesjasza. Benedictus zaczyna od „wrogów” i „nienawiści” – a kończy na „pokoju”. Ta trajektoria jest zamierzona. To droga, którą tekst chce nas przeprowadzić. – Pytanie dla każdego czytelnika, przed jakąkolwiek teologiczną odpowiedzią: co pokój oznaczałby konkretnie w twoim życiu właśnie teraz? Nie abstrakcyjnie – konkretnie. Nie koniec geopolitycznego konfliktu, lecz koniec tej jednej małej wewnętrznej wojny, którą prowadzisz od miesięcy – z członkiem rodziny, z samym sobą, ze wspomnieniem, które nie chce zamilknąć. Szalom rzadko zaczyna się tam, gdzie się go spodziewamy; zwykle pojawia się o warstwę głębiej niż kategorie, w których sortujemy życie. – Dla wierzących wers stoi w centrum wielu tradycji kontemplacyjnych. Wschodnia praktyka hezychii – ciszy serca – rozumie pokój nie jako nieobecność, lecz jako obecność Innego. Modlitwa Jezusowa, niesiona w oddechu, ćwiczy dokładnie to. Cisza kwakierska, śpiewy z Taizé, ignacjańska cisza między ćwiczeniami – wszystkie stoją w tej samej linii. Pokój jest przyjmowany, nie produkowany; udostępnia się mu siebie. – Politycznie szalom ma ostrość, którą polski „pokój” często traci. W prorockim hebrajskim szalom to zawsze również sprawiedliwość – miszpat i szalom należą do siebie. Nie ma pokoju ponad głowami zranionych. Chrześcijańska etyka pokoju – od Bonhoeffera, przez Martina Luthera Kinga, po menonitów i katolickie ruchy Pax Christi – pracuje z tego rozróżnienia: pokój, który zatuszowuje prawdę, nie jest szalomem; szalom kosztuje prawdę. – Wspólnotowo wers ukształtował liturgię pokoju – znak pokoju przed komunią, pocałunek pokoju we wczesnochrześcijańskich zgromadzeniach, gest pojednania poprzedzający sakrament. Kolejność jest teologiczna: nie można dzielić chleba, dopóki nie spojrzy się w twarz człowieka obok. – W tym tygodniu: krótka cisza na początku dnia, w której jedyne wymówione słowo brzmi „szalom” – i nasłuchiwanie, co odpowie."
+              "content": "Ostatnie słowo Benedictus — postawione celowo na końcu, w izolacji. Hebrajskie \\it szalom\\it* to nie tylko brak konfliktu, lecz pełnia: zdrowie, dobrostan, właściwe relacje między ludźmi i Bogiem. Zachariasz wybiera to słowo jako podsumowanie wszystkiego, co znaczy przyjście Mesjasza. Benedictus zaczyna od „wrogów\" i „nienawiści\" — a kończy na „pokoju\". Ta trajektoria jest celowa. To droga, którą tekst chce nas przeprowadzić. — Pytanie dla każdego czytelnika, przed jakąkolwiek teologiczną odpowiedzią: co pokój oznaczałby konkretnie w twoim życiu właśnie teraz? Nie abstrakcyjnie — konkretnie. Nie koniec geopolitycznego konfliktu, lecz koniec tej jednej małej wewnętrznej wojny, którą prowadzisz od miesięcy — z członkiem rodziny, z samym sobą, ze wspomnieniem, które nie chce zamilknąć. Szalom rzadko zaczyna się tam, gdzie się go spodziewamy; zwykle pojawia się o warstwę głębiej niż kategorie, w których sortujemy życie. — Dla wierzących wers stoi w centrum wielu tradycji kontemplacyjnych. Wschodnia praktyka \\it hezychii\\it* — ciszy serca — rozumie pokój nie jako nieobecność, lecz jako obecność Innego. Modlitwa Jezusowa, niesiona w oddechu, ćwiczy dokładnie to. Cisza kwakierska, śpiewy z Taizé, ignacjańska cisza między ćwiczeniami — wszystkie stoją w tej samej linii. Pokój jest przyjmowany, nie produkowany; udostępnia się mu siebie. — Politycznie szalom ma ostrość, którą polski „pokój\" często traci. W prorockim hebrajskim szalom to zawsze również sprawiedliwość — \\it miszpat\\it* i \\it szalom\\it* należą do siebie. Nie ma pokoju ponad głowami zranionych. Chrześcijańska etyka pokoju — od Bonhoeffera, przez Martina Luthera Kinga, po menonitów i ruchy Pax Christi — pracuje z tego rozróżnienia: pokój, który zatuszowuje prawdę, nie jest szalomem; szalom kosztuje prawdę. — Wspólnotowo wers ukształtował liturgię pokoju — znak pokoju przed komunią, pocałunek pokoju we wczesnochrześcijańskich zgromadzeniach, gest pojednania przed sakramentem. Kolejność jest teologiczna: nie można dzielić chleba, dopóki nie spojrzy się w twarz człowieka obok. — W tym tygodniu: krótka cisza na początku dnia, w której jedyne wymówione słowo brzmi „pokój\" — i nasłuchiwanie, co odpowie."
             }
           ],
           "isPoetry": true,
-          "poetryLevel": 1,
+          "poetryLevel": 2,
           "lines": []
         }
       ]
@@ -1002,13 +1098,13 @@
       "verses": [
         {
           "number": "80",
-          "text": "<span class=\"paragraph-break\"></span>Chłopiec rósł. Umacniał się duchem. Żył na pustkowiach — aż do dnia, gdy stanął przed Izraelem.",
+          "text": "<span class=\"paragraph-break\"></span>A dziecko rosło i nabierało mocy ducha. Mieszkał na pustkowiach — aż do dnia, gdy się ukazał Izraelowi.",
           "footnotes": [
             {
               "ref": "1:80",
               "category": "kultur",
               "keyword": "na pustkowiach",
-              "content": "ἐν ταῖς ἐρήμοις — liczba mnoga: nie jedno miejsce, lecz wędrówka po bezludnych terenach. Pustynia to w tradycji biblijnej miejsce formacji proroków: Mojżesz, Eliasz, sam Izrael. Syn kapłana dorasta nie w Świątyni, lecz poza wszelkimi instytucjami — z autorytetem, który pochodzi wyłącznie od Boga."
+              "content": "Greckie ἐν ταῖς ἐρήμοις — liczba mnoga: nie jedno miejsce, lecz wędrówka po bezludnych terenach. Pustynia jest w tradycji biblijnej miejscem formacji proroków: Mojżesz, Eliasz, sam Izrael. Syn kapłana dorasta nie w Świątyni, lecz poza wszystkimi instytucjami religijnymi — z autorytetem, który pochodzi nie z dziedzictwa, lecz wyłącznie od Boga. Łukasz w jednym zdaniu zamyka trzydzieści lat ciszy."
             }
           ],
           "isPoetry": false,
