@@ -8,7 +8,7 @@ on:
     types: [usfm-updated]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -22,7 +22,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
+      # On a usfm-updated dispatch (or manual run) regenerate the trial-scope
+      # sample chapters from the latest published USFM so the deploy reflects
+      # fresh content. Plain push builds skip this and use committed JSON.
+      - name: Refresh trial-scope content from published USFM
+        if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
+        run: bash scripts/refresh-trial-content.sh
+
+      - name: Commit refreshed content
+        if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
+        run: |
+          if git diff --quiet -- src/content; then
+            echo "No content changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/content
+            git commit -m "content: auto-refresh trial-scope chapters from published USFM"
+            git push
+          fi
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
