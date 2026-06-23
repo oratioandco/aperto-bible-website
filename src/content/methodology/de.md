@@ -1,24 +1,24 @@
-# Wie Aperto wirklich arbeitet
+# Wie Aperto wirklich funktioniert
 
 Wer [unsere Prozessseite](/process) gelesen hat, weiß, *warum* wir das tun. Diese Seite zeigt, *wie* — die eigentliche Maschinerie, samt der Teile, die noch im Bau sind.
 
-„KI-Bibelübersetzung" ist ein Begriff, bei dem eine aufmerksame Leserin stutzen sollte. Auch uns lässt er stutzen. Die ehrliche Antwort auf dieses Misstrauen ist keine Beschwichtigung, sondern der offene Blick auf die Nähte. Nichts im Folgenden ist Metapher — es sind echte Prüfungen, echte Schwellen, echte Fehler, die wir aufgespürt und behoben haben. Wo etwas vorläufig oder noch nicht gebaut ist, sagen wir es.
+„KI-Bibelübersetzung" ist ein Begriff, bei dem eine aufmerksame Leserin stutzen sollte. Auch uns lässt er stutzen. Die ehrliche Antwort auf dieses Misstrauen ist keine Beschwichtigung, sondern der offene Blick auf die Nähte. Nichts im Folgenden ist Metapher — es sind echte Prüfungen, echte Grenzwerte, echte Fehler, die wir aufgespürt und behoben haben. Wo etwas vorläufig oder noch nicht gebaut ist, sagen wir es.
 
 ## Das Problem, das wir lösen
 
 Wer von „KI-Übersetzung" spricht, meint meist stillschweigend Englisch — und nimmt stillschweigend an, *gut genug* genüge. Beides gilt hier nicht.
 
-**Jenseits des Englischen lässt die Qualität der Modelle nach.** Die heutigen Modelle sind in jener Sprache am stärksten, die sie am häufigsten gesehen haben. Dasselbe Modell, das flüssiges Englisch schreibt, kann — im Deutschen oder Polnischen und erst recht in kleineren Sprachen — Prosa hervorbringen, die grammatisch korrekt, aber unverkennbar *fremd* ist: der Tonfall einer Übersetzung, nicht die Stimme eines muttersprachlichen Autors. Wird das nicht in den Griff genommen, erbt eine Übersetzung genau diese Schwächen.
+**Jenseits des Englischen lässt die Qualität der Modelle nach.** Die heutigen Modelle sind in jener Sprache am stärksten, die sie am häufigsten gesehen haben. Dasselbe Modell, das flüssiges Englisch schreibt, kann — im Deutschen oder Polnischen und erst recht in kleineren Sprachen — Prosa hervorbringen, die grammatisch korrekt, aber unverkennbar *fremd* ist: der Tonfall einer Übersetzung, nicht die Stimme eines muttersprachlichen Autors. Bleibt das ungezähmt, erbt eine Übersetzung genau diese Schwächen.
 
-**Die Heilige Schrift verträgt kein „ungefähr".** Eine Paraphrase, die zu 95 Prozent stimmt, ist für die meisten KI-Produkte ein gutes Ergebnis. Bei einer Bibel bedeutet sie, zu 5 Prozent falsch über jenen Text zu liegen, auf den Menschen ihr Leben gründen — und diese 5 Prozent zeigen sich als geliehenes Kirchenvokabular, als untergeschobene Bedeutung, als modernes Ding, das in eine Szene des ersten Jahrhunderts fällt. Der Maßstab ist nicht *ungefähr*, sondern muttersprachliches literarisches Niveau ohne vermeidbaren Makel.
+**Die Heilige Schrift verträgt kein „ungefähr".** Eine Paraphrase, die zu 95 Prozent stimmt, ist für die meisten KI-Produkte ein gutes Ergebnis. Bei einer Bibel heißt das, zu 5 Prozent falsch über jenen Text zu liegen, auf den Menschen ihr Leben gründen — und diese 5 Prozent zeigen sich als geliehenes Kirchenvokabular, als untergeschobene Bedeutung, als modernes Objekt, das in eine Szene des ersten Jahrhunderts gerät. Der Maßstab ist nicht *ungefähr*, sondern muttersprachliches literarisches Niveau ohne vermeidbaren Makel.
 
-Das eigentliche Problem lautet also: Wie bringt man ein ungleichmäßiges, aufs Englische verzerrtes Werkzeug dazu, Sprache für Sprache wahrhaft muttersprachliche, wahrhaft genaue Schriftsprache hervorzubringen — und *zu erkennen*, wann das gelungen ist? Unsere Antwort ist nicht ein einzelnes kluges Modell. Sie ist ein System, das auffängt, was jedes einzelne Modell falsch macht, und das Ergebnis ehrlich misst. Wer selbst mit KI baut, kennt das Muster: mehrere Generierungen ziehen, sie mit automatischen Prüfern bewerten, Veröffentlichungen an harten Schranken stoppen, Ausgaben mit geringer Sicherheit markieren, den Menschen im Spiel halten. Wir benennen jeden Schritt, sobald wir ihn erreichen.
+Das eigentliche Problem lautet also: Wie bringt man ein ungleichmäßiges, aufs Englische verzerrtes Werkzeug dazu, Sprache für Sprache wahrhaft muttersprachliche, wahrhaft genaue Schriftsprache hervorzubringen — und *zu erkennen*, wann das gelungen ist? Unsere Antwort ist nicht ein einzelnes kluges Modell. Sie ist ein System, das auffängt, was jedes einzelne Modell falsch macht, und das Ergebnis ehrlich misst. Wer selbst mit KI baut, kennt das Muster: mehrere Fassungen erzeugen, sie von automatischen Prüfern bewerten lassen, Veröffentlichungen an harten Schranken stoppen, unsichere Ausgaben markieren, den Menschen im Spiel halten. Wir benennen jeden Schritt, sobald wir ihn erreichen.
 
 <!--DIAGRAM:pipeline-->
 
 ## Wir übersetzen aus dem Griechischen und Hebräischen — nicht aus dem Englischen
 
-Jede Passage beginnt mit Wissenschaft, nicht mit Software. Zuerst sichtet ein Rechercheschritt die jüngere Fachliteratur zum Kapitel — aktuelle Kommentare, Forschung aus Fachzeitschriften, lexikalische Arbeiten, nicht bloß das, was alt genug ist, um frei zu sein — und trägt sie in einem Dossier zusammen. Dann arbeitet ein Übersetzer und Bibelwissenschaftler den griechischen oder hebräischen Originaltext an diesem Dossier durch: die Bedeutungsbreite jedes gewichtigen Wortes, alttestamentliche Anklänge, das Gewicht, das ein Begriff trägt, das kulturelle Detail, das ein Hörer des ersten Jahrhunderts als selbstverständlich voraussetzte. Daraus entsteht eine schriftliche Auslegung, der die gesamte Pipeline verpflichtet bleibt.
+Jede Passage beginnt mit Wissenschaft, nicht mit Software. Zuerst sichtet ein Rechercheschritt die jüngere Fachliteratur zum Kapitel — aktuelle Kommentare, Forschung aus Fachzeitschriften, lexikalische Arbeiten, nicht bloß das, was alt genug ist, um frei zu sein — und trägt sie in einem Dossier zusammen. Wir arbeiten dabei mit den maßgeblichen wissenschaftlichen Editionen des Urtextes — dem griechischen Neuen Testament von Nestle-Aland/UBS und der Biblia Hebraica Stuttgartensia. Dann geht ein Übersetzer und Bibelwissenschaftler den griechischen oder hebräischen Originaltext an diesem Dossier durch: die Bedeutungsbreite jedes gewichtigen Wortes, alttestamentliche Anklänge, das Gewicht, das ein Begriff trägt, das kulturelle Detail, das ein Hörer des ersten Jahrhunderts als selbstverständlich voraussetzte. Daraus entsteht eine schriftliche Auslegung, der die gesamte Pipeline verpflichtet bleibt.
 
 Klar gesagt: **Aperto ist aus den Quelltexten übersetzt, nicht aus der Übersetzung eines anderen umformuliert.** Die KI setzt beim Griechischen an, bei unserer Auslegung, einer Stilvorgabe und einem Glossar je Sprache — und schreibt frische Literatur in der Zielsprache.
 
@@ -32,35 +32,35 @@ Unsere Auslegung ist unsere eigene Arbeit, zusammengeführt aus der besten Wisse
 
 ## Viele Entwürfe, nicht einer
 
-Ein einzelnes Modell hat einen einzigen Satz an Gewohnheiten. Deshalb erzeugen wir von jedem Kapitel mehrere unabhängige Entwürfe parallel — derzeit bis zu vier, von verschiedenen Anbietern (Anthropic, OpenAI, Google, Mistral) — alle mit identischen Eingaben. Verschiedene Modellfamilien haben verschiedene Stärken; zwischen Kandidaten zu wählen, ist besser, als einem einzigen zu vertrauen. Die Entwürfe werden nicht vermischt: Jeder ist eine vollständige Übersetzung, und die nächste Stufe entscheidet, welcher gewinnt — indem sie versucht, ihn zu zerlegen.
+Ein einzelnes Modell hat ein festes Repertoire an Gewohnheiten. Deshalb erzeugen wir von jedem Kapitel mehrere unabhängige Entwürfe parallel — derzeit bis zu vier, von verschiedenen Anbietern (Anthropic, OpenAI, Google, Mistral) — alle mit identischen Eingaben. Verschiedene Modellfamilien haben verschiedene Stärken; zwischen Kandidaten zu wählen, ist besser, als einem einzigen zu vertrauen. Die Entwürfe werden nicht vermischt: Jeder ist eine vollständige Übersetzung, und die nächste Stufe entscheidet, welcher gewinnt — indem sie versucht, ihn auseinanderzunehmen.
 
 > *Ensemble-Sampling, um die Verzerrung eines einzelnen Modells auszugleichen.*
 
-## Das Gremium, das den Text zu zerlegen versucht
+## Das Gremium, das den Text auseinandernimmt
 
-Jeder Entwurf wird von einem Gremium unabhängiger Kritiker gelesen — getrennte Prüfer, jeder mit einer einzigen Aufgabe und angewiesen, schwer zufriedenzustellen zu sein. Sie fahnden nach: unnatürlicher Formulierung; Archaismen und Kirchenvokabular; Calque (in die Zielsprache eingeschmuggelter Grammatik der Ausgangssprache); Abdriften des Tonfalls ins Predigthafte oder Trockene; Verständnislücken; schädlichen Stereotypen; theologischer Untreue; und mechanischen Fehlern, die deterministische Werkzeuge aufspüren statt bloße Meinung. Jeder liefert konkrete Befunde zurück — Vers, Textstelle, warum sie scheitert, Schweregrad — und das Gremium legt Meinungsverschiedenheiten offen, statt sie wegzumitteln.
+Jeder Entwurf wird von einem Gremium unabhängiger Kritiker gelesen — getrennte Prüfer, jeder mit einer einzigen Aufgabe und dazu angehalten, sich nicht leicht zufriedenzugeben. Sie fahnden nach: unnatürlicher Formulierung; Archaismen und Kirchenjargon; Calque (in die Zielsprache eingeschmuggelter Grammatik der Ausgangssprache); einem Tonfall, der ins Predigthafte oder Trockene abgleitet; Verständnislücken; schädlichen Stereotypen; theologischer Untreue; und mechanischen Fehlern, die deterministische Werkzeuge aufspüren statt bloße Meinung. Jeder liefert konkrete Befunde zurück — Vers, Textstelle, warum sie scheitert, Schweregrad — und das Gremium legt Meinungsverschiedenheiten offen, statt sie wegzumitteln.
 
-Die Auswahl ist ein einziger, unvoreingenommener Durchgang: Jeder Kandidat wird auf dieselbe Weise bewertet, und der Entwurf mit den wenigsten und am wenigsten schweren Makeln gewinnt — und tritt anschließend in die unten beschriebene Überarbeitungsschleife ein. Manche Kritiker laufen heute schon über unsere Kernsprachen; andere — sprachübergreifende Konsistenz, Rückübersetzung — sind erst teilweise gebaut, und wir verlassen uns noch nicht überall auf sie.
+Die Auswahl ist ein einziger, unvoreingenommener Durchgang: Jeder Kandidat wird auf dieselbe Weise bewertet, und der Entwurf mit den wenigsten und am wenigsten schweren Makeln gewinnt — und tritt anschließend in die unten beschriebene Überarbeitungsschleife ein. Manche Kritiker laufen heute schon für unsere Kernsprachen; andere — sprachübergreifende Konsistenz, Rückübersetzung — sind erst teilweise gebaut, und wir verlassen uns noch nicht überall auf sie.
 
 > *LLM-as-judge-Bewertung: viele eng gefasste, gegnerische Prüfungen statt einer vagen Gesamtnote.*
 
-## Schranken, durch die er sich verdienen muss
+## Hürden, die eine Übersetzung erst nehmen muss
 
-Kritik ist beratend; manche Prüfungen sind es nicht. Einige Schranken sind hart — wer sie reißt, dessen Passage rückt nicht weiter.
+Kritik ist beratend; manche Prüfungen sind es nicht. Einige Hürden sind hart — wer sie reißt, kommt nicht weiter.
 
-Die **mechanische Schranke** ist die strengste: Jeder Grammatik-, Rechtschreib-, Zeichensetzungs- oder Strukturfehler hält den Text zurück, geprüft mit echtem Sprachwerkzeug, wo dieses Werkzeug ausgereift ist. Eine **Anachronismus-Schranke** fängt moderne Dinge in einer Szene des ersten Jahrhunderts ab — wenn sich eine Achtundzwanzigjährige in Berlin oder Warschau ein Auto, ein Telefon oder eine Euromünze vorstellen würde und es das im Judäa des ersten Jahrhunderts nicht gab, wird es abgewiesen. Ein echter Fund: In einem deutschen Entwurf „fuhr" Zacharias einst „nach Hause" — ein Auto, wo der Text einen Mann zu Fuß gehen lässt. Die Schranke blockiert nun diese ganze Fehlerklasse.
+Die **mechanische Prüfung** ist die strengste: Jeder Grammatik-, Rechtschreib-, Zeichensetzungs- oder Strukturfehler hält den Text zurück, geprüft mit echtem Sprachwerkzeug, wo dieses Werkzeug ausgereift ist. Eine **Anachronismus-Prüfung** fängt moderne Objekte in einer Szene des ersten Jahrhunderts ab — wenn sich eine Achtundzwanzigjährige in Berlin oder Warschau ein Auto, ein Telefon oder eine Euromünze vorstellen würde und es das im Judäa des ersten Jahrhunderts nicht gab, wird es abgewiesen. Ein echter Fund: In einem deutschen Entwurf „fuhr" Zacharias einst „nach Hause" — ein Auto, wo der Text einen Mann zu Fuß gehen lässt. Die Prüfung blockiert nun diese ganze Fehlerklasse.
 
-Das ist **der Boden**: Nichts Defektes oder sichtbar Fremdes wird je veröffentlicht. Doch es ist eben auch nur der Boden — solide, aber noch nicht singend.
+Das ist **die Schwelle**: Nichts Defektes oder sichtbar Fremdes wird je veröffentlicht. Doch es ist eben auch nur die Schwelle — solide, aber noch ohne Glanz.
 
 > *CI-Regressionsschranken: automatische Prüfungen, die eine Veröffentlichung blockieren, nicht bloß warnen.*
 
 <!--DIAGRAM:floorvision-->
 
-## Vom Boden zur Vision
+## Von der Schwelle zur Vision
 
-Wir halten bewusst zwei Maßstäbe. Der **Boden** ist mechanische Solidität. Die **Vision** ist muttersprachliches literarisches Niveau — Prosa, die sich liest, wie ein heutiger Romanautor in dieser Sprache schreibt. Die meisten Passagen nehmen den Boden im Nu; bis zur Vision braucht es Iteration: Die Befunde der Kritiker speisen eine Überarbeitungsschleife, die die markierten Stellen korrigiert und erneut prüft — ein paar Runden, bis es zusammenläuft.
+Wir halten bewusst zwei Maßstäbe. Die **Schwelle** ist mechanische Solidität. Die **Vision** ist muttersprachliches literarisches Niveau — Prosa, die sich liest, wie sie ein heutiger Romanautor in dieser Sprache schriebe. Die meisten Passagen überschreiten die Schwelle mühelos; bis zur Vision braucht es Iteration: Die Befunde der Kritiker speisen eine Überarbeitungsschleife, die die markierten Stellen korrigiert und erneut prüft — ein paar Runden, bis es zusammenläuft.
 
-Der ehrliche Teil: Eine Passage, die den Boden nimmt, aber die Vision noch nicht erreicht hat, wird dennoch veröffentlicht — mit einer **Markierung „geringe Sicherheit"**, sodass sie zuerst zum Feinschliff hervorgehoben und nicht als fertig ausgegeben wird. Text, der defekt oder sichtbar übersetzt ist, wird überhaupt nie veröffentlicht. Wir zeigen Ihnen lieber soliden, aber schlichten Text, den wir markiert haben, als die Grenze zwischen *korrekt* und *schön* zu verwischen. Das System ist darauf gebaut, zu wissen, was es noch nicht weiß.
+Der ehrliche Teil: Eine Passage, die die Schwelle überschreitet, aber die Vision noch nicht erreicht, wird dennoch veröffentlicht — mit einer **Markierung „geringe Sicherheit"**, sodass sie zuerst zum Feinschliff hervorgehoben und nicht als fertig ausgegeben wird. Text, der defekt oder sichtbar übersetzt ist, wird überhaupt nie veröffentlicht. Wir zeigen Ihnen lieber soliden, aber schlichten Text, den wir markiert haben, als die Grenze zwischen *korrekt* und *schön* zu verwischen. Das System ist darauf gebaut, zu wissen, was es noch nicht weiß.
 
 > *Sicherheitsmarkierung, die schwache Ausgaben in die Prüfung leitet, statt sie stillschweigend auszuliefern.*
 
@@ -74,13 +74,13 @@ Weil wir aus der Quelle übersetzen, prüfen wir unsere Arbeit auch *an* bestehe
 
 Diese Texte stammen aus lizenzierten wissenschaftlichen Bibelschnittstellen — darunter die von YouVersion, die wir für nichtkommerzielle Arbeit wie unsere frei nutzen dürfen — und aus gemeinfreien Ausgaben, ausschließlich für interne Prüfungen verwendet. Die Bibel, die wir herausgeben, enthält nichts von diesem fremden Text.
 
-> *Abgleich mit Referenzen, dazu eine Kontaminationsprüfung, dass die Ausgabe sie nicht nachhallt.*
+> *Abgleich mit Referenzen, dazu eine Kontaminationsprüfung, dass die Ausgabe kein Echo von ihnen trägt.*
 
 ## Der schwere Teil: andere Sprachen als Englisch
 
-Hierhin fließt der Großteil unserer Entwicklungsarbeit, denn hier sind die Modelle am schwächsten. Das Deutsche kann den Geistertonfall der Lutherbibel aufnehmen; das Polnische kann in eine Kanzelstimme abgleiten, die Leser übelnehmen; manche Sprachen haben kaum eine Tradition der Bibel *als Literatur*. Eine Übersetzung kann grammatisch makellos sein und sich dennoch fremd anfühlen.
+Hierhin fließt der Großteil unserer Entwicklungsarbeit, denn hier sind die Modelle am schwächsten. Das Deutsche kann das geisterhafte Echo der Lutherbibel aufnehmen; das Polnische kann in eine Kanzelstimme abgleiten, die viele Leser ablehnen; manche Sprachen haben kaum eine Tradition der Bibel *als Literatur*. Eine Übersetzung kann grammatisch makellos sein und sich dennoch fremd anfühlen.
 
-Unsere Gegenmaßnahmen sind konkret. **Die Kritiker denken in der Zielsprache** — ihre Anweisungen sind in ihr geschrieben, sodass das System urteilt wie ein muttersprachlicher Lektor, statt sein Urteil über das Englische umzuleiten (eine der Hauptarten, auf die nicht-englische Qualität still verfällt). **Jede Sprache hat ein literarisches Profil** — eine konkrete Leserschaft, Referenzautoren, ein theologisches Glossar. Und **die Aufnahme einer Sprache ist eine Schranke**: Stilvorgaben, ausgearbeitete Musterbeispiele, Glossar, Grammatikwerkzeug und ein Vergleichsbestand, bevor eine Sprache live geht.
+Unsere Gegenmaßnahmen sind konkret. **Die Kritiker denken in der Zielsprache** — ihre Anweisungen sind in ihr geschrieben, sodass das System urteilt wie ein muttersprachlicher Lektor, statt sein Urteil über das Englische umzuleiten (eine der Hauptarten, auf die nicht-englische Qualität still verfällt). **Jede Sprache hat ein literarisches Profil** — eine konkrete Leserschaft, Referenzautoren, ein theologisches Glossar. Und **die Aufnahme einer Sprache ist selbst eine Hürde**: Stilvorgaben, ausgearbeitete Musterbeispiele, Glossar, Grammatikwerkzeug und ein Vergleichsbestand, bevor eine Sprache an den Start geht.
 
 Wo wir stehen: **Deutsch und Polnisch sind am weitesten, mit Englisch dicht dahinter; eine breitere Gruppe europäischer Sprachen befindet sich in aktiver Aufnahme.** Wir benennen lieber ein paar solide Sprachen, als viele fertige vorzutäuschen.
 
@@ -90,15 +90,15 @@ Wo wir stehen: **Deutsch und Polnisch sind am weitesten, mit Englisch dicht dahi
 
 Die Frage, auf die es am meisten ankommt, klar beantwortet — auch, wie sie sich mit unserem Wachstum verändert.
 
-**In der Erprobungsphase, in der wir jetzt stehen, trägt das System jede Passage bis zum Vision-Maßstab, und dann liest ein Mensch sie, bevor sie veröffentlicht wird** — eine Prüfung mit der Befugnis, alles zu ändern, durch jemanden, der sowohl die Ausgangs- als auch die Zielsprache kennt. So lernen wir, wo dem System zu trauen ist, und darum beginnen wir mit einer kleinen Auswahl von Kapiteln, statt eine ganze Bibel zu überstürzen.
+**In der Erprobungsphase, in der wir jetzt stehen, trägt das System jede Passage bis zum Vision-Maßstab, und dann liest ein Mensch sie, bevor sie veröffentlicht wird** — eine Prüfung mit der Befugnis, alles zu ändern, durch jemanden, der sowohl die Ausgangs- als auch die Zielsprache kennt. So lernen wir, wo dem System zu trauen ist, und darum beginnen wir mit einer kleinen Auswahl von Kapiteln, statt überstürzt eine ganze Bibel zu veröffentlichen.
 
-**Im großen Maßstab kann diese Lesung vor der Veröffentlichung nicht dieselbe bleiben — und wir meinen, sie sollte es auch nicht.** Der Sinn von Aperto ist, Gemeinschaften zu erreichen, die genau deshalb seit Generationen warten, weil Zeile-für-Zeile-Übersetzung durch Menschen für sie nicht skaliert. Deshalb ist das System so gebaut, dass es *nicht davon abhängt*: Menschen setzen die Methode und die Maßstäbe und kuratieren jeden Kritiker; der Boden garantiert, dass nie etwas Defektes oder Anachronistisches veröffentlicht wird; schwächere Passagen erscheinen markiert, nicht verborgen.
+**Im großen Maßstab kann diese Lesung vor der Veröffentlichung nicht dieselbe bleiben — und wir meinen, sie sollte es auch nicht.** Der Sinn von Aperto ist, Gemeinschaften zu erreichen, die genau deshalb seit Generationen warten, weil Zeile-für-Zeile-Übersetzung durch Menschen für sie nicht skaliert. Deshalb ist das System so gebaut, dass es *nicht davon abhängt*: Menschen setzen die Methode und die Maßstäbe und kuratieren jeden Kritiker; die Schwelle garantiert, dass nie etwas Defektes oder Anachronistisches veröffentlicht wird; schwächere Passagen erscheinen markiert, nicht verborgen.
 
-**Hier hat eine digitale Übersetzung einen Vorteil, den eine gedruckte nie hatte: Sie kann lebendig sein statt endgültig.** Jeder Übersetzer weiß, dass am Ende nicht das eigene Urteil darüber entscheidet, ob eine Wiedergabe trägt, sondern die Aufnahme durch das Publikum — ob die Worte bei den Menschen ankommen, die sie lesen — und das ist das Eine, was keine Prüfung vor der Veröffentlichung vorab vollständig messen kann. Eine gedruckte Bibel friert ihre beste Vermutung für eine Generation ein; eine digitale muss das nicht. So wird die Prüfung zu einem Gespräch, das nach der Veröffentlichung weitergeht: Unser Werkzeug unter [translate.aperto.bible](https://translate.aperto.bible) lässt jeden eine Passage lesen, die Begründung hinter einer Wiedergabe einsehen und uns sagen, wo sie stimmig klingt und wo nicht. Diese Rückmeldung fließt zurück — aus einer wiederkehrenden Verwirrung wird eine Korrektur, ein Tonfall, der knirscht, aktualisiert das Aufgabenheft eines Kritikers. Teile dieser Schleife sind heute live; Teile werden noch verdrahtet.
+**Hier hat eine digitale Übersetzung einen Vorteil, den eine gedruckte nie hatte: Sie kann lebendig sein statt endgültig.** Jeder Übersetzer weiß, dass am Ende nicht das eigene Urteil darüber entscheidet, ob eine Wiedergabe trägt, sondern die Aufnahme durch das Publikum — ob die Worte bei den Menschen ankommen, die sie lesen — und das ist das Eine, was keine Prüfung vor der Veröffentlichung vorab vollständig messen kann. Eine gedruckte Bibel friert ihre beste Vermutung für eine Generation ein; eine digitale muss das nicht. So wird die Prüfung zu einem Gespräch, das nach der Veröffentlichung weitergeht: Unser Werkzeug unter [translate.aperto.bible](https://translate.aperto.bible) lässt jeden eine Passage lesen, die Begründung hinter einer Wiedergabe einsehen und uns sagen, wo sie stimmig klingt und wo nicht. Diese Rückmeldung fließt zurück — aus einer wiederkehrenden Verwirrung wird eine Korrektur, ein Tonfall, der knirscht, aktualisiert die Vorgaben eines Kritikers. Teile dieser Schleife sind heute live; Teile sind noch im Aufbau.
 
 So heißt „menschliches Urteil wird vervielfacht, nicht ersetzt" genau das: Menschen entscheiden, wie *gut* aussieht, prüfen vor der Veröffentlichung, solange wir klein genug dafür sind, und hören — in jedem Maßstab — weiter auf die Menschen, für die die Übersetzung eigentlich gedacht ist. Die Maschine besorgt die Menge. Das Urteil bleibt menschlich.
 
-> *Mensch in der Schleife mit einem Rückkopplungsschwungrad — echte Korrekturen, die die Maßstäbe mit der Zeit verbessern.*
+> *Mensch in der Schleife mit einem sich selbst verstärkenden Rückkopplungskreislauf — echte Korrekturen, die die Maßstäbe mit der Zeit verbessern.*
 
 ## Was wir noch nicht fertig haben
 
@@ -109,4 +109,4 @@ Eine Seite, die nur beschriebe, was funktioniert, wäre Marketing. Ein paar Ding
 - Die Rückkopplungsschleife von der Markierung einer Leserin zurück in die Maßstäbe ist teils live, teils noch im Aufbau.
 - Manche Veröffentlichungsschritte zwischen unserem internen Repository und dieser Seite werden noch von Hand erledigt.
 
-Nichts davon ändert den Boden: Nichts Defektes oder Anachronistisches wird veröffentlicht. Diese Seite beschreibt ein System, das noch gebaut wird — und wir halten sie aktuell, während sich die Lücken schließen.
+Nichts davon ändert die Schwelle: Nichts Defektes oder Anachronistisches wird veröffentlicht. Diese Seite beschreibt ein System, das noch gebaut wird — und wir halten sie aktuell, während sich die Lücken schließen.

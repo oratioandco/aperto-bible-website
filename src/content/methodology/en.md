@@ -18,7 +18,7 @@ So the real problem is this: how do you get an uneven, English-biased tool to pr
 
 ## We translate from Greek and Hebrew — not from English
 
-Every passage begins with scholarship, not software. First a research pass surveys the recent academic literature on the chapter — current commentaries, journal scholarship, lexical work, not just what’s old enough to be free — and gathers it into a brief. Then a translator-scholar works the original Greek or Hebrew against that brief: the range of each weighted word, Old Testament echoes, the weight a term carries, the cultural detail a first-century hearer assumed. That becomes a written exegesis the whole pipeline is accountable to.
+Every passage begins with scholarship, not software. First a research pass surveys the recent academic literature on the chapter — current commentaries, journal scholarship, lexical work, not just what’s old enough to be free — and gathers it into a brief. We work from the standard scholarly editions of the source text — the Nestle-Aland / UBS Greek New Testament, and Biblia Hebraica Stuttgartensia for the Hebrew. Then a translator-scholar works the original Greek or Hebrew against that brief: the range of each weighted word, Old Testament echoes, the weight a term carries, the cultural detail a first-century hearer assumed. That becomes a written exegesis the whole pipeline is accountable to.
 
 The point, stated plainly: **Aperto is translated from the source texts, not reworded from someone else’s translation.** The AI starts with the Greek, our exegesis, a style specification and a per-language glossary — and writes fresh literature in the target language.
 
