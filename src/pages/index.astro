@@ -109,7 +109,9 @@ const lukeNames = {
     .video-overlay {
       position: absolute;
       inset: 0;
-      background: rgba(38, 22, 12, 0.24);
+      /* Light mode: light at the edges (sunrise shows through), soft scrim
+         only behind the centered wordmark so the cream text stays legible. */
+      background: radial-gradient(ellipse 78% 68% at 50% 44%, rgba(18, 11, 5, 0.42) 0%, rgba(34, 20, 10, 0.13) 60%, rgba(34, 20, 10, 0.04) 100%);
       z-index: 1;
     }
     .video-grain {
@@ -182,6 +184,10 @@ const lukeNames = {
     /* Dark mode: reduced-motion fallback still shows the blue-hour still */
     @media (prefers-color-scheme: dark) {
       .video-hero::before { background-image: url('/images/homepage_hero_blue_hour_low.png'); }
+      /* Dark mode: richer, cooler wash for the blue-hour video. */
+      .video-overlay {
+        background: radial-gradient(ellipse 85% 72% at 50% 44%, rgba(6, 9, 18, 0.55) 0%, rgba(10, 14, 26, 0.34) 70%, rgba(10, 14, 26, 0.22) 100%);
+      }
     }
   </style>
 
