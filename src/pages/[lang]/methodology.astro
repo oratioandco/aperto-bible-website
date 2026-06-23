@@ -27,39 +27,96 @@ marked.setOptions({ gfm: true, breaks: false });
 
 // Split the content at diagram sentinels so we can interleave the visuals.
 const pipeParts = md.split('<!--DIAGRAM:pipeline-->');
-const segBeforePipe = pipeParts[0];
 const afterPipe = pipeParts.slice(1).join('');
 const fvParts = afterPipe.split('<!--DIAGRAM:floorvision-->');
-const segMiddle = fvParts[0];
-const segAfterFv = fvParts.slice(1).join('');
-
-const htmlBefore = marked.parse(segBeforePipe);
-const htmlMiddle = marked.parse(segMiddle);
-const htmlAfter = marked.parse(segAfterFv);
+const htmlBefore = marked.parse(pipeParts[0]);
+const htmlMiddle = marked.parse(fvParts[0]);
+const htmlAfter = marked.parse(fvParts.slice(1).join(''));
 const hasPipe = pipeParts.length > 1;
 const hasFv = fvParts.length > 1;
 
-// Pipeline diagram model
-const phases = [
-  { label: 'Foundation', steps: [
-    'Source text — Greek / Hebrew',
-    'Research brief — recent scholarship',
-    'Exegesis — our own, ecumenical',
-  ] },
-  { label: 'Drafting', steps: [
-    '4 model drafts, in parallel — Anthropic · OpenAI · Google · Mistral',
-    'Critic panel scores every draft → the best one wins',
-  ] },
-  { label: 'Refinement', steps: [
-    'The floor — grammar & anachronism gates (block publishing)',
-    '↻ revision loop — fix flagged spans, re-check, toward the vision',
-    'Publish — sound text; low-confidence passages flagged',
-  ], loopIndex: 1 },
-  { label: 'Living', steps: [
-    'Readers & reviewers at translate.aperto.bible',
-    '↺ feedback routes back into the standards',
-  ], loopIndex: 1 },
-];
+// ---- Diagram labels, localised (falls back to English) ----
+type DiagramL10n = Record<string, string>;
+const L10N: Record<string, DiagramL10n> = {
+  en: {
+    caption: 'How a passage moves through Aperto',
+    foundation: 'Foundation', drafting: 'Drafting', refinement: 'Refinement', living: 'Living',
+    source: 'Source text', sourceSub: 'Greek · Hebrew',
+    research: 'Research brief', exegesis: 'Exegesis',
+    drafts: '4 model drafts, in parallel', critics: 'Critic panel → best draft wins',
+    floor: 'Floor gates', floorSub: 'grammar · anachronism',
+    publish: 'Publish', publishSub: 'low-confidence flagged',
+    feedback: 'Reader feedback', revise: 'revise', feedbackLoop: 'feedback',
+    fvCaption: 'Clears the floor but not the vision? It publishes — flagged — and is refined later.',
+    fvVision: 'The vision', fvVisionSub: 'native literary register',
+    fvFloor: 'The floor', fvFloorDesc: 'nothing broken or anachronistic ever publishes',
+    fvTopBand: 'reaches the vision → published',
+    fvMidBand: 'clears the floor, not the vision → published, flagged',
+    fvBelow: 'below the floor → never published',
+    fvClimb: 'revision refines upward',
+  },
+  de: {
+    caption: 'Wie eine Passage durch Aperto wandert',
+    foundation: 'Fundament', drafting: 'Entwurf', refinement: 'Verfeinerung', living: 'Lebendig',
+    source: 'Quelltext', sourceSub: 'Griechisch · Hebräisch',
+    research: 'Recherche-Dossier', exegesis: 'Auslegung',
+    drafts: '4 Modellentwürfe, parallel', critics: 'Kritiker-Gremium → bester Entwurf gewinnt',
+    floor: 'Boden-Schranken', floorSub: 'Grammatik · Anachronismus',
+    publish: 'Veröffentlichen', publishSub: 'geringe Sicherheit markiert',
+    feedback: 'Leser-Rückmeldung', revise: 'überarbeiten', feedbackLoop: 'Rückmeldung',
+    fvCaption: 'Nimmt den Boden, aber nicht die Vision? Dann wird sie veröffentlicht — markiert — und später verfeinert.',
+    fvVision: 'Die Vision', fvVisionSub: 'muttersprachliches literarisches Niveau',
+    fvFloor: 'Der Boden', fvFloorDesc: 'nichts Defektes oder Anachronistisches wird je veröffentlicht',
+    fvTopBand: 'erreicht die Vision → veröffentlicht',
+    fvMidBand: 'nimmt den Boden, nicht die Vision → veröffentlicht, markiert',
+    fvBelow: 'unter dem Boden → wird nie veröffentlicht',
+    fvClimb: 'Überarbeitung verfeinert nach oben',
+  },
+  pl: {
+    caption: 'Jak fragment przechodzi przez Aperto',
+    foundation: 'Fundament', drafting: 'Wersje robocze', refinement: 'Dopracowanie', living: 'Żywy tekst',
+    source: 'Tekst źródłowy', sourceSub: 'greka · hebrajski',
+    research: 'Opracowanie badawcze', exegesis: 'Egzegeza',
+    drafts: '4 wersje modeli, równolegle', critics: 'Panel krytyków → wygrywa najlepsza wersja',
+    floor: 'Bramki podłogi', floorSub: 'gramatyka · anachronizmy',
+    publish: 'Publikacja', publishSub: 'niska pewność oznaczona',
+    feedback: 'Opinie czytelników', revise: 'popraw', feedbackLoop: 'opinie',
+    fvCaption: 'Przekracza podłogę, ale nie wizję? Zostaje opublikowany — oznaczony — i dopracowany później.',
+    fvVision: 'Wizja', fvVisionSub: 'rodzimy rejestr literacki',
+    fvFloor: 'Podłoga', fvFloorDesc: 'nic zepsutego ani anachronicznego nigdy nie zostaje opublikowane',
+    fvTopBand: 'osiąga wizję → opublikowane',
+    fvMidBand: 'przekracza podłogę, nie wizję → opublikowane, oznaczone',
+    fvBelow: 'poniżej podłogi → nigdy nie zostaje opublikowane',
+    fvClimb: 'poprawki podnoszą tekst wzwyż',
+  },
+};
+const L = L10N[lang] ?? L10N.en;
+
+// ---- Pipeline geometry ----
+const NW = 244, NH = 58, GAP = 40, CX = 214, TOP = 16;
+const pipeNodes = [
+  { t: L.source, s: L.sourceSub, phase: 'foundation' },
+  { t: L.research, phase: 'foundation' },
+  { t: L.exegesis, phase: 'foundation' },
+  { t: L.drafts, phase: 'drafting' },
+  { t: L.critics, phase: 'drafting' },
+  { t: L.floor, s: L.floorSub, phase: 'refinement' },
+  { t: L.publish, s: L.publishSub, phase: 'refinement' },
+  { t: L.feedback, phase: 'living' },
+].map((n, i) => {
+  const y = TOP + i * (NH + GAP);
+  return { ...n, i, x: CX - NW / 2, y, top: y, bottom: y + NH, cy: y + NH / 2 };
+});
+const svgH = TOP + pipeNodes.length * (NH + GAP);
+const right = CX + NW / 2; // 336
+const critics = pipeNodes[4], floor = pipeNodes[5], feedback = pipeNodes[7];
+// phase label bands
+const phaseBands = [
+  { key: 'foundation', label: L.foundation, from: 0, to: 2 },
+  { key: 'drafting', label: L.drafting, from: 3, to: 4 },
+  { key: 'refinement', label: L.refinement, from: 5, to: 6 },
+  { key: 'living', label: L.living, from: 7, to: 7 },
+].map((b) => ({ ...b, midY: (pipeNodes[b.from].top + pipeNodes[b.to].bottom) / 2 }));
 ---
 
 <BaseLayout title={t('nav.methodology')} lang={lang}>
@@ -71,38 +128,77 @@ const phases = [
     <div class="prose" set:html={htmlBefore} />
 
     {hasPipe && (
-      <figure class="diagram pipeline" aria-label="How a passage moves through Aperto">
-        <figcaption>How a passage moves through Aperto</figcaption>
-        <ol class="flow">
-          {phases.map((p) => (
-            <li class="phase">
-              <span class="phase-label">{p.label}</span>
-              <div class="phase-steps">
-                {p.steps.map((s, i) => (
-                  <div class={`stage${p.loopIndex === i ? ' stage-loop' : ''}`}>{s}</div>
-                ))}
-              </div>
-            </li>
+      <figure class="diagram">
+        <figcaption>{L.caption}</figcaption>
+        <svg class="flowsvg" viewBox={`0 0 460 ${svgH}`} role="img" aria-label={L.caption} preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M0,0 L7,3 L0,6 Z" class="ah" />
+            </marker>
+          </defs>
+
+          {/* phase labels */}
+          {phaseBands.map((b) => (
+            <text class="phaselabel" x="14" y={b.midY} transform={`rotate(-90 14 ${b.midY})`}>{b.label}</text>
           ))}
-        </ol>
+
+          {/* connectors between consecutive nodes */}
+          {pipeNodes.slice(0, -1).map((n, i) => (
+            <line class="conn" x1={CX} y1={n.bottom} x2={CX} y2={pipeNodes[i + 1].top - 1} marker-end="url(#ah)" />
+          ))}
+
+          {/* revision loop: floor -> critics (inner right gutter) */}
+          <path class="loop" d={`M ${right} ${floor.cy} C ${right + 46} ${floor.cy}, ${right + 46} ${critics.cy + 8}, ${right} ${critics.cy + 8}`} marker-end="url(#ah)" />
+          <text class="looplabel" x={right + 52} y={(floor.cy + critics.cy) / 2} transform={`rotate(-90 ${right + 52} ${(floor.cy + critics.cy) / 2})`}>{L.revise}</text>
+
+          {/* feedback loop: feedback -> critics (outer right gutter) */}
+          <path class="loop loop-fb" d={`M ${right} ${feedback.cy} C ${right + 96} ${feedback.cy}, ${right + 96} ${critics.cy - 8}, ${right} ${critics.cy - 8}`} marker-end="url(#ah)" />
+          <text class="looplabel" x={right + 102} y={(feedback.cy + critics.cy) / 2} transform={`rotate(-90 ${right + 102} ${(feedback.cy + critics.cy) / 2})`}>{L.feedbackLoop}</text>
+
+          {/* nodes */}
+          {pipeNodes.map((n) => (
+            <foreignObject x={n.x} y={n.y} width={NW} height={NH}>
+              <div xmlns="http://www.w3.org/1999/xhtml" class={`fnode${n.i === 5 ? ' fnode-gate' : ''}`}>
+                <span class="fnode-t">{n.t}</span>
+                {n.s && <span class="fnode-s">{n.s}</span>}
+              </div>
+            </foreignObject>
+          ))}
+        </svg>
       </figure>
     )}
 
     <div class="prose" set:html={htmlMiddle} />
 
     {hasFv && (
-      <figure class="diagram floorvision" aria-label="The floor and the vision">
-        <div class="tier vision">
-          <span class="tier-name">The vision</span>
-          <span class="tier-desc">native literary register — reads like a contemporary novelist</span>
-        </div>
-        <div class="climb">↑ the revision loop refines upward</div>
-        <div class="tier floor">
-          <span class="tier-name">The floor</span>
-          <span class="tier-desc">mechanically sound — nothing broken or anachronistic ever publishes</span>
-        </div>
-        <div class="below">below the floor → never publishes</div>
-        <figcaption>Clears the floor but not the vision? It publishes — flagged — and is refined later.</figcaption>
+      <figure class="diagram">
+        <svg class="fvsvg" viewBox="0 0 460 270" role="img" aria-label={`${L.fvFloor} / ${L.fvVision}`} preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <marker id="ah2" markerWidth="10" markerHeight="10" refX="4" refY="2.5" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M0,5 L4,0 L8,5 Z" class="ah" />
+            </marker>
+          </defs>
+          {/* bands */}
+          <rect class="band band-top" x="70" y="14" width="376" height="66" rx="8" />
+          <rect class="band band-mid" x="70" y="92" width="376" height="74" rx="8" />
+          <rect class="band band-low" x="70" y="178" width="376" height="66" rx="8" />
+
+          {/* threshold labels */}
+          <foreignObject x="78" y="20" width="300" height="54">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="bandtxt"><span class="bt-strong">{L.fvVision}</span><span class="bt-sub">{L.fvTopBand}</span></div>
+          </foreignObject>
+          <foreignObject x="78" y="100" width="320" height="60">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="bandtxt"><span class="bt-strong">{L.fvFloor}</span><span class="bt-sub">{L.fvMidBand}</span></div>
+          </foreignObject>
+          <foreignObject x="78" y="184" width="320" height="54">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="bandtxt"><span class="bt-sub bt-muted">{L.fvBelow}</span></div>
+          </foreignObject>
+
+          {/* climb arrow */}
+          <line class="climb" x1="40" y1="226" x2="40" y2="40" marker-end="url(#ah2)" />
+          <text class="climblabel" x="30" y="133" transform="rotate(-90 30 133)">{L.fvClimb}</text>
+        </svg>
+        <figcaption>{L.fvCaption}</figcaption>
       </figure>
     )}
 
@@ -116,203 +212,109 @@ const phases = [
 </BaseLayout>
 
 <style>
-  .methodology {
-    max-width: 46rem;
-    margin: 0 auto;
-    padding: 4rem 1.5rem 6rem;
-  }
+  .methodology { max-width: 46rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
 
   .lang-notice {
-    font-family: 'Switzer', sans-serif;
-    font-size: 0.85rem;
-    color: #8B7355;
-    background: rgba(139, 115, 85, 0.08);
-    border: 1px solid rgba(139, 115, 85, 0.2);
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
-    margin-bottom: 2.5rem;
+    font-family: 'Switzer', sans-serif; font-size: 0.85rem; color: #8B7355;
+    background: rgba(139, 115, 85, 0.08); border: 1px solid rgba(139, 115, 85, 0.2);
+    border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 2.5rem;
   }
 
-  .prose {
-    font-family: 'Switzer', sans-serif;
-    font-size: 1.06rem;
-    line-height: 1.75;
-    color: #4A4A4A;
-  }
+  .prose { font-family: 'Switzer', sans-serif; font-size: 1.06rem; line-height: 1.75; color: #4A4A4A; }
 
-  /* Headings */
   :global(.methodology .prose h1) {
-    font-family: 'Fraunces', Georgia, serif;
-    font-size: clamp(2.4rem, 6vw, 3.4rem);
-    line-height: 1.08;
-    color: #2C2C2C;
-    margin: 0 0 1.75rem;
+    font-family: 'Fraunces', Georgia, serif; font-size: clamp(2.4rem, 6vw, 3.4rem);
+    line-height: 1.08; color: #2C2C2C; margin: 0 0 1.75rem;
   }
   :global(.methodology .prose h2) {
-    font-family: 'Fraunces', Georgia, serif;
-    font-size: clamp(1.5rem, 3.4vw, 2rem);
-    line-height: 1.2;
-    color: #2C2C2C;
-    margin: 3.25rem 0 1rem;
-    padding-top: 2.25rem;
+    font-family: 'Fraunces', Georgia, serif; font-size: clamp(1.5rem, 3.4vw, 2rem);
+    line-height: 1.2; color: #2C2C2C; margin: 3.25rem 0 1rem; padding-top: 2.25rem;
     border-top: 1px solid #F0E4D8;
   }
-  :global(.methodology .prose h1 + p) {
-    font-size: 1.2rem;
-    color: #5A5A5A;
-  }
-
-  /* Body */
+  :global(.methodology .prose h1 + p) { font-size: 1.2rem; color: #5A5A5A; }
   :global(.methodology .prose p) { margin: 0 0 1.25rem; }
   :global(.methodology .prose strong) { color: #2C2C2C; font-weight: 600; }
   :global(.methodology .prose a) { color: #8B7355; text-decoration: underline; text-underline-offset: 2px; }
   :global(.methodology .prose a:hover) { opacity: 0.75; }
-
-  /* Lists */
   :global(.methodology .prose ul) { margin: 0 0 1.5rem; padding-left: 1.25rem; list-style: disc; }
   :global(.methodology .prose li) { margin: 0 0 0.6rem; padding-left: 0.25rem; }
-
-  /* The "production-AI analogue" asides render as blockquotes */
   :global(.methodology .prose blockquote) {
-    margin: 1.75rem 0;
-    padding: 1rem 1.25rem;
-    border-left: 3px solid #8B7355;
-    background: rgba(139, 115, 85, 0.06);
-    border-radius: 0 8px 8px 0;
-    color: #5A5A5A;
+    margin: 1.75rem 0; padding: 1rem 1.25rem; border-left: 3px solid #8B7355;
+    background: rgba(139, 115, 85, 0.06); border-radius: 0 8px 8px 0; color: #5A5A5A;
   }
   :global(.methodology .prose blockquote p) { margin: 0; }
   :global(.methodology .prose blockquote em) { color: #6A6A6A; }
 
   /* ---- Diagrams ---- */
-  .diagram {
-    margin: 3rem 0;
+  .diagram { margin: 3rem 0; font-family: 'Switzer', sans-serif; }
+  .diagram figcaption {
+    font-size: 0.78rem; letter-spacing: 0.06em; color: #6A6A6A; font-style: italic;
+    margin-top: 0.9rem; text-align: center;
+  }
+  .flowsvg, .fvsvg { display: block; width: 100%; height: auto; }
+
+  /* SVG strokes / markers */
+  .conn, .loop { fill: none; stroke: #C9B79C; stroke-width: 1.5; }
+  .loop { stroke-dasharray: 4 3; }
+  .ah { fill: #B79E78; }
+  .climb { stroke: #8B7355; stroke-width: 1.5; }
+  .phaselabel {
+    fill: #8B7355; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; text-anchor: middle; font-family: 'Switzer', sans-serif;
+  }
+  .looplabel, .climblabel {
+    fill: #9A8A7A; font-size: 10px; text-anchor: middle; font-style: italic;
     font-family: 'Switzer', sans-serif;
   }
-  .diagram figcaption {
-    font-size: 0.78rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #8B7355;
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-  .floorvision figcaption { margin: 1rem 0 0; text-transform: none; letter-spacing: 0; font-weight: 400; color: #6A6A6A; font-style: italic; }
 
-  /* Pipeline flow */
-  .pipeline .flow { list-style: none; margin: 0; padding: 0; }
-  .pipeline .phase {
-    display: grid;
-    grid-template-columns: 7.5rem 1fr;
-    gap: 1rem;
-    padding: 1rem 0;
-    border-top: 1px solid #F0E4D8;
+  /* Flow nodes (HTML inside foreignObject) */
+  :global(.fnode) {
+    box-sizing: border-box; width: 100%; height: 100%; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center; gap: 2px;
+    background: #FFFBF5; border: 1px solid rgba(139, 115, 85, 0.3); border-radius: 9px;
+    padding: 4px 10px;
   }
-  .pipeline .phase:first-child { border-top: none; }
-  .pipeline .phase-label {
-    font-size: 0.74rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #8B7355;
-    padding-top: 0.35rem;
-  }
-  .pipeline .phase-steps { display: flex; flex-direction: column; gap: 0.5rem; }
-  .pipeline .stage {
-    background: #FFFBF5;
-    border: 1px solid rgba(139, 115, 85, 0.22);
-    border-radius: 8px;
-    padding: 0.6rem 0.85rem;
-    font-size: 0.95rem;
-    color: #3D3530;
-  }
-  .pipeline .stage-loop {
-    background: rgba(139, 115, 85, 0.07);
-    border-style: dashed;
-    color: #6A5A45;
-    font-style: italic;
-  }
+  :global(.fnode-gate) { border-color: #8B7355; border-width: 1.5px; background: rgba(139, 115, 85, 0.07); }
+  :global(.fnode-t) { font-family: 'Switzer', sans-serif; font-size: 13px; font-weight: 600; color: #2C2C2C; line-height: 1.2; }
+  :global(.fnode-s) { font-family: 'Switzer', sans-serif; font-size: 11px; color: #8B7355; line-height: 1.2; }
 
-  /* Floor → vision */
-  .floorvision .tier {
-    border-radius: 8px;
-    padding: 0.85rem 1.1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-  }
-  .floorvision .tier-name { font-weight: 700; font-size: 0.95rem; }
-  .floorvision .tier-desc { font-size: 0.9rem; }
-  .floorvision .vision {
-    background: rgba(139, 115, 85, 0.08);
-    border: 1px dashed #8B7355;
-    color: #6A5A45;
-  }
-  .floorvision .floor {
-    background: #8B7355;
-    color: #FFFBF5;
-  }
-  .floorvision .floor .tier-desc { color: rgba(255, 251, 245, 0.85); }
-  .floorvision .climb {
-    text-align: center;
-    font-size: 0.82rem;
-    color: #8B7355;
-    padding: 0.4rem 0;
-  }
-  .floorvision .below {
-    font-size: 0.8rem;
-    color: #9A8A7A;
-    padding: 0.5rem 0 0;
-    text-align: center;
-  }
+  /* Floor → vision bands */
+  .band-top { fill: rgba(122, 145, 110, 0.16); stroke: rgba(122, 145, 110, 0.5); stroke-width: 1; }
+  .band-mid { fill: rgba(139, 115, 85, 0.1); stroke: #8B7355; stroke-width: 1; stroke-dasharray: 5 3; }
+  .band-low { fill: rgba(120, 110, 100, 0.1); stroke: rgba(120, 110, 100, 0.35); stroke-width: 1; }
+  :global(.bandtxt) { box-sizing: border-box; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 2px; }
+  :global(.bt-strong) { font-family: 'Fraunces', Georgia, serif; font-size: 15px; font-weight: 600; color: #2C2C2C; line-height: 1.15; }
+  :global(.bt-sub) { font-family: 'Switzer', sans-serif; font-size: 12px; color: #5A5A5A; line-height: 1.2; }
+  :global(.bt-muted) { color: #9A8A7A; }
 
   /* Footer */
   .methodology-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid #F0E4D8;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 1rem; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #F0E4D8;
   }
-  .footer-link {
-    font-family: 'Switzer', sans-serif;
-    color: #8B7355;
-    text-decoration: none;
-  }
+  .footer-link { font-family: 'Switzer', sans-serif; color: #8B7355; text-decoration: none; }
   .footer-link:hover { opacity: 0.75; }
   .footer-cta {
-    display: inline-block;
-    padding: 0.85rem 1.75rem;
-    border-radius: 6px;
-    font-weight: 500;
-    background-color: #8B7355;
-    color: #FFFBF5;
-    text-decoration: none;
-    transition: opacity 0.2s;
+    display: inline-block; padding: 0.85rem 1.75rem; border-radius: 6px; font-weight: 500;
+    background-color: #8B7355; color: #FFFBF5; text-decoration: none; transition: opacity 0.2s;
   }
   .footer-cta:hover { opacity: 0.9; }
 
-  @media (max-width: 520px) {
-    .pipeline .phase { grid-template-columns: 1fr; gap: 0.5rem; }
-    .pipeline .phase-label { padding-top: 0; }
-  }
-
   @media (prefers-color-scheme: dark) {
     .prose { color: #d8d2c8; }
-    :global(.methodology .prose h1),
-    :global(.methodology .prose h2),
-    :global(.methodology .prose strong) { color: #f0ebe3; }
+    :global(.methodology .prose h1), :global(.methodology .prose h2), :global(.methodology .prose strong) { color: #f0ebe3; }
     :global(.methodology .prose h2) { border-top-color: rgba(240, 235, 227, 0.12); }
     :global(.methodology .prose h1 + p) { color: #b8b2a8; }
     .methodology-footer { border-top-color: rgba(240, 235, 227, 0.12); }
 
-    .pipeline .phase { border-top-color: rgba(240, 235, 227, 0.1); }
-    .pipeline .stage { background: #1a1a1a; border-color: rgba(200, 175, 140, 0.3); color: #d8d2c8; }
-    .pipeline .stage-loop { background: rgba(200, 175, 140, 0.1); color: #c7b79a; }
-    .floorvision .vision { background: rgba(200, 175, 140, 0.1); border-color: #b89a6a; color: #c7b79a; }
-    .floorvision .below { color: #8a7c6a; }
+    :global(.fnode) { background: #1a1a1a; border-color: rgba(200, 175, 140, 0.32); }
+    :global(.fnode-gate) { border-color: #b89a6a; background: rgba(200, 175, 140, 0.1); }
+    :global(.fnode-t) { color: #ece6dc; }
+    :global(.fnode-s) { color: #c7b79a; }
+    :global(.bt-strong) { color: #ece6dc; }
+    :global(.bt-sub) { color: #b8b2a8; }
+    .band-top { fill: rgba(140, 165, 125, 0.16); }
+    .band-mid { fill: rgba(200, 175, 140, 0.12); }
+    .band-low { fill: rgba(160, 150, 140, 0.1); }
   }
 </style>
