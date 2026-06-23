@@ -24,7 +24,42 @@ const md = translated ?? (docs['../../content/methodology/en.md'] as string);
 const isFallback = lang !== 'en' && !translated;
 
 marked.setOptions({ gfm: true, breaks: false });
-const html = marked.parse(md);
+
+// Split the content at diagram sentinels so we can interleave the visuals.
+const pipeParts = md.split('<!--DIAGRAM:pipeline-->');
+const segBeforePipe = pipeParts[0];
+const afterPipe = pipeParts.slice(1).join('');
+const fvParts = afterPipe.split('<!--DIAGRAM:floorvision-->');
+const segMiddle = fvParts[0];
+const segAfterFv = fvParts.slice(1).join('');
+
+const htmlBefore = marked.parse(segBeforePipe);
+const htmlMiddle = marked.parse(segMiddle);
+const htmlAfter = marked.parse(segAfterFv);
+const hasPipe = pipeParts.length > 1;
+const hasFv = fvParts.length > 1;
+
+// Pipeline diagram model
+const phases = [
+  { label: 'Foundation', steps: [
+    'Source text — Greek / Hebrew',
+    'Research brief — recent scholarship',
+    'Exegesis — our own, ecumenical',
+  ] },
+  { label: 'Drafting', steps: [
+    '4 model drafts, in parallel — Anthropic · OpenAI · Google · Mistral',
+    'Critic panel scores every draft → the best one wins',
+  ] },
+  { label: 'Refinement', steps: [
+    'The floor — grammar & anachronism gates (block publishing)',
+    '↻ revision loop — fix flagged spans, re-check, toward the vision',
+    'Publish — sound text; low-confidence passages flagged',
+  ], loopIndex: 1 },
+  { label: 'Living', steps: [
+    'Readers & reviewers at translate.aperto.bible',
+    '↺ feedback routes back into the standards',
+  ], loopIndex: 1 },
+];
 ---
 
 <BaseLayout title={t('nav.methodology')} lang={lang}>
@@ -32,7 +67,46 @@ const html = marked.parse(md);
     {isFallback && (
       <p class="lang-notice">{t('methodology.englishOnly')}</p>
     )}
-    <div class="prose" set:html={html} />
+
+    <div class="prose" set:html={htmlBefore} />
+
+    {hasPipe && (
+      <figure class="diagram pipeline" aria-label="How a passage moves through Aperto">
+        <figcaption>How a passage moves through Aperto</figcaption>
+        <ol class="flow">
+          {phases.map((p) => (
+            <li class="phase">
+              <span class="phase-label">{p.label}</span>
+              <div class="phase-steps">
+                {p.steps.map((s, i) => (
+                  <div class={`stage${p.loopIndex === i ? ' stage-loop' : ''}`}>{s}</div>
+                ))}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </figure>
+    )}
+
+    <div class="prose" set:html={htmlMiddle} />
+
+    {hasFv && (
+      <figure class="diagram floorvision" aria-label="The floor and the vision">
+        <div class="tier vision">
+          <span class="tier-name">The vision</span>
+          <span class="tier-desc">native literary register — reads like a contemporary novelist</span>
+        </div>
+        <div class="climb">↑ the revision loop refines upward</div>
+        <div class="tier floor">
+          <span class="tier-name">The floor</span>
+          <span class="tier-desc">mechanically sound — nothing broken or anachronistic ever publishes</span>
+        </div>
+        <div class="below">below the floor → never publishes</div>
+        <figcaption>Clears the floor but not the vision? It publishes — flagged — and is refined later.</figcaption>
+      </figure>
+    )}
+
+    <div class="prose" set:html={htmlAfter} />
 
     <div class="methodology-footer">
       <a class="footer-link" href={`${base}${lang}/process`}>← {t('nav.process')}</a>
@@ -110,6 +184,88 @@ const html = marked.parse(md);
   :global(.methodology .prose blockquote p) { margin: 0; }
   :global(.methodology .prose blockquote em) { color: #6A6A6A; }
 
+  /* ---- Diagrams ---- */
+  .diagram {
+    margin: 3rem 0;
+    font-family: 'Switzer', sans-serif;
+  }
+  .diagram figcaption {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #8B7355;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .floorvision figcaption { margin: 1rem 0 0; text-transform: none; letter-spacing: 0; font-weight: 400; color: #6A6A6A; font-style: italic; }
+
+  /* Pipeline flow */
+  .pipeline .flow { list-style: none; margin: 0; padding: 0; }
+  .pipeline .phase {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid #F0E4D8;
+  }
+  .pipeline .phase:first-child { border-top: none; }
+  .pipeline .phase-label {
+    font-size: 0.74rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #8B7355;
+    padding-top: 0.35rem;
+  }
+  .pipeline .phase-steps { display: flex; flex-direction: column; gap: 0.5rem; }
+  .pipeline .stage {
+    background: #FFFBF5;
+    border: 1px solid rgba(139, 115, 85, 0.22);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.95rem;
+    color: #3D3530;
+  }
+  .pipeline .stage-loop {
+    background: rgba(139, 115, 85, 0.07);
+    border-style: dashed;
+    color: #6A5A45;
+    font-style: italic;
+  }
+
+  /* Floor → vision */
+  .floorvision .tier {
+    border-radius: 8px;
+    padding: 0.85rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .floorvision .tier-name { font-weight: 700; font-size: 0.95rem; }
+  .floorvision .tier-desc { font-size: 0.9rem; }
+  .floorvision .vision {
+    background: rgba(139, 115, 85, 0.08);
+    border: 1px dashed #8B7355;
+    color: #6A5A45;
+  }
+  .floorvision .floor {
+    background: #8B7355;
+    color: #FFFBF5;
+  }
+  .floorvision .floor .tier-desc { color: rgba(255, 251, 245, 0.85); }
+  .floorvision .climb {
+    text-align: center;
+    font-size: 0.82rem;
+    color: #8B7355;
+    padding: 0.4rem 0;
+  }
+  .floorvision .below {
+    font-size: 0.8rem;
+    color: #9A8A7A;
+    padding: 0.5rem 0 0;
+    text-align: center;
+  }
+
   /* Footer */
   .methodology-footer {
     display: flex;
@@ -139,6 +295,11 @@ const html = marked.parse(md);
   }
   .footer-cta:hover { opacity: 0.9; }
 
+  @media (max-width: 520px) {
+    .pipeline .phase { grid-template-columns: 1fr; gap: 0.5rem; }
+    .pipeline .phase-label { padding-top: 0; }
+  }
+
   @media (prefers-color-scheme: dark) {
     .prose { color: #d8d2c8; }
     :global(.methodology .prose h1),
@@ -147,5 +308,11 @@ const html = marked.parse(md);
     :global(.methodology .prose h2) { border-top-color: rgba(240, 235, 227, 0.12); }
     :global(.methodology .prose h1 + p) { color: #b8b2a8; }
     .methodology-footer { border-top-color: rgba(240, 235, 227, 0.12); }
+
+    .pipeline .phase { border-top-color: rgba(240, 235, 227, 0.1); }
+    .pipeline .stage { background: #1a1a1a; border-color: rgba(200, 175, 140, 0.3); color: #d8d2c8; }
+    .pipeline .stage-loop { background: rgba(200, 175, 140, 0.1); color: #c7b79a; }
+    .floorvision .vision { background: rgba(200, 175, 140, 0.1); border-color: #b89a6a; color: #c7b79a; }
+    .floorvision .below { color: #8a7c6a; }
   }
 </style>
