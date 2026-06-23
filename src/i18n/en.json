@@ -3,10 +3,14 @@
     "home": "Home",
     "about": "About",
     "process": "Our Process",
+    "methodology": "Methodology",
     "read": "Read",
     "readLuke": "Read Luke 1",
     "menu": "Menu",
     "language": "Language"
+  },
+  "methodology": {
+    "englishOnly": "This page is currently available in English only — translations are on the way."
   },
   "footer": {
     "tagline": "A fresh translation that welcomes everyone to the conversation.",
@@ -155,6 +159,10 @@
   },
   "process": {
     "title": "Our Process",
+    "methodologyLink": {
+      "text": "This is the short version. For the full machinery — the model ensemble, the critic panel, the quality gates, and where humans come in — read",
+      "link": "How Aperto actually works"
+    },
     "challenge": {
       "title": "The Challenge",
       "p1": "Translating Scripture well has always required holding tensions together: fidelity to the original and accessibility to the reader, scholarly rigor and spiritual vitality, respect for tradition and openness to fresh insight.",
@@ -215,7 +223,7 @@
       "possible": {
         "title": "What AI Makes Possible",
         "p1": "A translation of this depth—literary, contextually enriched, multimedia-rich, ecumenically grounded—would normally require a generation of work per language. For most European communities, it would never happen at all.",
-        "p2": "AI doesn't replace human judgment. It multiplies it. Every exegetical decision, every translation choice, every footnote still passes through human review. But the scale becomes possible. Eleven languages now. More to come. Resources that smaller communities could never produce on their own—finally within reach.",
+        "p2": "AI doesn't replace human judgment. It multiplies it. Humans set the method, write the standards, and curate every check — reviewing closely where it matters most, and responding to the feedback readers send back. But the scale becomes possible: a growing set of languages, with more to come. Resources that smaller communities could never produce on their own—finally within reach.",
         "p3": "What seemed impossible is now feasible. Communities that have waited generations might not have to wait any longer.",
         "p4": "We believe that matters. We believe God cares about it. And we believe he's given us tools to do something about it."
       }

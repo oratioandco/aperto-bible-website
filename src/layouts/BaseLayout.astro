@@ -23,6 +23,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const pathWithoutLang = currentPath.replace(/^\/[a-z]{2,3}\//, '').replace(/^\//, '');
 const pageType = pathWithoutLang.startsWith('about') ? 'about'
   : pathWithoutLang.startsWith('process') ? 'process'
+  : pathWithoutLang.startsWith('methodology') ? 'methodology'
   : pathWithoutLang.match(/^(luke|luc|lukas|lukasz)\//) ? 'reader'
   : 'home';
 ---
@@ -79,6 +80,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
         <div class="hidden md:flex gap-6 items-center">
           <a href={`${base}${lang}/about`} class="transition-colors hover:opacity-70" style={heroPage ? 'color: rgba(255,251,245,0.75);' : 'color: #9A8F85;'}>{t('nav.about')}</a>
           <a href={`${base}${lang}/process`} class="transition-colors hover:opacity-70" style={heroPage ? 'color: rgba(255,251,245,0.75);' : 'color: #9A8F85;'}>{t('nav.process')}</a>
+          <a href={`${base}${lang}/methodology`} class="transition-colors hover:opacity-70" style={heroPage ? 'color: rgba(255,251,245,0.75);' : 'color: #9A8F85;'}>{t('nav.methodology')}</a>
 
           <!-- Language Switcher Dropdown -->
           <div class="relative" id="lang-dropdown" style="z-index: 100;">
@@ -140,6 +142,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
               <a href={`${base}${lang}/`} class="block text-lg" style="color: #2C2C2C;">{t('nav.home')}</a>
               <a href={`${base}${lang}/about`} class="block text-lg" style="color: #2C2C2C;">{t('nav.about')}</a>
               <a href={`${base}${lang}/process`} class="block text-lg" style="color: #2C2C2C;">{t('nav.process')}</a>
+              <a href={`${base}${lang}/methodology`} class="block text-lg" style="color: #2C2C2C;">{t('nav.methodology')}</a>
             </div>
 
             <div class="pt-4" style="border-top: 1px solid #F5E6DC;">
@@ -240,6 +243,7 @@ const pageType = pathWithoutLang.startsWith('about') ? 'about'
               <li><a href={`${base}${lang}/`} style="color: #9A8F85;" class="hover:underline">{t('nav.home')}</a></li>
               <li><a href={`${base}${lang}/about`} style="color: #9A8F85;" class="hover:underline">{t('nav.about')}</a></li>
               <li><a href={`${base}${lang}/process`} style="color: #9A8F85;" class="hover:underline">{t('nav.process')}</a></li>
+              <li><a href={`${base}${lang}/methodology`} style="color: #9A8F85;" class="hover:underline">{t('nav.methodology')}</a></li>
               <li>
                 <button class="footer-get-involved-btn hover:underline text-left" style="color: #9A8F85; background: none; border: none; padding: 0; cursor: pointer; font-size: inherit;">
                   {t('footer.getInvolved')}

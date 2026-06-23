@@ -106,8 +106,8 @@ const lukeNames: Record<string, string> = {
     <!-- Background video -->
     <video
       class="video-bg"
-      src={`${base}videos/hero.mp4`}
-      poster={`${base}images/homepage_hero_blue_hour_low.png`}
+      id="hero-video"
+      poster={`${base}images/homepage_hero_sunrise_low.png`}
       autoplay
       loop
       muted
@@ -138,6 +138,27 @@ const lukeNames: Record<string, string> = {
       </div>
     </div>
   </section>
+
+  <script define:vars={{ base }}>
+    (function () {
+      var v = document.getElementById('hero-video');
+      if (!v) return;
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      function apply() {
+        var dark = mq.matches;
+        var next = base + 'videos/' + (dark ? 'hero-dark.mp4' : 'hero-light.mp4');
+        if (v.getAttribute('src') === next) return;
+        v.setAttribute('poster', base + 'images/' + (dark ? 'homepage_hero_blue_hour_low.png' : 'homepage_hero_sunrise_low.png'));
+        v.setAttribute('src', next);
+        v.load();
+        var p = v.play();
+        if (p && p.catch) p.catch(function () {});
+      }
+      apply();
+      if (mq.addEventListener) mq.addEventListener('change', apply);
+      else if (mq.addListener) mq.addListener(apply);
+    })();
+  </script>
 
   <style>
     /* Prevent blurred video from bleeding horizontally */
@@ -188,7 +209,7 @@ const lukeNames: Record<string, string> = {
     .video-overlay {
       position: absolute;
       inset: 0;
-      background: rgba(18, 10, 5, 0.38);
+      background: rgba(38, 22, 12, 0.24);
       z-index: 1;
     }
 
@@ -260,7 +281,7 @@ const lukeNames: Record<string, string> = {
       width: 130%;
       height: 130%;
       transform: translate(-50%, -50%);
-      background-image: url('/images/homepage_hero_blue_hour_low.png');
+      background-image: url('/images/homepage_hero_sunrise_low.png');
       background-size: cover;
       background-position: center;
       filter: blur(30px);
@@ -275,37 +296,9 @@ const lukeNames: Record<string, string> = {
       .video-hero::before { opacity: 1; }
     }
 
-    /* Image marquee */
-    .image-marquee {
-      overflow: hidden;
-      width: 100%;
-      mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
-      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
-    }
-
-    .marquee-track {
-      display: flex;
-      gap: 12px;
-      width: max-content;
-      animation: marquee 60s linear infinite;
-    }
-
-    .marquee-img {
-      height: 260px;
-      width: auto;
-      border-radius: 8px;
-      object-fit: cover;
-      flex-shrink: 0;
-      filter: saturate(0.85);
-    }
-
-    @keyframes marquee {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .marquee-track { animation: none; }
+    /* Dark mode: reduced-motion fallback still shows the blue-hour still */
+    @media (prefers-color-scheme: dark) {
+      .video-hero::before { background-image: url('/images/homepage_hero_blue_hour_low.png'); }
     }
 
     /* Get Involved section */
@@ -375,41 +368,6 @@ const lukeNames: Record<string, string> = {
       </div>
     </div>
   </section>
-
-  <!-- Image marquee strip -->
-  <div class="image-marquee" aria-hidden="true">
-    <div class="marquee-track">
-      {[
-        '/images/luke/1/luke_01_annunciation.png',
-        '/images/luke/1/luke_01_magnificat.png',
-        '/images/luke/2/luke_02_nativity.png',
-        '/images/luke/2/luke_02_shepherds.png',
-        '/images/luke/3/luke_03_jesus_baptism.png',
-        '/images/luke/4/luke_04_rejection-nazareth.png',
-        '/images/luke/7/luke_07_sinful-woman.png',
-        '/images/luke/9/luke_09_transfiguration.png',
-        '/images/luke/10/luke_10_good-samaritan.png',
-        '/images/luke/24/luke_24_empty_tomb.png',
-        '/images/luke/1/luke_01_visitation.png',
-        '/images/luke/2/luke_02_simeon.png',
-      ].concat([
-        '/images/luke/1/luke_01_annunciation.png',
-        '/images/luke/1/luke_01_magnificat.png',
-        '/images/luke/2/luke_02_nativity.png',
-        '/images/luke/2/luke_02_shepherds.png',
-        '/images/luke/3/luke_03_jesus_baptism.png',
-        '/images/luke/4/luke_04_rejection-nazareth.png',
-        '/images/luke/7/luke_07_sinful-woman.png',
-        '/images/luke/9/luke_09_transfiguration.png',
-        '/images/luke/10/luke_10_good-samaritan.png',
-        '/images/luke/24/luke_24_empty_tomb.png',
-        '/images/luke/1/luke_01_visitation.png',
-        '/images/luke/2/luke_02_simeon.png',
-      ]).map((src) => (
-        <img src={src} alt="" class="marquee-img" loading="lazy" />
-      ))}
-    </div>
-  </div>
 
   {/* Trial-sampler grid: shows all 6 sample chapters in DE/EN/PL.
        Other languages keep the original single-CTA-to-Luke-1 layout. */}

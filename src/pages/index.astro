@@ -23,8 +23,8 @@ const lukeNames = {
   <section class="video-hero">
     <video
       class="video-bg"
-      src={`${base}videos/hero.mp4`}
-      poster={`${base}images/homepage_hero_blue_hour_low.png`}
+      id="hero-video"
+      poster={`${base}images/homepage_hero_sunrise_low.png`}
       autoplay
       loop
       muted
@@ -46,6 +46,27 @@ const lukeNames = {
       </div>
     </div>
   </section>
+
+  <script define:vars={{ base }}>
+    (function () {
+      var v = document.getElementById('hero-video');
+      if (!v) return;
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      function apply() {
+        var dark = mq.matches;
+        var next = base + 'videos/' + (dark ? 'hero-dark.mp4' : 'hero-light.mp4');
+        if (v.getAttribute('src') === next) return;
+        v.setAttribute('poster', base + 'images/' + (dark ? 'homepage_hero_blue_hour_low.png' : 'homepage_hero_sunrise_low.png'));
+        v.setAttribute('src', next);
+        v.load();
+        var p = v.play();
+        if (p && p.catch) p.catch(function () {});
+      }
+      apply();
+      if (mq.addEventListener) mq.addEventListener('change', apply);
+      else if (mq.addListener) mq.addListener(apply);
+    })();
+  </script>
 
   <style>
     :global(body) {
@@ -88,7 +109,7 @@ const lukeNames = {
     .video-overlay {
       position: absolute;
       inset: 0;
-      background: rgba(18, 10, 5, 0.38);
+      background: rgba(38, 22, 12, 0.24);
       z-index: 1;
     }
     .video-grain {
@@ -144,7 +165,7 @@ const lukeNames = {
       inset: -30px;
       width: calc(100% + 60px);
       height: calc(100% + 60px);
-      background-image: url('/images/homepage_hero_blue_hour_low.png');
+      background-image: url('/images/homepage_hero_sunrise_low.png');
       background-size: cover;
       background-position: center;
       filter: blur(30px);
@@ -156,6 +177,11 @@ const lukeNames = {
     @media (prefers-reduced-motion: reduce) {
       .video-bg { display: none; }
       .video-hero::before { opacity: 1; }
+    }
+
+    /* Dark mode: reduced-motion fallback still shows the blue-hour still */
+    @media (prefers-color-scheme: dark) {
+      .video-hero::before { background-image: url('/images/homepage_hero_blue_hour_low.png'); }
     }
   </style>
 

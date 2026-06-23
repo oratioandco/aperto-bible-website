@@ -1,0 +1,151 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+import { useTranslations } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    'da','de','en','es','fr','it','pl','pt','sv','tr','uk','nl','ro','cs','el',
+    'hu','bg','hr','fi','sk','lt','sl','lv','et','ga','mt','nb','ru','ar','ca','sq',
+  ].map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const t = useTranslations(lang);
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Long-form content lives as markdown so it is easy to translate.
+// Fall back to English until a language has its own translation.
+const docs = import.meta.glob('../../content/methodology/*.md', { query: '?raw', import: 'default', eager: true });
+const translated = docs[`../../content/methodology/${lang}.md`] as string | undefined;
+const md = translated ?? (docs['../../content/methodology/en.md'] as string);
+const isFallback = lang !== 'en' && !translated;
+
+marked.setOptions({ gfm: true, breaks: false });
+const html = marked.parse(md);
+---
+
+<BaseLayout title={t('nav.methodology')} lang={lang}>
+  <article class="methodology">
+    {isFallback && (
+      <p class="lang-notice">{t('methodology.englishOnly')}</p>
+    )}
+    <div class="prose" set:html={html} />
+
+    <div class="methodology-footer">
+      <a class="footer-link" href={`${base}${lang}/process`}>← {t('nav.process')}</a>
+      <a class="footer-cta" href={`${base}${lang}/luke/1`}>{t('process.readLuke')}</a>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .methodology {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+
+  .lang-notice {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.85rem;
+    color: #8B7355;
+    background: rgba(139, 115, 85, 0.08);
+    border: 1px solid rgba(139, 115, 85, 0.2);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .prose {
+    font-family: 'Switzer', sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.75;
+    color: #4A4A4A;
+  }
+
+  /* Headings */
+  :global(.methodology .prose h1) {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    line-height: 1.08;
+    color: #2C2C2C;
+    margin: 0 0 1.75rem;
+  }
+  :global(.methodology .prose h2) {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(1.5rem, 3.4vw, 2rem);
+    line-height: 1.2;
+    color: #2C2C2C;
+    margin: 3.25rem 0 1rem;
+    padding-top: 2.25rem;
+    border-top: 1px solid #F0E4D8;
+  }
+  :global(.methodology .prose h1 + p) {
+    font-size: 1.2rem;
+    color: #5A5A5A;
+  }
+
+  /* Body */
+  :global(.methodology .prose p) { margin: 0 0 1.25rem; }
+  :global(.methodology .prose strong) { color: #2C2C2C; font-weight: 600; }
+  :global(.methodology .prose a) { color: #8B7355; text-decoration: underline; text-underline-offset: 2px; }
+  :global(.methodology .prose a:hover) { opacity: 0.75; }
+
+  /* Lists */
+  :global(.methodology .prose ul) { margin: 0 0 1.5rem; padding-left: 1.25rem; list-style: disc; }
+  :global(.methodology .prose li) { margin: 0 0 0.6rem; padding-left: 0.25rem; }
+
+  /* The "production-AI analogue" asides render as blockquotes */
+  :global(.methodology .prose blockquote) {
+    margin: 1.75rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 3px solid #8B7355;
+    background: rgba(139, 115, 85, 0.06);
+    border-radius: 0 8px 8px 0;
+    color: #5A5A5A;
+  }
+  :global(.methodology .prose blockquote p) { margin: 0; }
+  :global(.methodology .prose blockquote em) { color: #6A6A6A; }
+
+  /* Footer */
+  .methodology-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #F0E4D8;
+  }
+  .footer-link {
+    font-family: 'Switzer', sans-serif;
+    color: #8B7355;
+    text-decoration: none;
+  }
+  .footer-link:hover { opacity: 0.75; }
+  .footer-cta {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: #8B7355;
+    color: #FFFBF5;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .footer-cta:hover { opacity: 0.9; }
+
+  @media (prefers-color-scheme: dark) {
+    .prose { color: #d8d2c8; }
+    :global(.methodology .prose h1),
+    :global(.methodology .prose h2),
+    :global(.methodology .prose strong) { color: #f0ebe3; }
+    :global(.methodology .prose h2) { border-top-color: rgba(240, 235, 227, 0.12); }
+    :global(.methodology .prose h1 + p) { color: #b8b2a8; }
+    .methodology-footer { border-top-color: rgba(240, 235, 227, 0.12); }
+  }
+</style>
