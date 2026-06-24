@@ -22,6 +22,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # On a usfm-updated dispatch (or manual run) regenerate the Bible chapter
+      # verse JSONs from the USFM aperto-bible-dev just published, so the site's
+      # verse text stays current with no manual regen+commit. Pure-stdlib Python,
+      # no pip install. Regular pushes skip this and build from committed JSONs.
+      - name: Regenerate Bible content from published USFM
+        if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
+        env:
+          USFM_REF: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/regen-from-public.py
       
       - name: Setup Node
         uses: actions/setup-node@v4
