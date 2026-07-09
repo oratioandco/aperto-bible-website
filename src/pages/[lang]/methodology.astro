@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { marked } from 'marked';
 import { useTranslations } from '../../i18n/utils';
+import { hasTextContent } from '../../data/textLanguages';
 
 export function getStaticPaths() {
   return [
@@ -206,7 +207,7 @@ const phaseBands = [
 
     <div class="methodology-footer">
       <a class="footer-link" href={`${base}${lang}/process`}>← {t('nav.process')}</a>
-      <a class="footer-cta" href={`${base}${lang}/luke/1`}>{t('process.readLuke')}</a>
+      <a class="footer-cta" href={hasTextContent(lang) ? `${base}${lang}/luke/1` : `${base}${lang}/#listen`}>{hasTextContent(lang) ? t('process.readLuke') : t('home.media.heroCta')}</a>
     </div>
   </article>
 </BaseLayout>

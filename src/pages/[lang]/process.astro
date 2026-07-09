@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { useTranslations } from '../../i18n/utils';
+import { hasTextContent } from '../../data/textLanguages';
 
 export function getStaticPaths() {
   return [
@@ -270,9 +271,9 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       </section>
 
       <section>
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('process.readLuke')}</h2>
-        <a href={`${base}${lang}/luke/1`} class="inline-block px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
-          {t('process.readLuke')}
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{hasTextContent(lang) ? t('process.readLuke') : t('home.media.title')}</h2>
+        <a href={hasTextContent(lang) ? `${base}${lang}/luke/1` : `${base}${lang}/#listen`} class="inline-block px-8 py-4 rounded font-medium transition-all hover:opacity-90" style="background-color: #8B7355; color: #FFFBF5;">
+          {hasTextContent(lang) ? t('process.readLuke') : t('home.media.heroCta')}
         </a>
       </section>
     </div>
