@@ -1,0 +1,42 @@
+---
+// Renders an email address without any scannable @-pattern or mailto: in the
+// HTML source. The parts are stored reversed in data attributes; a tiny inline
+// script assembles the real link on load. Without JS, CSS bidi-override shows
+// the reversed fallback text in the right order (copy-paste unfriendly, but
+// human-readable — § 5 DDG requires a readable email, not a scrapable one).
+interface Props {
+  user: string;   // e.g. "tobias"
+  domain: string; // e.g. "aperto.bible"
+}
+const { user, domain } = Astro.props;
+const rev = (s: string) => s.split('').reverse().join('');
+const revUser = rev(user);
+const revDomain = rev(domain);
+// Fallback display: reversed and with [at] instead of @, so the raw HTML
+// contains no @-pattern at all; shown corrected via bidi-override
+const revDisplay = rev(`${user} [at] ${domain}`);
+---
+
+<span class="obf-email" data-u={revUser} data-d={revDomain}>
+  <span class="obf-email-fallback" aria-hidden="true">{revDisplay}</span>
+</span>
+
+<style>
+  .obf-email-fallback {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.obf-email').forEach((el) => {
+    const rev = (s: string) => s.split('').reverse().join('');
+    const addr = `${rev(el.dataset.u || '')}` + String.fromCharCode(64) + `${rev(el.dataset.d || '')}`;
+    const a = document.createElement('a');
+    a.href = `${rev('otliam')}:${addr}`;
+    a.textContent = addr;
+    a.style.color = 'inherit';
+    a.style.textDecoration = 'underline';
+    el.replaceChildren(a);
+  });
+</script>
