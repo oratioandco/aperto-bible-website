@@ -5,7 +5,7 @@
     "process": "Our Process",
     "methodology": "Methodology",
     "read": "Read",
-    "readLuke": "Read Luke 1",
+    "readLuke": "Read Luke",
     "menu": "Menu",
     "language": "Language"
   },
@@ -15,7 +15,7 @@
   "footer": {
     "tagline": "A fresh translation that welcomes everyone to the conversation.",
     "navigate": "Navigation",
-    "readLuke": "Luke 1",
+    "readLuke": "Read Luke",
     "contact": "Contact",
     "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Legal",
@@ -23,8 +23,8 @@
     "accessibility": "Accessibility",
     "imprint": "Imprint",
     "licence": "Licence",
-    "licenseText": "CC BY-NC-ND 4.0 – Free to share with attribution. NonCommercial — NoDerivatives.",
-    "copyright": "2025 Aperto Bible Project",
+    "licenseText": "Translation text: CC BY-ND 4.0 — free to read, share, quote, and use, with attribution, without modification. All other content: all rights reserved. Details in the imprint.",
+    "copyright": "2026 Aperto Bible Project",
     "getInvolved": "Get Involved"
   },
   "home": {
@@ -61,14 +61,14 @@
       "description": "Start with Luke 1—the announcement of John the Baptist, Gabriel's visit to Mary, and two songs that changed the world."
     },
     "tagline": "A fresh translation that welcomes everyone to the conversation—whether you're deeply rooted in faith, exploring from the outside, or somewhere in between.",
-    "readLuke": "Read Luke 1",
+    "readLuke": "Read Luke",
     "differentBible": "A Different Kind of Bible",
     "accessible": "Context Built In",
     "accessibleDesc": "Key cultural and historical context is woven directly into the text — visually marked, so you always know what's Scripture and what's enrichment. Footnotes go deeper in five labeled categories: Text, Culture, Context, Life, and Difficult.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Audio Bible, podcasts, original songs, and spiritual practices. Experience the text in the way that resonates with you.",
-    "openSource": "Open Source",
-    "openSourceDesc": "CC BY-NC-ND 4.0 licence. Free to share with attribution. NonCommercial — NoDerivatives. Available in multiple languages.",
+    "openSource": "Freely accessible",
+    "openSourceDesc": "The translation text is licensed CC BY-ND 4.0: read, share, quote, and use it — with attribution, unchanged. Free forever.",
     "startReading": "Start Reading",
     "startReadingDesc": "We begin with Luke Chapter 1: the announcement of John the Baptist, the angel Gabriel visiting Mary, and two revolutionary songs that still echo today.",
     "getInvolved": {
@@ -149,17 +149,23 @@
       "transparentDesc": "you can see exactly what we've done and why",
       "invitation": "Open as in invitation",
       "invitationDesc": "come as you are, questions and all",
-      "source": "Open source",
-      "sourceDesc": "freely shared, built to be built upon"
+      "source": "Freely accessible",
+      "sourceDesc": "free to read, share, quote, and use — the text itself stays unchanged"
     },
     "join": {
       "title": "Join Us",
-      "p1": "We're building this one chapter at a time, one book at a time. Right now, you can read Luke 1—the announcement of John the Baptist, Gabriel's visit to Mary, and two songs that changed the world.",
+      "p1": "We're building this one chapter at a time, one book at a time. Right now you can read the whole Gospel of Luke in German, English, and Polish, alongside Acts 17 and Psalms 23, 137, and 139 as further samples. Deep-dive exegesis pages cover Luke 1–2 today and are expanding — and every verse already carries inline notes.",
       "p2": "Come see what we're making. Bring your doubts. Bring your longing.",
-      "readLuke": "Read Luke 1",
+      "readLuke": "Read Luke",
       "goDeeper": "Want to go deeper?",
       "goDeeperDesc": "Learn how we translate, how our AI workflows function, and the scholarship behind every decision.",
       "processLink": "Our Process →"
+    },
+    "founder": {
+      "title": "Who makes this",
+      "p1": "Aperto is made by Tobias Treppmann, a product designer in Berlin. He studied theology at Theologisches Seminar Rheinland and holds an M.A. in Leadership from Kairos University.",
+      "p2": "He is not a guild Bible scholar — which is why nothing here asks to be taken on authority. A human decides, AI drafts, adversarial judges verify, and every verse-level decision is documented and published where anyone can check it and push back.",
+      "correction": "Found an error? Corrections are welcome:"
     }
   },
   "process": {
@@ -307,7 +313,7 @@
       "agree": "I agree to receive email updates and promotions.",
       "button": "Receive the Aperto Newsletter"
     },
-    "readLuke": "Read Luke 1 →"
+    "readLuke": "Read Luke →"
   },
   "reader": {
     "luke": "Luke",

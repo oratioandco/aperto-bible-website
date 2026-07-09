@@ -5,14 +5,14 @@
     "process": "Nasz proces",
     "methodology": "Metodologia",
     "read": "Czytaj",
-    "readLuke": "Czytaj Łukasza 1",
+    "readLuke": "Czytaj Łukasza",
     "menu": "Menu",
     "language": "Język"
   },
   "footer": {
     "tagline": "Świeże tłumaczenie, które zaprasza każdego do rozmowy.",
     "navigate": "Nawigacja",
-    "readLuke": "Łukasz 1",
+    "readLuke": "Czytaj Łukasza",
     "contact": "Kontakt",
     "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Informacje prawne",
@@ -20,22 +20,22 @@
     "accessibility": "Dostępność",
     "imprint": "Impressum",
     "licence": "Licencja",
-    "licenseText": "CC BY-NC-ND 4.0 – Wolne do udostępniania z uznaniem autorstwa. UżycieNiekomeracyjne — BezUtworówZależnych.",
-    "copyright": "2025 Projekt Biblia Aperto",
+    "licenseText": "Tekst przekładu: CC BY-ND 4.0 — wolno go czytać, udostępniać, cytować i wykorzystywać, z podaniem źródła, bez zmian. Pozostałe treści: wszelkie prawa zastrzeżone. Szczegóły w impressum.",
+    "copyright": "2026 Aperto Bible Project",
     "getInvolved": "Zaangażuj się"
   },
   "home": {
     "tagline": "Świeże tłumaczenie, które zaprasza każdego do rozmowy – czy jesteś głęboko zakorzeniony w wierze, eksplorujesz z zewnątrz, czy gdzieś pomiędzy.",
     "alphaNotice": "Wczesna wersja alfa",
     "alphaText": "To jest wczesna wersja alfa. Obecnie dostępny jest tylko Łukasz rozdział 1. Budujemy rozdział po rozdziale, księga po księdze.",
-    "readLuke": "Czytaj Łukasza 1",
+    "readLuke": "Czytaj Łukasza",
     "differentBible": "Inna Biblia",
     "accessible": "Kontekst wpleciony",
     "accessibleDesc": "Kluczowy kontekst kulturowy i historyczny jest wpleciony bezpośrednio w tekst — oznaczony wizualnie, abyś zawsze wiedział, co jest Pismem, a co wzbogaceniem. Pięć kategorii przypisów otwiera jeszcze głębsze warstwy: Tekst, Kultura, Kontekst, Życie i Trudne.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Audiobiblia, podcasty, oryginalne piosenki i praktyki duchowe. Doświadcz tekstu w sposób, który do ciebie przemawia.",
-    "openSource": "Open Source",
-    "openSourceDesc": "Licencja CC BY-NC-ND 4.0. Wolne do udostępniania z uznaniem autorstwa. UżycieNiekomeracyjne — BezUtworówZależnych. Dostępne w wielu językach.",
+    "openSource": "Wolny dostęp",
+    "openSourceDesc": "Tekst przekładu jest na licencji CC BY-ND 4.0: można go czytać, udostępniać, cytować i wykorzystywać — z podaniem źródła, bez zmian. Za darmo, na zawsze.",
     "startReading": "Zacznij czytać",
     "startReadingDesc": "Zaczynamy od Łukasza rozdział 1: zapowiedź Jana Chrzciciela, anioł Gabriel odwiedza Marię i dwie rewolucyjne pieśni, które brzmią do dziś.",
     "getInvolved": {
@@ -46,35 +46,9 @@
   },
   "about": {
     "title": "O Aperto",
-    "whatIs": {
-      "title": "Czym jest Aperto?",
-      "p1": "Aperto to projekt tłumaczenia Biblii open source napisany dla współczesnych czytelników – czy jesteś wierzącym przez całe życie szukającym świeżego spojrzenia na znane teksty, czy sceptykiem ciekawym, co naprawdę mówią te starożytne teksty.",
-      "p2": "Nazwa pochodzi od łacińskiego apertus: otwarty, dostępny, odsłonięty. Zainspirowana jest Łukaszem 24,32, gdzie uczniowie mówią, że ich serca płonęły, gdy Jezus otwierał im Pisma."
-    },
-    "philosophy": {
-      "title": "Nasza filozofia",
-      "believerSkeptic": "Dla wierzących i sceptyków",
-      "believerSkepticDesc": "Piszemy dla obydwu – ludzi głęboko zakorzenionych w wierze szukających świeżej perspektywy i ludzi eksplorujących z zewnątrz. Czy spędziłeś całe życie w kościele, czy nigdy do niego nie wszedłeś, jesteś tu mile widziany.",
-      "ecumenical": "Ekumeniczni i inkluzywni",
-      "ecumenicalDesc": "Nasze podejście integruje uczciwie naukę katolicką, prawosławną, protestancką i zielonoświątkową – nie redukując do jednej tradycji. Pracujemy również z odczytaniami feministycznymi, teologii wyzwolenia i historyczno-krytycznymi, świadomi jak tłumaczenia historycznie były używane zarówno do wyzwalania, jak i krzywdzenia.",
-      "accessible": "Przystępne bez upraszczania",
-      "accessibleDesc": "Współczesny język, który czyta się jak nowoczesna literatura. Bez religijnego żargonu, bez słownictwa dla wtajemniczonych – tylko tekst, żywy i bezpośredni. Uczciwe przypisy, które czynią złożoność dostępną, a nie ukrytą.",
-      "multimedia": "Multimedia przede wszystkim",
-      "multimediaDesc": "Audiobiblia, podcasty, oryginalne piosenki i praktyki kontemplacyjne. Spotykanie ludzi tam, gdzie są, nie tylko tam, gdzie powinni być.",
-      "openSource": "Radykalnie otwarci",
-      "openSourceDesc": "Licencja CC BY-NC-ND 4.0. Wolne do udostępniania z uznaniem autorstwa. UżycieNiekomeracyjne — BezUtworówZależnych. Dostępne w wielu językach."
-    },
     "languages": {
       "title": "Dostępne języki",
       "intro": "Obecnie dostępne w pięciu językach, każdy kulturowo dostosowany do swojego kontekstu:"
-    },
-    "license": {
-      "title": "Licencja",
-      "p1": "Aperto jest wydane na licencji Creative Commons Uznanie autorstwa-Na tych samych warunkach 4.0 Międzynarodowe (CC BY-NC-ND 4.0). To oznacza:",
-      "share": "Możesz udostępniać i rozpowszechniać materiał w dowolnym formacie",
-      "adapt": "Możesz remiksować, przekształcać i tworzyć na podstawie materiału",
-      "attribution": "Musisz podać odpowiednie uznanie autorstwa",
-      "shareAlike": "Musisz rozpowszechniać na tej samej licencji, jeśli remiksowujesz lub tworzysz na podstawie"
     },
     "team": {
       "title": "Zespół",
@@ -226,7 +200,7 @@
       "agree": "Zgadzam się na otrzymywanie aktualizacji i promocji e-mail.",
       "button": "Otrzymuj newsletter Aperto"
     },
-    "readLuke": "Czytaj Łukasza 1 →"
+    "readLuke": "Czytaj Łukasza →"
   },
   "legal": {
     "privacy": {
@@ -293,7 +267,7 @@
       },
       "license": {
         "title": "Licencja treści",
-        "text": "O ile nie zaznaczono inaczej, wszystkie treści na tej stronie są udostępniane na licencji Creative Commons Uznanie autorstwa-Na tych samych warunkach 4.0 Międzynarodowe (CC BY-NC-ND 4.0)."
+        "text": "Tekst przekładu Biblii Aperto jest na licencji CC BY-ND 4.0: wolno go czytać, udostępniać, cytować i wykorzystywać — z podaniem źródła i bez zmian. Dozwolone są wierne, niezmienione nagrania audio tekstu. Egzegeza, produkcje audio, ilustracje i wszystkie pozostałe treści: wszelkie prawa zastrzeżone."
       }
     }
   },

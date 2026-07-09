@@ -5,14 +5,14 @@
     "process": "Unser Prozess",
     "methodology": "Methodik",
     "read": "Lesen",
-    "readLuke": "Lukas 1 lesen",
+    "readLuke": "Lukas lesen",
     "menu": "Menü",
     "language": "Sprache"
   },
   "footer": {
     "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt.",
     "navigate": "Navigation",
-    "readLuke": "Lukas 1",
+    "readLuke": "Lukas lesen",
     "contact": "Kontakt",
     "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Rechtliches",
@@ -20,8 +20,8 @@
     "accessibility": "Barrierefreiheit",
     "imprint": "Impressum",
     "licence": "Lizenz",
-    "licenseText": "CC BY-NC-ND 4.0 – Frei zu teilen unter Namensnennung. NichtKommerziell — KeineBearbeitung.",
-    "copyright": "2025 Aperto Bible Project",
+    "licenseText": "Übersetzungstext: CC BY-ND 4.0 — frei lesen, teilen, zitieren und verwenden, mit Namensnennung, ohne Veränderung. Alle weiteren Inhalte: alle Rechte vorbehalten. Details im Impressum.",
+    "copyright": "2026 Aperto Bible Project",
     "getInvolved": "Mitmachen"
   },
   "home": {
@@ -58,14 +58,14 @@
       "description": "Den Anfang macht Lukas 1: die Ankündigung Johannes des Täufers, der Besuch Gabriels bei Maria und zwei Lieder, die die Welt verändert haben."
     },
     "tagline": "Eine neue Übersetzung, die jeden zum Gespräch einlädt. Ob tief im Glauben verwurzelt, neugierig auf der Suche oder noch unentschieden.",
-    "readLuke": "Lukas 1 lesen",
+    "readLuke": "Lukas lesen",
     "differentBible": "Eine andere Art von Bibel",
     "accessible": "Kontext mitgedacht",
     "accessibleDesc": "Wichtiger kultureller und historischer Kontext ist unmittelbar in den Text eingewoben, sichtbar, damit immer klar ist, was Bibeltext ist und was Ergänzung. Dazu gibt es Kommentare in fünf Kategorien: Text, Kultur, Kontext, Leben und Schwierig.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Audiobibel, Podcasts, eigens komponierte Lieder und geistliche Übungen. Der Text auf die Weise, die anspricht.",
-    "openSource": "Open Source",
-    "openSourceDesc": "Lizenz CC BY-NC-ND 4.0. Frei zu teilen mit Namensnennung. Nicht kommerziell – keine Bearbeitungen. Verfügbar in mehreren Sprachen.",
+    "openSource": "Frei zugänglich",
+    "openSourceDesc": "Der Übersetzungstext steht unter CC BY-ND 4.0: lesen, teilen, zitieren, verwenden — mit Namensnennung, unverändert. Für immer kostenlos.",
     "startReading": "Jetzt lesen",
     "startReadingDesc": "Den Anfang macht das erste Kapitel des Lukasevangeliums: die Ankündigung Johannes des Täufers, der Engel Gabriel zu Besuch bei Maria und zwei umstürzende Lieder, deren Anklänge bis heute nachhallen.",
     "getInvolved": {
@@ -141,17 +141,23 @@
       "transparentDesc": "alles, was wir getan haben, ist sichtbar – und warum",
       "invitation": "Offen im Sinne einer Einladung",
       "invitationDesc": "komm, wie du bist, mitsamt deinen Fragen",
-      "source": "Offen wie Open Source",
-      "sourceDesc": "frei geteilt, gemacht, um darauf weiterzubauen"
+      "source": "Frei zugänglich",
+      "sourceDesc": "frei zu lesen, zu teilen, zu zitieren und zu verwenden — der Text selbst bleibt unverändert"
     },
     "join": {
       "title": "Mach mit",
-      "p1": "Wir bauen das Kapitel für Kapitel, Buch für Buch. Im Moment lässt sich Lukas 1 lesen – die Ankündigung von Johannes dem Täufer, der Besuch Gabriels bei Maria und zwei Lieder, die die Welt verändert haben.",
+      "p1": "Wir bauen das Kapitel für Kapitel, Buch für Buch. Im Moment: das ganze Lukasevangelium auf Deutsch, Englisch und Polnisch, dazu Apostelgeschichte 17 und die Psalmen 23, 137 und 139 als weitere Proben. Vertiefende Exegese-Seiten gibt es heute zu Lukas 1–2, weitere folgen — und jeder Vers trägt schon jetzt Anmerkungen.",
       "p2": "Komm und sieh, woran wir arbeiten. Bring deine Zweifel mit. Bring deine Sehnsucht mit.",
-      "readLuke": "Lukas 1 lesen",
+      "readLuke": "Lukas lesen",
       "goDeeper": "Lust, tiefer einzutauchen?",
       "goDeeperDesc": "Wie wir übersetzen, wie unsere KI-Arbeitsabläufe funktionieren und welche Gelehrsamkeit hinter jeder Entscheidung steht.",
       "processLink": "Unser Vorgehen →"
+    },
+    "founder": {
+      "title": "Wer das hier macht",
+      "p1": "Aperto macht Tobias Treppmann, Produktdesigner in Berlin. Er hat Theologie am Theologischen Seminar Rheinland studiert und einen M.A. in Leadership der Kairos University.",
+      "p2": "Er ist kein Fachexeget der Zunft — deshalb verlangt hier nichts Vertrauen auf Autorität. Ein Mensch entscheidet, KI entwirft, gegnerische Prüfinstanzen kontrollieren, und jede Entscheidung auf Versebene ist dokumentiert und veröffentlicht: nachprüfbar, und Widerspruch ist erwünscht.",
+      "correction": "Fehler gefunden? Korrekturen sind willkommen:"
     }
   },
   "process": {
@@ -299,7 +305,7 @@
       "agree": "Einverstanden, Neuigkeiten und Hinweise per E-Mail zu erhalten.",
       "button": "Den Aperto-Newsletter abonnieren"
     },
-    "readLuke": "Lukas 1 lesen →"
+    "readLuke": "Lukas lesen →"
   },
   "reader": {
     "luke": "Lukas",
