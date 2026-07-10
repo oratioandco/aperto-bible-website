@@ -5,7 +5,7 @@
     "process": "Our Process",
     "methodology": "Methodology",
     "read": "Read",
-    "readLuke": "Read Luke 1",
+    "readLuke": "Read Luke",
     "menu": "Menu",
     "language": "Language"
   },
@@ -15,7 +15,7 @@
   "footer": {
     "tagline": "A fresh translation that welcomes everyone to the conversation.",
     "navigate": "Navigation",
-    "readLuke": "Luke 1",
+    "readLuke": "Luke",
     "contact": "Contact",
     "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Legal",
@@ -23,9 +23,10 @@
     "accessibility": "Accessibility",
     "imprint": "Imprint",
     "licence": "Licence",
-    "licenseText": "CC BY-NC-ND 4.0 – Free to share with attribution. NonCommercial — NoDerivatives.",
+    "licenseText": "CC BY-ND 4.0 — free to read, share, quote, and use, including commercially. The text itself stays unchanged.",
     "copyright": "2025 Aperto Bible Project",
-    "getInvolved": "Get Involved"
+    "getInvolved": "Get Involved",
+    "licenseLink": "License details"
   },
   "home": {
     "alphaNotice": "Early Alpha",
@@ -67,8 +68,8 @@
     "accessibleDesc": "Key cultural and historical context is woven directly into the text — visually marked, so you always know what's Scripture and what's enrichment. Footnotes go deeper in five labeled categories: Text, Culture, Context, Life, and Difficult.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Audio Bible, podcasts, original songs, and spiritual practices. Experience the text in the way that resonates with you.",
-    "openSource": "Open Source",
-    "openSourceDesc": "CC BY-NC-ND 4.0 licence. Free to share with attribution. NonCommercial — NoDerivatives. Available in multiple languages.",
+    "openSource": "Free to use",
+    "openSourceDesc": "Freely accessible — read, share, quote, and use, including commercially. Attribution required; the text itself stays unchanged. Licensed CC BY-ND 4.0 and available in multiple languages.",
     "startReading": "Start Reading",
     "startReadingDesc": "We begin with Luke Chapter 1: the announcement of John the Baptist, the angel Gabriel visiting Mary, and two revolutionary songs that still echo today.",
     "getInvolved": {
@@ -144,17 +145,22 @@
       "transparentDesc": "you can see exactly what we've done and why",
       "invitation": "Open as in invitation",
       "invitationDesc": "come as you are, questions and all",
-      "source": "Open source",
-      "sourceDesc": "freely shared, built to be built upon"
+      "source": "Open as in free to use",
+      "sourceDesc": "freely shared — read it, quote it, build on it; the text itself stays unchanged"
     },
     "join": {
       "title": "Join Us",
-      "p1": "We're building this one chapter at a time, one book at a time. Right now, you can read Luke 1—the announcement of John the Baptist, Gabriel's visit to Mary, and two songs that changed the world.",
+      "p1": "We're building this one chapter at a time, one book at a time. The Gospel of Luke is now complete to read in German, English, and Polish. The in-depth commentary begins with Luke 1–2 and keeps expanding — and every verse already carries its notes inline.",
       "p2": "Come see what we're making. Bring your doubts. Bring your longing.",
-      "readLuke": "Read Luke 1",
+      "readLuke": "Read Luke",
       "goDeeper": "Want to go deeper?",
       "goDeeperDesc": "Learn how we translate, how our AI workflows function, and the scholarship behind every decision.",
       "processLink": "Our Process →"
+    },
+    "who": {
+      "title": "Who's behind this",
+      "body": "Aperto is founded and edited by [YOUR NAME] — [role / credentials, e.g. theologian and designer]. [One or two sentences: why you started Aperto and what qualifies you to steward the text.]",
+      "corrections": "Found an error, or disagree with a rendering? Write to info [at] aperto [dot] bible. Corrections and objections are genuinely welcome, and we work them in on the record."
     }
   },
   "process": {
@@ -302,7 +308,7 @@
       "agree": "I agree to receive email updates and promotions.",
       "button": "Receive the Aperto Newsletter"
     },
-    "readLuke": "Read Luke 1 →"
+    "readLuke": "Read Luke →"
   },
   "reader": {
     "luke": "Luke",
@@ -343,6 +349,65 @@
     "song": {
       "tagline": "Experience the Bible through song",
       "artist": "Aperto Collective"
+    }
+  },
+  "legal": {
+    "imprint": {
+      "title": "Imprint",
+      "responsible": {
+        "title": "Information pursuant to § 5 DDG",
+        "text": "[YOUR NAME / LEGAL ENTITY]\n[Street and number]\n[Postcode and city]\n[Country]\n\nResponsible for content pursuant to § 18 (2) MStV (V.i.S.d.P.): [YOUR NAME]"
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "Email: info [at] aperto [dot] bible"
+      },
+      "disclaimer": {
+        "title": "Liability for content",
+        "text": "The content of these pages was created with care. We are responsible for our own content on these pages in accordance with general law. We are not obliged to monitor transmitted or stored third-party information."
+      },
+      "license": {
+        "title": "Copyright",
+        "text": "The Aperto translation text is published under CC BY-ND 4.0. Commentary, audio, the scholarly apparatus, and the app are separately licensed. See the license page for the full terms."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This site is designed to collect as little personal data as possible. This policy explains what is processed and why.",
+      "dataCollection": {
+        "title": "Data we process",
+        "text": "When you sign up for the newsletter or use the feedback form, we process the details you provide (such as your name and email address) solely to respond to you and to send the updates you requested. Newsletter and form handling run through [PROCESSOR — e.g. Tally]; see their privacy terms for details."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "text": "This site is hosted by [HOST — e.g. GitHub Pages]. The host may process technical access data (such as your IP address) in server logs to deliver the site and maintain security."
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "For any question about your data, or to exercise your rights, write to info [at] aperto [dot] bible."
+      },
+      "rights": {
+        "title": "Your rights",
+        "text": "Under the GDPR you have the right to access, rectification, erasure, restriction of processing, data portability, and objection. You may also lodge a complaint with a supervisory authority."
+      },
+      "lastUpdated": "Last updated: [DATE]"
+    },
+    "license": {
+      "title": "License",
+      "intro": "Aperto is meant to be freely accessible — and to stay textually stable. That is why the translation text is licensed differently from everything built around it.",
+      "text": {
+        "title": "The translation text: CC BY-ND 4.0",
+        "body": "The Aperto Bible text is licensed under Creative Commons CC BY-ND 4.0. That means it is free to read, share, quote, and use — including commercially. Only two conditions apply: attribution, and no modified versions. This makes the text freer than any major German translation — and just as textually stable."
+      },
+      "other": {
+        "title": "Commentary, audio, apparatus, and app",
+        "body": "The commentary, the audio recordings, the scholarly apparatus, and the app are licensed separately, with all rights reserved. The free text and the work built around it follow different rules."
+      },
+      "permissions": {
+        "title": "Two explicit permissions",
+        "audio": "Verbatim, unmodified audio recordings of the text are expressly permitted.",
+        "translations": "Third-party translations of the text into other languages are not permitted — Aperto is multilingual by design. If you would like to help with a language version, you are warmly invited: translate.aperto.bible or info [at] aperto [dot] bible."
+      }
     }
   }
 }
