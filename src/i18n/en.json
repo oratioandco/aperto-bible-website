@@ -412,6 +412,33 @@
         "audio": "Verbatim, unmodified audio recordings of the text are expressly permitted.",
         "translations": "Third-party translations of the text into other languages are not permitted — Aperto is multilingual by design. If you would like to help with a language version, you are warmly invited: translate.aperto.bible."
       }
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "intro": "We want Aperto to be usable by everyone, regardless of ability or device. This statement describes where we stand and how to reach us if something gets in your way.",
+      "standards": {
+        "title": "The standard we aim for",
+        "text": "We build toward the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA. Aperto is in early development, so not every page meets that bar yet — but it is the target we design and test against."
+      },
+      "features": {
+        "title": "What's in place",
+        "list": [
+          "Semantic HTML with a clear heading structure, so screen readers can navigate each page.",
+          "Full keyboard access to navigation, menus, and interactive controls.",
+          "Text that scales with your browser or system settings without breaking the layout.",
+          "Reduced-motion support: the animated hero is replaced with a still image when your system asks to reduce motion.",
+          "Light and dark themes that follow your system preference, with text kept at readable contrast.",
+          "Correct language markup on every page, including right-to-left rendering for Arabic."
+        ]
+      },
+      "feedback": {
+        "title": "Tell us what's not working",
+        "text": "If you hit an accessibility barrier anywhere on the site, we want to know — and we'll fix it. Write to us:"
+      },
+      "ongoing": {
+        "title": "An ongoing commitment",
+        "text": "Accessibility is not a one-time checklist. As we add books, audio, and features, we test and revise — and this statement will be updated as things change."
+      }
     }
   }
 }
