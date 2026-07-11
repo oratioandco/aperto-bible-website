@@ -33,13 +33,16 @@ const fmt = (iso: string) =>
   new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 
-<BaseLayout title={meta.title} description={meta.description} lang="en">
+<BaseLayout title={meta.title} description={meta.description} lang="en" image={meta.cover}>
   <article class="journal-post">
     <p class="post-meta">
       <a href="/journal/">Journal</a> · {fmt(meta.date)} · {meta.author}
     </p>
     <h1>{meta.title}</h1>
     <p class="post-lead">{meta.description}</p>
+    {meta.cover && (
+      <img class="post-cover" src={meta.cover} alt={meta.coverAlt ?? ''} />
+    )}
     <div class="prose" set:html={html} />
 
     <div class="post-footer">
@@ -63,6 +66,10 @@ const fmt = (iso: string) =>
   .post-lead {
     font-family: 'Switzer', sans-serif; font-size: 1.18rem; line-height: 1.65;
     color: #5A5A5A; margin: 0 0 2.5rem;
+  }
+  .post-cover {
+    display: block; width: 100%; border-radius: 10px; margin: 0 0 2.5rem;
+    border: 1px solid rgba(139, 115, 85, 0.2);
   }
   .prose { font-family: 'Switzer', sans-serif; font-size: 1.06rem; line-height: 1.75; color: #4A4A4A; }
   :global(.journal-post .prose p) { margin: 0 0 1.25rem; }

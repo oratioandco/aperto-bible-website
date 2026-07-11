@@ -7,6 +7,8 @@ export interface JournalPost {
   description: string;
   date: string; // ISO date
   author: string;
+  cover?: string; // site-relative image path (also used as og:image)
+  coverAlt?: string;
   body: string; // markdown without frontmatter
 }
 
@@ -26,6 +28,8 @@ export function parsePost(path: string, raw: string): JournalPost {
     description: meta.description ?? '',
     date: meta.date ?? '',
     author: meta.author ?? 'Aperto',
+    cover: meta.cover,
+    coverAlt: meta.coverAlt,
     body: m ? raw.slice(m[0].length) : raw,
   };
 }

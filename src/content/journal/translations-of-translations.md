@@ -3,6 +3,8 @@ title: Translations of translations
 description: Most "AI Bible translations" are syntheses of century-old translations. What we build instead — and what it costs.
 date: 2026-07-13
 author: Tobias Treppmann
+cover: /images/journal/translations-of-translations.jpeg
+coverAlt: A stack of worn antique Bibles in shadow beside a single open Hebrew Bible with pencil annotations, lit by warm window light
 ---
 
 **The demo is real**
