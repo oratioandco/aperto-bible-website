@@ -5,14 +5,14 @@
     "process": "Unser Prozess",
     "methodology": "Methodik",
     "read": "Lesen",
-    "readLuke": "Lukas 1 lesen",
+    "readLuke": "Lukas lesen",
     "menu": "Menü",
     "language": "Sprache"
   },
   "footer": {
     "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt.",
     "navigate": "Navigation",
-    "readLuke": "Lukas 1",
+    "readLuke": "Lukas",
     "contact": "Kontakt",
     "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Rechtliches",
@@ -20,9 +20,10 @@
     "accessibility": "Barrierefreiheit",
     "imprint": "Impressum",
     "licence": "Lizenz",
-    "licenseText": "CC BY-NC-ND 4.0 – Frei zu teilen unter Namensnennung. NichtKommerziell — KeineBearbeitung.",
+    "licenseText": "CC BY-ND 4.0 – frei zu lesen, zu teilen, zu zitieren und zu verwenden, auch kommerziell. Der Text selbst bleibt unverändert.",
     "copyright": "2025 Aperto Bible Project",
-    "getInvolved": "Mitmachen"
+    "getInvolved": "Mitmachen",
+    "licenseLink": "Zur Lizenz"
   },
   "home": {
     "alphaNotice": "Frühe Alpha",
@@ -64,8 +65,8 @@
     "accessibleDesc": "Wichtiger kultureller und historischer Kontext ist unmittelbar in den Text eingewoben, sichtbar, damit immer klar ist, was Bibeltext ist und was Ergänzung. Dazu gibt es Kommentare in fünf Kategorien: Text, Kultur, Kontext, Leben und Schwierig.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Audiobibel, Podcasts, eigens komponierte Lieder und geistliche Übungen. Der Text auf die Weise, die anspricht.",
-    "openSource": "Open Source",
-    "openSourceDesc": "Lizenz CC BY-NC-ND 4.0. Frei zu teilen mit Namensnennung. Nicht kommerziell – keine Bearbeitungen. Verfügbar in mehreren Sprachen.",
+    "openSource": "Frei zugänglich",
+    "openSourceDesc": "Frei zugänglich — lesen, teilen, zitieren, verwenden, auch kommerziell. Für immer kostenlos. Der Text selbst bleibt unverändert. Lizenz CC BY-ND 4.0, verfügbar in mehreren Sprachen.",
     "startReading": "Jetzt lesen",
     "startReadingDesc": "Den Anfang macht das erste Kapitel des Lukasevangeliums: die Ankündigung Johannes des Täufers, der Engel Gabriel zu Besuch bei Maria und zwei umstürzende Lieder, deren Anklänge bis heute nachhallen.",
     "getInvolved": {
@@ -141,17 +142,22 @@
       "transparentDesc": "alles, was wir getan haben, ist sichtbar – und warum",
       "invitation": "Offen im Sinne einer Einladung",
       "invitationDesc": "komm, wie du bist, mitsamt deinen Fragen",
-      "source": "Offen wie Open Source",
-      "sourceDesc": "frei geteilt, gemacht, um darauf weiterzubauen"
+      "source": "Offen im Sinne von frei zugänglich",
+      "sourceDesc": "frei geteilt — lesen, zitieren, weitertragen; der Text selbst bleibt unverändert"
     },
     "join": {
       "title": "Mach mit",
-      "p1": "Wir bauen das Kapitel für Kapitel, Buch für Buch. Im Moment lässt sich Lukas 1 lesen – die Ankündigung von Johannes dem Täufer, der Besuch Gabriels bei Maria und zwei Lieder, die die Welt verändert haben.",
+      "p1": "Wir bauen das Kapitel für Kapitel, Buch für Buch. Das Lukasevangelium ist bereits vollständig zu lesen – auf Deutsch, Englisch und Polnisch. Die vertiefte Auslegung beginnt bei Lukas 1–2 und wächst weiter; jeder Vers trägt seine Anmerkungen schon jetzt unmittelbar im Text.",
       "p2": "Komm und sieh, woran wir arbeiten. Bring deine Zweifel mit. Bring deine Sehnsucht mit.",
-      "readLuke": "Lukas 1 lesen",
+      "readLuke": "Lukas lesen",
       "goDeeper": "Lust, tiefer einzutauchen?",
       "goDeeperDesc": "Wie wir übersetzen, wie unsere KI-Arbeitsabläufe funktionieren und welche Gelehrsamkeit hinter jeder Entscheidung steht.",
       "processLink": "Unser Vorgehen →"
+    },
+    "who": {
+      "title": "Wer dahintersteht",
+      "body": "Aperto wird von [DEIN NAME] verantwortet – [Rolle / Qualifikation, z. B. Theologe und Gestalter]. [Ein bis zwei Sätze: warum du Aperto begonnen hast und was dich befähigt, den Text zu verantworten.]",
+      "corrections": "Einen Fehler entdeckt oder mit einer Wiedergabe nicht einverstanden? Schreib an info [at] aperto [dot] bible. Korrekturen und Einwände sind ausdrücklich willkommen und werden nachvollziehbar eingearbeitet."
     }
   },
   "process": {
@@ -299,7 +305,7 @@
       "agree": "Einverstanden, Neuigkeiten und Hinweise per E-Mail zu erhalten.",
       "button": "Den Aperto-Newsletter abonnieren"
     },
-    "readLuke": "Lukas 1 lesen →"
+    "readLuke": "Lukas lesen →"
   },
   "reader": {
     "luke": "Lukas",
@@ -340,6 +346,65 @@
     "song": {
       "tagline": "Erlebe die Bibel im Lied",
       "artist": "Aperto Collective"
+    }
+  },
+  "legal": {
+    "imprint": {
+      "title": "Impressum",
+      "responsible": {
+        "title": "Angaben gemäß § 5 DDG",
+        "text": "[DEIN NAME / RECHTSFORM]\n[Straße und Hausnummer]\n[PLZ und Ort]\n[Land]\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV (V.i.S.d.P.): [DEIN NAME]"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "E-Mail: info [at] aperto [dot] bible"
+      },
+      "disclaimer": {
+        "title": "Haftung für Inhalte",
+        "text": "Die Inhalte dieser Seiten wurden mit Sorgfalt erstellt. Für eigene Inhalte auf diesen Seiten sind wir nach den allgemeinen Gesetzen verantwortlich. Eine Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen, besteht nicht."
+      },
+      "license": {
+        "title": "Urheberrecht",
+        "text": "Der Übersetzungstext von Aperto steht unter CC BY-ND 4.0. Auslegung, Audio, wissenschaftlicher Apparat und App sind gesondert lizenziert. Die vollständigen Bedingungen stehen auf der Lizenzseite."
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "intro": "Diese Seite ist darauf ausgelegt, so wenig personenbezogene Daten wie möglich zu erheben. Diese Erklärung sagt, was verarbeitet wird und warum.",
+      "dataCollection": {
+        "title": "Welche Daten wir verarbeiten",
+        "text": "Wenn du dich für den Newsletter anmeldest oder das Feedback-Formular nutzt, verarbeiten wir die von dir angegebenen Daten (etwa Name und E-Mail-Adresse) ausschließlich, um dir zu antworten und dir die gewünschten Neuigkeiten zu senden. Newsletter und Formulare laufen über [DIENSTLEISTER – z. B. Tally]; Näheres in deren Datenschutzhinweisen."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "text": "Diese Seite wird bei [HOSTER – z. B. GitHub Pages] gehostet. Der Hoster kann technische Zugriffsdaten (etwa deine IP-Adresse) in Server-Logs verarbeiten, um die Seite auszuliefern und die Sicherheit zu wahren."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Bei jeder Frage zu deinen Daten oder zur Ausübung deiner Rechte schreib an info [at] aperto [dot] bible."
+      },
+      "rights": {
+        "title": "Deine Rechte",
+        "text": "Nach der DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Du kannst dich außerdem bei einer Aufsichtsbehörde beschweren."
+      },
+      "lastUpdated": "Zuletzt aktualisiert: [DATUM]"
+    },
+    "license": {
+      "title": "Lizenz",
+      "intro": "Aperto soll frei zugänglich sein – und zugleich textlich stabil bleiben. Deshalb ist der Übersetzungstext anders lizenziert als alles, was darum herum aufgebaut ist.",
+      "text": {
+        "title": "Der Übersetzungstext: CC BY-ND 4.0",
+        "body": "Der Bibeltext von Aperto steht unter der Creative-Commons-Lizenz CC BY-ND 4.0. Das heißt: frei zu lesen, zu teilen, zu zitieren und zu verwenden – auch kommerziell. Es gelten nur zwei Bedingungen: Namensnennung und keine veränderten Fassungen. Damit ist der Text freier als jede große deutsche Übersetzung – und genauso textlich stabil."
+      },
+      "other": {
+        "title": "Auslegung, Audio, Apparat und App",
+        "body": "Die Auslegung, die Audioaufnahmen, der wissenschaftliche Apparat und die App sind gesondert lizenziert; hier bleiben alle Rechte vorbehalten. Der freie Text und das darum herum aufgebaute Werk folgen unterschiedlichen Regeln."
+      },
+      "permissions": {
+        "title": "Zwei ausdrückliche Erlaubnisse",
+        "audio": "Wortgetreue, unveränderte Audioaufnahmen des Textes sind ausdrücklich erlaubt.",
+        "translations": "Übersetzungen des Textes in weitere Sprachen durch Dritte sind nicht gestattet – Aperto ist von Grund auf mehrsprachig angelegt. Wer an einer Sprachfassung mitarbeiten möchte, ist herzlich eingeladen: translate.aperto.bible oder info [at] aperto [dot] bible."
+      }
     }
   }
 }
