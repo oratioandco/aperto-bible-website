@@ -72,6 +72,9 @@ const localizedExegesisLangs = ['da', 'es', 'it', 'pt', 'sv', 'uk'];
 const exegesisBasePath = localizedExegesisLangs.includes(lang)
   ? `${base}/${lang}/exegesis/${book}/${chapter}`
   : `${base}/exegesis/${book}/${chapter}`;
+// Flagship de/pl (and any other non-localized language) fall back to the
+// English exegesis — flag it so the reader isn't sent there without warning.
+const exegesisInEnglish = !localizedExegesisLangs.includes(lang) && lang !== 'en';
 
 const songs: Song[] = media.songs || (media.song ? [{ ...media.song, genre: '' }] : []);
 const hasMedia = media.practice || songs.length > 0 || media.podcast || exegesis || media.audioBible;
@@ -523,7 +526,7 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
                   </div>
                   <div class="media-card-text">
                     <span class="media-card-label">{t('reader.exegesis.label')}</span>
-                    <span class="media-card-title">{t('reader.exegesis.title')}</span>
+                    <span class="media-card-title">{t('reader.exegesis.title')}{exegesisInEnglish ? ` · ${t('reader.exegesis.inEnglish')}` : ''}</span>
                   </div>
                 </div>
                 <div class="media-card-arrow">

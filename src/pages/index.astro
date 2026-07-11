@@ -18,7 +18,7 @@ const lukeNames = {
 };
 ---
 
-<BaseLayout title={t('nav.home')} lang={lang} heroPage={true}>
+<BaseLayout title={t('home.pageTitle')} lang={lang} heroPage={true}>
   <!-- Video Hero -->
   <section class="video-hero">
     <video
@@ -39,6 +39,7 @@ const lukeNames = {
       <p class="hero-tagline">
         {t('home.tagline')}
       </p>
+      <p class="hero-ai-clause">{t('home.aiClause')}</p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
         <a href={`${base}${lang}/luke/1`} class="hero-btn">
           {t('home.readLuke')}
@@ -142,7 +143,14 @@ const lukeNames = {
       line-height: 1.6;
       color: rgba(255, 251, 245, 0.82);
       max-width: 36rem;
-      margin: 0 auto 2.5rem;
+      margin: 0 auto 1.25rem;
+    }
+    .hero-ai-clause {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255, 251, 245, 0.6);
+      margin: 0 auto 2.25rem;
     }
     .hero-btn {
       display: inline-block;
@@ -214,6 +222,9 @@ const lukeNames = {
           </p>
         </div>
       </div>
+      <p class="text-center text-lg mt-12 max-w-2xl mx-auto" style="color: #6A6A6A; font-style: italic;">
+        {t('home.honestNotes')}
+      </p>
     </div>
   </section>
 
