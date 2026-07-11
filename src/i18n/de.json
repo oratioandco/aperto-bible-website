@@ -21,7 +21,8 @@
     "licence": "Lizenz",
     "licenseText": "Übersetzungstext: CC BY-ND 4.0 — frei lesen, teilen, zitieren und verwenden, mit Namensnennung, ohne Veränderung. Alle weiteren Inhalte: alle Rechte vorbehalten. Details im Impressum.",
     "copyright": "2026 Aperto Bible Project",
-    "getInvolved": "Mitmachen"
+    "getInvolved": "Mitmachen",
+    "licenseLink": "Zur Lizenz"
   },
   "home": {
     "alphaNotice": "Frühe Alpha",
@@ -403,6 +404,33 @@
         "title": "Zwei ausdrückliche Erlaubnisse",
         "audio": "Wortgetreue, unveränderte Audioaufnahmen des Textes sind ausdrücklich erlaubt.",
         "translations": "Übersetzungen des Textes in weitere Sprachen durch Dritte sind nicht gestattet – Aperto ist von Grund auf mehrsprachig angelegt. Wer an einer Sprachfassung mitarbeiten möchte, ist herzlich eingeladen: translate.aperto.bible."
+      }
+    },
+    "accessibility": {
+      "title": "Barrierefreiheit",
+      "intro": "Aperto soll für alle nutzbar sein – unabhängig von Fähigkeiten oder Gerät. Diese Erklärung beschreibt, wo wir stehen und wie du uns erreichst, wenn dir etwas im Weg steht.",
+      "standards": {
+        "title": "Woran wir uns messen",
+        "text": "Wir arbeiten auf die Web Content Accessibility Guidelines (WCAG) 2.1, Stufe AA, hin. Aperto ist noch in früher Entwicklung, deshalb erreicht noch nicht jede Seite diesen Maßstab – aber er ist das Ziel, an dem wir gestalten und prüfen."
+      },
+      "features": {
+        "title": "Was schon da ist",
+        "list": [
+          "Semantisches HTML mit klarer Überschriftenstruktur, damit Screenreader jede Seite gut erschließen.",
+          "Vollständige Tastaturbedienung für Navigation, Menüs und interaktive Elemente.",
+          "Text, der mit den Browser- oder Systemeinstellungen skaliert, ohne dass das Layout bricht.",
+          "Rücksicht auf reduzierte Bewegung: Das animierte Titelbild wird durch ein Standbild ersetzt, wenn dein System weniger Bewegung anfordert.",
+          "Helles und dunkles Design nach deiner Systemeinstellung, mit lesbarem Kontrast.",
+          "Korrekte Sprachauszeichnung auf jeder Seite, inklusive Rechts-nach-links-Darstellung für Arabisch."
+        ]
+      },
+      "feedback": {
+        "title": "Sag uns, was nicht funktioniert",
+        "text": "Wenn dir irgendwo auf der Seite eine Barriere begegnet, wollen wir davon wissen – und wir beheben es. Schreib uns:"
+      },
+      "ongoing": {
+        "title": "Eine fortlaufende Verpflichtung",
+        "text": "Barrierefreiheit ist keine einmalige Checkliste. Mit jedem neuen Buch, jeder Audiofunktion und jedem Feature prüfen und überarbeiten wir – und diese Erklärung wird aktualisiert, wenn sich etwas ändert."
       }
     }
   }
