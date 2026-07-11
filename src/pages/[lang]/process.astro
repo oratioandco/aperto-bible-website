@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ObfuscatedEmail from '../../components/ObfuscatedEmail.astro';
 import { useTranslations } from '../../i18n/utils';
 import { hasTextContent } from '../../data/textLanguages';
 
@@ -233,7 +234,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
           <li>{t('process.involved.feedback')}</li>
         </ul>
         <p class="text-base" style="color: #5A5A5A;">
-          {t('process.involved.contact')}: <span style="color: #8B7355;">info [at] aperto [dot] bible</span>
+          {t('process.involved.contact')}: <ObfuscatedEmail user="tobias" domain="aperto.bible" />
         </p>
       </section>
 

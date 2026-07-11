@@ -17,7 +17,6 @@
     "navigate": "Navigation",
     "readLuke": "Read Luke",
     "contact": "Contact",
-    "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "accessibility": "Accessibility",
@@ -302,8 +301,7 @@
       "audio": "Audio & music production – Narration, original compositions",
       "technical": "Technical development – Platform, workflow, accessibility",
       "feedback": "Feedback – Read, respond, help us improve",
-      "contact": "Contact us",
-      "contactEmail": "info [at] aperto [dot] bible"
+      "contact": "Contact us"
     },
     "newsletter": {
       "title": "Stay Updated",
@@ -396,6 +394,23 @@
       "contact": {
         "title": "Controller",
         "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany"
+      }
+    },
+    "license": {
+      "title": "License",
+      "intro": "Aperto is meant to be freely accessible — and to stay textually stable. That is why the translation text is licensed differently from everything built around it.",
+      "text": {
+        "title": "The translation text: CC BY-ND 4.0",
+        "body": "The Aperto Bible text is licensed under Creative Commons CC BY-ND 4.0. That means it is free to read, share, quote, and use — including commercially. Only two conditions apply: attribution, and no modified versions. This makes the text freer than any major German translation — and just as textually stable."
+      },
+      "other": {
+        "title": "Commentary, audio, apparatus, and app",
+        "body": "The commentary, the audio recordings, the scholarly apparatus, and the app are licensed separately, with all rights reserved. The free text and the work built around it follow different rules."
+      },
+      "permissions": {
+        "title": "Two explicit permissions",
+        "audio": "Verbatim, unmodified audio recordings of the text are expressly permitted.",
+        "translations": "Third-party translations of the text into other languages are not permitted — Aperto is multilingual by design. If you would like to help with a language version, you are warmly invited: translate.aperto.bible."
       }
     }
   }

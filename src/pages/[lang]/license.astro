@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'da' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'pl' } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'sv' } },
+    { params: { lang: 'tr' } },
+    { params: { lang: 'uk' } },
+    { params: { lang: 'nl' } },
+    { params: { lang: 'ro' } },
+    { params: { lang: 'cs' } },
+    { params: { lang: 'el' } },
+    { params: { lang: 'hu' } },
+    { params: { lang: 'bg' } },
+    { params: { lang: 'hr' } },
+    { params: { lang: 'fi' } },
+    { params: { lang: 'sk' } },
+    { params: { lang: 'lt' } },
+    { params: { lang: 'sl' } },
+    { params: { lang: 'lv' } },
+    { params: { lang: 'et' } },
+    { params: { lang: 'ga' } },
+    { params: { lang: 'mt' } },
+    { params: { lang: 'nb' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'ar' } },
+    { params: { lang: 'ca' } },
+    { params: { lang: 'sq' } },
+  ];
+}
+
+const { lang } = Astro.params as { lang: string };
+const t = useTranslations(lang);
+---
+
+<BaseLayout title={t('legal.license.title')} lang={lang}>
+  <article class="py-16 md:py-24 px-8 md:px-16 lg:px-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl mb-8 headline-mixed">{t('legal.license.title')}</h1>
+
+      <p class="text-lg leading-relaxed mb-12" style="color: #5A5A5A;">
+        {t('legal.license.intro')}
+      </p>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.license.text.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('legal.license.text.body')}
+        </p>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.license.other.title')}</h2>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('legal.license.other.body')}
+        </p>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl mb-4 headline-mixed">{t('legal.license.permissions.title')}</h2>
+        <ul class="space-y-4 text-lg leading-relaxed list-disc pl-6" style="color: #5A5A5A;">
+          <li>{t('legal.license.permissions.audio')}</li>
+          <li>{t('legal.license.permissions.translations')}</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+</BaseLayout>

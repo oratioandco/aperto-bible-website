@@ -14,7 +14,6 @@
     "navigate": "Nawigacja",
     "readLuke": "Czytaj Łukasza",
     "contact": "Kontakt",
-    "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Informacje prawne",
     "privacy": "Polityka prywatności",
     "accessibility": "Dostępność",
@@ -188,8 +187,7 @@
       "audio": "Produkcja audio i muzyczna – Narracja, oryginalne kompozycje",
       "technical": "Rozwój techniczny – Platforma, przepływ pracy, dostępność",
       "feedback": "Opinii – Czytaj, odpowiadaj, pomóż nam ulepszać",
-      "contact": "Skontaktuj się z nami",
-      "contactEmail": "info [at] aperto [dot] bible"
+      "contact": "Skontaktuj się z nami"
     },
     "newsletter": {
       "title": "Bądź na bieżąco",
@@ -243,8 +241,7 @@
         ]
       },
       "feedback": {
-        "title": "Opinie",
-        "text": "Cenimy opinie dotyczące dostępności. Jeśli napotkasz bariery lub masz sugestie dotyczące ulepszeń, skontaktuj się z nami pod adresem info [at] aperto [dot] bible."
+        "title": "Opinie"
       },
       "ongoing": {
         "title": "Ciągłe wysiłki",
@@ -268,6 +265,23 @@
       "license": {
         "title": "Licencja treści",
         "text": "Tekst przekładu Biblii Aperto jest na licencji CC BY-ND 4.0: wolno go czytać, udostępniać, cytować i wykorzystywać — z podaniem źródła i bez zmian. Dozwolone są wierne, niezmienione nagrania audio tekstu. Egzegeza, produkcje audio, ilustracje i wszystkie pozostałe treści: wszelkie prawa zastrzeżone."
+      }
+    },
+    "license": {
+      "title": "Licencja",
+      "intro": "Aperto ma być wolno dostępne — i tekstowo stabilne. Dlatego tekst przekładu jest licencjonowany inaczej niż wszystko, co powstaje wokół niego.",
+      "text": {
+        "title": "Tekst przekładu: CC BY-ND 4.0",
+        "body": "Tekst Biblii Aperto jest na licencji Creative Commons CC BY-ND 4.0. Można go czytać, udostępniać, cytować i wykorzystywać — także komercyjnie. Obowiązują tylko dwa warunki: podanie źródła i brak zmodyfikowanych wersji."
+      },
+      "other": {
+        "title": "Komentarz, audio, aparat naukowy i aplikacja",
+        "body": "Komentarz, nagrania audio, aparat naukowy i aplikacja są licencjonowane osobno, z zastrzeżeniem wszelkich praw."
+      },
+      "permissions": {
+        "title": "Dwa wyraźne pozwolenia",
+        "audio": "Wierne, niezmienione nagrania audio tekstu są wyraźnie dozwolone.",
+        "translations": "Przekłady tekstu na inne języki przez osoby trzecie nie są dozwolone — Aperto jest wielojęzyczne z założenia. Zapraszamy do współpracy nad wersją w Twoim języku: translate.aperto.bible."
       }
     }
   },

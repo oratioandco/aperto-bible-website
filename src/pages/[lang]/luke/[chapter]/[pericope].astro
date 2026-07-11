@@ -156,8 +156,9 @@ const verseData = chapterContent
   ? getVersesForPericope(pericope.verses, chapterContent.sections)
   : [];
 
-// Book name for breadcrumb (use i18n if available, else Luke)
-const bookName = (t as any)('nav.readLuke')?.replace(/\s*\d+.*$/, '').trim() || 'Luke';
+// Book name for breadcrumb (dedicated i18n key, else Luke)
+const rawBookName = (t as any)('reader.luke');
+const bookName = (rawBookName && rawBookName !== 'reader.luke') ? rawBookName : 'Luke';
 
 // ── Book switcher — discover books with intros for this language ─────────
 const psalmsIntroMods = import.meta.glob('../../../../content/introductions-psalms/*.md', { eager: true });
