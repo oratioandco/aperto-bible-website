@@ -192,6 +192,7 @@ const booksLabel = booksLabelMap[lang] ?? 'Books';
   title={`${pericope.title} — ${bookName} ${chapter}`}
   lang={lang}
   description={`${bookName} ${chapter}:${pericope.verses} — ${pericope.title}`}
+  image={pericope.image ? `/images/acts/${chapter}/${pericope.image}` : undefined}
 >
 
   <!-- Top bar: prev + breadcrumb + study toggle + next -->
