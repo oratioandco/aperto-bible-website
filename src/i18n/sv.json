@@ -4,23 +4,19 @@
     "about": "Om oss",
     "process": "Vår process",
     "read": "Läs",
-    "readLuke": "Läs Lukas 1",
     "menu": "Meny",
     "language": "Språk"
   },
   "footer": {
     "tagline": "En fräsch översättning som välkomnar alla till samtalet.",
     "navigate": "Navigering",
-    "readLuke": "Lukas 1",
     "contact": "Kontakt",
-    "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Juridiskt",
     "privacy": "Integritetspolicy",
     "accessibility": "Tillgänglighet",
     "imprint": "Impressum",
     "licence": "Licens",
-    "licenseText": "CC BY-ND 4.0 – Fri att dela med erkännande.",
-    "copyright": "2025 Aperto Bible Project",
+    "copyright": "2026 Aperto Bible Project",
     "getInvolved": "Engagera dig"
   },
   "home": {
@@ -57,14 +53,11 @@
       "description": "Börja med Lukas 1—tillkännagivandet av Johannes Döparen, Gabriels besök hos Maria, och två sånger som förändrade världen."
     },
     "tagline": "En fräsch översättning som välkomnar alla till samtalet, oavsett om du är djupt rotad i tron, utforskar utifrån, eller befinner dig någonstans mittemellan.",
-    "readLuke": "Läs Lukas 1",
     "differentBible": "En annorlunda sorts bibel",
     "accessible": "Kontext invävd",
     "accessibleDesc": "Det viktigaste kulturella och historiska sammanhanget är invävt direkt i texten — visuellt markerat, så att du alltid vet vad som är Skrift och vad som är berikning. Fem kategorier fotnoter öppnar ännu djupare lager: Text, Kultur, Kontext, Liv och Svårt.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Ljudbibel, podcasts, originalsånger och andliga övningar. Upplev texten på det sätt som talar till dig.",
-    "openSource": "Öppen källkod",
-    "openSourceDesc": "CC BY-ND 4.0 licens. Fri att dela med erkännande. Tillgänglig på flera språk.",
     "startReading": "Börja läsa",
     "startReadingDesc": "Vi börjar med Lukas kapitel 1: tillkännagivandet av Johannes Döparen, ängeln Gabriels besök hos Maria, och två revolutionära sånger som fortfarande ekar idag.",
     "getInvolved": {
@@ -90,8 +83,7 @@
       "accessibleDesc": "Samtida språk som läses som modern litteratur. Ingen religiös jargong, ingen insidervokabulär, bara texten, levande och direkt. Ärliga fotnoter som gör komplexitet tillgänglig istället för dold.",
       "multimedia": "Multimedia först",
       "multimediaDesc": "Ljudbibel, podcasts, originalsånger och kontemplativa övningar. Vi möter människor där de är, inte bara där de borde vara.",
-      "openSource": "Radikalt öppen",
-      "openSourceDesc": "CC BY-NC-ND 4.0 licens. Fri att dela med erkännande. IckeKommersiell — IngenBearbetning. Tillgänglig på flera språk."
+      "openSource": "Radikalt öppen"
     },
     "languages": {
       "title": "Tillgängliga språk",
@@ -99,7 +91,6 @@
     },
     "license": {
       "title": "Licens",
-      "p1": "Aperto släpps under Creative Commons Erkännande-DelaLika 4.0 Internationell Licens (CC BY-NC-ND 4.0). Detta innebär:",
       "share": "Du får dela och vidaredistribuera materialet i valfritt format",
       "adapt": "Du får remixa, transformera och bygga vidare på materialet",
       "attribution": "Du måste ge lämpligt erkännande",
@@ -239,8 +230,7 @@
       "audio": "Ljud och musikproduktion – Uppläsning, originalkompositioner",
       "technical": "Teknisk utveckling – Plattform, arbetsflöde, tillgänglighet",
       "feedback": "Feedback – Läs, svara, hjälp oss att förbättra",
-      "contact": "Kontakta oss",
-      "contactEmail": "info [at] aperto [dot] bible"
+      "contact": "Kontakta oss"
     },
     "newsletter": {
       "title": "Håll dig uppdaterad",
@@ -267,7 +257,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "text": "För integritetsrelaterade frågor, kontakta oss på info [at] aperto [dot] bible."
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany"
       },
       "rights": {
         "title": "Dina rättigheter",
@@ -294,8 +284,7 @@
         ]
       },
       "feedback": {
-        "title": "Feedback",
-        "text": "Vi välkomnar feedback om tillgänglighet. Om du stöter på hinder eller har förslag på förbättringar, kontakta oss på info [at] aperto [dot] bible."
+        "title": "Feedback"
       },
       "ongoing": {
         "title": "Pågående arbete",
@@ -306,19 +295,18 @@
       "title": "Impressum",
       "responsible": {
         "title": "Ansvarig för innehåll",
-        "text": "Aperto Bible Project"
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany\n\nResponsible for content according to § 18 (2) MStV: Tobias Treppmann, address as above."
       },
       "contact": {
         "title": "Kontakt",
-        "text": "E-post: info [at] aperto [dot] bible"
+        "text": "Email:"
       },
       "disclaimer": {
         "title": "Ansvarsfriskrivning",
         "text": "Innehållet på denna webbplats tillhandahålls i informationssyfte. Vi gör alla ansträngningar för att säkerställa noggrannhet, men kan inte garantera att all information är fullständig eller aktuell. Externa länkar tillhandahålls för bekvämlighet; vi ansvarar inte för innehållet på länkade webbplatser."
       },
       "license": {
-        "title": "Innehållslicens",
-        "text": "Om inte annat anges släpps allt innehåll på denna webbplats under Creative Commons Erkännande-DelaLika 4.0 Internationell Licens (CC BY-NC-ND 4.0)."
+        "title": "Innehållslicens"
       }
     }
   },

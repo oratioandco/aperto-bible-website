@@ -4,23 +4,19 @@
     "about": "Om os",
     "process": "Vores proces",
     "read": "Læs",
-    "readLuke": "Læs Lukas 1",
     "menu": "Menu",
     "language": "Sprog"
   },
   "footer": {
     "tagline": "En frisk oversættelse, der byder alle velkommen til samtalen.",
     "navigate": "Navigation",
-    "readLuke": "Lukas 1",
     "contact": "Kontakt",
-    "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Juridisk",
     "privacy": "Privatlivspolitik",
     "accessibility": "Tilgængelighed",
     "imprint": "Kolofon",
     "licence": "Licens",
-    "licenseText": "CC BY-ND 4.0 – Fri til at dele med kildeangivelse.",
-    "copyright": "2025 Aperto Bible Project",
+    "copyright": "2026 Aperto Bible Project",
     "getInvolved": "Bliv involveret"
   },
   "home": {
@@ -57,14 +53,11 @@
       "description": "Begynd med Lukas 1—bekendelsen af Johannes Døberen, Gabriels besøg hos Maria, og to sange der ændrede verden."
     },
     "tagline": "En frisk oversættelse, der byder alle velkommen til samtalen – uanset om du er dybt rodfæstet i troen, udforsker udefra, eller befinder dig et sted midt imellem.",
-    "readLuke": "Læs Lukas 1",
     "differentBible": "En anderledes slags bibel",
     "accessible": "Kontekst indvævet",
     "accessibleDesc": "Kulturel og historisk kontekst er indvævet direkte i teksten — visuelt markeret, så du altid ved, hvad der er Skrift, og hvad der er berigelse. Fem kategorier fodnoter åbner endnu dybere lag: Tekst, Kultur, Kontekst, Liv og Svært.",
     "multimedia": "Multimedier",
     "multimediaDesc": "Lydbibel, podcasts, originale sange og åndelige øvelser. Oplev teksten på den måde, der taler til dig.",
-    "openSource": "Open Source",
-    "openSourceDesc": "CC BY-ND 4.0 licens. Fri til at dele med kildeangivelse. Tilgængelig på flere sprog.",
     "startReading": "Begynd at læse",
     "startReadingDesc": "Vi begynder med Lukasevangeliet kapitel 1: budskabet om Johannes Døberen, englen Gabriels besøg hos Maria, og to revolutionære sange, der stadig genlyder i dag.",
     "getInvolved": {
@@ -77,7 +70,6 @@
     "title": "Om Aperto",
     "whatIs": {
       "title": "Hvad er Aperto?",
-      "p1": "Aperto er et open source-bibeloversættelsesprojekt skrevet til moderne læsere – uanset om du er en livslang troende, der ønsker friske øjne på velkendte tekster, eller en skeptiker, der er nysgerrig efter, hvad disse gamle tekster egentlig siger.",
       "p2": "Navnet kommer fra det latinske 'apertus': åben, tilgængelig, utilsløret. Det er inspireret af Lukas 24:32, hvor disciplene siger, at deres hjerter brændte i dem, da Jesus åbnede Skrifterne for dem."
     },
     "philosophy": {
@@ -90,8 +82,7 @@
       "accessibleDesc": "Moderne sprog, der læses som nutidig litteratur. Ingen religiøs jargon, ingen insider-ordforråd – bare teksten, levende og direkte. Ærlige fodnoter, der gør kompleksitet tilgængelig i stedet for skjult.",
       "multimedia": "Multimedier først",
       "multimediaDesc": "Lydbibel, podcasts, originale sange og kontemplative øvelser. Vi møder mennesker, hvor de er, ikke kun hvor de burde være.",
-      "openSource": "Radikalt åben",
-      "openSourceDesc": "CC BY-NC-ND 4.0 licens. Fri til at dele med kildeangivelse. IkkeKommersielt — IngenBearbejdning. Tilgængelig på flere sprog."
+      "openSource": "Radikalt åben"
     },
     "languages": {
       "title": "Tilgængelige sprog",
@@ -99,7 +90,6 @@
     },
     "license": {
       "title": "Licens",
-      "p1": "Aperto er udgivet under Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-NC-ND 4.0). Det betyder:",
       "share": "Du må dele og redistribuere materialet i ethvert format",
       "adapt": "Du må remixe, transformere og bygge videre på materialet",
       "attribution": "Du skal give passende kredit",
@@ -239,8 +229,7 @@
       "audio": "Lyd og musikproduktion – Fortælling, originale kompositioner",
       "technical": "Teknisk udvikling – Platform, arbejdsgang, tilgængelighed",
       "feedback": "Feedback – Læs, reagér, hjælp os med at forbedre",
-      "contact": "Kontakt os",
-      "contactEmail": "info [at] aperto [dot] bible"
+      "contact": "Kontakt os"
     },
     "newsletter": {
       "title": "Hold dig opdateret",
@@ -267,7 +256,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "text": "For privatlivsrelaterede spørgsmål, kontakt os venligst på info [at] aperto [dot] bible."
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany"
       },
       "rights": {
         "title": "Dine rettigheder",
@@ -294,8 +283,7 @@
         ]
       },
       "feedback": {
-        "title": "Feedback",
-        "text": "Vi byder feedback om tilgængelighed velkommen. Hvis du støder på barrierer eller har forslag til forbedringer, kontakt os venligst på info [at] aperto [dot] bible."
+        "title": "Feedback"
       },
       "ongoing": {
         "title": "Løbende indsats",
@@ -306,19 +294,18 @@
       "title": "Kolofon",
       "responsible": {
         "title": "Ansvarlig for indhold",
-        "text": "Aperto Bible Project"
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany\n\nResponsible for content according to § 18 (2) MStV: Tobias Treppmann, address as above."
       },
       "contact": {
         "title": "Kontakt",
-        "text": "Email: info [at] aperto [dot] bible"
+        "text": "Email:"
       },
       "disclaimer": {
         "title": "Ansvarsfraskrivelse",
         "text": "Indholdet på denne hjemmeside leveres til informationsformål. Vi gør alt for at sikre nøjagtighed, men kan ikke garantere, at alle oplysninger er fuldstændige eller aktuelle. Eksterne links leveres for nemheds skyld; vi er ikke ansvarlige for indholdet på linkede sider."
       },
       "license": {
-        "title": "Indholdslicens",
-        "text": "Medmindre andet er angivet, er alt indhold på denne hjemmeside udgivet under Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-NC-ND 4.0)."
+        "title": "Indholdslicens"
       }
     }
   },

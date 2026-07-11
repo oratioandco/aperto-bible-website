@@ -4,37 +4,30 @@
     "about": "Hakkında",
     "process": "Sürecimiz",
     "read": "Oku",
-    "readLuke": "Luka 1'i Oku",
     "menu": "Menü",
     "language": "Dil"
   },
   "footer": {
     "tagline": "Herkesi sohbete davet eden taze bir çeviri.",
     "navigate": "Navigasyon",
-    "readLuke": "Luka 1",
     "contact": "İletişim",
-    "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Yasal",
     "privacy": "Gizlilik Politikası",
     "accessibility": "Erişilebilirlik",
     "imprint": "Künye",
     "licence": "Lisans",
-    "licenseText": "CC BY-ND 4.0 – Atıfla paylaşmak özgür.",
-    "copyright": "2025 Aperto İncil Projesi",
+    "copyright": "2026 Aperto İncil Projesi",
     "getInvolved": "Katılın"
   },
   "home": {
     "tagline": "Herkesi sohbete davet eden taze bir çeviri — ister imanda derinlere kök salmış olun, ister dışarıdan keşfediyor olun, ister ikisinin arasında bir yerde.",
     "alphaNotice": "Erken Alfa",
     "alphaText": "Bu erken bir alfa sürümüdür. Şu anda sadece Luka Bölüm 1 mevcut. Bölüm bölüm, kitap kitap inşa ediyoruz.",
-    "readLuke": "Luka 1'i Oku",
     "differentBible": "Farklı Bir Kutsal Kitap",
     "accessible": "Bağlam metne işlenmiş",
     "accessibleDesc": "Temel kültürel ve tarihsel bağlam doğrudan metne dokunulmuştur — görsel olarak işaretlenmiş, böylece her zaman neyin Kutsal Yazı, neyin zenginleştirme olduğunu bilirsin. Dipnotlar beş kategoride daha derin katmanlar açar: Metin, Kültür, Bağlam, Yaşam ve Zor.",
     "multimedia": "Multimedya",
     "multimediaDesc": "Sesli Kutsal Kitap, podcast'ler, orijinal şarkılar ve ruhani pratikler. Metni size hitap eden şekilde deneyimleyin.",
-    "openSource": "Açık Kaynak",
-    "openSourceDesc": "CC BY-ND 4.0 lisansı. Atıfla paylaşmak özgür. Birden fazla dilde mevcuttur.",
     "startReading": "Okumaya Başla",
     "startReadingDesc": "Luka Bölüm 1 ile başlıyoruz: Vaftizci Yahya'nın müjdesi, Cebrail meleğinin Meryem'i ziyareti ve bugün hâlâ yankılanan iki devrimci ilahi.",
     "getInvolved": {
@@ -60,8 +53,7 @@
       "accessibleDesc": "Modern edebiyat gibi okunan çağdaş dil. Dini jargon yok, içeriden sözcük dağarcığı yok — sadece metin, canlı ve doğrudan. Karmaşıklığı gizlemek yerine erişilebilir kılan dürüst dipnotlar.",
       "multimedia": "Önce Multimedya",
       "multimediaDesc": "Sesli Kutsal Kitap, podcast'ler, orijinal şarkılar ve tefekkür pratikleri. İnsanlarla sadece olmaları gereken yerde değil, oldukları yerde buluşmak.",
-      "openSource": "Radikal Açık",
-      "openSourceDesc": "CC BY-NC-ND 4.0 lisansı. Atıfla paylaşmak özgür. TicariOlmayan — Türetilemez. Birden fazla dilde mevcuttur."
+      "openSource": "Radikal Açık"
     },
     "languages": {
       "title": "Mevcut Diller",
@@ -69,7 +61,6 @@
     },
     "license": {
       "title": "Lisans",
-      "p1": "Aperto, Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası Lisansı (CC BY-NC-ND 4.0) altında yayınlanmaktadır. Bu şu anlama gelir:",
       "share": "Materyali herhangi bir formatta paylaşabilir ve yeniden dağıtabilirsiniz",
       "adapt": "Materyali remiks yapabilir, dönüştürebilir ve üzerine inşa edebilirsiniz",
       "attribution": "Uygun şekilde atıf vermelisiniz",
@@ -209,8 +200,7 @@
       "audio": "Ses ve müzik prodüksiyonu – Okuma, orijinal kompozisyonlar",
       "technical": "Teknik geliştirme – Platform, iş akışı, erişilebilirlik",
       "feedback": "Geri bildirim – Okuyun, yanıt verin, bize yardım edin",
-      "contact": "Bize ulaşın",
-      "contactEmail": "info [at] aperto [dot] bible"
+      "contact": "Bize ulaşın"
     },
     "newsletter": {
       "title": "Güncel Kalın",
@@ -237,7 +227,7 @@
       },
       "contact": {
         "title": "İletişim",
-        "text": "Gizlilikle ilgili sorularınız için lütfen info [at] aperto [dot] bible adresinden bize ulaşın."
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany"
       },
       "rights": {
         "title": "Haklarınız",
@@ -264,8 +254,7 @@
         ]
       },
       "feedback": {
-        "title": "Geri Bildirim",
-        "text": "Erişilebilirlik hakkında geri bildirimleri memnuniyetle karşılıyoruz. Engellerle karşılaşırsanız veya iyileştirme önerileriniz varsa, lütfen info [at] aperto [dot] bible adresinden bize ulaşın."
+        "title": "Geri Bildirim"
       },
       "ongoing": {
         "title": "Süregelen Çabalar",
@@ -276,19 +265,18 @@
       "title": "Künye",
       "responsible": {
         "title": "İçerikten Sorumlu",
-        "text": "Aperto İncil Projesi"
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nGermany\n\nResponsible for content according to § 18 (2) MStV: Tobias Treppmann, address as above."
       },
       "contact": {
         "title": "İletişim",
-        "text": "E-posta: info [at] aperto [dot] bible"
+        "text": "Email:"
       },
       "disclaimer": {
         "title": "Sorumluluk Reddi",
         "text": "Bu web sitesinin içeriği bilgi amaçlı sunulmaktadır. Doğruluk için her türlü çabayı gösteriyoruz ancak tüm bilgilerin eksiksiz veya güncel olduğunu garanti edemiyoruz. Harici bağlantılar kolaylık için sağlanmaktadır; bağlantılı sitelerin içeriğinden sorumlu değiliz."
       },
       "license": {
-        "title": "İçerik Lisansı",
-        "text": "Aksi belirtilmedikçe, bu web sitesindeki tüm içerik Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası Lisansı (CC BY-NC-ND 4.0) altında yayınlanmaktadır."
+        "title": "İçerik Lisansı"
       }
     }
   },

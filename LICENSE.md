@@ -1,18 +1,30 @@
 # License — Aperto Bible
 
-All texts and content in the Aperto Bible project are licensed under:
+*(Decision 2026-07-09, see WEBSITE-REVIEW.md fix #3.)*
 
-**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**
+## Translation text
 
-## What does this mean?
+The Aperto Bible **translation text** is licensed under:
 
-- ✅ **Share** — copy and redistribute the material in any medium or format
+**Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)**
+
+- ✅ **Share** — copy and redistribute the text in any medium or format, including commercially
 - ✅ **Attribution** — give appropriate credit to "Aperto Bible"
-- ❌ **NonCommercial** — you may not use the material for commercial purposes
-- ❌ **NoDerivatives** — you may not distribute modified versions
+- ❌ **NoDerivatives** — you may not distribute modified versions of the text
 
-The full legal text is available at: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+Two explicit supplementary permissions:
 
----
+1. **Verbatim, unmodified audio recordings** of the text are permitted.
+2. **Third-party translations of the text into other languages are not permitted.**
+   Aperto is multilingual by design — if you want your language covered, we would
+   love to collaborate on it instead: contact tobias (at) aperto.bible.
 
-Code (software, build tools, scripts) in this repository is licensed under the MIT License where applicable.
+Full legal text: https://creativecommons.org/licenses/by-nd/4.0/legalcode
+
+## Everything else
+
+Exegesis, audio productions, podcasts, songs, artwork, and all other content:
+**all rights reserved.**
+
+Code (software, build tools, scripts) in this repository is licensed under the
+MIT License where applicable.

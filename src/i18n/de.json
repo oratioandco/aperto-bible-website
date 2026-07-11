@@ -12,18 +12,16 @@
   "footer": {
     "tagline": "Eine frische Übersetzung, die alle zum Gespräch einlädt.",
     "navigate": "Navigation",
-    "readLuke": "Lukas",
+    "readLuke": "Lukas lesen",
     "contact": "Kontakt",
-    "contactEmail": "info [at] aperto [dot] bible",
     "legal": "Rechtliches",
     "privacy": "Datenschutzerklärung",
     "accessibility": "Barrierefreiheit",
     "imprint": "Impressum",
     "licence": "Lizenz",
-    "licenseText": "CC BY-ND 4.0 – frei zu lesen, zu teilen, zu zitieren und zu verwenden, auch kommerziell. Der Text selbst bleibt unverändert.",
-    "copyright": "2025 Aperto Bible Project",
-    "getInvolved": "Mitmachen",
-    "licenseLink": "Zur Lizenz"
+    "licenseText": "Übersetzungstext: CC BY-ND 4.0 — frei lesen, teilen, zitieren und verwenden, mit Namensnennung, ohne Veränderung. Alle weiteren Inhalte: alle Rechte vorbehalten. Details im Impressum.",
+    "copyright": "2026 Aperto Bible Project",
+    "getInvolved": "Mitmachen"
   },
   "home": {
     "alphaNotice": "Frühe Alpha",
@@ -59,14 +57,14 @@
       "description": "Den Anfang macht Lukas 1: die Ankündigung Johannes des Täufers, der Besuch Gabriels bei Maria und zwei Lieder, die die Welt verändert haben."
     },
     "tagline": "Eine neue Übersetzung, die jeden zum Gespräch einlädt. Ob tief im Glauben verwurzelt, neugierig auf der Suche oder noch unentschieden.",
-    "readLuke": "Lukas 1 lesen",
+    "readLuke": "Lukas lesen",
     "differentBible": "Eine andere Art von Bibel",
     "accessible": "Kontext mitgedacht",
     "accessibleDesc": "Wichtiger kultureller und historischer Kontext ist unmittelbar in den Text eingewoben, sichtbar, damit immer klar ist, was Bibeltext ist und was Ergänzung. Dazu gibt es Kommentare in fünf Kategorien: Text, Kultur, Kontext, Leben und Schwierig.",
     "multimedia": "Multimedia",
     "multimediaDesc": "Audiobibel, Podcasts, eigens komponierte Lieder und geistliche Übungen. Der Text auf die Weise, die anspricht.",
     "openSource": "Frei zugänglich",
-    "openSourceDesc": "Frei zugänglich — lesen, teilen, zitieren, verwenden, auch kommerziell. Für immer kostenlos. Der Text selbst bleibt unverändert. Lizenz CC BY-ND 4.0, verfügbar in mehreren Sprachen.",
+    "openSourceDesc": "Der Übersetzungstext steht unter CC BY-ND 4.0: lesen, teilen, zitieren, verwenden — mit Namensnennung, unverändert. Für immer kostenlos.",
     "startReading": "Jetzt lesen",
     "startReadingDesc": "Den Anfang macht das erste Kapitel des Lukasevangeliums: die Ankündigung Johannes des Täufers, der Engel Gabriel zu Besuch bei Maria und zwei umstürzende Lieder, deren Anklänge bis heute nachhallen.",
     "getInvolved": {
@@ -142,22 +140,24 @@
       "transparentDesc": "alles, was wir getan haben, ist sichtbar – und warum",
       "invitation": "Offen im Sinne einer Einladung",
       "invitationDesc": "komm, wie du bist, mitsamt deinen Fragen",
-      "source": "Offen im Sinne von frei zugänglich",
-      "sourceDesc": "frei geteilt — lesen, zitieren, weitertragen; der Text selbst bleibt unverändert"
+      "source": "Frei zugänglich",
+      "sourceDesc": "frei zu lesen, zu teilen, zu zitieren und zu verwenden — der Text selbst bleibt unverändert"
     },
     "join": {
       "title": "Mach mit",
-      "p1": "Wir bauen das Kapitel für Kapitel, Buch für Buch. Das Lukasevangelium ist bereits vollständig zu lesen – auf Deutsch, Englisch und Polnisch. Die vertiefte Auslegung beginnt bei Lukas 1–2 und wächst weiter; jeder Vers trägt seine Anmerkungen schon jetzt unmittelbar im Text.",
+      "p1": "Wir bauen das Kapitel für Kapitel, Buch für Buch. Im Moment: das ganze Lukasevangelium auf Deutsch, Englisch und Polnisch, dazu Apostelgeschichte 17 und die Psalmen 23, 137 und 139 als weitere Proben. Vertiefende Exegese-Seiten gibt es heute zu Lukas 1–2, weitere folgen — und jeder Vers trägt schon jetzt Anmerkungen.",
       "p2": "Komm und sieh, woran wir arbeiten. Bring deine Zweifel mit. Bring deine Sehnsucht mit.",
       "readLuke": "Lukas lesen",
       "goDeeper": "Lust, tiefer einzutauchen?",
       "goDeeperDesc": "Wie wir übersetzen, wie unsere KI-Arbeitsabläufe funktionieren und welche Gelehrsamkeit hinter jeder Entscheidung steht.",
       "processLink": "Unser Vorgehen →"
     },
-    "who": {
-      "title": "Wer dahintersteht",
-      "body": "Aperto wird von [DEIN NAME] verantwortet – [Rolle / Qualifikation, z. B. Theologe und Gestalter]. [Ein bis zwei Sätze: warum du Aperto begonnen hast und was dich befähigt, den Text zu verantworten.]",
-      "corrections": "Einen Fehler entdeckt oder mit einer Wiedergabe nicht einverstanden? Schreib an info [at] aperto [dot] bible. Korrekturen und Einwände sind ausdrücklich willkommen und werden nachvollziehbar eingearbeitet."
+    "founder": {
+      "title": "Wer das hier macht",
+      "p1": "Aperto macht Tobias Treppmann, Produktdesigner in Berlin. Er hat Theologie am Theologischen Seminar Rheinland studiert und einen M.A. in Leadership der Kairos University.",
+      "p2": "Er ist kein Fachexeget der Zunft — deshalb verlangt hier nichts Vertrauen auf Autorität. Ein Mensch entscheidet, KI entwirft, gegnerische Prüfinstanzen kontrollieren, und jede Entscheidung auf Versebene ist dokumentiert und veröffentlicht: nachprüfbar, und Widerspruch ist erwünscht.",
+      "correction": "Für alles andere:",
+      "review": "Einwände gegen eine Formulierung? Am besten öffentlich, dort wo sie hingehören — jede Stelle steht im Übersetzungswerkzeug zur Diskussion:"
     }
   },
   "process": {
@@ -293,8 +293,7 @@
       "audio": "Audio und Musik – Sprecher, eigene Kompositionen",
       "technical": "Technische Entwicklung – Plattform, Arbeitsabläufe, Barrierefreiheit",
       "feedback": "Rückmeldung – lesen, antworten, Aperto besser machen",
-      "contact": "Kontakt aufnehmen",
-      "contactEmail": "info [at] aperto [dot] bible"
+      "contact": "Kontakt aufnehmen"
     },
     "newsletter": {
       "title": "Auf dem Laufenden bleiben",
@@ -353,41 +352,41 @@
       "title": "Impressum",
       "responsible": {
         "title": "Angaben gemäß § 5 DDG",
-        "text": "[DEIN NAME / RECHTSFORM]\n[Straße und Hausnummer]\n[PLZ und Ort]\n[Land]\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV (V.i.S.d.P.): [DEIN NAME]"
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nDeutschland\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Tobias Treppmann, Anschrift wie oben."
       },
       "contact": {
         "title": "Kontakt",
-        "text": "E-Mail: info [at] aperto [dot] bible"
+        "text": "E-Mail:"
       },
       "disclaimer": {
-        "title": "Haftung für Inhalte",
-        "text": "Die Inhalte dieser Seiten wurden mit Sorgfalt erstellt. Für eigene Inhalte auf diesen Seiten sind wir nach den allgemeinen Gesetzen verantwortlich. Eine Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen, besteht nicht."
+        "title": "Haftung für Links",
+        "text": "Diese Website enthält Links zu externen Websites, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar."
       },
       "license": {
-        "title": "Urheberrecht",
-        "text": "Der Übersetzungstext von Aperto steht unter CC BY-ND 4.0. Auslegung, Audio, wissenschaftlicher Apparat und App sind gesondert lizenziert. Die vollständigen Bedingungen stehen auf der Lizenzseite."
+        "title": "Lizenz",
+        "text": "Der Übersetzungstext der Aperto Bibel steht unter der Lizenz CC BY-ND 4.0: frei lesen, teilen, zitieren und verwenden — mit Namensnennung und ohne Veränderung. Wortgetreue, unveränderte Audioaufnahmen des Textes sind erlaubt. Exegese, Audioproduktionen, Illustrationen und alle weiteren Inhalte: alle Rechte vorbehalten."
       }
     },
     "privacy": {
       "title": "Datenschutzerklärung",
-      "intro": "Diese Seite ist darauf ausgelegt, so wenig personenbezogene Daten wie möglich zu erheben. Diese Erklärung sagt, was verarbeitet wird und warum.",
+      "lastUpdated": "Stand: 9. Juli 2026",
+      "intro": "Diese Website ist auf Datensparsamkeit ausgelegt: keine Nutzerkonten, keine Werbung, keine Tracking-Cookies, keine Analyseprofile. Hier steht, was technisch verarbeitet wird — und welche Rechte Sie haben.",
       "dataCollection": {
-        "title": "Welche Daten wir verarbeiten",
-        "text": "Wenn du dich für den Newsletter anmeldest oder das Feedback-Formular nutzt, verarbeiten wir die von dir angegebenen Daten (etwa Name und E-Mail-Adresse) ausschließlich, um dir zu antworten und dir die gewünschten Neuigkeiten zu senden. Newsletter und Formulare laufen über [DIENSTLEISTER – z. B. Tally]; Näheres in deren Datenschutzhinweisen."
+        "title": "Was verarbeitet wird",
+        "text": "Schriften werden über Google Fonts (Google Ireland Ltd.) geladen; beim Aufruf einer Seite wird Ihre IP-Adresse an Google übermittelt. Das Formular \"Mitmachen\" wird von Tally (Tally BV, Belgien) bereitgestellt und verarbeitet Ihre Angaben erst, wenn Sie es öffnen und absenden. Die Newsletter-Anmeldung läuft über SendFox (ContentFox LLC, USA) und speichert Name und E-Mail-Adresse nur mit Ihrer Einwilligung; Sie können sich jederzeit über den Link in jeder E-Mail abmelden. Audiodateien werden von dieser Website selbst ausgeliefert."
       },
       "hosting": {
         "title": "Hosting",
-        "text": "Diese Seite wird bei [HOSTER – z. B. GitHub Pages] gehostet. Der Hoster kann technische Zugriffsdaten (etwa deine IP-Adresse) in Server-Logs verarbeiten, um die Seite auszuliefern und die Sicherheit zu wahren."
-      },
-      "contact": {
-        "title": "Kontakt",
-        "text": "Bei jeder Frage zu deinen Daten oder zur Ausübung deiner Rechte schreib an info [at] aperto [dot] bible."
+        "text": "Diese Website wird auf GitHub Pages (GitHub Inc., USA) gehostet. GitHub verarbeitet technische Zugriffsdaten (z. B. IP-Adresse und Browser-Informationen) in Server-Logs, um den Dienst zu betreiben und abzusichern. GitHub ist unter dem EU-US Data Privacy Framework zertifiziert."
       },
       "rights": {
-        "title": "Deine Rechte",
-        "text": "Nach der DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Du kannst dich außerdem bei einer Aufsichtsbehörde beschweren."
+        "title": "Ihre Rechte",
+        "text": "Nach der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch bezüglich Ihrer personenbezogenen Daten sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde (für Berlin: Berliner Beauftragte für Datenschutz und Informationsfreiheit)."
       },
-      "lastUpdated": "Zuletzt aktualisiert: [DATUM]"
+      "contact": {
+        "title": "Verantwortlicher",
+        "text": "Oratio&Co\nTobias Treppmann\nLückstr. 74\n10317 Berlin\nDeutschland"
+      }
     },
     "license": {
       "title": "Lizenz",
@@ -403,7 +402,7 @@
       "permissions": {
         "title": "Zwei ausdrückliche Erlaubnisse",
         "audio": "Wortgetreue, unveränderte Audioaufnahmen des Textes sind ausdrücklich erlaubt.",
-        "translations": "Übersetzungen des Textes in weitere Sprachen durch Dritte sind nicht gestattet – Aperto ist von Grund auf mehrsprachig angelegt. Wer an einer Sprachfassung mitarbeiten möchte, ist herzlich eingeladen: translate.aperto.bible oder info [at] aperto [dot] bible."
+        "translations": "Übersetzungen des Textes in weitere Sprachen durch Dritte sind nicht gestattet – Aperto ist von Grund auf mehrsprachig angelegt. Wer an einer Sprachfassung mitarbeiten möchte, ist herzlich eingeladen: translate.aperto.bible."
       }
     }
   }

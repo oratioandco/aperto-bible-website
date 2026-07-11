@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { marked } from 'marked';
 import lukeLabels from '../../../data/luke-labels.json';
+import { TEXT_LANGUAGES } from '../../../data/textLanguages';
 
 // ---------------------------------------------------------------------------
 // Load intro markdown for all languages
@@ -48,6 +49,8 @@ export function getStaticPaths() {
     if (!m) continue;
     const ch = parseInt(m[1], 10);
     const lg = m[2];
+    // Reading pages only for gate-passed trial-set languages (textLanguages.ts)
+    if (!TEXT_LANGUAGES.includes(lg)) continue;
     if (!langChapters[lg]) langChapters[lg] = new Set();
     langChapters[lg].add(ch);
   }

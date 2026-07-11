@@ -2,6 +2,7 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../../components/PericopeCard.astro';
 import { useTranslations } from '../../../../i18n/utils';
+import { TEXT_LANGUAGES } from '../../../../data/textLanguages';
 
 // ---------------------------------------------------------------------------
 // Load all pericope metadata + verse content via import.meta.glob
@@ -67,6 +68,8 @@ export function getStaticPaths() {
     const parsed = parseMeta(path);
     if (!parsed) continue;
     const { chapter, lang } = parsed;
+    // Reading pages only for gate-passed trial-set languages (textLanguages.ts)
+    if (!TEXT_LANGUAGES.includes(lang)) continue;
     if (!metaMap[lang]) metaMap[lang] = [];
     metaMap[lang].push({ chapter, data: (mod as any).default ?? mod });
   }

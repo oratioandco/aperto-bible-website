@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ObfuscatedEmail from '../../components/ObfuscatedEmail.astro';
 import { useTranslations } from '../../i18n/utils';
+import { hasTextContent } from '../../data/textLanguages';
 
 export function getStaticPaths() {
   return [
@@ -69,16 +71,6 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         </p>
         <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
           {t('about.falseChoice.p6')}
-        </p>
-      </section>
-
-      <section class="mb-16">
-        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.who.title')}</h2>
-        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
-          {t('about.who.body')}
-        </p>
-        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
-          {t('about.who.corrections')}
         </p>
       </section>
 
@@ -192,6 +184,23 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       </section>
 
       <section class="mb-16">
+        <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.founder.title')}</h2>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.founder.p1')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.founder.p2')}
+        </p>
+        <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
+          {t('about.founder.review')}
+          <a href="https://translate.aperto.bible" class="font-medium hover:underline" style="color: #8B7355;">translate.aperto.bible</a>
+        </p>
+        <p class="text-lg leading-relaxed" style="color: #5A5A5A;">
+          {t('about.founder.correction')} <ObfuscatedEmail user="tobias" domain="aperto.bible" />
+        </p>
+      </section>
+
+      <section class="mb-16">
         <h2 class="text-2xl md:text-3xl mb-6 headline-mixed">{t('about.join.title')}</h2>
         <p class="text-lg leading-relaxed mb-6" style="color: #5A5A5A;">
           {t('about.join.p1')}
@@ -199,8 +208,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         <p class="text-lg leading-relaxed mb-8" style="color: #5A5A5A;">
           {t('about.join.p2')}
         </p>
-        <a href={`${base}${lang}/luke/1`} class="inline-block px-6 py-3 rounded-lg text-lg font-medium transition-all hover:shadow-md" style="background-color: rgba(245, 230, 220, 0.8); border: 1px solid #F5E6DC;">
-          {t('about.join.readLuke')}
+        <a href={hasTextContent(lang) ? `${base}${lang}/luke/1` : `${base}${lang}/#listen`} class="inline-block px-6 py-3 rounded-lg text-lg font-medium transition-all hover:shadow-md" style="background-color: rgba(245, 230, 220, 0.8); border: 1px solid #F5E6DC;">
+          {hasTextContent(lang) ? t('about.join.readLuke') : t('home.media.heroCta')}
         </a>
         <div class="mt-8 p-6 rounded-lg" style="background-color: rgba(245, 230, 220, 0.3); border: 1px solid #F5E6DC;">
           <h3 class="text-xl mb-3">{t('about.join.goDeeper')}</h3>
