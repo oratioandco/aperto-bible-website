@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HomepageDevotional from '../../components/HomepageDevotional.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import SongPlayer from '../../components/SongPlayer.astro';
 import AudioPlayer from '../../components/AudioPlayer.astro';
 import { useTranslations } from '../../i18n/utils';
@@ -457,6 +458,8 @@ if (!isTextLang && pericopeData?.pericopes) {
       </div>
     </section>
   )}
+
+  <NewsletterSignup lang={lang} />
 
   <!-- Get Involved -->
   <section class="get-involved-section py-24 px-8 md:px-16 lg:px-24">

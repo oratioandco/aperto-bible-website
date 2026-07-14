@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import PericopeCard from '../../../../components/PericopeCard.astro';
+import NewsletterSignup from '../../../../components/NewsletterSignup.astro';
 import { useTranslations } from '../../../../i18n/utils';
 import { TEXT_LANGUAGES } from '../../../../data/textLanguages';
 
@@ -292,6 +293,8 @@ const booksLabel = booksLabelMap[lang] ?? 'Books';
       </a>
     ) : <div />}
   </nav>
+
+  <NewsletterSignup lang={lang} />
 
 </BaseLayout>
 
