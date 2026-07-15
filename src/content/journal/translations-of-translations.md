@@ -11,9 +11,11 @@ coverAlt: A stack of worn antique Bibles in shadow beside a single open Hebrew B
 
 If you follow faith-tech, you've seen the demos: one API call, and out comes a Bible passage in Swahili or Slovak or Low German, reasoned over "from multiple perspectives," with a textual basis in the original languages. I want to take these systems seriously, because they're the most interesting thing to happen to Bible translation tooling in decades, and because I've spent the last year building something that looks superficially identical and is, underneath, close to the opposite.
 
-**What a meta-translation actually is**
+**An old practice with a new engine**
 
-Strip away the prompt engineering and the mechanism is: synthesize the target verse from a set of existing translations, checked against the original-language text. The set has to be public-domain, because everything modern is copyrighted and license negotiations don't fit in an API call. Public domain means the corpus is mostly pre-1930.
+Translating from translations is not an AI invention, and it isn't a scandal. It's an established move in Bible translation with a respectable pedigree: for a thousand years most of Europe read translations of the Latin Vulgate, itself partly a translation of the Greek Septuagint. The Living Bible, one of the best-selling English Bibles of the twentieth century, was a paraphrase of the 1901 American Standard Version. And in missionary translation work it's standard method to this day — translation teams routinely work from a "front translation" or model text rather than from Hebrew and Greek, because that's how you get scripture to a language community in years instead of decades. Usually a human editing pass finishes the job.
+
+What AI changed is the speed and the scale. Strip away the prompt engineering and the new mechanism is: synthesize the target verse from a set of existing translations, checked against the original-language text — in one API call, for a hundred languages. One prominent system advertised exactly this, synthesizing "up to 14 public-domain reference translations, never blindly copied." The set has to be public-domain, because everything modern is copyrighted and license negotiations don't fit in an API call. Public domain means the corpus is mostly pre-1930.
 
 Two consequences follow, and neither is fixable with a better prompt.
 
@@ -23,11 +25,15 @@ Second, a borrowed accent. The public-domain corpus isn't theologically neutral;
 
 This is why I call the result a meta-translation: a translation whose sources are translations. As a bootstrapping tool for languages that have nothing, it's genuinely valuable, and I mean that without condescension. But it's a generator. It has no opinion about any verse. Nobody decided anything.
 
+The same license logic bites even when the AI works from the original language. The [Augsburger GenerativBibel](https://www.generativ-bibel.de), a German experiment I genuinely respect for its honesty — it labels itself "not a scientifically vetted Bible edition" and points readers to human-vetted translations for serious study — translates directly from Greek. But from *which* Greek? Tischendorf's edition of 1872, because it's public domain. That single constraint quietly imports a century and a half of missing manuscript scholarship. Copyright doesn't just pick your reference translations; it picks your source text.
+
 **What deciding looks like**
 
 The project I run (Aperto) inverts the order of operations. Before any target-language word exists, there's an exegesis: what does the Hebrew or Greek do, what did it do to its first audience, where do the traditions disagree. The exegesis feeds a decision document; the decision document binds the draft. AI writes the prose. A panel of adversarial AI judges, running in separate calls with hard gates, attacks it: archaisms, calques, register drift, back-translation fidelity, naturalness against the best modern published translations. And a human exegete rules on every flagged decision, in writing, in public.
 
 Our north star is one sentence: the modern reader should be hit by the text the way the original audience was. Same clarity, and same friction. Both failure modes are real. Wooden literalism keeps friction the original never had. Smoothing removes friction the original did have. A synthesis of inherited translations can't even see this axis, because its sources already chose, mostly toward smoothing, a century ago.
+
+And the text is only half of what gets made. Every decision that shapes a verse also feeds an apparatus a generator has no reason to produce: footnotes that say where a reading is disputed and — a category I haven't seen elsewhere — where a passage has historically been misused; podcasts and songs grown from the same exegesis; a public review tool where any reader can object to any verse, on the record, and trigger a re-examination. A meta-translation ends at the text. For us the text is the load-bearing wall of a larger room, [built for readers who aren't already convinced](/journal/who-is-a-bible-translation-for/).
 
 **One verse, concretely**
 
