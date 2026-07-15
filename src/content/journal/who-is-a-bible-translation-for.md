@@ -25,13 +25,15 @@ In Germany, where I build, the numbers are stark: among young adults *inside* th
 
 **What building for them actually requires**
 
-Aperto — from the Latin for "open" — is a Bible translation project built for exactly that threshold reader, and the commitments are checkable, not vibes:
+Aperto — from the Latin for "open" — is my answer, and since this is the first post on this journal, let me say plainly what it is. It's a new Bible translation, made from the Hebrew and Greek into contemporary German, English, and Polish: drafted by AI, checked by a panel of adversarial AI reviewers, and decided verse by verse by a human — with every decision documented in public. Around the text grows an apparatus for people who weren't raised on this book: footnotes that explain the culture and admit disputed readings; audio versions; songs and podcasts grown from the same research. And on that foundation we're building a personal companion — a short daily audio practice of scripture, reflection, and prayer that knows where you are on your way, currently in testing with first users.
+
+All of it is built for exactly that threshold reader, and the commitments are checkable, not vibes:
 
 **The text is free and stays free.** Published under a Creative Commons license, commercial use included. No paywall on scripture, no lifetime pricing on the gospel.
 
 **Grace-based mechanics, all the way down.** No streaks, no shame triggers, no manufactured urgency. The test I apply to every feature: does this serve freedom or fear? Grace or guilt? Formation or metrics? And the hardest question in my framework, the one I make myself answer: *if someone developed a deep practice and no longer needed what we build, would we celebrate or mourn?* When I first applied that question to Aperto, the honest answer was uncomfortable: part of me mourned. That discomfort is exactly why the question has to stay.
 
-**The friction stays in.** Commodified faith content is smooth — comfort verses, soft focus. Our translation's north star cuts the other way: the modern reader should be hit by the text the way the original audience was, same clarity *and* same friction. The Magnificat stays political. And the apparatus tells the whole truth — our footnotes include a category for where these very texts have been misused. The commercial risk of challenging content is real. But the ethical risk of comfortable content is documented.
+**The friction stays in.** Commodified faith content is smooth — comfort verses, soft focus. Our translation's north star cuts the other way: the modern reader should be hit by the text the way the original audience was, same clarity *and* same friction. Mary's song in Luke 1 — a poem about rulers pulled from thrones and the rich sent away empty — stays political, because it is. And the apparatus tells the whole truth — our footnotes include a category for where these very texts have been misused. The commercial risk of challenging content is real. But the ethical risk of comfortable content is documented.
 
 **Personalization that forms, not flatters.** An AI that learns what a user likes and serves more of it is a recommendation engine, not a formation companion. The difference between formation-driven and preference-driven personalization is the difference between a spiritual director and a Netflix algorithm.
 
