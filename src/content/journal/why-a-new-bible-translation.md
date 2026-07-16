@@ -107,7 +107,7 @@ Aperto wants to open the door.
 
 ## Honest notes for difficult passages
 
-![A hand-thrown ceramic bowl, visibly broken and carefully repaired with metal staples, standing whole in warm window light](/images/journal/section-honest-notes.jpeg)
+![A hand-thrown ceramic bowl, once broken, repaired with fine seams of gold tracing the cracks, standing whole in warm window light](/images/journal/section-honest-notes.jpeg)
 
 Aperto also includes a richer approach to notes.
 
@@ -169,7 +169,7 @@ That means we care about:
 - AI-assisted exploration grounded in rigorous scholarship
 - resources for both skeptics and believers
 
-The goal is not to lower the value of deep study. It is to create more doorways into it.
+> The goal is not to lower the value of deep study. It is to create more doorways into it.
 
 ## Reading in meaningful units
 
@@ -187,7 +187,7 @@ Aperto therefore gives greater attention to the natural units of the text: scene
 
 In digital and print, Aperto is designed to help readers encounter one meaningful unit at a time. A Gospel story can be read as a scene. A psalm can be encountered as a poem. A prophetic oracle can stand with its own force. A section of Paul's argument can be followed as an argument, not chopped into isolated proof-texts.
 
-The goal is not to remove references, but to restore context.
+> The goal is not to remove references, but to restore context.
 
 ## Designed for the ear, not only the eye
 
@@ -212,7 +212,7 @@ Aperto pays attention to:
 - performance and narration
 - how a passage sounds when read aloud
 
-A sentence can be technically accurate and still nearly impossible to listen to. A paragraph can be readable on screen but exhausting in audio.
+> A sentence can be technically accurate and still nearly impossible to listen to. A paragraph can be readable on screen but exhausting in audio.
 
 If Scripture is to be encountered in digital and audio-first environments, the translation itself must be shaped with that reality in mind.
 
