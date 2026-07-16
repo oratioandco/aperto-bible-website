@@ -72,6 +72,21 @@ const fmt = (iso: string) =>
     border: 1px solid rgba(139, 115, 85, 0.2);
   }
   .prose { font-family: 'Switzer', sans-serif; font-size: 1.06rem; line-height: 1.75; color: #4A4A4A; }
+  :global(.journal-post .prose h2) {
+    font-family: 'Fraunces', Georgia, serif; font-size: clamp(1.5rem, 3.4vw, 2rem);
+    line-height: 1.2; color: #2C2C2C; margin: 3.25rem 0 1rem; padding-top: 2.25rem;
+    border-top: 1px solid #F0E4D8;
+  }
+  :global(.journal-post .prose h3) {
+    font-family: 'Fraunces', Georgia, serif; font-size: 1.3rem;
+    color: #2C2C2C; margin: 2rem 0 0.75rem;
+  }
+  :global(.journal-post .prose ul) { margin: 0 0 1.5rem; padding-left: 1.25rem; list-style: disc; }
+  :global(.journal-post .prose li) { margin: 0 0 0.5rem; padding-left: 0.25rem; }
+  :global(.journal-post .prose img) {
+    display: block; width: 100%; border-radius: 10px; margin: 2.25rem 0;
+    border: 1px solid rgba(139, 115, 85, 0.2);
+  }
   :global(.journal-post .prose p) { margin: 0 0 1.25rem; }
   :global(.journal-post .prose strong) { color: #2C2C2C; font-weight: 600; }
   :global(.journal-post .prose em) { font-style: italic; }
