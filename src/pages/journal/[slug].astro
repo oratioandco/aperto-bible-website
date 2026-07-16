@@ -1,7 +1,6 @@
 ---
 import { marked } from 'marked';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { loadPosts } from '../../lib/journal';
 
 export function getStaticPaths() {
   const modules = import.meta.glob('../../content/journal/*.md', {
@@ -28,13 +27,39 @@ export function getStaticPaths() {
 
 const { meta, body } = Astro.props as { meta: Record<string, string>; body: string };
 marked.setOptions({ gfm: true, breaks: false });
-const html = marked.parse(body);
+let html = marked.parse(body) as string;
+
+// Give every h2 an id and collect them for the progress sidebar.
+const sections: Array<{ id: string; label: string }> = [];
+html = html.replace(/<h2>([\s\S]*?)<\/h2>/g, (_all, inner: string) => {
+  const label = inner.replace(/<[^>]+>/g, '').trim();
+  const id = label.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  sections.push({ id, label });
+  return `<h2 id="${id}">${inner}</h2>`;
+});
+
 const fmt = (iso: string) =>
   new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 
 <BaseLayout title={meta.title} description={meta.description} lang="en" image={meta.cover}>
-  <article class="journal-post">
+
+  {sections.length > 1 && (
+    <nav class="toc" aria-label="Sections">
+      <a class="toc-item toc-top" href="#top" data-target="top">
+        <span class="toc-tick toc-dot" />
+        <span class="toc-label">{meta.title}</span>
+      </a>
+      {sections.map((s) => (
+        <a class="toc-item" href={`#${s.id}`} data-target={s.id}>
+          <span class="toc-tick" />
+          <span class="toc-label">{s.label}</span>
+        </a>
+      ))}
+    </nav>
+  )}
+
+  <article class="journal-post" id="top">
     <p class="post-meta">
       <a href="/journal/">Journal</a> · {fmt(meta.date)} · {meta.author}
     </p>
@@ -53,54 +78,101 @@ const fmt = (iso: string) =>
 </BaseLayout>
 
 <style>
-  .journal-post { max-width: 46rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+  .journal-post { max-width: 43rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+
   .post-meta {
-    font-family: 'Switzer', sans-serif; font-size: 0.85rem; letter-spacing: 0.04em;
-    color: #8B7355; margin: 0 0 1rem;
+    font-family: 'Switzer', sans-serif; font-weight: 500; font-size: 0.78rem;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: #8B7355; margin: 0 0 1.5rem;
   }
-  .post-meta a { color: #8B7355; text-decoration: underline; text-underline-offset: 2px; }
+  .post-meta a { color: #8B7355; text-decoration: none; border-bottom: 1px solid rgba(139,115,85,0.35); }
+  .post-meta a:hover { border-color: #8B7355; }
+
   h1 {
-    font-family: 'Fraunces', Georgia, serif; font-size: clamp(2.2rem, 5.5vw, 3.1rem);
-    line-height: 1.1; color: #2C2C2C; margin: 0 0 1rem;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 560;
+    font-size: clamp(2.3rem, 5.5vw, 3.3rem);
+    line-height: 1.06; letter-spacing: -0.01em; color: #2C2C2C; margin: 0 0 1.25rem;
+    font-variation-settings: 'SOFT' 40;
   }
   .post-lead {
-    font-family: 'Switzer', sans-serif; font-size: 1.18rem; line-height: 1.65;
-    color: #5A5A5A; margin: 0 0 2.5rem;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 380;
+    font-size: 1.3rem; line-height: 1.55; font-style: italic;
+    color: #6A5F52; margin: 0 0 2.5rem;
   }
   .post-cover {
-    display: block; width: 100%; border-radius: 10px; margin: 0 0 2.5rem;
+    display: block; width: 100%; border-radius: 10px; margin: 0 0 3rem;
     border: 1px solid rgba(139, 115, 85, 0.2);
   }
-  .prose { font-family: 'Switzer', sans-serif; font-size: 1.06rem; line-height: 1.75; color: #4A4A4A; }
+
+  /* ── Editorial body: serif, real weight, generous leading ─────────── */
+  .prose {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
+    font-optical-sizing: auto;
+    font-size: 1.14rem; line-height: 1.8; color: #3A342E;
+  }
+  :global(.journal-post .prose p) { margin: 0 0 1.4rem; }
+  :global(.journal-post .prose > p:first-of-type::first-letter) {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 600;
+    font-variation-settings: 'SOFT' 70;
+    float: left; font-size: 3.4em; line-height: 0.82;
+    padding: 0.08em 0.12em 0 0; color: #8B7355;
+  }
+  :global(.journal-post .prose strong) { color: #2C2C2C; font-weight: 620; }
+  :global(.journal-post .prose em) { font-style: italic; }
+  :global(.journal-post .prose a) { color: #8B7355; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  :global(.journal-post .prose a:hover) { opacity: 0.75; }
+
   :global(.journal-post .prose h2) {
-    font-family: 'Fraunces', Georgia, serif; font-size: clamp(1.5rem, 3.4vw, 2rem);
-    line-height: 1.2; color: #2C2C2C; margin: 3.25rem 0 1rem; padding-top: 2.25rem;
-    border-top: 1px solid #F0E4D8;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 540;
+    font-variation-settings: 'SOFT' 40;
+    font-size: clamp(1.6rem, 3.4vw, 2.1rem);
+    line-height: 1.15; color: #2C2C2C; margin: 3.5rem 0 1.25rem;
+    padding-top: 2.5rem; border-top: 1px solid #EADFCF;
+    scroll-margin-top: 6rem;
   }
   :global(.journal-post .prose h3) {
-    font-family: 'Fraunces', Georgia, serif; font-size: 1.3rem;
-    color: #2C2C2C; margin: 2rem 0 0.75rem;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 540; font-size: 1.35rem;
+    color: #2C2C2C; margin: 2.25rem 0 0.9rem;
   }
-  :global(.journal-post .prose ul) { margin: 0 0 1.5rem; padding-left: 1.25rem; list-style: disc; }
-  :global(.journal-post .prose li) { margin: 0 0 0.5rem; padding-left: 0.25rem; }
+
+  :global(.journal-post .prose ul) { margin: 0 0 1.6rem; padding-left: 0.25rem; list-style: none; }
+  :global(.journal-post .prose li) {
+    margin: 0 0 0.55rem; padding-left: 1.4rem; position: relative;
+  }
+  :global(.journal-post .prose li::before) {
+    content: ''; position: absolute; left: 0; top: 0.72em;
+    width: 0.55rem; height: 1px; background: #B79E78;
+  }
+
+  /* ── Pull quotes: the headline face, given room ───────────────────── */
+  :global(.journal-post .prose blockquote) {
+    margin: 3rem 0; padding: 2.1rem 0 2.3rem; border: 0;
+    border-top: 1px solid #D9C7AC; border-bottom: 1px solid #D9C7AC;
+    background: none; text-align: center; position: relative;
+  }
+  :global(.journal-post .prose blockquote::before) {
+    content: '❦'; display: block; font-size: 0.9rem; color: #B79E78;
+    margin-bottom: 1.1rem; line-height: 1;
+  }
+  :global(.journal-post .prose blockquote p) {
+    font-family: 'Fraunces', Georgia, serif; font-style: italic; font-weight: 460;
+    font-variation-settings: 'SOFT' 60;
+    font-size: clamp(1.35rem, 3vw, 1.7rem); line-height: 1.45;
+    color: #5C4A36; margin: 0; max-width: 32rem;
+    margin-left: auto; margin-right: auto;
+  }
+
   :global(.journal-post .prose img) {
-    display: block; width: 100%; border-radius: 10px; margin: 2.25rem 0;
+    display: block; width: 100%; border-radius: 10px; margin: 2.75rem 0;
     border: 1px solid rgba(139, 115, 85, 0.2);
   }
-  :global(.journal-post .prose p) { margin: 0 0 1.25rem; }
-  :global(.journal-post .prose strong) { color: #2C2C2C; font-weight: 600; }
-  :global(.journal-post .prose em) { font-style: italic; }
-  :global(.journal-post .prose a) { color: #8B7355; text-decoration: underline; text-underline-offset: 2px; }
-  :global(.journal-post .prose a:hover) { opacity: 0.75; }
-  :global(.journal-post .prose blockquote) {
-    margin: 1.75rem 0; padding: 1rem 1.25rem; border-left: 3px solid #8B7355;
-    background: rgba(139, 115, 85, 0.06); border-radius: 0 8px 8px 0; color: #5A5A5A;
-  }
+
+  /* ── Footer ────────────────────────────────────────────────────────── */
   .post-footer {
     display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
-    gap: 1rem; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #F0E4D8;
+    gap: 1rem; margin-top: 4.5rem; padding-top: 2rem; border-top: 1px solid #EADFCF;
   }
-  .footer-link { font-family: 'Switzer', sans-serif; color: #8B7355; text-decoration: none; }
+  .footer-link { font-family: 'Switzer', sans-serif; font-weight: 500; color: #8B7355; text-decoration: none; }
   .footer-link:hover { opacity: 0.75; }
   .footer-cta {
     display: inline-block; padding: 0.85rem 1.75rem; border-radius: 6px; font-weight: 500;
@@ -108,4 +180,89 @@ const fmt = (iso: string) =>
     font-family: 'Switzer', sans-serif;
   }
   .footer-cta:hover { opacity: 0.9; }
+
+  /* ── Progress sidebar: quiet ticks, labels on approach ────────────── */
+  .toc {
+    position: fixed; left: 1.4rem; top: 50%; transform: translateY(-50%);
+    z-index: 50; display: none; flex-direction: column; gap: 0.55rem;
+    padding: 0.75rem 0.5rem;
+  }
+  @media (min-width: 1240px) { .toc { display: flex; } }
+
+  .toc-item {
+    display: flex; align-items: center; gap: 0.7rem;
+    text-decoration: none; min-height: 14px;
+  }
+  .toc-tick {
+    display: block; width: 16px; height: 1.5px; flex: 0 0 auto;
+    background: #CFBD9E; border-radius: 1px;
+    transition: width 0.25s ease, background-color 0.25s ease;
+  }
+  .toc-dot {
+    width: 5px; height: 5px; border-radius: 50%; background: #CFBD9E;
+  }
+  .toc-label {
+    font-family: 'Switzer', sans-serif; font-weight: 500; font-size: 0.74rem;
+    letter-spacing: 0.05em; color: #8B7355; white-space: nowrap;
+    max-width: 15rem; overflow: hidden; text-overflow: ellipsis;
+    opacity: 0; transform: translateX(-6px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    pointer-events: none;
+  }
+  .toc-top .toc-label { font-weight: 620; color: #5C4A36; }
+
+  .toc:hover .toc-label { opacity: 1; transform: translateX(0); }
+  .toc-item:hover .toc-tick { background: #8B7355; }
+
+  .toc-item.is-active .toc-tick { width: 26px; background: #8B7355; }
+  .toc-item.is-active .toc-dot { width: 7px; height: 7px; background: #8B7355; }
+  .toc-item.is-active .toc-label { color: #5C4A36; }
 </style>
+
+<script>
+  // Highlight the section currently in view; smooth-scroll on click.
+  const items = Array.from(document.querySelectorAll<HTMLAnchorElement>('.toc-item'));
+  if (items.length) {
+    const byId = new Map(items.map((el) => [el.dataset.target!, el]));
+    const targets = items
+      .map((el) => (el.dataset.target === 'top'
+        ? document.getElementById('top')
+        : document.getElementById(el.dataset.target!)))
+      .filter((el): el is HTMLElement => !!el);
+
+    let active: HTMLAnchorElement | null = null;
+    const setActive = (id: string) => {
+      const next = byId.get(id);
+      if (!next || next === active) return;
+      active?.classList.remove('is-active');
+      next.classList.add('is-active');
+      active = next;
+    };
+
+    const pick = () => {
+      // The active section is the last heading above the reading line (~35% down).
+      const line = window.innerHeight * 0.35;
+      let current = 'top';
+      for (const t of targets) {
+        if (t.getBoundingClientRect().top <= line) current = t.id;
+      }
+      setActive(current);
+    };
+    document.addEventListener('scroll', pick, { passive: true });
+    pick();
+
+    for (const el of items) {
+      el.addEventListener('click', (e) => {
+        const target = el.dataset.target === 'top'
+          ? document.body
+          : document.getElementById(el.dataset.target!);
+        if (!target) return;
+        e.preventDefault();
+        (el.dataset.target === 'top'
+          ? window.scrollTo({ top: 0, behavior: 'smooth' })
+          : target.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+        history.replaceState(null, '', el.dataset.target === 'top' ? ' ' : `#${el.dataset.target}`);
+      });
+    }
+  }
+</script>
