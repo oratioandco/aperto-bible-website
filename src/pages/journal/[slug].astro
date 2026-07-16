@@ -94,8 +94,8 @@ const fmt = (iso: string) =>
     line-height: 1.1; color: #2C2C2C; margin: 0 0 1.25rem;
   }
   .post-lead {
-    font-family: var(--font-bible, 'Softcore', Georgia, serif);
-    font-size: 1.28rem; line-height: 1.6; font-style: italic;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 380;
+    font-size: 1.3rem; line-height: 1.55; font-style: italic;
     color: #6A5F52; margin: 0 0 2.5rem;
   }
   .post-cover {
@@ -103,10 +103,11 @@ const fmt = (iso: string) =>
     border: 1px solid rgba(139, 115, 85, 0.2);
   }
 
-  /* ── Editorial body: the site's Bible reading face ─────────────────── */
+  /* ── Editorial body: the site's Bible reading face, at its reading
+     weight — .verse-text is Softcore 200 at 1.25rem/1.9 ─────────────── */
   .prose {
-    font-family: var(--font-bible, 'Softcore', Georgia, serif); font-weight: 400;
-    font-size: 1.14rem; line-height: 1.8; color: #3A342E;
+    font-family: var(--font-bible, 'Softcore', Georgia, serif); font-weight: 200;
+    font-size: 1.2rem; line-height: 1.85; color: #3A342E;
   }
   :global(.journal-post .prose p) { margin: 0 0 1.4rem; }
   :global(.journal-post .prose > p:first-of-type::first-letter) {
@@ -114,7 +115,7 @@ const fmt = (iso: string) =>
     float: left; font-size: 3.4em; line-height: 0.82;
     padding: 0.08em 0.12em 0 0; color: #8B7355;
   }
-  :global(.journal-post .prose strong) { color: #2C2C2C; font-weight: 620; }
+  :global(.journal-post .prose strong) { color: #2C2C2C; font-weight: 500; }
   :global(.journal-post .prose em) { font-style: italic; }
   :global(.journal-post .prose a) { color: #8B7355; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
   :global(.journal-post .prose a:hover) { opacity: 0.75; }
@@ -140,21 +141,28 @@ const fmt = (iso: string) =>
     width: 0.55rem; height: 1px; background: #B79E78;
   }
 
-  /* ── Pull quotes: the headline face, given room ───────────────────── */
+  /* ── Pull quotes: the headline face, offset out of the column ─────── */
   :global(.journal-post .prose blockquote) {
-    margin: 3rem 0; padding: 2.1rem 0 2.3rem; border: 0;
-    border-top: 1px solid #D9C7AC; border-bottom: 1px solid #D9C7AC;
-    background: none; text-align: center; position: relative;
+    margin: 3.5rem 0; padding: 0 0 0 1.6rem; border: 0;
+    background: none; text-align: left; position: relative;
   }
   :global(.journal-post .prose blockquote::before) {
-    content: '❦'; display: block; font-size: 0.9rem; color: #B79E78;
-    margin-bottom: 1.1rem; line-height: 1;
+    content: '❦'; position: absolute; left: 0; top: -1.6rem;
+    font-size: 0.85rem; color: #B79E78; line-height: 1;
+  }
+  :global(.journal-post .prose blockquote::after) {
+    content: ''; position: absolute; left: 0; top: 0.35rem; bottom: 0.45rem;
+    width: 2px; background: #C9A87C;
   }
   :global(.journal-post .prose blockquote p) {
-    font-family: 'Fraunces', Georgia, serif; font-style: italic; font-weight: 440;
-    font-size: clamp(1.35rem, 3vw, 1.7rem); line-height: 1.45;
-    color: #5C4A36; margin: 0; max-width: 32rem;
-    margin-left: auto; margin-right: auto;
+    font-family: 'Fraunces', Georgia, serif; font-style: italic; font-weight: 420;
+    font-size: clamp(1.6rem, 3.6vw, 2.15rem); line-height: 1.35;
+    color: #5C4A36; margin: 0; max-width: 36rem;
+  }
+  @media (min-width: 1100px) {
+    :global(.journal-post .prose blockquote) {
+      margin-left: -5rem; width: calc(100% + 5rem);
+    }
   }
 
   :global(.journal-post .prose img) {
@@ -180,19 +188,23 @@ const fmt = (iso: string) =>
   .toc {
     position: fixed; left: 1.6rem; top: 50%; transform: translateY(-50%);
     z-index: 50; display: none; flex-direction: column; gap: 0.85rem;
-    padding: 0.25rem 0.5rem 0.25rem 0;
+    padding: 0 0.5rem 0 0;
+    /* rail spans from the center of the first tick to the center of the last */
+    --rail-inset: 6px;
   }
   @media (min-width: 1240px) { .toc { display: flex; } }
 
   /* the rail: a quiet vertical line behind the ticks */
   .toc::before {
-    content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+    content: ''; position: absolute; left: 0;
+    top: var(--rail-inset); bottom: var(--rail-inset);
     width: 1px; background: #E3D5BC;
   }
   /* the fill: reading progress, set by script via --progress */
   .toc::after {
-    content: ''; position: absolute; left: 0; top: 0;
-    width: 1px; height: calc(var(--progress, 0) * 100%);
+    content: ''; position: absolute; left: 0; top: var(--rail-inset);
+    width: 1px;
+    height: calc(var(--progress, 0) * (100% - 2 * var(--rail-inset)));
     background: #8B7355; transition: height 0.15s linear;
   }
 
