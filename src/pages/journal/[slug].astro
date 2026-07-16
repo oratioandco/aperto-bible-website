@@ -89,14 +89,13 @@ const fmt = (iso: string) =>
   .post-meta a:hover { border-color: #8B7355; }
 
   h1 {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 560;
-    font-size: clamp(2.3rem, 5.5vw, 3.3rem);
-    line-height: 1.06; letter-spacing: -0.01em; color: #2C2C2C; margin: 0 0 1.25rem;
-    font-variation-settings: 'SOFT' 40;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(2.2rem, 5.5vw, 3.1rem);
+    line-height: 1.1; color: #2C2C2C; margin: 0 0 1.25rem;
   }
   .post-lead {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 380;
-    font-size: 1.3rem; line-height: 1.55; font-style: italic;
+    font-family: var(--font-bible, 'Softcore', Georgia, serif);
+    font-size: 1.28rem; line-height: 1.6; font-style: italic;
     color: #6A5F52; margin: 0 0 2.5rem;
   }
   .post-cover {
@@ -104,16 +103,14 @@ const fmt = (iso: string) =>
     border: 1px solid rgba(139, 115, 85, 0.2);
   }
 
-  /* ── Editorial body: serif, real weight, generous leading ─────────── */
+  /* ── Editorial body: the site's Bible reading face ─────────────────── */
   .prose {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
-    font-optical-sizing: auto;
+    font-family: var(--font-bible, 'Softcore', Georgia, serif); font-weight: 400;
     font-size: 1.14rem; line-height: 1.8; color: #3A342E;
   }
   :global(.journal-post .prose p) { margin: 0 0 1.4rem; }
   :global(.journal-post .prose > p:first-of-type::first-letter) {
     font-family: 'Fraunces', Georgia, serif; font-weight: 600;
-    font-variation-settings: 'SOFT' 70;
     float: left; font-size: 3.4em; line-height: 0.82;
     padding: 0.08em 0.12em 0 0; color: #8B7355;
   }
@@ -123,16 +120,15 @@ const fmt = (iso: string) =>
   :global(.journal-post .prose a:hover) { opacity: 0.75; }
 
   :global(.journal-post .prose h2) {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 540;
-    font-variation-settings: 'SOFT' 40;
-    font-size: clamp(1.6rem, 3.4vw, 2.1rem);
-    line-height: 1.15; color: #2C2C2C; margin: 3.5rem 0 1.25rem;
-    padding-top: 2.5rem; border-top: 1px solid #EADFCF;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(1.5rem, 3.4vw, 2rem);
+    line-height: 1.2; color: #2C2C2C; margin: 3.25rem 0 1rem;
+    padding-top: 2.25rem; border-top: 1px solid #F0E4D8;
     scroll-margin-top: 6rem;
   }
   :global(.journal-post .prose h3) {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 540; font-size: 1.35rem;
-    color: #2C2C2C; margin: 2.25rem 0 0.9rem;
+    font-family: 'Fraunces', Georgia, serif; font-size: 1.3rem;
+    color: #2C2C2C; margin: 2rem 0 0.75rem;
   }
 
   :global(.journal-post .prose ul) { margin: 0 0 1.6rem; padding-left: 0.25rem; list-style: none; }
@@ -155,8 +151,7 @@ const fmt = (iso: string) =>
     margin-bottom: 1.1rem; line-height: 1;
   }
   :global(.journal-post .prose blockquote p) {
-    font-family: 'Fraunces', Georgia, serif; font-style: italic; font-weight: 460;
-    font-variation-settings: 'SOFT' 60;
+    font-family: 'Fraunces', Georgia, serif; font-style: italic; font-weight: 440;
     font-size: clamp(1.35rem, 3vw, 1.7rem); line-height: 1.45;
     color: #5C4A36; margin: 0; max-width: 32rem;
     margin-left: auto; margin-right: auto;
@@ -181,25 +176,38 @@ const fmt = (iso: string) =>
   }
   .footer-cta:hover { opacity: 0.9; }
 
-  /* ── Progress sidebar: quiet ticks, labels on approach ────────────── */
+  /* ── Progress sidebar: vertical rail + fill, ticks, labels on approach ── */
   .toc {
-    position: fixed; left: 1.4rem; top: 50%; transform: translateY(-50%);
-    z-index: 50; display: none; flex-direction: column; gap: 0.55rem;
-    padding: 0.75rem 0.5rem;
+    position: fixed; left: 1.6rem; top: 50%; transform: translateY(-50%);
+    z-index: 50; display: none; flex-direction: column; gap: 0.85rem;
+    padding: 0.25rem 0.5rem 0.25rem 0;
   }
   @media (min-width: 1240px) { .toc { display: flex; } }
 
+  /* the rail: a quiet vertical line behind the ticks */
+  .toc::before {
+    content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+    width: 1px; background: #E3D5BC;
+  }
+  /* the fill: reading progress, set by script via --progress */
+  .toc::after {
+    content: ''; position: absolute; left: 0; top: 0;
+    width: 1px; height: calc(var(--progress, 0) * 100%);
+    background: #8B7355; transition: height 0.15s linear;
+  }
+
   .toc-item {
     display: flex; align-items: center; gap: 0.7rem;
-    text-decoration: none; min-height: 14px;
+    text-decoration: none; min-height: 12px; position: relative;
   }
   .toc-tick {
-    display: block; width: 16px; height: 1.5px; flex: 0 0 auto;
+    display: block; width: 14px; height: 1.5px; flex: 0 0 auto;
     background: #CFBD9E; border-radius: 1px;
     transition: width 0.25s ease, background-color 0.25s ease;
   }
   .toc-dot {
     width: 5px; height: 5px; border-radius: 50%; background: #CFBD9E;
+    margin-left: -2px;
   }
   .toc-label {
     font-family: 'Switzer', sans-serif; font-weight: 500; font-size: 0.74rem;
@@ -239,6 +247,7 @@ const fmt = (iso: string) =>
       active = next;
     };
 
+    const toc = document.querySelector<HTMLElement>('.toc');
     const pick = () => {
       // The active section is the last heading above the reading line (~35% down).
       const line = window.innerHeight * 0.35;
@@ -247,8 +256,15 @@ const fmt = (iso: string) =>
         if (t.getBoundingClientRect().top <= line) current = t.id;
       }
       setActive(current);
+      // Fill the rail with overall reading progress.
+      if (toc) {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+        toc.style.setProperty('--progress', String(progress));
+      }
     };
     document.addEventListener('scroll', pick, { passive: true });
+    window.addEventListener('resize', pick, { passive: true });
     pick();
 
     for (const el of items) {
