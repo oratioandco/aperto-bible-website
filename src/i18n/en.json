@@ -82,9 +82,59 @@
       "title": "Listen while we translate",
       "inProgress": "The written translation for this language is still in review. We only publish text that has passed our quality gates. What you can already experience: original songs and podcasts about these passages, and a daily devotional."
     },
-    "pageTitle": "Scripture that takes you seriously",
+    "pageTitle": "A Bible translation open to everyone",
     "aiClause": "AI-assisted, human-accountable.",
-    "honestNotes": "And we say where these texts have been misused, too."
+    "honestNotes": "And we say where these texts have been misused, too.",
+    "landing": {
+      "heroLead": "A new Bible translation, open to you, whatever you believe.",
+      "heroSub": "No faith required, no church assumed, no background needed. Language you actually speak, the context you would otherwise have to look up, and room to think for yourself.",
+      "ctaRead": "Read a first passage",
+      "ctaListen": "Listen instead",
+      "openTitle": "Aperto means open.",
+      "openIntro": "Somewhere along the way, many of us were told to choose: read the Bible critically and lose the sacred, or keep the faith and stop asking questions. We don't think you have to choose.",
+      "pillars": [
+        {
+          "title": "Nothing asked of you",
+          "text": "You don't have to believe anything to read it, or belong anywhere. It draws on Catholic, Protestant, Orthodox and Pentecostal scholarship and pushes none of them. Come in, look around, make up your own mind."
+        },
+        {
+          "title": "Language that lets you in",
+          "text": "For many people the wall isn't the Bible's ideas. It's the language: old words, buried references, a world nobody explains. Aperto is written in the language you speak today, with what an ancient listener took for granted woven in and clearly marked."
+        },
+        {
+          "title": "Honest about the hard parts",
+          "text": "Where a passage is hard to believe, the notes say so and set out the readings side by side. Where these texts have been used to hurt people, they say that too."
+        }
+      ],
+      "openClose": "For the curious and the seeking. For those who left and those who stayed. For anyone ready to look again.",
+      "demoEyebrow": "See for yourself",
+      "demoTitle": "Read it before we tell you more.",
+      "demoIntro": "An angel has just told a young woman she will have a child. This is her question, and the answer.",
+      "demoRef": "Luke 1:34–35",
+      "demoLegend": "The italic words are context, woven in and marked, so you always know what's the text and what's there to help.",
+      "noteLabel": "Hard to believe",
+      "noteBridge": "The note goes on to read the verse the way the church has for two thousand years, then offers readings for those who can't take it literally. It doesn't decide for you.",
+      "demoCta": "Read the whole passage",
+      "demoListen": "or hear it as a song and a podcast",
+      "hardTitle": "The questions you'd actually ask.",
+      "hardIntro": "Most Bibles print the difficult verses without comment, or explain them away. Aperto's “Hard to believe” notes start where a sceptical reader would stop, and every chapter also carries notes on culture, context, the original words, and where the text lands in life today.",
+      "hardReadNote": "Read the note",
+      "listenEyebrow": "Read it, hear it, sing it",
+      "listenTitle": "The same passage, the way that suits your day.",
+      "listenIntro": "Passages come with short podcasts that walk you through them, and many with an original song. Luke 1 also has an audio Bible and a short devotional for the morning and the evening. Put it on while you cook, on the way to work, or once the kids are finally asleep.",
+      "songLabel": "Song",
+      "podcastLabel": "Podcast on this passage",
+      "chaptersTitle": "Six chapters to start with",
+      "chaptersIntro": "A birth announced in a backwater, a father who runs, a shepherd psalm, a song of exile, a psalm about being known, and Paul arguing in Athens. More are on the way."
+    },
+    "cards": {
+      "luke1": "Two Births Announced",
+      "luke15": "The Lost Sons",
+      "psalm23": "The Shepherd",
+      "psalm137": "By the Rivers of Babylon",
+      "psalm139": "You Have Searched Me",
+      "acts17": "Paul in Athens"
+    }
   },
   "about": {
     "title": "About Aperto",
@@ -309,12 +359,12 @@
       "contact": "Contact us"
     },
     "newsletter": {
-      "title": "Stay Updated",
-      "intro": "Sign up for our newsletter to follow our progress.",
+      "title": "Hear when the next chapter is ready",
+      "intro": "Occasional emails when new chapters, songs and podcasts are finished. Unsubscribe any time.",
       "note": "Our newsletter is in English.",
       "firstName": "First Name",
       "email": "Email",
-      "agree": "I agree to receive email updates and promotions.",
+      "agree": "I'd like occasional emails about new chapters and news from Aperto.",
       "button": "Receive the Aperto Newsletter"
     },
     "readLuke": "Read Luke →"

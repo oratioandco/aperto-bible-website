@@ -1,0 +1,334 @@
+---
+// Homepage body for the text languages (TEXT_LANGUAGES): a landing page that
+// shows Aperto instead of describing it. The demo verses, the "Hard to
+// believe" notes and the media are all read from the published chapter
+// JSONs at build time, so they can never drift from the live text.
+import SongPlayer from '../SongPlayer.astro';
+import AudioPlayer from '../AudioPlayer.astro';
+import HomepageDevotional from '../HomepageDevotional.astro';
+import en from '../../i18n/en.json';
+import de from '../../i18n/de.json';
+import pl from '../../i18n/pl.json';
+
+interface DevotionalEntry { title: string; mp3: string; duration?: string }
+interface Props {
+  lang: string;
+  base: string;
+  morning: DevotionalEntry | null;
+  evening: DevotionalEntry | null;
+}
+const { lang, base, morning, evening } = Astro.props;
+
+const copyByLang: Record<string, any> = { en, de, pl };
+const home = (copyByLang[lang] ?? en).home;
+const L = home.landing;
+const cards = home.cards;
+
+const chapters = import.meta.glob('../../content/{luke-1,psalms-23,psalms-139,acts-17}-{en,de,pl}.json', { eager: true });
+const pericopeIndex = import.meta.glob('../../content/{luke-1,psalms-23,psalms-139,acts-17}-pericopes-{en,de,pl}.json', { eager: true });
+const load = (name: string) => (chapters[`../../content/${name}-${lang}.json`] as any)?.default;
+const loadPericopes = (name: string) => (pericopeIndex[`../../content/${name}-pericopes-${lang}.json`] as any)?.default?.pericopes ?? [];
+
+const HARD = new Set(['unglaublich', 'unbelievable']);
+
+function findVerse(name: string, n: number) {
+  for (const s of load(name)?.sections ?? []) for (const v of s.verses) if (Number(v.number) === n) return v;
+  return null;
+}
+function pericopeFor(name: string, n: number) {
+  for (const p of loadPericopes(name)) {
+    const [a, b] = String(p.verses).split('-').map(Number);
+    if (n >= a && n <= (b || a)) return p;
+  }
+  return null;
+}
+// Display-only cleanup: tags, stray USFM character markers, markdown emphasis.
+const toPlain = (s: string) =>
+  s.replace(/<[^>]+>/g, ' ').replace(/\\[a-z]+\d?\*?/g, '').replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+// Opening of a note: whole sentences, as many as fit in `max` characters.
+function opening(s: string, max: number) {
+  const sentences = toPlain(s).match(/[^.?!]+[.?!]+["”“']?(\s|$)/g) ?? [toPlain(s)];
+  let out = '';
+  for (const x of sentences) {
+    if (out && (out + x).length > max) break;
+    out += x;
+  }
+  return out.trim();
+}
+// Verse HTML for display: keep the marked illumination, drop layout markers,
+// and make sure an illumination never touches the word before it.
+const verseHtml = (h: string) =>
+  h.replace(/<span class="(paragraph-break|poetry-[^"]*)"><\/span>/g, '')
+   .replace(/([^\s(„"“])<span class="amplification">/g, '$1 <span class="amplification">');
+
+const refSep = lang === 'en' ? ':' : ',';
+const q = lang === 'en' ? ['“', '”'] : lang === 'de' ? ['„', '“'] : ['„', '”'];
+const bookName: Record<string, Record<string, string>> = {
+  en: { 'luke-1': 'Luke 1', 'psalms-23': 'Psalm 23', 'psalms-139': 'Psalm 139', 'acts-17': 'Acts 17' },
+  de: { 'luke-1': 'Lukas 1', 'psalms-23': 'Psalm 23', 'psalms-139': 'Psalm 139', 'acts-17': 'Apostelgeschichte 17' },
+  pl: { 'luke-1': 'Łukasz 1', 'psalms-23': 'Psalm 23', 'psalms-139': 'Psalm 139', 'acts-17': 'Dzieje 17' },
+};
+const routeFor = (name: string) => name.replace(/-(\d+)$/, '/$1');
+
+// --- The demo passage: Luke 1:34-35 (inside "Mary says yes", 1:26-38) ---
+const demoVerses = [34, 35].map((n) => findVerse('luke-1', n)).filter(Boolean);
+const demoNote = findVerse('luke-1', 35)?.footnotes?.find((f: any) => HARD.has(f.category));
+const demoPericope = pericopeFor('luke-1', 35);
+const demoHref = demoPericope ? `${base}${lang}/luke/1/${demoPericope.id}` : `${base}${lang}/luke/1`;
+
+// --- More "Hard to believe" notes, one per chapter; a card is skipped if
+// the note is missing in this language ---
+const hardCards = [
+  ['psalms-23', 4],
+  ['psalms-139', 7],
+  ['acts-17', 31],
+].flatMap(([name, n]) => {
+  const v = findVerse(name as string, n as number);
+  const note = v?.footnotes?.find((f: any) => HARD.has(f.category));
+  if (!note) return [];
+  const p = pericopeFor(name as string, n as number);
+  const [book, chap] = bookName[lang][name as string].split(/ (?=\d+$)/);
+  return [{
+    ref: `${book} ${chap}${refSep}${n}`,
+    keyword: toPlain(note.keyword),
+    text: opening(note.content, 230),
+    href: `${base}${lang}/${routeFor(name as string)}${p ? '/' + p.id : ''}`,
+  }];
+});
+
+// --- Media for the same passage ---
+const media = demoPericope?.media ?? {};
+const song = (media.songs ?? (media.song ? [media.song] : []))[0];
+const podcast = media.podcast?.mp3 ? media.podcast : null;
+
+const chapterCards = [
+  { href: 'luke/1', label: bookName[lang]['luke-1'], sub: cards.luke1, img: '/images/luke/1/luke_01_annunciation.png' },
+  { href: 'luke/15', label: bookName[lang]['luke-1'].replace(/\d+$/, '15'), sub: cards.luke15, img: '/images/luke/15/luke_15_prodigal-son.png' },
+  { href: 'psalms/23', label: 'Psalm 23', sub: cards.psalm23, img: '/images/psalms/23/psalms_023_shepherd.png' },
+  { href: 'psalms/137', label: 'Psalm 137', sub: cards.psalm137, img: '/images/psalms/137/psalms_137_rivers.png' },
+  { href: 'psalms/139', label: 'Psalm 139', sub: cards.psalm139, img: '/images/psalms/139/psalms_139_searched.png' },
+  { href: 'acts/17', label: bookName[lang]['acts-17'], sub: cards.acts17, img: '/images/acts/17/acts_017_areopagus.png' },
+];
+---
+
+<!-- 1. What "open" means -->
+<section class="lp-section lp-open">
+  <div class="lp-narrow lp-center">
+    <h2 class="lp-h2">{L.openTitle}</h2>
+    <p class="lp-lead">{L.openIntro}</p>
+  </div>
+  <div class="lp-pillars">
+    {L.pillars.map((p: any) => (
+      <div class="lp-pillar">
+        <h3>{p.title}</h3>
+        <p>{p.text}</p>
+      </div>
+    ))}
+  </div>
+  <p class="lp-close">{L.openClose}</p>
+</section>
+
+<!-- 2. The demo: one real passage, as it reads in Aperto -->
+{demoVerses.length > 0 && (
+  <section id="first-passage" class="lp-section lp-demo">
+    <div class="lp-narrow">
+      <p class="lp-eyebrow">{L.demoEyebrow}</p>
+      <h2 class="lp-h2">{L.demoTitle}</h2>
+      <p class="lp-muted">{L.demoIntro}</p>
+
+      <figure class="lp-scripture">
+        <figcaption>{L.demoRef}</figcaption>
+        <p>
+          {demoVerses.map((v: any) => (
+            <Fragment><sup class="lp-vnum">{v.number}</sup><Fragment set:html={verseHtml(v.text)} />{' '}</Fragment>
+          ))}
+        </p>
+        <p class="lp-legend">{L.demoLegend}</p>
+      </figure>
+
+      {demoNote && (
+        <aside class="lp-note">
+          <p class="lp-note-label"><span aria-hidden="true">🤔</span> {L.noteLabel} · <em>{toPlain(demoNote.keyword)}</em></p>
+          <p class="lp-note-text">{opening(demoNote.content, 140)}</p>
+          <p class="lp-note-bridge">{L.noteBridge}</p>
+        </aside>
+      )}
+
+      <div class="lp-actions">
+        <a href={demoHref} class="lp-btn">{L.demoCta} →</a>
+        <a href="#listen" class="lp-link">{L.demoListen} ↓</a>
+      </div>
+    </div>
+  </section>
+)}
+
+<!-- 3. More hard questions -->
+{hardCards.length > 0 && (
+  <section class="lp-section lp-hard">
+    <div class="lp-narrow lp-center">
+      <h2 class="lp-h2">{L.hardTitle}</h2>
+      <p class="lp-muted">{L.hardIntro}</p>
+    </div>
+    <div class="lp-hard-grid">
+      {hardCards.map((c) => (
+        <a href={c.href} class="lp-hard-card">
+          <p class="lp-note-label"><span aria-hidden="true">🤔</span> {L.noteLabel} · {c.ref}</p>
+          <h3>{q[0]}{c.keyword}{q[1]}</h3>
+          <p>{c.text}</p>
+          <span class="lp-link">{L.hardReadNote} →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
+<!-- 4. The same passage as song, podcast, devotional -->
+<section id="listen" class="lp-section lp-listen">
+  <div class="lp-narrow lp-center">
+    <p class="lp-eyebrow">{L.listenEyebrow}</p>
+    <h2 class="lp-h2">{L.listenTitle}</h2>
+    <p class="lp-muted">{L.listenIntro}</p>
+  </div>
+  <div class="lp-narrow lp-players">
+    {song && <SongPlayer song={song} lang={lang} />}
+    {podcast && <AudioPlayer title={demoPericope?.title ?? ''} subtitle={L.podcastLabel} src={`/audio/podcasts/${podcast.mp3}`} />}
+  </div>
+</section>
+<HomepageDevotional lang={lang} morning={morning} evening={evening} />
+
+<!-- 5. Six chapters -->
+<section id="sample-chapters" class="lp-section">
+  <div class="lp-narrow lp-center">
+    <h2 class="lp-h2">{L.chaptersTitle}</h2>
+    <p class="lp-muted">{L.chaptersIntro}</p>
+  </div>
+  <div class="lp-chapters">
+    {chapterCards.map((c) => (
+      <a href={`${base}${lang}/${c.href}`} class="lp-chapter group">
+        <div class="lp-chapter-img"><img src={c.img} alt="" loading="lazy" /></div>
+        <div class="lp-chapter-body">
+          <h3>{c.label}</h3>
+          <p>{c.sub}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .lp-section { padding: 6rem 1.5rem; }
+  @media (min-width: 768px) { .lp-section { padding: 7rem 4rem; } }
+  .lp-narrow { max-width: 42rem; margin: 0 auto; }
+  .lp-center { text-align: center; }
+
+  .lp-h2 {
+    font-family: var(--font-headline);
+    font-size: clamp(1.9rem, 4.2vw, 2.75rem);
+    line-height: 1.15;
+    color: var(--color-charcoal);
+    margin: 0 0 1.25rem;
+  }
+  .lp-eyebrow {
+    font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--color-accent); margin: 0 0 0.9rem; font-weight: 500;
+  }
+  .lp-lead { font-size: 1.2rem; line-height: 1.7; color: var(--color-text); font-weight: 300; }
+  .lp-muted { font-size: 1.05rem; line-height: 1.7; color: var(--color-text-muted); font-weight: 300; }
+
+  /* 1. Open */
+  .lp-open { background: var(--color-paper); }
+  .lp-pillars {
+    max-width: 64rem; margin: 3.5rem auto 0;
+    display: grid; gap: 2.5rem;
+  }
+  @media (min-width: 768px) { .lp-pillars { grid-template-columns: repeat(3, 1fr); } }
+  .lp-pillar h3 { font-family: var(--font-headline); font-size: 1.3rem; color: var(--color-charcoal); margin: 0 0 0.6rem; }
+  .lp-pillar p { line-height: 1.7; color: var(--color-text-muted); font-weight: 300; }
+  .lp-close {
+    max-width: 40rem; margin: 4rem auto 0; text-align: center;
+    font-family: var(--font-bible); font-weight: 200; font-style: italic; font-size: 1.35rem; line-height: 1.6;
+    color: var(--color-headline);
+  }
+
+  /* 2. Demo */
+  .lp-scripture {
+    margin: 2.5rem 0 0; padding: 2rem 0 1.5rem;
+    border-top: 1px solid var(--color-border-strong);
+  }
+  .lp-scripture figcaption {
+    font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--color-warm-gray); margin-bottom: 1rem;
+  }
+  .lp-scripture > p:first-of-type {
+    /* Same face and weight as the reading pages, a size up */
+    font-family: var(--font-bible); font-weight: 200; font-size: clamp(1.25rem, 2.6vw, 1.5rem); line-height: 1.8;
+    color: var(--color-text);
+  }
+  .lp-vnum { font-family: var(--font-ui); font-size: 0.6em; color: var(--color-accent); margin-right: 0.25em; }
+  .lp-legend { margin-top: 1rem; font-size: 0.9rem; color: var(--color-text-muted); font-weight: 300; }
+  .lp-legend::before { content: '— '; color: var(--color-amplification); }
+
+  .lp-note {
+    margin-top: 1.5rem; padding: 1.5rem 1.75rem;
+    background: var(--color-cream); border: 1px solid var(--color-border);
+    border-left: 3px solid #ea580c; border-radius: 6px;
+  }
+  .lp-note-label {
+    font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: #b4460a; margin: 0 0 0.6rem; font-weight: 500;
+  }
+  .lp-note-label em { text-transform: none; letter-spacing: 0; font-style: italic; color: var(--color-text-muted); font-weight: 300; }
+  .lp-note-text { font-size: 1.05rem; line-height: 1.65; color: var(--color-text); }
+  .lp-note-bridge { margin-top: 0.6rem; font-size: 0.98rem; line-height: 1.65; color: var(--color-text-muted); font-weight: 300; }
+
+  .lp-actions { margin-top: 2.25rem; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.75rem; }
+  .lp-btn {
+    display: inline-block; padding: 0.9rem 1.8rem; border-radius: 6px;
+    background: var(--color-charcoal); color: var(--color-cream); font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .lp-btn:hover { opacity: 0.88; color: var(--color-cream); }
+  .lp-link { color: var(--color-accent); font-weight: 500; }
+
+  /* 3. Hard questions */
+  .lp-hard { background: var(--color-paper); }
+  .lp-hard-grid {
+    max-width: 64rem; margin: 3rem auto 0;
+    display: grid; gap: 1.5rem;
+  }
+  @media (min-width: 768px) { .lp-hard-grid { grid-template-columns: repeat(3, 1fr); } }
+  .lp-hard-card {
+    display: flex; flex-direction: column; gap: 0.75rem;
+    padding: 1.75rem; border-radius: 8px;
+    background: var(--color-cream); border: 1px solid var(--color-border);
+    color: inherit; transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .lp-hard-card:hover { box-shadow: 0 8px 28px rgba(60, 40, 20, 0.08); border-color: var(--color-border-strong); }
+  .lp-hard-card h3 { font-family: var(--font-bible); font-weight: 200; font-size: 1.35rem; line-height: 1.35; color: var(--color-charcoal); margin: 0; }
+  .lp-hard-card p:not(.lp-note-label) { line-height: 1.65; color: var(--color-text-muted); font-weight: 300; flex: 1; }
+  .lp-hard-card .lp-note-label { margin: 0; }
+
+  /* 4. Listen */
+  .lp-listen { padding-bottom: 2rem; }
+  .lp-players { margin-top: 2.5rem; display: grid; gap: 1rem; }
+
+  /* 5. Chapters */
+  .lp-chapters {
+    max-width: 72rem; margin: 3rem auto 0;
+    display: grid; gap: 1.5rem;
+  }
+  @media (min-width: 640px) { .lp-chapters { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) { .lp-chapters { grid-template-columns: repeat(3, 1fr); } }
+  .lp-chapter {
+    display: block; overflow: hidden; border-radius: 8px;
+    background: var(--color-cream); border: 1px solid var(--color-border);
+    transition: box-shadow 0.2s;
+  }
+  .lp-chapter:hover { box-shadow: 0 8px 28px rgba(60, 40, 20, 0.1); }
+  .lp-chapter-img { aspect-ratio: 4 / 3; overflow: hidden; background: var(--color-beige); }
+  .lp-chapter-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+  .lp-chapter:hover .lp-chapter-img img { transform: scale(1.04); }
+  .lp-chapter-body { padding: 1.25rem; }
+  .lp-chapter-body h3 { font-size: 1.25rem; color: var(--color-charcoal); margin: 0 0 0.25rem; }
+  .lp-chapter-body p { font-size: 0.92rem; color: var(--color-text-muted); margin: 0; }
+</style>

@@ -4,6 +4,7 @@ import HomepageDevotional from './HomepageDevotional.astro';
 import NewsletterSignup from './NewsletterSignup.astro';
 import SongPlayer from './SongPlayer.astro';
 import AudioPlayer from './AudioPlayer.astro';
+import LandingSections from './home/LandingSections.astro';
 import { useTranslations } from '../i18n/utils';
 import { TEXT_LANGUAGES } from '../data/textLanguages';
 
@@ -82,15 +83,23 @@ if (!isTextLang && pericopeData?.pericopes) {
     <!-- Content -->
     <div class="video-hero-content">
       <h1 class="hero-wordmark tracking-tight logo">aperto</h1>
-      <p class="hero-tagline">
-        {t('home.tagline')}
-      </p>
+      {isTextLang ? (
+        <Fragment>
+          <p class="hero-lead">{t('home.landing.heroLead')}</p>
+          <p class="hero-tagline">{t('home.landing.heroSub')}</p>
+        </Fragment>
+      ) : (
+        <p class="hero-tagline">
+          {t('home.tagline')}
+        </p>
+      )}
       <p class="hero-ai-clause">{t('home.aiClause')}</p>
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center flex-wrap gap-3">
         {isTextLang ? (
-          <a href="#sample-chapters" class="hero-btn">
-            {lang === 'de' ? 'Probekapitel ansehen' : lang === 'pl' ? 'Zobacz rozdziały próbne' : 'Browse sample chapters'}
-          </a>
+          <Fragment>
+            <a href="#first-passage" class="hero-btn hero-btn-primary">{t('home.landing.ctaRead')}</a>
+            <a href="#listen" class="hero-btn">{t('home.landing.ctaListen')}</a>
+          </Fragment>
         ) : (
           <a href="#listen" class="hero-btn">
             {t('home.media.heroCta')}
@@ -187,7 +196,8 @@ if (!isTextLang && pericopeData?.pericopes) {
 
     .video-hero-content {
       position: relative;
-      z-index: 3;
+      /* Above the bottom fade (::after, z 4), which otherwise washes out the CTAs */
+      z-index: 5;
       text-align: center;
       padding: 2rem;
       max-width: 56rem;
@@ -200,6 +210,27 @@ if (!isTextLang && pericopeData?.pericopes) {
       color: #FFFBF5;
       margin-bottom: 1.5rem;
       text-shadow: 0 2px 32px rgba(0,0,0,0.25);
+    }
+
+    .hero-lead {
+      font-family: var(--font-headline);
+      font-size: clamp(1.5rem, 3.6vw, 2.4rem);
+      line-height: 1.25;
+      color: #FFFBF5;
+      max-width: 40rem;
+      margin: 0 auto 1rem;
+      text-shadow: 0 2px 24px rgba(0,0,0,0.25);
+    }
+
+    .hero-btn.hero-btn-primary {
+      background-color: #FFFBF5;
+      color: #2C2C2C;
+      border-color: #FFFBF5;
+    }
+
+    .hero-btn.hero-btn-primary:hover {
+      background-color: #FFFFFF;
+      color: #2C2C2C;
     }
 
     .hero-tagline {
@@ -231,7 +262,7 @@ if (!isTextLang && pericopeData?.pericopes) {
       padding: 0.9rem 2.2rem;
       border-radius: 6px;
       font-weight: 500;
-      background-color: rgba(255, 251, 245, 0.15);
+      background-color: rgba(30, 20, 10, 0.32);
       color: #FFFBF5;
       border: 1px solid rgba(255, 251, 245, 0.35);
       backdrop-filter: blur(8px);
@@ -241,7 +272,7 @@ if (!isTextLang && pericopeData?.pericopes) {
     }
 
     .hero-btn:hover {
-      background-color: rgba(255, 251, 245, 0.26);
+      background-color: rgba(30, 20, 10, 0.45);
       border-color: rgba(255, 251, 245, 0.55);
     }
 
@@ -317,6 +348,10 @@ if (!isTextLang && pericopeData?.pericopes) {
     }
   </style>
 
+  {isTextLang ? (
+    <LandingSections lang={lang} base={base} morning={morningDevotional} evening={eveningDevotional} />
+  ) : (
+  <Fragment>
   <HomepageDevotional lang={lang} morning={morningDevotional} evening={eveningDevotional} />
 
   <section class="py-24 px-8 md:px-16 lg:px-24" style="background-color: rgba(245, 230, 220, 0.3);">
@@ -348,57 +383,8 @@ if (!isTextLang && pericopeData?.pericopes) {
     </div>
   </section>
 
-  {/* Trial-sampler grid: shows all 6 sample chapters in DE/EN/PL.
-       Other languages get a listen-only section (songs + podcasts): their
-       translation text has not passed the quality gates yet. */}
-  {isTextLang ? (
-    <section id="sample-chapters" class="py-24 px-8 md:px-16 lg:px-24">
-      <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl mb-4 headline-mixed">{t('home.startReading')}</h2>
-          <p class="text-lg leading-relaxed max-w-2xl mx-auto" style="color: #6A6A6A;">
-            {t('home.startReadingDesc')}
-          </p>
-        </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {([
-            { href: 'luke/1',     label: lang === 'de' ? 'Lukas 1' : lang === 'pl' ? 'Łukasz 1' : 'Luke 1',
-              sub: lang === 'de' ? 'Verkündigung & Geburt' : lang === 'pl' ? 'Zwiastowanie i narodziny' : 'Annunciation & Birth',
-              img: '/images/luke/1/luke_01_annunciation.png' },
-            { href: 'luke/15',    label: lang === 'de' ? 'Lukas 15' : lang === 'pl' ? 'Łukasz 15' : 'Luke 15',
-              sub: lang === 'de' ? 'Die verlorenen Söhne' : lang === 'pl' ? 'Zagubieni synowie' : 'The Lost Sons',
-              img: '/images/luke/15/luke_15_prodigal-son.png' },
-            { href: 'psalms/23',  label: lang === 'pl' ? 'Psalm 23' : 'Psalm 23',
-              sub: lang === 'de' ? 'Der Herr ist mein Hirte' : lang === 'pl' ? 'Pan jest moim pasterzem' : 'The Lord Is My Shepherd',
-              img: '/images/psalms/23/psalms_023_shepherd.png' },
-            { href: 'psalms/137', label: 'Psalm 137',
-              sub: lang === 'de' ? 'An Babels Strömen' : lang === 'pl' ? 'Nad rzekami Babilonu' : 'By the Rivers of Babylon',
-              img: '/images/psalms/137/psalms_137_rivers.png' },
-            { href: 'psalms/139', label: 'Psalm 139',
-              sub: lang === 'de' ? 'Du hast mich erforscht' : lang === 'pl' ? 'Przenikasz i znasz mnie' : 'You Have Searched Me',
-              img: '/images/psalms/139/psalms_139_searched.png' },
-            { href: 'acts/17',    label: lang === 'de' ? 'Apostelgeschichte 17' : lang === 'pl' ? 'Dzieje 17' : 'Acts 17',
-              sub: lang === 'de' ? 'Rede auf dem Areopag' : lang === 'pl' ? 'Mowa na Areopagu' : 'Speech on the Areopagus',
-              img: '/images/acts/17/acts_017_areopagus.png' },
-          ]).map((c) => (
-            <a
-              href={`${base}${lang}/${c.href}`}
-              class="trial-card group block rounded-lg overflow-hidden transition-all hover:shadow-lg"
-              style="background-color: #FFFBF5; border: 1px solid rgba(139, 115, 85, 0.15);"
-            >
-              <div class="aspect-[4/3] overflow-hidden" style="background-color: #F5E6DC;">
-                <img src={c.img} alt="" class="w-full h-full object-cover transition-transform group-hover:scale-105" loading="lazy" />
-              </div>
-              <div class="p-5">
-                <h3 class="text-xl mb-1" style="color: #2A2A2A;">{c.label}</h3>
-                <p class="text-sm" style="color: #6A6A6A;">{c.sub}</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
-  ) : (
+  {/* Non-text languages: listen-only (songs + podcasts); their translation
+       text has not passed the quality gates yet. */}
     <section id="listen" class="py-24 px-8 md:px-16 lg:px-24">
       <div class="max-w-3xl mx-auto">
         <div class="text-center mb-12">
@@ -424,6 +410,7 @@ if (!isTextLang && pericopeData?.pericopes) {
         )}
       </div>
     </section>
+  </Fragment>
   )}
 
   <NewsletterSignup lang={lang} />
