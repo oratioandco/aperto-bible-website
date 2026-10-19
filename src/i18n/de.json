@@ -29,7 +29,7 @@
     "alphaNotice": "Frühe Alpha",
     "alphaText": "Dies ist eine frühe Alpha-Fassung. Bislang verfügbar ist allein das erste Kapitel des Lukasevangeliums. Es wächst Kapitel für Kapitel, Buch für Buch.",
     "hero": {
-      "headline": "Eine Bibel, die ernst nimmt.",
+      "headline": "Eine Bibel, die dich ernst nimmt.",
       "subhead": "Eine literarische Bibelübersetzung für alle, die sich weigern, zwischen geistiger Redlichkeit und gelebtem Glauben zu wählen.",
       "cta": "Jetzt lesen"
     },
@@ -74,9 +74,59 @@
       "description": "Aperto ist ein offenes Projekt – und es wächst durch Menschen, die ein Teil davon sein wollen. Ob Übersetzung, Audioproduktion, Rückmeldung oder etwas ganz anderes: Jede Form der Mitarbeit ist willkommen.",
       "button": "Mitmachen"
     },
-    "pageTitle": "Eine Bibel, die ernst nimmt",
+    "pageTitle": "Eine Bibel, die dich ernst nimmt",
     "aiClause": "KI-gestützt, von Menschen verantwortet.",
-    "honestNotes": "Und wir sagen auch, wo diese Texte missbraucht wurden."
+    "honestNotes": "Und wir sagen auch, wo diese Texte missbraucht wurden.",
+    "landing": {
+      "heroLead": "Eine neue Bibelübersetzung. Offen für dich, egal, was du glaubst.",
+      "heroSub": "Kein Glaube vorausgesetzt, keine Kirche, kein Vorwissen. Eine Sprache, die du wirklich sprichst, der Hintergrund, den du sonst nachschlagen müsstest, und Raum, selbst nachzudenken.",
+      "ctaRead": "Eine erste Stelle lesen",
+      "ctaListen": "Lieber hören",
+      "openTitle": "Aperto heißt offen.",
+      "openIntro": "Irgendwann hieß es: Entweder du liest die Bibel kritisch und verlierst dabei das Heilige, oder du hältst am Glauben fest und hörst auf, Fragen zu stellen. Wir glauben nicht, dass du dich entscheiden musst.",
+      "pillars": [
+        {
+          "title": "Nichts wird vorausgesetzt",
+          "text": "Du musst nichts glauben, um sie zu lesen, und nirgends dazugehören. Sie schöpft aus katholischer, evangelischer, orthodoxer und pfingstlicher Forschung und drängt dir keine davon auf. Komm rein, schau dich um, bilde dir dein eigenes Urteil."
+        },
+        {
+          "title": "Eine Sprache, die dich reinlässt",
+          "text": "Für viele ist nicht der Inhalt der Bibel die Hürde, sondern die Sprache: alte Wörter, versteckte Anspielungen, eine Welt, die niemand erklärt. Aperto spricht deine Sprache von heute. Was ein antiker Zuhörer wie selbstverständlich wusste, ist eingewoben und klar gekennzeichnet."
+        },
+        {
+          "title": "Ehrlich bei den schwierigen Stellen",
+          "text": "Wo etwas schwer zu glauben ist, sagen die Anmerkungen das und legen die Lesarten nebeneinander. Und wo diese Texte benutzt wurden, um Menschen zu verletzen, sagen sie auch das."
+        }
+      ],
+      "openClose": "Für die Neugierigen und die Suchenden. Für die, die gegangen sind, und die, die geblieben sind. Für alle, die bereit sind, noch einmal hinzusehen.",
+      "demoEyebrow": "Sieh selbst",
+      "demoTitle": "Lies erst, dann erzählen wir mehr.",
+      "demoIntro": "Ein Engel hat einer jungen Frau gerade gesagt, dass sie ein Kind bekommen wird. Das ist ihre Frage, und die Antwort.",
+      "demoRef": "Lukas 1,34–35",
+      "demoLegend": "Kursiv steht der eingewobene Hintergrund, gekennzeichnet, damit du immer weißt, was im Text steht und was dir beim Verstehen hilft.",
+      "noteLabel": "Schwer vorstellbar",
+      "noteBridge": "Die Anmerkung liest den Vers dann so, wie die Kirche ihn seit zweitausend Jahren liest, und bietet Lesarten für alle, die ihn nicht wörtlich nehmen können. Entscheiden musst du selbst.",
+      "demoCta": "Den ganzen Abschnitt lesen",
+      "demoListen": "oder als Lied und Podcast hören",
+      "hardTitle": "Die Fragen, die du wirklich stellen würdest.",
+      "hardIntro": "Die meisten Bibeln drucken die schwierigen Verse ohne Kommentar ab oder erklären sie weg. Die Anmerkungen „Schwer vorstellbar“ setzen genau dort an, wo skeptische Leser aussteigen würden. Dazu hat jedes Kapitel Anmerkungen zu Kultur, Kontext, den Originalwörtern und dazu, wo der Text heute im Leben ankommt.",
+      "hardReadNote": "Zur Anmerkung",
+      "listenEyebrow": "Lesen, hören, singen",
+      "listenTitle": "Derselbe Abschnitt, so wie er in deinen Tag passt.",
+      "listenIntro": "Zu den Abschnitten gibt es kurze Podcasts, die durch den Text führen, und zu vielen ein eigens komponiertes Lied. Zu Lukas 1 außerdem eine Audiobibel und je einen kurzen Impuls für den Morgen und den Abend. Zum Kochen, auf dem Weg zur Arbeit oder wenn die Kinder endlich schlafen.",
+      "songLabel": "Lied",
+      "podcastLabel": "Podcast zu diesem Abschnitt",
+      "chaptersTitle": "Sechs Kapitel zum Anfangen",
+      "chaptersIntro": "Eine Geburt, angekündigt in der Provinz, ein Vater, der losrennt, ein Hirtenpsalm, ein Lied aus dem Exil, ein Psalm übers Erkanntwerden und Paulus im Streitgespräch in Athen. Weitere folgen."
+    },
+    "cards": {
+      "luke1": "Zwei Geburten, angekündigt",
+      "luke15": "Die verlorenen Söhne",
+      "psalm23": "Der Hirte",
+      "psalm137": "An den Strömen Babels",
+      "psalm139": "Du hast mich erforscht",
+      "acts17": "Paulus in Athen"
+    }
   },
   "about": {
     "title": "Über Aperto",
@@ -301,12 +351,12 @@
       "contact": "Kontakt aufnehmen"
     },
     "newsletter": {
-      "title": "Auf dem Laufenden bleiben",
-      "intro": "Der Newsletter hält über jeden weiteren Schritt auf dem Laufenden.",
+      "title": "Erfahre, wenn das nächste Kapitel fertig ist",
+      "intro": "Ab und zu eine E-Mail, wenn neue Kapitel, Lieder und Podcasts fertig sind. Jederzeit abbestellbar. Der Newsletter erscheint auf Englisch.",
       "note": "Der Newsletter erscheint auf Englisch.",
       "firstName": "Vorname",
       "email": "E-Mail",
-      "agree": "Einverstanden, Neuigkeiten und Hinweise per E-Mail zu erhalten.",
+      "agree": "Ich möchte ab und zu E-Mails zu neuen Kapiteln und Neuigkeiten von Aperto erhalten.",
       "button": "Den Aperto-Newsletter abonnieren"
     },
     "readLuke": "Lukas lesen →"

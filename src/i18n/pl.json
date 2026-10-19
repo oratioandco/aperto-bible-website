@@ -41,6 +41,57 @@
       "title": "Zaangażuj się",
       "description": "Aperto to otwarty projekt — i rośnie dzięki ludziom, którzy chcą być jego częścią. Czy to tłumaczenie, produkcja audio, opinie czy coś zupełnie innego: każda forma zaangażowania jest mile widziana.",
       "button": "Zaangażuj się"
+    },
+    "pageTitle": "Przekład Biblii otwarty dla każdego",
+    "landing": {
+      "heroLead": "Nowy przekład Biblii. Otwarty dla ciebie, w cokolwiek wierzysz.",
+      "heroSub": "Nie musisz wierzyć, należeć do Kościoła ani niczego wcześniej wiedzieć. Język, którym naprawdę mówisz, kontekst, którego inaczej musiałbyś szukać, i miejsce, by pomyśleć samodzielnie.",
+      "ctaRead": "Przeczytaj pierwszy fragment",
+      "ctaListen": "Wolę posłuchać",
+      "openTitle": "Aperto znaczy otwarty.",
+      "openIntro": "Kiedyś usłyszeliśmy, że trzeba wybrać: czytać Biblię krytycznie i stracić to, co święte, albo trzymać się wiary i przestać zadawać pytania. Nie wierzymy, że trzeba wybierać.",
+      "pillars": [
+        {
+          "title": "Nikt niczego od ciebie nie oczekuje",
+          "text": "Nie musisz w nic wierzyć ani nigdzie należeć, żeby to czytać. Przekład korzysta z badań katolickich, protestanckich, prawosławnych i zielonoświątkowych, i żadnej z tych tradycji nie narzuca. Wejdź, rozejrzyj się, oceń sam."
+        },
+        {
+          "title": "Język, który cię wpuszcza",
+          "text": "Dla wielu osób barierą nie są idee Biblii, tylko jej język: stare słowa, ukryte odniesienia, świat, którego nikt nie tłumaczy. Aperto mówi dzisiejszym językiem, a to, co starożytny słuchacz wiedział bez tłumaczenia, jest wplecione w tekst i wyraźnie oznaczone."
+        },
+        {
+          "title": "Uczciwie o trudnych miejscach",
+          "text": "Tam, gdzie coś trudno przyjąć, przypisy mówią o tym wprost i zestawiają różne odczytania. A tam, gdzie te teksty posłużyły do krzywdzenia ludzi, mówią i o tym."
+        }
+      ],
+      "openClose": "Dla ciekawych i szukających. Dla tych, którzy odeszli, i tych, którzy zostali. Dla każdego, kto jest gotów spojrzeć jeszcze raz.",
+      "demoEyebrow": "Zobacz sam",
+      "demoTitle": "Najpierw przeczytaj, potem opowiemy więcej.",
+      "demoIntro": "Anioł właśnie powiedział młodej kobiecie, że urodzi dziecko. Oto jej pytanie i odpowiedź.",
+      "demoRef": "Łukasz 1,34–35",
+      "demoLegend": "Kursywą zaznaczony jest wpleciony kontekst, tak abyś zawsze wiedział, co jest tekstem, a co pomocą w zrozumieniu.",
+      "noteLabel": "Trudne do przyjęcia",
+      "noteBridge": "Przypis odczytuje potem ten werset tak, jak Kościół czyta go od dwóch tysięcy lat, i proponuje odczytania dla tych, którzy nie potrafią przyjąć go dosłownie. Decyzja należy do ciebie.",
+      "demoCta": "Przeczytaj cały fragment",
+      "demoListen": "albo posłuchaj podcastu",
+      "hardTitle": "Pytania, które naprawdę byś zadał.",
+      "hardIntro": "Większość Biblii drukuje trudne wersety bez komentarza albo je tłumaczy tak, by zniknęły. Przypisy „Trudne do przyjęcia” zaczynają tam, gdzie sceptyczny czytelnik by się zatrzymał. Każdy rozdział ma też przypisy o kulturze, kontekście, słowach oryginału i o tym, gdzie tekst trafia w dzisiejsze życie.",
+      "hardReadNote": "Przeczytaj przypis",
+      "listenEyebrow": "Czytaj, słuchaj",
+      "listenTitle": "Ten sam fragment, tak jak pasuje do twojego dnia.",
+      "listenIntro": "Do fragmentów są krótkie podcasty, które prowadzą przez tekst. Włącz je przy gotowaniu, w drodze do pracy albo kiedy dzieci wreszcie zasną.",
+      "songLabel": "Piosenka",
+      "podcastLabel": "Podcast o tym fragmencie",
+      "chaptersTitle": "Sześć rozdziałów na początek",
+      "chaptersIntro": "Narodziny zapowiedziane na prowincji, ojciec, który biegnie, psalm o pasterzu, pieśń wygnańców, psalm o byciu poznanym i Paweł spierający się w Atenach. Kolejne są w drodze."
+    },
+    "cards": {
+      "luke1": "Dwa zapowiedziane narodziny",
+      "luke15": "Zagubieni synowie",
+      "psalm23": "Pasterz",
+      "psalm137": "Nad rzekami Babilonu",
+      "psalm139": "Przenikasz i znasz mnie",
+      "acts17": "Paweł w Atenach"
     }
   },
   "about": {
@@ -190,12 +241,12 @@
       "contact": "Skontaktuj się z nami"
     },
     "newsletter": {
-      "title": "Bądź na bieżąco",
-      "intro": "Zapisz się do naszego newslettera, aby śledzić nasze postępy.",
+      "title": "Daj znać, gdy powstanie kolejny rozdział",
+      "intro": "Od czasu do czasu e-mail, gdy gotowe są nowe rozdziały i podcasty. Możesz zrezygnować w każdej chwili. Newsletter jest w języku angielskim.",
       "note": "Nasz newsletter jest w języku angielskim.",
       "firstName": "Imię",
       "email": "E-mail",
-      "agree": "Zgadzam się na otrzymywanie aktualizacji i promocji e-mail.",
+      "agree": "Chcę od czasu do czasu otrzymywać e-maile o nowych rozdziałach i nowościach Aperto.",
       "button": "Otrzymuj newsletter Aperto"
     },
     "readLuke": "Czytaj Łukasza →"
