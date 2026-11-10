@@ -432,11 +432,7 @@ if (!isTextLang && pericopeData?.pericopes) {
 
   <script is:inline>
     document.querySelector('.get-involved-btn')?.addEventListener('click', function() {
-      if (typeof Tally !== 'undefined') {
-        Tally.openPopup('b58vj1', { width: 600 });
-      } else {
-        window.open('https://tally.so/r/b58vj1', '_blank');
-      }
+      window.apertoTally(function (Tally) { Tally.openPopup('b58vj1', { width: 600 }); }, 'https://tally.so/r/b58vj1');
     });
   </script>
 </BaseLayout>
