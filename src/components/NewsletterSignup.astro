@@ -2,7 +2,7 @@
 // Reader exit ramp (WEBSITE-REVIEW Tier-2 fix #6): the newsletter signup,
 // placed where a moved reader actually is (homepage, end of a pericope) —
 // not only buried on /process. Same SendFox list as the /process form.
-// Note: SendFox's script keys on fixed input ids, so use this component at
+// SendFox's script loads on first use (BaseLayout). Note: it keys on fixed input ids, so use this component at
 // most once per page (the /process page keeps its own inline form).
 import { useTranslations } from '../i18n/utils';
 
@@ -33,7 +33,6 @@ const t = useTranslations(lang);
     </form>
   </div>
 </section>
-<script src="https://cdn.sendfox.com/js/form.js" charset="utf-8" is:inline></script>
 
 <style>
   .newsletter-ramp {

@@ -1429,16 +1429,18 @@ function splitIntoParagraphs(verses: { verse: any; idx: number }[]): string[] {
   function initFeedbackButtons() {
     document.querySelectorAll('.feedback-btn').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        if (typeof Tally === 'undefined') return;
-        Tally.openPopup(btn.dataset.tallyId, {
-          hiddenFields: {
-            lang: btn.dataset.lang || '',
-            pericope: btn.dataset.pericope || '',
-            chapter: btn.dataset.chapter || '',
-          },
-          overlay: true,
-          emoji: { text: '👋', animation: 'wave' },
-        });
+        var fields = {
+          lang: btn.dataset.lang || '',
+          pericope: btn.dataset.pericope || '',
+          chapter: btn.dataset.chapter || '',
+        };
+        window.apertoTally(function (Tally) {
+          Tally.openPopup(btn.dataset.tallyId, {
+            hiddenFields: fields,
+            overlay: true,
+            emoji: { text: '👋', animation: 'wave' },
+          });
+        }, 'https://tally.so/r/' + btn.dataset.tallyId + '?' + new URLSearchParams(fields));
       });
     });
   }

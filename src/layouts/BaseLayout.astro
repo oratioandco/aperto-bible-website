@@ -66,7 +66,54 @@ const ogDescription = description || t('home.tagline');
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <link rel="stylesheet" href={`${base}fonts/google/fonts.css`} />
     <title>{title} | Aperto</title>
-    <script async src="https://tally.so/widgets/embed.js"></script>
+    <script is:inline>
+      // Third-party scripts load only when someone uses them, so a visit alone sends nothing to Tally,
+      // SendFox or Google (reCAPTCHA comes with SendFox's script).
+      (function () {
+        function load(src, onload, onerror) {
+          var s = document.createElement('script');
+          s.src = src; s.async = true; s.onload = onload; s.onerror = onerror;
+          document.head.appendChild(s);
+        }
+        // Tally: open(Tally) runs once the embed script is there; fallbackUrl opens if it cannot load.
+        var tally = null;
+        window.apertoTally = function (open, fallbackUrl) {
+          if (window.Tally) return open(window.Tally);
+          if (!tally) tally = new Promise(function (resolve, reject) { load('https://tally.so/widgets/embed.js', resolve, reject); });
+          tally.then(function () { open(window.Tally); }, function () { if (fallbackUrl) window.open(fallbackUrl, '_blank'); });
+        };
+        // SendFox: its form.js binds forms on DOMContentLoaded, which has passed when it loads late. Keep the
+        // listener it registers while it runs and call it once loaded, so no other page script runs twice.
+        var sendfox = null;
+        function loadSendfox() {
+          if (sendfox) return sendfox;
+          sendfox = new Promise(function (resolve, reject) {
+            var add = document.addEventListener, kept = [];
+            document.addEventListener = function (type, fn, opts) {
+              var cs = document.currentScript;
+              if (type === 'DOMContentLoaded' && cs && /sendfox\.com/.test(cs.src)) { kept.push(fn); return; }
+              return add.call(this, type, fn, opts);
+            };
+            load('https://cdn.sendfox.com/js/form.js', function () {
+              document.addEventListener = add;
+              kept.forEach(function (fn) { fn(new Event('DOMContentLoaded')); });
+              resolve();
+            }, function () { document.addEventListener = add; reject(); });
+          });
+          return sendfox;
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+          document.querySelectorAll('form.sendfox-form').forEach(function (form) {
+            form.addEventListener('focusin', loadSendfox, { once: true });
+            form.addEventListener('submit', function (e) {
+              if (window.SENDFOX_FORM_LOADED) return;
+              e.preventDefault();
+              loadSendfox().then(function () { form.requestSubmit(); }, function () { form.submit(); });
+            });
+          });
+        });
+      })();
+    </script>
     <style>
       .header-hero {
         position: absolute;
@@ -241,11 +288,7 @@ const ogDescription = description || t('home.tagline');
 
     <script is:inline>
       document.querySelector('.footer-get-involved-btn')?.addEventListener('click', function() {
-        if (typeof Tally !== 'undefined') {
-          Tally.openPopup('b58vj1', { width: 600 });
-        } else {
-          window.open('https://tally.so/r/b58vj1', '_blank');
-        }
+        window.apertoTally(function (Tally) { Tally.openPopup('b58vj1', { width: 600 }); }, 'https://tally.so/r/b58vj1');
       });
     </script>
 
